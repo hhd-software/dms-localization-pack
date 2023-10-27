@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="savetoworkspace" description="Option: Include terminal configuration into workspace" value="Include terminal configuration into workspace"/>
+  <Message key="sendtofile_line" description="Option: Send text lines from file one by one" value="Send text lines from file one by one"/>
+  <Message key="converttabs" description="Option: Convert tab characters to N spaces (N=0 - disabled)" value="Convert tab characters to N spaces (N=0 - disabled)"/>
+  <Message key="chunk_size" description="Option: Data block size" value="Data block size"/>
+  <Message key="newsession_notify" description="Option: Terminal session creation" value="Terminal session creation"/>
+
+  <Message key="Serial Terminal" description="Settings group: Serial Terminal"/>
+
+  <!--<Enumeration key="MenuTerminal" description="Command group: Serial Terminal">
+    <Item text="Serial Terminal"/>
+    <Item text="Serial Terminal commands"/>
+  </Enumeration>-->
+
+  <Message key="Array expected" description="Array expected" value="Byte array expected"/>
+  <Message key="Invalid constant" description="Invalid constant" value="Invalid constant value"/>
+  <Message key="New" description="New session button title" value="New"/>
+
+  <Enumeration key="TerminalNewSession" description="Command: Start Terminal">
+    <Item text="Start Terminal Session…"/>
+    <Item text="Launch serial terminal for selected device."/>
+  </Enumeration>
+
+  <Enumeration key="TerminalSpecialSend" description="Command: Advanced Send">
+    <Item text="Advanced Send…"/>
+    <Item text="Send binary data."/>
+  </Enumeration>
+
+  <Enumeration key="TerminalSendFile" description="Command: Send File">
+    <Item text="Send File…"/>
+    <Item text="Send the contents of a file to the terminal session."/>
+  </Enumeration>
+
+  <Enumeration key="TerminalCRLF" description="Command: Send CR+LF on Enter">
+    <Item text="Send CR+LF on Enter" />
+    <Item text="Send CR+LF (instead of CR) on Enter" />
+  </Enumeration>
+
+  <Message key="TerminalStatistics" description="Status bar strings" value="Rx: {rx} B Tx: {tx} B Sent: {sent} Received: {received}">
+    <Param name="rx" format="l"/>
+    <Param name="tx" format="l"/>
+    <Param name="sent" format="l"/>
+    <Param name="received" format="l"/>
+  </Message>
+
+  <Message key="Data Paste" description="Clipboard data processing operation name" value="Please wait while the data is being sent."/>
+
+  <Enumeration key="SerialTerminal" description="Serial Terminal">
+    <Item text="Serial Terminal"/>
+    <Item text="Serial Terminal"/>
+  </Enumeration>
+
+  <Message key="Find Operation" description="Find operation" value="Finding text"/>
+
+  <Enumeration key="MenuTermSessions" description="Command group: Terminal Sessions">
+    <Item text="Terminal Sessions"/>
+    <Item text="Lists currently running serial terminal sessions"/>
+  </Enumeration>
+
+  <Message key="NoDevicesFound" description="Serial devices is not found" value="No serial devices found."/>
+
+  <Message key="TerminalError" description="Terminal session creation error message" value="Failed to create terminal session for {friendly name}: {error text} ({error code})">
+    <Param name="friendly name"/>
+    <Param name="error text"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+  <Message key="TerminalSendError" description="Data sending error message" value="Unable to send data: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+  <Enumeration key="TerminalSendFilters" description="Terminal file send filters">
+    <Item text="Text Files"/>
+    <Item text="*.txt"/>
+    <Item text="All Files"/>
+    <Item text="*.*"/>
+  </Enumeration>
+
+  <Message key="Stop Terminal Session" description="Command: Stop Terminal Session"/>
+  <Message key="Click To Switch State" description="Tooltip hint"/>
+
+  <Message key="Advanced Send title" description="Advanced Send Window Title" value="Advanced Send: {port}">
+    <Param name="port"/>
+  </Message>
+
+	<Enumeration key="TerminalEcho" description="Command: Echo">
+		<Item text="Echo"/>
+		<Item text="Toggle echo mode on/off"/>
+	</Enumeration>
+
+	<Message key="Device Setup" description="Window title: Device Setup"/>
+	<Message key="Configuration with this name already exists. Do you want to overwrite it?" description="Configuration exists prompt"/>
+	<Message key="No description" description="Prompt: No description"/>
+	<Message key="Enter the configuration name." description="Enter configuration name"/>
+	<Message key="Configuration will be lost! Do you want to continue?" description="Prompt: Configuration will be lost! Do you want to continue?"/>
+	<Message key="The configuration will be deleted. Do you want to continue?" description="Prompt: The configuration will be deleted. Do you want to continue?"/>
+	<Message key="Save to File" description="Save to File"/>
+
+	<Message key="Serial Terminal component has expired!" description="Message: Serial Terminal component has expired!"/>
+
+	<Message key="Session Configuration" description="Window title: Session Configuration"/>
+	<Message key="Scheme:" description="Field: Scheme"/>
+	<Message key="Device:" description="Field: Device"/>
+	<Message key="Connect" description="Button: Connect"/>
+	<Message key="Defaults" description="Button: Defaults"/>
+
+	<Message key="Ignore delay (burst mode)" description="Option: Ignore delay (burst mode)"/>
+	<Message key="Loop mode:" description="Option: Loop mode"/>
+	<Message key="loops" description="Field: loops"/>
+	<Message key="milliseconds" description="Field: milliseconds"/>
+	<Message key="Delay:" description="Field: Delay"/>
+	<Message key="Send" description="Button: Send"/>
+
+	<Enumeration key="TerminalColors" description="Colors: Serial Terimal">
+		<Item text="Sent Text"/>
+		<Item text="Received Text"/>
+		<Item text="Sent Hex Dump"/>
+		<Item text="Received Hex Dump"/>
+	</Enumeration>
+</Definition>

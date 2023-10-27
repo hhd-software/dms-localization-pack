@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="NextConnectedNotify" description="Option: Next Connected Device (Serial)" value="Next Connected Device (Serial)"/>
+  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
+
+	<Message key="SerialPortProperties" description="Serial Port Properties header" value="[[[s:120:[[[b[[[uSerial Port Properties]]]]]]]]]\n\n"/>
+	
+  <Message key="MaxTxQueue" description="Max Tx Queue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
+    <Param name="has value" format="?"/>
+    <Param name="value" format="l"/>
+  </Message>
+
+  <Message key="MaxRxQueue" description="Max. RX Queue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
+    <Param name="has value" format="?"/>
+    <Param name="value" format="l"/>
+  </Message>
+
+  <Message key="AnyBaudRate" description="Max. Baud Rate" value="[[[bMax. Baud Rate]]]\tconfigurable\n"/>
+  <Message key="MaxBaudRate" description="Max. Baud Rate" value="[[[bMax. Baud Rate]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Enumeration key="BaudRateValues" description="Maximum baud rate values">
+    <Item text="75"/>
+    <Item text="110"/>
+    <Item text="134.5"/>
+    <Item text="150"/>
+    <Item text="300"/>
+    <Item text="600"/>
+    <Item text="1200"/>
+    <Item text="1800"/>
+    <Item text="2400"/>
+    <Item text="4800"/>
+    <Item text="7200"/>
+    <Item text="9600"/>
+    <Item text="14400"/>
+    <Item text="19200"/>
+    <Item text="38400"/>
+    <Item text="56K"/>
+    <Item text="128K"/>
+    <Item text="115200"/>
+    <Item text="57600"/>
+    <Item text="configurable" value="28"/>
+  </Enumeration>
+
+  <Enumeration key="ProviderTypes" description="Supported provider types">
+    <Item text="unspecified"/>
+    <Item text="RS232"/>
+    <Item text="Parallel Port"/>
+    <Item text="RS422"/>
+    <Item text="RS423"/>
+    <Item text="RS449"/>
+    <Item text="Modem"/>
+    <Item text="Fax"/>
+    <Item text="Scanner"/>
+    <Item text="Network Bridge"/>
+    <Item text="LAT"/>
+    <Item text="TCP/IP Telnet"/>
+    <Item text="X25"/>
+  </Enumeration>
+
+  <Message key="Provider" description="Provider" value="[[[bProvider]]]\t{provider}\n">
+    <Param name="provider"/>
+  </Message>
+
+  <Message key="Capabilities" description="Capabilities" value="[[[bCapabilities]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Message key="SettableParameters" description="Settable Parameters" value="[[[bSettable Parameters]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Message key="SettableBaud" description="Baud Rates" value="[[[bBaud Rates]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Message key="DataBits" description="Data Bits" value="[[[bData Bits]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Message key="StopBits" description="Stop Bits" value="[[[bStop Bits]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Message key="Parity" description="Parity" value="[[[bParity]]]\t{values}\n">
+    <Param name="values"/>
+  </Message>
+
+  <Enumeration key="CapabilitiesEnum" description="Capability values">
+    <Item text="DTR/DSR"/>
+    <Item text="RTS/CTS"/>
+    <Item text="RLSD (DCD)"/>
+    <Item text="Parity Check"/>
+    <Item text="XON/XOFF"/>
+    <Item text="Settable XON/XOFF"/>
+    <Item text="Total time-outs"/>
+    <Item text="Interval time-outs"/>
+    <Item text="Special chars"/>
+    <Item text="16-bit mode"/>
+  </Enumeration>
+
+  <Enumeration key="SettableParametersEnum" description="Settable parameters values">
+    <Item text="Parity"/>
+    <Item text="Baud"/>
+    <Item text="Data Bits"/>
+    <Item text="Stop Bits"/>
+    <Item text="Handshaking"/>
+    <Item text="Parity Check"/>
+    <Item text="RLSD (DCD)"/>
+  </Enumeration>
+
+  <Enumeration key="DataBitsEnum" description="Data Bits values">
+    <Item text="5"/>
+    <Item text="6"/>
+    <Item text="7"/>
+    <Item text="8"/>
+    <Item text="16"/>
+    <Item text="Special Wide"/>
+  </Enumeration>
+
+  <Enumeration key="StopBitsEnum" description="Stop Bits values">
+    <Item text="1"/>
+    <Item text="1.5"/>
+    <Item text="2"/>
+  </Enumeration>
+
+  <Enumeration key="ParityEnum" description="Parity values">
+    <Item text="None"/>
+    <Item text="Odd"/>
+    <Item text="Even"/>
+    <Item text="Mark"/>
+    <Item text="Space"/>
+  </Enumeration>
+
+  <Message key="Current Tx Queue" description="Current Tx Queue" value="[[[bCurrent Tx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
+    <Param name="has value" format="?"/>
+    <Param name="value" format="l"/>
+  </Message>
+
+  <Message key="Current Rx Queue" description="Current Rx Queue" value="[[[bCurrent Rx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
+    <Param name="has value" format="?"/>
+    <Param name="value" format="l"/>
+  </Message>
+
+  <Enumeration key="SerialSource" description="Serial Source">
+    <Item text="Serial Monitor"/>
+    <Item text="Serial data source allows you to monitor the data exchanged between the serial devices and applications using them."/>
+  </Enumeration>
+
+  <Message key="Communication mode" description="Communication mode" value="Communications mode: {mode}{discard?}, discard empty reads{?discard}{terminal?}, with listening{?terminal}">
+    <Param name="mode"/>
+    <Param name="discard" format="?"/>
+    <Param name="terminal" format="?"/>
+  </Message>
+
+  <Message key="Serial Terminal" description="Serial Terminal feature name"/>
+  <Message key="Custom Joiner" description="Custom Joiner feature name" value="Custom Session Type"/>
+
+  <Enumeration key="Communication modes" description="Communication modes" revision="2">
+    <Item text="generic"/>
+    <Item text="PPP"/>
+    <Item text="Line (packet ends with new line)"/>
+    <Item text="MODBUS RTU Mode"/>
+    <Item text="MODBUS ASCII Mode"/>
+    <Item text="Custom"/>
+  </Enumeration>
+
+  <Enumeration key="Communication modes. Full description" description="Full descriptions of communication modes">
+    <Item text="Generic"/>
+    <Item text="PPP (Point-to-Point Protocol)"/>
+    <Item text="One packet a line (separated by 0D - AT commands, NMEA, etc.)"/>
+    <Item text="MODBUS RTU Mode"/>
+    <Item text="MODBUS ASCII Mode"/>
+    <Item text="Custom"/>
+  </Enumeration>
+
+  <Message key="Invalid mode" description="Scripting Error: Invalid mode"/>
+  <Message key="SerialSessionState" description="Serial session state" value="{is terminal?}Active terminal session: {?is terminal}{baudrate}, data bits: {databits}, stop bits: {stopbits}, parity: {parity}">
+    <Param name="baudrate"/>
+    <Param name="databits"/>
+    <Param name="stopbits"/>
+    <Param name="parity"/>
+    <Param name="is terminal" format="?"/>
+  </Message>
+
+  <Message key="EmergencyErrorType" description="Diagnostic: Serial emergency session termination" value="Serial emergency session termination"/>
+
+  <Message key="CustomEmpty" description="Custom session type script is empty" value="Custom session type script is empty. Press the Set button end enter the custom session type script."/>
+  <Message key="CustomJoinerError" description="Message Title: Custom Mode Error" value="Custom Mode Error"/>
+
+  <Message key="Error opening file" description="Error opening custom script file" value="Error opening custom script file &quot;{path}&quot;: {error text} ({error code}). Session will use generic communication mode.">
+    <Param name="path"/>
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+  <Message key="Error initializing chakra" description="Scripting system initialization error" value="Scripting system initialization error. This feature is not supported by your system."/>
+  <!--<Message key="Thrown error" description="Custom script thrown exception" value="The script has thrown an exception: {exception}">
+    <Param name="exception"/>
+  </Message>-->
+  <Enumeration key="ChakraErrors" description="Scripting errors">
+    <Item text="Type error: Invalid argument"/>
+    <Item text="Type error: Null argument"/>
+    <Item text="Type error: Argument not an object"/>
+    <Item text="Out of memory"/>
+    <Item text="Script error"/>
+    <Item text="Syntax error"/>
+    <Item text="Fatal error"/>
+    <Item text="Exception"/>
+    <Item text="Unexpected code"/>
+  </Enumeration>
+
+  <Message key="ExceptionInfo" description="Generic scripting exception" value="{error text}{has message?}: {message}{?has message}">
+    <Param name="error text"/>
+    <Param name="has message" format="?"/>
+    <Param name="message"/>
+  </Message>
+  <Message key="JoinerSessionTermination" description="Session termination due to joiner error" value="Packet splitter returned the following error: {error}">
+    <Param name="error"/>
+  </Message>
+  <Message key="EmptyScript" description="Empty script or scripting component is not installed" value="Scripting component is not installed or empty script file is used."/>
+  <Enumeration key="ScriptFilters" description="Script filters">
+    <Item text="TypeScript Files"/>
+    <Item text="*.ts"/>
+    <Item text="JavaScript Files"/>
+    <Item text="*.js"/>
+  </Enumeration>
+
+  <Message key="Invalid custom session type configuration" description="Invalid custom session type configuration" value="Custom session type configuration parameters are missing"/>
+  <Message key="Custom script modified" description="Custom script modified prompt" value="Custom script has been modified. Are you sure you want to discard changes?"/>
+
+  <!-- Session type dialog -->
+  <Message key="Session Type" description="Window title: Session Type"/>
+  <Message key="Select the serial monitoring session type:" description="Caption: Select the serial monitoring session type:"/>
+	<Message key="Discard empty read packets" description="Option: Discard empty read packets"/>
+	<Message key="Set" description="Button: Edit" value="&amp;Edit…"/>
+	<Message key="View" description="Button: View"/>
+  <Message key="Listen on monitored port" description="Option: Listen on monitored port" value="Listen for incoming data (will open the serial device)"/>
+	<Message key="Baud rate:" description="Field: Baud rate"/>
+	<Message key="Data bits:" description="Field: Data bits"/>
+	<Message key="Parity:" description="Field: Parity"/>
+	<Message key="Stop bits:" description="Field: Stop bits"/>
+	<Message key="Flow control:" description="Field: Flow control"/>
+	<Message key="Read interval:" description="Field: Read interval"/>
+	<Message key="Write constant:" description="Field: Write constant"/>
+	<Message key="Write multiplier:" description="Field: Write multiplier:"/>
+	<Message key="Terminal window:" description="Field: Terminal window"/>
+  
+  <!-- Custom Script Editor -->
+  <Message key="Custom Session Type Script Editor" description="Window title: Custom Session Type Script Editor"/>
+  <Message key="Load from File" description="Button: Load from file" value="&amp;Load from File…"/>
+  <Message key="Save to File" description="Button: Save to file" value="&amp;Save to File…"/>
+  <Message key="Serial.Advertise.Text" description="Serial Advertise Text" value="We also offer Serial Port Monitoring Control ActiveX library wich allows you to integrate monitoring functionality into your own application."/>
+
+  <Message key="No terminal" description="Terminal monitoring session config text"/>
+  <Enumeration key="flow-control" description="Flow control types">
+    <Item text="None"/>
+    <Item text="Xon/Xoff"/>
+    <Item text="Hardware"/>
+    <Item text="Custom"/>
+  </Enumeration>
+
+  <Enumeration key="terminalwindow" description="Terminal window modes">
+    <Item text="Hidden"/>
+    <Item text="Visible"/>
+  </Enumeration>
+
+	<Message key="terminal session creation failure" description="Terminal session creation failure" value="Failed to start listening on a serial device due to the following error: {text} ({code}){access-denied?}\n\nThis error most likely means that serial port is already opened by another application. You can safely ignore this error and continue monitoring a port.\n\nIf you are always monitoring an opened serial device, make sure the &quot;Listen for incoming data…&quot; option is turned OFF in session configuration window.{?access-denied}">
+		<Param name="text"/>
+		<Param name="code" format="ub016x"/>
+		<Param name="access-denied" format="?"/>
+	</Message>
+
+	<Enumeration key="ConnectSerialDevice" description="Connect Serial Device notification">
+		<Item text="Connect the Serial Device"/>
+		<Item text="The application is waiting for you to connect a PnP-compliant serial device to your computer."/>
+	</Enumeration>
+
+	<!-- Windows -->
+	<Message key="Set Custom Flow Control" description="Window title: Set Custom Flow Control"/>
+</Definition>
+

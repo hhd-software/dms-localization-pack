@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="StatisticsConverter" description="Network Statistics Visualizer">
+    <Item text="Statistics"/>
+    <Item text="Statistics collects and displays statistics and device throughput. Several statistic values are calculated and displayed on the linear graph."/>
+  </Enumeration>
+  
+</Definition>

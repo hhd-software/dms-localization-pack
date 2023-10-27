@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="NextConnectedNotify" description="Option: Next Connected Device (USB)" value="Next Connected Device (USB)"/>
+
+  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
+
+  <Message key="Unknown Device" description="Unknown Device"/>
+
+  <Enumeration key="UsbSource" description="USB Source">
+    <Item text="USB Monitor"/>
+    <Item text="USB data source module allows you to monitor the data transferred between any USB device and the application that uses it."/>
+  </Enumeration>
+
+  <Message key="EmergencyErrorType" description="Diagnostic: USB emergency session termination" value="USB emergency session termination"/>
+  <Message key="USB.Advertise.Text" description="USB Advertise Text" value="We also offer USB Monitoring Control ActiveX library wich allows you to integrate monitoring functionality into your own application."/>
+  <Message key="Not specified" description="String descriptor does not exist"/>
+  <Message key="Unable to retrieve" description="Unable to retrieve string descriptor" value="String descriptor {id} (unable to read)">
+    <Param name="id"/>
+  </Message>
+
+	<Message key="DeviceDescriptor0" description="Device descriptor formatted text" value="[[[bThis device is part of a composite device.]]]\n\n"/>
+
+	<Message key="DeviceDescriptor1" description="Device descriptor formatted text" value="[[[b[[[uConnection Information]]]]]]\n\n Port: [[[b{port}]]]\n Speed: [[[b{speed}]]]\n Device address: [[[b{addr}]]]\n Open pipes: [[[b{pipes}]]]\n Connection status: [[[b{status}]]]\n">
+		<Param name="port"/>
+		<Param name="speed"/>
+		<Param name="addr"/>
+		<Param name="pipes"/>
+		<Param name="status"/>
+	</Message>
+
+	<Message key="DeviceDescriptor2" description="Device descriptor formatted text"  value="\n\n[[[b[[[uDevice Descriptor]]]]]]\n\n USB version: [[[b{ver_major}.{ver_minor}]]]\n Device class: [[[b{class_code} - {class}]]]\n Device subclass: [[[b{subcode} - {subclass}]]]\n Device protocol: [[[b{proto_code} - {proto}]]]\n Control pipe max size: [[[b{max_bytes} bytes]]]">
+		<Param name="ver_major"/>
+		<Param name="ver_minor"/>
+		<Param name="class_code" format="b016x"/>
+		<Param name="class"/>
+		<Param name="subcode" format="b016x"/>
+		<Param name="subclass"/>
+		<Param name="proto_code" format="b016x"/>
+		<Param name="proto"/>
+		<Param name="max_bytes"/>
+	</Message>
+
+
+	<Message key="DeviceDescriptor3" description="Device descriptor formatted text" value="\n Vendor ID: [[[b{vendor_id} ({vendor})]]]\n Product ID: [[[b{product_id} ({product})]]]\n Product version: [[[b{ver_major}.{ver_minor}]]]\n Manufacturer: [[[b{manufacturer}]]]\n Product: [[[b{product_name}]]]\n Serial Number: [[[b{serial}]]]\n Configurations: [[[b{config_num}]]]\n">
+		<Param name="vendor_id" format="b016x"/>
+		<Param name="vendor"/>
+		<Param name="product_id" format="b016x"/>
+		<Param name="product"/>
+		<Param name="ver_major"/>
+		<Param name="ver_minor"/>
+		<Param name="manufacturer"/>
+		<Param name="product_name"/>
+		<Param name="serial"/>
+		<Param name="config_num"/>
+	</Message>
+
+	<Message key="DeviceDescriptor4" description="Device descriptor formatted text" value="[[[b[[[uConfiguration Descriptor]]]]]]\n\n Number of interfaces: [[[b{num_interfaces}]]]\n Configuration value: [[[b{config_value}]]]\n Attributes: [[[b{attribs}]]]">
+		<Param name="num_interfaces"/>
+		<Param name="config_value"/>
+		<Param name="attribs"/>
+	</Message>
+
+	<Message key="DeviceDescriptor5" description="Device descriptor formatted text" value="\n Max power: [[[b{power} mA]]]">
+		<Param name="power"/>
+	</Message>
+
+	<Message key="DeviceDescriptor6" description="Device descriptor formatted text" value="\n\n Unknown Descriptor (Type: {type}, Length: {bytes} bytes)">
+		<Param name="type" format="b016x"/>
+		<Param name="bytes"/>
+	</Message>
+
+	<Message key="DeviceDescriptor7" description="Device descriptor formatted text" value="\n\n[[[b[[[uInterface Descriptor: {descriptor}, Alternate setting: {alter}]]]]]]\n\n Number of endpoints: [[[b{endpoints}]]]\n Interface class: [[[b{class_id} - {class}]]]\n Interface subclass: [[[b{sub_id} - {subclass}]]]\n Interface protocol: [[[b{proto_id} - {proto}]]]">
+		<Param name="descriptor"/>
+		<Param name="alter"/>
+		<Param name="endpoints"/>
+		<Param name="class_id" format="b016x"/>
+		<Param name="class"/>
+		<Param name="sub_id" format="b016x"/>
+		<Param name="subclass"/>
+		<Param name="proto_id" format="b016x"/>
+		<Param name="proto"/>
+	</Message>
+
+	<Message key="DeviceDescriptor8" description="Device descriptor formatted text" value="\n Endpoint address [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], max packet size: [[[b{bytes} bytes]]]">
+		<Param name="address" format="b016x"/>
+		<Param name="endpont"/>
+		<Param name="endpoint2"/>
+		<Param name="bytes"/>
+	</Message>
+
+	<Message key="DeviceDescriptor9" description="Device descriptor formatted text" value=", update interval: [[[b{interval}]]]">
+		<Param name="interval"/>
+	</Message>
+
+	<Message key="UnknownDescriptor" description="Device descriptor formatted text" value="\n\nUnknown Descriptor (Type: {type}, Length: {bytes} bytes)">
+		<Param name="type" format="b016x"/>
+		<Param name="bytes"/>
+	</Message>
+
+	<Message key="DeviceDescriptor10" description="Device descriptor formatted text" value="\n\n[[[b[[[uAudio Streaming (AS) Isochronus Audio Data Endpoint Descriptor]]]]]]\n"/>
+	<Message key="DeviceDescriptor11" description="Device descriptor formatted text" value="\n\n[[[b[[[uVideo Control (VC) Interrrupt Endpoint Descriptor]]]]]]\n"/>
+	<Message key="DeviceDescriptor12" description="Device descriptor formatted text" value="Reserved Item\n"/>
+
+	<Message key="DeviceDescriptor13" description="Device descriptor formatted text" value="Usages ({min}-{max}): [[[b">
+		<Param name="min"/>
+		<Param name="max"/>
+	</Message>
+
+	<Message key="DeviceDescriptor14" description="Device descriptor formatted text" value="[[[b[[[uHID Descriptor]]]]]]\n\n"/>
+
+	<Message key="DeviceDescriptor15" description="Device descriptor formatted text" value="[[[b[[[uAudio Control (AC) Descriptor: {name}]]]\n\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="DeviceDescriptor16" description="Device descriptor formatted text" value="[[[b[[[uAudio Streaming (AS) Descriptor: {name}]]]]]]\n\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="DeviceDescriptor17" description="Device descriptor formatted text" value="[[[b[[[uMIDI Streaming (AS) Descriptor: {name}]]]]]]\n\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="DeviceDescriptor18" description="Device descriptor formatted text" value="[[[b[[[uVideo Control (VC) Descriptor: {name}]]]]]]\n\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="DeviceDescriptor19" description="Device descriptor formatted text" value="[[[b[[[uVideo Streaming (VS) Descriptor: {name}]]]]]]\n\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="DeviceDescriptor20" description="Device descriptor formatted text" value="[[[b[[[uCommunication Class-Specific Descriptor: {type} ({name})]]]]]]\n\n">
+		<Param name="type" format="b016xw2"/>
+		<Param name="name"/>
+	</Message>
+
+	<Enumeration key="SpeedTable" description="Speed Table">
+		<Item text="Low Speed"/>
+		<Item text="Full Speed"/>
+		<Item text="High Speed (USB 2.0)"/>
+		<Item text="Super Speed (USB 3.0)"/>
+	</Enumeration>
+
+	<Enumeration key="UsbDescriptor" description="Descriptor fields table">
+		<Item text="Input"/>
+		<Item text="Output"/>
+		<Item text="Feature"/>
+		<Item text="Collection"/>
+		<Item text="End Collection\n"/>
+		<Item text="Usage Page"/>
+		<Item text="Logical Minimum"/>
+		<Item text="Logical Maximum"/>
+		<Item text="Physical Minimum"/>
+		<Item text="Physical Maximum"/>
+		<Item text="Unit Exponent"/>
+		<Item text="Unit"/>
+		<Item text="Report Size"/>
+		<Item text="Report ID"/>
+		<Item text="Report Count"/>
+		<Item text="PUSH"/>
+		<Item text="POP"/>
+		<Item text="Usage"/>
+	</Enumeration>
+
+	<Enumeration key="JackType" description="Jack type">
+		<Item text="EMBEDDED"/>
+		<Item text="EXTERNAL"/>
+	</Enumeration>
+
+	<Enumeration key="ConnectionStatus" description="Connection status">
+		<Item text="No device connected"/>
+		<Item text="Device connected"/>
+		<Item text="Enumeration of the device failed"/>
+		<Item text="General connection error"/>
+	</Enumeration>
+
+	<Enumeration key="UsbConfigDescriptorAttribs" description="USB Configuration descriptor attributes">
+		<Item text="Remote wakeup"/>
+		<Item text="Self powered"/>
+		<Item text="Bus powered"/>
+	</Enumeration>
+
+	<!--IDS_STRING1018-->          <Message key="UsbInput" description="Value: Input" value="Input"/>
+	<!--IDS_STRING1019-->          <Message key="UsbOutput" description="Value: Output" value="Output"/>
+
+	<Enumeration key="UsbPacketType" description="USB packet types list">
+		<Item text="Control"/>
+		<Item text="Isochronous"/>
+		<Item text="Bulk"/>
+		<Item text="Interrupt"/>
+	</Enumeration>
+
+	<Message key="1msFramesFmt" description="Value: polling interval" value="{number} 1-millisecond frames">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="MicroFramesFmt" description="Value: Number of microframes" value="{number} microframes">
+		<Param name="number"/>
+	</Message>
+
+	<Enumeration key="UsbInputParams" description="USB input parameters list">
+		<Item text="Data"/>
+		<Item text="Constant"/>
+		<Item text="Array"/>
+		<Item text="Variable"/>
+		<Item text="Absolute"/>
+		<Item text="Relative"/>
+		<Item text="No Wrap"/>
+		<Item text="Wrap"/>
+		<Item text="Linear"/>
+		<Item text="Non Linear"/>
+		<Item text="Preferred State"/>
+		<Item text="No Preferred State"/>
+		<Item text="No Null Position"/>
+		<Item text="Null State"/>
+	</Enumeration>
+
+	<Enumeration key="UsbOutputParams" description="USB output parameters list">
+		<Item text="Volatile"/>
+		<Item text="Non Volatile"/>
+	</Enumeration>
+
+	<!--IDS_ERRORRESTARTHEADER-->  <Message key="Restart Device" description="Title: Restart Device"/>
+	<!--IDS_STRING1079-->          <Message key="Audio Device Class Specification Release Number:" description="Field: Audio Device Class Specification Release Number"/>
+	<!--IDS_STRING1080-->          <Message key="Total Length:" description="Field: Total Length"/>
+	<!--IDS_STRING1081-->          <Message key="Number of Interfaces:" description="Field: Number of Interfaces"/>
+	<!--IDS_STRING1082-->
+	<!--IDS_STRING1086-->          <Message key="Number Of Output Channels:" description="Field: Number Of Output Channels"/>
+	<!--IDS_STRING1088-->          <Message key="Name (String Descriptor ID):" description="Field: Name (String Descriptor ID)"/>
+	<!--IDS_STRING1089-->          <Message key="Description (String Descriptor ID):" description="Field: Description (String Descriptor ID)"/>
+	<!--IDS_STRING1091-->          <Message key="Number of Pins:" description="Field: Number of Pins"/>
+	<!--IDS_STRING1092-->          
+
+	<!--IDS_STRING1094-->          <Message key="Channel Configuration:" description="Field: Channel Configuration"/>
+	<!--IDS_STRING1095-->          <Message key="Channel Names:" description="Field: Channel Names"/>
+	<!--IDS_STRING1096-->          <Message key="Programmable Controls:" description="Field: Programmable Controls"/>
+	<!--IDS_STRING1097-->
+	<Message key="SourceFmt" description="Field: Pin" value="Source{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1099-->    <Message key="Control Size:" description="Field: Control Size"/>
+	<!--IDS_STRING1100-->    <Message key="Supported Controls:" description="Field: Supported Controls"/>
+	<!--IDS_STRING1102-->    <Message key="Interface Number:" description="Field: Interface Number"/>
+	<!--IDS_STRING1103-->    <Message key="Terminal Link:" description="Field: Terminal Link"/>
+	<!--IDS_STRING1104-->    <Message key="Delay:" description="Field: Delay"/>
+	<!--IDS_STRING1105-->    <Message key="Format Tag:" description="Field: Format Tag"/>
+	<!--IDS_STRING1106-->    <Message key="Attributes:" description="Field: Attributes"/>
+	<!--IDS_STRING1107-->    <Message key="Delay Units:" description="Field: Delay Units"/>
+	<!--IDS_STRING1108-->    <Message key="Lock Delay:" description="Field: Lock Delay"/>
+	<!--IDS_STRING1109-->    <Message key="Processing Type:" description="Field: Processing Type"/>
+	<!--IDS_STRING1110-->    <Message key="Number of Input Pins:" description="Field: Number of Input Pins"/>
+
+	<!--IDS_STRING1111-->
+	<Message key="UnitPinFmt" description="Field: Unit to pin connection" value="ID of Unit to which Pin{number} connected:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1112-->    <Message key="Number of Supported Modes:" description="Field: Number of Supported Modes"/>
+
+	<!--IDS_STRING1113-->
+	<Message key="ModeFmt" description="Field: Mode" value="Mode{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1114-->    <Message key="UsbErrorRetriveDescriptors" description="Error text: Unable to retrieve descriptors" value="Unable to retrieve descriptors.\r\n\r\nIf this device is part of composite device, click on the composite device to see USB descriptors."/>
+	<!--IDS_STRING1115-->    <Message key="UsbUnableToAttach" description="Error text: Unable to attach to selected USB device." value="Unable to attach to selected USB device."/>
+
+	<!--IDS_MS_CS_ENDPOINT_1-->
+	<Message key="MS_CS_ENDPOINT_1" description="Device descriptor formatted text" value="\n\n[[[b[[[uClass-Specific MS Bulk Data Endpoint Descriptor]]]]]]\nEmbedded MIDI Jacks: [[[b {number}]]]\n">
+		<Param name="number"/>
+	</Message>
+
+	<Enumeration key="UsbVideoStandards" description="USB video standards list">
+		<Item text="NTSC - 525/60"/>
+		<Item text="PAL - 625/50"/>
+		<Item text="SECAM - 625/50"/>
+		<Item text="NTSC - 625/50"/>
+		<Item text="PAL - 525/60"/>
+	</Enumeration>
+
+	<!--IDS_STRING1183-->		   <Message key="Video Specification Release Number:" description="Field: Video Specification Release Number"/>
+	<!--IDS_STRING1184-->          <Message key="Clock Frequency:" description="Field: Clock Frequency"/>
+	<!--IDS_STRING1186-->          <Message key="Terminal ID:" description="Field: Terminal ID"/>
+	<!--IDS_STRING1187-->          <Message key="Associated Output Terminal:" description="Field: Associated Output Terminal"/>
+	<!--IDS_STRING1188-->          <Message key="Terminal Type:" description="Field: Terminal Type"/>
+	<!--IDS_STRING1189-->          <Message key="Description (Index of String Descriptor):" description="Field: Description"/>
+	<!--IDS_STRING1190-->          <Message key="Source ID:" description="Field: Source ID"/>
+	<!--IDS_STRING1191-->          <Message key="Unit ID:" description="Field: Unit ID"/>
+	<!--IDS_STRING1193-->          <Message key="Max Multiplier:" description="Field: Max Multiplier"/>
+	<!--IDS_STRING1194-->          <Message key="Controls:" description="Field: Controls"/>
+
+	<Enumeration key="UsbBoolean" description="USB descriptor boolean value">
+		<Item text="TRUE"/>
+		<Item text="FALSE"/>
+	</Enumeration>
+
+	<!--IDS_STRING1197-->          
+	<Message key="ControlFmt" description="Field: Control" value="Control{number}:\n">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1198-->          <Message key="GUID:" description="Field: GUID"/>
+	<!--IDS_STRING1199-->          <Message key="Number of Formats:" description="Field: Number of Formats"/>
+	<!--IDS_STRING1200-->          <Message key="Endpoint Address:" description="Field: Endpoint Address"/>
+	<!--IDS_STRING1202-->          <Message key="Still Capture Method:" description="Field: Still Capture Method"/>
+	<!--IDS_STRING1203-->          <Message key="Trigger Support:" description="Field: Trigger Support"/>
+	<!--IDS_STRING1204-->          <Message key="Trigger Usage:" description="Field: Trigger Usage"/>
+
+	<!--IDS_STRING1205-->
+	<Message key="FormatFmt" description="Field: Format" value="Format{number}:\n">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1206-->          <Message key="Width:" description="Field: Width"/>
+	<!--IDS_STRING1207-->          <Message key="Height:" description="Field: Height"/>
+	<!--IDS_STRING1208-->
+	<Message key="CompressionFmt" description="Field: Compression" value="Compression{number}:">
+		<Param name="number"/>
+	</Message>
+	<!--IDS_STRING1209-->          <Message key="Color Primaries:" description="Field: Color Primaries"/>
+
+	<Enumeration key="UsbColorFormatPrimary" description="USB video primary color format list">
+		<Item text="Reserved"/>
+		<Item text="BT.709,sRGB"/>
+		<Item text="BT.470-2 (M)"/>
+		<Item text="BT.470-2 (B,G)"/>
+		<Item text="SMPTE 170M"/>
+		<Item text="SMPTE 240M"/>
+	</Enumeration>
+
+	<!--IDS_STRING1216-->          <Message key="Transfer Characteristics:" description="Field: Transfer Characteristics"/>
+	<Enumeration key="UsbTransferCharacteristics" description="USB video transfer characteristics list">
+		<Item text="Reserved"/>
+		<Item text="BT.709"/>
+		<Item text="BT.470-2 (M)"/>
+		<Item text="BT.470-2 (B,G)"/>
+		<Item text="SMTPE 170M"/>
+		<Item text="SMTPE 240M"/>
+		<Item text="Linear (V=Lc)"/>
+		<Item text="sRGB (very similar to BT.709)"/>
+	</Enumeration>
+
+	<Message key="Matrix Coefficients:" description="Field: Matrix Coefficients"/>
+
+	<Enumeration key="UsbMatrixCoefficients" description="USB video matrix coefficients list">
+		<Item text="Reserved"/>
+		<Item text="BT.709"/>
+		<Item text="FCC"/>
+		<Item text="Bt.470-2 (B,G)"/>
+		<Item text="SMPTE 170M (BT.601,default)"/>
+		<Item text="SMPTE 240M"/>
+	</Enumeration>
+
+	<!--IDS_STRING1232-->          <Message key="Format Index:" description="Field: Format Index"/>
+	<!--IDS_STRING1233-->          <Message key="Number of Frame Descriptors:" description="Field: Number of Frame Descriptors"/>
+	<!--IDS_STRING1234-->          <Message key="Format GUID:" description="Field: Format GUID"/>
+	<!--IDS_STRING1235-->          <Message key="Bits Per Pixel:" description="Field: Bits Per Pixel"/>
+	<!--IDS_STRING1236-->          <Message key="Optimum Frame Index:" description="Field: Optimum Frame Index"/>
+	<!--IDS_STRING1237-->          <Message key="Aspect Ratio X:" description="Field: Aspect Ratio X"/>
+	<!--IDS_STRING1238-->          <Message key="Aspect Ratio Y:" description="Field: Aspect Ratio Y"/>
+	<!--IDS_STRING1239-->          <Message key="Copy Protect:" description="Field: Copy Protect"/>
+	<!--IDS_STRING1240-->          <Message key="Interlace Flags:" description="Field: Interlace Flags" value="Interlace Flags:\n"/>
+	<!--IDS_STRING1241-->          <Message key="Interface Stream Or Variable:" description="Field: Interface Stream Or Variable"/>
+
+	<Enumeration key="UsbYesNo" description="USB yes/no state list">
+		<Item text="YES"/>
+		<Item text="NO"/>
+	</Enumeration>
+
+	<!--IDS_STRING1244-->
+	<Message key="Fields Per Frame:" description="Field: Fields Per Frame:"/>
+	<Enumeration key="UsbFieldPerFrame" description="USB field per frame state list">
+		<Item text="1 field"/>
+		<Item text="2 fields"/>
+	</Enumeration>
+
+	<!--IDS_STRING1247-->          <Message key="Field 1 Is First:" description="Field: Field 1 Is First"/>
+	<!--IDS_STRING1248-->          <Message key="Min Bit Rate:" description="Field: Min Bit Rate"/>
+	<!--IDS_STRING1249-->          <Message key="Max Bit Rate:" description="Field: Max Bit Rate"/>
+	<!--IDS_STRING1250-->          <Message key="Max Video Frame Buffer Size:" description="Field: Max Video Frame Buffer Size"/>
+	<!--IDS_STRING1251-->          <Message key="Default Frame Interval:" description="Field: Default Frame Interval"/>
+	<!--IDS_STRING1252-->          <Message key="Frame Interval Type:" description="Field: Frame Interval Type"/>
+	<!--IDS_STRING1253-->          <Message key="Min Frame Interval (in 100 ns):" description="Field: Min Frame Interval (in 100 ns)"/>
+	<!--IDS_STRING1254-->          <Message key="Max Frame Interval (in 100 ns):" description="Field: Max Frame Interval (in 100 ns)"/>
+	<!--IDS_STRING1255-->          <Message key="Frame Interval Step (in 100 ns):" description="Field: Frame Interval Step (in 100 ns)"/>
+	
+	<!--IDS_STRING1256-->          
+	<Message key="FrameIntervalFmt" description="Field: Frame Interval" value="Frame Interval{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1257-->          <Message key="Data Offset:" description="Field: Data Offset"/>
+	<!--IDS_STRING1258-->          <Message key="Length of TSP Packet:" description="Field: Length of TSP Packet"/>
+	<!--IDS_STRING1259-->          <Message key="Length of Transport Stride:" description="Field: Length of Transport Stride"/>
+	<!--IDS_STRING1260-->          <Message key="Format of Stride Data:" description="Field: Format of Stride Data"/>
+
+	<Enumeration key="UsbFormatType" description="USB video display format types list">
+		<Item text="Reserved"/>
+		<Item text="SD-DV"/>
+		<Item text="SDL-DV"/>
+		<Item text="HD-DV"/>
+	</Enumeration>
+
+	<Enumeration key="UsbRefreshRate" description="USB video refresh rates list">
+		<Item text="50 Hz"/>
+		<Item text="60 Hz"/>
+	</Enumeration>
+
+	<!--IDS_STRING1267-->          <Message key="Variable Size:" description="Field: Variable Size"/>
+	<!--IDS_STRING1268-->          <Message key="Bytes Per Line:" description="Field: Bytes Per Line"/>
+	<!--IDS_STRING1269-->          <Message key="Packet Length:" description="Field: Packet Length"/>
+
+	<Enumeration key="UsbAudioDescriptorName" description="USB Audio descriptor names list">
+		<Item text="Unknown"/>
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Output Terminal Descriptor"/>
+		<Item text="Mixer Unit Descriptor"/>
+		<Item text="Selector Unit Descriptor"/>
+		<Item text="Feature Unit Descriptor"/>
+		<Item text="Processing Unit Descriptor"/>
+		<Item text="Up-Down Mix Unit Descriptor"/>
+		<Item text="Dolby Prologic Unit Descriptor"/>
+		<Item text="3D Stereo Unit Descriptor"/>
+		<Item text="Reverberation Unit Descriptor"/>
+		<Item text="Chorus Unit Descriptor"/>
+		<Item text="Compressor Unit Descriptor"/>
+		<Item text="Extension Unit Descriptor"/>
+		<Item text="Associated Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAudioStreamingDescriptorName" description="USB Audio Streaming descriptor names list">
+		<Item text="Format Type Descriptor"/>
+		<Item text="Format Specific Descriptor"/>
+		<Item text="Class-Specific Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoDescriptorName" description="USB Video descriptor names list">
+		<Item text="Unknown"/>
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Output Terminal Descriptor"/>
+		<Item text="Selector Unit Descriptor"/>
+		<Item text="Processing Unit Descriptor"/>
+		<Item text="Extension Unit Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoStreamingDescriptorName" description="USB Video streaming descriptor names list">
+		<Item text="Unknown"/>
+		<Item text="Input Header Descriptor"/>
+		<Item text="Output Header Descriptor"/>
+		<Item text="Still Image Frame Descriptor"/>
+		<Item text="Format Uncompressed Descriptor"/>
+		<Item text="Frame Uncompressed Descriptor"/>
+		<Item text="Format MPEG Descriptor"/>
+		<Item text="Frame MPEG Descriptor"/>
+		<Item text="Format MPEG2TS Descriptor"/>
+		<Item text="Format DV Descriptor"/>
+		<Item text="Format Colorformat Descriptor"/>
+		<Item text="Format Frame Based Descriptor"/>
+		<Item text="Frame Based Frame Descriptor"/>
+		<Item text="Format Stream Based Descriptor"/>
+	</Enumeration>
+
+	<!--IDS_STRING1126-->          <Message key="Number of Channels:" description="Field: Number of Channels"/>
+	<!--IDS_STRING1135-->          <Message key="Format Type:" description="Field: Format Type"/>
+	<!--IDS_STRING1136-->          <Message key="Subframe Size:" description="Field: Subframe Size"/>
+	<!--IDS_STRING1137-->          <Message key="Bit Resolution:" description="Field: Bit Resolution"/>
+	<!--IDS_STRING1138-->          <Message key="Sampling Frequency Lower Bound:" description="Field: Sampling Frequency Lower Bound"/>
+	<!--IDS_STRING1139-->          <Message key="Sampling Frequency Upper Bound:" description="Field: Sampling Frequency Upper Bound"/>
+	
+	<!--IDS_STRING1140-->
+	<Message key="SamplingFrequencyFmt" description="Field: Sampling Frequency" value="Sampling Frequency{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1141-->          <Message key="Max Bitrate:" description="Field: Max Bitrate"/>
+	<!--IDS_STRING1142-->          <Message key="Samples Per Frame:" description="Field: Samples Per Frame"/>
+	<!--IDS_STRING1144-->          <Message key="Payload Type:" description="Field: Payload Type"/>
+
+	<Enumeration key="UsbAudioPayloadType" description="USB Audio payload types list">
+		<Item text="Undefined"/>
+		<Item text="TYPE 1 UNDEFINED"/>
+		<Item text="PCM"/>
+		<Item text="PCM8"/>
+		<Item text="IEEE_FLOAT"/>
+		<Item text="ALAW"/>
+		<Item text="MULAW"/>
+		<Item text="TYPE 2 UNDEFINED"/>
+		<Item text="MEPG"/>
+		<Item text="AC3"/>
+		<Item text="TYPE3 UNDEFINED"/>
+		<Item text="IEC1937 AC3"/>
+		<Item text="IEC1937 MPEG1"/>
+		<Item text="IEC1937 MPEG2 NOEXT"/>
+		<Item text="IEC1937 MPEG2 EXT"/>
+		<Item text="MPEG2 LAYER1"/>
+		<Item text="MPEG2 LAYER 2 OR 3"/>
+	</Enumeration>
+
+	<!--IDS_STRING1161      -->    <Message key="MPEG Capabilities:" description="Field: MPEG Capabilities"/>
+	<!--IDS_STRING1162      -->    <Message key="MPEG Features:" description="Field: MPEG Features"/>
+	<!--IDS_STRING1163      -->    <Message key="BSID:" description="Field: BSID"/>
+	<!--IDS_STRING1164      -->    <Message key="AC3 Features:" description="Field: AC3 Features"/>
+
+	<Message key="MS_CS_ENDPOINT_2" description="Field: USB Endpoint descriptor string" value="Jack({number}) ID: [[[b{value}]]]\n">
+		<Param name="number"/>
+		<Param name="value"/>
+	</Message>
+
+	<!--IDS_STRING1308-->          <Message key="Max Transfer Size:" description="Field: Max Transfer Size"/>
+
+	<Enumeration key="UsbCommDescriptorName" description="USB communication descriptor names list">
+		<!--<Item text="Unknown"/>-->
+		<Item text="Header Functional Descriptor"/>
+		<Item text="Call Management Functional Descriptor"/>
+		<Item text="Abstract Control Management Functional Descriptor"/>
+		<Item text="Direct Line Management Functional Descriptor"/>
+		<Item text="Telephone Ringer Functional Descriptor"/>
+		<Item text="Telephone Call and Line State Reporting Capabilities Functional Descriptor"/>
+		<Item text="Union Functional Descriptor"/>
+		<Item text="Country Selection Functional Descriptor"/>
+		<Item text="Telephone Operational Modes Functional Descriptor"/>
+		<Item text="USB Terminal Functional Descriptor"/>
+		<Item text="Network Channel Terminal Descriptor"/>
+		<Item text="Protocol Unit Functional Descriptor"/>
+		<Item text="Extension Unit Functional Descriptor"/>
+		<Item text="Multi-Channel Management Functional Descriptor"/>
+		<Item text="CAPI Control Management Functional Descriptor"/>
+		<Item text="Ethernet Networking Functional Descriptor"/>
+		<Item text="ATM Networking Functional Descriptor"/>
+	</Enumeration>
+
+	<!--IDS_STRING1327-->          <Message key="Data Interface:" description="Field: Data Interface"/>
+	<!--IDS_STRING1328-->          <Message key="Ringer Volume Steps:" description="Field: Ringer Volume Steps"/>
+	<!--IDS_STRING1329-->          <Message key="Simple Mode" description="Value: Simple Mode"/>
+	<!--IDS_STRING1330-->          <Message key="Standalone Mode" description="Value: Standalone Mode"/>
+	<!--IDS_STRING1331-->          <Message key="Computer Centric Mode " description="Value: Computer Centric Mode"/>
+	<!--IDS_STRING1332-->          <Message key="Dialtone" description="Value: Dialtone"/>
+	<!--IDS_STRING1333-->          <Message key="Reports interrupted dialtone in addition to normal dialtone" description="Value: Reports interrupted dialtone in addition to normal dialtone"/>
+	<!--IDS_STRING1334-->          <Message key="Reports only dialtone" description="Value: Reports only dialtone"/>
+	<!--IDS_STRING1335-->          <Message key="Dialing State" description="Value: Dialing State"/>
+	<!--IDS_STRING1336-->          <Message key="Reports ringback, busy, fast busy states" description="Value: Reports ringback"/>
+	<!--IDS_STRING1337-->          <Message key="Reports only dialing state" description="Value: Reports only dialing state"/>
+	<!--IDS_STRING1338-->          <Message key="Caller ID" description="Value: Caller ID"/>
+	<!--IDS_STRING1339-->          <Message key="Reports caller ID information" description="Value: Reports caller ID information"/>
+	<!--IDS_STRING1340-->          <Message key="Does not report caller ID" description="Value: Does not report caller ID"/>
+	<!--IDS_STRING1341-->          <Message key="Ringing" description="Value: Ringing"/>
+	<!--IDS_STRING1342-->          <Message key="Reports incoming distinctive ringing patterns" description="Value: Reports incoming distinctive ringing patterns"/>
+	<!--IDS_STRING1343-->          <Message key="Reports only incoming ringing" description="Value: Reports only incoming ringing"/>
+	<!--IDS_STRING1344-->          <Message key="DTMF digits" description="Value: DTMF digits"/>
+	<!--IDS_STRING1345-->          <Message key="Can report DTMF digits input remotely over the telephone line" description="Value: Can report DTMF digits input remotely over the telephone line"/>
+	<!--IDS_STRING1346-->          <Message key="Cannot report DTMF digits input remotely over the telephone line" description="Value: Cannot report DTMF digits input remotely over the telephone line"/>
+	<!--IDS_STRING1347-->          <Message key="Line State Change Notification" description="Value: Line State Change Notification"/>
+	<!--IDS_STRING1348-->          <Message key="Does support" description="Value: Does support"/>
+	<!--IDS_STRING1349-->          <Message key="Does not support" description="Value: Does not support"/>
+
+	<!--IDS_STRING1350-->
+	<Message key="SlaveInterfacelFmt" description="Field: Slave Interface" value="Slave Interface{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1351-->          <Message key="Master Interface" description="Field: Master Interface"/>
+	<!--IDS_STRING1352-->          <Message key="Country Code Release Date:" description="Field: Country Code Release Date"/>
+	<Message key="CountryCodeFmt" description="Field: Country Code" value="Country Code{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1354-->          <Message key="Entity ID:" description="Field: Entity ID" value="Entity ID:"/>
+	<!--IDS_STRING1355-->          <Message key="In Interface Number:" description="Field: In Interface Number"/>
+	<!--IDS_STRING1356-->          <Message key="Out Interface Number:" description="Field: Out Interface Number"/>
+	<!--IDS_STRING1357-->          <Message key="Options:" description="Field: Options"/>
+
+	<Message key="ChildIDFmt" description="Field: ChildID" value="ChildID{number}:">
+		<Param name="number"/>
+	</Message>
+
+	<!--IDS_STRING1360-->          <Message key="Name (index):" description="Field: Name (index)"/>
+	<!--IDS_STRING1361-->          <Message key="Channel Index:" description="Field: Channel Index"/>
+	<!--IDS_STRING1362-->          <Message key="Physical Interface:" description="Field: Physical Interface"/>
+	<!--IDS_STRING1363-->          <Message key="Protocol Code:" description="Field: Protocol Code"/>
+	<!--IDS_STRING1364-->          <Message key="Extension Code:" description="Field: Extension Code"/>
+	<!--IDS_STRING1365-->          <Message key="Device stores Unit parameters in non-volatile memory" description="Value: Device stores Unit parameters in non-volatile memory"/>
+	<!--IDS_STRING1366-->          <Message key="Device supports the request Clear_Unit_Parameter" description="Value: Device supports the request Clear_Unit_Parameter"/>
+	<!--IDS_STRING1367-->          <Message key="Device supports the request Set_Unit_Parameter" description="Value: Device supports the request Set_Unit_Parameter"/>
+	<!--IDS_STRING1369-->          <Message key="Device is an Intelligent CAPI device" description="Value: Device is an Intelligent CAPI device"/>
+	<!--IDS_STRING1370-->          <Message key="Device is a Simple CAPI device" description="Value: Device is a Simple CAPI device"/>
+	<!--IDS_STRING1371-->          <Message key="Mac Address (string descriptor index):" description="Field: Mac Address (string descriptor index)"/>
+	<!--IDS_STRING1372-->          <Message key="Ethernet Statistics:" description="Field: Ethernet Statistics"/>
+	<!--IDS_STRING1373-->          <Message key="Number Of Configurable Multicast Filters:" description="Field: Number Of Configurable Multicast Filters"/>
+	<!--IDS_STRING1374-->          <Message key="Number Of Pattern Filters:" description="Field: Number Of Pattern Filters"/>
+	<!--IDS_STRING1375-->          <Message key="Max Segment Size:" description="Field: Max Segment Size"/>
+	<!--IDS_STRING1376-->          <Message key="End System Identifier (string descriptor index):" description="Field: End System Identifier (string descriptor index)"/>
+	<!--IDS_STRING1377-->          <Message key="Capabilities:" description="Field: Capabilities"/>
+	<!--IDS_STRING1378-->          <Message key="ATM Device Statistics:" description="Field: ATM Device Statistics"/>
+	<!--IDS_STRING1379-->          <Message key="The Maximum Type 2 Segment Size:" description="Field: The Maximum Type 2 Segment Size"/>
+	<!--IDS_STRING1380-->          <Message key="The Maximum Type 3 Segment Size:" description="Field: The Maximum Type 3 Segment Size"/>
+	<!--IDS_STRING1381-->          <Message key="Maximum Number Of Simultaneous Virtual Circuits:" description="Field: Maximum Number Of Simultaneous Virtual Circuits"/>
+
+	<Enumeration key="UsbMultiBitmapField" description="USB multi bitmap field enumeration">
+		<Item text="XMIT_OK"/>
+		<Item text="RVC_OK"/>
+		<Item text="XMIT_ERROR"/>
+		<Item text="RCV_ERROR"/>
+		<Item text="RCV_NO_BUFFER"/>
+		<Item text="DIRECTED_BYTES_XMIT"/>
+		<Item text="DIRECTED_FRAMES_XMIT"/>
+		<Item text="MULTICAST_BYTES_XMIT"/>
+		<Item text="MULTICAST_FRAMES_XMIT"/>
+		<Item text="BROADCAST_BYTES_XMIT"/>
+		<Item text="BROADCAST_FRAMES_XMIT"/>
+		<Item text="DIRECTED_BYTES_RCV"/>
+		<Item text="DIRECTED_FRAMES_RCV"/>
+		<Item text="MULTICAST_BYTES_RCV"/>
+		<Item text="MULTICAST_FRAMES_RCV"/>
+		<Item text="BROADCAST_BYTES_RCV"/>
+		<Item text="BROADCAST_FRAMES_RCV"/>
+		<Item text="RCV_CRC_ERROR"/>
+		<Item text="TRANSMIT_QUEUE_LENGTH"/>
+		<Item text="RCV_ERROR_ALIGNMENT"/>
+		<Item text="XMIT_ONE_COLLISION"/>
+		<Item text="XMIT_MORE_COLLISIONS"/>
+		<Item text="XMIT_DEFERRED"/>
+		<Item text="XMIT_MAX_COLLISIONS"/>
+		<Item text="RCV_OVERRUN"/>
+		<Item text="XMIT_UNDERRUN"/>
+		<Item text="XMIT_HEARTBEAT_FAILURE"/>
+		<Item text="XMIT_TIMES_CRS_LOST"/>
+		<Item text="XMIT_LATE_COLLISIONS"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAtmTypes" description="USB ATM types list">
+		<Item text="Type 1 -- Concatenated ATM cells"/>
+		<Item text="Type 2 -- ATM header template + concatenated ATM cell payloads"/>
+		<Item text="Type 3 -- AAL5 SDU"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAtmDeviceStats" description="USB ATM device stats list">
+		<Item text="Device counts downstream cells received"/>
+		<Item text="Device counts upstream cells sent"/>
+		<Item text="Device counts cells with HEC error detected and corrected"/>
+		<Item text="Device counts downstream cells received on a per VC basis"/>
+		<Item text="Device counts upstream cells sent on a per VC basis"/>
+	</Enumeration>
+
+	<!--IDS_STRING1419-->    <Message key="Release Number In Binary-Coded Decimal" description="Field: Release Number In Binary-Coded Decimal"/>
+	<!--IDS_RESERVED-->    <Message key="Reserved for future use" description="Field: Reserved for future use"/>
+
+	<Enumeration key="UsbAudioMidiDescriptorName" description="USB Audio MIDI descriptor names list">
+		<Item text="Header Descriptor"/>
+		<Item text="MIDI IN Jack Descriptor"/>
+		<Item text="MIDI OUT Jack Descriptor"/>
+		<Item text="Element Descriptor"/>
+	</Enumeration>
+
+	<!--IDS_MS_HEADER_FMT-->
+	<Message key="MsHeaderFMT" description="Midi Streaming header format string" value="Audio Device Class Specification Revision Number: [[[b{ver_major}.{ver_minor}]]]\nTotal length: [[[b{bytes} bytes]]]\n">
+		<Param name="ver_major"/>
+		<Param name="ver_minor"/>
+		<Param name="bytes"/>
+	</Message>
+	<!--IDS_MS_MIDI_IN_JACK_FMT -->
+	<Message key="MS_MIDI_IN_JACK_FMT" description="Midi jack input formatted text" value="Jack ID: [[[b{id} ({name}): {value}]]]\n">
+		<Param name="id"/>
+		<Param name="name"/>
+		<Param name="value"/>
+	</Message>
+	<!--IDS_MS_MIDI_OUT_JACK_FMT-->
+	<Message key="MS_MIDI_OUT_JACK_FMT" description="Midi jack output formatted text" value="Jack ID: [[[b{id} ({name}): {value}]]]\nInput pins: [[[b{pins}]]]\n">
+		<Param name="id"/>
+		<Param name="name"/>
+		<Param name="value"/>
+		<Param name="pins"/>
+	</Message>
+	<!--IDS_PINS                -->
+	<Message key="UsbMsPins" description="Pins formatted text" value="Pin [[[b{number}]]]: Source ID: [[[b {source}]]], Pin: [[[b{pin}]]]\n">
+		<Param name="number"/>
+		<Param name="source"/>
+		<Param name="pin"/>
+	</Message>
+	<!--IDS_FRAME_INDEX         -->  <Message key="Frame Index:" description="Field: Frame Index"/>
+	<!--IDS_CONTROLS_SIZE       -->  <Message key="Controls Size:" description="Field: Controls Size"/>
+
+	<Enumeration key="ConnectTheUSBDevice" description="Connect USB device notification">
+		<Item text="Connect the USB Device"/>
+		<Item text="The application is waiting for you to connect an USB device to one of your computer USB ports." />
+	</Enumeration>
+</Definition>

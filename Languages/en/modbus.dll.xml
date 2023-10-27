@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Message key="show_compact_form" description="Option: Truncate register/coil/request list if it is too long" value="Truncate register/coil/request list if it is too long"/>
+	<Message key="add_offsets" description="Option: Add base offsets for registers, discrete inputs, etc." value="Add base offsets for registers, discrete inputs, etc."/>
+	<Message key="request_read" description="Option: Parse requests on WRITE (responses on READ) direction" value="Parse requests on WRITE (responses on READ) direction"/>
+	<Message key="concatenate_packets" description="Option: Concatenate packets" value="Concatenate packets"/>
+	<Message key="use_rtu" description="Option: RTU mode" value="RTU mode"/>
+	<Message key="parse_as_hex" description="Option: Parse packet parameters as hex" value="Parse as hex"/>
+	<Message key="incremental_join" description="Option: Advanced packet joiner" value="Advanced packet joiner"/>
+
+
+	<Message key="send_notification" description="Option: Fast data entering (MODBUS Send window)" value="Fast data entering (MODBUS Send window)"/>
+
+	<Message key="MODBUS" description="Settings group: send_notification"/>
+
+	<Enumeration key="MODBUSConverter" description="MODBUS Converter">
+		<Item text="MODBUS View (legacy)"/>
+		<Item text="MODBUS View visualizer decodes packets, formatted according to the MODBUS protocol specification."/>
+	</Enumeration>
+
+	<Message key="Array expected" description="Array expected" value="Array expected"/>
+	<Message key="New TCP Session" description="New TCP Session" value="TCP Session"/>
+	<Message key="New Serial Session" description="New Serial Session" value="Serial Session"/>
+	<Enumeration key="tcp-creation-error" description="Error creating TCP session">
+		<Item text="TCP Session Creation Error"/>
+		<Item text="The following error occurred when trying to connect to the remote host: {text} ({code})">
+			<Param name="text"/>
+			<Param name="code" format="ub016x"/>
+		</Item>
+	</Enumeration>
+	<Message key="Connecting to remote host" description="Connecting to remote host op" value="Connecting to Remote Host"/>
+	<Enumeration key="NewModbusConverter" description="New MODBUS View converter">
+		<Item text="MODBUS View"/>
+		<Item text="MODBUS View decodes and displays MODBUS protocol packets."/>
+	</Enumeration>
+
+	<Enumeration key="ModbusFunction" description="MODBUS Functions">
+		<Item text="Read Coil Status"/>
+		<Item text="Read Discrete Inputs"/>
+		<Item text="Read Holding Registers"/>
+		<Item text="Read Input Registers"/>
+		<Item text="Write Single Coil"/>
+		<Item text="Write Single Register"/>
+		<Item text="Read Exception Status"/>
+		<Item text="Diagnostics"/>
+		<Item text="Program 484"/>
+		<Item text="Poll 484"/>
+		<Item text="Get Comm Event Counter"/>
+		<Item text="Get Comm Event Log"/>
+		<Item text="Program Controller"/>
+		<Item text="Poll Controller"/>
+		<Item text="Write Multiple Coils"/>
+		<Item text="Write Multiple Registers"/>
+		<Item text="Report Slave ID"/>
+		<Item text="Program 884/M84"/>
+		<Item text="Reset Comm. Link"/>
+		<Item text="Read General Reference / Read File Record"/>
+		<Item text="Write General Reference / Write File Record"/>
+		<Item text="Mask Write  Register"/>
+		<Item text="Read/Write Multiple Registers"/>
+		<Item text="Read FIFO Queue"/>
+	</Enumeration>
+
+	<Message key="Address: " description="Message: Address: (ends with space)">
+		<Validate rule="EndsWithSpace"/>
+	</Message>
+
+	<Message key="Function: " description="Message: Function: (ends with space)">
+		<Validate rule="EndsWithSpace"/>
+	</Message>
+
+	<Enumeration key="CrcOk" description="CRC OK or WRONG">
+		<Item text="WRONG"/>
+		<Item text="OK"/>
+	</Enumeration>
+
+	<Enumeration key="DestinationAddr" description="Destination address">
+		<Item text="Slave"/>
+		<Item text="Broadcast"/>
+	</Enumeration>
+
+	<Message key="Unknown Function!" description="Unknown function"/>
+
+	<Message key="Parsed As:" description="Parsed As:"/>
+
+	<Enumeration key="ForceSingleCoil" description="Force single coil">
+		<Item text="ON"/>
+		<Item text="OFF"/>
+		<Item text="Invalid value (only 0 (OFF) and 65280 (ON) are allowed)"/>
+	</Enumeration>
+
+	<Message key="Set Coil" description="Set Coil"/>
+	<Message key="Register" description="Register"/>
+	<Message key="Coil Data" description="Coil Data"/>
+	<Message key="Status" description="Status"/>
+	<Message key="Event Count" description="Event Count"/>
+	<Message key="Busy" description="Busy"/>
+	<Message key="Message Count" description="Message Count"/>
+	<Message key="Event" description="Event"/>
+	<Message key="Byte Count" description="Byte Count"/>
+	<Message key="Coils" description="Coils"/>
+	<Message key="Registers" description="Registers"/>
+	<Message key="Yes" description="Yes" value="Yes"/>
+	<Message key="No" description="No" value="No"/>
+	<Message key="Reference Type" description="Reference Type"/>
+	<Message key="Extended Memory file number" description="Extended Memory file number"/>
+	<Message key="Starting Address" description="Starting Address"/>
+	<Message key="Number of Registers" description="Number of Registers"/>
+	<Message key="Register Data" description="Register Data"/>
+	<Message key="Reference Address" description="Reference Address"/>
+	<Message key="And Mask" description="And Mask"/>
+	<Message key="Or Mask" description="Or Mask"/>
+	<Message key="Read Reference Address" description="Read Reference Address"/>
+	<Message key="Quantity to Read" description="Quantity to Read"/>
+	<Message key="Write Reference Address" description="Write Reference Address"/>
+	<Message key="Quantity to Write" description="Quantity to Write"/>
+	<Message key="FIFO Pointer Address" description="FIFO Pointer Address"/>
+	<Message key="FIFO Count" description="FIFO Count"/>
+	<Message key="Quantity of Coils" description="Number of Coils" value="Number of Coils"/>
+	<Message key="Force Data" description="Force Data"/>
+	<Message key="Register Address" description="Register Address"/>
+	<Message key="Output Address" description="Output Address"/>
+	<Message key="Output Value" description="Output Value"/>
+	<Message key="Register Value" description="Register Value"/>
+	<Message key="Function" description="Function"/>
+	<Message key="Subfunction" description="Sub-function" value="Sub-function"/>
+	<Message key="No data entered!" description="No data entered!"/>
+	<Message key="Wrong function!" description="Wrong function!"/>
+	<Message key="Data" description="Data"/>
+	<Message key="Enter the first parameter." description="Enter the first parameter."/>
+	<Message key="Enter the second parameter." description="Enter the second parameter."/>
+	<Message key="There was an error sending data!" description="There was an error sending data!"/>
+
+	<Message key="MODBUS Send" description="MODBUS Send"/>
+
+	<Enumeration key="FunctionCodes" description="MODBUS Function Codes">
+		<Item text="REQUESTS"/>
+		<Item text="0x01 - Read Coil Status"/>					<!-- 0 -->
+		<Item text="0x02 - Read Discrete Inputs"/>			<!-- 1 -->
+		<Item text="0x03 - Read Holding Registers"/>			<!-- 2 -->
+		<Item text="0x04 - Read Input Registers"/>			<!-- 3 -->
+		<Item text="0x05 - Write Single Coil"/>					<!-- 4 -->
+		<Item text="0x06 - Write Single Register"/>			<!-- 5 -->
+		<Item text="0x07 - Read Exception Status"/>			<!-- 6 -->
+		<Item text="0x08 - Diagnostics"/>							<!-- 7 -->
+		<Item text="0x0B - Get Comm Event  Counter"/>	<!-- 8 -->
+		<Item text="0x0C - Get Comm Event Log"/>			<!-- 9 -->
+		<Item text="0x0F - Write Multiple Coils"/>				<!-- 10 -->
+		<Item text="0x10 - Write Multiple Registers"/>		<!-- 11 -->
+		<Item text="0x11 - Report Slave ID"/>					<!-- 12 -->
+		<Item text="0x14 - Read File Record"/>					<!-- 13 -->
+		<Item text="0x15 - Write File Record"/>					<!-- 14 -->
+		<Item text="0x16 - Mask Write Register"/>				<!-- 15 -->
+		<Item text="0x17 - Read/ Write Multiple Registers"/>	<!-- 16 -->
+		<Item text="0x18 - Read FIFO Queue"/>					<!-- 17 -->
+		<Item text="USER-DEFINED FUNCTION"/>				<!-- 18 -->
+		<Item text="RESPONSES"/>
+		<Item text="0x01 - Read Coil Status response"/>
+		<Item text="0x02 - Read Discrete Inputs response"/>
+		<Item text="0x03 - Read Holding Registers response"/>
+		<Item text="0x04 - Read Input Registers response"/>
+		<Item text="0x05 - Write Single Coil response"/>
+		<Item text="0x06 - Write Single Register response"/>
+		<Item text="0x07 - Read Exception Status response"/>
+		<Item text="0x08 - Diagnostics response"/>
+		<Item text="0x0B - Get Comm Event  Counter response"/>
+		<Item text="0x0C - Get Comm Event Log response"/>
+		<Item text="0x0F - Write Multiple Coils response"/>
+		<Item text="0x10 - Write Multiple Registers response"/>
+		<Item text="0x11 - Report Slave ID response"/>
+		<Item text="0x14 - Read File Record response"/>
+		<Item text="0x15 - Write File Record response"/>
+		<Item text="0x16 - Mask Write Register response"/>
+		<Item text="0x17 - Read/ Write Multiple Registers response"/>
+		<Item text="0x18 - Read FIFO Queue response"/>
+		<Item text="ERROR"/>
+	</Enumeration>
+
+	<Enumeration key="ResponseCodes" description="MODBUS  Response Codes">
+		<Item text="0x01 - Read Coil Status response"/>
+		<Item text="0x02 - Read Discrete Inputs response"/>
+		<Item text="0x03 - Read Holding Registers response"/>
+		<Item text="0x04 - Read Input Registers response"/>
+		<Item text="0x05 - Write Single Coil response"/>
+		<Item text="0x06 - Write Single Register response"/>
+		<Item text="0x07 - Read Exception Status response"/>
+		<Item text="0x08 - Diagnostics response"/>
+		<Item text="0x0B - Get Comm Event  Counter response"/>
+		<Item text="0x0C - Get Comm Event Log response"/>
+		<Item text="0x0F - Write Multiple Coils response"/>
+		<Item text="0x10 - Write Multiple Registers response"/>
+		<Item text="0x11 - Report Slave ID response"/>
+		<Item text="0x14 - Read File Record response"/>
+		<Item text="0x15 - Write File Record response"/>
+		<Item text="0x16 - Mask Write Register response"/>
+		<Item text="0x17 - Read/ Write Multiple Registers response"/>
+		<Item text="0x18 - Read FIFO Queue response"/>
+	</Enumeration>
+
+	<Message key="OK - Press the Send button" description="OK - Press the Send button"/>
+	<Message key="Wrong Function ID" description="Wrong Function ID"/>
+	<Message key="StatusCode" description="Status code" value="Status: {status}{has message?} ({message}){?has message}">
+		<Param name="status"/>
+		<Param name="has message" format="?"/>
+		<Param name="message"/>
+	</Message>
+
+	<Message key="AcceptedRange" description="Invalid range specified" value="Only values from {min} to {max} are accepted">
+		<Param name="min"/>
+		<Param name="max"/>
+	</Message>
+
+	<Message key="CoilN" description="Coil N" value="Coil {n}">
+		<Param name="n"/>
+	</Message>
+
+	<Message key="RegisterN" description="Register N" value="Register {n} = {value}">
+		<Param name="n"/>
+		<Param name="value"/>
+	</Message>
+
+	<Message key="Can't be more than 1968 coils." description="Maximum number of coils" value="Maximum number of 1,968 coils exceeded."/>
+	<Message key="Can't be more than 65535 registers." description="Maximum number of registers" value="Maximum number of 65,535 registers exceeded."/>
+	<Message key="File number can't be more than 65535." description="Maximum number of files" value="Maximum number of 65,535 files exceeded."/>
+	<Message key="Record number can't be more than 9999." description="Maximum number of records" value="Maximum number of 9,999 records exceeeded."/>
+	<Message key="Register length can't be more than 65535." description="Register length exceeded" value="Maximum register length of 65,535 exceeded."/>
+
+	<Message key="Register Length" description="Register Length"/>
+	<Message key="Record Length" description="Record Length"/>
+	<Message key="Record #" description="Record Number"/>
+	<Message key="File #" description="File Number"/>
+	<Message key="Request #" description="Request Number"/>
+	<Message key="Data Length" description="Data Length"/>
+	<Message key="Enter the reference address." description="Enter the reference address."/>
+	<Message key="Enter the read address." description="Enter the read address."/>
+	<Message key="Enter read quantity." description="Enter read quantity."/>
+	<Message key="Enter the write address." description="Enter the write address."/>
+	<Message key="Enter register values." description="Enter register values."/>
+	<Message key="Add sub-requests." description="Add sub-requests."/>
+	<Message key="Save to binary file" description="Command: Save to binary file" value="Save to Binary File" />
+	<Message key="Save to file" description="Command: Save to file" value="Save to File"/>
+	<Message key="Load from file" description="Command: Load from file" value="Load from File"/>
+	<Message key="Can't create file!" description="Error creating file" value="Error creating file"/>
+	<Message key="Can't load from file!" description="Error loading file" value="Error loading from file!"/>
+
+	<Message key="TextFilesFilter" description="Text files filter" value="Text Files|*.txt|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	<Message key="BinaryFilesFilter" description="Binary files filter" value="Binary Files|*.bin|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+	<Message key="CsvFilesFilter" description="CSV files filter" value="Comma Separated File (*.csv) |*.csv|">
+		<Validate rule="OpenFileDialogFilter" />
+	</Message>
+
+	<Message key="File is too big! (1024 bytes maximum)" description="Files is too big" value="File is too big! (1,024 bytes maximum)"/>
+	<Message key="Wrong file format!" description="Wrong file format!" value="Wrong file format! Only .txt and .bin files are supported."/>
+	<Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" description="Data size exceeds allowed MODBUS PDU size"/>
+	<Message key="ModbusRequestHeader" description="MODBUS Packet Header" value="Packet {n}: MODBUS Request (packet size: {packet size}, data size: {data size}), {time}\n">
+		<Param name="n"/>
+		<Param name="packet size"/>
+		<Param name="data size"/>
+		<Param name="time"/>
+	</Message>
+
+	<Message key="ModbusResponseHeader" description="MODBUS Response Header" value="Packet {n}: MODBUS Response (packet size: {packet size}, data size: {data size}), {time}\n">
+		<Param name="n"/>
+		<Param name="packet size"/>
+		<Param name="data size"/>
+		<Param name="time"/>
+	</Message>
+
+	<Enumeration key="Diagnostics" description="Diagnostics">
+		<Item text="Return Query Data"/>
+		<Item text="Restart Communications Option"/>
+		<Item text="Return Diagnostic Register"/>
+		<Item text="Change ASCII Input Delimiter"/>
+		<Item text="Force Listen Only Mode"/>
+		<Item text="Clear Counters and Diagnostic Register" value="10"/>
+		<Item text="Return Bus Message Count"/>
+		<Item text="Return Bus Communication Error Count"/>
+		<Item text="Return Bus Exception Error Count"/>
+		<Item text="Return Slave Message Count"/>
+		<Item text="Return Slave No Response Count"/>
+		<Item text="Return Slave NAK Count"/>
+		<Item text="Return Slave Busy Count"/>
+		<Item text="Return Bus Character Overrun Count"/>
+		<Item text="Clear Overrun Counter and Flag" value="20"/>
+		<Item text="RESERVED"/>
+	</Enumeration>
+	<Message key="Number of Outputs" description="Number of Outputs"/>
+	<Message key="File Number" description="File Number"/>
+	<Message key="Record Number" description="Record Number"/>
+	<Message key="RequestN" description="Request N" value="Request {n}">
+		<Param	name="n"/>
+	</Message>
+	<Message key="OK - Return Query Data" description="Status: OK - Return Query Data"/>
+
+	<Enumeration key="ResultCode" description="Result code">
+		<Item text="OK - Return Query Data"/>
+		<Item text="OK - Restart Communications Option"/>
+		<Item text="OK - Return Diagnostic Register"/>
+		<Item text="OK - Change ASCII Input Delimiter"/>
+		<Item text="OK - Force Listen Only Mode"/>
+		<Item text="OK - Clear Counters and Diagnostic Register" value="10"/>
+		<Item text="OK - Return Bus Message Count"/>
+		<Item text="OK - Return Bus Communication Error Count"/>
+		<Item text="OK - Return Bus Exception Error Count"/>
+		<Item text="OK - Return Slave Message Count"/>
+		<Item text="OK - Return Slave No Response Count"/>
+		<Item text="OK - Return Slave NAK Count"/>
+		<Item text="OK - Return Slave Busy Count"/>
+		<Item text="OK - Return Bus Character Overrun Count"/>
+		<Item text="OK - Unknown function code" value="20"/>
+	</Enumeration>
+
+	<Message key="Response Data Length" description="Response Data Length"/>
+	<Message key="No coils" description="No coils specified" value="No coils specified."/>
+	<Message key="Create a terminal session and select it in Session list box." description="Create a terminal session and select it in Session list box"/>
+	<Message key="Set parameters" description="Parameters not set" value="Parameters not set"/>
+	<Message key="Enter the starting address." description="Enter the starting address"/>
+	<Message key="Enter the number of coils." description="Enter the number of coils"/>
+	<Message key="No registers" description="No registers specified" value="No registers specified"/>
+	<Message key="This will delete all requests. Do you want to continue?" description="Prompt: This will delete all requests. Do you want to continue?"/>
+	<Message key="Check all" description="Command: Check All" value="Check All"/>
+	<Message key="Uncheck all" description="Command: Uncheck All" value="Uncheck All"/>
+	<Message key="Invert all" description="Command: Invert All" value="Invert All"/>
+	<Message key="File is too big! (10000 bytes maximum)" description="Files larger than 10,000 bytes are not supported" value="Files larger than 10,000 bytes are not supported"/>
+	<Message key="Too many items!" description="Too many items" value="Too many items"/>
+	<Message key="Expired" description="Expired message" value="Expired. Upgrade to the {edition} Edition to use this component.">
+		<Param name="edition"/>
+	</Message>
+	<Message key="Show Data" description="Command: Show Data"/>
+
+	<Message key="HelpNotify1" description="" value="Fast data entering:\r\n1. Select the first item in list.\r\n2. Enter register value into the Register Value edit box.\r\n3. Press the ENTER key. The highlighted register's value will be updated and the next register becomes active. Repeat steps 2 and 3 for each remaining register."/>
+
+	<Message key="Wrong file number" description="Invalid file number" value="Invalid file number"/>
+	<Message key="Wrong record number" description="Invalid record number" value="Invalid record number"/>
+	<Message key="Wrong register length" description="Invalid register length" value="Invalid register length"/>
+
+	<Message key="Output Data" description="Output Data"/>
+	<Message key="EventValue" description="Event value" value="Event {n} = {value}">
+		<Param	name="n"/>
+		<Param	name="value"/>
+	</Message>
+	<Message key="FIFOValue" description="FIFO Value" value="FIFO Value {n} = {value}">
+		<Param	name="n"/>
+		<Param	name="value"/>
+	</Message>
+	<Message key="The Status value is not entered" description="The Status value is not entered"/>
+	<Message key="Wrong Status value" description="Invalid status value" value="Invalid status value"/>
+	<Message key="No events entered" description="No events entered"/>
+	<Message key="Response can not contain more than 65535 events" description="Response can not contain more than 65535 events" value="Response can not contain more than 65,535 events"/>
+	<Message key="Entered data size is too big. It can not be more than 65535 bytes" description="Entered data size is too big. It can not be more than 65535 bytes" value="Entered data size is too big. It can not be more than 65,535 bytes."/>
+	<Message key="No registers entered" description="No registers entered"/>
+	<Message key="No values entered" description="No values entered"/>
+	<Message key="Response can not contain more than 31 FIFO register values" description="Response can not contain more than 31 FIFO register values"/>
+	<Message key="Data size is too big" description="Data size is too big"/>
+	<Message key="This response can not be parsed because field sizes are device specific" description="This response can not be parsed because field sizes are device specific"/>
+	<Message key="Run Indicator Status can not be more than 255" description="Run Indicator Status can not be more than 255"/>
+	<Message key="Select function" description="Select function"/>
+	<Message key="Cant parse packet" description="Cannot parse packet" value="Packet {n}: Error parsing packet">
+		<Param name="n"/>
+	</Message>
+	<Message key="Exception Status" description="Exception Status"/>
+	<Message key="Exception Code" description="Exception Code"/>
+	<Message key="Error Notification" description="Error Notification"/>
+	<Enumeration key="MODBUS Modes" description="MODBUS Modes">
+		<Item text="ASCII Mode"/>
+		<Item text="RTU Mode"/>
+	</Enumeration>
+	<Message key="Mode" description="Mode"/>
+
+	<Enumeration key="ModError" description="Filters: Modbus Error">
+		<Item text="Display error notification"/>
+	</Enumeration>
+
+	<Enumeration key="ModbusViewColors" description="Colors: MODBUS View (Legacy)">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Header 2"/>
+		<Item text="Header 3"/>
+	</Enumeration>
+	
+</Definition>

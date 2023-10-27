@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="subclass_vc" description="Option: Treat request as Video Control (VC) requests. Otherwise - treat as Video Streaming (VS) requests." value="Treat request as Video Control (VC) requests. Otherwise - treat as Video Streaming (VS) requests."/>
+
+  <Message key="USB Video Visualizer" description="Settings group: USB Video Visualizer"/>
+
+  <Enumeration key="VideoConverter" description="Video View (Legacy)">
+    <Item text="Video View (Legacy)"/>
+    <Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.1) compliant device."/>
+  </Enumeration>
+
+	<Message key="Video View" description="Title: Video View" value="Video View"/>
+
+	<Message key="UsbVideoHeader" description="Header: USB audio packet header no status" value="{ordinal}: {header} ({dir}), {time}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+	</Message>
+
+	<Message key="Device Power Mode Control" description="Field: Device Power Mode Control" value="Device Power Mode Control"/>
+
+	<Enumeration key="UsbVideoSubclasses" description="USB Video Subclasses list">
+		<Item text="Video Control (VC)"/>
+		<Item text="Video Streaming (VS)"/>		
+	</Enumeration>
+	
+	<Message key="Commands" description="Filter page: Commands"/>
+	<Message key="Subclasses" description="Filter page: Subclasses"/>
+	<Message key="VC Descriptors" description="Filter page: Descriptors (VideoControl subclass)" value="Descriptors (VideoControl subclass)"/>
+	<Message key="VS Descriptors" description="Filter page: Descriptors (VideoStreaming subclass)" value="Descriptors (VideoStreaming subclass)"/>
+
+	<Enumeration key="CommandsCat" description="Filters: Commands">
+		<Item text="Set Cur"/>
+		<Item text="Get Cur"/>
+		<Item text="Get Min"/>
+		<Item text="Get Max"/>
+		<Item text="Get Res"/>
+		<Item text="Get Len"/>
+		<Item text="Get Info"/>
+		<Item text="Get Def"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoRequestSubtypes" description="USB Video Request Subtypes list">
+		<Item text="Unknown\n"/>
+		<Item text="Set Cur\n"/>
+		<Item text="Get Cur\n"/>
+		<Item text="Get Min\n"/>
+		<Item text="Get Max\n"/>
+		<Item text="Get Res\n"/>
+		<Item text="Get Len\n"/>
+		<Item text="Get Info\n"/>
+	</Enumeration>
+
+	<Message key="Request Error Code" description="Value: Request Error Code" value="Request Error Code"/>
+
+	<Enumeration key="UsbVideoErrorCodes" description="USB Video Error Codes list">
+		<Item text="No error"/>
+		<Item text="Not ready"/>
+		<Item text="Wrong State"/>
+		<Item text="Power"/>
+		<Item text="Out of Range"/>
+		<Item text="Invalid Unit"/>
+		<Item text="Invalid Control"/>
+		<Item text="Invalid Request"/>
+	</Enumeration>
+	<Message key="Code" description="Field: Code" value="Code"/>
+	<Message key="Power Mode" description="Field: Power Mode" value="Power Mode"/>
+	<Message key="Full Power Mode" description="Value: Full Power Mode" value="Full Power Mode"/>
+	<Message key="Device Dependent Power Mode" description="Value: Device Dependent Power Mode" value="Device Dependent Power Mode"/>
+	<!--IDS_STRING1039          "Full Power Mode\n"
+	IDS_STRING1040          "Device Dependent Power Mode\n"-->
+	
+	<Enumeration key="SubclassesCat" description="Filters: Subclasses">
+		<Item text="Video Control (VC)"/>
+		<Item text="Video Streaming (VS)"/>
+	</Enumeration>
+
+	<Enumeration key="VCDescriptorsCat" description="Filters: VC Descriptors">
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Output Terminal Descriptor"/>
+		<Item text="Selector Unit Descriptor"/>
+		<Item text="Processing Unit Descriptor"/>
+		<Item text="Extension Unit Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="VSDescriptorsCat" description="Filters: VS Descriptors">
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Still Image Frame Descriptor"/>
+		<Item text="Uncompressed Format Descriptor"/>
+		<Item text="Uncompressed Frame Descriptor"/>
+		<Item text="MJPEG Format Descriptor"/>
+		<Item text="MJPEG Frame Descriptor"/>
+		<Item text="MPEG2TS Format Descriptor"/>
+		<Item text="DV Format Descriptor"/>
+		<Item text="Color Format Descriptor"/>
+		<Item text="Frame Based Format Descriptor"/>
+		<Item text="Frame Based Format Frame Descriptor"/>
+		<Item text="Stream Based Format Descriptor"/>
+	</Enumeration>
+
+	<Message key="Camera Terminal" description="Field: Camera Terminal" value="Camera Terminal"/>
+	<Message key="Camera Terminal Control" description="Value: Camera Terminal Control" value="Camera Terminal Control"/>
+	<Message key="Scanning Mode" description="Field: Scanning Mode" value="Scanning Mode"/>
+
+	<Enumeration key="UsbVideoScanningModes" description="USB Video Scanning Modes list">
+		<Item text="Interlaced"/>
+		<Item text="Progressive"/>
+	</Enumeration>
+
+	<Message key="Exposure Mode" description="Field: Exposure Mode" value="Exposure Mode"/>
+
+	<Enumeration key="UsbVideoExposureModes" description="USB Video Exposure Modes list">
+		<Item text="Manual Mode"/>
+		<Item text="Auto Mode"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoPriorityModes" description="USB Video Priority Modes list">
+		<Item text="Shutter Priority Mode"/>
+		<Item text="Apperture Priority Mode"/>
+	</Enumeration>
+
+	<Message key="Priority" description="Field: Priority" value="Priority"/>
+	<Message key="Auto Exposure Priority" description="Field: Auto Exposure Priority" value="Auto Exposure Priority"/>
+	<Message key="Exposure Time Absolute" description="Field: Exposure Time" value="Exposure Time (Absolute) (in 0.0001 sec)"/>
+	<Message key="Exposure Time Relative" description="Field: Exposure Time Relative" value="Exposure Time (Relative) (in steps)"/>
+	<Message key="Focus (Absolute)" description="Field: Focus (Absolute)" value="Focus (Absolute)"/>
+	<Message key="Speed" description="Field: Speed" value="Speed"/>
+	<Message key="Focus (Relative)" description="Field: Focus (Relative)" value="Focus (Relative)"/>
+
+	<Enumeration key="UsbVideoFocusModes" description="USB Video Focus Modes list">
+		<Item text="Stop"/>
+		<Item text="Focus Near Direction"/>
+		<Item text="Focus Infinite Direction"/>
+	</Enumeration>
+
+	<Message key="Auto Focus" description="Field: Auto Focus" value="Auto Focus"/>
+	<Message key="Absolute Iris" description="Field: Absolute Iris" value="Absolute Iris"/>
+	<Message key="Relative Iris" description="Field: Relative Iris" value="Relative Iris"/>
+
+	<Enumeration key="UsbVideoIrisModes" description="USB Video Iris Modes list">
+		<Item text="Default"/>
+		<Item text="Iris is Opened by 1 Step"/>
+		<Item text="Iris is Closed by 1 Step"/>
+	</Enumeration>
+
+	<Message key="Objective Focal Length" description="Field: Objective Focal Length" value="Objective Focal Length"/>
+
+	<Enumeration key="UsbVideoZoomModes" description="USB Video Zoom Modes list">
+		<Item text="Stop"/>
+		<Item text="Moving to Telephoto Direction"/>
+		<Item text="Moving to Wide-Angle Direction"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoSwitchModes" description="USB Video Switch Modes list">
+		<Item text="OFF"/>
+		<Item text="ON"/>
+	</Enumeration>
+
+	<Message key="Digital Zoom" description="Field: Digital Zoom" value="Digital Zoom"/>
+	<Message key="Zoom" description="Field: Zoom" value="Zoom"/>
+	<Message key="Pan (Absoute)" description="Field: Pan (Absoute)" value="Pan (Absoute)"/>
+	<Message key="Tilt (Absolute)" description="Field: Tilt (Absolute)" value="Tilt (Absolute)"/>
+
+	<Enumeration key="UsbVideoPanRelativeModes" description="USB Video Pan Modes list">
+		<Item text="Stop"/>
+		<Item text="Moving to Clockwise Direction"/>
+		<Item text="Moving to Counter Clockwise Direction"/>
+	</Enumeration>
+
+	<Message key="Pan Relative" description="Field: Pan Relative" value="Pan Relative"/>
+
+	<Message key="Pan Speed" description="Field: Pan Speed" value="Pan Speed"/>
+	<Message key="Tilt Relative" description="Field: Tilt Relative" value="Tilt Relative"/>
+
+	<Enumeration key="UsbVideoTiltModes" description="USB Video Tilt Modes list">
+		<Item text="Stop"/>
+		<Item text="Point The Imaging Plane Up"/>
+		<Item text="Point The Imaging Plane Down"/>
+	</Enumeration>
+
+	<Message key="Tilt Speed" description="Field: Tilt Speed" value="Tilt Speed"/>
+	<Message key="Roll Absolute" description="Field: Roll Absolute" value="Roll Absolute"/>
+	<Message key="Roll Relative" description="Field: Roll Absolute" value="Roll Absolute"/>
+
+	<Enumeration key="UsbVideoPrivacyModes" description="USB Video Privacy Modes list">
+		<Item text="Open"/>
+		<Item text="Close"/>
+	</Enumeration>
+	<Message key="Privacy" description="Field: Privacy" value="Privacy"/>
+	<!--IDS_STRING1093          "Selector Unit Control"
+	IDS_STRING1094          "Selector Unit:"-->
+	<Message key="Selector" description="Field: Selector" value="Selector"/>
+	<Message key="Processing Unit Control" description="Field: Processing Unit Control" value="Processing Unit Control"/>
+	<Message key="Processing Unit" description="Field: Processing Unit" value="Processing Unit"/>
+	<Message key="Brightness" description="Field: Brightness" value="Brightness"/>
+	<Message key="Contrast" description="Field: Contrast" value="Contrast"/>
+	<Message key="Gain" description="Field: Gain" value="Gain"/>
+	<Message key="Hue" description="Field: Hue" value="Hue"/>
+	<Message key="Hue Auto" description="Field: Hue Auto" value="Hue Auto"/>
+	<Message key="Saturation" description="Field: Saturation" value="Saturation"/>
+	<Message key="Sharpness" description="Field: Sharpness" value="Sharpness"/>
+	<Message key="Gamma" description="Field: Gamma" value="Gamma"/>
+	<Message key="White Balance Temperature" description="Field: White Balance Temperature" value="White Balance Temperature"/>
+	<Message key="White Balance Temperature Auto" description="Field: White Balance Temperature Auto" value="White Balance Temperature Auto"/>
+	<Message key="White Balance Component Auto" description="Field: White Balance Component Auto" value="White Balance Component Auto"/>
+	<Message key="Multiplier Step" description="Field: Multiplier Step" value="Multiplier Step"/>
+	<Message key="Multiplier Limit" description="Field: Multiplier Limit" value="Multiplier Limit"/>
+	<Message key="Status" description="Field: Status" value="Status"/>
+
+	<Enumeration key="UsbVideoStatusModes" description="USB Video Status list">
+		<Item text="Video Decoder Locked"/>
+		<Item text="Video Decoder Unlocked"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoStandardModes" description="USB Video Standards list">
+		<Item text="None"/>
+		<Item text="NTSC - 525/60"/>
+		<Item text="PAL - 625/50"/>
+		<Item text="SECAM - 625/50"/>
+		<Item text="NTSC - 625/50"/>
+		<Item text="PAL - 525/60"/>
+	</Enumeration>
+
+	<Message key="Video Standard" description="Field: Video Standard" value="Video Standard"/>
+	<Message key="White Balance Blue" description="Field: White Balance Blue" value="White Balance Blue"/>
+	<Message key="White Balance Red" description="Field: White Balance Red" value="White Balance Red"/>
+	<Message key="Power Line Frequency" description="Field: Power Line Frequency" value="Power Line Frequency"/>
+
+	<Enumeration key="UsbVideoFrequencyModes" description="USB Video Frequency list">
+		<Item text="Disabled"/>
+		<Item text="50 Hz"/>
+		<Item text="60 Hz"/>
+	</Enumeration>
+
+	<Message key="Extension Unit Control" description="Field: Extension Unit Control" value="Extension Unit Control"/>
+	<Message key="Hint (bitmap)" description="Field: Hint (bitmap)" value="Hint (bitmap)"/>
+	<Message key="Format Index" description="Field: Format Index" value="Format Index"/>
+	<Message key="Frame Index" description="Field: Frame Index" value="Frame Index"/>
+	<Message key="Frame Interval (in 100 ns)" description="Field: Frame Interval (in 100 ns)" value="Frame Interval (in 100 ns)"/>
+	<Message key="Key Frame Rate" description="Field: Key Frame Rate" value="Key Frame Rate"/>
+	<Message key="P Frame Rate" description="Field: P Frame Rate" value="P Frame Rate"/>
+	<Message key="Compression Quality" description="Field: Compression Quality" value="Compression Quality"/>
+	<Message key="Compression Window Size" description="Field: Compression Window Size" value="Compression Window Size"/>
+	<Message key="Delay" description="Field: Delay" value="Delay"/>
+	<Message key="Max Video Frame Size" description="Field: Max Video Frame Size" value="Max Video Frame Size"/>
+	<Message key="Max Payload Transfer Size" description="Field: Max Payload Transfer Size" value="Max Payload Transfer Size"/>
+	<!--IDS_STRING1142          "Clock Frequency:"
+	IDS_STRING1143          "Framing Info:"
+	IDS_STRING1144          "Preferred Version:"
+	IDS_STRING1145          "Min Version:"
+	IDS_STRING1146          "Max Version:"
+	IDS_STRING1147          "Frame ID is required in Payload Header:"-->
+	<!--IDS_STRING1150          "End of Frame (EOF) may be present in Payload Header:"-->
+	<Message key="Compression Index" description="Field: Compression Index" value="Compression Index"/>
+	<Message key="Trigger" description="Field: Trigger" value="Trigger"/>
+
+	<Enumeration key="UsbVideoTriggerModes" description="USB Video Triggers list">
+		<Item text="Normal Operation"/>
+		<Item text="Transmit Still Image"/>
+		<Item text="Transmit Still Image Via Dedicated Bulk Pipe"/>
+		<Item text="Abort Still Image Transmittion"/>
+	</Enumeration>
+	
+	<Message key="Generate Key Frame:" description="Field: Generate Key Frame" value="Generate Key Frame"/>
+
+	<Message key="Start Frame Segment" description="Field: Start Frame Segment" value="Start Frame Segment"/>
+	<Message key="End Frame Segment" description="Field: End Frame Segment" value="End Frame Segment"/>
+	<Message key="Stream Error Code" description="Field: Stream Error Code" value="Stream Error Code"/>
+
+	<Enumeration key="UsbVideoErrors" description="USB Video Errors list">
+		<Item text="No Error"/>
+		<Item text="Protected Content"/>
+		<Item text="Input Buffer Underrun"/>
+		<Item text="Data Discontinuity"/>
+		<Item text="Output Buffer Underrun"/>
+		<Item text="Output Buffer Overrun"/>
+		<Item text="Format Change"/>
+		<Item text="Still Image Capture Error"/>
+		<Item text="Unknown Error"/>
+	</Enumeration>
+	
+	<Message key="Probe Control/Commit Control" description="Field: Probe Control/Commit Control" value="Probe Control/Commit Control"/>
+	<Message key="Still Probe Control/ Still Commit Control" description="Field: Still Probe Control/ Still Commit Control" value="Still Probe Control/ Still Commit Control"/>
+	<Message key="Still Trigger Control" description="Field: Still Trigger Control" value="Still Trigger Control"/>
+	<Message key="Update Frame Segment Control" description="Field: Update Frame Segment Control" value="Update Frame Segment Control"/>
+	<Message key="Error Control" description="Field: Error Control" value="Error Control"/>
+
+	<Message key="Generate Key Frame Control:" description="Field: Generate Key Frame Control" value="Generate Key Frame Control"/>
+	<Message key="Synch Delay Control" description="Field: Synch Delay Control" value="Synch Delay Control"/>
+	<Message key="Video Specification Release Number" description="Field: Video Specification Release Number" value="Video Specification Release Number"/>
+	<Message key="Clock Frequency" description="Field: Clock Frequency" value="Clock Frequency"/>
+	<Message key="Terminal ID" description="Field: Terminal ID" value="Terminal ID"/>
+	<Message key="Associated Output Terminal" description="Field: Associated Output Terminal" value="Associated Output Terminal"/>
+	<Message key="Terminal Type" description="Field: Terminal Type" value="Terminal Type"/>
+	<Message key="Description (Index of String Descriptor)" description="Field: Description (Index of String Descriptor)" value="Description (Index of String Descriptor)"/>
+	<Message key="Source ID" description="Field: Source ID" value="Source ID"/>
+	<Message key="Unit ID" description="Field: Unit ID" value="Unit ID"/>
+	<Message key="Max Multiplier" description="Field: Max Multiplier" value="Max Multiplier"/>
+	<Message key="Controls" description="Field: Controls" value="Controls"/>
+	<Message key="GUID" description="Field: GUID" value="GUID"/>
+	<Message key="Number of Formats" description="Field: Number of Formats" value="Number of Formats"/>
+	<Message key="Endpoint Address" description="Field: Endpoint Address" value="Endpoint Address"/>
+	<Message key="Capabilities" description="Field: Capabilities" value="Capabilities"/>
+	<Message key="Still Capture Method" description="Field: Still Capture Method" value="Still Capture Method"/>
+	<Message key="Trigger Support" description="Field: Trigger Support" value="Trigger Support"/>
+	<Message key="Trigger Usage" description="Field: Trigger Usage" value="Trigger Usage"/>
+	<Message key="Width" description="Field: Width" value="Width"/>
+	<Message key="Height" description="Field: Height" value="Height"/>
+
+	<Message key="UsbVideoCompression" description="Field: Compression" value="Compression{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Color Primaries" description="Field: Color Primaries" value="Color Primaries"/>
+
+	<Enumeration key="UsbVideColorPrimaries" description="USB Video Color Primaries list">
+		<Item text="Reserved"/>
+		<Item text="BT.709,sRGB"/>
+		<Item text="BT.470-2 (M)"/>
+		<Item text="BT.470-2 (B,G)"/>
+		<Item text="SMPTE 170M"/>
+		<Item text="SMPTE 240M"/>
+	</Enumeration>
+
+	<Message key="Transfer Characteristics" description="Field: Transfer Characteristics" value="Transfer Characteristics"/>
+
+	<Enumeration key="UsbVideoTransferCharacteristics" description="USB Video Transfer Characteristics list">
+		<Item text="Reserved"/>
+		<Item text="BT.709"/>
+		<Item text="BT.470-2 (M)"/>
+		<Item text="BT.470-2 (B,G)"/>
+		<Item text="SMTPE 170M"/>
+		<Item text="SMTPE 240M"/>
+		<Item text="Linear (V=Lc)"/>
+		<Item text="sRGB (very similar to BT.709)"/>
+	</Enumeration>
+
+	<Message key="Matrix Coefficients" description="Field: Matrix Coefficients" value="Matrix Coefficients"/>
+
+	<Enumeration key="UsbVideoMatrixCoefficients" description="USB Video Matrix Coefficients list">
+		<Item text="Reserved"/>
+		<Item text="BT.709"/>
+		<Item text="FCC"/>
+		<Item text="Bt.470-2 (B,G)"/>
+		<Item text="SMPTE 170M (BT.601,default)"/>
+		<Item text="SMPTE 240M"/>
+	</Enumeration>
+
+	<Message key="Number of Frame Descriptors" description="Field: Number of Frame Descriptors" value="Number of Frame Descriptors"/>
+	<Message key="Format GUID" description="Field: Format GUID" value="Format GUID"/>
+	<Message key="Bits Per Pixel" description="Field: Bits Per Pixel" value="Bits Per Pixel"/>
+	<Message key="Optimum Frame Index" description="Field: Optimum Frame Index" value="Optimum Frame Index"/>
+	<Message key="Aspect Ratio X" description="Field: Aspect Ratio X" value="Aspect Ratio X"/>
+	<Message key="Aspect Ratio Y" description="Field: Aspect Ratio Y" value="Aspect Ratio Y"/>
+	<Message key="Interlace Flags" description="Field: Interlace Flags" value="Interlace Flags"/>
+	<Message key="Interface Stream Or Variable" description="Field: Interface Stream Or Variable" value="Interface Stream Or Variable"/>
+	<Message key="Fields Per Frame" description="Field: Fields Per Frame" value="Fields Per Frame"/>
+
+	<Enumeration key="UsbVideoFieldsPerFrame" description="USB Video Fields Per Frame list">
+		<Item text="1 field"/>
+		<Item text="2 fields"/>
+	</Enumeration>
+	<Message key="Field 1 Is First" description="Field: Field 1 Is First" value="Field 1 Is First"/>
+	<Message key="Min Bit Rate" description="Field: Min Bit Rate" value="Min Bit Rate"/>
+	<Message key="Max Bit Rate" description="Field: Max Bit Rate" value="Max Bit Rate"/>
+	<Message key="Max Video Frame Buffer Size" description="Field: Max Video Frame Buffer Size" value="Max Video Frame Buffer Size"/>
+	<Message key="Default Frame Interval" description="Field: Default Frame Interval" value="Default Frame Interval"/>
+	<Message key="Frame Interval Type" description="Field: Frame Interval Type" value="Frame Interval Type"/>
+	<Message key="Min Frame Interval (in 100 ns)" description="Field: Min Frame Interval (in 100 ns)" value="Min Frame Interval (in 100 ns)"/>
+	<Message key="Max Frame Interval (in 100 ns)" description="Field: Max Frame Interval (in 100 ns)" value="Max Frame Interval (in 100 ns)"/>
+	<Message key="Frame Interval Step (in 100 ns)" description="Field: Frame Interval Step (in 100 ns)" value="Frame Interval Step (in 100 ns)"/>
+	<Message key="FrameIntervalFmt" description="Field: Frame Interval" value="Frame Interval{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Data Offset" description="Field: Data Offset" value="Data Offset"/>
+	<Message key="Length of TSP Packet" description="Field: Length of TSP Packet" value="Length of TSP Packet"/>
+	<Message key="Length of Transport Stride" description="Field: Length of Transport Stride" value="Length of Transport Stride"/>
+	<Message key="Format of Stride Data" description="Field: Format of Stride Data" value="Format of Stride Data"/>
+	<Message key="Format Type" description="Field: Format Type" value="Format Type"/>
+
+	<Enumeration key="UsbVideoFormatType" description="USB Video Format Types list">
+		<Item text="SD-DV"/>
+		<Item text="SDL-DV"/>
+		<Item text="HD-DV"/>
+		<Item text="Reserved"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoFormatRefresh" description="USB Video Format Refresh Rates list">
+		<Item text="50 Hz"/>
+		<Item text="60 Hz"/>
+	</Enumeration>
+	<Message key="Variable Size" description="Field: Variable Size" value="Variable Size"/>
+	<Message key="Bytes Per Line" description="Field: Bytes Per Line" value="Bytes Per Line"/>
+	<Message key="Packet Length" description="Field: Packet Length" value="Packet Length"/>
+	<Message key="Transport Control" description="Field: Transport Control" value="Transport Control"/>
+
+	<Message key="Absolute Track Number Control" description="Field: Absolute Track Number Control" value="Absolute Track Number Control"/>
+	<Message key="Media Information" description="Field: Media Information" value="Media Information"/>
+	<Message key="Time Code Information" description="Field: Time Code Information" value="Time Code Information"/>
+	<Message key="Transport Modes Supported" description="Field: Transport Modes Supported" value="Transport Modes Supported"/>
+
+	<Enumeration key="UsbVideoTerminalOptions" description="USB Video Terminal Options list">
+		<Item text="Play Forward"/>
+		<Item text="Pause"/>
+		<Item text="Rewind"/>
+		<Item text="Fast Forward"/>
+		<Item text="High Speed Rewind"/>
+		<Item text="Stop"/>
+		<Item text="Eject"/>
+		<Item text="Play Next Frame"/>
+		<Item text="Play Slowest Forward"/>
+		<Item text="Play Slow Forward 4"/>
+		<Item text="Play Slow Forward 3"/>
+		<Item text="Play Slow Forward 2"/>
+		<Item text="Play Slow Forward 1"/>
+		<Item text="Play X1"/>
+		<Item text="Play Fast Forward 1"/>
+		<Item text="Play Fast Forward 2"/>
+		<Item text="Play Fast Forward 3"/>
+		<Item text="Play Fast Forward 4"/>
+		<Item text="Play Fastest Forward"/>
+		<Item text="Play Previous Frame"/>
+		<Item text="Play Slowest Reverse"/>
+		<Item text="Play Slow Reverse 4"/>
+		<Item text="Play Slow Reverse 3"/>
+		<Item text="Play Slow Reverse 2"/>
+		<Item text="Play Slow Reverse 1"/>
+		<Item text="Play X1 Reverse"/>
+		<Item text="Play Fast Reverse 1"/>
+		<Item text="Play Fast Reverse 2"/>
+		<Item text="Play Fast Reverse 3"/>
+		<Item text="Play Fast Reverse 4"/>
+		<Item text="Play Fastest Reverse"/>
+		<Item text="Record StateStart"/>
+		<Item text="Record Pause"/>
+		<Item text="Reverse Pause"/>
+	</Enumeration>
+
+	<Message key="UsbVideoDescriptorHeader" description="Header: USB video descriptor packet header" value="{ordinal}: Descriptor:  '{header}' ({dir}), {time}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+	</Message>
+
+	<Message key="Usb Video Device Detected." description="Notifcation: Usb Video Device Detected." value="Usb Video Device Detected."/>
+
+	<Enumeration key="UsbVideoDescriptors1" description="USB Video Control Descriptors list">
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Output Terminal Descriptor"/>
+		<Item text="Selector Unit Descriptor"/>
+		<Item text="Processing Unit Descriptor"/>
+		<Item text="Extension Unit Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoDescriptors2" description="USB Video Streaming Descriptors list">
+		<Item text="Still Image Frame Descriptor"/>
+		<Item text="Uncompressed Format Descriptor"/>
+		<Item text="Uncompressed Frame Descriptor"/>
+		<Item text="MJPEG Format Descriptor"/>
+		<Item text="MJPEG Frame Descriptor"/>
+		<Item text="MPEG2TS Format Descriptor"/>
+		<Item text="DV Format Descriptor"/>
+		<Item text="Color Format Descriptor"/>
+		<Item text="Frame Based Format Descriptor"/>
+		<Item text="Frame Based Format Frame Descriptor"/>
+		<Item text="Stream Based Format Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbVideoColors" description="Colors: USB Video View">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Header 2"/>
+		<Item text="Header 3"/>
+	</Enumeration>
+
+	<Enumeration key="NewVideoViewConverter" description="New Video View Converter">
+		<Item text="Video View"/>
+		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.1) compliant device."/>
+	</Enumeration>
+	
+</Definition>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="PacketBindException" description="Exception calling process() function" value="Exception {exception} at {file}({line}) {message}">
+    <Param name="exception" />
+    <Param name="file"/>
+    <Param name="line"/>
+    <Param name="message"/>
+  </Message>
+
+  <Message key="PrepareException" description="Exception calling prepare() function" value="Exception {exception} at {file}({line}) {message}">
+    <Param name="exception" />
+    <Param name="file"/>
+    <Param name="line"/>
+    <Param name="message"/>
+  </Message>
+
+  <Message key="BindError" description="Error initializing custom visualizer" value="Error initializing custom visualizer &quot;{visname}&quot;: {message}{has location?} at {line}:{col}{?has location}">
+    <Param name="visname"/>
+    <Param name="message"/>
+    <Param name="has location" format="?"/>
+    <Param name="line"/>
+    <Param name="col"/>
+  </Message>
+
+  <Message key="OpenError" description="Error loading custom visualizer definition" value="Error loading custom visualizer definition file: {exception} ({code}).">
+    <Param name="exception" />
+    <Param name="code" format="ub016x"/>
+  </Message>
+
+  <Message key="NoSchemesDefined" description="No schemes defined" value="Custom visualizer does not define any schemes"/>
+
+  <Enumeration key="CustomConverter" description="Custom visualizer">
+    <Item text="Custom View"/>
+    <Item text="Custom View Visualizer allows its text output to be fully configured."/>
+  </Enumeration>
+
+  <Message key="Empty" description="Empty" value="&lt;Empty&gt;"/>
+
+  <Message key="BadStructureFile" description="Error obtaining binding host" value="Error obtaining binding host."/>
+  <Message key="CantCreateVisualizer" description="Error creating visualizer" value="Error creating visualizer."/>
+
+  <Message key="CustomVisualizerName" description="Custom Visualizer Name" value="Custom ({name})">
+    <Param name="name"/>
+  </Message>
+
+  <Message key="TextFileFilter" description="Text files filter string" value="Text files|*.txt|HTML files|*.html|" revision="1"/>
+  <Message key="Data Conversion" description="Data conversion operation name" value="Converting Data"/>
+  <Message key="Find Operation" description="Find operation" value="Finding text"/>
+
+  <Message key="ExportHeader" description="Exporting Data" value="Exporting Data"/>
+  <Message key="CopyHeader" description="Copying Data" value="Copying Data"/>
+  
+  <Enumeration key="ExportError" description="Export Error">
+    <Item text="Error creating destination file: {error_text} ({error_code})">
+      <Param name="error_code" format="b016x"/>
+      <Param name="error_text"/>
+    </Item>
+    <Item text="Error writing data: {error_text} ({error_code})">
+      <Param name="error_code" format="b016x"/>
+      <Param name="error_text"/>
+    </Item>
+    <Item text="Error initializing Clipboard: {error_text} ({error_code})">
+      <Param name="error_code" format="b016x"/>
+      <Param name="error_text"/>
+    </Item>
+  </Enumeration>
+
+  <Message key="Visualizer template name expected" description="Error message: Visualizer template name expected"/>
+
+  <Enumeration key="EditCopyAs" description="Command: EditCopyAs">
+    <Item text="Copy As"/>
+    <Item text="Copy text with special formatting"/>
+  </Enumeration>
+
+  <Enumeration key="EditCopyHtml" description="Command: EditCopyHtml">
+    <Item text="Html"/>
+    <Item text="Copy text as html"/>
+  </Enumeration>
+
+	<Enumeration key="Options" description="Command group: Options">
+		<Item text="&amp;Options"/>
+		<Item text="Display and change visualizer options"/>
+	</Enumeration>
+
+	<Enumeration key="Colors" description="Command group: Colors">
+		<Item text="&amp;Colors"/>
+		<Item text="Change visualizer color schemes"/>
+	</Enumeration>
+
+	<Message key="SelectOptionsScheme" description="Load options scheme" value="Load options scheme: &quot;{scheme}&quot;">
+		<Param name="scheme"/>
+	</Message>
+
+	<Message key="SelectColorsScheme" description="Load coloring scheme" value="Load coloring scheme: &quot;{scheme}&quot;">
+		<Param name="scheme"/>
+	</Message>
+
+</Definition>

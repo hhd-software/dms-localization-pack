@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="LampWindowNotification" description="Option: Line View visualizer position notification" value="Line View visualizer position notification"/>
+
+  <Enumeration key="CellConverter" description="Raw Data View">
+    <Item text="Raw Data View"/>
+    <Item text="Raw Data View visualizer displays raw packet data in two contiguous streams (input and output). Provides flexible visual and layout customization."/>
+  </Enumeration>
+
+  <Enumeration key="ConsoleConverter" description="Console Converter">
+    <Item text="Console View (Legacy)"/>
+    <Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols. This is a legacy data visualizer."/>
+  </Enumeration>
+  <Enumeration key="DataConverter" description="Data Converter">
+    <Item text="Data View"/>
+    <Item text="Data View displays data in two separate windows. First window shows the data received from the device while the second window shows data sent to the device."/>
+  </Enumeration>
+
+  <Enumeration key="LineConverter" description="Line View">
+    <Item text="Line View"/>
+    <Item text="Line View displays the state of all modem control lines."/>
+  </Enumeration>
+
+  <Enumeration key="RequestConverter" description="Request View">
+    <Item text="Request View (Legacy)"/>
+    <Item text="Request View decodes all data packets and control requests sent to and received from the serial device. This is a legacy data visualizer."/>
+  </Enumeration>
+
+  <Enumeration key="NewRequestViewConverter" description="New Request View converter">
+    <Item text="Request View"/>
+    <Item text="Request View decodes all data packets and control requests sent to and received from the serial device."/>
+  </Enumeration>
+
+  <Enumeration key="NewConsoleConverter" description="New Console View converter">
+    <Item text="Console View"/>
+    <Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols."/>
+  </Enumeration>
+
+  <Enumeration key="StructureConverter" description="Structure Converter">
+    <Item text="Structure View"/>
+    <Item text="Structure View decodes all serial packet data using the protocol definitions stored in the product or provided by the user."/>
+  </Enumeration>
+
+  <Enumeration key="TableConverter" description="Table Converter">
+    <Item text="Packet View"/>
+    <Item text="Packet View displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
+  </Enumeration>
+
+  <Message key="Error" description="Error title"/>
+
+  <Enumeration key="DataRepeater" description="Data Repeater">
+    <Item text="Data Repeater"/>
+    <Item text="Data Repeater echoes monitored serial data to the physical serial port or ports. It may be added to a serial monitoring session or serial log playback session."/>
+  </Enumeration>
+
+  <!-- Serial Repeater -->
+  <Message key="RepeaterSkip" description="Skip packets option" value="Do not send"/>
+
+	<Message key="Basic" description="Basic"/>
+	<Message key="Complete" description="Complete"/>
+	<Message key="PnP Event" description="PnP Event"/>
+	<Message key="The device has just been connected to the system." description="The device has just been connected to the system"/>
+	<Message key="The device has been disconnected." description="The device has been disconnected"/>
+	<Message key="PacketHeader" description="Packet header" value="{n}: {header} ({up?}UP{|up}DOWN{?up}), {time} ({device number}. Device: {device name})\n">
+		<Param name="n"/>
+		<Param name="header"/>
+		<Param name="up" format="?"/>
+		<Param name="time"/>
+		<Param name="device number"/>
+		<Param name="device name"/>
+	</Message>
+
+	<Enumeration key="RequestType" description="Request Type">
+        <Item text="Read Request"/>
+        <Item text="Write Request"/>
+        <Item text="Close Request"/>
+		<Item text="Create Request"/>
+		<Item text="I/O Request"/>
+	</Enumeration>
+
+	<Message key="Reads" description="Data View Part: Reads"/>
+	<Message key="Writes" description="Data View Part: Writes"/>
+	<Message key="Buffer size" description="Buffer size"/>
+	<Message key="bytes" description="bytes"/>
+
+	<Message key="PnP Event: Connect" description="PnP Event: Connect"/>
+	<Message key="PnP Event: Disconnect" description="PnP Event: Disconnect"/>
+
+	<Enumeration key="LineViewNotification" description="Line View Notification">
+		<Item text="Line View"/>
+		<Item text="The Line View visualizer displays its output in this window. It displays the state of modem lines for the currently monitored serial device."></Item>
+	</Enumeration>
+
+	<Message key="ProcessOpen" description="Device open request" value="Process {pid} ({has name?}{name}{|has name}&lt;Unable to retrieve process name&gt;{?has name}) attempted to open the device.">
+		<Param name="pid" format="b016x"/>
+		<Param name="has name" format="?"/>
+		<Param name="name"/>
+	</Message>
+
+	<Message key="ProcessCreate" description="Device open request" value="Process {pid} ({has name?}{name}{|has name}&lt;Unable to retrieve process name&gt;{?has name}) create request status: {status}">
+		<Param name="pid" format="b016x"/>
+		<Param name="has name" format="?"/>
+		<Param name="name"/>
+		<Param name="status" format="b016x"/>
+	</Message>
+
+	<Message key="Status" description="Status" value="Status: {status}">
+		<Param name="status" format="b016x"/>
+	</Message>
+
+	<Enumeration key="PacketViewColumns" description="Packet View Columns">
+		<Item text="Ordinal"/>
+		<Item text="Time"/>
+		<Item text="Time Diff"/>
+		<Item text="Function"/>
+		<Item text="Direction"/>
+		<Item text="Status"/>
+		<Item text="Data"/>
+		<Item text="Data (Characters)"/>
+		<Item text="Device"/>
+	</Enumeration>
+
+	<Message key="Serial Structure View" description="Serial Structure View" value="{name} - Serial Structure View">
+		<Param name="name"/>
+	</Message>
+
+	<Message key="struct not found" description="Serial structure not found" value="'Serial' structure definition is not found. Structure View is unable to display any results."/>
+
+	<Enumeration key="SerialGeneralCat" description="Filters: Serial Request General">
+		<Item text="Display Empty Packets"/>
+		<Item text="Display read packets"/>
+		<Item text="Display write packets"/>
+	</Enumeration>
+	
+	<Enumeration key="SerialReqViewIOCat" description="Filters: Serial Request I/O">
+		<Item text="Clear performance info"/>
+		<Item text="Clear DTR"/>
+		<Item text="Clear RTS"/>
+		<Item text="Retrieve configuration size information"/>
+		<Item text="Retrieve Baud Rate"/>
+		<Item text="Retrieve special characters"/>
+		<Item text="Retrieve COM status"/>
+		<Item text="Retrieve DTR and RTS"/>
+		<Item text="Retrieve handshake information"/>
+		<Item text="Retrieve line control"/>
+		<Item text="Retrieve modem status"/>
+		<Item text="Retrieve COM properties"/>
+		<Item text="Retrieve performance info"/>
+		<Item text="Retrieve timeouts"/>
+		<Item text="Retrieve current event mask"/>
+		<Item text="Transmit immediate character"/>
+		<Item text="Line and modem status escape character"/>
+		<Item text="Purge requests"/>
+		<Item text="Reset COM port"/>
+		<Item text="Set baud rate"/>
+		<Item text="Switch off line control break"/>
+		<Item text="Switch on line control break"/>
+		<Item text="Set special characters"/>
+		<Item text="Set DTR"/>
+		<Item text="Set handshake information"/>
+		<Item text="Set line control"/>
+		<Item text="Set queue size"/>
+		<Item text="Set RTS"/>
+		<Item text="Set timeouts"/>
+		<Item text="Set current event mask"/>
+		<Item text="Emulate XOFF"/>
+		<Item text="Emulate XON"/>
+		<Item text="Wait for event"/>
+		<Item text="Set XOFF counter"/>
+	</Enumeration>
+
+	<Enumeration key="RequestViewColors" description="Colors: Serial Request View">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Read: Header"/>
+		<Item text="Read: Text"/>
+		<Item text="Read: Binary Data"/>
+		<Item text="Write: Header"/>
+		<Item text="Write: Text"/>
+		<Item text="Write: Binary Data"/>
+	</Enumeration>
+
+	<Enumeration key="ConcatPackets" description="Command: Join consequent requests">
+		<Item text="Join Consequent Requests (Serial)"/>
+		<Item text="Toggle joining of consequent requests of the same type. Applies to serial monitoring sessions."/>
+	</Enumeration>
+
+	<Message key="Serial Device Information" description="Tool window: Serial Device Information"/>	
+</Definition>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="Downloader" description="Downloader menu group">
+    <Item text="Downloader"/>
+    <Item text="Downloader commands"/>
+  </Enumeration>
+
+  <Enumeration key="ToolsCancelAll" description="Command: Tools.Cancel All Tasks">
+    <Item text="&amp;Cancel All Download Tasks"/>
+    <Item text="Cancel all download tasks"/>
+  </Enumeration>
+
+  <Enumeration key="DownloaderColumns" description="Downloader window columns">
+    <Item text="Task"/>
+    <Item text="Status"/>
+    <Item text="Size"/>
+  </Enumeration>
+
+	<Enumeration key="DownloadStatus" description="Download statuses">
+		<Item text="Unknown"/>
+		<Item text="Started"/>
+		<Item text="Detecting proxy"/>
+		<Item text="Resolving name"/>
+		<Item text="Connecting to server"/>
+		<Item text="Negotiating SSL"/>
+		<Item text="Sending headers"/>
+		<Item text="Sending content"/>
+		<Item text="Waiting for response"/>
+		<Item text="Receiving headers"/>
+		<Item text="Receiving content"/>
+		<Item text="Error: {error}">
+			<Param name="error"/>
+		</Item>
+	</Enumeration>
+
+	<Message key="ProgressStage" description="Download job progress" value="{stage}{has progress?}: {percent} %{|has progress}…{?has progress}">
+		<Param name="stage"/>
+		<Param name="has progress" format="?"/>
+		<Param name="percent"/>
+	</Message>
+
+  <Message key="Do you want to cancel all active download tasks?" description="Do you want to cancel all active download tasks?"/>
+
+	<!-- Proxy Page -->
+	<Message key="Proxy Page" description="Proxy Page title" value="Proxy"/>
+	<Message key='Select a proxy settings to be used by "Check For Updates":' description="Field: Select a proxy settings…" />
+	<Message key="Autodetect proxy settings" description="Choice: Autodetect proxy settings" />
+	<Message key="Do not use proxy" description="Choice: Do not use proxy" />
+	<Message key="Use the following proxy (HTTP):" description="Choice: Use the following proxy (HTTP)" />
+	<Message key="Settings" description="Group box: Settings" />
+	<Message key="Authentication" description="Group box: Authentication" />
+	<Message key="Authentication is not required" description="Choice: Authentication is not required" />
+	<Message key="Authenticate me as logged on user" description="Choice: Authenticate me as logged on user" />
+	<Message key="Authenticate me with the following credentials:" description="Choice: Authenticate me with the following credentials:" />
+	<Message key="User name:" description="Field: User name" />
+	<Message key="Password:" description="Field: Password" />
+	<Message key="Re-type password:" description="Field: Re-type password" />
+	<Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" description="Password storage message" value="(Device Monitoring Studio securely stores the entered password in your user account locally)"/>
+
+	<Message key="PasswordMismatch" value="Entered passwords must match." description="Entered passwords must match."/>
+
+	<Message key="Downloader settings" description="Settings: Downloader (Proxy)" value="Proxy Settings"/>
+
+	<Message key="toolbar.Downloader" description="Toolbar: Downloader" value="Downloader" />
+</Definition>

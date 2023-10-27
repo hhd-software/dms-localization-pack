@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <!-- File Open & Save -->
+  <Message key="AllFiles" description="All Files" value="All Files"/>
+  <Message key="AllSupported" description="All Supported" value="All Supported"/>
+
+  <Message key="WorkspaceFilter" description="Workspace filter" value="Workspaces"/>
+
+  <!-- Filtering -->
+  <Message key="InvalidScheme" description="Invalid scheme" value="Invalid scheme name or the scheme already exists." />
+  <!--  -->
+  <Message key="ActivatePane" description="Activate {pane} pane">
+    <Param name="pane"/>
+  </Message>
+  <!-- Commands -->
+  <Enumeration key="HelpCheckForUpdates" description="Command: HelpCheckForUpdates">
+    <Item text="&amp;Check for Updates"/>
+    <Item text="Check for updated version on-line."/>
+  </Enumeration>
+
+  <Enumeration key="MenuFile" description="Command group: File">
+    <Item text="&amp;File"/>
+    <Item text="File menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuNew" description="Command group: New">
+    <Item text="&amp;New"/>
+    <Item text="New menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuEdit" description="Command group: Edit">
+    <Item text="&amp;Edit"/>
+    <Item text="Edit menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuView" description="Command group: View">
+    <Item text="&amp;View"/>
+    <Item text="View menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuTools" description="Command group: Tools">
+    <Item text="&amp;Tools"/>
+    <Item text="Tools menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuWindow" description="Commmand group: Window">
+    <Item text="&amp;Window"/>
+    <Item text="Window menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuHelp" description="Command group: Help">
+    <Item text="&amp;Help"/>
+    <Item text="Help menu"/>
+  </Enumeration>
+
+  <Enumeration key="MenuToolWindows" description="Command group: Tool Windows">
+    <Item text="&amp;Tool Windows"/>
+    <Item text="Tool windows list"/>
+  </Enumeration>
+
+  <Enumeration key="FileSave" description="Command: FileSave">
+    <Item text="&amp;Save"/>
+    <Item text="Save the current document or workspace"/>
+  </Enumeration>
+
+  <Enumeration key="FilteringX" description="Command: Filtering">
+    <Item text="&amp;Filtering"/>
+    <Item text="Display visualizer filters and options"/>
+  </Enumeration>
+
+  <Enumeration key="FileSaveAs" description="Command: FileSaveAs">
+    <Item text="Save &amp;As…"/>
+    <Item text="Save the current document or workspace under another name"/>
+  </Enumeration>
+
+  <!-- Version check (now in studio) -->
+  <Message key="Checking for new version" description="Checking for new version" />
+  <Message key="You are using the most recent version of the software." description="You are using the most recent version of the software." value="You are using the most recent version of Device Monitoring Studio"/>
+	<Message key="Error checking for new version" description="Error checking for new version" value="The following error occurred during checking for new version:\n\n  {error}">
+		<Param name="error"/>
+	</Message>
+	<Message key="Invalid response" description="Check for updates: Invalid response" value="Invalid response received from update server"/>
+
+  <Message key="Language Page" description="Language page title" value="Language"/>
+  <Message key="Downloading language pack" description="Downloading language pack"/>
+
+  <Message key="Product language" description="Control group: Product language"/>
+  <Message key="Changing product language requires restart of Device Monitoring Studio." description="Field: Changing product language requires restart of Device Monitoring Studio."/>
+  <Message key="Languages online" description="Control group: Languages online"/>
+  <Message key="Refresh" description="Button: Refresh" value="&amp;Refresh"/>
+  <Message key="ButtonRefreshing" description="Button: Refreshing…" value="Refreshing…"/>
+  <Message key="Download" description="Button: Download" value="&amp;Download"/>
+  <Message key="Start" description="Button: Start" value="&amp;Start" />
+
+	<Message key="Language pack" description="Language pack" value="Language pack: {native name}">
+    <Param name="native name"/>
+  </Message>
+
+  <Enumeration key="UpdatesColumns" description="Component Updates columns">
+    <Item text="Component"/>
+    <Item text="Current Version"/>
+    <Item text="Update Version"/>
+  </Enumeration>
+
+  <Message key="DiscardWarning" description="Updates discard warning" value="If you discard selected updates, Device Monitoring Studio will not notify you about them anymore. You will still be notified of future updates.\r\n\r\nDo you still want to discard selected updates?"/>
+
+  <Message key="LangPackUpdated" description="Language pack(s) updated message" value="Language pack(s) updated. You need to restart the application to reload the language pack.\r\n\r\nDo you want to restart now?"/>
+
+  <!-- Components Updated dialog -->
+  <Message key="Component Updates" description="Component Updates window title"/>
+  <Message key="The following updates are found:" description="Field: The following updates are found"/>
+  <Message key="Check for updates" description="Field: Check for updates"/>
+  <Message key="Start Download" description="Button: Start Download"/>
+  <Message key="View Changes…" description="Button: View Changes…"/>
+  <Message key="Discard" description="Button and choice: Discard"/>
+
+  <Message key="ActionSelection" description="Update has been successfully downloaded. What do you want to do with it?" value="{name} has been successfully downloaded. What do you want to do with it?">
+    <Param name="name"/>
+  </Message>
+	<Message key="UpdateDownloadError" description="Error downloading update" value="The following error occurred while downloading update:\n\n  {error}">
+		<Param name="error"/>
+	</Message>
+
+  <Message key="CopyError" description="Copy error string" value="An error occurred during copying the downloaded file:\n\n    {message} ({code}).">
+	  <Param name="message"/>
+	  <Param name="code" format="ub016x"/>
+  </Message>
+
+  <Message key="SaveWorkspaceError" description="Save workspace error" value="An error occurred saving workspace: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016"/>
+  </Message>
+
+  <Message key="LaunchError" description="Launch error" value="There was an error running downloaded image:\n\n    {message} ({code}).">
+	  <Param name="message"/>
+    <Param name="code" format="ub016x"/>
+  </Message>
+
+  <Message key="New Version Downloaded" description="New Version Downloaded window title"/>
+  <Message key="Install now" description="Choice: Install now" />
+  <Message key="Make a copy and install now" description="Choice: Make a copy and install now" />
+
+  <!-- General settings group -->
+  <Message key="Notifications" description="Notifications settings group"/>
+  <Message key="AutoHide" description="Auto-hide settings group" value="Auto-hide Tool Windows"/>
+
+  <Message key="AskToSaveWorkspace" description="Option: Ask to save modified workspace" value="Ask to save modified workspace"/>
+  <Message key="SaveConfWithWorkspace" description="Option: Save tools configuration with workspace" value="Save tools configuration with workspace"/>
+  <Message key="DocumentsToRemember" description="Option: Last recently used workspaces to display" value="Last recently used workspaces to display"/>
+  <Message key="DisplayNotificationsFor" description="Option: Display notification window for (seconds)" value="Display notification window for (seconds)"/>
+  <Message key="ClosesCurrentOnly" description="Option: Close affects the current tool window only" value="Close affects the current tool window only"/>
+  <Message key="RestoreWindowPosition" description="Option: Restore main window position on startup" value="Restore main window position on startup"/>
+  <Enumeration key="Update" description="Option: Check for updates" >
+    <Item text="Check for updates"/>
+    <Item text="Every launch"/>
+    <Item text="Every week"/>
+    <Item text="Never"/>
+  </Enumeration>
+
+  <Message key="HoverTime" description="Option: Auto-hide tool window hover time (ms)" value="Hover time (ms)"/>
+  <Message key="CloseTime" description="Option: Auto-hide tool window auto close time (ms)" value="Close time (ms)"/>
+
+  <Message key="Coloring" description="Message Box Title: Coloring"/>
+  <Message key="OverwriteColoringScheme" description="Overwrite scheme &lt;scheme&gt;" value="Overwrite scheme {scheme}?">
+    <Param name="scheme"/>
+  </Message>
+
+  <Message key="InvalidColoringScheme" description="Invalid coloring scheme" value="Invalid scheme name or the scheme already exists."/>
+
+  <Message key="LowMemory" description="Low memory condition" value="Monitoring session has been stopped due to low memory conditions"/>
+
+  <Message key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016"/>
+  </Message>
+
+
+  <!-- Filters -->
+  <Message key="EmptyFilter" description="Empty filter" value="Empty (capture all packets)"/>
+
+  <Message key="DISPFILTER" value="Display Filter" description="Display Filter Title"/>
+  <Message key="CAPTUREFILTER" value="Capture Filter" description="Capture Filter Title"/>
+  <Message key="FLTWARNINGNEW" description="Filter apply warning" value="Your current session will be suspended until data in visualizers is updated."/>
+  <Message key="DELETEERROR" description="Filter scheme deletion error" value="This scheme cannot be deleted"/>
+  <Message key="WRITEERROR" description="Filter unnamed scheme error" value="Specify filter name."/>
+  <Message key="READONLY" description="Filter read only error" value="This scheme cannot be edited"/>
+  <Message key="NAMEERROR" description="Filter invalid name error" value="Name is empty, incorrect or too long (greater than 100 symbols)"/>
+  <Message key="Filtering" description="Window title: Filtering"/>
+  <Message key="FILESNOTLOADED" description="Filters: error loading protocol definition files" value="There was an error loading protocol definition files. Filtering will not work."/>
+
+  <Message key="FilterDoesNotExist" description="Filter does not exist message" value="Filter {filter} does not exist">
+    <Param name="filter"/>
+  </Message>
+
+  <Message key="FilterParamsMismatch" value="Can't apply filter string on existing filter." description="Scripting: Apply filter error"/>
+  <Message key="FilterApplyError" value="Filter parameters expected" description="Scripting: Filter parameters expected"/>
+  <Message key="CurrentUnsaved" value="Unsaved filter" description="Display name for unsaved filter"/>
+
+  <Message key="OverwriteFilterScheme" description="Overwrite filter scheme warning" value="Do you want to overwrite scheme {scheme}?">
+    <Param name="scheme"/>
+  </Message>
+
+  <Message key="ErrorRootProtocol" description="Root protocol error" value="Root protocol was not specified"/>
+  <Message key="ErrorRootNotExist" description="Root protocol error" value="Selected root protocol is not exist"/>
+
+  <!-- Structure Viewer error messages -->
+  <Enumeration key="CompilerErrors" description="Compiler errors">
+    <Item text="NO_ERROR"/>
+    <Item text="CE001: The requested operation is not allowed on the given data type or not expected here"/>
+    <Item text="CE002: Divison by zero"/>
+    <Item text="CE003: The specified identifier was not found"/>
+    <Item text="CE004: Scalar is expected"/>
+    <Item text="CE005: Vector is expected"/>
+    <Item text="CE006: Array index is out of range"/>
+    <Item text="CE007: Not implemented yet"/>
+    <Item text="CE008: Invalid bit field size"/>
+    <Item text="CE009: Syntax error"/>
+    <Item text="CE010: Type has only been forward-declared"/>
+    <Item text="CE011: Operation not supported for dynamic type"/>
+    <Item text="CE012: Type is redefined"/>
+    <Item text="CE013: Assertion failed"/>
+    <Item text="CE014: Constant expression is expected"/>
+    <Item text="CE015: Constant string expression is expected"/>
+    <Item text="CE016: Wrong number of arguments for a function call"/>
+    <Item text="CE017: Subscript operation for non-indexed array (hint: remove [noindex] attribute)"/>
+    <Item text="CE018: Error returned by Javascript engine"/>
+    <Item text="CE019: Invalid argument"/>
+    <Item text="CE020: Maximum allowed recursion depth is reached"/>
+    <Item text="CE021: Expression of another type is expected"/>
+    <Item text="CE022: Preprocessing error"/>
+  </Enumeration>
+
+  <Enumeration key="FileSaveAll" description="Commang: SaveAll">
+    <Item text="Save &amp;All"/>
+    <Item text="Save all opened documents"/>
+  </Enumeration>
+
+  <Message key="ConcantenatePackets" description="Option: Join consequent requests" value="Join consequent requests"/>
+
+  <Enumeration key="FilteringSchemes" description="Filtering schemes">
+    <Item text="Default"/>
+    <Item text="Display all"/>
+    <Item text="Display none"/>
+    <Item text="Current"/>
+  </Enumeration>
+
+  <!-- Trial & Expired warnings -->
+
+  <Message key="TrialWarning" description="Component is in Trial" value="This component is in Trial mode with {days} evaluation days left. It is available starting from {edition} Edition.">
+    <Param name="days"/>
+    <Param name="edition"/>
+  </Message>
+  <Message key="ExpiredWarning" description="Component has expired" value="This component has expired. You need to upgrade to {edition} Edition in order to use it.">
+    <Param name="edition"/>
+  </Message>
+
+  <Message key="FreeWarning" description="Component is not in free" value="This component is not available in Free Edition. You may start a free trial to try this component if it has not been started yet."/>
+
+  <!-- Annoying dialog text templates -->
+  <Message key="Continue with limited features" description="Link text: continue with limited features"/>
+  <Message key="Try extended functionality" description="Button text: Try extended functionality"/>
+  <Message key="Purchase extended functionality" description="Button text: Purchase extended functionality" value="Get extended functionality"/>
+  <Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
+
+  <Message key="General Page" description="Page: General" value="General"/>
+
+  <Message key="ExecutablesFilter" description="Filter string: Executables" value="Executables|*.exe|All Files|*.*||">
+    <Validate rule="OpenFileDialogFilter"/>
+  </Message>
+
+  <Message key="WorkspaceFilterNotExist" description="Not exist filter notification" value="Workspace contains reference to the filter name &lt;{filter}&gt; which does not exists. Empty filter will be applied.">
+    <Param name="filter"/>
+  </Message>
+
+  <Message key="All sessions stopped" description="All sessions stopped warning message" value="All sessions were stopped due to low memory condition. You might need to restart Device Monitoring Studio to resume monitoring. If you continue to get this error message, try reducing the number of used data processing modules."/>
+  <Message key="PredefinedDelete" description="Deletion of predefined color scheme" value="Deleting predefined color scheme is forbidden. Only user schemes can be deleted"/>
+
+  <Message key="SignatureError" description="Downloaded file signature check error" value="Device Monitoring Studio has downloaded an update, but it failed integrity checks. This may indicate temporary or permanent network configuration errors. Please try updating later."/>
+
+  <Message key="ConfigurationError" description="Bad application state" value="Device Monitoring Studio is in invalid state. Reinstall the application to fix it."/>
+
+  <Message key="Restarting Device" description="Restarting device"/>
+
+  <Message key="ElevationError" description="Process elevation error" value="Unable to elevate privileges. Error message: {error}">
+    <Param name="error"/>
+  </Message>
+
+  <Message key="ElevationErrorTitle" description="Message box title: Process elevation error" value="Elevation Error"/>
+
+  <Message key="Main Title" description="Main application title" value="{free?}Free {?free}Device Monitoring Studio{prerelease?} (PRERELEASE VERSION){?prerelease}">
+    <Param name="free" format="?"/>
+    <Param name="prerelease" format="?"/>
+  </Message>
+
+  <!-- Beta page -->
+  <Message key="Beta Page" description="Beta page title" value="Beta"/>
+  <Message key="Beta title info" description="Beta page information text" value="This page allows you to browse and download optional beta components. These components may add experimental features or fix reported bugs. Check components you want to install and uncheck components you want to uninstall and press the Update button."/>
+  <Message key="BetaUpdateButton" description="Beta update button" value="Update"/>
+  <Message key="Available beta modules:" description="Field: Available beta modules"/>
+  <Message key="There are no updates available." description="Field: There are no updates available"/>
+  <Message key="BetaInstalled" value="Component configuration has been successfully updated. You need to restart Device Monitoring Studio to apply changes." description="Component configuration has been updated"/>
+  <Message key="BetaDownloadConfirmation" value="{has new?}The following component(s) will be downloaded and installed:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}The following component(s) will be uninstalled:\r\n\n{deleted components}{?has deleted}\r\n\nDo you want to continue?" description="Beta components download prompt">
+    <Param name="has new" format="?"/>
+    <Param name="has deleted" format="?"/>
+    <Param name="new components"/>
+    <Param name="deleted components"/>
+  </Message>
+  <Message key="BetaConflicts" value="Selected components conflict with installed components or with each other. The following components must be removed in order to continue:\r\n\n{components}\r\n\nDo you want to remove them and continue?" description="Beta component conflicts">
+    <Param name="components"/>
+  </Message>
+  <Message key="BetaHeader" value="Beta Version" description="Message Box Title: Beta Version"/>
+  <Message key="BetaDownloadError" description="Beta version download error" value="There was an error downloading selected components. Please try again later."/>
+
+  <Message key="newBetaVersions" description="Notification: New beta versions detected" value="New beta versions detected"/>
+  <Message key="changeLanguage" description="Notification: Change current language" value="Language change"/>
+	
+  <Enumeration key="NewBetaVersionsAvailable" description="New beta versions available for download">
+    <Item text="New Beta Versions Available"/>
+    <Item text="There are new beta versions available for download for your version of the product."/>
+    <Item text="Do you want to browse the list of updated components and download them?"/>
+    <Item text="This prompt appears only once for each set of unique on-line components."/>
+    <Item text="Don't check for new beta versions"/>
+  </Enumeration>
+  <Message key="BetaAdvanced" description="Button: Advanced" value="&amp;Advanced…"/>
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" description="Manual download caption"/>
+
+  <Message key="Unknown" description="Unidentified value/unknown value"/>
+  <Message key="Empty" description="Empty value"/>
+
+  <Message key="SerialRepeaterConfig" description="Serial repeater config format string" value="Read → {read},Write → {write}">
+    <Param name="read"/>
+    <Param name="write"/>
+  </Message>
+
+  <Message key="RepeaterApplyError" description="Serial repeater error string" value="Receiving device for {packettype} packets not specified.">
+    <Param name="packettype"/>
+  </Message>
+
+  <Message key="SelectDevice" description="Select device hint message" value="Select device from the list..."/>
+  <Message key="Closing application" description="Closing application"/>
+
+	<Message key="DisplayLoadErrors" description="Load errors title" value="There were the following errors during loading of this file:\r\n{errors}">
+		<Param name="errors"/>
+	</Message>
+	<Message key="MissingComponents" description="Missing workspace components on load" value="Several workspace components were not found and were not loaded."/>
+	<Message key="WorkspaceLoadWarnings" description="Workspace loading warnings" value="Workspace has been loaded with the following warnings:\r\n{warnings}">
+		<Param name="warnings"/>
+	</Message>
+	<Message key="BadWorkspaceFormat" description="Workspace file format is not valid" value="Workspace file format is not valid."/>
+	<Message key="WorkspaceLoadError" description="Workspace loading error" value="Cannot open {path}: {error} ({error code})">
+		<Param name="path"/>
+		<Param name="error"/>
+		<Param name="error code" format="ub016x"/>
+	</Message>
+	<Message key="ConfirmClearAll" description="Confirm clear all" value="This will clear all visualizer windows. Do you want to continue?"/>
+	<Message key="Invalid file format." description="Invalid file format" />
+	<Message key="MultipleWorkspaces" description="Opening multiple workspaces" value="Only one workspace can be opened at a time. Do you want to open other workspaces in different windows?"/>
+	<Message key="WorkspaceModified" description="Workspace is modified" value="The current workspace has been modified. Do you want to save it?"/>
+
+	<Message key="toolbar.Standard" description="Toolbar: Standard" value="Standard"/>
+
+	<Enumeration key="FileExit" description="Command: Exit">
+		<Item text="E&amp;xit"/>
+		<Item text="Exit application"/>
+	</Enumeration>
+
+	<Enumeration key="FileOpen" description="Command: Open">
+		<Item text="&amp;Open…"/>
+		<Item text="Open document of supported format"/>
+	</Enumeration>
+
+	<Enumeration key="FileClose" description="Command: Clear Workspace">
+		<Item text="&amp;Clear Workspace"/>
+		<Item text="Close all monitoring sessions, opened windows and clear other workspace entries"/>
+	</Enumeration>
+
+	<Enumeration key="EditCut" description="Command: Cut">
+		<Item text="Cu&amp;t"/>
+		<Item text="Cut the selection into the Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="EditCopy" description="Command: Copy">
+		<Item text="&amp;Copy"/>
+		<Item text="Copy selection"/>
+	</Enumeration>
+
+	<Enumeration key="EditPaste" description="Command: Paste">
+		<Item text="&amp;Paste"/>
+		<Item text="Paste the contents of the Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="EditExport" description="Command: Export">
+		<Item text="&amp;Export"/>
+		<Item text="Export selection"/>
+	</Enumeration>
+
+	<Enumeration key="EditClearView" description="Command: Delete/Clear View">
+		<Item text="Delete/Clear &amp;View"/>
+		<Item text="Clear view"/>
+	</Enumeration>
+
+	<Enumeration key="EditClearAllViews" description="Command: Clear All Views">
+		<Item text="Clear &amp;All Views"/>
+		<Item text="Clear all views"/>
+	</Enumeration>
+
+	<Enumeration key="EditFind" description="Command: Find">
+		<Item text="&amp;Find…"/>
+		<Item text="Find"/>
+	</Enumeration>
+
+	<Enumeration key="EditFindNext" description="Command: Find Next">
+		<Item text="Find &amp;Next"/>
+		<Item text="Find next"/>
+	</Enumeration>
+
+	<Enumeration key="EditGoto" description="Command: Go to Packet">
+		<Item text="&amp;Go to Packet…"/>
+		<Item text="Locate the specific packet"/>
+	</Enumeration>
+
+	<Enumeration key="ViewExportConfiguration" description="Command: Export Configuration">
+		<Item text="&amp;Export Configuration…"/>
+		<Item text="Export Tool windows configuration"/>
+	</Enumeration>
+
+	<Enumeration key="ViewImportConfiguration" description="Command: Import Configuration">
+		<Item text="&amp;Import Configuration…"/>
+		<Item text="Import Tool windows configuration"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsSettings" description="Command: Settings">
+		<Item text="&amp;Settings…"/>
+		<Item text="Display program settings"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsStart" description="Command: Resume All Sessions">
+		<Item text="&amp;Resume All Sessions"/>
+		<Item text="Resume all monitoring sessions"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsPause" description="Command: Pause All Sessions">
+		<Item text="&amp;Pause All Sessions"/>
+		<Item text="Pause all monitoring sessions"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsStop" description="Command: Stop All Sessions">
+		<Item text="&amp;Stop All Sessions"/>
+		<Item text="Stops all monitoring sessions"/>
+	</Enumeration>
+
+	<Enumeration key="WindowPrev" description="Command: Previous Window">
+		<Item text="&amp;Previous"/>
+		<Item text="Switch to the previous window"/>
+	</Enumeration>
+
+	<Enumeration key="WindowNext" description="Command: Next Window">
+		<Item text="&amp;Next"/>
+		<Item text="Switch to the next window"/>
+	</Enumeration>
+
+	<Enumeration key="WindowClose" description="Command: Close Window">
+		<Item text="&amp;Close Window"/>
+		<Item text="Close the active window"/>
+	</Enumeration>
+
+	<Enumeration key="WindowNextPane" description="Command: Next Pane">
+		<Item text="Next Pane"/>
+		<Item text="Activate next Pane"/>
+	</Enumeration>
+
+	<Enumeration key="WindowPrevPane" description="Command: Previous Pane">
+		<Item text="Previous Pane"/>
+		<Item text="Activate previous Pane"/>
+	</Enumeration>
+
+	<Enumeration key="WindowMinimizeToTray" description="Command: Minimize to Tray">
+		<Item text="&amp;Minimize to Tray"/>
+		<Item text="Minimize the Device Monitoring Studio window to the system tray"/>
+	</Enumeration>
+
+	<Enumeration key="WindowCancel" description="Command: Cancel">
+		<Item text="Cancel"/>
+		<Item text="Cancel"/>
+	</Enumeration>
+
+	<Enumeration key="HelpContents" description="Command: Contents">
+		<Item text="&amp;Contents"/>
+		<Item text="Contents"/>
+	</Enumeration>
+
+	<Enumeration key="HelpFeedback" description="Command: Feedback">
+		<Item text="&amp;Feedback…"/>
+		<Item text="Feedback"/>
+	</Enumeration>
+
+	<Enumeration key="HelpKeyboard" description="Command: Keyboard Map">
+		<Item text="&amp;Keyboard Map…"/>
+		<Item text="Display and print keyboard map"/>
+	</Enumeration>
+
+	<Enumeration key="KeyboardPrint" description="Command: Print (Keyboard Map)">
+		<Item text="&amp;Print…"/>
+		<Item text="Print the keyboard map"/>
+	</Enumeration>
+
+	<Enumeration key="KeyboardCopy" description="Command: Copy (Keyboard Map)">
+		<Item text="&amp;Copy…"/>
+		<Item text="Copy the keyboard map"/>
+	</Enumeration>
+
+	<Enumeration key="Endpoints" description="Command: Endpoints">
+		<Item text="&amp;Endpoints"/>
+		<Item text="Endpoints"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsColoring" description="Command: Coloring">
+		<Item text="&amp;Coloring"/>
+		<Item text="Open coloring settings"/>
+	</Enumeration>
+
+	<Enumeration key="FiltersSettings" description="Command: Filtering">
+		<Item text="&amp;Filtering…"/>
+		<Item text="Open filtering settings"/>
+	</Enumeration>
+
+	<Enumeration key="ViewResetConfiguration" description="Command: Reset Configuration">
+		<Item text="&amp;Reset Configuration"/>
+		<Item text="Reset Tool windows configuration"/>
+	</Enumeration>
+
+	<Enumeration key="WindowNewHorizontal" description="Command: New Horizontal Frame">
+		<Item text="New &amp;Horizontal Frame"/>
+		<Item text="New Horizontal Frame"/>
+	</Enumeration>
+
+	<Enumeration key="WindowNewVertical" description="Command: New Vertical Frame">
+		<Item text="New &amp;Vertical Frame"/>
+		<Item text="New Vertical Frame"/>
+	</Enumeration>
+
+	<Enumeration key="WindowDockable" description="Command: Dockable window">
+		<Item text="Dockable window"/>
+		<Item text="Dockable window"/>
+	</Enumeration>
+
+	<Enumeration key="WindowTabbed" description="Command: Tabbed document">
+		<Item text="Tabbed document"/>
+		<Item text="Tabbed document"/>
+	</Enumeration>
+
+	<!-- Docframe (previously, rocket) -->
+	<Message key="Auto Hide" description="Windows: Auto Hide"/>
+	<Message key="Window list" description="Documents frame: window list" />
+	<Message key="Switch Window" description="Windows: Switch Window"/>
+	<Message key="Active Tool Windows" description="Windows: Active Tool Windows"/>
+	<Message key="Active Documents" description="Windows: Active Documents"/>
+
+	<!-- Settings page groups -->
+	<Message key="Settings group.Visual" description="Settings group: Visual" value="Visual" />
+	<Message key="Settings group.User Interface" description="Settings group: User Interface" value="User Interface" />
+	<Message key="Settings group.Network" description="Settings group: Network &amp; Support" value="Network &amp; Support" />
+	<Message key="Settings group.Monitoring" description="Settings group: Monitoring" value="Monitoring" />
+	<Message key="Settings group.Misc" description="Settings group: Misc" value="Other" />
+	<!--<Message key="Settings group.Structure Viewer" description="Settings group: Structure Viewer" value="Structure Viewer" />-->
+
+	<Message key="Colors Page" description="Themes settings page" value="Themes" />
+
+	<Message key="Enter the scheme name and press the Save button" description="Color scheme name banner" />
+	<Message key="ColorSchemeExists" description="Color scheme overwrite prompt" value="Color scheme already exists. Do you want to override it?"/>
+
+	<!-- Theme page -->
+	<Message key="Theme:" description="Field: Theme" />
+	<Message key="Display elements:" description="Field: Display elements" />
+	<Message key="Automatic" description="Field: Automatic" />
+	<Message key="Current" description="Field: Current (color)" />
+	<Message key="Selected" description="Field: Selected (color)" />
+	<Message key="Automatic color is dependent on current operating system color theme." description="Field: Automatic color is dependent on current operating system color theme." />
+
+	<Message key="&amp;Open" description="Button: Open" />
+
+	<Message key="Open Recent" description="Open recent item" value="Open {item}">
+		<Param name="item" />
+	</Message>
+
+	<Message key="Settings" description="Settings"/>
+	<Message key="Search settings" description="Search settings"/>
+
+	<!-- Commands page -->
+	<Message key="This toolbar cannot be deleted." description="This toolbar cannot be deleted" />
+	<Message key="Toolbar Deletion Failed" description="Message box title: Toolbar Deletion Failed"/>
+	<Message key="Invalid toolbar name" description="Invalid toolbar name" value="Invalid toolbar name. Valid name must start with a letter."/>
+	<Message key="Toolbar Creation Failed" description="Message box title: Toolbar Creation Failed"/>
+	<Message key="Toolbar already exists" description="Toolbar already exists" value="The toolbar with the name you specified already exists."/>
+	<Message key="All commands" description="Field: All commands"/>
+	<Message key="Commands Page" description="Commands Page window title" value="Commands"/>
+	<Message key="Toolbars" description="Field: Toolbars" value="Toolbar:"/>
+	<Message key="New" description="Button: New…" value="&amp;New…"/>
+	<Message key="Button size" description="Field: Button size" value="Button size:"/>
+	<Message key="Select a command to view its description or drag it to a toolbar" description="Field: Select a command to view its description or drag it to a toolbar" value="Select a command to view its description or drag it to a toolbar:"/>
+	<Message key="New Group" description="Field: New Group button" value="New &amp;Group"/>
+	<Message key="&lt; Add" description="Field: &lt; Add button" value="&lt; &amp;Add"/>
+	<Message key="Remove &gt;" description="Field: Remove &gt; button" value="&amp;Remove &gt;"/>
+	<Message key="Move Up" description="Field: Move Up button" value="Move &amp;Up"/>
+	<Message key="Move Down" description="Field: Move Down button" value="Move &amp;Down"/>
+	<Message key="Clear" description="Field: Clear button" value="&amp;Clear"/>
+	<Message key="Clip toolbars" description="Field: Clip toolbars" value="&amp;Clip toolbars"/>
+	<Message key="Wrap toolbars" description="Field: Wrap toolbars" value="&amp;Wrap toolbars"/>
+
+	<!-- Keyboard page -->
+	<Message key="Keyboard" description="Message box title: Keyboard"/>
+	<Message key="MaxShortcuts" description="Maximum number of shortcuts reached" value="You cannot assign more than 5 shortcuts to a command."/>
+	<Message key="ShortcutExists" description="Shortcut already exists" value="This shortcut is already defined for {command}. Do you want to redefine it?">
+		<Param name="command"/>
+	</Message>
+
+	<Message key="Keyboard Page" description="Keyboard page title" value="Keyboard"/>
+	<Message key="Category" description="Field: Category" value="Category:"/>
+	<Message key="Commands" description="Field: Commands" value="Commands:"/>
+	<Message key="Current keys" description="Field: Current keys" value="Current keys:"/>
+	<Message key="Press new shortcut key" description="Field: Press new shortcut key" value="Press &amp;new shortcut key:"/>
+	<Message key="Description" description="Field: Description" value="Description:"/>
+	<Message key="Currently assigned to" description="Field: Currently assigned to" value="Currently assigned to:"/>
+
+	<Message key="Assign" description="Button: Assign" value="&amp;Assign"/>
+	<Message key="Keyboard Map" description="Button: Keyboard Map" value="Keyboard &amp;Map"/>
+
+	<Message key="[unassigned]" description="Keyboard shortcut: [unassigned]"/>
+	<Enumeration key="KeyboardColumns" description="Keyboard dialog columns">
+		<Item text="Command"/>
+		<Item text="Shortcuts"/>
+		<Item text="Description"/>
+	</Enumeration>
+
+	<!-- Keyboard Map Dialog -->
+	<Message key="Keyboard Map Dialog" description="Keyboard Map window title" value="Keyboard Map"/>
+	<Message key="Print" description="Button: Print" value="&amp;Print"/>
+
+	<!-- Settings -->
+	<Message key="General" description="Filter page: General"/>
+	<Message key="Requests" description="Filter page: Requests"/>
+	<Message key="Responses" description="Filter page: Responses"/>
+	<Message key="IO Requests" description="Filter page: I/O Requests" value="I/O Requests"/>
+
+	<!-- Color scheme -->
+
+	<Message key="clr.default_colors" description="Color: Default UI Colors" value="Default UI Colors" />
+	<Message key="clr.default_colors.background" description="Color: Default UI Background Color" value="Background" />
+	<Message key="clr.default_colors.control_background" description="Color: Default UI Control Color" value="Control background" />
+	<Message key="clr.default_colors.text" description="Color: Default UI Text Color" value="Text/foreground" />
+	<Message key="clr.default_colors.hyperlink" description="Color: Default Hyperlink Color" value="Hyperlink" />
+	<Message key="clr.default_colors.disabled" description="Color: Default UI Disabled Color" value="Disabled text" />
+	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
+	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.default_colors.hover.text" description="Color: Default UI Hover Text Color" value="Hover text" />
+	<Message key="clr.default_colors.selected.fill" description="Color: Default UI Selected Background Color" value="Selection background" />
+	<Message key="clr.default_colors.selected.stroke" description="Color: Default UI Selected Stroke Color" value="Selection stroke" />
+	<Message key="clr.default_colors.selected.text" description="Color: Default UI Selected Text Color" value="Selected text" />
+	<Message key="clr.menu" description="Color: Menu Colors" value="Menu Colors" />
+	<Message key="clr.menu.background" description="Color: Menu Background Color" value="Background" />
+	<Message key="clr.menu.text" description="Color: Menu Text Color" value="Text" />
+	<Message key="clr.menu.separator" description="Color: Menu Separator Color" value="Separator" />
+	<Message key="clr.menu.disabled_text" description="Color: Menu Disabled Text Color" value="Disabled text" />
+	<Message key="clr.menu.checked" description="Color: Menu Checked Color" value="Background of checked item" />
+	<Message key="clr.menu.checked_disabled" description="Color: Menu Checked Disabled Color" value="Background of checked &amp; disabled item" />
+	<Message key="clr.menu.hover.fill" description="Color: Menu Hover Background Color" value="Hover background" />
+	<Message key="clr.menu.hover.stroke" description="Color: Menu Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.menu.hover.text" description="Color: Menu Hover Text Color" value="Hover text" />
+	<Message key="clr.menu.disabled_hover.fill" description="Color: Menu Disabled Hover Background Color" value="Disabled item hover background" />
+	<Message key="clr.menu.disabled_hover.stroke" description="Color: Menu Disabled Hover Stroke Color" value="Disabled item hover stroke" />
+	<Message key="clr.menu.disabled_hover.text" description="Color: Menu Disabled Hover Text Color" value="Disabled item hover text" />
+	<Message key="clr.rebar" description="Color: Rebar Colors" value="Rebar Colors" />
+	<Message key="clr.rebar.background" description="Color: Rebar Background Color" value="Background" />
+	<Message key="clr.rebar.chevron.fill" description="Color: Rebar Chevron Dot Fill Color" value="Chevron dot fill color" />
+	<Message key="clr.rebar.chevron.stroke" description="Color: Rebar Chevron Dot Stroke Color" value="Chevron dot stroke color" />
+	<Message key="clr.toolbar" description="Color: Toolbar Colors" value="Toolbar Colors" />
+	<Message key="clr.toolbar.background" description="Color: Toolbar Background Color" value="Background" />
+	<Message key="clr.toolbar.text" description="Color: Toolbar Text Color" value="Text" />
+	<Message key="clr.toolbar.disabled" description="Color: Toolbar Disabled Text Color" value="Disabled text" />
+	<Message key="clr.toolbar.separator" description="Color: Toolbar Separator Color" value="Separator" />
+	<Message key="clr.toolbar.hover.fill" description="Color: Toolbar Hover Background Color" value="Hover background" />
+	<Message key="clr.toolbar.hover.stroke" description="Color: Toolbar Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.toolbar.hover.text" description="Color: Toolbar Hover Text Color" value="Hover text" />
+	<Message key="clr.toolbar.pressed.fill" description="Color: Toolbar Pressed Background Color" value="Background of pressed item" />
+	<Message key="clr.toolbar.pressed.stroke" description="Color: Toolbar Pressed Stroke Color" value="Stroke of pressed item" />
+	<Message key="clr.toolbar.pressed.text" description="Color: Toolbar Pressed Text Color" value="Text of pressed item" />
+	<Message key="clr.toolbar.disabled_pressed.fill" description="Color: Toolbar Disabled Pressed Background Color" value="Background of pressed and disabled item" />
+	<Message key="clr.toolbar.disabled_pressed.stroke" description="Color: Toolbar Disabled Pressed Stroke Color" value="Stroke of pressed and disabled item" />
+	<Message key="clr.frame" description="Color: Frame Colors" value="Frame Colors" />
+	<Message key="clr.frame.frame.background" description="Color: Frame Background Color" value="Background" />
+	<Message key="clr.frame.frame.client_background" description="Color: Frame Client Background Color" value="Client background" />
+	<Message key="clr.frame.frame.document_frame_background" description="Color: Frame Document Frame Background Color" value="Document frame background" />
+	<Message key="clr.frame.frame.border" description="Color: Frame Border Color" value="Border" />
+	<Message key="clr.frame.header.inactive.fill" description="Color: Frame Header Inactive Background Color" value="Inactive header background" />
+	<Message key="clr.frame.header.inactive.stroke" description="Color: Frame Header Inactive Stroke Color" value="Inactive header text/stroke" />
+	<Message key="clr.frame.header.active.fill" description="Color: Frame Header Active Background Color" value="Active header background" />
+	<Message key="clr.frame.header.active.stroke" description="Color: Frame Header Active Stroke Color" value="Active header text/stroke" />
+	<Message key="clr.frame.hover.fill" description="Color: Frame Hover Background Color" value="Hover background" />
+	<Message key="clr.frame.hover.stroke" description="Color: Frame Hover Stroke Color" value="Hover stroke" />
+	<Message key="clr.frame.hover.text" description="Color: Frame Hover Text Color" value="Hover text" />
+	<Message key="clr.frame.title_text" description="Color: Frame Title Text Color" value="Title text" />
+	<Message key="clr.frame.nav.shadow" description="Color: Frame Nav Shadow Color" value="Navigation icon shadow" />
+	<Message key="clr.frame.nav.background" description="Color: Frame Nav Background Color" value="Navigation icon background" />
+	<Message key="clr.frame.nav.highlight" description="Color: Frame Nav Highlight Color" value="Navigation icon highlight" />
+	<Message key="clr.frame.nav.header" description="Color: Frame Nav Header Color" value="Navigation icon header" />
+	<Message key="clr.frame.nav.frame" description="Color: Frame Nav Frame Color" value="Navigation icon border" />
+
+	<!-- Settings Page -->
+	<Message key="Settings Page" description="Settings page title" value="Settings"/>
+
+	<Message key="Settings Storage Location" description="Control group: Settings Storage Location"/>
+	<Enumeration key="Registry" description="Radio button: Registry">
+		<Item text="Registry"/>
+		<Item text="Default per-user storage location."/>
+	</Enumeration>
+	<Enumeration key="Portable mode" description="Radio button: Portable mode">
+		<Item text="Portable mode"/>
+		<Item text="Store application settings in portable.hexset7 file in startup folder."/>
+	</Enumeration>
+	<Enumeration key="External file:" description="Radio button: External File">
+		<Item text="External file:"/>
+		<Item text="Store application settings in external file. Specify shared location (like OneDrive or Dropbox shared folder) to share your settings between devices."/>
+	</Enumeration>
+
+	<Message key="Settings Management" description="Control group: Settings Management"/>
+	<Message key="Export Settings…" description="Button: Export Settings…"/>
+	<Message key="Import Settings…" description="Button: Import Settings…"/>
+	<Message key="Reset Settings…" description="Button: Reset Settings…"/>
+
+	<Message key="Ask to import settings" description="Import settings prompt" value="Specified file already exists. Do you want to import its contents now? If you click No, file will be overwritten with current settings."/>
+
+	<Message key="Ask to reset settings" description="Settings reset prompt" value="Application needs to be restarted to reset settings. Do you want to continue?"/>
+	<Message key="Ask to restart" description="Settings import restart prompt" value="It is recommended to restart application to apply imported settings. Do you want to restart now?"/>
+
+	<!-- Generic buttons -->
+	<Message key="OK" description="Button: OK" />
+	<Message key="Apply" description="Button: Apply" value="&amp;Apply"/>
+	<Message key="Cancel" description="Button: Cancel" />
+	<Message key="Reset" description="Button: Reset" value="&amp;Reset"/>
+	<Message key="Help" description="Button: Help" value="&amp;Help"/>
+	<Message key="Yes" description="Button: Yes" value="&amp;Yes"/>
+	<Message key="No" description="Button: No" value="&amp;No"/>
+	<Message key="Close" description="Button: Close"/>
+	<Message key="Add" description="Button: Add" value="&amp;Add"/>
+	<Message key="Edit" description="Button: Edit" value="&amp;Edit"/>
+	<Message key="Remove" value="&amp;Remove" description="Button: Remove"/>
+	<Message key="Remove All" value="Remove A&amp;ll" description="Button: Remove All"/>
+	<Message key="Reset All" description="Button: Reset All" value="Reset A&amp;ll"/>
+	<Message key="Copy" description="Button: Copy" value="&amp;Copy"/>
+	<Message key="Continue" description="Button: Continue"/>
+	<Message key="Import" description="Button: Import" value="&amp;Import…" />
+	<Message key="Export" description="Button: Export" value="&amp;Export…" />
+	<Message key="Browse" description="Button: Browse" value="&amp;Browse…" />
+	<Message key="Save" description="Button: Save"/>
+	<Message key="Delete" description="Button: Delete"/>
+	<Message key="Generate Script" description="Button: Generate Script" value="&amp;Generate Script"/>
+	<Message key="Stop" description="Button: Stop"/>
+
+	<!-- Generic strings -->
+	<Message key="B" description="Bytes"/>
+	<Message key="KB" description="Kilobytes" />
+	<Message key="MB" description="Megabytes" />
+	<Message key="GB" description="Gigabytes" />
+	<Message key="TB" description="Terabytes"/>
+	<Message key="ms" description="Field (milliseconds)" />
+
+	<!-- Converter names (specified here to cover all modules) -->
+	<Message key="Raw Data View" description="Visualizer name: Raw Data View"/>
+	<Message key="Data View" description="Visualizer name: Data View"/>
+	<Message key="Packet View" description="Visualizer name: Packet View"/>
+	<Message key="Request View" description="Visualizer name: Request View"/>
+	<Message key="Statistics" description="Visualizer name: Statistics"/>
+
+	<Message key="NextConnected" description="Item Name: Next connected device" value="Next connected device"/>
+	<Message key="HotPlug" value="Support for hot-plugged devices" description="Support for hot-plugged devices"/>
+
+	<Message key="PacketNotFound" description="Error: Packet not found" value ="The packet you are looking for is not displayed in this visualizer. Try to locate it in other visualizers."/>
+
+	<Message key="Root Protocol" description="Window title: Root Protocol" />
+	<Message key="Affect only new packets" description="Option: Affect only new packets"/>
+	<Message key="Protocol:" description="Field: Protocol"/>
+
+	<!-- Serial Repeater Dialog -->
+	<Message key="Serial Repeater Settings" description="Window title: Serial Repeater Settings"/>
+	<Message key="Send read packets to:" description="Field: Send read packets to"/>
+	<Message key="Send write packets to:" description="Field: Send write packets to"/>
+	<Message key="Use the same serial device for both reads and writes" description="Checkbox: Use the same serial device for both reads and writes"/>
+
+	<Message key="Don't show this anymore" description="Don't show this anymore"/>
+
+	<Message key="Find" description="Window title: Find"/>
+	<Message key="Passed the end of the data" description="Search: Passed the end of the data"/>
+	<Message key="The pattern was not found." description="The pattern was not found"/>
+
+	<Message key="Find what:" description="Field: Find what" value="&amp;Find what:"/>
+	<Message key="Options" description="Field: Options"/>
+	<Message key="Find within" description="Field: Find within"/>
+	<Message key="Match whole word only" description="Option: Match whole word only" value="Match &amp;whole word only"/>
+	<Message key="Match case" description="Option: Match case" value="Match &amp;case"/>
+	<Message key="Whole window" description="Option: Whole window" value="W&amp;hole window"/>
+	<Message key="Selection" description="Option: Selection" value="&amp;Selection"/>
+	
+	<Message key="GotoTemplate" description="Go to window template" value="{caption} ({from} - {to}):">
+		<Param name="caption"/>
+		<Param name="from" format="l"/>
+		<Param name="to" format="l"/>
+	</Message>
+
+	<Message key="GotoCaption" description="Window title: Go to" value="Go to {caption}">
+		<Param name="caption"/>
+	</Message>
+
+	<Message key="Packet number" description="Packet number"/>
+	<Message key="Code" description="Code"/>
+	<Message key="The following monitoring sessions are active:" description="The following monitoring sessions are active" value="{has sessions?}The following monitoring sessions are active: {sessions}{|has sessions}No active monitoring sessions.{?has sessions}">
+		<Param name="has sessions" format="?"/>
+		<Param name="sessions" />
+	</Message>
+
+	<Message key="Default" description="Default"/>
+	<Message key="This scheme cannot be deleted" description="This scheme cannot be deleted"/>
+	<Message key="Plase wait" description="Plase wait…" value="Plase wait…"/>
+
+	<Message key="DataNoLongerValid" description="Error: Data is no longer valid" value="This data block is no longer valid."/>
+	<Message key="Unknown Request" description="Header: Unknown Request" value="Unknown Request"/>
+	<Enumeration key="UsbDirection" description="Packet direction list">
+		<Item text="DOWN"/>
+		<Item text="UP"/>
+	</Enumeration>
+	<Message key="Value" description="Field: Value" value="Value"/>
+	<Message key="Undefined" description="Value: Undefined" value="Undefined"/>
+	<Message key="None" description="Value: None" value="None"/>
+	<Message key="Request" description="Header: Request" value="Request"/>
+	<Enumeration key="Boolean" description="Boolean values list">
+		<Item text="True"/>
+		<Item text="False"/>
+	</Enumeration>
+	<Message key="Request Name" description="Field: Request Name" value="Request Name"/>
+	<Message key="Delay" description="Field: Delay" value="Delay"/>
+	<Message key="Request Subtype" description="Field: Request Subtype" value="Request Subtype"/>
+	<Message key="Interface" description="Field: Interface" value="Interface"/>
+	<Message key="Request Type" description="Field: Request Type" value="Request Type"/>
+	<Message key="CopyProtect" description="Field: CopyProtect" value="CopyProtect"/>
+	<Message key="InterfaceFmt" description="Field: Interface" value="Interface{number}">
+		<Param name="number"/>
+	</Message>
+	<Message key="PinFmt" description="Field: Pin" value="Pin{number}: ">
+		<Param name="number"/>
+	</Message>
+	<Message key="ControlFmt" description="Field: Control" value="Control{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Enumeration key="YesNo" description="Yes/No values list">
+		<Item text="YES"/>
+		<Item text="NO"/>
+	</Enumeration>
+
+	<!-- General filtering strings -->
+	<Message key="Up" description="Direction: Up"/>
+	<Message key="Down" description="Direction: Down"/>
+	<Message key="Enabled" description="Filter state: Enabled"/>
+
+	<Message key="ToolsFilter" description="Filter string: configuration file" value="Tools Configuration Files|*.dmsdwc9|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="AllFilesFilterString" description="Filter string: All files" value="All Files|*.*|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="Setting files" description="Filter string: Setting files" value="Settings|*.dmsset9|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="Export successful" description="Message: settings export successful" value="Settings have been successfully saved to a file."/>
+	<Message key="Import successful" description="Message: settings import successful" value="Settings have been successfully imported."/>
+
+	<Message key="File creation error" description="Generic file creation error" value='There was an error {create?}creating{|create}opening{?create} file "{name}": {text} ({code})'>
+		<Param name="create" format="?"/>
+		<Param name="name"/>
+		<Param name="text"/>
+		<Param name="code" format="ub016"/>
+	</Message>
+
+
+	<Message key="Vendor-Specific" description="Value: Vendor-Specific" value="Vendor-Specific"/>
+	<Message key="MissingFilterHost" description="Error obtaining filtering host" value="Error obtaining filtering host. Structure file missing or has compile errors."/>
+
+	<Enumeration key="LangMore" description="Command: Languages.More">
+		<Item text="More Languages…"/>
+		<Item text="Check for more languages on-line"/>
+	</Enumeration>
+
+	<Enumeration key="LangOnline" description="Command: Languages.Online">
+		<Item text="On-line Language Repository"/>
+		<Item text="Take part in creating more language packs for Device Monitoring Studio"/>
+	</Enumeration>
+
+	<Enumeration key="ChangeLanguageNotification" description="Change language notification">
+		<Item text="Change Language"/>
+		<Item text="This language pack was created by open source community. We do not hold any responsibility on the quality of this translation.\r\n\r\nIf you have found a mistake in a translation, you may submit a ticket or correct it yourself."/>
+	</Enumeration>
+
+	<Message key="UseLanguage" description="Action: Use this language pack" value="Use this language pack"/>
+	<Message key="AccessLangsOnline" description="Action: Access online repository" value="Access online repository"/>
+	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart Device Monitoring Studio after changing the language. Do you want to restart now?"/>
+	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.hextheme)|*.hextheme||">
+		<Validate rule="OpenFileDialogFilter" />
+	</Message>
+	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused."/>
+	<Message key="WarningTitle" description="Title: Warning" value="Warning"/>
+	<Message key="Wait_Text" description="Notification: Wait" value="Requested operation is being performed..."/>
+
+	<!-- Crash Page -->
+	<Message key="Crash Page" description="Crash Reporting Settings Page" value="Crash Reporting"/>
+	<Message key="CrashIntro" description="Crash Reporting window introduction text" value="If you would like to be notified of the status of your crash report submission and want your reports to be processed with higher priority, please provide your e-mail address in the box below. Your e-mail address will not be used for anything else beyond discussion of your submission."/>
+
+	<Message key="Report Settings" description="Group: Report settings" value="Settings"/>
+	<Message key="Send report automatically" description="Checkbox: Send report automatically" value="&amp;Send report automatically"/>
+	<Message key="Report verbosity level" description="Group: Report verbosity level" value="Report verbosity level"/>
+	<Message key="Minidump" description="Option: Minidump" value="&amp;Minidump"/>
+	<Message key="Full dump" description="Option: Full dump" value="&amp;Full dump"/>
+	<Message key="Minidump description" description="Text: Minidump description" value="Minidumps usually have a size less than a megabyte and contain only limited information about a crash. Sometimes a minidump is enough to diagnose the problem, but often it lacks necessary information required to reproduce the crash."/>
+	<Message key="Full dump description" description="Text: Full dump description" value="Full dumps contain the compressed view of all process address space. They are best to allow developers to reproduce the situation that caused the crash and fix it as soon as possible. However, the size of a full dump may easily reach hundreds of megabytes."/>
+	<Message key="Privacy Policy" description="Privacy Policy"/>
+
+	<!-- Languags page -->
+	<Message key="Credits to" description="Credits to" value="Credits to:"/>
+
+</Definition>

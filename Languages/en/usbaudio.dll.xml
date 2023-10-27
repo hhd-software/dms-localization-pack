@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Message key="subclass_ac" description="Option: Treat requests as Audio Control (AC) requests. Otherwise - treat as Audio Streaming (AS) requests." value="Treat requests as Audio Control (AC) requests. Otherwise - treat as Audio Streaming (AS) requests."/>
+
+	<Message key="USB Audio Visualizer" description="Settings group: USB Audio Visualizer"/>
+
+	<Enumeration key="AudioConverter" description="Audio Converter">
+		<Item text="Audio View"/>
+		<Item text="USB Audio View visualizer parses packets and configuration descriptors for USB Audio (version 1.0) compliant device."/>
+	</Enumeration>
+
+	<Message key="Audio View" description="Title: Audio View" value="Audio View"/>
+
+	<Enumeration key="UsbAudioBool" description="USB boolean values list">
+		<Item text="True"/>
+		<Item text="False"/>
+	</Enumeration>
+
+	<Message key="UsbAudioHeader" description="Header: USB audio packet header no status" value="{ordinal}: {header} ({dir}), {time}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+	</Message>
+
+	<Message key="Terminal Unit Control" description="Value: Terminal Unit Control" value="Terminal Unit Control"/>
+	<Message key="Mixer Unit Control" description="Value: Mixer Unit Control" value="Mixer Unit Control"/>
+	<Message key="Selector Unit Control" description="Value: Selector Unit Control" value="Selector Unit Control"/>
+	<Message key="Feature Unit Control" description="Value: Feature Unit Control" value="Feature Unit Control"/>
+	<Message key="Processing Unit Control" description="Value: Processing Unit Control" value="Processing Unit Control"/>
+	<Message key="Extension Unit Control" description="Value: Extension Unit Control" value="Extension Unit Control"/>
+	<Message key="Interface Control" description="Value: Interface Control" value="Interface Control"/>
+	<Message key="Endpoint Control" description="Value: Endpoint Control" value="Endpoint Control"/>
+	<Message key="Memory" description="Value: Memory" value="Memory"/>
+	<Message key="Get Status" description="Value: Get Status" value="Get Status"/>
+	<Message key="Request Subclass" description="Field: Request Subclass" value="Request Subclass"/>
+
+	<Enumeration key="UsbAudioSubclasses" description="USB Audio Subclasses list">
+		<Item text="Audio Control (AC)"/>
+		<Item text="Audio Streaming (AS)"/>
+	</Enumeration>
+	
+	<Message key="Request Types" description="Filter page: Request Types"/>
+	<Message key="Subclasses" description="Filter page: Subclasses"/>
+	<Message key="AC Descriptors" description="Filter page: Descriptors (AudioControl subclass)" value="Descriptors (AudioControl subclass)"/>
+	<Message key="AS Descriptors" description="Filter page: Descriptors (AudioStreaming subclass)" value="Descriptors (AudioStreaming subclass)"/>
+
+	<Enumeration key="AudioRequestsCat" description="Filters: Audio Requests">
+		<Item text="Unit Control"/>
+		<Item text="Mixer Unit Control"/>
+		<Item text="Selector Unit Control"/>
+		<Item text="Feature Unit Control"/>
+		<Item text="Processing Unit Control"/>
+		<Item text="Extension Unit Control"/>
+		<Item text="Endpoint Request (AS)"/>
+		<Item text="Memory Request (AS, Additional)"/>
+		<Item text="Get Status Request (AS, Additional)"/>
+	</Enumeration>
+
+	<Enumeration key="AudioRequestTypesCat" description="Filters: Audio Request Types">
+		<Item text="Set Cur"/>
+		<Item text="Get Cur"/>
+		<Item text="Set Min"/>
+		<Item text="Get Min"/>
+		<Item text="Set Max"/>
+		<Item text="Get Max"/>
+		<Item text="Set Res"/>
+		<Item text="Get Res"/>
+		<Item text="Set Mem"/>
+		<Item text="Get Mem"/>
+		<Item text="Get Stat"/>
+	</Enumeration>
+
+	<Message key="Additional" description="Value: Additional" value="Additional"/>
+
+	<Enumeration key="UsbAudioRequestSubtypes" description="USB Audio Request Subtypes list">
+		<Item text="Unknown\n"/>
+		<Item text="Set Cur\n"/>
+		<Item text="Get Cur\n"/>
+		<Item text="Set Min\n"/>
+		<Item text="Get Min\n"/>
+		<Item text="Set Max\n"/>
+		<Item text="Get Max\n"/>
+		<Item text="Set Res\n"/>
+		<Item text="Get Res\n"/>
+		<Item text="Set Mem\n"/>
+		<Item text="Get Mem\n"/>
+		<Item text="Get Stat\n"/>
+	</Enumeration>
+	
+	<Enumeration key="AudioSubclassesCat" description="Filters: Audio Subclasses">
+		<Item text="Audio Control (AC)"/>
+		<Item text="Audio Streaming (AS)"/>
+	</Enumeration>
+
+	<Enumeration key="ACDescriptorsCat" description="Filters: AC Descriptos">
+		<Item text="Header Descriptor (AC)"/>
+		<Item text="Input Terminal Descriptor (AC)"/>
+		<Item text="Output Terminal Descriptor (AC)"/>
+		<Item text="Mixer Unit Descriptor (AC)"/>
+		<Item text="Selector Unit Descriptor (AC)"/>
+		<Item text="Feature Unit Descriptor (AC)"/>
+		<Item text="Processing Unit Descriptor (AC)"/>
+		<Item text="Extension Unit Descriptor (AC)"/>
+		<Item text="Associated Descriptor (AC)"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAudioUnitFields" description="USB Audio Unit Fields list">
+		<Item text="Terminal"/>
+		<Item text="Mixer"/>
+		<Item text="Selector"/>
+		<Item text="Feature"/>
+		<Item text="Processing Unit"/>
+		<Item text="Extension"/>
+	</Enumeration>
+
+	<Enumeration key="ASDescriptorsCat" description="Filters: AS Descriptors">
+		<Item text="Interface Descriptor (AS)"/>
+		<Item text="Format Type Descriptor (AS)"/>
+		<Item text="Format-Specific Descriptor (AS)"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAudioCopyProtect" description="USB Audio Copy Protect Types list">
+		<Item text="CPL0 (Copying is permitted without restriction)"/>
+		<Item text="CPL1 (One generation of copies may be made)"/>
+		<Item text="CPL2 (The material is copyright protected and no digital copying is permitted)"/>
+	</Enumeration>
+
+
+	<Message key="Input Chanel Number" description="Field: Input Chanel Number" value="Input Chanel Number"/>
+	<Message key="Output Chanel Number" description="Field: Output Chanel Number" value="Output Chanel Number"/>
+	<!--IDS_STRING1052          "Value: "-->
+	<Message key="InfinitydB" description="Value: - Infinity dB" value="- Infinity dB"/>
+
+
+	<Message key="UsbAudioValueProgFmt" description="Field: Value (programmable)" value="Value (programmable){number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="UsbAudioValueFmt" description="Field: Value (programmable)" value="Value{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Control Selector" description="Field: Control Selector" value="Control Selector"/>
+	<Message key="Chanel Number" description="Field: Chanel Number" value="Chanel Number"/>
+
+	<Enumeration key="UsbAudioFeature" description="USB Audio Features list">
+		<Item text="Mute"/>
+		<Item text="Volume"/>
+		<Item text="Bass"/>
+		<Item text="Mid"/>
+		<Item text="Treble"/>
+		<Item text="Gain"/>
+		<Item text="Bass Boost"/>
+		<Item text="Loudness"/>
+	</Enumeration>
+
+	<Message key="Bands: " description="Field: Bands" value="Bands"/>
+	<Message key="UsbAudioBandFmt" description="Field: Band" value="Band{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Delay: " description="Field: Delay" value="Delay"/>
+	<Message key="Enable Control" description="Field: Enable Control" value="Enable Control"/>
+
+	<Message key="Mode" description="Field: Mode" value="Mode"/>
+	<Message key="Unit" description="Field: Unit" value="Unit"/>
+	<Message key="Up/Down" description="Value: Up/Down" value="Up/Down"/>
+	<Message key="Dolby Prologic" description="Value: Dolby Prologic" value="Dolby Prologic"/>
+	<Message key="3D Stereo Extender" description="Value: 3D Stereo Extender" value="3D Stereo Extender"/>
+	<Message key="Reverberation" description="Value: Reverberation" value="Reverberation"/>
+	<Message key="Chorus" description="Value: Chorus" value="Chorus"/>
+	<Message key="Dynamic Range Compressor" description="Value: Dynamic Range Compressor" value="Dynamic Range Compressor"/>
+	<Message key="Extension" description="Value: Extension" value="Extension"/>
+	<!--<Message key="Undefined" description="Field: Undefined" value="Undefined"/>-->
+
+	<Message key="Spaciosness" description="Field: Spaciosness (%)" value="Spaciosness (%)"/>
+	<Message key="Reverb Level" description="Field: Reverb Level (%)" value="Reverb Level (%)"/>
+	<Message key="Reverb Time" description="Field: Reverb Time (in 1/256 s)" value="Reverb Time (in 1/256 s)"/>
+	<Message key="Reverb Feedback" description="Field: Reverb Feedback (%)" value="Reverb Feedback (%)"/>
+	<Message key="Chorus Level" description="Field: Chorus Level (%)" value="Chorus Level (%)"/>
+	<Message key="Chorus Rate" description="Field: Chorus Rate (in 1/256 hZ)" value="Chorus Rate (in 1/256 hZ)"/>
+	<Message key="Chorus Depth" description="Field: Chorus Depth (in 1/256 ms)" value="Chorus Depth (in 1/256 ms)"/>
+	<Message key="Compression Rate" description="Field: Compression Rate (in 1/256 dB/dB)" value="Compression Rate (in 1/256 dB/dB)"/>
+	<Message key="MaxAmpl" description="Field: MaxAmpl (in 1/256 dB)" value="MaxAmpl (in 1/256 dB)"/>
+	<Message key="Threshold" description="Field: Threshold (in 1/256 dB)" value="Threshold (in 1/256 dB)"/>
+	<Message key="Attack Time" description="Field: Attack Time (in 1/256 ms)" value="Attack Time (in 1/256 ms)"/>
+	<Message key="Release Time" description="Field: Release Time (in 1/256 ms)" value="Release Time (in 1/256 ms)"/>
+	<Message key="Sampling Frequency" description="Field: Sampling Frequency (in Hz)" value="Sampling Frequency (in Hz)"/>
+	<Message key="Pitch Control" description="Field: Pitch Control (On/OFF)" value="Pitch Control (On/OFF)"/>
+	<Message key="Audio Device Class Specification Release Number" description="Field: Audio Device Class Specification Release Number" value="Audio Device Class Specification Release Number"/>
+	<Message key="Total Length" description="Field: Total Length" value="Total Length"/>
+	<Message key="Item Count" description="Field: Item Count" value="Item Count"/>
+	<Message key="Unit ID" description="Field: Unit ID" value="Unit ID"/>
+	<Message key="Terminal Type" description="Field: Terminal Type" value="Terminal Type"/>
+	<Message key="Associated Terminal" description="Field: Associated Terminal" value="Associated Terminal"/>
+	<Message key="Number of Output Channels" description="Field: Number of Output Channels" value="Number of Output Channels"/>
+	<Message key="Channel Configuration" description="Field: Channel Configuration" value="Channel Configuration"/>
+	<Message key="Name of First Logical Channel (StringDescriptor ID)" description="Field: Name of First Logical Channel (StringDescriptor ID)" value="Name of First Logical Channel (StringDescriptor ID)"/>
+	<Message key="Description of Terminal (StringDescriptor ID)" description="Field: Description of Terminal (StringDescriptor ID)" value="Description of Terminal (StringDescriptor ID)"/>
+	<Message key="Number of Input Pins" description="Field: Number of Input Pins" value="Number of Input Pins"/>
+	<Message key="Programmable Controls" description="Field: Programmable Controls" value="Programmable Controls"/>
+	<Message key="Index of StringDescriptor" description="Field: Index of StringDescriptor" value="Index of StringDescriptor"/>
+	<Message key="Description of Selector Unit (StringDescriptor ID)" description="Field: Description of Selector Unit (StringDescriptor ID)" value="Description of Selector Unit (StringDescriptor ID)"/>
+	<Message key="ID of Unit to which this unit is connected" description="Field: ID of Unit to which this unit is connected" value="ID of Unit to which this unit is connected"/>
+	<Message key="Control size" description="Field: Control size" value="Control size"/>
+	<Message key="Supported controls" description="Field: Supported controls" value="Supported controls"/>
+	<Message key="Description of Feature Unit (StringDescriptor ID)" description="Field: Description of Feature Unit (StringDescriptor ID)" value="Description of Feature Unit (StringDescriptor ID)"/>
+	<Message key="Processing Type" description="Field: Processing Type" value="Processing Type"/>
+	<Message key="Description of Processing Unit (StringDescriptor ID)" description="Field: Description of Processing Unit (StringDescriptor ID)" value="Description of Processing Unit (StringDescriptor ID)"/>
+	<Message key="Number of Supported Modes" description="Field: Number of Supported Modes" value="Number of Supported Modes"/>
+	<Message key="ExtensionCode" description="Field: ExtensionCode" value="ExtensionCode"/>
+	<Message key="Description of Extension Unit (StringDescriptor ID)" description="Field: Description of Extension Unit (StringDescriptor ID)" value="Description of Extension Unit (StringDescriptor ID)"/>
+	<Message key="Terminal Link" description="Field: Terminal Link" value="Terminal Link"/>
+	<Message key="Delay" description="Field: Delay" value="Delay"/>
+	<Message key="FormatTag" description="Field: FormatTag" value="FormatTag"/>
+	<Message key="Attributes" description="Field: Attributes" value="Attributes"/>
+	<Message key="Lock Delay Units" description="Field: Lock Delay Units" value="Lock Delay Units"/>
+	<Message key="Lock Delay" description="Field: Lock Delay" value="Lock Delay"/>
+	<Message key="Format Type" description="Field: Format Type" value="Format Type"/>
+	<Message key="Number of Channels" description="Field: Number of Channels" value="Number of Channels"/>
+
+	<Message key="UsbAudioInterfaceFmt" description="Field: Interface" value="Interface{number}: ">
+		<Param name="number"/>
+	</Message>
+	<Message key="UsbAudioUnitPinFmt" description="Field: ID of Unit to which Pin is connected" value="ID of Unit to which Pin{number} connected: ">
+		<Param name="number"/>
+	</Message>
+	<Message key="UsbAudioModeFmt" description="Field: Mode" value="Mode{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Subframe Size" description="Field: Subframe Size" value="Subframe Size"/>
+	<Message key="Bit Resolution" description="Field: Bit Resolution" value="Bit Resolution"/>
+	<Message key="Sampling Frequency Lower Bound" description="Field: Sampling Frequency Lower Bound" value="Sampling Frequency Lower Bound"/>
+	<Message key="Sampling Frequency Upper Bound" description="Field: Sampling Frequency Upper Bound" value="Sampling Frequency Upper Bound"/>
+
+	<Message key="UsbAudioSamplingFrequencyFmt" description="Field: Sampling Frequency" value="Sampling Frequency{number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="Max Bitrate" description="Field: Max Bitrate" value="Max Bitrate"/>
+	<Message key="Samples Per Frame" description="Field: Samples Per Frame" value="Samples Per Frame"/>
+	<Message key="Payload Type" description="Field: Payload Type" value="Payload Type"/>
+	<Message key="MPEG Capabilities" description="Field: MPEG Capabilities" value="MPEG Capabilities"/>
+	<Message key="BSID" description="Field: BSID" value="BSID"/>
+	<Message key="AC3 Features" description="Field: AC3 Features" value="AC3 Features"/>
+
+	<Enumeration key="UsbAudioFormat" description="USB Audio format list">
+		<Item text="TYPE 1 UNDEFINED"/>
+		<Item text="PCM"/>
+		<Item text="PCM8"/>
+		<Item text="IEEE_FLOAT"/>
+		<Item text="ALAW"/>
+		<Item text="MULAW"/>
+		<Item text="TYPE 2 UNDEFINED"/>
+		<Item text="MEPG"/>
+		<Item text="AC3"/>
+		<Item text="TYPE3 UNDEFINED"/>
+		<Item text="IEC1937 AC3"/>
+		<Item text="IEC1937 MPEG1"/>
+		<Item text="IEC1937 MPEG2 NOEXT"/>
+		<Item text="IEC1937 MPEG2 EXT"/>
+		<Item text="MPEG2 LAYER1"/>
+		<Item text="MPEG2 LAYER 2 OR 3"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAudioDescriptorAC" description="USB Audio control descriptors list">
+		<!--<Item text="Unknown"/>-->
+		<Item text="Class-Specific Descriptor"/>
+		<Item text="Header Descriptor"/>
+		<Item text="Input Terminal Descriptor"/>
+		<Item text="Output Terminal Descriptor"/>
+		<Item text="Mixer Unit Descriptor"/>
+		<Item text="Selector Unit Descriptor"/>
+		<Item text="Feature Unit Descriptor"/>
+		<Item text="Processing Unit Descriptor"/>
+		<Item text="Up-Down Mix Unit Descriptor"/>
+		<Item text="Dolby Prologic Unit Descriptor"/>
+		<Item text="3D Stereo Unit Descriptor"/>
+		<Item text="Reverberation Unit Descriptor"/>
+		<Item text="Chorus Unit Descriptor"/>
+		<Item text="Compressor Unit Descriptor"/>
+		<Item text="Extension Unit Descriptor"/>
+		<Item text="Associated Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="UsbAudioDescriptorAS" description="USB Audio streaming descriptors list">
+		<Item text="Class-Specific Descriptor"/>
+		<Item text="Format Type Descriptor"/>
+		<Item text="Format Specific Descriptor"/>
+	</Enumeration>
+
+	<Message key="UsbAudioDescriptorHeader" description="Header: USB audio descriptor packet header" value="{ordinal}: Descriptor:  '{header}' ({dir}), {time}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+	</Message>
+
+	<Message key="USB Audio Device Detected." description="Value: USB Audio Device Detected." value="USB Audio Device Detected."/>
+
+	<Enumeration key="UsbAudioColors" description="Colors: USB Audio View">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Header 2"/>
+		<Item text="Header 3"/>
+	</Enumeration>
+</Definition>

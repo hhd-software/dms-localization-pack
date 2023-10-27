@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Enumeration key="MchDisplayHint" description="Command: Display Hint…">
+		<Item text="&amp;Display Hint…"/>
+		<Item text="Display currenty selected hint in the dialog box"/>
+	</Enumeration>
+
+	<Enumeration key="MchExportBinary" description="Command: Export Binary">
+		<Item text="Export &amp;Binary…"/>
+		<Item text="Export packet data in binary format"/>
+	</Enumeration>
+
+	<!--<Message key="NoLongerValid" description="" value="This data block is no longer valid."/>-->
+	<Message key="ExportFailed" description="" value="Export failed because the view contains no data"/>
+	<Message key="ErrorExportingData" description="" value="Error exporting data"/>
+	<Message key="CannotCreateFile" description="" value="Cannot create file"/>
+	<Message key="LocatingPacketError" description="Title: Error Locating Packet" value="Error Locating Packet"/>
+	<Message key="LittleEndianFormat" description="" value="Little-Endian (x86 number format)"/>
+	<Message key="BigEndianFormat" description="" value="Big-Endian (ALPHA number format, network order)"/>
+
+	<Message key="ExportingCaption" description="Message: Export process message text" value="Please wait while the {exporter} is converting the selected data.">
+		<Param name="exporter"/>
+	</Message>
+
+	<Message key="HintError" description="Message: Export process message" value="Hex: {hex}, Decimal: {dec}, Unsigned decimal: {udec}, Octal: {oct}o\nBinary:{bin}\n">
+		<Param name="hex" format="b016x"/>
+		<Param name="dec"/>
+		<Param name="udec"/>
+		<Param name="oct" format="b8"/>
+		<Param name="bin"/>
+	</Message>
+
+	<Message key="AsciiCharFormat" description="Message: Export process message text" value="Character: {char}">
+		<Param name="char"/>
+	</Message>
+
+	<Message key="UnicodeCharFormat" description="Message: Export process message text" value="Unicode Character: {char}">
+		<Param name="char"/>
+	</Message>
+
+	<Enumeration key="ExportFormats" description="Supported export file formats">
+		<Item text="All Files (*.*)|*.*|"/>
+		<Item text="HTML Files (*.htm;*.html)|*.htm;*.html|UNICODE Text Files (*.txt)|*.txt|ANSI Text Files (*.txt)|*.txt||"/>
+	</Enumeration>
+
+	<Message key="SingleByteSelected" description="" value="Single Byte Selected"/>
+
+	<Message key="DataExported" description="" value="Data successfully exported"/>
+	<Message key="ExportTitle" description="Title: Export" value="Export"/>
+	<Message key="ClipboardOverflow" description="Error: Clipboard overflow" value="You placed a large amount of data to the clipboard. Do you want the data to be available when you close the {app_name}">
+		<Param name="app_name"/>
+	</Message>
+	<Message key="Converting..." description="Title: Export progress dialog" value="Converting..."/>
+</Definition>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Enumeration key="HelpRegister" description="Command: License Management">
+		<Item text="&amp;License Management…"/>
+		<Item text="Open the License Management dialog"/>
+	</Enumeration>
+
+	<Enumeration key="HelpAbout" description="Command: About">
+		<Item text="&amp;About…"/>
+		<Item text="About the Device Monitoring Studio"/>
+	</Enumeration>
+
+  <Message key="SkipNagScreen" description="Option: Skip Nag Screen" value="Skip Nag Screen (Debug Only)"/>
+
+  <Message key="ModuleName" description="About box module name" value="{module}\tVersion {major}.{minor}.{revision}.{build}">
+    <Param name="module"/>
+    <Param name="major"/>
+    <Param name="minor" format="arw2f0"/>
+    <Param name="revision" format="arw2f0"/>
+    <Param name="build" format="arw4f0"/>
+  </Message>
+
+  <Message key="AboutBoxInfo" description="About box formatted info" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nAll rights reserved." revision="5">
+    <Param name="appname"/>
+    <Param name="major"/>
+    <Param name="minor" format="arw2f0"/>
+    <Param name="revision" format="arw2f0"/>
+    <Param name="build" format="arw4f0"/>
+  </Message>
+
+  <Enumeration key="EditionNames" description="Edition names" revision="1">
+    <Item text="Standard"/>
+    <Item text="Professional"/>
+    <Item text="Ultimate"/>
+  </Enumeration>
+
+  <Message key="EditionName" description="Edition name" value="{edition} Edition">
+    <Param name="edition"/>
+  </Message>
+
+  <Message key="SelectComponentEdition" description="Select component edition…" value="Select component edition…"/>
+
+  <Message key="UpgradeToEdition" description="Upgrade to edition button" value="Upgrade to {edition} Edition">
+    <Param name="edition"/>
+  </Message>
+
+  <Enumeration key="FeatureDlgColumnNames" description="Feature Dialog column names">
+    <Item text="Feature"/>
+    <Item text="Edition"/>
+  </Enumeration>
+
+  <Enumeration key="LicenseType" description="License type">
+    <Item text="Unknown"/>
+    <Item text="Free"/>
+    <Item text="Trial"/>
+    <Item text="Expired"/>
+    <Item text="Registered"/>
+  </Enumeration>
+
+  <!--<Message key="Expired" description="Expired license"/>-->
+  <!--<Message key="Free" description="Free license"/>-->
+  <Message key="Never" description="License expiration: never"/>
+
+  <Enumeration key="CommercialState" description="License commercial state">
+    <Item text="No"/>
+    <Item text="Yes"/>
+    <Item text="N/A"/>
+  </Enumeration>
+
+  <Message key="LicenseSuccess" description="License installation successful" value="The license file has been successfully installed and application activated. Thank you very much for choosing Device Monitoring Studio!"/>
+  <Message key="LicenseFailure" description="License installation failure" value="There was an error installing selected license file. This may be due to the following:\n\n  · Corrupt license file.\n  · Expired license file.\n  · License file for another product.\n\nLog into the My Account section of our web site and download new license file for free."/>
+  <Message key="LicenseRestart" description="Notification to restart to apply license" value="It is strongly recommended that you restart the product to reflect changes."/>
+
+  <!-- Annoying dialog text templates -->
+  <!-- Free first launch -->
+  <Message key="FreeFirstLaunchTitle" description="Free version first launch: Title" value="Welcome to HHD Software Free Device Monitoring Studio"/>
+
+  <Message key="FreeFirstLaunchText" description="Free version first launch: Text" value="Free version of the product has limited set of features.\n\nYou may continue with limited features or try the extended functionality for FREE during 14 days."/>
+
+  <Message key="Trial dialog title: free" description="Trial dialog: title in free edition" value="Get Extended Functionality"/>
+  <Message key="Trial dialog title: trial" description="Trial dialog: title in trial edition" value="Get Registered Version Now!"/>
+  <Message key="Trial text: free" description="Trial dialog: text in free edition" value="Some extended features of Device Monitoring Studio are Trial or Expired.\n\nYou may continue with limited functionality or upgrade to the extended version.\nPurchasing extended functionality will remove this screen."/>
+
+  <Message key="Trial text: trial" description="Trial dialog: text in trial edition" value="The following components are Trial or Expired.\n\nYou cannot continue using expired components and have a limited trial period for trial components. To eliminate this screen, you will need to purchase at least one component."/>
+
+  <!-- Feature not available -->
+  <Message key="Feature not Available.Title" description="Feature not available title" value="Feature not Available"/>
+  <Enumeration key="Feature not Available.Text" description="Feature not available text">
+    <Item text="The feature(s) you are trying to use are not included in the Free version.\n\n{has feature names?}{feature names}\n\n{?has feature names}You may continue with limited features or try extended functionality for FREE during 14 days.">
+      <Param name="has feature names" format="?"/>
+      <Param name="feature names" />
+    </Item>
+    <Item text="The feature(s) you are trying to use are not included in the Free version.\n\n{has feature names?}{feature names}\n\n{?has feature names}You may continue with limited features or upgrade to the extended version.">
+      <Param name="has feature names" format="?"/>
+      <Param name="feature names" />
+    </Item>
+    <Item text="The feature(s) you are trying to use are not included in the current edition.\n\n{has feature names?}{feature names}\n\n{?has feature names}You may continue with limited features or upgrade to the extended version.">
+      <Param name="has feature names" format="?"/>
+      <Param name="feature names" />
+    </Item>
+  </Enumeration>
+
+  <Message key="Trial days left" description="Trial N days left" value="Trial, {days} days left">
+    <Param name="days"/>
+  </Message>
+
+  <Message key="Upgrade Notification" description="Upgrade notification" value="You'll now be redirected to the My Account section of HHD Software web site where you'll be able to configure your upgrade.\n\nPlease note that if you are using registered version, then you already have an account.\n\nUse Password Hint if you cannot remember your password or ask our support team if you are still unable to login."/>
+
+  <Message key="Upgrades" description="Title: Upgrade notification"/>
+
+  <Message key="You must select at least one edition!" description="Message: No editions selected"/>
+  <Message key="Purchase Now" description="Window title: Purchase Now"/>
+  <Message key="All components purchased" description="Message: All components purchased" value="All installed components have been already purchased. If you want to upgrade, please click the Upgrade… button."/>
+
+  <Enumeration key="HelpStartTrial" description="Command: HelpStartTrial">
+    <Item text="Start Free Trial"/>
+    <Item text="Start Free Trial."/>
+  </Enumeration>
+
+  <Message key="MessageStartTrial" description="Message: Trial started" value="You've successfully started Free trial period for all extended features!"/>
+
+	<Enumeration key="PlayerSource" description="Playback source information">
+		<Item text="Log Playback"/>
+		<Item text="Log Playback module allows you to playback the previousely recorded monitoring sessions."/>
+	</Enumeration>
+
+	<Enumeration key="RemoteSource" description="Remote source information">
+		<Item text="Remote Monitor"/>
+		<Item text="Remote Connection description here: TODO"/>
+	</Enumeration>
+
+	<Enumeration key="LicenseColumns" description="License window columns">
+		<Item text="License"/>
+		<Item text="Type"/>
+		<Item text="Expires On"/>
+		<Item text="Commercial"/>
+	</Enumeration>
+
+	<Message key="Commercial" description="License type: Commercial" value="Commercial License"/>
+	<Message key="NonCommercial" description="License type: Non-Commercial" value="Non-Commercial License"/>
+
+	<Message key="License File Filter" description="License file filter" value="Device Monitoring Studio License Files|*.dmslic|All Files|*.*|">
+		<Validate rule="OpenFileDialogFilter"/>
+	</Message>
+
+	<Message key="Copyright" description="Copyright message" value="Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law."/>
+
+	<!-- Dialogs -->
+	<Message key="About Device Monitoring Studio" description="Window Title: About Device Monitoring Studio"/>
+	<Message key="Installed Components:" description="Field: Installed Components"/>
+	<Message key="Component Details:" description="Field: Component Details"/>
+
+	<Message key="Feature Not Available" description="Window Title: Feature Not Available"/>
+	<Message key="The features you are trying to use are not available in the current edition." description="Field: The features you are trying to use are not available in the current edition"/>
+	<Message key="Start Trial!" description="Button: Start Trial!"/>
+
+	<Message key="License Management" description="Window Title: License Management"/>
+	<Message key="Installed licenses:" description="Field: Installed licenses"/>
+	<Message key="Install License" description="Button: Install License" value="&amp;Install License…"/>
+	<Message key="Purchase" description="Button: Purchase" value="&amp;Purchase…"/>
+	<Message key="Upgrade" description="Button: Upgrade" value="&amp;Upgrade…"/>
+	<Message key="Start Free Trial" description="Button: Start Free Trial"/>
+
+	<Message key="Purchase Device Monitoring Studio Now!" description="Window Title: Purchase Device Monitoring Studio Now!"/>
+	<Message key="NagInfo" description="Nag screen text" value="The following components are Trial or Expired.\n\nYou cannot continue using expired components and have a limited trial period for trial components. To eliminate this screen, you will need to purchase at least one component."/>
+
+	<Message key="Get Registered Version Now!" description="Window Title: Get Registered Version Now!"/>
+	<Message key="Select the edition type for each component and click Continue button." description="Field: Select the edition type for each component and click Continue button."/>
+	<Message key="Compare Editions..." description="Link: Compare Editions..." value="Compare Editions…"/>
+	<Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." description="Field: Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later."/>
+
+</Definition>

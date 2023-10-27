@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Enumeration key="EditCopyDeviceName" description="Command: EditCopyDeviceName">
+		<Item text="&amp;Copy Name"/>
+		<Item text="Copy the device name to the Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="EditRestartDevice" description="Command: EditRestartDevice">
+		<Item text="&amp;Restart"/>
+		<Item text="Restart the selected device"/>
+	</Enumeration>
+
+	<Enumeration key="EditDeviceProperties" description="Command: EditDeviceProperties">
+		<Item text="&amp;Properties…"/>
+		<Item text="Display the selected devic"/>
+	</Enumeration>
+
+	<Message key="Dependent Devices" description="Dependent Devices"/>
+
+	<Enumeration key="Descriptor Tool Windows" description="Descriptor Tool Windows">
+		<Item text="Device Descriptor"/>
+		<Item text="Configuration Descriptor"/>
+		<Item text="HID Descriptor"/>
+	</Enumeration>
+
+	<Enumeration key="CellConverter" description="Cell Converter">
+		<Item text="Raw Data View"/>
+		<Item text="Raw Data View displays raw packet data in two contiguous streams (input and output). Provides flexible visual and layout customization."/>
+	</Enumeration>
+
+	<Enumeration key="StatisticsConverter" description="Statistics Converter">
+		<Item text="Statistics"/>
+		<Item text="Statistics collects and displays statistics and device throughput. Several statistic values are calculated and displayed on the linear graph."/>
+	</Enumeration>
+
+	<Enumeration key="URBConverter" description="URB View">
+		<Item text="URB View"/>
+		<Item text="URB View data visualizer decodes raw packets and control requests sent to and received from the usb device."/>
+	</Enumeration>
+
+	<Enumeration key="TableConverter" description="Packet View">
+		<Item text="Packet View"/>
+		<Item text="Packet View data visualizer displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
+	</Enumeration>
+
+	<Enumeration key="StructureConverter" description="Structure View">
+		<Item text="Structure View"/>
+		<Item text="Structure View data visualizer decodes all usb packet data using the protocol definitions stored in the product or provided by the user."/>
+	</Enumeration>
+
+	<Enumeration key="MenuEndpoints" description="Command group: Endpoints">
+		<Item text="Endpoints"/>
+		<Item text="USB endpoints"/>
+	</Enumeration>
+
+	<Enumeration key="VideoView" description="Video View">
+		<Item text="Video View (Beta)"/>
+		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.5) compliant device."/>
+	</Enumeration>
+
+	<Enumeration key="UsbDescriporsList" description="USB descriptor types list">
+		<Item text="Device Descriptor"/>
+		<Item text="Configuration Descriptor"/>
+		<Item text="String Descriptor"/>
+		<Item text="Interface Descriptor"/>
+		<Item text="Endpoint Descriptor"/>
+	</Enumeration>
+
+	<Message key="URB View" description="Title: URB View" value="URB View"/>
+	<Message key="Packet View" description="Title: Packet View" value="Packet View"/>
+	<Message key="Raw Data View" description="Title: Raw Data View" value="Raw Data View"/>
+	<Message key="USB Structure View" description="Title: Raw Data View" value="Raw Data View"/>
+
+	<Enumeration key="UsbTransferType" description="USB transfer types list">
+		<Item text="Transfer Type: Control"/>
+		<Item text="Transfer Type: Isochronous"/>
+		<Item text="Transfer Type: Bulk"/>
+		<Item text="Transfer Type: Interrupt"/>
+		<Item text="Transfer Type: Unknown"/>
+	</Enumeration>
+
+	<Enumeration key="UsbEndpointType" description="USB endpoint types list">
+		<Item text="Input"/>
+		<Item text="Output"/>
+	</Enumeration>
+
+	<Message key="CounterPacketsTotal" description="Plot counter: Packets Total/Sec" value="Packets Total/Sec"/>
+
+	<Message key="CounterBytesTransferTotal" description="Plot counter name: Bytes Total" value="Bytes Total/Sec"/>
+	<Message key="Get Descriptor Request" description="Field Header: Get Descriptor Request" value="Get Descriptor Request"/>
+	<Message key="Set Descriptor Request" description="Field Header: Set Descriptor Request" value="Set Descriptor Request"/>
+	<Message key="Function Code: " description="Field: Function Code"/>
+	<Message key="DirectionDown" description="Field: Direction Down" value="Direction: Down\nData Length: "/>
+	<Message key="DirectionUp" description="Field: Direction Up" value="Direction: Up\nData Length: "/>
+	<Message key="VILFmt" description="Field group: Setup packet" value="Value: {value}\nIndex: {index}\nLength: {length}">
+		<Param name="value" format="b016x"/>
+		<Param name="index" format="b016x"/>
+		<Param name="length" format="b016x"/>
+	</Message>
+	<Message key="Control Transfer" description="Field Header: Control Transfer" value="Control Transfer"/>
+	<Message key="Setup Packet" description="Field: Setup Packet" value="Setup Packet"/>
+	<Enumeration key="UsbRequestDirection" description="USB request directions list">
+		<Item text="Host->Device"/>
+		<Item text="Device->Host"/>
+	</Enumeration>
+	<Enumeration key="UsbRequestType" description="USB setup packet recipients list">
+		<Item text="Standard"/>
+		<Item text="Class"/>
+		<Item text="Vendor"/>
+	</Enumeration>
+	<Enumeration key="UsbRecepient" description="USB setup packet recipients list">
+		<Item text="Device"/>
+		<Item text="Interface"/>
+		<Item text="Other"/>
+	</Enumeration>
+	<Message key="UsbRequestFmt" description="Field: Request" value="Request: {id} ({name})\n">
+		<Param name="id" format="b016x"/>
+		<Param name="name"/>
+	</Message>
+	<Message key="SchemeBasic" description="Scheme name: Basic" value="Basic"/>
+	<Message key="Pipe Handle" description="Field: Pipe Handle" value="Pipe Handle"/>
+	<Message key="SchemeComplete" description="Scheme name: Complete" value="Complete"/>
+	<Message key="SetupPacketFmt" description="Setup packet fields" value="Recipient: {recp}\nRequest Type: {type}\nDirection: {dir}\n">
+		<Param name="recp"/>
+		<Param name="type"/>
+		<Param name="dir"/>
+	</Message>
+
+	<Message key="UsbDescriptorFmt" description="Setup packet fields" value="Descriptor Type: {name}\nDescriptor Index: {index}\nTransfer Buffer Size: {size} bytes\n">
+		<Param name="name"/>
+		<Param name="index" format="b016x"/>
+		<Param name="size" format="b016x"/>
+	</Message>
+
+	<Message key="UsbDescriptorLangFmt" description="Setup packet fields" value="LanguageId: {index}">
+		<Param name="index" format="b016x"/>
+	</Message>
+
+	<Enumeration key="UsbDescriptorType" description="USB descriptor types list">
+		<Item text="Device"/>
+		<Item text="Configuration"/>
+		<Item text="String"/>
+		<Item text="HID Descriptor"/>
+		<Item text="HID Report Descriptor"/>
+		<Item text="HID Power Descriptor"/>
+	</Enumeration>
+
+
+	<Message key="Bulk or Interrupt Transfer" description="Header: Bulk or Interrupt Transfer" value="Bulk or Interrupt Transfer"/>
+	<Message key="Get" description="Field: Get" value="Get"/>
+
+	<Message key="UsbSizeFmt" description="Formatted Value: N bytes" value="{size} bytes">
+		<Param name="size" format="b016x"/>
+	</Message>
+
+	<Message key="from the device" description="Value: from the device" value="from the device"/>
+	<Message key="Send" description="Field: Send" value="Send"/>
+	<Message key="to the device" description="Value: to the device" value="to the device"/>
+
+	<Message key="UsbTransferFmt" description="Formatted Value: N bytes" value="{operation} {size} bytes {dir}">
+		<Param name="operation"/>
+		<Param name="size" format="b016x"/>
+		<Param name="dir"/>
+	</Message>
+
+	<Message key="Select Configuration" description="Header: Select Configuration" value="Select Configuration"/>
+
+	<Message key="ConfigurationIndexUnconfigured" description="Value: Unconfigured" value="Configuration Index: &lt;unconfigured&gt;\n"/>
+
+	<Message key="ConfigurationIndexFmt"  description="Formatted value: Configuration Index" value="Configuration Index: {id}\n">
+		<Param name="id"/>
+	</Message>
+	<Message key="ConfigurationHandleFmt" description="Formatted value: Configuration Index" value="Configuration Handle: {handle}">
+		<Param name="handle" format="b016x"/>
+	</Message>
+
+	<Enumeration key="UsbPacketViewColumns" description="Packet view columns list">
+		<Item text="Packet No"/>
+		<Item text="Time"/>
+		<Item text="Time Diff"/>
+		<Item text="Direction"/>
+		<Item text="Status"/>
+		<Item text="Function"/>
+		<Item text="Device"/>
+	</Enumeration>
+
+	<Enumeration key="UsbPipeRequestType" description="USB pipe request types list">
+		<Item text="Abort Pipe"/>
+		<Item text="Reset Pipe"/>
+	</Enumeration>
+
+	<Message key="Get Status Request" description="Header: Get Status Request" value="Get Status Request"/>
+
+	<Message key="GetStatusFmt" description="Formatted value: Get status" value="Get status from {name}. Data length ">
+		<Param name="name"/>
+	</Message>
+
+	<Message key="Set Feature Request" description="Header: Set Feature Request" value="Set Feature Request"/>
+	<Message key="Clear Feature Request" description="Header: Clear Feature Request" value="Clear Feature Request"/>
+	<Message key="FeatureFmt" description="Formatted value: Feature" value="{state} feature {selector} on {endpoint}">
+		<Param name="state"/>
+		<Param name="selector" format="b016x"/>
+		<Param name="endpoint"/>
+	</Message>
+
+	<Message key="index"  description="Value: index" value="index"/>
+
+	<Enumeration key="UsbFeatureType" description="USB feature types list">
+		<Item text="Set"/>
+		<Item text="Clear"/>
+	</Enumeration>
+
+	<Message key="Vendor-Specific Request" description="Header: Vendor-Specific Request" value="Vendor-Specific Request"/>
+	<Message key="Class-Specific Request" description="Header: Class-Specific Request" value="Class-Specific Request"/>
+
+	<Message key="ReservedBitsFmt" description="Formatted value: Reserved Bits" value="Reserved Bits: {count}\nRequest: {request}\nValue: {value}\n">
+		<Param name="count"/>
+		<Param name="request" format="b016x"/>
+		<Param name="value" format="b016x"/>
+	</Message>
+	<Message key="UsbDestinationIndex" description="Formatted value: Destination" value="Destination: {name}, Index {index}\n">
+		<Param name="name"/>
+		<Param name="index"/>
+	</Message>
+	<Message key="UsbDestination" description="Formatted value: Destination" value="Destination: {name}\n">
+		<Param name="name"/>
+	</Message>
+	<Message key="Get Configuration Request" description="Header: Get Configuration Request" value="Get Configuration Request"/>
+
+	<Message key="Get Interface Request" description="Header: Get Interface Request" value="Get Interface Request"/>
+	<Message key="InterfaceIndexFmt" description="Formatted value:" value="Interface Index: {index}\n">
+		<Param name="index"/>
+	</Message>
+
+	<Message key="Take Frame Length Control Request" description="Header: Take Frame Length Control Request" value="Take Frame Length Control Request"/>
+	<Message key="Release Frame Length Control Request" description="Header: Release Frame Length Control Request" value="Release Frame Length Control Request"/>
+	<Message key="Get Frame Length Request" description="Header: Get Frame Length Request" value="Get Frame Length Request"/>
+
+	<Message key="FrameLengthFmt" description="Formatted value: Frame Length" value="Frame Length: {length}\nFrame Number: {number}">
+		<Param name="length" format="b016x"/>
+		<Param name="number" format="b016x"/>
+	</Message>
+
+	<Message key="Set Frame Length Request" description="Header: Set Frame Length Request" value="Set Frame Length Request"/>
+	<Message key="FrameLengthDeltaFmt" description="Formatted value: Frame Length Delta" value="Frame Length Delta: {delta}">
+		<Param name="delta" format="b016x"/>
+	</Message>
+	<Message key="Get Current Frame Number Request" description="Header: Get Current Frame Number Request" value="Get Current Frame Number Request"/>
+	<Message key="FrameNumberFmt" description="Formatted value: Frame Number" value="Frame Number: {frame}">
+		<Param name="frame" format="b016x"/>
+	</Message>
+	<Message key="UsbHeader" description="Header: USB packet header with status" value="{ordinal}: {header} ({dir}), {time}. ({source}. Device: {name}) Status: {status}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+		<Param name="source"/>
+		<Param name="name"/>
+		<Param name="status" format="b016xw8arf0"/>
+	</Message>
+	<Message key="UsbHeaderNoStat" description="Header: USB packet header no status" value="{ordinal}: {header} ({dir}), {time}. ({source}. Device: {name})\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+		<Param name="source"/>
+		<Param name="name"/>
+	</Message>
+	<Message key="Device Descriptor" description="Field: Device Descriptor" value="Device Descriptor\n"/>
+
+	<Message key="DisplayDescriptorFmt"  description="Formatted value: Device descriptor" value="Length: {length} bytes, USB Specification: {spec}\nClass: {class}, Subclass: {subclass}, Protocol: {protocol}
+				 \nMax. packet size: {size} bytes\nVendor ID: {vendor_id} ({vendor_name}), Product ID: {prod_id}, Device Version: {version}\nManufacturer: {manufacturer}, Product: {product}, Serial Number: {serial}\nNumber of configurations: {num_configs}">
+		<Param name="length" format="b016x"/>
+		<Param name="spec" format="b016x"/>
+		<Param name="class" format="b016x"/>
+		<Param name="subclass" format="b016x"/>
+		<Param name="protocol" format="b016x"/>
+		<Param name="size"/>
+		<Param name="vendor_id" format="b016x"/>
+		<Param name="vendor_name"/>
+		<Param name="prod_id" format="b016x"/>
+		<Param name="version" format="b016x"/>
+		<Param name="manufacturer"/>
+		<Param name="product"/>
+		<Param name="serial"/>
+		<Param name="num_configs"/>
+	</Message>
+
+	<Message key="Configuration Descriptor" description="Field: Configuration Descriptor" value="Configuration Descriptor\n"/>
+
+	<Message key="UsbConfigurationDescriptorFmt" description="Formatted value: Device descriptor" value="Length: {length} bytes, Total length: {total_len} bytes\nNumber of interfaces: {num_interfaces}, Configuration desc.: {config}\n
+				 Attributes: {attribs}: {attr1} {attr2} {attr3}\nMax Power: {max_power}">
+
+		<Param name="length" format="b016x"/>
+		<Param name="total_len" format="b016x"/>
+		<Param name="num_interfaces"/>
+		<Param name="config"/>
+		<Param name="attribs" format="b016x"/>
+		<Param name="attr1"/>
+		<Param name="attr2"/>
+		<Param name="attr3"/>
+		<Param name="max_power" format="b016x"/>
+	</Message>
+
+	<Enumeration key="UsbConfigAttribs" description="Usb configuration descriptor attributes list">
+		<Item text="[Remote Wakeup]"/>
+		<Item text="[Self-Powered]"/>
+		<Item text="[Bus-Powered]"/>
+	</Enumeration>
+
+	<Message key="Interface Descriptor" description="Field: Interface Descriptor" value="Interface Descriptor\n"/>
+
+	<Message key="InterfaceDescriptorFmt" description="Formatted value: Interface descriptor" value="Length: {length}\nInterface number: {number}, Alternate setting: {alt_set}\n
+			 Number of endpoints: {endpoints}\nClass: {class}, Subclass: {subclass}, Protocol: {protocol}\nInterface desc.: {interface}">
+
+		<Param name="length" format="b016x"/>
+		<Param name="number"/>
+		<Param name="alt_set"/>
+		<Param name="endpoints"/>
+		<Param name="class" format="b016x"/>
+		<Param name="subclass" format="b016x"/>
+		<Param name="protocol" format="b016x"/>
+		<Param name="interface"/>
+	</Message>
+
+	<Message key="Endpoint Descriptor" description="Field: Endpoint Descriptor" value="Endpoint Descriptor\n"/>
+
+	<Message key="EndpointDescriptorFmt" description="Formatted value: Interface descriptor" value="Length: {length}\nEndpoint address: {addr} ({name})\n
+			 Attributes: {attribs} (attr_names)\nMax. packet size: {size} bytes\n">
+
+		<Param name="length" format="b016x"/>
+		<Param name="addr" format="b016x"/>
+		<Param name="name"/>
+		<Param name="attribs" format="b016x"/>
+		<Param name="attr_names"/>
+		<Param name="size"/>
+	</Message>
+
+	<Message key="Interval" description="Field: Interval" value="Interval: {frames} frames">
+		<Param name="frames"/>
+	</Message>
+	<Message key="Isochronous Transfer" description="Header: Isochronous Transfer" value="Isochronous Transfer"/>
+	<Message key="IsochTransferFmt" description="Formatted value: Isoch Transfer" value="\nStart Frame: {frame}, Number of packets: {packets}, Error Count: {error}{asap}\n">
+		<Param name="frame"/>
+		<Param name="packets"/>
+		<Param name="error"/>
+		<Param name="asap"/>
+	</Message>
+	<Message key="UsbIsochronousTransferFmt" description="Formatted value: Isochronous transfer" value="Offset: {offset}, Length: {length}, Status: {status}\n">
+		<Param name="offset" format="b016x"/>
+		<Param name="length" format="b016x"/>
+		<Param name="status" format="b016x"/>
+	</Message>
+	<Message key="UsbTransferPacketFmt" description="Formatted value: Transfer Packet" value="Transfer Packet {number}: ">
+		<Param name="number"/>
+	</Message>
+
+	<Enumeration key="PnpEventType" description="USB PnP events list">
+		<Item text="PnP Event: Device Connected"/>
+		<Item text="PnP Event: Device Disconnected"/>
+		<Item text="PnP Event: Surprise Removal"/>
+		<Item text="PnP Event: Query ID"/>
+		<Item text="PnP Event: Query Device Text"/>
+		<Item text="PnP Event: Query Interface"/>
+	</Enumeration>
+
+	<Message key="QueryInterfaceFmt" description="Formatted value: Query Interface" value="Interface GUID: {guid}\nInterface Size: {size} bytes\nInterface Version: {version}\nStatus: {status}\nInformation: {info}">
+		<Param name="guid"/>
+		<Param name="size" format="b016x"/>
+		<Param name="version" format="b016x"/>
+		<Param name="status" format="b016xw8arf0"/>
+		<Param name="info" format="b016x"/>
+	</Message>
+	<Message key="pcktssec" description="Counter text: packets/second" value="pckts/sec"/>
+	<Message key="bytessec" description="Counter text: bytes/sec" value="bytes/sec"/>
+	<Message key="CounterBytesRead" description="Plot counter name: Bytes Read" value="Bytes Read/sec"/>
+	<Message key="CounterBytesWritten" description="Plot counter name: Bytes Written"  value="Bytes Written/sec"/>
+	<Message key="Unable to retrieve data" description="Error: Unable to retrieve data" value="Unable to retrieve data"/>
+	<Message key="StartTransferASAP" description="Value: StartTransferASAP" value=", Start Transfer ASAP"/>
+
+	<Enumeration key="UsbConnectionState" description="USB connection states list">
+		<Item text="The USB device has just been connected to the system."/>
+		<Item text="The USB device has just been removed from the system, all drivers unloaded."/>
+		<Item text="The USB device has just been disconnected from the system."/>
+	</Enumeration>
+
+	<Message key="DeviceQueryTextFmt1" description="Formatted value: Device Query Text Description" value="Description: {string}">
+		<Param name="string"/>
+	</Message>
+	<Message key="DeviceQueryTextFmt2" description="Formatted value: Device Query Text Location" value="Location: {string}">
+		<Param name="string"/>
+	</Message>
+
+	<Enumeration key="DeviceQueryType" description="USB device query types list">
+		<Item text="Device ID query (BusQueryDeviceID)."/>
+		<Item text="Hardware IDs query (BusQueryHardwareIDs)."/>
+		<Item text="Compatible IDs query (BusQueryCompatibleIDs)."/>
+		<Item text="Instance ID query (BusQueryInstanceID)."/>
+		<Item text="Serial Number query (BusQueryDeviceSerialNumber)."/>
+	</Enumeration>
+
+	<Message key="DeviceIDFmt"  description="Field: Device ID" value="Device ID: {id}">
+		<Param name="id"/>
+	</Message>
+	<Message key="Hardware IDs" description="Field: Hardware IDs" value="Hardware IDs: "/>
+	<Message key="Compatible IDs" description="Field: Compatible IDs" value="Compatible IDs: "/>
+	<Message key="InstanceIDFmt"  description="Field: Instance ID" value="Instance ID: {id}">
+		<Param name="id"/>
+	</Message>
+	<Message key="SerialNumberFmt"  description="Field: Serial Number" value="Serial Number: {id}">
+		<Param name="id"/>
+	</Message>
+
+	<Message key="NoStringFmt"  description="Formatted value: No string" value="No string, error code {code}">
+		<Param name="code" format="b016x"/>
+	</Message>
+	<Message key="Select Interface" description="Header: Select Interface" value="Select Interface"/>
+	<Message key="EndpointAddressFmt" description="Formatted value: Endpoint Address" value="{handle} (Endpoint Address: {address})\n">
+		<Param name="handle" format="b016x"/>
+		<Param name="address" format="b016x"/>
+	</Message>
+
+	<Message key="UsbConfigurationFmt" description="Formatted value: USB configuration" value="Configuration Handle: {handle}, Interface Number: {interface}, Alternate Setting: {alt_set}\n">
+		<Param name="handle" format="b016x"/>
+		<Param name="interface" format="b016x"/>
+		<Param name="alt_set" format="b016x"/>
+	</Message>
+
+	<Message key="PipeInformationFmt2" description="Formatted value: Pipe Infomation" value="Maximum packet size: {size}\nEndpoint address: {address}\nInterval: {interval}\n{transfer_type}\nMaximum transfer size: {max_size}\n">
+		<Param name="size" format="b016x"/>
+		<Param name="address" format="b016x"/>
+		<Param name="interval" format="b016x"/>
+		<Param name="transfer_type"/>
+		<Param name="max_size" format="b016x"/>
+	</Message>
+
+	<Message key="PipeInformationFmt" description="Field: Pipe Information" value="Pipe Information (Handle {handle}, Endpoint address {address})\n">
+		<Param name="handle" format="b016x"/>
+		<Param name="address" format="b016x"/>
+	</Message>
+
+	<Message key="InvalidDescriptorStructure" description="Error: Invalid descriptor structure" value="Invalid descriptor structure!\n"/>
+	<Message key="HIDReportDescriptorWarning" description="Message: please use HID converter" value="HID Report Descriptor (please use HID converter)"/>
+
+	<Message key="HidDescriptorFmt" description="Formatted value: HID descriptor" value="Length: {length}\nbcdHID: {hid}\nCountry: {country}\nTotal Descriptors: {count}\n">
+		<Param name="length" format="b016x"/>
+		<Param name="hid" format="b016x"/>
+		<Param name="country" format="b016x"/>
+		<Param name="count"/>
+	</Message>
+
+	<Message key="HidDescriptorReportFmt" description="Formatted value: HID report descriptor" value="Descriptor Type:{type} ({name})\nDescriptor Length:{length}\n">
+		<Param name="type"/>
+		<Param name="name"/>
+		<Param name="length"/>
+	</Message>
+
+	<Message key="DescriptorFmt" description="Field: HID Descriptor" value="Descriptor {id}:\n">
+		<Param name="id"/>
+	</Message>
+
+	<Message key="HID Descriptor" description="Field: HID Descriptor" value="HID Descriptor\n"/>
+
+	<Enumeration key="UsbReportTypesList" description="USB report types list">
+		<Item text="Unknown"/>
+		<Item text="Report"/>
+		<Item text="Physical"/>
+	</Enumeration>
+
+	<Message key="HIDPhysicalDescriptorWarning" description="Message: please use HID converter" value="HID Physical Descriptor (please use HID converter)"/>
+	<Message key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
+	<Message key="PlotVisualizerName"    description="Plot visualizer name"   value="Statistics"/>
+
+	<Enumeration key="UsbEventTypesList" description="USB event types list">
+		<Item text="PnP: Device Connected"/>
+		<Item text="PnP: Device Disconnected"/>
+		<Item text="PnP: Device Surprise Removal"/>
+		<Item text="PnP: Query ID"/>
+		<Item text="PnP: Query Text"/>
+		<Item text="Internal: Pipe Info Transfer"/>
+		<Item text="PnP: Query Interface"/>
+	</Enumeration>
+
+	<Message key="PacketNo" description="Plot Visualizer: value time mark text"       value="Packet No:"/>
+
+	<Enumeration key="UsbPageList" description="USB usage page list">
+		<Item text="Generic Desktop"/>
+		<Item text="Simulation Controls"/>
+		<Item text="VR Controls"/>
+		<Item text="Sport Controls"/>
+		<Item text="Game Controls"/>
+		<Item text="Generic Device"/>
+		<Item text="Leds"/>
+		<Item text="Telephony"/>
+		<Item text="Keyboard"/>
+		<Item text="Buttons"/>
+		<Item text="Ordinals"/>
+		<Item text="Consumer Page"/>
+		<Item text="Digitizers"/>
+		<Item text="Unicode"/>
+		<Item text="Alphanumeric Display Page"/>
+		<Item text="Medical Instruments"/>
+		<Item text="Physical Devices"/>
+		<Item text="Power Devices"/>
+		<Item text="Battery"/>
+	</Enumeration>
+
+	<Message key="PacketsTotalSecDesc" description="Packets Total counter description" value="Packets Total/Sec is the rate packets are transferred to or from the device during write or read operations."/>
+	<Message key="CounterBytesTransferTotalDesc"  description="Bytes Total counter description" value="Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations."/>
+	<Message key="CounterBytesReadDesc"  description="Bytes Read counter description" value="Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations."/>
+	<Message key="CounterBytesWrittenDesc"  description="Bytes Written counter description" value="Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations."/>
+	<Message key="IDS_STRING1434"  description="Packets Written counter description" value="Packets Written/Sec is the rate at which packets are transferred to the device during write operations."/>
+	<Message key="IDS_STRING1435"  description="Packets Read counter description" value="Packets Read/Sec is the rate at which packets are transferred from the device during read operations."/>
+	<Message key="CounterControlTotalDesc"  description="Control Bytes Total counter description" value="Control: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via control pipe."/>
+	<Message key="CounterControlReadDesc"  description="Control Bytes Read counter description" value="Control: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via control pipe."/>
+	<Message key="CounterControlWrittenDesc"  description="Control Bytes Written counter description" value="Control: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via control pipe."/>
+	<Message key="CounterBulkTotalDesc"  description="Bulk Bytes Total counter description" value="Bulk: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via bulk pipes."/>
+	<Message key="CounterBulkWrittenDesc"  description="Bulk Bytes Written counter description" value="Bulk: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via bulk pipes."/>
+	<Message key="CounterBulkReadDesc"  description="Bulk Bytes Read counter description" value="Bulk: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via bulk pipes."/>
+	<Message key="CounterInterruptTotalDesc"  description="Interrupt Bytes Total counter description" value="Interrupt: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via interrupt pipes."/>
+	<Message key="CounterInterruptWrittenDesc"  description="Interrupt Bytes Written counter description" value="Interrupt: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via interrupt pipes."/>
+	<Message key="CounterInterruptReadDesc"  description="Interrupt Bytes Read counter description" value="Interrupt: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via interrupt pipes."/>
+	<Message key="CounterIsochronousTotalDesc"  description="Isochronous Bytes Total counter description" value="Isochronous: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via isochronous pipes."/>
+	<Message key="CounterIsochronousWrittenDesc"  description="Isochronous Bytes Written counter description" value="Isochronous: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via isochronous pipes."/>
+	<Message key="CounterIsochronousReadDesc"  description="Isochronous Bytes Read counter description" value="Isochronous: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via isochronous pipes."/>
+	<Message key="CounterPacketsWritten" description="Plot counter name: Packets Written" value="Packets Written/Sec"/>
+	<Message key="CounterPacketsRead" description="Plot counter name: Packets Read/Sec"  value ="Packets Read/Sec"/>
+	<Message key="CounterControlTotal" description="Plot counter name: Control Bytes Total" value="Control: Bytes Total/Sec"/>
+	<Message key="CounterControlRead" description="Plot counter name: Control Bytes Read" value="Control: Bytes Read/Sec"/>
+	<Message key="CounterControlWritten" description="Plot counter name: Control Bytes Written" value="Control: Bytes Written/Sec"/>
+	<Message key="CounterBulkTotal"          description="Plot counter name: Bulk Bytes Total" value="Bulk: Bytes Total/Sec"/>
+	<Message key="CounterBulkWritten" description="Plot counter name: Bulk Bytes Written" value="Bulk: Bytes Written/Sec"/>
+	<Message key="CounterBulkRead"          description="Plot counter name: Bulk Bytes Read" value="Bulk: Bytes Read/Sec"/>
+	<Message key="CounterInterruptTotal" description="Plot counter name: Interrupt Bytes Total" value="Interrupt: Bytes Total/Sec"/>
+	<Message key="CounterInterruptWritten" description="Plot counter name: Interrupt Bytes Written" value="Interrupt: Bytes Written/Sec"/>
+	<Message key="CounterInterruptRead" description="Plot counter name: Interrupt Bytes Read" value="Interrupt: Bytes Read/Sec"/>
+	<Message key="CounterIsochronousTotal" description="Plot counter name: Isochronous Bytes Total" value="Isochronous: Bytes Total/Sec"/>
+	<Message key="CounterIsochronousWritten"   description="Plot counter name: Isochronous Bytes Written"  value="Isochronous: Bytes Written/Sec"/>
+	<Message key="CounterIsochronousRead"  description="Plot counter name: Isochronous Bytes Read" value="Isochronous: Bytes Read/Sec"/>
+
+	<Message key="PipeHandleFmt" description="Field group: Setup packet" value="Endpoint: {addr}, {type}, {dir}">
+		<Param name="addr" format="b016x"/>
+		<Param name="type"/>
+		<Param name="dir"/>
+	</Message>
+
+	<Message key="STRINGCONTROL" description="Menu text: Control"  value="Control"/>
+	<Message key="STRINGISOCHRONOUS" description="Menu text: Isochonous"  value="Isochonous"/>
+	<Message key="STRINGBULK" description="Menu text: Bulk"  value="Bulk"/>
+	<Message key="STRINGINTERRUPT" description="Menu text: Interrupt"  value="Interrupt"/>
+	<Message key="STRINGINPUT" description="Menu text: Input"  value="Input"/>
+	<Message key="STRINGOUTPUT" description="Menu text: Output"  value="Output"/>
+	<Message key="IDS_STRUCT_NOT_FOUND"  description="Message: structure definition" value="structure definition is not found. Structure View is unable to display any results."/>
+
+	<Message key="DevNameFormat" description="Formatted value:" value="endpoint_device_{addr}_{index}">
+		<Param name="addr" format="b016"/>
+		<Param name="index"/>
+	</Message>
+	<Message key="IDS_CONTROLPIPE" description="Value: Control Pipe" value="Control Pipe"/>
+
+	<Enumeration key="GeneralCat" description="Filters: URB View General">
+		<Item text="Display Empty Packets"/>
+		<Item text="Display read packets"/>
+		<Item text="Display write packets"/>
+	</Enumeration>
+
+	<Enumeration key="RequestsCat" description="Filters: URB View Requests">
+		<Item text="Select Configuration"/>
+		<Item text="Get Configuration"/>
+		<Item text="Select Interface"/>
+		<Item text="Get Interface"/>
+		<Item text="Abort Pipe"/>
+		<Item text="Take Frame Length Control"/>
+		<Item text="Release Frame Length Control"/>
+		<Item text="Get Frame Length"/>
+		<Item text="Set Frame Length"/>
+		<Item text="Get Current Frame Number"/>
+		<Item text="Control Transfer"/>
+		<Item text="Bulk or Interrupt Transfer"/>
+		<Item text="Isochronous Transfer"/>
+		<Item text="Device: Get Descriptor from Device"/>
+		<Item text="Device: Set Descriptor to Device"/>
+		<Item text="Device: Set Feature to Device"/>
+		<Item text="Interface: Set Feature to Interface"/>
+		<Item text="Endpoint: Set Feature to Endpoint"/>
+		<Item text="Other: Generic Set Feature Request"/>
+		<Item text="Device: Clear Feature to Device"/>
+		<Item text="Interface: Clear Feature to Interface"/>
+		<Item text="Endpoint: Clear Feature to Endpoint"/>
+		<Item text="Other: Generic Clear Feature Request"/>
+		<Item text="Device: Get Status from Device"/>
+		<Item text="Interface: Get Status from Interface"/>
+		<Item text="Endpoint: Get Status from Endpoint"/>
+		<Item text="Other: Generic Get Status Request"/>
+		<Item text="Device: Vendor-specific Request to Device"/>
+		<Item text="Interface: Vendor-specific Request to Interface"/>
+		<Item text="Endpoint: Vendor-specific Request to Endpoint"/>
+		<Item text="Other: Generic Vendor Specific Request"/>
+		<Item text="Device: Class Specific Request to Device"/>
+		<Item text="Interface: Class Specific Request to Interface"/>
+		<Item text="Endpoint: Class Specific Request to Endpoint"/>
+		<Item text="Other: Generic Class Specific Request"/>
+		<Item text="Interface: Get Descriptor from Interface"/>
+		<Item text="Interface: Set Descriptor to Interface"/>
+		<Item text="Endpoint: Get Descriptor from Endpoint"/>
+		<Item text="Endpoint: Set Descriptor to Endpoint"/>
+		<Item text="Get MS Feature Descriptor"/>
+		<Item text="Sync Reset Pipe"/>
+		<Item text="Clear Stall"/>
+		<Item text="Control Transfer Extended"/>
+		<Item text="Reset Pipe and Clear Stall"/>
+	</Enumeration>
+
+	<Enumeration key="UsbRawColors" description="Colors: URB View">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Read: Header"/>
+		<Item text="Read: Text"/>
+		<Item text="Read: Binary Data"/>
+		<Item text="Write: Header"/>
+		<Item text="Write: Text"/>
+		<Item text="Write: Binary Data"/>
+	</Enumeration>
+	
+	<Message key="toolbar.UsbDeviceTree" description="Toolbar: Dependent Devices" value="Dependent Devices"/>
+
+</Definition>

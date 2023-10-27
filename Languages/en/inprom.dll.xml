@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="SerialNewVirtualPort" description="Command: New Virtual Serial Port">
+    <Item text="Create Virtual Serial Port…"/>
+    <Item text="Create virtual serial port using HHD Software Free Virtual Serial Ports."/>
+  </Enumeration>
+
+  <Enumeration key="SerialSharePorts" description="Command: Share This Port">
+    <Item text="Share This Port…"/>
+    <Item text="Make this port available on a remote computer using HHD Software Remote Serial Ports Server."/>
+  </Enumeration>
+
+  <Enumeration key="SerialConnectRemotePort" description="Command: Connect Remote Port">
+    <Item text="Connect Remote Serial Port…"/>
+    <Item text="Make a remote serial port available on this computer using HHD Software Remote Serial Ports Client."/>
+  </Enumeration>
+</Definition>

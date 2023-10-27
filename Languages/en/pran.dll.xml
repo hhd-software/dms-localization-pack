@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Enumeration key="BridgeNewBridge" description="Command: New Bridge">
+		<Item text="&amp;Create New Bridge…"/>
+		<Item text="Create new serial bridge"/>
+	</Enumeration>
+
+	<Enumeration key="BridgeDelete" description="Command: Delete Bridge">
+		<Item text="&amp;Delete Bridge"/>
+		<Item text="Delete the currently selected bridge"/>
+	</Enumeration>
+
+	<Enumeration key="BridgeDeleteAll" description="Command: Delete All Bridges">
+		<Item text="Delete &amp;All Bridges"/>
+		<Item text="Delete all configured bridges"/>
+	</Enumeration>
+
+	<Enumeration key="BridgeEdit" description="Command: Edit Bridge">
+		<Item text="&amp;Edit Bridge…"/>
+		<Item text="Change serial bridge parameters"/>
+	</Enumeration>
+
+  <Message key="PortOpenError" description="Error opening port" value="Unable to open device &quot;{device}&quot;: {error text} ({error code})">
+    <Param name="device"/>
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="SetCommStateError" description="Error configuring port" value="Unable to configure device &quot;{device}&quot;: {error text} ({error code})">
+    <Param name="device"/>
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="SetCommTimeouts" description="Error setting port timeouts" value="Unable to configure device timeouts &quot;{device}&quot;: {error text} ({error code})">
+    <Param name="device"/>
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Enumeration key="BridgeSource" description="Bridge Source">
+    <Item text="Serial Bridge"/>
+    <Item text="Serial Bridge allows you to monitor the communications between two serial devices connected to your computer. Monitoring is performed by means of a virtual bridge created between selected serial ports."/>
+  </Enumeration>
+
+  <Message key="Bridge Config" description="Bridge configuration" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Baud, {mode}">
+    <Param name="deviceA"/>
+    <Param name="deviceB"/>
+    <Param name="baudrate"/>
+    <Param name="mode"/>
+  </Message>
+
+  <Enumeration key="Communication modes" description="Communication modes">
+    <Item text="generic"/>
+    <Item text="PPP"/>
+    <Item text="Line (packet ends with new line)"/>
+    <Item text="MODBUS RTU Mode"/>
+    <Item text="MODBUS ASCII Mode"/>
+  </Enumeration>
+
+  <Enumeration key="MenuBridge" description="Command group: Bridge">
+    <Item text="&amp;Bridge"/>
+    <Item text="Bridge menu"/>
+  </Enumeration>
+
+  <Message key="Device not found" description="Error message: IBridgeHost.create - device not found" value="Device {name} is not found">
+    <Param name="name"/>
+  </Message>
+
+  <Message key="Invalid flow control" description="Error message: Invalid flow control object" value="Invalid flow control object"/>
+  <Message key="Same device" description="Error message: duplicate devices" value="The same device was specified for both bridge sides"/>
+  <Message key="Bridge deleted" description="Error message: bridge deleted" value="Bridge has been deleted from user interface"/>
+  <Message key="Wrong device" description="Error message: wrong device" value="Bridge object refers to wrong device"/>
+
+	<Message key="Bridge Page" description="Property page: Bridge" value="Serial Bridge" />
+
+	<!-- Config page -->
+	<Message key="Timeout settings:" description="Field: Timeout settings" />
+	<Message key="(See documentation on-line)" description="Link: (See documentation on-line)" />
+	<Message key="Read interval timeout:" description="Field: Read interval timeout" />
+	<Message key="Read multiplier timeout:" description="Field: Read multiplier timeout" />
+	<Message key="Read constant timeout:" description="Field: Read constant timeout" />
+	<Message key="Buffer size:" description="Field: Buffer size" />
+
+	<!-- From StringPool -->
+	<Message key="IDS_NOSERIALDEVICES" description="Not enough serial devices found" value="Not enough serial devices found. You need at least two different serial devices in order to create a bridge."/>
+	<Message key="IDS_BRIDGEERROR" description="Message Box Title: Bridge Creation Error" value="Bridge Creation Error"/>
+	<Message key="IDS_BRIDGEALREADYEXISTS" description="Bridge already exists" value="Bridge with this name already exists. Specify another name."/>
+	<Message key="IDS_CATEGORYFILTER" description="Bridge Category Filter" value="Serial Bridge"></Message>
+
+	<!-- Bridge Name dialog -->
+	<Message key="Enter Bridge Name" description="Window title: Enter Bridge Name" />
+	<Message key="Enter new bridge name:" description="Field: Enter new bridge name" />
+
+	<!-- Create New Bridge -->
+
+	<Message key="Create New Bridge" description="Window title: Create New Bridge" />
+	<Message key="Device A:" description="Field: Device A" />
+	<Message key="Device B:" description="Field: Device B" />
+	<Message key="Same port settings" description="Checkbox: Same port settings" />
+
+	<!-- Session Type Page -->
+
+	<Message key="Session Type" description="Window title: Session Type" />
+	<Message key="Select the serial bridge monitoring session type:" description="Field: Select the serial bridge monitoring session type" />
+	<Message key="Press the following button to change bridge parameters for this session only:" description="Field: Press the following button to change bridge parameters for this session only" />
+	<Message key="Generic" description="Session type: Generic" />
+	<Message key="PPP (Point-to-Point Protocol)" description="Session type: PPP (Point-to-Point Protocol)" />
+	<Message key="One packet a line (separated by 0D - AT commands, NMEA, etc.)" description="Session type: One packet a line (separated by 0D - AT commands, NMEA, etc.)" />
+	<Message key="MODBUS (RTU mode)" description="Session type: MODBUS (RTU mode)" />
+	<Message key="MODBUS (ASCII mode)" description="Session type: MODBUS (ASCII mode)" />
+	<Message key="Change Bridge Parameters" description="Button: Change Bridge Parameters" value="&amp;Change Bridge Parameters…"/>
+</Definition>

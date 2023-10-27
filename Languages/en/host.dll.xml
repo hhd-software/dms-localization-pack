@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ElevationError" description="Process elevation error" revision="1" value="Unable to elevate privileges. Error message: {error}">
+    <Param name="error"/>
+  </Message>
+
+	<Message key="Devices" description="Tool window: Devices"/>
+	<Message key="Sessions" description="Tool window: Sessions"/>
+	
+  <Message key="ElevationErrorTitle" description="Message box title: Process elecvation error" revision="1" value="Elevation Error"/>
+
+  <Message key="EmergencySessionTermination" description="Emergency session termination message" value="The session was aborted after the following error: &quot;{error}&quot;">
+    <Param name="error"/>
+  </Message>
+
+  <Message key="EmergencySessionTerminationTitle" description="Title: Emergency Session Termination" value="Emergency Session Termination"/>
+
+  <Message key="IntegrityError" description="Error initializing internal component" value="Internal component initialization failure: {error}">
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="DevicesAbsent" description="Session devices are absent" value="One or more session devices are missing"/>
+
+  <Message key="LogCreationFailed" description="Error creating log file" value="Monitoring log file creation error: {error}">
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="NoConverters" description="There are no data processing modules supporting this session." value="There are no data processing modules supporting this session."/>
+
+  <Message key="NoTemporaryStorage" description="No temporary storage configured." value="{nomemory?}The previous session has been terminated due to low memory conditions. You need to restart the application before starting new monitoring session.{|nomemory}No temporary storage configured. Check settings on Tools » Settings, Data Processing Tab. Error code: {error}{?nomemory}">
+    <Param name="error" format="b016x"/>
+    <Param name="nomemory" format="?"/>
+  </Message>
+
+  <Message key="UnknownError" description="Session creation failed for unknown reason." value="Session creation failed for unknown reason.{has warnings?} The following warnings were generated:\r\n{warnings}{?has warnings}">
+    <Param name="has warnings" format="?"/>
+    <Param name="warnings"/>
+  </Message>
+
+  <Message key="SessionStartErrorTitle" description="Title: Session Creation Error" value="Session Creation Error"/>
+  <Message key="SessionStartWarningTitle" description="Title: Session Created with Warnings" value="Session Creation Warnings"/>
+
+  <Message key="SessionStartError" description="Session startup warnings and errors" value="Session creation failed due to the following reasons(s):\r\n{errors}{has warnings?}\r\n\r\nIn addition, the following warnings were generated:\r\n{warnings}{?has warnings}">
+    <Param name="errors"/>
+    <Param name="has warnings" format="?"/>
+    <Param name="warnings"/>
+  </Message>
+
+	<Enumeration key="VisualizerNaming" description="Option: Visualizer naming">
+		<Item text="Visualizer naming pattern"/>
+		<Item text="[Device name] - [Visualizer name]"/>
+		<Item text="[Visualizer name]: [Device name]"/>
+	</Enumeration>
+
+<Message key="SessionStartWarning" description="string" value="Session creation succeeded, but with the following warnings:\n{warnings}">
+    <Param name="warnings"/>
+  </Message>
+
+  <Enumeration key="GlobalSwitchNetwork" description="Global configuration switch: Network">
+    <Item text="&amp;Network"/>
+    <Item text="Switch Device Monitoring Studio to network monitoring mode"/>
+  </Enumeration>
+
+  <Enumeration key="GlobalSwitchSerial" description="Global configuration switch: Serial">
+    <Item text="&amp;Serial"/>
+    <Item text="Switch Device Monitoring Studio to serial monitoring mode"/>
+  </Enumeration>
+
+  <Enumeration key="GlobalSwitchUSB" description="Global configuration switch: USB">
+    <Item text="&amp;USB"/>
+    <Item text="Switch Device Monitoring Studio to USB monitoring mode"/>
+  </Enumeration>
+
+  <Enumeration key="GlobalSwitchAll" description="Global configuration switch: All">
+    <Item text="&amp;All"/>
+    <Item text="Switch Device Monitoring Studio to combi monitoring mode"/>
+  </Enumeration>
+
+  <Message key="SourceExpired" description="A data source has expired" value="One of the selected data sources has expired."/>
+
+  <Enumeration key="MultiSource" description="MultiSource">
+    <Item text="Multi-source Monitoring"/>
+    <Item text="Multi-source monitoring allows you to simultanously monitor several devices of the same type."/>
+  </Enumeration>
+
+  <Message key="DeviceConfig" description="Device configuration string" value="Configuration: &lt;a&gt;{config}&lt;/a&gt;">
+    <Param name="config"/>
+  </Message>
+
+  <Message key="Data Source Configuration" description="Data Source Configuration window title"/>
+  <Message key="Capture Filter" description="Capture Filter window title"/>
+
+  <Message key="MultiDeviceConfig" description="Multi-source config" value="{has nested?}{nested}, {?has nested}Device coloring">
+    <Param name="has nested" format="?"/>
+    <Param name="nested"/>
+  </Message>
+
+<!-- Commands -->
+	<Enumeration key="&amp;Edit" description="Command: Edit">
+		<Item text="&amp;Edit"/>
+		<Item text="Edit"/>
+	</Enumeration>
+
+	<Enumeration key="SessionsConfigure" description="Command: SessionsConfigure">
+    <Item text="&amp;Configure Session…"/>
+    <Item text="Change current session parameters"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsResume" description="Command: SessionsResume">
+    <Item text="&amp;Resume Session"/>
+    <Item text="Resume current session"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsPause" description="Command: SessionsPause">
+    <Item text="&amp;Pause Session"/>
+    <Item text="Pause current session"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsStop" description="Command: SessionsStop">
+    <Item text="&amp;Stop Session"/>
+    <Item text="Stop current session"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsClose" description="Command: SessionsClose">
+    <Item text="Close &amp;Visualizer"/>
+    <Item text="Close selected visualizer"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsColumns" description="Command: SessionsColumns">
+    <Item text="Configure C&amp;olumns…"/>
+    <Item text="Enable or disable columns"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsExpand" description="Command: SessionsExpand">
+    <Item text="&amp;Expand Item"/>
+    <Item text="Expand item in a list"/>
+  </Enumeration>
+
+  <Enumeration key="SessionsCollapse" description="Command: SessionsCollapse">
+    <Item text="Co&amp;llapse Item"/>
+    <Item text="Collapse item in a list"/>
+  </Enumeration>
+
+  <Enumeration key="StartMonitoring" description="Command: StartMonitoring">
+    <Item text="&amp;Start Monitoring…"/>
+    <Item text="Create new monitoring session"/>
+  </Enumeration>
+
+  <Enumeration key="PauseMonitoring" description="Command: PauseMonitoring">
+    <Item text="&amp;Pause Monitoring"/>
+    <Item text="Pause this monitoring session"/>
+  </Enumeration>
+
+  <Enumeration key="ConfigureDeviceSession" description="Command: ConfigureDeviceSession">
+    <Item text="&amp;Configure Session…"/>
+    <Item text="Change current session parameters"/>
+  </Enumeration>
+
+  <Enumeration key="ResumeMonitoring" description="Command: ResumeMonitoring">
+    <Item text="&amp;Resume Monitoring"/>
+    <Item text="Resume this monitoring session"/>
+  </Enumeration>
+
+  <Enumeration key="StopMonitoring" description="Command: StopMonitoring">
+    <Item text="&amp;Stop Monitoring"/>
+    <Item text="Stop this monitoring session"/>
+  </Enumeration>
+
+  <Enumeration key="RestartDevice" description="Command: RestartDevice">
+    <Item text="Restart &amp;Device"/>
+    <Item text="Restart selected device"/>
+  </Enumeration>
+
+  <Enumeration key="DeviceProperties" description="Command: DeviceProperties">
+    <Item text="&amp;Properties…"/>
+    <Item text="Show device properties"/>
+  </Enumeration>
+
+  <Enumeration key="RenameDevice" description="Command: RenameDevice">
+    <Item text="&amp;Rename…"/>
+    <Item text="Specify custom name for a device"/>
+  </Enumeration>
+
+  <Enumeration key="ScanForHardwareChanges" description="Command: ScanForHardwareChanges">
+    <Item text="Scan for Hardware Changes"/>
+    <Item text="Scan for hardware changes and update device tree"/>
+  </Enumeration>
+
+  <Enumeration key="CategoryFilterAll" description="Command: CategoryFilterAll">
+    <Item text="&amp;All"/>
+    <Item text="Show all categories"/>
+  </Enumeration>
+
+  <Enumeration key="CategoryFilterNone" description="Command: CategoryFilterNone">
+    <Item text="&amp;None"/>
+    <Item text="Hide all categories"/>
+  </Enumeration>
+
+  <Enumeration key="AddConverter" description="Command: AddConverter">
+    <Item text="Add to Session"/>
+    <Item text="Add selected data processing(s) to the session"/>
+  </Enumeration>
+
+  <Enumeration key="AddToFavorites" description="Command: AddToFavorites">
+    <Item text="Add to Favorites"/>
+    <Item text="Add selected data processing(s) to favorites list"/>
+  </Enumeration>
+
+  <Enumeration key="RemoveConverter" description="Command: RemoveConverter">
+    <Item text="Remove from Session"/>
+    <Item text="Remove selected data processing from the session"/>
+  </Enumeration>
+
+  <Enumeration key="DeleteCustom" description="Command: DeleteCustom">
+    <Item text="Remove"/>
+    <Item text="Remove data processing from the list"/>
+  </Enumeration>
+
+  <Enumeration key="EditCustom" description="Command: EditCustom">
+    <Item text="Configure Data Processing…"/>
+    <Item text="Configure selected data processing"/>
+  </Enumeration>
+
+  <Enumeration key="SaveCustom" description="Command: SaveCustom">
+    <Item text="Save Custom Processing…"/>
+    <Item text="Save selected data processing configuration"/>
+  </Enumeration>
+
+  <Enumeration key="CategoryFilters" description="Command group: CategoryFilters">
+    <Item text="Show or Hide Categories"/>
+    <Item text="Select which device categories to display"/>
+  </Enumeration>
+
+  <Enumeration key="CategorySubfilters" description="Command group: CategorySubfilters">
+    <Item text="Subcategories"/>
+    <Item text="Select which device subcategories to display"/>
+  </Enumeration>
+
+  <Enumeration key="MenuSessions" description="Command group: Sessions">
+    <Item text="Sessions"/>
+    <Item text="Lists currently running sessions"/>
+  </Enumeration>
+
+  <!-- UI elements -->
+
+  <Enumeration key="DataProcessingGroups" description="Data processing groups" revision="2">
+    <Item text="Favorites"/>
+    <Item text="Visualizers"/>
+    <Item text="Exporters"/>
+    <Item text="Custom"/>
+    <Item text="Legacy"/>
+  </Enumeration>
+
+  <Message key="GroupVisualizers" description="Data processing group: Visualizers" value="Visualizers"/>
+  <Message key="GroupExporters" description="string"></Message>
+
+  <Message key="UnsupportedProcessingsTitle" description="Unsupported processings warning window title" value="Warning"/>
+
+  <Message key="UnsupportedProcessings" description="Unsupported processings warning" value="The following processings:\n{processings}\ndo not support multiple device monitoring and will be removed.">
+    <Param name="processings"/>
+  </Message>
+
+  <Message key="NoProcessings" description="No processings found" value="Processing components for this device cannot be found. Please re-install the application."/>
+
+  <Message key="Error" description="Error (generic)"/>
+
+  <Message key="FilterError" description="Filter error" value="Error applying selected filter"/>
+
+  <Message key="NoDataSource" description="No data source error message" value="Corresponding monitoring module is not installed. Please re-install the application."/>
+
+  <Message key="InstallMissingModule" description="Install missing module message" value="This module is not currently installed. Do you want to install it now? (This will close Device Monitoring Studio)."/>
+
+ <Message key="Configuration object is expected" description="Scripting Error: Configuration object is expected" />
+ <Message key="Configuration object is not expected" description="Scripting Error: Configuration object is not expected" />
+ <Message key="Visualizer requires configuration, but no configuration object is specified" description="Scripting Error: Visualizer requires configuration, but no configuration object is specified" />
+ <Message key="Visualizer not found" description="Scripting Error: Visualizer not found" />
+ <Message key="Session has been destroyed" description="Scripting Error: Session has been destroyed" />
+ <Message key="Session has already been started" description="Scripting Error: Session has already been started" />
+ <Message key="String or object is expected" description="Scripting Error: String or object is expected" />
+  <Message key="Servername is incorrect" description="Scripting Error: serverName parameter is incorrect" value="serverName parameter is incorrect"/>
+ <Message key="Device not found" description="Scripting Error: Device not found" />
+ <Message key="Invalid argument: object of proper format is expected" description="Scripting Error: Invalid argument: object of proper format is expected" />
+ <Message key="No configuration objects specified" description="Scripting Error: No configuration objects specified" />
+ <Message key="Source does not support configuration" description="Scripting Error: Source does not support configuration" />
+ <Message key="Object is expected" description="Scripting Error: Object is expected" />
+ <Message key="Object of correct format is expected" description="Scripting Error: Object of correct format is expected" />
+ <Message key="Session startup error" description="Scripting Error: Session startup error" />
+ <Message key="Session is not started" description="Scripting Error: Session is not started" />
+ <Message key="Session cannot be stopped" description="Scripting Error: Session cannot be stopped" />
+  <Message key="Device(s) must be added to the session" description="Scripting Error: Device(s) must be added to the session"/>
+  <Message key="Only one session is allowed per device" description="Scripting Error: Only one session is allowed per device"/>
+
+  <Message key="Unable to generate script" description="Unable to generate script"/>
+
+  <Message key="UnsavedCapture" description="Unsaved capture filter description" value="Current unsaved capture"/>
+
+  <!-- Sanctions -->
+  <Message key="NagFreeTitle" description="Title: Free Version Limitation" value="Free Version Limitation"/>
+
+  <Message key="FreeSessionExpireMsg" description="Sanctions text (session length)" value="Free version allows monitoring sessions which are not longer than {limit} minutes.\n\nYour session will be stopped in {minutes}:{seconds}.\n\n{expired?}You may stay with limited features of Free version or upgrade to the extended version.{|expired}You may stay with limited Free version or try extended version for FREE during 14 days.{?expired}">
+    <Param name="limit" format="u"/>
+    <Param name="minutes" format="uw2f0ar"/>
+    <Param name="seconds" format="uw2f0ar"/>
+    <Param name="expired" format="?"/>
+  </Message>
+
+  <Message key="FreeSessionExpireMsg2" description="Sanctions text (session count)" value="Free version has limit of {limit} monitoring sessions per day.\n\nSessions left today: {left}.\n\n{expired?}You may stay with limited features of Free version or upgrade to the extended version.{|expired}You may stay with limited Free version or try extended version for FREE during 14 days.{?expired}">
+    <Param name="limit"/>
+    <Param name="left"/>
+    <Param name="expired" format="?"/>
+  </Message>
+
+  <Message key="Close this notification" description="Link text: Close this notification"/>
+
+  <Message key="Try extended version" description="Button text: Try extended version"/>
+  <Message key="Purchase extended version" description="Button text: Purchase extended version" value="Get extended version"/>
+
+  <Message key="Out of memory" description="Out of memory"/>
+  <Message key="Stopping session" description="Stopping session" value="Stopping Session"/>
+
+  <Message key="ShowImportantSessionConfig" description="Notification: Force session configuration dialog on selected session types" value="Force session configuration dialog on selected session types"/>
+
+  <Message key="MCAdv" description="" value="I want to monitor this data from my custom application"/>
+
+  <Message key="Advertise.Title" description="Monitoring Controls Andvertise" value="Monitoring Controls ActiveX"/>
+  <Message key="Get More Details" description="Button text: Get More Details"/>
+
+	<Message key="toolbar.SessionConfig1" description="Toolbar: Session Config 1" value="Session Configuration 1"/>
+	<Message key="toolbar.SessionConfig2" description="Toolbar: Session Config 2" value="Session Configuration 2"/>
+	<Message key="toolbar.Devices" description="Toolbar: Devices" value="Devices"/>
+	<Message key="toolbar.Sessions" description="Toolbar: Sessions" value="Sessions"/>
+
+	<!-- Dialogs -->
+	<Message key="Save Configuration" description="Window Title: Save Configuration"/>
+	<Message key="Enter custom data processor configuration name:" description="Field: Enter custom data processor configuration name"/>
+
+	<Message key="Device coloring" description="Window Title: Device coloring"/>
+	<Message key="Back color:" description="Field: Back color" />
+
+	<Message key="Multisource Device Colors" description="Window Title: Multisource Device Colors"/>
+	<Message key="Multisource device list:" description="Field: Multisource device list"/>
+	<Message key="Background color:" description="Field: Background color"/>
+
+	<Message key="Rename Device" description="Window Title: Rename Device"/>
+	<Message key="Enter new device name:" description="Field: Enter new device name"/>
+
+	<Message key="Session Configuration" description="Window Title: Session Configuration"/>
+	<Message key="Selected sources" description="Field: Selected sources"/>
+	<Message key="Selected processing" description="Field: Selected processing"/>
+	<Message key="Available processing" description="Field: Available processing"/>
+	<Message key="Description" description="Field: Description"/>
+	<Message key="Filter text" description="Field: Filter text"/>
+	<Message key="Capture filter" description="Field: Capture filter"/>
+	<Message key="Precise time marks" description="Checkbox: Precise time marks"/>
+	<Message key="Add More" description="Button: Add More"/>
+	<Message key="Remove" description="Button: Remove"/>
+
+	<Enumeration key="SessionWindowColumns" description="Session tool window columns">
+		<Item text="Source"/>
+		<Item text="Type"/>
+		<Item text="Device"/>
+		<Item text="Processing"/>
+		<Item text="Start"/>
+		<Item text="Length"/>
+		<Item text="State"/>
+	</Enumeration>
+	
+	<!-- Dialogs -->
+	<Message key="Select the columns that will apear on the Session List" description="Field: Select the columns that will apear on the Session List" value="Select the columns that will appear on the Session List:"/>
+	<Message key="Select Session List Columns" description="Window Title: Select Session List Columns"/>
+
+	<!-- Colors -->
+	<Message key="clr.device_colors" description="Color: Multisource Device Colors" value="Multi-source Device Colors"/>
+	<Message key="clr.device_colors.color1" description="Color: Device 1" value="Device 1"/>
+	<Message key="clr.device_colors.color2" description="Color: Device 2" value="Device 2"/>
+	<Message key="clr.device_colors.color3" description="Color: Device 3" value="Device 3"/>
+	<Message key="clr.device_colors.color4" description="Color: Device 4" value="Device 4"/>
+	<Message key="clr.device_colors.color5" description="Color: Device 5" value="Device 5"/>
+	<Message key="clr.device_colors.color6" description="Color: Device 6" value="Device 6"/>
+	<Message key="clr.device_colors.color7" description="Color: Device 7" value="Device 7"/>
+	<Message key="clr.device_colors.color8" description="Color: Device 8" value="Device 8"/>
+	<Message key="clr.device_colors.color9" description="Color: Device 9" value="Device 9"/>
+	<Message key="clr.device_colors.color10" description="Color: Device 10" value="Device 10"/>
+	<Message key="clr.device_colors.color11" description="Color: Device 11" value="Device 11"/>
+	<Message key="clr.device_colors.color12" description="Color: Device 12" value="Device 12"/>
+	<Message key="clr.device_colors.color13" description="Color: Device 13" value="Device 13"/>
+	<Message key="clr.device_colors.color14" description="Color: Device 14" value="Device 14"/>
+	<Message key="clr.device_colors.color15" description="Color: Device 15" value="Device 15"/>
+	<Message key="clr.device_colors.color16" description="Color: Device 16" value="Device 16"/>
+
+	<!-- Log config window -->
+	<Message key="Data Recording Properties" description="Window title: Data Recording Properties"/>
+	<Message key="Overwrite" description="Field: Overwrite"/>
+	<Message key="No limits enforced" description="Field: No limits enforced"/>
+	<Message key="Enforce size limit:" description="Field: Enforce size limit:"/>
+	<Message key="Enforce time limit:" description="Field: Enforce time limit:"/>
+	<Message key="Single file" description="Field: Single file"/>
+	<Message key="Multiple files. Maximum:" description="Field: Multiple files. Maximum:"/>
+	<Message key="Specify location of log file:" description="Field: Specify location of log file:"/>
+	<Message key="Unlimited" description="Field: Unlimited"/>
+
+	<Enumeration key="SessionState" description="Session states">
+		<Item text="Stopped"/>
+		<Item text="Running"/>
+		<Item text="Paused"/>
+	</Enumeration>
+	
+</Definition>

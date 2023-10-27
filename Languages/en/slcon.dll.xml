@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="InvalidLocationConfig" description="Invalid Data Processing configuration" value="Invalid configuration detected. At least one drive must have non-zero value."/>
+
+  <Message key="Out of memory" description="Superlog error: Out of memory"/>
+  <Message key="BrokenIndexer" description="Superlog error: Internal structures became corrupted"/>
+
+	<Enumeration key="SlConColumns" description="Data Processing Columns">
+		<Item text="Drive"/>
+		<Item text="Free Space"/>
+		<Item text="Use up to"/>	
+	</Enumeration>
+
+	<Message key="DriveC" description="Drive template" value="Drive {drive}">
+		<Param name="drive" format="c"/>
+	</Message>
+	
+	<!-- Dialogs-->
+	<Message key="Data Processing" description="Window Title/Settings Page Title: Data Processing"/>
+	<Message key="Select the location..." description="Field: Select the location…" value="Select the location(s) the program will use to store the temporary monitored data. You can also specify the data storage policy on this page."/>
+	<Message key="Don't use" description="Field: Don't use"/>
+	<Message key="Use half" description="Field: Use half"/>
+	<Message key="Use full" description="Field: Use full"/>
+	<Message key="Drive Policy:" description="Field: Drive Policy:"/>
+	<Message key="&amp;Reset to Default" description="Reset to Default"/>
+
+	<Message key="Low Disk Space Warning" description="Window Title: Low Disk Space Warning"/>
+	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this warning anymore"/>
+	<Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." description="Low disk space notification text"/>
+</Definition>

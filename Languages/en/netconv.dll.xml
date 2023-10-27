@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="CellConverter" description="Network Raw Data View">
+    <Item text="Raw Data View"/>
+    <Item text="Raw Data View displays raw packet data in two contiguous streams (input and output). It provides flexible visual and layout customization and supports protocol-governed filtering and changing of root protocol."/>
+  </Enumeration>
+
+  <Enumeration key="StructureConverter" description="Structure View">
+    <Item text="Structure View"/>
+    <Item text="Structure View decodes all network packet data using the protocol definitions stored in the product or provided by the user. Supports filtering and changing of root protocol."/>
+  </Enumeration>
+
+  <Enumeration key="HttpViewConverter" description="HTTP View">
+    <Item text="HTTP View"/>
+    <Item text="HTTP View data visualizer parses and displays HTTP protocol requests and repsonses."/>
+  </Enumeration>
+
+	<Message key="ErrorTitle" description="Title: Error" value="Error"/>
+
+	<Enumeration key="NetError" description="Network errors enumeration">
+		<Item text="Memory corruption"/>
+		<Item text="Not enough resources for the packet"/>
+		<Item text="Packet too small to be a valid packet"/>
+		<Item text="Adapter not binded or was disconnected"/>
+		<Item text="The size of the packet is too large for the NIC, or possibly the NIC indicated an erroneous packet transmission to its driver."/>
+		<Item text="The underlying driver is closing."/>
+		<Item text="The underlying driver is currently resetting the NIC."/>
+		<Item text="Unknown network error."/>
+	</Enumeration>
+
+	<Message key="Size_Error" description="Error text: Packet size limit exceeded" value="Packet size limit exceeded."/>
+	<Message key="Packet Builder" description="Tool window: Packet Builder" value="Packet Builder"/>
+	<Message key="NetTerminal" description="Title: Network Terminal" value="Network Terminal"/>
+
+	<Message key="StructureNotFound" description="Error: Structure not found" value="structure definition is not found. Network Monitor is unable to display any results."/>
+	<Message key="Network Raw" description="Title: Network Raw" value="Network Raw"/>
+	<Message key="bytes" description="Text: bytes" value="bytes"/>
+
+	<Message key="NetTermSizeError" description="Error: Packet size larger than Adapter MTU size"
+			 value="Packet ({packetno}): Size of packet ({size}) larger than Adapter MTU size ({maxsize}).">
+		<Param name="packetno"/>
+		<Param name="size"/>
+		<Param name="maxsize"/>
+	</Message>
+
+	<Message key="NetTermTooltipText" description="Net Terminal tooltip text"
+			 value="Physical Address: {mac}\nMaximum Transmission Unit: {size} bytes\nLink Speed: {speed} MB\nIP: {ip}\nStatus: {status}">
+		<Param name="mac"/>
+		<Param name="size"/>
+		<Param name="speed"/>
+		<Param name="ip"/>
+		<Param name="status"/>
+	</Message>
+
+	<Enumeration key="NetStatus" description="Network status enumeration">
+		<Item text="Disconnected"/>
+		<Item text="Connected"/>
+	</Enumeration>
+
+	<Message key="CellConvTooltip" description="Raw Data View tooltip text"
+			 value="Packet:\t\t{number}\nTime:\t\t{timestamp}\nPacket Size:\t{size} bytes\nData Size:\t{datasize} bytes{has_name?}\nDevice:\t\t{devicename}{?has_name}\n">
+		<Param name="number" format="w8arf0"/>
+		<Param name="timestamp"/>
+		<Param name="size"/>
+		<Param name="datasize"/>
+		<Param name="has_name" format="?"/>
+		<Param name="devicename"/>
+	</Message>
+
+	<Message key="CellConvTitle" description="Title: Raw Data View" value="Raw Data View"/>
+
+</Definition>

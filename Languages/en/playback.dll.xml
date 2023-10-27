@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="SteppedSpeedNotify" description="Option: Continue playback (Playback)" value="Continue playback (Playback)"/>
+  <Message key="CreateReaderError" description="Error: Can't create log reader" value="Can't create log reader {filename}">
+    <Param name="filename"/>
+  </Message>
+  <Message key="PlaybackInitError" description="Error: Playback initialization failed " value="Playback initialization failed  {filename}">
+    <Param name="filename"/>
+  </Message>
+  <Message key="FileOpenError" description="Error: File open failed" value="Error opening {filename}. File missing or damaged." revision="1">
+    <Param name="filename"/>
+  </Message>
+  <Message key="StreamOpenError" description="Error: Failed open open stream from file" value="Failed open open stream {stream} from {filename}">
+    <Param name="filename"/>
+    <Param name="stream"/>
+  </Message>
+  <Message key="PropertiesReadError" description="Error: Can't read properties form file" value="Error reading properties from {filename}.">
+    <Param name="filename"/>
+  </Message>
+
+  <Enumeration key="PlaybackSource" description="Playback Source">
+    <Item text="Playback"/>
+    <Item text="Playback data source plays back recorded monitoring sessions, allowing delayed device analysis."/>
+  </Enumeration>
+
+  <Enumeration key="ImportSource" description="Import Source">
+    <Item text="Import Source"/>
+    <Item text="Import data source reads data in foreign formats exported from other monitoring products and plays back them. This allows you to use the wide set of data processing components in Device Monitoring Studio."/>
+  </Enumeration>
+
+  <Enumeration key="WiresharkDesc" description="Wireshark file description">
+    <Item text="*.pcap"/>
+    <Item text="Wireshark capture files"/>
+    <Item text=".pcap"/>
+  </Enumeration>
+
+  <Enumeration key="NetmonDesc" description="Microsoft Network Monitor file description">
+    <Item text="*.cap"/>
+    <Item text="Microsoft Netmon capture files"/>
+    <Item text=".cap"/>
+  </Enumeration>
+
+  <Enumeration key="MonitoredNotify" description="Sessions are still running on virtual adapter">
+    <Item text="At least one session is still running on the virtual adapter. Do you want stop virtual adapter session(s) and continue?"/>
+    <Item text="Virtual Adapter"/>
+  </Enumeration>
+
+  <Enumeration key="ImportFormats" description="Supported external log file formats">
+    <Item text="All supported files|*.pcap;*.cap|Wireshark files|*.pcap|Netmon files|*.cap|"/>
+    <Item text="JavaScript files|*.js|"/>
+  </Enumeration>
+
+  <Message key="FileNotSpecified" description="File not specified" value="Import file must be specified. Create new monitoring session and specify the import file."/>
+
+  <Message key="OpenFileError" description="Import file opening failed" value="Error opening import file: {error text} ({error code}).">
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="ReaderCreationError" description="Reader creation error" value="File format is unknown."/>
+  <Message key="Config Error" description="Script Error: Configuration error" value="Full pathname is expected"/>
+
+  <Message key="ErrorRangeAll" description="Script Error: Range parsing error" value="'range' field parsing error. Must be range object or string 'all'"/>
+  <Message key="ErrorRangeFrom" description="Script Error: 'From' field parsing error" value="'from' field parsing error"/>
+  <Message key="ErrorRangeTo" description="Script Error: 'To' field parsing error" value="'to' field parsing error"/>
+  <Message key="SpeedError" description="Script Error: Speed value out of range" value="Speed value out of range"/>
+
+  <Message key="Repairing damaged log files" description="Repairing Damaged Log Files" value="Repairing Damaged Log Files"/>
+  <Message key="EmergencyErrorType" description="Diagnostic: Playback emergency session termination" value="Playback emergency session termination"/>
+
+  <Message key="NewLogFormatDescription" description=".dmslog8 log format description" value="Log files"/>
+  <Message key="Computing" description="Computing" value="Computing…"/>
+
+  <Enumeration key="PlaybackSpeeds" description="Playback speed values">
+    <Item text="Stepped"/>
+    <Item text="1:16"/>
+    <Item text="1:8"/>
+    <Item text="1:4"/>
+    <Item text="1:2"/>
+    <Item text="1:1"/>
+    <Item text="2:1"/>
+    <Item text="4:1"/>
+    <Item text="8:1"/>
+    <Item text="16:1"/>
+    <Item text="Continuous"/>
+  </Enumeration>
+
+  <Message key="RangeTooltip" description="Playback range selector tooltip" value="{time}: {valid?}{rate}{|valid}No data{?valid}">
+    <Param name="time" format="t(%c)"/>
+    <Param name="valid" format="?"/>
+    <Param name="rate"/>
+  </Message>
+
+  <Message key="RangeSelTooltip" description="Playback range selector selection tooltip"
+           value="Start: {from}\nEnd: {to}\nDuration: {has days?}{days} days, {?has days}{has hours?}{hours} hours, {?has hours}{has minutes?}{minutes} minutes, {?has minutes}{seconds} seconds.">
+    <Param name="from" format="t(%c)"/>
+    <Param name="to" format="t(%c)"/>
+    <Param name="has days" format="?"/>
+    <Param name="days"/>
+    <Param name="has hours" format="?"/>
+    <Param name="hours"/>
+    <Param name="has minutes" format="?"/>
+    <Param name="minutes"/>
+    <Param name="seconds"/>
+  </Message>
+
+  <Message key="InvalidRange" description="Invalid range error message" value="A playback range must be at least one second long."/>
+
+	<Enumeration key="DeletePlayback" description="Command: Delete (Playback file)">
+		<Item text="Delete"/>
+		<Item text="Delete selected file"/>
+	</Enumeration>
+
+	<Enumeration key="SortByDate" description="Command: Sort by Date">
+		<Item text="Sort by Date"/>
+		<Item text="Sort by date"/>
+	</Enumeration>
+	
+	<Enumeration key="SortByName" description="Command: Sort by Name">
+		<Item text="Sort by Name"/>
+		<Item text="Sort by name"/>
+	</Enumeration>
+	
+	<Enumeration key="ShowDateTime" description="Command: Display Date and Time">
+		<Item text="Display Date and Time"/>
+		<Item text="Display date and time"/>
+	</Enumeration>
+	
+	<Enumeration key="ShowSize" description="Command: Display Size">
+		<Item text="Display Size"/>
+		<Item text="Display size"/>
+	</Enumeration>
+
+	<Enumeration key="OpenFileLocation" description="Command: Open File Location">
+		<Item text="Open File Location"/>
+		<Item text="Open file location"/>
+	</Enumeration>
+
+	<Message key="Searching for log files" description="Message: Searching for log files" value="Searching for log files"/>
+	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
+	<Message key="Stepped" description="Playback list item text" value="Stepped"/>
+	<Message key="Continuous" description="Playback list item text" value="Continuous"/>
+	<Message key="Error" description="Title: Error" value="Error"/>
+	<Message key="Unable to delete selected playback files" description="Message: Unable to delete selected playback files" value="Unable to delete selected playback files. At least one of them is currently playing."/>
+	<!--<Message key="Log File Playback" description="" value="Log File Playback"/>-->
+	<Message key="Continue Playback" description="Message: Continue Playback" value="Continue Playback\nPress the Next button to continue playback."/>
+	<Message key="DifferentArchError" description="Message: Cannot playback log file" value="This log file stream was created on a machine with different processor architecture and cannot be played back."/>
+	<Message key="Playback" description="Title: Playback" value="Playback"/>
+
+
+</Definition>

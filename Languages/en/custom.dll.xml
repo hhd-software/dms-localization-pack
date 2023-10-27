@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="Protocols Editor" description="Editor Title"/>
+  <Message key="Line" description="Line"/>
+  <Message key="Protocols List" description="Protocols list title"/>
+  <Message key="Usb" description="Usb Protocol title"/>
+  <Message key="Serial" description="Serial Protocol title"/>
+  <Message key="Network" description="Network Protocol title"/>
+  <Message key="Unknown" description="Unknown Protocol title" value="Unassigned"/>
+  <Message key="Files" description="Files category title"/>
+  <Message key="Protocols" description="Protocols category title"/>
+  <Message key="Visualizers" description="Visualizers category title"/>
+
+  <Enumeration key="ProtocolNew" description="Command: ProtocolNew">
+    <Item text="New &amp;Protocol File…"/>
+    <Item text="Create new protocol definition file"/>
+  </Enumeration>
+  <Enumeration key="ProtocolOpen" description="Command: ProtocolOpen">
+    <Item text="&amp;Open Protocol File"/>
+    <Item text="Open existing protocol definition file"/>
+  </Enumeration>
+  <Enumeration key="FileSaveAll" description="Command: SaveAllHeaderFile">
+    <Item text="Save &amp;All Protocol Files"/>
+    <Item text="Save all opened protocol definition files to disk"/>
+  </Enumeration>
+  <Enumeration key="EditReplace" description="Command: EditReplace">
+    <Item text="Replace…"/>
+    <Item text="Replace text"/>
+  </Enumeration>
+  <Enumeration key="Recompile" description="Command: Recompile">
+    <Item text="&amp;Recompile"/>
+    <Item text="Compile structures"/>
+  </Enumeration>
+  <Enumeration key="EditUndo" description="Command: Undo">
+    <Item text="&amp;Undo"/>
+    <Item text="Undo last action"/>
+  </Enumeration>
+  <Enumeration key="EditRedo" description="Command: Redo">
+    <Item text="&amp;Redo"/>
+    <Item text="Redo last action"/>
+  </Enumeration>
+  <Enumeration key="MenuEditor" description="Menu: Structure Editor">
+    <Item text="&amp;Protocol Editor"/>
+    <Item text="Protocol Editor menu items"/>
+  </Enumeration>
+  <Enumeration key="StructureDesc" description="Structure file description">
+    <Item text="*.h"/>
+    <Item text="Protocol definition file"/>
+    <Item text=".h"/>
+  </Enumeration>
+  <Enumeration key="StructureFormats" description="Supported structure file formats">
+    <Item text="Protocol definition files (*.h)|*.h|"/>
+  </Enumeration>
+
+  <Message key="FileNotSaved" description="File not saved message" value="The current document has been modified. Do you want to save it?"/>
+
+  <Message key="CompileErrors" description="Compile Errors group" value="Compilation Errors{has_n?} ({n}){?has_n}">
+    <Param name="has_n" format="?"/>
+    <Param name="n"/>
+  </Message>
+
+  <Message key="Compile Errors" description="Compilation Errors Tool Window" value="Compilation Errors"/>
+
+  <Enumeration key="ErrorColumns" description="Error window columns">
+    <Item text="File"/>
+    <Item text="Line"/>
+    <Item text="Description"/>
+  </Enumeration>
+
+  <!-- Compilation Errors are taken from studio.exe -->
+
+  <Message key="Warning" description="Warning title"/>
+  <Message key="Error" description="Error title"/>
+  <Message key="RunningSessions" description="Running Sessions Warning" value="You have running monitoring sessions. Your sessions will be stopped."/>
+
+  <Enumeration key="StructureEditor" description="Structure Editor">
+    <Item text="Protocol Editor"/>
+    <Item text="notused"/>
+  </Enumeration>
+
+  <Enumeration key="Custom" description="Custom">
+    <Item text="Custom Protocols"/>
+    <Item text="Custom Protocols feature allows you to use the built-in or external editor to modify built-in protocols or add custom protocols to the Device Monitoring Studio to be used with Structure View, Capture Filter and other functions."/>
+  </Enumeration>
+
+  <Enumeration key="ProtocolRevertAll" description="Command: ResetAllProtocols">
+    <Item text="&amp;Revert All"/>
+    <Item text="Revert all changes made to protocol definition files"/>
+  </Enumeration>
+  <Message key="ResetSourceChanges" description="Reset all source files changes warning" value="All changes you made to predefined protocol files will be lost! Do you want to continue?"/>
+  <Message key="Compile" description="Recompile structures message" value="Compile"/>
+
+  <Enumeration key="ProtocolAutoRecompile" description="Command: ProtocolAutoRecompile">
+    <Item text="Auto Recompile"/>
+    <Item text="Auto recompile source files if changed"/>
+  </Enumeration>
+
+  <Enumeration key="ProtocolDeleteFile" description="Command: ProtocolDeleteFile">
+    <Item text="Delete File"/>
+    <Item text="Delete selected source file from protocols directory"/>
+  </Enumeration>
+
+  <Enumeration key="ProtocolOpenFolder" description="Command: ProtocolOpenFolder">
+    <Item text="Open Protocols Folder"/>
+    <Item text="Open protocols file folder"/>
+  </Enumeration>
+
+  <Message key="DeleteProtocolFile" description="Delete file error" value="Error deleting selected file: {error text} ({error})">
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+  
+  <Message key="SaveProtocolFile" description="Save file error" value='Error saving file "{file}": {error text} ({error})'>
+    <Param name="file"/>
+    <Param name="error text"/>
+    <Param name="error" format="b016x"/>
+  </Message>
+
+  <Message key="ExternalModified" description="Following files have been modified outside of the Device Monitoring Studio" value="Following file have been modified outside of the Device Monitoring Studio :\r\n{file}\r\nDo you want to reload it?">
+    <Param name="file"/>
+  </Message>
+
+  <Message key="FilterErrorTitle" description="Filter compile error title" value="Filter compile error"/>
+  <Message key="FilterError" description="Filter compile error" value="Structure file was not compiled or compiled with errors"/>
+
+  <Enumeration key="PredefinedSchemes" description="Predefined schemes list">
+    <Item text="Default"/>
+    <Item text="Display All"/>
+    <Item text="Display none"/>
+  </Enumeration>
+
+  <Enumeration key="FilterComponentColumns" description="Columns in filter list">
+    <Item text="Option"/>
+    <Item text="Value"/>
+  </Enumeration>
+
+  <Message key="UnsavedCurrentScheme" description="Unsaved current scheme title" value="&lt;Unsaved current scheme&gt;"/>
+
+	<!-- Colors -->
+	<Message key="clr.scintilla_colors" description="Color: Protocol Editor Colors" value="Protocol Editor Colors"/>
+	<Message key="clr.scintilla_colors.plainText.fill" description="Color: Plain text background" value="Plain text background"/>
+	<Message key="clr.scintilla_colors.plainText.stroke" description="Color: Plain text foreground" value="Plain text foreground"/>
+	<Message key="clr.scintilla_colors.keywords.fill" description="Color: Keywords background" value="Keywords background"/>
+	<Message key="clr.scintilla_colors.keywords.stroke" description="Color: Keywords foreground" value="Keywords foreground"/>
+	<Message key="clr.scintilla_colors.comments.fill" description="Color: Comments background" value="Comments background"/>
+	<Message key="clr.scintilla_colors.comments.stroke" description="Color: Comments foreground" value="Comments foreground"/>
+	<Message key="clr.scintilla_colors.numbers.fill" description="Color: Numbers background" value="Numbers background"/>
+	<Message key="clr.scintilla_colors.numbers.stroke" description="Color: Numbers foreground" value="Numbers foreground"/>
+	<Message key="clr.scintilla_colors.strings.fill" description="Color: Strings background" value="Strings background"/>
+	<Message key="clr.scintilla_colors.strings.stroke" description="Color: Strings foreground" value="Strings foreground"/>
+	<Message key="clr.scintilla_colors.identifiers.fill" description="Color: Identifiers background" value="Identifiers background"/>
+	<Message key="clr.scintilla_colors.identifiers.stroke" description="Color: Identifiers foreground" value="Identifiers foreground"/>
+	<Message key="clr.scintilla_colors.preprocessor.fill" description="Color: Preprocessor background" value="Preprocessor background"/>
+	<Message key="clr.scintilla_colors.preprocessor.stroke" description="Color: Preprocessor foreground" value="Preprocessor foreground"/>
+	<Message key="clr.scintilla_colors.operators.fill" description="Color: Operators background" value="Operators background"/>
+	<Message key="clr.scintilla_colors.operators.stroke" description="Color: Operators foreground" value="Operators foreground"/>
+	<Message key="clr.scintilla_colors.functions.fill" description="Color: Functions background" value="Functions background"/>
+	<Message key="clr.scintilla_colors.functions.stroke" description="Color: Functions foreground" value="Functions foreground"/>
+	<Message key="clr.scintilla_colors.pragmas.fill" description="Color: Pragmas background" value="Pragmas background"/>
+	<Message key="clr.scintilla_colors.pragmas.stroke" description="Color: Pragmas foreground" value="Pragmas foreground"/>
+
+	<!-- -->
+	<Message key="toolbar.Protocols" description="Toolbar: Protocols List" value="Protocols List"/>
+</Definition>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="Scripting" description="Caption: Scripting"/>
+  <Message key="ReloadScripts" description="Option: Reload scripts on startup" value="Reload scripts on startup"/>
+  <Message key="AskToSaveScripts" description="Option: Ask to save unsaved scripts on close" value="Ask to save unsaved scripts on close"/>
+  <Message key="IncludeInWorkspace" description="Option: Include scripting configuration into workspace" value="Include scripting configuration into workspace"/>
+  <Message key="AskToSaveScript" description="Prompt to save script file" value="The current script file has unsaved changed. Do you want to save them?"/>
+  <Message key="Expired" description="Component expired" value="Scripting component has expired. You need to upgrade the product to {edition} Edition in order to use it.">
+    <Param name="edition"/>
+  </Message>
+  <Message key="SaveScripts" description="Prompt to save unsaved script files" value="Some opened scripts are modified and not saved. Do you want to save them now?"/>
+
+  <Message key="Running Script" description="Running Script" value="Running script {name}…\n">
+    <Param name="name"/>
+  </Message>
+
+  <Message key="Stopping Script" description="Stopping script execution" value="Stopping script execution"/>
+  <Message key="Stopped Script" description="Script execution stopped" value="\nScript execution stopped.\n"/>
+
+  <Message key="Compiling TypeScript" description="Compiling TypeScript" value="Compiling TypeScript…\n"/>
+
+  <Message key="New Script" description="New Script" value="New Script {ordinal}">
+    <Param name="ordinal"/>
+  </Message>
+
+  <Message key="Javascript description" description="Javascript file" value="JavaScript file"/>
+  <Message key="Typescript description" description="Typescript file" value="TypeScript file"/>
+
+  <Message key="Invalid handle" description="Invalid handle"></Message>
+  <Message key="ScriptFiles" description="Script files" value="JavaScript files (*.js)|*.js|TypeScript files (*.ts)|*.ts|All files|*.*|"/>
+
+  <Message key="ScriptException" description="Script exception during debugging" value="{uncaught?}Uncaught e{|uncaught}E{?uncaught}xception &quot;{name}&quot; occurred at {line}:{column}\n">
+    <Param name="uncaught" format="?"/>
+    <Param name="name"/>
+    <Param name="line"/>
+    <Param name="column"/>
+  </Message>
+
+  <Enumeration key="ScriptingNew" description="Command: New Script">
+    <Item text="New &amp;Script"/>
+    <Item text="Create new script"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingRun" description="Command: Run Script">
+    <Item text="&amp;Run Script"/>
+    <Item text="Start script execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStop" description="Command: Stop Script">
+    <Item text="&amp;Stop Script"/>
+    <Item text="Stop script execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStartStop" description="Command: Run/Stop Script">
+    <Item text="&amp;Run/Stop Script"/>
+    <Item text="Start or stop script execution"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingDebug" description="Command: Debug Script">
+    <Item text="&amp;Debug Script"/>
+    <Item text="Start script debugging"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingToggleBreakpoint" description="Command: ScriptingToggleBreakpoint">
+    <Item text="Toggle Breakpoint"/>
+    <Item text="Sets or removes an execution breakpoint"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepIn" description="Command: ScriptingStepIn">
+    <Item text="Step In"/>
+    <Item text="Step in the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepOut" description="Command: ScriptingStepOut">
+    <Item text="Step Out"/>
+    <Item text="Step out from the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepOver" description="Command: ScriptingStepOver">
+    <Item text="Step Over"/>
+    <Item text="Step over the called function"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingStepContinue" description="Command: ScriptingStepContinue">
+    <Item text="Continue"/>
+    <Item text="Continue execution"/>
+  </Enumeration>
+
+  <Enumeration key="MenuDebug" description="Command group: Debug">
+    <Item text="&amp;Debug"/>
+    <Item text="Debug menu"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingRemoveAllBreakpoints" description="Command: ScriptingRemoveAllBreakpoints">
+    <Item text="Remove All Breakpoints"/>
+    <Item text="Remove all breakpoints"/>
+  </Enumeration>
+
+  <Enumeration key="ScriptingAsyncBreak" description="Command: ScriptingAsyncBreak">
+    <Item text="Break Execution"/>
+    <Item text="Break script execution"/>
+  </Enumeration>
+
+  <Message key="Main body finish" description="Script reached its end" value="\nMain script body execution finished. Running async functions and events…\n"/>
+  <Enumeration key="BreakpointsColumns" description="Breakpoints Window Columns Names">
+    <Item text="File"/>
+    <Item text="Line"/>
+  </Enumeration>
+
+  <Message key="WatchTitle" description="Watch dialog title" value="Debug Watch"/>
+  <Message key="CallStackTitle" description="Call stack dialog title" value="Debug Call Stack"/>
+
+  <Enumeration key="CallStackColumns" description="Call Stack Columns Names">
+    <Item text=" "/>
+    <Item text="Name"/>
+    <Item text="Line"/>
+  </Enumeration>
+
+  <Message key="Script Trace Output" description="Script Trace Output window part" value="Script Trace Output"/>
+  <Enumeration key="WatchValueAdd" description="Command: WatchValueAdd">
+    <Item text="Add Watch"/>
+    <Item text="Add Watch"/>
+  </Enumeration>
+
+  <Enumeration key="WatchValueRemove" description="Command: WatchValueRemove">
+    <Item text="Remove Watch"/>
+    <Item text="Remove Watch"/>
+  </Enumeration>
+
+  <Enumeration key="WatchValueEdit" description="Command: WatchValueEdit">
+    <Item text="Edit Watch"/>
+    <Item text="Edit Watch"/>
+  </Enumeration>
+
+  <Message key="ScriptChanged" description="Script changed prompt" value="Your script has been modified. It is impossible to continue execution. Do you want to stop script execution?" />
+
+	<!-- Dialogs -->
+	<Message key="Input Value" description="Window Title: Input Value"/>
+	<Message key="Breakpoints" description="Window Title: Breakpoints"/>
+	<Message key="Line:" description="Field: Line"/>
+
+	<Message key="toolbar.Watch" description="Toolbar: Debug Watch" value="Debug Watch"/>
+
+	
+</Definition>

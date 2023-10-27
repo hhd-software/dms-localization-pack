@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="LogConverter" description="Log Converter">
+    <Item text="Legacy Data Recording"/>
+    <Item text="Data Recording records monitored data to the disk file for subsequent playback. Supports DMSLOG7 file format."/>
+  </Enumeration>
+
+  <Enumeration key="LogConverter4" description="Log Converter (.dmslog8)">
+    <Item text="Data Recording"/>
+    <Item text="Data Recording records monitored data to the disk file for subsequent playback. New format supports writing into multiple files and limiting maximum file size."/>
+  </Enumeration>
+
+  <Message key="LogWriteError" description="Error recording log file" value="Data Recording has been stopped due to the following error: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+  <Message key="LogEmptyError" description="Error: no data was collected" value="It is impossible to execute the Save to Log command now because no historical data is available for the current monitoring session. Consider adding the Data Recording processing module to a monitoring session next time or add one or more legacy data visualizers to automatically have historical data available."/>
+
+  <Message key="LogProgress" description="Saving log progress message" value="Please wait while the current session is being saved to a file."/>
+
+  <Message key="Pause" description="Pause command"/>
+  <Message key="Resume" description="Resume command"/>
+  <Message key="MaxLogs" description="Maximum logs in a folder reached" value="Can't use more than 999 logs per single folder!"/>
+
+  <Message key="Default" description="Default log file location" value="Default location"/>
+  <Message key="Unlimited" description="A number of files is not limited"/>
+  <Message key="MinSizeLimit" description="A minimum allows log file size" value="Max file size"/>
+  <Message key="MaxSizeOutOfRange" description="Maximum specified log file size is out of range" 
+           value="Maximum single file size is out of allowed range. Allowed range is from {min} to {max}.">
+    <Param name="min"/>
+    <Param name="max"/>
+  </Message>
+  <Message key="MaxFilesOutOfRange" description="Maximum specified log file count is out of range" value="Maximum log file count is out of allowed range. Must be a positive integer larger than 1."/>
+  <Message key="PathIsEmpty" description="Path is required for Save to Log mode" value="Output log file path is empty."/>
+  <Message key="LogConfigStatus" description="Currently configured log file options"
+           value="{path}{has limits?}; {is size limit?}Max size: {size}{|is size limit}Max duration: {time}{?is size limit}{has file limit?}; {is single file?}Single file{|is single file}Up to {files} files{?is single file}{?has file limit}{?has limits}">
+    <Param name="path"/>
+    <Param name="has limits" format="?"/>
+    <Param name="is size limit" format="?"/>
+    <Param name="size"/>
+    <Param name="time"/>
+    <Param name="has file limit" format="?"/>
+    <Param name="is single file" format="?"/>
+    <Param name="files" format="l"/>
+  </Message>
+  <Message key="Log8Filter" description="dmslog8 filter string" value="DMS log files (*.dmslog8)|*.dmslog8|All Files|*|"/>
+  <Message key="CreateLogFailed" description="Failed to create a log file" value="Data recording could not create an output log file. {0}."/>
+
+  <Message key="Save to Log" description="Save to Log Window Title"/>
+
+	<Enumeration key="SaveNow" description="Command: Save to Log">
+		<Item text="Save to Log"/>
+		<Item text="Save monitored session to log file"/>
+	</Enumeration>
+
+	<Enumeration key="StartRecording" description="Command: Start/Resume Recording">
+		<Item text="&amp;Start/Resume Recording"/>
+		<Item text="Start or resume session recording"/>
+	</Enumeration>
+	
+	<Enumeration key="PauseRecording" description="Command: Pause Recording">
+		<Item text="&amp;Pause Recording"/>
+		<Item text="Pause recording of the current session"/>
+	</Enumeration>
+	
+	<Enumeration key="StopRecording" description="Command: Stop Recording">
+		<Item text="S&amp;top Recording"/>
+		<Item text="Stop recording of the current session"/>
+	</Enumeration>
+	
+	<Enumeration key="BrowsePlayback" description="Command: Configure Playback Path">
+		<Item text="Configure Playback Path…"/>
+		<Item text="Specify location of log files for playback"/>
+	</Enumeration>
+
+	<Message key="Settings group.Logging" description="Settings group: Logging" value="Logging"/>
+	<Message key="Recording Page" description="Window title: Recording settings page" value="Recording/Playback"/>
+
+	<Message key="IncorrectFolder" value="Incorrect folder specified. It cannot be used as a target folder for log files." description="Incorrect folder for log files"/>
+
+	<Message key="Recording" description="Field group: Recording" />
+	<Message key="Select the location the program will use to store recorded data." description="Field: Select the location the program will use to store recorded data" />
+	<Message key="Compress recorded data" description="Checkbox: Compress recorded data" value="&amp;Compress recorded data" />
+	<Message key="Reset to Default" description="Button: Reset to Default" value="Reset to &amp;Default" />
+	<Message key="Playback" description="Field group: Playback" />
+	<Message key="Select the location the program will use to playback." description="Field: Select the location the program will use to playback." />
+	<Message key="Recurse sub-directories" description="Checkbox: Recurse sub-directories" value="&amp;Recurse sub-directories" />
+
+</Definition>

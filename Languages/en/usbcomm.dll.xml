@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Enumeration key="CommConverter" description="USB Communications Converter">
+    <Item text="Communications View"/>
+    <Item text="Communications View data visualizer decodes USB Communications Class packets and descriptors."/>
+  </Enumeration>
+
+	<Enumeration key="CommRequestsCat" description="Filters: USB Comm requests">
+		<Item text="Send encapsulated command"/>
+		<Item text="Get encapsulated response"/>
+		<Item text="Set comm feature"/>
+		<Item text="Get comm feature"/>
+		<Item text="Clear comm feature"/>
+		<Item text="Set AUX line state"/>
+		<Item text="Set hook state"/>
+		<Item text="Pulse setup"/>
+		<Item text="Send pulse"/>
+		<Item text="Set pulse time"/>
+		<Item text="Ring AUX jack"/>
+		<Item text="Set line coding"/>
+		<Item text="Get line coding"/>
+		<Item text="Set control line state"/>
+		<Item text="Send break"/>
+		<Item text="Set ringer parms"/>
+		<Item text="Get ringer parms"/>
+		<Item text="Set operation parms"/>
+		<Item text="Get operation parms"/>
+		<Item text="Set line parms"/>
+		<Item text="Get line parms"/>
+		<Item text="Dial digits"/>
+		<Item text="Set unit parameter"/>
+		<Item text="Get unit parameter"/>
+		<Item text="Clear unit parameter"/>
+		<Item text="Get profile"/>
+		<Item text="Set Ethernet multicast filters"/>
+		<Item text="Set Ethernet power management pattern filter"/>
+		<Item text="Get Ethernet power management pattern filter"/>
+		<Item text="Set Ethernet packet filter"/>
+		<Item text="Get Ethernet statistic"/>
+		<Item text="Set ATM data format"/>
+		<Item text="Get ATM device statistics"/>
+		<Item text="Set ATM default VC"/>
+		<Item text="Get ATM VC statistics"/>
+	</Enumeration>
+
+  <Message key="USB Communication Device Detected." description="Message: USB Communication Device Detected." value="USB Communication Device Detected."/>
+  <Message key="Cycles" description="Field: Cycles" value="Cycles"/>
+  <Message key="Timing" description="Field: Timing" value="Timing"/>
+  <Message key="Number of Rings" description="Field: Number of Rings" value="Number of Rings"/>
+  <Message key="Duration of Brake" description="Field: Duration of Brake" value="Duration of Brake"/>
+
+	<Message key="UsbCommHeader" description="Header: USB communication class packet header" value="{ordinal}: {header} ({dir}), {time}\n">
+		<Param name="ordinal" format="b010w6arf0"/>
+		<Param name="header"/>
+		<Param name="dir"/>
+		<Param name="time"/>
+	</Message>
+
+	<Enumeration key="UsbCommCommands" description="USB CDC Commands list">
+		<Item text="Send Encapsulated Command"/>
+		<Item text="Get Encapsulated Response"/>
+		<Item text="Set Comm Feature"/>
+		<Item text="Get Comm Feature"/>
+		<Item text="Clear Comm Feature"/>
+		<Item text="Set Aux Line State"/>
+		<Item text="Set Hook State"/>
+		<Item text="Pulse Setup"/>
+		<Item text="Send Pulse"/>
+		<Item text="Set Pulse Time"/>
+		<Item text="Ring Aux Jack"/>
+		<Item text="Set Line Coding"/>
+		<Item text="Get Line Coding"/>
+		<Item text="Set Control Line State"/>
+		<Item text="Send Break"/>
+		<Item text="Set Ringer Parms"/>
+		<Item text="Get Ringer Parms"/>
+		<Item text="Set Operation Parms"/>
+		<Item text="Get Operation Parms"/>
+		<Item text="Set Line Parms"/>
+		<Item text="Get Line Parms"/>
+		<Item text="Dial Digit"/>
+		<Item text="Set Unit Parameter"/>
+		<Item text="Get Unit Parameter"/>
+		<Item text="Clear Unit Parameter"/>
+		<Item text="Get Profile"/>
+		<Item text="Set Ethernet Multicast Filters"/>
+		<Item text="Set Ethernet Power Management Pattern Filter"/>
+		<Item text="Get Ethernet Power Management Pattern Filter"/>
+		<Item text="Set Ethernet Packet Filter"/>
+		<Item text="Get Ethernet Statistics"/>
+		<Item text="Set ATM Data Format"/>
+		<Item text="Get ATM Device Statistics"/>
+		<Item text="Set ATM Default VC"/>
+		<Item text="Get ATM VC Statistics"/>
+	</Enumeration>
+
+  <Message key="Request Name" description="Field: Request Name" value="Request Name"/>
+	<Message key="DataNbytes" description="Field: Data" value="Data ({size} bytes)">
+		<Param name="size"/>
+	</Message>
+	
+	<!--IDS_STRING1052          "Request Name:"
+	IDS_STRING1053          "Data (%d bytes):\n"-->
+  <Message key="Abstract State" description="Field: Abstract State" value="Abstract State"/>
+	<!--IDS_STRING1054          "Abstract State:"-->
+	<!--IDS_STRING1055          "Country Setting:"-->
+  <Message key="Country Setting" description="Field: Country Setting" value="Country Setting"/>
+
+  <Message key="Idle Setting" description="Field: Idle Setting" value="Idle Setting"/>
+<!--IDS_STRING1056          "Idle Setting:"-->
+  <Message key="Multiplexed State" description="Field: Multiplexed State" value="Multiplexed State"/>
+	<!--IDS_STRING1057          "Multiplexed State:"-->
+  <Message key="State" description="Field: State" value="State"/>
+	<!--IDS_STRING1058          "State:"-->
+
+
+	<Enumeration key="UsbCommState" description="USB CDC Connection States list">
+		<Item text="Connect"/>
+		<Item text="Disconnect"/>
+	</Enumeration>
+	
+  <Message key="Relay Config" description="Field: Relay Config" value="Relay Config"/>
+	<!--IDS_STRING1061          "Relay Config:"-->
+	<Enumeration key="UsbHookState" description="USB CDC Connection hook states list">
+		<!--<Item text="Unknown"/>-->
+		<Item text="ON_HOOK"/>
+		<Item text="OFF_HOOK"/>
+		<Item text="SNOOPING"/>
+	</Enumeration>
+
+	<Enumeration key="UsbCommPulseDialingCycle" description="USB CDC Pulse-Dialing Cycles list">
+		<Item text="Disengage"/>
+		<Item text="Prepare"/>
+	</Enumeration>
+
+  <Message key="Pulse-Dialing Cycle" description="Field: Pulse-Dialing Cycle" value="Pulse-Dialing Cycle"/>
+	<!--IDS_STRING1068          "Pulse-Dialing Cycle:"-->
+  <Message key="Data Terminal Rate (bits/sec)" description="Field: Data Terminal Rate (bits/sec)" value="Data Terminal Rate (bits/sec)"/>
+	<!--IDS_STRING1069          "Data Terminal Rate (bits/sec):"-->
+
+	<Message key="Stop Bits" description="Field: Stop Bits" value="Stop Bits"/>
+
+	<Enumeration key="UsbCommStopBits" description="USB CDC Stop Bits list">
+		<Item text="1 Stop bit"/>
+		<Item text="1.5 Stop bit"/>
+		<Item text="2 Stop bit"/>
+	</Enumeration>
+
+
+	<Message key="Parity" description="Field: Parity" value="Parity"/>
+	<!--IDS_STRING1073          "Parity"-->
+	<Enumeration key="UsbCommParity" description="USB CDC Parity list">
+		<Item text="None"/>
+		<Item text="Odd"/>
+		<Item text="Even"/>
+		<Item text="Mark"/>
+		<Item text="Space"/>
+	</Enumeration>
+	<Message key="Data Bits" description="Field: Data Bits" value="Data Bits"/>
+	<!--IDS_STRING1079          "Data Bits:"-->
+	<Enumeration key="UsbCommDataBits" description="USB CDC Data Bits list">
+		<Item text="Present"/>
+		<Item text="Not Present"/>
+	</Enumeration>
+
+<!--IDS_STRING1082          "DTE Present:"-->
+	<Message key="DTE Present" description="Field: DTE Present" value="DTE Present"/>
+	<!--IDS_STRING1083          "Carrier Control:"-->
+	<Message key="Carrier Control" description="Field: Carrier Control" value="Carrier Control"/>
+	<Enumeration key="UsbCommCarrierControl" description="USB CDC Carrier Control list">
+		<Item text="Deactivate Carrier"/>
+		<Item text="Activate Carrier"/>
+	</Enumeration>
+	
+	<!--IDS_STRING1086          "Ringer Pattern:"-->
+	<Message key="Ringer Pattern" description="Field: Ringer Pattern" value="Ringer Pattern"/>
+	<!--IDS_STRING1087          "Volume Settings:"-->
+	<Message key="Volume Settings" description="Field: Volume Settings" value="Volume Settings"/>
+
+	<Message key="Ringer Exists" description="Field: Ringer Exists" value="Ringer Exists"/>
+<!--IDS_STRING1088          "Ringer Exists:"-->
+
+	<Enumeration key="UsbCommMode" description="USB CDC Get Modes list">
+		<Item text="Simple Mode"/>
+		<Item text="Standalone Mode"/>
+		<Item text="Host Centric Mode"/>
+	</Enumeration>
+
+	<Message key="Mode" description="Field: Mode" value="Mode"/>
+<!--IDS_STRING1094          "Mode:"-->
+	<Message key="Line State Change" description="Field: Line State Change" value="Line State Change"/>
+	<!--IDS_STRING1095          "Line State Change:"-->
+
+	<Enumeration key="UsbCommLineStateChange" description="USB CDC Line State Change States list">
+		<Item text="Drop Active Call"/>
+		<Item text="Start A New Call"/>
+		<Item text="Apply Ringing To The Line"/>
+		<Item text="Remove Ringing From The Line"/>
+		<Item text="Switch To Specific Call On The Line"/>
+	</Enumeration>
+
+	<Message key="Ringer Configuration" description="Field: Ringer Configuration" value="Ringer Configuration"/>
+	<Message key="Line State" description="Field: Line State" value="Line State"/>
+	<!--IDS_STRING1101          "Ringer Configuration"-->
+	<!--IDS_STRING1102          "Line State"-->
+	<!--IDS_STRING1103          "CallState%d:"-->
+	<Message key="CallStateN" description="Field: CallState" value="CallState{number}">
+		<Param name="number"/>
+	</Message>
+
+
+	<Message key="Dialing String" description="Field: Dialing String" value="Dialing String"/>
+<!--IDS_STRING1104          "Dialing String:"-->
+	<Message key="Entity ID" description="Field: Entity ID" value="Entity ID"/>
+	<!--IDS_STRING1105          "Entity ID:"-->
+	<Message key="Parameter Index" description="Field: Parameter Index" value="Parameter Index"/>
+	<Message key="Parameter Length" description="Field: Parameter Length" value="Parameter Length"/>
+	<!--IDS_STRING1106          "Parameter Index:"-->
+	<Message key="Parameter" description="Field: Parameter" value="Parameter"/>
+	<!--IDS_STRING1107          "Parameter:"-->
+	<Message key="Profile Information" description="Field: Profile Information" value="Profile Information"/>
+	<!--IDS_STRING1108          "Profile Information:"-->
+	<Message key="Number Of Filters" description="Field: Number Of Filters" value="Number Of Filters"/>
+	<!--IDS_STRING1109          "Number Of Filters:"-->
+	<Message key="FilterN" description="Field: Filter" value="Filter{number}">
+		<Param name="number"/>
+	</Message>
+	<!--IDS_STRING1110          "Filter%d:"-->
+	<Message key="Filter Number" description="Field: Filter Number" value="Filter Number"/>
+	<!--IDS_STRING1111          "Filter Number:"-->
+	<Message key="Mask" description="Field: Mask" value="Mask"/>
+	<!--IDS_STRING1112          "Mask:"-->
+	<Message key="Pattern" description="Field: Pattern" value="Pattern"/>
+	<!--IDS_STRING1113          "Pattern:"-->
+	<Message key="Pattern Active Boolean" description="Field: Pattern Active Boolean" value="Pattern Active Boolean"/>
+	<!--IDS_STRING1114          "Pattern Active Boolean"-->
+	<Message key="Promiscuous" description="Field: Promiscuous" value="Promiscuous"/>
+	<Message key="All Multicast" description="Field: All Multicast" value="All Multicast"/>
+	<Message key="Directed" description="Field: Directed" value="Directed"/>
+	<Message key="Broadcast" description="Field: Broadcast" value="Broadcast"/>
+	<Message key="Multicast" description="Field: Multicast" value="Multicast"/>
+	<Message key="Feature Selector" description="Field: Feature Selector" value="Feature Selector"/>
+	<!--IDS_STRING1115          "Promiscuous:"
+	IDS_STRING1116          "All Multicast:"
+	IDS_STRING1117          "Directed:"
+	IDS_STRING1118          "Broadcast:"
+	IDS_STRING1119          "Multicast:"-->
+
+	<Message key="Types" description="Header: Types" value="Types"/>
+<!--IDS_STRING1120          "Types"-->
+	<!--IDS_STRING1121          "Feature Selector:"-->
+
+
+	<Enumeration key="UsbCommEthernetStatistics" description="USB CDC Ethernet Statistics list">
+		<Item text="RESERVED"/>
+		<Item text="XMIT_OK"/>
+		<Item text="RCV_OK"/>
+		<Item text="XMIT_ERROR"/>
+		<Item text="RCV_ERROR"/>
+		<Item text="RCV_NO_BUFFER"/>
+		<Item text="DIRECTED_BYTES_XMIT"/>
+		<Item text="DIRECTED_FRAMES_XMIT"/>
+		<Item text="MULTICAST_BYTES_XMIT"/>
+		<Item text="MULTICAST_FRAMES_XMIT"/>
+		<Item text="BROADCAST_BYTES_XMIT"/>
+		<Item text="BROADCAST_FRAMES_XMIT"/>
+		<Item text="DIRECTED_BYTES_RCV"/>
+		<Item text="DIRECTED_FRAMES_RCV"/>
+		<Item text="MULTICAST_BYTES_RCV"/>
+		<Item text="MULTICAST_FRAMES_RCV"/>
+		<Item text="BROADCAST_BYTES_RCV"/>
+		<Item text="BROADCAST_FRAMES_ERCV"/>
+		<Item text="RCV_CRC_ERROR"/>
+		<Item text="TRANSMIT_QUEUE_LENGTH"/>
+		<Item text="RCV_ERROR_ALIGNMENT"/>
+		<Item text="XMIT_ONE_COLLISSION"/>
+		<Item text="XMIT_MORE_COLLISIONS"/>
+		<Item text="XMIT_DEFERRED"/>
+		<Item text="XMIT_MAX_COLLISIONS"/>
+		<Item text="RCV_OVERRUN"/>
+		<Item text="XMIT_UNDERRUN"/>
+		<Item text="XMIT_HEARTBEAT_FAILURE"/>
+		<Item text="XMIT_TIMES_CRS_LOST"/>
+		<Item text="XMIT_LATE_COLLISIONS"/>
+	</Enumeration>
+
+	<Message key="Data" description="Field: Data" value="Data"/>
+	<Message key="Data Format" description="Field: Data Format" value="Data Format"/>
+<!--IDS_STRING1152          "Data:"-->
+	<!--IDS_STRING1153          "Data Format:"-->
+
+	<Enumeration key="UsbCommDataFormat" description="USB CDC Data Format list">
+		<Item text="Concatenated ATM cells"/>
+		<Item text="ATM header template + concatenated ATM cell payloads"/>
+		<Item text="AAL 5 SDU"/>
+	</Enumeration>
+
+	<Enumeration key="UsbCommATMstats" description="USB CDC ATM Stats list">
+		<Item text="Data(US_CELLS_SENT)"/>
+		<Item text="Data(DS_CELLS_RECEIVED)"/>
+		<Item text="Data(DS_CELLS_USB_CONGESTION)"/>
+		<Item text="Data(DS_CELLS_AAL5_CRC_ERROR)"/>
+		<Item text="Data(DS_CELLS_HEC_ERROR)"/>
+		<Item text="Data(DS_CELLS_HEC_ERROR_CORRECTED)"/>
+	</Enumeration>
+
+
+	<Message key="VPI Value" description="Field: VPI Value" value="VPI Value"/>
+	<Message key="VCI Value" description="Field: VCI Value" value="VCI Value"/>
+	<!--IDS_STRING1163          "VPI Value:"-->
+	<!--IDS_STRING1164          "VCI Value:"-->
+	<Enumeration key="UsbCommATMVCstats" description="USB CDC ATM VC Stats list">
+		<Item text="VC_US_CELLS_SENT"/>
+		<Item text="VC_DS_CELLS_RECEIVED"/>
+	</Enumeration>
+
+<Message key="Notification Type" description="Field: Notification Type" value="Notification Type"/>
+	<!--IDS_STRING1168          "Notification Type:"-->
+	<Enumeration key="UsbCommNotificationReqType" description="USB CDC Notification Request Types list">
+		<Item text="NETWORK_CONNECTION"/>
+		<Item text="RESPONSE_AVAILABLE"/>
+		<Item text="AUX_JACK_HOOK_STATE"/>
+		<Item text="RING_DETECT"/>
+		<Item text="SERIAL_STATE"/>
+		<Item text="CALL_STATE_CHANGE"/>
+		<Item text="LINE_STATE_CHANGE"/>
+		<Item text="CONNECTION_SPEED_CHANGE"/>
+	</Enumeration>
+
+<Message key="Value" description="Field: Value" value="Value"/>
+<!--IDS_STRING1177          "Value:"-->
+
+	<Enumeration key="UsbCommNetState" description="USB CDC Network States list">
+		<Item text="Disconnect"/>
+		<Item text="Connected"/>
+	</Enumeration>
+
+	<Enumeration key="UsbCommNetHookState" description="USB CDC Network Hook States list">
+		<Item text="On Hool"/>
+		<Item text="Off Hook"/>
+	</Enumeration>
+
+<Message key="UART State (bitmap)" description="Field: UART State (bitmap)" value="UART State (bitmap)"/>
+<!--IDS_STRING1182          "UART State (bitmap):"-->
+<Message key="bRxCarrier" description="Field: bRxCarrier" value="bRxCarrier"/>
+	<!--IDS_STRING1183          "bRxCarrier"-->
+<Message key="bTxCarrier" description="Field: bTxCarrier" value="bTxCarrier"/>
+
+<!--IDS_STRING1184          "bTxCarrier"-->
+<Message key="bBreak" description="Field: bBreak" value="bBreak"/>
+	<!--IDS_STRING1185          "bBreak"-->
+<Message key="bRingSignal" description="Field: bRingSignal" value="bRingSignal"/>
+	<!--IDS_STRING1186          "bRingSignal"-->
+<Message key="bFraming" description="Field: bFraming" value="bFraming"/>
+	<!--IDS_STRING1187          "bFraming"-->
+<Message key="bParity" description="Field: bParity" value="bParity"/>
+	<!--IDS_STRING1188          "bParity"-->
+<Message key="bOverRun" description="Field: bOverRun" value="bOverRun"/>
+	<!--IDS_STRING1189          "bOverRun"-->
+	
+<Message key="Call State" description="Field: Call State" value="Call State"/>
+	<!--IDS_STRING1190          "Call State:"-->
+
+	<Enumeration key="UsbCommCallState" description="USB CDC Call States list">
+		<Item text="Call Has Become Idle"/>
+		<Item text="Dialing"/>
+	</Enumeration>	
+	
+<Message key="Ringback Type" description="Field: Ringback Type" value="Ringback Type"/>
+	<!--IDS_STRING1193          "Ringback Type:"-->
+	<Enumeration key="UsbCommRingbackType" description="USB CDC Ringback Type list">
+		<Item text="Normal"/>
+		<Item text="Busy"/>
+		<Item text="Fast Busy"/>
+	</Enumeration>
+	<!--IDS_STRING1197          "Connection Type:"-->
+<Message key="Connection Type" description="Field: Connection Type" value="Connection Type"/>
+
+	<Enumeration key="UsbCommConnectionType" description="USB CDC Connection types list">
+		<Item text="Voice"/>
+		<Item text="Answering Machine"/>
+		<Item text="Fax Machine"/>
+		<Item text="Data Modem"/>
+	</Enumeration>
+
+
+	<!--IDS_STRING1202          "Size Of String (Time):"-->
+<Message key="Size Of String (Time)" description="Field: Size Of String (Time)" value="Size Of String (Time)"/>
+<Message key="Size Of String (Phone Number)" description="Field: Size Of String (Phone Number)" value="Size Of String (Phone Number)"/>
+	<!--IDS_STRING1203          "Size Of String (Phone Number):"-->
+	<!--IDS_STRING1204          "Size Of String (Name):"-->
+<Message key="Size Of String (Name)" description="Field: Size Of String (Name)" value="Size Of String (Name)"/>
+	
+	<!--IDS_STRING1205          "Ringing Pattern:"-->
+<Message key="Ringing Pattern" description="Field: Ringing Pattern" value="Ringing Pattern"/>
+<Message key="Line State Change Value" description="Field: Line State Change Value" value="Line State Change Value"/>
+
+	<!--IDS_STRING1206          "Line State Change Value:"-->
+	<Enumeration key="UsbCommNotificationType" description="USB CDC Notification Types list">
+		<Item text="Idle"/>
+		<Item text="Connected To Hold Position"/>
+		<Item text="Hook-Switch Has Gone Off Hook"/>
+		<Item text="Hook-Switch Has Gone On Hook"/>
+	</Enumeration>
+
+<Message key="USBitRate" description="Field: USBitRate" value="USBitRate"/>
+<Message key="DSBitRate" description="Field: DSBitRate" value="DSBitRate"/>
+	<!--IDS_STRING1212          "USBitRate:"
+	IDS_STRING1213          "DSBitRate:"-->
+
+<Message key="Capabilities" description="Field: Capabilities" value="Capabilities"/>
+	<!--IDS_STRING1309          "Capabilities:"-->
+
+	<Enumeration key="UsbCommDescriptors" description="USB CDC Descriptors list">
+		<Item text="Header Functional Descriptor"/>
+		<Item text="Call Management Functional Descriptor"/>
+		<Item text="Abstract Control Management Functional Descriptor"/>
+		<Item text="Direct Line Management Functional Descriptor"/>
+		<Item text="Telephone Ringer Functional Descriptor"/>
+		<Item text="Telephone Call and Line State Reporting Capabilities Functional Descriptor"/>
+		<Item text="Union Functional Descriptor"/>
+		<Item text="Country Selection Functional Descriptor"/>
+		<Item text="Telephone Operational Modes Functional Descriptor"/>
+		<Item text="USB Terminal Functional Descriptor"/>
+		<Item text="Network Channel Terminal Descriptor"/>
+		<Item text="Protocol Unit Functional Descriptor"/>
+		<Item text="Extension Unit Functional Descriptor"/>
+		<Item text="Multi-Channel Management Functional Descriptor"/>
+		<Item text="CAPI Control Management Functional Descriptor"/>
+		<Item text="Ethernet Networking Functional Descriptor"/>
+		<Item text="ATM Networking Functional Descriptor"/>
+	</Enumeration>
+
+<Message key="Data Interface" description="Field: Data Interface" value="Data Interface"/>
+	<!--IDS_STRING1327          "Data Interface:"-->
+<Message key="Ringer Volume Steps" description="Field: Ringer Volume Steps" value="Ringer Volume Steps"/>
+	<!--IDS_STRING1328          "Ringer Volume Steps:"-->
+<Message key="Simple Mode" description="Field: Simple Mode" value="Simple Mode"/>
+	<!--IDS_STRING1329          "Simple Mode"-->
+<Message key="Standalone Mode" description="Field: Standalone Mode" value="Standalone Mode"/>
+	<!--IDS_STRING1330          "Standalone Mode"-->
+<Message key="Computer Centric Mode" description="Field: Computer Centric Mode" value="Computer Centric Mode"/>
+	<!--IDS_STRING1331          "Computer Centric Mode "-->
+<Message key="Dialtone" description="Field: Dialtone" value="Dialtone"/>
+	<!--IDS_STRING1332          "Dialtone"-->
+<Message key="Dialing State" description="Field: Dialing State" value="Dialing State"/>
+<Message key="Caller ID" description="Field: Caller ID" value="Caller ID"/>
+<Message key="Ringing" description="Field: Ringing" value="Ringing"/>
+<Message key="DTMF digits" description="Field: DTMF digits" value="DTMF digits"/>
+<Message key="Line State Change Notification" description="Field: Line State Change Notification" value="Line State Change Notification"/>
+
+<!--IDS_STRING1335          "Dialing State"
+		IDS_STRING1338          "Caller ID"
+		IDS_STRING1341          "Ringing"
+		IDS_STRING1344          "DTMF digits"
+		IDS_STRING1347          "Line State Change Notification"-->
+
+	<Enumeration key="UsbCommTelCallState" description="USB CDC Call States list">
+		<Item text="Reports interrupted dialtone in addition to normal dialtone"/>
+		<Item text="Reports only dialtone"/>
+		<Item text="Reports ringback, busy, fast busy states"/>
+		<Item text="Reports only dialing state"/>
+		<Item text="Reports caller ID information"/>
+		<Item text="Does not report caller ID"/>
+		<Item text="Reports incoming distinctive ringing patterns"/>
+		<Item text="Reports only incoming ringing"/>
+		<Item text="Can report DTMF digits input remotely over the telephone line"/>
+		<Item text="Cannot report DTMF digits input remotely over the telephone line"/>
+		<Item text="Does support"/>
+		<Item text="Does not support"/>
+	</Enumeration>	
+	
+	<Message key="SlaveInterfaceN" description="Field: Slave Interface" value="Slave Interface{number}">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="CountryCodeN" description="Field: CountryCode" value="CountryCode{number}">
+		<Param name="number"/>
+	</Message>
+	
+	<!--IDS_STRING1350          "Slave Interface%d:"-->
+<Message key="Master Interface" description="Field: Master Interface" value="Master Interface"/>
+	<!--IDS_STRING1351          "Master Interface"-->
+<Message key="Country Code Release Date" description="Field: Country Code Release Date" value="Country Code Release Date"/>
+	<!--IDS_STRING1352          "Country Code Release Date:"-->
+	<!--IDS_STRING1353          "CountryCode%d:"-->
+	<!--IDS_STRING1354          "Entity ID:"-->
+	<!--IDS_STRING1355          "In Interface Number:"-->
+<Message key="In Interface Number" description="Field: In Interface Number" value="In Interface Number"/>
+<Message key="Out Interface Number" description="Field: Out Interface Number" value="Out Interface Number"/>
+	<!--IDS_STRING1356          "Out Interface Number:"-->
+<Message key="Options" description="Field: Options" value="Options"/>
+	<!--IDS_STRING1357          "Options:"-->
+	<Message key="ChildIDN" description="Field: ChildID" value="ChildID{number}">
+		<Param name="number"/>
+	</Message>
+	<!--IDS_STRING1358          "ChildID%d:"-->
+	<!--IDS_STRING1359          "Entity ID:"-->
+
+<Message key="Name (index)" description="Field: Name (index)" value="Name (index)"/>
+<!--IDS_STRING1360          "Name (index):"-->
+<Message key="Channel Index" description="Field: Channel Index" value="Channel Index"/>
+	<!--IDS_STRING1361          "Channel Index:"-->
+<Message key="Physical Interface" description="Field: Physical Interface" value="Physical Interface"/>
+	<!--IDS_STRING1362          "Physical Interface:"-->
+<Message key="Protocol Code" description="Field: Protocol Code" value="Protocol Code"/>
+	<!--IDS_STRING1363          "Protocol Code:"-->
+<Message key="Extension Code" description="Field: Extension Code" value="Extension Code"/>
+	<!--IDS_STRING1364          "Extension Code:"-->
+
+<Message key="Device stores Unit parameters in non-volatile memory" description="Field: Device stores Unit parameters in non-volatile memory" value="Device stores Unit parameters in non-volatile memory"/>
+	<!--IDS_STRING1365          "Device stores Unit parameters in non-volatile memory"-->
+<Message key="Device supports the request Clear_Unit_Parameter" description="Field: Device supports the request Clear_Unit_Parameter" value="Device supports the request Clear_Unit_Parameter"/>
+<Message key="Device supports the request Set_Unit_Parameter" description="Field: Device supports the request Set_Unit_Parameter" value="Device supports the request Set_Unit_Parameter"/>
+<Message key="Device is an Intelligent CAPI device" description="Field: Device is an Intelligent CAPI device" value="Device is an Intelligent CAPI device"/>
+<Message key="Device is a Simple CAPI device" description="Field: Device is a Simple CAPI device" value="Device is a Simple CAPI device"/>
+
+<!--IDS_STRING1366          "Device supports the request Clear_Unit_Parameter"
+IDS_STRING1367          "Device supports the request Set_Unit_Parameter"
+	IDS_STRING1368          "Capabilities"
+	IDS_STRING1369          "Device is an Intelligent CAPI device"
+	IDS_STRING1370          "Device is a Simple CAPI device"-->
+<Message key="Mac Address (string descriptor index)" description="Field: Mac Address (string descriptor index)" value="Mac Address (string descriptor index)"/>
+	<!--IDS_STRING1371          "Mac Address (string descriptor index):"-->
+	<!--IDS_STRING1372          "Ethernet Statistics:"-->
+	<!--IDS_STRING1373          "Number Of Configurable Multicast Filters:"-->
+	<!--IDS_STRING1374          "Number Of Pattern Filters:"-->
+<Message key="Number Of Pattern Filters" description="Field: Number Of Pattern Filters" value="Number Of Pattern Filters"/>
+<Message key="Max Segment Size" description="Field: Max Segment Size" value="Max Segment Size"/>
+	<!--IDS_STRING1375          "Max Segment Size:"-->
+
+<Message key="End System Identifier (string descriptor index)" description="Field: End System Identifier (string descriptor index)" value="End System Identifier (string descriptor index)"/>
+<!--IDS_STRING1376          "End System Identifier (string descriptor index):"-->
+	<!--IDS_STRING1377          "Capabilities:"-->
+	<!--IDS_STRING1378          "ATM Device Statistics:"-->
+<Message key="ATM Device Statistics" description="Field: ATM Device Statistics" value="ATM Device Statistics"/>
+
+<Message key="The Maximum Type 2 Segment Size" description="Field: The Maximum Type 2 Segment Size" value="The Maximum Type 2 Segment Size"/>
+<!--IDS_STRING1379          "The Maximum Type 2 Segment Size:"-->
+<Message key="The Maximum Type 3 Segment Size" description="Field: The Maximum Type 3 Segment Size" value="The Maximum Type 3 Segment Size"/>
+	<!--IDS_STRING1380          "The Maximum Type 3 Segment Size:"-->
+<Message key="Maximum Number Of Simultaneous Virtual Circuits" description="Field: Maximum Number Of Simultaneous Virtual Circuits" value="Maximum Number Of Simultaneous Virtual Circuits"/>
+	<!--IDS_STRING1381          "Maximum Number Of Simultaneous Virtual Circuits:"-->
+	<!--IDS_STRING1382          "XMIT_OK"
+	IDS_STRING1383          "RVC_OK"
+	IDS_STRING1384          "XMIT_ERROR"
+	IDS_STRING1385          "RCV_ERROR"
+	IDS_STRING1386          "RCV_NO_BUFFER"
+	IDS_STRING1387          "DIRECTED_BYTES_XMIT"
+	IDS_STRING1388          "DIRECTED_FRAMES_XMIT"
+	IDS_STRING1389          "MULTICAST_BYTES_XMIT"
+	IDS_STRING1390          "MULTICAST_FRAMES_XMIT"
+	IDS_STRING1391          "BROADCAST_BYTES_XMIT"
+	IDS_STRING1392          "BROADCAST_FRAMES_XMIT"
+	IDS_STRING1393          "DIRECTED_BYTES_RCV"
+	IDS_STRING1394          "DIRECTED_FRAMES_RCV"
+	IDS_STRING1395          "MULTICAST_BYTES_RCV"
+	IDS_STRING1396          "MULTICAST_FRAMES_RCV"
+	IDS_STRING1397          "BROADCAST_BYTES_RCV"
+	IDS_STRING1398          "BROADCAST_FRAMES_RCV"
+	IDS_STRING1399          "RCV_CRC_ERROR"
+	IDS_STRING1400          "TRANSMIT_QUEUE_LENGTH"
+	IDS_STRING1401          "RCV_ERROR_ALIGNMENT"
+	IDS_STRING1402          "XMIT_ONE_COLLISION"
+	IDS_STRING1403          "XMIT_MORE_COLLISIONS"
+	IDS_STRING1404          "XMIT_DEFERRED"
+	IDS_STRING1405          "XMIT_MAX_COLLISIONS"
+	IDS_STRING1406          "RCV_OVERRUN"
+	IDS_STRING1407          "XMIT_UNDERRUN"
+	IDS_STRING1408          "XMIT_HEARTBEAT_FAILURE"
+	IDS_STRING1409          "XMIT_TIMES_CRS_LOST"
+	IDS_STRING1410          "XMIT_LATE_COLLISIONS"-->
+
+	<Enumeration key="UsbCommCapabilities" description="USB CDC Capabilities list">
+		<Item text="Type 1 -- Concatenated ATM cells"/>
+		<Item text="Type 2 -- ATM header template + concatenated ATM cell payloads"/>
+		<Item text="Type 3 -- AAL5 SDU"/>
+	</Enumeration>
+
+	<Enumeration key="UsbCommATMDeviceStatistics" description="USB CDC ATM Device Statistics list">
+		<Item text="Device counts downstream cells received"/>
+		<Item text="Device counts upstream cells sent"/>
+		<Item text="Device counts cells with HEC error detected and corrected"/>
+		<Item text="Device counts downstream cells received on a per VC basis"/>
+		<Item text="Device counts upstream cells sent on a per VC basis"/>
+	</Enumeration>
+	<Message key="Class-Specific Descriptor" description="Field: Class-Specific Descriptor" value="Class-Specific Descriptor"/>
+	<!--IDS_STRING1419          "Class-Specific Descriptor:"-->
+	<Message key="Release Number In Binary-Coded Decimal" description="Field: Release Number In Binary-Coded Decimal" value="Release Number In Binary-Coded Decimal"/>
+	<!--IDS_STRING1420          "Release Number In Binary-Coded Decimal"-->
+
+	<Enumeration key="UsbCommColors" description="Colors: USB Comm View">
+		<Item text="Header"/>
+		<Item text="Text"/>
+		<Item text="Binary Data"/>
+		<Item text="Header 2"/>
+	</Enumeration>
+</Definition>

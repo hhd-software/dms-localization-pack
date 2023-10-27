@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="Usage" description="Usage" value="HHD Software Device Monitoring Studio Log File Converter\n\nUsage: log_converter dms6_logfile [output path]\n\nOptions:\ndms6_logfile\tFull path for input DMS6 log file\noutput path\tPath for output DMS7 log file, filename will be the same as input name\n\nIf output_path is specified, ouput file will be written in input directory.\n"/>
+
+  <Message key="ErrorOpenFile" description="Open file error" value="Error opening file {filename}\n">
+    <Param name="filename"/>
+  </Message>
+  <Message key="ErrorCreateFile" description="Create file error" value="Error creating file {filename}\n">
+    <Param name="filename"/>
+  </Message>
+  <Message key="ErrorRetrieveData" description="Retrieve data error" value="Error retrieving data stream from log file\n"></Message>
+  <Message key="WarningStreams" description="No Streams warning" value="Warning: input log file has no streams\n"></Message>
+  <Message key="ErrorOpenInputStream" description="Open input stream error" value="Error opening input log stream\n"></Message>
+  <Message key="ErrorReadProperties" description="Read propertioes error" value="Error reading device properties from log\n"></Message>
+
+  <Message key="ErrorArch" description="Wrong platform" value="Converting {srcbit}-bit log files with {curbit}-bit converter is not supported. Use {srcbit}-bit version.\n">
+    <Param name="srcbit"/>
+    <Param name="curbit"/>
+  </Message>
+
+  <Message key="ErrorGUID" description="GUID Generation error" value="Error generating GUID\n"></Message>
+  <Message key="ErrorCreateOutputStream" description="Create output stream error" value="Error creating output stream\n"></Message>
+  <Message key="ErrorWrite" description="Write error" value="Error writing packet data\n"></Message>
+  <Message key="AlreadyExist" description="File already exists" value="Output file already exist\n"></Message>
+
+</Definition>

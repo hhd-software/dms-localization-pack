@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="multilink_seq_num_short" description="Option: Sequence Number (Multilink protocol) field in short form (12 bit). Otherwise - parse as in long form (24 bit)." value="Sequence Number (Multilink protocol) field in short form (12 bit). Otherwise - parse as in long form (24 bit)."/>
+  <Message key="truncate_if_too_big" description="Option: Truncate record list (items) if it is too long" value="Truncate record list (items) if it is too long"/>
+  <Message key="use_2_bytes_for_fcs" description="Option: FCS field of PPP frame is 2 bytes long (otherwise - 4)" value="FCS field of PPP frame is 2 bytes long (otherwise - 4)"/>
+  <Message key="address_field" description="Option: Address (set to any value higher than 255 to disable address checking)" value="Address (set to any value higher than 255 to disable address checking)"/>
+  <Message key="back_search" description="Option: Number of packets to scan back (for packet concatenation)" value="Number of packets to scan back (for packet concatenation)"/>
+
+  <Message key="PPP View" description="Settings group: PPP View"/>
+
+  <Enumeration key="PPPConverter" description="PPP Converter">
+    <Item text="PPP View"/>
+    <Item text="PPP View visualizer parses and displays PPP packets (requests, responses, options etc)."/>
+  </Enumeration>
+</Definition>

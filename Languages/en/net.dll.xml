@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="b016x"/>
+  </Message>
+
+  <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
+
+  <Enumeration key="NetworkSource" description="Network Source Component">
+    <Item text="Network Monitor"/>
+    <Item text="Network data source monitors the network connection and captures each packet coming from or to the network interface."/>
+  </Enumeration>
+
+  <Message key="VirtualAdapterDevice" description="Import adapter device name" value="External log file import adapter"/>
+  <Message key="VirtualAdapterCategory" description="Virtual Adapters category name" value="Virtual Adapters"/>
+  <Message key="EmergencyErrorType" description="Diagnostic: Network emergency session termination" value="Network emergency session termination"/>
+  <Message key="Expired" description="Message: Component is expired" value="This component has expired. You need to upgrade to %s Edition in order to use it. Do you want to go to License Management now?"/>
+
+	
+</Definition>

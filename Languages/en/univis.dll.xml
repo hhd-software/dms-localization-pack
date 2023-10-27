@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+  <Message key="PressCtrlNotify" description="Option: Statistics static line (Statistics)" value="Statistics static line (Statistics)"/>
+  <Message key="AboutSpecialLogging" description="Option: Special high-speed mode (Statistics)" value="Special high-speed mode (Statistics)"/>
+  <Message key="plot_drawticks" description="Option: Display sample indices on X-axis" value="Display sample indices on X-axis"/>
+  <Message key="cell_lowerhex" description="Option: Display lowercase hexadecimal" value="Display lowercase hexadecimal"/>
+  <Message key="cell_showresult" description="Option: Display results pane" value="Display results pane"/>
+  <Message key="cell_showtooltip" description="Option: Display popup packet information" value="Display popup packet information"/>
+  <Message key="netvis_showpackettip" description="Option: Display popup packet information" value="Display popup packet information"/>
+  <Message key="tooltip_delay" description="Option: Tooltip show interval (in ms)" value="Define tooltip interval"/>
+
+  <Message key="Statistics" description="Settings group: Statistics"/>
+  <Message key="Raw Data View" description="Settings group: Raw Data View"/>
+  <Message key="Network Packet View" description="Settings group: Network Packet View"/>
+  <Message key="LineNumbers" description="Display line numbers" value="Display line numbers"/>
+  <Message key="Console View" description="Console View"/>
+  <Message key="Goto Dialog" description="Settings group: Goto"/>
+
+	<Enumeration key="ToolsHighlightingNone" description="Command: No coloring">
+    <Item text="&amp;No packet coloring"/>
+    <Item text="No packet coloring"/>
+  </Enumeration>
+
+  <Enumeration key="ToolsHighlightingInterlace" description="Command: Odd/Even coloring">
+    <Item text="&amp;Odd/Even packet coloring"/>
+    <Item text="Color odd and even packets"/>
+  </Enumeration>
+
+  <Enumeration key="ToolsHighlightingRW" description="Command: Read/Write coloring">
+    <Item text="&amp;Read/Write coloring"/>
+    <Item text="Color Read and Write packets"/>
+  </Enumeration>
+
+  <Enumeration key="ToolsHighlightingSwitch" description="Command: Highlighting Switch">
+    <Item text="Packet Coloring"/>
+    <Item text="Switch packet coloring mode"/>
+  </Enumeration>
+
+  <Enumeration key="OutputClear" description="Command: Output.Clear">
+    <Item text="Clear All"/>
+    <Item text="Clear the contents of the current Output window"/>
+  </Enumeration>
+
+	<Enumeration key="AutoFit" description="Command: Auto fit">
+		<Item text="Auto Fit"/>
+		<Item text="Auto Fit"/>
+	</Enumeration>
+
+	<Enumeration key="ModeLines" description="Command: Draw Lines">
+		<Item text="Draw Lines"/>
+		<Item text="Draw Lines"/>
+	</Enumeration>
+
+	<Enumeration key="ModeCurves" description="Command: Draw Curves">
+		<Item text="Draw Curves"/>
+		<Item text="Draw Curves"/>
+	</Enumeration>
+
+	<Enumeration key="FillNo" description="Command: No Fill">
+		<Item text="No Fill"/>
+		<Item text="No Fill"/>
+	</Enumeration>
+
+	<Enumeration key="FillSolid" description="Command: Solid Fill">
+		<Item text="Solid Fill"/>
+		<Item text="Solid Fill"/>
+	</Enumeration>
+
+	<Enumeration key="FillGradient" description="Command: Gradient Fill">
+		<Item text="Gradient Fill"/>
+		<Item text="Gradient Fill"/>
+	</Enumeration>
+
+	<Enumeration key="DumpVarCommand" description="Command: Debug Dump Var">
+		<Item text="DEBUG: Dump var0"/>
+		<Item text="DEBUG: Dump var0"/>
+	</Enumeration>
+
+	<Enumeration key="EditGoToTick" description="Command: Go to Sample">
+		<Item text="Go to Sample…"/>
+		<Item text="Locate the specific sample on the chart"/>
+	</Enumeration>
+
+	<Enumeration key="EditGoToLine" description="Command: Go to Line">
+		<Item text="Go to Line"/>
+		<Item text="Go to Line"/>
+	</Enumeration>
+
+	<Enumeration key="PlotSetOnAxis" description="Command: Show on Axis">
+		<Item text="Show on Axis"/>
+		<Item text="Show on axis"/>
+	</Enumeration>
+
+	<Enumeration key="PlotProperties" description="Command: Edit Counter">
+		<Item text="Edit Counter…"/>
+		<Item text="Edit selected counter"/>
+	</Enumeration>
+
+	<Enumeration key="PlotReset" description="Command: Reset Colors to Defaults">
+		<Item text="Reset Colors to Defaults"/>
+		<Item text="Reset Colors to Defaults"/>
+	</Enumeration>
+
+	<Enumeration key="PlotCopy" description="Command: Copy to Clipboard">
+		<Item text="Copy to Clipboard"/>
+		<Item text="Copy to Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="PlotExportToCSV" description="Command: Export to CSV">
+		<Item text="Export to File (CSV)"/>
+		<Item text="Export to File (CSV)"/>
+	</Enumeration>
+
+	<Enumeration key="PlotResetColumnWidth" description="Command: Reset Column Widths">
+		<Item text="Reset Column Widths"/>
+		<Item text="Reset Column Widths"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderAdd" description="Command: Add New Packet">
+		<Item text="Add New Packet…"/>
+		<Item text="Add new packet to the list"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderDelete" description="Command: Delete Packet">
+		<Item text="Delete Packet…"/>
+		<Item text="Delete selected packet"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderSendSelected" description="Command: Send Packet">
+		<Item text="Send Packet…"/>
+		<Item text="Send selected packet"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderSendAll" description="Command: Send All Packets">
+		<Item text="Send All Packets…"/>
+		<Item text="Send all packet from list"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderSaveTemplate" description="Command: Save Template">
+		<Item text="Save Packet Template…"/>
+		<Item text="Save template"/>
+	</Enumeration>
+
+
+	<Enumeration key="PacketBuilderLoadFromFile" description="Command: Load Packet Template from File">
+		<Item text="Load Packet Template from File…"/>
+		<Item text="Load Packet Template from file"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderUp" description="Command: Move Up">
+		<Item text="Move Up"/>
+		<Item text="Move the selected packet up"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderDown" description="Command: Move Down">
+		<Item text="Move Down"/>
+		<Item text="Move the selected packet down"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderAutoChecksum" description="Command: Auto Checksum">
+		<Item text="Automatically Calculate Checksum Fields for IP and  TCP Packets"/>
+		<Item text="Automatically calculate checksums for IP &amp; TCP packets"/>
+	</Enumeration>
+
+	<Enumeration key="PacketBuilderExport" description="Command: Save Packet Template to File">
+		<Item text="Save Packet Template to File…"/>
+		<Item text="Save template to file"/>
+	</Enumeration>
+
+	<Enumeration key="NetCopyValue" description="Command: Copy Value">
+		<Item text="Copy &amp;Value"/>
+		<Item text="Copy value into the Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="NetCopyLine" description="Command: Copy Line">
+		<Item text="Copy &amp;Line"/>
+		<Item text="Copy entire line into the Clipboard"/>
+	</Enumeration>
+
+	<Enumeration key="NetExpandSubTree" description="Command: Expand Sub-tree">
+		<Item text="E&amp;xpand Sub-tree"/>
+		<Item text="Expand the field's sub-tree"/>
+	</Enumeration>
+
+	<Enumeration key="NetCollapseSubTree" description="Command: Collapse Sub-tree">
+		<Item text="&amp;Collapse Sub-tree"/>
+		<Item text="Collapse the field's sub-tree"/>
+	</Enumeration>
+
+	<Enumeration key="NetNextPacket" description="Command: Next Packet">
+		<Item text="&amp;Next Packet"/>
+		<Item text="Jump to the next packet"/>
+	</Enumeration>
+
+	<Enumeration key="NetPrevPacket" description="Command: Previous Packet">
+		<Item text="&amp;Previous Packet"/>
+		<Item text="Jump to the previous packet"/>
+	</Enumeration>
+
+	<Enumeration key="NetGotoPacket" description="Command: Go to Packet">
+		<Item text="&amp;Go to Packet…"/>
+		<Item text="Jump to the specified packet"/>
+	</Enumeration>
+
+	<Enumeration key="NetShowCurrent" description="Command: Selected Packet Details">
+		<Item text="&amp;Selected Packet Details"/>
+		<Item text="Display packet's details"/>
+	</Enumeration>
+
+	<Enumeration key="NetSetFilter" description="Command: Set Filter">
+		<Item text="Set &amp;Filter…"/>
+		<Item text="Configure display filter"/>
+	</Enumeration>
+
+	<Enumeration key="NetSetBindPath" description="Command: Set Root Protocol">
+		<Item text="Set &amp;Root Protocol…"/>
+		<Item text="Specify the root protocol for this visualizer"/>
+	</Enumeration>
+
+	<Enumeration key="NetExpandAll" description="Command: Expand All">
+		<Item text="Expand All"/>
+		<Item text="Expand All"/>
+	</Enumeration>
+
+	<Enumeration key="NetCollapseAll" description="Command: Collapse All">
+		<Item text="Collapse All"/>
+		<Item text="Collapse All"/>
+	</Enumeration>
+
+	<Enumeration key="EditSelectNone" description="Command: Select None">
+		<Item text="&amp;Select None"/>
+		<Item text="Drop all selection in focused window"/>
+	</Enumeration>
+
+	<Enumeration key="EditSelectInvert" description="Command: Select Invert">
+		<Item text="&amp;Select Invert"/>
+		<Item text="Invert selection"/>
+	</Enumeration>
+
+	<Enumeration key="EditSelectPacket" description="Command: Select Packet">
+		<Item text="&amp;Select Packet"/>
+		<Item text="Select data of current packet"/>
+	</Enumeration>
+
+	<Enumeration key="EditSelectAll" description="Command: Select All">
+		<Item text="Select All"/>
+		<Item text="Select all visualizer contents"/>
+	</Enumeration>
+
+	<Enumeration key="ViewHex" description="Command: Hex">
+		<Item text="&amp;Hex"/>
+		<Item text="Hexadecimal mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewDecimal" description="Command: Decimal">
+		<Item text="&amp;Decimal"/>
+		<Item text="Decimal mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewOctal" description="Command: Octal">
+		<Item text="&amp;Octal"/>
+		<Item text="Octal mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewBinary" description="Command: Binary">
+		<Item text="&amp;Binary"/>
+		<Item text="Binary mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewFloat" description="Command: Float">
+		<Item text="F&amp;loat"/>
+		<Item text="Single-precision floating-point mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewDouble" description="Command: Double">
+		<Item text="D&amp;ouble"/>
+		<Item text="Double-precision floating-point mode"/>
+	</Enumeration>
+
+	<Enumeration key="ViewGroupByte" description="Command: Bytes">
+		<Item text="Bytes"/>
+		<Item text="Group as bytes"/>
+	</Enumeration>
+
+	<Enumeration key="ViewGroupWord" description="Command: Words">
+		<Item text="Words"/>
+		<Item text="Group as words"/>
+	</Enumeration>
+
+	<Enumeration key="ViewGroupDword" description="Command: Double Words">
+		<Item text="Double words"/>
+		<Item text="Group as double words"/>
+	</Enumeration>
+
+	<Enumeration key="ViewGroupQword" description="Command: Quad Words">
+		<Item text="Quad words"/>
+		<Item text="Group as quad words"/>
+	</Enumeration>
+
+	<Enumeration key="ViewAutoCols" description="Command: Auto (Columns)">
+		<Item text="&amp;Auto"/>
+		<Item text="Automatically calculate the number of columns"/>
+	</Enumeration>
+
+	<Enumeration key="View4Cols" description="Command: 4 Columns">
+		<Item text="&amp;4 Columns"/>
+		<Item text="4 Columns"/>
+	</Enumeration>
+
+	<Enumeration key="View8Cols" description="Command: 8 Columns">
+		<Item text="&amp;8 Columns"/>
+		<Item text="8 Columns"/>
+	</Enumeration>
+
+	<Enumeration key="View16Cols" description="Command: 16 Columns">
+		<Item text="&amp;16 Columns"/>
+		<Item text="16 Columns"/>
+	</Enumeration>
+
+	<Enumeration key="View32Cols" description="Command: 32 Columns">
+		<Item text="&amp;32 Columns"/>
+		<Item text="32 Columns"/>
+	</Enumeration>
+
+	<Enumeration key="ViewCustomCols" description="Command: Custom (Columns)">
+		<Item text="&amp;Custom…"/>
+		<Item text="Specify the number of columns"/>
+	</Enumeration>
+
+	<Enumeration key="ViewTextPane" description="Command: Text Pane">
+		<Item text="&amp;Text Pane"/>
+		<Item text="Show or hide a text (ASCII or UNICODE) pane"/>
+	</Enumeration>
+
+	<Enumeration key="ViewCodePane" description="Command: Code Pane">
+		<Item text="&amp;Code Pane"/>
+		<Item text="Show or hide a code pane"/>
+	</Enumeration>
+
+	<Enumeration key="ViewOffsetHex" description="Command: Hex (Offset)">
+		<Item text="&amp;Hex"/>
+		<Item text="View address as hexadecimal"/>
+	</Enumeration>
+
+	<Enumeration key="ViewOffsetDecimal" description="Command: Decimal (Offset)">
+		<Item text="&amp;Decimal"/>
+		<Item text="View address as decimal"/>
+	</Enumeration>
+
+	<Enumeration key="ViewOffsetOctal" description="Command: Octal (Offset)">
+		<Item text="&amp;Octal"/>
+		<Item text="View address as octal"/>
+	</Enumeration>
+
+	<Enumeration key="DefinePatterns" description="Command: Define Patterns">
+		<Item text="&amp;Define Patterns…"/>
+		<Item text="Create new or manage existing patterns"/>
+	</Enumeration>
+
+	<Enumeration key="ViewEncoding" description="Command: Encoding">
+		<Item text="&amp;Encoding"/>
+		<Item text="Encoding"/>
+	</Enumeration>
+
+	<Enumeration key="ViewEndpoints" description="Command: Endpoints">
+		<Item text="&amp;Endpoints"/>
+		<Item text="Endpoints"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringNewRule" description="Command: Add new rule">
+		<Item text="Add New Rule…"/>
+		<Item text="Define new pattern coloring rule"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringSaveColoring" description="Command: Save Scheme">
+		<Item text="Save Scheme…"/>
+		<Item text="Save Pattern Coloring scheme"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringLoadColoring" description="Command: Load Scheme">
+		<Item text="Load Scheme…"/>
+		<Item text="Load Pattern Coloring scheme"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringClearColoring" description="Command: Clear Coloring Scheme">
+		<Item text="Clear Coloring Scheme"/>
+		<Item text="Clear Coloring Scheme"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringCheckAll" description="Command: Check All">
+		<Item text="Check All"/>
+		<Item text="Enable all rules"/>
+	</Enumeration>
+	<Enumeration key="ColoringUncheckAll" description="Command: Uncheck All">
+		<Item text="Uncheck All"/>
+		<Item text="Disable all rules"/>
+	</Enumeration>
+	<Enumeration key="ColoringEditRule" description="Command: Modify Rule…">
+		<Item text="Edit Rule…"/>
+		<Item text="Edit rule properties"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringDelete" description="Command: Delete">
+		<Item text="Delete"/>
+		<Item text="Delete coloring rule"/>
+	</Enumeration>
+
+	<Enumeration key="PatternHighlightingEnabled" description="Command: Pattern Highlighting">
+		<Item text="Pattern Highlighting"/>
+		<Item text="Enable or disable all pattern highlighting rules"/>
+	</Enumeration>
+
+	<Enumeration key="RawDataSelection" description="Command: Show Selection">
+		<Item text="&amp;Show Selection"/>
+		<Item text="Show Selection window"/>
+	</Enumeration>
+
+	<Enumeration key="RawDataInsertMode" description="Command: Insert mode">
+		<Item text="&amp;Insert mode"/>
+		<Item text="Insert data"/>
+	</Enumeration>
+
+	<Enumeration key="ViewBigEndian" description="Command: Big-Endian">
+		<Item text="&amp;Big-Endian"/>
+		<Item text="Byte Order"/>
+	</Enumeration>
+
+	<Enumeration key="ViewLittleEndian" description="Command: Little-Endian">
+		<Item text="&amp;Little-Endian"/>
+		<Item text="Little-endian encoding"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsGotoOffset" description="Command: Go to Offset">
+		<Item text="&amp;Go to Offset"/>
+		<Item text="Jump to specified offset"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsNextPacket" description="Command: Next Packet">
+		<Item text="&amp;Next Packet"/>
+		<Item text="Jump to the start of a next packet"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsPrevPacket" description="Command: Previous Packet">
+		<Item text="&amp;Previous Packet"/>
+		<Item text="Jump to the start of a previous packet"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsSynchronize" description="Command: Synchronize">
+		<Item text="&amp;Synchronize"/>
+		<Item text="Show nearest packet in Read/Write window"/>
+	</Enumeration>
+
+	<Enumeration key="EditFindPrev" description="Command: Find Previous">
+		<Item text="Find Previous"/>
+		<Item text="Find Previous"/>
+	</Enumeration>
+
+	<Enumeration key="RawDataLayoutSettings" description="Command: Coloring">
+		<Item text="&amp;Coloring…"/>
+		<Item text="Show coloring settings for Raw Data View visualizer"/>
+	</Enumeration>
+
+	<Enumeration key="ToolsHexEditorExport" description="Command: Process with Hex Editor Neo">
+		<Item text="Process with Hex Editor Neo"/>
+		<Item text="View, parse and edit selected fragments with HexEditor Neo"/>
+	</Enumeration>
+
+	<Enumeration key="MenuDisplayAs" description="Menu: Display As">
+		<Item text="Display &amp;As"/>
+		<Item text="Display As"/>
+	</Enumeration>
+
+	<Enumeration key="MenuGroupBy" description="Menu: Group By">
+		<Item text="Group By"/>
+		<Item text="Group By"/>
+	</Enumeration>
+
+	<Enumeration key="MenuColumns" description="Menu: Columns">
+		<Item text="&amp;Columns"/>
+		<Item text="Columns"/>
+	</Enumeration>
+
+	<Enumeration key="MenuEndians" description="Menu: Endianess">
+		<Item text="&amp;Endianess"/>
+		<Item text="Endianess"/>
+	</Enumeration>
+
+	
+	<!-- Structure Coloring -->
+	<Message key="Structure Coloring" description="Title: Structure Coloring"/>
+
+	<!-- Raw Data View Coloring -->
+	<Message key="Raw Data View Coloring" description="Title: Raw Data View Coloring"/>
+
+	<!-- Go to -->
+	<Message key="Go to Offset" description="Title: Go to Offset"/>
+	<Message key="Offset:" description="Field: Offset"/>
+	<Message key="Resulting offset:" description="Field: Resulting offset"/>
+	<Message key="&amp;Hexadecimal" description="Choice: Hexadecimal"/>
+	<Message key="&amp;Decimal" description="Choice: Decimal"/>
+	<Message key="&amp;Octal" description="Choice: Octal"/>
+	<Message key="&amp;Absolute offset" description="Choice: Absolute offset"/>
+	<Message key="&amp;Relative offset" description="Choice: Relative offset"/>
+	<Message key="&amp;Percent" description="Choice: Percent"/>
+	<Message key="IncorrectInputTitle" description="Title: Incorrect input" value="Incorrect input" />
+
+	<Enumeration key="IncorrectInputText" description="Error: Input Format">
+		<Item text="Must be hexadecimal value"/>
+		<Item text="Must be decimal value"/>
+		<Item text="Must be octal value"/>
+		<Item text="Must be real value"/>
+	</Enumeration>
+
+	<!-- Send Packets -->
+	<Message key="Send packets" description="Title: Send packets"/>
+	<Message key="Options" description="Title: Options"/>
+	<Message key="Adapter:" description="Field: Adapter"/>
+	<Message key="Ignore packet delay (burst mode)" description="Field: Ignore packets"/>
+	<Message key="Loop mode:" description="Field: Loop mode"/>
+	<Message key="loops" description="Field: loops"/>
+	<Message key="Loop delay:" description="Field: Loop delay"/>
+	<Message key="milliseconds" description="Field: milliseconds"/>
+	<Message key="Close this window after sending packets" description="Field: Close after send"/>
+	<Message key="Packets Statistics" description="Title: Packet statistics"/>
+	<Message key="Total:" description="Field: Total"/>
+	<Message key="Sent:" description="Field: Sent"/>
+
+	<Message key="SentFormat" description="Field: Sent"
+			 value="Sent: {bytes}">
+		<Param name="bytes"/>
+	</Message>
+
+	<Message key="TotalFormat" description="Field: Total"
+			 value="Total: {bytes}">
+		<Param name="bytes"/>
+	</Message>
+
+	<Message key="Process" description="Column Title: Process"/>
+	<Message key="Delay" description="Column Title: Delay"/>
+
+	<Message key="ErrorInput" value="Invalid range. Value range is ({first} - {last})." description="Field: Sent">
+		<Param name="first"/>
+		<Param name="last"/>
+	</Message>
+
+	<Message key="NoAdapters" description="Error: No adapters found" value="Can't send packets. Network adapter not selected or system has no connected network adapters."/>
+
+
+	<Message key="LogStartBurst" value="Start (Burst mode)..." description="Log Entry: Start burst mode"/>
+	<Message key="LogStart" value="Start..." description="Long Entry: Start"/>
+	<Message key="LogStop" value="Stop..." description="Log Entry: Stop"/>
+
+	<!-- Pattern Coloring -->
+	<Message key="ViewOffset" description="Title: Offset" value="Offset"/>
+	<Message key="PatternColoring" description="Title: Pattern Coloring" value="Pattern Coloring"/>
+	<Message key="Pattern" description="" value="Pattern"/>
+	<Message key="WriteFileError" description="Message: Write file error" value="Error writing to the file. Try different location."/>
+	<Message key="ReadFileError" description="" value="Error reading from the file. "/>
+	<Message key="Back color:" description="Field: Back color" value="Back color:"/>
+	<Message key="Text color:" description="Field: Text color" value="Text color:"/>
+	<Message key="Outline color:" description="Field: Outline color" value="Outline color:"/>
+	<Message key="Description" description="Title: Description" value="Description"/>
+
+	<!-- New Packet -->
+	<Message key="New Packet" description="Title: New Packet"/>
+	<Message key="Packet Template:" description="Field: Packet Template"/>
+	<Message key="Interval:" description="Field: Interval"/>
+
+	<!-- Save Template -->
+	<Message key="Save Template" description="Title: Save Template"/>
+	<Message key="Name:" description="Field: Name"/>
+
+	<Message key="NoSelection" description="Field: Incorrect input" value="No selection"/>
+	<Message key="Number" description="Field: Number" value="No."/> <!--TODO: Studio?-->
+	<Message key="Address" description="Field: Address" value="Address"/> <!--TODO: Studio?-->
+	<Message key="Length" description="Field: Length" value="Length"/> <!--TODO: Studio?-->
+	<Message key="AdapterSelect" description="Message: Adapter Select" value="Select adapter…\nSelect default adapter for sending packets" />
+	<Message key="TemplateAlreadyExists" description="Error: Template already exist" value="Template already exists. Do you want to overwite it?" />
+	<Message key="ErrorRead" description="Error: Reading file error" value="Error reading from the file. " />
+	<Message key="PacketBuilderTitle" description="Title: Packet builder" value="Packet Builder" />
+	<Message key="TemplateDeleteError" description="Error: Template deletion error" value= "This scheme can not be removed or modified."/>
+	<Message key="TitleError" description="Title: Error" value= "Error"/> <!--TODO: Studio?-->
+	<Message key="NoPackets" description="Error: No packets to send" value="No one packet selected. Nothing to send."/>
+	<Message key="Warning" description="Title: Warning" value="Warning"/>
+	<Message key="BigPacket" description="Error: Packet too big" value="Packet size larger than standard MTU (1500). Sending not guaranteed."/>
+
+	<Message key="All files" description="Title: All Files" value="All files"/>	<!--TODO: Studio?-->
+
+	<Message key="LimitSize" description="Packet Sender tooltip text"
+			 value="Packet too big. Input file size more then {limit} bytes. Use first {first} bytes.">
+		<Param name="limit"/>
+		<Param name="first"/>
+	</Message>
+
+	<Message key="NetTermTooltip" description="Packet Sender tooltip text"
+			 value="Packet:\t\t{number}\nSize:\t\t{size} bytes\nDelay:\t\t{delay} ms\n">
+		<Param name="number" format="w8arf0"/>
+		<Param name="size"/>
+		<Param name="delay"/>
+	</Message>
+
+	<Message key="SchemeOverride" description="Message: Override scheme message" value="Do you want to override this scheme?"/>
+	<Message key="SaveAs" description="Title: Save As" value="Save As"/>	<!--TODO: Studio?-->
+
+	<Message key="HexStartError" description="Error: Failed to start HexEditor"
+			 value="Failed to start HexEditor. Error Code = {code}">
+		<Param name="code" format="b016x"/>
+	</Message>
+
+	<Message key="HexLocationError" description="Error: Hex Editor installation error" value="Can't find HexEditor Neo install location."/>
+	<Message key="HexVersionError" description="Error: Hex Editor version error" value="Unknown Hex Editor version number."/>
+	<Message key="ErrorTitle" description="Title: Error" value="Error"/>	<!--TODO: Studio?-->
+
+	<Message key="EncodingNotSupported" description="Message: Encoding not supported" value="Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. "/>
+	<Message key="NotSupported" description="Error: Unsupported encoding" value="Your system lacks the components required to support the selected encoding. Select another encoding."/>
+	<Message key="ErrorLocatingPacket" description="Title: Error Locating Packet" value="Error Locating Packet"/>
+	<Message key="InvalidOffset" description="Error: Invalid offset" value="Invalid offset."/>
+	<Message key="GoToOffset" description="Title: Go to Offset" value="Go to Offset"/>
+	<Message key="InvalidRule" description="Error: Invalid rule" value="Can't enable rule, rule is invalid."/>
+	<Message key="SchemeOverwrite" description="Message: Overwrite scheme?" value="The current scheme will be lost. Do you want to continue?"/>
+	<Message key="VersionError" description="Error: Version dosn't match" value="The file has different version."/>
+	<Message key="ItemWillBeRemoved" description="Message: Item will be removed" value="Current item will be removed. Do you want to continue?"/>
+	<Message key="SampleText" description="Text: Sample Text" value="Sample Text"/>
+
+	<Enumeration key="Range" description="Range information (both strings must be the same!)">
+		<Item text="Range: {from} – {to} (Size: {size})">
+			<Param name="from" format="b016"/>
+			<Param name="to" format="b016"/>
+			<Param name="size" format="b016"/>
+		</Item>
+		<Item text="Range: {from} – {to} (Size: {size})">
+			<Param name="from" format="l"/>
+			<Param name="to" format="l"/>
+			<Param name="size" format="l"/>
+		</Item>
+	</Enumeration>
+
+	<Message key="RegExpPattern" description="Regular expression pattern" value="RE: {pattern}">
+		<Param name="pattern"/>
+	</Message>
+
+	<Message key="ErrorReadFile2" description="Error: Unable to read from file" value="Unable to read from file. " />
+
+	<Message key="PatternColoringRule" description="Text: Pattern coloring rule"
+			 value="Pattern Coloring Rule {number}">
+		<Param name="number"/>
+	</Message>
+
+	<Message key="CopyWait" description="Message: Copy wait message" value="Please wait while the data being copied to clipboard."/>
+	<Message key="CantCreateFile" description="Error: Can't create file" value="Can't create file"/>
+
+	<Message key="ConsoleView" description="Title: Console View" value="Console View"/>
+	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
+	<Message key="Lines" description="Title: Lines" value="Lines"/>
+	<Message key="SchemeNameCue" description="Text: Enter scheme name" value="Enter the scheme name here"/>
+	<Message key="Device" description="Title: Device" value="Device"/>
+	<Message key="Selection" description="Window Title: Selection" value="Selection"/>
+	<Message key="SelectedPacket" description="Window Title: Selected Packet" value="Selected Packet"/>
+	<Message key="Output" description="Window Title: Output" value="Output"/>
+	<Message key="TimeLabel" description="Label text: Time" value="Time:"/>
+	<Message key="ResetToDefaultPosition" description="Menu Text: Reset to default position" value="Reset to Default Position"/>
+	<Message key="AddRemoveCounters" description="Button Text: Add/Remove Counters" value="Add/Remove Counters"/>
+	<Message key="Sample" description="Goto window title: Sample" value="Sample"/>
+	<Message key="ErrorCreate" description="Error: Unable to create file" value="Unable to create file."/>
+	<Message key="Plot" description="Title: Plot" value="Plot"/>
+	<Enumeration key="StaticLinePlaced" description="Notification text: Static Line Placed">
+		<Item text="Static Line Placed"/>
+		<Item text="Click again while holding Ctrl key to place a tracking line"/>
+	</Enumeration>
+	<Enumeration key="SpecialHighSpeedMode" description="Notification text: Special high speed mode">
+		<Item text="Special High-Speed Mode"/>
+		<Item text="Device Monitoring Studio can increase the accuracy and performance of the Statistics visualizer if it is used alone. Start new monitoring session with only Statistics visualizer configured, or close all other data processing modules right now to enter this mode.\nNote that Logging also disables the high-speed mode."/>
+	</Enumeration>
+	<Message key="PlotStaticLine" description="Label text for static line in plot visualizer" value="Tracking Line: "/>
+	<Message key="PlotDynamicLine" description="Label text for dynamic line in plot visualizer" value="Static Line:"/>
+
+
+	<Enumeration key="PlotColumns" description="Columns in plot visualizer">
+		<Item text="Name"/>
+		<Item text="Max"/>
+		<Item text="Average"/>
+		<Item text="Last"/>
+		<Item text="Total"/>
+		<Item text="Scale"/>
+
+		<!--<Item text="Min"/>
+		<Item text="Dispersion"/>-->
+	</Enumeration>
+
+	<Enumeration key="SelectionColumns" description="Columns in selection info list">
+		<Item text="Total Size"/>
+		<Item text="Fragments"/>
+		<Item text="No selection"/>
+		<Item text="bytes"/>
+	</Enumeration>
+
+	<Enumeration key="SelectionDetailsColumns" description="Columns in selection details list">
+		<Item text="No."/>
+		<Item text="Address"/>
+		<Item text="Length"/>
+	</Enumeration>
+
+	<Enumeration key="ColorItems" description="Color items list" revision="1">
+		<Item text="Text"/>
+		<Item text="Background"/>
+		<Item text="Header &amp; Address"/>
+		<Item text="Address background"/>
+		<Item text="ASCII/UNICODE text"/>
+		<Item text="ASCII/UNICODE background"/>
+		<Item text="Even column/row (for interlaced modes)"/>
+		<Item text="Odd column/row (for interlaced modes)"/>
+		<Item text="&quot;No data&quot; text"/>
+		<Item text="Cursor fill"/>
+		<Item text="Cursor outline"/>
+		<Item text="Active row &amp; column hilight text"/>
+		<Item text="Active row &amp; column hilight background"/>
+		<Item text="Odd packet text"/>
+		<Item text="Odd packet background"/>
+		<Item text="Odd packet outline"/>
+		<Item text="Even packet text"/>
+		<Item text="Even packet background"/>
+		<Item text="Even packet outline"/>
+		<Item text="Selection"/>
+		<Item text="Editable text"/>
+	
+	</Enumeration>
+
+	<Message key="FindPatternTitle" description="Find pattern title" value="Pattern:"/>
+
+	<Message key="OperationPerformed" description="Progress bar message" value="Requested operation is being performed..."/>
+	<Message key="CopyrightNotice" description="Copyright notice" value="Generated by HHD Software Device Monitoring Studio"/>
+
+	<Message key="RegExpError" description="Regular expression syntax error message"
+		 value="Regular expression syntax error: {error}.">
+		<Param name="error"/>
+	</Message>
+	<Message key="AllFilesFilter" description="All files filter" value="All Files|*|"/>
+
+	<!-- Cell Find -->
+	<Message key="Find" description="Title: Find" value="Find"/>
+	<Message key="Type: " description="Field: Type" value="Type: "/>
+	<Message key="Fi&amp;nd what: " description="Field: Find what" value="Fi&amp;nd what: "/>
+	<Message key="Regular expression" description="Check box text: Regular expression" value="Regular expression"/>
+	<Message key="Sub-match:" description="Field: Sub-match" value="Sub-match:"/>
+	<Message key="Search Up" description="Field: Search Up" value="Search Up"/>
+	<Message key="Search Down" description="Field: Search Down" value="Search Down"/>
+	<Message key="Ignore case" description="Field: Ignore case" value="Ignore case"/>
+	<Message key="&amp;Find" description="Button: Find" value="&amp;Find"/>
+	<Message key="Find All" description="Button: Find All" value="Find All"/>
+
+	<!-- Set Columns -->
+	<Message key="Set Columns" description="Title: Set Columns" value="Set Columns"/>
+	<Message key="Enter number of columns per row:" description="Label text: Enter number of columns" value="Enter number of columns per row:"/>
+
+
+	<!-- Add/Remove Counters -->
+	<Message key="Add/Remove Counters" description="Title: Add/Remove Counters" value="Add/Remove Counters"/>
+	<Message key="Available counters:" description="Field: Available counters" value="Available counters:"/>
+	<Message key="Select All" description="Field: Select All" value="Select All"/>
+	<Message key="Counter description:" description="Field: Counter description" value="Counter description:"/>
+	<Message key="Select the counter to view its description." description="Prompt text: Select the counter" value="Select the counter to view its description."/>
+	<Message key="Reset to Default" description="Button: Reset to Default" value="Reset to Default"/>
+
+	<!-- Layout -->
+	<Message key="Layout" description="Title: Layout" value="Layout"/>
+	<Message key="Font:" description="Label text: Font" value="Font:"/>
+	<Message key="Size:" description="Label text: Size" value="Size:"/>
+	<Message key="Visualization elements:" description="Label text: Visualization elements" value="Visualization elements:"/>
+	<Message key="Draw focus cursor frame" description="Check box text: Draw focus cursor frame" value="Draw focus cursor frame"/>
+	<Message key="Color:" description="Label text: Color:" value="Color:"/>
+	<Message key="Automatic" description="Radio option: Automatic" value="Automatic"/>
+	<Message key="Do not interlace background" description="Radio option: Do not interlace background" value="Do not interlace background"/>
+	<Message key="Interlace columns" description="Radio option: Interlace columns" value="Interlace columns"/>
+	<Message key="Interlace rows" description="Radio option: Interlace rows" value="Interlace rows"/>
+	<Message key="Smart indentation" description="Check box text: Smart indentation" value="Smart indentation"/>
+	<Message key="Antialiased quality (slower)" description="Check box text: Antialiased quality" value="Antialiased quality (slower)"/>
+	<Message key="Schemes…" description="Button: Schemes" value="Schemes…"/>
+
+	<!-- Layout Schemes -->
+	<Message key="Layout Schemes" description="Title: Layout Schemes" value="Layout Schemes"/>
+	<Message key="&amp;Save As…" description="Button: Save As" value="&amp;Save As…"/>
+
+	<!-- Pattern Coloring -->
+	<Message key="Pattern Coloring" description="Title: Pattern Coloring" value="Pattern Coloring"/>
+
+	<!-- Variable Properties -->
+	<Message key="Variable Properties" description="Title: Variable Properties" value="Variable Properties"/>
+	<Message key="Variable name:" description="Field: Variable name" value="Variable name:"/>
+	<Message key="Units:" description="Field: Units" value="Units:"/>
+	<!--<Message key="Color:" description="" value=""/>-->
+	<Message key="Line width:" description="Field: Line width" value="Line width"/>
+	<Message key="Scale:" description="Field: Scale" value="Scale:"/>
+
+	<!-- Progress -->
+	<Message key="Please Wait..." description="Title: Please Wait..." value="Please Wait..."/>
+
+	<!-- Find All Results -->
+	<!--<Message key="Find All" description="Title: Find All" value="Find All"/>-->
+	<Message key="find all results" description="" value=""/>
+	<Message key="Display results pane" description="" value=""/>
+
+	<!-- Pattern Editor -->
+	<Message key="Pattern Editor" description="Title: Pattern Editor" value="Pattern Editor"/>
+	<Message key="Standard rule:" description="Field: Standard rule" value="Standard rule:"/>
+	<Message key="Round edges" description="Check box text: Round edges" value="Round edges"/>
+	<!--<Message key="Ignore case" description="" value=""/>-->
+	<Message key="Default" description="Button text: Default" value="Default"/>
+
+	<!-- Selection -->
+	<Message key="Information" description="Button: Information" value="Information"/>
+	<Message key="Details" description="Button: Details" value="Details"/>
+
+	<Enumeration key="FRTypeList" description="Find/Replace type list">
+		<Item text="String"/>
+		<Item text="UNICODE String"/>
+		<Item text="Hex"/>
+	</Enumeration>
+
+	<Enumeration key="FRGroupList" description="Find/Replace groupping list" revision="1">
+		<Item text="BYTE"/>
+		<Item text="WORD"/>
+		<Item text="DWORD"/>
+		<Item text="QWORD"/>
+	</Enumeration>
+
+	<Enumeration key="SViewColumns" description="Structure view columns list">
+		<Item text="Number"/>
+		<Item text="Name"/>
+		<Item text="Value"/>
+		<Item text="Address"/>
+		<Item text="Size"/>
+		<Item text="Type"/>
+		<Item text="Time"/>
+	</Enumeration>
+	<!--IDS_NOTVALID-->
+	<Message key="NotValid" description="Message: Not valid value" value="Not valid value."/>
+	<!--IDS_TITLE-->               
+	<Message key="SViewTitle" description="Title: Structure Viewer" value="Structure Viewer"/>
+	<!--IDS_STRING1051-->
+	<Message key="N/A" description="Value: Not Available" value="N/A"/>
+	<!--IDS_CANTUPDATE-->          
+	<Message key="CantUpdate" description="Message: Requested operation is being performed" value="Requested operation is being performed..."/>
+
+	<Message key="PColFilter" description="Pattern coloring filter string" value="Pattern Coloring Scheme Files|*.hexpcs|"/>
+
+	<!--IDD_FRMODULE-->
+	<!--<Message key="Regular expression" description="Check box text: Regular expression" value="Regular expression"/>
+	<Message key="Sub-match:" description="Label text: Sub-match" value=""/>-->
+	<Message key="Recent Patterns…" description="Button text: Recent Patterns" value="Recent Patterns…"/>
+	<Message key="Type:" description="Label text: Type" value="Type:"/>
+	<Message key="Find what:" description="Label text: Find what" value="Find what:"/>
+
+	<!--IDD_CCCOLORPICKER-->
+	<Message key="Custom colors:" description="Label text: Custom colors" value="Custom colors:"/>
+	<Message key="Default colors:" description="Label text: Default colors" value="Default colors:"/>
+	<Message key="Alpha" description="Label text: Alpha" value="Alpha"/>
+	<Message key="Custom..." description="Button text: Custom" value="Custom..."/>
+
+	<!--SPIDD_COMSETTINGSCTL-->
+	<Message key="Baud rate:" description="Label text: Baud rate" value="Baud rate:"/>
+	<Message key="Data bits:" description="Label text: Data bits" value="Data bits:"/>
+	<Message key="Parity:" description="Label text: Parity" value="Parity:"/>
+	<Message key="Stop bits:" description="Label text: Stop bits" value="Stop bits:"/>
+	<Message key="Flow control:" description="Label text: Flow control" value="Flow control:"/>
+	<Message key="Out DSR Flow:" description="Label text: output DSR" value="Out DSR Flow:"/>
+	<Message key="RTS control:" description="Label text: RTS control" value="RTS control:"/>
+	<Message key="DSR sensivity:" description="Label text: DSR sensivity" value="DSR sensivity:"/>
+	<Message key="DTR control:" description="Label text: DTR control" value="DTR control:"/>
+	<Message key="Out CTS Flow:" description="Label text: Output CTS" value="Out CTS Flow:"/>
+	<Message key="Out XON/XOFF:" description="Label text: Output xon/xoff" value="Out XON/XOFF:"/>
+	<Message key="In XON/XOFF:" description="Label text: Input xon/xoff" value="In XON/XOFF:"/>
+
+	<Message key="Click here" description="Tooltip text: Click here" value="Click here"/>
+	<Message key="Current" description="Scheme Name: Current" value="Current"/>
+
+	<Message key="PredefinedOverwrite" description="Error message: Cannot overwrite predefined scheme" value="You cannot change predefined schemes"/>
+
+	<Message key="toolbar.Output" description="Toolbar: Output" value="Output"/>
+	<Message key="toolbar.PacketBuilder" description="Toolbar: Packet Builder" value="Packet Builder"/>
+</Definition>

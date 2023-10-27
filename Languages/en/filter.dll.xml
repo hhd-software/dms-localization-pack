@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+	<Message key="Filtering" description="Settings page: Filtering"/>
+	<Message key="Coloring" description="Settings page: Data Visualizers" value="Data Visualizers"/>
+	<Message key="Component:" description="Field: Component"/>
+	<Message key="Scheme:" description="Field: Scheme"/>
+
+	<Message key="UnsavedScheme" description="Filtering scheme: Unsaved currnet scheme" value="&lt;Unsaved current scheme&gt;"/>
+	<Message key="DefaultScheme" description="Filtering scheme: Default" value="Default"/>
+	<Message key="DisplayAllScheme" description="Filtering scheme: Display All" value="Display All"/>
+	<Message key="DisplayNoneScheme" description="Filtering scheme: Display None" value="Display None"/>
+
+	<Message key="Filter" description="Column title: Filter"/>
+
+	<Message key="DeleteBuiltin" description="This scheme is built-in and cannot be deleted." value="This scheme is built-in and cannot be deleted."/>
+	<Message key="SaveBuiltin" description="You cannot save a scheme with built-in name." value="You cannot save a scheme with built-in name."/>
+	<Message key="SchemeExists" description="This scheme already exists. Do you want to override it?" value="This scheme already exists. Do you want to override it?"/>
+
+	<Message key="ResetAllConfirm" description="Reset all filters confirmation" value="Resetting filters will revert all pages to default filter settings, retaining user-defined schemes. Any currently running monitoring sessions will not be affected. Do you want to continue?"/>
+
+	<Message key="ResetAllColorsConfirm" description="Reset all colors confirmation" value="Resetting colors will revert all data processing modules to default color settings, retaining user-defined schemes. Any currently running monitoring sessions will not be affected. Do you want to continue?"/>
+
+	<Message key="FilteringPageX" description="Filtering page: Page" value="Filtering page: {page}">
+		<Param name="page"/>
+	</Message>
+
+	<Message key="Apply this scheme" description="Apply this scheme"/>
+	<Enumeration key="FilterCustomize" description="Command: Customize filter">
+		<Item text="Customize…"/>
+		<Item text="Customize filters"/>
+	</Enumeration>
+
+	<Enumeration key="ColorCustomize" description="Command: Customize colors">
+		<Item text="Customize…"/>
+		<Item text="Customize colors"/>
+	</Enumeration>
+
+	<Enumeration key="FilterResetAll" description="Command: Reset all filters">
+		<Item text="Reset All"/>
+		<Item text="Reset all filters to default values"/>
+	</Enumeration>
+
+	<Enumeration key="PredefinedColors" description="Predefined colors">
+		<Item text="Default"/>
+		<Item text="Black"/>
+		<Item text="White"/>
+		<Item text="Maroon"/>
+		<Item text="Dark green"/>
+		<Item text="Olive"/>
+		<Item text="Dark blue"/>
+		<Item text="Purple"/>
+		<Item text="Aquamarine"/>
+		<Item text="Light gray"/>
+		<Item text="Dark gray"/>
+		<Item text="Red"/>
+		<Item text="Green"/>
+		<Item text="Yellow"/>
+		<Item text="Blue"/>
+		<Item text="Magenta"/>
+		<Item text="Cyan"/>
+		<Item text="Custom"/>
+	</Enumeration>
+</Definition>
