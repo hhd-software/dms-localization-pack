@@ -1,16 +1,155 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="show_compact_form" value="Урезать список регистров/флагов/запросов, если он слишком длинный" revision="0" />
+  <Message key="add_offsets" value="Добавить базовые смещения для регистров, дискретных вводов и т.д." revision="0" />
+  <Message key="request_read" value="Парсинг запросов по направлению WRITE (ответов по READ)" revision="0" />
+  <Message key="concatenate_packets" value="Конкатенация пакетов" revision="0" />
+  <Message key="use_rtu" value="Режим RTU" revision="0" />
+  <Message key="parse_as_hex" value="Разбор в шестнадцатеричном виде" revision="0" />
+  <Message key="incremental_join" value="Расширенный соединитель пакетов" revision="0" />
+  <Message key="send_notification" value="Быстрый ввод данных (окно отправки MODBUS)" revision="0" />
+  <Message key="MODBUS" value="MODBUS" revision="0" />
+  <Message key="Array expected" value="Ожидается массив" revision="0" />
+  <Message key="New TCP Session" value="Сессия TCP" revision="0" />
+  <Message key="New Serial Session" value="Сессия Serial" revision="0" />
+  <Message key="Connecting to remote host" value="Подключение к удаленному хосту" revision="0" />
+  <Message key="Address: " value="Адрес:" revision="0" />
+  <Message key="Function: " value="Функция:" revision="0" />
+  <Message key="Unknown Function!" value="Неизвестная функция!" revision="0" />
+  <Message key="Parsed As:" value="Разобрано как:" revision="0" />
+  <Message key="Set Coil" value="Установить регистр флага" revision="0" />
+  <Message key="Register" value="Регистр" revision="0" />
+  <Message key="Coil Data" value="Данные регистра флагов" revision="0" />
+  <Message key="Status" value="Состояние" revision="0" />
+  <Message key="Event Count" value="Счетчик событий" revision="0" />
+  <Message key="Busy" value="Занят" revision="0" />
+  <Message key="Message Count" value="Счетчик сообщений" revision="0" />
+  <Message key="Event" value="Событие" revision="0" />
+  <Message key="Byte Count" value="Счетчик байтов" revision="0" />
+  <Message key="Coils" value="Регистры флагов" revision="0" />
+  <Message key="Registers" value="Регистры" revision="0" />
+  <Message key="Yes" value="Да" revision="0" />
+  <Message key="No" value="Нет" revision="0" />
+  <Message key="Reference Type" value="Тип ссылки" revision="0" />
+  <Message key="Extended Memory file number" value="Номер файла расширенной памяти" revision="0" />
+  <Message key="Starting Address" value="Начальный адрес" revision="0" />
+  <Message key="Number of Registers" value="Количество регистров" revision="0" />
+  <Message key="Register Data" value="Данные регистра" revision="0" />
+  <Message key="Reference Address" value="Справочный адрес" revision="0" />
+  <Message key="And Mask" value="Маска И" revision="0" />
+  <Message key="Or Mask" value="Маска Или" revision="0" />
+  <Message key="Read Reference Address" value="Адрес ссылки на чтение" revision="0" />
+  <Message key="Quantity to Read" value="Количество к чтению" revision="0" />
+  <Message key="Write Reference Address" value="Адрес ссылки на запись" revision="0" />
+  <Message key="Quantity to Write" value="Количество к записи" revision="0" />
+  <Message key="FIFO Pointer Address" value="Адрес указателя FIFO" revision="0" />
+  <Message key="FIFO Count" value="Счетчик FIFO" revision="0" />
+  <Message key="Quantity of Coils" value="Количество регистров флагов" revision="0" />
+  <Message key="Force Data" value="Данные" revision="0" />
+  <Message key="Register Address" value="Адрес регистра" revision="0" />
+  <Message key="Output Address" value="Адрес вывода" revision="0" />
+  <Message key="Output Value" value="Значение вывода" revision="0" />
+  <Message key="Register Value" value="Значение регистра" revision="0" />
+  <Message key="Function" value="Функция" revision="0" />
+  <Message key="Subfunction" value="Субфункция" revision="0" />
+  <Message key="No data entered!" value="Данные не введены!" revision="0" />
+  <Message key="Wrong function!" value="Неправильная функция!" revision="0" />
+  <Message key="Data" value="Данные" revision="0" />
+  <Message key="Enter the first parameter." value="Введите первый параметр." revision="0" />
+  <Message key="Enter the second parameter." value="Введите второй параметр." revision="0" />
+  <Message key="There was an error sending data!" value="Произошла ошибка при отправке данных!" revision="0" />
+  <Message key="MODBUS Send" value="Отправка MODBUS" revision="0" />
+  <Message key="OK - Press the Send button" value="OK - Нажмите кнопку Отправить" revision="0" />
+  <Message key="Wrong Function ID" value="Неверный идентификатор функции" revision="0" />
+  <Message key="StatusCode" value="Состояние: {status}{has message?} ({message}){?has message}" revision="0" />
+  <Message key="AcceptedRange" value="Принимаются только значения от {min} до {max}" revision="0" />
+  <Message key="CoilN" value="Регистр флага {n}" revision="0" />
+  <Message key="RegisterN" value="Регистр {n} = {value}" revision="0" />
+  <Message key="Can't be more than 1968 coils." value="Превышено максимальное количество флагов 1968." revision="0" />
+  <Message key="Can't be more than 65535 registers." value="Превышено максимальное количество регистров 65535." revision="0" />
+  <Message key="File number can't be more than 65535." value="Превышено максимальное количество файлов 65535." revision="0" />
+  <Message key="Record number can't be more than 9999." value="Превышено максимальное количество записей 9999." revision="0" />
+  <Message key="Register length can't be more than 65535." value="Превышена максимальная длина регистра 65535." revision="0" />
+  <Message key="Register Length" value="Длина регистра" revision="0" />
+  <Message key="Record Length" value="Длина записи" revision="0" />
+  <Message key="Record #" value="Запись #" revision="0" />
+  <Message key="File #" value="Файл #" revision="0" />
+  <Message key="Request #" value="Запрос #" revision="0" />
+  <Message key="Data Length" value="Длина данных" revision="0" />
+  <Message key="Enter the reference address." value="Введите адрес ссылки." revision="0" />
+  <Message key="Enter the read address." value="Введите адрес чтения." revision="0" />
+  <Message key="Enter read quantity." value="Введите количество считываемых данных." revision="0" />
+  <Message key="Enter the write address." value="Введите адрес записи." revision="0" />
+  <Message key="Enter register values." value="Введите значения регистров." revision="0" />
+  <Message key="Add sub-requests." value="Добавить подзапросы." revision="0" />
+  <Message key="Save to binary file" value="Сохранить в бинарный файл" revision="0" />
+  <Message key="Save to file" value="Сохранить в файл" revision="0" />
+  <Message key="Load from file" value="Загрузить из файла" revision="0" />
+  <Message key="Can't create file!" value="Ошибка создания файла" revision="0" />
+  <Message key="Can't load from file!" value="Ошибка при загрузке из файла!" revision="0" />
+  <Message key="TextFilesFilter" value="Текстовые файлы|*.txt|" revision="0" />
+  <Message key="BinaryFilesFilter" value="Бинарные файлы|*.bin|" revision="0" />
+  <Message key="CsvFilesFilter" value="Файл с разделителями-запятыми (*.csv) |*.csv|" revision="0" />
+  <Message key="File is too big! (1024 bytes maximum)" value="Файл слишком большой! (не более 1024 байт)" revision="0" />
+  <Message key="Wrong file format!" value="Неправильный формат файла! Поддерживаются только файлы .txt и .bin." revision="0" />
+  <Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" value="Размер данных превышает допустимый размер PDU MODBUS (не более 253 байт)!" revision="0" />
+  <Message key="ModbusRequestHeader" value="Пакет {n}: MODBUS-запрос (размер пакета: {packet size}, объем данных {data size}), {time}\n" revision="0" />
+  <Message key="ModbusResponseHeader" value="Пакет {n}: MODBUS-ответ (размер пакета: {packet size}, объем данных {data size}), {time}\n" revision="0" />
+  <Message key="Number of Outputs" value="Количество выходов" revision="0" />
+  <Message key="File Number" value="Номер" revision="0" />
+  <Message key="Record Number" value="Номер" revision="0" />
+  <Message key="RequestN" value="Запрос {n}" revision="0" />
+  <Message key="OK - Return Query Data" value="OK - Возврат данных запроса" revision="0" />
+  <Message key="Response Data Length" value="Длина данных ответа" revision="0" />
+  <Message key="No coils" value="Флаги не указаны." revision="0" />
+  <Message key="Create a terminal session and select it in Session list box." value="Создайте сеанс терминала и выберите его в окне списка сессий." revision="0" />
+  <Message key="Set parameters" value="Параметры не заданы" revision="0" />
+  <Message key="Enter the starting address." value="Введите начальный адрес." revision="0" />
+  <Message key="Enter the number of coils." value="Введите количество флагов." revision="0" />
+  <Message key="No registers" value="Регистры не указаны" revision="0" />
+  <Message key="This will delete all requests. Do you want to continue?" value="Это приведет к удалению всех запросов. Вы хотите продолжить?" revision="0" />
+  <Message key="Check all" value="Отметить все" revision="0" />
+  <Message key="Uncheck all" value="Снять отметку со всех" revision="0" />
+  <Message key="Invert all" value="Инвертировать все" revision="0" />
+  <Message key="File is too big! (10000 bytes maximum)" value="Файлы размером более 10000 байт не поддерживаются" revision="0" />
+  <Message key="Too many items!" value="Слишком много элементов" revision="0" />
+  <Message key="Expired" value="Срок истек. Обновите версию до {edition} Edition, чтобы использовать этот компонент." revision="0" />
+  <Message key="Show Data" value="Показать данные" revision="0" />
+  <Message key="HelpNotify1" value="Быстрый ввод:\r\n1. Выберите первый элемент в списке.\r\n2. Введите значение регистра в соответствующее поле.\r\n3. Нажмите клавишу ENTER . Значение выделенного регистра будет обновлено, а следующий регистр станет активным . Повторите шаги 2 и 3 для каждого оставшегося регистра. " revision="0" />
+  <Message key="Wrong file number" value="Неверный номер файла " revision="0" />
+  <Message key="Wrong record number" value="Неверный номер записи " revision="0" />
+  <Message key="Wrong register length" value="Недопустимая длина регистра " revision="0" />
+  <Message key="Output Data" value="Выходные данные " revision="0" />
+  <Message key="EventValue" value="Событие {n} = {value}" revision="0" />
+  <Message key="FIFOValue" value="Значение FIFO {n} = {value}" revision="0" />
+  <Message key="The Status value is not entered" value="Значение состояния не введено" revision="0" />
+  <Message key="Wrong Status value" value="Неверное значение состояния" revision="0" />
+  <Message key="No events entered" value="Не введены события" revision="0" />
+  <Message key="Response can not contain more than 65535 events" value="Ответ не может содержать более 65535 событий" revision="0" />
+  <Message key="Entered data size is too big. It can not be more than 65535 bytes" value="Введенный размер данных слишком велик. Он не может быть больше 65535 байт." revision="0" />
+  <Message key="No registers entered" value="Не введены регистры" revision="0" />
+  <Message key="No values entered" value="Не введены значения" revision="0" />
+  <Message key="Response can not contain more than 31 FIFO register values" value="Ответ не может содержать более 31 значения регистра FIFO" revision="0" />
+  <Message key="Data size is too big" value="Слишком большой размер данных" revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Этот ответ не может быть разобран, поскольку размеры полей зависят от устройства" revision="0" />
+  <Message key="Run Indicator Status can not be more than 255" value="Состояние индикатора не может быть больше 255" revision="0" />
+  <Message key="Select function" value="Выберите функцию" revision="0" />
+  <Message key="Cant parse packet" value="Пакет {n}: Ошибка разбора пакета" revision="0" />
+  <Message key="Exception Status" value="Состояние исключения" revision="0" />
+  <Message key="Exception Code" value="Код исключения" revision="0" />
+  <Message key="Error Notification" value="Уведомление об ошибке" revision="0" />
+  <Message key="Mode" value="Режим" revision="0" />
   <Enumeration key="MODBUSConverter">
-    <Item />
-    <Item />
+    <Item value="Вид MODBUS (устаревший)" revision="0" />
+    <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует пакеты, отформатированные в соответствии со спецификацией протокола MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
-    <Item />
-    <Item />
+    <Item value="Ошибка создания TCP-сессии" revision="0" />
+    <Item value="При попытке подключения к удаленному хосту возникла следующая ошибка: {text} ({code})" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
-    <Item />
-    <Item />
+    <Item value="Вид MODBUS " revision="0" />
+    <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует и отображает пакеты протокола MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
@@ -39,19 +178,40 @@
     <Item />
   </Enumeration>
   <Enumeration key="CrcOk">
-    <Item />
-    <Item />
+    <Item value="ОШИБКА" revision="0" />
+    <Item value="УСПЕШНО" revision="0" />
   </Enumeration>
   <Enumeration key="DestinationAddr">
-    <Item />
-    <Item />
+    <Item value="Ведомый" revision="0" />
+    <Item value="Широковещательный" revision="0" />
   </Enumeration>
   <Enumeration key="ForceSingleCoil">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Включить" revision="0" />
+    <Item value="Выключить" revision="0" />
+    <Item value="Недопустимое значение (допускается только 0 (OFF) и 65280 (ON))" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
+    <Item value="ЗАПРОСЫ" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item value="ПОЛЬЗОВАТЕЛЬСКАЯ ФУНКЦИЯ" revision="0" />
+    <Item value="ОТВЕТЫ" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -70,28 +230,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="ОШИБКА" revision="0" />
   </Enumeration>
   <Enumeration key="ResponseCodes">
     <Item />
@@ -114,46 +253,46 @@
     <Item />
   </Enumeration>
   <Enumeration key="Diagnostics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Возврат данных запроса" revision="0" />
+    <Item value="Опция перезапуска связи" revision="0" />
+    <Item value="Возврат регистра диагностики" revision="0" />
+    <Item value="Изменение разделителя ввода ASCII" revision="0" />
+    <Item value="Включить режим &quot;Только прослушивание&quot;" revision="0" />
+    <Item value="Очистка счетчиков и диагностических регистров" revision="0" />
+    <Item value="Возвращение счетчика сообщений " revision="0" />
+    <Item value="Возвращение счетчика ошибок связи" revision="0" />
+    <Item value="Возвращение счетчика исключений" revision="0" />
+    <Item value="Возврат счетчика сообщений ведомого устройства" revision="0" />
+    <Item value="Возврат счетчика молчаний ведомого устройства" revision="0" />
+    <Item value="Возвра счетчика NAK ведомого устройства" revision="0" />
+    <Item value="Возврат счетчика занятости ведомого устройства" revision="0" />
+    <Item value="Возврат счетчика превышения символов" revision="0" />
+    <Item value="Очистка счетчика и флага превышения" revision="0" />
+    <Item value="РЕЗЕРВ" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="OK - Возврат данных запроса" revision="0" />
+    <Item value="OK - Опция перезапуска связи" revision="0" />
+    <Item value="OK - Возврат регистра диагностики" revision="0" />
+    <Item value="OK - Изменение разделителя ввода ASCII" revision="0" />
+    <Item value="OK - Включить режим &quot;Только прослушивание&quot;" revision="0" />
+    <Item value="OK - Очистка счетчиков и диагностических регистров" revision="0" />
+    <Item value="OK - Возвращение счетчика сообщений " revision="0" />
+    <Item value="OK - Возвращение счетчика ошибок связи" revision="0" />
+    <Item value="OK - Возвращение счетчика исключений" revision="0" />
+    <Item value="OK - Возврат счетчика сообщений ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счетчика молчаний ведомого устройства" revision="0" />
+    <Item value="OK - Возвра счетчика NAK ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счетчика занятости ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счетчика превышения символов" revision="0" />
+    <Item value="OK - Код неизвестной функции" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
-    <Item />
-    <Item />
+    <Item value="Режим ASCII" revision="0" />
+    <Item value="Режим RTU" revision="0" />
   </Enumeration>
   <Enumeration key="ModError">
-    <Item />
+    <Item value="Отображение уведомления об ошибке" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewColors">
     <Item />

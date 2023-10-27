@@ -1,81 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Protocols Editor" value="Редактор Протоколов" revision="0" />
+  <Message key="Line" value="Строка" revision="0" />
+  <Message key="Protocols List" value="Список Протоколов" revision="0" />
+  <Message key="Usb" value="Usb" revision="0" />
+  <Message key="Serial" value="Последовательные" revision="0" />
+  <Message key="Network" value="Сетевые" revision="0" />
+  <Message key="Unknown" value="Не назначенные" revision="0" />
+  <Message key="Files" value="Файлы" revision="0" />
+  <Message key="Protocols" value="Протоколы" revision="0" />
+  <Message key="Visualizers" value="Визуализаторы" revision="0" />
+  <Message key="FileNotSaved" value="Текущий документ был изменен. Хотите ли вы сохранить его?" revision="0" />
+  <Message key="CompileErrors" value="Ошибки компиляции{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Compile Errors" value="Ошибки компиляции" revision="0" />
+  <Message key="Warning" value="Предупреждение" revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="RunningSessions" value="У вас есть запущенные сеансы мониторинга. Ваши сеансы будут остановлены." revision="0" />
+  <Message key="ResetSourceChanges" value="Все изменения, внесенные в предопределенные файлы протоколов, будут потеряны! Вы хотите продолжить?" revision="0" />
+  <Message key="Compile" value="Компилировать" revision="0" />
+  <Message key="DeleteProtocolFile" value="Ошибка удаления выбранного файла: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="Следующие файлы были изменены извне Продукта :\r\n{file}\r\nХотите ли вы перезагрузить его?" revision="0" />
+  <Message key="FilterErrorTitle" value="Ошибка компиляции фильтра" revision="0" />
+  <Message key="FilterError" value="Файл структуры не скомпилирован или скомпилирован с ошибками" revision="0" />
+  <Message key="UnsavedCurrentScheme" value="&lt;Несохраненная текущая схема&gt;" revision="0" />
+  <Message key="clr.scintilla_colors" value="Цвета редактора протоколов" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.fill" value="Фон простого текста" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Цвет текста" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Фон ключевых слов" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Цвет ключевых слов" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Фон комментариев" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Цвет комментариев" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.fill" value="Фон цифр" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Цвет цифр" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Фон строк" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Цвет строк" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Фон идентификаторов" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Цвет идентификаторов" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.fill" value="Фон препроцессора" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Цвет препроцессора" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Фон операторов" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Цвет операторов" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Фон функций" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Цвет функций" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Фон прагм" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Цвет прагм" revision="0" />
+  <Message key="toolbar.Protocols" value="Список протоколов" revision="0" />
   <Enumeration key="ProtocolNew">
-    <Item />
-    <Item />
+    <Item value="Новый файл &amp;протокола…" revision="0" />
+    <Item value="Создание нового файла определения протокола" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Открыть файл протокола" revision="0" />
+    <Item value="Открыть имеющийся файл определения протокола" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Сохранить &amp;все файлы протокола" revision="0" />
+    <Item value="Сохранить все открытые файлы определений протоколов на диск" revision="0" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item />
-    <Item />
+    <Item value="Заменить…" revision="0" />
+    <Item value="Заменить текст" revision="0" />
   </Enumeration>
   <Enumeration key="Recompile">
-    <Item />
-    <Item />
+    <Item value="&amp;Перекомпилировать" revision="0" />
+    <Item value="Компилировать структуры" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Откатить" revision="0" />
+    <Item value="Откатить последнее действие" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Вернуть" revision="0" />
+    <Item value="Повторное выполнение последнего действия" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEditor">
-    <Item />
-    <Item />
+    <Item value="Редактор &amp;протоколов" revision="0" />
+    <Item value="Пункты меню редактора протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.h" revision="0" />
+    <Item value="Файл определения протокола" revision="0" />
+    <Item value=".h" revision="0" />
   </Enumeration>
   <Enumeration key="StructureFormats">
-    <Item />
+    <Item value="Файлы определения протоколов (*.h)|*.h|" revision="0" />
   </Enumeration>
   <Enumeration key="ErrorColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Файл" revision="0" />
+    <Item value="Строка" revision="0" />
+    <Item value="Описание" revision="0" />
   </Enumeration>
   <Enumeration key="StructureEditor">
-    <Item />
-    <Item />
+    <Item value="Редактор протоколов" revision="0" />
+    <Item value="неиспользуемый" revision="0" />
   </Enumeration>
   <Enumeration key="Custom">
-    <Item />
-    <Item />
+    <Item value="Пользовательские протоколы" revision="0" />
+    <Item value="Функция &quot;Пользовательские протоколы&quot; позволяет использовать встроенный или внешний редактор для модификации встроенных протоколов или добавления пользовательских протоколов в визуализатор &quot;Структурный вид&quot;, Фильтр сессии и других функциях. " revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Вернуть всё" revision="0" />
+    <Item value="Возврат всех изменений, внесенных в файлы определений протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
-    <Item />
-    <Item />
+    <Item value="Автоматическая перекомпиляция" revision="0" />
+    <Item value="Автоматическая перекомпиляция исходных файлов при их изменении" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolDeleteFile">
-    <Item />
-    <Item />
+    <Item value="Удалить файл" revision="0" />
+    <Item value="Удаление выбранного исходного файла из каталога протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpenFolder">
-    <Item />
-    <Item />
+    <Item value="Открыть папку с протоколами" revision="0" />
+    <Item value="Открыть папку с файлами протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Показать все" revision="0" />
+    <Item value="Ничего не отображать" revision="0" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
-    <Item />
-    <Item />
+    <Item value="Опция" revision="0" />
+    <Item value="Значение" revision="0" />
   </Enumeration>
 </Language>
