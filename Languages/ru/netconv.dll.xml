@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="CellConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HttpViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetError">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetStatus">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

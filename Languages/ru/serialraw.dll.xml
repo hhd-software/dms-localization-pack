@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="CellConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DataConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LineConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewRequestViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewConsoleConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TableConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DataRepeater">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LineViewNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketViewColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SerialGeneralCat">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SerialReqViewIOCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestViewColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConcatPackets">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="StatisticsConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Packets Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Read">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Written">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="IO Packets">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="HelpCheckForUpdates">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilteringX">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilteringSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearAllViews">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsPause">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowMinimizeToTray">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardPrint">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Endpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FiltersSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbDirection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="YesNo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
