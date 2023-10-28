@@ -1,31 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LogWriteError" value="Запись данных была остановлена из-за следующей ошибки: {error text} ({error code})" revision="0" />
+  <Message key="LogEmptyError" value="Выполнить команду &quot;Сохранить в лог&quot; сейчас невозможно, так как для текущего сеанса мониторинга нет исторических данных. Добавьте модуль записи данных в сессию мониторинга в следующий раз или добавьте один или несколько визуализаторов, чтобы автоматически иметь доступ к историческим данным." revision="0" />
+  <Message key="LogProgress" value="Пожалуйста, подождите, пока текущая сессия будет сохранена в файл." revision="0" />
+  <Message key="Pause" value="Приостановить" revision="0" />
+  <Message key="Resume" value="Возобновить" revision="0" />
+  <Message key="MaxLogs" value="Невозможно использовать более 999 логов в одной папке!" revision="0" />
+  <Message key="Default" value="Место по умолчанию" revision="0" />
+  <Message key="Unlimited" value="Неограниченно" revision="0" />
+  <Message key="MinSizeLimit" value="Макс. размер файла" revision="0" />
+  <Message key="MaxSizeOutOfRange" value="Максимальный размер файла выходит за пределы допустимого. Допустимый диапазон составляет от {min} до {max}." revision="0" />
+  <Message key="MaxFilesOutOfRange" value="Максимальное количество файлов выходит за пределы допустимого. Должно быть целое число, больше 1." revision="0" />
+  <Message key="PathIsEmpty" value="Путь к лог файлу пуст." revision="0" />
+  <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Макс. размер: {size}{|is size limit}Макс. длительность: {time}{?is size limit}{has file limit?}; {is single file?}Единый файл{|is single file}До {files} файлов{?is single file}{?has file limit}{?has limits}" revision="0" />
+  <Message key="Log8Filter" value="Логи DMS (*.dmslog8)|*.dmslog8|Все файлы|*|" revision="0" />
+  <Message key="CreateLogFailed" value="При записи данных не удалось создать лог файл. {0}." revision="0" />
+  <Message key="Save to Log" value="Сохранить в лог" revision="0" />
+  <Message key="Settings group.Logging" value="Логгинг" revision="0" />
+  <Message key="Recording Page" value="Запись/воспроизведение" revision="0" />
+  <Message key="IncorrectFolder" value="Указана неверная папка. Ее нельзя использовать в качестве папки для логов." revision="0" />
+  <Message key="Recording" value="Запись" revision="0" />
+  <Message key="Select the location the program will use to store recorded data." value="Выберите место, которое программа будет использовать для хранения записанных данных." revision="0" />
+  <Message key="Compress recorded data" value="&amp;Сжать записанные данные" revision="0" />
+  <Message key="Reset to Default" value="Сброс &amp;по умолчанию" revision="0" />
+  <Message key="Playback" value="Воспроизведение" revision="0" />
+  <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
+  <Message key="Recurse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
   <Enumeration key="LogConverter">
-    <Item />
-    <Item />
+    <Item value="Запись данных (Legacy)" revision="0" />
+    <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />
   </Enumeration>
   <Enumeration key="LogConverter4">
-    <Item />
-    <Item />
+    <Item value="Запись данных" revision="0" />
+    <Item value="Запись данных позволяет сохранять данные сессии в дисковый файл для последующего воспроизведения. Новый формат поддерживает запись в несколько файлов и ограничение максимального размера файла." revision="0" />
   </Enumeration>
   <Enumeration key="SaveNow">
-    <Item />
-    <Item />
+    <Item value="Сохранить в лог" revision="0" />
+    <Item value="Сохранить сессию в лог файл" revision="0" />
   </Enumeration>
   <Enumeration key="StartRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Начать/возобновить запись" revision="0" />
+    <Item value="Начало или возобновление записи сессии" revision="0" />
   </Enumeration>
   <Enumeration key="PauseRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Приостановить запись" revision="0" />
+    <Item value="Приостановить запись текущего сеанса" revision="0" />
   </Enumeration>
   <Enumeration key="StopRecording">
-    <Item />
-    <Item />
+    <Item value="О&amp;становить запись" revision="0" />
+    <Item value="Остановить запись текущей сессии" revision="0" />
   </Enumeration>
   <Enumeration key="BrowsePlayback">
-    <Item />
-    <Item />
+    <Item value="Настройка пути к логам…" revision="0" />
+    <Item value="Укажите местоположение логов для воспроизведения" revision="0" />
   </Enumeration>
 </Language>
