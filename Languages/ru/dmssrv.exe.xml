@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ServiceFriendlyName" value="Device Monitoring Studio Сервер" revision="0" />
+  <Message key="ServiceDescription" value="Device Monitoring Studio Сервер предоставляет удаленным клиентам возможности мониторинга последовательных, USB и сетевых устройств. Администраторы локальных компьютеров и доменов могут использовать API, предоставляемый сервисом, для управления подключениями и безопасностью сервера." revision="0" />
+  <Message key="LicenseSuccess" value="Лицензия успешно установлена." revision="0" />
+  <Message key="LicenseFailure" value="При установке лицензии произошла ошибка. Обратитесь в HHD Software." revision="0" />
+  <Message key="CurrentLicense" value="{unknown?}Неизвестная лицензия{|unknown}{license type}{?unknown}{trial?}, Осталось {days} дней{?trial}{expired?}, срок истёк{?expired}" revision="0" />
+  <Message key="EmergencySessionTermination" value="{error text} ({error code})" revision="0" />
+  <Message key="Access Denied" value="Доступ запрещен" revision="0" />
+  <Message key="NoSlots" value="Больше нет доступных слотов для подключения" revision="0" />
+  <Message key="SetNameError" value="Сетевая ошибка: {error text} ({error code})" revision="0" />
   <Enumeration key="LicenseType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Неизвестно" revision="0" />
+    <Item value="Бесплатная" revision="0" />
+    <Item value="Пробная" revision="0" />
+    <Item value="Истекшая" revision="0" />
+    <Item value="Зарегистрированная" revision="0" />
   </Enumeration>
 </Language>

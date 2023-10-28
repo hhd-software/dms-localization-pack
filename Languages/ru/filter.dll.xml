@@ -1,35 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Filtering" value="Фильтрация" revision="0" />
+  <Message key="Coloring" value="Визуализаторы данных" revision="0" />
+  <Message key="Component:" value="Компонент:" revision="0" />
+  <Message key="Scheme:" value="Схема:" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Несохраненная текущая схема&gt;" revision="0" />
+  <Message key="DefaultScheme" value="По умолчанию" revision="0" />
+  <Message key="DisplayAllScheme" value="Показать все" revision="0" />
+  <Message key="DisplayNoneScheme" value="Не показывать ничего" revision="0" />
+  <Message key="Filter" value="Фильтр" revision="0" />
+  <Message key="DeleteBuiltin" value="Это встроенная схема, которая не может быть удалена." revision="0" />
+  <Message key="SaveBuiltin" value="Сохранить схему под именем встроенной нельзя." revision="0" />
+  <Message key="SchemeExists" value="Такая схема уже существует. Хотите ли вы заменить ее?" revision="0" />
+  <Message key="ResetAllConfirm" value="Сброс фильтров приведет к настройкам фильтров по умолчанию с сохранением заданных пользователем схем. Работающие в данный момент сессии мониторинга не будут затронуты. Вы хотите продолжить?" revision="0" />
+  <Message key="ResetAllColorsConfirm" value="Сброс цветов возвращает все модули обработки данных к цветовым настройкам по умолчанию, сохраняя заданные пользователем схемы. Работающие в данный момент сессии мониторинга не будут затронуты. Вы хотите продолжить?" revision="0" />
+  <Message key="FilteringPageX" value="Страница фильтрации: {page}" revision="0" />
+  <Message key="Apply this scheme" value="Применить данную схему" revision="0" />
   <Enumeration key="FilterCustomize">
-    <Item />
-    <Item />
+    <Item value="Персонализация…" revision="0" />
+    <Item value="Настроить фильтры" revision="0" />
   </Enumeration>
   <Enumeration key="ColorCustomize">
-    <Item />
-    <Item />
+    <Item value="Персонализация…" revision="0" />
+    <Item value="Настроить цвета" revision="0" />
   </Enumeration>
   <Enumeration key="FilterResetAll">
-    <Item />
-    <Item />
+    <Item value="Сбросить все" revision="0" />
+    <Item value="Сброс всех фильтров к значениям по умолчанию" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Черный" revision="0" />
+    <Item value="Белый" revision="0" />
+    <Item value="Бордовый" revision="0" />
+    <Item value="Темно-зеленый" revision="0" />
+    <Item value="Оливковый" revision="0" />
+    <Item value="Темно-синий" revision="0" />
+    <Item value="Фиолетовый" revision="0" />
+    <Item value="Аквамариновый" revision="0" />
+    <Item value="Светло-серый" revision="0" />
+    <Item value="Темно-серый" revision="0" />
+    <Item value="Красный" revision="0" />
+    <Item value="Зеленый" revision="0" />
+    <Item value="Желтый" revision="0" />
+    <Item value="Голубой" revision="0" />
+    <Item value="Пурпурный" revision="0" />
+    <Item value="Циан" revision="0" />
+    <Item value="Пользовательский" revision="0" />
   </Enumeration>
 </Language>

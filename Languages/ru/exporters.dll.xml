@@ -1,11 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Pause" value="Приостановить" revision="0" />
+  <Message key="Resume" value="Возобновить" revision="0" />
+  <Message key="DefaultPath" value="По умолчанию" revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="ApplyError" value="Путь не указан" revision="0" />
+  <Message key="OutFilter" value="Все файлы|*|" revision="0" />
+  <Message key="EmptyPath" value="Пустой" revision="0" />
+  <Message key="WritingError" value="При экспорте возникла ошибка: {error}" revision="0" />
+  <Message key="WritingErrorTitle" value="Ошибка экспорта" revision="0" />
+  <Message key="Text Exporter paused" value="Работа текстового экспортера была приостановлена из-за ошибки записи на диск. Проверьте, достаточно ли свободного места на диске или нет ли других ошибок, связанных с диском, и либо возобновите работу, либо удалите текстовый экспортер из сессии." revision="0" />
+  <Message key="RawWriterCreateError" value="При инициализации экспорта произошла ошибка: {error} ({error code})" revision="0" />
   <Enumeration key="RawExporter">
-    <Item />
-    <Item />
+    <Item value="Экспорт сырых данных" revision="0" />
+    <Item value="Экспортер сырых данных записывает все контролируемые данные в выходной файл в двоичном формате. Он поддерживает фильтрацию и позволяет настраивать корневой протокол." revision="0" />
   </Enumeration>
   <Enumeration key="TextExporter">
-    <Item />
-    <Item />
+    <Item value="Текстовый экспортер" revision="0" />
+    <Item value="Текстовый экспортер применяет выбранный протокол к отслеживаемым данным, представляет их в виде потока текстовых полей и записывает выходные данные в виде текста в формате UNICODE. Поддерживает фильтрацию и позволяет настраивать корневой протокол." revision="0" />
   </Enumeration>
 </Language>
