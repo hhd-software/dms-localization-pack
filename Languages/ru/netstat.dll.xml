@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Статистика" revision="0" />
+    <Item value="Статистика собирает и отображает статистику и показатели пропускной способности устройства. Рассчитываются и отображаются на графике несколько значений статистики." revision="0" />
   </Enumeration>
 </Language>

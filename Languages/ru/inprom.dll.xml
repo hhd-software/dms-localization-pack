@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="SerialNewVirtualPort">
-    <Item />
-    <Item />
+    <Item value="Создать виртуальный COM порт…" revision="0" />
+    <Item value="Создание виртуального последовательного порта с помощью HHD Software Free Virtual Serial Ports." revision="0" />
   </Enumeration>
   <Enumeration key="SerialSharePorts">
-    <Item />
-    <Item />
+    <Item value="Расшарить этот порт…" revision="0" />
+    <Item value="Сделайте этот порт доступным на удаленном компьютере с помощью HHD Software Remote Serial Ports Server." revision="0" />
   </Enumeration>
   <Enumeration key="SerialConnectRemotePort">
-    <Item />
-    <Item />
+    <Item value="Подключиться к удаленному COM порту…" revision="0" />
+    <Item value="Сделайте доступным удаленный последовательный порт на этом компьютере с помощью HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
 </Language>

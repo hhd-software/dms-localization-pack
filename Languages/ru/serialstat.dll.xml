@@ -1,32 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Ordinal" value="Порядок" revision="0" />
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Статистика" revision="0" />
+    <Item value="Статистика собирает и отображает статистику и показатели пропускной способности устройства. Рассчитываются и отображаются на графике несколько значений статистики." revision="0" />
   </Enumeration>
   <Enumeration key="Packets Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Пакеты Всего/сек" revision="0" />
+    <Item value="пакеты/сек" revision="0" />
+    <Item value="Пакеты Всего/сек - скорость передачи пакетов в устройство или из него во время операций записи или чтения." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Байты всего/сек" revision="0" />
+    <Item value="байт/сек" revision="0" />
+    <Item value="Байты Всего/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Read">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Чтение байт/сек" revision="0" />
+    <Item value="байт/сек" revision="0" />
+    <Item value="Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Written">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Запись байт/сек" revision="0" />
+    <Item value="байт/сек" revision="0" />
+    <Item value="Запись байт/сек - скорость передачи байтов в устройство при операциях записи." revision="0" />
   </Enumeration>
   <Enumeration key="IO Packets">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Пакеты ввода-вывода/сек" revision="0" />
+    <Item value="пакеты/сек" revision="0" />
+    <Item value="Пакеты ввода-вывода/сек  - скорость передачи IO-пакетов в устройство или из него во время операций записи или чтения." revision="0" />
   </Enumeration>
 </Language>
