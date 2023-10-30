@@ -1,66 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SteppedSpeedNotify" value="Продолжить воспроизведение (Воспроизведение)" revision="0" />
+  <Message key="CreateReaderError" value="Невозможно создать читателя лога {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Инициализация воспроизведения не удалась {filename}" revision="0" />
+  <Message key="FileOpenError" value="Ошибка открытия {filename}. Файл отсутствует или поврежден." revision="1" />
+  <Message key="StreamOpenError" value="Не удалось открыть поток {stream} из {filename}" revision="0" />
+  <Message key="PropertiesReadError" value="Ошибка чтения свойств из {filename}." revision="0" />
+  <Message key="FileNotSpecified" value="Необходимо указать файл импорта. Создайте новую сессию мониторинга и укажите файл импорта." revision="0" />
+  <Message key="OpenFileError" value="Ошибка при открытии файла: {error text} ({error code})." revision="0" />
+  <Message key="ReaderCreationError" value="Формат файла неизвестен." revision="0" />
+  <Message key="Config Error" value="Ожидается полный путь" revision="0" />
+  <Message key="ErrorRangeAll" value="Ошибка разбора поля 'range'. Должен быть объект range или строка 'all'" revision="0" />
+  <Message key="ErrorRangeFrom" value=" field parsing error 'from'" revision="0" />
+  <Message key="ErrorRangeTo" value="ошибка разбора поля 'to'" revision="0" />
+  <Message key="SpeedError" value="Значение скорости вне диапазона" revision="0" />
+  <Message key="Repairing damaged log files" value="Восстановление поврежденных лог файлов" revision="0" />
+  <Message key="EmergencyErrorType" value="Аварийное завершение сессии воспроизведения" revision="0" />
+  <Message key="NewLogFormatDescription" value="Лог-файлы" revision="0" />
+  <Message key="Computing" value="Вычисляю…" revision="0" />
+  <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Нет данных{?valid}" revision="0" />
+  <Message key="RangeSelTooltip" value="Начало: {from}\nКонец: {to}\nДлительность: {has days?}{days} дней, {?has days}{has hours?}{hours} часов, {?has hours}{has minutes?}{minutes} минут, {?has minutes}{seconds} секунд." revision="0" />
+  <Message key="InvalidRange" value="Диапазон воспроизведения должен иметь длительность не менее секунды." revision="0" />
+  <Message key="Searching for log files" value="Поиск лог файлов" revision="0" />
+  <Message key="EmptyPath" value="Пусто" revision="0" />
+  <Message key="Stepped" value="Пошаговый" revision="0" />
+  <Message key="Continuous" value="Непрерывный" revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="Unable to delete selected playback files" value="Невозможно удалить выбранные лог файлы. В настоящее время один из них воспроизводится." revision="0" />
+  <Message key="Continue Playback" value="Продолжить воспроизведение\nНажмите кнопку, чтобы продолжить воспроизведение." revision="0" />
+  <Message key="DifferentArchError" value="Этот лог был создан на машине с другой архитектурой процессора и не может быть воспроизведен." revision="0" />
+  <Message key="Playback" value="Воспроизведение" revision="0" />
   <Enumeration key="PlaybackSource">
-    <Item />
-    <Item />
+    <Item value="Воспроизведение" revision="0" />
+    <Item value="Воспроизведение данных позволяет проигрывать записанные сессии мониторинга, что дает возможность отложенного анализа устройства." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
-    <Item />
-    <Item />
+    <Item value="Импорт" revision="0" />
+    <Item value="Источник &quot;Импорт данных&quot; считывает данные в сторонних форматах, экспортированные из других продуктов, и воспроизводит их. " revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.pcap" revision="0" />
+    <Item value="Файлы захвата Wireshark" revision="0" />
+    <Item value=".pcap" revision="0" />
   </Enumeration>
   <Enumeration key="NetmonDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.cap" revision="0" />
+    <Item value="Файлы захвата Microsoft Netmon" revision="0" />
+    <Item value=".cap" revision="0" />
   </Enumeration>
   <Enumeration key="MonitoredNotify">
-    <Item />
-    <Item />
+    <Item value="На виртуальном адаптере все еще работает как минимум одна сессия. Хотите ли вы остановить сессию виртуального адаптера и продолжить работу?" revision="0" />
+    <Item value="Виртуальный адаптер" revision="0" />
   </Enumeration>
   <Enumeration key="ImportFormats">
-    <Item />
-    <Item />
+    <Item value="Все поддерживаемые файлы|*.pcap;*.cap|Wireshark files|*.pcap|Netmon files|*.cap|" revision="0" />
+    <Item value="JavaScript-файлы|*.js|" revision="0" />
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Пошаговый" revision="0" />
+    <Item value="1:16" revision="0" />
+    <Item value="1:8" revision="0" />
+    <Item value="1:4" revision="0" />
+    <Item value="1:2" revision="0" />
+    <Item value="1:1" revision="0" />
+    <Item value="2:1" revision="0" />
+    <Item value="4:1" revision="0" />
+    <Item value="8:1" revision="0" />
+    <Item value="16:1" revision="0" />
+    <Item value="Непрерывный" revision="0" />
   </Enumeration>
   <Enumeration key="DeletePlayback">
-    <Item />
-    <Item />
+    <Item value="Удалить" revision="0" />
+    <Item value="Удалить выбранный файл" revision="0" />
   </Enumeration>
   <Enumeration key="SortByDate">
-    <Item />
-    <Item />
+    <Item value="Сортировать по дате" revision="0" />
+    <Item value="Сортировать по дате" revision="0" />
   </Enumeration>
   <Enumeration key="SortByName">
-    <Item />
-    <Item />
+    <Item value="Сортировать по имени" revision="0" />
+    <Item value="Сортировать по имени" revision="0" />
   </Enumeration>
   <Enumeration key="ShowDateTime">
-    <Item />
-    <Item />
+    <Item value="Отображать дату и время" revision="0" />
+    <Item value="Отображать дату и время" revision="0" />
   </Enumeration>
   <Enumeration key="ShowSize">
-    <Item />
-    <Item />
+    <Item value="Отображать размер" revision="0" />
+    <Item value="Отображать размер" revision="0" />
   </Enumeration>
   <Enumeration key="OpenFileLocation">
-    <Item />
-    <Item />
+    <Item value="Открыть местоположение файла" revision="0" />
+    <Item value="Открыть местоположение файла" revision="0" />
   </Enumeration>
 </Language>

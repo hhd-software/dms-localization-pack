@@ -1,52 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Device sends" value="{device} Отправляет" revision="0" />
+  <Message key="Unable to retrieve data" value="Невозможно получить данные" revision="0" />
+  <Message key="Complete" value="Полная" revision="0" />
+  <Message key="Packet No:" value="Пакет №:" revision="0" />
+  <Message key="bytes/sec" value="байт/сек" revision="0" />
   <Enumeration key="CellConverter">
-    <Item />
-    <Item />
+    <Item value="Сырые данные" revision="0" />
+    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
   </Enumeration>
   <Enumeration key="DataConverter">
-    <Item />
-    <Item />
+    <Item value="Данные" revision="0" />
+    <Item value="Визуализатор данных отображает данные в двух отдельных окнах. В первом окне отображаются данные, полученные от устройства, а во втором - данные, отправленные на устройство." revision="0" />
   </Enumeration>
   <Enumeration key="PacketConverter">
-    <Item />
-    <Item />
+    <Item value="Пакетный вид" revision="0" />
+    <Item value="Пакетный визуализатор данных отображает каждый контролируемый пакет в отдельной строке и обеспечивает индивидуальное декодирование пакетов в соответствии с различными форматами и протоколами." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
-    <Item />
-    <Item />
+    <Item value="Запросы" revision="0" />
+    <Item value="Визуализатор запросов декодирует все пакеты данных и управляющие запросы, отправляемые и получаемые от последовательного устройства." revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Статистика" revision="0" />
+    <Item value="Статистика собирает и отображает статистику и показатели пропускной способности устройства. Рассчитываются и отображаются на графике несколько значений статистики." revision="0" />
   </Enumeration>
   <Enumeration key="BridgeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Порядковый" revision="0" />
+    <Item value="Время" revision="0" />
+    <Item value="Отправляющее устройство" revision="0" />
+    <Item value="Данные" revision="0" />
+    <Item value="Заголовки данных" revision="0" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Устройство A Чтение байт/сек" revision="0" />
+    <Item value="Скорость передачи данных устройством A." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Устройство B Чтение байт/сек" revision="0" />
+    <Item value="Скорость передачи данных устройством B." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Чтение: Заголовок" revision="0" />
+    <Item value="Чтение: Текст" revision="0" />
+    <Item value="Чтение: двоичные данные" revision="0" />
+    <Item value="Запись: Заголовок" revision="0" />
+    <Item value="Запись: Текст" revision="0" />
+    <Item value="Запись: Двоичные данные" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Устройство A Заголовок" revision="0" />
+    <Item value="Устройство A Двоичные данные" revision="0" />
+    <Item value="Устройство B Заголовок" revision="0" />
+    <Item value="Устройство B Двоичные данные" revision="0" />
   </Enumeration>
 </Language>

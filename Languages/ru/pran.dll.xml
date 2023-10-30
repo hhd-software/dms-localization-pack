@@ -1,34 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PortOpenError" value="Невозможно открыть устройство &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommStateError" value="Невозможно настроить устройство &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommTimeouts" value="Невозможно настроить тайм-ауты устройства &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="Bridge Config" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Бод, {mode}" revision="0" />
+  <Message key="Device not found" value="Устройство {name} не найдено" revision="0" />
+  <Message key="Invalid flow control" value="Некорректный объект управления потоком" revision="0" />
+  <Message key="Same device" value="Для обеих сторон было выбрано одно и то же устройство" revision="0" />
+  <Message key="Bridge deleted" value="Мост был удален из пользовательского интерфейса" revision="0" />
+  <Message key="Wrong device" value="Объект моста ссылается на неправильное устройство" revision="0" />
+  <Message key="Bridge Page" value="Последовательный мост" revision="0" />
+  <Message key="Timeout settings:" value="Настройки тайм-аута:" revision="0" />
+  <Message key="(See documentation on-line)" value="(См. документацию в Интернете)" revision="0" />
+  <Message key="Read interval timeout:" value="Таймаут интервал чтения:" revision="0" />
+  <Message key="Read multiplier timeout:" value="Таймаут множителя чтения:" revision="0" />
+  <Message key="Read constant timeout:" value="Таймаут константы считывания:" revision="0" />
+  <Message key="Buffer size:" value="Размер буфера:" revision="0" />
+  <Message key="IDS_NOSERIALDEVICES" value="Не найдено достаточного количества последовательных устройств. Для создания моста необходимо минимум два последовательных устройства." revision="0" />
+  <Message key="IDS_BRIDGEERROR" value="Ошибка создания моста" revision="0" />
+  <Message key="IDS_BRIDGEALREADYEXISTS" value="Мост с таким именем уже существует. Укажите другое имя." revision="0" />
+  <Message key="IDS_CATEGORYFILTER" value="Последовательный мост" revision="0" />
+  <Message key="Enter Bridge Name" value="Введите имя моста" revision="0" />
+  <Message key="Enter new bridge name:" value="Введите имя нового моста:" revision="0" />
+  <Message key="Create New Bridge" value="Создать новый мост" revision="0" />
+  <Message key="Device A:" value="Устройство A:" revision="0" />
+  <Message key="Device B:" value="Устройство B:" revision="0" />
+  <Message key="Same port settings" value="Одинаковые настройки порта" revision="0" />
+  <Message key="Session Type" value="Тип сессии" revision="0" />
+  <Message key="Select the serial bridge monitoring session type:" value="Выберите тип сеанса мониторинга последовательного моста:" revision="0" />
+  <Message key="Press the following button to change bridge parameters for this session only:" value="Нажмите следующую кнопку для изменения параметров моста только для данной сессии:" revision="0" />
+  <Message key="Generic" value="Дженерик" revision="0" />
+  <Message key="PPP (Point-to-Point Protocol)" value="PPP (протокол &quot;точка-точка&quot;)" revision="0" />
+  <Message key="One packet a line (separated by 0D - AT commands, NMEA, etc.)" value="Один пакет на строку (с разделением 0D - AT, NMEA и т.д.)" revision="0" />
+  <Message key="MODBUS (RTU mode)" value="MODBUS (режим RTU)" revision="0" />
+  <Message key="MODBUS (ASCII mode)" value="MODBUS (режим ASCII)" revision="0" />
+  <Message key="Change Bridge Parameters" value="&amp;Изменение параметров моста…" revision="0" />
   <Enumeration key="BridgeNewBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Создать новый мост…" revision="0" />
+    <Item value="Создание нового последовательного моста" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDelete">
-    <Item />
-    <Item />
+    <Item value="&amp;Удалить мост" revision="0" />
+    <Item value="Удалить текущий выбранный мост" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDeleteAll">
-    <Item />
-    <Item />
+    <Item value="Удалить &amp;Все мосты" revision="0" />
+    <Item value="Удалить все сконфигурированные мосты" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Редактировать мост…" revision="0" />
+    <Item value="Изменение параметров моста" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeSource">
-    <Item />
-    <Item />
+    <Item value="Последовательный мост" revision="0" />
+    <Item value="Последовательный мост позволяет контролировать обмен данными между двумя последовательными устройствами, подключенными к компьютеру. Мониторинг осуществляется с помощью виртуального моста, создаваемого между выбранными последовательными портами." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="дженерик" revision="0" />
+    <Item value="PPP" revision="0" />
+    <Item value="Строка (пакет заканчивается новой строкой)" revision="0" />
+    <Item value="Режим MODBUS RTU" revision="0" />
+    <Item value="Режим MODBUS ASCII" revision="0" />
   </Enumeration>
   <Enumeration key="MenuBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Мост" revision="0" />
+    <Item value="Меню" revision="0" />
   </Enumeration>
 </Language>
