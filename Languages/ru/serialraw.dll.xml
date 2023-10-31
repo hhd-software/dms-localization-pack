@@ -1,20 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LampWindowNotification" value="Уведомление о положении визуализатора &quot;Линейный вид&quot;" revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="RepeaterSkip" value="Не отправлять" revision="0" />
+  <Message key="Basic" value="Базовый" revision="0" />
+  <Message key="Complete" value="Полный" revision="0" />
+  <Message key="PnP Event" value="Событие PnP" revision="0" />
+  <Message key="The device has just been connected to the system." value="Устройство только что было подключено к системе." revision="0" />
+  <Message key="The device has been disconnected." value="Устройство было отключено." revision="0" />
+  <Message key="PacketHeader" value="{n}: {header} ({up?}ВВЕРХ{|up}ВНИЗ{?up}), {time} ({device number}. Устройство: {device name})\n" revision="0" />
+  <Message key="Reads" value="Считываний" revision="0" />
+  <Message key="Writes" value="Записей" revision="0" />
+  <Message key="Buffer size" value="Объем буфера" revision="0" />
+  <Message key="bytes" value="байт" revision="0" />
+  <Message key="PnP Event: Connect" value="Событие PnP: Соединение" revision="0" />
+  <Message key="PnP Event: Disconnect" value="Событие PnP: Отключение" revision="0" />
+  <Message key="ProcessOpen" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) попытался открыть устройство." revision="0" />
+  <Message key="ProcessCreate" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) создать статус запроса: {status}" revision="0" />
+  <Message key="Status" value="Статус: {status}" revision="0" />
+  <Message key="Serial Structure View" value="{name} - Serial Структурный вид" revision="0" />
+  <Message key="struct not found" value="Определение структуры 'Serial' не найдено. Визуализатор не может отобразить какие-либо результаты." revision="0" />
+  <Message key="Serial Device Information" value="Информация о последовательном устройстве" revision="0" />
   <Enumeration key="CellConverter">
-    <Item />
-    <Item />
+    <Item value="Сырые данные" revision="0" />
+    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
-    <Item />
-    <Item />
+    <Item value="Консольный вид (Legacy)" revision="0" />
+    <Item value="Визуализатор работает как окно консоли и отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов. Это legacy визуализатор." revision="0" />
   </Enumeration>
   <Enumeration key="DataConverter">
-    <Item />
-    <Item />
+    <Item value="Данные" revision="0" />
+    <Item value="Визуализатор данных отображает данные в двух отдельных окнах. В первом окне отображаются данные, полученные от устройства, а во втором - данные, отправленные на устройство." revision="0" />
   </Enumeration>
   <Enumeration key="LineConverter">
-    <Item />
-    <Item />
+    <Item value="Вид &quot;Линия&quot;" revision="0" />
+    <Item value="Визуализатор &quot;Линия&quot; отображает состояние всех модемных линий." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
     <Item />
@@ -48,8 +69,8 @@
     <Item />
   </Enumeration>
   <Enumeration key="LineViewNotification">
-    <Item />
-    <Item />
+    <Item value="Вид &quot;Линия&quot;" revision="0" />
+    <Item value="Визуализатор &quot;Линия&quot; отображает свои результаты в этом окне. В нем отображается состояние модемных линий для текущего отслеживаемого последовательного устройства." revision="0" />
   </Enumeration>
   <Enumeration key="PacketViewColumns">
     <Item />

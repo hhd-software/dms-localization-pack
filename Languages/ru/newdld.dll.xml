@@ -1,30 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ProgressStage" value="{stage}{has progress?}: {percent} %{|has progress}…{?has progress}" revision="0" />
+  <Message key="Do you want to cancel all active download tasks?" value="Хотите отменить все активные загрузки?" revision="0" />
+  <Message key="Proxy Page" value="Прокси" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Выберите параметры прокси-сервера, которые будут использоваться при поиске обновлений:" revision="0" />
+  <Message key="Autodetect proxy settings" value="Автоопределение настроек прокси" revision="0" />
+  <Message key="Do not use proxy" value="Не использовать прокси" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="Использовать следующий прокси (HTTP):" revision="0" />
+  <Message key="Settings" value="Настройки" revision="0" />
+  <Message key="Authentication" value="Аутентификация" revision="0" />
+  <Message key="Authentication is not required" value="Аутентификация не требуется" revision="0" />
+  <Message key="Authenticate me as logged on user" value="Аутентифицировать меня как залогиненного пользователя" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Аутентифицировать меня с следующими учетными данными:" revision="0" />
+  <Message key="User name:" value="Имя пользователя:" revision="0" />
+  <Message key="Password:" value="Пароль:" revision="0" />
+  <Message key="Re-type password:" value="Введите пароль повторно:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Продукт надежно сохраняет введенный пароль в локальной учетной записи пользователя)" revision="0" />
+  <Message key="PasswordMismatch" value="Вводимые пароли должны совпадать." revision="0" />
+  <Message key="Downloader settings" value="Настройки прокси" revision="0" />
+  <Message key="toolbar.Downloader" value="Загрузчик" revision="0" />
   <Enumeration key="Downloader">
-    <Item />
-    <Item />
+    <Item value="Загрузчик" revision="0" />
+    <Item value="Команды загрузчика" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsCancelAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Отмена всех загрузок" revision="0" />
+    <Item value="Отмена всех задач загрузки" revision="0" />
   </Enumeration>
   <Enumeration key="DownloaderColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Задача" revision="0" />
+    <Item value="Состояние" revision="0" />
+    <Item value="Размер" revision="0" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Неизвестно" revision="0" />
+    <Item value="Начато" revision="0" />
+    <Item value="Обнаружение прокси" revision="0" />
+    <Item value="Резолвинг имени" revision="0" />
+    <Item value="Соединение с сервером" revision="0" />
+    <Item value="Согласование SSL" revision="0" />
+    <Item value="Передача заголовков" revision="0" />
+    <Item value="Отправка содержимого" revision="0" />
+    <Item value="Ожидание ответа" revision="0" />
+    <Item value="Получение заголовков" revision="0" />
+    <Item value="Получение контента" revision="0" />
+    <Item value="Ошибка: {error}" revision="0" />
   </Enumeration>
 </Language>

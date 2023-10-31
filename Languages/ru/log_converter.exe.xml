@@ -1,2 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd" />
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Usage" value="HHD Software Device Monitoring Studio Конвертер лог-файлов\n\nПрименение: log_converter dms6_logfile [output path]\n\nОпции:\ndms6_logfile\tПуть к лог файлу DMS6\nпуть вывода\tПуть вывода для лог файлов DMS7, имя файла будет совпадать с именем входного файла\n\nIf output_path указан, выходной файл будет записан в исходную папку.\n" revision="0" />
+  <Message key="ErrorOpenFile" value="Ошибка при открытии файла {filename}\n" revision="0" />
+  <Message key="ErrorCreateFile" value="Ошибка создания файла {filename}\n" revision="0" />
+  <Message key="ErrorRetrieveData" value="Ошибка при извлечении потока данных из лог файла\n" revision="0" />
+  <Message key="WarningStreams" value="Внимание: в исходном лог файле нет потоков\n" revision="0" />
+  <Message key="ErrorOpenInputStream" value="Ошибка при открытии потока из лог файла\n" revision="0" />
+  <Message key="ErrorReadProperties" value="Ошибка чтения характеристик устройства из лога\n" revision="0" />
+  <Message key="ErrorArch" value="Преобразование {srcbit}-битных лог-файлов с помощью {curbit}-битного конвертера не поддерживается. Используйте {srcbit}-битную версию.\n" revision="0" />
+  <Message key="ErrorGUID" value="Ошибка генерации GUID\n" revision="0" />
+  <Message key="ErrorCreateOutputStream" value="Ошибка при создании выходного потока\n" revision="0" />
+  <Message key="ErrorWrite" value="Ошибка записи данных пакета\n" revision="0" />
+  <Message key="AlreadyExist" value="Выходной файл уже существует\n" revision="0" />
+</Language>
