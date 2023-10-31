@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportFailed" value="Экспорт не удался, так как не содержит данных" revision="0" />
+  <Message key="ErrorExportingData" value="Ошибка при экспорте данных" revision="0" />
+  <Message key="CannotCreateFile" value="Невозможно создать файл" revision="0" />
+  <Message key="LocatingPacketError" value="Ошибка обнаружения пакета" revision="0" />
+  <Message key="LittleEndianFormat" value="Little-Endian (формат x86)" revision="0" />
+  <Message key="BigEndianFormat" value="Big-Endian (формат ALPHA, сетевой порядок)" revision="0" />
+  <Message key="ExportingCaption" value="Пожалуйста, подождите, пока  {exporter} преобразует выбранные данные." revision="0" />
+  <Message key="HintError" value="Шестнадцатеричные: {hex}, Десятичные: {dec}, Беззнаковые десятичные: {udec}, Восьмеричные: {oct}o\nДвоичные:{bin}\n" revision="0" />
+  <Message key="AsciiCharFormat" value="Символ: {char}" revision="0" />
+  <Message key="UnicodeCharFormat" value="Символ Unicode: {char}" revision="0" />
+  <Message key="SingleByteSelected" value="Выбран один байт" revision="0" />
+  <Message key="DataExported" value="Данные успешно экспортированы" revision="0" />
+  <Message key="ExportTitle" value="Экспорт" revision="0" />
+  <Message key="ClipboardOverflow" value="Вы поместили в буфер обмена большой объем данных. Хотите ли вы, чтобы эти данные были доступны при закрытии {app_name}" revision="0" />
+  <Message key="Converting..." value="Конвертация..." revision="0" />
   <Enumeration key="MchDisplayHint">
-    <Item />
-    <Item />
+    <Item value="&amp;Показать подсказку…" revision="0" />
+    <Item value="Отобразить в диалоговом окне текущую выбранную подсказку" revision="0" />
   </Enumeration>
   <Enumeration key="MchExportBinary">
-    <Item />
-    <Item />
+    <Item value="Экспорт &amp;бинарный…" revision="0" />
+    <Item value="Экспорт данных пакета в бинарном формате" revision="0" />
   </Enumeration>
   <Enumeration key="ExportFormats">
-    <Item />
-    <Item />
+    <Item value="Все файлы (*.*)|*.*|" revision="0" />
+    <Item value="HTML файлы (*.htm;*.html)|*.htm;*.html|Текстовые файлы UNICODE (*.txt)|*.txt|Текстовые файлы ANSI (*.txt)|*.txt||" revision="0" />
   </Enumeration>
 </Language>
