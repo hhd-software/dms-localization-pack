@@ -1,29 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ErrorTitle" value="Ошибка" revision="0" />
+  <Message key="Size_Error" value="Превышен предел размера пакета." revision="0" />
+  <Message key="Packet Builder" value="Конструктор пакетов" revision="0" />
+  <Message key="NetTerminal" value="Сетевой терминал" revision="0" />
+  <Message key="StructureNotFound" value="определение структуры не найдено. Сетевой монитор не может отобразить какие-либо результаты." revision="0" />
+  <Message key="Network Raw" value="Сетевые сырые данные" revision="0" />
+  <Message key="bytes" value="байт" revision="0" />
+  <Message key="NetTermSizeError" value="Пакет ({packetno}): Размер пакета ({size}) больше размера MTU адаптера ({maxsize})." revision="0" />
+  <Message key="NetTermTooltipText" value="Физический адрес: {mac}\nМаксимальный блок передачи: {size} bytes\nСкорость передачи: {speed} МБIP: {ip}\nСостояние: {status}" revision="0" />
+  <Message key="CellConvTooltip" value="Пакет:\t\t{number}\nВремя:\t\t{timestamp}\nРазмер пакета:\t{size} bytes\nОбъем данных:\t{datasize} байт{has_name?}\nУстройство:\t\t{devicename}{?has_name}\n" revision="0" />
+  <Message key="CellConvTitle" value="Сырые данные" revision="0" />
   <Enumeration key="CellConverter">
-    <Item />
-    <Item />
+    <Item value="Сырые данные" revision="0" />
+    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
   </Enumeration>
   <Enumeration key="StructureConverter">
-    <Item />
-    <Item />
+    <Item value="Структурный вид" revision="0" />
+    <Item value="Визуализатор структурного вида декодирует все данные сетевых пакетов, используя определения протоколов, хранящиеся в продукте или предоставленные пользователем. Поддерживается фильтрация и смена корневого протокола." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
-    <Item />
-    <Item />
+    <Item value="Вид HTTP" revision="0" />
+    <Item value="Визуализатор данных HTTP анализирует и отображает запросы и ответы протокола HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="NetError">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Повреждение памяти" revision="0" />
+    <Item value="Недостаточно ресурсов для пакета" revision="0" />
+    <Item value="Пакет слишком мал, чтобы быть корректным пакетом" revision="0" />
+    <Item value="Адаптер не подключен или был отсоединен" revision="0" />
+    <Item value="Размер пакета слишком велик для сетевой карты, или, возможно, сетевая карта сообщила своему драйверу об ошибочной передаче пакета." revision="0" />
+    <Item value="Базовый драйвер закрывается." revision="0" />
+    <Item value="В настоящее время базовый драйвер сбрасывает сетевую карту." revision="0" />
+    <Item value="Неизвестная сетевая ошибка." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">
-    <Item />
-    <Item />
+    <Item value="Отключен" revision="0" />
+    <Item value="Подключен" revision="0" />
   </Enumeration>
 </Language>
