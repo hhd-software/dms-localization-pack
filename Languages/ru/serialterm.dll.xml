@@ -1,43 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="savetoworkspace" value="Включать конфигурацию терминала в рабочее окружение" revision="0" />
+  <Message key="sendtofile_line" value="Отправлять текстовые строки из файла по одной" revision="0" />
+  <Message key="converttabs" value="Преобразовывать символы табуляции в N пробелов (N=0 - отключено)" revision="0" />
+  <Message key="chunk_size" value="Размер блока данных" revision="0" />
+  <Message key="newsession_notify" value="Создание терминальной сессии" revision="0" />
+  <Message key="Serial Terminal" value="Последовательный терминал" revision="0" />
+  <Message key="Array expected" value="Ожидается массив байтов" revision="0" />
+  <Message key="Invalid constant" value="Недопустимое значение константы" revision="0" />
+  <Message key="New" value="Новая" revision="0" />
+  <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Отправлено: {sent} Получено: {received}" revision="0" />
+  <Message key="Data Paste" value="Подождите, пока идет отправка данных." revision="0" />
+  <Message key="Find Operation" value="Поиск текста" revision="0" />
+  <Message key="NoDevicesFound" value="Последовательных устройств не найдено." revision="0" />
+  <Message key="TerminalError" value="Не удалось создать терминальную сессию для {friendly name}: {error text} ({error code})" revision="0" />
+  <Message key="TerminalSendError" value="Невозможно отправить данные: {error text} ({error code})" revision="0" />
+  <Message key="Stop Terminal Session" value="Остановить терминальную сессию" revision="0" />
+  <Message key="Click To Switch State" value="Нажмите для переключения состояния" revision="0" />
+  <Message key="Advanced Send title" value="Расширенная отправка: {port}" revision="0" />
+  <Message key="Device Setup" value="Настройка устройства" revision="0" />
+  <Message key="Configuration with this name already exists. Do you want to overwrite it?" value="Конфигурация с таким именем уже существует. Хотите ли вы перезаписать ее?" revision="0" />
+  <Message key="No description" value="Нет описания" revision="0" />
+  <Message key="Enter the configuration name." value="Введите имя конфигурации." revision="0" />
+  <Message key="Configuration will be lost! Do you want to continue?" value="Конфигурация будет потеряна! Вы хотите продолжить?" revision="0" />
+  <Message key="The configuration will be deleted. Do you want to continue?" value="Конфигурация будет удалена. Вы хотите продолжить?" revision="0" />
+  <Message key="Save to File" value="Сохранить в файл" revision="0" />
+  <Message key="Serial Terminal component has expired!" value="Срок действия последовательного терминала истек!" revision="0" />
+  <Message key="Session Configuration" value="Конфигурация сессии" revision="0" />
+  <Message key="Scheme:" value="Схема:" revision="0" />
+  <Message key="Device:" value="Устройство:" revision="0" />
+  <Message key="Connect" value="Подключить" revision="0" />
+  <Message key="Defaults" value="По умолчанию" revision="0" />
+  <Message key="Ignore delay (burst mode)" value="Игнорировать задержку (пакетный режим)" revision="0" />
+  <Message key="Loop mode:" value="Циклический режим:" revision="0" />
+  <Message key="loops" value="циклов" revision="0" />
+  <Message key="milliseconds" value="миллисекунд" revision="0" />
+  <Message key="Delay:" value="Задержка:" revision="0" />
+  <Message key="Send" value="Отправить" revision="0" />
   <Enumeration key="TerminalNewSession">
-    <Item />
-    <Item />
+    <Item value="Начать терминальную сессию…" revision="0" />
+    <Item value="Запустить последовательный терминал для выбранного устройства." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSpecialSend">
-    <Item />
-    <Item />
+    <Item value="Расширенная отправка…" revision="0" />
+    <Item value="Передача бинарных данных." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFile">
-    <Item />
-    <Item />
+    <Item value="Отправить файл…" revision="0" />
+    <Item value="Передать содержимое файла в терминальную сессию." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalCRLF">
-    <Item />
-    <Item />
+    <Item value="Отправить CR+LF по команде Enter" revision="0" />
+    <Item value="Отправлять CR+LF (вместо CR) по команде Enter" revision="0" />
   </Enumeration>
   <Enumeration key="SerialTerminal">
-    <Item />
-    <Item />
+    <Item value="Последовательный терминал" revision="0" />
+    <Item value="Последовательный терминал" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTermSessions">
-    <Item />
-    <Item />
+    <Item value="Терминальные сессии" revision="0" />
+    <Item value="Список текущих сеансов последовательного терминала" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFilters">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Текстовые файлы" revision="0" />
+    <Item value="*.txt" revision="0" />
+    <Item value="Все файлы" revision="0" />
+    <Item value="*.*" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalEcho">
-    <Item />
-    <Item />
+    <Item value="Эхо" revision="0" />
+    <Item value="Включение/выключение режима эхо" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Отправленный текст" revision="0" />
+    <Item value="Полученный текст" revision="0" />
+    <Item value="Отправленный шестнадцатеричный дамп" revision="0" />
+    <Item value="Полученный шестнадцатеричный дамп" revision="0" />
   </Enumeration>
 </Language>

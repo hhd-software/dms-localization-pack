@@ -1,55 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SkipNagScreen" value="Пропустить Nag Screen (только для отладки)" revision="0" />
+  <Message key="ModuleName" value="{module}\tВерсия {major}.{minor}.{revision}.{build}" revision="0" />
+  <Message key="AboutBoxInfo" value="HHD Software {appname}\nВерсия {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nВсе права защищены." revision="5" />
+  <Message key="EditionName" value="Редакция {edition}" revision="0" />
+  <Message key="SelectComponentEdition" value="Выберите редакцию компонента…" revision="0" />
+  <Message key="UpgradeToEdition" value="Апгрейд до редакции {edition}" revision="0" />
+  <Message key="Never" value="Никогда" revision="0" />
+  <Message key="LicenseSuccess" value="Файл лицензии успешно установлен и приложение активировано. Большое спасибо за выбор Device Monitoring Studio!" revision="0" />
+  <Message key="LicenseFailure" value="Ошибка при установке файла лицензии. Это может быть связано со следующими причинами:\n\n  · Поврежденный файл.\n  · Просроченный файл лицензии.\n  ·  Файл лицензии другого продукта.\n\nЗайдите в раздел Мой аккаунт на нашем сайте и бесплатно скачайте новый файл лицензии." revision="0" />
+  <Message key="LicenseRestart" value="Для отражения изменений настоятельно рекомендуется перезапустить продукт." revision="0" />
+  <Message key="FreeFirstLaunchTitle" value="Добро пожаловать в HHD Software Free Device Monitoring Studio" revision="0" />
+  <Message key="FreeFirstLaunchText" value="Бесплатная версия имеет ограниченный функционал.\n\nВ течение 14 дней вы можете продолжить работу с ограниченными функциями или попробовать расширенные БЕСПЛАТНО." revision="0" />
+  <Message key="Trial dialog title: free" value="Получить расширенные возможности" revision="0" />
+  <Message key="Trial dialog title: trial" value="Получить зарегистрированную версию сейчас!" revision="0" />
+  <Message key="Trial text: free" value="Некоторые расширенные функции Device Monitoring Studio работают в пробном режиме или просроченны.\n\nы можете продолжить работу с ограниченными функциями или перейти на расширенную версию.\nПосле покупки расширенной версии этот экран исчезнет." revision="0" />
+  <Message key="Trial text: trial" value="Следующие компоненты пробные или просрочены.\n\nВы не можете продолжать использовать просроченные компоненты. Чтобы устранить это окно, необходимо приобрести хотя бы один компонент." revision="0" />
+  <Message key="Feature not Available.Title" value="Функция недоступна" revision="0" />
+  <Message key="Trial days left" value="Пробный, осталось {days} дней" revision="0" />
+  <Message key="Upgrade Notification" value="Вы будете перенаправлены в раздел Мой аккаунт на сайте HHD Software, где сможете настроить апгрейд.\n\nВнимание: если вы используете зарегистрированную версию, то у вас уже есть учетная запись.\n\nПользуйтесь подсказкой пароля, если вы не можете вспомнить пароль, или обратитесь в службу поддержки, если вы все еще не можете войти в систему." revision="0" />
+  <Message key="Upgrades" value="Апгрейды" revision="0" />
+  <Message key="You must select at least one edition!" value="Выберите хотя бы одну редакцию!" revision="0" />
+  <Message key="Purchase Now" value="Купить сейчас" revision="0" />
+  <Message key="All components purchased" value="Все установленные компоненты уже приобретены. Если вы хотите обновить систему, нажмите кнопку Апгрейд…" revision="0" />
+  <Message key="MessageStartTrial" value="Вы успешно запустили бесплатный пробный период для всех расширенных возможностей!" revision="0" />
+  <Message key="Commercial" value="Коммерческая лицензия" revision="0" />
+  <Message key="NonCommercial" value="Некоммерческая лицензия" revision="0" />
+  <Message key="License File Filter" value="Файлы лицензий Device Monitoring Studio|*.dmslic|Все файлы|*.*|" revision="0" />
+  <Message key="Copyright" value="Предупреждение: Данная компьютерная программа защищена законом об авторском праве и международными соглашениями. Несанкционированное воспроизведение или распространение данной программы или любой ее части может повлечь за собой серьезные гражданские и уголовные санкции и будет преследоваться в максимально возможной степени в соответствии с законом." revision="0" />
+  <Message key="About Device Monitoring Studio" value="О Device Monitoring Studio" revision="0" />
+  <Message key="Installed Components:" value="Установленные компоненты:" revision="0" />
+  <Message key="Component Details:" value="Детали компонента:" revision="0" />
+  <Message key="Feature Not Available" value="Функция недоступна" revision="0" />
+  <Message key="The features you are trying to use are not available in the current edition." value="Функции, которые вы пытаетесь использовать, недоступны в текущем издании." revision="0" />
+  <Message key="Start Trial!" value="Начать пробу!" revision="0" />
+  <Message key="License Management" value="Управление лицензиями" revision="0" />
+  <Message key="Installed licenses:" value="Установленные лицензии:" revision="0" />
+  <Message key="Install License" value="&amp;Установить лицензию…" revision="0" />
+  <Message key="Purchase" value="&amp;Купить…" revision="0" />
+  <Message key="Upgrade" value="&amp;Апгрейд…" revision="0" />
+  <Message key="Start Free Trial" value="Начать бесплатную пробу" revision="0" />
+  <Message key="Purchase Device Monitoring Studio Now!" value="Купить Device Monitoring Studio сейчас!" revision="0" />
+  <Message key="NagInfo" value="Следующие компоненты пробные или просрочены.\n\nВы не можете продолжать использовать просроченные компоненты. Чтобы устранить это окно, необходимо приобрести хотя бы один компонент." revision="0" />
+  <Message key="Get Registered Version Now!" value="Получить зарегистрированную версию сейчас!" revision="0" />
+  <Message key="Select the edition type for each component and click Continue button." value="Выберите редакцию для каждого компонента и нажмите кнопку Продолжить." revision="0" />
+  <Message key="Compare Editions..." value="Сравнить издания..." revision="0" />
+  <Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." value="Нажмите кнопку Продолжить, чтобы поместить выбранный модуль(и) в Корзину. Дополнительные опции можно будет указать позже." revision="0" />
   <Enumeration key="HelpRegister">
-    <Item />
-    <Item />
+    <Item value="&amp;Управление лицензиями…" revision="0" />
+    <Item value="Откройте диалог управления лицензиями" revision="0" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item />
-    <Item />
+    <Item value="&amp;Подробнее о…" revision="0" />
+    <Item value="Подробнее о Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="EditionNames">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Стандартная" revision="1" />
+    <Item value="Профессиональная" revision="1" />
+    <Item value="Предельная" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureDlgColumnNames">
-    <Item />
-    <Item />
+    <Item value="Функция" revision="0" />
+    <Item value="Редакция" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Неизвестно" revision="0" />
+    <Item value="Бесплатная" revision="0" />
+    <Item value="Пробная" revision="0" />
+    <Item value="Истекшая" revision="0" />
+    <Item value="Зарегистрированная" revision="0" />
   </Enumeration>
   <Enumeration key="CommercialState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Нет" revision="0" />
+    <Item value="Да" revision="0" />
+    <Item value="Неизвестно" revision="0" />
   </Enumeration>
   <Enumeration key="Feature not Available.Text">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Функции, которые вы пытаетесь использовать, не включены в бесплатную версию.\n\n{has feature names?}{feature names}\n\n{?has feature names}Вы можете продолжить работу с ограниченными возможностями или попробовать расширенные БЕСПЛАТНО в течение 14 дней." revision="0" />
+    <Item value="Функции, которые вы пытаетесь использовать, не включены в бесплатную версию.\n\n{has feature names?}{feature names}\n\n{?has feature names}Вы можете продолжить работу с ограниченными возможностями или перейти на расширенные." revision="0" />
+    <Item value="Функции, которые вы пытаетесь использовать, не включены в текущую редакцию.\n\n{has feature names?}{feature names}\n\n{?has feature names}Вы можете продолжить работу с ограниченными возможностями или перейти на расширенные." revision="0" />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
-    <Item />
-    <Item />
+    <Item value="Начать бесплатную пробу" revision="0" />
+    <Item value="Начать бесплатную пробу." revision="0" />
   </Enumeration>
   <Enumeration key="PlayerSource">
-    <Item />
-    <Item />
+    <Item value="Воспроизведение логов" revision="0" />
+    <Item value="Модуль воспроизведения логов позволяет воспроизводить ранее записанные сессии мониторинга." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteSource">
-    <Item />
-    <Item />
+    <Item value="Удаленный мониторинг" revision="0" />
+    <Item value="Позволяет осуществлять мониторинг удалённых устройств" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Лицензия" revision="0" />
+    <Item value="Тип" revision="0" />
+    <Item value="Истекает" revision="0" />
+    <Item value="Коммерческая" revision="0" />
   </Enumeration>
 </Language>
