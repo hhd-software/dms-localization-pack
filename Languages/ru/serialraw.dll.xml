@@ -89,40 +89,40 @@
     <Item value="Отображать пакеты записи" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item value="" revision="0" />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Очистить информацию о работе" revision="0" />
+    <Item value="Очистить DTR" revision="0" />
+    <Item value="Очистить RTS" revision="0" />
+    <Item value="Получить информацию о размере конфигурации" revision="0" />
+    <Item value="Получить Baud Rate" revision="0" />
+    <Item value="Получить специальные символы" revision="0" />
+    <Item value="Получить COM статус" revision="0" />
+    <Item value="Получить DTR и RTS" revision="0" />
+    <Item value="Получить handshake информацию" revision="0" />
+    <Item value="Получить line control" revision="0" />
+    <Item value="Получение статуса модема" revision="0" />
+    <Item value="Получение COM свойств " revision="0" />
+    <Item value="Получение информации о работе" revision="0" />
+    <Item value="Получить тайм-ауты" revision="0" />
+    <Item value="Получить маску текущих событий" revision="0" />
+    <Item value="Передать immediate символ" revision="0" />
+    <Item value="Escape character линии и модема " revision="0" />
+    <Item value="Очистить запросы" revision="0" />
+    <Item value="Сбросить COM-порт" revision="0" />
+    <Item value="Установить baud rate" revision="0" />
+    <Item value="Выключить line control break" revision="0" />
+    <Item value="Включить line control break" revision="0" />
+    <Item value="Установить специальные символы" revision="0" />
+    <Item value="Установить DTR" revision="0" />
+    <Item value="Установить handshake информацию" revision="0" />
+    <Item value="Установить line control" revision="0" />
+    <Item value="Установить размер очереди" revision="0" />
+    <Item value="Установить RTS" revision="0" />
+    <Item value="Установить тайм-ауты" revision="0" />
+    <Item value="Установить маску текущих событий" revision="0" />
+    <Item value="Эмулировать XOFF" revision="0" />
+    <Item value="Эмулировать XON" revision="0" />
+    <Item value="Ждать события" revision="0" />
+    <Item value="Установить счётчик XOFF" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
     <Item value="Заголовок" revision="0" />
