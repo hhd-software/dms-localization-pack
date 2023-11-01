@@ -1,76 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Скриптинг" revision="0" />
+  <Message key="ReloadScripts" value="Перегружать скрипты при запуске" revision="0" />
+  <Message key="AskToSaveScripts" value="Запрашивать сохранение модифицированных скриптов при закрытии" revision="0" />
+  <Message key="IncludeInWorkspace" value="Включать конфигурацию скриптов в рабочее окружение" revision="0" />
+  <Message key="AskToSaveScript" value="В текущем файле скрипта имеются несохраненные изменения. Хотите ли Вы сохранить их?" revision="0" />
+  <Message key="Expired" value="Истек срок действия компонента Скриптинг. Для его использования необходим апгрейд продукта до редакции {edition}." revision="0" />
+  <Message key="SaveScripts" value="Некоторые открытые скрипты изменены и не сохранены. Хотите ли вы сохранить их сейчас?" revision="0" />
+  <Message key="Running Script" value="Выполнение скрипта {name}…\n" revision="0" />
+  <Message key="Stopping Script" value="Остановка выполнения скрипта" revision="0" />
+  <Message key="Stopped Script" value="\nВыполнение скрипта остановлено.\n" revision="0" />
+  <Message key="Compiling TypeScript" value="Компиляция TypeScript…\n" revision="0" />
+  <Message key="New Script" value="Новый скрипт {ordinal}" revision="0" />
+  <Message key="Javascript description" value="Файл JavaScript" revision="0" />
+  <Message key="Typescript description" value="Файл TypeScript" revision="0" />
+  <Message key="Invalid handle" value="Недопустимый handle" revision="0" />
+  <Message key="ScriptFiles" value="Файлы JavaScript (*.js)|*.js|файлы TypeScript (*.ts)|*.ts|Все файлы|*.*|" revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Необработанное и{|uncaught}И{?uncaught}сключение &quot;{name}&quot; произошло в {line}:{column}\n" revision="0" />
+  <Message key="Main body finish" value="\nВыполнение тела скрипта завершено. Запуск асинхронных функций и событий…\n" revision="0" />
+  <Message key="WatchTitle" value="Отладочный монитор" revision="0" />
+  <Message key="CallStackTitle" value="Стек отладки" revision="0" />
+  <Message key="Script Trace Output" value="Вывод трассировки скрипта" revision="0" />
+  <Message key="ScriptChanged" value="Ваш скрипт был изменен. Продолжение выполнения невозможно. Хотите остановить выполнение скрипта?" revision="0" />
+  <Message key="Input Value" value="Входное значение" revision="0" />
+  <Message key="Breakpoints" value="Точки прерывания" revision="0" />
+  <Message key="Line:" value="Строка:" revision="0" />
+  <Message key="toolbar.Watch" value="Отладочный монитор" revision="0" />
   <Enumeration key="ScriptingNew">
-    <Item />
-    <Item />
+    <Item value="Новый &amp;скрипт" revision="0" />
+    <Item value="Создать новый скрипт" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">
-    <Item />
-    <Item />
+    <Item value="&amp;Выполнить скрипт" revision="0" />
+    <Item value="Запуск выполнения сценария" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Остановить скрипт" revision="0" />
+    <Item value="Остановить выполнение сценария" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStartStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Запустить/остановить скрипт" revision="0" />
+    <Item value="Запуск или остановка выполнения скрипта" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Отладить скрипт" revision="0" />
+    <Item value="Запуск отладки скрипта" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingToggleBreakpoint">
-    <Item />
-    <Item />
+    <Item value="Переключить точку останова" revision="0" />
+    <Item value="Устанавливает или удаляет точку останова" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepIn">
-    <Item />
-    <Item />
+    <Item value="Шаг внутрь" revision="0" />
+    <Item value="Шаг в вызываемой функции" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOut">
-    <Item />
-    <Item />
+    <Item value="Шаг наружу" revision="0" />
+    <Item value="Шаг из вызываемой функции" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOver">
-    <Item />
-    <Item />
+    <Item value="Перешагнуть" revision="0" />
+    <Item value="Переход через вызываемую функцию" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">
-    <Item />
-    <Item />
+    <Item value="Продолжить" revision="0" />
+    <Item value="Продолжить выполнение" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Отладить" revision="0" />
+    <Item value="Меню отладки" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRemoveAllBreakpoints">
-    <Item />
-    <Item />
+    <Item value="Удалить все точки останова" revision="0" />
+    <Item value="Удалить все точки останова" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingAsyncBreak">
-    <Item />
-    <Item />
+    <Item value="Прерывание исполнения" revision="0" />
+    <Item value="Прерывание исполнения скрипта" revision="0" />
   </Enumeration>
   <Enumeration key="BreakpointsColumns">
-    <Item />
-    <Item />
+    <Item value="Файл" revision="0" />
+    <Item value="Строка" revision="0" />
   </Enumeration>
   <Enumeration key="CallStackColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value=" " revision="0" />
+    <Item value="Имя" revision="0" />
+    <Item value="Строка" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
-    <Item />
-    <Item />
+    <Item value="Добавить монитор" revision="0" />
+    <Item value="Добавить монитор" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
-    <Item />
-    <Item />
+    <Item value="Убрать монитор" revision="0" />
+    <Item value="Убрать монитор" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item />
-    <Item />
+    <Item value="Изменить монитор" revision="0" />
+    <Item value="Изменить монитор" revision="0" />
   </Enumeration>
 </Language>
