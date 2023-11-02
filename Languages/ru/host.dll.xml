@@ -1,165 +1,279 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ElevationError" value="Невозможно повысить привилегии. Ошибка: {error}" revision="1" />
+  <Message key="Devices" value="Устройства" revision="0" />
+  <Message key="Sessions" value="Сессии" revision="0" />
+  <Message key="ElevationErrorTitle" value="Ошибка повышения привелегий" revision="1" />
+  <Message key="EmergencySessionTermination" value="Сессия была прервана после следующей ошибки: &quot;{error}&quot;" revision="0" />
+  <Message key="EmergencySessionTerminationTitle" value="Экстренное завершение сессии" revision="0" />
+  <Message key="IntegrityError" value="Сбой инициализации внутреннего компонента: {error}" revision="0" />
+  <Message key="DevicesAbsent" value="Отсутствует одно или несколько сессионных устройств" revision="0" />
+  <Message key="LogCreationFailed" value="Ошибка создания лога файла мониторинга: {error}" revision="0" />
+  <Message key="NoConverters" value="Модули обработки данных, поддерживающие такую сессию, отсутствуют." revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}The previous session has been terminated due to low memory conditions. You need to restart the application before starting new monitoring session.{|nomemory}Не настроено временное хранилище. Проверьте настройки здесь: Инструменты » Настройки, Обработка данных. Код ошибки: {error}{?nomemory}" revision="0" />
+  <Message key="UnknownError" value="Не удалось создать сессию по неизвестной причине.{has warnings?} Выдаются следующие предупреждения:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartErrorTitle" value="Ошибка создания сессии" revision="0" />
+  <Message key="SessionStartWarningTitle" value="Предупреждения о создании сессии" revision="0" />
+  <Message key="SessionStartError" value="Не удалось создать сессию по следующей причине (причинам):\r\n{errors}{has warnings?}\r\n\r\nКроме того, выданы следующие предупреждения:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartWarning" value="Создание сессии прошло успешно, но с предупреждениями:\n{warnings}" revision="0" />
+  <Message key="SourceExpired" value="Просрочен один из выбранных источников данных." revision="0" />
+  <Message key="DeviceConfig" value="Конфигурация: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
+  <Message key="Data Source Configuration" value="Настройка источника данных" revision="0" />
+  <Message key="Capture Filter" value="Фильтр сессии" revision="0" />
+  <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Расцветка устройства" revision="0" />
+  <Message key="GroupVisualizers" value="Визуализаторы" revision="0" />
+  <Message key="GroupExporters" value="Групповые экспортеры" revision="0" />
+  <Message key="UnsupportedProcessingsTitle" value="Внимание" revision="0" />
+  <Message key="UnsupportedProcessings" value="Следующие обработчики\n{processings}\nне поддерживают мониторинг нескольких устройств и будут удалены." revision="0" />
+  <Message key="NoProcessings" value="Для данного устройства не найдены обработчики. Пожалуйста, переустановите приложение." revision="0" />
+  <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="FilterError" value="Ошибка применения выбранного фильтра" revision="0" />
+  <Message key="NoDataSource" value="Соответствующий модуль мониторинга не установлен. Пожалуйста, переустановите приложение." revision="0" />
+  <Message key="InstallMissingModule" value="В настоящее время этот модуль не установлен. Хотите ли вы установить его сейчас? (При этом будет закрыта Device Monitoring Studio)." revision="0" />
+  <Message key="Configuration object is expected" value="Ожидается объект конфигурации" revision="0" />
+  <Message key="Configuration object is not expected" value="Конфигурационный объект не ожидается" revision="0" />
+  <Message key="Visualizer requires configuration, but no configuration object is specified" value="Визуализатор требует конфигурации, но не указан объект конфигурации" revision="0" />
+  <Message key="Visualizer not found" value="Визуализатор не найден" revision="0" />
+  <Message key="Session has been destroyed" value="Сессия была уничтожена" revision="0" />
+  <Message key="Session has already been started" value="Сессия уже начата" revision="0" />
+  <Message key="String or object is expected" value="Ожидается строка или объект" revision="0" />
+  <Message key="Servername is incorrect" value="Параметр serverName некорректен" revision="0" />
+  <Message key="Device not found" value="Устройство не найдено" revision="0" />
+  <Message key="Invalid argument: object of proper format is expected" value="Недопустимый аргумент: ожидается объект надлежащего формата" revision="0" />
+  <Message key="No configuration objects specified" value="Не указаны объекты конфигурации" revision="0" />
+  <Message key="Source does not support configuration" value="Источник не поддерживает конфигурирование" revision="0" />
+  <Message key="Object is expected" value="Ожидается объект" revision="0" />
+  <Message key="Object of correct format is expected" value="Ожидается объект корректного формата" revision="0" />
+  <Message key="Session startup error" value="Ошибка запуска сессии" revision="0" />
+  <Message key="Session is not started" value="Сессия не запущена" revision="0" />
+  <Message key="Session cannot be stopped" value="Сессия не может быть остановлена" revision="0" />
+  <Message key="Device(s) must be added to the session" value="Устройство (устройства) должно быть добавлено в сессию" revision="0" />
+  <Message key="Only one session is allowed per device" value="На одно устройство разрешается только одна сессия" revision="0" />
+  <Message key="Unable to generate script" value="Невозможно сгенерировать скрипт" revision="0" />
+  <Message key="UnsavedCapture" value="Текущий несохраненный захват" revision="0" />
+  <Message key="NagFreeTitle" value="Ограничения бесплатной версии" revision="0" />
+  <Message key="FreeSessionExpireMsg" value="Бесплатная версия позволяет проводить сессии с длительностью не более {limit} минут.\n\nВаша сессия будет остановлена через {minutes}:{seconds}.\n\n{expired?}Вы можете остаться с ограниченными возможностями бесплатной версии или перейти на расширенную версию.{|expired}Вы можете остаться с ограниченной бесплатной версией или попробовать расширенную версию БЕСПЛАТНО в течение 14 дней.{?expired}" revision="0" />
+  <Message key="FreeSessionExpireMsg2" value="Бесплатная версия имеет ограничение {limit} сеансов мониторинга в сутки.\n\nСегодня осталось сессий: {left}.\n\n{expired?}Вы можете остаться с ограниченными возможностями бесплатной версии или перейти на расширенную версию.{|expired}Вы можете остаться с ограниченной бесплатной версией или попробовать расширенную версию БЕСПЛАТНО в течение 14 дней.{?expired}" revision="0" />
+  <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
+  <Message key="Try extended version" value="Попробовать расширенную версию" revision="0" />
+  <Message key="Purchase extended version" value="Получить расширенную версию" revision="0" />
+  <Message key="Out of memory" value="Не хватает памяти" revision="0" />
+  <Message key="Stopping session" value="Остановка сессии" revision="0" />
+  <Message key="ShowImportantSessionConfig" value="Выводить диалог конфигурации принудительно для выбранных типов сессий" revision="0" />
+  <Message key="MCAdv" value="Хочу отслеживать эти данные из моего собственного приложения" revision="0" />
+  <Message key="Advertise.Title" value="ActiveX контроллеры мониторинга" revision="0" />
+  <Message key="Get More Details" value="Подробнее" revision="0" />
+  <Message key="toolbar.SessionConfig1" value="Конфигурация сеанса 1" revision="0" />
+  <Message key="toolbar.SessionConfig2" value="Конфигурация сеанса 2" revision="0" />
+  <Message key="toolbar.Devices" value="Устройства" revision="0" />
+  <Message key="toolbar.Sessions" value="Сессии" revision="0" />
+  <Message key="Save Configuration" value="Сохранить настройку" revision="0" />
+  <Message key="Enter custom data processor configuration name:" value="Введите имя пользовательской настройки обработчика данных:" revision="0" />
+  <Message key="Device coloring" value="Расцветка устройства" revision="0" />
+  <Message key="Back color:" value="Цвет фона:" revision="0" />
+  <Message key="Multisource Device Colors" value="Цвета многоисточниковых устройств" revision="0" />
+  <Message key="Multisource device list:" value="Список многоисточниковых устройств:" revision="0" />
+  <Message key="Background color:" value="Цвет фона:" revision="0" />
+  <Message key="Rename Device" value="Переименовать устройство" revision="0" />
+  <Message key="Enter new device name:" value="Введите новое имя устройства:" revision="0" />
+  <Message key="Session Configuration" value="Конфигурация сессии" revision="0" />
+  <Message key="Selected sources" value="Выбранные источники" revision="0" />
+  <Message key="Selected processing" value="Выбранные обработчики" revision="0" />
+  <Message key="Available processing" value="Доступные обработчики" revision="0" />
+  <Message key="Description" value="Описание" revision="0" />
+  <Message key="Filter text" value="Текст фильтра" revision="0" />
+  <Message key="Capture filter" value="Фильтр сессии" revision="0" />
+  <Message key="Precise time marks" value="Точные метки времени" revision="0" />
+  <Message key="Add More" value="Добавить еще" revision="0" />
+  <Message key="Remove" value="Убрать" revision="0" />
+  <Message key="Select the columns that will apear on the Session List" value="Выберите столбцы, которые будут отображаться в списке сессий:" revision="0" />
+  <Message key="Select Session List Columns" value="Выберите столбцы списка сессий" revision="0" />
+  <Message key="clr.device_colors" value="Цвета многоисточниковых устройств" revision="0" />
+  <Message key="clr.device_colors.color1" value="Устройство 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Устройство 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Устройство 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Устройство 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Устройство 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Устройство 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Устройство 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Устройство 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Устройство 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Устройство 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Устройство 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Устройство 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Устройство 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Устройство 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Устройство 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Устройство 16" revision="0" />
+  <Message key="Data Recording Properties" value="Свойства записи данных" revision="0" />
+  <Message key="Overwrite" value="Перезаписывать" revision="0" />
+  <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
+  <Message key="Enforce size limit:" value="Ввести ограничение на размер:" revision="0" />
+  <Message key="Enforce time limit:" value="Ввести ограничение по времени:" revision="0" />
+  <Message key="Single file" value="Единый файл" revision="0" />
+  <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
+  <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
+  <Message key="Unlimited" value="Без ограничений" revision="0" />
   <Enumeration key="VisualizerNaming">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Шаблон именования визуализатора" revision="0" />
+    <Item value="[Имя устройства] - [Имя визуализатора]" revision="0" />
+    <Item value="[Имя визуализатора]: [Device name]" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchNetwork">
-    <Item />
-    <Item />
+    <Item value="&amp;Сеть" revision="0" />
+    <Item value="Переключить Device Monitoring Studio в режим мониторинга сети" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchSerial">
-    <Item />
-    <Item />
+    <Item value="&amp;Последовательные" revision="0" />
+    <Item value="Переключить Device Monitoring Studio в режим мониторинга последовательных устройств" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchUSB">
-    <Item />
-    <Item />
+    <Item value="&amp;USB" revision="0" />
+    <Item value="Переключить Device Monitoring Studio в режим мониторинга USB устройств" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Все" revision="0" />
+    <Item value="Переключить Device Monitoring Studio в универсальный режим" revision="0" />
   </Enumeration>
   <Enumeration key="MultiSource">
-    <Item />
-    <Item />
+    <Item value="Многоисточниковый мониторинг" revision="0" />
+    <Item value="Многоисточниковый мониторинг позволяет одновременно отслеживать несколько устройств одного типа." revision="0" />
   </Enumeration>
   <Enumeration key="&amp;Edit">
-    <Item />
-    <Item />
+    <Item value="&amp;Редактировать" revision="0" />
+    <Item value="Редактировать" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsConfigure">
-    <Item />
-    <Item />
+    <Item value="&amp;Настроить сессию…" revision="0" />
+    <Item value="Изменить параметры текущей сессии" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsResume">
-    <Item />
-    <Item />
+    <Item value="&amp;Возобновить сессию" revision="0" />
+    <Item value="Возобновление текущей сессии" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Приостановить сессию" revision="0" />
+    <Item value="Приостановить текущую сессию" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Остановить сессию" revision="0" />
+    <Item value="Остановить текущую сессию" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsClose">
-    <Item />
-    <Item />
+    <Item value="Закрыть &amp;визуализатор" revision="0" />
+    <Item value="Закрыть выбранный визуализатор" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsColumns">
-    <Item />
-    <Item />
+    <Item value="Настроить с&amp;толбцы…" revision="0" />
+    <Item value="Включение или отключение колонок" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsExpand">
-    <Item />
-    <Item />
+    <Item value="&amp;Раскрыть элемент" revision="0" />
+    <Item value="Развернуть элемент в списке" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsCollapse">
-    <Item />
-    <Item />
+    <Item value="С&amp;вернуть элемент" revision="0" />
+    <Item value="Свернуть элемент в списке" revision="0" />
   </Enumeration>
   <Enumeration key="StartMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Начать мониторинг…" revision="0" />
+    <Item value="Создать новую сессию мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="PauseMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Приостановить мониторинг" revision="0" />
+    <Item value="Приостановить данный мониторинг" revision="0" />
   </Enumeration>
   <Enumeration key="ConfigureDeviceSession">
-    <Item />
-    <Item />
+    <Item value="&amp;Настроить сессию…" revision="0" />
+    <Item value="Изменить параметры текущей сессии" revision="0" />
   </Enumeration>
   <Enumeration key="ResumeMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Возобновить мониторинг" revision="0" />
+    <Item value="Возобновление сеанса мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="StopMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Остановить мониторинг" revision="0" />
+    <Item value="Остановить сеанс мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="RestartDevice">
-    <Item />
-    <Item />
+    <Item value="Перезапустить &amp;устройство" revision="0" />
+    <Item value="Перезапуск выбранного устройства" revision="0" />
   </Enumeration>
   <Enumeration key="DeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Свойства…" revision="0" />
+    <Item value="Показать свойства устройства" revision="0" />
   </Enumeration>
   <Enumeration key="RenameDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Переименовать…" revision="0" />
+    <Item value="Задать пользовательское имя для устройства" revision="0" />
   </Enumeration>
   <Enumeration key="ScanForHardwareChanges">
-    <Item />
-    <Item />
+    <Item value="Проверить изменения в аппаратном обеспечении" revision="0" />
+    <Item value="Сканирование на предмет аппаратных изменений и обновление дерева устройств" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Все" revision="0" />
+    <Item value="Показать все категории" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Ни одного" revision="0" />
+    <Item value="Скрыть все категории" revision="0" />
   </Enumeration>
   <Enumeration key="AddConverter">
-    <Item />
-    <Item />
+    <Item value="Добавить в сессию" revision="0" />
+    <Item value="Добавить выбранный(ые) обработчик(и) данных в сессию" revision="0" />
   </Enumeration>
   <Enumeration key="AddToFavorites">
-    <Item />
-    <Item />
+    <Item value="Добавить в избранное" revision="0" />
+    <Item value="Добавить выбранный(ые) обработчик(и) данных в список избранных" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveConverter">
-    <Item />
-    <Item />
+    <Item value="Убрать из сессии" revision="0" />
+    <Item value="Удалить выбранные обработчики данных из сессии" revision="0" />
   </Enumeration>
   <Enumeration key="DeleteCustom">
-    <Item />
-    <Item />
+    <Item value="Убрать" revision="0" />
+    <Item value="Убрать обработчик данных из списка" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustom">
-    <Item />
-    <Item />
+    <Item value="Configure Data Processing…" revision="0" />
+    <Item value="Настроить обработчик данных" revision="0" />
   </Enumeration>
   <Enumeration key="SaveCustom">
-    <Item />
-    <Item />
+    <Item value="Сохранить пользовательский обработчик…" revision="0" />
+    <Item value="Сохранить выбранную конфигурацию обработчика данных" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilters">
-    <Item />
-    <Item />
+    <Item value="Показать или скрыть категории" revision="0" />
+    <Item value="Выберите, какие категории устройств будут отображаться" revision="0" />
   </Enumeration>
   <Enumeration key="CategorySubfilters">
-    <Item />
-    <Item />
+    <Item value="Подкатегории" revision="0" />
+    <Item value="Выберите, какие подкатегории устройств будут отображаться" revision="0" />
   </Enumeration>
   <Enumeration key="MenuSessions">
-    <Item />
-    <Item />
+    <Item value="Сессии" revision="0" />
+    <Item value="Список текущих сессий" revision="0" />
   </Enumeration>
   <Enumeration key="DataProcessingGroups">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Избранное" revision="2" />
+    <Item value="Визуализаторы" revision="2" />
+    <Item value="Экспортеры" revision="2" />
+    <Item value="Пользовательские" revision="2" />
+    <Item value="Устаревшие (Legacy)" revision="2" />
   </Enumeration>
   <Enumeration key="SessionWindowColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Источник" revision="0" />
+    <Item value="Тип" revision="0" />
+    <Item value="Устройство" revision="0" />
+    <Item value="Обработчик" revision="0" />
+    <Item value="Начало" revision="0" />
+    <Item value="Длительность" revision="0" />
+    <Item value="Состояние" revision="0" />
   </Enumeration>
   <Enumeration key="SessionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Остановлен" revision="0" />
+    <Item value="Работает" revision="0" />
+    <Item value="Приостановлен" revision="0" />
   </Enumeration>
 </Language>

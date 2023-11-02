@@ -295,10 +295,10 @@
     <Item value="Отображение уведомления об ошибке" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Бинарные данные" revision="0" />
+    <Item value="Заголовок 2" revision="0" />
+    <Item value="Заголовок 3" revision="0" />
   </Enumeration>
 </Language>
