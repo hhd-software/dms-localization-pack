@@ -1,5 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Следующее подключённое устройство (Serial)" revision="0" />
+  <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Невозможно присоединиться к выбранному устройству." revision="0" />
+  <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uСвойства последовательного порта]]]]]]]]]\n\n" revision="0" />
+  <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n" revision="0" />
+  <Message key="MaxRxQueue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bMax. Baud Rate]]]\tconfigurable\n" revision="0" />
+  <Message key="MaxBaudRate" value="[[[bMax. Baud Rate]]]\t{values}\n" revision="0" />
+  <Message key="Provider" value="[[[bProvider]]]\t{provider}\n" revision="0" />
+  <Message key="Capabilities" value="[[[bCapabilities]]]\t{values}\n" revision="0" />
+  <Message key="SettableParameters" value="[[[bSettable Parameters]]]\t{values}\n" revision="0" />
+  <Message key="SettableBaud" value="[[[bBaud Rates]]]\t{values}\n" revision="0" />
+  <Message key="DataBits" value="[[[bData Bits]]]\t{values}\n" revision="0" />
+  <Message key="StopBits" value="[[[bStop Bits]]]\t{values}\n" revision="0" />
+  <Message key="Parity" value="[[[bParity]]]\t{values}\n" revision="0" />
+  <Message key="Current Tx Queue" value="[[[bCurrent Tx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n" revision="0" />
+  <Message key="Current Rx Queue" value="[[[bCurrent Rx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n" revision="0" />
+  <Message key="Communication mode" value="Режим передачи данных: {mode}{discard?}, отбросить пустые чтения{?discard}{terminal?}, с прослушиванием{?terminal}" revision="0" />
+  <Message key="Serial Terminal" value="Последовательный терминал" revision="0" />
+  <Message key="Custom Joiner" value="Пользовательский тип сессии" revision="0" />
+  <Message key="Invalid mode" value="Недопустимый режим" revision="0" />
+  <Message key="SerialSessionState" value="{is terminal?}Активная терминальная сессия: {?is terminal}{baudrate}, data bits: {databits}, stop bits: {stopbits}, parity: {parity}" revision="0" />
+  <Message key="EmergencyErrorType" value="Аварийное завершение последовательной сессии" revision="0" />
+  <Message key="CustomEmpty" value="Пользовательский скрипт типа сессии пуст. Нажмите кнопку Установить и введите скрипт пользовательского типа сессии." revision="0" />
+  <Message key="CustomJoinerError" value="Ошибка пользовательского режима" revision="0" />
+  <Message key="Error opening file" value="Ошибка открытия пользовательского скрипта &quot;{path}&quot;: {error text} ({error code}). В сессии будет использоваться generic-режим связи." revision="0" />
+  <Message key="Error initializing chakra" value="Ошибка инициализации системы скриптов. Данная функция не поддерживается вашей системой." revision="0" />
+  <Message key="ExceptionInfo" value="{error text}{has message?}: {message}{?has message}" revision="0" />
+  <Message key="JoinerSessionTermination" value="Разделитель пакетов выдал следующую ошибку: {error}" revision="0" />
+  <Message key="EmptyScript" value="Не установлен компонент скриптов или используется пустой файл скрипта." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Отсутствуют пользовательские параметры настройки типа сессии" revision="0" />
+  <Message key="Custom script modified" value="Пользовательский скрипт был изменен. Вы уверены, что хотите отменить изменения?" revision="0" />
+  <Message key="Session Type" value="Тип сессии" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Выберите тип сессии мониторинга " revision="0" />
+  <Message key="Discard empty read packets" value="Отбрасывать пустые пакеты чтения" revision="0" />
+  <Message key="Set" value="&amp;Редактировать…" revision="0" />
+  <Message key="View" value="Посмотреть" revision="0" />
+  <Message key="Listen on monitored port" value="Слушать входящие данные (откроет последовательное устройство)" revision="0" />
+  <Message key="Baud rate:" value="Baud rate:" revision="0" />
+  <Message key="Data bits:" value="Data bits:" revision="0" />
+  <Message key="Parity:" value="Parity:" revision="0" />
+  <Message key="Stop bits:" value="Stop bits:" revision="0" />
+  <Message key="Flow control:" value="Flow control:" revision="0" />
+  <Message key="Read interval:" value="Read interval:" revision="0" />
+  <Message key="Write constant:" value="Write constant:" revision="0" />
+  <Message key="Write multiplier:" value="Write multiplier:" revision="0" />
+  <Message key="Terminal window:" value="Окно терминала:" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Редактор скриптов пользовательских сессий" revision="0" />
+  <Message key="Load from File" value="&amp;Загрузить из файла…" revision="0" />
+  <Message key="Save to File" value="&amp;Сохранить в файл…" revision="0" />
+  <Message key="Serial.Advertise.Text" value="Мы также предлагаем библиотеку Serial Port Monitoring Control ActiveX, которая позволяет интегрировать мониторинг в ваши приложения." revision="0" />
+  <Message key="No terminal" value="Без терминала" revision="0" />
+  <Message key="terminal session creation failure" value="Не удалось запустить прослушивание последовательного устройства из-за следующей ошибки: {text} ({code}){access-denied?}\n\nВероятно, эта ошибка означает, что последовательный порт уже открыт другим приложением. Вы можете спокойно проигнорировать эту ошибку и продолжить мониторинг порта.\n\nЕсли вы постоянно следите за открытым последовательным устройством, убедитесь, что опция &quot;Слушать входящие данные...&quot; выключена в окне конфигурации сессии.{?access-denied}" revision="0" />
+  <Message key="Set Custom Flow Control" value="Установить пользовательский Flow Control" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -20,42 +74,42 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="настраиваемый" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="неуказанный" revision="0" />
+    <Item value="RS232" revision="0" />
+    <Item value="Параллельный порт" revision="0" />
+    <Item value="RS422" revision="0" />
+    <Item value="RS423" revision="0" />
+    <Item value="RS449" revision="0" />
+    <Item value="Модем" revision="0" />
+    <Item value="Факс" revision="0" />
+    <Item value="Сканер" revision="0" />
+    <Item value="Сетевой мост" revision="0" />
+    <Item value="LAT" revision="0" />
+    <Item value="TCP/IP Telnet" revision="0" />
+    <Item value="X25" revision="0" />
   </Enumeration>
   <Enumeration key="CapabilitiesEnum">
     <Item />
     <Item />
     <Item />
+    <Item value="Проверка чётности" revision="0" />
+    <Item />
+    <Item value="Устанавливаемый XON/XOFF" revision="0" />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Специальные символы" revision="0" />
+    <Item value="16-битный режим" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
+    <Item value="Чётность" revision="0" />
+    <Item value="Бод" revision="0" />
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Проверка чётности" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -72,61 +126,61 @@
     <Item />
   </Enumeration>
   <Enumeration key="ParityEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Нет" revision="0" />
+    <Item value="Нечётный" revision="0" />
+    <Item value="Чётный" revision="0" />
+    <Item value="Метка" revision="0" />
+    <Item value="Пробел" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
     <Item value="Последовательный монитор" revision="0" />
     <Item value="Источник данных последовательного интерфейса позволяет отслеживать данные, которыми обмениваются последовательные устройства и использующие их приложения." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="дженерик" revision="2" />
+    <Item value="PPP" revision="2" />
+    <Item value="Строка (пакет заканчивается новой строкой)" revision="2" />
+    <Item value="Режим MODBUS RTU" revision="2" />
+    <Item value="Режим MODBUS ASCII" revision="2" />
+    <Item value="Пользовательский" revision="2" />
   </Enumeration>
   <Enumeration key="Communication modes. Full description">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Дженерик" revision="0" />
+    <Item value="PPP (Point-to-Point Protocol)" revision="0" />
+    <Item value="По одному пакету в строке (с разделением 0D - AT, NMEA и т.д.)" revision="0" />
+    <Item value="Режим MODBUS RTU" revision="0" />
+    <Item value="Режим MODBUS ASCII" revision="0" />
+    <Item value="Пользовательский" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ошибка типа: Недопустимый аргумент" revision="0" />
+    <Item value="Ошибка типа: Нулевой аргумент" revision="0" />
+    <Item value="Ошибка типа: Аргумент не является объектом" revision="0" />
+    <Item value="Кончилась память" revision="0" />
+    <Item value="Ошибка скрипта" revision="0" />
+    <Item value="Синтаксическая ошибка" revision="0" />
+    <Item value="Фатальная ошибка" revision="0" />
+    <Item value="Исключение" revision="0" />
+    <Item value="Неожиданный код" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Файлы TypeScript" revision="0" />
+    <Item value="*.ts" revision="0" />
+    <Item value="Файлы JavaScript" revision="0" />
+    <Item value="*.js" revision="0" />
   </Enumeration>
   <Enumeration key="flow-control">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Нет" revision="0" />
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Аппаратный" revision="0" />
+    <Item value="Пользовательский" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item />
-    <Item />
+    <Item value="Скрытый" revision="0" />
+    <Item value="Видимый" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
-    <Item />
-    <Item />
+    <Item value="Подключить последовательное устройство" revision="0" />
+    <Item value="Приложение ждет, когда вы подключите к компьютеру PnP-совместимое последовательное устройство." revision="0" />
   </Enumeration>
 </Language>

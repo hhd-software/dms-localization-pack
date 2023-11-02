@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Следующее подключённое устройство (USB)" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB монитор" revision="0" />
     <Item value="Модуль USB позволяет отслеживать данные, передаваемые между любым USB-устройством и использующим его приложением." revision="0" />
