@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StillConverter">
-    <Item />
-    <Item />
+    <Item value="Медиа протоколы передачи" revision="0" />
+    <Item value="Визуализатор данных для Still Image и медиа протокола передачи декодирует протокол USB Still Image/MTP для устройств, относящихся к классу Still Image/MTP." revision="0" />
   </Enumeration>
   <Enumeration key="BlockTypesCat">
     <Item />
@@ -281,10 +281,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbStillColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Бинарные данные" revision="0" />
+    <Item value="Заголовок 2" revision="0" />
+    <Item value="Заголовок 3" revision="0" />
   </Enumeration>
 </Language>

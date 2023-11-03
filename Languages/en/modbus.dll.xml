@@ -35,7 +35,7 @@
 		<Item text="MODBUS View decodes and displays MODBUS protocol packets."/>
 	</Enumeration>
 
-	<Enumeration key="ModbusFunction" description="MODBUS Functions">
+	<Enumeration optional="true" key="ModbusFunction" description="MODBUS Functions">
 		<Item text="Read Coil Status"/>
 		<Item text="Read Discrete Inputs"/>
 		<Item text="Read Holding Registers"/>
@@ -136,48 +136,48 @@
 
 	<Enumeration key="FunctionCodes" description="MODBUS Function Codes">
 		<Item text="REQUESTS"/>
-		<Item text="0x01 - Read Coil Status"/>					<!-- 0 -->
-		<Item text="0x02 - Read Discrete Inputs"/>			<!-- 1 -->
-		<Item text="0x03 - Read Holding Registers"/>			<!-- 2 -->
-		<Item text="0x04 - Read Input Registers"/>			<!-- 3 -->
-		<Item text="0x05 - Write Single Coil"/>					<!-- 4 -->
-		<Item text="0x06 - Write Single Register"/>			<!-- 5 -->
-		<Item text="0x07 - Read Exception Status"/>			<!-- 6 -->
-		<Item text="0x08 - Diagnostics"/>							<!-- 7 -->
-		<Item text="0x0B - Get Comm Event  Counter"/>	<!-- 8 -->
-		<Item text="0x0C - Get Comm Event Log"/>			<!-- 9 -->
-		<Item text="0x0F - Write Multiple Coils"/>				<!-- 10 -->
-		<Item text="0x10 - Write Multiple Registers"/>		<!-- 11 -->
-		<Item text="0x11 - Report Slave ID"/>					<!-- 12 -->
-		<Item text="0x14 - Read File Record"/>					<!-- 13 -->
-		<Item text="0x15 - Write File Record"/>					<!-- 14 -->
-		<Item text="0x16 - Mask Write Register"/>				<!-- 15 -->
-		<Item text="0x17 - Read/ Write Multiple Registers"/>	<!-- 16 -->
-		<Item text="0x18 - Read FIFO Queue"/>					<!-- 17 -->
+		<Item optional="true" text="0x01 - Read Coil Status"/>					<!-- 0 -->
+		<Item optional="true" text="0x02 - Read Discrete Inputs"/>			<!-- 1 -->
+		<Item optional="true" text="0x03 - Read Holding Registers"/>			<!-- 2 -->
+		<Item optional="true" text="0x04 - Read Input Registers"/>			<!-- 3 -->
+		<Item optional="true" text="0x05 - Write Single Coil"/>					<!-- 4 -->
+		<Item optional="true" text="0x06 - Write Single Register"/>			<!-- 5 -->
+		<Item optional="true" text="0x07 - Read Exception Status"/>			<!-- 6 -->
+		<Item optional="true" text="0x08 - Diagnostics"/>							<!-- 7 -->
+		<Item optional="true" text="0x0B - Get Comm Event  Counter"/>	<!-- 8 -->
+		<Item optional="true" text="0x0C - Get Comm Event Log"/>			<!-- 9 -->
+		<Item optional="true" text="0x0F - Write Multiple Coils"/>				<!-- 10 -->
+		<Item optional="true" text="0x10 - Write Multiple Registers"/>		<!-- 11 -->
+		<Item optional="true" text="0x11 - Report Slave ID"/>					<!-- 12 -->
+		<Item optional="true" text="0x14 - Read File Record"/>					<!-- 13 -->
+		<Item optional="true" text="0x15 - Write File Record"/>					<!-- 14 -->
+		<Item optional="true" text="0x16 - Mask Write Register"/>				<!-- 15 -->
+		<Item optional="true" text="0x17 - Read/ Write Multiple Registers"/>	<!-- 16 -->
+		<Item optional="true" text="0x18 - Read FIFO Queue"/>					<!-- 17 -->
 		<Item text="USER-DEFINED FUNCTION"/>				<!-- 18 -->
 		<Item text="RESPONSES"/>
-		<Item text="0x01 - Read Coil Status response"/>
-		<Item text="0x02 - Read Discrete Inputs response"/>
-		<Item text="0x03 - Read Holding Registers response"/>
-		<Item text="0x04 - Read Input Registers response"/>
-		<Item text="0x05 - Write Single Coil response"/>
-		<Item text="0x06 - Write Single Register response"/>
-		<Item text="0x07 - Read Exception Status response"/>
-		<Item text="0x08 - Diagnostics response"/>
-		<Item text="0x0B - Get Comm Event  Counter response"/>
-		<Item text="0x0C - Get Comm Event Log response"/>
-		<Item text="0x0F - Write Multiple Coils response"/>
-		<Item text="0x10 - Write Multiple Registers response"/>
-		<Item text="0x11 - Report Slave ID response"/>
-		<Item text="0x14 - Read File Record response"/>
-		<Item text="0x15 - Write File Record response"/>
-		<Item text="0x16 - Mask Write Register response"/>
-		<Item text="0x17 - Read/ Write Multiple Registers response"/>
-		<Item text="0x18 - Read FIFO Queue response"/>
+		<Item optional="true" text="0x01 - Read Coil Status response"/>
+		<Item optional="true" text="0x02 - Read Discrete Inputs response"/>
+		<Item optional="true" text="0x03 - Read Holding Registers response"/>
+		<Item optional="true" text="0x04 - Read Input Registers response"/>
+		<Item optional="true" text="0x05 - Write Single Coil response"/>
+		<Item optional="true" text="0x06 - Write Single Register response"/>
+		<Item optional="true" text="0x07 - Read Exception Status response"/>
+		<Item optional="true" text="0x08 - Diagnostics response"/>
+		<Item optional="true" text="0x0B - Get Comm Event  Counter response"/>
+		<Item optional="true" text="0x0C - Get Comm Event Log response"/>
+		<Item optional="true" text="0x0F - Write Multiple Coils response"/>
+		<Item optional="true" text="0x10 - Write Multiple Registers response"/>
+		<Item optional="true" text="0x11 - Report Slave ID response"/>
+		<Item optional="true" text="0x14 - Read File Record response"/>
+		<Item optional="true" text="0x15 - Write File Record response"/>
+		<Item optional="true" text="0x16 - Mask Write Register response"/>
+		<Item optional="true" text="0x17 - Read/ Write Multiple Registers response"/>
+		<Item optional="true" text="0x18 - Read FIFO Queue response"/>
 		<Item text="ERROR"/>
 	</Enumeration>
 
-	<Enumeration key="ResponseCodes" description="MODBUS  Response Codes">
+	<Enumeration optional="true" key="ResponseCodes" description="MODBUS  Response Codes">
 		<Item text="0x01 - Read Coil Status response"/>
 		<Item text="0x02 - Read Discrete Inputs response"/>
 		<Item text="0x03 - Read Holding Registers response"/>

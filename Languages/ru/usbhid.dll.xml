@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="HidSessionError" value="Запуск сессии не удался из-за следующей ошибки: &quot;{error}&quot;" revision="0" />
+  <Message key="HidSessionErrorTitle" value="Ошибка сессии HID" revision="0" />
+  <Message key="HidSessionLicenseError" value="Срок действия истек. Обновите версию до редакции {edition}, чтобы использовать этот компонент." revision="0" />
+  <Message key="HIDSendTitle" value="Отправка HID" revision="0" />
+  <Message key="Unknown Hid Device" value="Неизвестное HID-устройство" revision="0" />
+  <Message key="HID Info Not Available" value="Н/А" revision="0" />
+  <Message key="Device Detected." value="Обнаружено устройство." revision="0" />
+  <Message key="HID Device Detected." value="Обнаружено HID-устройство." revision="0" />
+  <Message key="WARNING: unsupported device type. Trying to parse." value="WARNING: неподдерживаемый тип устройства. Попытка разбора." revision="0" />
+  <Message key="Device Class" value="Класс устройства" revision="0" />
   <Enumeration key="HumanConverter">
-    <Item />
-    <Item />
+    <Item value="HID" revision="0" />
+    <Item value="Визуализатор USB HID декодирует HID-пакеты и структуры данных, отображая их в удобном виде. Идеально подходит для устройств, относящихся к классу Human Interface Device." revision="0" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />
@@ -1767,10 +1777,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbHidColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Бинарные данные" revision="0" />
+    <Item value="Ошибки" revision="0" />
+    <Item value="Заголовок 2" revision="0" />
   </Enumeration>
 </Language>

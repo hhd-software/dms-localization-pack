@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="operate independantly" value="Для каждого интерфейса в конфигурации указывается своя информация о классе, а различные интерфейсы работают независимо друг от друга" revision="0" />
+  <Message key="Device supports different class specifications" value="Устройство поддерживает спецификации разных классов на разных интерфейсах, а интерфейсы могут работать не независимо друг от друга" revision="0" />
+  <Message key="Device Class" value="Класс устройства" revision="0" />
+  <Message key="This command is not defined." value="ВНИМАНИЕ: Эта команда не определена в текущем наборе команд. " revision="0" />
+  <Message key="WARNING" value="ВНИМАНИЕ" revision="0" />
+  <Message key="Mass Storage Device Detected." value="Обнаружено устройство хранения данных." revision="0" />
+  <Message key="unsupported device type" value="WARNING: неподдерживаемый тип устройства. Попытка разбора." revision="0" />
+  <Message key="Device Detected." value="Обнаружено устройство." revision="0" />
   <Enumeration key="MassConverter">
-    <Item />
-    <Item />
+    <Item value="Устройства хранения" revision="0" />
+    <Item value="Визуализатор устройств хранения USB декодирует протокол USB Mass Storage для устройств, относящихся к классу Mass Storage" revision="0" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

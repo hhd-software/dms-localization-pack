@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="USB Communication Device Detected." value="Обнаружено устройство класса USB Communication" revision="0" />
   <Enumeration key="CommConverter">
-    <Item />
-    <Item />
+    <Item value="Связь" revision="0" />
+    <Item value="Визуализатор Связь декодирует пакеты и дескрипторы устройств класса USB Communication." revision="0" />
   </Enumeration>
   <Enumeration key="CommRequestsCat">
     <Item />
@@ -257,9 +258,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbCommColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Бинарные данные" revision="0" />
+    <Item value="Заголовок 2" revision="0" />
   </Enumeration>
 </Language>
