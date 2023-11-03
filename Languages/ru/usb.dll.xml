@@ -142,131 +142,181 @@
   <Message key="Dialing State" value="Состояние дозвона" revision="0" />
   <Message key="Reports ringback, busy, fast busy states" value="Сообщает о состояниях &quot;звонок&quot;, &quot;занято&quot;, &quot;быстрое занято&quot;" revision="0" />
   <Message key="Reports only dialing state" value="Сообщает только о состоянии дозвона" revision="0" />
+  <Message key="Caller ID" value="ID вызывающего абонента" revision="0" />
+  <Message key="Reports caller ID information" value="Сообщает информацию об ID вызывающего абонента" revision="0" />
+  <Message key="Does not report caller ID" value="Не сообщает ID вызывающего абонента" revision="0" />
+  <Message key="Ringing" value="Звонок" revision="0" />
+  <Message key="Reports incoming distinctive ringing patterns" value="Сообщает о входящих отличительных звонках" revision="0" />
+  <Message key="Reports only incoming ringing" value="Сообщает только о входящих звонках" revision="0" />
+  <Message key="DTMF digits" value="Цифры DTMF" revision="0" />
+  <Message key="Can report DTMF digits input remotely over the telephone line" value="Может сообщать о вводе DTMF-цифр удаленно по телефонной линии" revision="0" />
+  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Невозможно сообщить о цифрах DTMF, введенных удаленно по телефонной линии" revision="0" />
+  <Message key="Line State Change Notification" value="Уведомление об изменении состояния линии" revision="0" />
+  <Message key="Does support" value="Поддерживает" revision="0" />
+  <Message key="Does not support" value="Не поддерживает" revision="0" />
+  <Message key="SlaveInterfacelFmt" value="Ведомый интерфейс{number}:" revision="0" />
+  <Message key="Master Interface" value="Мастер-интерфейс" revision="0" />
+  <Message key="Country Code Release Date:" value="Код страны Дата выпуска:" revision="0" />
+  <Message key="CountryCodeFmt" value="Код страны{number}:" revision="0" />
+  <Message key="Entity ID:" value="ID сущности:" revision="0" />
+  <Message key="In Interface Number:" value="Номер входного интерфейса:" revision="0" />
+  <Message key="Out Interface Number:" value="Номер выходного интерфейса:" revision="0" />
+  <Message key="Options:" value="Опции:" revision="0" />
+  <Message key="ChildIDFmt" value="ChildID{number}:" revision="0" />
+  <Message key="Name (index):" value="Имя (индекс):" revision="0" />
+  <Message key="Channel Index:" value="Индекс канала:" revision="0" />
+  <Message key="Physical Interface:" value="Физический интерфейс:" revision="0" />
+  <Message key="Protocol Code:" value="Код протокола:" revision="0" />
+  <Message key="Extension Code:" value="Код расширения:" revision="0" />
+  <Message key="Device stores Unit parameters in non-volatile memory" value="Устройство сохраняет параметры блока в энергонезависимой памяти" revision="0" />
+  <Message key="Device supports the request Clear_Unit_Parameter" value="Устройство поддерживает запрос Clear_Unit_Parameter" revision="0" />
+  <Message key="Device supports the request Set_Unit_Parameter" value="Устройство поддерживает запрос Set_Unit_Parameter" revision="0" />
+  <Message key="Device is an Intelligent CAPI device" value="Устройство является умным CAPI-устройством" revision="0" />
+  <Message key="Device is a Simple CAPI device" value="Устройство является устройством типа Simple CAPI" revision="0" />
+  <Message key="Mac Address (string descriptor index):" value="Mac Address (индекс строкового дескриптора):" revision="0" />
+  <Message key="Ethernet Statistics:" value="Статистика Ethernet:" revision="0" />
+  <Message key="Number Of Configurable Multicast Filters:" value="Количество настраиваемых фильтров многоадресной рассылки:" revision="0" />
+  <Message key="Number Of Pattern Filters:" value="Количество шаблонных фильтров:" revision="0" />
+  <Message key="Max Segment Size:" value="Макс. размер сегмента:" revision="0" />
+  <Message key="End System Identifier (string descriptor index):" value="Конечный системный идентификатор (индекс строкового дескриптора):" revision="0" />
+  <Message key="Capabilities:" value="Возможности:" revision="0" />
+  <Message key="ATM Device Statistics:" value="Статистика устройства ATM:" revision="0" />
+  <Message key="The Maximum Type 2 Segment Size:" value="Максимальный размер сегмента типа 2:" revision="0" />
+  <Message key="The Maximum Type 3 Segment Size:" value="Максимальный размер сегмента типа 3:" revision="0" />
+  <Message key="Maximum Number Of Simultaneous Virtual Circuits:" value="Максимальное количество одновременно работающих виртуальных схем:" revision="0" />
+  <Message key="Release Number In Binary-Coded Decimal" value="Номер версии в двоично-десятичном кодировании" revision="0" />
+  <Message key="Reserved for future use" value="Резерв для будущего использования" revision="0" />
+  <Message key="MsHeaderFMT" value="Номер ревизии спецификации класса аудиоустройств: [[[b{ver_major}.{ver_minor}]]]\nОбщая длина: [[[b{bytes} bytes]]]\n" revision="0" />
+  <Message key="MS_MIDI_IN_JACK_FMT" value="Джэк ID: [[[b{id} ({name}): {value}]]]\n" revision="0" />
+  <Message key="MS_MIDI_OUT_JACK_FMT" value="Джэк ID: [[[b{id} ({name}): {value}]]]\nВходные контакты: [[[b{pins}]]]\n" revision="0" />
+  <Message key="UsbMsPins" value="Контакт [[[b{number}]]]: ID источника: [[[b {source}]]], Контакт: [[[b{pin}]]]\n" revision="0" />
+  <Message key="Frame Index:" value="Индекс кадра:" revision="0" />
+  <Message key="Controls Size:" value="Размер контролов:" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB монитор" revision="0" />
     <Item value="Модуль USB позволяет отслеживать данные, передаваемые между любым USB-устройством и использующим его приложением." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Low Speed" revision="0" />
+    <Item value="Full Speed" revision="0" />
+    <Item value="High Speed (USB 2.0)" revision="0" />
+    <Item value="Super Speed (USB 3.0)" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptor">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ввод" revision="0" />
+    <Item value="Вывод" revision="0" />
+    <Item value="Функция" revision="0" />
+    <Item value="Коллекция" revision="0" />
+    <Item value="Конец коллекции\n" revision="0" />
+    <Item value="Страница использования" revision="0" />
+    <Item value="Логический минимум" revision="0" />
+    <Item value="Логический максимум" revision="0" />
+    <Item value="Физический минимум" revision="0" />
+    <Item value="Физический максимум" revision="0" />
+    <Item value="Единичная экспонента" revision="0" />
+    <Item value="Единица" revision="0" />
+    <Item value="Размер отчета" revision="0" />
+    <Item value="ID отчета" revision="0" />
+    <Item value="Счетчик отчетов" revision="0" />
+    <Item value="PUSH" revision="0" />
+    <Item value="POP" revision="0" />
+    <Item value="Использование" revision="0" />
   </Enumeration>
   <Enumeration key="JackType">
-    <Item />
-    <Item />
+    <Item value="ВСТРОЕННЫЙ" revision="0" />
+    <Item value="ВНЕШНИЙ" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Не подключены устройства" revision="0" />
+    <Item value="Устройство подключено" revision="0" />
+    <Item value="Не удалось выполнить перечисление устройств" revision="0" />
+    <Item value="Общая ошибка подключения" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Дистанционное пробуждение" revision="0" />
+    <Item value="Автономное питание" revision="0" />
+    <Item value="Питание по шине" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Control" revision="0" />
+    <Item value="Isochronous" revision="0" />
+    <Item value="Bulk" revision="0" />
+    <Item value="Interrupt" revision="0" />
   </Enumeration>
   <Enumeration key="UsbInputParams">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Данные" revision="0" />
+    <Item value="Константа" revision="0" />
+    <Item value="Массив" revision="0" />
+    <Item value="Переменная" revision="0" />
+    <Item value="Абсолютная" revision="0" />
+    <Item value="Относительная" revision="0" />
+    <Item value="Без обертки" revision="0" />
+    <Item value="С обёрткой" revision="0" />
+    <Item value="Линейная" revision="0" />
+    <Item value="Нелинейная" revision="0" />
+    <Item value="Предпочтительное состояние" revision="0" />
+    <Item value="Нет предпочтительного состояния" revision="0" />
+    <Item value="Нет нулевой позиции" revision="0" />
+    <Item value="Нулевое состояние" revision="0" />
   </Enumeration>
   <Enumeration key="UsbOutputParams">
-    <Item />
-    <Item />
+    <Item value="Volatile" revision="0" />
+    <Item value="Non Volatile" revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoStandards">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="NTSC - 525/60" revision="0" />
+    <Item value="PAL - 625/50" revision="0" />
+    <Item value="SECAM - 625/50" revision="0" />
+    <Item value="NTSC - 625/50" revision="0" />
+    <Item value="PAL - 525/60" revision="0" />
   </Enumeration>
   <Enumeration key="UsbBoolean">
-    <Item />
-    <Item />
+    <Item value="Истинно" revision="0" />
+    <Item value="Ложно" revision="0" />
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Резерв" revision="0" />
+    <Item value="BT.709,sRGB" revision="0" />
+    <Item value="BT.470-2 (M)" revision="0" />
+    <Item value="BT.470-2 (B,G)" revision="0" />
+    <Item value="SMPTE 170M" revision="0" />
+    <Item value="SMPTE 240M" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferCharacteristics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Резерв" revision="0" />
+    <Item value="BT.709" revision="0" />
+    <Item value="BT.470-2 (M)" revision="0" />
+    <Item value="BT.470-2 (B,G)" revision="0" />
+    <Item value="SMTPE 170M" revision="0" />
+    <Item value="SMTPE 240M" revision="0" />
+    <Item value="Linear (V=Lc)" revision="0" />
+    <Item value="sRGB (очень схоже с BT.709)" revision="0" />
   </Enumeration>
   <Enumeration key="UsbMatrixCoefficients">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Резерв" revision="0" />
+    <Item value="BT.709" revision="0" />
+    <Item value="FCC" revision="0" />
+    <Item value="FCC" revision="0" />
+    <Item value="SMPTE 170M (BT.601,default)" revision="0" />
+    <Item value="SMPTE 240M" revision="0" />
   </Enumeration>
   <Enumeration key="UsbYesNo">
-    <Item />
-    <Item />
+    <Item value="Да" revision="0" />
+    <Item value="Нет" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFieldPerFrame">
-    <Item />
-    <Item />
+    <Item value="1 поле" revision="0" />
+    <Item value="2 поле" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFormatType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Резерв" revision="0" />
+    <Item value="SD-DV" revision="0" />
+    <Item value="SDL-DV" revision="0" />
+    <Item value="HD-DV" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRefreshRate">
-    <Item />
-    <Item />
+    <Item value="50 Гц" revision="0" />
+    <Item value="60 Гц" revision="0" />
   </Enumeration>
   <Enumeration key="UsbAudioDescriptorName">
     <Item />
@@ -404,7 +454,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConnectTheUSBDevice">
-    <Item />
-    <Item />
+    <Item value="Подключите USB-устройство" revision="0" />
+    <Item value="Программа ждет, пока вы подключите USB-устройство к одному из USB-портов компьютера." revision="0" />
   </Enumeration>
 </Language>
