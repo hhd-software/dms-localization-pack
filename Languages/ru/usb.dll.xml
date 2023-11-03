@@ -1,6 +1,147 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Следующее подключённое устройство (USB)" revision="0" />
+  <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Невозможно подключиться к выбранному устройству." revision="0" />
+  <Message key="Unknown Device" value="Неизвестное устройство" revision="0" />
+  <Message key="EmergencyErrorType" value="Аварийное завершение сессии USB" revision="0" />
+  <Message key="USB.Advertise.Text" value="Мы также предлагаем библиотеку USB Monitoring Control ActiveX, которая позволяет интегрировать мониторинг в ваше приложение." revision="0" />
+  <Message key="Not specified" value="Не указано" revision="0" />
+  <Message key="Unable to retrieve" value="Строковый дескриптор {id} (не удается прочитать)" revision="0" />
+  <Message key="DeviceDescriptor0" value="[[[bДанное устройство является частью составного устройства.]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor1" value="[[[b[[[uИнформация о соединении]]]]]]\n\n Порт: [[[b{port}]]]\n Скорость: [[[b{speed}]]]\n Адрес устройства: [[[b{addr}]]]\n Открытые пайпы: [[[b{pipes}]]]\n Статус соединения: [[[b{status}]]]\n" revision="0" />
+  <Message key="DeviceDescriptor2" value="\n\n[[[b[[[uДескриптор устройства]]]]]]\n\n версия USB: [[[b{ver_major}.{ver_minor}]]]\n Класс устройства: [[[b{class_code} - {class}]]]\n Подкласс устройства: [[[b{subcode} - {subclass}]]]\n Протокол устройства: [[[b{proto_code} - {proto}]]]\n Максимальный размер control pipe: [[[b{max_bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor3" value="\n ID поставщика: [[[b{vendor_id} ({vendor})]]]\n ID продукта: [[[b{product_id} ({product})]]]\n Версия продукта: [[[b{ver_major}.{ver_minor}]]]\n Производитель: [[[b{manufacturer}]]]\n Продукт: [[[b{product_name}]]]\n Серийный номер: [[[b{serial}]]]\n Конфигурации: [[[b{config_num}]]]\n" revision="0" />
+  <Message key="DeviceDescriptor4" value="[[[b[[[uДескриптор конфигурации]]]]]]\n\n Число интерфейсов: [[[b{num_interfaces}]]]\n Значение конфигурации: [[[b{config_value}]]]\n Атрибуты: [[[b{attribs}]]]" revision="0" />
+  <Message key="DeviceDescriptor5" value="\n Макс. мощность: [[[b{power} mA]]]" revision="0" />
+  <Message key="DeviceDescriptor6" value="\n\n Неизвестный дескриптор (Тип: {type}, Длина: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor7" value="\n\n[[[b[[[uДескриптор интерфейса: {descriptor}, Альтернативная настройка: {alter}]]]]]]\n\n Число энд поинтов: [[[b{endpoints}]]]\n Класс интерфейса: [[[b{class_id} - {class}]]]\n Подкласс интерфейса: [[[b{sub_id} - {subclass}]]]\n Протокол интерфейса: [[[b{proto_id} - {proto}]]]" revision="0" />
+  <Message key="DeviceDescriptor8" value="\n Адрес энд поинта [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], макс. размер пакета: [[[b{bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor9" value=", интервал обновления: [[[b{interval}]]]" revision="0" />
+  <Message key="UnknownDescriptor" value="\n\n Неизвестный дескриптор (Тип: {type}, Длина: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor10" value="\n\n[[[b[[[uПотоковое аудио (AS) Isochronus Audio Data Endpoint Descriptor]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor11" value="\n\n[[[b[[[uУправление видео (VC) Interrrupt Endpoint Descriptor]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor12" value="Резервный элемент\n" revision="0" />
+  <Message key="DeviceDescriptor13" value="Использований ({min}-{max}): [[[b" revision="0" />
+  <Message key="DeviceDescriptor14" value="[[[b[[[uДескриптор HID]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor15" value="[[[b[[[uУправление звуком (AC) Descriptor: {name}]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor16" value="[[[b[[[uПотоковое аудио (AS) Descriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor17" value="[[[b[[[uПотоковая передача MIDI (AS) Descriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor18" value="[[[b[[[uУправление видео (VC) Descriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor19" value="[[[b[[[uПотоковое видео (VS) Descriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor20" value="[[[b[[[uДескриптор, специфичный для Communication Class: {type} ({name})]]]]]]\n\n" revision="0" />
+  <Message key="UsbInput" value="Ввод" revision="0" />
+  <Message key="UsbOutput" value="Вывод" revision="0" />
+  <Message key="1msFramesFmt" value="{number} 1-миллисекундные кадры" revision="0" />
+  <Message key="MicroFramesFmt" value="{number} микрокадров" revision="0" />
+  <Message key="Restart Device" value="Перезапустить устройство" revision="0" />
+  <Message key="Audio Device Class Specification Release Number:" value="Спецификация класса аудиоустройств Номер:" revision="0" />
+  <Message key="Total Length:" value="Общая длина:" revision="0" />
+  <Message key="Number of Interfaces:" value="Число интерфейсов:" revision="0" />
+  <Message key="Number Of Output Channels:" value="Число каналов вывода:" revision="0" />
+  <Message key="Name (String Descriptor ID):" value="Имя (строковый ID дескриптора):" revision="0" />
+  <Message key="Description (String Descriptor ID):" value="Описание (строковый ID дескриптора):" revision="0" />
+  <Message key="Number of Pins:" value="Число контактов:" revision="0" />
+  <Message key="Channel Configuration:" value="Конфигурация каналов:" revision="0" />
+  <Message key="Channel Names:" value="Имена каналов:" revision="0" />
+  <Message key="Programmable Controls:" value="Программируемые контролы:" revision="0" />
+  <Message key="SourceFmt" value="Источник{number}:" revision="0" />
+  <Message key="Control Size:" value="Размер контрола:" revision="0" />
+  <Message key="Supported Controls:" value="Поддерживаемые контролы:" revision="0" />
+  <Message key="Interface Number:" value="Номер интерфейса:" revision="0" />
+  <Message key="Terminal Link:" value="Терминальное соединение:" revision="0" />
+  <Message key="Delay:" value="Задержка:" revision="0" />
+  <Message key="Format Tag:" value="Тег формата:" revision="0" />
+  <Message key="Attributes:" value="Атрибуты:" revision="0" />
+  <Message key="Delay Units:" value="Единицы задержки:" revision="0" />
+  <Message key="Lock Delay:" value="Задержка блокирования:" revision="0" />
+  <Message key="Processing Type:" value="Тип обработки:" revision="0" />
+  <Message key="Number of Input Pins:" value="Число входных контактов:" revision="0" />
+  <Message key="UnitPinFmt" value="ID устройства, к которому подключен Pin{number}:" revision="0" />
+  <Message key="Number of Supported Modes:" value="Число поддерживаемых режимов:" revision="0" />
+  <Message key="ModeFmt" value="Режим{number}:" revision="0" />
+  <Message key="UsbErrorRetriveDescriptors" value="Невозможно получить дескрипторы.\r\n\r\nЕсли данное устройство является частью составного устройства, щелкните на составном устройстве, чтобы увидеть дескрипторы USB." revision="0" />
+  <Message key="UsbUnableToAttach" value="Невозможно подключиться к выбранному USB-устройству." revision="0" />
+  <Message key="MS_CS_ENDPOINT_1" value="\n\n[[[b[[[uClass-Specific MS Bulk Data Endpoint Дескриптор]]]]]]\nВстроенные MIDI Jacks: [[[b {number}]]]\n" revision="0" />
+  <Message key="Video Specification Release Number:" value="Видеоспецификация Номер:" revision="0" />
+  <Message key="Clock Frequency:" value="Тактовая частота:" revision="0" />
+  <Message key="Terminal ID:" value="ID терминала:" revision="0" />
+  <Message key="Associated Output Terminal:" value="Сопутствующий выходной терминал:" revision="0" />
+  <Message key="Terminal Type:" value="Тип терминала:" revision="0" />
+  <Message key="Description (Index of String Descriptor):" value="Описание (индекс строкового дескриптора):" revision="0" />
+  <Message key="Source ID:" value="ID источника:" revision="0" />
+  <Message key="Unit ID:" value="ID блока:" revision="0" />
+  <Message key="Max Multiplier:" value="Макс. множитель:" revision="0" />
+  <Message key="Controls:" value="Контролы:" revision="0" />
+  <Message key="ControlFmt" value="Контрол{number}:\n" revision="0" />
+  <Message key="GUID:" value="GUID:" revision="0" />
+  <Message key="Number of Formats:" value="Число форматов:" revision="0" />
+  <Message key="Endpoint Address:" value="Адрес энд поинта" revision="0" />
+  <Message key="Still Capture Method:" value="Метод захвата изображения:" revision="0" />
+  <Message key="Trigger Support:" value="Поддержка триггера:" revision="0" />
+  <Message key="Trigger Usage:" value="Применение триггера:" revision="0" />
+  <Message key="FormatFmt" value="Формат{number}:\n" revision="0" />
+  <Message key="Width:" value="Ширина:" revision="0" />
+  <Message key="Height:" value="Высота:" revision="0" />
+  <Message key="CompressionFmt" value="Сжатие{number}:" revision="0" />
+  <Message key="Color Primaries:" value="Основные цветности:" revision="0" />
+  <Message key="Transfer Characteristics:" value="Характеристики передачи:" revision="0" />
+  <Message key="Matrix Coefficients:" value="Матричные коэффициенты:" revision="0" />
+  <Message key="Format Index:" value="Индекс формата:" revision="0" />
+  <Message key="Number of Frame Descriptors:" value="Число кадровых дескрипторов:" revision="0" />
+  <Message key="Format GUID:" value="Формат GUID:" revision="0" />
+  <Message key="Bits Per Pixel:" value="Бит на пиксель:" revision="0" />
+  <Message key="Optimum Frame Index:" value="Оптимальный индекс кадра:" revision="0" />
+  <Message key="Aspect Ratio X:" value="Соотношение сторон по X:" revision="0" />
+  <Message key="Aspect Ratio Y:" value="Соотношение сторон по Y:" revision="0" />
+  <Message key="Copy Protect:" value="Защита от копирования:" revision="0" />
+  <Message key="Interlace Flags:" value="Флаги интерлейса:\n" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Интерфейсный поток или переменная:" revision="0" />
+  <Message key="Fields Per Frame:" value="Полей на кадр:" revision="0" />
+  <Message key="Field 1 Is First:" value="Поле 1 - первым:" revision="0" />
+  <Message key="Min Bit Rate:" value="Мин. битрейт:" revision="0" />
+  <Message key="Max Bit Rate:" value="Макс. битрейт:" revision="0" />
+  <Message key="Max Video Frame Buffer Size:" value="Макс. размер буфера видеокадра:" revision="0" />
+  <Message key="Default Frame Interval:" value="Интервал кадров по умолчанию:" revision="0" />
+  <Message key="Frame Interval Type:" value="Тип интервала кадров:" revision="0" />
+  <Message key="Min Frame Interval (in 100 ns):" value="Мин. интервал кадров (в 100 нс):" revision="0" />
+  <Message key="Max Frame Interval (in 100 ns):" value="Макс. интервал кадров (в 100 нс):" revision="0" />
+  <Message key="Frame Interval Step (in 100 ns):" value="Шаг интервала кадров (в 100 нс):" revision="0" />
+  <Message key="FrameIntervalFmt" value="Интервал кадров{number}:" revision="0" />
+  <Message key="Data Offset:" value="Смещение данных:" revision="0" />
+  <Message key="Length of TSP Packet:" value="Длина пакета TSP:" revision="0" />
+  <Message key="Length of Transport Stride:" value="Длина Transport Stride:" revision="0" />
+  <Message key="Format of Stride Data:" value="Формат Stride Data:" revision="0" />
+  <Message key="Variable Size:" value="Размер переменной:" revision="0" />
+  <Message key="Bytes Per Line:" value="Байт на строку:" revision="0" />
+  <Message key="Packet Length:" value="Длина пакета:" revision="0" />
+  <Message key="Number of Channels:" value="Число каналов:" revision="0" />
+  <Message key="Format Type:" value="Тип формата:" revision="0" />
+  <Message key="Subframe Size:" value="Размер Subframe:" revision="0" />
+  <Message key="Bit Resolution:" value="Разрядность:" revision="0" />
+  <Message key="Sampling Frequency Lower Bound:" value="Нижняя граница сэмплинг частоты:" revision="0" />
+  <Message key="Sampling Frequency Upper Bound:" value="Верхняя граница сэмплинг частоты:" revision="0" />
+  <Message key="SamplingFrequencyFmt" value="Сэмплинг частота{number}:" revision="0" />
+  <Message key="Max Bitrate:" value="Макс. битрейт:" revision="0" />
+  <Message key="Samples Per Frame:" value="Сэмплов на кадр:" revision="0" />
+  <Message key="Payload Type:" value="Тип payload:" revision="0" />
+  <Message key="MPEG Capabilities:" value="Возможности MPEG:" revision="0" />
+  <Message key="MPEG Features:" value="MPEG Функции:" revision="0" />
+  <Message key="BSID:" value="BSID:" revision="0" />
+  <Message key="AC3 Features:" value="AC3 Функции:" revision="0" />
+  <Message key="MS_CS_ENDPOINT_2" value="Джэк({number}) ID: [[[b{value}]]]\n" revision="0" />
+  <Message key="Max Transfer Size:" value="Макс. размер передачи:" revision="0" />
+  <Message key="Data Interface:" value="Интерфейс данных:" revision="0" />
+  <Message key="Ringer Volume Steps:" value="Ступени громкости звонка:" revision="0" />
+  <Message key="Simple Mode" value="Простой режим" revision="0" />
+  <Message key="Standalone Mode" value="Автономный режим" revision="0" />
+  <Message key="Computer Centric Mode " value="Компьютерно-ориентированный режим" revision="0" />
+  <Message key="Dialtone" value="Dialtone" revision="0" />
+  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Сообщает о прерывании dialtone в дополнение к обычному dialtone" revision="0" />
+  <Message key="Reports only dialtone" value="Сообщает тотлько о dialtone" revision="0" />
+  <Message key="Dialing State" value="Состояние дозвона" revision="0" />
+  <Message key="Reports ringback, busy, fast busy states" value="Сообщает о состояниях &quot;звонок&quot;, &quot;занято&quot;, &quot;быстрое занято&quot;" revision="0" />
+  <Message key="Reports only dialing state" value="Сообщает только о состоянии дозвона" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB монитор" revision="0" />
     <Item value="Модуль USB позволяет отслеживать данные, передаваемые между любым USB-устройством и использующим его приложением." revision="0" />
