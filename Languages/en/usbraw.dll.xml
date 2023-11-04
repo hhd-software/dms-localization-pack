@@ -565,7 +565,7 @@
 		<Item text="Display write packets"/>
 	</Enumeration>
 
-	<Enumeration key="RequestsCat" description="Filters: URB View Requests">
+	<Enumeration optional="true" key="RequestsCat" description="Filters: URB View Requests">
 		<Item text="Select Configuration"/>
 		<Item text="Get Configuration"/>
 		<Item text="Select Interface"/>

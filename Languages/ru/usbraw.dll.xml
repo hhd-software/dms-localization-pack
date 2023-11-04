@@ -1,171 +1,314 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Dependent Devices" value="Зависимые устройства" revision="0" />
+  <Message key="URB View" value="Вид URB" revision="0" />
+  <Message key="Packet View" value="Пакетный вид" revision="0" />
+  <Message key="Raw Data View" value="Сырые данные" revision="0" />
+  <Message key="USB Structure View" value="Сырые данные" revision="0" />
+  <Message key="CounterPacketsTotal" value="Пакеты Всего/сек" revision="0" />
+  <Message key="CounterBytesTransferTotal" value="Байты Всего/сек" revision="0" />
+  <Message key="Get Descriptor Request" value="Запрос на получение дескриптора" revision="0" />
+  <Message key="Set Descriptor Request" value="Запрос на установку дескриптора" revision="0" />
+  <Message key="Function Code: " value="Код функции: " revision="0" />
+  <Message key="DirectionDown" value="Направление: Вниз\nРазмер данных" revision="0" />
+  <Message key="DirectionUp" value="Направление: Вверх\nРазмер данных" revision="0" />
+  <Message key="VILFmt" value="Значение: {value}\nИндекс: {index}\nДлина: {length}" revision="0" />
+  <Message key="Control Transfer" value="Передача контрола" revision="0" />
+  <Message key="Setup Packet" value="Пакет настройки" revision="0" />
+  <Message key="UsbRequestFmt" value="Запрос: {id} ({name})\n" revision="0" />
+  <Message key="SchemeBasic" value="Основная" revision="0" />
+  <Message key="Pipe Handle" value="Pipe Handle" revision="0" />
+  <Message key="SchemeComplete" value="Полная" revision="0" />
+  <Message key="SetupPacketFmt" value="Получатель: {recp}\nТип запроса: {type}\nНаправление: {dir}\n" revision="0" />
+  <Message key="UsbDescriptorFmt" value="Тип дескриптора: {name}\nИндекс дескриптора: {index}\nРазмер буфера передачи: {size} байт\n" revision="0" />
+  <Message key="UsbDescriptorLangFmt" value="ID языка: {index}" revision="0" />
+  <Message key="Bulk or Interrupt Transfer" value="Bulk or Interrupt Transfer" revision="0" />
+  <Message key="Get" value="Получить" revision="0" />
+  <Message key="UsbSizeFmt" value="{size} байт" revision="0" />
+  <Message key="from the device" value="от устройства" revision="0" />
+  <Message key="Send" value="Отправить" revision="0" />
+  <Message key="to the device" value="к устройству" revision="0" />
+  <Message key="UsbTransferFmt" value="{operation} {size} байт {dir}" revision="0" />
+  <Message key="Select Configuration" value="Выбрать конфигурацию" revision="0" />
+  <Message key="ConfigurationIndexUnconfigured" value="Индекс конфигурации: &lt;неконфигурировано&gt;\n" revision="0" />
+  <Message key="ConfigurationIndexFmt" value="Индекс конфигурации: {id}\n" revision="0" />
+  <Message key="ConfigurationHandleFmt" value="Конфигурационный хэндл: {handle}" revision="0" />
+  <Message key="Get Status Request" value="Запрос на получение состояния" revision="0" />
+  <Message key="GetStatusFmt" value="Получить состояние от {name}. Размер данных " revision="0" />
+  <Message key="Set Feature Request" value="Установить запрос функции" revision="0" />
+  <Message key="Clear Feature Request" value="Очистить запрос функции" revision="0" />
+  <Message key="FeatureFmt" value="{state} функция {selector} на {endpoint}" revision="0" />
+  <Message key="index" value="Индекс" revision="0" />
+  <Message key="Vendor-Specific Request" value="Вендор-специфичный запорс" revision="0" />
+  <Message key="Class-Specific Request" value="Класс-специфичный запорс" revision="0" />
+  <Message key="ReservedBitsFmt" value="Резервные биты: {count}\nЗапрос: {request}\nЗначение: {value}\n" revision="0" />
+  <Message key="UsbDestinationIndex" value="Назначение: {name}, Индекс {index}\n" revision="0" />
+  <Message key="UsbDestination" value="Назначение: {name}\n" revision="0" />
+  <Message key="Get Configuration Request" value="Запрос на получение конфигурации" revision="0" />
+  <Message key="Get Interface Request" value="Запрос на получение интерфейса" revision="0" />
+  <Message key="InterfaceIndexFmt" value="Индекс интерфейса: {index}\n" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Взять запрос на управление длиной кадра" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Отдать запрос на управление длиной кадра" revision="0" />
+  <Message key="Get Frame Length Request" value="Запрос на получение длины кадра" revision="0" />
+  <Message key="FrameLengthFmt" value="Длина кадра: {length}\nНомер кадра: {number}" revision="0" />
+  <Message key="Set Frame Length Request" value="Запрос на установку длины кадра" revision="0" />
+  <Message key="FrameLengthDeltaFmt" value="Дельта длины кадра: {delta}" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Запрос на получение текущего номера кадра" revision="0" />
+  <Message key="FrameNumberFmt" value="Номер кадра: {frame}" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Устройство: {name}) Состояние: {status}\n" revision="0" />
+  <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Устройство: {name})\n" revision="0" />
+  <Message key="Device Descriptor" value="Дескриптор устройства\n" revision="0" />
+  <Message key="DisplayDescriptorFmt" value="Длина: {length} байт, Спецификация USB: {spec}\nКласс: {class}, Подкласс: {subclass}, Протокол: {protocol}      \nМакс. размер пакета: {size} bytes\nID вендора: {vendor_id} ({vendor_name}), ID продукта: {prod_id}, Версия устройства: {version}\nИзготовитель: {manufacturer}, Продукт: {product}, Серийный Номер: {serial}\nЧисло конфигураций: {num_configs}" revision="0" />
+  <Message key="Configuration Descriptor" value="Конфигурационный дескриптор\n" revision="0" />
+  <Message key="UsbConfigurationDescriptorFmt" value="Длина: {length} байт, Всего длина: {total_len} байт\nЧисло интерфейсов: {num_interfaces}, Описание конфигурации: {config}\n      Атрибуты: {attribs}: {attr1} {attr2} {attr3}\nМакс. мощность: {max_power}" revision="0" />
+  <Message key="Interface Descriptor" value="Дескриптор интерфейса\n" revision="0" />
+  <Message key="InterfaceDescriptorFmt" value="Длина: {length}\nНомер интерфейса: {number}, Альтернативная настройка: {alt_set}\n     Число энд поинтов: {endpoints}\nКласс: {class}, Подкласс: {subclass}, Протокол: {protocol}\nОписание интерфейса: {interface}" revision="0" />
+  <Message key="Endpoint Descriptor" value="Дескриптор энд поинта\n" revision="0" />
+  <Message key="EndpointDescriptorFmt" value="Длина: {length}\nАдрес энд поинта: {addr} ({name})\n     Атрибуты: {attribs} (attr_names)\nМакс. размер пакета: {size} байт\n" revision="0" />
+  <Message key="Interval" value="Интервал: {frames} кадров" revision="0" />
+  <Message key="Isochronous Transfer" value="Изохронная передача" revision="0" />
+  <Message key="IsochTransferFmt" value="\nНачальный кадр: {frame}, Число пакетов: {packets}, Счетчик ошибок: {error}{asap}\n" revision="0" />
+  <Message key="UsbIsochronousTransferFmt" value="Смещение: {offset}, Длина: {length}, Состояние: {status}\n" revision="0" />
+  <Message key="UsbTransferPacketFmt" value="Передача пакета {number}: " revision="0" />
+  <Message key="QueryInterfaceFmt" value="GUID интерфейса: {guid}\nРазмер интерфейса: {size} bytes\nВерсия интерфейса: {version}\nСостояние: {status}\nИнформация: {info}" revision="0" />
+  <Message key="pcktssec" value="пакеты/сек" revision="0" />
+  <Message key="bytessec" value="байт/сек" revision="0" />
+  <Message key="CounterBytesRead" value="Чтение байт/сек" revision="0" />
+  <Message key="CounterBytesWritten" value="Запись байт/сек" revision="0" />
+  <Message key="Unable to retrieve data" value="Невозможно получить данные" revision="0" />
+  <Message key="StartTransferASAP" value=", Начать передачу как можно скорее" revision="0" />
+  <Message key="DeviceQueryTextFmt1" value="Описание: {string}" revision="0" />
+  <Message key="DeviceQueryTextFmt2" value="Расположение: {string}" revision="0" />
+  <Message key="DeviceIDFmt" value="ID устройства: {id}" revision="0" />
+  <Message key="Hardware IDs" value="ID оборудования: " revision="0" />
+  <Message key="Compatible IDs" value="Совместимые ID: " revision="0" />
+  <Message key="InstanceIDFmt" value="ID объекта: {id}" revision="0" />
+  <Message key="SerialNumberFmt" value="Серийный номер: {id}" revision="0" />
+  <Message key="NoStringFmt" value="Строка отсутствует, код ошибки {code}" revision="0" />
+  <Message key="Select Interface" value="Выбор интерфейса" revision="0" />
+  <Message key="EndpointAddressFmt" value="{handle} (Адрес энд поинта: {address})\n" revision="0" />
+  <Message key="UsbConfigurationFmt" value="Хендл конфигурации: {handle}, Номер интерфейса: {interface}, Альтернативная настройка: {alt_set}\n" revision="0" />
+  <Message key="PipeInformationFmt2" value="Макс. размер пакета: {size}\nАдрес энд поинта: {address}\nИнтервал: {interval}\n{transfer_type}\nМакс. размер передачи: {max_size}\n" revision="0" />
+  <Message key="PipeInformationFmt" value="Информация о Pipe (Хендл {handle}, Адрес энд поинта {address})\n" revision="0" />
+  <Message key="InvalidDescriptorStructure" value="Недопустимая структура дескриптора!\n" revision="0" />
+  <Message key="HIDReportDescriptorWarning" value="Дескриптор HID-отчета (используйте HID-визуализатор)" revision="0" />
+  <Message key="HidDescriptorFmt" value="Длина: {length}\nbcdHID: {hid}\nСтрана: {country}\nВсего дескрипторов: {count}\n" revision="0" />
+  <Message key="HidDescriptorReportFmt" value="Тип дескриптора:{type} ({name})\nДлина дескриптора:{length}\n" revision="0" />
+  <Message key="DescriptorFmt" value="Дескриптор {id}:\n" revision="0" />
+  <Message key="HID Descriptor" value="Дескриптор HID\n" revision="0" />
+  <Message key="HIDPhysicalDescriptorWarning" value="Физический HID дескриптор (используйте HID-визуализатор)" revision="0" />
+  <Message key="Reserved Item" value="Резервный элемент" revision="0" />
+  <Message key="PlotVisualizerName" value="Статистика" revision="0" />
+  <Message key="PacketNo" value="Пакет №:" revision="0" />
+  <Message key="PacketsTotalSecDesc" value="Всего пакетов/сек - скорость передачи пакетов в устройство или из него во время операций записи или чтения." revision="0" />
+  <Message key="CounterBytesTransferTotalDesc" value="Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения." revision="0" />
+  <Message key="CounterBytesReadDesc" value="Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения." revision="0" />
+  <Message key="CounterBytesWrittenDesc" value="Запись байт/сек - скорость передачи байтов в устройство при операциях записи." revision="0" />
+  <Message key="IDS_STRING1434" value="Запись пакетов/сек - скорость передачи пакетов в устройство при операциях записи." revision="0" />
+  <Message key="IDS_STRING1435" value="Чтение пакетов/сек - скорость передачи пакетов из устройства при операциях чтения." revision="0" />
+  <Message key="CounterControlTotalDesc" value="Control: Всего байт/сек - скорость передачи байтов в устройство или из него при операциях записи или чтения по управляющему каналу." revision="0" />
+  <Message key="CounterControlReadDesc" value="Control: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по управляющему каналу." revision="0" />
+  <Message key="CounterControlWrittenDesc" value="Control: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по управляющему каналу." revision="0" />
+  <Message key="CounterBulkTotalDesc" value="Bulk: Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения по массовым каналам." revision="0" />
+  <Message key="CounterBulkWrittenDesc" value="Bulk: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по массовым каналам." revision="0" />
+  <Message key="CounterBulkReadDesc" value="Bulk: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по массовым каналам." revision="0" />
+  <Message key="CounterInterruptTotalDesc" value="Прерывание: Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения по каналам прерываний." revision="0" />
+  <Message key="CounterInterruptWrittenDesc" value="Прерывание: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по каналам прерываний." revision="0" />
+  <Message key="CounterInterruptReadDesc" value="Прерывание: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по каналам прерываний." revision="0" />
+  <Message key="CounterIsochronousTotalDesc" value="Isochronous: Всего байт/сек - скорость передачи байтов на устройство или с устройства во время операций записи или чтения по изохронным каналам." revision="0" />
+  <Message key="CounterIsochronousWrittenDesc" value="Isochronous: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по изохронным каналам." revision="0" />
+  <Message key="CounterIsochronousReadDesc" value="Isochronous: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по изохронным каналам." revision="0" />
+  <Message key="CounterPacketsWritten" value="Запись пакетов/сек" revision="0" />
+  <Message key="CounterPacketsRead" value="Чтение пакетов/сек" revision="0" />
+  <Message key="CounterControlTotal" value="Control: Всего байт/сек" revision="0" />
+  <Message key="CounterControlRead" value="Control: Чтение байт/сек" revision="0" />
+  <Message key="CounterControlWritten" value="Control: Запись байтов/сек" revision="0" />
+  <Message key="CounterBulkTotal" value="Bulk: Всего байт/сек" revision="0" />
+  <Message key="CounterBulkWritten" value="Bulk: Запись байт/сек" revision="0" />
+  <Message key="CounterBulkRead" value="Bulk: Чтение байт/сек" revision="0" />
+  <Message key="CounterInterruptTotal" value="Прерывание: Всего байт/сек" revision="0" />
+  <Message key="CounterInterruptWritten" value="Прерывание: Запись байт/сек" revision="0" />
+  <Message key="CounterInterruptRead" value="Прерывание: Чтение байт/сек " revision="0" />
+  <Message key="CounterIsochronousTotal" value="Isochronous: Всего байт/сек" revision="0" />
+  <Message key="CounterIsochronousWritten" value="Isochronous: Запись байт/сек" revision="0" />
+  <Message key="CounterIsochronousRead" value="Isochronous: Чтение байт/сек" revision="0" />
+  <Message key="PipeHandleFmt" value="Энд поинт: {addr}, {type}, {dir}" revision="0" />
+  <Message key="STRINGCONTROL" value="Контрол" revision="0" />
+  <Message key="STRINGISOCHRONOUS" value="Isochonous" revision="0" />
+  <Message key="STRINGBULK" value="Bulk" revision="0" />
+  <Message key="STRINGINTERRUPT" value="Прерывание" revision="0" />
+  <Message key="STRINGINPUT" value="Ввод" revision="0" />
+  <Message key="STRINGOUTPUT" value="Вывод" revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="определение структуры не найдено. Структурный вид не может отобразить какие-либо результаты." revision="0" />
+  <Message key="DevNameFormat" value="endpoint_device_{addr}_{index}" revision="0" />
+  <Message key="IDS_CONTROLPIPE" value="Control Pipe" revision="0" />
+  <Message key="toolbar.UsbDeviceTree" value="Зависимые устройства" revision="0" />
   <Enumeration key="EditCopyDeviceName">
-    <Item />
-    <Item />
+    <Item value="&amp;Копировать имя" revision="0" />
+    <Item value="Скопируйте имя устройства в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditRestartDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Перезапустить" revision="0" />
+    <Item value="Перезапустить выбранное устройство" revision="0" />
   </Enumeration>
   <Enumeration key="EditDeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Свойства…" revision="0" />
+    <Item value="Отображение свойств выбранного устройства" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Дескриптор устройства" revision="0" />
+    <Item value="Конфигурационный дескриптор" revision="0" />
+    <Item value="HID-дескриптор" revision="0" />
   </Enumeration>
   <Enumeration key="CellConverter">
-    <Item />
-    <Item />
+    <Item value="Сырые данные" revision="0" />
+    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Статистика" revision="0" />
+    <Item value="Визуализатор Статистика собирает и отображает статистику и пропускную способность устройства. Рассчитываются и отображаются на линейном графике несколько значений статистики." revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item />
-    <Item />
+    <Item value="Вид URB" revision="0" />
+    <Item value="Визуализатор данных Вид URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="0" />
   </Enumeration>
   <Enumeration key="TableConverter">
-    <Item />
-    <Item />
+    <Item value="Пакетный вид" revision="0" />
+    <Item value="Пакетный визуализатор данных отображает каждый контролируемый пакет в отдельной строке и обеспечивает индивидуальное декодирование пакетов в соответствии с различными форматами и протоколами." revision="0" />
   </Enumeration>
   <Enumeration key="StructureConverter">
-    <Item />
-    <Item />
+    <Item value="Структурный вид" revision="0" />
+    <Item value="Визуализатор данных &quot;Структурный вид&quot; декодирует все данные usb-пакетов, используя определения протоколов, хранящиеся в продукте или предоставленные пользователем." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
-    <Item />
-    <Item />
+    <Item value="Энд поинты" revision="0" />
+    <Item value="USB энд поинты" revision="0" />
   </Enumeration>
   <Enumeration key="VideoView">
-    <Item />
-    <Item />
+    <Item value="Видео (Beta)" revision="0" />
+    <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.5) совместимого устройства." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Дескриптор устройства" revision="0" />
+    <Item value="Конфигурационный дескриптор" revision="0" />
+    <Item value="Строковый дескриптор" revision="0" />
+    <Item value="Дескриптор интерфейса" revision="0" />
+    <Item value="Дескриптор энд поинта" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Тип передачи: Control" revision="0" />
+    <Item value="Тип передачи: Isochronous" revision="0" />
+    <Item value="Тип передачи: Bulk" revision="0" />
+    <Item value="Тип передачи: Прерывание" revision="0" />
+    <Item value="Тип передачи: Неизвестно" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEndpointType">
-    <Item />
-    <Item />
+    <Item value="Ввод" revision="0" />
+    <Item value="Вывод" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestDirection">
-    <Item />
-    <Item />
+    <Item value="Хост-&gt;Устройство" revision="0" />
+    <Item value="Устройство-&gt;Хост" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Стандартный" revision="0" />
+    <Item value="Класс" revision="0" />
+    <Item value="Вендор" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Устройство" revision="0" />
+    <Item value="Интерфейс" revision="0" />
+    <Item value="Другое" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptorType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Устройство" revision="0" />
+    <Item value="Конфигурация" revision="0" />
+    <Item value="Строка" revision="0" />
+    <Item value="HID-дескриптор" revision="0" />
+    <Item value="Дескриптор HID-отчета" revision="0" />
+    <Item value="Дескриптор питания HID" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Пакет №" revision="0" />
+    <Item value="Время" revision="0" />
+    <Item value="Разница времени" revision="0" />
+    <Item value="Направление" revision="0" />
+    <Item value="Состояние" revision="0" />
+    <Item value="Функция" revision="0" />
+    <Item value="Устройство" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
-    <Item />
-    <Item />
+    <Item value="Abort Pipe" revision="0" />
+    <Item value="Reset Pipe" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
-    <Item />
-    <Item />
+    <Item value="Устновить" revision="0" />
+    <Item value="Очистить" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="[Удаленное пробуждение]" revision="0" />
+    <Item value="[Автономное питание]" revision="0" />
+    <Item value="[Питание по шине]" revision="0" />
   </Enumeration>
   <Enumeration key="PnpEventType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Событие PnP: Устройство подключено" revision="0" />
+    <Item value="Событие PnP: Устройство отключено" revision="0" />
+    <Item value="Событие PnP: Внезапное извлечение" revision="0" />
+    <Item value="Событие PnP: Запрос ID" revision="0" />
+    <Item value="Событие PnP: Запрос текста устройства" revision="0" />
+    <Item value="Событие PnP: Запрос интерфейса" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Устройство USB только что было подключено к системе." revision="0" />
+    <Item value="Устройство USB только что было извлечено из системы, все драйверы выгружены." revision="0" />
+    <Item value="Устройство USB только что было отключено от системы." revision="0" />
   </Enumeration>
   <Enumeration key="DeviceQueryType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Запрос ID устройства (BusQueryDeviceID)." revision="0" />
+    <Item value="Запрос ID оборудования (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Запрос идентификаторов совместимости (BusQueryCompatibleIDs)." revision="0" />
+    <Item value="Запрос ID объекта (BusQueryInstanceID)." revision="0" />
+    <Item value="Запрос Серийного Номера (BusQueryDeviceSerialNumber)." revision="0" />
   </Enumeration>
   <Enumeration key="UsbReportTypesList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Неизвестно" revision="0" />
+    <Item value="Отчет" revision="0" />
+    <Item value="Физический" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP: Устройство подключено" revision="0" />
+    <Item value="PnP: Устройство отключено" revision="0" />
+    <Item value="PnP: Внезапное извлечение" revision="0" />
+    <Item value="PnP: Запрос ID " revision="0" />
+    <Item value="PnP: Запрос текста" revision="0" />
+    <Item value="Внутренние: Передача информации по Pipe" revision="0" />
+    <Item value="PnP: Запрос интерфейса" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Универсальный десктоп" revision="0" />
+    <Item value="Симулятор" revision="0" />
+    <Item value="Средства управления VR" revision="0" />
+    <Item value="Средства управления Спорт" revision="0" />
+    <Item value="Средства управления Игры" revision="0" />
+    <Item value="Generic устройство" revision="0" />
+    <Item value="Светодиоды" revision="0" />
+    <Item value="Телефония" revision="0" />
+    <Item value="Клавиатура" revision="0" />
+    <Item value="Кнопки" revision="0" />
+    <Item value="Ординаты" revision="0" />
+    <Item value="Страница потребителя" revision="0" />
+    <Item value="Дигитайзеры" revision="0" />
+    <Item value="Юникод" revision="0" />
+    <Item value="Страница буквенно-цифрового дисплея" revision="0" />
+    <Item value="Медицинские инструменты" revision="0" />
+    <Item value="Физические устройства" revision="0" />
+    <Item value="Силовые устройства" revision="0" />
+    <Item value="Батарея" revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Отображать пустые пакеты" revision="0" />
+    <Item value="Отображение считываемые пакеты" revision="0" />
+    <Item value="Отображать записываемые пакеты" revision="0" />
   </Enumeration>
   <Enumeration key="RequestsCat">
     <Item />
@@ -214,14 +357,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbRawColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Бинарные данные" revision="0" />
+    <Item value="Чтение: Заголовок" revision="0" />
+    <Item value="Чтение: Текст" revision="0" />
+    <Item value="Чтение: Бинарные данные" revision="0" />
+    <Item value="Запись: Заголовок" revision="0" />
+    <Item value="Запись: Текст" revision="0" />
+    <Item value="Запись: Бинарные данные" revision="0" />
   </Enumeration>
 </Language>
