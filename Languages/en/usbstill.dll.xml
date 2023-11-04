@@ -5,9 +5,9 @@
 		<Item text="Still Image/MTP View data visualizer decodes USB Still Image/MTP protocol for devices belonging to the Still Image/MTP class."/>
 	</Enumeration>
 
-	<message optional="true" key="PIMA Commands" description="Filter page: PIMA Commands" value="PIMA Commands"/>
-	<message optional="true" key="PIMA Types" description="Filter page: Block Types" value="Block Types"/>
-	<message optional="true" key="MTP Commands" description="Filter page: MTP Commands" value="MTP Commands"/>
+	<Message optional="true" key="PIMA Commands" description="Filter page: PIMA Commands" value="PIMA Commands"/>
+	<Message optional="true" key="PIMA Types" description="Filter page: Block Types" value="Block Types"/>
+	<Message optional="true" key="MTP Commands" description="Filter page: MTP Commands" value="MTP Commands"/>
 
 	<Enumeration optional="true" key="BlockTypesCat" description="Filters: Block types">
 		<Item text="Command Block"/>
@@ -56,42 +56,42 @@
 		<Item text="SetObjectReferences"/>
 		<Item text="Skip"/>
 	</Enumeration>
-	<message optional="true" key="Still Image/MTP" description="Scheme name: Still Image/MTP" value="Still Image/MTP"/>
-	<message optional="true" key="UsbStillHeader" description="Header: USB still packet header" value="{ordinal}: {header} ({dir}), {time}">
+	<Message optional="true" key="Still Image/MTP" description="Scheme name: Still Image/MTP" value="Still Image/MTP"/>
+	<Message optional="true" key="UsbStillHeader" description="Header: USB still packet header" value="{ordinal}: {header} ({dir}), {time}">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="header"/>
 		<Param name="dir"/>
 		<Param name="time"/>
 	</Message>
 
-	<message optional="true" key="Still Image device detected." description="Value: Still Image device detected." value="Still Image device detected."/>
-	<message optional="true" key="Device Class" description="Field: Device Class" value="Device Class"/>
-	<message optional="true" key="Subclass" description="Field: Subclass" value="Subclass"/>
-	<message optional="true" key="StillImage" description="Value: StillImage" value="StillImage"/>
-	<message optional="true" key="Still Image Capture" description="Value: Still Image Capture" value="Still Image Capture"/>
-	<message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
-	<message optional="true" key="Bulk-Only" description="Value: Bulk-Only" value="Bulk-Only"/>
-	<message optional="true" key="Bulk Transfer" description="Header: Bulk Transfer" value="Bulk Transfer"/>
-	<message optional="true" key="Undefined Block" description="Field: Undefined Block" value="Undefined Block"/>
-	<message optional="true" key="Name" description="Field: Name" value="Name"/>
-	<message optional="true" key="Container Length" description="Field: Container Length" value="Container Length"/>
+	<Message optional="true" key="Still Image device detected." description="Value: Still Image device detected." value="Still Image device detected."/>
+	<Message optional="true" key="Device Class" description="Field: Device Class" value="Device Class"/>
+	<Message optional="true" key="Subclass" description="Field: Subclass" value="Subclass"/>
+	<Message optional="true" key="StillImage" description="Value: StillImage" value="StillImage"/>
+	<Message optional="true" key="Still Image Capture" description="Value: Still Image Capture" value="Still Image Capture"/>
+	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
+	<Message optional="true" key="Bulk-Only" description="Value: Bulk-Only" value="Bulk-Only"/>
+	<Message optional="true" key="Bulk Transfer" description="Header: Bulk Transfer" value="Bulk Transfer"/>
+	<Message optional="true" key="Undefined Block" description="Field: Undefined Block" value="Undefined Block"/>
+	<Message optional="true" key="Name" description="Field: Name" value="Name"/>
+	<Message optional="true" key="Container Length" description="Field: Container Length" value="Container Length"/>
 
-	<message optional="true" key="UsbPimalHeader" description="Header: USB PIMA packet header" value="{ordinal}: {desc}\n">
+	<Message optional="true" key="UsbPimalHeader" description="Header: USB PIMA packet header" value="{ordinal}: {desc}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="desc"/>
 	</Message>
 
-	<message optional="true" key="PIMA 15740:2000 block" description="Header: PIMA 15740:2000 block" value="PIMA 15740:2000 block"/>
-	<message optional="true" key="No command" description="Field: No command" value="No command"/>
-	<message optional="true" key="Generic Contrainer" description="Field: Generic Contrainer" value="Generic Contrainer"/>
-	<message optional="true" key="Command Block" description="Field: Command Block" value="Command Block"/>
-	<message optional="true" key="Data Block" description="Field: Data Block" value="Data Block"/>
-	<message optional="true" key="Response Block" description="Field: Response Block" value="Response Block"/>
-	<message optional="true" key="Event Block" description="Field: Event Block" value="Event Block"/>
-	<message optional="true" key="In BIG-ENDIAN format" description="Value: In BIG-ENDIAN format" value="In BIG-ENDIAN format"/>
-	<message optional="true" key="Transaction ID" description="Field: Transaction ID" value="Transaction ID"/>
-	<message optional="true" key="Command code" description="Field: Command code" value="Command code"/>
-	<message optional="true" key="Command name" description="Field: Command name" value="Command name"/>
+	<Message optional="true" key="PIMA 15740:2000 block" description="Header: PIMA 15740:2000 block" value="PIMA 15740:2000 block"/>
+	<Message optional="true" key="No command" description="Field: No command" value="No command"/>
+	<Message optional="true" key="Generic Contrainer" description="Field: Generic Contrainer" value="Generic Contrainer"/>
+	<Message optional="true" key="Command Block" description="Field: Command Block" value="Command Block"/>
+	<Message optional="true" key="Data Block" description="Field: Data Block" value="Data Block"/>
+	<Message optional="true" key="Response Block" description="Field: Response Block" value="Response Block"/>
+	<Message optional="true" key="Event Block" description="Field: Event Block" value="Event Block"/>
+	<Message optional="true" key="In BIG-ENDIAN format" description="Value: In BIG-ENDIAN format" value="In BIG-ENDIAN format"/>
+	<Message optional="true" key="Transaction ID" description="Field: Transaction ID" value="Transaction ID"/>
+	<Message optional="true" key="Command code" description="Field: Command code" value="Command code"/>
+	<Message optional="true" key="Command name" description="Field: Command name" value="Command name"/>
 
 	<Enumeration optional="true" key="UsbPIMACommandCodes" description="USB PIMA Command Codes list">
 		<Item text="Undefined command"/>
@@ -124,9 +124,9 @@
 		<Item text="InitiateOpenCapture"/>
 	</Enumeration>
 
-	<message optional="true" key="Response Code" description="Field: Response Code" value="Response Code"/>
-	<message optional="true" key="Reserved" description="Value: Reserved" value="Reserved"/>
-	<message optional="true" key="Vendor-Specific" description="Value: Vendor-Specific" value="Vendor-Specific"/>
+	<Message optional="true" key="Response Code" description="Field: Response Code" value="Response Code"/>
+	<Message optional="true" key="Reserved" description="Value: Reserved" value="Reserved"/>
+	<Message optional="true" key="Vendor-Specific" description="Value: Vendor-Specific" value="Vendor-Specific"/>
 
 	<Enumeration optional="true" key="UsbStillPimaResponseCodes" description="USB Still PIMA Response Codes list">
 		<Item text="Undefined"/>
@@ -164,7 +164,7 @@
 		<Item text="Specifiaction Of Destination Unsupported"/>
 	</Enumeration>
 
-	<message optional="true" key="Event" description="Field: Event" value="Event"/>
+	<Message optional="true" key="Event" description="Field: Event" value="Event"/>
 
 	<Enumeration optional="true" key="UsbPIMAEventAUX" description="USB PIMA Event Codes list">
 		<Item text="Undefined"/>
@@ -184,51 +184,51 @@
 		<Item text="UnreportedStatus"/>
 	</Enumeration>
 
-	<message optional="true" key="DeviceInfo" description="Value: DeviceInfo" value="DeviceInfo"/>
-	<message optional="true" key="ObjectInfo" description="Value: ObjectInfo" value="ObjectInfo"/>
-	<message optional="true" key="StorageInfo" description="Value: StorageInfo" value="StorageInfo"/>
-	<message optional="true" key="Dataset" description="Field: Dataset" value="Dataset"/>
-	<message optional="true" key="Standard Version" description="Field: Standard Version" value="Standard Version"/>
-	<message optional="true" key="Vendor Extension ID" description="Field: Vendor Extension ID" value="Vendor Extension ID"/>
-	<message optional="true" key="Vendor Extension Version" description="Field: Vendor Extension Version" value="Vendor Extension Version"/>
-	<message optional="true" key="VendorExtensionDesc" description="Field: VendorExtensionDesc" value="VendorExtensionDesc"/>
-	<message optional="true" key="Functional Mode" description="Field: Functional Mode" value="Functional Mode"/>
-	<message optional="true" key="Operations Supported" description="Field: Operations Supported" value="Operations Supported"/>
-	<message optional="true" key="OP" description="Field: OP" value="OP"/>
+	<Message optional="true" key="DeviceInfo" description="Value: DeviceInfo" value="DeviceInfo"/>
+	<Message optional="true" key="ObjectInfo" description="Value: ObjectInfo" value="ObjectInfo"/>
+	<Message optional="true" key="StorageInfo" description="Value: StorageInfo" value="StorageInfo"/>
+	<Message optional="true" key="Dataset" description="Field: Dataset" value="Dataset"/>
+	<Message optional="true" key="Standard Version" description="Field: Standard Version" value="Standard Version"/>
+	<Message optional="true" key="Vendor Extension ID" description="Field: Vendor Extension ID" value="Vendor Extension ID"/>
+	<Message optional="true" key="Vendor Extension Version" description="Field: Vendor Extension Version" value="Vendor Extension Version"/>
+	<Message optional="true" key="VendorExtensionDesc" description="Field: VendorExtensionDesc" value="VendorExtensionDesc"/>
+	<Message optional="true" key="Functional Mode" description="Field: Functional Mode" value="Functional Mode"/>
+	<Message optional="true" key="Operations Supported" description="Field: Operations Supported" value="Operations Supported"/>
+	<Message optional="true" key="OP" description="Field: OP" value="OP"/>
 
-	<message optional="true" key="No String" description="Value: No String" value="No String"/>
-	<message optional="true" key="No Elements" description="Value: No Elements" value="No Elements"/>
-	<message optional="true" key="Events Supported" description="Field: Events Supported" value="Events Supported"/>
-	<message optional="true" key="EV" description="Field: EV" value="EV"/>
-	<message optional="true" key="Device Properties Supported" description="Field: Device Properties Supported" value="Device Properties Supported"/>
-	<message optional="true" key="PropCode" description="Field: PropCode" value="PropCode"/>
-	<message optional="true" key="Capture Formats" description="Field: Capture Formats" value="Capture Formats"/>
-	<message optional="true" key="FMT" description="Field: FMT" value="FMT"/>
-	<message optional="true" key="Image Formats" description="Field: Image Formats" value="Image Formats"/>
-	<message optional="true" key="Manufacturer" description="Field: Manufacturer" value="Manufacturer"/>
-	<message optional="true" key="Model" description="Field: Model" value="Model"/>
-	<message optional="true" key="Device Version" description="Field: Device Version" value="Device Version"/>
-	<message optional="true" key="Serial Number" description="Field: Serial Number" value="Serial Number"/>
-	<message optional="true" key="Storage ID" description="Field: Storage ID" value="Storage ID"/>
-	<message optional="true" key="Object Format" description="Field: Object Format" value="Object Format"/>
-	<message optional="true" key="Protection Status" description="Field: Protection Status" value="Protection Status"/>
-	<message optional="true" key="Object Compressed Size" description="Field: Object Compressed Size" value="Object Compressed Size"/>
-	<message optional="true" key="Thumb Format" description="Field: Thumb Format" value="Thumb Format"/>
-	<message optional="true" key="Thumb Compressed Size" description="Field: Thumb Compressed Size" value="Thumb Compressed Size"/>
-	<message optional="true" key="Thumb PixWidth" description="Field: Thumb PixWidth" value="Thumb PixWidth"/>
-	<message optional="true" key="Thumb PixHeight" description="Field: Thumb PixHeight" value="Thumb PixHeight"/>
-	<message optional="true" key="Image PixWidth" description="Field: Image PixWidth" value="Image PixWidth"/>
-	<message optional="true" key="Image PixHeight" description="Field: Image PixHeight" value="Image PixHeight"/>
-	<message optional="true" key="Image BitDepth" description="Field: Image BitDepth" value="Image BitDepth"/>
-	<message optional="true" key="Parent Object" description="Field: Parent Object" value="Parent Object"/>
-	<message optional="true" key="Association Type" description="Field: Association Type" value="Association Type"/>
-	<message optional="true" key="Association Desc" description="Field: Association Desc" value="Association Desc"/>
-	<message optional="true" key="Sequence Number" description="Field: Sequence Number" value="Sequence Number"/>
-	<message optional="true" key="Filename" description="Field: Filename" value="Filename"/>
-	<message optional="true" key="Capture Date" description="Field: Capture Date" value="Capture Date"/>
-	<message optional="true" key="Modification Date" description="Field: Modification Date" value="Modification Date"/>
-	<message optional="true" key="Keywords" description="Field: Keywords" value="Keywords"/>
-	<message optional="true" key="Storage Type" description="Field: Storage Type" value="Storage Type"/>
+	<Message optional="true" key="No String" description="Value: No String" value="No String"/>
+	<Message optional="true" key="No Elements" description="Value: No Elements" value="No Elements"/>
+	<Message optional="true" key="Events Supported" description="Field: Events Supported" value="Events Supported"/>
+	<Message optional="true" key="EV" description="Field: EV" value="EV"/>
+	<Message optional="true" key="Device Properties Supported" description="Field: Device Properties Supported" value="Device Properties Supported"/>
+	<Message optional="true" key="PropCode" description="Field: PropCode" value="PropCode"/>
+	<Message optional="true" key="Capture Formats" description="Field: Capture Formats" value="Capture Formats"/>
+	<Message optional="true" key="FMT" description="Field: FMT" value="FMT"/>
+	<Message optional="true" key="Image Formats" description="Field: Image Formats" value="Image Formats"/>
+	<Message optional="true" key="Manufacturer" description="Field: Manufacturer" value="Manufacturer"/>
+	<Message optional="true" key="Model" description="Field: Model" value="Model"/>
+	<Message optional="true" key="Device Version" description="Field: Device Version" value="Device Version"/>
+	<Message optional="true" key="Serial Number" description="Field: Serial Number" value="Serial Number"/>
+	<Message optional="true" key="Storage ID" description="Field: Storage ID" value="Storage ID"/>
+	<Message optional="true" key="Object Format" description="Field: Object Format" value="Object Format"/>
+	<Message optional="true" key="Protection Status" description="Field: Protection Status" value="Protection Status"/>
+	<Message optional="true" key="Object Compressed Size" description="Field: Object Compressed Size" value="Object Compressed Size"/>
+	<Message optional="true" key="Thumb Format" description="Field: Thumb Format" value="Thumb Format"/>
+	<Message optional="true" key="Thumb Compressed Size" description="Field: Thumb Compressed Size" value="Thumb Compressed Size"/>
+	<Message optional="true" key="Thumb PixWidth" description="Field: Thumb PixWidth" value="Thumb PixWidth"/>
+	<Message optional="true" key="Thumb PixHeight" description="Field: Thumb PixHeight" value="Thumb PixHeight"/>
+	<Message optional="true" key="Image PixWidth" description="Field: Image PixWidth" value="Image PixWidth"/>
+	<Message optional="true" key="Image PixHeight" description="Field: Image PixHeight" value="Image PixHeight"/>
+	<Message optional="true" key="Image BitDepth" description="Field: Image BitDepth" value="Image BitDepth"/>
+	<Message optional="true" key="Parent Object" description="Field: Parent Object" value="Parent Object"/>
+	<Message optional="true" key="Association Type" description="Field: Association Type" value="Association Type"/>
+	<Message optional="true" key="Association Desc" description="Field: Association Desc" value="Association Desc"/>
+	<Message optional="true" key="Sequence Number" description="Field: Sequence Number" value="Sequence Number"/>
+	<Message optional="true" key="Filename" description="Field: Filename" value="Filename"/>
+	<Message optional="true" key="Capture Date" description="Field: Capture Date" value="Capture Date"/>
+	<Message optional="true" key="Modification Date" description="Field: Modification Date" value="Modification Date"/>
+	<Message optional="true" key="Keywords" description="Field: Keywords" value="Keywords"/>
+	<Message optional="true" key="Storage Type" description="Field: Storage Type" value="Storage Type"/>
 
 	<Enumeration optional="true" key="UsbStillStorageType" description="USB Still Storage Types list">
 		<Item text="Undefined"/>
@@ -245,8 +245,8 @@
 		<Item text="DCF"/>
 	</Enumeration>
 
-	<message optional="true" key="Filesystem Type" description="Field: Filesystem Type" value="Filesystem Type"/>
-	<message optional="true" key="Access Capability" description="Field: Access Capability" value="Access Capability"/>
+	<Message optional="true" key="Filesystem Type" description="Field: Filesystem Type" value="Filesystem Type"/>
+	<Message optional="true" key="Access Capability" description="Field: Access Capability" value="Access Capability"/>
 
 	<Enumeration optional="true" key="UsbStillAccessCapability" description="USB Still Access Capabilities list">
 		<Item text="Read-Write"/>
@@ -254,10 +254,10 @@
 		<Item text="Read-only with object deletion"/>
 	</Enumeration>
 
-	<message optional="true" key="Max Capacity" description="Field: Max Capacity" value="Max Capacity"/>
-	<message optional="true" key="Free Space (in bytes)" description="Field: Free Space (in bytes)" value="Free Space (in bytes)"/>
-	<message optional="true" key="Storage Desciptor" description="Field: Storage Desciptor" value="Storage Desciptor"/>
-	<message optional="true" key="Volume Label" description="Field: Volume Label" value="Volume Label"/>
+	<Message optional="true" key="Max Capacity" description="Field: Max Capacity" value="Max Capacity"/>
+	<Message optional="true" key="Free Space (in bytes)" description="Field: Free Space (in bytes)" value="Free Space (in bytes)"/>
+	<Message optional="true" key="Storage Desciptor" description="Field: Storage Desciptor" value="Storage Desciptor"/>
+	<Message optional="true" key="Volume Label" description="Field: Volume Label" value="Volume Label"/>
 
 	<Enumeration optional="true" key="UsbStillFileExtList2" description="USB Still File Extensions list">
 		<Item text="Undefined"/>
@@ -341,29 +341,29 @@
 		<Item text="Copyright Info"/>
 	</Enumeration>
 
-	<message optional="true" key="Storage IDs" description="Field: Storage IDs" value="Storage IDs"/>
-	<message optional="true" key="ID" description="Field: ID" value="ID"/>
-	<message optional="true" key="Session ID" description="Field: Session ID" value="Session ID"/>
-	<message optional="true" key="Object Handle" description="Field: Object Handle" value="Object Handle"/>
-	<message optional="true" key="Object Format Code" description="Field: Object Format Code" value="Object Format Code"/>
-	<message optional="true" key="FileSystem Format" description="Field: FileSystem Format" value="FileSystem Format"/>
-	<message optional="true" key="SelfTest Type" description="Field: SelfTest Type" value="SelfTest Type"/>
-	<message optional="true" key="SetDevicePropValue" description="Value: SetDevicePropValue" value="SetDevicePropValue"/>
-	<message optional="true" key="Object Handle (of new ParentObject)" description="Field: Object Handle (of new ParentObject)" value="Object Handle (of new ParentObject)"/>
-	<message optional="true" key="Offset (in bytes)" description="Field: Offset (in bytes)" value="Offset (in bytes)"/>
-	<message optional="true" key="Maximum number (in bytes) to obtain" description="Field: Maximum number (in bytes) to obtain" value="Maximum number (in bytes) to obtain"/>
-	<message optional="true" key="Object Handles" description="Field: Object Handles" value="Object Handles"/>
-	<message optional="true" key="Destination Storage ID on Responder" description="Field: Destination Storage ID on Responder" value="Destination Storage ID on Responder"/>
-	<message optional="true" key="Parent Object Handle on Responder" description="Field: Parent Object Handle on Responder" value="Parent Object Handle on Responder"/>
-	<message optional="true" key="Data Object" description="Field: Data Object" value="Data Object"/>
-	<message optional="true" key="Size" description="Field: Size" value="Size"/>
-	<message optional="true" key="DATA" description="Field: DATA" value="DATA"/>
-	<message optional="true" key="Thumbnail Object" description="Field: Thumbnail Object" value="Thumbnail Object"/>
-	<message optional="true" key="Actual number of bytes sent" description="Field: Actual number of bytes sent" value="Actual number of bytes sent"/>
-	<message optional="true" key="Responder StorageID" description="Field: Responder StorageID" value="Responder StorageID"/>
-	<message optional="true" key="Responder Parent ObjectHandle" description="Field: Responder Parent ObjectHandle" value="Responder Parent ObjectHandle"/>
-	<message optional="true" key="Responder reserved ObjectHandle" description="Field: Responder reserved ObjectHandle" value="Responder reserved ObjectHandle"/>
-	<message optional="true" key="Num Of Objects" description="Field: Num Of Objects" value="Num Of Objects"/>
+	<Message optional="true" key="Storage IDs" description="Field: Storage IDs" value="Storage IDs"/>
+	<Message optional="true" key="ID" description="Field: ID" value="ID"/>
+	<Message optional="true" key="Session ID" description="Field: Session ID" value="Session ID"/>
+	<Message optional="true" key="Object Handle" description="Field: Object Handle" value="Object Handle"/>
+	<Message optional="true" key="Object Format Code" description="Field: Object Format Code" value="Object Format Code"/>
+	<Message optional="true" key="FileSystem Format" description="Field: FileSystem Format" value="FileSystem Format"/>
+	<Message optional="true" key="SelfTest Type" description="Field: SelfTest Type" value="SelfTest Type"/>
+	<Message optional="true" key="SetDevicePropValue" description="Value: SetDevicePropValue" value="SetDevicePropValue"/>
+	<Message optional="true" key="Object Handle (of new ParentObject)" description="Field: Object Handle (of new ParentObject)" value="Object Handle (of new ParentObject)"/>
+	<Message optional="true" key="Offset (in bytes)" description="Field: Offset (in bytes)" value="Offset (in bytes)"/>
+	<Message optional="true" key="Maximum number (in bytes) to obtain" description="Field: Maximum number (in bytes) to obtain" value="Maximum number (in bytes) to obtain"/>
+	<Message optional="true" key="Object Handles" description="Field: Object Handles" value="Object Handles"/>
+	<Message optional="true" key="Destination Storage ID on Responder" description="Field: Destination Storage ID on Responder" value="Destination Storage ID on Responder"/>
+	<Message optional="true" key="Parent Object Handle on Responder" description="Field: Parent Object Handle on Responder" value="Parent Object Handle on Responder"/>
+	<Message optional="true" key="Data Object" description="Field: Data Object" value="Data Object"/>
+	<Message optional="true" key="Size" description="Field: Size" value="Size"/>
+	<Message optional="true" key="DATA" description="Field: DATA" value="DATA"/>
+	<Message optional="true" key="Thumbnail Object" description="Field: Thumbnail Object" value="Thumbnail Object"/>
+	<Message optional="true" key="Actual number of bytes sent" description="Field: Actual number of bytes sent" value="Actual number of bytes sent"/>
+	<Message optional="true" key="Responder StorageID" description="Field: Responder StorageID" value="Responder StorageID"/>
+	<Message optional="true" key="Responder Parent ObjectHandle" description="Field: Responder Parent ObjectHandle" value="Responder Parent ObjectHandle"/>
+	<Message optional="true" key="Responder reserved ObjectHandle" description="Field: Responder reserved ObjectHandle" value="Responder reserved ObjectHandle"/>
+	<Message optional="true" key="Num Of Objects" description="Field: Num Of Objects" value="Num Of Objects"/>
 
 	<Enumeration optional="true" key="UsbStillDataTypes" description="USB Still Data Types list">
 		<Item text="INT8"/>
@@ -388,12 +388,12 @@
 		<Item text="AUINT128"/>
 	</Enumeration>
 
-	<message optional="true" key="Data Type" description="Value: Data Type" value="Data Type"/>
-	<message optional="true" key="String" description="Value: String" value="String"/>
-	<message optional="true" key="Get/Set" description="Field: Get/Set" value="Get/Set"/>
-	<message optional="true" key="Factory Default Value" description="Field: Factory Default Value" value="Factory Default Value"/>
-	<message optional="true" key="Current Value" description="Field: Current Value" value="Current Value"/>
-	<message optional="true" key="Form Flag" description="Field: Form Flag" value="Form Flag"/>
+	<Message optional="true" key="Data Type" description="Value: Data Type" value="Data Type"/>
+	<Message optional="true" key="String" description="Value: String" value="String"/>
+	<Message optional="true" key="Get/Set" description="Field: Get/Set" value="Get/Set"/>
+	<Message optional="true" key="Factory Default Value" description="Field: Factory Default Value" value="Factory Default Value"/>
+	<Message optional="true" key="Current Value" description="Field: Current Value" value="Current Value"/>
+	<Message optional="true" key="Form Flag" description="Field: Form Flag" value="Form Flag"/>
 
 	<Enumeration optional="true" key="UsbStillFormFlag" description="USB Still Form Flags list">
 		<Item text="None"/>
@@ -402,26 +402,26 @@
 		<Item text="Unknown"/>
 	</Enumeration>
 
-	<message optional="true" key="Free Space (in images)" description="Field: Free Space (in images)" value="Free Space (in images)"/>
-	<message optional="true" key="Free Space (Images)" description="Field: Free Space (Images)" value="Free Space (Images)"/>
-	<message optional="true" key="ResetSetup Device Specific Request" description="Field: ResetSetup Device Specific Request" value="ResetSetup Device Specific Request"/>
-	<message optional="true" key="Get Device Status Setup Device Specific Request" description="Field: Get Device Status Setup Device Specific Request" value="Get Device Status Setup Device Specific Request"/>
-	<message optional="true" key="Get Event Setup Device Specific Request" description="Field: Get Event Setup Device Specific Request" value="Get Event Setup Device Specific Request"/>
-	<message optional="true" key="Cancel Setup Device Specific Request" description="Field: Cancel Setup Device Specific Request" value="Cancel Setup Device Specific Request"/>
-	<message optional="true" key="Cancellation Code" description="Field: Cancellation Code" value="Cancellation Code"/>
-	<message optional="true" key="Param" description="Field: Param" value="Param"/>
-	<message optional="true" key="Interrupt handled" description="Value: Interrupt handled" value="Interrupt handled"/>
-	<message optional="true" key="Data for Interrupt Request is sent" description="Value: Data for Interrupt Request is sent" value="Data for Interrupt Request is sent"/>
-	<message optional="true" key="Interrupt is not successful" description="Value: Interrupt is not successful" value="Interrupt is not successful"/>
-	<message optional="true" key="Unknown Data" description="Value: Unknown Data" value="Unknown Data"/>
-	<message optional="true" key="PARSING FAILED!!!" description="Message: PARSING FAILED!!!" value="PARSING FAILED!!!"/>
-	<message optional="true" key="Minimum Value" description="Field: Minimum Value" value="Minimum Value"/>
-	<message optional="true" key="Maximum Value" description="Field: Maximum Value" value="Maximum Value"/>
-	<message optional="true" key="Step Size" description="Field: Step Size" value="Step Size"/>
-	<message optional="true" key="Supported Value" description="Field: Supported Value" value="Supported Value"/>
-	<message optional="true" key="Device Detected." description="Value: Device Detected." value="Device Detected."/>
-	<message optional="true" key="WARNING: unsupported device type." description="Warning: WARNING: unsupported device type." value="WARNING: unsupported device type."/>
-	<message optional="true" key="This data block is no longer valid." description="Value: This data block is no longer valid." value="This data block is no longer valid."/>
+	<Message optional="true" key="Free Space (in images)" description="Field: Free Space (in images)" value="Free Space (in images)"/>
+	<Message optional="true" key="Free Space (Images)" description="Field: Free Space (Images)" value="Free Space (Images)"/>
+	<Message optional="true" key="ResetSetup Device Specific Request" description="Field: ResetSetup Device Specific Request" value="ResetSetup Device Specific Request"/>
+	<Message optional="true" key="Get Device Status Setup Device Specific Request" description="Field: Get Device Status Setup Device Specific Request" value="Get Device Status Setup Device Specific Request"/>
+	<Message optional="true" key="Get Event Setup Device Specific Request" description="Field: Get Event Setup Device Specific Request" value="Get Event Setup Device Specific Request"/>
+	<Message optional="true" key="Cancel Setup Device Specific Request" description="Field: Cancel Setup Device Specific Request" value="Cancel Setup Device Specific Request"/>
+	<Message optional="true" key="Cancellation Code" description="Field: Cancellation Code" value="Cancellation Code"/>
+	<Message optional="true" key="Param" description="Field: Param" value="Param"/>
+	<Message optional="true" key="Interrupt handled" description="Value: Interrupt handled" value="Interrupt handled"/>
+	<Message optional="true" key="Data for Interrupt Request is sent" description="Value: Data for Interrupt Request is sent" value="Data for Interrupt Request is sent"/>
+	<Message optional="true" key="Interrupt is not successful" description="Value: Interrupt is not successful" value="Interrupt is not successful"/>
+	<Message optional="true" key="Unknown Data" description="Value: Unknown Data" value="Unknown Data"/>
+	<Message optional="true" key="PARSING FAILED!!!" description="Message: PARSING FAILED!!!" value="PARSING FAILED!!!"/>
+	<Message optional="true" key="Minimum Value" description="Field: Minimum Value" value="Minimum Value"/>
+	<Message optional="true" key="Maximum Value" description="Field: Maximum Value" value="Maximum Value"/>
+	<Message optional="true" key="Step Size" description="Field: Step Size" value="Step Size"/>
+	<Message optional="true" key="Supported Value" description="Field: Supported Value" value="Supported Value"/>
+	<Message optional="true" key="Device Detected." description="Value: Device Detected." value="Device Detected."/>
+	<Message optional="true" key="WARNING: unsupported device type." description="Warning: WARNING: unsupported device type." value="WARNING: unsupported device type."/>
+	<Message optional="true" key="This data block is no longer valid." description="Value: This data block is no longer valid." value="This data block is no longer valid."/>
 
 	<Enumeration optional="true" key="UsbStillMtpCommandCodes" description="USB Command Codes list">
 		<Item text="GetObjectPropsSupported (MTP)"/>
@@ -451,14 +451,14 @@
 		<Item text="ObjectReferencesChanged (MTP)"/>
 	</Enumeration>
 
-	<message optional="true" key="ObjectFormatCode" description="Field: ObjectFormatCode" value="ObjectFormatCode"/>
-	<message optional="true" key="ObjectPropCode" description="Field: ObjectPropCode" value="ObjectPropCode"/>
-	<message optional="true" key="ObjectHandle" description="Field: ObjectHandle" value="ObjectHandle"/>
-	<message optional="true" key="SkipIndex" description="Field: SkipIndex" value="SkipIndex"/>
-	<message optional="true" key="ObjectCode" description="Field: ObjectCode" value="ObjectCode"/>
-	<message optional="true" key="ObjectPropCodes" description="Field: ObjectPropCodes" value="ObjectPropCodes"/>
-	<message optional="true" key="ObjectPropValue" description="Field: ObjectPropValue" value="ObjectPropValue"/>
-	<message optional="true" key="Unknown command code" description="Value: Unknown command code" value="Unknown command code"/>
+	<Message optional="true" key="ObjectFormatCode" description="Field: ObjectFormatCode" value="ObjectFormatCode"/>
+	<Message optional="true" key="ObjectPropCode" description="Field: ObjectPropCode" value="ObjectPropCode"/>
+	<Message optional="true" key="ObjectHandle" description="Field: ObjectHandle" value="ObjectHandle"/>
+	<Message optional="true" key="SkipIndex" description="Field: SkipIndex" value="SkipIndex"/>
+	<Message optional="true" key="ObjectCode" description="Field: ObjectCode" value="ObjectCode"/>
+	<Message optional="true" key="ObjectPropCodes" description="Field: ObjectPropCodes" value="ObjectPropCodes"/>
+	<Message optional="true" key="ObjectPropValue" description="Field: ObjectPropValue" value="ObjectPropValue"/>
+	<Message optional="true" key="Unknown command code" description="Value: Unknown command code" value="Unknown command code"/>
 
 	<Enumeration key="UsbStillColors" description="Colors: USB Still Image View">
 		<Item text="Header"/>

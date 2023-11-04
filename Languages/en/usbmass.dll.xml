@@ -5,10 +5,10 @@
 		<Item text="Mass Storage View data visualizer decodes USB Mass Storage protocol for devices belonging to the Mass Storage class"/>
 	</Enumeration>
 
-	<message optional="true" key="SPC2 Commands" description="Filter page: SPC2 Commands"/>
-	<message optional="true" key="MMC Commands" description="Filter page: MMC Commands"/>
-	<message optional="true" key="RBC Commands" description="Filter page: RBC Commands"/>
-	<message optional="true" key="Types" description="Filter page: Command/Block Types" value="Command/Block Types"/>
+	<Message optional="true" key="SPC2 Commands" description="Filter page: SPC2 Commands"/>
+	<Message optional="true" key="MMC Commands" description="Filter page: MMC Commands"/>
+	<Message optional="true" key="RBC Commands" description="Filter page: RBC Commands"/>
+	<Message optional="true" key="Types" description="Filter page: Command/Block Types" value="Command/Block Types"/>
 
 	<Enumeration optional="true" key="SPCCommandsCat" description="Filters: SPC2 Commands">
 		<Item text="TEST_UNIT_READY (0x00)"/>
@@ -318,241 +318,241 @@
 		<Item text="FAILED SEGMENT DETAILS"/>
 	</Enumeration>
 
-	<message optional="true" key="Subclass" description="Field: Subclass" value="Subclass"/>
-	<message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
-	<message optional="true" key="Scope" description="Field: Scope" value="Scope"/>
-	<message key="operate independantly" description="Value: operate independantly" value="Each interface within configuration specifies it's own class information and various interfaces operate independently"/>
-	<message key="Device supports different class specifications" description="Message: Device supports different class specifications" value="Device supports different class specifications on different interfaces and interfaces may not operate independently"/>
-	<message key="Device Class" description="Field: Device Class" value="Device Class"/>
-	<message optional="true" key="Command Block Wrapper" description="Header: Command Block Wrapper" value="Command Block Wrapper"/>
-	<message optional="true" key="Unsupported Bulk Transfer" description="Header: Unsupported Bulk Transfer" value="Unsupported Bulk Transfer"/>
-	<message optional="true" key="Command" description="Field: Command" value="Command"/>
-	<message optional="true" key="No data" description="Value: No data" value="No data"/>
-	<message optional="true" key="Expect" description="Field: Expect" value="Expect"/>
-	<message optional="true" key="LUN" description="Field: LUN" value="LUN"/>
-	<message optional="true" key="Command Status Wrapper" description="Header: Command Status Wrapper" value="Command Status Wrapper"/>
-	<message optional="true" key="Data Residue" description="Field: Data Residue" value="Data Residue"/>
-	<message optional="true" key="Returned Tag" description="Field: Returned Tag" value="Returned Tag"/>
-	<message optional="true" key="Tag" description="Field: Tag" value="Tag"/>
-	<message optional="true" key="Status" description="Field: Status" value="Status"/>
-	<message optional="true" key="HintTagText" description="Hint: Tag field hint text" value="Device shall echo TAG to associate CSW with corresponding CBW"/>
-	<message optional="true" key="CSWDataResidue" description="Value: CSWDataResidue" value="Difference between the amount of data expected and the actual ammount of data processed by the device"/>
-	<message optional="true" key="Mass Storage Reset" description="Header: Mass Storage Reset" value="Mass Storage Reset"/>
-	<message optional="true" key="Get Max LUN" description="Header: Get Max LUN" value="Get Max LUN"/>
-	<message optional="true" key="Connected Device" description="Field: Connected Device" value="Connected Device"/>
+	<Message optional="true" key="Subclass" description="Field: Subclass" value="Subclass"/>
+	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
+	<Message optional="true" key="Scope" description="Field: Scope" value="Scope"/>
+	<Message key="operate independantly" description="Value: operate independantly" value="Each interface within configuration specifies it's own class information and various interfaces operate independently"/>
+	<Message key="Device supports different class specifications" description="Message: Device supports different class specifications" value="Device supports different class specifications on different interfaces and interfaces may not operate independently"/>
+	<Message key="Device Class" description="Field: Device Class" value="Device Class"/>
+	<Message optional="true" key="Command Block Wrapper" description="Header: Command Block Wrapper" value="Command Block Wrapper"/>
+	<Message optional="true" key="Unsupported Bulk Transfer" description="Header: Unsupported Bulk Transfer" value="Unsupported Bulk Transfer"/>
+	<Message optional="true" key="Command" description="Field: Command" value="Command"/>
+	<Message optional="true" key="No data" description="Value: No data" value="No data"/>
+	<Message optional="true" key="Expect" description="Field: Expect" value="Expect"/>
+	<Message optional="true" key="LUN" description="Field: LUN" value="LUN"/>
+	<Message optional="true" key="Command Status Wrapper" description="Header: Command Status Wrapper" value="Command Status Wrapper"/>
+	<Message optional="true" key="Data Residue" description="Field: Data Residue" value="Data Residue"/>
+	<Message optional="true" key="Returned Tag" description="Field: Returned Tag" value="Returned Tag"/>
+	<Message optional="true" key="Tag" description="Field: Tag" value="Tag"/>
+	<Message optional="true" key="Status" description="Field: Status" value="Status"/>
+	<Message optional="true" key="HintTagText" description="Hint: Tag field hint text" value="Device shall echo TAG to associate CSW with corresponding CBW"/>
+	<Message optional="true" key="CSWDataResidue" description="Value: CSWDataResidue" value="Difference between the amount of data expected and the actual ammount of data processed by the device"/>
+	<Message optional="true" key="Mass Storage Reset" description="Header: Mass Storage Reset" value="Mass Storage Reset"/>
+	<Message optional="true" key="Get Max LUN" description="Header: Get Max LUN" value="Get Max LUN"/>
+	<Message optional="true" key="Connected Device" description="Field: Connected Device" value="Connected Device"/>
 
-	<message optional="true" key="Interface NumberFmt" description="Field: Interface Number" value="Interface Number: {number}">
+	<Message optional="true" key="Interface NumberFmt" description="Field: Interface Number" value="Interface Number: {number}">
 		<Param name ="number"/>
 	</Message>
 
-	<message optional="true" key="READ CAPACITY (MMC)" description="Name: READ CAPACITY (MMC)" value="READ CAPACITY (MMC)"/>
-	<message optional="true" key="MODE SENSE (6 bytes)" description="Name: MODE SENSE (6 bytes)" value="MODE SENSE (6 bytes)"/>
-	<message optional="true" key="MODE SENSE (10 bytes)" description="Name: MODE SENSE (10 bytes)" value="MODE SENSE (10 bytes)"/>
-	<message optional="true" key="INQUIRY" description="Name: INQUIRY" value="INQUIRY"/>
-	<message optional="true" key="READ (10 bytes)" description="Name: READ (10 bytes)" value="READ (10 bytes)"/>
-	<message optional="true" key="MODE SELECT (6 bytes)" description="Name: MODE SELECT (6 bytes)" value="MODE SELECT (6 bytes)"/>
-	<message optional="true" key="MODE SELECT (10 bytes)" description="Name: MODE SELECT (10 bytes)" value="MODE SELECT (10 bytes)"/>
-	<message optional="true" key="PERSISTENT RESERVE IN" description="Name: PERSISTENT RESERVE IN" value="PERSISTENT RESERVE IN"/>
-	<message optional="true" key="PERSISTENT RESERVE OUT" description="Name: PERSISTENT RESERVE OUT" value="PERSISTENT RESERVE OUT"/>
-	<message optional="true" key="PREVENT ALLOW MEDIUM REMOVAL" description="Name: PREVENT ALLOW MEDIUM REMOVAL" value="PREVENT ALLOW MEDIUM REMOVAL"/>
-	<message optional="true" key="EXTENDED COPY" description="Name: EXTENDED COPY" value="EXTENDED COPY"/>
-	<message optional="true" key="LOG SELECT" description="Name: LOG SELECT" value="LOG SELECT"/>
-	<message optional="true" key="LOG SENSE" description="Name: LOG SENSE" value="LOG SENSE"/>
-	<message optional="true" key="READ BUFFER" description="Name: READ BUFFER" value="READ BUFFER"/>
-	<message optional="true" key="RECEIVE COPY RESULTS" description="Name: RECEIVE COPY RESULTS" value="RECEIVE COPY RESULTS"/>
-	<message optional="true" key="RECEIVE DIAGNOSTIC RESULTS" description="Name: RECEIVE DIAGNOSTIC RESULTS" value="RECEIVE DIAGNOSTIC RESULTS"/>
-	<message optional="true" key="REPORT DEVICE IDENTIFIER" description="Name: REPORT DEVICE IDENTIFIER" value="REPORT DEVICE IDENTIFIER"/>
-	<message optional="true" key="RELEASE (6 bytes)" description="Name: RELEASE (6 bytes)" value="RELEASE (6 bytes)"/>
-	<message optional="true" key="REPORT LUNS" description="Name: REPORT LUNS" value="REPORT LUNS"/>
-	<message optional="true" key="REQUEST SENSE" description="Name: REQUEST SENSE" value="REQUEST SENSE"/>
-	<message optional="true" key="RESERVE (10 bytes)" description="Name: RESERVE (10 bytes)" value="RESERVE (10 bytes)"/>
-	<message optional="true" key="RESERVE (6 bytes)" description="Name: RESERVE (6 bytes)" value="RESERVE (6 bytes)"/>
-	<message optional="true" key="SEND DIAGNOSTIC" description="Name: SEND DIAGNOSTIC" value="SEND DIAGNOSTIC"/>
-	<message optional="true" key="SET DEVICE IDENTIFIER" description="Name: SET DEVICE IDENTIFIER" value="SET DEVICE IDENTIFIER"/>
-	<message optional="true" key="TEST UNIT READY" description="Name: TEST UNIT READY" value="TEST UNIT READY"/>
-	<message optional="true" key="WRITE BUFFER" description="Name: WRITE BUFFER" value="WRITE BUFFER"/>
-	<message optional="true" key="BLANK (MMC)" description="Name: BLANK (MMC)" value="BLANK (MMC)"/>
-	<message optional="true" key="CLOSE TRACK/SESSION (MMC)" description="Name: CLOSE TRACK/SESSION (MMC)" value="CLOSE TRACK/SESSION (MMC)"/>
-	<message optional="true" key="FORMAT UNIT (MMC)" description="Field: FORMAT UNIT (MMC)" value="FORMAT UNIT (MMC)"/>
-	<message optional="true" key="GET CONFIGURATION (MMC)" description="Name: GET CONFIGURATION (MMC)" value="GET CONFIGURATION (MMC)"/>
-	<message optional="true" key="GET PERFORMANCE (MMC)" description="Name: GET PERFORMANCE (MMC)" value="GET PERFORMANCE (MMC)"/>
-	<message optional="true" key="LOAD/UNLOAD MEDIUM (MMC)" description="Name: LOAD/UNLOAD MEDIUM (MMC)" value="LOAD/UNLOAD MEDIUM (MMC)"/>
-	<message optional="true" key="MECHANISM STATUS (MMC)" description="Name: MECHANISM STATUS (MMC)" value="MECHANISM STATUS (MMC)"/>
-	<message optional="true" key="PAUSE/RESUME (MMC)" description="Name: PAUSE/RESUME (MMC)" value="PAUSE/RESUME (MMC)"/>
-	<message optional="true" key="PLAY AUDIO (MMC) (10 bytes)" description="Name: PLAY AUDIO (MMC) (10 bytes)" value="PLAY AUDIO (MMC) (10 bytes)"/>
-	<message optional="true" key="PLAY AUDIO (MMC) (12 bytes)" description="Name: PLAY AUDIO (MMC) (12 bytes)" value="PLAY AUDIO (MMC) (12 bytes)"/>
-	<message optional="true" key="PLAY AUDIO MSF (MMC)" description="Name: PLAY AUDIO MSF (MMC)" value="PLAY AUDIO MSF (MMC)"/>
-	<message optional="true" key="READ CD (MMC)" description="Name: READ CD (MMC)" value="READ CD (MMC)"/>
-	<message optional="true" key="READ CD MSF (MMC)" description="Name: READ CD MSF (MMC)" value="READ CD MSF (MMC)"/>
-	<message optional="true" key="READ DISC INFORMATION (MMC)" description="Name: READ DISC INFORMATION (MMC)" value="READ DISC INFORMATION (MMC)"/>
-	<message optional="true" key="READ DVD STRUCTURE (MMC)" description="Name: READ DVD STRUCTURE (MMC)" value="READ DVD STRUCTURE (MMC)"/>
-	<message optional="true" key="READ HEADER (MMC)" description="Name: READ HEADER (MMC)" value="READ HEADER (MMC)"/>
-	<message optional="true" key="READ MASTER CUE (MMC)" description="Name: READ MASTER CUE (MMC)" value="READ MASTER CUE (MMC)"/>
-	<message optional="true" key="READ SUB-CHANEL (MMC)" description="Name: READ SUB-CHANEL (MMC)" value="READ SUB-CHANEL (MMC)"/>
-	<message optional="true" key="READ TOC/PMA/ATIP (MMC)" description="Name: READ TOC/PMA/ATIP (MMC)" value="READ TOC/PMA/ATIP (MMC)"/>
-	<message optional="true" key="READ TRACK INFO (MMC)" description="Name: READ TRACK INFO (MMC)" value="READ TRACK INFO (MMC)"/>
-	<message optional="true" key="REPORT KEY (MMC)" description="Name: REPORT KEY (MMC)" value="REPORT KEY (MMC)"/>
-	<message optional="true" key="RESERVE TRACK (MMC)" description="Name: RESERVE TRACK (MMC)" value="RESERVE TRACK (MMC)"/>
-	<message optional="true" key="WRITE AND VERIFY (MMC)" description="Name: WRITE AND VERIFY (MMC)" value="WRITE AND VERIFY (MMC)"/>
-	<message optional="true" key="SEND CUE SHEET (MMC)" description="Name: SEND CUE SHEET (MMC)" value="SEND CUE SHEET (MMC)"/>
-	<message optional="true" key="SCAN (MMC)" description="Name: SCAN (MMC)" value="SCAN (MMC)"/>
-	<message optional="true" key="SEND DVD STRUCTURE (MMC)" description="Name: SEND DVD STRUCTURE (MMC)" value="SEND DVD STRUCTURE (MMC)"/>
-	<message optional="true" key="SEND EVENT (MMC)" description="Name: SEND EVENT (MMC)" value="SEND EVENT (MMC)"/>
-	<message optional="true" key="SEND KEY (MMC)" description="Name: SEND KEY (MMC)" value="SEND KEY (MMC)"/>
-	<message optional="true" key="SET READ AHEAD (MMC)" description="SET READ AHEAD (MMC)" value="SET READ AHEAD (MMC)"/>
-	<message optional="true" key="SET STREAMING (MMC)" description="SET STREAMING (MMC)" value="SET STREAMING (MMC)"/>
-	<message optional="true" key="STOP PLAY/SCAN (MMC)" description="STOP PLAY/SCAN (MMC)" value="STOP PLAY/SCAN (MMC)"/>
-	<message optional="true" key="SYNCRONIZE CACHE (mmc3 implementation)" description="Name: SYNCRONIZE CACHE (mmc3 implementation)" value="SYNCRONIZE CACHE (mmc3 implementation)"/>
-	<message optional="true" key="FORMAT UNIT (RBC)" description="Name: FORMAT UNIT (RBC)" value="FORMAT UNIT (RBC)"/>
-	<message optional="true" key="WRITE (10 bytes)" description="Name: WRITE (10 bytes)" value="WRITE (10 bytes)"/>
-	<message optional="true" key="READ (12 bytes)" description="Name: READ (12 bytes)" value="READ (12 bytes)"/>
-	<message optional="true" key="START STOP UNIT CDB" description="Name: START STOP UNIT CDB" value="START STOP UNIT CDB"/>
-	<message optional="true" key="GET EVENT/STATUS" description="Name: GET EVENT/STATUS" value="GET EVENT/STATUS"/>
-	<message optional="true" key="ERASE (10 bytes)" description="Value: ERASE (10 bytes)" value="ERASE (10 bytes)"/>
-	<message optional="true" key="READ FORMAT CAPACITIES (MMC)" description="Name: READ FORMAT CAPACITIES (MMC)" value="READ FORMAT CAPACITIES (MMC)"/>
-	<message optional="true" key="READ BUFFER CAPACITY (MMC)" description="Name: READ BUFFER CAPACITY (MMC)" value="READ BUFFER CAPACITY (MMC)"/>
-	<message optional="true" key="SET CD SPEED (MMC)" description="Name: SET CD SPEED (MMC)" value="SET CD SPEED (MMC)"/>
-	<message optional="true" key="REPAIR TRACK (MMC)" description="Name: REPAIR TRACK (MMC)" value="REPAIR TRACK (MMC)"/>
-	<message optional="true" key="VERIFY (10 bytes)" description="Name: VERIFY (10 bytes)" value="VERIFY (10 bytes)"/>
-	<message optional="true" key="VERIFY (12 bytes)" description="Name: VERIFY (12 bytes)" value="VERIFY (12 bytes)"/>
-	<message optional="true" key="COMPARE" description="Name: COMPARE" value="COMPARE"/>
+	<Message optional="true" key="READ CAPACITY (MMC)" description="Name: READ CAPACITY (MMC)" value="READ CAPACITY (MMC)"/>
+	<Message optional="true" key="MODE SENSE (6 bytes)" description="Name: MODE SENSE (6 bytes)" value="MODE SENSE (6 bytes)"/>
+	<Message optional="true" key="MODE SENSE (10 bytes)" description="Name: MODE SENSE (10 bytes)" value="MODE SENSE (10 bytes)"/>
+	<Message optional="true" key="INQUIRY" description="Name: INQUIRY" value="INQUIRY"/>
+	<Message optional="true" key="READ (10 bytes)" description="Name: READ (10 bytes)" value="READ (10 bytes)"/>
+	<Message optional="true" key="MODE SELECT (6 bytes)" description="Name: MODE SELECT (6 bytes)" value="MODE SELECT (6 bytes)"/>
+	<Message optional="true" key="MODE SELECT (10 bytes)" description="Name: MODE SELECT (10 bytes)" value="MODE SELECT (10 bytes)"/>
+	<Message optional="true" key="PERSISTENT RESERVE IN" description="Name: PERSISTENT RESERVE IN" value="PERSISTENT RESERVE IN"/>
+	<Message optional="true" key="PERSISTENT RESERVE OUT" description="Name: PERSISTENT RESERVE OUT" value="PERSISTENT RESERVE OUT"/>
+	<Message optional="true" key="PREVENT ALLOW MEDIUM REMOVAL" description="Name: PREVENT ALLOW MEDIUM REMOVAL" value="PREVENT ALLOW MEDIUM REMOVAL"/>
+	<Message optional="true" key="EXTENDED COPY" description="Name: EXTENDED COPY" value="EXTENDED COPY"/>
+	<Message optional="true" key="LOG SELECT" description="Name: LOG SELECT" value="LOG SELECT"/>
+	<Message optional="true" key="LOG SENSE" description="Name: LOG SENSE" value="LOG SENSE"/>
+	<Message optional="true" key="READ BUFFER" description="Name: READ BUFFER" value="READ BUFFER"/>
+	<Message optional="true" key="RECEIVE COPY RESULTS" description="Name: RECEIVE COPY RESULTS" value="RECEIVE COPY RESULTS"/>
+	<Message optional="true" key="RECEIVE DIAGNOSTIC RESULTS" description="Name: RECEIVE DIAGNOSTIC RESULTS" value="RECEIVE DIAGNOSTIC RESULTS"/>
+	<Message optional="true" key="REPORT DEVICE IDENTIFIER" description="Name: REPORT DEVICE IDENTIFIER" value="REPORT DEVICE IDENTIFIER"/>
+	<Message optional="true" key="RELEASE (6 bytes)" description="Name: RELEASE (6 bytes)" value="RELEASE (6 bytes)"/>
+	<Message optional="true" key="REPORT LUNS" description="Name: REPORT LUNS" value="REPORT LUNS"/>
+	<Message optional="true" key="REQUEST SENSE" description="Name: REQUEST SENSE" value="REQUEST SENSE"/>
+	<Message optional="true" key="RESERVE (10 bytes)" description="Name: RESERVE (10 bytes)" value="RESERVE (10 bytes)"/>
+	<Message optional="true" key="RESERVE (6 bytes)" description="Name: RESERVE (6 bytes)" value="RESERVE (6 bytes)"/>
+	<Message optional="true" key="SEND DIAGNOSTIC" description="Name: SEND DIAGNOSTIC" value="SEND DIAGNOSTIC"/>
+	<Message optional="true" key="SET DEVICE IDENTIFIER" description="Name: SET DEVICE IDENTIFIER" value="SET DEVICE IDENTIFIER"/>
+	<Message optional="true" key="TEST UNIT READY" description="Name: TEST UNIT READY" value="TEST UNIT READY"/>
+	<Message optional="true" key="WRITE BUFFER" description="Name: WRITE BUFFER" value="WRITE BUFFER"/>
+	<Message optional="true" key="BLANK (MMC)" description="Name: BLANK (MMC)" value="BLANK (MMC)"/>
+	<Message optional="true" key="CLOSE TRACK/SESSION (MMC)" description="Name: CLOSE TRACK/SESSION (MMC)" value="CLOSE TRACK/SESSION (MMC)"/>
+	<Message optional="true" key="FORMAT UNIT (MMC)" description="Field: FORMAT UNIT (MMC)" value="FORMAT UNIT (MMC)"/>
+	<Message optional="true" key="GET CONFIGURATION (MMC)" description="Name: GET CONFIGURATION (MMC)" value="GET CONFIGURATION (MMC)"/>
+	<Message optional="true" key="GET PERFORMANCE (MMC)" description="Name: GET PERFORMANCE (MMC)" value="GET PERFORMANCE (MMC)"/>
+	<Message optional="true" key="LOAD/UNLOAD MEDIUM (MMC)" description="Name: LOAD/UNLOAD MEDIUM (MMC)" value="LOAD/UNLOAD MEDIUM (MMC)"/>
+	<Message optional="true" key="MECHANISM STATUS (MMC)" description="Name: MECHANISM STATUS (MMC)" value="MECHANISM STATUS (MMC)"/>
+	<Message optional="true" key="PAUSE/RESUME (MMC)" description="Name: PAUSE/RESUME (MMC)" value="PAUSE/RESUME (MMC)"/>
+	<Message optional="true" key="PLAY AUDIO (MMC) (10 bytes)" description="Name: PLAY AUDIO (MMC) (10 bytes)" value="PLAY AUDIO (MMC) (10 bytes)"/>
+	<Message optional="true" key="PLAY AUDIO (MMC) (12 bytes)" description="Name: PLAY AUDIO (MMC) (12 bytes)" value="PLAY AUDIO (MMC) (12 bytes)"/>
+	<Message optional="true" key="PLAY AUDIO MSF (MMC)" description="Name: PLAY AUDIO MSF (MMC)" value="PLAY AUDIO MSF (MMC)"/>
+	<Message optional="true" key="READ CD (MMC)" description="Name: READ CD (MMC)" value="READ CD (MMC)"/>
+	<Message optional="true" key="READ CD MSF (MMC)" description="Name: READ CD MSF (MMC)" value="READ CD MSF (MMC)"/>
+	<Message optional="true" key="READ DISC INFORMATION (MMC)" description="Name: READ DISC INFORMATION (MMC)" value="READ DISC INFORMATION (MMC)"/>
+	<Message optional="true" key="READ DVD STRUCTURE (MMC)" description="Name: READ DVD STRUCTURE (MMC)" value="READ DVD STRUCTURE (MMC)"/>
+	<Message optional="true" key="READ HEADER (MMC)" description="Name: READ HEADER (MMC)" value="READ HEADER (MMC)"/>
+	<Message optional="true" key="READ MASTER CUE (MMC)" description="Name: READ MASTER CUE (MMC)" value="READ MASTER CUE (MMC)"/>
+	<Message optional="true" key="READ SUB-CHANEL (MMC)" description="Name: READ SUB-CHANEL (MMC)" value="READ SUB-CHANEL (MMC)"/>
+	<Message optional="true" key="READ TOC/PMA/ATIP (MMC)" description="Name: READ TOC/PMA/ATIP (MMC)" value="READ TOC/PMA/ATIP (MMC)"/>
+	<Message optional="true" key="READ TRACK INFO (MMC)" description="Name: READ TRACK INFO (MMC)" value="READ TRACK INFO (MMC)"/>
+	<Message optional="true" key="REPORT KEY (MMC)" description="Name: REPORT KEY (MMC)" value="REPORT KEY (MMC)"/>
+	<Message optional="true" key="RESERVE TRACK (MMC)" description="Name: RESERVE TRACK (MMC)" value="RESERVE TRACK (MMC)"/>
+	<Message optional="true" key="WRITE AND VERIFY (MMC)" description="Name: WRITE AND VERIFY (MMC)" value="WRITE AND VERIFY (MMC)"/>
+	<Message optional="true" key="SEND CUE SHEET (MMC)" description="Name: SEND CUE SHEET (MMC)" value="SEND CUE SHEET (MMC)"/>
+	<Message optional="true" key="SCAN (MMC)" description="Name: SCAN (MMC)" value="SCAN (MMC)"/>
+	<Message optional="true" key="SEND DVD STRUCTURE (MMC)" description="Name: SEND DVD STRUCTURE (MMC)" value="SEND DVD STRUCTURE (MMC)"/>
+	<Message optional="true" key="SEND EVENT (MMC)" description="Name: SEND EVENT (MMC)" value="SEND EVENT (MMC)"/>
+	<Message optional="true" key="SEND KEY (MMC)" description="Name: SEND KEY (MMC)" value="SEND KEY (MMC)"/>
+	<Message optional="true" key="SET READ AHEAD (MMC)" description="SET READ AHEAD (MMC)" value="SET READ AHEAD (MMC)"/>
+	<Message optional="true" key="SET STREAMING (MMC)" description="SET STREAMING (MMC)" value="SET STREAMING (MMC)"/>
+	<Message optional="true" key="STOP PLAY/SCAN (MMC)" description="STOP PLAY/SCAN (MMC)" value="STOP PLAY/SCAN (MMC)"/>
+	<Message optional="true" key="SYNCRONIZE CACHE (mmc3 implementation)" description="Name: SYNCRONIZE CACHE (mmc3 implementation)" value="SYNCRONIZE CACHE (mmc3 implementation)"/>
+	<Message optional="true" key="FORMAT UNIT (RBC)" description="Name: FORMAT UNIT (RBC)" value="FORMAT UNIT (RBC)"/>
+	<Message optional="true" key="WRITE (10 bytes)" description="Name: WRITE (10 bytes)" value="WRITE (10 bytes)"/>
+	<Message optional="true" key="READ (12 bytes)" description="Name: READ (12 bytes)" value="READ (12 bytes)"/>
+	<Message optional="true" key="START STOP UNIT CDB" description="Name: START STOP UNIT CDB" value="START STOP UNIT CDB"/>
+	<Message optional="true" key="GET EVENT/STATUS" description="Name: GET EVENT/STATUS" value="GET EVENT/STATUS"/>
+	<Message optional="true" key="ERASE (10 bytes)" description="Value: ERASE (10 bytes)" value="ERASE (10 bytes)"/>
+	<Message optional="true" key="READ FORMAT CAPACITIES (MMC)" description="Name: READ FORMAT CAPACITIES (MMC)" value="READ FORMAT CAPACITIES (MMC)"/>
+	<Message optional="true" key="READ BUFFER CAPACITY (MMC)" description="Name: READ BUFFER CAPACITY (MMC)" value="READ BUFFER CAPACITY (MMC)"/>
+	<Message optional="true" key="SET CD SPEED (MMC)" description="Name: SET CD SPEED (MMC)" value="SET CD SPEED (MMC)"/>
+	<Message optional="true" key="REPAIR TRACK (MMC)" description="Name: REPAIR TRACK (MMC)" value="REPAIR TRACK (MMC)"/>
+	<Message optional="true" key="VERIFY (10 bytes)" description="Name: VERIFY (10 bytes)" value="VERIFY (10 bytes)"/>
+	<Message optional="true" key="VERIFY (12 bytes)" description="Name: VERIFY (12 bytes)" value="VERIFY (12 bytes)"/>
+	<Message optional="true" key="COMPARE" description="Name: COMPARE" value="COMPARE"/>
 
 
-	<message optional="true" key="NotSupportedPacket" description="Text: Not Supported Packet" value="Can't parse packet. Unsupported set of commands."/>
-	<message optional="true" key="LUNHintText" description="Hint: LUN Hint Text" value="Logical Unit Number. Each device could have multiple LUNs"/>
-	<message optional="true" key="Expected Data Received" description="Header: Expected Data Received" value="Expected Data Received"/>
-	<message optional="true" key="Size" description="Field: Size" value="Size"/>
-	<message optional="true" key="No Command" description="Value: No Command" value="No Command"/>
-	<message optional="true" key="Opcode" description="Field: Opcode" value="Opcode"/>
-	<message optional="true" key="Name" description="Field: Name" value="Name"/>
-	<message optional="true" key="Unknown Command" description="Value: Unknown Command" value="Unknown Command"/>
-	<message optional="true" key="Page or OPCODE" description="Field: Page or OPCODE" value="Page or OPCODE"/>
-	<message optional="true" key="Allocation Length" description="Field: Allocation Length" value="Allocation Length"/>
-	<message optional="true" key="Control" description="Field: Control" value="Control"/>
-	<message optional="true" key="Logical Block Address" description="Field: Logical Block Address" value="Logical Block Address"/>
-	<message optional="true" key="Disable Block Descriptor" description="Field: Disable Block Descriptor" value="Disable Block Descriptor"/>
-	<message optional="true" key="Page Control" description="Field: Page Control" value="Page Control"/>
-	<message optional="true" key="Page Code" description="Field: Page Code" value="Page Code"/>
-	<message optional="true" key="Command Support Data" description="Field: Command Support Data" value="Command Support Data"/>
-	<message optional="true" key="Enable Vital Product Data" description="Field: Enable Vital Product Data" value="Enable Vital Product Data"/>
-	<message optional="true" key="Long LBA Accepted" description="Field: Long LBA Accepted" value="Long LBA Accepted"/>
-	<message optional="true" key="Transfer Length" description="Field: Transfer Length" value="Transfer Length"/>
-	<message optional="true" key="Parameter List Length" description="Field: Parameter List Length" value="Parameter List Length"/>
-	<message optional="true" key="Save Parameters" description="Field: Save Parameters" value="Save Parameters"/>
-	<message optional="true" key="Parameter Code Reset" description="Field: Parameter Code Reset" value="Parameter Code Reset"/>
-	<message optional="true" key="Parameter Pointer Control" description="Field: Parameter Pointer Control" value="Parameter Pointer Control"/>
-	<message optional="true" key="Parameter Pointer" description="Field: Parameter Pointer" value="Parameter Pointer"/>
-	<message optional="true" key="Allocator Length" description="Field: Allocator Length" value="Allocator Length"/>
-	<message optional="true" key="Page Format" description="Field: Page Format" value="Page Format"/>
-	<message optional="true" key="Save Pages" description="Field: Save Pages" value="Save Pages"/>
-	<message optional="true" key="Removal" description="Field: Removal" value="Removal"/>
-	<message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
-	<message optional="true" key="Buffer Offset" description="Field: Buffer Offset" value="Buffer Offset"/>
-	<message optional="true" key="Buffer ID" description="Field: Buffer ID" value="Buffer ID"/>
-	<message optional="true" key="List ID" description="Field: List ID" value="List ID"/>
-	<message optional="true" key="Service Action" description="Field: Service Action" value="Service Action"/>
-	<message optional="true" key="Page Code Valid" description="Field: Page Code Valid" value="Page Code Valid"/>
-	<message optional="true" key="Third-Party Device ID" description="Field: Third-Party Device ID" value="Third-Party Device ID"/>
-	<message optional="true" key="LongID" description="Field: LongID" value="LongID"/>
-	<message optional="true" key="3rdPty" description="Field: 3rdPty" value="3rdPty"/>
-	<message optional="true" key="Restricted" description="Field: Restricted" value="Restricted"/>
-	<message optional="true" key="Restricted bit" description="Field: Restricted bit" value="Restricted bit"/>
-	<message optional="true" key="Type" description="Field: Type" value="Type"/>
-	<message optional="true" key="UnitOffL" description="Field: UnitOffL" value="UnitOffL"/>
-	<message optional="true" key="DevOffL" description="Field: DevOffL" value="DevOffL"/>
-	<message optional="true" key="SelfTest" description="Field: SelfTest" value="SelfTest"/>
-	<message optional="true" key="Parameters are vendor-specific" description="Field: Parameters are vendor-specific" value="Parameters are vendor-specific"/>
-	<message optional="true" key="Self-Test Code" description="Field: Self-Test Code" value="Self-Test Code"/>
-	<message optional="true" key="Start Address/Track Number" description="Field: Start Address/Track Number" value="Start Address/Track Number"/>
-	<message optional="true" key="IMMED" description="Field: IMMED" value="IMMED"/>
-	<message optional="true" key="Blanking Type" description="Field: Blanking Type" value="Blanking Type"/>
-	<message optional="true" key="Track Number" description="Field: Track Number" value="Track Number"/>
-	<message optional="true" key="Track" description="Field: Track" value="Track"/>
-	<message optional="true" key="Session" description="Field: Session" value="Session"/>
-	<message optional="true" key="Interleave value" description="Field: Interleave value" value="Interleave value"/>
-	<message optional="true" key="CmpList" description="Field: CmpList" value="CmpList"/>
-	<message optional="true" key="FmtData" description="Field: FmtData" value="FmtData"/>
-	<message optional="true" key="Format Code" description="Field: Format Code" value="Format Code"/>
-	<message optional="true" key="Starting Feature Number" description="Field: Starting Feature Number" value="Starting Feature Number"/>
-	<message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
-	<message optional="true" key="Maximum Number Of Descriptors" description="Field: Maximum Number Of Descriptors" value="Maximum Number Of Descriptors"/>
-	<message optional="true" key="Starting LBA" description="Field: Starting LBA" value="Starting LBA"/>
-	<message optional="true" key="Except" description="Field: Except" value="Except"/>
-	<message optional="true" key="Write" description="Field: Write" value="Write"/>
-	<message optional="true" key="Tolerance" description="Field: Tolerance" value="Tolerance"/>
-	<message optional="true" key="UsbMassDescriptorException" description="Message: Descriptor exception" value="Descriptors shall have 10% tolerance for nominal performance and 20% for excpetion list"/>
-	<message optional="true" key="Slot" description="Field: Slot" value="Slot"/>
-	<message optional="true" key="Start" description="Field: Start" value="Start"/>
-	<message optional="true" key="LoUnlo" description="Field: LoUnlo" value="LoUnlo"/>
-	<message optional="true" key="Resume" description="Field: Resume" value="Resume"/>
-	<message optional="true" key="RELADR" description="Field: RELADR" value="RELADR"/>
-	<message optional="true" key="Starting LBA Address" description="Field: Starting LBA Address" value="Starting LBA Address"/>
-	<message optional="true" key="Play Length" description="Field: Play Length" value="Play Length"/>
-	<message optional="true" key="Starting M Field" description="Field: Starting M Field" value="Starting M Field"/>
-	<message optional="true" key="Starting S Field" description="Field: Starting S Field" value="Starting S Field"/>
-	<message optional="true" key="Starting F Field" description="Field: Starting F Field" value="Starting F Field"/>
-	<message optional="true" key="Ending M Field" description="Field: Ending M Field" value="Ending M Field"/>
-	<message optional="true" key="Ending S Field" description="Field: Ending S Field" value="Ending S Field"/>
-	<message optional="true" key="Ending F Field" description="Field: Ending F Field" value="Ending F Field"/>
-	<message optional="true" key="Play Length in Blocks" description="Field: Play Length in Blocks" value="Play Length in Blocks"/>
-	<message optional="true" key="CMSF" description="Field: CMSF" value="CMSF"/>
-	<message optional="true" key="Audio" description="Field: Audio" value="Audio"/>
-	<message optional="true" key="Composite" description="Field: Composite" value="Composite"/>
-	<message optional="true" key="Port1" description="Field: Port1" value="Port1"/>
-	<message optional="true" key="Port2" description="Field: Port2" value="Port2"/>
-	<message optional="true" key="Speed" description="Field: Speed" value="Speed"/>
-	<message optional="true" key="Expected Sector Type" description="Field: Expected Sector Type" value="Expected Sector Type"/>
-	<message optional="true" key="EDC&amp;ECC" description="Field: EDC&amp;ECC" value="EDC&amp;ECC"/>
-	<message optional="true" key="User Data" description="Field: User Data" value="User Data"/>
-	<message optional="true" key="SYNC" description="Field: SYNC" value="SYNC"/>
-	<message optional="true" key="Sub Chanel Selection" description="Field: Sub Chanel Selection" value="Sub Chanel Selection"/>
-	<message optional="true" key="Error Field" description="Field: Error Field" value="Error Field"/>
-	<message optional="true" key="Header Codes" description="Field: Header Codes" value="Header Codes"/>
-	<message optional="true" key="Sheet Number" description="Field: Sheet Number" value="Sheet Number"/>
-	<message optional="true" key="Address" description="Field: Address" value="Address"/>
-	<message optional="true" key="Layer Number" description="Field: Layer Number" value="Layer Number"/>
-	<message optional="true" key="Format" description="Field: Format" value="Format"/>
-	<message optional="true" key="AGID" description="Field: AGID" value="AGID"/>
-	<message optional="true" key="MSF" description="Field: MSF" value="MSF"/>
-	<message optional="true" key="SUBQ" description="Field: SUBQ" value="SUBQ"/>
-	<message optional="true" key="LBA/ Track/Session Number" description="Field: LBA/ Track/Session Number" value="LBA/ Track/Session Number"/>
-	<message optional="true" key="Address/Number type" description="Field: Address/Number type" value="Address/Number type"/>
-	<message optional="true" key="Key format" description="Field: Key format" value="Key format"/>
-	<message optional="true" key="Reservation Size" description="Field: Reservation Size" value="Reservation Size"/>
-	<message optional="true" key="Scan Starting Address" description="Field: Scan Starting Address" value="Scan Starting Address"/>
-	<message optional="true" key="Direct" description="Field: Direct" value="Direct"/>
-	<message optional="true" key="Cue Sheet Size" description="Field: Cue Sheet Size" value="Cue Sheet Size"/>
-	<message optional="true" key="Struct Data Length" description="Field: Struct Data Length" value="Struct Data Length"/>
-	<message optional="true" key="DocOpc" description="Field: DocOpc" value="DocOpc"/>
-	<message optional="true" key="Trigger LBA" description="Field: Trigger LBA" value="Trigger LBA"/>
-	<message optional="true" key="Read Ahead LBA" description="Field: Read Ahead LBA" value="Read Ahead LBA"/>
-	<message optional="true" key="Number Of Blocks" description="Field: Number Of Blocks" value="Number Of Blocks"/>
-	<message optional="true" key="Force Unit Access" description="Field: Force Unit Access" value="Force Unit Access"/>
-	<message optional="true" key="Disable Page Out" description="Field: Disable Page Out" value="Disable Page Out"/>
-	<message optional="true" key="BytChk" description="Field: BytChk" value="BytChk"/>
-	<message optional="true" key="Increment" description="Field: Increment" value="Increment"/>
-	<message optional="true" key="Percent/Time" description="Field: Percent/Time" value="Percent/Time"/>
-	<message optional="true" key="Progress" description="Field: Progress" value="Progress"/>
-	<message optional="true" key="Immed" description="Field: Immed" value="Immed"/>
-	<message optional="true" key="Streaming" description="Field: Streaming" value="Streaming"/>
-	<message optional="true" key="LoEj" description="Field: LoEj" value="LoEj"/>
-	<message optional="true" key="Format-layer" description="Field: Format-layer" value="Format-layer"/>
-	<message optional="true" key="Format-layer number" description="Field: Format-layer number" value="Format-layer number"/>
-	<message optional="true" key="Power Conditions" description="Field: Power Conditions" value="Power Conditions"/>
-	<message optional="true" key="RelAdr" description="Field: RelAdr" value="RelAdr"/>
-	<message optional="true" key="Erase All" description="Field: Erase All" value="Erase All"/>
-	<message optional="true" key="Notification Class Request" description="Field: Notification Class Request" value="Notification Class Request"/>
-	<message optional="true" key="ByteChk" description="Field: ByteChk" value="ByteChk"/>
-	<message optional="true" key="Verification Length" description="Field: Verification Length" value="Verification Length"/>
-	<message optional="true" key="Pad" description="Field: Pad" value="Pad"/>
-	<message optional="true" key="SCSI Primary Command Set 2" description="Name: SCSI Primary Command Set 2" value="SCSI Primary Command Set 2"/>
-	<message optional="true" key="Logical unit read speed (Kbytes/sec)" description="Field: Logical unit read speed (Kbytes/sec)" value="Logical unit read speed (Kbytes/sec)"/>
-	<message optional="true" key="Logical unit write speed (Kbytes/sec)" description="Field: Logical unit write speed (Kbytes/sec)" value="Logical unit write speed (Kbytes/sec)"/>
-	<message key="This command is not defined." description="Text: This command is not defined." value="WARNING: This command is not defined in the current command set. "/>
-	<message key="WARNING" description="Message: WARNING" value="WARNING"/>
-	<message key="Mass Storage Device Detected." description="Text: Mass Storage Device Detected." value="Mass Storage Device Detected."/>
-	<message key="unsupported device type" description="Text: WARNING: unsupported device type. Trying to parse." value="WARNING: unsupported device type. Trying to parse."/>
-	<message key="Device Detected." description="Text: Device Detected." value="Device Detected."/>
+	<Message optional="true" key="NotSupportedPacket" description="Text: Not Supported Packet" value="Can't parse packet. Unsupported set of commands."/>
+	<Message optional="true" key="LUNHintText" description="Hint: LUN Hint Text" value="Logical Unit Number. Each device could have multiple LUNs"/>
+	<Message optional="true" key="Expected Data Received" description="Header: Expected Data Received" value="Expected Data Received"/>
+	<Message optional="true" key="Size" description="Field: Size" value="Size"/>
+	<Message optional="true" key="No Command" description="Value: No Command" value="No Command"/>
+	<Message optional="true" key="Opcode" description="Field: Opcode" value="Opcode"/>
+	<Message optional="true" key="Name" description="Field: Name" value="Name"/>
+	<Message optional="true" key="Unknown Command" description="Value: Unknown Command" value="Unknown Command"/>
+	<Message optional="true" key="Page or OPCODE" description="Field: Page or OPCODE" value="Page or OPCODE"/>
+	<Message optional="true" key="Allocation Length" description="Field: Allocation Length" value="Allocation Length"/>
+	<Message optional="true" key="Control" description="Field: Control" value="Control"/>
+	<Message optional="true" key="Logical Block Address" description="Field: Logical Block Address" value="Logical Block Address"/>
+	<Message optional="true" key="Disable Block Descriptor" description="Field: Disable Block Descriptor" value="Disable Block Descriptor"/>
+	<Message optional="true" key="Page Control" description="Field: Page Control" value="Page Control"/>
+	<Message optional="true" key="Page Code" description="Field: Page Code" value="Page Code"/>
+	<Message optional="true" key="Command Support Data" description="Field: Command Support Data" value="Command Support Data"/>
+	<Message optional="true" key="Enable Vital Product Data" description="Field: Enable Vital Product Data" value="Enable Vital Product Data"/>
+	<Message optional="true" key="Long LBA Accepted" description="Field: Long LBA Accepted" value="Long LBA Accepted"/>
+	<Message optional="true" key="Transfer Length" description="Field: Transfer Length" value="Transfer Length"/>
+	<Message optional="true" key="Parameter List Length" description="Field: Parameter List Length" value="Parameter List Length"/>
+	<Message optional="true" key="Save Parameters" description="Field: Save Parameters" value="Save Parameters"/>
+	<Message optional="true" key="Parameter Code Reset" description="Field: Parameter Code Reset" value="Parameter Code Reset"/>
+	<Message optional="true" key="Parameter Pointer Control" description="Field: Parameter Pointer Control" value="Parameter Pointer Control"/>
+	<Message optional="true" key="Parameter Pointer" description="Field: Parameter Pointer" value="Parameter Pointer"/>
+	<Message optional="true" key="Allocator Length" description="Field: Allocator Length" value="Allocator Length"/>
+	<Message optional="true" key="Page Format" description="Field: Page Format" value="Page Format"/>
+	<Message optional="true" key="Save Pages" description="Field: Save Pages" value="Save Pages"/>
+	<Message optional="true" key="Removal" description="Field: Removal" value="Removal"/>
+	<Message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
+	<Message optional="true" key="Buffer Offset" description="Field: Buffer Offset" value="Buffer Offset"/>
+	<Message optional="true" key="Buffer ID" description="Field: Buffer ID" value="Buffer ID"/>
+	<Message optional="true" key="List ID" description="Field: List ID" value="List ID"/>
+	<Message optional="true" key="Service Action" description="Field: Service Action" value="Service Action"/>
+	<Message optional="true" key="Page Code Valid" description="Field: Page Code Valid" value="Page Code Valid"/>
+	<Message optional="true" key="Third-Party Device ID" description="Field: Third-Party Device ID" value="Third-Party Device ID"/>
+	<Message optional="true" key="LongID" description="Field: LongID" value="LongID"/>
+	<Message optional="true" key="3rdPty" description="Field: 3rdPty" value="3rdPty"/>
+	<Message optional="true" key="Restricted" description="Field: Restricted" value="Restricted"/>
+	<Message optional="true" key="Restricted bit" description="Field: Restricted bit" value="Restricted bit"/>
+	<Message optional="true" key="Type" description="Field: Type" value="Type"/>
+	<Message optional="true" key="UnitOffL" description="Field: UnitOffL" value="UnitOffL"/>
+	<Message optional="true" key="DevOffL" description="Field: DevOffL" value="DevOffL"/>
+	<Message optional="true" key="SelfTest" description="Field: SelfTest" value="SelfTest"/>
+	<Message optional="true" key="Parameters are vendor-specific" description="Field: Parameters are vendor-specific" value="Parameters are vendor-specific"/>
+	<Message optional="true" key="Self-Test Code" description="Field: Self-Test Code" value="Self-Test Code"/>
+	<Message optional="true" key="Start Address/Track Number" description="Field: Start Address/Track Number" value="Start Address/Track Number"/>
+	<Message optional="true" key="IMMED" description="Field: IMMED" value="IMMED"/>
+	<Message optional="true" key="Blanking Type" description="Field: Blanking Type" value="Blanking Type"/>
+	<Message optional="true" key="Track Number" description="Field: Track Number" value="Track Number"/>
+	<Message optional="true" key="Track" description="Field: Track" value="Track"/>
+	<Message optional="true" key="Session" description="Field: Session" value="Session"/>
+	<Message optional="true" key="Interleave value" description="Field: Interleave value" value="Interleave value"/>
+	<Message optional="true" key="CmpList" description="Field: CmpList" value="CmpList"/>
+	<Message optional="true" key="FmtData" description="Field: FmtData" value="FmtData"/>
+	<Message optional="true" key="Format Code" description="Field: Format Code" value="Format Code"/>
+	<Message optional="true" key="Starting Feature Number" description="Field: Starting Feature Number" value="Starting Feature Number"/>
+	<Message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
+	<Message optional="true" key="Maximum Number Of Descriptors" description="Field: Maximum Number Of Descriptors" value="Maximum Number Of Descriptors"/>
+	<Message optional="true" key="Starting LBA" description="Field: Starting LBA" value="Starting LBA"/>
+	<Message optional="true" key="Except" description="Field: Except" value="Except"/>
+	<Message optional="true" key="Write" description="Field: Write" value="Write"/>
+	<Message optional="true" key="Tolerance" description="Field: Tolerance" value="Tolerance"/>
+	<Message optional="true" key="UsbMassDescriptorException" description="Message: Descriptor exception" value="Descriptors shall have 10% tolerance for nominal performance and 20% for excpetion list"/>
+	<Message optional="true" key="Slot" description="Field: Slot" value="Slot"/>
+	<Message optional="true" key="Start" description="Field: Start" value="Start"/>
+	<Message optional="true" key="LoUnlo" description="Field: LoUnlo" value="LoUnlo"/>
+	<Message optional="true" key="Resume" description="Field: Resume" value="Resume"/>
+	<Message optional="true" key="RELADR" description="Field: RELADR" value="RELADR"/>
+	<Message optional="true" key="Starting LBA Address" description="Field: Starting LBA Address" value="Starting LBA Address"/>
+	<Message optional="true" key="Play Length" description="Field: Play Length" value="Play Length"/>
+	<Message optional="true" key="Starting M Field" description="Field: Starting M Field" value="Starting M Field"/>
+	<Message optional="true" key="Starting S Field" description="Field: Starting S Field" value="Starting S Field"/>
+	<Message optional="true" key="Starting F Field" description="Field: Starting F Field" value="Starting F Field"/>
+	<Message optional="true" key="Ending M Field" description="Field: Ending M Field" value="Ending M Field"/>
+	<Message optional="true" key="Ending S Field" description="Field: Ending S Field" value="Ending S Field"/>
+	<Message optional="true" key="Ending F Field" description="Field: Ending F Field" value="Ending F Field"/>
+	<Message optional="true" key="Play Length in Blocks" description="Field: Play Length in Blocks" value="Play Length in Blocks"/>
+	<Message optional="true" key="CMSF" description="Field: CMSF" value="CMSF"/>
+	<Message optional="true" key="Audio" description="Field: Audio" value="Audio"/>
+	<Message optional="true" key="Composite" description="Field: Composite" value="Composite"/>
+	<Message optional="true" key="Port1" description="Field: Port1" value="Port1"/>
+	<Message optional="true" key="Port2" description="Field: Port2" value="Port2"/>
+	<Message optional="true" key="Speed" description="Field: Speed" value="Speed"/>
+	<Message optional="true" key="Expected Sector Type" description="Field: Expected Sector Type" value="Expected Sector Type"/>
+	<Message optional="true" key="EDC&amp;ECC" description="Field: EDC&amp;ECC" value="EDC&amp;ECC"/>
+	<Message optional="true" key="User Data" description="Field: User Data" value="User Data"/>
+	<Message optional="true" key="SYNC" description="Field: SYNC" value="SYNC"/>
+	<Message optional="true" key="Sub Chanel Selection" description="Field: Sub Chanel Selection" value="Sub Chanel Selection"/>
+	<Message optional="true" key="Error Field" description="Field: Error Field" value="Error Field"/>
+	<Message optional="true" key="Header Codes" description="Field: Header Codes" value="Header Codes"/>
+	<Message optional="true" key="Sheet Number" description="Field: Sheet Number" value="Sheet Number"/>
+	<Message optional="true" key="Address" description="Field: Address" value="Address"/>
+	<Message optional="true" key="Layer Number" description="Field: Layer Number" value="Layer Number"/>
+	<Message optional="true" key="Format" description="Field: Format" value="Format"/>
+	<Message optional="true" key="AGID" description="Field: AGID" value="AGID"/>
+	<Message optional="true" key="MSF" description="Field: MSF" value="MSF"/>
+	<Message optional="true" key="SUBQ" description="Field: SUBQ" value="SUBQ"/>
+	<Message optional="true" key="LBA/ Track/Session Number" description="Field: LBA/ Track/Session Number" value="LBA/ Track/Session Number"/>
+	<Message optional="true" key="Address/Number type" description="Field: Address/Number type" value="Address/Number type"/>
+	<Message optional="true" key="Key format" description="Field: Key format" value="Key format"/>
+	<Message optional="true" key="Reservation Size" description="Field: Reservation Size" value="Reservation Size"/>
+	<Message optional="true" key="Scan Starting Address" description="Field: Scan Starting Address" value="Scan Starting Address"/>
+	<Message optional="true" key="Direct" description="Field: Direct" value="Direct"/>
+	<Message optional="true" key="Cue Sheet Size" description="Field: Cue Sheet Size" value="Cue Sheet Size"/>
+	<Message optional="true" key="Struct Data Length" description="Field: Struct Data Length" value="Struct Data Length"/>
+	<Message optional="true" key="DocOpc" description="Field: DocOpc" value="DocOpc"/>
+	<Message optional="true" key="Trigger LBA" description="Field: Trigger LBA" value="Trigger LBA"/>
+	<Message optional="true" key="Read Ahead LBA" description="Field: Read Ahead LBA" value="Read Ahead LBA"/>
+	<Message optional="true" key="Number Of Blocks" description="Field: Number Of Blocks" value="Number Of Blocks"/>
+	<Message optional="true" key="Force Unit Access" description="Field: Force Unit Access" value="Force Unit Access"/>
+	<Message optional="true" key="Disable Page Out" description="Field: Disable Page Out" value="Disable Page Out"/>
+	<Message optional="true" key="BytChk" description="Field: BytChk" value="BytChk"/>
+	<Message optional="true" key="Increment" description="Field: Increment" value="Increment"/>
+	<Message optional="true" key="Percent/Time" description="Field: Percent/Time" value="Percent/Time"/>
+	<Message optional="true" key="Progress" description="Field: Progress" value="Progress"/>
+	<Message optional="true" key="Immed" description="Field: Immed" value="Immed"/>
+	<Message optional="true" key="Streaming" description="Field: Streaming" value="Streaming"/>
+	<Message optional="true" key="LoEj" description="Field: LoEj" value="LoEj"/>
+	<Message optional="true" key="Format-layer" description="Field: Format-layer" value="Format-layer"/>
+	<Message optional="true" key="Format-layer number" description="Field: Format-layer number" value="Format-layer number"/>
+	<Message optional="true" key="Power Conditions" description="Field: Power Conditions" value="Power Conditions"/>
+	<Message optional="true" key="RelAdr" description="Field: RelAdr" value="RelAdr"/>
+	<Message optional="true" key="Erase All" description="Field: Erase All" value="Erase All"/>
+	<Message optional="true" key="Notification Class Request" description="Field: Notification Class Request" value="Notification Class Request"/>
+	<Message optional="true" key="ByteChk" description="Field: ByteChk" value="ByteChk"/>
+	<Message optional="true" key="Verification Length" description="Field: Verification Length" value="Verification Length"/>
+	<Message optional="true" key="Pad" description="Field: Pad" value="Pad"/>
+	<Message optional="true" key="SCSI Primary Command Set 2" description="Name: SCSI Primary Command Set 2" value="SCSI Primary Command Set 2"/>
+	<Message optional="true" key="Logical unit read speed (Kbytes/sec)" description="Field: Logical unit read speed (Kbytes/sec)" value="Logical unit read speed (Kbytes/sec)"/>
+	<Message optional="true" key="Logical unit write speed (Kbytes/sec)" description="Field: Logical unit write speed (Kbytes/sec)" value="Logical unit write speed (Kbytes/sec)"/>
+	<Message key="This command is not defined." description="Text: This command is not defined." value="WARNING: This command is not defined in the current command set. "/>
+	<Message key="WARNING" description="Message: WARNING" value="WARNING"/>
+	<Message key="Mass Storage Device Detected." description="Text: Mass Storage Device Detected." value="Mass Storage Device Detected."/>
+	<Message key="unsupported device type" description="Text: WARNING: unsupported device type. Trying to parse." value="WARNING: unsupported device type. Trying to parse."/>
+	<Message key="Device Detected." description="Text: Device Detected." value="Device Detected."/>
 
 	<Enumeration optional="true" key="UsbMassColors" description="Coloring: Mass Strorage View colors">
 		<Item text="Header"/>
@@ -560,10 +560,10 @@
 		<Item text="Binary Data"/>
 	</Enumeration>
 
-	<message optional="true" key="Mass Storage Level" description="Mass Storage Level"/>
-	<message optional="true" key="Command Level" description="Command Level"/>
+	<Message optional="true" key="Mass Storage Level" description="Mass Storage Level"/>
+	<Message optional="true" key="Command Level" description="Command Level"/>
 
-	<message optional="true" key="UsbMassHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
+	<Message optional="true" key="UsbMassHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="header"/>
 		<Param name="dir"/>

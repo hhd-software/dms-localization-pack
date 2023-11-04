@@ -6,100 +6,100 @@
 		<Item text="HID View data visualizer decodes HID-specific packets and data structures and displays them in the comfortable way. Ideal for devices belonging to Human Interface Device class."/>
 	</Enumeration>
 
-	<message key="HidSessionError" description="HID device open error" value="The session start failured due to the following error: &quot;{error}&quot;">
+	<Message key="HidSessionError" description="HID device open error" value="The session start failured due to the following error: &quot;{error}&quot;">
 		<Param name="error"/>
 	</Message>
 
-	<message key="HidSessionErrorTitle" description="Title: HID Session Error" value="HID session error"/>
-	<message key="HidSessionLicenseError" description="HID component expired error" value="Expired. Upgrade to the {edition} Edition to use this component.">
+	<Message key="HidSessionErrorTitle" description="Title: HID Session Error" value="HID session error"/>
+	<Message key="HidSessionLicenseError" description="HID component expired error" value="Expired. Upgrade to the {edition} Edition to use this component.">
 		<Param name="edition"/>
 	</Message>
 
-	<message key="HIDSendTitle" description="Title: HID Send window title" value="HID Send"/>
-	<message key="Unknown Hid Device" description="Standard name for unidentified HID device"/>
-	<message key="HID Info Not Available" description="HID Info Not Available" value="N/A"/>
+	<Message key="HIDSendTitle" description="Title: HID Send window title" value="HID Send"/>
+	<Message key="Unknown Hid Device" description="Standard name for unidentified HID device"/>
+	<Message key="HID Info Not Available" description="HID Info Not Available" value="N/A"/>
 
-	<message key="Device Detected." description="Message: Device Detected" value="Device Detected."/>
-	<message key="HID Device Detected." description="Message: HID Device Detected" value="HID Device Detected."/>
-	<message key="WARNING: unsupported device type. Trying to parse." description="Message: unsupported device type" value="WARNING: unsupported device type. Trying to parse."/>
+	<Message key="Device Detected." description="Message: Device Detected" value="Device Detected."/>
+	<Message key="HID Device Detected." description="Message: HID Device Detected" value="HID Device Detected."/>
+	<Message key="WARNING: unsupported device type. Trying to parse." description="Message: unsupported device type" value="WARNING: unsupported device type. Trying to parse."/>
 
-	<message key="Device Class" description="Field: Device Class" value="Device Class"/>
+	<Message key="Device Class" description="Field: Device Class" value="Device Class"/>
 	
-	<message optional="true" key="Human Interface Device" description="Value: Human Interface Device" value="Human Interface Device"/>
+	<Message optional="true" key="Human Interface Device" description="Value: Human Interface Device" value="Human Interface Device"/>
 
-	<message optional="true" optional="true" key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
+	<Message optional="true" optional="true" key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="header"/>
 		<Param name="dir"/>
 		<Param name="time"/>
 	</Message>
 
-	<message optional="true" optional="true" key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
-	<message optional="true" optional="true" key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
-	<message optional="true" optional="true" key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
-	<message optional="true" optional="true" key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
-	<message optional="true" optional="true" key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
-	<message optional="true" optional="true" key="Unit" description="Field: Unit" value="Unit"/>
-	<message optional="true" optional="true" key="Report Size" description="Field: Report Size" value="Report Size"/>
-	<message optional="true" optional="true" key="Report ID" description="Field: Report ID" value="Report ID"/>
-	<message optional="true" optional="true" key="Report Count" description="Field: Report Count" value="Report Count"/>
-	<message optional="true" optional="true" key="PUSH" description="Field: PUSH" value="PUSH"/>
-	<message optional="true" optional="true" key="POP" description="Field: POP" value="POP"/>
-	<message optional="true" optional="true" key="Usage" description="Field: Usage" value="Usage"/>
-	<message optional="true" optional="true" key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
-	<message optional="true" optional="true" key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
-	<message optional="true" optional="true" key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
+	<Message optional="true" optional="true" key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
+	<Message optional="true" optional="true" key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
+	<Message optional="true" optional="true" key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
+	<Message optional="true" optional="true" key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
+	<Message optional="true" optional="true" key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
+	<Message optional="true" optional="true" key="Unit" description="Field: Unit" value="Unit"/>
+	<Message optional="true" optional="true" key="Report Size" description="Field: Report Size" value="Report Size"/>
+	<Message optional="true" optional="true" key="Report ID" description="Field: Report ID" value="Report ID"/>
+	<Message optional="true" optional="true" key="Report Count" description="Field: Report Count" value="Report Count"/>
+	<Message optional="true" optional="true" key="PUSH" description="Field: PUSH" value="PUSH"/>
+	<Message optional="true" optional="true" key="POP" description="Field: POP" value="POP"/>
+	<Message optional="true" optional="true" key="Usage" description="Field: Usage" value="Usage"/>
+	<Message optional="true" optional="true" key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
+	<Message optional="true" optional="true" key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
+	<Message optional="true" optional="true" key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
 
-	<message optional="true" key="Class-Specific Descriptor Requested" description="Header: Class-Specific Descriptor Requested" value="Class-Specific Descriptor Requested"/>
-	<message optional="true" key="Class-Specific Request Sent" description="Header: Class-Specific Request Sent" value="Class-Specific Request Sent"/>
-	<message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
-	<message optional="true" key="Class-Specific Data" description="Header: Class-Specific Data" value="Class-Specific Data"/>
-	<message optional="true" key="Duration" description="Field: Duration" value="Duration"/>
-	<message optional="true" key="ReportID" description="Field: ReportID" value="ReportID"/>
-	<message optional="true" key="Indefinite" description="Value: Indefinite" value="Indefinite"/>
-	<message optional="true" key="Data" description="Field: Data" value="Data"/>
-	<message optional="true" key="Idle Rate" description="Field: Idle Rate" value="Idle Rate"/>
-	<message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
-	<message optional="true" key="Report Type" description="Field: Report Type" value="Report Type"/>
-	<message optional="true" key="Data Size" description="Field: Data Size" value="Data Size"/>
-	<message optional="true" key="Descriptor parsing failed. " description="Header: Descriptor parsing failed" value="Descriptor parsing failed. "/>
-	<message optional="true" key="Parsed Report" description="Field: Parsed Report" value="Parsed Report"/>
-	<message optional="true" key="Long Item (Vendor-Specific)" description="Field: Long Item (Vendor-Specific)" value="Long Item (Vendor-Specific)"/>
-	<message optional="true" key="data size" description="Field: data size" value="data size"/>
-	<message optional="true" key="Collection" description="Field: Collection" value="Collection"/>
-	<message optional="true" key="End Collection" description="Field: End Collection" value="End Collection"/>
-	<message optional="true" key="Input" description="Value: Input" value="Input"/>
-	<message optional="true" key="Output" description="Value: Output" value="Output"/>
-	<message optional="true" key="Feature" description="Value: Feature" value="Feature"/>
-	<message optional="true" key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
-	<message optional="true" key="Usage Page" description="Field: Usage Page" value="Usage Page"/>
-	<message optional="true" key="None" description="Value: None" value="None"/>
-	<message optional="true" key="Report View" description="Title: Report View" value="Report View"/>
-	<message optional="true" key="Data Structures Parsed!" description="Value: Data Structures Parsed!" value="Data Structures Parsed!"/>
-	<message optional="true" key="Parsing Failed!" description="Value: Parsing Failed!" value="Parsing Failed!"/>
-	<message optional="true" key="Report Arrived" description="Header: Report Arrived" value="Report Arrived"/>
-	<message optional="true" key="Report Name" description="Field: Report Name" value="Report Name"/>
-	<message optional="true" key="No button pressed" description="Value: No button pressed" value="No button pressed"/>
-	<message optional="true" key="Seconds" description="Value: Seconds" value="Seconds"/>
-	<message optional="true" key="Ampere" description="Value: Ampere" value="Ampere"/>
-	<message optional="true" key="Candela" description="Value: Candela" value="Candela"/>
-	<message optional="true" key="No String" description="Value: No String" value="No String"/>
-	<message optional="true" key="WARNING: additional descritor parsed" description="Header: additional descritor parsed" value="WARNING: additional descritor parsed"/>
-	<message optional="true" key="Unknown Report" description="Value: Unknown Report" value="Unknown Report"/>
+	<Message optional="true" key="Class-Specific Descriptor Requested" description="Header: Class-Specific Descriptor Requested" value="Class-Specific Descriptor Requested"/>
+	<Message optional="true" key="Class-Specific Request Sent" description="Header: Class-Specific Request Sent" value="Class-Specific Request Sent"/>
+	<Message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
+	<Message optional="true" key="Class-Specific Data" description="Header: Class-Specific Data" value="Class-Specific Data"/>
+	<Message optional="true" key="Duration" description="Field: Duration" value="Duration"/>
+	<Message optional="true" key="ReportID" description="Field: ReportID" value="ReportID"/>
+	<Message optional="true" key="Indefinite" description="Value: Indefinite" value="Indefinite"/>
+	<Message optional="true" key="Data" description="Field: Data" value="Data"/>
+	<Message optional="true" key="Idle Rate" description="Field: Idle Rate" value="Idle Rate"/>
+	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
+	<Message optional="true" key="Report Type" description="Field: Report Type" value="Report Type"/>
+	<Message optional="true" key="Data Size" description="Field: Data Size" value="Data Size"/>
+	<Message optional="true" key="Descriptor parsing failed. " description="Header: Descriptor parsing failed" value="Descriptor parsing failed. "/>
+	<Message optional="true" key="Parsed Report" description="Field: Parsed Report" value="Parsed Report"/>
+	<Message optional="true" key="Long Item (Vendor-Specific)" description="Field: Long Item (Vendor-Specific)" value="Long Item (Vendor-Specific)"/>
+	<Message optional="true" key="data size" description="Field: data size" value="data size"/>
+	<Message optional="true" key="Collection" description="Field: Collection" value="Collection"/>
+	<Message optional="true" key="End Collection" description="Field: End Collection" value="End Collection"/>
+	<Message optional="true" key="Input" description="Value: Input" value="Input"/>
+	<Message optional="true" key="Output" description="Value: Output" value="Output"/>
+	<Message optional="true" key="Feature" description="Value: Feature" value="Feature"/>
+	<Message optional="true" key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
+	<Message optional="true" key="Usage Page" description="Field: Usage Page" value="Usage Page"/>
+	<Message optional="true" key="None" description="Value: None" value="None"/>
+	<Message optional="true" key="Report View" description="Title: Report View" value="Report View"/>
+	<Message optional="true" key="Data Structures Parsed!" description="Value: Data Structures Parsed!" value="Data Structures Parsed!"/>
+	<Message optional="true" key="Parsing Failed!" description="Value: Parsing Failed!" value="Parsing Failed!"/>
+	<Message optional="true" key="Report Arrived" description="Header: Report Arrived" value="Report Arrived"/>
+	<Message optional="true" key="Report Name" description="Field: Report Name" value="Report Name"/>
+	<Message optional="true" key="No button pressed" description="Value: No button pressed" value="No button pressed"/>
+	<Message optional="true" key="Seconds" description="Value: Seconds" value="Seconds"/>
+	<Message optional="true" key="Ampere" description="Value: Ampere" value="Ampere"/>
+	<Message optional="true" key="Candela" description="Value: Candela" value="Candela"/>
+	<Message optional="true" key="No String" description="Value: No String" value="No String"/>
+	<Message optional="true" key="WARNING: additional descritor parsed" description="Header: additional descritor parsed" value="WARNING: additional descritor parsed"/>
+	<Message optional="true" key="Unknown Report" description="Value: Unknown Report" value="Unknown Report"/>
 
-	<message optional="true" key="InstanceFmt" description="Formatted Value: Instance" value="Instance {number}">
+	<Message optional="true" key="InstanceFmt" description="Formatted Value: Instance" value="Instance {number}">
 		<Param name ="number"/>
 	</Message>
 
-	<message optional="true" key="UnicodeCharacterFmt" description="Formatted Value: Unicode character" value="Unicode character: {char}">
+	<Message optional="true" key="UnicodeCharacterFmt" description="Formatted Value: Unicode character" value="Unicode character: {char}">
 		<Param name ="char"/>
 	</Message>
 
-	<message optional="true" key="BUTTONPressedFmt" description="Formatted Value: Report Name" value="BUTTON{number} pressed">
+	<Message optional="true" key="BUTTONPressedFmt" description="Formatted Value: Report Name" value="BUTTON{number} pressed">
 		<Param name ="number"/>
 	</Message>
 
-	<message optional="true" key="HidDurationFmt" description="Value: HID duration format string" value="0.004 * {number} seconds">
+	<Message optional="true" key="HidDurationFmt" description="Value: HID duration format string" value="0.004 * {number} seconds">
 		<Param name ="number"/>
 	</Message>
 	
