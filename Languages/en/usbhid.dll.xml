@@ -27,28 +27,28 @@
 	
 	<Message optional="true" key="Human Interface Device" description="Value: Human Interface Device" value="Human Interface Device"/>
 
-	<Message optional="true" optional="true" key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
+	<Message optional="true" key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="header"/>
 		<Param name="dir"/>
 		<Param name="time"/>
 	</Message>
 
-	<Message optional="true" optional="true" key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
-	<Message optional="true" optional="true" key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
-	<Message optional="true" optional="true" key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
-	<Message optional="true" optional="true" key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
-	<Message optional="true" optional="true" key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
-	<Message optional="true" optional="true" key="Unit" description="Field: Unit" value="Unit"/>
-	<Message optional="true" optional="true" key="Report Size" description="Field: Report Size" value="Report Size"/>
-	<Message optional="true" optional="true" key="Report ID" description="Field: Report ID" value="Report ID"/>
-	<Message optional="true" optional="true" key="Report Count" description="Field: Report Count" value="Report Count"/>
-	<Message optional="true" optional="true" key="PUSH" description="Field: PUSH" value="PUSH"/>
-	<Message optional="true" optional="true" key="POP" description="Field: POP" value="POP"/>
-	<Message optional="true" optional="true" key="Usage" description="Field: Usage" value="Usage"/>
-	<Message optional="true" optional="true" key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
-	<Message optional="true" optional="true" key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
-	<Message optional="true" optional="true" key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
+	<Message optional="true" key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
+	<Message optional="true" key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
+	<Message optional="true" key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
+	<Message optional="true" key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
+	<Message optional="true" key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
+	<Message optional="true" key="Unit" description="Field: Unit" value="Unit"/>
+	<Message optional="true" key="Report Size" description="Field: Report Size" value="Report Size"/>
+	<Message optional="true" key="Report ID" description="Field: Report ID" value="Report ID"/>
+	<Message optional="true" key="Report Count" description="Field: Report Count" value="Report Count"/>
+	<Message optional="true" key="PUSH" description="Field: PUSH" value="PUSH"/>
+	<Message optional="true" key="POP" description="Field: POP" value="POP"/>
+	<Message optional="true" key="Usage" description="Field: Usage" value="Usage"/>
+	<Message optional="true" key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
+	<Message optional="true" key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
+	<Message optional="true" key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
 
 	<Message optional="true" key="Class-Specific Descriptor Requested" description="Header: Class-Specific Descriptor Requested" value="Class-Specific Descriptor Requested"/>
 	<Message optional="true" key="Class-Specific Request Sent" description="Header: Class-Specific Request Sent" value="Class-Specific Request Sent"/>
