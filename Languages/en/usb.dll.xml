@@ -411,7 +411,7 @@
 	<!--IDS_STRING1268-->          <Message key="Bytes Per Line:" description="Field: Bytes Per Line"/>
 	<!--IDS_STRING1269-->          <Message key="Packet Length:" description="Field: Packet Length"/>
 
-	<Enumeration key="UsbAudioDescriptorName" description="USB Audio descriptor names list">
+	<Enumeration optional="true" key="UsbAudioDescriptorName" description="USB Audio descriptor names list">
 		<Item text="Unknown"/>
 		<Item text="Header Descriptor"/>
 		<Item text="Input Terminal Descriptor"/>
@@ -430,13 +430,13 @@
 		<Item text="Associated Descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="UsbAudioStreamingDescriptorName" description="USB Audio Streaming descriptor names list">
+	<Enumeration optional="true" key="UsbAudioStreamingDescriptorName" description="USB Audio Streaming descriptor names list">
 		<Item text="Format Type Descriptor"/>
 		<Item text="Format Specific Descriptor"/>
 		<Item text="Class-Specific Descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="UsbVideoDescriptorName" description="USB Video descriptor names list">
+	<Enumeration optional="true" key="UsbVideoDescriptorName" description="USB Video descriptor names list">
 		<Item text="Unknown"/>
 		<Item text="Header Descriptor"/>
 		<Item text="Input Terminal Descriptor"/>
@@ -446,7 +446,7 @@
 		<Item text="Extension Unit Descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="UsbVideoStreamingDescriptorName" description="USB Video streaming descriptor names list">
+	<Enumeration optional="true" key="UsbVideoStreamingDescriptorName" description="USB Video streaming descriptor names list">
 		<Item text="Unknown"/>
 		<Item text="Input Header Descriptor"/>
 		<Item text="Output Header Descriptor"/>
@@ -479,7 +479,7 @@
 	<!--IDS_STRING1142-->          <Message key="Samples Per Frame:" description="Field: Samples Per Frame"/>
 	<!--IDS_STRING1144-->          <Message key="Payload Type:" description="Field: Payload Type"/>
 
-	<Enumeration key="UsbAudioPayloadType" description="USB Audio payload types list">
+	<Enumeration optional="true" key="UsbAudioPayloadType" description="USB Audio payload types list">
 		<Item text="Undefined"/>
 		<Item text="TYPE 1 UNDEFINED"/>
 		<Item text="PCM"/>
@@ -511,7 +511,7 @@
 
 	<!--IDS_STRING1308-->          <Message key="Max Transfer Size:" description="Field: Max Transfer Size"/>
 
-	<Enumeration key="UsbCommDescriptorName" description="USB communication descriptor names list">
+	<Enumeration optional="true" key="UsbCommDescriptorName" description="USB communication descriptor names list">
 		<!--<Item text="Unknown"/>-->
 		<Item text="Header Functional Descriptor"/>
 		<Item text="Call Management Functional Descriptor"/>
@@ -598,7 +598,7 @@
 	<!--IDS_STRING1380-->          <Message key="The Maximum Type 3 Segment Size:" description="Field: The Maximum Type 3 Segment Size"/>
 	<!--IDS_STRING1381-->          <Message key="Maximum Number Of Simultaneous Virtual Circuits:" description="Field: Maximum Number Of Simultaneous Virtual Circuits"/>
 
-	<Enumeration key="UsbMultiBitmapField" description="USB multi bitmap field enumeration">
+	<Enumeration optional="true" key="UsbMultiBitmapField" description="USB multi bitmap field enumeration">
 		<Item text="XMIT_OK"/>
 		<Item text="RVC_OK"/>
 		<Item text="XMIT_ERROR"/>
@@ -630,13 +630,13 @@
 		<Item text="XMIT_LATE_COLLISIONS"/>
 	</Enumeration>
 
-	<Enumeration key="UsbAtmTypes" description="USB ATM types list">
+	<Enumeration optional="true" key="UsbAtmTypes" description="USB ATM types list">
 		<Item text="Type 1 -- Concatenated ATM cells"/>
 		<Item text="Type 2 -- ATM header template + concatenated ATM cell payloads"/>
 		<Item text="Type 3 -- AAL5 SDU"/>
 	</Enumeration>
 
-	<Enumeration key="UsbAtmDeviceStats" description="USB ATM device stats list">
+	<Enumeration optional="true" key="UsbAtmDeviceStats" description="USB ATM device stats list">
 		<Item text="Device counts downstream cells received"/>
 		<Item text="Device counts upstream cells sent"/>
 		<Item text="Device counts cells with HEC error detected and corrected"/>
@@ -647,7 +647,7 @@
 	<!--IDS_STRING1419-->    <Message key="Release Number In Binary-Coded Decimal" description="Field: Release Number In Binary-Coded Decimal"/>
 	<!--IDS_RESERVED-->    <Message key="Reserved for future use" description="Field: Reserved for future use"/>
 
-	<Enumeration key="UsbAudioMidiDescriptorName" description="USB Audio MIDI descriptor names list">
+	<Enumeration optional="true" key="UsbAudioMidiDescriptorName" description="USB Audio MIDI descriptor names list">
 		<Item text="Header Descriptor"/>
 		<Item text="MIDI IN Jack Descriptor"/>
 		<Item text="MIDI OUT Jack Descriptor"/>

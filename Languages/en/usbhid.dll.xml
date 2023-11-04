@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-	<Enumeration key="HumanConverter" description="USB HID Converter">
+	<Enumeration  key="HumanConverter" description="USB HID Converter">
 		<Item text="HID View"/>
 		<Item text="HID View data visualizer decodes HID-specific packets and data structures and displays them in the comfortable way. Ideal for devices belonging to Human Interface Device class."/>
 	</Enumeration>
@@ -24,92 +24,93 @@
 	<Message key="WARNING: unsupported device type. Trying to parse." description="Message: unsupported device type" value="WARNING: unsupported device type. Trying to parse."/>
 
 	<Message key="Device Class" description="Field: Device Class" value="Device Class"/>
-	<Message key="Human Interface Device" description="Value: Human Interface Device" value="Human Interface Device"/>
+	
+	<Message optional="true" key="Human Interface Device" description="Value: Human Interface Device" value="Human Interface Device"/>
 
-	<Message key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
+	<Message optional="true" key="UsbHidHeader" description="Header: USB HID packet header" value="{ordinal}: {header} ({dir}), {time}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
 		<Param name="header"/>
 		<Param name="dir"/>
 		<Param name="time"/>
 	</Message>
 
-	<Message key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
-	<Message key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
-	<Message key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
-	<Message key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
-	<Message key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
-	<Message key="Unit" description="Field: Unit" value="Unit"/>
-	<Message key="Report Size" description="Field: Report Size" value="Report Size"/>
-	<Message key="Report ID" description="Field: Report ID" value="Report ID"/>
-	<Message key="Report Count" description="Field: Report Count" value="Report Count"/>
-	<Message key="PUSH" description="Field: PUSH" value="PUSH"/>
-	<Message key="POP" description="Field: POP" value="POP"/>
-	<Message key="Usage" description="Field: Usage" value="Usage"/>
-	<Message key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
-	<Message key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
-	<Message key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
+	<Message optional="true" key="Logical Minimum" description="Field: Logical Minimum" value="Logical Minimum"/>
+	<Message optional="true" key="Logical Maximum" description="Field: Logical Maximum" value="Logical Maximum"/>
+	<Message optional="true" key="Physical Minimum" description="Field: Physical Minimum" value="Physical Minimum"/>
+	<Message optional="true" key="Physical Maximum" description="Field: Physical Maximum" value="Physical Maximum"/>
+	<Message optional="true" key="Unit Exponent" description="Field: Unit Exponent" value="Unit Exponent"/>
+	<Message optional="true" key="Unit" description="Field: Unit" value="Unit"/>
+	<Message optional="true" key="Report Size" description="Field: Report Size" value="Report Size"/>
+	<Message optional="true" key="Report ID" description="Field: Report ID" value="Report ID"/>
+	<Message optional="true" key="Report Count" description="Field: Report Count" value="Report Count"/>
+	<Message optional="true" key="PUSH" description="Field: PUSH" value="PUSH"/>
+	<Message optional="true" key="POP" description="Field: POP" value="POP"/>
+	<Message optional="true" key="Usage" description="Field: Usage" value="Usage"/>
+	<Message optional="true" key="Usage Minimum" description="Field: Usage Minimum" value="Usage Minimum"/>
+	<Message optional="true" key="Usage Maximum" description="Field: Usage Maximum" value="Usage Maximum"/>
+	<Message optional="true" key="Descriptor Type" description="Field: Descriptor Type" value="Descriptor Type"/>
 
-	<Message key="Class-Specific Descriptor Requested" description="Header: Class-Specific Descriptor Requested" value="Class-Specific Descriptor Requested"/>
-	<Message key="Class-Specific Request Sent" description="Header: Class-Specific Request Sent" value="Class-Specific Request Sent"/>
-	<Message key="Request Type" description="Field: Request Type" value="Request Type"/>
-	<Message key="Class-Specific Data" description="Header: Class-Specific Data" value="Class-Specific Data"/>
-	<Message key="Duration" description="Field: Duration" value="Duration"/>
-	<Message key="ReportID" description="Field: ReportID" value="ReportID"/>
-	<Message key="Indefinite" description="Value: Indefinite" value="Indefinite"/>
-	<Message key="Data" description="Field: Data" value="Data"/>
-	<Message key="Idle Rate" description="Field: Idle Rate" value="Idle Rate"/>
-	<Message key="Protocol" description="Field: Protocol" value="Protocol"/>
-	<Message key="Report Type" description="Field: Report Type" value="Report Type"/>
-	<Message key="Data Size" description="Field: Data Size" value="Data Size"/>
-	<Message key="Descriptor parsing failed. " description="Header: Descriptor parsing failed" value="Descriptor parsing failed. "/>
-	<Message key="Parsed Report" description="Field: Parsed Report" value="Parsed Report"/>
-	<Message key="Long Item (Vendor-Specific)" description="Field: Long Item (Vendor-Specific)" value="Long Item (Vendor-Specific)"/>
-	<Message key="data size" description="Field: data size" value="data size"/>
-	<Message key="Collection" description="Field: Collection" value="Collection"/>
-	<Message key="End Collection" description="Field: End Collection" value="End Collection"/>
-	<Message key="Input" description="Value: Input" value="Input"/>
-	<Message key="Output" description="Value: Output" value="Output"/>
-	<Message key="Feature" description="Value: Feature" value="Feature"/>
-	<Message key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
-	<Message key="Usage Page" description="Field: Usage Page" value="Usage Page"/>
-	<Message key="None" description="Value: None" value="None"/>
-	<Message key="Report View" description="Title: Report View" value="Report View"/>
-	<Message key="Data Structures Parsed!" description="Value: Data Structures Parsed!" value="Data Structures Parsed!"/>
-	<Message key="Parsing Failed!" description="Value: Parsing Failed!" value="Parsing Failed!"/>
-	<Message key="Report Arrived" description="Header: Report Arrived" value="Report Arrived"/>
-	<Message key="Report Name" description="Field: Report Name" value="Report Name"/>
-	<Message key="No button pressed" description="Value: No button pressed" value="No button pressed"/>
-	<Message key="Seconds" description="Value: Seconds" value="Seconds"/>
-	<Message key="Ampere" description="Value: Ampere" value="Ampere"/>
-	<Message key="Candela" description="Value: Candela" value="Candela"/>
-	<Message key="No String" description="Value: No String" value="No String"/>
-	<Message key="WARNING: additional descritor parsed" description="Header: additional descritor parsed" value="WARNING: additional descritor parsed"/>
-	<Message key="Unknown Report" description="Value: Unknown Report" value="Unknown Report"/>
+	<Message optional="true" key="Class-Specific Descriptor Requested" description="Header: Class-Specific Descriptor Requested" value="Class-Specific Descriptor Requested"/>
+	<Message optional="true" key="Class-Specific Request Sent" description="Header: Class-Specific Request Sent" value="Class-Specific Request Sent"/>
+	<Message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
+	<Message optional="true" key="Class-Specific Data" description="Header: Class-Specific Data" value="Class-Specific Data"/>
+	<Message optional="true" key="Duration" description="Field: Duration" value="Duration"/>
+	<Message optional="true" key="ReportID" description="Field: ReportID" value="ReportID"/>
+	<Message optional="true" key="Indefinite" description="Value: Indefinite" value="Indefinite"/>
+	<Message optional="true" key="Data" description="Field: Data" value="Data"/>
+	<Message optional="true" key="Idle Rate" description="Field: Idle Rate" value="Idle Rate"/>
+	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
+	<Message optional="true" key="Report Type" description="Field: Report Type" value="Report Type"/>
+	<Message optional="true" key="Data Size" description="Field: Data Size" value="Data Size"/>
+	<Message optional="true" key="Descriptor parsing failed. " description="Header: Descriptor parsing failed" value="Descriptor parsing failed. "/>
+	<Message optional="true" key="Parsed Report" description="Field: Parsed Report" value="Parsed Report"/>
+	<Message optional="true" key="Long Item (Vendor-Specific)" description="Field: Long Item (Vendor-Specific)" value="Long Item (Vendor-Specific)"/>
+	<Message optional="true" key="data size" description="Field: data size" value="data size"/>
+	<Message optional="true" key="Collection" description="Field: Collection" value="Collection"/>
+	<Message optional="true" key="End Collection" description="Field: End Collection" value="End Collection"/>
+	<Message optional="true" key="Input" description="Value: Input" value="Input"/>
+	<Message optional="true" key="Output" description="Value: Output" value="Output"/>
+	<Message optional="true" key="Feature" description="Value: Feature" value="Feature"/>
+	<Message optional="true" key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
+	<Message optional="true" key="Usage Page" description="Field: Usage Page" value="Usage Page"/>
+	<Message optional="true" key="None" description="Value: None" value="None"/>
+	<Message optional="true" key="Report View" description="Title: Report View" value="Report View"/>
+	<Message optional="true" key="Data Structures Parsed!" description="Value: Data Structures Parsed!" value="Data Structures Parsed!"/>
+	<Message optional="true" key="Parsing Failed!" description="Value: Parsing Failed!" value="Parsing Failed!"/>
+	<Message optional="true" key="Report Arrived" description="Header: Report Arrived" value="Report Arrived"/>
+	<Message optional="true" key="Report Name" description="Field: Report Name" value="Report Name"/>
+	<Message optional="true" key="No button pressed" description="Value: No button pressed" value="No button pressed"/>
+	<Message optional="true" key="Seconds" description="Value: Seconds" value="Seconds"/>
+	<Message optional="true" key="Ampere" description="Value: Ampere" value="Ampere"/>
+	<Message optional="true" key="Candela" description="Value: Candela" value="Candela"/>
+	<Message optional="true" key="No String" description="Value: No String" value="No String"/>
+	<Message optional="true" key="WARNING: additional descritor parsed" description="Header: additional descritor parsed" value="WARNING: additional descritor parsed"/>
+	<Message optional="true" key="Unknown Report" description="Value: Unknown Report" value="Unknown Report"/>
 
-	<Message key="InstanceFmt" description="Formatted Value: Instance" value="Instance {number}">
+	<Message optional="true" key="InstanceFmt" description="Formatted Value: Instance" value="Instance {number}">
 		<Param name ="number"/>
 	</Message>
 
-	<Message key="UnicodeCharacterFmt" description="Formatted Value: Unicode character" value="Unicode character: {char}">
+	<Message optional="true" key="UnicodeCharacterFmt" description="Formatted Value: Unicode character" value="Unicode character: {char}">
 		<Param name ="char"/>
 	</Message>
 
-	<Message key="BUTTONPressedFmt" description="Formatted Value: Report Name" value="BUTTON{number} pressed">
+	<Message optional="true" key="BUTTONPressedFmt" description="Formatted Value: Report Name" value="BUTTON{number} pressed">
 		<Param name ="number"/>
 	</Message>
 
-	<Message key="HidDurationFmt" description="Value: HID duration format string" value="0.004 * {number} seconds">
+	<Message optional="true" key="HidDurationFmt" description="Value: HID duration format string" value="0.004 * {number} seconds">
 		<Param name ="number"/>
 	</Message>
 	
-	<Enumeration key="UsbHidDescriptorType" description="USB HID Descriptor Types list">
+	<Enumeration  optional="true" key="UsbHidDescriptorType" description="USB HID Descriptor Types list">
 		<Item text="Class-Specific Descriptor Transferr"/>
 		<Item text="HID"/>
 		<Item text="Report"/>
 		<Item text="Physical descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDesktop1" description="USB HID Generic Desktop Page 0x01 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDesktop1" description="USB HID Generic Desktop Page 0x01 Usages list">
 		<Item text="Undefined"/>
 		<Item text="Pointer"/>
 		<Item text="Mouse"/>
@@ -122,7 +123,7 @@
 		<Item text="Tablet PC System Controls"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDesktop2" description="USB HID Generic Desktop Page 0x30 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDesktop2" description="USB HID Generic Desktop Page 0x30 Usages list">
 		<Item text="X"/>
 		<Item text="Y"/>
 		<Item text="Z"/>
@@ -150,7 +151,7 @@
 		<Item text="Resolution Multiplier"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDesktop3" description="USB HID Generic Desktop Page 0x80 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDesktop3" description="USB HID Generic Desktop Page 0x80 Usages list">
 		<Item text="System Control"/>
 		<Item text="System Power Down"/>
 		<Item text="System Sleep"/>
@@ -173,7 +174,7 @@
 		<Item text="D-Pad Left"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDesktop4" description="USB HID Generic Desktop Page 0xA0 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDesktop4" description="USB HID Generic Desktop Page 0xA0 Usages list">
 		<Item text="System Dock"/>
 		<Item text="System Undock"/>
 		<Item text="System Setup"/>
@@ -185,7 +186,7 @@
 		<Item text="System Hibernate"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDesktop5" description="USB HID Generic Desktop Page 0xB0 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDesktop5" description="USB HID Generic Desktop Page 0xB0 Usages list">
 		<Item text="System Display Invert"/>
 		<Item text="System Display Internal"/>
 		<Item text="System Display External"/>
@@ -196,7 +197,7 @@
 		<Item text="System Display LCD Autoscale"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSimulationControls1" description="USB HID Simulation Controls Usages 0x00 - 0xC list">
+	<Enumeration  optional="true" key="UsbHidSimulationControls1" description="USB HID Simulation Controls Usages 0x00 - 0xC list">
 		<Item text="Flight Simulation Device"/>
 		<Item text="Automobile Simulation Device"/>
 		<Item text="Tank Simulation Device"/>
@@ -212,7 +213,7 @@
 		<Item text="Flight Control Stick"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSimulationControls2" description="USB HID Simulation Controls Usages 0x20 - 0x25 list">
+	<Enumeration  optional="true" key="UsbHidSimulationControls2" description="USB HID Simulation Controls Usages 0x20 - 0x25 list">
 		<Item text="Flight Stick"/>
 		<Item text="Cyclic Control"/>
 		<Item text="Cyclic Trim"/>
@@ -221,7 +222,7 @@
 		<Item text="Aileron"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSimulationControls3" description="USB HID Simulation Controls Usages 0xB0 - 0xD0 list">
+	<Enumeration  optional="true" key="UsbHidSimulationControls3" description="USB HID Simulation Controls Usages 0xB0 - 0xD0 list">
 		<Item text="Aileron Trim"/>
 		<Item text="Anti-Torque Control"/>
 		<Item text="Autopilot Enable"/>
@@ -256,7 +257,7 @@
 		<Item text="Rear Break"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidVrControls1" description="USB HID VR Controls Page 0x01 Usages list">
+	<Enumeration  optional="true" key="UsbHidVrControls1" description="USB HID VR Controls Page 0x01 Usages list">
 		<Item text="belt"/>
 		<Item text="Body Suite"/>
 		<Item text="Flextor"/>
@@ -269,19 +270,19 @@
 		<Item text="Animatronic Device"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidVrControls2" description="USB HID VR Controls Page 0x20 Usages list">
+	<Enumeration  optional="true" key="UsbHidVrControls2" description="USB HID VR Controls Page 0x20 Usages list">
 		<Item text="Stereo Enable"/>
 		<Item text="Display Enable"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSportControls1" description="USB HID Sport Controls Page 0x01 Usages list">
+	<Enumeration  optional="true" key="UsbHidSportControls1" description="USB HID Sport Controls Page 0x01 Usages list">
 		<Item text="Baseball Bat"/>
 		<Item text="Golf Club"/>
 		<Item text="Rowing Machine"/>
 		<Item text="Treadmill"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSportControls2" description="USB HID Sport Controls Page 0x30 Usages list">
+	<Enumeration  optional="true" key="UsbHidSportControls2" description="USB HID Sport Controls Page 0x30 Usages list">
 		<Item text="Oar"/>
 		<Item text="Slope"/>
 		<Item text="Rate"/>
@@ -294,7 +295,7 @@
 		<Item text="Stick Height"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidSportControls3" description="USB HID Sport Controls Page 0x50 Usages list">
+	<Enumeration  optional="true" key="UsbHidSportControls3" description="USB HID Sport Controls Page 0x50 Usages list">
 		<Item text="Putter"/>
 		<Item text="1 Iron"/>
 		<Item text="2 Iron"/>
@@ -317,13 +318,13 @@
 		<Item text="9 Wood"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGameControls1" description="USB HID Game Controls Page 0x01 Usages list">
+	<Enumeration  optional="true" key="UsbHidGameControls1" description="USB HID Game Controls Page 0x01 Usages list">
 		<Item text="3D Game Controller"/>
 		<Item text="Pinball Device"/>
 		<Item text="Gun Device"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGameControls2" description="USB HID Game Controls Page 0x20 Usages list">
+	<Enumeration  optional="true" key="UsbHidGameControls2" description="USB HID Game Controls Page 0x20 Usages list">
 		<Item text="Point Of View"/>
 		<Item text="Turn Right/Left"/>
 		<Item text="Pitch Forward/Backward"/>
@@ -351,7 +352,7 @@
 		<Item text="Gamepad Trigger"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidGenericDevice" description="USB HID Generic Devices Page 0x20 Usages list">
+	<Enumeration  optional="true" key="UsbHidGenericDevice" description="USB HID Generic Devices Page 0x20 Usages list">
 		<Item text="Battery Strength"/>
 		<Item text="Wireless Channel"/>
 		<Item text="Wireless ID"/>
@@ -361,7 +362,7 @@
 		<Item text="Security Code Cleared"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidLeds" description="USB HID Leds Page 0x01 Usages list">
+	<Enumeration  optional="true" key="UsbHidLeds" description="USB HID Leds Page 0x01 Usages list">
 		<Item text="Num Lock"/>
 		<Item text="Caps Lock"/>
 		<Item text="Scroll Lock"/>
@@ -441,7 +442,7 @@
 		<Item text="External Power Connected"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice1" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice1" description="USB HID Telephony Device Usages list">
 		<Item text="Phone"/>
 		<Item text="Answering Machine"/>
 		<Item text="Message Controls"/>
@@ -451,7 +452,7 @@
 		<Item text="Programmable Button"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice2" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice2" description="USB HID Telephony Device Usages list">
 		<Item text="Hook Switch"/>
 		<Item text="Flash"/>
 		<Item text="Feature"/>
@@ -472,14 +473,14 @@
 		<Item text="Send"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice3" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice3" description="USB HID Telephony Device Usages list">
 		<Item text="Speed Dial"/>
 		<Item text="Store Number"/>
 		<Item text="Recall Number"/>
 		<Item text="Phone Directory"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice4" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice4" description="USB HID Telephony Device Usages list">
 		<Item text="Voice Mail"/>
 		<Item text="Screen Calls"/>
 		<Item text="Do Not Disturb"/>
@@ -487,7 +488,7 @@
 		<Item text="Answer On/Off"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice5" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice5" description="USB HID Telephony Device Usages list">
 		<Item text="Inside Dial Tone"/>
 		<Item text="Outside Dial Tone"/>
 		<Item text="Inside Ring Tone"/>
@@ -505,7 +506,7 @@
 		<Item text="Ringer"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidTelephonyDevice6" description="USB HID Telephony Device Usages list">
+	<Enumeration  optional="true" key="UsbHidTelephonyDevice6" description="USB HID Telephony Device Usages list">
 		<Item text="Phone Key 0"/>
 		<Item text="Phone Key 1"/>
 		<Item text="Phone Key 2"/>
@@ -524,7 +525,7 @@
 		<Item text="Phone Key D"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidRequestType" description="USB HID Request Types list">
+	<Enumeration  optional="true" key="UsbHidRequestType" description="USB HID Request Types list">
 		<Item text="Get Report (Data Field)"/>
 		<Item text="Get Idle"/>
 		<Item text="Get Protocol"/>
@@ -533,18 +534,18 @@
 		<Item text="Set Protocol"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidReportType" description="USB HID Report Types list">
+	<Enumeration  optional="true" key="UsbHidReportType" description="USB HID Report Types list">
 		<Item text="Input"/>
 		<Item text="Output"/>
 		<Item text="Feature"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidProtocolType" description="USB HID Protocol Types list">
+	<Enumeration  optional="true" key="UsbHidProtocolType" description="USB HID Protocol Types list">
 		<Item text="Boot"/>
 		<Item text="Report"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer1" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer1" description="USB HID Consumer Page list">
 		<Item text="Consumer Control"/>
 		<Item text="Numeric Key Pad"/>
 		<Item text="Programmable Buttons"/>
@@ -553,13 +554,13 @@
 		<Item text="Graphic Equalizer"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer2" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer2" description="USB HID Consumer Page list">
 		<Item text="+10"/>
 		<Item text="+100"/>
 		<Item text="AM/PM"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer3" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer3" description="USB HID Consumer Page list">
 		<Item text="Power"/>
 		<Item text="Reset"/>
 		<Item text="Sleep"/>
@@ -569,7 +570,7 @@
 		<Item text="Function Buttons"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer4" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer4" description="USB HID Consumer Page list">
 		<Item text="Menu"/>
 		<Item text="Menu Pick"/>
 		<Item text="Menu Up"/>
@@ -581,7 +582,7 @@
 		<Item text="Menu Value Decrease"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer5" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer5" description="USB HID Consumer Page list">
 		<Item text="Data On Screen"/>
 		<Item text="Closed Caption"/>
 		<Item text="Closed Caption Select"/>
@@ -591,7 +592,7 @@
 		<Item text="Still"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer6" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer6" description="USB HID Consumer Page list">
 		<Item text="Selection"/>
 		<Item text="Assign Selection"/>
 		<Item text="Mode Step"/>
@@ -625,7 +626,7 @@
 		<Item text="Media Select SAP"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer7" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer7" description="USB HID Consumer Page list">
 		<Item text="VCR Plus"/>
 		<Item text="Once"/>
 		<Item text="Daily"/>
@@ -633,7 +634,7 @@
 		<Item text="Monthly"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer8" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer8" description="USB HID Consumer Page list">
 		<Item text="Play"/>
 		<Item text="Pause"/>
 		<Item text="Record"/>
@@ -667,7 +668,7 @@
 		<Item text="Play/Skip"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer9" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer9" description="USB HID Consumer Page list">
 		<Item text="Volume"/>
 		<Item text="Balance"/>
 		<Item text="Mute"/>
@@ -681,7 +682,7 @@
 		<Item text="VolumeDecrement"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer10" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer10" description="USB HID Consumer Page list">
 		<Item text="Speed Select"/>
 		<Item text="Playback Speed"/>
 		<Item text="Standart Play"/>
@@ -690,7 +691,7 @@
 		<Item text="Slow"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer11" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer11" description="USB HID Consumer Page list">
 		<Item text="Fan Enable"/>
 		<Item text="Fan Speed"/>
 		<Item text="Light Enable"/>
@@ -707,7 +708,7 @@
 		<Item text="Medical Alarm"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer12" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer12" description="USB HID Consumer Page list">
 		<Item text="Balance Right"/>
 		<Item text="Balance Left"/>
 		<Item text="Bass Increment"/>
@@ -716,7 +717,7 @@
 		<Item text="Treble Decrement"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer13" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer13" description="USB HID Consumer Page list">
 		<Item text="Speaker System"/>
 		<Item text="Channel Left"/>
 		<Item text="Channel Right"/>
@@ -730,7 +731,7 @@
 		<Item text="Channel Unknown"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer14" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer14" description="USB HID Consumer Page list">
 		<Item text="Sub-channel"/>
 		<Item text="Sub-channel increment"/>
 		<Item text="Sub-channel decrement"/>
@@ -738,7 +739,7 @@
 		<Item text="Alternate Audio Decrement"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer15" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer15" description="USB HID Consumer Page list">
 		<Item text="Application Launch Buttons"/>
 		<Item text="AL Launch Button Configuration"/>
 		<Item text="AL Programmable Button Configuration"/>
@@ -800,7 +801,7 @@
 		<Item text="AL Digital Wallet"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer16" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer16" description="USB HID Consumer Page list">
 		<Item text="AL Instant Messaging"/>
 		<Item text="AL OEM Feautures/ Tips/ Tutorial Browser"/>
 		<Item text="AL OEM Help"/>
@@ -815,7 +816,7 @@
 		<Item text="AL Audio Player"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer17" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer17" description="USB HID Consumer Page list">
 		<Item text="Generic GUI Application Controls"/>
 		<Item text="AC New"/>
 		<Item text="AC Open"/>
@@ -828,7 +829,7 @@
 		<Item text="AC Properties"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidConsumer18" description="USB HID Consumer Page list">
+	<Enumeration  optional="true" key="UsbHidConsumer18" description="USB HID Consumer Page list">
 		<Item text="AC Undo"/>
 		<Item text="AC Copy"/>
 		<Item text="AC Cut"/>
@@ -962,7 +963,7 @@
 		<Item text="AC Distribute Vertically"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidDigitizer1" description="USB HID Digitizers Page list">
+	<Enumeration  optional="true" key="UsbHidDigitizer1" description="USB HID Digitizers Page list">
 		<Item text="Digitizer"/>
 		<Item text="Pen"/>
 		<Item text="Light Pen"/>
@@ -978,13 +979,13 @@
 		<Item text="Free Space Wand"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidDigitizer2" description="USB HID Digitizers Page list">
+	<Enumeration  optional="true" key="UsbHidDigitizer2" description="USB HID Digitizers Page list">
 		<Item text="Stylus"/>
 		<Item text="Puck"/>
 		<Item text="Finger"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidDigitizer3" description="USB HID Digitizers Page list">
+	<Enumeration  optional="true" key="UsbHidDigitizer3" description="USB HID Digitizers Page list">
 		<Item text="Tip Pressure"/>
 		<Item text="Barrel Pressure"/>
 		<Item text="In Range"/>
@@ -1010,12 +1011,12 @@
 		<Item text="Barrel Switch"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidAplhanumeric1" description="USB HID Alphanumeric Page list">
+	<Enumeration  optional="true" key="UsbHidAplhanumeric1" description="USB HID Alphanumeric Page list">
 		<Item text="Alphanumeric Display"/>
 		<Item text="Bitmapped Display"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidAplhanumeric2" description="USB HID Alphanumeric Page list">
+	<Enumeration  optional="true" key="UsbHidAplhanumeric2" description="USB HID Alphanumeric Page list">
 		<Item text="Display Attributes Report"/>
 		<Item text="ASCII Character Set"/>
 		<Item text="Data Read Block"/>
@@ -1064,12 +1065,12 @@
 		<Item text="Char Attr Blink"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidAplhanumeric3" description="USB HID Alphanumeric Page list">
+	<Enumeration  optional="true" key="UsbHidAplhanumeric3" description="USB HID Alphanumeric Page list">
 		<Item text="Bitmap Size X"/>
 		<Item text="Bitmap Size Y"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidAplhanumeric4" description="USB HID Alphanumeric Page list">
+	<Enumeration  optional="true" key="UsbHidAplhanumeric4" description="USB HID Alphanumeric Page list">
 		<Item text="Bit Depth Format"/>
 		<Item text="Display Orientation"/>
 		<Item text="Palette Report"/>
@@ -1077,7 +1078,7 @@
 		<Item text="Palette Data Offset"/>
 		<Item text="Palette Data"/>
 	</Enumeration>
-	<Enumeration key="UsbHidAplhanumeric5" description="USB HID Alphanumeric Page list">
+	<Enumeration  optional="true" key="UsbHidAplhanumeric5" description="USB HID Alphanumeric Page list">
 		<Item text="Blit Report"/>
 		<Item text="Blit Rectangle X1"/>
 		<Item text="Blit Rectangle Y1"/>
@@ -1092,11 +1093,11 @@
 		<Item text="Soft Button Report"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments1" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments1" description="USB HID Medical Instruments Page list">
 		<Item text="Medical Ultrasound"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments2" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments2" description="USB HID Medical Instruments Page list">
 		<Item text="VCR/Acquisition"/>
 		<Item text="Freeze/Thaw"/>
 		<Item text="Clip Store"/>
@@ -1107,7 +1108,7 @@
 		<Item text="Microphone Enable"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments3" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments3" description="USB HID Medical Instruments Page list">
 		<Item text="Cine"/>
 		<Item text="Transmit Power"/>
 		<Item text="Volume"/>
@@ -1115,16 +1116,16 @@
 		<Item text="Depth"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments4" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments4" description="USB HID Medical Instruments Page list">
 		<Item text="Soft Step - Primary"/>
 		<Item text="Soft Step - Secondary"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments5" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments5" description="USB HID Medical Instruments Page list">
 		<Item text="Depth Gain Compensation"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments6" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments6" description="USB HID Medical Instruments Page list">
 		<Item text="Zoom Select"/>
 		<Item text="Zoom Adjust"/>
 		<Item text="Spectral Doppler Mode Select"/>
@@ -1137,12 +1138,12 @@
 		<Item text="2-D Mode Adjust"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidMedicalInstruments7" description="USB HID Medical Instruments Page list">
+	<Enumeration  optional="true" key="UsbHidMedicalInstruments7" description="USB HID Medical Instruments Page list">
 		<Item text="Soft Control Select"/>
 		<Item text="Soft Control Adjust"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidCollection" description="USB HID Collections list">
+	<Enumeration  optional="true" key="UsbHidCollection" description="USB HID Collections list">
 		<Item text="Physical"/>
 		<Item text="Application"/>
 		<Item text="Logical"/>
@@ -1152,7 +1153,7 @@
 		<Item text="Usage Modifier"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidInputHint" description="USB HID Input Hints list">
+	<Enumeration  optional="true" key="UsbHidInputHint" description="USB HID Input Hints list">
 		<Item text="Data"/>
 		<Item text="Constant"/>
 		<Item text="Array"/>
@@ -1171,7 +1172,7 @@
 		<Item text="Volatile"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUsagePage" description="USB HID Usage Pages list">
+	<Enumeration  optional="true" key="UsbHidUsagePage" description="USB HID Usage Pages list">
 		<Item text="Generic Desktop"/>
 		<Item text="Simulation Controls"/>
 		<Item text="VR Controls"/>
@@ -1189,7 +1190,7 @@
 		<Item text="Medical Instruments"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidKeyboard1" description="USB HID Keyboard Usages list">
+	<Enumeration  optional="true" key="UsbHidKeyboard1" description="USB HID Keyboard Usages list">
 		<Item text="Keyboard ErrorRollOver"/>
 		<Item text="Keyboard POSTFail"/>
 		<Item text="Keyboard Error Undefined"/>
@@ -1356,7 +1357,7 @@
 		<Item text="Keyboard ExSel"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidKeyboard2" description="USB HID Keyboard Usages list">
+	<Enumeration  optional="true" key="UsbHidKeyboard2" description="USB HID Keyboard Usages list">
 		<Item text="Keypad 00"/>
 		<Item text="Keypad 000"/>
 		<Item text="Thousands Separator"/>
@@ -1405,7 +1406,7 @@
 		<Item text="Keypad Hexadecimal"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidKeyboard3" description="USB HID Keyboard Usages list">
+	<Enumeration  optional="true" key="UsbHidKeyboard3" description="USB HID Keyboard Usages list">
 		<Item text="Keyboard LeftControl"/>
 		<Item text="Keyboard LeftShift"/>
 		<Item text="Keyboard LeftAlt"/>
@@ -1416,11 +1417,11 @@
 		<Item text="Keyboard Right GUI"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput1" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput1" description="USB HID Physical list">
 		<Item text="Physical Interface Device"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput2" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput2" description="USB HID Physical list">
 		<Item text="Normal"/>
 		<Item text="Set Effect Report"/>
 		<Item text="Effect Block Index"/>
@@ -1432,7 +1433,7 @@
 		<Item text="ET Custom Force Data"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput3" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput3" description="USB HID Physical list">
 		<Item text="ET Square"/>
 		<Item text="ET Sine"/>
 		<Item text="ET Triangle"/>
@@ -1440,14 +1441,14 @@
 		<Item text="ET Sawtooth Down"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput4" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput4" description="USB HID Physical list">
 		<Item text="ET Spring"/>
 		<Item text="ET Damper"/>
 		<Item text="ET Inertia"/>
 		<Item text="ET Friction"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput5" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput5" description="USB HID Physical list">
 		<Item text="Duration"/>
 		<Item text="Sample Period"/>
 		<Item text="Gain"/>
@@ -1508,7 +1509,7 @@
 		<Item text="PID Block Load Report"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput6" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput6" description="USB HID Physical list">
 		<Item text="Block Load Status"/>
 		<Item text="Block Load Success"/>
 		<Item text="Block Load Full"/>
@@ -1519,7 +1520,7 @@
 		<Item text="PID State Report"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput7" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput7" description="USB HID Physical list">
 		<Item text="Effects Playing"/>
 		<Item text="PID Device Control Report"/>
 		<Item text="PID Device Control"/>
@@ -1531,12 +1532,12 @@
 		<Item text="DC Device Continue"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput8" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput8" description="USB HID Physical list">
 		<Item text="Device Paused"/>
 		<Item text="Actuators Enabled"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPhysInput9" description="USB HID Physical list">
+	<Enumeration  optional="true" key="UsbHidPhysInput9" description="USB HID Physical list">
 		<Item text="Safety Switch"/>
 		<Item text="Actuator Override Switch"/>
 		<Item text="Actuator Power"/>
@@ -1548,7 +1549,7 @@
 		<Item text="RAM Pool Available"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice1" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice1" description="USB HID Power Device Usages list">
 		<Item text="iName"/>
 		<Item text="PresentStatus"/>
 		<Item text="ChangedStatus"/>
@@ -1556,7 +1557,7 @@
 		<Item text="PowerSupply"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice2" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice2" description="USB HID Power Device Usages list">
 		<Item text="BatterySystem"/>
 		<Item text="BatterySystemID"/>
 		<Item text="Battery"/>
@@ -1581,7 +1582,7 @@
 		<Item text="PowerSummaryID"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice3" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice3" description="USB HID Power Device Usages list">
 		<Item text="Voltage"/>
 		<Item text="Current"/>
 		<Item text="Frequency"/>
@@ -1594,7 +1595,7 @@
 	</Enumeration>
 
 
-	<Enumeration key="UsbHidPowerDevice4" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice4" description="USB HID Power Device Usages list">
 		<Item text="Config Voltage"/>
 		<Item text="Config Current"/>
 		<Item text="Config Frequency"/>
@@ -1606,7 +1607,7 @@
 	</Enumeration>
 
 
-	<Enumeration key="UsbHidPowerDevice5" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice5" description="USB HID Power Device Usages list">
 		<Item text="SwitchOnControl"/>
 		<Item text="SwitchOffControl"/>
 		<Item text="ToggleControl"/>
@@ -1620,7 +1621,7 @@
 		<Item text="AudibleAlarmControl"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice6" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice6" description="USB HID Power Device Usages list">
 		<Item text="Present"/>
 		<Item text="Good"/>
 		<Item text="Internal Failure"/>
@@ -1633,7 +1634,7 @@
 		<Item text="ShutdownImminent"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice7" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice7" description="USB HID Power Device Usages list">
 		<Item text="SwitchOn/Off"/>
 		<Item text="Switchable"/>
 		<Item text="Used"/>
@@ -1645,13 +1646,13 @@
 		<Item text="CommunicationLost"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidPowerDevice8" description="USB HID Power Device Usages list">
+	<Enumeration  optional="true" key="UsbHidPowerDevice8" description="USB HID Power Device Usages list">
 		<Item text="iManufacturer"/>
 		<Item text="iProduct"/>
 		<Item text="iSerialNumber"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery1" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery1" description="USB HID Battery Usages list">
 		<Item text="SMBBatteryMode"/>
 		<Item text="SMBBatteryStatus"/>
 		<Item text="SMBBatteryWarning"/>
@@ -1663,7 +1664,7 @@
 		<Item text="SMBBatteryInfo"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery2" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery2" description="USB HID Battery Usages list">
 		<Item text="OptionalMfgFunction1"/>
 		<Item text="OptionalMfgFunction2"/>
 		<Item text="OptionalMfgFunction3"/>
@@ -1681,7 +1682,7 @@
 	</Enumeration>
 
 
-	<Enumeration key="UsbHidBattery3" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery3" description="USB HID Battery Usages list">
 		<Item text="ManufacturerAccess"/>
 		<Item text="RemainingCapacityLimit"/>
 		<Item text="RemainingTimeLimit"/>
@@ -1692,7 +1693,7 @@
 		<Item text="ChargeController"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery4" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery4" description="USB HID Battery Usages list">
 		<Item text="TerminateCharge"/>
 		<Item text="TerminateDischarge"/>
 		<Item text="BelowRemainingCapacityLimit"/>
@@ -1707,7 +1708,7 @@
 		<Item text="NeedReplacement"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery5" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery5" description="USB HID Battery Usages list">
 		<Item text="AtRateTimeToFull"/>
 		<Item text="AtRateTimeToEmpty"/>
 		<Item text="AverageCurrent"/>
@@ -1722,7 +1723,7 @@
 		<Item text="CycleCount"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery6" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery6" description="USB HID Battery Usages list">
 		<Item text="BattPackModelLevel"/>
 		<Item text="InternalChargeController"/>
 		<Item text="PrimaryBatterySupport"/>
@@ -1741,13 +1742,13 @@
 		<Item text="iOEMInformation"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery7" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery7" description="USB HID Battery Usages list">
 		<Item text="InhibitCharge"/>
 		<Item text="EnablePolling"/>
 		<Item text="ResetToZero"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery8" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery8" description="USB HID Battery Usages list">
 		<Item text="ACPresent"/>
 		<Item text="BatteryPresent"/>
 		<Item text="PowerFail"/>
@@ -1763,14 +1764,14 @@
 		<Item text="MasterMode"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidBattery9" description="USB HID Battery Usages list">
+	<Enumeration  optional="true" key="UsbHidBattery9" description="USB HID Battery Usages list">
 		<Item text="ChargerSelectorSupport"/>
 		<Item text="ChargerSpec"/>
 		<Item text="Level2"/>
 		<Item text="Level3"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUnits" description="USB HID Units list">
+	<Enumeration  optional="true" key="UsbHidUnits" description="USB HID Units list">
 		<Item text="cm"/>
 		<Item text="gram"/>
 		<Item text="sec"/>
@@ -1787,7 +1788,7 @@
 		<Item text="gram"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidElectricUnit" description="USB HID Electric Units list">
+	<Enumeration  optional="true" key="UsbHidElectricUnit" description="USB HID Electric Units list">
 		<Item text="Volt"/>
 		<Item text="centiAmp"/>
 		<Item text="Hertz"/>
@@ -1797,35 +1798,35 @@
 		<Item text="AmpSec"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUnits1" description="USB HID Units list">
+	<Enumeration  optional="true" key="UsbHidUnits1" description="USB HID Units list">
 		<Item text="Centimeters"/>
 		<Item text="Radians"/>
 		<Item text="Inch"/>
 		<Item text="Degrees"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUnits2" description="USB HID Units list">
+	<Enumeration  optional="true" key="UsbHidUnits2" description="USB HID Units list">
 		<Item text="Gram"/>
 		<Item text="Gram"/>
 		<Item text="Slug"/>
 		<Item text="Slug"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUnits3" description="USB HID Units list">
+	<Enumeration  optional="true" key="UsbHidUnits3" description="USB HID Units list">
 		<Item text="Kelvin"/>
 		<Item text="Kelvin"/>
 		<Item text="Fahrenheit"/>
 		<Item text="Fahrenheit"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUnits4" description="USB HID Units list">
+	<Enumeration  optional="true" key="UsbHidUnits4" description="USB HID Units list">
 		<Item text="SI Linear"/>
 		<Item text="SI Rotation"/>
 		<Item text="English Linear"/>
 		<Item text="English Rotation"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidUsbMonitor" description="USB HID Monitor Usages list">
+	<Enumeration  optional="true" key="UsbHidUsbMonitor" description="USB HID Monitor Usages list">
 		<Item text="Reserved"/>
 		<Item text="Monitor Control"/>
 		<Item text="EDID Information"/>
@@ -1833,140 +1834,140 @@
 		<Item text="VESA Version"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidHidUsbMonitor3_2_1" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_1" description="USB HID Monitor 3.2 Page list">
 		<Item text="Brightness"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_2" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_2" description="USB HID Monitor 3.2 Page list">
 		<Item text="Contrast"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_3" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_3" description="USB HID Monitor 3.2 Page list">
 		<Item text="Red Video Gain"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_4" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_4" description="USB HID Monitor 3.2 Page list">
 		<Item text="Green Video Gain"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_5" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_5" description="USB HID Monitor 3.2 Page list">
 		<Item text="Blue Video Gain"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_6" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_6" description="USB HID Monitor 3.2 Page list">
 		<Item text="Focus"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_7" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_7" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Position"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_8" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_8" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Size"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_9" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_9" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Pincushion"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_10" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_10" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Pincushion Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_11" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_11" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Misconvergence"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_12" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_12" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Lineraity"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_13" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_13" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Linearity Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_14" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_14" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Position"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_15" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_15" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Size"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_16" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_16" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Pincushion"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_17" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_17" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Pincushion Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_18" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_18" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Misconvergence"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_19" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_19" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Linearity"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_20" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_20" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Linearity Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_21" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_21" description="USB HID Monitor 3.2 Page list">
 		<Item text="Parallelogram Distortion (Key Balance)"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_22" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_22" description="USB HID Monitor 3.2 Page list">
 		<Item text="Trapezoidal Distortion (Key)"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_23" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_23" description="USB HID Monitor 3.2 Page list">
 		<Item text="Tilt (Rotation)"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_24" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_24" description="USB HID Monitor 3.2 Page list">
 		<Item text="Top Corner Distortion Control"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_25" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_25" description="USB HID Monitor 3.2 Page list">
 		<Item text="Top Corner Distortion Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_26" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_26" description="USB HID Monitor 3.2 Page list">
 		<Item text="Bottom Corner Distortion Control"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_27" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_27" description="USB HID Monitor 3.2 Page list">
 		<Item text="Bottom Corner Distortion Balance"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_28" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_28" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Moire"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_29" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_29" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Moire"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_30" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_30" description="USB HID Monitor 3.2 Page list">
 		<Item text="Red Video Black Level"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_31" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_31" description="USB HID Monitor 3.2 Page list">
 		<Item text="Green Video Black Level"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_32" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_32" description="USB HID Monitor 3.2 Page list">
 		<Item text="Blue Video Black Level"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_33" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_33" description="USB HID Monitor 3.2 Page list">
 		<Item text="Input Level Select"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_34" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_34" description="USB HID Monitor 3.2 Page list">
 		<Item text="Input Source Select"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_35" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_35" description="USB HID Monitor 3.2 Page list">
 		<Item text="On Screen Display"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_36" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_36" description="USB HID Monitor 3.2 Page list">
 		<Item text="Stereo Mode"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_37" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_37" description="USB HID Monitor 3.2 Page list">
 		<Item text="Polarity Horizontal Synchronization"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_38" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_38" description="USB HID Monitor 3.2 Page list">
 		<Item text="Polarity Vertical Synchronization"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_39" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_39" description="USB HID Monitor 3.2 Page list">
 		<Item text="Synchronization Type"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_40" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_40" description="USB HID Monitor 3.2 Page list">
 		<Item text="Screen Orientation"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_41" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_41" description="USB HID Monitor 3.2 Page list">
 		<Item text="Horizontal Frequency"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_42" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_42" description="USB HID Monitor 3.2 Page list">
 		<Item text="Vertical Frequency"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_43" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_43" description="USB HID Monitor 3.2 Page list">
 		<Item text="Degauss"/>
 	</Enumeration>
-	<Enumeration key="UsbHidHidUsbMonitor3_2_44" description="USB HID Monitor 3.2 Page list">
+	<Enumeration  optional="true" key="UsbHidHidUsbMonitor3_2_44" description="USB HID Monitor 3.2 Page list">
 		<Item text="Settings"/>
 	</Enumeration>
 
-	<Enumeration key="UsbHidColors" description="Colors: USB HID View">
+	<Enumeration  key="UsbHidColors" description="Colors: USB HID View">
 		<Item text="Header"/>
 		<Item text="Text"/>
 		<Item text="Binary Data"/>
