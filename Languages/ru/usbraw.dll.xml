@@ -17,7 +17,6 @@
   <Message key="Setup Packet" value="Пакет настройки" revision="0" />
   <Message key="UsbRequestFmt" value="Запрос: {id} ({name})\n" revision="0" />
   <Message key="SchemeBasic" value="Основная" revision="0" />
-  <Message key="Pipe Handle" value="Pipe Handle" revision="0" />
   <Message key="SchemeComplete" value="Полная" revision="0" />
   <Message key="SetupPacketFmt" value="Получатель: {recp}\nТип запроса: {type}\nНаправление: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Тип дескриптора: {name}\nИндекс дескриптора: {index}\nРазмер буфера передачи: {size} байт\n" revision="0" />
@@ -141,7 +140,6 @@
   <Message key="STRINGOUTPUT" value="Вывод" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="определение структуры не найдено. Структурный вид не может отобразить какие-либо результаты." revision="0" />
   <Message key="DevNameFormat" value="endpoint_device_{addr}_{index}" revision="0" />
-  <Message key="IDS_CONTROLPIPE" value="Control Pipe" revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Зависимые устройства" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Копировать имя" revision="0" />
@@ -238,8 +236,8 @@
     <Item value="Устройство" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
-    <Item value="Abort Pipe" revision="0" />
-    <Item value="Reset Pipe" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
     <Item value="Устновить" revision="0" />

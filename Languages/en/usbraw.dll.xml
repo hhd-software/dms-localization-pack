@@ -119,7 +119,7 @@
 		<Param name="name"/>
 	</Message>
 	<Message key="SchemeBasic" description="Scheme name: Basic" value="Basic"/>
-	<Message key="Pipe Handle" description="Field: Pipe Handle" value="Pipe Handle"/>
+	<Message optional="true" key="Pipe Handle" description="Field: Pipe Handle" value="Pipe Handle"/>
 	<Message key="SchemeComplete" description="Scheme name: Complete" value="Complete"/>
 	<Message key="SetupPacketFmt" description="Setup packet fields" value="Recipient: {recp}\nRequest Type: {type}\nDirection: {dir}\n">
 		<Param name="recp"/>
@@ -185,7 +185,7 @@
 		<Item text="Device"/>
 	</Enumeration>
 
-	<Enumeration key="UsbPipeRequestType" description="USB pipe request types list">
+	<Enumeration optional="true" key="UsbPipeRequestType" description="USB pipe request types list">
 		<Item text="Abort Pipe"/>
 		<Item text="Reset Pipe"/>
 	</Enumeration>
@@ -557,7 +557,7 @@
 		<Param name="addr" format="b016"/>
 		<Param name="index"/>
 	</Message>
-	<Message key="IDS_CONTROLPIPE" description="Value: Control Pipe" value="Control Pipe"/>
+	<Message optional="true" key="IDS_CONTROLPIPE" description="Value: Control Pipe" value="Control Pipe"/>
 
 	<Enumeration key="GeneralCat" description="Filters: URB View General">
 		<Item text="Display Empty Packets"/>
