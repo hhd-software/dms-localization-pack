@@ -122,14 +122,14 @@
 	
   <Message optional="true" key="Relay Config" description="Field: Relay Config" value="Relay Config"/>
 	<!--IDS_STRING1061          "Relay Config:"-->
-	<Enumeration key="UsbHookState" description="USB CDC Connection hook states list">
+	<Enumeration optional="true" key="UsbHookState" description="USB CDC Connection hook states list">
 		<!--<Item text="Unknown"/>-->
 		<Item text="ON_HOOK"/>
 		<Item text="OFF_HOOK"/>
 		<Item text="SNOOPING"/>
 	</Enumeration>
 
-	<Enumeration key="UsbCommPulseDialingCycle" description="USB CDC Pulse-Dialing Cycles list">
+	<Enumeration optional="true" key="UsbCommPulseDialingCycle" description="USB CDC Pulse-Dialing Cycles list">
 		<Item text="Disengage"/>
 		<Item text="Prepare"/>
 	</Enumeration>
