@@ -1,5 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="AllFiles" value="Все файлы" revision="0" />
+  <Message key="AllSupported" value="Все поддерживаемые" revision="0" />
+  <Message key="WorkspaceFilter" value="Рабочие пространства" revision="0" />
+  <Message key="InvalidScheme" value="Недопустимое имя схемы или схема уже существует." revision="0" />
+  <Message key="ActivatePane" value="Активировать панель {pane}" revision="0" />
+  <Message key="Checking for new version" value="Проверка наличия новых версий" revision="0" />
+  <Message key="You are using the most recent version of the software." value="Вы используете последнюю версию Device Monitoring Studio" revision="0" />
+  <Message key="Error checking for new version" value="При проверке новой версии произошла следующая ошибка:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="От сервера обновлений получен некорректный ответ" revision="0" />
+  <Message key="Language Page" value="Язык" revision="0" />
+  <Message key="Downloading language pack" value="Загрузка языкового пакета" revision="0" />
+  <Message key="Product language" value="Язык продукта" revision="0" />
+  <Message key="Changing product language requires restart of Device Monitoring Studio." value="Изменение языка продукта требует перезапуска Device Monitoring Studio." revision="0" />
+  <Message key="Languages online" value="Языки в сети" revision="0" />
+  <Message key="Refresh" value="&amp;Обновить" revision="0" />
+  <Message key="ButtonRefreshing" value="Обновляется…" revision="0" />
+  <Message key="Download" value="&amp;Скачать" revision="0" />
+  <Message key="Start" value="&amp;Запустить" revision="0" />
+  <Message key="Language pack" value="Языковой пакет: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Если вы отмените выбранные обновления, то Device Monitoring Studio больше не будет уведомлять вас о них. Вы по-прежнему будете получать уведомления о будущих обновлениях.\r\n\r\nВы хотите отменить выбранные обновления?" revision="0" />
+  <Message key="LangPackUpdated" value="Обновлен языковой пакет(ы). Для перезагрузки языкового пакета необходимо перезапустить приложение.\r\n\r\nПерезапустить сейчас?" revision="0" />
+  <Message key="Component Updates" value="Обновления компонентов" revision="0" />
+  <Message key="The following updates are found:" value="Найдены следующие обновления:" revision="0" />
+  <Message key="Check for updates" value="Проверить обновления" revision="0" />
+  <Message key="Start Download" value="Начать загрузку" revision="0" />
+  <Message key="View Changes…" value="Посмотреть изменения…" revision="0" />
+  <Message key="Discard" value="Отказаться" revision="0" />
+  <Message key="ActionSelection" value="{name} был успешно загружен. Что вы хотите с ним сделать?" revision="0" />
+  <Message key="UpdateDownloadError" value="При загрузке обновления произошла ошибка:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="При копировании загруженного файла произошла ошибка:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Произошла ошибка при сохранении рабочей области: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="При запуске загруженного образа произошла ошибка:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Новая версия загружена" revision="0" />
+  <Message key="Install now" value="Установить сейчас" revision="0" />
   <Message key="ConcantenatePackets" value="Объединение последовательных запросов" revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
