@@ -34,7 +34,64 @@
   <Message key="LaunchError" value="При запуске загруженного образа произошла ошибка:\n\n    {message} ({code})." revision="0" />
   <Message key="New Version Downloaded" value="Новая версия загружена" revision="0" />
   <Message key="Install now" value="Установить сейчас" revision="0" />
+  <Message key="Make a copy and install now" value="Сделайте копию и установить сейчас" revision="0" />
+  <Message key="Notifications" value="Уведомления" revision="0" />
+  <Message key="AutoHide" value="Автоскрытие инструментальных окон" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Запрашивать сохранение измененного рабочего пространства" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Сохранять конфигурацию инструментов с рабочим пространством" revision="0" />
+  <Message key="DocumentsToRemember" value="Вывод последних недавно использованных рабочих пространств" revision="0" />
+  <Message key="DisplayNotificationsFor" value="Отображать окно уведомления в течение (секунд)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Закрытие влияет только на текущее инструментальное окно" revision="0" />
+  <Message key="RestoreWindowPosition" value="Восстанавливать положение главного окна при запуске" revision="0" />
+  <Message key="HoverTime" value="Время задержки (мс)" revision="0" />
+  <Message key="CloseTime" value="Время закрытия (мс)" revision="0" />
+  <Message key="Coloring" value="Расцветка" revision="0" />
+  <Message key="OverwriteColoringScheme" value="Перезаписать схему {scheme}?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Некорректное имя схемы или схема уже существует." revision="0" />
+  <Message key="LowMemory" value="Сессия мониторинга была остановлена из-за нехватки памяти" revision="0" />
+  <Message key="EmergencySessionTermination" value="{error text} ({error code})" revision="0" />
+  <Message key="EmptyFilter" value="Пусто (захват всех пакетов)" revision="0" />
+  <Message key="DISPFILTER" value="Фильтр визуализатора" revision="0" />
+  <Message key="CAPTUREFILTER" value="Фильтр сессии" revision="0" />
+  <Message key="FLTWARNINGNEW" value="Текущая сессия будет приостановлена до тех пор, пока данные в визуализаторах не будут обновлены." revision="0" />
+  <Message key="DELETEERROR" value="Данная схема не может быть удалена" revision="0" />
+  <Message key="WRITEERROR" value="Укажите имя фильтра." revision="0" />
+  <Message key="READONLY" value="Эта схема не подлежит редактированию" revision="0" />
+  <Message key="NAMEERROR" value="Имя пустое, неправильное или слишком длинное (более 100 символов)" revision="0" />
+  <Message key="Filtering" value="Фильтрация" revision="0" />
+  <Message key="FILESNOTLOADED" value="Ошибка при загрузке файлов ротокола. Фильтрация не будет работать." revision="0" />
+  <Message key="FilterDoesNotExist" value="Фильтр {filter} не существует" revision="0" />
+  <Message key="FilterParamsMismatch" value="Невозможно применить фильтр-строку к существующему фильтру." revision="0" />
+  <Message key="FilterApplyError" value="Ожидаются параметры фильтра" revision="0" />
+  <Message key="CurrentUnsaved" value="Несохраненный фильтр" revision="0" />
+  <Message key="OverwriteFilterScheme" value="Хотите ли вы перезаписать схему {scheme}?" revision="0" />
+  <Message key="ErrorRootProtocol" value="Корневой протокол не был указан" revision="0" />
+  <Message key="ErrorRootNotExist" value="Выбранный корневой протокол не существует" revision="0" />
   <Message key="ConcantenatePackets" value="Объединение последовательных запросов" revision="0" />
+  <Message key="TrialWarning" value="Данный компонент находится в пробном режиме, осталось {days} дней. Он доступен начиная с редакции {edition}." revision="0" />
+  <Message key="ExpiredWarning" value="Срок действия компонента истек. Для его использования необходимо обновить версию до редакции {edition}." revision="0" />
+  <Message key="FreeWarning" value="Данный компонент недоступен в бесплатной версии. Вы можете начать бесплатный ознакомительный период, чтобы попробовать этот компонент." revision="0" />
+  <Message key="Continue with limited features" value="Продолжить с ограниченными функциями" revision="0" />
+  <Message key="Try extended functionality" value="Попробовать расширенные функции" revision="0" />
+  <Message key="Purchase extended functionality" value="Получить расширенные функции" revision="0" />
+  <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
+  <Message key="General Page" value="Общие" revision="0" />
+  <Message key="ExecutablesFilter" value="Исполняемые|*.exe|Все файлы|*.*||" revision="0" />
+  <Message key="WorkspaceFilterNotExist" value="Рабочая область содержит ссылку на имя фильтра &lt;{filter}&gt;, который не существует. Будет применен пустой фильтр." revision="0" />
+  <Message key="All sessions stopped" value="Все сессии были остановлены из-за нехватки памяти. Для возобновления мониторинга может потребоваться перезапуск Device Monitoring Studio. Если вы продолжаете получать это сообщение об ошибке, попробуйте уменьшить количество используемых визуализаторов" revision="0" />
+  <Message key="PredefinedDelete" value="Удаление предустановленных цветовых схем запрещено. Удалять можно только пользовательские схемы" revision="0" />
+  <Message key="SignatureError" value="Device Monitoring Studio загрузила обновление, но оно не прошло проверку целостности. Это может свидетельствовать о временных или постоянных ошибках конфигурации сети. Попробуйте выполнить обновление позже." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio находится в нерабочем состоянии. Переустановите приложение, чтобы исправить ситуацию." revision="0" />
+  <Message key="Restarting Device" value="Перезапуск устройства" revision="0" />
+  <Message key="ElevationError" value="Невозможно повысить привилегии. Ошибка: {error}" revision="0" />
+  <Message key="ElevationErrorTitle" value="Ошибка повышения привелегий" revision="0" />
+  <Message key="Main Title" value="{free?}Бесплатная {?free}Device Monitoring Studio{prerelease?} (ПРЕДРЕЛИЗНАЯ ВЕРСИЯ){?prerelease}" revision="0" />
+  <Message key="Beta Page" value="Бета" revision="0" />
+  <Message key="Beta title info" value="На этой странице можно просмотреть и загрузить дополнительные &quot;бета&quot;-компоненты. Эти компоненты могут добавлять экспериментальные функции или исправлять обнаруженные ошибки. Отметьте компоненты, которые вы хотите установить, снимите флажки с компонентов, которые вы хотите удалить, и нажмите кнопку Обновить." revision="0" />
+  <Message key="BetaUpdateButton" value="Обновить" revision="0" />
+  <Message key="Available beta modules:" value="Доступные бета-модули:" revision="0" />
+  <Message key="There are no updates available." value="Обновления отсутствуют." revision="0" />
+  <Message key="BetaInstalled" value="Конфигурация компонента успешно обновлена. Для применения изменений необходимо перезапустить Device Monitoring Studio." revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
