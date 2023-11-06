@@ -202,6 +202,7 @@
   <Message key="clr.menu.disabled_hover.fill" value="Недоступный элемент при наведении" revision="0" />
   <Message key="clr.menu.disabled_hover.stroke" value="Недоступный элемент, обводка при наведении" revision="0" />
   <Message key="clr.menu.disabled_hover.text" value="Недоступный элемент текст при наведении" revision="0" />
+  <Message key="clr.rebar" value="Цвета ребара" revision="0" />
   <Message key="clr.rebar.background" value="Фон" revision="0" />
   <Message key="clr.rebar.chevron.fill" value="Цвет шевронной точки" revision="0" />
   <Message key="clr.rebar.chevron.stroke" value="Цвет обводки шевронной точки" revision="0" />
@@ -418,244 +419,244 @@
     <Item value="Обновленная версия" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Проверка обновлений" revision="0" />
+    <Item value="Каждый запуск" revision="0" />
+    <Item value="Каждую неделю" revision="0" />
+    <Item value="Никогда" revision="0" />
   </Enumeration>
   <Enumeration key="CompilerErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="НЕТ_ОШИБКИ" revision="0" />
+    <Item value="CE001: Запрошенная операция недопустима для данного типа данных или не ожидается в данном случае" revision="0" />
+    <Item value="CE002: Деление на ноль" revision="0" />
+    <Item value="CE003: Указанный идентификатор не найден" revision="0" />
+    <Item value="CE004: Ожидается скаляр" revision="0" />
+    <Item value="CE005: Ожидается вектор" revision="0" />
+    <Item value="CE006: Индекс массива выходит за пределы диапазона" revision="0" />
+    <Item value="CE007: Пока не реализовано" revision="0" />
+    <Item value="CE008: Неверный размер битового поля" revision="0" />
+    <Item value="CE009: Синтаксическая ошибка" revision="0" />
+    <Item value="CE010: Тип был объявлен заранее" revision="0" />
+    <Item value="CE011: Операция не поддерживается для динамического типа" revision="0" />
+    <Item value="CE012:Тип переопределен" revision="0" />
+    <Item value="CE013: Ассерт не прошел" revision="0" />
+    <Item value="CE014: Ожидается постоянное выражение" revision="0" />
+    <Item value="CE015: Ожидается постоянное строковое выражение" revision="0" />
+    <Item value="CE016: Неправильное количество аргументов для вызова функции" revision="0" />
+    <Item value="CE017: Операция подписки для неиндексированного массива (подсказка: удалить атрибут [noindex])" revision="0" />
+    <Item value="CE018: Ошибка, возвращаемая системой Javascript" revision="0" />
+    <Item value="CE019: Недопустимый аргумент" revision="0" />
+    <Item value="CE020: Достигнута максимально допустимая глубина рекурсии" revision="0" />
+    <Item value="CE021: Ожидается выражение другого типа" revision="0" />
+    <Item value="CE022: Ошибка предпроцессинга" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Сохранить &amp;все" revision="0" />
+    <Item value="Сохранить все открытые документы" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Показать все" revision="0" />
+    <Item value="Не отображать ничего" revision="0" />
+    <Item value="Текущий" revision="0" />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Доступны новые бета-версии" revision="0" />
+    <Item value="Для вашей версии продукта доступны новые бета-версии." revision="0" />
+    <Item value="Хотите просмотреть список обновленных компонентов и загрузить их?" revision="0" />
+    <Item value="Этот запрос появляется только один раз для каждого набора уникальных on-line компонентов." revision="0" />
+    <Item value="Не проверять наличие новых бета-версий" revision="0" />
   </Enumeration>
   <Enumeration key="FileExit">
-    <Item />
-    <Item />
+    <Item value="В&amp;ыход" revision="0" />
+    <Item value="Выход из приложения" revision="0" />
   </Enumeration>
   <Enumeration key="FileOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Открыть…" revision="0" />
+    <Item value="Открыть документ поддерживаемого формата" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Очистить рабочее пространство" revision="0" />
+    <Item value="Закрыть все сессии мониторинга, открытые окна и очистить другие записи рабочего пространства" revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Выре&amp;зать" revision="0" />
+    <Item value="Вырезать выделение в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Копировать" revision="0" />
+    <Item value="Копирование выделения" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Вставить" revision="0" />
+    <Item value="Вставить содержимое буфера обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="&amp;Экспорт" revision="0" />
+    <Item value="Экспорт выделенного" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Удалить/очистить &amp;вид" revision="0" />
+    <Item value="Очистить вид" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
-    <Item />
-    <Item />
+    <Item value="Очистить &amp;все виды" revision="0" />
+    <Item value="Очистить все виды" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Найти…" revision="0" />
+    <Item value="Найти" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="Найти &amp;следующий" revision="0" />
+    <Item value="Найти следующий" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item />
-    <Item />
+    <Item value="&amp;Перейти к пакету…" revision="0" />
+    <Item value="Найти конкретный пакет" revision="0" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Экспорт конфигурации…" revision="0" />
+    <Item value="Экспорт конфигурации инструментальных окон" revision="0" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Импорт конфигурации…" revision="0" />
+    <Item value="Импорт конфигурации инструментальных окон" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Настройки…" revision="0" />
+    <Item value="Отображение программных настроек" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
-    <Item />
-    <Item />
+    <Item value="&amp;Возобновить все сессии" revision="0" />
+    <Item value="Возобновить все сеансы мониторингаClick to apply" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Приостановить все сессии" revision="0" />
+    <Item value="Приостановить все сеансы мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Остановить все сессии" revision="0" />
+    <Item value="Остановить все сеансы мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrev">
-    <Item />
-    <Item />
+    <Item value="&amp;Предыдущее" revision="0" />
+    <Item value="Переход к предыдущему окну" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNext">
-    <Item />
-    <Item />
+    <Item value="&amp;Следующее" revision="0" />
+    <Item value="Переход к следующему окну" revision="0" />
   </Enumeration>
   <Enumeration key="WindowClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Закрыть окно" revision="0" />
+    <Item value="Закрыть активное окно" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNextPane">
-    <Item />
-    <Item />
+    <Item value="Следующая панель" revision="0" />
+    <Item value="Активировать следующую панель" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrevPane">
-    <Item />
-    <Item />
+    <Item value="Предыдущая панель" revision="0" />
+    <Item value="Активировать предыдущую панель" revision="0" />
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
-    <Item />
-    <Item />
+    <Item value="&amp;Свернуть в трей" revision="0" />
+    <Item value="Сверните окно Device Monitoring Studio в системный трей" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
-    <Item />
-    <Item />
+    <Item value="Отменить" revision="0" />
+    <Item value="Отменить" revision="0" />
   </Enumeration>
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Содержание" revision="0" />
+    <Item value="Содержание" revision="0" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item />
-    <Item />
+    <Item value="&amp;Обратная связь…" revision="0" />
+    <Item value="Обратная связь" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
-    <Item />
-    <Item />
+    <Item value="&amp;Карта клавиатуры…" revision="0" />
+    <Item value="Отображение и распечатка карты клавиатуры" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardPrint">
-    <Item />
-    <Item />
+    <Item value="&amp;Печать…" revision="0" />
+    <Item value="Печать клавиатурной карты" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Копирование…" revision="0" />
+    <Item value="Копирование клавиатурной карты" revision="0" />
   </Enumeration>
   <Enumeration key="Endpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Эндпоинты" revision="0" />
+    <Item value="Эндпоинты" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsColoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Расцветка" revision="0" />
+    <Item value="Открыть настройки расцветки" revision="0" />
   </Enumeration>
   <Enumeration key="FiltersSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Фильтрация…" revision="0" />
+    <Item value="Открыть настройки фильтрации" revision="0" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Сброс настроек" revision="0" />
+    <Item value="Сброс конфигурации инструментальных окон" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Новый &amp;горизонтальный фрейм" revision="0" />
+    <Item value="Новый горизонтальный фрейм" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Новый &amp;вертикальный фрейм" revision="0" />
+    <Item value="Новый вертикальный фрейм" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Стыкуемое окно" revision="0" />
+    <Item value="Стыкуемое окно" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Документ с закладкой" revision="0" />
+    <Item value="Документ с закладкой" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Команда" revision="0" />
+    <Item value="Ярлыки" revision="0" />
+    <Item value="Описание" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Реестр" revision="0" />
+    <Item value="Место хранения для каждого пользователя по умолчанию." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Переносной режим" revision="0" />
+    <Item value="Сохраните настройки приложения в файле portable.hexset7 в папке запуска." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Внешний файл:" revision="0" />
+    <Item value="Сохранять настройки приложения во внешнем файле. Укажите общее местоположение (например, общую папку OneDrive или Dropbox) для обмена настройками между устройствами." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDirection">
-    <Item />
-    <Item />
+    <Item value="ВНИЗ" revision="0" />
+    <Item value="ВВЕРХ" revision="0" />
   </Enumeration>
   <Enumeration key="Boolean">
-    <Item />
-    <Item />
+    <Item value="Истинно" revision="0" />
+    <Item value="Ложно" revision="0" />
   </Enumeration>
   <Enumeration key="YesNo">
-    <Item />
-    <Item />
+    <Item value="ДА" revision="0" />
+    <Item value="НЕТ" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Другие языки…" revision="0" />
+    <Item value="Проверьте наличие других языков в сети" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Он-лайн хранилище языков" revision="0" />
+    <Item value="Участвуйте в создании новых языковых пакетов для Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
-    <Item />
-    <Item />
+    <Item value="Сменить язык" revision="0" />
+    <Item value="Этот языковой пакет был создан открытым сообществом. Мы не несем никакой ответственности за качество этого перевода.\r\n\r\nЕсли вы нашли ошибку в переводе, вы можете отправить тикет или исправить ее самостоятельно." revision="0" />
   </Enumeration>
 </Language>
