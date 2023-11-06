@@ -705,6 +705,25 @@
 	<Message key="clr.frame.nav.header" description="Color: Frame Nav Header Color" value="Navigation icon header" />
 	<Message key="clr.frame.nav.frame" description="Color: Frame Nav Frame Color" value="Navigation icon border" />
 
+	<Message key="clr.listview" description="Color: List View Colors" value="List View Colors"/>
+	
+	<Message key="clr.listview.normal.fill" description="Color: ListView Background Color" value="Background"/>
+	<Message key="clr.listview.normal.stroke" description="Color: ListView Text Color" value="Text"/>
+
+	<Message key="clr.listview.header.fill" description="Color: ListView Header Background Color" value="Header background"/>
+	<Message key="clr.listview.header.stroke" description="Color: ListView Header Text Color" value="Header text"/>
+
+	<Message key="clr.listview.selected.fill" description="Color: ListView Selection Background Color" value="Selection background"/>
+	<Message key="clr.listview.selected.stroke" description="Color: ListView Selection Stroke Color" value="Selection stroke"/>
+	<Message key="clr.listview.selected.text" description="Color: ListView Selection Text Color" value="Selection text"/>
+
+	<Message key="clr.listview.hover.fill" description="Color: ListView Hover Background Color" value="Hover background"/>
+	<Message key="clr.listview.hover.stroke" description="Color: ListView Hover Text Color" value="Hover text"/>
+
+	<Message key="clr.listview.grid" description="Color: ListView Grid Color" value="Grid"/>
+	<Message key="clr.listview.alternate_background" description="Color: ListView Alternate Background Color" value="Alternate background"/>
+	<Message key="clr.listview.hyperlink" description="Color: ListView Hyperlink Color" value="Hyperlink"/>
+
 	<!-- Settings Page -->
 	<Message key="Settings Page" description="Settings page title" value="Settings"/>
 
