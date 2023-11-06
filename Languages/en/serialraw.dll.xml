@@ -121,6 +121,11 @@
 		<Item text="Device"/>
 	</Enumeration>
 
+	<Message key="OpenedBy" description="Opened by message in Packet View" value="IRP_MJ_CREATE - process [[[b{process id}]]] ({process name})">
+		<Param name="process id"/>
+		<Param name="process name"/>
+	</Message>
+
 	<Message key="Serial Structure View" description="Serial Structure View" value="{name} - Serial Structure View">
 		<Param name="name"/>
 	</Message>

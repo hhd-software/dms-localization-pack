@@ -31,9 +31,10 @@
 		<Param name="device"/>
 	</Message>
 
-	<Enumeration key="BridgeColumns" description="Bridge Packet View columns">
+	<Enumeration key="BridgeColumns" description="Bridge Packet View columns" revision="1">
 		<Item text="Ordinal"/>
 		<Item text="Time"/>
+		<Item text="Time Diff"/>
 		<Item text="Sending Device"/>
 		<Item text="Data"/>
 		<Item text="Data Chars"/>
