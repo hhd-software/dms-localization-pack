@@ -26,11 +26,12 @@
     <Item value="Статистика собирает и отображает статистику и показатели пропускной способности устройства. Рассчитываются и отображаются на графике несколько значений статистики." revision="0" />
   </Enumeration>
   <Enumeration key="BridgeColumns">
-    <Item value="Порядковый" revision="0" />
-    <Item value="Время" revision="0" />
-    <Item value="Отправляющее устройство" revision="0" />
-    <Item value="Данные" revision="0" />
-    <Item value="Заголовки данных" revision="0" />
+    <Item value="Порядковый" revision="1" />
+    <Item value="Время" revision="1" />
+    <Item value="Разница времени" revision="1" />
+    <Item value="Отправляющее устройство" revision="1" />
+    <Item value="Данные" revision="1" />
+    <Item value="Классы данных" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
     <Item value="Устройство A Чтение байт/сек" revision="0" />

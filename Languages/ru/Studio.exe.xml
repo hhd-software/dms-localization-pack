@@ -130,6 +130,132 @@
   <Message key="Enter the scheme name and press the Save button" value="Введите название схемы и нажмите кнопку Сохранить" revision="0" />
   <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Хотите переопределить ее?" revision="0" />
   <Message key="Theme:" value="Тема:" revision="0" />
+  <Message key="Display elements:" value="Отображаемые элементы:" revision="0" />
+  <Message key="Automatic" value="Автоматический" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="Selected" value="Выбранный" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Автоматический цвет зависит от текущей цветовой темы операционной системы." revision="0" />
+  <Message key="&amp;Open" value="&amp;Открыть" revision="0" />
+  <Message key="Open Recent" value="Открыть {item}" revision="0" />
+  <Message key="Settings" value="Настройки" revision="0" />
+  <Message key="Search settings" value="Искать по настройкам" revision="0" />
+  <Message key="This toolbar cannot be deleted." value="Эта панель инструментов не может быть удалена." revision="0" />
+  <Message key="Toolbar Deletion Failed" value="Удаление панели инструментов не удалось" revision="0" />
+  <Message key="Invalid toolbar name" value="Недопустимое имя панели инструментов. Правильное имя должно начинаться с буквы." revision="0" />
+  <Message key="Toolbar Creation Failed" value="Не удалось создать панель инструментов" revision="0" />
+  <Message key="Toolbar already exists" value="Панель инструментов с указанным именем уже существует." revision="0" />
+  <Message key="All commands" value="Все команды" revision="0" />
+  <Message key="Commands Page" value="Команды" revision="0" />
+  <Message key="Toolbars" value="Панель инструментов:" revision="0" />
+  <Message key="New" value="&amp;Новый…" revision="0" />
+  <Message key="Button size" value="Размер кнопки:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду для просмотра ее описания или перетащите ее на панель инструментов:" revision="0" />
+  <Message key="New Group" value="Новая &amp;Группа" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Добавить" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Убрать &gt;" revision="0" />
+  <Message key="Move Up" value="&amp;Вверх" revision="0" />
+  <Message key="Move Down" value="&amp;Вниз" revision="0" />
+  <Message key="Clear" value="&amp;Очистить" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Обрезать панели инструментов" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Переносить панели инструментов" revision="0" />
+  <Message key="Keyboard" value="Клавиатура" revision="0" />
+  <Message key="MaxShortcuts" value="Для одной команды нельзя назначить более 5 ярлыков." revision="0" />
+  <Message key="ShortcutExists" value="Этот ярлык уже определен для {command}. Хотите переопределить его?" revision="0" />
+  <Message key="Keyboard Page" value="Клавиатура" revision="0" />
+  <Message key="Category" value="Категория:" revision="0" />
+  <Message key="Commands" value="Команды:" revision="0" />
+  <Message key="Current keys" value="Текущие клавиши:" revision="0" />
+  <Message key="Press new shortcut key" value="Нажать &amp;новую клавишу ярлыка" revision="0" />
+  <Message key="Description" value="Описание:" revision="0" />
+  <Message key="Currently assigned to" value="В настоящее время назначен на:" revision="0" />
+  <Message key="Assign" value="&amp;Назначить" revision="0" />
+  <Message key="Keyboard Map" value="&amp;Карта клавиатуры" revision="0" />
+  <Message key="[unassigned]" value="[не назначено]" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Карта клавиатуры" revision="0" />
+  <Message key="Print" value="&amp;Печатать" revision="0" />
+  <Message key="General" value="Общий" revision="0" />
+  <Message key="Requests" value="Запросы" revision="0" />
+  <Message key="Responses" value="Ответы" revision="0" />
+  <Message key="IO Requests" value="Запросы ввода/вывода" revision="0" />
+  <Message key="clr.default_colors" value="Цвета интерфейса по умолчанию" revision="0" />
+  <Message key="clr.default_colors.background" value="Фон" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Фон контролов" revision="0" />
+  <Message key="clr.default_colors.text" value="Фон текста, переднего плана" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Гиперссылка" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Недоступный текст" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Фон при наведении" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Текст при наведении" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Фон выбора" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Обводка выбора" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Выбранный текст" revision="0" />
+  <Message key="clr.menu" value="Цвета меню" revision="0" />
+  <Message key="clr.menu.background" value="Фон" revision="0" />
+  <Message key="clr.menu.text" value="Текст" revision="0" />
+  <Message key="clr.menu.separator" value="Разделитель" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Недоступный текст" revision="0" />
+  <Message key="clr.menu.checked" value="Фон выбранного элемента" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Фон выбранного недоступного элемента" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Фон при наведении" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.menu.hover.text" value="Текст при наведении" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Недоступный элемент при наведении" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Недоступный элемент, обводка при наведении" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Недоступный элемент текст при наведении" revision="0" />
+  <Message key="clr.rebar.background" value="Фон" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Цвет шевронной точки" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Цвет обводки шевронной точки" revision="0" />
+  <Message key="clr.toolbar" value="Цвета панели инструментов" revision="0" />
+  <Message key="clr.toolbar.background" value="Фон" revision="0" />
+  <Message key="clr.toolbar.text" value="Текст" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Недоступный текст" revision="0" />
+  <Message key="clr.toolbar.separator" value="Разделитель" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Фон при наведении" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Текст при наведении" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Фон нажатого" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Обводка нажатого" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Текст нажатого" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Фон нажатого и недоступного" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Обводка нажатого и ндоступного" revision="0" />
+  <Message key="clr.frame" value="Цвета фрейма" revision="0" />
+  <Message key="clr.frame.frame.background" value="Фон" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Клиентский фон" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Фон фрейма документа" revision="0" />
+  <Message key="clr.frame.frame.border" value="Рамка" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Фон неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Текст/обводка неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Фон активного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Текст, обводка активного заголовка" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Фон при наведении" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.frame.hover.text" value="Текст при наведении" revision="0" />
+  <Message key="clr.frame.title_text" value="Текст заглавия" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Тень навигационной иконки" revision="0" />
+  <Message key="clr.frame.nav.background" value="Фон навигационной иконки" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Подсветка навигационной иконки" revision="0" />
+  <Message key="clr.frame.nav.header" value="Загогловок навигационной иконки" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Рамка навигационной иконки" revision="0" />
+  <Message key="clr.listview" value="Цвета списков" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Фон" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Текст" revision="0" />
+  <Message key="clr.listview.header.fill" value="Фон заголовка" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Текст заголовка" revision="0" />
+  <Message key="clr.listview.selected.fill" value="Фон выбора" revision="0" />
+  <Message key="clr.listview.selected.stroke" value="Обводка выбора" revision="0" />
+  <Message key="clr.listview.selected.text" value="Текст выбора" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Фон при наведении" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Текст при наведении" revision="0" />
+  <Message key="clr.listview.grid" value="Сетка" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Альтернативный фон" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Гиперссылка" revision="0" />
+  <Message key="Settings Page" value="Настройки" revision="0" />
+  <Message key="Settings Storage Location" value="Путь к хранилищу настроек" revision="0" />
+  <Message key="Settings Management" value="Управление настройками" revision="0" />
+  <Message key="Export Settings…" value="Экспорт настроек…" revision="0" />
+  <Message key="Import Settings…" value="Импорт настроек…" revision="0" />
+  <Message key="Reset Settings…" value="Сброс настроек…" revision="0" />
+  <Message key="Ask to import settings" value="Указанный файл уже существует. Хотите ли Вы импортировать его содержимое сейчас? Если нажать кнопку Нет, то файл будет перезаписан с текущими настройками." revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />

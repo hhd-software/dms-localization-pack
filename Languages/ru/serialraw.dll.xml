@@ -18,6 +18,7 @@
   <Message key="ProcessOpen" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) попытался открыть устройство." revision="0" />
   <Message key="ProcessCreate" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) создать статус запроса: {status}" revision="0" />
   <Message key="Status" value="Статус: {status}" revision="0" />
+  <Message key="OpenedBy" value="IRP_MJ_CREATE - процесс [[[b{process id}]]] ({process name})" revision="0" />
   <Message key="Serial Structure View" value="{name} - Serial Структурный вид" revision="0" />
   <Message key="struct not found" value="Определение структуры 'Serial' не найдено. Визуализатор не может отобразить какие-либо результаты." revision="0" />
   <Message key="Serial Device Information" value="Информация о последовательном устройстве" revision="0" />
