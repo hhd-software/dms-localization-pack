@@ -353,58 +353,69 @@
   <Message key="BindPathWarning" value="Текущая сессия будет приостановлена." revision="0" />
   <Message key="WarningTitle" value="Внимание" revision="0" />
   <Message key="Wait_Text" value="Выполняется запрашиваемая операция..." revision="0" />
+  <Message key="Crash Page" value="Отчеты о сбоях" revision="0" />
+  <Message key="CrashIntro" value="Если вы хотите получать уведомления о статусе ваших отчетов о сбоях и желаете, чтобы ваши отчеты обрабатывались с более высоким приоритетом, пожалуйста, укажите свой адрес электронной почты в поле ниже. Ваш адрес электронной почты не будет использоваться ни для каких других целей, кроме обсуждения ваших сообщений." revision="0" />
+  <Message key="Report Settings" value="Настройки" revision="0" />
+  <Message key="Send report automatically" value="&amp;Отправлять отчет автоматически" revision="0" />
+  <Message key="Report verbosity level" value="Уровень детализации отчета" revision="0" />
+  <Message key="Minidump" value="&amp;Минидамп" revision="0" />
+  <Message key="Full dump" value="&amp;Полный дамп" revision="0" />
+  <Message key="Minidump description" value="Минидампы обычно имеют размер менее мегабайта и содержат лишь ограниченную информацию об аварии. Иногда минидампа достаточно для диагностики проблемы, но часто в нем отсутствует необходимая информация, требуемая для воспроизведения сбоя." revision="0" />
+  <Message key="Full dump description" value="Полные дампы содержат сжатый вид всего адресного пространства процесса. Они лучше всего подходят для того, чтобы разработчики могли воспроизвести ситуацию, вызвавшую сбой, и исправить ее как можно быстрее. Однако размер полного дампа может легко достигать сотен мегабайт." revision="0" />
+  <Message key="Privacy Policy" value="Политика конфиденциальности" revision="0" />
+  <Message key="Credits to" value="Благодарности:" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
-    <Item />
-    <Item />
+    <Item value="&amp;Проверить обновления" revision="0" />
+    <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Файл" revision="0" />
+    <Item value="Меню файлов" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Новое" revision="0" />
+    <Item value="Новое меню" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Редактировать" revision="0" />
+    <Item value="Редактировать меню" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Смотреть" revision="0" />
+    <Item value="Смотреть меню" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;Инструменты" revision="0" />
+    <Item value="Меню инструментов" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Окно" revision="0" />
+    <Item value="Меню окон" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Справка" revision="0" />
+    <Item value="Меню справки" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="&amp;Инструментальные окна" revision="0" />
+    <Item value="Список инструментальных окон" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Сохранить" revision="0" />
+    <Item value="Сохранить текущий документ или рабочую область" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="&amp;Фильтрация" revision="0" />
+    <Item value="Показать опции фильтров для визуализатора" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Сохранить &amp;как…" revision="0" />
+    <Item value="Сохранить текущий документ или рабочую область под другим именем" revision="0" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Компонент" revision="0" />
+    <Item value="Текущая версия" revision="0" />
+    <Item value="Обновленная версия" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
     <Item />
