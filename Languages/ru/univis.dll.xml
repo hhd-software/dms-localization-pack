@@ -18,6 +18,30 @@
   <Message key="Raw Data View Coloring" value="Раскраска сырых данных" revision="0" />
   <Message key="Go to Offset" value="Перейти к смещению" revision="0" />
   <Message key="Offset:" value="Смещение:" revision="0" />
+  <Message key="Resulting offset:" value="Итоговое смещение:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Шестнадцатеричный" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Десятичный" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Восьмеричный" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Абсолютное смещение" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Относительное смещение" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Проценты" revision="0" />
+  <Message key="IncorrectInputTitle" value="Некорректный ввод" revision="0" />
+  <Message key="Send packets" value="Передача пакетов" revision="0" />
+  <Message key="Options" value="Опции" revision="0" />
+  <Message key="Adapter:" value="Адаптер:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Игнорирование задержки (пакетный режим)" revision="0" />
+  <Message key="Loop mode:" value="По кругу:" revision="0" />
+  <Message key="loops" value="циклов" revision="0" />
+  <Message key="Loop delay:" value="Задержка между циклами:" revision="0" />
+  <Message key="milliseconds" value="миллисекунд" revision="0" />
+  <Message key="Close this window after sending packets" value="Закрыть это окно после отправки пакетов" revision="0" />
+  <Message key="Packets Statistics" value="Статистика по пакетам" revision="0" />
+  <Message key="Total:" value="Всего:" revision="0" />
+  <Message key="Sent:" value="Послано:" revision="0" />
+  <Message key="SentFormat" value="Послано: {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Всего: {bytes}" revision="0" />
+  <Message key="Process" value="Процесс" revision="0" />
+  <Message key="Delay" value="Задержка" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
