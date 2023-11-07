@@ -554,9 +554,8 @@
 	<!-- Pattern Coloring -->
 	<Message key="ViewOffset" description="Title: Offset" value="Offset"/>
 	<Message key="PatternColoring" description="Title: Pattern Coloring" value="Pattern Coloring"/>
-	<Message key="Pattern" description="" value="Pattern"/>
+	<Message key="Pattern" description="Column text: Pattern" value="Pattern"/>
 	<Message key="WriteFileError" description="Message: Write file error" value="Error writing to the file. Try different location."/>
-	<Message key="ReadFileError" description="" value="Error reading from the file. "/>
 	<Message key="Back color:" description="Field: Back color" value="Back color:"/>
 	<Message key="Text color:" description="Field: Text color" value="Text color:"/>
 	<Message key="Outline color:" description="Field: Outline color" value="Outline color:"/>
@@ -797,8 +796,8 @@
 
 	<!-- Find All Results -->
 	<!--<Message key="Find All" description="Title: Find All" value="Find All"/>-->
-	<Message key="find all results" description="" value=""/>
-	<Message key="Display results pane" description="" value=""/>
+	<Message key="Find all results" description="Label text: find all results" value="Find all results"/>
+	<Message key="Display results pane" description="Check box text: Display results pane" value="Display results pane"/>
 
 	<!-- Pattern Editor -->
 	<Message key="Pattern Editor" description="Title: Pattern Editor" value="Pattern Editor"/>
@@ -878,4 +877,12 @@
 
 	<Message key="toolbar.Output" description="Toolbar: Output" value="Output"/>
 	<Message key="toolbar.PacketBuilder" description="Toolbar: Packet Builder" value="Packet Builder"/>
+
+	<!-- Plot Color scheme -->
+	<Message key="clr.plot_colors" description="Color: Plot Visualizer Colors" value="Plot Colors"/>
+	<Message key="clr.plot_colors.ordinalLine" description="Color: Ordinal line color" value="Ordinal color" />
+	<Message key="clr.plot_colors.timeLine" description="Color: Time line color" value="Time color" />
+	<Message key="clr.plot_colors.selected1" description="Color: TODO" value="Selection 1" /> 
+	<Message key="clr.plot_colors.selected2" description="Color: TODO" value="Selection 2" />
+
 </Definition>
