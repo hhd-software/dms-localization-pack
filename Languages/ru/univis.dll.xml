@@ -42,6 +42,123 @@
   <Message key="TotalFormat" value="Всего: {bytes}" revision="0" />
   <Message key="Process" value="Процесс" revision="0" />
   <Message key="Delay" value="Задержка" revision="0" />
+  <Message key="ErrorInput" value="Некорректный диапазон. Диапазон - ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Невозможно отправить пакеты. Сетевой адаптер не выбран или в системе нет подключенных сетевых адаптеров." revision="0" />
+  <Message key="LogStartBurst" value="Пуск ( пакетный режим)..." revision="0" />
+  <Message key="LogStart" value="Пуск..." revision="0" />
+  <Message key="LogStop" value="Остановить..." revision="0" />
+  <Message key="ViewOffset" value="Смещение" revision="0" />
+  <Message key="PatternColoring" value="Подсветка паттернов" revision="0" />
+  <Message key="Pattern" value="Паттерн" revision="0" />
+  <Message key="WriteFileError" value="Ошибка записи в файл. Попробуйте другое местоположение." revision="0" />
+  <Message key="ReadFileError" value="Ошибка чтения из файла. " revision="0" />
+  <Message key="Back color:" value="Цвет фона:" revision="0" />
+  <Message key="Text color:" value="Цвет текста:" revision="0" />
+  <Message key="Outline color:" value="Цвет обводки:" revision="0" />
+  <Message key="Description" value="Описание" revision="0" />
+  <Message key="New Packet" value="Новый пакет" revision="0" />
+  <Message key="Packet Template:" value="Шаблон пакета:" revision="0" />
+  <Message key="Interval:" value="Интервал:" revision="0" />
+  <Message key="Save Template" value="Сохранить шаблон" revision="0" />
+  <Message key="Name:" value="Имя:" revision="0" />
+  <Message key="NoSelection" value="Нет выделения" revision="0" />
+  <Message key="Number" value="№." revision="0" />
+  <Message key="Address" value="Адрес" revision="0" />
+  <Message key="Length" value="Длина" revision="0" />
+  <Message key="AdapterSelect" value="Выбрать адаптер…\nВыбор адаптера по умолчанию для отправки пакетов" revision="0" />
+  <Message key="TemplateAlreadyExists" value="Шаблон уже существует. Хотите его заменить?" revision="0" />
+  <Message key="ErrorRead" value="Ошибка чтения из файла. " revision="0" />
+  <Message key="PacketBuilderTitle" value="Конструктор пакетов" revision="0" />
+  <Message key="TemplateDeleteError" value="Эта схема не может быть удалена или изменена." revision="0" />
+  <Message key="TitleError" value="Ошибка" revision="0" />
+  <Message key="NoPackets" value="Ни один пакет не выбран. Нечего отправлять." revision="0" />
+  <Message key="Warning" value="Внимание" revision="0" />
+  <Message key="BigPacket" value="Размер пакета больше стандартного MTU (1500). Отправка не гарантируется." revision="0" />
+  <Message key="All files" value="Все файлы" revision="0" />
+  <Message key="LimitSize" value="Пакет слишком большой. Размер входного файла больше {limit} байт. Используйте первые {first} байт." revision="0" />
+  <Message key="NetTermTooltip" value="Пакет:\t\t{number}\nРазмер:\t\t{size} bytes\nЗадержка:\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Хотите перезаписать эту схему?" revision="0" />
+  <Message key="SaveAs" value="Сохранить как" revision="0" />
+  <Message key="HexStartError" value="Не удалось запустить Hex редактор. Код ошибки = {code}" revision="0" />
+  <Message key="HexLocationError" value="Не удается найти расположение установщика Hex Editor Neo." revision="0" />
+  <Message key="HexVersionError" value="Неизвестен номер версии Hex Editor." revision="0" />
+  <Message key="ErrorTitle" value="Ошибка" revision="0" />
+  <Message key="EncodingNotSupported" value="Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. Кодировка не поддерживается. " revision="0" />
+  <Message key="NotSupported" value="В вашей системе отсутствуют компоненты, необходимые для поддержки выбранной кодировки. Выберите другую кодировку." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Ошибка обнаружения пакета" revision="0" />
+  <Message key="InvalidOffset" value="Некорректное смещение." revision="0" />
+  <Message key="GoToOffset" value="Перейти к смещению" revision="0" />
+  <Message key="InvalidRule" value="Невозможно включить правило, правило недействительно." revision="0" />
+  <Message key="SchemeOverwrite" value="Текущая схема будет утрачена. Хотите продолжить?" revision="0" />
+  <Message key="VersionError" value="Файл имеет другую версию." revision="0" />
+  <Message key="ItemWillBeRemoved" value="Текущий элемент будет удален. Хотите продолжить?" revision="0" />
+  <Message key="SampleText" value="Образец текста" revision="0" />
+  <Message key="RegExpPattern" value="РВ: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Невозможно прочесть из файла. " revision="0" />
+  <Message key="PatternColoringRule" value="Правило подсветки паттернов {number}" revision="0" />
+  <Message key="CopyWait" value="Пожалуйста, подождите, пока данные будут скопированы в буфер обмена." revision="0" />
+  <Message key="CantCreateFile" value="Невозможно создать файл" revision="0" />
+  <Message key="ConsoleView" value="Консольный вид" revision="0" />
+  <Message key="StatisticsTip" value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="Lines" value="Строки" revision="0" />
+  <Message key="SchemeNameCue" value="Введите здесь название схемы" revision="0" />
+  <Message key="Device" value="Устройство" revision="0" />
+  <Message key="Selection" value="Выделение" revision="0" />
+  <Message key="SelectedPacket" value="Выбранный пакет" revision="0" />
+  <Message key="Output" value="Выход" revision="0" />
+  <Message key="TimeLabel" value="Время:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Сброс в положение по умолчанию" revision="0" />
+  <Message key="AddRemoveCounters" value="Добавить/удалить счетчики" revision="0" />
+  <Message key="Sample" value="Образец" revision="0" />
+  <Message key="ErrorCreate" value="Невозможно создать файл." revision="0" />
+  <Message key="Plot" value="График" revision="0" />
+  <Message key="PlotStaticLine" value="Следящая линия: " revision="0" />
+  <Message key="PlotDynamicLine" value="Статичная линия:" revision="0" />
+  <Message key="FindPatternTitle" value="Паттерн:" revision="0" />
+  <Message key="OperationPerformed" value="Выполняется запрашиваемая операция..." revision="0" />
+  <Message key="CopyrightNotice" value="Создано программой HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Ошибка синтаксиса регулярного выражения: {error}." revision="0" />
+  <Message key="AllFilesFilter" value="Все файлы|*|" revision="0" />
+  <Message key="Find" value="Поиск" revision="0" />
+  <Message key="Type: " value="Тип:" revision="0" />
+  <Message key="Fi&amp;nd what: " value="Н&amp;айти что:" revision="0" />
+  <Message key="Regular expression" value="Регулярное выражение" revision="0" />
+  <Message key="Sub-match:" value="Совпадение:" revision="0" />
+  <Message key="Search Up" value="Искать вверх" revision="0" />
+  <Message key="Search Down" value="Искать вниз" revision="0" />
+  <Message key="Ignore case" value="Игнорировать регистр" revision="0" />
+  <Message key="&amp;Find" value="&amp;Искать" revision="0" />
+  <Message key="Find All" value="Искать все" revision="0" />
+  <Message key="Set Columns" value="Установить колонки" revision="0" />
+  <Message key="Enter number of columns per row:" value="Введите количество колонок в строке:" revision="0" />
+  <Message key="Add/Remove Counters" value="Добавление/удаление счетчиков" revision="0" />
+  <Message key="Available counters:" value="Доступные счетчики:" revision="0" />
+  <Message key="Select All" value="Выбрать все" revision="0" />
+  <Message key="Counter description:" value="Описание счетчика:" revision="0" />
+  <Message key="Select the counter to view its description." value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="Reset to Default" value="Сброс по умолчанию" revision="0" />
+  <Message key="Layout" value="Схема размещения" revision="0" />
+  <Message key="Font:" value="Шрифт:" revision="0" />
+  <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="Visualization elements:" value="Элементы визуализации:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Нарисовать рамку курсора" revision="0" />
+  <Message key="Color:" value="Цвет:" revision="0" />
+  <Message key="Automatic" value="Автоматически" revision="0" />
+  <Message key="Do not interlace background" value="Не чередовать фон" revision="0" />
+  <Message key="Interlace columns" value="Чередование колонок" revision="0" />
+  <Message key="Interlace rows" value="Чередование строк" revision="0" />
+  <Message key="Smart indentation" value="Умные отступы" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Антиалиасинг (медленнее)" revision="0" />
+  <Message key="Schemes…" value="Схемы…" revision="0" />
+  <Message key="Layout Schemes" value="Схемы компоновки окон" revision="0" />
+  <Message key="&amp;Save As…" value="&amp;Сохранить как…" revision="0" />
+  <Message key="Pattern Coloring" value="Подсветка паттернов" revision="0" />
+  <Message key="Variable Properties" value="Свойства переменной" revision="0" />
+  <Message key="Variable name:" value="Имя переменной:" revision="0" />
+  <Message key="Units:" value="Единицы:" revision="0" />
+  <Message key="Line width:" value="Ширина строки" revision="0" />
+  <Message key="Scale:" value="Масштаб:" revision="0" />
+  <Message key="Please Wait..." value="Пожалуйста, подождите..." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
