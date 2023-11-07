@@ -198,6 +198,8 @@
   <Message key="clr.plot_colors" value="Цвета графика" revision="0" />
   <Message key="clr.plot_colors.ordinalLine" value="Цвет ординат" revision="0" />
   <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="0" />
+  <Message key="clr.plot_colors.selected1" value="Выделение 1" revision="0" />
+  <Message key="clr.plot_colors.selected2" value="Выделение 2" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
     <Item value="Отсутствие окраски пакетов" revision="0" />
@@ -531,127 +533,127 @@
     <Item value="Прямой порядок байтов" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
-    <Item />
-    <Item />
+    <Item value="&amp;Перейти к  cмещению" revision="0" />
+    <Item value="Переход к заданному смещению" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Следующий пакет" revision="0" />
+    <Item value="Переход к началу следующего пакета" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPrevPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Предыдущий пакет" revision="0" />
+    <Item value="Переход к началу предыдущего пакета" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSynchronize">
-    <Item />
-    <Item />
+    <Item value="&amp;Синхронизировать" revision="0" />
+    <Item value="Показать ближайший пакет в окне чтения/записи" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindPrev">
-    <Item />
-    <Item />
+    <Item value="Найти предыдущий" revision="0" />
+    <Item value="Найти предыдущий" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataLayoutSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Цвета…" revision="0" />
+    <Item value="Показать настройки раскраски для визуализатора сырых данных" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHexEditorExport">
-    <Item />
-    <Item />
+    <Item value="Обработать с помощью Hex Editor Neo" revision="0" />
+    <Item value="Просмотр, разбор и редактирование выделенных фрагментов с помощью HexEditor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
-    <Item />
-    <Item />
+    <Item value="Показать &amp;как" revision="0" />
+    <Item value="Показать как" revision="0" />
   </Enumeration>
   <Enumeration key="MenuGroupBy">
-    <Item />
-    <Item />
+    <Item value="Группировать по" revision="0" />
+    <Item value="Группировать по" revision="0" />
   </Enumeration>
   <Enumeration key="MenuColumns">
-    <Item />
-    <Item />
+    <Item value="&amp;Колонки" revision="0" />
+    <Item value="Колонки" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndians">
-    <Item />
-    <Item />
+    <Item value="По&amp;рядок байт" revision="0" />
+    <Item value="Порядок байт" revision="0" />
   </Enumeration>
   <Enumeration key="IncorrectInputText">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Должно быть шестнадцатеричное значение" revision="0" />
+    <Item value="Должно быть десятичное значение" revision="0" />
+    <Item value="Должно быть восьмеричное значение" revision="0" />
+    <Item value="Должна быть действительное значение" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item />
-    <Item />
+    <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
+    <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
-    <Item />
-    <Item />
+    <Item value="Статическая линия проставлена" revision="0" />
+    <Item value="Щелкните еще раз, удерживая Ctrl, чтобы проставить линию отслеживания " revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
-    <Item />
-    <Item />
+    <Item value="Специальный высокоскоростной режим" revision="0" />
+    <Item value="Device Monitoring Studio может повысить точность и производительность визуализатора Статистика, если он используется отдельно. Начните новый сеанс мониторинга, настроив только визуализатор Статистика, или закройте все остальные модули обработки данных прямо сейчас, чтобы перейти в этот режим.\n Примечание: запись лога также отключает высокоскоростной режим." revision="0" />
   </Enumeration>
   <Enumeration key="PlotColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Имя" revision="0" />
+    <Item value="Макс." revision="0" />
+    <Item value="Средн." revision="0" />
+    <Item value="Последн." revision="0" />
+    <Item value="Всего" revision="0" />
+    <Item value="Масштаб" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Размер всего" revision="0" />
+    <Item value="Фрагменты" revision="0" />
+    <Item value="Без выделения" revision="0" />
+    <Item value="байт" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionDetailsColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="№" revision="0" />
+    <Item value="Адрес" revision="0" />
+    <Item value="Длина" revision="0" />
   </Enumeration>
   <Enumeration key="ColorItems">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Текст" revision="1" />
+    <Item value="Фон" revision="1" />
+    <Item value="Заголовок и адрес" revision="1" />
+    <Item value="Фон адреса" revision="1" />
+    <Item value="Текст ASCII/UNICODE " revision="1" />
+    <Item value="Фон ASCII/UNICODE " revision="1" />
+    <Item value="Четный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Нечетный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Текст &quot;нет данных&quot;" revision="1" />
+    <Item value="Заливка курсора" revision="1" />
+    <Item value="Обводка курсора" revision="1" />
+    <Item value="Подсветка текста активной колонки/строки" revision="1" />
+    <Item value="Подсветка фона активной колонки/строки" revision="1" />
+    <Item value="Текст нечетного пакета" revision="1" />
+    <Item value="Фон нечетного пакета" revision="1" />
+    <Item value="Обводка нечетного пакета" revision="1" />
+    <Item value="Текст четного пакета" revision="1" />
+    <Item value="Фон четного пакета" revision="1" />
+    <Item value="Обводка четного пакета" revision="1" />
+    <Item value="Выделение" revision="1" />
+    <Item value="Редактируемый текст" revision="1" />
   </Enumeration>
   <Enumeration key="FRTypeList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Строка" revision="0" />
+    <Item value="Строка UNICODE" revision="0" />
+    <Item value="Шестнадцатеричное" revision="0" />
   </Enumeration>
   <Enumeration key="FRGroupList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="БАЙТ" revision="1" />
+    <Item value="СЛОВО" revision="1" />
+    <Item value="ДВОЙНОЕ" revision="1" />
+    <Item value="ЧЕТВЕРНОЕ" revision="1" />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Номер" revision="0" />
+    <Item value="Имя" revision="0" />
+    <Item value="Значение" revision="0" />
+    <Item value="Адрес" revision="0" />
+    <Item value="Размер" revision="0" />
+    <Item value="Тип" revision="0" />
+    <Item value="Время" revision="0" />
   </Enumeration>
 </Language>
