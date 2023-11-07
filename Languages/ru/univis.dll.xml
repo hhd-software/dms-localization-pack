@@ -51,7 +51,6 @@
   <Message key="PatternColoring" value="Подсветка паттернов" revision="0" />
   <Message key="Pattern" value="Паттерн" revision="0" />
   <Message key="WriteFileError" value="Ошибка записи в файл. Попробуйте другое местоположение." revision="0" />
-  <Message key="ReadFileError" value="Ошибка чтения из файла. " revision="0" />
   <Message key="Back color:" value="Цвет фона:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
   <Message key="Outline color:" value="Цвет обводки:" revision="0" />
@@ -159,337 +158,377 @@
   <Message key="Line width:" value="Ширина строки" revision="0" />
   <Message key="Scale:" value="Масштаб:" revision="0" />
   <Message key="Please Wait..." value="Пожалуйста, подождите..." revision="0" />
+  <Message key="Find all results" value="Найти все результаты" revision="0" />
+  <Message key="Display results pane" value="Показать панель результатов" revision="0" />
+  <Message key="Pattern Editor" value="Редактор паттернов" revision="0" />
+  <Message key="Standard rule:" value="Стандартное правило:" revision="0" />
+  <Message key="Round edges" value="Округлые края" revision="0" />
+  <Message key="Default" value="По умолчанию" revision="0" />
+  <Message key="Information" value="Информация" revision="0" />
+  <Message key="Details" value="Подробнее" revision="0" />
+  <Message key="NotValid" value="Недопустимое значение." revision="0" />
+  <Message key="SViewTitle" value="Структурный вид" revision="0" />
+  <Message key="N/A" value="Н/Д" revision="0" />
+  <Message key="CantUpdate" value="Запрашиваемая операция выполняется..." revision="0" />
+  <Message key="PColFilter" value="Файлы раскраски паттернов|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Последние паттерны…" revision="0" />
+  <Message key="Type:" value="Тип:" revision="0" />
+  <Message key="Find what:" value="Искать что:" revision="0" />
+  <Message key="Custom colors:" value="Пользовательские цвета:" revision="0" />
+  <Message key="Default colors:" value="Цвета по умолчанию:" revision="0" />
+  <Message key="Alpha" value="Альфа" revision="0" />
+  <Message key="Custom..." value="Пользовательский..." revision="0" />
+  <Message key="Baud rate:" value="Скорость передачи:" revision="0" />
+  <Message key="Data bits:" value="Битов данных:" revision="0" />
+  <Message key="Parity:" value="Четность:" revision="0" />
+  <Message key="Stop bits:" value="Стоп-биты:" revision="0" />
+  <Message key="Flow control:" value="Контроль потока:" revision="0" />
+  <Message key="Out DSR Flow:" value="Исходящий DSR Flow:" revision="0" />
+  <Message key="RTS control:" value="Контроль RTS:" revision="0" />
+  <Message key="DSR sensivity:" value="Чувствительность DSR;" revision="0" />
+  <Message key="DTR control:" value="Контроль DTR:" revision="0" />
+  <Message key="Out CTS Flow:" value="Исходящий CTS Flow:" revision="0" />
+  <Message key="Out XON/XOFF:" value="Исходящий XON/XOFF:" revision="0" />
+  <Message key="In XON/XOFF:" value="Входящий XON/XOFF:" revision="0" />
+  <Message key="Click here" value="Кликнуть здесь" revision="0" />
+  <Message key="Current" value="Текущий" revision="0" />
+  <Message key="PredefinedOverwrite" value="Изменить предопределенные схемы невозможно" revision="0" />
+  <Message key="toolbar.Output" value="Вывод" revision="0" />
+  <Message key="toolbar.PacketBuilder" value="Конструктор пакетов" revision="0" />
+  <Message key="clr.plot_colors" value="Цвета графика" revision="0" />
+  <Message key="clr.plot_colors.ordinalLine" value="Цвет ординат" revision="0" />
+  <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
+    <Item value="Отсутствие окраски пакетов" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item />
-    <Item />
+    <Item value="Раскраска пакетов &quot;&amp;чет/нечет&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;чет/нечет&quot;" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
-    <Item />
-    <Item />
+    <Item value="Раскраска пакетов &quot;ч&amp;тение/запись&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;чтение/запись&quot;" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingSwitch">
-    <Item />
-    <Item />
+    <Item value="Раскраска пакетов" revision="0" />
+    <Item value="Переключение режима раскраски пакетов" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item />
-    <Item />
+    <Item value="Очистить все" revision="0" />
+    <Item value="Очистить содержимое текущего окна вывода" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
-    <Item />
-    <Item />
+    <Item value="Автоподгонка" revision="0" />
+    <Item value="Автоподгонка" revision="0" />
   </Enumeration>
   <Enumeration key="ModeLines">
-    <Item />
-    <Item />
+    <Item value="Рисовать линии" revision="0" />
+    <Item value="Рисовать линии" revision="0" />
   </Enumeration>
   <Enumeration key="ModeCurves">
-    <Item />
-    <Item />
+    <Item value="Рисовать кривые" revision="0" />
+    <Item value="Рисовать кривые" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
-    <Item />
-    <Item />
+    <Item value="Без заливки" revision="0" />
+    <Item value="Без заливки" revision="0" />
   </Enumeration>
   <Enumeration key="FillSolid">
-    <Item />
-    <Item />
+    <Item value="Сплошная заливка" revision="0" />
+    <Item value="Сплошная заливка" revision="0" />
   </Enumeration>
   <Enumeration key="FillGradient">
-    <Item />
-    <Item />
+    <Item value="Градиентная заливка" revision="0" />
+    <Item value="Градиентная заливка" revision="0" />
   </Enumeration>
   <Enumeration key="DumpVarCommand">
-    <Item />
-    <Item />
+    <Item value="ДЕБАГ: Dump var0" revision="0" />
+    <Item value="ДЕБАГ: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item />
-    <Item />
+    <Item value="Перейти к образцу…" revision="0" />
+    <Item value="Найдите на схеме конкретный образец" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
-    <Item />
-    <Item />
+    <Item value="Перейти к линии" revision="0" />
+    <Item value="Перейти к линии" revision="0" />
   </Enumeration>
   <Enumeration key="PlotSetOnAxis">
-    <Item />
-    <Item />
+    <Item value="Показать на оси" revision="0" />
+    <Item value="Показать на оси" revision="0" />
   </Enumeration>
   <Enumeration key="PlotProperties">
-    <Item />
-    <Item />
+    <Item value="Редактировать счетчик…" revision="0" />
+    <Item value="Редактировать выбранный счетчик" revision="0" />
   </Enumeration>
   <Enumeration key="PlotReset">
-    <Item />
-    <Item />
+    <Item value="Сброс цветов по умолчанию" revision="0" />
+    <Item value="Сброс цветов по умолчанию" revision="0" />
   </Enumeration>
   <Enumeration key="PlotCopy">
-    <Item />
-    <Item />
+    <Item value="Копирование в буфер обмена" revision="0" />
+    <Item value="Копирование в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="PlotExportToCSV">
-    <Item />
-    <Item />
+    <Item value="Экспорт в CSV файл" revision="0" />
+    <Item value="Экспорт в CSV файл" revision="0" />
   </Enumeration>
   <Enumeration key="PlotResetColumnWidth">
-    <Item />
-    <Item />
+    <Item value="Сброс ширины колонок" revision="0" />
+    <Item value="Сброс ширины колонок" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAdd">
-    <Item />
-    <Item />
+    <Item value="Добавить новый пакет…" revision="0" />
+    <Item value="Добавить новый пакет в список" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDelete">
-    <Item />
-    <Item />
+    <Item value="Удалить пакет…" revision="0" />
+    <Item value="Удалить выбранный пакет" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendSelected">
-    <Item />
-    <Item />
+    <Item value="Отправить пакет…" revision="0" />
+    <Item value="Отправить выбранный пакет" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendAll">
-    <Item />
-    <Item />
+    <Item value="Отправить все пакеты…" revision="0" />
+    <Item value="Отправить все пакеты из списка" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Сохранить шаблон пакета…" revision="0" />
+    <Item value="Сохранить шаблон пакета" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Загрузить шаблон пакета из файла…" revision="0" />
+    <Item value="Загрузить шаблон пакета из файла" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="Вверх" revision="0" />
+    <Item value="Переместить выбранный пакет вверх" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
-    <Item />
+    <Item value="Вниз" revision="0" />
+    <Item value="Переместить выбранный пакет вниз" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Автоматическое вычисление контрольной суммы для IP и TCP пакетов" revision="0" />
+    <Item value="Автоматическое вычисление контрольной суммы для IP и TCP пакетов" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Сохранить шаблон пакета в файл…" revision="0" />
+    <Item value="Сохранить шаблон пакета в файл" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="Копировать &amp;значение" revision="0" />
+    <Item value="Копирование значения в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="Копировать &amp;строку" revision="0" />
+    <Item value="Копирование всей строки в буфер обмена" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="Ра&amp;звернуть поддерево" revision="0" />
+    <Item value="Развернуть поддерево поля" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="&amp;Свернуть поддерево" revision="0" />
+    <Item value="Свернуть поддерево поля" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Следующий пакет" revision="0" />
+    <Item value="Перейти к следующему пакету" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Предыдущий пакет" revision="0" />
+    <Item value="Перейти к предыдущему пакету" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Перейти к пакету…" revision="0" />
+    <Item value="Переход к указанному пакету" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="&amp;Детали выбранного пакета" revision="0" />
+    <Item value="Детали выбранного пакета" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="Установить &amp;фильтр" revision="0" />
+    <Item value="Настройка фильтра визуализатора" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="Установить &amp;корневой протокол…" revision="0" />
+    <Item value="Укажите корневой протокол для данного визуализатора" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Раскрыть все" revision="0" />
+    <Item value="Раскрыть все" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Свернуть все" revision="0" />
+    <Item value="Свернуть все" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Сбросить выделение" revision="0" />
+    <Item value="Сброс выделения в окне" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="&amp;Инвертировать выделение" revision="0" />
+    <Item value="Инвертировать выделение" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Выбрать пакет" revision="0" />
+    <Item value="Выбор данных текущего пакета" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Выбрать все" revision="0" />
+    <Item value="Выбор всего содержимого визуализатора" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Шестнадцатеричный" revision="0" />
+    <Item value="Шестнадцатеричный режим" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Десятичный" revision="0" />
+    <Item value="Десятичный режим" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Восьмеричный " revision="0" />
+    <Item value="Восьмеричный режим" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Бинарный" revision="0" />
+    <Item value="Бинарный режим" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="С &amp;плавающей точкой" revision="0" />
+    <Item value="Режим работы с плавающей точкой" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="Д&amp;войной точности" revision="0" />
+    <Item value="Режим работы с плавающей точкой двойной точности" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Байты" revision="0" />
+    <Item value="Группировать в виде байтов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Слова" revision="0" />
+    <Item value="Группировка в виде слов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Двойные слова" revision="0" />
+    <Item value="Группировать как двойные слова" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Четырехзначные слова" revision="0" />
+    <Item value="Группировать как четырехзначные слова" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Авто" revision="0" />
+    <Item value="Автоматическое вычисление количества столбцов" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 колонки" revision="0" />
+    <Item value="4 колонки" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;8 колонок" revision="0" />
+    <Item value="8 колонок" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 колонок" revision="0" />
+    <Item value="16 колонок" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 колонки" revision="0" />
+    <Item value="32 колонки" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="П&amp;ользовательский" revision="0" />
+    <Item value="Укажите количество столбцов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Текстовая область" revision="0" />
+    <Item value="Показать или скрыть текстовую область (ASCII или UNICODE)" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
-    <Item />
-    <Item />
+    <Item value="&amp;Область кодов" revision="0" />
+    <Item value="Показать или скрыть область кодов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Шестнадцатеричный" revision="0" />
+    <Item value="Просмотр адреса в шестнадцатеричном виде" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Десятичный" revision="0" />
+    <Item value="Просмотр адреса в десятичном виде" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Восьмеричный " revision="0" />
+    <Item value="Представление адреса в восьмеричном виде" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item />
-    <Item />
+    <Item value="&amp;Определить паттерны…" revision="0" />
+    <Item value="Создание новых или управление существующими шаблонами" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item />
-    <Item />
+    <Item value="Э&amp;нкодинг" revision="0" />
+    <Item value="Энкодинг" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Эндпоинты" revision="0" />
+    <Item value="Эндпоинты" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item />
-    <Item />
+    <Item value="Добавить новое правило…" revision="0" />
+    <Item value="Определение нового правила раскраски " revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item />
-    <Item />
+    <Item value="Сохранить схему…" revision="0" />
+    <Item value="Сохранить схему раскрашивания паттерна" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item />
-    <Item />
+    <Item value="Загрузить схему…" revision="0" />
+    <Item value="Загрузка схемы раскраски" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
-    <Item />
-    <Item />
+    <Item value="Очистить схему раскраски" revision="0" />
+    <Item value="Очистить схему раскраски" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
-    <Item />
-    <Item />
+    <Item value="Выбрать все" revision="0" />
+    <Item value="Включить все правила" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item />
-    <Item />
+    <Item value="Cнять все" revision="0" />
+    <Item value="Отключить все правила" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
-    <Item />
-    <Item />
+    <Item value="Редактировать правило…" revision="0" />
+    <Item value="Редактировать свойства правила" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDelete">
-    <Item />
-    <Item />
+    <Item value="Удалить" revision="0" />
+    <Item value="Удаление правила раскраски" revision="0" />
   </Enumeration>
   <Enumeration key="PatternHighlightingEnabled">
-    <Item />
-    <Item />
+    <Item value="Подсвечивание паттернов" revision="0" />
+    <Item value="Включить или отключить все правила выделения паттернов" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataSelection">
-    <Item />
-    <Item />
+    <Item value="По&amp;казать выделения" revision="0" />
+    <Item value="Показать окно выделений" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataInsertMode">
-    <Item />
-    <Item />
+    <Item value="&amp;Режим вставки" revision="0" />
+    <Item value="Вставка данных" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Обратный порядок" revision="0" />
+    <Item value="Обратный порядок байтов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Прямой порядок" revision="0" />
+    <Item value="Прямой порядок байтов" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
     <Item />
