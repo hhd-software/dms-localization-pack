@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Статическая линия (Статистика)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Специальный высокоскоростной режим (Статистика)" revision="0" />
+  <Message key="plot_drawticks" value="Отображение индексов на оси X" revision="0" />
+  <Message key="cell_lowerhex" value="Отображать строчные шестнадцатеричные " revision="0" />
+  <Message key="cell_showresult" value="Отображать панель результатов" revision="0" />
+  <Message key="cell_showtooltip" value="Информация о пакете во всплывающем окне" revision="0" />
+  <Message key="netvis_showpackettip" value="Информация о пакете во всплывающем окне" revision="0" />
+  <Message key="tooltip_delay" value="Интервал между всплывающими подсказками" revision="0" />
+  <Message key="Statistics" value="Статистика" revision="0" />
+  <Message key="Raw Data View" value="Сырые данные" revision="0" />
+  <Message key="Network Packet View" value="Пакетный вид Сеть" revision="0" />
+  <Message key="LineNumbers" value="Отображать номера строк" revision="0" />
+  <Message key="Console View" value="Консольный вид" revision="0" />
+  <Message key="Goto Dialog" value="Диалог &quot;Перейти к&quot;" revision="0" />
+  <Message key="Structure Coloring" value="Раскраска структур" revision="0" />
+  <Message key="Raw Data View Coloring" value="Раскраска сырых данных" revision="0" />
+  <Message key="Go to Offset" value="Перейти к смещению" revision="0" />
+  <Message key="Offset:" value="Смещение:" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
