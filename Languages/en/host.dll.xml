@@ -404,5 +404,7 @@
 		<Item text="Running"/>
 		<Item text="Paused"/>
 	</Enumeration>
-	
+
+	<Message key="Collapse session" description="Sessions Tool Window tooltip: Click to collapse session information" value="Click to collapse session information"/>
+	<Message key="Expand session" description="Sessions Tool Window tooltip: Click to expand session information" value="Click to expand session information"/>
 </Definition>

@@ -713,9 +713,13 @@
 	<Message key="clr.listview.header.fill" description="Color: ListView Header Background Color" value="Header background"/>
 	<Message key="clr.listview.header.stroke" description="Color: ListView Header Text Color" value="Header text"/>
 
-	<Message key="clr.listview.selected.fill" description="Color: ListView Selection Background Color" value="Selection background"/>
-	<Message key="clr.listview.selected.stroke" description="Color: ListView Selection Stroke Color" value="Selection stroke"/>
-	<Message key="clr.listview.selected.text" description="Color: ListView Selection Text Color" value="Selection text"/>
+	<Message key="clr.listview.selected.inactive.fill" description="Color: ListView Inactive Selection Background Color" value="Inactive selection background"/>
+	<Message key="clr.listview.selected.inactive.text" description="Color: ListView Inactive Selection Text Color" value="Inactive selection text"/>
+	<Message key="clr.listview.selected.inactive.stroke" description="Color: ListView Inactive Selection Stroke Color" value="Inactive selection stroke"/>
+
+	<Message key="clr.listview.selected.active.fill" description="Color: Active ListView Selection Background Color" value="Active selection background"/>
+	<Message key="clr.listview.selected.active.text" description="Color: Active ListView Selection Text Color" value="Active selection text"/>
+	<Message key="clr.listview.selected.active.stroke" description="Color: Active ListView Selection Stroke Color" value="Active selection stroke"/>
 
 	<Message key="clr.listview.hover.fill" description="Color: ListView Hover Background Color" value="Hover background"/>
 	<Message key="clr.listview.hover.stroke" description="Color: ListView Hover Text Color" value="Hover text"/>
