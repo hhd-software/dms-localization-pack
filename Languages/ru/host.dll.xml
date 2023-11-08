@@ -124,7 +124,7 @@
     <Item value="Переключить Device Monitoring Studio в режим мониторинга сети" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchSerial">
-    <Item value="&amp;COM" revision="0" />
+    <Item value="&amp;Serial" revision="0" />
     <Item value="Переключить Device Monitoring Studio в режим мониторинга последовательных устройств" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchUSB">
