@@ -4,7 +4,7 @@
   <Message key="Line" value="Строка" revision="0" />
   <Message key="Protocols List" value="Список Протоколов" revision="0" />
   <Message key="Usb" value="Usb" revision="0" />
-  <Message key="Serial" value="Последовательные" revision="0" />
+  <Message key="Serial" value="COM" revision="0" />
   <Message key="Network" value="Сетевые" revision="0" />
   <Message key="Unknown" value="Не назначенные" revision="0" />
   <Message key="Files" value="Файлы" revision="0" />

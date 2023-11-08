@@ -13,8 +13,8 @@
   <Message key="New TCP Session" value="Сессия TCP" revision="0" />
   <Message key="New Serial Session" value="Сессия Serial" revision="0" />
   <Message key="Connecting to remote host" value="Подключение к удаленному хосту" revision="0" />
-  <Message key="Address: " value="Адрес:" revision="0" />
-  <Message key="Function: " value="Функция:" revision="0" />
+  <Message key="Address: " value="Адрес: " revision="0" />
+  <Message key="Function: " value="Функция: " revision="0" />
   <Message key="Unknown Function!" value="Неизвестная функция!" revision="0" />
   <Message key="Parsed As:" value="Разобрано как:" revision="0" />
   <Message key="Set Coil" value="Установить регистр флага" revision="0" />
