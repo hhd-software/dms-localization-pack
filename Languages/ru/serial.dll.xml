@@ -4,19 +4,19 @@
   <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Невозможно присоединиться к выбранному устройству." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uСвойства последовательного порта]]]]]]]]]\n\n" revision="0" />
-  <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n" revision="0" />
-  <Message key="MaxRxQueue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n" revision="0" />
-  <Message key="AnyBaudRate" value="[[[bMax. Baud Rate]]]\tconfigurable\n" revision="0" />
-  <Message key="MaxBaudRate" value="[[[bMax. Baud Rate]]]\t{values}\n" revision="0" />
-  <Message key="Provider" value="[[[bProvider]]]\t{provider}\n" revision="0" />
-  <Message key="Capabilities" value="[[[bCapabilities]]]\t{values}\n" revision="0" />
-  <Message key="SettableParameters" value="[[[bSettable Parameters]]]\t{values}\n" revision="0" />
-  <Message key="SettableBaud" value="[[[bBaud Rates]]]\t{values}\n" revision="0" />
-  <Message key="DataBits" value="[[[bData Bits]]]\t{values}\n" revision="0" />
-  <Message key="StopBits" value="[[[bStop Bits]]]\t{values}\n" revision="0" />
-  <Message key="Parity" value="[[[bParity]]]\t{values}\n" revision="0" />
-  <Message key="Current Tx Queue" value="[[[bCurrent Tx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n" revision="0" />
-  <Message key="Current Rx Queue" value="[[[bCurrent Rx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n" revision="0" />
+  <Message key="MaxTxQueue" value="[[[bМакс TX Queue]]]\t{has value?}{value} байт{|has value}нет{?has value}\n" revision="0" />
+  <Message key="MaxRxQueue" value="[[[bМакс. RX Queue]]]\t{has value?}{value} байт{|has value}нет{?has value}\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bМакс. Скорость]]]\tconfigurable\n" revision="0" />
+  <Message key="MaxBaudRate" value="[[[bМакс. Скорость]]]\t{values}\n" revision="0" />
+  <Message key="Provider" value="[[[bПровайдер]]]\t{provider}\n" revision="0" />
+  <Message key="Capabilities" value="[[[bВозможности]]]\t{values}\n" revision="0" />
+  <Message key="SettableParameters" value="[[[bПараметры]]]\t{values}\n" revision="0" />
+  <Message key="SettableBaud" value="[[[bСкорости]]]\t{values}\n" revision="0" />
+  <Message key="DataBits" value="[[[bБиты данных]]]\t{values}\n" revision="0" />
+  <Message key="StopBits" value="[[[bСтоп биты]]]\t{values}\n" revision="0" />
+  <Message key="Parity" value="[[[bЧётность]]]\t{values}\n" revision="0" />
+  <Message key="Current Tx Queue" value="[[[bТекущ. Tx Queue]]]\t{has value?}{value} байт{|has value}недоступно{?has value}\n" revision="0" />
+  <Message key="Current Rx Queue" value="[[[bТекущ. Rx Queue]]]\t{has value?}{value} байт{|has value}недоступно{?has value}\n" revision="0" />
   <Message key="Communication mode" value="Режим передачи данных: {mode}{discard?}, отбросить пустые чтения{?discard}{terminal?}, с прослушиванием{?terminal}" revision="0" />
   <Message key="Serial Terminal" value="Последовательный терминал" revision="0" />
   <Message key="Custom Joiner" value="Пользовательский тип сессии" revision="0" />
@@ -38,14 +38,14 @@
   <Message key="Set" value="&amp;Редактировать…" revision="0" />
   <Message key="View" value="Посмотреть" revision="0" />
   <Message key="Listen on monitored port" value="Слушать входящие данные (откроет последовательное устройство)" revision="0" />
-  <Message key="Baud rate:" value="Baud rate:" revision="0" />
-  <Message key="Data bits:" value="Data bits:" revision="0" />
-  <Message key="Parity:" value="Parity:" revision="0" />
-  <Message key="Stop bits:" value="Stop bits:" revision="0" />
-  <Message key="Flow control:" value="Flow control:" revision="0" />
-  <Message key="Read interval:" value="Read interval:" revision="0" />
-  <Message key="Write constant:" value="Write constant:" revision="0" />
-  <Message key="Write multiplier:" value="Write multiplier:" revision="0" />
+  <Message key="Baud rate:" value="Скорость:" revision="0" />
+  <Message key="Data bits:" value="Биты данных:" revision="0" />
+  <Message key="Parity:" value="Чётность:" revision="0" />
+  <Message key="Stop bits:" value="Стоп биты:" revision="0" />
+  <Message key="Flow control:" value="Контроль потока:" revision="0" />
+  <Message key="Read interval:" value="Интервал чтения:" revision="0" />
+  <Message key="Write constant:" value="Константа записи:" revision="0" />
+  <Message key="Write multiplier:" value="Множитель записи:" revision="0" />
   <Message key="Terminal window:" value="Окно терминала:" revision="0" />
   <Message key="Custom Session Type Script Editor" value="Редактор скриптов пользовательских сессий" revision="0" />
   <Message key="Load from File" value="&amp;Загрузить из файла…" revision="0" />
@@ -98,17 +98,17 @@
     <Item value="Проверка чётности" revision="0" />
     <Item value="XON/XOFF" revision="0" />
     <Item value="Устанавливаемый XON/XOFF" revision="0" />
-    <Item value="Total time-outs" revision="0" />
-    <Item value="Interval time-outs" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Специальные символы" revision="0" />
     <Item value="16-битный режим" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
     <Item value="Чётность" revision="0" />
-    <Item value="Бод" revision="0" />
-    <Item value="Data Bits" revision="0" />
-    <Item value="Data Bits" revision="0" />
-    <Item value="Handshaking" revision="0" />
+    <Item value="Скорость" revision="0" />
+    <Item value="Биты данных" revision="0" />
+    <Item value="Стоп биты" revision="0" />
+    <Item value="Управление потоком" revision="0" />
     <Item value="Проверка чётности" revision="0" />
     <Item value="RLSD (DCD)" revision="0" />
   </Enumeration>
