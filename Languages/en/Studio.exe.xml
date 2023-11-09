@@ -966,4 +966,9 @@
 		<Item text="Click to resume this module operation"/>
 	</Enumeration>
 
+	<Message key="WrittenBytes" description="N bytes written" value="{size as text} ({size} bytes) written">
+		<Param name="size as text"/>
+		<Param name="size" format="l"/>
+	</Message>
+
 </Definition>

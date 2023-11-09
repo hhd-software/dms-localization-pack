@@ -29,9 +29,4 @@
     <Param name="error code" format="b016x"/>
     <Param name="error"/>
   </Message>
-
-	<Message key="DataWritten" description="Exporter state in Sessions Tool Window" value="{size as text} ({size} bytes) recorded">
-		<Param name="size as text"/>
-		<Param name="size" format="l"/>
-	</Message>
 </Definition>
