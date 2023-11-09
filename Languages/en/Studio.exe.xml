@@ -951,4 +951,19 @@
 	<!-- Languags page -->
 	<Message key="Credits to" description="Credits to" value="Credits to:"/>
 
+	<!-- Shared converter state strings -->
+	<Message key="DisplayFilterStateTooltip" description="Display filter tooltip in Sessions Tool Window: Click to change display filter" value="{non-empty?}{filter}\n{?non-empty}Click to change display filter">
+		<Param name="non-empty" format="?"/>
+		<Param name="filter"/>
+	</Message>
+	<Message key="RootProtocolStateTooltip" description="Root protocol tooltip in Sessions Tool Window: Click to change display filter" value="Click to change root protocol"/>
+	<Enumeration key="Pause1" description="Sessions Tool Window: Pause converter/visualizer/exporter">
+		<Item text="Pause"/>
+		<Item text="Click to pause this module operation"/>
+	</Enumeration>
+	<Enumeration key="Resume1" description="Sessions Tool Window: Resume converter/visualizer/exporter">
+		<Item text="Resume"/>
+		<Item text="Click to resume this module operation"/>
+	</Enumeration>
+
 </Definition>

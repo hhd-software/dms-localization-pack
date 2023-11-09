@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Message key="Pause" description="Pause command" value="Pause"/>
-  <Message key="Resume" description="Resume command" value="Resume"/>
   <Message key="DefaultPath" description="Default path" value="Default"/>
   <Message key="Error" description="" value="Error"/>
   <Message key="ApplyError" description="" value="Destination path not specified"/>
@@ -32,4 +30,8 @@
     <Param name="error"/>
   </Message>
 
+	<Message key="DataWritten" description="Exporter state in Sessions Tool Window" value="{size as text} ({size} bytes) recorded">
+		<Param name="size as text"/>
+		<Param name="size" format="l"/>
+	</Message>
 </Definition>
