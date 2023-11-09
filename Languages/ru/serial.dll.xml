@@ -98,8 +98,8 @@
     <Item value="Проверка чётности" revision="0" />
     <Item value="XON/XOFF" revision="0" />
     <Item value="Устанавливаемый XON/XOFF" revision="0" />
-    <Item value="" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="Общие таймауты" revision="0" />
+    <Item value="Интервальные таймауты" revision="0" />
     <Item value="Специальные символы" revision="0" />
     <Item value="16-битный режим" revision="0" />
   </Enumeration>

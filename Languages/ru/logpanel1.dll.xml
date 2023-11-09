@@ -24,7 +24,6 @@
   <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
   <Message key="Recurse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
-  <Message key="WrittenBytes" value="{size as text} ({size} байт) записано" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />
