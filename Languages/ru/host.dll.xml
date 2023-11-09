@@ -114,6 +114,8 @@
   <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
   <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
   <Message key="Unlimited" value="Без ограничений" revision="0" />
+  <Message key="Collapse session" value="Щелкните, чтобы свернуть информацию о сессии" revision="0" />
+  <Message key="Expand session" value="Щелкните, чтобы развернуть информацию о сессии" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Шаблон именования визуализатора" revision="0" />
     <Item value="[Имя устройства] - [Имя визуализатора]" revision="0" />

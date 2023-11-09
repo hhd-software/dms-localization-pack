@@ -242,9 +242,12 @@
   <Message key="clr.listview.normal.stroke" value="Текст" revision="0" />
   <Message key="clr.listview.header.fill" value="Фон заголовка" revision="0" />
   <Message key="clr.listview.header.stroke" value="Текст заголовка" revision="0" />
-  <Message key="clr.listview.selected.fill" value="Фон выбора" revision="0" />
-  <Message key="clr.listview.selected.stroke" value="Обводка выбора" revision="0" />
-  <Message key="clr.listview.selected.text" value="Текст выбора" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Фон неактивного выделенного" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Текст неактивного выделенного" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Обводка неактивного выделенного" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Фон активного выделенного" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Текст активного выделенного" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Обводка активного выделенного" revision="0" />
   <Message key="clr.listview.hover.fill" value="Фон при наведении" revision="0" />
   <Message key="clr.listview.hover.stroke" value="Текст при наведении" revision="0" />
   <Message key="clr.listview.grid" value="Сетка" revision="0" />
