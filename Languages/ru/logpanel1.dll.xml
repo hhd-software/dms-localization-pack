@@ -3,8 +3,6 @@
   <Message key="LogWriteError" value="Запись данных была остановлена из-за следующей ошибки: {error text} ({error code})" revision="0" />
   <Message key="LogEmptyError" value="Выполнить команду &quot;Сохранить в лог&quot; сейчас невозможно, так как для текущего сеанса мониторинга нет исторических данных. Добавьте модуль записи данных в сессию мониторинга в следующий раз или добавьте один или несколько визуализаторов, чтобы автоматически иметь доступ к историческим данным." revision="0" />
   <Message key="LogProgress" value="Пожалуйста, подождите, пока текущая сессия будет сохранена в файл." revision="0" />
-  <Message key="Pause" value="Приостановить" revision="0" />
-  <Message key="Resume" value="Возобновить" revision="0" />
   <Message key="MaxLogs" value="Невозможно использовать более 999 логов в одной папке!" revision="0" />
   <Message key="Default" value="Место по умолчанию" revision="0" />
   <Message key="Unlimited" value="Неограниченно" revision="0" />
@@ -26,6 +24,7 @@
   <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
   <Message key="Recurse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
+  <Message key="WrittenBytes" value="{size as text} ({size} байт) записано" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />

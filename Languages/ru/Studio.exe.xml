@@ -368,6 +368,8 @@
   <Message key="Full dump description" value="Полные дампы содержат сжатый вид всего адресного пространства процесса. Они лучше всего подходят для того, чтобы разработчики могли воспроизвести ситуацию, вызвавшую сбой, и исправить ее как можно быстрее. Однако размер полного дампа может легко достигать сотен мегабайт." revision="0" />
   <Message key="Privacy Policy" value="Политика конфиденциальности" revision="0" />
   <Message key="Credits to" value="Благодарности:" revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Щелкнуть для смены фильтра" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Щелкнуть для смены корневого протокола" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />
     <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />
@@ -661,5 +663,13 @@
   <Enumeration key="ChangeLanguageNotification">
     <Item value="Сменить язык" revision="0" />
     <Item value="Этот языковой пакет был создан открытым сообществом. Мы не несем никакой ответственности за качество этого перевода.\r\n\r\nЕсли вы нашли ошибку в переводе, вы можете отправить тикет или исправить ее самостоятельно." revision="0" />
+  </Enumeration>
+  <Enumeration key="Pause1">
+    <Item value="Приостановить" revision="0" />
+    <Item value="Нажмите, чтобы приостановить работу этого модуля" revision="0" />
+  </Enumeration>
+  <Enumeration key="Resume1">
+    <Item value="Возобновить" revision="0" />
+    <Item value="Нажмите, чтобы возобновить работу этого модуля" revision="0" />
   </Enumeration>
 </Language>
