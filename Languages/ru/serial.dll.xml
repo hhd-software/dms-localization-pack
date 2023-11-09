@@ -53,7 +53,7 @@
   <Message key="Serial.Advertise.Text" value="Мы также предлагаем библиотеку Serial Port Monitoring Control ActiveX, которая позволяет интегрировать мониторинг в ваши приложения." revision="0" />
   <Message key="No terminal" value="Без терминала" revision="0" />
   <Message key="terminal session creation failure" value="Не удалось запустить прослушивание последовательного устройства из-за следующей ошибки: {text} ({code}){access-denied?}\n\nВероятно, эта ошибка означает, что последовательный порт уже открыт другим приложением. Вы можете спокойно проигнорировать эту ошибку и продолжить мониторинг порта.\n\nЕсли вы постоянно следите за открытым последовательным устройством, убедитесь, что опция &quot;Слушать входящие данные...&quot; выключена в окне конфигурации сессии.{?access-denied}" revision="0" />
-  <Message key="Set Custom Flow Control" value="Установить пользовательский Flow Control" revision="0" />
+  <Message key="Set Custom Flow Control" value="Пользовательский Flow Control" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item value="75" revision="0" />
     <Item value="110" revision="0" />

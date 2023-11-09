@@ -5,7 +5,7 @@
   <Message key="SetCommTimeouts" value="Невозможно настроить тайм-ауты устройства &quot;{device}&quot;: {error text} ({error code})" revision="0" />
   <Message key="Bridge Config" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Бод, {mode}" revision="0" />
   <Message key="Device not found" value="Устройство {name} не найдено" revision="0" />
-  <Message key="Invalid flow control" value="Некорректный объект управления потоком" revision="0" />
+  <Message key="Invalid flow control" value="Некорректное управление потоком" revision="0" />
   <Message key="Same device" value="Для обеих сторон было выбрано одно и то же устройство" revision="0" />
   <Message key="Bridge deleted" value="Мост был удален из пользовательского интерфейса" revision="0" />
   <Message key="Wrong device" value="Объект моста ссылается на неправильное устройство" revision="0" />

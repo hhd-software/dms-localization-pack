@@ -13,7 +13,7 @@
   <Message key="FileNotSaved" value="Текущий документ был изменен. Хотите ли вы сохранить его?" revision="0" />
   <Message key="CompileErrors" value="Ошибки компиляции{has_n?} ({n}){?has_n}" revision="0" />
   <Message key="Compile Errors" value="Ошибки компиляции" revision="0" />
-  <Message key="Warning" value="Предупреждение" revision="0" />
+  <Message key="Warning" value="Внимание" revision="0" />
   <Message key="Error" value="Ошибка" revision="0" />
   <Message key="RunningSessions" value="У вас есть запущенные сеансы мониторинга. Ваши сеансы будут остановлены." revision="0" />
   <Message key="ResetSourceChanges" value="Все изменения, внесенные в предопределенные файлы протоколов, будут потеряны! Вы хотите продолжить?" revision="0" />
