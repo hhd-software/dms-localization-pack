@@ -20,8 +20,6 @@
 
   <Message key="LogProgress" description="Saving log progress message" value="Please wait while the current session is being saved to a file."/>
 
-  <Message key="Pause" description="Pause command"/>
-  <Message key="Resume" description="Resume command"/>
   <Message key="MaxLogs" description="Maximum logs in a folder reached" value="Can't use more than 999 logs per single folder!"/>
 
   <Message key="Default" description="Default log file location" value="Default location"/>
@@ -88,4 +86,8 @@
 	<Message key="Select the location the program will use to playback." description="Field: Select the location the program will use to playback." />
 	<Message key="Recurse sub-directories" description="Checkbox: Recurse sub-directories" value="&amp;Recurse sub-directories" />
 
+	<Message key="WrittenBytes" description="N bytes written" value="{size as text} ({size} bytes) written">
+		<Param name="size as text"/>
+		<Param name="size" format="l"/>
+	</Message>
 </Definition>
