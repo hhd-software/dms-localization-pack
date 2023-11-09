@@ -473,8 +473,8 @@
     <Item value="Создание новых или управление существующими шаблонами" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item value="Э&amp;нкодинг" revision="0" />
-    <Item value="Энкодинг" revision="0" />
+    <Item value="&amp;Кодировка" revision="0" />
+    <Item value="&amp;Кодировка" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Эндпоинты" revision="0" />
@@ -517,7 +517,7 @@
     <Item value="Включить или отключить все правила выделения паттернов" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataSelection">
-    <Item value="По&amp;казать выделения" revision="0" />
+    <Item value="&amp;Показать выделения" revision="0" />
     <Item value="Показать окно выделений" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataInsertMode">

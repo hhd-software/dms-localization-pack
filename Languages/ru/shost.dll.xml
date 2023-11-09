@@ -20,7 +20,7 @@
   <Message key="Main body finish" value="\nВыполнение тела скрипта завершено. Запуск асинхронных функций и событий…\n" revision="0" />
   <Message key="WatchTitle" value="Отладочный монитор" revision="0" />
   <Message key="CallStackTitle" value="Стек отладки" revision="0" />
-  <Message key="Script Trace Output" value="Вывод трассировки скрипта" revision="0" />
+  <Message key="Script Trace Output" value="Вывод скрипта" revision="0" />
   <Message key="ScriptChanged" value="Ваш скрипт был изменен. Продолжение выполнения невозможно. Хотите остановить выполнение скрипта?" revision="0" />
   <Message key="Input Value" value="Входное значение" revision="0" />
   <Message key="Breakpoints" value="Точки прерывания" revision="0" />

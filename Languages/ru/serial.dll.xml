@@ -176,8 +176,8 @@
     <Item value="Пользовательский" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item value="Скрытый" revision="0" />
-    <Item value="Видимый" revision="0" />
+    <Item value="Скрытое" revision="0" />
+    <Item value="Видимое" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
     <Item value="Подключить последовательное устройство" revision="0" />
