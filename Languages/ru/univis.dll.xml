@@ -178,9 +178,9 @@
   <Message key="Default colors:" value="Цвета по умолчанию:" revision="0" />
   <Message key="Alpha" value="Альфа" revision="0" />
   <Message key="Custom..." value="Пользовательский..." revision="0" />
-  <Message key="Baud rate:" value="Скорость передачи:" revision="0" />
-  <Message key="Data bits:" value="Битов данных:" revision="0" />
-  <Message key="Parity:" value="Четность:" revision="0" />
+  <Message key="Baud rate:" value="Скорость:" revision="0" />
+  <Message key="Data bits:" value="Биты данных:" revision="0" />
+  <Message key="Parity:" value="Чётность:" revision="0" />
   <Message key="Stop bits:" value="Стоп-биты:" revision="0" />
   <Message key="Flow control:" value="Контроль потока:" revision="0" />
   <Message key="Out DSR Flow:" value="Исходящий DSR Flow:" revision="0" />
