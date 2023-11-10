@@ -788,11 +788,11 @@
 	<Message key="ms" description="Field (milliseconds)" />
 
 	<!-- Converter names (specified here to cover all modules) -->
-	<Message key="Raw Data View" description="Visualizer name: Raw Data View"/>
+	<!--<Message key="Raw Data View" description="Visualizer name: Raw Data View"/>
 	<Message key="Data View" description="Visualizer name: Data View"/>
 	<Message key="Packet View" description="Visualizer name: Packet View"/>
 	<Message key="Request View" description="Visualizer name: Request View"/>
-	<Message key="Statistics" description="Visualizer name: Statistics"/>
+	<Message key="Statistics" description="Visualizer name: Statistics"/>-->
 
 	<Message key="NextConnected" description="Item Name: Next connected device" value="Next connected device"/>
 	<Message key="HotPlug" value="Support for hot-plugged devices" description="Support for hot-plugged devices"/>
@@ -928,7 +928,7 @@
 	<Message key="UseLanguage" description="Action: Use this language pack" value="Use this language pack"/>
 	<Message key="AccessLangsOnline" description="Action: Access online repository" value="Access online repository"/>
 	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart Device Monitoring Studio after changing the language. Do you want to restart now?"/>
-	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.hextheme)|*.hextheme||">
+	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.dmsheme)|*.dmstheme||" revision="1">
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
 	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused."/>

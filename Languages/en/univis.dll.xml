@@ -10,11 +10,11 @@
   <Message key="netvis_showpackettip" description="Option: Display popup packet information" value="Display popup packet information"/>
   <Message key="tooltip_delay" description="Option: Tooltip show interval (in ms)" value="Define tooltip interval"/>
 
-  <Message key="Statistics" description="Settings group: Statistics"/>
-  <Message key="Raw Data View" description="Settings group: Raw Data View"/>
-  <Message key="Network Packet View" description="Settings group: Network Packet View"/>
+  <Message key="Statistics" description="Settings group (General settings page): Statistics"/>
+  <Message key="Raw Data View" description="Settings group (General settings page): Raw Data View"/>
+  <Message key="Network Packet View" description="Settings group (General settings page): Network Packet View"/>
   <Message key="LineNumbers" description="Display line numbers" value="Display line numbers"/>
-  <Message key="Console View" description="Console View"/>
+  <Message key="Console View" description="Settings group (General settings page): Console View"/>
   <Message key="Goto Dialog" description="Settings group: Goto"/>
 
 	<Enumeration key="ToolsHighlightingNone" description="Command: No coloring">
@@ -649,7 +649,6 @@
 	<Message key="CopyWait" description="Message: Copy wait message" value="Please wait while the data being copied to clipboard."/>
 	<Message key="CantCreateFile" description="Error: Can't create file" value="Can't create file"/>
 
-	<Message key="ConsoleView" description="Title: Console View" value="Console View"/>
 	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
 	<Message key="Lines" description="Title: Lines" value="Lines"/>
 	<Message key="SchemeNameCue" description="Text: Enter scheme name" value="Enter the scheme name here"/>

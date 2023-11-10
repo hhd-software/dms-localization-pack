@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+
+	<Enumeration key="CellConverter" description="Raw Data View visualizer title and description">
+		<Item text="Raw Data View"/>
+		<Item text="Raw Data View displays raw packet data in two contiguous streams (input and output). It provides flexible visual and layout customization and supports protocol-governed filtering and changing of root protocol."/>
+	</Enumeration>
+
+	<Enumeration key="StructureConverter" description="Structure View visualizer title and description">
+		<Item text="Structure View"/>
+		<Item text="Structure View decodes all packet data using the protocol definitions stored in the product or provided by the user. Supports filtering and changing of root protocol."/>
+	</Enumeration>
+
+	<Enumeration key="StatisticsConverter" description="Statistics visualizer title and description">
+		<Item text="Statistics"/>
+		<Item text="Statistics collects and displays statistics and device throughput. Several statistic values are calculated and displayed on the linear graph."/>
+	</Enumeration>
+
+	<Enumeration key="TableConverter" description="Packet View visualizer title and description">
+		<Item text="Packet View"/>
+		<Item text="Packet View displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
+	</Enumeration>
+
+	<Enumeration key="DataConverter" description="Data View visualizer title and description">
+		<Item text="Data View"/>
+		<Item text="Data View data visualizer displays data in two separate windows. First window shows the data received from the device while the second window shows data sent to the device."/>
+	</Enumeration>
+
+	<Enumeration key="RequestConverter" description="Request View (Legacy) visualizer title and description">
+		<Item text="Request View (Legacy)"/>
+		<Item text="Request View data visualizer decodes all data packets and control requests sent to and received from the serial device. This is a legacy data converter."/>
+	</Enumeration>
+
+	<Enumeration key="NewRequestViewConverter" description="Request View visualizer title and description">
+		<Item text="Request View"/>
+		<Item text="Request View decodes all data packets and control requests sent to and received from the serial device."/>
+	</Enumeration>
+
+	<Enumeration key="ConsoleConverter" description="Console View (Legacy) visualizer title and description">
+		<Item text="Console View (Legacy)"/>
+		<Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols. This is a legacy data visualizer."/>
+	</Enumeration>
+
+	<Enumeration key="NewConsoleConverter" description="Console View visualizer title and description">
+		<Item text="Console View"/>
+		<Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols."/>
+	</Enumeration>
+
+
+</Definition>

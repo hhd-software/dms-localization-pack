@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Enumeration key="CellConverter" description="Network Raw Data View">
-    <Item text="Raw Data View"/>
-    <Item text="Raw Data View displays raw packet data in two contiguous streams (input and output). It provides flexible visual and layout customization and supports protocol-governed filtering and changing of root protocol."/>
-  </Enumeration>
-
-  <Enumeration key="StructureConverter" description="Structure View">
-    <Item text="Structure View"/>
-    <Item text="Structure View decodes all network packet data using the protocol definitions stored in the product or provided by the user. Supports filtering and changing of root protocol."/>
-  </Enumeration>
-
   <Enumeration key="HttpViewConverter" description="HTTP View">
     <Item text="HTTP View"/>
     <Item text="HTTP View data visualizer parses and displays HTTP protocol requests and repsonses."/>
@@ -67,7 +57,5 @@
 		<Param name="has_name" format="?"/>
 		<Param name="devicename"/>
 	</Message>
-
-	<Message key="CellConvTitle" description="Title: Raw Data View" value="Raw Data View"/>
 
 </Definition>
