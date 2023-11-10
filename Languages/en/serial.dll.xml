@@ -11,22 +11,22 @@
 
 	<Message key="SerialPortProperties" description="Serial Port Properties header" value="[[[s:120:[[[b[[[uSerial Port Properties]]]]]]]]]\n\n"/>
 	
-  <Message key="MaxTxQueue" description="Max Tx Queue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
+  <Message key="MaxTxQueue" description="Serial Device Information: Max Tx Queue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
     <Param name="has value" format="?"/>
     <Param name="value" format="l"/>
   </Message>
 
-  <Message key="MaxRxQueue" description="Max. RX Queue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
+  <Message key="MaxRxQueue" description="Serial Device Information: Max. RX Queue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}none{?has value}\n">
     <Param name="has value" format="?"/>
     <Param name="value" format="l"/>
   </Message>
 
-  <Message key="AnyBaudRate" description="Max. Baud Rate" value="[[[bMax. Baud Rate]]]\tconfigurable\n"/>
-  <Message key="MaxBaudRate" description="Max. Baud Rate" value="[[[bMax. Baud Rate]]]\t{values}\n">
+  <Message key="AnyBaudRate" description="Serial Device Information: Configurable baud rate" value="[[[bMax. Baud Rate]]]\tconfigurable\n"/>
+  <Message key="MaxBaudRate" description="Serial Device Information: Max. Baud Rate" value="[[[bMax. Baud Rate]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Enumeration key="BaudRateValues" description="Maximum baud rate values">
+  <Enumeration key="BaudRateValues" description="Serial Device Information: Maximum baud rate values">
     <Item text="75"/>
     <Item text="110"/>
     <Item text="134.5"/>
@@ -49,7 +49,7 @@
     <Item text="configurable" value="28"/>
   </Enumeration>
 
-  <Enumeration key="ProviderTypes" description="Supported provider types">
+  <Enumeration key="ProviderTypes" description="Serial Device Information: Supported provider types">
     <Item text="unspecified"/>
     <Item text="RS232"/>
     <Item text="Parallel Port"/>
@@ -65,35 +65,35 @@
     <Item text="X25"/>
   </Enumeration>
 
-  <Message key="Provider" description="Provider" value="[[[bProvider]]]\t{provider}\n">
+  <Message key="Provider" description="Serial Device Information: Provider" value="[[[bProvider]]]\t{provider}\n">
     <Param name="provider"/>
   </Message>
 
-  <Message key="Capabilities" description="Capabilities" value="[[[bCapabilities]]]\t{values}\n">
+  <Message key="Capabilities" description="Serial Device Information: Capabilities" value="[[[bCapabilities]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Message key="SettableParameters" description="Settable Parameters" value="[[[bSettable Parameters]]]\t{values}\n">
+  <Message key="SettableParameters" description="Serial Device Information: Settable Parameters" value="[[[bSettable Parameters]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Message key="SettableBaud" description="Baud Rates" value="[[[bBaud Rates]]]\t{values}\n">
+  <Message key="SettableBaud" description="Serial Device Information: Baud Rates" value="[[[bBaud Rates]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Message key="DataBits" description="Data Bits" value="[[[bData Bits]]]\t{values}\n">
+  <Message key="DataBits" description="Serial Device Information: Data Bits" value="[[[bData Bits]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Message key="StopBits" description="Stop Bits" value="[[[bStop Bits]]]\t{values}\n">
+  <Message key="StopBits" description="Serial Device Information: Stop Bits" value="[[[bStop Bits]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Message key="Parity" description="Parity" value="[[[bParity]]]\t{values}\n">
+  <Message key="Parity" description="Serial Device Information: Parity" value="[[[bParity]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
-  <Enumeration key="CapabilitiesEnum" description="Capability values">
+  <Enumeration key="CapabilitiesEnum" description="Serial Device Information: Capability values">
     <Item text="DTR/DSR"/>
     <Item text="RTS/CTS"/>
     <Item text="RLSD (DCD)"/>
@@ -106,7 +106,7 @@
     <Item text="16-bit mode"/>
   </Enumeration>
 
-  <Enumeration key="SettableParametersEnum" description="Settable parameters values">
+  <Enumeration key="SettableParametersEnum" description="Serial Device Information: Settable parameters values">
     <Item text="Parity"/>
     <Item text="Baud"/>
     <Item text="Data Bits"/>
@@ -116,22 +116,22 @@
     <Item text="RLSD (DCD)"/>
   </Enumeration>
 
-  <Enumeration key="DataBitsEnum" description="Data Bits values">
-    <Item text="5"/>
-    <Item text="6"/>
-    <Item text="7"/>
-    <Item text="8"/>
-    <Item text="16"/>
+  <Enumeration key="DataBitsEnum" description="Serial Device Information: Data Bits values">
+    <Item optional="true" text="5"/>
+    <Item optional="true" text="6"/>
+    <Item optional="true" text="7"/>
+    <Item optional="true" text="8"/>
+    <Item optional="true" text="16"/>
     <Item text="Special Wide"/>
   </Enumeration>
 
-  <Enumeration key="StopBitsEnum" description="Stop Bits values">
+  <Enumeration optional="true" key="StopBitsEnum" description="Serial Device Information: Stop Bits values">
     <Item text="1"/>
     <Item text="1.5"/>
     <Item text="2"/>
   </Enumeration>
 
-  <Enumeration key="ParityEnum" description="Parity values">
+  <Enumeration key="ParityEnum" description="Serial Device Information: Parity values">
     <Item text="None"/>
     <Item text="Odd"/>
     <Item text="Even"/>
@@ -139,17 +139,17 @@
     <Item text="Space"/>
   </Enumeration>
 
-  <Message key="Current Tx Queue" description="Current Tx Queue" value="[[[bCurrent Tx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
+  <Message key="Current Tx Queue" description="Serial Device Information: Current Tx Queue" value="[[[bCurrent Tx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
     <Param name="has value" format="?"/>
     <Param name="value" format="l"/>
   </Message>
 
-  <Message key="Current Rx Queue" description="Current Rx Queue" value="[[[bCurrent Rx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
+  <Message key="Current Rx Queue" description="Serial Device Information: Current Rx Queue" value="[[[bCurrent Rx Queue]]]\t{has value?}{value} bytes{|has value}unavailable{?has value}\n">
     <Param name="has value" format="?"/>
     <Param name="value" format="l"/>
   </Message>
 
-  <Enumeration key="SerialSource" description="Serial Source">
+  <Enumeration key="SerialSource" description="Data Source: Serial Monitor">
     <Item text="Serial Monitor"/>
     <Item text="Serial data source allows you to monitor the data exchanged between the serial devices and applications using them."/>
   </Enumeration>

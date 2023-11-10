@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Enumeration key="CellConverter" description="Cell Converter">
-    <Item text="Raw Data View"/>
-    <Item text="Raw Data View data visualizer displays raw packet data in two contiguous streams (input and output). Provides flexible visual and layout customization."/>
-  </Enumeration>
-
-  <Enumeration key="DataConverter" description="Data Converter">
-    <Item text="Data View"/>
-    <Item text="Data View data visualizer displays data in two separate windows. First window shows the data received from the device while the second window shows data sent to the device."/>
-  </Enumeration>
-
-  <Enumeration key="PacketConverter" description="Packet View">
-    <Item text="Packet View"/>
-    <Item text="Packet View data visualizer displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
-  </Enumeration>
-
-  <Enumeration key="RequestConverter" description="Request View">
-    <Item text="Request View"/>
-    <Item text="Request View data visualizer decodes all data packets and control requests sent to and received from the serial."/>
-  </Enumeration>
-
-  <Enumeration key="StatisticsConverter" description="Statistics">
-    <Item text="Statistics"/>
-    <Item text="Statistics collects and displays statistics and device throughput. Several statistic values are calculated and displayed on the linear graph."/>
-  </Enumeration>
-	
 	<!-- From String pool -->
 	<Message key="Device sends" description="Device sends template string" value="{device} Sends">
 		<Param name="device"/>

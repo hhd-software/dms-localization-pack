@@ -24,29 +24,9 @@
 		<Item text="HID Descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="CellConverter" description="Cell Converter">
-		<Item text="Raw Data View"/>
-		<Item text="Raw Data View displays raw packet data in two contiguous streams (input and output). Provides flexible visual and layout customization."/>
-	</Enumeration>
-
-	<Enumeration key="StatisticsConverter" description="Statistics Converter">
-		<Item text="Statistics"/>
-		<Item text="Statistics collects and displays statistics and device throughput. Several statistic values are calculated and displayed on the linear graph."/>
-	</Enumeration>
-
 	<Enumeration key="URBConverter" description="URB View">
 		<Item text="URB View"/>
 		<Item text="URB View data visualizer decodes raw packets and control requests sent to and received from the usb device."/>
-	</Enumeration>
-
-	<Enumeration key="TableConverter" description="Packet View">
-		<Item text="Packet View"/>
-		<Item text="Packet View data visualizer displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
-	</Enumeration>
-
-	<Enumeration key="StructureConverter" description="Structure View">
-		<Item text="Structure View"/>
-		<Item text="Structure View data visualizer decodes all usb packet data using the protocol definitions stored in the product or provided by the user."/>
 	</Enumeration>
 
 	<Enumeration key="MenuEndpoints" description="Command group: Endpoints">
@@ -67,10 +47,10 @@
 		<Item text="Endpoint Descriptor"/>
 	</Enumeration>
 
-	<Message key="URB View" description="Title: URB View" value="URB View"/>
+	<!--<Message key="URB View" description="Title: URB View" value="URB View"/>
 	<Message key="Packet View" description="Title: Packet View" value="Packet View"/>
 	<Message key="Raw Data View" description="Title: Raw Data View" value="Raw Data View"/>
-	<Message key="USB Structure View" description="Title: Raw Data View" value="Raw Data View"/>
+	<Message key="USB Structure View" description="Title: Raw Data View" value="Raw Data View"/>-->
 
 	<Enumeration key="UsbTransferType" description="USB transfer types list">
 		<Item text="Transfer Type: Control"/>
@@ -470,7 +450,6 @@
 
 	<Message key="HIDPhysicalDescriptorWarning" description="Message: please use HID converter" value="HID Physical Descriptor (please use HID converter)"/>
 	<Message key="Reserved Item" description="Value: Reserved Item" value="Reserved Item"/>
-	<Message key="PlotVisualizerName"    description="Plot visualizer name"   value="Statistics"/>
 
 	<Enumeration key="UsbEventTypesList" description="USB event types list">
 		<Item text="PnP: Device Connected"/>
