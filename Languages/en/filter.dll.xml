@@ -4,6 +4,13 @@
 	<Message key="Coloring" description="Settings page: Data Visualizers" value="Data Visualizers"/>
 	<Message key="Component:" description="Field: Component"/>
 	<Message key="Scheme:" description="Field: Scheme"/>
+	<Message key="Font:" description="Field: Font"/>
+	<Message key="Size:" description="Field: Size"/>
+	<Message key="Color:" description="Field: Color"/>
+	<Message key="Background:" description="Field: Background"/>
+	<Message key="Bold" description="Field: Bold"/>
+	<Message key="Italic" description="Field: Italic"/>
+
 
 	<Message key="UnsavedScheme" description="Filtering scheme: Unsaved currnet scheme" value="&lt;Unsaved current scheme&gt;"/>
 	<Message key="DefaultScheme" description="Filtering scheme: Default" value="Default"/>

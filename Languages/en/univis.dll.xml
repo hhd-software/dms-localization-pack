@@ -884,4 +884,7 @@
 	<Message key="clr.plot_colors.selected1" description="Color: TODO" value="Selection 1" /> 
 	<Message key="clr.plot_colors.selected2" description="Color: TODO" value="Selection 2" />
 
+	<!-- Save Scheme dialog -->
+	<Message key="Save Color" description="Window title: Save Color"/>
+	
 </Definition>

@@ -85,7 +85,9 @@
   <Message key="Downloading language pack" description="Downloading language pack"/>
 
   <Message key="Product language" description="Control group: Product language"/>
-  <Message key="Changing product language requires restart of Device Monitoring Studio." description="Field: Changing product language requires restart of Device Monitoring Studio."/>
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Changing product language requires restart of Device Monitoring Studio." description="Field: Changing product language requires restart of Device Monitoring Studio."/>
+	<Message key="I can't find my language in this list." description="Field: I can't find my language in this list."/>
+	<Message key="Language pack storage location" description="Field group: Language pack storage location"/>
   <Message key="Languages online" description="Control group: Languages online"/>
   <Message key="Refresh" description="Button: Refresh" value="&amp;Refresh"/>
   <Message key="ButtonRefreshing" description="Button: Refreshing…" value="Refreshing…"/>
@@ -246,11 +248,11 @@
 
   <!-- Trial & Expired warnings -->
 
-  <Message key="TrialWarning" description="Component is in Trial" value="[[[T#[E6AD1E]#This component is in [[[bTrial]]] mode with [[[b{days}]]] evaluation days left. It is available starting from [[[b{edition} Edition]]].]]]" revision="1">
+  <Message key="TrialWarning" description="Component is in Trial" value="[[[T#[#E6AD1E]#This component is in [[[bTrial]]] mode with [[[b{days}]]] evaluation days left. It is available starting from [[[b{edition} Edition]]].]]]" revision="1">
     <Param name="days"/>
     <Param name="edition"/>
   </Message>
-  <Message key="ExpiredWarning" description="Component has expired" value="[[[T#[DE2616]#This component has [[[bexpired]]]. You need to upgrade to [[[b{edition} Edition]]] in order to use it.]]]" revision="1">
+  <Message key="ExpiredWarning" description="Component has expired" value="[[[T#[#DE2616]#This component has [[[bexpired]]]. You need to upgrade to [[[b{edition} Edition]]] in order to use it.]]]" revision="1">
     <Param name="edition"/>
   </Message>
 
