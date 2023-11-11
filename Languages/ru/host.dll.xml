@@ -86,8 +86,6 @@
   <Message key="Precise time marks" value="Точные метки времени" revision="0" />
   <Message key="Add More" value="Добавить еще" revision="0" />
   <Message key="Remove" value="Убрать" revision="0" />
-  <Message key="Select the columns that will apear on the Session List" value="Выберите столбцы, которые будут отображаться в списке сессий:" revision="0" />
-  <Message key="Select Session List Columns" value="Выберите столбцы списка сессий" revision="0" />
   <Message key="clr.device_colors" value="Цвета многоисточниковых устройств" revision="0" />
   <Message key="clr.device_colors.color1" value="Устройство 1" revision="0" />
   <Message key="clr.device_colors.color2" value="Устройство 2" revision="0" />

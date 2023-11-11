@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="FilterCustomize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColorCustomize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterResetAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PredefinedColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
