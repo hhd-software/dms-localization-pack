@@ -126,9 +126,9 @@
     <Item text="Close selected visualizer"/>
   </Enumeration>
 
-  <Enumeration key="SessionsColumns" description="Command: SessionsColumns">
-    <Item text="Configure C&amp;olumns…"/>
-    <Item text="Enable or disable columns"/>
+  <Enumeration key="SessionsColumns" description="Command: SessionsColumns" revision="1">
+    <Item text="Auto-size Columns"/>
+    <Item text="Automatically resize window columns so all text is visible"/>
   </Enumeration>
 
   <Enumeration key="SessionsExpand" description="Command: SessionsExpand">
@@ -366,8 +366,6 @@
 	</Enumeration>
 	
 	<!-- Dialogs -->
-	<Message key="Select the columns that will apear on the Session List" description="Field: Select the columns that will apear on the Session List" value="Select the columns that will appear on the Session List:"/>
-	<Message key="Select Session List Columns" description="Window Title: Select Session List Columns"/>
 
 	<!-- Colors -->
 	<Message key="clr.device_colors" description="Color: Multisource Device Colors" value="Multi-source Device Colors"/>
