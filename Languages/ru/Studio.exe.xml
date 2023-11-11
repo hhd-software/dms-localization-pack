@@ -70,8 +70,8 @@
   <Message key="ErrorRootProtocol" value="Корневой протокол не был указан" revision="0" />
   <Message key="ErrorRootNotExist" value="Выбранный корневой протокол не существует" revision="0" />
   <Message key="ConcantenatePackets" value="Объединение последовательных запросов" revision="0" />
-  <Message key="TrialWarning" value="[[[T#[#E6AD1E]#Данный компонент находится в режиме [[[bTrial]]], осталось [[[b{days}]]] дней. Он доступен начиная с редакции [[[b{edition} Edition]]].]]]" revision="1" />
-  <Message key="ExpiredWarning" value="[[[T#[#DE2616]#Компонент [[[bexpired]]]. Для его использования обновите версию до редакции [[[b{edition} Edition]]].]]]" revision="1" />
+  <Message key="TrialWarning" value="[[[T#[#E6AD1E]#Данный компонент находится в режиме [[[bTrial]]], осталось [[[b{days}]]] дней. Он доступен начиная с редакции [[[b{edition}]]].]]]" revision="1" />
+  <Message key="ExpiredWarning" value="[[[T#[#DE2616]#Компонент [[[bexpired]]]. Для его использования обновите версию до редакции [[[b{edition}]]].]]]" revision="1" />
   <Message key="FreeWarning" value="Данный компонент недоступен в бесплатной версии. Вы можете начать бесплатный ознакомительный период, чтобы попробовать этот компонент." revision="0" />
   <Message key="Continue with limited features" value="Продолжить с ограниченными функциями" revision="0" />
   <Message key="Try extended functionality" value="Попробовать расширенные функции" revision="0" />
