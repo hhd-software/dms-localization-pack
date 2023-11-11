@@ -164,8 +164,8 @@
     <Item value="Закрыть выбранный визуализатор" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsColumns">
-    <Item value="Настроить с&amp;толбцы…" revision="0" />
-    <Item value="Включение или отключение колонок" revision="0" />
+    <Item value="Авторазмер столбцов" revision="1" />
+    <Item value="Автоматическое изменение размеров колонок по тексту" revision="1" />
   </Enumeration>
   <Enumeration key="SessionsExpand">
     <Item value="&amp;Раскрыть элемент" revision="0" />

@@ -199,6 +199,7 @@
   <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="0" />
   <Message key="clr.plot_colors.selected1" value="Выделение 1" revision="0" />
   <Message key="clr.plot_colors.selected2" value="Выделение 2" revision="0" />
+  <Message key="Save Color" value="Сохранить цвет" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
     <Item value="Отсутствие окраски пакетов" revision="0" />

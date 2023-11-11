@@ -4,6 +4,12 @@
   <Message key="Coloring" value="Визуализаторы данных" revision="0" />
   <Message key="Component:" value="Компонент:" revision="0" />
   <Message key="Scheme:" value="Схема:" revision="0" />
+  <Message key="Font:" value="Шрифт:" revision="0" />
+  <Message key="Size:" value="Размер:" revision="0" />
+  <Message key="Color:" value="Цвет:" revision="0" />
+  <Message key="Background:" value="Фон:" revision="0" />
+  <Message key="Bold" value="Жирный" revision="0" />
+  <Message key="Italic" value="Курсив" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Несохраненная текущая схема&gt;" revision="0" />
   <Message key="DefaultScheme" value="По умолчанию" revision="0" />
   <Message key="DisplayAllScheme" value="Показать все" revision="0" />
