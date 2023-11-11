@@ -97,7 +97,6 @@
   <Message key="PatternColoringRule" value="Правило подсветки паттернов {number}" revision="0" />
   <Message key="CopyWait" value="Пожалуйста, подождите, пока данные будут скопированы в буфер обмена." revision="0" />
   <Message key="CantCreateFile" value="Невозможно создать файл" revision="0" />
-  <Message key="ConsoleView" value="Консольный вид" revision="0" />
   <Message key="StatisticsTip" value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
   <Message key="Lines" value="Строки" revision="0" />
   <Message key="SchemeNameCue" value="Введите здесь название схемы" revision="0" />

@@ -5,26 +5,6 @@
   <Message key="Complete" value="Полная" revision="0" />
   <Message key="Packet No:" value="Пакет №:" revision="0" />
   <Message key="bytes/sec" value="байт/сек" revision="0" />
-  <Enumeration key="CellConverter">
-    <Item value="Сырые данные" revision="0" />
-    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
-  </Enumeration>
-  <Enumeration key="DataConverter">
-    <Item value="Данные" revision="0" />
-    <Item value="Визуализатор данных отображает данные в двух отдельных окнах. В первом окне отображаются данные, полученные от устройства, а во втором - данные, отправленные на устройство." revision="0" />
-  </Enumeration>
-  <Enumeration key="PacketConverter">
-    <Item value="Пакетный вид" revision="0" />
-    <Item value="Пакетный визуализатор данных отображает каждый контролируемый пакет в отдельной строке и обеспечивает индивидуальное декодирование пакетов в соответствии с различными форматами и протоколами." revision="0" />
-  </Enumeration>
-  <Enumeration key="RequestConverter">
-    <Item value="Запросы" revision="0" />
-    <Item value="Визуализатор запросов декодирует все пакеты данных и управляющие запросы, отправляемые и получаемые от последовательного устройства." revision="0" />
-  </Enumeration>
-  <Enumeration key="StatisticsConverter">
-    <Item value="Статистика" revision="0" />
-    <Item value="Статистика собирает и отображает статистику и показатели пропускной способности устройства. Рассчитываются и отображаются на графике несколько значений статистики." revision="0" />
-  </Enumeration>
   <Enumeration key="BridgeColumns">
     <Item value="Порядковый" revision="1" />
     <Item value="Время" revision="1" />

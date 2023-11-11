@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Dependent Devices" value="Зависимые устройства" revision="0" />
-  <Message key="URB View" value="Вид URB" revision="0" />
-  <Message key="Packet View" value="Пакетный вид" revision="0" />
-  <Message key="Raw Data View" value="Сырые данные" revision="0" />
-  <Message key="USB Structure View" value="Сырые данные" revision="0" />
   <Message key="CounterPacketsTotal" value="Пакеты Всего/сек" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Байты Всего/сек" revision="0" />
   <Message key="Get Descriptor Request" value="Запрос на получение дескриптора" revision="0" />
@@ -97,7 +93,6 @@
   <Message key="HID Descriptor" value="Дескриптор HID\n" revision="0" />
   <Message key="HIDPhysicalDescriptorWarning" value="Физический HID дескриптор (используйте HID-визуализатор)" revision="0" />
   <Message key="Reserved Item" value="Резервный элемент" revision="0" />
-  <Message key="PlotVisualizerName" value="Статистика" revision="0" />
   <Message key="PacketNo" value="Пакет №:" revision="0" />
   <Message key="PacketsTotalSecDesc" value="Всего пакетов/сек - скорость передачи пакетов в устройство или из него во время операций записи или чтения." revision="0" />
   <Message key="CounterBytesTransferTotalDesc" value="Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения." revision="0" />
@@ -158,25 +153,9 @@
     <Item value="Конфигурационный дескриптор" revision="0" />
     <Item value="HID-дескриптор" revision="0" />
   </Enumeration>
-  <Enumeration key="CellConverter">
-    <Item value="Сырые данные" revision="0" />
-    <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Обеспечивает гибкую настройку визуального оформления и компоновки." revision="0" />
-  </Enumeration>
-  <Enumeration key="StatisticsConverter">
-    <Item value="Статистика" revision="0" />
-    <Item value="Визуализатор Статистика собирает и отображает статистику и пропускную способность устройства. Рассчитываются и отображаются на линейном графике несколько значений статистики." revision="0" />
-  </Enumeration>
   <Enumeration key="URBConverter">
     <Item value="Вид URB" revision="0" />
     <Item value="Визуализатор данных Вид URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="0" />
-  </Enumeration>
-  <Enumeration key="TableConverter">
-    <Item value="Пакетный вид" revision="0" />
-    <Item value="Пакетный визуализатор данных отображает каждый контролируемый пакет в отдельной строке и обеспечивает индивидуальное декодирование пакетов в соответствии с различными форматами и протоколами." revision="0" />
-  </Enumeration>
-  <Enumeration key="StructureConverter">
-    <Item value="Структурный вид" revision="0" />
-    <Item value="Визуализатор данных &quot;Структурный вид&quot; декодирует все данные usb-пакетов, используя определения протоколов, хранящиеся в продукте или предоставленные пользователем." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Энд поинты" revision="0" />

@@ -290,11 +290,6 @@
   <Message key="GB" value="Гб" revision="0" />
   <Message key="TB" value="Тб" revision="0" />
   <Message key="ms" value="мс" revision="0" />
-  <Message key="Raw Data View" value="Сырые данные" revision="0" />
-  <Message key="Data View" value="Вид Данные" revision="0" />
-  <Message key="Packet View" value="Пакетный вид" revision="0" />
-  <Message key="Request View" value="Вид Запросы" revision="0" />
-  <Message key="Statistics" value="Статистика" revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
   <Message key="HotPlug" value="Поддержка устройств с горячим подключением" revision="0" />
   <Message key="PacketNotFound" value="Искомый пакет не отображается в этом визуализаторе. Поищите его в других визуализаторах." revision="0" />
@@ -353,7 +348,7 @@
   <Message key="UseLanguage" value="Использовать данный языковой пакет" revision="0" />
   <Message key="AccessLangsOnline" value="Зайти в онлайновое хранилище" revision="0" />
   <Message key="LangChanged" value="После изменения языка необходимо перезапустить Device Monitoring Studio. Перезапустить сейчас?" revision="0" />
-  <Message key="ThemeFiles" value="Файлы тем (*.hextheme)|*.hextheme||" revision="0" />
+  <Message key="ThemeFiles" value="Файлы тем (*.dmsheme)|*.dmstheme||" revision="1" />
   <Message key="BindPathWarning" value="Текущая сессия будет приостановлена." revision="0" />
   <Message key="WarningTitle" value="Внимание" revision="0" />
   <Message key="Wait_Text" value="Выполняется запрашиваемая операция..." revision="0" />
