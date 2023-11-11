@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ToolsHighlightingNone">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingInterlace">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingRW">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsHighlightingSwitch">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OutputClear">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AutoFit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModeLines">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModeCurves">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FillNo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FillSolid">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FillGradient">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DumpVarCommand">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGoToTick">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGoToLine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotSetOnAxis">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotProperties">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotReset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotExportToCSV">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotResetColumnWidth">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDelete">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendSelected">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSendAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderSaveTemplate">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderLoadFromFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderUp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderDown">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderAutoChecksum">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PacketBuilderExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetCopyValue">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetCopyLine">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetExpandSubTree">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetCollapseSubTree">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetNextPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetPrevPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetGotoPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetShowCurrent">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetSetFilter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetSetBindPath">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetExpandAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetCollapseAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectNone">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectInvert">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditSelectAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewDecimal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOctal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewBinary">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewFloat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewDouble">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupByte">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupWord">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupDword">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewGroupQword">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewAutoCols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View4Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View8Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View16Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="View32Cols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewCustomCols">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewTextPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewCodePane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetHex">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetDecimal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewOffsetOctal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DefinePatterns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewEncoding">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewEndpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringNewRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringSaveColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringLoadColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringClearColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringCheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringUncheckAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringEditRule">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColoringDelete">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PatternHighlightingEnabled">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RawDataSelection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RawDataInsertMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewBigEndian">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewLittleEndian">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsGotoOffset">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsNextPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsPrevPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsSynchronize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RawDataLayoutSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsHexEditorExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuDisplayAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuGroupBy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEndians">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="IncorrectInputText">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Range">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StaticLinePlaced">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SpecialHighSpeedMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectionColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SelectionDetailsColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ColorItems">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FRTypeList">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FRGroupList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SViewColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

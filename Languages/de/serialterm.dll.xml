@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="TerminalNewSession">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalSpecialSend">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalSendFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalCRLF">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SerialTerminal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuTermSessions">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalSendFilters">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalEcho">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TerminalColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
