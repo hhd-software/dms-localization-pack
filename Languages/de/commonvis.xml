@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="CellConverter">
-    <Item value=" " revision="0" />
-    <Item />
+    <Item value="Rohdaten" revision="0" />
+    <Item value="Die Rohdatenansicht zeigt rohe Paketdaten in zwei zusammenhängenden Strömen (Eingabe und Ausgabe) an. Sie bietet flexible visuelle und Layout-Anpassung und unterstützt protokollgesteuerte Filterung und Änderung des Root-Protokolls." revision="0" />
   </Enumeration>
   <Enumeration key="StructureConverter">
-    <Item />
-    <Item />
+    <Item value="Struktur Ansicht" revision="0" />
+    <Item value="Der Structured Data Visualiser dekodiert alle Paketdaten anhand der im Produkt gespeicherten oder vom Benutzer bereitgestellten Protokolldefinitionen. Die Filterung und Änderung von Root-Protokollen wird unterstützt." revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Statistik" revision="0" />
+    <Item value="Statistik sammelt und zeigt Statistiken und den Gerätedurchsatz an. Es werden mehrere statistische Werte berechnet und in einem linearen Diagramm angezeigt." revision="0" />
   </Enumeration>
   <Enumeration key="TableConverter">
-    <Item />
-    <Item />
+    <Item value="Paket Ansicht" revision="0" />
+    <Item value="Die Paketansicht zeigt jedes überwachte Datenpaket in einer separaten Zeile an und ermöglicht die individuelle Dekodierung von Paketen entsprechend den verschiedenen Formaten und Protokollen." revision="0" />
   </Enumeration>
   <Enumeration key="DataConverter">
-    <Item />
-    <Item />
+    <Item value="Daten" revision="0" />
+    <Item value="Der Visualisierer zeigt Daten in zwei separaten Fenstern an. Im ersten Fenster werden die vom Gerät empfangenen Daten angezeigt, im zweiten Fenster die an das Gerät gesendeten Daten." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
-    <Item />
-    <Item />
+    <Item value="Anfragen (Legacy)" revision="0" />
+    <Item value="Der Anfrage-Visualisierer dekodiert alle Datenpakete und Steueranfragen, die an das serielle Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="NewRequestViewConverter">
-    <Item />
-    <Item />
+    <Item value="Anfragen" revision="0" />
+    <Item value="Der Anfrage-Visualisierer dekodiert alle Datenpakete und Steueranfragen, die an das serielle Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
-    <Item />
-    <Item />
+    <Item value="Konsolen-Ansicht (Legacy)" revision="0" />
+    <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
   </Enumeration>
   <Enumeration key="NewConsoleConverter">
-    <Item />
-    <Item />
+    <Item value="Konsolen-Ansicht " revision="0" />
+    <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
   </Enumeration>
 </Language>

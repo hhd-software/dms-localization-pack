@@ -1,5 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Protocols Editor" value="Protokoll-Editor" revision="0" />
+  <Message key="Line" value="Zeile" revision="0" />
+  <Message key="Protocols List" value="Liste von Protokollen" revision="0" />
+  <Message key="Usb" value="Usb" revision="0" />
+  <Message key="Serial" value="Serial" revision="0" />
+  <Message key="Network" value="Netzwerk" revision="0" />
+  <Message key="Unknown" value="Nicht zugewiesen" revision="0" />
+  <Message key="Files" value="Dateien" revision="0" />
+  <Message key="Protocols" value="Protokolle" revision="0" />
+  <Message key="Visualizers" value="Visualisierer" revision="0" />
+  <Message key="FileNotSaved" value="Das aktuelle Dokument wurde geändert. Möchten Sie es speichern?" revision="0" />
+  <Message key="CompileErrors" value="Kompilierungsfehler {has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Compile Errors" value="Kompilierungsfehler" revision="0" />
+  <Message key="Warning" value="Warnung" revision="0" />
+  <Message key="Error" value="Fehler" revision="0" />
+  <Message key="RunningSessions" value="Sie haben laufende Überwachungssitzungen. Ihre Sitzungen werden gestoppt." revision="0" />
+  <Message key="ResetSourceChanges" value="Alle Änderungen, die Sie an vordefinierten Protokollen vorgenommen haben, gehen verloren! Möchten Sie fortfahren?" revision="0" />
+  <Message key="Compile" value="Kompilieren" revision="0" />
+  <Message key="DeleteProtocolFile" value="Fehler beim Löschen der gewählten Datei: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Fehler beim Speichern der Datei &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="Die folgenden Dateien wurden von außerhalb des Produkts geändert \r\n{file}\r\n Wollen Sie ihn neu starten?" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item />
     <Item />
