@@ -103,7 +103,7 @@
   <Message key="Device" value="Устройство" revision="0" />
   <Message key="Selection" value="Выделение" revision="0" />
   <Message key="SelectedPacket" value="Выбранный пакет" revision="0" />
-  <Message key="Output" value="Выход" revision="0" />
+  <Message key="Output" value="Вывод" revision="0" />
   <Message key="TimeLabel" value="Время:" revision="0" />
   <Message key="ResetToDefaultPosition" value="Сброс в положение по умолчанию" revision="0" />
   <Message key="AddRemoveCounters" value="Добавить/удалить счетчики" revision="0" />
