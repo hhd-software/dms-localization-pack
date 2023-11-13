@@ -248,11 +248,11 @@
 
   <!-- Trial & Expired warnings -->
 
-  <Message key="TrialWarning" description="Component is in Trial" value="[[[T#[#9A4D02]#This component is in [[[bTrial]]] mode with [[[b{days}]]] evaluation days left. It is available starting from [[[b{edition} Edition]]].]]]" revision="1">
+  <Message key="TrialWarning" description="Component is in Trial" value="[[[T#[#9A4D02]#This component is in [[[bTrial]]] mode with [[[b{days}]]] evaluation days left. It is available starting from [[[b{edition} Edition]]].]]]" revision="2">
     <Param name="days"/>
     <Param name="edition"/>
   </Message>
-  <Message key="ExpiredWarning" description="Component has expired" value="[[[T#[#C83C3C]#This component has [[[bexpired]]]. You need to upgrade to [[[b{edition} Edition]]] in order to use it.]]]" revision="1">
+  <Message key="ExpiredWarning" description="Component has expired" value="[[[T#[#C83C3C]#This component has [[[bexpired]]]. You need to upgrade to [[[b{edition} Edition]]] in order to use it.]]]" revision="2">
     <Param name="edition"/>
   </Message>
 
@@ -762,6 +762,7 @@
 	<Message key="Apply" description="Button: Apply" value="&amp;Apply"/>
 	<Message key="Cancel" description="Button: Cancel" />
 	<Message key="Reset" description="Button: Reset" value="&amp;Reset"/>
+	<Message key="Reset to Default" description="Button: Reset to Default" value="Reset to &amp;Default" />
 	<Message key="Help" description="Button: Help" value="&amp;Help"/>
 	<Message key="Yes" description="Button: Yes" value="&amp;Yes"/>
 	<Message key="No" description="Button: No" value="&amp;No"/>

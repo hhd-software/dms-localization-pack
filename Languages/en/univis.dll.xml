@@ -758,7 +758,6 @@
 	<Message key="Select All" description="Field: Select All" value="Select All"/>
 	<Message key="Counter description:" description="Field: Counter description" value="Counter description:"/>
 	<Message key="Select the counter to view its description." description="Prompt text: Select the counter" value="Select the counter to view its description."/>
-	<Message key="Reset to Default" description="Button: Reset to Default" value="Reset to Default"/>
 
 	<!-- Layout -->
 	<Message key="Layout" description="Title: Layout" value="Layout"/>
@@ -777,7 +776,6 @@
 
 	<!-- Layout Schemes -->
 	<Message key="Layout Schemes" description="Title: Layout Schemes" value="Layout Schemes"/>
-	<Message key="&amp;Save As…" description="Button: Save As" value="&amp;Save As…"/>
 
 	<!-- Pattern Coloring -->
 	<Message key="Pattern Coloring" description="Title: Pattern Coloring" value="Pattern Coloring"/>
@@ -802,8 +800,6 @@
 	<Message key="Pattern Editor" description="Title: Pattern Editor" value="Pattern Editor"/>
 	<Message key="Standard rule:" description="Field: Standard rule" value="Standard rule:"/>
 	<Message key="Round edges" description="Check box text: Round edges" value="Round edges"/>
-	<!--<Message key="Ignore case" description="" value=""/>-->
-	<Message key="Default" description="Button text: Default" value="Default"/>
 
 	<!-- Selection -->
 	<Message key="Information" description="Button: Information" value="Information"/>
