@@ -1,31 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LogWriteError" value="Die Datenaufzeichnung wurde aufgrund des folgenden Fehlers gestoppt: {error text} ({error code})" revision="0" />
+  <Message key="LogEmptyError" value="Es ist nicht möglich, den Befehl &quot;Im Protokoll speichern&quot; jetzt auszuführen, da für die aktuelle Überwachungssitzung keine historischen Daten verfügbar sind. Ziehen Sie in Erwägung, das nächste Mal das Verarbeitungsmodul Datenaufzeichnung zu einer Überwachungssitzung hinzuzufügen, oder fügen Sie einen oder mehrere Legacy-Datenvisualisierer hinzu, um automatisch über historische Daten zu verfügen." revision="0" />
+  <Message key="LogProgress" value="Bitte warten Sie, während die aktuelle Sitzung in einer Datei gespeichert wird." revision="0" />
+  <Message key="MaxLogs" value="Es können nicht mehr als 999 Protokolle in einem einzigen Ordner verwendet werden!" revision="0" />
+  <Message key="Default" value="Standard-Speicherort" revision="0" />
+  <Message key="Unlimited" value="Unbegrenzt" revision="0" />
+  <Message key="MinSizeLimit" value="Maximale Dateigröße" revision="0" />
+  <Message key="MaxSizeOutOfRange" value="Die maximale Größe einer einzelnen Datei liegt außerhalb des zulässigen Bereichs. Der zulässige Bereich reicht von {min} bis {max}." revision="0" />
+  <Message key="MaxFilesOutOfRange" value="Die maximale Anzahl der Protokolldateien liegt außerhalb des zulässigen Bereichs. Muss eine positive ganze Zahl größer als 1 sein." revision="0" />
+  <Message key="PathIsEmpty" value="Der Pfad der Ausgabeprotokolldatei ist leer." revision="0" />
+  <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Maximale Größe: {size}{|is size limit}Maximale Dauer: {time}{?is size limit}{has file limit?}; {is single file?}Einzelne Datei{|is single file}Bis zu {files} Dateien{?is single file}{?has file limit}{?has limits}" revision="0" />
+  <Message key="Log8Filter" value="DMS-Protokolldateien (*.dmslog8)|*.dmslog8|Alle Dateien|*|" revision="0" />
+  <Message key="CreateLogFailed" value="Die Datenaufzeichnung konnte keine Ausgabeprotokolldatei erstellen. {0}." revision="0" />
+  <Message key="Save to Log" value="Im Protokoll speichern" revision="0" />
+  <Message key="Settings group.Logging" value="Protokollierung" revision="0" />
+  <Message key="Recording Page" value="Aufnahme/Wiedergabe" revision="0" />
+  <Message key="IncorrectFolder" value="Falscher Ordner angegeben. Er kann nicht als Zielordner für Protokolldateien verwendet werden." revision="0" />
+  <Message key="Recording" value="Aufnahme" revision="0" />
+  <Message key="Select the location the program will use to store recorded data." value="Wählen Sie den Ort, an dem das Programm die aufgezeichneten Daten speichern soll." revision="0" />
+  <Message key="Compress recorded data" value="Aufgezeichnete Daten &amp;komprimieren" revision="0" />
+  <Message key="Playback" value="Wiedergabe" revision="0" />
+  <Message key="Select the location the program will use to playback." value="Wählen Sie den Ort, den das Programm für die Wiedergabe verwenden soll." revision="0" />
+  <Message key="Recurse sub-directories" value="&amp;Rekursive Unterverzeichnisse" revision="0" />
   <Enumeration key="LogConverter">
-    <Item />
-    <Item />
+    <Item value="Datenaufzeichnung (Legacy)" revision="0" />
+    <Item value="Die Datenaufzeichnung speichert überwachte Daten in einer Datei auf der Festplatte, die später wiedergegeben werden kann. Unterstützt das Dateiformat DMSLOG7." revision="0" />
   </Enumeration>
   <Enumeration key="LogConverter4">
-    <Item />
-    <Item />
+    <Item value="Datenaufzeichnung " revision="0" />
+    <Item value="Bei der Datenaufzeichnung werden überwachte Daten zur späteren Wiedergabe in einer Datei auf der Festplatte gespeichert. Das neue Format unterstützt das Schreiben in mehrere Dateien und die Begrenzung der maximalen Dateigröße." revision="0" />
   </Enumeration>
   <Enumeration key="SaveNow">
-    <Item />
-    <Item />
+    <Item value="Im Protokoll speichern" revision="0" />
+    <Item value="Überwachte Sitzung in Protokolldatei speichern" revision="0" />
   </Enumeration>
   <Enumeration key="StartRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Aufnahme starten/fortsetzen" revision="0" />
+    <Item value="Sitzungsaufzeichnung starten oder fortsetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PauseRecording">
-    <Item />
-    <Item />
+    <Item value="Aufnahme &amp;pausieren" revision="0" />
+    <Item value="Pausieren der Aufzeichnung der aktuellen Sitzung" revision="0" />
   </Enumeration>
   <Enumeration key="StopRecording">
-    <Item />
-    <Item />
+    <Item value="Aufnahme s&amp;toppen" revision="0" />
+    <Item value="Aufzeichnung der aktuellen Sitzung beenden" revision="0" />
   </Enumeration>
   <Enumeration key="BrowsePlayback">
-    <Item />
-    <Item />
+    <Item value="Wiedergabepfad konfigurieren…" revision="0" />
+    <Item value="Festlegen des Speicherorts der Protokolldateien für die Wiedergabe" revision="0" />
   </Enumeration>
 </Language>

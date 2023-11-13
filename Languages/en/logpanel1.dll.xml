@@ -83,5 +83,5 @@
 	<Message key="Compress recorded data" description="Checkbox: Compress recorded data" value="&amp;Compress recorded data" />
 	<Message key="Playback" description="Field group: Playback" />
 	<Message key="Select the location the program will use to playback." description="Field: Select the location the program will use to playback." />
-	<Message key="Recurse sub-directories" description="Checkbox: Recurse sub-directories" value="&amp;Recurse sub-directories" />
+	<Message key="Recourse sub-directories" description="Checkbox: Recourse sub-directories" value="&amp;Recourse sub-directories" />
 </Definition>
