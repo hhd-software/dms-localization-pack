@@ -20,10 +20,9 @@
   <Message key="Recording" value="Запись" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Выберите место, которое программа будет использовать для хранения записанных данных." revision="0" />
   <Message key="Compress recorded data" value="&amp;Сжать записанные данные" revision="0" />
-  <Message key="Reset to Default" value="Сброс &amp;по умолчанию" revision="0" />
   <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
-  <Message key="Recurse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
+  <Message key="Recourse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />

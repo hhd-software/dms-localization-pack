@@ -29,6 +29,6 @@
 	<Enumeration key="IO Packets" description="IO Packets/sec counter (name, units, description)">
 		<Item text="IO Packets/sec"/>
 		<Item text="pckts/sec"/>
-		<Item text="IO Packetsl/Sec is the rate IO packets are transferred to or from the device during write or read operations."/>
+		<Item text="IO Packets/Sec is the rate IO packets are transferred to or from the device during write or read operations."/>
 	</Enumeration>
 </Definition>

@@ -10,7 +10,6 @@
   <Message key="Use half" value="Использовать половину" revision="0" />
   <Message key="Use full" value="Использовать полностью" revision="0" />
   <Message key="Drive Policy:" value="Политика использования диска:" revision="0" />
-  <Message key="&amp;Reset to Default" value="&amp;Сбросить по умолчанию" revision="0" />
   <Message key="Low Disk Space Warning" value="Предупреждение о недостатке места на диске" revision="0" />
   <Message key="Do not display this warning anymore" value="Больше не выводить это предупреждение" revision="0" />
   <Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." value="Для нормальной работы требуется не менее 512 МБ свободного дискового пространства на одном из томов. Если вы не сможете освободить необходимое пространство, то не сможете осуществлять мониторинг в течение длительного сеанса с передачей больших объемов данных." revision="0" />

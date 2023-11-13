@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="multilink_seq_num_short" value="Sequence Number (Multilink protocol) field in short form (12 bit). Otherwise - parse as in long form (24 bit)." revision="0" />
+  <Message key="multilink_seq_num_short" value="Поле Sequence Number (протокол Multilink) в короткой форме (12 бит). В противном случае - разбор в длинной форме (24 бита)." revision="0" />
   <Message key="truncate_if_too_big" value="Усечь список записей (элементов), если он слишком длинный" revision="0" />
   <Message key="use_2_bytes_for_fcs" value="Поле FCS PPP-кадра имеет длину 2 байта (в противном случае - 4)" revision="0" />
   <Message key="address_field" value="Адрес (установите любое значение больше 255, чтобы отключить проверку адреса)" revision="0" />
-  <Message key="back_search" value="Количество пакетов для обратного сканирования (для конкатенации пакетов)" revision="0" />
+  <Message key="back_search" value="Количество пакетов для сканирования (при конкатенации пакетов)" revision="0" />
   <Message key="PPP View" value="PPP вид" revision="0" />
   <Enumeration key="PPPConverter">
     <Item value="Вид PPP" revision="0" />
