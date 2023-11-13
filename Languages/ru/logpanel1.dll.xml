@@ -12,7 +12,7 @@
   <Message key="PathIsEmpty" value="Путь к лог файлу пуст." revision="0" />
   <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Макс. размер: {size}{|is size limit}Макс. длительность: {time}{?is size limit}{has file limit?}; {is single file?}Единый файл{|is single file}До {files} файлов{?is single file}{?has file limit}{?has limits}" revision="0" />
   <Message key="Log8Filter" value="Логи DMS (*.dmslog8)|*.dmslog8|Все файлы|*|" revision="0" />
-  <Message key="CreateLogFailed" value="При записи данных не удалось создать лог файл. {0}." revision="0" />
+  <Message key="CreateLogFailed" value="Ошибка создания лога: {error text} ({error code})." revision="1" />
   <Message key="Save to Log" value="Сохранить в лог" revision="0" />
   <Message key="Settings group.Logging" value="Логгинг" revision="0" />
   <Message key="Recording Page" value="Запись/воспроизведение" revision="0" />
@@ -22,7 +22,7 @@
   <Message key="Compress recorded data" value="&amp;Сжать записанные данные" revision="0" />
   <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
-  <Message key="Recourse sub-directories" value="&amp;Рекурсивные подкаталоги" revision="0" />
+  <Message key="Recurse sub-directories" value="&amp;Искать в поддиректориях" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />

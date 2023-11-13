@@ -134,7 +134,6 @@
   <Message key="STRINGINPUT" value="Ввод" revision="0" />
   <Message key="STRINGOUTPUT" value="Вывод" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="определение структуры не найдено. Структурный вид не может отобразить какие-либо результаты." revision="0" />
-  <Message key="DevNameFormat" value="endpoint_device_{addr}_{index}" revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Зависимые устройства" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Копировать имя" revision="0" />

@@ -44,7 +44,10 @@
     <Param name="files" format="l"/>
   </Message>
   <Message key="Log8Filter" description="dmslog8 filter string" value="DMS log files (*.dmslog8)|*.dmslog8|All Files|*|"/>
-  <Message key="CreateLogFailed" description="Failed to create a log file" value="Data recording could not create an output log file. {0}."/>
+	<Message key="CreateLogFailed" description="Failed to create a log file" value="Log file creation error: {error text} ({error code})." revision="1">
+		<Param name="error text"/>
+		<Param name="error code" format="ub016x"/>
+	</Message>
 
   <Message key="Save to Log" description="Save to Log Window Title"/>
 
