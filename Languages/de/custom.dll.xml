@@ -1,81 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Protocols Editor" value="Protokoll-Editor" revision="0" />
+  <Message key="Line" value="Zeile" revision="0" />
+  <Message key="Protocols List" value="Liste von Protokollen" revision="0" />
+  <Message key="Usb" value="Usb" revision="0" />
+  <Message key="Serial" value="Serial" revision="0" />
+  <Message key="Network" value="Netzwerk" revision="0" />
+  <Message key="Unknown" value="Nicht zugewiesen" revision="0" />
+  <Message key="Files" value="Dateien" revision="0" />
+  <Message key="Protocols" value="Protokolle" revision="0" />
+  <Message key="Visualizers" value="Visualisierer" revision="0" />
+  <Message key="FileNotSaved" value="Das aktuelle Dokument wurde geändert. Möchten Sie es speichern?" revision="0" />
+  <Message key="CompileErrors" value="Kompilierungsfehler {has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Compile Errors" value="Kompilierungsfehler" revision="0" />
+  <Message key="Warning" value="Warnung" revision="0" />
+  <Message key="Error" value="Fehler" revision="0" />
+  <Message key="RunningSessions" value="Sie haben laufende Überwachungssitzungen. Ihre Sitzungen werden gestoppt." revision="0" />
+  <Message key="ResetSourceChanges" value="Alle Änderungen, die Sie an vordefinierten Protokollen vorgenommen haben, gehen verloren! Möchten Sie fortfahren?" revision="0" />
+  <Message key="Compile" value="Kompilieren" revision="0" />
+  <Message key="DeleteProtocolFile" value="Fehler beim Löschen der gewählten Datei: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Fehler beim Speichern der Datei &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="Die folgenden Dateien wurden von außerhalb des Produkts geändert \r\n{file}\r\n Wollen Sie ihn neu starten?" revision="0" />
+  <Message key="FilterErrorTitle" value="Fehler bei der Filterkompilierung" revision="0" />
+  <Message key="FilterError" value="Strukturdatei wurde nicht oder mit Fehlern kompiliert" revision="0" />
+  <Message key="UnsavedCurrentScheme" value="&lt;Derzeitiges ungesichertes Schema&gt;" revision="0" />
+  <Message key="clr.scintilla_colors" value="Farben des Protokoll-Editors" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.fill" value="Einfacher Texthintergrund" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Vordergrund des Klartextes " revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Schlüsselwort Hintergrund" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Farbe der Schlüsselwörter" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Kommentare Hintergrund" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Vordergrund der Kommentare " revision="0" />
+  <Message key="clr.scintilla_colors.numbers.fill" value="Hintergrund der Zahlen" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Die Farbe der Zahlen" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Hintergrund der Linie" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Farbe der Linie" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Hintergrund der Identifikatoren" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Farbe der Identifikatoren" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.fill" value="Hintergrund der Präprozessors" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Farbe der Präprozessors" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Hintergrund der Operatoren" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Farbe der Operatoren" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Funktionen Hintergrund" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Farbe der Funktionen" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Pragmas Hintergrund" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Farbe der Pragmas" revision="0" />
+  <Message key="toolbar.Protocols" value="Liste von Protokollen" revision="0" />
   <Enumeration key="ProtocolNew">
-    <Item />
-    <Item />
+    <Item value="Neue &amp;Protokolldefinitionsdatei" revision="0" />
+    <Item value="Neue Protokolldefinitionsdatei erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpen">
-    <Item />
-    <Item />
+    <Item value="Protokolldefinitionsdatei &amp;öffnen" revision="0" />
+    <Item value="Vorhandene Protokolldefinitionsdatei öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle Protokolldefinitionsdateien speichern" revision="0" />
+    <Item value="Speichern aller geöffneten Protokolldefinitionsdateien auf der Festplatte" revision="0" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item />
-    <Item />
+    <Item value="Ersetzen…" revision="0" />
+    <Item value="Ersetzen von Text" revision="0" />
   </Enumeration>
   <Enumeration key="Recompile">
-    <Item />
-    <Item />
+    <Item value="&amp;Neukompilieren" revision="0" />
+    <Item value="Strukturen kompilieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Rückgängig" revision="0" />
+    <Item value="Letzte Aktion rückgängig machen" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Wiederholen" revision="0" />
+    <Item value="Letzte Aktion wiederholen" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEditor">
-    <Item />
-    <Item />
+    <Item value="Editor für &amp;Protokolle" revision="0" />
+    <Item value="Menüpunkte des Protokoll-Editors" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.h" revision="0" />
+    <Item value="Protokolldefinitionsdatei" revision="0" />
+    <Item value=".h" revision="0" />
   </Enumeration>
   <Enumeration key="StructureFormats">
-    <Item />
+    <Item value="Protokolldefinitionsdateien (*.h)|*.h|" revision="0" />
   </Enumeration>
   <Enumeration key="ErrorColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Datei" revision="0" />
+    <Item value="Zeile" revision="0" />
+    <Item value="Beschreibung" revision="0" />
   </Enumeration>
   <Enumeration key="StructureEditor">
-    <Item />
-    <Item />
+    <Item value="Editor für Protokolle" revision="0" />
+    <Item value="nicht verwendet" revision="0" />
   </Enumeration>
   <Enumeration key="Custom">
-    <Item />
-    <Item />
+    <Item value="Benutzerdefinierte Protokolle" revision="0" />
+    <Item value="Mit der Funktion &quot;Benutzerdefinierte Protokolle&quot; können Sie den integrierten oder externen Editor verwenden, um integrierte Protokolle zu ändern oder benutzerdefinierte Protokolle für den Visualisierer der strukturierten Ansicht, den Sitzungsfilter und andere Funktionen hinzuzufügen. " revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
-    <Item />
-    <Item />
+    <Item value="Alle &amp;rückgängig machen" revision="0" />
+    <Item value="Alle Änderungen an Protokolldefinitionsdateien rückgängig machen" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
-    <Item />
-    <Item />
+    <Item value="Automatisch neu kompilieren" revision="0" />
+    <Item value="Automatische Neukompilierung von Quelldateien bei Änderungen" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolDeleteFile">
-    <Item />
-    <Item />
+    <Item value="Löschen der Datei" revision="0" />
+    <Item value="Ausgewählte Quelldatei aus dem Verzeichnis Protokolle löschen" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpenFolder">
-    <Item />
-    <Item />
+    <Item value="Ordner Protokolle öffnen" revision="0" />
+    <Item value="Ordner mit den Protokollen öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Alle anzeigen" revision="0" />
+    <Item value="Anzeige keine" revision="0" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
-    <Item />
-    <Item />
+    <Item value="Option" revision="0" />
+    <Item value="Wert" revision="0" />
   </Enumeration>
 </Language>

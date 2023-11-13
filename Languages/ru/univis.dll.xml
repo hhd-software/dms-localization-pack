@@ -103,7 +103,7 @@
   <Message key="Device" value="Устройство" revision="0" />
   <Message key="Selection" value="Выделение" revision="0" />
   <Message key="SelectedPacket" value="Выбранный пакет" revision="0" />
-  <Message key="Output" value="Выход" revision="0" />
+  <Message key="Output" value="Вывод" revision="0" />
   <Message key="TimeLabel" value="Время:" revision="0" />
   <Message key="ResetToDefaultPosition" value="Сброс в положение по умолчанию" revision="0" />
   <Message key="AddRemoveCounters" value="Добавить/удалить счетчики" revision="0" />
@@ -469,8 +469,8 @@
     <Item value="Представление адреса в восьмеричном виде" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item value="&amp;Определить паттерны…" revision="0" />
-    <Item value="Создание новых или управление существующими шаблонами" revision="0" />
+    <Item value="&amp;Подсветка паттернов…" revision="0" />
+    <Item value="Создание новых или управление существующими шаблонами подсветки" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Кодировка" revision="0" />
@@ -482,7 +482,7 @@
   </Enumeration>
   <Enumeration key="ColoringNewRule">
     <Item value="Добавить новое правило…" revision="0" />
-    <Item value="Определение нового правила раскраски " revision="0" />
+    <Item value="Определение нового правила раскраски" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
     <Item value="Сохранить схему…" revision="0" />
