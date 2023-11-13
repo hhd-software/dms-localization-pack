@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="multilink_seq_num_short" value="Feld Sequenznummer (Multilink-Protokoll) in Kurzform (12 Bit). Andernfalls - Parsen wie in Langform (24 Bit)." revision="0" />
+  <Message key="truncate_if_too_big" value="Abschneiden der Datensatzliste (Elemente), wenn sie zu lang ist" revision="0" />
+  <Message key="use_2_bytes_for_fcs" value="Das FCS-Feld eines PPP-Rahmens ist 2 Byte lang (sonst 4 Byte)" revision="0" />
+  <Message key="address_field" value="Adresse (auf einen beliebigen Wert über 255 setzen, um die Adressprüfung zu deaktivieren)" revision="0" />
+  <Message key="back_search" value="Anzahl der zu überprüfenden Pakete (wenn die Pakete verkettet sind)" revision="0" />
+  <Message key="PPP View" value="PPP-Ansicht" revision="0" />
   <Enumeration key="PPPConverter">
-    <Item />
-    <Item />
+    <Item value="PPP-Ansicht" revision="0" />
+    <Item value="PPP-Ansicht visualizer analysiert PPP-Pakete (Anfragen, Antworten, Optionen usw.) und zeigt sie an." revision="0" />
   </Enumeration>
 </Language>
