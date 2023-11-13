@@ -23,7 +23,6 @@
 	<Message key="Use half" description="Field: Use half"/>
 	<Message key="Use full" description="Field: Use full"/>
 	<Message key="Drive Policy:" description="Field: Drive Policy:"/>
-	<Message key="&amp;Reset to Default" description="Reset to Default"/>
 
 	<Message key="Low Disk Space Warning" description="Window Title: Low Disk Space Warning"/>
 	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this warning anymore"/>

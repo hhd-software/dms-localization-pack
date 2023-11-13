@@ -81,7 +81,6 @@
 	<Message key="Recording" description="Field group: Recording" />
 	<Message key="Select the location the program will use to store recorded data." description="Field: Select the location the program will use to store recorded data" />
 	<Message key="Compress recorded data" description="Checkbox: Compress recorded data" value="&amp;Compress recorded data" />
-	<Message key="Reset to Default" description="Button: Reset to Default" value="Reset to &amp;Default" />
 	<Message key="Playback" description="Field group: Playback" />
 	<Message key="Select the location the program will use to playback." description="Field: Select the location the program will use to playback." />
 	<Message key="Recurse sub-directories" description="Checkbox: Recurse sub-directories" value="&amp;Recurse sub-directories" />
