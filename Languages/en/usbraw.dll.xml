@@ -532,10 +532,6 @@
 	<Message key="STRINGOUTPUT" description="Menu text: Output"  value="Output"/>
 	<Message key="IDS_STRUCT_NOT_FOUND"  description="Message: structure definition" value="structure definition is not found. Structure View is unable to display any results."/>
 
-	<Message key="DevNameFormat" description="Formatted value:" value="endpoint_device_{addr}_{index}">
-		<Param name="addr" format="b016"/>
-		<Param name="index"/>
-	</Message>
 	<Message optional="true" key="IDS_CONTROLPIPE" description="Value: Control Pipe" value="Control Pipe"/>
 
 	<Enumeration key="GeneralCat" description="Filters: URB View General">
