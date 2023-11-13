@@ -1,35 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Filtering" value="Filtrierung" revision="0" />
+  <Message key="Coloring" value="Daten-Visualisierer" revision="0" />
+  <Message key="Component:" value="Komponente:" revision="0" />
+  <Message key="Scheme:" value="Schema:" revision="0" />
+  <Message key="Font:" value="Schriftart:" revision="0" />
+  <Message key="Size:" value="Größe:" revision="0" />
+  <Message key="Color:" value="Farbe:" revision="0" />
+  <Message key="Background:" value="Hintergrund:" revision="0" />
+  <Message key="Bold" value="Fettgedruckter" revision="0" />
+  <Message key="Italic" value="Kursive" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Derzeitiges ungesichertes Schema&gt;" revision="0" />
+  <Message key="DefaultScheme" value="Standard" revision="0" />
+  <Message key="DisplayAllScheme" value="Alle anzeigen" revision="0" />
+  <Message key="DisplayNoneScheme" value="Anzeige Keine" revision="0" />
+  <Message key="Filter" value="Filter" revision="0" />
+  <Message key="DeleteBuiltin" value="Dieses Schema ist fest eingebaut und kann nicht gelöscht werden." revision="0" />
+  <Message key="SaveBuiltin" value="Es ist nicht möglich, ein Schema unter dem Namen eines eingebetteten Schemas zu speichern." revision="0" />
+  <Message key="SchemeExists" value="Dieses Schema existiert bereits. Möchten Sie es außer Kraft setzen?" revision="0" />
+  <Message key="ResetAllConfirm" value="Durch das Zurücksetzen der Filter werden alle Seiten auf die Standard-Filtereinstellungen zurückgesetzt, wobei benutzerdefinierte Schemata beibehalten werden. Laufende Überwachungssitzungen sind davon nicht betroffen. Möchten Sie fortfahren?" revision="0" />
+  <Message key="ResetAllColorsConfirm" value="Durch das Zurücksetzen der Farben werden alle Datenverarbeitungsmodule auf die Standardfarbeinstellungen zurückgesetzt, wobei benutzerdefinierte Schemata beibehalten werden. Laufende Überwachungssitzungen sind davon nicht betroffen. Möchten Sie fortfahren?" revision="0" />
+  <Message key="FilteringPageX" value="Seite filtern: {page}" revision="0" />
+  <Message key="Apply this scheme" value="Dieses Schema anwenden" revision="0" />
   <Enumeration key="FilterCustomize">
-    <Item />
-    <Item />
+    <Item value="Anpassen…" revision="0" />
+    <Item value="Anpassen von Filtern" revision="0" />
   </Enumeration>
   <Enumeration key="ColorCustomize">
-    <Item />
-    <Item />
+    <Item value="Anpassen…" revision="0" />
+    <Item value="Farben anpassen" revision="0" />
   </Enumeration>
   <Enumeration key="FilterResetAll">
-    <Item />
-    <Item />
+    <Item value="Alle zurücksetzen" revision="0" />
+    <Item value="Alle Filter auf Standardwerte zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Schwarz" revision="0" />
+    <Item value="Weiß" revision="0" />
+    <Item value="Maroon" revision="0" />
+    <Item value="Dunkelgrün" revision="0" />
+    <Item value="Olive" revision="0" />
+    <Item value="Dunkelblau" revision="0" />
+    <Item value="Lila" revision="0" />
+    <Item value="Aquamarin" revision="0" />
+    <Item value="Hellgrau" revision="0" />
+    <Item value="Dunkelgrau" revision="0" />
+    <Item value="Rot" revision="0" />
+    <Item value="Grün" revision="0" />
+    <Item value="Gelb" revision="0" />
+    <Item value="Blau" revision="0" />
+    <Item value="Magenta" revision="0" />
+    <Item value="Cyan" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
   </Enumeration>
 </Language>
