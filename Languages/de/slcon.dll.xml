@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="InvalidLocationConfig" value="Ungültige Konfiguration erkannt. Mindestens ein Laufwerk muss einen Wert ungleich Null haben." revision="0" />
   <Message key="Out of memory" value="Nicht genug Speiche" revision="0" />
-  <Message key="BrokenIndexer" value="Der Index ist gebrochen" revision="0" />
+  <Message key="BrokenIndexer" value="Interne Strukturen wurden korrumpiert" revision="0" />
   <Message key="DriveC" value="Laufwerk {drive}" revision="0" />
   <Message key="Data Processing" value="Datenverarbeitung" revision="0" />
   <Message key="Select the location..." value="Wählen Sie den/die Speicherort(e) aus, an dem/denen das Programm die vorübergehend überwachten Daten speichern soll. Auf dieser Seite können Sie auch die Datenspeicherrichtlinie festlegen." revision="0" />
