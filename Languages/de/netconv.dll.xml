@@ -15,17 +15,17 @@
     <Item value="Der HTTP Ansicht Datenvisualisierer parst und zeigt HTTP Protokoll Anfragen und Antworten an." revision="0" />
   </Enumeration>
   <Enumeration key="NetError">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Speicher korruption " revision="0" />
+    <Item value="Nicht genügend Ressourcen für das Paket" revision="0" />
+    <Item value="Paket zu klein, um ein gültiges Paket zu sein" revision="0" />
+    <Item value="Adapter ist nicht gebunden oder wurde abgezogen" revision="0" />
+    <Item value="Die Größe des Pakets ist zu groß für die NIC, oder die NIC hat ihrem Treiber eine fehlerhafte Paketübertragung gemeldet." revision="0" />
+    <Item value="Der zugrunde liegende Treiber ist beschäftigt." revision="0" />
+    <Item value="Der zugrundeliegende Treiber setzt derzeit die Netzwerkkarte zurück." revision="0" />
+    <Item value="Unbekannter Netzwerkfehler" revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">
-    <Item />
-    <Item />
+    <Item value="Unverbunden" revision="0" />
+    <Item value="Verbunden" revision="0" />
   </Enumeration>
 </Language>

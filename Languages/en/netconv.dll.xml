@@ -12,7 +12,7 @@
 		<Item text="Memory corruption"/>
 		<Item text="Not enough resources for the packet"/>
 		<Item text="Packet too small to be a valid packet"/>
-		<Item text="Adapter not binded or was disconnected"/>
+		<Item text="Adapter is not bound or was disconnected"/>
 		<Item text="The size of the packet is too large for the NIC, or possibly the NIC indicated an erroneous packet transmission to its driver."/>
 		<Item text="The underlying driver is closing."/>
 		<Item text="The underlying driver is currently resetting the NIC."/>
