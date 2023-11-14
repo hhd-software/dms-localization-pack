@@ -3,7 +3,7 @@
 
   <Enumeration key="HttpViewConverter" description="HTTP View">
     <Item text="HTTP View"/>
-    <Item text="HTTP View data visualizer parses and displays HTTP protocol requests and repsonses."/>
+    <Item text="HTTP View data visualizer parses and displays HTTP protocol requests and responses."/>
   </Enumeration>
 
 	<Message key="ErrorTitle" description="Title: Error" value="Error"/>

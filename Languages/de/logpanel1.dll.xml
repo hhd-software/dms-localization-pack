@@ -12,7 +12,7 @@
   <Message key="PathIsEmpty" value="Der Pfad der Ausgabeprotokolldatei ist leer." revision="0" />
   <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Maximale Größe: {size}{|is size limit}Maximale Dauer: {time}{?is size limit}{has file limit?}; {is single file?}Einzelne Datei{|is single file}Bis zu {files} Dateien{?is single file}{?has file limit}{?has limits}" revision="0" />
   <Message key="Log8Filter" value="DMS-Protokolldateien (*.dmslog8)|*.dmslog8|Alle Dateien|*|" revision="0" />
-  <Message key="CreateLogFailed" value="Die Datenaufzeichnung konnte keine Ausgabeprotokolldatei erstellen. {0}." revision="0" />
+  <Message key="CreateLogFailed" value="Fehler bei der Erstellung des Protokolls: {error text} ({error code})." revision="1" />
   <Message key="Save to Log" value="Im Protokoll speichern" revision="0" />
   <Message key="Settings group.Logging" value="Protokollierung" revision="0" />
   <Message key="Recording Page" value="Aufnahme/Wiedergabe" revision="0" />
@@ -22,6 +22,7 @@
   <Message key="Compress recorded data" value="Aufgezeichnete Daten &amp;komprimieren" revision="0" />
   <Message key="Playback" value="Wiedergabe" revision="0" />
   <Message key="Select the location the program will use to playback." value="Wählen Sie den Ort, den das Programm für die Wiedergabe verwenden soll." revision="0" />
+  <Message key="Recurse sub-directories" value="&amp;Suche in Unterverzeichnissen" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Datenaufzeichnung (Legacy)" revision="0" />
     <Item value="Die Datenaufzeichnung speichert überwachte Daten in einer Datei auf der Festplatte, die später wiedergegeben werden kann. Unterstützt das Dateiformat DMSLOG7." revision="0" />

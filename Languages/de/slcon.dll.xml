@@ -1,8 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="InvalidLocationConfig" value="Ungültige Konfiguration erkannt. Mindestens ein Laufwerk muss einen Wert ungleich Null haben." revision="0" />
+  <Message key="Out of memory" value="Nicht genug Speiche" revision="0" />
+  <Message key="BrokenIndexer" value="Der Index ist gebrochen" revision="0" />
+  <Message key="DriveC" value="Laufwerk {drive}" revision="0" />
+  <Message key="Data Processing" value="Datenverarbeitung" revision="0" />
+  <Message key="Select the location..." value="Wählen Sie den/die Speicherort(e) aus, an dem/denen das Programm die vorübergehend überwachten Daten speichern soll. Auf dieser Seite können Sie auch die Datenspeicherrichtlinie festlegen." revision="0" />
+  <Message key="Don't use" value="Verwenden Sie nicht" revision="0" />
+  <Message key="Use half" value="Die Hälfte verwenden" revision="0" />
+  <Message key="Use full" value="Vollständig verwenden" revision="0" />
+  <Message key="Drive Policy:" value="Verwendung des Laufwerks:" revision="0" />
+  <Message key="Low Disk Space Warning" value="Warnung bei geringem Speicherplatz" revision="0" />
+  <Message key="Do not display this warning anymore" value="Diese Warnung nicht mehr anzeigen" revision="0" />
+  <Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." value="Device Monitoring Studio benötigt für den normalen Betrieb mindestens 512 MB freien Speicherplatz auf einem der Volumes. Wenn Sie den erforderlichen Speicherplatz nicht freigeben können, sind Sie nicht in der Lage, lange Sitzungen mit großen Datenübertragungen zu überwachen." revision="0" />
   <Enumeration key="SlConColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Laufwerk" revision="0" />
+    <Item value="Freiraum" revision="0" />
+    <Item value="Verwenden Sie bis zu" revision="0" />
   </Enumeration>
 </Language>

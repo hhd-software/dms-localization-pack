@@ -8,7 +8,7 @@
   <Message key="Network Raw" value="Сетевые сырые данные" revision="0" />
   <Message key="bytes" value="байт" revision="0" />
   <Message key="NetTermSizeError" value="Пакет ({packetno}): Размер пакета ({size}) больше размера MTU адаптера ({maxsize})." revision="0" />
-  <Message key="NetTermTooltipText" value="Физический адрес: {mac}\nМаксимальный блок передачи: {size} bytes\nСкорость передачи: {speed} МБIP: {ip}\nСостояние: {status}" revision="0" />
+  <Message key="NetTermTooltipText" value="Физический адрес: {mac}\nМаксимальный блок передачи: {size} bytes\nСкорость передачи: {speed} МБ\nIP: {ip}\nСостояние: {status}" revision="0" />
   <Message key="CellConvTooltip" value="Пакет:\t\t{number}\nВремя:\t\t{timestamp}\nРазмер пакета:\t{size} bytes\nОбъем данных:\t{datasize} байт{has_name?}\nУстройство:\t\t{devicename}{?has_name}\n" revision="0" />
   <Enumeration key="HttpViewConverter">
     <Item value="Вид HTTP" revision="0" />
