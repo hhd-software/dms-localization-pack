@@ -1,33 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Device sends" value="{device} sendet" revision="0" />
+  <Message key="Unable to retrieve data" value="Daten können nicht abgerufen werden" revision="0" />
+  <Message key="Complete" value="Vollständig" revision="0" />
+  <Message key="Packet No:" value="Paket Nr:" revision="0" />
+  <Message key="bytes/sec" value="bytes/sec" revision="0" />
   <Enumeration key="BridgeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ordinal" revision="1" />
+    <Item value="Zeit" revision="1" />
+    <Item value="Zeitunterschied" revision="1" />
+    <Item value="Sendegerät" revision="1" />
+    <Item value="Daten" revision="1" />
+    <Item value="Datenklassen" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Gerät A Bytes Lesen/sec" revision="0" />
+    <Item value="Device A Bytes Lesen/sec ist die Rate, mit der Daten von Gerät A gesendet werden." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Gerät B Bytes Lesen/sec" revision="0" />
+    <Item value="Device B Bytes Lesen/sec ist die Rate, mit der Daten von Gerät B gesendet werden." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Lesen: Kopfzeile" revision="0" />
+    <Item value="Lesen: Text" revision="0" />
+    <Item value="Lesen: Binäre Daten" revision="0" />
+    <Item value="Schreibe: Kopfzeile" revision="0" />
+    <Item value="Schreibe: Text" revision="0" />
+    <Item value="Schreibe: Binäre Daten" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gerät A Kopfzeile" revision="0" />
+    <Item value="Gerät A Binäre Daten" revision="0" />
+    <Item value="Gerät B Kopfzeile" revision="0" />
+    <Item value="Gerät B Binäre Daten" revision="0" />
   </Enumeration>
 </Language>
