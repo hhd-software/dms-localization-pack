@@ -652,7 +652,7 @@
 	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
 	<Message key="Lines" description="Title: Lines" value="Lines"/>
 	<Message key="SchemeNameCue" description="Text: Enter scheme name" value="Enter the scheme name here"/>
-	<Message key="Device" description="Title: Device" value="Device"/>
+	<Message key="Device" description="Column title: Device" value="Device"/>
 	<Message key="Selection" description="Window Title: Selection" value="Selection"/>
 	<Message key="SelectedPacket" description="Window Title: Selected Packet" value="Selected Packet"/>
 	<Message key="Output" description="Window Title: Output" value="Output"/>
