@@ -65,6 +65,42 @@
   <Message key="toolbar.SessionConfig2" value="Konfiguration der Sitzung 2" revision="0" />
   <Message key="toolbar.Devices" value="Geräte" revision="0" />
   <Message key="toolbar.Sessions" value="Sitzungen" revision="0" />
+  <Message key="Save Configuration" value="Konfiguration speichern" revision="0" />
+  <Message key="Enter custom data processor configuration name:" value="Geben Sie den Namen der benutzerdefinierten Konfiguration ein:" revision="0" />
+  <Message key="Device coloring" value="Gerätefärbung" revision="0" />
+  <Message key="Back color:" value="Hintergrundfarbe:" revision="0" />
+  <Message key="Multisource Device Colors" value="Multisource-Gerätefarben" revision="0" />
+  <Message key="Multisource device list:" value="Multi-Quellen-Geräteliste:" revision="0" />
+  <Message key="Background color:" value="Hintergrundfarbe:" revision="0" />
+  <Message key="Rename Device" value="Gerät umbenennen" revision="0" />
+  <Message key="Enter new device name:" value="Geben Sie einen neuen Gerätenamen ein:" revision="0" />
+  <Message key="Session Configuration" value="Konfiguration der Sitzung" revision="0" />
+  <Message key="Selected sources" value="Ausgewählte Quellen" revision="0" />
+  <Message key="Selected processing" value="Ausgewählte Verarbeitung" revision="0" />
+  <Message key="Available processing" value="Verfügbare Verarbeitung" revision="0" />
+  <Message key="Description" value="Beschreibung" revision="0" />
+  <Message key="Filter text" value="Text filtern" revision="0" />
+  <Message key="Capture filter" value="Sitzungsfilter" revision="0" />
+  <Message key="Precise time marks" value="Präzise Zeitmarken" revision="0" />
+  <Message key="Add More" value="Mehr hinzufügen" revision="0" />
+  <Message key="Remove" value="Entfernen" revision="0" />
+  <Message key="clr.device_colors" value="Multi-Source-Gerätefarben" revision="0" />
+  <Message key="clr.device_colors.color1" value="Gerät 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Gerät 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Gerät 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Gerät 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Gerät 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Gerät 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Gerät 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Gerät 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Gerät 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Gerät 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Gerät 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Gerät 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Gerät 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Gerät 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Gerät 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Gerät 16" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />
