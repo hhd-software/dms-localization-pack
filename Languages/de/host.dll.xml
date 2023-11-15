@@ -1,5 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ElevationError" value="Eskalation der Privilegien nicht möglich. Fehler: {error}" revision="1" />
+  <Message key="Devices" value="Geräte" revision="0" />
+  <Message key="Sessions" value="Sitzungen" revision="0" />
+  <Message key="ElevationErrorTitle" value="Fehler beim Upgrade von Berechtigungen" revision="1" />
+  <Message key="EmergencySessionTermination" value="Die Sitzung wurde mit folgendem Fehler abgebrochen: &quot;{error}&quot;" revision="0" />
+  <Message key="EmergencySessionTerminationTitle" value="Notfall Ende der Sitzung" revision="0" />
+  <Message key="IntegrityError" value="Fehler bei der Initialisierung einer internen Komponente: {error}" revision="0" />
+  <Message key="DevicesAbsent" value="Ein oder mehrere Sitzungsgeräte fehlen" revision="0" />
+  <Message key="LogCreationFailed" value="Fehler bei der Erstellung der Logdatei: {error}" revision="0" />
+  <Message key="NoConverters" value="Es gibt keine Datenverarbeitungsmodule, die diese Sitzung unterstützen." revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}Die vorherige Sitzung wurde aufgrund von Speichermangel abgebrochen. Sie müssen die Anwendung neu starten, bevor Sie eine neue Überwachungssitzung starten können.{|nomemory}Kein temporärer Speicher konfiguriert. Überprüfen Sie die Datenverarbeitungseinstellungen. Fehlercode: {error}{?nomemory}" revision="0" />
+  <Message key="UnknownError" value="Die Erstellung einer Sitzung ist aus unbekanntem Grund fehlgeschlagen.{has warnings?} Die folgenden Warnungen wurden erzeugt:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartErrorTitle" value="Fehler bei der Erstellung einer Sitzung" revision="0" />
+  <Message key="SessionStartWarningTitle" value="Warnungen bei der Erstellung von Sitzung" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />
