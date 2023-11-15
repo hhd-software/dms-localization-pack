@@ -251,9 +251,6 @@
     <Item text="Legacy"/>
   </Enumeration>
 
-  <Message key="GroupVisualizers" description="Data processing group: Visualizers" value="Visualizers"/>
-  <Message key="GroupExporters" description="string"></Message>
-
   <Message key="UnsupportedProcessingsTitle" description="Unsupported processings warning window title" value="Warning"/>
 
   <Message key="UnsupportedProcessings" description="Unsupported processings warning" value="The following processings:\n{processings}\ndo not support multiple device monitoring and will be removed.">
