@@ -1,5 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ElevationError" value="Eskalation der Privilegien nicht möglich. Fehler: {error}" revision="1" />
+  <Message key="Devices" value="Geräte" revision="0" />
+  <Message key="Sessions" value="Sitzungen" revision="0" />
+  <Message key="ElevationErrorTitle" value="Fehler beim Upgrade von Berechtigungen" revision="1" />
+  <Message key="EmergencySessionTermination" value="Die Sitzung wurde mit folgendem Fehler abgebrochen: &quot;{error}&quot;" revision="0" />
+  <Message key="EmergencySessionTerminationTitle" value="Notfall Ende der Sitzung" revision="0" />
+  <Message key="IntegrityError" value="Fehler bei der Initialisierung einer internen Komponente: {error}" revision="0" />
+  <Message key="DevicesAbsent" value="Ein oder mehrere Sitzungsgeräte fehlen" revision="0" />
+  <Message key="LogCreationFailed" value="Fehler bei der Erstellung der Logdatei: {error}" revision="0" />
+  <Message key="NoConverters" value="Es gibt keine Datenverarbeitungsmodule, die diese Sitzung unterstützen." revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}Die vorherige Sitzung wurde aufgrund von Speichermangel abgebrochen. Sie müssen die Anwendung neu starten, bevor Sie eine neue Überwachungssitzung starten können.{|nomemory}Kein temporärer Speicher konfiguriert. Überprüfen Sie die Datenverarbeitungseinstellungen. Fehlercode: {error}{?nomemory}" revision="0" />
+  <Message key="UnknownError" value="Die Erstellung einer Sitzung ist aus unbekanntem Grund fehlgeschlagen.{has warnings?} Die folgenden Warnungen wurden erzeugt:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartErrorTitle" value="Fehler bei der Erstellung einer Sitzung" revision="0" />
+  <Message key="SessionStartWarningTitle" value="Warnungen bei der Erstellung von Sitzung" revision="0" />
+  <Message key="SessionStartError" value="Die Erstellung der Sitzung ist aus folgenden Gründen fehlgeschlagen:\r\n{errors}{has warnings?}\r\n\r\nAußerdem wurden die folgenden Warnungen ausgegeben:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartWarning" value="Die Erstellung der Sitzung war erfolgreich, allerdings mit folgenden Warnungen:\n{warnings}" revision="0" />
+  <Message key="SourceExpired" value="Eine der ausgewählten Datenquellen ist ausgelaufen." revision="0" />
+  <Message key="DeviceConfig" value="Konfiguration: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
+  <Message key="Data Source Configuration" value="Konfiguration der Datenquelle" revision="0" />
+  <Message key="Capture Filter" value="Sitzungsfilter" revision="0" />
+  <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Gerätefärbung" revision="0" />
+  <Message key="UnsupportedProcessingsTitle" value="Warnung" revision="0" />
+  <Message key="UnsupportedProcessings" value="Die folgenden Verarbeitungsmodule:\n{processings}\nunterstützen nicht die Überwachung mehrerer Geräte und werden entfernt." revision="0" />
+  <Message key="NoProcessings" value="Verarbeitungskomponenten für dieses Gerät können nicht gefunden werden. Bitte installieren Sie die Anwendung erneut." revision="0" />
+  <Message key="Error" value="Fehler" revision="0" />
+  <Message key="FilterError" value="Fehler bei der Anwendung des ausgewählten Filters" revision="0" />
+  <Message key="NoDataSource" value="Entsprechendes Überwachungsmodul ist nicht installiert. Bitte installieren Sie die Anwendung neu." revision="0" />
+  <Message key="InstallMissingModule" value="Dieses Modul ist derzeit nicht installiert. Möchten Sie es jetzt installieren? (Dadurch wird Device Monitoring Studio geschlossen)." revision="0" />
+  <Message key="Configuration object is expected" value="Konfigurationsobjekt wird erwartet" revision="0" />
+  <Message key="Configuration object is not expected" value="Konfigurationsobjekt wird nicht erwartet" revision="0" />
+  <Message key="Visualizer requires configuration, but no configuration object is specified" value="Visualizer erfordert Konfiguration, aber es ist kein Konfigurationsobjekt angegeben" revision="0" />
+  <Message key="Visualizer not found" value="Visualizer nicht gefunden" revision="0" />
+  <Message key="Session has been destroyed" value="Die Sitzung wurde zerstört" revision="0" />
+  <Message key="Session has already been started" value="Die Sitzung wurde bereits gestartet" revision="0" />
+  <Message key="String or object is expected" value="String oder Objekt wird erwartet" revision="0" />
+  <Message key="Servername is incorrect" value="serverName parameter ist falsch" revision="0" />
+  <Message key="Device not found" value="Gerät nicht gefunden" revision="0" />
+  <Message key="Invalid argument: object of proper format is expected" value="Ungültiges Argument: Es wird ein Objekt im richtigen Format erwartet" revision="0" />
+  <Message key="No configuration objects specified" value="Keine Konfigurationsobjekte angegeben" revision="0" />
+  <Message key="Source does not support configuration" value="Die Quelle unterstützt keine Konfiguration" revision="0" />
+  <Message key="Object is expected" value="Objekt wird erwartet" revision="0" />
+  <Message key="Object of correct format is expected" value="Objekt mit korrektem Format wird erwartet" revision="0" />
+  <Message key="Session startup error" value="Fehler beim Starten der Sitzung" revision="0" />
+  <Message key="Session is not started" value="Sitzung ist nicht gestartet" revision="0" />
+  <Message key="Session cannot be stopped" value="Sitzung kann nicht beendet werden" revision="0" />
+  <Message key="Device(s) must be added to the session" value="Gerät(e) müssen der Sitzung hinzugefügt werden" revision="0" />
+  <Message key="Only one session is allowed per device" value="Pro Gerät ist nur eine Sitzung zulässig" revision="0" />
+  <Message key="Unable to generate script" value="Skript kann nicht generiert werden" revision="0" />
+  <Message key="UnsavedCapture" value="Aktuelle ungespeicherte Aufnahme" revision="0" />
+  <Message key="NagFreeTitle" value="Freie Version Einschränkung" revision="0" />
+  <Message key="FreeSessionExpireMsg" value="Die kostenlose Version erlaubt Überwachungssitzungen, die nicht länger als {limit} Minuten sind.\n\nIhre Sitzung wird beendet in {minutes}:{seconds}.\n\n{expired?}Sie können mit den eingeschränkten Funktionen der kostenlosen Version arbeiten oder auf die erweiterte Version upgraden.{|expired}Sie können die eingeschränkte kostenlose Version verwenden oder die erweiterte Version 14 Tage lang KOSTENLOS testen.{?expired}" revision="0" />
+  <Message key="FreeSessionExpireMsg2" value="Die kostenlose Version hat ein Limit von {limit} Überwachungssitzungen pro Tag.\n\nSitzungen heute verlassen: {left}.\n\n{expired?}Sie können mit den eingeschränkten Funktionen der kostenlosen Version arbeiten oder auf die erweiterte Version upgraden.{|expired}Sie können die eingeschränkte kostenlose Version verwenden oder die erweiterte Version 14 Tage lang KOSTENLOS testen.{?expired}" revision="0" />
+  <Message key="Close this notification" value="Diese Meldung schließen" revision="0" />
+  <Message key="Try extended version" value="Erweiterte Version ausprobieren" revision="0" />
+  <Message key="Purchase extended version" value="Erweiterte Version erhalten" revision="0" />
+  <Message key="Out of memory" value="Nicht genug Raum" revision="0" />
+  <Message key="Stopping session" value="Anhalten der Sitzung" revision="0" />
+  <Message key="ShowImportantSessionConfig" value="Erzwingen des Sitzungskonfigurationsdialogs bei ausgewählten Sitzungstypen" revision="0" />
+  <Message key="MCAdv" value="Ich möchte diese Daten von meiner Anwendung aus überwachen" revision="0" />
+  <Message key="Advertise.Title" value="Überwachungssteuerungen ActiveX" revision="0" />
+  <Message key="Get More Details" value="Mehr lesen" revision="0" />
+  <Message key="toolbar.SessionConfig1" value="Konfiguration der Sitzung 1" revision="0" />
+  <Message key="toolbar.SessionConfig2" value="Konfiguration der Sitzung 2" revision="0" />
+  <Message key="toolbar.Devices" value="Geräte" revision="0" />
+  <Message key="toolbar.Sessions" value="Sitzungen" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />

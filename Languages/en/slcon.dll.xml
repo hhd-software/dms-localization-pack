@@ -4,7 +4,7 @@
   <Message key="InvalidLocationConfig" description="Invalid Data Processing configuration" value="Invalid configuration detected. At least one drive must have non-zero value."/>
 
   <Message key="Out of memory" description="Superlog error: Out of memory"/>
-  <Message key="BrokenIndexer" description="Superlog error: Internal structures became corrupted"/>
+  <Message key="BrokenIndexer" description="Superlog error: Internal structures became corrupted"  value="Internal structures became corrupted"/>
 
 	<Enumeration key="SlConColumns" description="Data Processing Columns">
 		<Item text="Drive"/>

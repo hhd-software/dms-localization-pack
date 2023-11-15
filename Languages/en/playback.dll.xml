@@ -30,15 +30,15 @@
   </Enumeration>
 
   <Enumeration key="WiresharkDesc" description="Wireshark file description">
-    <Item text="*.pcap"/>
+    <Item optional="true" text="*.pcap"/>
     <Item text="Wireshark capture files"/>
-    <Item text=".pcap"/>
+    <Item optional="true" text=".pcap"/>
   </Enumeration>
 
   <Enumeration key="NetmonDesc" description="Microsoft Network Monitor file description">
-    <Item text="*.cap"/>
+    <Item optional="true" text="*.cap"/>
     <Item text="Microsoft Netmon capture files"/>
-    <Item text=".cap"/>
+    <Item optional="true" text=".cap"/>
   </Enumeration>
 
   <Enumeration key="MonitoredNotify" description="Sessions are still running on virtual adapter">
@@ -74,15 +74,15 @@
 
   <Enumeration key="PlaybackSpeeds" description="Playback speed values">
     <Item text="Stepped"/>
-    <Item text="1:16"/>
-    <Item text="1:8"/>
-    <Item text="1:4"/>
-    <Item text="1:2"/>
-    <Item text="1:1"/>
-    <Item text="2:1"/>
-    <Item text="4:1"/>
-    <Item text="8:1"/>
-    <Item text="16:1"/>
+    <Item optional="true" text="1:16"/>
+    <Item optional="true" text="1:8"/>
+    <Item optional="true" text="1:4"/>
+    <Item optional="true" text="1:2"/>
+    <Item optional="true" text="1:1"/>
+    <Item optional="true" text="2:1"/>
+    <Item optional="true" text="4:1"/>
+    <Item optional="true" text="8:1"/>
+    <Item optional="true" text="16:1"/>
     <Item text="Continuous"/>
   </Enumeration>
 

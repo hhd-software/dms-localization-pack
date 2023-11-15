@@ -2,7 +2,7 @@
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 	<Enumeration key="MchDisplayHint" description="Command: Display Hint…">
 		<Item text="&amp;Display Hint…"/>
-		<Item text="Display currenty selected hint in the dialog box"/>
+		<Item text="Display currently selected hint in the dialog box"/>
 	</Enumeration>
 
 	<Enumeration key="MchExportBinary" description="Command: Export Binary">

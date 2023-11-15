@@ -40,7 +40,7 @@
   <Message key="SessionStartErrorTitle" description="Title: Session Creation Error" value="Session Creation Error"/>
   <Message key="SessionStartWarningTitle" description="Title: Session Created with Warnings" value="Session Creation Warnings"/>
 
-  <Message key="SessionStartError" description="Session startup warnings and errors" value="Session creation failed due to the following reasons(s):\r\n{errors}{has warnings?}\r\n\r\nIn addition, the following warnings were generated:\r\n{warnings}{?has warnings}">
+  <Message key="SessionStartError" description="Session startup warnings and errors" value="Session creation failed due to the following reason(s):\r\n{errors}{has warnings?}\r\n\r\nIn addition, the following warnings were generated:\r\n{warnings}{?has warnings}">
     <Param name="errors"/>
     <Param name="has warnings" format="?"/>
     <Param name="warnings"/>
@@ -250,9 +250,6 @@
     <Item text="Custom"/>
     <Item text="Legacy"/>
   </Enumeration>
-
-  <Message key="GroupVisualizers" description="Data processing group: Visualizers" value="Visualizers"/>
-  <Message key="GroupExporters" description="string"></Message>
 
   <Message key="UnsupportedProcessingsTitle" description="Unsupported processings warning window title" value="Warning"/>
 

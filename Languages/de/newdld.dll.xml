@@ -10,31 +10,40 @@
   <Message key="Settings" value="Einstellungen" revision="0" />
   <Message key="Authentication" value="Authentifizierung" revision="0" />
   <Message key="Authentication is not required" value="Eine Authentifizierung ist nicht erforderlich." revision="0" />
+  <Message key="Authenticate me as logged on user" value="Mich als angemeldeten Benutzer authentifizieren" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Authentifizieren Sie mich mit den folgenden Anmeldedaten:" revision="0" />
+  <Message key="User name:" value="Name des Benutzers:" revision="0" />
+  <Message key="Password:" value="Passwort:" revision="0" />
+  <Message key="Re-type password:" value="Passwort erneut eingeben:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Device Monitoring Studio speichert das eingegebene Passwort sicher und lokal in Ihrem Benutzerkonto)" revision="0" />
+  <Message key="PasswordMismatch" value="Eingegebene Passwörter müssen übereinstimmen." revision="0" />
+  <Message key="Downloader settings" value="Proxy-Einstellungen" revision="0" />
+  <Message key="toolbar.Downloader" value="Downloader" revision="0" />
   <Enumeration key="Downloader">
-    <Item />
-    <Item />
+    <Item value="Downloader" revision="0" />
+    <Item value="Downloader-Befehle" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsCancelAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Abbrechen aller Downloads" revision="0" />
+    <Item value="Alle Download-Aufgaben abbrechen" revision="0" />
   </Enumeration>
   <Enumeration key="DownloaderColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Aufgabe" revision="0" />
+    <Item value="Status" revision="0" />
+    <Item value="Größe" revision="0" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unbekannt" revision="0" />
+    <Item value="Gestartet" revision="0" />
+    <Item value="Erkennung von Proxys" revision="0" />
+    <Item value="Auflösender Name" revision="0" />
+    <Item value="Verbindung zum Server herstellen" revision="0" />
+    <Item value="SSL aushandeln" revision="0" />
+    <Item value="Kopfzeile senden" revision="0" />
+    <Item value="Senden von Inhalten" revision="0" />
+    <Item value="Warten auf Antwort" revision="0" />
+    <Item value="Empfangen von Kopfzeilen" revision="0" />
+    <Item value="Empfangen von Inhalten" revision="0" />
+    <Item value="Fehler: {error}" revision="0" />
   </Enumeration>
 </Language>

@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportFailed" value="Export fehlgeschlagen, da die Ansicht keine Daten enthält" revision="0" />
+  <Message key="ErrorExportingData" value="Fehler beim Exportieren von Daten" revision="0" />
+  <Message key="CannotCreateFile" value="Datei kann nicht erstellt werden" revision="0" />
+  <Message key="LocatingPacketError" value="Fehler beim Auffinden des Pakets" revision="0" />
+  <Message key="LittleEndianFormat" value="Little-Endian (x86-Zahlenformat)" revision="0" />
+  <Message key="BigEndianFormat" value="Big-Endian (ALPHA-Nummernformat, Netzreihenfolge)" revision="0" />
+  <Message key="ExportingCaption" value="Bitte warten Sie, während der {exporter} die ausgewählten Daten konvertiert." revision="0" />
+  <Message key="HintError" value="Hex: {hex}, Dezimal: {dec}, Vorzeichenlos dezimal: {udec}, Oktal: {oct}o\nBinär:{bin}\n" revision="0" />
+  <Message key="AsciiCharFormat" value="Zeichen: {char}" revision="0" />
+  <Message key="UnicodeCharFormat" value="Unicode-Zeichen: {char}" revision="0" />
+  <Message key="SingleByteSelected" value="Einzelnes Byte ausgewählt" revision="0" />
+  <Message key="DataExported" value="Daten erfolgreich exportiert" revision="0" />
+  <Message key="ExportTitle" value="Exportieren" revision="0" />
+  <Message key="ClipboardOverflow" value="Sie haben eine große Menge an Daten in der Zwischenablage abgelegt. Möchten Sie, dass die Daten verfügbar sind, wenn Sie die {app_name}" revision="0" />
+  <Message key="Converting..." value="Konvertieren..." revision="0" />
   <Enumeration key="MchDisplayHint">
-    <Item />
-    <Item />
+    <Item value="&amp;Hinweis anzeigen…" revision="0" />
+    <Item value="Anzeige des aktuell ausgewählten Hinweises in der Dialogbox" revision="0" />
   </Enumeration>
   <Enumeration key="MchExportBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binär exportieren" revision="0" />
+    <Item value="Paketdaten im Binärformat exportieren" revision="0" />
   </Enumeration>
   <Enumeration key="ExportFormats">
-    <Item />
-    <Item />
+    <Item value="Alle Dateien (*.*)|*.*|" revision="0" />
+    <Item value="HTML-Dateien (*.htm;*.html)|*.htm;*.html|UNICODE-Textdateien (*.txt)|*.txt|ANSI-Textdateien (*.txt)|*.txt||" revision="0" />
   </Enumeration>
 </Language>

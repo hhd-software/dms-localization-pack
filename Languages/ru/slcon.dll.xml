@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="InvalidLocationConfig" value="Недопустимая конфигурация. Хотя бы один диск должен иметь ненулевое значение." revision="0" />
   <Message key="Out of memory" value="Не хватает памяти" revision="0" />
-  <Message key="BrokenIndexer" value="Сломан индекс" revision="0" />
+  <Message key="BrokenIndexer" value="Нарушены внутренние структуры" revision="0" />
   <Message key="DriveC" value="Диск {drive}" revision="0" />
   <Message key="Data Processing" value="Обработка данных" revision="0" />
   <Message key="Select the location..." value="Выберите место(места), которое будет использоваться для временного хранения данных мониторинга. На этой странице можно также задать политику хранения данных." revision="0" />

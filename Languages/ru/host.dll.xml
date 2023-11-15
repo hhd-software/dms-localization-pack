@@ -21,8 +21,6 @@
   <Message key="Data Source Configuration" value="Настройка источника данных" revision="0" />
   <Message key="Capture Filter" value="Фильтр сессии" revision="0" />
   <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Расцветка устройства" revision="0" />
-  <Message key="GroupVisualizers" value="Визуализаторы" revision="0" />
-  <Message key="GroupExporters" value="Групповые экспортеры" revision="0" />
   <Message key="UnsupportedProcessingsTitle" value="Внимание" revision="0" />
   <Message key="UnsupportedProcessings" value="Следующие обработчики\n{processings}\nне поддерживают мониторинг нескольких устройств и будут удалены." revision="0" />
   <Message key="NoProcessings" value="Для данного устройства не найдены обработчики. Пожалуйста, переустановите приложение." revision="0" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Продолжить воспроизведение (Воспроизведение)" revision="0" />
-  <Message key="CreateReaderError" value="Невозможно создать читателя лога {filename}" revision="0" />
+  <Message key="CreateReaderError" value="Невозможно создать cчитыватель лога {filename}" revision="0" />
   <Message key="PlaybackInitError" value="Инициализация воспроизведения не удалась {filename}" revision="0" />
   <Message key="FileOpenError" value="Ошибка открытия {filename}. Файл отсутствует или поврежден." revision="1" />
   <Message key="StreamOpenError" value="Не удалось открыть поток {stream} из {filename}" revision="0" />
@@ -39,14 +39,14 @@
     <Item value="Источник &quot;Импорт данных&quot; считывает данные в сторонних форматах, экспортированные из других продуктов, и воспроизводит их. " revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">
-    <Item value="*.pcap" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Файлы захвата Wireshark" revision="0" />
-    <Item value=".pcap" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="NetmonDesc">
-    <Item value="*.cap" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Файлы захвата Microsoft Netmon" revision="0" />
-    <Item value=".cap" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="MonitoredNotify">
     <Item value="На виртуальном адаптере все еще работает как минимум одна сессия. Хотите ли вы остановить сессию виртуального адаптера и продолжить работу?" revision="0" />
@@ -58,15 +58,15 @@
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
     <Item value="Пошаговый" revision="0" />
-    <Item value="1:16" revision="0" />
-    <Item value="1:8" revision="0" />
-    <Item value="1:4" revision="0" />
-    <Item value="1:2" revision="0" />
-    <Item value="1:1" revision="0" />
-    <Item value="2:1" revision="0" />
-    <Item value="4:1" revision="0" />
-    <Item value="8:1" revision="0" />
-    <Item value="16:1" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Непрерывный" revision="0" />
   </Enumeration>
   <Enumeration key="DeletePlayback">
