@@ -1,34 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PortOpenError" value="Gerät kann nicht geöffnet werden &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommStateError" value="Gerät kann nicht konfiguriert werden &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommTimeouts" value="Geräte-Timeouts können nicht konfiguriert werden &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="Bridge Config" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Baud, {mode}" revision="0" />
+  <Message key="Device not found" value="Gerät {name} wird nicht gefunden" revision="0" />
+  <Message key="Invalid flow control" value="Ungültiges Flusskontrollobjekt" revision="0" />
+  <Message key="Same device" value="Für beide Brückenseiten wurde das gleiche Gerät spezifiziert" revision="0" />
+  <Message key="Bridge deleted" value="Die Brücke wurde aus der Benutzeroberfläche gelöscht" revision="0" />
+  <Message key="Wrong device" value="Brückenobjekt verweist auf falsches Gerät" revision="0" />
+  <Message key="Bridge Page" value="Serielle Brücke" revision="0" />
+  <Message key="Timeout settings:" value="Timeout-Einstellungen:" revision="0" />
+  <Message key="(See documentation on-line)" value="(Siehe Dokumentation online)" revision="0" />
+  <Message key="Read interval timeout:" value="Zeitüberschreitung beim Lesen:" revision="0" />
+  <Message key="Read multiplier timeout:" value="Multiplikator-Timeout lesen:" revision="0" />
+  <Message key="Read constant timeout:" value="Konstante Zeitüberschreitung lesen:" revision="0" />
+  <Message key="Buffer size:" value="Puffergröße:" revision="0" />
+  <Message key="IDS_NOSERIALDEVICES" value="Nicht genügend serielle Geräte gefunden. Sie benötigen mindestens zwei verschiedene serielle Geräte, um eine Brücke zu erstellen." revision="0" />
+  <Message key="IDS_BRIDGEERROR" value="Fehler bei der Erstellung einer Brücke" revision="0" />
+  <Message key="IDS_BRIDGEALREADYEXISTS" value="Eine Brücke mit diesem Namen existiert bereits. Geben Sie einen anderen Namen an." revision="0" />
+  <Message key="IDS_CATEGORYFILTER" value="Serielle Brücke" revision="0" />
+  <Message key="Enter Bridge Name" value="Brückenname eingeben" revision="0" />
+  <Message key="Enter new bridge name:" value="Geben Sie den neuen Brückennamen ein:" revision="0" />
+  <Message key="Create New Bridge" value="Neue Brücke erstellen" revision="0" />
+  <Message key="Device A:" value="Gerät A:" revision="0" />
+  <Message key="Device B:" value="Gerät B:" revision="0" />
+  <Message key="Same port settings" value="Gleiche Anschlusseinstellungen" revision="0" />
+  <Message key="Session Type" value="Sitzungstyp" revision="0" />
+  <Message key="Select the serial bridge monitoring session type:" value="Wählen Sie den Sitzungstyp für die Überwachung der seriellen Brücke aus:" revision="0" />
+  <Message key="Press the following button to change bridge parameters for this session only:" value="Drücken Sie die folgende Schaltfläche, um die Brückenparameter nur für diese Sitzung zu ändern:" revision="0" />
+  <Message key="Generic" value="Generische" revision="0" />
+  <Message key="PPP (Point-to-Point Protocol)" value="PPP (Punkt-zu-Punkt-Protokoll)" revision="0" />
+  <Message key="One packet a line (separated by 0D - AT commands, NMEA, etc.)" value="Ein Paket pro Linie (getrennt durch 0D - AT-Befehle, NMEA, usw.)" revision="0" />
+  <Message key="MODBUS (RTU mode)" value="MODBUS (RTU-Modus)" revision="0" />
+  <Message key="MODBUS (ASCII mode)" value="MODBUS (ASCII-Modus)" revision="0" />
+  <Message key="Change Bridge Parameters" value="Brückenparameter &amp;ändern…" revision="0" />
   <Enumeration key="BridgeNewBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Neue Brücke erstellen…" revision="0" />
+    <Item value="Neue serielle Brücke erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDelete">
-    <Item />
-    <Item />
+    <Item value="Brücke &amp;löschen" revision="0" />
+    <Item value="Die aktuell ausgewählte Brücke löschen" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDeleteAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle Brücken löschen" revision="0" />
+    <Item value="Alle konfigurierten Brücken löschen" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeEdit">
-    <Item />
-    <Item />
+    <Item value="Brücke &amp;bearbeiten…" revision="0" />
+    <Item value="Parameter der seriellen Brücke ändern" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeSource">
-    <Item />
-    <Item />
+    <Item value="Serielle Brücke" revision="0" />
+    <Item value="Serielle Brücke ermöglicht die Überwachung der Kommunikation zwischen zwei seriellen Geräten, die an Ihren Computer angeschlossen sind. Die Überwachung erfolgt über eine virtuelle Brücke, die zwischen ausgewählten seriellen Schnittstellen erstellt wird." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="generisch" revision="0" />
+    <Item value="PPP" revision="0" />
+    <Item value="Linie (Paket endet mit neuer Linie)" revision="0" />
+    <Item value="MODBUS RTU-Modus" revision="0" />
+    <Item value="MODBUS ASCII-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="MenuBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Brücke" revision="0" />
+    <Item value="Menü &quot;Brücke" revision="0" />
   </Enumeration>
 </Language>
