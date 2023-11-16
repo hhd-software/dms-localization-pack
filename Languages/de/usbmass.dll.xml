@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="operate independantly" value="Jede Schnittstelle innerhalb der Konfiguration spezifiziert ihre eigenen Klasseninformationen und verschiedene Schnittstellen arbeiten unabhängig voneinander" revision="0" />
+  <Message key="Device supports different class specifications" value="Das Gerät unterstützt verschiedene Klassenspezifikationen auf verschiedenen Schnittstellen und die Schnittstellen arbeiten möglicherweise nicht unabhängig voneinander." revision="0" />
+  <Message key="Device Class" value="Geräteklasse" revision="0" />
+  <Message key="This command is not defined." value="WARNUNG: Dieser Befehl ist im aktuellen Befehlssatz nicht definiert. " revision="0" />
+  <Message key="WARNING" value="WARNUNG" revision="0" />
+  <Message key="Mass Storage Device Detected." value="Massenspeichergerät erkannt." revision="0" />
+  <Message key="unsupported device type" value="WARNUNG: Nicht unterstützter Gerätetyp. Versucht zu parsen." revision="0" />
+  <Message key="Device Detected." value="Gerät erkannt." revision="0" />
   <Enumeration key="MassConverter">
-    <Item />
-    <Item />
+    <Item value="Ansicht Massenspeicher" revision="0" />
+    <Item value="Der Datenvisualisierer Mass Storage Ansicht dekodiert das USB-Massenspeicherprotokoll für Geräte, die zur Klasse Massenspeicher gehören" revision="0" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />
