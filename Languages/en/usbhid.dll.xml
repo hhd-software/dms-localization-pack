@@ -6,7 +6,7 @@
 		<Item text="HID View data visualizer decodes HID-specific packets and data structures and displays them in the comfortable way. Ideal for devices belonging to Human Interface Device class."/>
 	</Enumeration>
 
-	<Message key="HidSessionError" description="HID device open error" value="The session start failured due to the following error: &quot;{error}&quot;">
+	<Message key="HidSessionError" description="HID device open error" value="The session start failed due to the following error: &quot;{error}&quot;">
 		<Param name="error"/>
 	</Message>
 

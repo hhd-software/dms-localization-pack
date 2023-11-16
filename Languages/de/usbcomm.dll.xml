@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="USB Communication Device Detected." value="USB-Kommunikationsgerät erkannt." revision="0" />
+  <Message key="DataNbytes" value="Daten ({size} bytes)" revision="0" />
   <Enumeration key="CommConverter">
-    <Item />
-    <Item />
+    <Item value="Kommunikation Ansicht" revision="0" />
+    <Item value="Der Datenvisualisierer der Kommunikationsansicht dekodiert Pakete und Deskriptoren der USB-Kommunikationsklasse." revision="0" />
   </Enumeration>
   <Enumeration key="CommRequestsCat">
     <Item />
@@ -257,9 +259,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbCommColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Text" revision="0" />
+    <Item value="Binäre Daten" revision="0" />
+    <Item value="Kopfzeile 2" revision="0" />
   </Enumeration>
 </Language>

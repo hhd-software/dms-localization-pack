@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="subclass_vc" value="Anfragen als Video Control (VC) Anfragen behandeln. Andernfalls - als Video-Streaming (VS)-Anfragen behandeln." revision="0" />
-  <Message key="USB Video Visualizer" value="USB Video Visualisierungsgerät" revision="0" />
+  <Message key="USB Video Visualizer" value="USB Video Visualisierer" revision="0" />
   <Message key="Video View" value="Video Ansicht" revision="0" />
   <Enumeration key="VideoConverter">
     <Item value="Video Ansicht (Legacy)" revision="0" />
