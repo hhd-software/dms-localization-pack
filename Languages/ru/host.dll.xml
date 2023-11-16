@@ -104,8 +104,8 @@
   <Message key="Data Recording Properties" value="Свойства записи данных" revision="0" />
   <Message key="Overwrite" value="Перезаписывать" revision="0" />
   <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
-  <Message key="Enforce size limit:" value="Ввести ограничение на размер:" revision="0" />
-  <Message key="Enforce time limit:" value="Ввести ограничение по времени:" revision="0" />
+  <Message key="Enforce size limit:" value="Ограничение на размер:" revision="0" />
+  <Message key="Enforce time limit:" value="Ограничение по времени:" revision="0" />
   <Message key="Single file" value="Единый файл" revision="0" />
   <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
   <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />

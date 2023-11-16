@@ -80,7 +80,7 @@
 
   <Enumeration key="MultiSource" description="MultiSource">
     <Item text="Multi-source Monitoring"/>
-    <Item text="Multi-source monitoring allows you to simultanously monitor several devices of the same type."/>
+    <Item text="Multi-source monitoring allows you to simultaneously monitor several devices of the same type."/>
   </Enumeration>
 
   <Message key="DeviceConfig" description="Device configuration string" value="Configuration: &lt;a&gt;{config}&lt;/a&gt;">

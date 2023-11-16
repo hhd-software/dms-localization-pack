@@ -101,29 +101,40 @@
   <Message key="clr.device_colors.color14" value="Gerät 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Gerät 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Gerät 16" revision="0" />
+  <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="0" />
+  <Message key="Overwrite" value="Überschreiben" revision="0" />
+  <Message key="No limits enforced" value="Keine Grenzen" revision="0" />
+  <Message key="Enforce size limit:" value="Größenbeschränkung:" revision="0" />
+  <Message key="Enforce time limit:" value="Zeitlimit:" revision="0" />
+  <Message key="Single file" value="Einzelne Datei" revision="0" />
+  <Message key="Multiple files. Maximum:" value="Mehrere Dateien. Maximal:" revision="0" />
+  <Message key="Specify location of log file:" value="Speicherort der Protokolldatei angeben:" revision="0" />
+  <Message key="Unlimited" value="Unbegrenzt" revision="0" />
+  <Message key="Collapse session" value="Klicken Sie hier, um die Sitzungsinformationen auszublenden" revision="0" />
+  <Message key="Expand session" value="Klicken Sie hier, um die Informationen zur Sitzung zu erweitern" revision="0" />
   <Enumeration key="VisualizerNaming">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizer-Benennungsmuster" revision="0" />
+    <Item value="[Gerätename] - [Visualizer-Name]" revision="0" />
+    <Item value="[Visualizer-Name] - [Gerätename]" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchNetwork">
-    <Item />
-    <Item />
+    <Item value="&amp;Netzwerk" revision="0" />
+    <Item value="Device Monitoring Studio in den Netzwerküberwachungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchSerial">
-    <Item />
-    <Item />
+    <Item value="&amp;Serielle" revision="0" />
+    <Item value="Device Monitoring Studio in den seriellen Überwachungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchUSB">
-    <Item />
-    <Item />
+    <Item value="&amp;USB" revision="0" />
+    <Item value="Device Monitoring Studio in den USB-Überwachungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle" revision="0" />
+    <Item value="Device Monitoring Studio in den Kombi-Überwachungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="MultiSource">
-    <Item />
+    <Item value="Multi-Source-Überwachung" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="&amp;Edit">
