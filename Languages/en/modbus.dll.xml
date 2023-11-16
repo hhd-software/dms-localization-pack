@@ -12,7 +12,7 @@
 
 	<Message key="send_notification" description="Option: Fast data entering (MODBUS Send window)" value="Fast data entering (MODBUS Send window)"/>
 
-	<Message key="MODBUS" description="Settings group: send_notification"/>
+	<Message optional="true" key="MODBUS" description="Settings group: send_notification"/>
 
 	<Enumeration key="MODBUSConverter" description="MODBUS Converter">
 		<Item text="MODBUS View (legacy)"/>

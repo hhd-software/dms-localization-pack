@@ -8,7 +8,6 @@
   <Message key="parse_as_hex" value="Разбор в шестнадцатеричном виде" revision="0" />
   <Message key="incremental_join" value="Расширенный соединитель пакетов" revision="0" />
   <Message key="send_notification" value="Быстрый ввод данных (окно отправки MODBUS)" revision="0" />
-  <Message key="MODBUS" value="MODBUS" revision="0" />
   <Message key="Array expected" value="Ожидается массив" revision="0" />
   <Message key="New TCP Session" value="Сессия TCP" revision="0" />
   <Message key="New Serial Session" value="Сессия Serial" revision="0" />
@@ -96,8 +95,8 @@
   <Message key="ModbusRequestHeader" value="Пакет {n}: MODBUS-запрос (размер пакета: {packet size}, объем данных {data size}), {time}\n" revision="0" />
   <Message key="ModbusResponseHeader" value="Пакет {n}: MODBUS-ответ (размер пакета: {packet size}, объем данных {data size}), {time}\n" revision="0" />
   <Message key="Number of Outputs" value="Количество выходов" revision="0" />
-  <Message key="File Number" value="Номер" revision="0" />
-  <Message key="Record Number" value="Номер" revision="0" />
+  <Message key="File Number" value="Номер файла" revision="0" />
+  <Message key="Record Number" value="Номер записи" revision="0" />
   <Message key="RequestN" value="Запрос {n}" revision="0" />
   <Message key="OK - Return Query Data" value="OK - Возврат данных запроса" revision="0" />
   <Message key="Response Data Length" value="Длина данных ответа" revision="0" />
