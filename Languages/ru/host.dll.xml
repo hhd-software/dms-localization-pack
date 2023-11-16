@@ -234,7 +234,7 @@
     <Item value="Убрать обработчик данных из списка" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustom">
-    <Item value="Configure Data Processing…" revision="0" />
+    <Item value="Настроить обработчик данных…" revision="0" />
     <Item value="Настроить обработчик данных" revision="0" />
   </Enumeration>
   <Enumeration key="SaveCustom">

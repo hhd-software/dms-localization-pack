@@ -135,143 +135,143 @@
   </Enumeration>
   <Enumeration key="MultiSource">
     <Item value="Multi-Source-Überwachung" revision="0" />
-    <Item />
+    <Item value="Mit der Multi-Source-Überwachung können Sie mehrere Geräte desselben Typs gleichzeitig überwachen." revision="0" />
   </Enumeration>
   <Enumeration key="&amp;Edit">
-    <Item />
-    <Item />
+    <Item value="&amp;Bearbeiten" revision="0" />
+    <Item value="Bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsConfigure">
-    <Item />
-    <Item />
+    <Item value="Sitzung &amp;konfigurieren…" revision="0" />
+    <Item value="Aktuelle Sitzungsparameter ändern" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsResume">
-    <Item />
-    <Item />
+    <Item value="Sitzung &amp;fortsetzen" revision="0" />
+    <Item value="Aktuelle Sitzung fortsetzen" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsPause">
-    <Item />
-    <Item />
+    <Item value="Sitzung &amp;unterbrechen" revision="0" />
+    <Item value="Aktuelle Sitzung unterbrechen" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsStop">
-    <Item />
-    <Item />
+    <Item value="Sitzung &amp;beenden" revision="0" />
+    <Item value="Aktuelle Sitzung beenden" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Visualizer schließen" revision="0" />
+    <Item value="Ausgewählten Visualizer schließen" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsColumns">
-    <Item />
-    <Item />
+    <Item value="Auto-Size-Spalten" revision="1" />
+    <Item value="Automatische Größenänderung der Fensterspalten, damit der gesamte Text sichtbar ist" revision="1" />
   </Enumeration>
   <Enumeration key="SessionsExpand">
-    <Item />
-    <Item />
+    <Item value="&amp;Element aufklappen" revision="0" />
+    <Item value="Element in einer Liste aufklappen" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsCollapse">
-    <Item />
-    <Item />
+    <Item value="Element zuk&amp;lappen" revision="0" />
+    <Item value="Element in einer Liste zuklappen" revision="0" />
   </Enumeration>
   <Enumeration key="StartMonitoring">
-    <Item />
-    <Item />
+    <Item value="Überwachung &amp;starten…" revision="0" />
+    <Item value="Neue Überwachungssitzung erstellen" revision="0" />
   </Enumeration>
   <Enumeration key="PauseMonitoring">
-    <Item />
-    <Item />
+    <Item value="Sitzung unter&amp;brechen" revision="0" />
+    <Item value="Diese Überwachungssitzung unterbrechen" revision="0" />
   </Enumeration>
   <Enumeration key="ConfigureDeviceSession">
-    <Item />
-    <Item />
+    <Item value="Sitzung &amp;konfigurieren…" revision="0" />
+    <Item value="Aktuelle Sitzungsparameter ändern" revision="0" />
   </Enumeration>
   <Enumeration key="ResumeMonitoring">
-    <Item />
-    <Item />
+    <Item value="Überwachungssitzung fort&amp;setzen" revision="0" />
+    <Item value="Diese Überwachungssitzung fortsetzen" revision="0" />
   </Enumeration>
   <Enumeration key="StopMonitoring">
-    <Item />
-    <Item />
+    <Item value="Überwachung be&amp;enden" revision="0" />
+    <Item value="Diese Überwachungssitzung beenden" revision="0" />
   </Enumeration>
   <Enumeration key="RestartDevice">
-    <Item />
-    <Item />
+    <Item value="Neustart &amp;Gerät" revision="0" />
+    <Item value="Ausgewähltes Gerät neu starten" revision="0" />
   </Enumeration>
   <Enumeration key="DeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Eigenschaften…" revision="0" />
+    <Item value="Geräteeigenschaften anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="RenameDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Umbenennen…" revision="0" />
+    <Item value="Festlegen eines benutzerdefinierten Namens für ein Gerät" revision="0" />
   </Enumeration>
   <Enumeration key="ScanForHardwareChanges">
-    <Item />
-    <Item />
+    <Item value="Nach Hardwareänderungen suchen" revision="0" />
+    <Item value="Nach Hardwareänderungen suchen und Gerätebaum aktualisieren" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle" revision="0" />
+    <Item value="Alle Kategorien anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Keine" revision="0" />
+    <Item value="Alle Kategorien ausblenden" revision="0" />
   </Enumeration>
   <Enumeration key="AddConverter">
-    <Item />
-    <Item />
+    <Item value="Zur Sitzung hinzufügen" revision="0" />
+    <Item value="Hinzufügen der ausgewählten Datenverarbeitung(en) zur Sitzung" revision="0" />
   </Enumeration>
   <Enumeration key="AddToFavorites">
-    <Item />
-    <Item />
+    <Item value="Zu Favoriten hinzufügen" revision="0" />
+    <Item value="Ausgewählte Datenverarbeitung(en) zur Favoritenliste hinzufügen" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveConverter">
-    <Item />
-    <Item />
+    <Item value="Aus der Sitzung entfernen" revision="0" />
+    <Item value="Ausgewählte Datenverarbeitung aus der Sitzung entfernen" revision="0" />
   </Enumeration>
   <Enumeration key="DeleteCustom">
-    <Item />
-    <Item />
+    <Item value="Entfernen" revision="0" />
+    <Item value="Datenverarbeitung aus der Liste entfernen" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustom">
-    <Item />
-    <Item />
+    <Item value="Datenverarbeitung konfigurieren…" revision="0" />
+    <Item value="Konfigurieren Sie die ausgewählte Datenverarbeitung" revision="0" />
   </Enumeration>
   <Enumeration key="SaveCustom">
-    <Item />
-    <Item />
+    <Item value="Datenverarbeitung speichern…" revision="0" />
+    <Item value="Ausgewählte Datenverarbeitungskonfiguration speichern" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilters">
-    <Item />
-    <Item />
+    <Item value="Kategorien anzeigen oder ausblenden" revision="0" />
+    <Item value="Wählen Sie, welche Gerätekategorien angezeigt werden sollen" revision="0" />
   </Enumeration>
   <Enumeration key="CategorySubfilters">
-    <Item />
-    <Item />
+    <Item value="Unterkategorien" revision="0" />
+    <Item value="Wählen Sie aus, welche Geräteunterkategorien angezeigt werden sollen" revision="0" />
   </Enumeration>
   <Enumeration key="MenuSessions">
-    <Item />
-    <Item />
+    <Item value="Sitzungen" revision="0" />
+    <Item value="Listet aktuell laufende Sitzungen auf" revision="0" />
   </Enumeration>
   <Enumeration key="DataProcessingGroups">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Favoriten" revision="2" />
+    <Item value="Visualisierungen" revision="2" />
+    <Item value="Exporteure" revision="2" />
+    <Item value="Benutzerdefiniert" revision="2" />
+    <Item value="Legacy" revision="2" />
   </Enumeration>
   <Enumeration key="SessionWindowColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Quelle" revision="0" />
+    <Item value="Typ" revision="0" />
+    <Item value="Gerät" revision="0" />
+    <Item value="Verarbeitung" revision="0" />
+    <Item value="Start" revision="0" />
+    <Item value="Länge" revision="0" />
+    <Item value="Staat" revision="0" />
   </Enumeration>
   <Enumeration key="SessionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gestoppt" revision="0" />
+    <Item value="Laufen" revision="0" />
+    <Item value="Unterbrochen" revision="0" />
   </Enumeration>
 </Language>
