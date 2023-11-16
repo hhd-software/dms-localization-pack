@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="subclass_vc" value="Anfragen als Video Control (VC) Anfragen behandeln. Andernfalls - als Video-Streaming (VS)-Anfragen behandeln." revision="0" />
+  <Message key="USB Video Visualizer" value="USB Video Visualisierungsgerät" revision="0" />
+  <Message key="Video View" value="Video Ansicht" revision="0" />
   <Enumeration key="VideoConverter">
-    <Item />
-    <Item />
+    <Item value="Video Ansicht (Legacy)" revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.1) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoSubclasses">
     <Item />
@@ -242,14 +245,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbVideoColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Text" revision="0" />
+    <Item value="Binäre Daten" revision="0" />
+    <Item value="Kopfzeile 2" revision="0" />
+    <Item value="Kopfzeile 3" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
-    <Item />
-    <Item />
+    <Item value="Video Ansicht" revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.1) konforme Geräte." revision="0" />
   </Enumeration>
 </Language>
