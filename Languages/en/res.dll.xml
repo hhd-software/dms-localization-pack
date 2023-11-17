@@ -127,7 +127,7 @@
 
 	<Enumeration key="RemoteSource" description="Remote source information">
 		<Item text="Remote Monitor"/>
-		<Item text="Remote Connection description here: TODO"/>
+		<Item text="Allows monitoring of remote devices"/>
 	</Enumeration>
 
 	<Enumeration key="LicenseColumns" description="License window columns">

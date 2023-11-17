@@ -86,7 +86,7 @@
   </Enumeration>
   <Enumeration key="PlayerSource">
     <Item value="Log-Wiedergabe" revision="0" />
-    <Item />
+    <Item value="Mit dem Modul Log Playback können Sie die zuvor aufgezeichneten Überwachungssitzungen wiedergeben." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteSource">
     <Item />
