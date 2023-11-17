@@ -51,6 +51,7 @@
   <Message key="Save to File" value="&amp;In Datei speichern…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Wir bieten auch eine ActiveX-Bibliothek für die Überwachung der seriellen Schnittstelle an, mit der Sie die Überwachung in Ihre Anwendungen integrieren können." revision="0" />
   <Message key="No terminal" value="Kein Terminal" revision="0" />
+  <Message key="terminal session creation failure" value="Aufgrund des folgenden Fehlers konnte das Abhören eines seriellen Geräts nicht gestartet werden: {text} ({code}){access-denied?}\n\nDieser Fehler bedeutet höchstwahrscheinlich, dass die serielle Schnittstelle bereits von einer anderen Anwendung geöffnet ist. Sie können diesen Fehler getrost ignorieren und mit der Überwachung eines Anschlusses fortfahren.\n\nWenn Sie immer ein geöffnetes serielles Gerät überwachen, stellen Sie sicher, dass die Option &quot;Hören Sie auf eingehende Daten...&quot; im Sitzungskonfigurationsfenster ausgeschaltet ist.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Benutzerdefinierte Flusssteuerung" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
@@ -131,24 +132,24 @@
     <Item value="Space" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item />
-    <Item />
+    <Item value="Serieller Monitor" revision="0" />
+    <Item value="Mit der seriellen Datenquelle können Sie die Daten überwachen, die zwischen den seriellen Geräten und den Anwendungen, die sie verwenden, ausgetauscht werden." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="generisch" revision="2" />
+    <Item value="PPP" revision="2" />
+    <Item value="Linie (Paket endet mit neuer Linie)" revision="2" />
+    <Item value="MODBUS RTU-Modus" revision="2" />
+    <Item value="MODBUS-ASCII-Modus" revision="2" />
+    <Item value="Benutzerdefiniert" revision="2" />
   </Enumeration>
   <Enumeration key="Communication modes. Full description">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Generisch" revision="0" />
+    <Item value="PPP (Punkt-zu-Punkt-Protokoll)" revision="0" />
+    <Item value="Ein Paket pro Linie (getrennt durch 0D - AT-Befehle, NMEA, usw.)" revision="0" />
+    <Item value="MODBUS RTU-Modus" revision="0" />
+    <Item value="MODBUS-ASCII-Modus" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
     <Item value="Typfehler: Ungültiges Argument" revision="0" />
@@ -168,17 +169,17 @@
     <Item />
   </Enumeration>
   <Enumeration key="flow-control">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Keine" revision="0" />
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item />
-    <Item />
+    <Item value="Versteckt" revision="0" />
+    <Item value="Sichtbar" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
-    <Item />
-    <Item />
+    <Item value="Anschließen des seriellen Geräts" revision="0" />
+    <Item value="Die Anwendung wartet darauf, dass Sie ein PnP-kompatibles serielles Gerät an Ihren Computer anschließen." revision="0" />
   </Enumeration>
 </Language>
