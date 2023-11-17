@@ -30,10 +30,6 @@
 		</Item>
 	</Enumeration>
 	<Message key="Connecting to remote host" description="Connecting to remote host op" value="Connecting to Remote Host"/>
-	<Enumeration key="NewModbusConverter" description="New MODBUS View converter">
-		<Item text="MODBUS View"/>
-		<Item text="MODBUS View decodes and displays MODBUS protocol packets."/>
-	</Enumeration>
 
 	<Enumeration optional="true" key="ModbusFunction" description="MODBUS Functions">
 		<Item text="Read Coil Status"/>

@@ -46,5 +46,332 @@
 		<Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols."/>
 	</Enumeration>
 
+	<!-- New Request View (based on Custom View) localization -->
+	<Enumeration key="RequestViewSchemes" description="Request View visualizer schemes (coloring and fonts)">
+		<Item text="Empty space"/>
+		<Item text="Text"/>
+		<Item text="Header"/>
+		<Item text="I/O Control Text"/>
+		<Item text="I/O Control Header"/>
+		<Item text="Write Text"/>
+		<Item text="Write Header"/>
+		<Item text="Write Dump"/>
+		<Item text="Read Text"/>
+		<Item text="Read Header"/>
+		<Item text="Read Dump"/>
+		<Item text="Field Name"/>
+		<Item text="Field Value"/>
+		<Item text="Error"/>
+	</Enumeration>
+
+	<Enumeration key="RequestViewOptions" description="Request View visualizer options">
+		<Item text="Display empty reads"/>
+		<Item text="Display I/O requests without data"/>
+		<Item text="Display I/O requests"/>
+		<Item text="Display connect and create requests"/>
+		<Item text="Display down reads"/>
+		<Item text="Display up writes"/>
+		<Item text="Display line numbers"/>
+	</Enumeration>
+
+	<Message key="Errors" description="Serial Request View: SERIAL_STATUS: Errors"/>
+	<Message key="Hold reasons" description="Serial Request View: SERIAL_STATUS: Hold reasons"/>
+	<Message key="In queue" description="Serial Request View: SERIAL_STATUS: In queue"/>
+	<Message key="Out queue" description="Serial Request View: SERIAL_STATUS: Out queue"/>
+	<Message key="EOF received" description="Serial Request View: SERIAL_STATUS: EOF received"/>
+	<Message key="Wait for immediate" description="Serial Request View: SERIAL_STATUS: Wait for immediate"/>
+
+	<Message key="Control lines" description="Serial Request View: HANDFLOW: Control lines" />
+	<Message key="Flow control" description="Serial Request View: HANDFLOW: Flow control" />
+	<Message key="Xon Limit" description="Serial Request View: HANDFLOW: Xon Limit" />
+	<Message key="Xoff Limit" description="Serial Request View: HANDFLOW: Xoff Limit" />
+
+	<!--SERIAL_LINE_CONTROL-->
+
+	<Message key="Stop bits" description="Serial Request View: SERIAL_LINE_CONTROL: Stop bits" />
+	<Message key="Parity" description="Serial Request View: SERIAL_LINE_CONTROL: Parity" />
+	<Message key="Data bits" description="Serial Request View: SERIAL_LINE_CONTROL: Data bits" />
+
+	<!--COMMPROP-->
+
+	<Message key="Max Tx Queue" description="Serial Request View: COMMPROP: Max Tx Queue" />
+	<Message key="Max Rx Queue" description="Serial Request View: COMMPROP: Max Rx Queue" />
+	<Message key="Provider type" description="Serial Request View: COMMPROP: Provider type" />
+	<Message key="Max baud" description="Serial Request View: COMMPROP: Max baud" />
+	<Message key="Supported baud rates" description="Serial Request View: COMMPROP: Supported baud rates" />
+	<Message key="Supported parameters" description="Serial Request View: COMMPROP: Supported parameters" />
+	<Message key="Supported data" description="Serial Request View: COMMPROP: Supported data" />
+	<Message key="Supported stop bits and parity" description="Serial Request View: COMMPROP: Supported stop bits and parity" />
+	<Message key="Current Tx queue" description="Serial Request View: COMMPROP: Current Tx queue" />
+	<Message key="Current Rx queue" description="Serial Request View: COMMPROP: Current Rx queue" />
+
+	<!--SERIAL_TIMEOUTS-->
+
+	<Message key="Read interval" description="Serial Request View: SERIAL_TIMEOUTS: Read interval" />
+	<Message key="Read total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Read total multiplier" />
+	<Message key="Read total constant" description="Serial Request View: SERIAL_TIMEOUTS: Read total constant" />
+	<Message key="Write total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Write total multiplier" />
+	<Message key="Write total constant" description="Serial Request View: SERIAL_TIMEOUTS: Write total constant" />
+
+
+	<!--SERIALPERF_STATS-->
+
+	<Message key="Received bytes" description="Serial Request View: SERIALPERF_STATS: Received bytes" />
+	<Message key="Transmitted bytes" description="Serial Request View: SERIALPERF_STATS: Transmitted bytes" />
+	<Message key="Frame errors" description="Serial Request View: SERIALPERF_STATS: Frame errors" />
+	<Message key="Serial Overrun errors" description="Serial Request View: SERIALPERF_STATS: Serial Overrun errors" />
+	<Message key="Buffer Overrun errors" description="Serial Request View: SERIALPERF_STATS: Buffer Overrun errors" />
+	<Message key="Parity errors" description="Serial Request View: SERIALPERF_STATS: Parity errors" />
+
+
+	<!--SET_QUEUE_SIZE-->
+
+	<Message key="Input queue size" description="Serial Request View: SET_QUEUE_SIZE: Input queue size" />
+	<Message key="Output queue size" description="Serial Request View: SET_QUEUE_SIZE: Output queue size" />
+
+	<Message key="Escape character" description="Serial Request View: Escape character" />
+	<Message key="Wait Mask" description="Serial Request View: Wait Mask" />
+	<Message key="Baud Rate" description="Serial Request View: Baud Rate" />
+	<Message key="Character" description="Serial Request View: Character" />
+	<Message key="Mask" description="Serial Request View: Mask" />
+
+	<!-- New USB Video View (based on Custom View) localization -->
+
+	<Enumeration key="USBVideoView" description="USB Video View visualizer (beta)">
+		<Item text="Video View (Beta)"/>
+		<Item text="Video View data visualizer parses packets for USB Video (version 1.5) compliant device."/>
+	</Enumeration>
+
+	<Enumeration key="USBVideoViewSchemes" description="USB Video View visualizer schemes (coloring and fonts)">
+		<Item text="Default"/>
+		<Item text="Header"/>
+		<Item text="Option"/>
+		<Item text="Value"/>
+		<Item text="Header Read"/>
+		<Item text="Header Write"/>
+	</Enumeration>
+
+	<Message key="Hint(bitmap)" description="USB Video View visualizer: Hint(bitmap)" />
+	<Message key="Format Index" description="USB Video View visualizer: Format Index" />
+	<Message key="Frame Index" description="USB Video View visualizer: Frame Index" />
+	<Message key="Frame Interval(in 100 ns)" description="USB Video View visualizer: Frame Interval(in 100 ns)" />
+	<Message key="Key Frame Rate" description="USB Video View visualizer: Key Frame Rate" />
+	<Message key="P Frame Rate" description="USB Video View visualizer: P Frame Rate" />
+	<Message key="Compression Quality" description="USB Video View visualizer: Compression Quality" />
+	<Message key="Compression Window Size" description="USB Video View visualizer: Compression Window Size" />
+	<Message key="Delay" description="USB Video View visualizer: Delay" />
+	<Message key="Max Video Frame Size" description="USB Video View visualizer: Max Video Frame Size" />
+	<Message key="Max Payload Transfer Size" description="USB Video View visualizer: Max Payload Transfer Size" />
+	<Message key="Subtype" description="USB Video View visualizer: Subtype"/>
+	<Message key="Interface" description="USB Video View visualizer: Interface"/>
+	<Message key="Unit ID" description="USB Video View visualizer: Unit ID"/>
+	<Message key="Name" description="USB Video View visualizer: Name"/>
+	<Message key="DevicePowerMode" description="USB Video View visualizer: DevicePowerMode"/>
+	<Message key="PowerMode" description="USB Video View visualizer: PowerMode"/>
+	<Message key="DeviceDependentMode" description="USB Video View visualizer: DeviceDependentMode"/>
+	<Message key="SuppliedByUsb" description="USB Video View visualizer: SuppliedByUsb"/>
+	<Message key="SuppliedByBattery" description="USB Video View visualizer: SuppliedByBattery"/>
+	<Message key="SuppliedByAc" description="USB Video View visualizer: SuppliedByAc"/>
+	<Message key="RequestErrorCode" description="USB Video View visualizer: RequestErrorCode"/>
+	<Message key="ScanningModeName" description="USB Video View visualizer: ScanningModeName"/>
+	<Message key="Manual Mode" description="USB Video View visualizer: Manual Mode"/>
+	<Message key="Auto Mode" description="USB Video View visualizer: Auto Mode"/>
+	<Message key="Shutter Priority Mode" description="USB Video View visualizer: Shutter Priority Mode"/>
+	<Message key="Aperture Priority Mode" description="USB Video View visualizer: Aperture Priority Mode"/>
+	<Message key="Reserved" description="USB Video View visualizer: Reserved"/>
+	<Message key="Auto Exposure Priority" description="USB Video View visualizer: Auto Exposure Priority"/>
+	<Message key="Exposure Time Absolute Value" description="USB Video View visualizer: Exposure Time Absolute Value"/>
+	<Message key="Exposure Time Relative" description="USB Video View visualizer: Exposure Time Relative"/>
+	<Message key="Focus Absolute Value" description="USB Video View visualizer: Focus Absolute Value"/>
+	<Message key="Focus Relative Value" description="USB Video View visualizer: Focus Relative Value" />
+	<Message key="Focus Auto" description="USB Video View visualizer: Focus Auto" />
+	<Message key="Iris Absolute Value" description="USB Video View visualizer: Iris Absolute Value" />
+	<Message key="Iris Relative Value" description="USB Video View visualizer: Iris Relative Value" />
+	<Message key="Objective Focal Length" description="USB Video View visualizer: Objective Focal Length" />
+	<Message key="Zoom" description="USB Video View visualizer: Zoom" />
+	<Message key="Digital Zoom" description="USB Video View visualizer: Digital Zoom" />
+	<Message key="Speed" description="USB Video View visualizer: Speed" />
+	<Message key="Pan Absolute" description="USB Video View visualizer: Pan Absolute" />
+	<Message key="Tilt Absolute" description="USB Video View visualizer: Tilt Absolute" />
+	<Message key="Pan Relative" description="USB Video View visualizer: Pan Relative" />
+	<Message key="Tilt Relative" description="USB Video View visualizer: Tilt Relative" />
+	<Message key="Tilt Speed" description="USB Video View visualizer: Tilt Speed" />
+	<Message key="Roll Absolute" description="USB Video View visualizer: Roll Absolute" />
+	<Message key="Roll Relative" description="USB Video View visualizer: Roll Relative" />
+	<Message key="Privacy Control" description="USB Video View visualizer: Privacy Control" />
+	<Message key="Focus" description="USB Video View visualizer: Focus" />
+	<Message key="Window Top" description="USB Video View visualizer: Window Top" />
+	<Message key="Window Left" description="USB Video View visualizer: Window Left" />
+	<Message key="Window Bottom" description="USB Video View visualizer: Window Bottom" />
+	<Message key="Window Right" description="USB Video View visualizer: Window Right" />
+	<Message key="Num Steps" description="USB Video View visualizer: Num Steps" />
+	<Message key="Num Steps Units (bitmap)" description="USB Video View visualizer: Num Steps Units (bitmap)" />
+	<Message key="Auto Exposure" description="USB Video View visualizer: Auto Exposure" />
+	<Message key="Auto Iris" description="USB Video View visualizer: Auto Iris" />
+	<Message key="Auto White Balance" description="USB Video View visualizer: Auto White Balance" />
+	<Message key="Auto Focus" description="USB Video View visualizer: Auto Focus" />
+	<Message key="Auto Face Detect" description="USB Video View visualizer: Auto Face Detect" />
+	<Message key="Auto Detect And Track" description="USB Video View visualizer: Auto Detect And Track" />
+	<Message key="Image Stabilization" description="USB Video View visualizer: Image Stabilization" />
+	<Message key="Higher Quality" description="USB Video View visualizer: Higher Quality" />
+	<Message key="Selector" description="USB Video View visualizer: Selector" />
+	<Message key="Backlight Compensation" description="USB Video View visualizer: Backlight Compensation" />
+	<Message key="Brightness" description="USB Video View visualizer: Brightness" />
+	<Message key="Contrast" description="USB Video View visualizer: Contrast" />
+	<Message key="Gain" description="USB Video View visualizer: Gain" />
+	<Message key="Power Line Frequency" description="USB Video View visualizer: Power Line Frequency" />
+	<Message key="Hue" description="USB Video View visualizer: Hue" />
+	<Message key="Saturation" description="USB Video View visualizer: Saturation" />
+	<Message key="Sharpness" description="USB Video View visualizer: Sharpness" />
+	<Message key="Gamma" description="USB Video View visualizer: Gamma" />
+	<Message key="White Balance Temperature" description="USB Video View visualizer: White Balance Temperature" />
+	<Message key="White Balance Blue" description="USB Video View visualizer: White Balance Blue" />
+	<Message key="White Balance Red" description="USB Video View visualizer: White Balance Red" />
+	<Message key="Auto White Balance Component" description="USB Video View visualizer: Auto White Balance Component" />
+	<Message key="Multiplier Step" description="USB Video View visualizer: Multiplier Step" />
+	<Message key="Multiplier Limit" description="USB Video View visualizer: Multiplier Limit" />
+	<Message key="Auto Hue" description="USB Video View visualizer: Auto Hue" />
+	<Message key="Video Standard" description="USB Video View visualizer: Video Standard" />
+	<Message key="Status" description="USB Video View visualizer: Status" />
+	<Message key="Auto Contrast" description="USB Video View visualizer: Auto Contrast" />
+	<Message key="Layer Or View ID" description="USB Video View visualizer: Layer Or View ID" />
+	<Message key="Profile" description="USB Video View visualizer: Profile" />
+	<Message key="Constrained Toolset" description="USB Video View visualizer: Constrained Toolset" />
+	<Message key="Settings (bitmap)" description="USB Video View visualizer: Settings (bitmap)" />
+	<Message key="Width" description="USB Video View visualizer: Width" />
+	<Message key="Height" description="USB Video View visualizer: Height" />
+	<Message key="Frame Interval" description="USB Video View visualizer: Frame Interval" />
+	<Message key="Slice Mode" description="USB Video View visualizer: Slice Mode" />
+	<Message key="Slice Config Setting" description="USB Video View visualizer: Slice Config Setting" />
+	<Message key="Rate Control Mode" description="USB Video View visualizer: Rate Control Mode" />
+	<Message key="Average Bit Rate" description="USB Video View visualizer: Average Bit Rate" />
+	<Message key="CPB Size" description="USB Video View visualizer: CPB Size" />
+	<Message key="Peak Bit Rate" description="USB Video View visualizer: Peak Bit Rate" />
+	<Message key="Qp Prime I" description="USB Video View visualizer: Qp Prime I" />
+	<Message key="Qp Prime P" description="USB Video View visualizer: Qp Prime P" />
+	<Message key="Qp Prime B" description="USB Video View visualizer: Qp Prime B" />
+	<Message key="Sync Frame Type" description="USB Video View visualizer: Sync Frame Type" />
+	<Message key="Sync Frame Interval" description="USB Video View visualizer: Sync Frame Interval" />
+	<Message key="Gradual Decoder Refresh" description="USB Video View visualizer: Gradual Decoder Refresh" />
+	<Message key="Num Host Control LTR Buffers" description="USB Video View visualizer: Num Host Control LTR Buffers" />
+	<Message key="Trust Mode" description="USB Video View visualizer: Trust Mode" />
+	<Message key="Put At Position In LTR Buffer" description="USB Video View visualizer: Put At Position In LTR Buffer" />
+	<Message key="LTR Mode" description="USB Video View visualizer: LTR Mode" />
+	<Message key="Valid LTRs (bitmap)" description="USB Video View visualizer: Valid LTRs (bitmap)" />
+	<Message key="IDC Level" description="USB Video View visualizer: IDC Level" />
+	<Message key="SEI Messages (bitmap)" description="USB Video View visualizer: SEI Messages (bitmap)" />
+	<Message key="Min Qp" description="USB Video View visualizer: Min Qp" />
+	<Message key="Max Qp" description="USB Video View visualizer: Max Qp" />
+	<Message key="Priority" description="USB Video View visualizer: Priority" />
+	<Message key="Update" description="USB Video View visualizer: Update" />
+	<Message key="Error Resiliency Features (bitmap)" description="USB Video View visualizer: Error Resiliency Features (bitmap)" />
+	<Message key="Compression Index" description="USB Video View visualizer: Compression Index" />
+	<Message key="Trigger" description="USB Video View visualizer: Trigger" />
+	<Message key="Stream Error Code" description="USB Video View visualizer: Stream Error Code" />
+	<Message key="Generate Key Frame" description="USB Video View visualizer: Generate Key Frame" />
+	<Message key="Start Frame Segment" description="USB Video View visualizer: Start Frame Segment" />
+	<Message key="End Frame Segment" description="USB Video View visualizer: End Frame Segment" />
+
+	<!-- New Console View -->
+
+	<Enumeration key="ConsoleViewSchemes" description="Console View visualizer schemes (colors and fonts)">
+		<Item text="Line Number" />
+		<Item text="Write Text" />
+		<Item text="Read Text" />
+		<Item text="Message" />
+	</Enumeration>
+
+	<Enumeration key="ConsoleViewOptions" description="Console View visualizer options">
+		<Item text="Show Read Requests" />
+		<Item text="Show Write Requests" />
+		<Item text="Show Timestamps" />
+	</Enumeration>
+
+	<!-- Advanced Console View -->
+
+	<Enumeration key="AdvancedConsoleView" description="Advanced Console View data visualizer title and description">
+		<Item text="Advanced Console View"/>
+		<Item text="Advanced Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols."/>
+	</Enumeration>
+
+	<!-- HTTP View -->
+	<Enumeration key="HttpViewConverter" description="HTTP View">
+		<Item text="HTTP View"/>
+		<Item text="HTTP View data visualizer parses and displays HTTP protocol requests and responses."/>
+	</Enumeration>
+
+	<Enumeration key="HttpViewSchemes" description="HTTP View visualizer schemes (colors and fonts)">
+		<Item text="Default" />
+		<Item text="Header" />
+		<Item text="Request Header" />
+		<Item text="Response Header" />
+		<Item text="Request Fields" />
+		<Item text="Response Fields" />
+		<Item text="Request Text" />
+		<Item text="Response Text" />
+		<Item text="Default Dump" />
+		<Item text="Request Dump" />
+		<Item text="Response Dump" />
+	</Enumeration>
+
+	<!-- MODBUS View -->
+	<Enumeration key="NewModbusConverter" description="New MODBUS View data visualizer title and description">
+		<Item text="MODBUS View"/>
+		<Item text="MODBUS View decodes all data packets sent to and received from the serial device using MODBUS protocol."/>
+	</Enumeration>
+
+
+	<Enumeration key="ModbusViewSchemes" description="MODBUS View visualizer schemes (colors and fonts). Most scheme names are taken from Request View">
+		<Item text="Dump" />
+	</Enumeration>
+
+	<Enumeration key="ModbusViewOptions" description="MODBUS View visualizer options">
+		<Item text="Parse as hex" />
+		<Item text="Add base offsets for registers, discrete inputs, etc." />
+		<Item text="Hide data from malformed packets" />
+	</Enumeration>
+
+
+	<Message key="Starting Address" description="MODBUS View visualizer: Starting Address" />
+	<Message key="Quantity of Coils" description="MODBUS View visualizer: Quantity of Coils" />
+	<Message key="Address" description="MODBUS View visualizer: Address" />
+	<Message key="Coils Count" description="MODBUS View visualizer: Coils Count" />
+	<Message key="Quantity of Inputs" description="MODBUS View visualizer: Quantity of Inputs" />
+	<Message key="Bits" description="MODBUS View visualizer: Bits" />
+	<Message key="Quantity Of Registers" description="MODBUS View visualizer: Quantity Of Registers" />
+	<Message key="Registers Count" description="MODBUS View visualizer: Registers Count" />
+	<Message key="Register Address" description="MODBUS View visualizer: Register Address" />
+	<Message key="Register Data" description="MODBUS View visualizer: Register Data" />
+	<Message key="Communication Option" description="MODBUS View visualizer: Communication Option" />
+	<Message key="Event Count" description="MODBUS View visualizer: Event Count" />
+	<Message key="Message Count" description="MODBUS View visualizer: Message Count" />
+	<Message key="Number Of Outputs" description="MODBUS View visualizer: Number Of Outputs" />
+	<Message key="Count" description="MODBUS View visualizer: Count" />
+	<Message key="Number Of Registers" description="MODBUS View visualizer: Number Of Registers" />
+	<Message key="Group Id" description="MODBUS View visualizer: Group Id" />
+	<Message key="File Number" description="MODBUS View visualizer: File Number" />
+	<Message key="Record Number" description="MODBUS View visualizer: Record Number" />
+	<Message key="Register Length" description="MODBUS View visualizer: Register Length" />
+	<Message key="Data Length" description="MODBUS View visualizer: Data Length" />
+	<Message key="Reference Type" description="MODBUS View visualizer: Reference Type" />
+	<Message key="Response Data" description="MODBUS View visualizer: Response Data" />
+	<Message key="Reference Address" description="MODBUS View visualizer: Reference Address" />
+	<Message key="And Mask" description="MODBUS View visualizer: And Mask" />
+	<Message key="Or Mask" description="MODBUS View visualizer: Or Mask" />
+	<Message key="Word Count" description="MODBUS View visualizer: Word Count" />
+	<Message key="Read Reference Address" description="MODBUS View visualizer: Read Reference Address" />
+	<Message key="Quantity to Read" description="MODBUS View visualizer: Quantity to Read" />
+	<Message key="Write Reference Address" description="MODBUS View visualizer: Write Reference Address" />
+	<Message key="Quantity to Write" description="MODBUS View visualizer: Quantity to Write" />
+	<Message key="FIFO Pointer Address" description="MODBUS View visualizer: FIFO Pointer Address" />
+	<Message key="Byte Count" description="MODBUS View visualizer: Byte Count" />
+	<Message key="FIFO Count" description="MODBUS View visualizer: FIFO Count" />
+	<Message key="Read Device Id" description="MODBUS View visualizer: Read Device Id" />
+	<Message key="Object Id" description="MODBUS View visualizer: Object Id" />
+	<Message key="Conformity Level" description="MODBUS View visualizer: Conformity Level" />
+	<Message key="Next Object Id" description="MODBUS View visualizer: Next Object Id" />
+	<Message key="Objects Count" description="MODBUS View visualizer: Objects Count" />
+	<Message key="Object Length" description="MODBUS View visualizer: Object Length" />
+	<Message key="Value" description="MODBUS View visualizer: Value" />
 
 </Definition>
