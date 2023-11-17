@@ -76,9 +76,9 @@
     <Item value="N/V" revision="0" />
   </Enumeration>
   <Enumeration key="Feature not Available.Text">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Die von Ihnen gewünschte(n) Funktion(en) sind in der Free-Version nicht enthalten.\n\n{has feature names?}{feature names}\n\n{?has feature names}Sie können mit eingeschränkten Funktionen fortfahren oder erweiterte Funktionen 14 Tage lang KOSTENLOS testen." revision="0" />
+    <Item value="Die von Ihnen gewünschte(n) Funktion(en) sind in der Free-Version nicht enthalten.\n\n{has feature names?}{feature names}\n\n{?has feature names}Sie können mit eingeschränkten Funktionen fortfahren oder auf die erweiterte Version upgraden." revision="0" />
+    <Item value="Die Funktion(en), die Sie verwenden möchten, sind in der aktuellen Ausgabe nicht enthalten.\n\n{has feature names?}{feature names}\n\n{?has feature names}Sie können mit eingeschränkten Funktionen fortfahren oder auf die erweiterte Version upgraden." revision="0" />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
     <Item value="Kostenlose Probezeit starten" revision="0" />
@@ -89,13 +89,13 @@
     <Item value="Mit dem Modul Log Playback können Sie die zuvor aufgezeichneten Überwachungssitzungen wiedergeben." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteSource">
-    <Item />
-    <Item />
+    <Item value="Entfernter Monitor" revision="0" />
+    <Item value="Ermöglicht die Überwachung von Remote-Geräten" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Lizenz" revision="0" />
+    <Item value="Typ" revision="0" />
+    <Item value="Läuft ab am" revision="0" />
+    <Item value="Kommerziell" revision="0" />
   </Enumeration>
 </Language>
