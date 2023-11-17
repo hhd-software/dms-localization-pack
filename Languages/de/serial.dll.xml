@@ -1,5 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Nächstes angeschlossenes Gerät (seriell)" revision="0" />
+  <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Die Verbindung zum Gerät kann nicht hergestellt werden." revision="0" />
+  <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uEigenschaften von seriellen Anschlüsse]]]]]]]]]\n\n" revision="0" />
+  <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}keine{?has value}\n" revision="0" />
+  <Message key="MaxRxQueue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}keine{?has value}\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bMax. Baudrate]]]\tkonfigurierbar\n" revision="0" />
+  <Message key="MaxBaudRate" value="[[[bMax. Baudrate]]]\t{values}\n" revision="0" />
+  <Message key="Provider" value="[[[bAnbieter]]]\t{provider}\n" revision="0" />
+  <Message key="Capabilities" value="[[[bFähigkeiten]]]\t{values}\n" revision="0" />
+  <Message key="SettableParameters" value="[[[bParameter]]]\t{values}\n" revision="0" />
+  <Message key="SettableBaud" value="[[[bBaudraten]]]\t{values}\n" revision="0" />
+  <Message key="DataBits" value="[[[bDatenbits]]]\t{values}\n" revision="0" />
+  <Message key="StopBits" value="[[[bStoppbits]]]\t{values}\n" revision="0" />
+  <Message key="Parity" value="[[[bParität]]]\t{values}\n" revision="0" />
+  <Message key="Current Tx Queue" value="[[[bAktuelle Tx Queue]]]\t{has value?}{value} bytes{|has value}nicht verfügbar{?has value}\n" revision="0" />
+  <Message key="Current Rx Queue" value="[[[bAktuelle Rx Queue]]]\t{has value?}{value} bytes{|has value}nicht verfügbar{?has value}\n" revision="0" />
+  <Message key="Communication mode" value="Kommunikationsmodus: {mode}{discard?}, leere Leseanfragen verwerfen{?discard}{terminal?}, mit zuhören{?terminal}" revision="0" />
+  <Message key="Serial Terminal" value="Serielles Terminal" revision="0" />
+  <Message key="Custom Joiner" value="Benutzerdefinierter Sitzungstyp" revision="0" />
+  <Message key="Invalid mode" value="Ungültiger Modus" revision="0" />
+  <Message key="SerialSessionState" value="{is terminal?}Aktive Terminalsitzung: {?is terminal}{baudrate}, Datenbits: {databits}, Stoppbits: {stopbits}, Parität: {parity}" revision="0" />
+  <Message key="EmergencyErrorType" value="Notbeendigung der seriellen Sitzung" revision="0" />
+  <Message key="CustomEmpty" value="Das Skript für den benutzerdefinierten Sitzungstyp ist leer. Drücken Sie die Taste Einstellen und geben Sie das benutzerdefinierte Skript für den Sitzungstyp ein." revision="0" />
+  <Message key="CustomJoinerError" value="Fehler im benutzerdefinierten Modus" revision="0" />
+  <Message key="Error opening file" value="Fehler beim Öffnen einer benutzerdefinierten Skriptdatei &quot;{path}&quot;: {error text} ({error code}). Die Sitzung verwendet den generischen Kommunikationsmodus." revision="0" />
+  <Message key="Error initializing chakra" value="Fehler bei der Initialisierung des Skripting-Systems. Diese Funktion wird von Ihrem System nicht unterstützt." revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />

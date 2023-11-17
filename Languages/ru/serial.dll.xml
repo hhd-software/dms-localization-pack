@@ -6,7 +6,7 @@
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uСвойства последовательного порта]]]]]]]]]\n\n" revision="0" />
   <Message key="MaxTxQueue" value="[[[bМакс TX Queue]]]\t{has value?}{value} байт{|has value}нет{?has value}\n" revision="0" />
   <Message key="MaxRxQueue" value="[[[bМакс. RX Queue]]]\t{has value?}{value} байт{|has value}нет{?has value}\n" revision="0" />
-  <Message key="AnyBaudRate" value="[[[bМакс. Скорость]]]\tconfigurable\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bМакс. Скорость]]]\tнастраиваемо\n" revision="0" />
   <Message key="MaxBaudRate" value="[[[bМакс. Скорость]]]\t{values}\n" revision="0" />
   <Message key="Provider" value="[[[bПровайдер]]]\t{provider}\n" revision="0" />
   <Message key="Capabilities" value="[[[bВозможности]]]\t{values}\n" revision="0" />

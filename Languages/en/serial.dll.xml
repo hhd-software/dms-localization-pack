@@ -216,7 +216,7 @@
     <Item text="Unexpected code"/>
   </Enumeration>
 
-  <Message key="ExceptionInfo" description="Generic scripting exception" value="{error text}{has message?}: {message}{?has message}">
+  <Message optional="true" key="ExceptionInfo" description="Generic scripting exception" value="{error text}{has message?}: {message}{?has message}">
     <Param name="error text"/>
     <Param name="has message" format="?"/>
     <Param name="message"/>
