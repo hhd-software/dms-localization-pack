@@ -122,7 +122,7 @@
 
 	<Enumeration key="PlayerSource" description="Playback source information">
 		<Item text="Log Playback"/>
-		<Item text="Log Playback module allows you to playback the previousely recorded monitoring sessions."/>
+		<Item text="Log Playback module allows you to playback the previously recorded monitoring sessions."/>
 	</Enumeration>
 
 	<Enumeration key="RemoteSource" description="Remote source information">
