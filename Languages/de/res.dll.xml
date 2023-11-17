@@ -1,5 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SkipNagScreen" value="Nag-Bildschirm überspringen (nur Debug)" revision="0" />
+  <Message key="ModuleName" value="{module}\tVersion {major}.{minor}.{revision}.{build}" revision="0" />
+  <Message key="AboutBoxInfo" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nAlle Rechte vorbehalten." revision="5" />
+  <Message key="EditionName" value="{edition} Ausgabe" revision="0" />
+  <Message key="SelectComponentEdition" value="Komponentenausgabe auswählen" revision="0" />
+  <Message key="UpgradeToEdition" value="Upgrade auf {edition} Ausgabe" revision="0" />
+  <Message key="Never" value="Niemals" revision="0" />
+  <Message key="LicenseSuccess" value="Die Lizenzdatei wurde erfolgreich installiert und die Anwendung aktiviert. Vielen Dank, dass Sie sich für Device Monitoring Studio entschieden haben!" revision="0" />
+  <Message key="LicenseFailure" value="Bei der Installation der ausgewählten Lizenzdatei ist ein Fehler aufgetreten. Dies kann folgende Gründe haben:\n\n  · Beschädigte Lizenzdatei.\n  · " revision="0" />
+  <Message key="LicenseRestart" value="Es wird dringend empfohlen, das Produkt neu zu starten, um die Änderungen zu berücksichtigen." revision="0" />
+  <Message key="FreeFirstLaunchTitle" value="Willkommen bei HHD Software Free Device Monitoring Studio" revision="0" />
+  <Message key="FreeFirstLaunchText" value="Die kostenlose Version des Produkts hat einen begrenzten Funktionsumfang.\n\nSie können mit eingeschränkten Funktionen fortfahren oder die erweiterten Funktionen 14 Tage lang KOSTENLOS testen." revision="0" />
+  <Message key="Trial dialog title: free" value="Erhalten Sie erweiterte Funktionen" revision="0" />
+  <Message key="Trial dialog title: trial" value="Holen Sie sich jetzt die registrierte Version!" revision="0" />
+  <Message key="Trial text: free" value="Einige erweiterte Funktionen von Device Monitoring Studio sind als Probe verfügbar oder abgelaufen.\n\nSie können mit der eingeschränkten Funktionalität fortfahren oder auf die erweiterte Version upgraden.\nMit dem Erwerb der erweiterten Funktionalität wird dieser Bildschirm entfernt." revision="0" />
+  <Message key="Trial text: trial" value="Die folgenden Komponenten sind auf Probe oder abgelaufen.\n\nSie können abgelaufene Komponenten nicht weiter verwenden und haben eine begrenzte Testzeit für Testkomponenten. Um diesen Bildschirm zu beseitigen, müssen Sie mindestens eine Komponente kaufen." revision="0" />
+  <Message key="Feature not Available.Title" value="Funktion nicht verfügbar" revision="0" />
+  <Message key="Trial days left" value="Probezeit, {days} verbleibende Tage" revision="0" />
+  <Message key="Upgrade Notification" value="Sie werden nun zum Bereich Mein Konto auf der HHD Software-Website weitergeleitet, wo Sie Ihr Upgrade konfigurieren können.\n\nBitte beachten Sie, dass Sie bereits ein Konto haben, wenn Sie die registrierte Version verwenden.\n\nVerwenden Sie den Passwort-Hinweis, wenn Sie sich nicht an Ihr Passwort erinnern können, oder fragen Sie unser Support-Team, wenn Sie sich immer noch nicht anmelden können." revision="0" />
   <Enumeration key="HelpRegister">
     <Item />
     <Item />
