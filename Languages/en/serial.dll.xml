@@ -27,25 +27,25 @@
   </Message>
 
   <Enumeration key="BaudRateValues" description="Serial Device Information: Maximum baud rate values">
-    <Item text="75"/>
-    <Item text="110"/>
-    <Item text="134.5"/>
-    <Item text="150"/>
-    <Item text="300"/>
-    <Item text="600"/>
-    <Item text="1200"/>
-    <Item text="1800"/>
-    <Item text="2400"/>
-    <Item text="4800"/>
-    <Item text="7200"/>
-    <Item text="9600"/>
-    <Item text="14400"/>
-    <Item text="19200"/>
-    <Item text="38400"/>
-    <Item text="56K"/>
-    <Item text="128K"/>
-    <Item text="115200"/>
-    <Item text="57600"/>
+    <Item optional="true" text="75"/>
+    <Item optional="true" text="110"/>
+    <Item optional="true" text="134.5"/>
+    <Item optional="true" text="150"/>
+    <Item optional="true" text="300"/>
+    <Item optional="true" text="600"/>
+    <Item optional="true" text="1200"/>
+    <Item optional="true" text="1800"/>
+    <Item optional="true" text="2400"/>
+    <Item optional="true" text="4800"/>
+    <Item optional="true" text="7200"/>
+    <Item optional="true" text="9600"/>
+    <Item optional="true" text="14400"/>
+    <Item optional="true" text="19200"/>
+    <Item optional="true" text="38400"/>
+    <Item optional="true" text="56K"/>
+    <Item optional="true" text="128K"/>
+    <Item optional="true" text="115200"/>
+    <Item optional="true" text="57600"/>
     <Item text="configurable" value="28"/>
   </Enumeration>
 

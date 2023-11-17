@@ -27,6 +27,31 @@
   <Message key="CustomJoinerError" value="Fehler im benutzerdefinierten Modus" revision="0" />
   <Message key="Error opening file" value="Fehler beim Öffnen einer benutzerdefinierten Skriptdatei &quot;{path}&quot;: {error text} ({error code}). Die Sitzung verwendet den generischen Kommunikationsmodus." revision="0" />
   <Message key="Error initializing chakra" value="Fehler bei der Initialisierung des Skripting-Systems. Diese Funktion wird von Ihrem System nicht unterstützt." revision="0" />
+  <Message key="JoinerSessionTermination" value="Der Paketsplitter hat den folgenden Fehler zurückgegeben: {error}" revision="0" />
+  <Message key="EmptyScript" value="Die Skriptkomponente ist nicht installiert oder es wird eine leere Skriptdatei verwendet." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Benutzerdefinierte Konfigurationsparameter für den Sitzungstyp fehlen" revision="0" />
+  <Message key="Custom script modified" value="Das benutzerdefinierte Skript wurde geändert. Sind Sie sicher, dass Sie die Änderungen verwerfen wollen?" revision="0" />
+  <Message key="Session Type" value="Sitzungstyp" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Typ der seriellen Überwachungssitzung:" revision="0" />
+  <Message key="Discard empty read packets" value="Leere Lesepakete verwerfen" revision="0" />
+  <Message key="Set" value="&amp;Bearbeiten…" revision="0" />
+  <Message key="View" value="Ansicht" revision="0" />
+  <Message key="Listen on monitored port" value="Hören Sie auf eingehende Daten (öffnet das serielle Gerät)" revision="0" />
+  <Message key="Baud rate:" value="Baudrate:" revision="0" />
+  <Message key="Data bits:" value="Datenbits:" revision="0" />
+  <Message key="Parity:" value="Parität:" revision="0" />
+  <Message key="Stop bits:" value="Stoppbits:" revision="0" />
+  <Message key="Flow control:" value="Flusssteuerung:" revision="0" />
+  <Message key="Read interval:" value="Intervall lesen:" revision="0" />
+  <Message key="Write constant:" value="Konstante schreiben:" revision="0" />
+  <Message key="Write multiplier:" value="Multiplikator schreiben:" revision="0" />
+  <Message key="Terminal window:" value="Terminal-Fenster:" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Skript-Editor für Benutzersitzungen" revision="0" />
+  <Message key="Load from File" value="&amp;Aus Datei laden…" revision="0" />
+  <Message key="Save to File" value="&amp;In Datei speichern…" revision="0" />
+  <Message key="Serial.Advertise.Text" value="Wir bieten auch eine ActiveX-Bibliothek für die Überwachung der seriellen Schnittstelle an, mit der Sie die Überwachung in Ihre Anwendungen integrieren können." revision="0" />
+  <Message key="No terminal" value="Kein Terminal" revision="0" />
+  <Message key="Set Custom Flow Control" value="Benutzerdefinierte Flusssteuerung" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -47,7 +72,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="konfigurierbar" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
     <Item />
