@@ -51,18 +51,18 @@
 
   <Enumeration key="ProviderTypes" description="Serial Device Information: Supported provider types">
     <Item text="unspecified"/>
-    <Item text="RS232"/>
+    <Item optional="true" text="RS232"/>
     <Item text="Parallel Port"/>
-    <Item text="RS422"/>
-    <Item text="RS423"/>
-    <Item text="RS449"/>
+    <Item optional="true" text="RS422"/>
+    <Item optional="true" text="RS423"/>
+    <Item optional="true" text="RS449"/>
     <Item text="Modem"/>
     <Item text="Fax"/>
     <Item text="Scanner"/>
     <Item text="Network Bridge"/>
-    <Item text="LAT"/>
-    <Item text="TCP/IP Telnet"/>
-    <Item text="X25"/>
+    <Item optional="true" text="LAT"/>
+    <Item optional="true" text="TCP/IP Telnet"/>
+    <Item optional="true" text="X25"/>
   </Enumeration>
 
   <Message key="Provider" description="Serial Device Information: Provider" value="[[[bProvider]]]\t{provider}\n">
