@@ -27,7 +27,6 @@
   <Message key="CustomJoinerError" value="Ошибка пользовательского режима" revision="0" />
   <Message key="Error opening file" value="Ошибка открытия пользовательского скрипта &quot;{path}&quot;: {error text} ({error code}). В сессии будет использоваться generic-режим связи." revision="0" />
   <Message key="Error initializing chakra" value="Ошибка инициализации системы скриптов. Данная функция не поддерживается вашей системой." revision="0" />
-  <Message key="ExceptionInfo" value="{error text}{has message?}: {message}{?has message}" revision="0" />
   <Message key="JoinerSessionTermination" value="Разделитель пакетов выдал следующую ошибку: {error}" revision="0" />
   <Message key="EmptyScript" value="Не установлен компонент скриптов или используется пустой файл скрипта." revision="0" />
   <Message key="Invalid custom session type configuration" value="Отсутствуют пользовательские параметры настройки типа сессии" revision="0" />
@@ -55,41 +54,41 @@
   <Message key="terminal session creation failure" value="Не удалось запустить прослушивание последовательного устройства из-за следующей ошибки: {text} ({code}){access-denied?}\n\nВероятно, эта ошибка означает, что последовательный порт уже открыт другим приложением. Вы можете спокойно проигнорировать эту ошибку и продолжить мониторинг порта.\n\nЕсли вы постоянно следите за открытым последовательным устройством, убедитесь, что опция &quot;Слушать входящие данные...&quot; выключена в окне конфигурации сессии.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Пользовательский Flow Control" revision="0" />
   <Enumeration key="BaudRateValues">
-    <Item value="75" revision="0" />
-    <Item value="110" revision="0" />
-    <Item value="134.5" revision="0" />
-    <Item value="150" revision="0" />
-    <Item value="300" revision="0" />
-    <Item value="600" revision="0" />
-    <Item value="1200" revision="0" />
-    <Item value="1800" revision="0" />
-    <Item value="2400" revision="0" />
-    <Item value="4800" revision="0" />
-    <Item value="7200" revision="0" />
-    <Item value="9600" revision="0" />
-    <Item value="14400" revision="0" />
-    <Item value="19200" revision="0" />
-    <Item value="38400" revision="0" />
-    <Item value="56K" revision="0" />
-    <Item value="128K" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="115200" revision="0" />
-    <Item value="57600" revision="0" />
+    <Item value="" revision="0" />
     <Item value="настраиваемый" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
     <Item value="неуказанный" revision="0" />
-    <Item value="RS232" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Параллельный порт" revision="0" />
-    <Item value="RS422" revision="0" />
-    <Item value="RS423" revision="0" />
-    <Item value="RS449" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Модем" revision="0" />
     <Item value="Факс" revision="0" />
     <Item value="Сканер" revision="0" />
     <Item value="Сетевой мост" revision="0" />
-    <Item value="LAT" revision="0" />
-    <Item value="TCP/IP Telnet" revision="0" />
-    <Item value="X25" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="CapabilitiesEnum">
     <Item value="DTR/DSR" revision="0" />
@@ -121,9 +120,9 @@
     <Item value="Special Wide" revision="0" />
   </Enumeration>
   <Enumeration key="StopBitsEnum">
-    <Item value="1" revision="0" />
-    <Item value="1.5" revision="0" />
-    <Item value="2" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="ParityEnum">
     <Item value="Нет" revision="0" />

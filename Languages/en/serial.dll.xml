@@ -27,42 +27,42 @@
   </Message>
 
   <Enumeration key="BaudRateValues" description="Serial Device Information: Maximum baud rate values">
-    <Item text="75"/>
-    <Item text="110"/>
-    <Item text="134.5"/>
-    <Item text="150"/>
-    <Item text="300"/>
-    <Item text="600"/>
-    <Item text="1200"/>
-    <Item text="1800"/>
-    <Item text="2400"/>
-    <Item text="4800"/>
-    <Item text="7200"/>
-    <Item text="9600"/>
-    <Item text="14400"/>
-    <Item text="19200"/>
-    <Item text="38400"/>
-    <Item text="56K"/>
-    <Item text="128K"/>
-    <Item text="115200"/>
-    <Item text="57600"/>
+    <Item optional="true" text="75"/>
+    <Item optional="true" text="110"/>
+    <Item optional="true" text="134.5"/>
+    <Item optional="true" text="150"/>
+    <Item optional="true" text="300"/>
+    <Item optional="true" text="600"/>
+    <Item optional="true" text="1200"/>
+    <Item optional="true" text="1800"/>
+    <Item optional="true" text="2400"/>
+    <Item optional="true" text="4800"/>
+    <Item optional="true" text="7200"/>
+    <Item optional="true" text="9600"/>
+    <Item optional="true" text="14400"/>
+    <Item optional="true" text="19200"/>
+    <Item optional="true" text="38400"/>
+    <Item optional="true" text="56K"/>
+    <Item optional="true" text="128K"/>
+    <Item optional="true" text="115200"/>
+    <Item optional="true" text="57600"/>
     <Item text="configurable" value="28"/>
   </Enumeration>
 
   <Enumeration key="ProviderTypes" description="Serial Device Information: Supported provider types">
     <Item text="unspecified"/>
-    <Item text="RS232"/>
+    <Item optional="true" text="RS232"/>
     <Item text="Parallel Port"/>
-    <Item text="RS422"/>
-    <Item text="RS423"/>
-    <Item text="RS449"/>
+    <Item optional="true" text="RS422"/>
+    <Item optional="true" text="RS423"/>
+    <Item optional="true" text="RS449"/>
     <Item text="Modem"/>
     <Item text="Fax"/>
     <Item text="Scanner"/>
     <Item text="Network Bridge"/>
-    <Item text="LAT"/>
-    <Item text="TCP/IP Telnet"/>
-    <Item text="X25"/>
+    <Item optional="true" text="LAT"/>
+    <Item optional="true" text="TCP/IP Telnet"/>
+    <Item optional="true" text="X25"/>
   </Enumeration>
 
   <Message key="Provider" description="Serial Device Information: Provider" value="[[[bProvider]]]\t{provider}\n">
@@ -94,11 +94,11 @@
   </Message>
 
   <Enumeration key="CapabilitiesEnum" description="Serial Device Information: Capability values">
-    <Item text="DTR/DSR"/>
-    <Item text="RTS/CTS"/>
-    <Item text="RLSD (DCD)"/>
+    <Item optional="true" text="DTR/DSR"/>
+    <Item optional="true" text="RTS/CTS"/>
+    <Item optional="true" text="RLSD (DCD)"/>
     <Item text="Parity Check"/>
-    <Item text="XON/XOFF"/>
+    <Item optional="true" text="XON/XOFF"/>
     <Item text="Settable XON/XOFF"/>
     <Item text="Total time-outs"/>
     <Item text="Interval time-outs"/>
@@ -113,7 +113,7 @@
     <Item text="Stop Bits"/>
     <Item text="Handshaking"/>
     <Item text="Parity Check"/>
-    <Item text="RLSD (DCD)"/>
+    <Item optional="true" text="RLSD (DCD)"/>
   </Enumeration>
 
   <Enumeration key="DataBitsEnum" description="Serial Device Information: Data Bits values">
@@ -227,9 +227,9 @@
   <Message key="EmptyScript" description="Empty script or scripting component is not installed" value="Scripting component is not installed or empty script file is used."/>
   <Enumeration key="ScriptFilters" description="Script filters">
     <Item text="TypeScript Files"/>
-    <Item text="*.ts"/>
+    <Item optional="true" text="*.ts"/>
     <Item text="JavaScript Files"/>
-    <Item text="*.js"/>
+    <Item optional="true" text="*.js"/>
   </Enumeration>
 
   <Message key="Invalid custom session type configuration" description="Invalid custom session type configuration" value="Custom session type configuration parameters are missing"/>

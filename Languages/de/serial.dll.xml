@@ -27,6 +27,32 @@
   <Message key="CustomJoinerError" value="Fehler im benutzerdefinierten Modus" revision="0" />
   <Message key="Error opening file" value="Fehler beim Öffnen einer benutzerdefinierten Skriptdatei &quot;{path}&quot;: {error text} ({error code}). Die Sitzung verwendet den generischen Kommunikationsmodus." revision="0" />
   <Message key="Error initializing chakra" value="Fehler bei der Initialisierung des Skripting-Systems. Diese Funktion wird von Ihrem System nicht unterstützt." revision="0" />
+  <Message key="JoinerSessionTermination" value="Der Paketsplitter hat den folgenden Fehler zurückgegeben: {error}" revision="0" />
+  <Message key="EmptyScript" value="Die Skriptkomponente ist nicht installiert oder es wird eine leere Skriptdatei verwendet." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Benutzerdefinierte Konfigurationsparameter für den Sitzungstyp fehlen" revision="0" />
+  <Message key="Custom script modified" value="Das benutzerdefinierte Skript wurde geändert. Sind Sie sicher, dass Sie die Änderungen verwerfen wollen?" revision="0" />
+  <Message key="Session Type" value="Sitzungstyp" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Typ der seriellen Überwachungssitzung:" revision="0" />
+  <Message key="Discard empty read packets" value="Leere Lesepakete verwerfen" revision="0" />
+  <Message key="Set" value="&amp;Bearbeiten…" revision="0" />
+  <Message key="View" value="Ansicht" revision="0" />
+  <Message key="Listen on monitored port" value="Hören Sie auf eingehende Daten (öffnet das serielle Gerät)" revision="0" />
+  <Message key="Baud rate:" value="Baudrate:" revision="0" />
+  <Message key="Data bits:" value="Datenbits:" revision="0" />
+  <Message key="Parity:" value="Parität:" revision="0" />
+  <Message key="Stop bits:" value="Stoppbits:" revision="0" />
+  <Message key="Flow control:" value="Flusssteuerung:" revision="0" />
+  <Message key="Read interval:" value="Intervall lesen:" revision="0" />
+  <Message key="Write constant:" value="Konstante schreiben:" revision="0" />
+  <Message key="Write multiplier:" value="Multiplikator schreiben:" revision="0" />
+  <Message key="Terminal window:" value="Terminal-Fenster:" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Skript-Editor für Benutzersitzungen" revision="0" />
+  <Message key="Load from File" value="&amp;Aus Datei laden…" revision="0" />
+  <Message key="Save to File" value="&amp;In Datei speichern…" revision="0" />
+  <Message key="Serial.Advertise.Text" value="Wir bieten auch eine ActiveX-Bibliothek für die Überwachung der seriellen Schnittstelle an, mit der Sie die Überwachung in Ihre Anwendungen integrieren können." revision="0" />
+  <Message key="No terminal" value="Kein Terminal" revision="0" />
+  <Message key="terminal session creation failure" value="Aufgrund des folgenden Fehlers konnte das Abhören eines seriellen Geräts nicht gestartet werden: {text} ({code}){access-denied?}\n\nDieser Fehler bedeutet höchstwahrscheinlich, dass die serielle Schnittstelle bereits von einer anderen Anwendung geöffnet ist. Sie können diesen Fehler getrost ignorieren und mit der Überwachung eines Anschlusses fortfahren.\n\nWenn Sie immer ein geöffnetes serielles Gerät überwachen, stellen Sie sicher, dass die Option &quot;Hören Sie auf eingehende Daten...&quot; im Sitzungskonfigurationsfenster ausgeschaltet ist.{?access-denied}" revision="0" />
+  <Message key="Set Custom Flow Control" value="Benutzerdefinierte Flusssteuerung" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -47,19 +73,19 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="konfigurierbar" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
+    <Item value="nicht spezifiziert" revision="0" />
+    <Item />
+    <Item value="Parallele Schnittstelle" revision="0" />
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modem" revision="0" />
+    <Item value="Fax" revision="0" />
+    <Item value="Scanner" revision="0" />
+    <Item value="Netzwerk-Brücke" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -68,21 +94,21 @@
     <Item />
     <Item />
     <Item />
+    <Item value="Paritätsprüfung" revision="0" />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Einstellbar XON/XOFF" revision="0" />
+    <Item value="Allgemeine Timeouts" revision="0" />
+    <Item value="Intervall Timeouts" revision="0" />
+    <Item value="Sonderzeichen" revision="0" />
+    <Item value="16-Bit-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parität" revision="0" />
+    <Item value="Baud" revision="0" />
+    <Item value="Datenbits" revision="0" />
+    <Item value="oppbits" revision="0" />
+    <Item value="Durchflussregelung" revision="0" />
+    <Item value="Paritätsprüfung" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -91,7 +117,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Spezial Weit" revision="0" />
   </Enumeration>
   <Enumeration key="StopBitsEnum">
     <Item />
@@ -99,61 +125,61 @@
     <Item />
   </Enumeration>
   <Enumeration key="ParityEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Keine" revision="0" />
+    <Item value="Ungerade" revision="0" />
+    <Item value="Gerade" revision="0" />
+    <Item value="Mark" revision="0" />
+    <Item value="Space" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item />
-    <Item />
+    <Item value="Serieller Monitor" revision="0" />
+    <Item value="Mit der seriellen Datenquelle können Sie die Daten überwachen, die zwischen den seriellen Geräten und den Anwendungen, die sie verwenden, ausgetauscht werden." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="generisch" revision="2" />
+    <Item value="PPP" revision="2" />
+    <Item value="Linie (Paket endet mit neuer Linie)" revision="2" />
+    <Item value="MODBUS RTU-Modus" revision="2" />
+    <Item value="MODBUS-ASCII-Modus" revision="2" />
+    <Item value="Benutzerdefiniert" revision="2" />
   </Enumeration>
   <Enumeration key="Communication modes. Full description">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Generisch" revision="0" />
+    <Item value="PPP (Punkt-zu-Punkt-Protokoll)" revision="0" />
+    <Item value="Ein Paket pro Linie (getrennt durch 0D - AT-Befehle, NMEA, usw.)" revision="0" />
+    <Item value="MODBUS RTU-Modus" revision="0" />
+    <Item value="MODBUS-ASCII-Modus" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Typfehler: Ungültiges Argument" revision="0" />
+    <Item value="Typfehler: Null-Argument" revision="0" />
+    <Item value="Typfehler: Argument ist kein Objekt" revision="0" />
+    <Item value="Nicht genug Speicher" revision="0" />
+    <Item value="Skript-Fehler" revision="0" />
+    <Item value="Syntax-Fehler" revision="0" />
+    <Item value="Fataler Fehler" revision="0" />
+    <Item value="Ausnahme" revision="0" />
+    <Item value="Unerwarteter Code" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
+    <Item value="TypeScript-Dateien" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="JavaScript-Dateien" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="flow-control">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Keine" revision="0" />
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Benutzerdefiniert" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item />
-    <Item />
+    <Item value="Versteckt" revision="0" />
+    <Item value="Sichtbar" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
-    <Item />
-    <Item />
+    <Item value="Anschließen des seriellen Geräts" revision="0" />
+    <Item value="Die Anwendung wartet darauf, dass Sie ein PnP-kompatibles serielles Gerät an Ihren Computer anschließen." revision="0" />
   </Enumeration>
 </Language>
