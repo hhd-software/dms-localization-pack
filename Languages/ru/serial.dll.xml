@@ -77,18 +77,18 @@
   </Enumeration>
   <Enumeration key="ProviderTypes">
     <Item value="неуказанный" revision="0" />
-    <Item value="RS232" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Параллельный порт" revision="0" />
-    <Item value="RS422" revision="0" />
-    <Item value="RS423" revision="0" />
-    <Item value="RS449" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Модем" revision="0" />
     <Item value="Факс" revision="0" />
     <Item value="Сканер" revision="0" />
     <Item value="Сетевой мост" revision="0" />
-    <Item value="LAT" revision="0" />
-    <Item value="TCP/IP Telnet" revision="0" />
-    <Item value="X25" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="CapabilitiesEnum">
     <Item value="DTR/DSR" revision="0" />

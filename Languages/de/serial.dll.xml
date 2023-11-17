@@ -75,16 +75,16 @@
     <Item value="konfigurierbar" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
+    <Item value="nicht spezifiziert" revision="0" />
+    <Item />
+    <Item value="Parallele Schnittstelle" revision="0" />
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modem" revision="0" />
+    <Item value="Fax" revision="0" />
+    <Item value="Scanner" revision="0" />
+    <Item value="Netzwerk-Brücke" revision="0" />
     <Item />
     <Item />
     <Item />

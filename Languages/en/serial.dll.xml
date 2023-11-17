@@ -94,11 +94,11 @@
   </Message>
 
   <Enumeration key="CapabilitiesEnum" description="Serial Device Information: Capability values">
-    <Item text="DTR/DSR"/>
-    <Item text="RTS/CTS"/>
-    <Item text="RLSD (DCD)"/>
+    <Item optional="true" text="DTR/DSR"/>
+    <Item optional="true" text="RTS/CTS"/>
+    <Item optional="true" text="RLSD (DCD)"/>
     <Item text="Parity Check"/>
-    <Item text="XON/XOFF"/>
+    <Item optional="true" text="XON/XOFF"/>
     <Item text="Settable XON/XOFF"/>
     <Item text="Total time-outs"/>
     <Item text="Interval time-outs"/>
@@ -113,7 +113,7 @@
     <Item text="Stop Bits"/>
     <Item text="Handshaking"/>
     <Item text="Parity Check"/>
-    <Item text="RLSD (DCD)"/>
+    <Item optional="true" text="RLSD (DCD)"/>
   </Enumeration>
 
   <Enumeration key="DataBitsEnum" description="Serial Device Information: Data Bits values">
