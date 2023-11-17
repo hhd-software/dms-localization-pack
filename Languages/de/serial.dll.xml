@@ -93,21 +93,21 @@
     <Item />
     <Item />
     <Item />
+    <Item value="Paritätsprüfung" revision="0" />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Einstellbar XON/XOFF" revision="0" />
+    <Item value="Allgemeine Timeouts" revision="0" />
+    <Item value="Intervall Timeouts" revision="0" />
+    <Item value="Sonderzeichen" revision="0" />
+    <Item value="16-Bit-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parität" revision="0" />
+    <Item value="Baud" revision="0" />
+    <Item value="Datenbits" revision="0" />
+    <Item value="oppbits" revision="0" />
+    <Item value="Durchflussregelung" revision="0" />
+    <Item value="Paritätsprüfung" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -116,7 +116,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Spezial Weit" revision="0" />
   </Enumeration>
   <Enumeration key="StopBitsEnum">
     <Item />
@@ -124,11 +124,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="ParityEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Keine" revision="0" />
+    <Item value="Ungerade" revision="0" />
+    <Item value="Gerade" revision="0" />
+    <Item value="Mark" revision="0" />
+    <Item value="Space" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
     <Item />
@@ -151,20 +151,20 @@
     <Item />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Typfehler: Ungültiges Argument" revision="0" />
+    <Item value="Typfehler: Null-Argument" revision="0" />
+    <Item value="Typfehler: Argument ist kein Objekt" revision="0" />
+    <Item value="Nicht genug Speicher" revision="0" />
+    <Item value="Skript-Fehler" revision="0" />
+    <Item value="Syntax-Fehler" revision="0" />
+    <Item value="Fataler Fehler" revision="0" />
+    <Item value="Ausnahme" revision="0" />
+    <Item value="Unerwarteter Code" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
+    <Item value="TypeScript-Dateien" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="JavaScript-Dateien" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="flow-control">

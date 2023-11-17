@@ -227,9 +227,9 @@
   <Message key="EmptyScript" description="Empty script or scripting component is not installed" value="Scripting component is not installed or empty script file is used."/>
   <Enumeration key="ScriptFilters" description="Script filters">
     <Item text="TypeScript Files"/>
-    <Item text="*.ts"/>
+    <Item optional="true" text="*.ts"/>
     <Item text="JavaScript Files"/>
-    <Item text="*.js"/>
+    <Item optional="true" text="*.js"/>
   </Enumeration>
 
   <Message key="Invalid custom session type configuration" description="Invalid custom session type configuration" value="Custom session type configuration parameters are missing"/>
