@@ -58,40 +58,40 @@
     <Item value="Schreib Pakete anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Klare Leistungsinformationen" revision="0" />
+    <Item value="DTR löschen" revision="0" />
+    <Item value="RTS löschen" revision="0" />
+    <Item value="Abrufen von Informationen zur Konfigurationsgröße" revision="0" />
+    <Item value="Baudrate abrufen" revision="0" />
+    <Item value="Abrufen von Sonderzeichen" revision="0" />
+    <Item value="COM-Status abrufen" revision="0" />
+    <Item value="DTR und RTS abrufen" revision="0" />
+    <Item value="Handshake-Informationen abrufen" revision="0" />
+    <Item value="Linienkontrolle abrufen" revision="0" />
+    <Item value="Modemstatus abrufen" revision="0" />
+    <Item value="COM-Eigenschaften abrufen" revision="0" />
+    <Item value="Leistungsinformationen abrufen" revision="0" />
+    <Item value="Timeouts abrufen" revision="0" />
+    <Item value="Aktuelle Ereignismaske abrufen" revision="0" />
+    <Item value="Unmittelbares Signal senden" revision="0" />
+    <Item value="Leitungs- und Modemstatus Escape-Zeichen" revision="0" />
+    <Item value="Anfragen bereinigen" revision="0" />
+    <Item value="COM-Port zurücksetzen" revision="0" />
+    <Item value="Baudrate einstellen" revision="0" />
+    <Item value="Zeilenumbruch ausschalten" revision="0" />
+    <Item value="Zeilenumbruch einschalten" revision="0" />
+    <Item value="Sonderzeichen einstellen" revision="0" />
+    <Item value="DTR einstellen" revision="0" />
+    <Item value="Handshake-Informationen einstellen" revision="0" />
+    <Item value="Leitungssteuerung einstellen" revision="0" />
+    <Item value="Größe der Warteschlange festlegen" revision="0" />
+    <Item value="RTS einstellen" revision="0" />
+    <Item value="Timeouts festlegen" revision="0" />
+    <Item value="Aktuelle Ereignismaske einstellen" revision="0" />
+    <Item value="XOFF emulieren" revision="0" />
+    <Item value="XON emulieren" revision="0" />
+    <Item value="Warten auf Ereignis" revision="0" />
+    <Item value="XOFF-Zähler setzen" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
     <Item value="Kopfzeile" revision="0" />
