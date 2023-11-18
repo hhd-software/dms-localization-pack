@@ -84,19 +84,19 @@
   </Enumeration>
   <Enumeration key="CallStackColumns">
     <Item />
-    <Item />
-    <Item />
+    <Item value="Name" revision="0" />
+    <Item value="Linie" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
-    <Item />
-    <Item />
+    <Item value="Überwachung hinzufügen" revision="0" />
+    <Item value="Hinzufügen Überwachung" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
-    <Item />
-    <Item />
+    <Item value="Überwachung entfernen" revision="0" />
+    <Item value="Entfernen Überwachung" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item />
-    <Item />
+    <Item value="Überwachung bearbeiten" revision="0" />
+    <Item value="Überwachung bearbeiten" revision="0" />
   </Enumeration>
 </Language>

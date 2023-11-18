@@ -92,7 +92,7 @@
     <Item value="HTTP-Ansicht" revision="0" />
     <Item value="Der HTTP Ansicht Datenvisualisierer parst und zeigt HTTP Protokoll Anfragen und Antworten an." revision="0" />
   </Enumeration>
-    <Enumeration key="HttpViewSchemes">
+  <Enumeration key="HttpViewSchemes">
     <Item />
     <Item />
     <Item />
