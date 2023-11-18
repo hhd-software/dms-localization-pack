@@ -146,10 +146,6 @@
     <Item value="Ошибка создания TCP-сессии" revision="0" />
     <Item value="При попытке подключения к удаленному хосту возникла следующая ошибка: {text} ({code})" revision="0" />
   </Enumeration>
-  <Enumeration key="NewModbusConverter">
-    <Item value="Вид MODBUS " revision="0" />
-    <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует и отображает пакеты протокола MODBUS." revision="0" />
-  </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
     <Item />

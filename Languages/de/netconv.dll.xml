@@ -10,10 +10,6 @@
   <Message key="NetTermSizeError" value="Paket ({packetno}): Größe des Pakets ({size}) größer als die MTU-Größe des Adapterss ({maxsize})." revision="0" />
   <Message key="NetTermTooltipText" value="Physische Adresse: {mac}\nMaximale Übertragungseinheit: {size} bytes\nLink Geschwindigkeit: {speed} MB\nIP: {ip}\nStatus: {status}" revision="0" />
   <Message key="CellConvTooltip" value="Paket:\t\t{number}\nZeit:\t\t{timestamp}\nGröße des Pakets:\t{size} bytes\nDaten Größe:\t{datasize} bytes{has_name?}\nGerät:\t\t{devicename}{?has_name}\n" revision="0" />
-  <Enumeration key="HttpViewConverter">
-    <Item value="HTTP-Ansicht" revision="0" />
-    <Item value="Der HTTP Ansicht Datenvisualisierer parst und zeigt HTTP Protokoll Anfragen und Antworten an." revision="0" />
-  </Enumeration>
   <Enumeration key="NetError">
     <Item value="Speicher korruption " revision="0" />
     <Item value="Nicht genügend Ressourcen für das Paket" revision="0" />

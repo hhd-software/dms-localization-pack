@@ -112,7 +112,7 @@
   <Message key="CallStackTitle" description="Call stack dialog title" value="Debug Call Stack"/>
 
   <Enumeration key="CallStackColumns" description="Call Stack Columns Names">
-    <Item text=" "/>
+    <Item optional="true" text=" "/>
     <Item text="Name"/>
     <Item text="Line"/>
   </Enumeration>

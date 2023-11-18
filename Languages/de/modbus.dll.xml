@@ -146,10 +146,6 @@
     <Item value="TCP-Sitzungserstellungsfehler" revision="0" />
     <Item value="Beim Versuch, eine Verbindung zum entfernten Host herzustellen, ist folgender Fehler aufgetreten: {text} ({code})" revision="0" />
   </Enumeration>
-  <Enumeration key="NewModbusConverter">
-    <Item value="MODBUS Ansicht" revision="0" />
-    <Item value="MODBUS Ansicht dekodiert und zeigt MODBUS Protokollpakete an." revision="0" />
-  </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
     <Item />

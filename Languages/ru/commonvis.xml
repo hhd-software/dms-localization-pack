@@ -36,4 +36,85 @@
     <Item value="Консольный вид " revision="0" />
     <Item value="Консольный вид работает как окно консоли и отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов." revision="0" />
   </Enumeration>
+  <Enumeration key="RequestViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBVideoView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBVideoViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AdvancedConsoleView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HttpViewConverter">
+    <Item value="Вид HTTP" revision="0" />
+    <Item value="Визуализатор данных HTTP анализирует и отображает запросы и ответы протокола HTTP." revision="0" />
+  </Enumeration>
+  <Enumeration key="HttpViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewModbusConverter">
+    <Item value="Вид MODBUS" revision="0" />
+    <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует и отображает пакеты протокола MODBUS." revision="0" />
+  </Enumeration>
+  <Enumeration key="ModbusViewSchemes">
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModbusViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>
