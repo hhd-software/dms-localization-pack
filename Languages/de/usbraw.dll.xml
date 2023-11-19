@@ -64,6 +64,25 @@
   <Message key="Isochronous Transfer" value="Isochrone Übertragung" revision="0" />
   <Message key="IsochTransferFmt" value="\nStartrahmen: {frame}, Anzahl der Pakete: {packets}, Fehlerzahl: {error}{asap}\n" revision="0" />
   <Message key="UsbIsochronousTransferFmt" value="Versetzt: {offset}, Länge: {length}, Status: {status}\n" revision="0" />
+  <Message key="UsbTransferPacketFmt" value="Transferpaket {number}: " revision="0" />
+  <Message key="QueryInterfaceFmt" value="Interface GUID: {guid}\nInterface Größe: {size} bytes\nInterface Version: {version}\nStatus: {status}\nInformationen: {info}" revision="0" />
+  <Message key="pcktssec" value="pckts/sec" revision="0" />
+  <Message key="bytessec" value="bytes/sec" revision="0" />
+  <Message key="CounterBytesRead" value="Gelesene Bytes/sec" revision="0" />
+  <Message key="CounterBytesWritten" value="Geschriebene Bytes/sec" revision="0" />
+  <Message key="Unable to retrieve data" value="Daten können nicht abgerufen werden" revision="0" />
+  <Message key="StartTransferASAP" value=", Übertragung schnell starten" revision="0" />
+  <Message key="DeviceQueryTextFmt1" value="Beschreibung: {string}" revision="0" />
+  <Message key="DeviceQueryTextFmt2" value="Standort: {string}" revision="0" />
+  <Message key="DeviceIDFmt" value="Geräte ID: {id}" revision="0" />
+  <Message key="Hardware IDs" value="Hardware IDs:" revision="0" />
+  <Message key="Compatible IDs" value="Kompatible IDs: " revision="0" />
+  <Message key="InstanceIDFmt" value="Instanz ID: {id}" revision="0" />
+  <Message key="SerialNumberFmt" value="Seriennummer: {id}" revision="0" />
+  <Message key="NoStringFmt" value="Kein String, Fehlercode {code}" revision="0" />
+  <Message key="Select Interface" value="Interface auswählen" revision="0" />
+  <Message key="EndpointAddressFmt" value="{handle} (Endpunkt Adresse: {address})\n" revision="0" />
+  <Message key="UsbConfigurationFmt" value="Konfiguration Handle: {handle}, Interface Nummer: {interface}, Alternative Einstellung: {alt_set}\n" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />
