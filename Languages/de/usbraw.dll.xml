@@ -1,5 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Dependent Devices" value="Abhängige Geräte" revision="0" />
+  <Message key="CounterPacketsTotal" value="Pakete Gesamt/Sek." revision="0" />
+  <Message key="CounterBytesTransferTotal" value="Bytes Gesamt/Sek." revision="0" />
+  <Message key="Get Descriptor Request" value="Deskriptor holen Anfrage" revision="0" />
+  <Message key="Set Descriptor Request" value="Deskriptor einstellen Anfrage" revision="0" />
+  <Message key="Function Code: " value="Funktionscode: " revision="0" />
+  <Message key="DirectionDown" value="Richtung: Abwärts\nData Länge: " revision="0" />
+  <Message key="DirectionUp" value="Richtung: Up\nData Länge: " revision="0" />
+  <Message key="VILFmt" value="Wert: {value}\nIndex: {index}\nLänge: {length}" revision="0" />
+  <Message key="Control Transfer" value="Kontrolle übertragen" revision="0" />
+  <Message key="Setup Packet" value="Setup-Paket" revision="0" />
+  <Message key="UsbRequestFmt" value="Anfrage: {id} ({name})\n" revision="0" />
+  <Message key="SchemeBasic" value="Grundlegend" revision="0" />
+  <Message key="SchemeComplete" value="Vollständig" revision="0" />
+  <Message key="SetupPacketFmt" value="Empfänger: {recp}\nAnfrage Typ: {type}\nRichtung: {dir}\n" revision="0" />
+  <Message key="UsbDescriptorFmt" value="Deskriptor Typ: {name}\nDeskriptor-Index: {index}\nGröße des Übertragungspuffers: {size} bytes\n" revision="0" />
+  <Message key="UsbDescriptorLangFmt" value="SpracheId: {index}" revision="0" />
+  <Message key="Bulk or Interrupt Transfer" value="Bulk- oder Interrupt-Transfer" revision="0" />
+  <Message key="Get" value="Holen" revision="0" />
+  <Message key="UsbSizeFmt" value="{size} bytes" revision="0" />
+  <Message key="from the device" value="vom Gerät" revision="0" />
+  <Message key="Send" value="Senden" revision="0" />
+  <Message key="to the device" value="zum Gerät" revision="0" />
+  <Message key="UsbTransferFmt" value="{operation} {size} bytes {dir}" revision="0" />
+  <Message key="Select Configuration" value="Konfiguration auswählen" revision="0" />
+  <Message key="ConfigurationIndexUnconfigured" value="Konfigurationsindex: &lt;unkonfiguriert&gt;\n" revision="0" />
+  <Message key="ConfigurationIndexFmt" value="Konfigurationsindex: {id}\n" revision="0" />
+  <Message key="ConfigurationHandleFmt" value="Konfiguration Handle: {handle}" revision="0" />
+  <Message key="Get Status Request" value="Holen Status-Anfrage" revision="0" />
+  <Message key="GetStatusFmt" value="Holen Status von {name}. Länge der Daten" revision="0" />
+  <Message key="Set Feature Request" value="Feature-Anfrage einstellen" revision="0" />
+  <Message key="Clear Feature Request" value="Feature-Anfrage löschen" revision="0" />
+  <Message key="FeatureFmt" value="{state} funktion {selector} auf {endpoint}" revision="0" />
+  <Message key="index" value="Index" revision="0" />
+  <Message key="Vendor-Specific Request" value="Anbieter-spezifisch Anfrage" revision="0" />
+  <Message key="Class-Specific Request" value="Klassen-spezifisch Anfrage" revision="0" />
+  <Message key="ReservedBitsFmt" value="Reservierte Bits {count}\nAnfrage: {request}\nWert: {value}\n" revision="0" />
+  <Message key="UsbDestinationIndex" value="Reiseziel: {name}, Index {index}\n" revision="0" />
+  <Message key="UsbDestination" value="Reiseziel: {name}\n" revision="0" />
+  <Message key="Get Configuration Request" value="Holen Konfiguration Anfrage" revision="0" />
+  <Message key="Get Interface Request" value="Holen Interface Anfrage" revision="0" />
+  <Message key="InterfaceIndexFmt" value="Interface Index: {index}\n" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Nehmen Sie Rahmen Länge Kontrollanfrage" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Freigabe Rahmen Länge Kontrollanfrage" revision="0" />
+  <Message key="Get Frame Length Request" value="Holen Rahmen Länge Anfrage" revision="0" />
+  <Message key="FrameLengthFmt" value="Rahmen Länge: {length}\nRahmennummer: {number}" revision="0" />
+  <Message key="Set Frame Length Request" value="Rahmen Länge einstellen Anfrage" revision="0" />
+  <Message key="FrameLengthDeltaFmt" value="Rahmen Länge Delta: {delta}" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Holen Aktueller Rahmen Nummer Anfrage" revision="0" />
+  <Message key="FrameNumberFmt" value="Rahmen Nummer: {frame}" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Gerät: {name}) Status: {status}\n" revision="0" />
+  <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Gerät: {name})\n" revision="0" />
+  <Message key="Device Descriptor" value="Gerätedeskriptor\n" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />
