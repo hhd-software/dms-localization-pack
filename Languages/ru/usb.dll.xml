@@ -19,7 +19,7 @@
   <Message key="DeviceDescriptor8" value="\n Адрес энд поинта [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], макс. размер пакета: [[[b{bytes} bytes]]]" revision="0" />
   <Message key="DeviceDescriptor9" value=", интервал обновления: [[[b{interval}]]]" revision="0" />
   <Message key="UnknownDescriptor" value="\n\n Неизвестный дескриптор (Тип: {type}, Длина: {bytes} bytes)" revision="0" />
-  <Message key="DeviceDescriptor10" value="\n\n[[[b[[[uПотоковое аудио (AS) Isochronus Audio Data Endpoint Descriptor]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor10" value="\n\n[[[b[[[uПотоковое аудио (AS) Isochronous Audio Data Endpoint Descriptor]]]]]]\n" revision="0" />
   <Message key="DeviceDescriptor11" value="\n\n[[[b[[[uУправление видео (VC) Interrrupt Endpoint Descriptor]]]]]]\n" revision="0" />
   <Message key="DeviceDescriptor12" value="Резервный элемент\n" revision="0" />
   <Message key="DeviceDescriptor13" value="Использований ({min}-{max}): [[[b" revision="0" />

@@ -1,5 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Nächstes angeschlossenes Gerät (USB)" revision="0" />
+  <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Das ausgewählte Gerät kann nicht angeschlossen werden." revision="0" />
+  <Message key="Unknown Device" value="Unbekanntes Gerät" revision="0" />
+  <Message key="EmergencyErrorType" value="Notbeendigung einer USB-Sitzung" revision="0" />
+  <Message key="USB.Advertise.Text" value="Wir bieten auch eine USB Monitoring Control ActiveX-Bibliothek an, mit der Sie die Überwachungsfunktionalität in Ihre eigene Anwendung integrieren können." revision="0" />
+  <Message key="Not specified" value="Keine Angaben" revision="0" />
+  <Message key="Unable to retrieve" value="Stringdeskriptor {id} (kann nicht gelesen werden)" revision="0" />
+  <Message key="DeviceDescriptor0" value="[[[bDieses Gerät ist Teil eines zusammengesetzten Geräts.]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor1" value="[[[b[[[uVerbindungsinformationen]]]]]]\n\n Port: [[[b{port}]]]\n Geschwindigkeit: [[[b{speed}]]]\n Geräteadresse: [[[b{addr}]]]\n Offene pipes: [[[b{pipes}]]]\n Verbindungsstatus: [[[b{status}]]]\n" revision="0" />
+  <Message key="DeviceDescriptor2" value="\n\n[[[b[[[uGerätedeskriptor]]]]]]\n\n USB version: [[[b{ver_major}.{ver_minor}]]]\n Geräteklasse: [[[b{class_code} - {class}]]]\n Geräteunterklasse: [[[b{subcode} - {subclass}]]]\n Geräteprotokoll: [[[b{proto_code} - {proto}]]]\n Steuerung pipe max. Größe: [[[b{max_bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor3" value="\n Anbieter-ID: [[[b{vendor_id} ({vendor})]]]\n Produkt-ID: [[[b{product_id} ({product})]]]\n Produktversion: [[[b{ver_major}.{ver_minor}]]]\n Hersteller: [[[b{manufacturer}]]]\n Produkt: [[[b{product_name}]]]\n Seriennummer: [[[b{serial}]]]\n Konfigurationen: [[[b{config_num}]]]\n" revision="0" />
+  <Message key="DeviceDescriptor4" value="[[[b[[[uKonfiguration Deskriptor]]]]]]\n\n Anzahl der Interfaces: [[[b{num_interfaces}]]]\n Konfigurationswert: [[[b{config_value}]]]\n Attribute: [[[b{attribs}]]]" revision="0" />
+  <Message key="DeviceDescriptor5" value="\n Max Leistung: [[[b{power} mA]]]" revision="0" />
+  <Message key="DeviceDescriptor6" value="\n\n Unbekannter Deskriptor (Typ: {type}, Länge: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor7" value="\n\n[[[b[[[uInterface Deskriptor: {descriptor}, Alternative Einstellung: {alter}]]]]]]\n\n Anzahl der Endpunkte: [[[b{endpoints}]]]\n Interface Klasse: [[[b{class_id} - {class}]]]\n Interface Unterklasse: [[[b{sub_id} - {subclass}]]]\n Interface Protokoll: [[[b{proto_id} - {proto}]]]" revision="0" />
+  <Message key="DeviceDescriptor8" value="\n Endpunkt Adresse [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], max. Paketgröße: [[[b{bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor9" value=", update ntervall: [[[b{interval}]]]" revision="0" />
+  <Message key="UnknownDescriptor" value="\n\nUnbekannter Deskriptor (Typ: {type}, Länge: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor10" value="\n\n[[[b[[[uAudio Streaming (AS) Isochroner Audio Daten Endpunkt Deskriptor]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor11" value="\n\n[[[b[[[uVideo Control (VC) Unterbrechung Endpunkt Deskriptor]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor12" value="Reserveelement\n" revision="0" />
+  <Message key="DeviceDescriptor13" value="Nutzungen ({min}-{max}): [[[b" revision="0" />
+  <Message key="DeviceDescriptor14" value="[[[b[[[uHID Deskriptor]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor15" value="[[[b[[[uAudio Kontrolle (AC) Deskriptor: {name}]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor16" value="[[[b[[[uAudio Streaming (AS) Deskriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor17" value="[[[b[[[uMIDI Streaming (AS) Deskriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor18" value="[[[b[[[uVideo Kontrolle (VC) Deskriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor19" value="[[[b[[[uVideo Streaming (VS) Deskriptor: {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor20" value="[[[b[[[uKommunikationsklassenspezifischer Deskriptor: {type} ({name})]]]]]]\n\n" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />

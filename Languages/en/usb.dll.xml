@@ -103,8 +103,8 @@
 		<Param name="bytes"/>
 	</Message>
 
-	<Message key="DeviceDescriptor10" description="Device descriptor formatted text" value="\n\n[[[b[[[uAudio Streaming (AS) Isochronus Audio Data Endpoint Descriptor]]]]]]\n"/>
-	<Message key="DeviceDescriptor11" description="Device descriptor formatted text" value="\n\n[[[b[[[uVideo Control (VC) Interrrupt Endpoint Descriptor]]]]]]\n"/>
+	<Message key="DeviceDescriptor10" description="Device descriptor formatted text" value="\n\n[[[b[[[uAudio Streaming (AS) Isochronous Audio Data Endpoint Descriptor]]]]]]\n"/>
+	<Message key="DeviceDescriptor11" description="Device descriptor formatted text" value="\n\n[[[b[[[uVideo Control (VC) Interrupt Endpoint Descriptor]]]]]]\n"/>
 	<Message key="DeviceDescriptor12" description="Device descriptor formatted text" value="Reserved Item\n"/>
 
 	<Message key="DeviceDescriptor13" description="Device descriptor formatted text" value="Usages ({min}-{max}): [[[b">
