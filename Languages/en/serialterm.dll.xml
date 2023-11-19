@@ -74,9 +74,9 @@
 
   <Enumeration key="TerminalSendFilters" description="Terminal file send filters">
     <Item text="Text Files"/>
-    <Item text="*.txt"/>
+    <Item optional="true" text="*.txt"/>
     <Item text="All Files"/>
-    <Item text="*.*"/>
+    <Item optional="true" text="*.*"/>
   </Enumeration>
 
   <Message key="Stop Terminal Session" description="Command: Stop Terminal Session"/>

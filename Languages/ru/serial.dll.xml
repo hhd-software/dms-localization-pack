@@ -91,11 +91,11 @@
     <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="CapabilitiesEnum">
-    <Item value="DTR/DSR" revision="0" />
-    <Item value="RTS/CTS" revision="0" />
-    <Item value="RLSD (DCD)" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Проверка чётности" revision="0" />
-    <Item value="XON/XOFF" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Устанавливаемый XON/XOFF" revision="0" />
     <Item value="Общие таймауты" revision="0" />
     <Item value="Интервальные таймауты" revision="0" />
@@ -109,7 +109,7 @@
     <Item value="Стоп биты" revision="0" />
     <Item value="Управление потоком" revision="0" />
     <Item value="Проверка чётности" revision="0" />
-    <Item value="RLSD (DCD)" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
     <Item value="5" revision="0" />

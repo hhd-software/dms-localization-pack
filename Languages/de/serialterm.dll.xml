@@ -1,43 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="savetoworkspace" value="Terminal-Konfiguration in den Arbeitsbereich einbinden" revision="0" />
+  <Message key="sendtofile_line" value="Textzeilen aus einer Datei nacheinander senden" revision="0" />
+  <Message key="converttabs" value="Tabulatorzeichen in N Leerzeichen umwandeln (N=0 - deaktiviert)" revision="0" />
+  <Message key="chunk_size" value="Größe des Datenblocks" revision="0" />
+  <Message key="newsession_notify" value="Erstellung von Terminalsitzungen" revision="0" />
+  <Message key="Serial Terminal" value="Serielles Terminal" revision="0" />
+  <Message key="Array expected" value="Byte-Array erwartet" revision="0" />
+  <Message key="Invalid constant" value="Ungültiger konstanter Wert" revision="0" />
+  <Message key="New" value="Neu" revision="0" />
+  <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Gesendet: {sent} Empfangen: {received}" revision="0" />
+  <Message key="Data Paste" value="Bitte warten Sie, während die Daten gesendet werden." revision="0" />
+  <Message key="Find Operation" value="Suche nach Text" revision="0" />
+  <Message key="NoDevicesFound" value="Keine seriellen Geräte gefunden." revision="0" />
+  <Message key="TerminalError" value="Terminalsitzung kann nicht erstellt werden für {friendly name}: {error text} ({error code})" revision="0" />
+  <Message key="TerminalSendError" value="Daten können nicht gesendet: {error text} ({error code})" revision="0" />
+  <Message key="Stop Terminal Session" value="Terminalsitzung beenden" revision="0" />
+  <Message key="Click To Switch State" value="Klicken, um den Status zu wechseln" revision="0" />
+  <Message key="Advanced Send title" value="Erweitertes Senden: {port}" revision="0" />
+  <Message key="Device Setup" value="Gerät einrichten" revision="0" />
+  <Message key="Configuration with this name already exists. Do you want to overwrite it?" value="Eine Konfiguration mit diesem Namen existiert bereits. Möchten Sie sie überschreiben?" revision="0" />
+  <Message key="No description" value="Keine Beschreibung" revision="0" />
+  <Message key="Enter the configuration name." value="Geben Sie den Konfigurationsnamen ein." revision="0" />
+  <Message key="Configuration will be lost! Do you want to continue?" value="Die Konfiguration wird verloren gehen! Möchten Sie fortfahren?" revision="0" />
+  <Message key="The configuration will be deleted. Do you want to continue?" value="Die Konfiguration wird gelöscht. Möchten Sie fortfahren?" revision="0" />
+  <Message key="Save to File" value="In Datei speichern" revision="0" />
+  <Message key="Serial Terminal component has expired!" value="Die Komponente Serielles Terminal ist abgelaufen!" revision="0" />
+  <Message key="Session Configuration" value="Konfiguration der Sitzung" revision="0" />
+  <Message key="Scheme:" value="Schema:" revision="0" />
+  <Message key="Device:" value="Gerät:" revision="0" />
+  <Message key="Connect" value="Verbinden" revision="0" />
+  <Message key="Defaults" value="Standardwerte" revision="0" />
+  <Message key="Ignore delay (burst mode)" value="Verzögerung ignorieren (Burst-Modus)" revision="0" />
+  <Message key="Loop mode:" value="Schleifenmodus:" revision="0" />
+  <Message key="loops" value="Schleifen" revision="0" />
+  <Message key="milliseconds" value="Millisekunden" revision="0" />
+  <Message key="Delay:" value="Verzögerung:" revision="0" />
+  <Message key="Send" value="Senden" revision="0" />
   <Enumeration key="TerminalNewSession">
-    <Item />
-    <Item />
+    <Item value="Terminal-Sitzung starten…" revision="0" />
+    <Item value="Serielles Terminal für das ausgewählte Gerät starten." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSpecialSend">
-    <Item />
-    <Item />
+    <Item value="Erweitertes Senden…" revision="0" />
+    <Item value="Senden von Binärdaten." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFile">
-    <Item />
-    <Item />
+    <Item value="Datei senden…" revision="0" />
+    <Item value="Senden Sie den Inhalt einer Datei an die Terminalsitzung." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalCRLF">
-    <Item />
-    <Item />
+    <Item value="CR+LF auf Enter senden" revision="0" />
+    <Item value="CR+LF (statt CR) auf Enter senden" revision="0" />
   </Enumeration>
   <Enumeration key="SerialTerminal">
-    <Item />
-    <Item />
+    <Item value="Serielles Terminal" revision="0" />
+    <Item value="Serielles Terminal" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTermSessions">
-    <Item />
-    <Item />
+    <Item value="Terminalsitzungen" revision="0" />
+    <Item value="Listet die aktuell laufenden seriellen Terminalsitzungen auf" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFilters">
+    <Item value="Text Dateien" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Alle Dateien" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="TerminalEcho">
-    <Item />
-    <Item />
+    <Item value="Echo" revision="0" />
+    <Item value="Echomodus ein/aus schalten" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gesendeter Text" revision="0" />
+    <Item value="Empfangener Text" revision="0" />
+    <Item value="Gesendeter Hex-Dump" revision="0" />
+    <Item value="Empfangener Hex-Dump" revision="0" />
   </Enumeration>
 </Language>

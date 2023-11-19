@@ -448,12 +448,12 @@
     <Item />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nummer" revision="1" />
+    <Item value="Name" revision="1" />
+    <Item value="Wert" revision="1" />
+    <Item value="Versetzt" revision="1" />
+    <Item value="Größe" revision="1" />
+    <Item value="Typ" revision="1" />
+    <Item value="Zeit" revision="1" />
   </Enumeration>
 </Language>

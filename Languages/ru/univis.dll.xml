@@ -645,12 +645,12 @@
     <Item value="ЧЕТВЕРНОЕ" revision="1" />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item value="Номер" revision="0" />
-    <Item value="Имя" revision="0" />
-    <Item value="Значение" revision="0" />
-    <Item value="Адрес" revision="0" />
-    <Item value="Размер" revision="0" />
-    <Item value="Тип" revision="0" />
-    <Item value="Время" revision="0" />
+    <Item value="Номер" revision="1" />
+    <Item value="Имя" revision="1" />
+    <Item value="Значение" revision="1" />
+    <Item value="Адрес" revision="1" />
+    <Item value="Размер" revision="1" />
+    <Item value="Тип" revision="1" />
+    <Item value="Время" revision="1" />
   </Enumeration>
 </Language>
