@@ -52,7 +52,18 @@
   <Message key="FrameNumberFmt" value="Rahmen Nummer: {frame}" revision="0" />
   <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Gerät: {name}) Status: {status}\n" revision="0" />
   <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Gerät: {name})\n" revision="0" />
-  <Message key="Device Descriptor" value="Gerätedeskriptor\n" revision="0" />
+  <Message key="Device Descriptor" value="Geräte Deskriptor\n" revision="0" />
+  <Message key="DisplayDescriptorFmt" value="Länge: {length} bytes, USB-Spezifikation: {spec}\nKlasse: {class}, Unterklasse: {subclass}, Protokoll: {protocol}      \nMax. Paketgröße: {size} bytes\nAnbieter-ID: {vendor_id} ({vendor_name}), Produkt-ID: {prod_id}, Gerät Version: {version}\nHersteller: {manufacturer}, Produkt: {product}, Seriennummer: {serial}\nAnzahl der Konfigurationen: {num_configs}" revision="0" />
+  <Message key="Configuration Descriptor" value="Konfiguration Deskriptor\n" revision="0" />
+  <Message key="UsbConfigurationDescriptorFmt" value="Länge: {length} bytes, Gesamtlänge: {total_len} bytes\nAnzahl der Interfaces: {num_interfaces}, Konfiguration Desk.: {config}\n      Attribute: {attribs}: {attr1} {attr2} {attr3}\nMaximale Leistung: {max_power}" revision="0" />
+  <Message key="Interface Descriptor" value="Interface Deskriptor\n" revision="0" />
+  <Message key="InterfaceDescriptorFmt" value="Länge: {length}\nInterface-Nummer: {number}, Alternative Einstellung: {alt_set}\n     Anzahl der Endpunkte: {endpoints}\nKlasse: {class}, Unterklasse: {subclass}, Protokoll: {protocol}\nInterface Desk.: {interface}" revision="0" />
+  <Message key="Endpoint Descriptor" value="Endpunkt Deskriptor\n" revision="0" />
+  <Message key="EndpointDescriptorFmt" value="Länge: {length}\nEndpunkt-Adresse: {addr} ({name})\n     Attribute: {attribs} (attr_names)\nMaximale Paketgröße: {size} bytes\n" revision="0" />
+  <Message key="Interval" value="Intervall: {frames} rahmens" revision="0" />
+  <Message key="Isochronous Transfer" value="Isochrone Übertragung" revision="0" />
+  <Message key="IsochTransferFmt" value="\nStartrahmen: {frame}, Anzahl der Pakete: {packets}, Fehlerzahl: {error}{asap}\n" revision="0" />
+  <Message key="UsbIsochronousTransferFmt" value="Versetzt: {offset}, Länge: {length}, Status: {status}\n" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />
