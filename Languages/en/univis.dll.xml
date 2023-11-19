@@ -811,18 +811,18 @@
 		<Item text="Hex"/>
 	</Enumeration>
 
-	<Enumeration key="FRGroupList" description="Find/Replace groupping list" revision="1">
+	<Enumeration optional="true" key="FRGroupList" description="Find/Replace groupping list" revision="1">
 		<Item text="BYTE"/>
 		<Item text="WORD"/>
 		<Item text="DWORD"/>
 		<Item text="QWORD"/>
 	</Enumeration>
 
-	<Enumeration key="SViewColumns" description="Structure view columns list">
+	<Enumeration key="SViewColumns" description="Structure view columns list" revision="1">
 		<Item text="Number"/>
 		<Item text="Name"/>
 		<Item text="Value"/>
-		<Item text="Address"/>
+		<Item text="Offset"/>
 		<Item text="Size"/>
 		<Item text="Type"/>
 		<Item text="Time"/>
