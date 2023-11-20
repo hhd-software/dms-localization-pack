@@ -30,6 +30,21 @@
   <Message key="DeviceDescriptor18" value="[[[b[[[uVideo Kontrolle (VC) Deskriptor: {name}]]]]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor19" value="[[[b[[[uVideo Streaming (VS) Deskriptor: {name}]]]]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor20" value="[[[b[[[uKommunikationsklassenspezifischer Deskriptor: {type} ({name})]]]]]]\n\n" revision="0" />
+  <Message key="UsbInput" value="Eingabe" revision="0" />
+  <Message key="UsbOutput" value="Ausgabe" revision="0" />
+  <Message key="1msFramesFmt" value="{number} 1-millisekunde-frames" revision="0" />
+  <Message key="MicroFramesFmt" value="{number} mikroframes" revision="0" />
+  <Message key="Restart Device" value="Gerät neu starten" revision="0" />
+  <Message key="Audio Device Class Specification Release Number:" value="Audio-Geräteklasse Spezifikation Freigabenummer:" revision="0" />
+  <Message key="Total Length:" value="Gesamtlänge:" revision="0" />
+  <Message key="Number of Interfaces:" value="Anzahl der Interfaces:" revision="0" />
+  <Message key="Number Of Output Channels:" value="Anzahl der Ausgangskanäle:" revision="0" />
+  <Message key="Name (String Descriptor ID):" value="Name (String Deskriptor ID):" revision="0" />
+  <Message key="Description (String Descriptor ID):" value="Beschreibung (String Deskriptor ID):" revision="0" />
+  <Message key="Number of Pins:" value="Anzahl der Pins:" revision="0" />
+  <Message key="Channel Configuration:" value="Kanal-Konfiguration:" revision="0" />
+  <Message key="Channel Names:" value="Namen der Kanäle:" revision="0" />
+  <Message key="Programmable Controls:" value="Programmierbare Kontrollen:" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
