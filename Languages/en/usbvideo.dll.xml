@@ -479,10 +479,4 @@
 		<Item text="Header 2"/>
 		<Item text="Header 3"/>
 	</Enumeration>
-
-	<Enumeration key="NewVideoViewConverter" description="New Video View Converter">
-		<Item text="Video View"/>
-		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.1) compliant device."/>
-	</Enumeration>
-	
 </Definition>

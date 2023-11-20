@@ -137,9 +137,9 @@
 
 	<!-- New USB Video View (based on Custom View) localization -->
 
-	<Enumeration key="USBVideoView" description="USB Video View visualizer">
+	<Enumeration key="NewVideoViewConverter" description="New Video View Converter">
 		<Item text="Video View"/>
-		<Item text="Video View data visualizer parses packets for USB Video (version 1.5) compliant device."/>
+		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.5) compliant device."/>
 	</Enumeration>
 
 	<Enumeration key="USBVideoViewSchemes" description="USB Video View visualizer schemes (coloring and fonts)">

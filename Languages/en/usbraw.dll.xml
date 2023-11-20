@@ -34,11 +34,6 @@
 		<Item text="USB endpoints"/>
 	</Enumeration>
 
-	<Enumeration key="VideoView" description="Video View">
-		<Item text="Video View"/>
-		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.5) compliant device."/>
-	</Enumeration>
-
 	<Enumeration key="UsbDescriporsList" description="USB descriptor types list">
 		<Item text="Device Descriptor"/>
 		<Item text="Configuration Descriptor"/>
