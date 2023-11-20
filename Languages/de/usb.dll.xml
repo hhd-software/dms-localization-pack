@@ -45,7 +45,7 @@
   <Message key="Channel Configuration:" value="Kanal-Konfiguration:" revision="0" />
   <Message key="Channel Names:" value="Namen der Kanäle:" revision="0" />
   <Message key="Programmable Controls:" value="Programmierbare Kontrollen:" revision="0" />
-  <Message key="SourceFmt" value="Quelle {number}:" revision="0" />
+  <Message key="SourceFmt" value="Quelle{number}:" revision="0" />
   <Message key="Control Size:" value="Kontrolle Größe:" revision="0" />
   <Message key="Supported Controls:" value="Unterstützte Kontrollen:" revision="0" />
   <Message key="Interface Number:" value="Interface Nummer:" revision="0" />
@@ -74,9 +74,125 @@
   <Message key="Max Multiplier:" value="Max Multiplikator:" revision="0" />
   <Message key="Controls:" value="Kontrollen:" revision="0" />
   <Message key="ControlFmt" value="Kontrolle{number}:\n" revision="0" />
+  <Message key="Number of Formats:" value="Anzahl der Formate:" revision="0" />
+  <Message key="Endpoint Address:" value="Endpunkt Adresse:" revision="0" />
+  <Message key="Still Capture Method:" value="Still Capture Methode:" revision="0" />
+  <Message key="Trigger Support:" value="Auslöser unterstützung:" revision="0" />
+  <Message key="Trigger Usage:" value="Auslösen verwendung:" revision="0" />
+  <Message key="FormatFmt" value="Format{number}:\n" revision="0" />
+  <Message key="Width:" value="Breite:" revision="0" />
+  <Message key="Height:" value="Höhe:" revision="0" />
+  <Message key="CompressionFmt" value="Komprimierung{number}:" revision="0" />
+  <Message key="Color Primaries:" value="Farbe Primaries:" revision="0" />
+  <Message key="Transfer Characteristics:" value="Eigenschaften übertragen:" revision="0" />
+  <Message key="Matrix Coefficients:" value="Matrix Koeffizienten:" revision="0" />
+  <Message key="Format Index:" value="Format Index:" revision="0" />
+  <Message key="Number of Frame Descriptors:" value="Anzahl der Frame-Deskriptoren:" revision="0" />
+  <Message key="Format GUID:" value="Format GUID:" revision="0" />
+  <Message key="Bits Per Pixel:" value="Bits pro Pixel:" revision="0" />
+  <Message key="Optimum Frame Index:" value="Optimaler Frame Index:" revision="0" />
+  <Message key="Aspect Ratio X:" value="Bildseitenverhältnis X:" revision="0" />
+  <Message key="Aspect Ratio Y:" value="Bildseitenverhältnis Y:" revision="0" />
+  <Message key="Copy Protect:" value="Kopierschutz:" revision="0" />
+  <Message key="Interlace Flags:" value="Interlace Flags:\n" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Interface Stream oder Variable:" revision="0" />
+  <Message key="Fields Per Frame:" value="Felder pro Frame:" revision="0" />
+  <Message key="Field 1 Is First:" value="Feld 1 ist das erste:" revision="0" />
+  <Message key="Min Bit Rate:" value="Min. Bitrate:" revision="0" />
+  <Message key="Max Bit Rate:" value="Max. Bitrate:" revision="0" />
+  <Message key="Max Video Frame Buffer Size:" value="Maximale Größe des Videobildpuffers:" revision="0" />
+  <Message key="Default Frame Interval:" value="Standard Frame Intervall:" revision="0" />
+  <Message key="Frame Interval Type:" value="Frame Intervall Typ:" revision="0" />
+  <Message key="Min Frame Interval (in 100 ns):" value="Min. Frame-Intervall (in 100 ns):" revision="0" />
+  <Message key="Max Frame Interval (in 100 ns):" value="Max Frame Intervall (in 100 ns):" revision="0" />
+  <Message key="Frame Interval Step (in 100 ns):" value="Frame Intervall Schritt (in 100 ns):" revision="0" />
+  <Message key="FrameIntervalFmt" value="Frame Intervall{number}:" revision="0" />
+  <Message key="Data Offset:" value="Daten Offset:" revision="0" />
+  <Message key="Length of TSP Packet:" value="Länge des TSP-Pakets:" revision="0" />
+  <Message key="Length of Transport Stride:" value="Länge des Transport Stride:" revision="0" />
+  <Message key="Format of Stride Data:" value="Format der Stride Daten:" revision="0" />
+  <Message key="Variable Size:" value="Variable Größe:" revision="0" />
+  <Message key="Bytes Per Line:" value="Bytes pro Linie:" revision="0" />
+  <Message key="Packet Length:" value="Länge des Pakets:" revision="0" />
+  <Message key="Number of Channels:" value="Anzahl von Kanälen:" revision="0" />
+  <Message key="Format Type:" value="Format Typ:" revision="0" />
+  <Message key="Subframe Size:" value="Hilfsrahmen Größe:" revision="0" />
+  <Message key="Bit Resolution:" value="Bit Auflösung:" revision="0" />
+  <Message key="Sampling Frequency Lower Bound:" value="Untere Grenze der Abtastfrequenz:" revision="0" />
+  <Message key="Sampling Frequency Upper Bound:" value="Obere Grenze der Abtastfrequenz:" revision="0" />
+  <Message key="SamplingFrequencyFmt" value="Abtastfrequenz{number}:" revision="0" />
+  <Message key="Max Bitrate:" value="Max. Bitrate:" revision="0" />
+  <Message key="Samples Per Frame:" value="Samples pro Frame:" revision="0" />
+  <Message key="Payload Type:" value="Nutzlast Typ:" revision="0" />
+  <Message key="MPEG Capabilities:" value="MPEG Fähigkeiten:" revision="0" />
+  <Message key="MPEG Features:" value="MPEG Funktionen:" revision="0" />
+  <Message key="AC3 Features:" value="AC3 Funktionen:" revision="0" />
+  <Message key="MS_CS_ENDPOINT_2" value="Jack({number}) ID: [[[b{value}]]]\n" revision="0" />
+  <Message key="Max Transfer Size:" value="Max. Übertragungsgröße:" revision="0" />
+  <Message key="Data Interface:" value="Daten Interface:" revision="0" />
+  <Message key="Ringer Volume Steps:" value="Ruftonlautstärkestufen:" revision="0" />
+  <Message key="Simple Mode" value="Einfacher Modus" revision="0" />
+  <Message key="Standalone Mode" value="Standalone Modus" revision="0" />
+  <Message key="Computer Centric Mode " value="Computerzentrierter Modus " revision="0" />
+  <Message key="Dialtone" value="Wählton" revision="0" />
+  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Meldet unterbrochenes Freizeichen zusätzlich zum normalen Freizeichen" revision="0" />
+  <Message key="Reports only dialtone" value="Meldet nur Wählton" revision="0" />
+  <Message key="Dialing State" value="Wählstatus" revision="0" />
+  <Message key="Reports ringback, busy, fast busy states" value="Meldet die Zustände Rückruf, Besetzt, Schnellbesetzt" revision="0" />
+  <Message key="Reports only dialing state" value="Meldet nur den Wählstatus" revision="0" />
+  <Message key="Caller ID" value="Anrufer ID" revision="0" />
+  <Message key="Reports caller ID information" value="Meldet Anrufer ID Informationen" revision="0" />
+  <Message key="Does not report caller ID" value="Meldet keine Anrufer ID" revision="0" />
+  <Message key="Ringing" value="Klingeln" revision="0" />
+  <Message key="Reports incoming distinctive ringing patterns" value="Meldet eingehende markante Klingelmuster" revision="0" />
+  <Message key="Reports only incoming ringing" value="Meldet nur eingehende Anrufe" revision="0" />
+  <Message key="DTMF digits" value="DTMF Ziffern" revision="0" />
+  <Message key="Can report DTMF digits input remotely over the telephone line" value="Kann über die Telefonleitung eingegebene DTMF Ziffern fernmelden" revision="0" />
+  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Kann keine DTMF Ziffern melden, die über die Telefonleitung eingegeben werden" revision="0" />
+  <Message key="Line State Change Notification" value="Benachrichtigung Änderung des Leitungsstatus" revision="0" />
+  <Message key="Does support" value="Unterstützt" revision="0" />
+  <Message key="Does not support" value="Unterstützt nicht" revision="0" />
+  <Message key="SlaveInterfacelFmt" value="Slave Interface{number}:" revision="0" />
+  <Message key="Master Interface" value="Master Interface" revision="0" />
+  <Message key="Country Code Release Date:" value="Ländercode Erscheinungsdatum:" revision="0" />
+  <Message key="CountryCodeFmt" value="Ländercode{number}:" revision="0" />
+  <Message key="Entity ID:" value="Entitäts ID:" revision="0" />
+  <Message key="In Interface Number:" value="In Interface Nummer:" revision="0" />
+  <Message key="Out Interface Number:" value="Out Interface Nummer:" revision="0" />
+  <Message key="Options:" value="Optionen:" revision="0" />
+  <Message key="ChildIDFmt" value="ChildID{number}:" revision="0" />
+  <Message key="Name (index):" value="Name (Index):" revision="0" />
+  <Message key="Channel Index:" value="Kanalindex:" revision="0" />
+  <Message key="Physical Interface:" value="Physikalisches Interface:" revision="0" />
+  <Message key="Protocol Code:" value="Protokollcode:" revision="0" />
+  <Message key="Extension Code:" value="Verlängerungscode:" revision="0" />
+  <Message key="Device stores Unit parameters in non-volatile memory" value="Gerät speichert Geräteparameter im nichtflüchtigen Speicher" revision="0" />
+  <Message key="Device supports the request Clear_Unit_Parameter" value="Gerät unterstützt die Anforderung Clear_Unit_Parameter" revision="0" />
+  <Message key="Device supports the request Set_Unit_Parameter" value="Gerät unterstützt die Anforderung Set_Unit_Parameter" revision="0" />
+  <Message key="Device is an Intelligent CAPI device" value="Gerät ist ein Intelligentes CAPI-Gerät" revision="0" />
+  <Message key="Device is a Simple CAPI device" value="Gerät ist ein Simple CAPI-Gerät" revision="0" />
+  <Message key="Mac Address (string descriptor index):" value="Mac Address (string deskriptor index):" revision="0" />
+  <Message key="Ethernet Statistics:" value="Ethernet Statistik:" revision="0" />
+  <Message key="Number Of Configurable Multicast Filters:" value="Anzahl der konfigurierbaren Multicast-Filter:" revision="0" />
+  <Message key="Number Of Pattern Filters:" value="Anzahl der Muster-Filter:" revision="0" />
+  <Message key="Max Segment Size:" value="Max. Segmentgröße:" revision="0" />
+  <Message key="End System Identifier (string descriptor index):" value="Endsystem-Identifikator (string-deskriptor-index):" revision="0" />
+  <Message key="Capabilities:" value="Fähigkeiten:" revision="0" />
+  <Message key="ATM Device Statistics:" value="ATM Gerätestatistik:" revision="0" />
+  <Message key="The Maximum Type 2 Segment Size:" value="Die maximale Typ-2-Segmentgröße:" revision="0" />
+  <Message key="The Maximum Type 3 Segment Size:" value="Die maximale Typ-3-Segmentgröße:" revision="0" />
+  <Message key="Maximum Number Of Simultaneous Virtual Circuits:" value="Maximale Anzahl von gleichzeitigen virtuellen Schaltkreisen:" revision="0" />
+  <Message key="Release Number In Binary-Coded Decimal" value="Freigabenummer in binär-codierter dezimaler Form" revision="0" />
+  <Message key="Reserved for future use" value="Reserviert für zukünftige Verwendung" revision="0" />
+  <Message key="MsHeaderFMT" value="Audio-Geräteklasse Revisionsnummer der Spezifikation: [[[b{ver_major}.{ver_minor}]]]\nTotal length: [[[b{bytes} bytes]]]\n" revision="0" />
+  <Message key="MS_MIDI_IN_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\n" revision="0" />
+  <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nEingangspins: [[[b{pins}]]]\n" revision="0" />
+  <Message key="UsbMsPins" value="Pin [[[b{number}]]]: Quelle ID: [[[b {source}]]], Pin: [[[b{pin}]]]\n" revision="0" />
+  <Message key="Frame Index:" value="Frame Index:" revision="0" />
+  <Message key="Controls Size:" value="Kontrollen Größe:" revision="0" />
   <Enumeration key="UsbSource">
-    <Item />
-    <Item />
+    <Item value="USB Monitor" revision="0" />
+    <Item value="Mit dem USB-Datenquellenmodul können Sie die Daten überwachen, die zwischen einem beliebigen USB-Gerät und der Anwendung, die es verwendet, übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
     <Item />

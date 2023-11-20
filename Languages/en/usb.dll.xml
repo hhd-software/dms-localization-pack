@@ -134,7 +134,7 @@
 		<Param name="name"/>
 	</Message>
 
-	<Enumeration key="SpeedTable" description="Speed Table">
+	<Enumeration optional="true" key="SpeedTable" description="Speed Table">
 		<Item text="Low Speed"/>
 		<Item text="Full Speed"/>
 		<Item text="High Speed (USB 2.0)"/>
@@ -501,7 +501,7 @@
 
 	<!--IDS_STRING1161      -->    <Message key="MPEG Capabilities:" description="Field: MPEG Capabilities"/>
 	<!--IDS_STRING1162      -->    <Message key="MPEG Features:" description="Field: MPEG Features"/>
-	<!--IDS_STRING1163      -->    <Message key="BSID:" description="Field: BSID"/>
+	<!--IDS_STRING1163      -->    <Message optional="true" key="BSID:" description="Field: BSID"/>
 	<!--IDS_STRING1164      -->    <Message key="AC3 Features:" description="Field: AC3 Features"/>
 
 	<Message key="MS_CS_ENDPOINT_2" description="Field: USB Endpoint descriptor string" value="Jack({number}) ID: [[[b{value}]]]\n">

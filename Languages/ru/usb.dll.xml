@@ -74,7 +74,6 @@
   <Message key="Max Multiplier:" value="Макс. множитель:" revision="0" />
   <Message key="Controls:" value="Контролы:" revision="0" />
   <Message key="ControlFmt" value="Контрол{number}:\n" revision="0" />
-  <Message key="GUID:" value="GUID:" revision="0" />
   <Message key="Number of Formats:" value="Число форматов:" revision="0" />
   <Message key="Endpoint Address:" value="Адрес энд поинта" revision="0" />
   <Message key="Still Capture Method:" value="Метод захвата изображения:" revision="0" />
@@ -127,7 +126,6 @@
   <Message key="Payload Type:" value="Тип payload:" revision="0" />
   <Message key="MPEG Capabilities:" value="Возможности MPEG:" revision="0" />
   <Message key="MPEG Features:" value="MPEG Функции:" revision="0" />
-  <Message key="BSID:" value="BSID:" revision="0" />
   <Message key="AC3 Features:" value="AC3 Функции:" revision="0" />
   <Message key="MS_CS_ENDPOINT_2" value="Джэк({number}) ID: [[[b{value}]]]\n" revision="0" />
   <Message key="Max Transfer Size:" value="Макс. размер передачи:" revision="0" />
@@ -197,9 +195,9 @@
     <Item value="Модуль USB позволяет отслеживать данные, передаваемые между любым USB-устройством и использующим его приложением." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
-    <Item value="Low Speed" revision="0" />
-    <Item value="Full Speed" revision="0" />
-    <Item value="High Speed (USB 2.0)" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
     <Item value="Super Speed (USB 3.0)" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptor">
