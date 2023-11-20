@@ -95,7 +95,7 @@
   <Message key="Aspect Ratio Y:" value="Соотношение сторон по Y:" revision="0" />
   <Message key="Copy Protect:" value="Защита от копирования:" revision="0" />
   <Message key="Interlace Flags:" value="Флаги интерлейса:\n" revision="0" />
-  <Message key="Interface Stream Or Variable:" value="Интерфейсный поток или переменная:" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Чересстрочный поток или переменная" revision="0" />
   <Message key="Fields Per Frame:" value="Полей на кадр:" revision="0" />
   <Message key="Field 1 Is First:" value="Поле 1 - первым:" revision="0" />
   <Message key="Min Bit Rate:" value="Мин. битрейт:" revision="0" />

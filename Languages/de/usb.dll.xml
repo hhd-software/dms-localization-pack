@@ -95,7 +95,7 @@
   <Message key="Aspect Ratio Y:" value="Bildseitenverhältnis Y:" revision="0" />
   <Message key="Copy Protect:" value="Kopierschutz:" revision="0" />
   <Message key="Interlace Flags:" value="Interlace Flags:\n" revision="0" />
-  <Message key="Interface Stream Or Variable:" value="Interface Stream oder Variable:" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Interlace Stream oder Variable" revision="0" />
   <Message key="Fields Per Frame:" value="Felder pro Frame:" revision="0" />
   <Message key="Field 1 Is First:" value="Feld 1 ist das erste:" revision="0" />
   <Message key="Min Bit Rate:" value="Min. Bitrate:" revision="0" />

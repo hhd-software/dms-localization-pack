@@ -356,7 +356,7 @@
 	<Message optional="true" key="Aspect Ratio X" description="Field: Aspect Ratio X" value="Aspect Ratio X"/>
 	<Message optional="true" key="Aspect Ratio Y" description="Field: Aspect Ratio Y" value="Aspect Ratio Y"/>
 	<Message optional="true" key="Interlace Flags" description="Field: Interlace Flags" value="Interlace Flags"/>
-	<Message optional="true" key="Interface Stream Or Variable" description="Field: Interlace Stream Or Variable" value="Interface Stream Or Variable"/>
+	<Message optional="true" key="Interface Stream Or Variable" description="Field: Interlace Stream Or Variable" value="Interlace Stream Or Variable"/>
 	<Message optional="true" key="Fields Per Frame" description="Field: Fields Per Frame" value="Fields Per Frame"/>
 
 	<Enumeration optional="true" key="UsbVideoFieldsPerFrame" description="USB Video Fields Per Frame list">
