@@ -300,7 +300,7 @@
 		<Param name="number"/>
 	</Message>
 
-	<!--IDS_STRING1198-->          <Message key="GUID:" description="Field: GUID"/>
+	<!--IDS_STRING1198-->          <Message optional="true" key="GUID:" description="Field: GUID"/>
 	<!--IDS_STRING1199-->          <Message key="Number of Formats:" description="Field: Number of Formats"/>
 	<!--IDS_STRING1200-->          <Message key="Endpoint Address:" description="Field: Endpoint Address"/>
 	<!--IDS_STRING1202-->          <Message key="Still Capture Method:" description="Field: Still Capture Method"/>

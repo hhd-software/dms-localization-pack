@@ -45,6 +45,35 @@
   <Message key="Channel Configuration:" value="Kanal-Konfiguration:" revision="0" />
   <Message key="Channel Names:" value="Namen der Kanäle:" revision="0" />
   <Message key="Programmable Controls:" value="Programmierbare Kontrollen:" revision="0" />
+  <Message key="SourceFmt" value="Quelle {number}:" revision="0" />
+  <Message key="Control Size:" value="Kontrolle Größe:" revision="0" />
+  <Message key="Supported Controls:" value="Unterstützte Kontrollen:" revision="0" />
+  <Message key="Interface Number:" value="Interface Nummer:" revision="0" />
+  <Message key="Terminal Link:" value="Terminal Link:" revision="0" />
+  <Message key="Delay:" value="Verzögerung:" revision="0" />
+  <Message key="Format Tag:" value="Format Tag:" revision="0" />
+  <Message key="Attributes:" value="Attribute:" revision="0" />
+  <Message key="Delay Units:" value="Verzögerung Einheiten:" revision="0" />
+  <Message key="Lock Delay:" value="Verzögerung sperren:" revision="0" />
+  <Message key="Processing Type:" value="Verarbeitungstyp:" revision="0" />
+  <Message key="Number of Input Pins:" value="Anzahl der Eingangs-Pins:" revision="0" />
+  <Message key="UnitPinFmt" value="ID der Einheit, an die Pin{Nummer} angeschlossen ist:" revision="0" />
+  <Message key="Number of Supported Modes:" value="Anzahl der unterstützten Modi:" revision="0" />
+  <Message key="ModeFmt" value="Modus{number}:" revision="0" />
+  <Message key="UsbErrorRetriveDescriptors" value="Abruf von Deskriptoren nicht möglich.\r\n\r\nWenn dieses Gerät Teil eines zusammengesetzten Geräts ist, klicken Sie auf das zusammengesetzte Gerät, um die USB-Deskriptoren anzuzeigen." revision="0" />
+  <Message key="UsbUnableToAttach" value="Das ausgewählte USB-Gerät kann nicht angeschlossen werden." revision="0" />
+  <Message key="MS_CS_ENDPOINT_1" value="\n\n[[[b[[[uKlasse-spezifisch MS Bulk-Daten-Endpunkt-Deskriptor]]]]]]\nIntegrierte MIDI-Buchsen: [[[b {number}]]]\n" revision="0" />
+  <Message key="Video Specification Release Number:" value="Video-Spezifikation Versionsnummer:" revision="0" />
+  <Message key="Clock Frequency:" value="Taktfrequenz:" revision="0" />
+  <Message key="Terminal ID:" value="Terminal ID:" revision="0" />
+  <Message key="Associated Output Terminal:" value="Zugehörige Ausgangsklemme:" revision="0" />
+  <Message key="Terminal Type:" value="Terminal Typ:" revision="0" />
+  <Message key="Description (Index of String Descriptor):" value="Beschreibung (Index des String-Deskriptors):" revision="0" />
+  <Message key="Source ID:" value="Quelle ID:" revision="0" />
+  <Message key="Unit ID:" value="Einheit ID:" revision="0" />
+  <Message key="Max Multiplier:" value="Max Multiplikator:" revision="0" />
+  <Message key="Controls:" value="Kontrollen:" revision="0" />
+  <Message key="ControlFmt" value="Kontrolle{number}:\n" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
