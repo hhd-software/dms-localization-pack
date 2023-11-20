@@ -235,7 +235,7 @@
 	<!--IDS_STRING1095-->          <Message key="Channel Names:" description="Field: Channel Names"/>
 	<!--IDS_STRING1096-->          <Message key="Programmable Controls:" description="Field: Programmable Controls"/>
 	<!--IDS_STRING1097-->
-	<Message key="SourceFmt" description="Field: Pin" value="Source {number}:">
+	<Message key="SourceFmt" description="Field: Pin" value="Source{number}:">
 		<Param name="number"/>
 	</Message>
 
