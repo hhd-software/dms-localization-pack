@@ -361,7 +361,7 @@
 	<!--IDS_STRING1238-->          <Message key="Aspect Ratio Y:" description="Field: Aspect Ratio Y"/>
 	<!--IDS_STRING1239-->          <Message key="Copy Protect:" description="Field: Copy Protect"/>
 	<!--IDS_STRING1240-->          <Message key="Interlace Flags:" description="Field: Interlace Flags" value="Interlace Flags:\n"/>
-	<!--IDS_STRING1241-->          <Message key="Interface Stream Or Variable:" description="Field: Interface Stream Or Variable"/>
+	<!--IDS_STRING1241-->          <Message key="Interface Stream Or Variable:" description="Field: Interlace Stream Or Variable"/>
 
 	<Enumeration key="UsbYesNo" description="USB yes/no state list">
 		<Item text="YES"/>
