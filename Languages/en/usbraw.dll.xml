@@ -13,7 +13,7 @@
 
 	<Enumeration key="EditDeviceProperties" description="Command: EditDeviceProperties">
 		<Item text="&amp;Properties…"/>
-		<Item text="Display the selected devic"/>
+		<Item text="Display the selected device"/>
 	</Enumeration>
 
 	<Message key="Dependent Devices" description="Dependent Devices"/>

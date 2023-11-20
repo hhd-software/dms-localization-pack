@@ -127,17 +127,25 @@
   <Message key="CounterIsochronousWritten" value="Isochronous: Geschriebene Bytes/Sek" revision="0" />
   <Message key="CounterIsochronousRead" value="Isochronous: Gelesene Bytes/Sek" revision="0" />
   <Message key="PipeHandleFmt" value="Endpunkt: {addr}, {type}, {dir}" revision="0" />
+  <Message key="STRINGCONTROL" value="Kontrolle" revision="0" />
+  <Message key="STRINGISOCHRONOUS" value="Isochonous" revision="0" />
+  <Message key="STRINGBULK" value="Bulk" revision="0" />
+  <Message key="STRINGINTERRUPT" value="Unterbrechung" revision="0" />
+  <Message key="STRINGINPUT" value="Eingabe" revision="0" />
+  <Message key="STRINGOUTPUT" value="Ausgabe" revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="strukturdefinition wird nicht gefunden. Die Strukturansicht kann keine Ergebnisse anzeigen." revision="0" />
+  <Message key="toolbar.UsbDeviceTree" value="Abhängige Geräte" revision="0" />
   <Enumeration key="EditCopyDeviceName">
-    <Item />
-    <Item />
+    <Item value="Name &amp;kopieren" revision="0" />
+    <Item value="Kopieren Sie den Gerätenamen in die Zwischenablage" revision="0" />
   </Enumeration>
   <Enumeration key="EditRestartDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Neustart" revision="0" />
+    <Item value="Neustart des ausgewählten Geräts" revision="0" />
   </Enumeration>
   <Enumeration key="EditDeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Eigenschaften…" revision="0" />
+    <Item value="Anzeige des ausgewählten Geräts" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
     <Item />
