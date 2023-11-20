@@ -35,7 +35,7 @@
 	</Enumeration>
 
 	<Enumeration key="VideoView" description="Video View">
-		<Item text="Video View (Beta)"/>
+		<Item text="Video View"/>
 		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.5) compliant device."/>
 	</Enumeration>
 

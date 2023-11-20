@@ -148,138 +148,138 @@
     <Item value="Anzeige des ausgewählten Geräts" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Geräte Deskriptor" revision="0" />
+    <Item value="Konfiguration Deskriptor" revision="0" />
+    <Item value="HID Deskriptor" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item />
-    <Item />
+    <Item value="URB Ansicht" revision="0" />
+    <Item value="Der URB Ansicht Datenvisualisierer dekodiert Rohpakete und Steueranfragen, die an das USB-Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
-    <Item />
-    <Item />
+    <Item value="Endpunkte" revision="0" />
+    <Item value="USB-Endpunkte" revision="0" />
   </Enumeration>
   <Enumeration key="VideoView">
-    <Item />
-    <Item />
+    <Item value="Video Ansicht" revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.5) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Geräte Deskriptor" revision="0" />
+    <Item value="Konfiguration Deskriptor" revision="0" />
+    <Item value="String Deskriptor" revision="0" />
+    <Item value="Interface Deskriptor" revision="0" />
+    <Item value="Endpunkt Deskriptor" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Übertragungsart: Kontrolle" revision="0" />
+    <Item value="Übertragungsart: Isochronous" revision="0" />
+    <Item value="Übertragungsart: Bulk" revision="0" />
+    <Item value="Übertragungsart: Unterbrechun" revision="0" />
+    <Item value="Übertragungsart: Unbekannt" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEndpointType">
-    <Item />
-    <Item />
+    <Item value="Eingabe" revision="0" />
+    <Item value="Ausgabe" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestDirection">
-    <Item />
-    <Item />
+    <Item value="Host-&gt;Gerät" revision="0" />
+    <Item value="Gerät-&gt;Host" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Klasse" revision="0" />
+    <Item value="Anbieter" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gerät" revision="0" />
+    <Item value="Interface" revision="0" />
+    <Item value="Andere" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptorType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gerät" revision="0" />
+    <Item value="Konfiguration" revision="0" />
+    <Item value="String" revision="0" />
+    <Item value="HID Deskriptor" revision="0" />
+    <Item value="HID Bericht Deskriptor" revision="0" />
+    <Item value="HID Power Deskriptor" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paket Nr." revision="0" />
+    <Item value="Zeit" revision="0" />
+    <Item value="Zeitunterschied" revision="0" />
+    <Item value="Richtung" revision="0" />
+    <Item value="Status" revision="0" />
+    <Item value="Funktion" revision="0" />
+    <Item value="Gerät" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
-    <Item />
-    <Item />
+    <Item value="Einstellen" revision="0" />
+    <Item value="Klar" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="[Fernaufwachen]" revision="0" />
+    <Item value="[Eigenstromversorgung]" revision="0" />
+    <Item value="[Busstromversorgung]" revision="0" />
   </Enumeration>
   <Enumeration key="PnpEventType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP-Ereignis: Gerät verbunden" revision="0" />
+    <Item value="PnP-Ereignis: Gerät abgetrennt" revision="0" />
+    <Item value="PnP-Ereignis: Überraschungsentzug" revision="0" />
+    <Item value="PnP-Ereignis: Abfrage-ID" revision="0" />
+    <Item value="PnP-Ereignis: Gerätetext abfragen" revision="0" />
+    <Item value="PnP-Ereignis: Abfrage der Interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Das USB-Gerät wurde soeben an das System angeschlossen." revision="0" />
+    <Item value="Das USB-Gerät wurde soeben aus dem System entfernt, alle Treiber wurden entladen." revision="0" />
+    <Item value="Das USB-Gerät wurde soeben vom System abgetrennt." revision="0" />
   </Enumeration>
   <Enumeration key="DeviceQueryType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Abfrage der Geräte ID (BusQueryDeviceID)." revision="0" />
+    <Item value="Abfrage von Hardware IDs (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Abfrage kompatibler IDs (BusQueryCompatibleIDs)." revision="0" />
+    <Item value="Abfrage der Instanz ID (BusQueryInstanceID)." revision="0" />
+    <Item value="Abfrage der Seriennummer (BusQueryDeviceSerialNumber)." revision="0" />
   </Enumeration>
   <Enumeration key="UsbReportTypesList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unbekannt" revision="0" />
+    <Item value="Bericht" revision="0" />
+    <Item value="Physikalisch" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP: Gerät verbunden" revision="0" />
+    <Item value="PnP: Gerät abgekoppelt" revision="0" />
+    <Item value="PnP: Geräteüberraschung entfernen" revision="0" />
+    <Item value="PnP: Abfrage ID" revision="0" />
+    <Item value="PnP: Abfrage Text" revision="0" />
+    <Item value="Intern: Übertragung von Pipe informationen" revision="0" />
+    <Item value="PnP: Anfrage Interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Generischer Desktop" revision="0" />
+    <Item value="Simulation Steuerung" revision="0" />
+    <Item value="VR-Steuerungen" revision="0" />
+    <Item value="Sport Steuerungen" revision="0" />
+    <Item value="Spiel Steuerungen" revision="0" />
+    <Item value="Generisches Gerät" revision="0" />
+    <Item value="Leds" revision="0" />
+    <Item value="Telefonie" revision="0" />
+    <Item value="Tastatur" revision="0" />
+    <Item value="Buttons" revision="0" />
+    <Item value="Ordinale" revision="0" />
+    <Item value="Verbraucher Seite" revision="0" />
+    <Item value="Digitalisierer" revision="0" />
+    <Item value="Unicode" revision="0" />
+    <Item value="Alphanumerische Anzeige Seite" revision="0" />
+    <Item value="Medizinische Instrumente" revision="0" />
+    <Item value="Physikalische Geräte" revision="0" />
+    <Item value="Leistungsgeräte" revision="0" />
+    <Item value="Batterie" revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item />

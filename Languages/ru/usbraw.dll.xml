@@ -161,7 +161,7 @@
     <Item value="USB энд поинты" revision="0" />
   </Enumeration>
   <Enumeration key="VideoView">
-    <Item value="Видео (Beta)" revision="0" />
+    <Item value="Видео" revision="0" />
     <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.5) совместимого устройства." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
@@ -261,7 +261,7 @@
     <Item value="PnP: Запрос интерфейса" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item value="Универсальный десктоп" revision="0" />
+    <Item value="Десктоп" revision="0" />
     <Item value="Симулятор" revision="0" />
     <Item value="Средства управления VR" revision="0" />
     <Item value="Средства управления Спорт" revision="0" />
