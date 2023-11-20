@@ -262,11 +262,11 @@
     <Item value="Non Volatile" revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoStandards">
-    <Item value="NTSC - 525/60" revision="0" />
-    <Item value="PAL - 625/50" revision="0" />
-    <Item value="SECAM - 625/50" revision="0" />
-    <Item value="NTSC - 625/50" revision="0" />
-    <Item value="PAL - 525/60" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbBoolean">
     <Item value="Истинно" revision="0" />

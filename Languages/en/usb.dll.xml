@@ -271,7 +271,7 @@
 		<Param name="number"/>
 	</Message>
 
-	<Enumeration key="UsbVideoStandards" description="USB video standards list">
+	<Enumeration optional="true" key="UsbVideoStandards" description="USB video standards list">
 		<Item text="NTSC - 525/60"/>
 		<Item text="PAL - 625/50"/>
 		<Item text="SECAM - 625/50"/>
