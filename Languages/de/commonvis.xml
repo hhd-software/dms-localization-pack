@@ -29,11 +29,11 @@
     <Item value="Der Anfrage-Visualisierer dekodiert alle Datenpakete und Steueranfragen, die an das serielle Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
-    <Item value="Konsolen-Ansicht (Legacy)" revision="0" />
+    <Item value="Konsolen Ansicht (Legacy)" revision="0" />
     <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
   </Enumeration>
   <Enumeration key="NewConsoleConverter">
-    <Item value="Konsolen-Ansicht " revision="0" />
+    <Item value="Konsolen Ansicht " revision="0" />
     <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
@@ -62,8 +62,8 @@
     <Item />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
-    <Item />
-    <Item />
+    <Item value="Video Ansicht" revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.1) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item />
@@ -89,7 +89,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
-    <Item value="HTTP-Ansicht" revision="0" />
+    <Item value="HTTP Ansicht" revision="0" />
     <Item value="Der HTTP Ansicht Datenvisualisierer parst und zeigt HTTP Protokoll Anfragen und Antworten an." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
