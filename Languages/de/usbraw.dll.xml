@@ -160,10 +160,6 @@
     <Item value="Endpunkte" revision="0" />
     <Item value="USB-Endpunkte" revision="0" />
   </Enumeration>
-  <Enumeration key="VideoView">
-    <Item value="Video Ansicht" revision="0" />
-    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.5) konforme Geräte." revision="0" />
-  </Enumeration>
   <Enumeration key="UsbDescriporsList">
     <Item value="Geräte Deskriptor" revision="0" />
     <Item value="Konfiguration Deskriptor" revision="0" />
@@ -282,9 +278,9 @@
     <Item value="Batterie" revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leere Pakete anzeigen" revision="0" />
+    <Item value="Gelesene Pakete anzeigen" revision="0" />
+    <Item value="Schreib Pakete anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="RequestsCat">
     <Item />
@@ -333,14 +329,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbRawColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Text" revision="0" />
+    <Item value="Binäre Daten" revision="0" />
+    <Item value="Lesen: Kopfzeile" revision="0" />
+    <Item value="Lesen: Text" revision="0" />
+    <Item value="Lesen: Binäre Daten" revision="0" />
+    <Item value="Schreiben: Kopfzeile" revision="0" />
+    <Item value="Schreiben: Text" revision="0" />
+    <Item value="Schreiben: Binäre Daten" revision="0" />
   </Enumeration>
 </Language>

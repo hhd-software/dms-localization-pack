@@ -61,7 +61,7 @@
     <Item />
     <Item />
   </Enumeration>
-  <Enumeration key="USBVideoView">
+  <Enumeration key="NewVideoViewConverter">
     <Item />
     <Item />
   </Enumeration>

@@ -251,8 +251,4 @@
     <Item value="Заголовок 2" revision="0" />
     <Item value="Заголовок 3" revision="0" />
   </Enumeration>
-  <Enumeration key="NewVideoViewConverter">
-    <Item value="Видео" revision="0" />
-    <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.1) совместимого устройства." revision="0" />
-  </Enumeration>
 </Language>
