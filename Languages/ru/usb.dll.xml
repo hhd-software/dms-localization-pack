@@ -274,29 +274,29 @@
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
     <Item value="Резерв" revision="0" />
-    <Item value="BT.709,sRGB" revision="0" />
-    <Item value="BT.470-2 (M)" revision="0" />
-    <Item value="BT.470-2 (B,G)" revision="0" />
-    <Item value="SMPTE 170M" revision="0" />
-    <Item value="SMPTE 240M" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferCharacteristics">
     <Item value="Резерв" revision="0" />
-    <Item value="BT.709" revision="0" />
-    <Item value="BT.470-2 (M)" revision="0" />
-    <Item value="BT.470-2 (B,G)" revision="0" />
-    <Item value="SMTPE 170M" revision="0" />
-    <Item value="SMTPE 240M" revision="0" />
-    <Item value="Linear (V=Lc)" revision="0" />
-    <Item value="sRGB (очень схоже с BT.709)" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbMatrixCoefficients">
     <Item value="Резерв" revision="0" />
-    <Item value="BT.709" revision="0" />
-    <Item value="FCC" revision="0" />
-    <Item value="FCC" revision="0" />
-    <Item value="SMPTE 170M (BT.601,default)" revision="0" />
-    <Item value="SMPTE 240M" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbYesNo">
     <Item value="Да" revision="0" />

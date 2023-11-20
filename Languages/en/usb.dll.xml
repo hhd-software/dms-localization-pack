@@ -322,34 +322,34 @@
 
 	<Enumeration key="UsbColorFormatPrimary" description="USB video primary color format list">
 		<Item text="Reserved"/>
-		<Item text="BT.709,sRGB"/>
-		<Item text="BT.470-2 (M)"/>
-		<Item text="BT.470-2 (B,G)"/>
-		<Item text="SMPTE 170M"/>
-		<Item text="SMPTE 240M"/>
+		<Item optional="true" text="BT.709,sRGB"/>
+		<Item optional="true" text="BT.470-2 (M)"/>
+		<Item optional="true" text="BT.470-2 (B,G)"/>
+		<Item optional="true" text="SMPTE 170M"/>
+		<Item optional="true" text="SMPTE 240M"/>
 	</Enumeration>
 
 	<!--IDS_STRING1216-->          <Message key="Transfer Characteristics:" description="Field: Transfer Characteristics"/>
 	<Enumeration key="UsbTransferCharacteristics" description="USB video transfer characteristics list">
 		<Item text="Reserved"/>
-		<Item text="BT.709"/>
-		<Item text="BT.470-2 (M)"/>
-		<Item text="BT.470-2 (B,G)"/>
-		<Item text="SMTPE 170M"/>
-		<Item text="SMTPE 240M"/>
-		<Item text="Linear (V=Lc)"/>
-		<Item text="sRGB (very similar to BT.709)"/>
+		<Item optional="true" text="BT.709"/>
+		<Item optional="true" text="BT.470-2 (M)"/>
+		<Item optional="true" text="BT.470-2 (B,G)"/>
+		<Item optional="true" text="SMTPE 170M"/>
+		<Item optional="true" text="SMTPE 240M"/>
+		<Item optional="true" text="Linear (V=Lc)"/>
+		<Item optional="true" text="sRGB (very similar to BT.709)"/>
 	</Enumeration>
 
 	<Message key="Matrix Coefficients:" description="Field: Matrix Coefficients"/>
 
 	<Enumeration key="UsbMatrixCoefficients" description="USB video matrix coefficients list">
 		<Item text="Reserved"/>
-		<Item text="BT.709"/>
-		<Item text="FCC"/>
-		<Item text="Bt.470-2 (B,G)"/>
-		<Item text="SMPTE 170M (BT.601,default)"/>
-		<Item text="SMPTE 240M"/>
+		<Item optional="true" text="BT.709"/>
+		<Item optional="true" text="FCC"/>
+		<Item optional="true" text="Bt.470-2 (B,G)"/>
+		<Item optional="true" text="SMPTE 170M (BT.601,default)"/>
+		<Item optional="true" text="SMPTE 240M"/>
 	</Enumeration>
 
 	<!--IDS_STRING1232-->          <Message key="Format Index:" description="Field: Format Index"/>
