@@ -308,9 +308,9 @@
   </Enumeration>
   <Enumeration key="UsbFormatType">
     <Item value="Резерв" revision="0" />
-    <Item value="SD-DV" revision="0" />
-    <Item value="SDL-DV" revision="0" />
-    <Item value="HD-DV" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRefreshRate">
     <Item value="50 Гц" revision="0" />

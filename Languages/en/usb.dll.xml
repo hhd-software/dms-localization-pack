@@ -397,9 +397,9 @@
 
 	<Enumeration key="UsbFormatType" description="USB video display format types list">
 		<Item text="Reserved"/>
-		<Item text="SD-DV"/>
-		<Item text="SDL-DV"/>
-		<Item text="HD-DV"/>
+		<Item optional="true" text="SD-DV"/>
+		<Item optional="true" text="SDL-DV"/>
+		<Item optional="true" text="HD-DV"/>
 	</Enumeration>
 
 	<Enumeration key="UsbRefreshRate" description="USB video refresh rates list">

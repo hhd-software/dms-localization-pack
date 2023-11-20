@@ -201,65 +201,65 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbDescriptor">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Eingabe" revision="0" />
+    <Item value="Ausgabe" revision="0" />
+    <Item value="Funktion" revision="0" />
+    <Item value="Kollektion" revision="0" />
+    <Item value="Ende Kollektion\n" revision="0" />
+    <Item value="Verwendung Seite" revision="0" />
+    <Item value="Logisches Minimum" revision="0" />
+    <Item value="Logisches Maximum" revision="0" />
+    <Item value="Physisches Minimum" revision="0" />
+    <Item value="Physisches Maximum" revision="0" />
+    <Item value="Einheit Exponent" revision="0" />
+    <Item value="Einheit" revision="0" />
+    <Item value="Bericht Größe" revision="0" />
+    <Item value="Bericht ID" revision="0" />
+    <Item value="Anzahl der Berichte" revision="0" />
+    <Item value="PUSH" revision="0" />
+    <Item value="POP" revision="0" />
+    <Item value="Verwendung" revision="0" />
   </Enumeration>
   <Enumeration key="JackType">
-    <Item />
-    <Item />
+    <Item value="EMBEDDED" revision="0" />
+    <Item value="EXTERN" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kein Gerät angeschlossen" revision="0" />
+    <Item value="Gerät angeschlossen" revision="0" />
+    <Item value="Aufzählung des Geräts fehlgeschlagen" revision="0" />
+    <Item value="Allgemeiner Verbindungsfehler" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Fernaufwachen" revision="0" />
+    <Item value="Eigenstromversorgung" revision="0" />
+    <Item value="Busstromversorgung" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kontrolle" revision="0" />
+    <Item value="Isochronous" revision="0" />
+    <Item value="Bulk" revision="0" />
+    <Item value="Unterbrechung" revision="0" />
   </Enumeration>
   <Enumeration key="UsbInputParams">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Daten" revision="0" />
+    <Item value="Konstante" revision="0" />
+    <Item value="Array" revision="0" />
+    <Item value="Variabel" revision="0" />
+    <Item value="Absolut" revision="0" />
+    <Item value="Relativ" revision="0" />
+    <Item value="Kein Wrap" revision="0" />
+    <Item value="Wrap" revision="0" />
+    <Item value="Linear" revision="0" />
+    <Item value="Nicht linear" revision="0" />
+    <Item value="Bevorzugter Zustat" revision="0" />
+    <Item value="Nein Bevorzugter Zustat" revision="0" />
+    <Item value="Keine Nullzustand" revision="0" />
+    <Item value="Nullzustand" revision="0" />
   </Enumeration>
   <Enumeration key="UsbOutputParams">
-    <Item />
-    <Item />
+    <Item value="Flüchtig" revision="0" />
+    <Item value="Nicht flüchtig" revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoStandards">
     <Item />
@@ -269,11 +269,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbBoolean">
-    <Item />
-    <Item />
+    <Item value="WAHR" revision="0" />
+    <Item value="FALSCH" revision="0" />
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
-    <Item />
+    <Item value="Reserviert" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -281,7 +281,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbTransferCharacteristics">
-    <Item />
+    <Item value="Reserviert" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -291,7 +291,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbMatrixCoefficients">
-    <Item />
+    <Item value="Reserviert" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -299,22 +299,22 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbYesNo">
-    <Item />
-    <Item />
+    <Item value="JA" revision="0" />
+    <Item value="NO" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFieldPerFrame">
-    <Item />
-    <Item />
+    <Item value="1 Feld" revision="0" />
+    <Item value="2 Feld" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFormatType">
-    <Item />
+    <Item value="Reserviert" revision="0" />
     <Item />
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbRefreshRate">
-    <Item />
-    <Item />
+    <Item value="50 Hz" revision="0" />
+    <Item value="60 Hz" revision="0" />
   </Enumeration>
   <Enumeration key="UsbAudioDescriptorName">
     <Item />
@@ -452,7 +452,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConnectTheUSBDevice">
-    <Item />
-    <Item />
+    <Item value="Verbinden Sie das USB-Gerät" revision="0" />
+    <Item value="Die Anwendung wartet darauf, dass Sie ein USB-Gerät an einen der USB-Ports Ihres Computers anschließen." revision="0" />
   </Enumeration>
 </Language>
