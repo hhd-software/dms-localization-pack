@@ -85,6 +85,19 @@
   <Message key="EncodingNotSupported" value="Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt." revision="0" />
   <Message key="NotSupported" value="Ihr System verfügt nicht über die erforderlichen Komponenten zur Unterstützung der ausgewählten Kodierung. Wählen Sie eine andere Kodierung." revision="0" />
   <Message key="ErrorLocatingPacket" value="Fehler beim Auffinden des Pakets" revision="0" />
+  <Message key="InvalidOffset" value="Ungültiger Offset." revision="0" />
+  <Message key="GoToOffset" value="Gehe zu Offset" revision="0" />
+  <Message key="InvalidRule" value="Regel kann nicht aktiviert werden, Regel ist ungültig." revision="0" />
+  <Message key="SchemeOverwrite" value="Die derzeitige Regelung wird verloren gehen. Wollen Sie weitermachen?" revision="0" />
+  <Message key="VersionError" value="Die Datei hat eine andere Version." revision="0" />
+  <Message key="ItemWillBeRemoved" value="Der aktuelle Artikel wird entfernt. Möchten Sie fortfahren?" revision="0" />
+  <Message key="SampleText" value="Mustertext" revision="0" />
+  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Kann nicht aus Datei gelesen werden." revision="0" />
+  <Message key="PatternColoringRule" value="Musterfärberei-Regel {number}" revision="0" />
+  <Message key="CopyWait" value="Bitte warten Sie, während die Daten in die Zwischenablage kopiert werden." revision="0" />
+  <Message key="CantCreateFile" value="Kann Datei nicht erstellen" revision="0" />
+  <Message key="StatisticsTip" value="Wählen Sie den Zähler aus, um seine Beschreibung anzuzeigen." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
