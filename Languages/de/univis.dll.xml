@@ -1,5 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Statische Linie (Statistik)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Spezieller Hochgeschwindigkeitsmodus (Statistik)" revision="0" />
+  <Message key="plot_drawticks" value="Anzeige von Indizes auf der X-Achse" revision="0" />
+  <Message key="cell_lowerhex" value="Hexadezimale Kleinbuchstaben anzeigen" revision="0" />
+  <Message key="cell_showresult" value="Ergebnisbereich anzeigen" revision="0" />
+  <Message key="cell_showtooltip" value="Popup-Paketinformationen anzeigen" revision="0" />
+  <Message key="netvis_showpackettip" value="Popup-Paketinformationen anzeigen" revision="0" />
+  <Message key="tooltip_delay" value="Tooltip-Intervall definieren" revision="0" />
+  <Message key="Statistics" value="Statistik" revision="0" />
+  <Message key="Raw Data View" value="Rohdatenansicht" revision="0" />
+  <Message key="Network Packet View" value="Netzwerk-Paketansicht" revision="0" />
+  <Message key="LineNumbers" value="Zeilennummern anzeigen" revision="0" />
+  <Message key="Console View" value="Konsolen-Ansicht" revision="0" />
+  <Message key="Goto Dialog" value="Springe zum Dialog" revision="0" />
+  <Message key="Structure Coloring" value="Struktur Färbung" revision="0" />
+  <Message key="Raw Data View Coloring" value="Rohdatenansicht Färbung" revision="0" />
+  <Message key="Go to Offset" value="Gehe zu Offset" revision="0" />
+  <Message key="Offset:" value="Offset:" revision="0" />
+  <Message key="Resulting offset:" value="Resultierender Offset:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Hexadezimal" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Dezimal" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Oktal" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Absoluter Offset" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Relativer Offset" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Prozent" revision="0" />
+  <Message key="IncorrectInputTitle" value="Falsche Eingabe" revision="0" />
+  <Message key="Send packets" value="Pakete senden" revision="0" />
+  <Message key="Options" value="Optionen" revision="0" />
+  <Message key="Adapter:" value="Adapter:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Paketverzögerung ignorieren (Burst-Modus)" revision="0" />
+  <Message key="Loop mode:" value="Schleifenmodus:" revision="0" />
+  <Message key="loops" value="Schleifen" revision="0" />
+  <Message key="Loop delay:" value="Schleifenverzögerung:" revision="0" />
+  <Message key="milliseconds" value="Millisekunden" revision="0" />
+  <Message key="Close this window after sending packets" value="Dieses Fenster nach dem Senden von Paketen schließen" revision="0" />
+  <Message key="Packets Statistics" value="Pakete Statistik" revision="0" />
+  <Message key="Total:" value="Gesamt:" revision="0" />
+  <Message key="Sent:" value="Gesendet:" revision="0" />
+  <Message key="SentFormat" value="Gesendet: {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Insgesamt: {bytes}" revision="0" />
+  <Message key="Process" value="Prozess" revision="0" />
+  <Message key="Delay" value="Verzögerung" revision="0" />
+  <Message key="ErrorInput" value="Ungültiger Bereich. Wertebereich ist ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Es können keine Pakete gesendet werden. Netzwerkadapter nicht ausgewählt oder System hat keine angeschlossenen Netzwerkadapter." revision="0" />
+  <Message key="LogStartBurst" value="Start (Burst-Modus)..." revision="0" />
+  <Message key="LogStart" value="Start..." revision="0" />
+  <Message key="LogStop" value="Stopp..." revision="0" />
+  <Message key="ViewOffset" value="Offset" revision="0" />
+  <Message key="PatternColoring" value="Muster Färbung" revision="0" />
+  <Message key="Pattern" value="Muster" revision="0" />
+  <Message key="WriteFileError" value="Fehler beim Schreiben in die Datei. Versuchen Sie einen anderen Ort." revision="0" />
+  <Message key="Back color:" value="Hintergrundfarbe:" revision="0" />
+  <Message key="Text color:" value="Text Farbe:" revision="0" />
+  <Message key="Outline color:" value="Farbe des Umrisses:" revision="0" />
+  <Message key="Description" value="Beschreibung" revision="0" />
+  <Message key="New Packet" value="Neues Paket" revision="0" />
+  <Message key="Packet Template:" value="Paketvorlage:" revision="0" />
+  <Message key="Interval:" value="Intervall:" revision="0" />
+  <Message key="Save Template" value="Vorlage speichern" revision="0" />
+  <Message key="Name:" value="Name:" revision="0" />
+  <Message key="NoSelection" value="Keine Auswahl" revision="0" />
+  <Message key="Number" value="Nr." revision="0" />
+  <Message key="Address" value="Adresse" revision="0" />
+  <Message key="Length" value="Länge" revision="0" />
+  <Message key="AdapterSelect" value="Adapter auswählen…\nWählen Sie den Standardadapter für das Senden von Paketen" revision="0" />
+  <Message key="TemplateAlreadyExists" value="Die Vorlage existiert bereits. Möchten Sie sie überschreiben?" revision="0" />
+  <Message key="ErrorRead" value="Fehler beim Lesen aus der Datei. " revision="0" />
+  <Message key="PacketBuilderTitle" value="Packet Builder" revision="0" />
+  <Message key="TemplateDeleteError" value="Diese Regelung kann nicht entfernt oder geändert werden." revision="0" />
+  <Message key="TitleError" value="Fehler" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
