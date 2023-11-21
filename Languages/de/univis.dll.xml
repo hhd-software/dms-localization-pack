@@ -70,6 +70,21 @@
   <Message key="PacketBuilderTitle" value="Packet Builder" revision="0" />
   <Message key="TemplateDeleteError" value="Diese Regelung kann nicht entfernt oder geändert werden." revision="0" />
   <Message key="TitleError" value="Fehler" revision="0" />
+  <Message key="NoPackets" value="Kein Paket ausgewählt. Nichts zu senden." revision="0" />
+  <Message key="Warning" value="Warnung" revision="0" />
+  <Message key="BigPacket" value="Paketgröße größer als Standard-MTU (1500). Senden nicht garantiert." revision="0" />
+  <Message key="All files" value="Alle Dateien" revision="0" />
+  <Message key="LimitSize" value="Paket zu groß. Größe der Eingabedatei größer als {limit} Bytes. Verwende die ersten {first} Bytes." revision="0" />
+  <Message key="NetTermTooltip" value="Paket:\t\t{number}\nGröße:\t\t{size} bytes\nVerzögerung:\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Möchten Sie diese Regelung außer Kraft setzen?" revision="0" />
+  <Message key="SaveAs" value="Speichern unter" revision="0" />
+  <Message key="HexStartError" value="HexEditor konnte nicht gestartet werden. Fehlercode = {code}" revision="0" />
+  <Message key="HexLocationError" value="Ich kann den Installationsort von HexEditor Neo nicht finden." revision="0" />
+  <Message key="HexVersionError" value="Unbekannte Versionsnummer des Hex-Editors." revision="0" />
+  <Message key="ErrorTitle" value="Fehler" revision="0" />
+  <Message key="EncodingNotSupported" value="Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt. Kodierung wird nicht unterstützt." revision="0" />
+  <Message key="NotSupported" value="Ihr System verfügt nicht über die erforderlichen Komponenten zur Unterstützung der ausgewählten Kodierung. Wählen Sie eine andere Kodierung." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Fehler beim Auffinden des Pakets" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
