@@ -463,7 +463,7 @@
 
 	<Enumeration key="ToolsHexEditorExport" description="Command: Process with Hex Editor Neo">
 		<Item text="Process with Hex Editor Neo"/>
-		<Item text="View, parse and edit selected fragments with HexEditor Neo"/>
+		<Item text="View, parse and edit selected fragments with Hex Editor Neo"/>
 	</Enumeration>
 
 	<Enumeration key="MenuDisplayAs" description="Menu: Display As">
@@ -602,12 +602,12 @@
 	<Message key="SchemeOverride" description="Message: Override scheme message" value="Do you want to override this scheme?"/>
 	<Message key="SaveAs" description="Title: Save As" value="Save As"/>	<!--TODO: Studio?-->
 
-	<Message key="HexStartError" description="Error: Failed to start HexEditor"
-			 value="Failed to start HexEditor. Error Code = {code}">
+	<Message key="HexStartError" description="Error: Failed to start Hex Editor"
+			 value="Failed to start Hex Editor. Error Code = {code}">
 		<Param name="code" format="b016x"/>
 	</Message>
 
-	<Message key="HexLocationError" description="Error: Hex Editor installation error" value="Can't find HexEditor Neo install location."/>
+	<Message key="HexLocationError" description="Error: Hex Editor installation error" value="Can't find Hex Editor Neo install location."/>
 	<Message key="HexVersionError" description="Error: Hex Editor version error" value="Unknown Hex Editor version number."/>
 	<Message key="ErrorTitle" description="Title: Error" value="Error"/>	<!--TODO: Studio?-->
 

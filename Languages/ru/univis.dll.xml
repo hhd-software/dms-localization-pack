@@ -555,7 +555,7 @@
   </Enumeration>
   <Enumeration key="ToolsHexEditorExport">
     <Item value="Обработать с помощью Hex Editor Neo" revision="0" />
-    <Item value="Просмотр, разбор и редактирование выделенных фрагментов с помощью HexEditor Neo" revision="0" />
+    <Item value="Просмотр, разбор и редактирование выделенных фрагментов с помощью Hex Editor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
     <Item value="Показать &amp;как" revision="0" />
