@@ -191,21 +191,27 @@
   <Message key="PredefinedOverwrite" value="Sie können vordefinierte Schemata nicht ändern" revision="0" />
   <Message key="toolbar.Output" value="Ausgabe" revision="0" />
   <Message key="toolbar.PacketBuilder" value="Paket Builder" revision="0" />
+  <Message key="clr.plot_colors" value="Plot Farben" revision="0" />
+  <Message key="clr.plot_colors.ordinalLine" value="Ordinale Farbe" revision="0" />
+  <Message key="clr.plot_colors.timeLine" value="Zeit Farbe" revision="0" />
+  <Message key="clr.plot_colors.selected1" value="Auswahl 1" revision="0" />
+  <Message key="clr.plot_colors.selected2" value="Auswahl 2" revision="0" />
+  <Message key="Save Color" value="Farbe speichern" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Keine Paketfärbung" revision="0" />
+    <Item value="Keine paketfärbung" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item />
-    <Item />
+    <Item value="&amp;Ungerade/Gerade-Paketfärbung" revision="0" />
+    <Item value="Ungerade und gerade Pakete färben" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
-    <Item />
-    <Item />
+    <Item value="&amp;Lesen/Schreiben-Paketfärbung" revision="0" />
+    <Item value="Farbige Lese- und Schreib-Pakete" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingSwitch">
-    <Item />
-    <Item />
+    <Item value="Paket Färbung" revision="0" />
+    <Item value="Paketfärbungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
     <Item />
