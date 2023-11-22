@@ -98,6 +98,99 @@
   <Message key="CopyWait" value="Bitte warten Sie, während die Daten in die Zwischenablage kopiert werden." revision="0" />
   <Message key="CantCreateFile" value="Kann Datei nicht erstellen" revision="0" />
   <Message key="StatisticsTip" value="Wählen Sie den Zähler aus, um seine Beschreibung anzuzeigen." revision="0" />
+  <Message key="Lines" value="Linien" revision="0" />
+  <Message key="SchemeNameCue" value="Geben Sie hier den Namen des Schemas ein" revision="0" />
+  <Message key="Device" value="Gerät" revision="0" />
+  <Message key="Selection" value="Auswahl" revision="0" />
+  <Message key="SelectedPacket" value="Ausgewählte Paket" revision="0" />
+  <Message key="Output" value="Ausgabe" revision="0" />
+  <Message key="TimeLabel" value="Zeit:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Auf Standardposition zurücksetzen" revision="0" />
+  <Message key="AddRemoveCounters" value="Zähler hinzufügen/entfernen" revision="0" />
+  <Message key="Sample" value="Muster" revision="0" />
+  <Message key="ErrorCreate" value="Datei kann nicht erstellen." revision="0" />
+  <Message key="Plot" value="Plot" revision="0" />
+  <Message key="PlotStaticLine" value="Verfolgungslinie: " revision="0" />
+  <Message key="PlotDynamicLine" value="Statische Linie:" revision="0" />
+  <Message key="FindPatternTitle" value="Muster:" revision="0" />
+  <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="CopyrightNotice" value="Erzeugt von HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Syntaxfehler eines regulären Ausdrucks: {error}." revision="0" />
+  <Message key="AllFilesFilter" value="Alle Dateien|*|" revision="0" />
+  <Message key="Find" value="Finde" revision="0" />
+  <Message key="Type: " value="Typ:" revision="0" />
+  <Message key="Fi&amp;nd what: " value="Was fi&amp;nden:" revision="0" />
+  <Message key="Regular expression" value="Regulärer Ausdruck" revision="0" />
+  <Message key="Sub-match:" value="Übereinstimmung:" revision="0" />
+  <Message key="Search Up" value="Suche aufwärts" revision="0" />
+  <Message key="Search Down" value="Suche abwärts" revision="0" />
+  <Message key="Ignore case" value="Fall ignorieren" revision="0" />
+  <Message key="&amp;Find" value="&amp;Finde" revision="0" />
+  <Message key="Find All" value="Alle finden" revision="0" />
+  <Message key="Set Columns" value="Spalten festlegen" revision="0" />
+  <Message key="Enter number of columns per row:" value="Anzahl der Spalten pro Zeile:" revision="0" />
+  <Message key="Add/Remove Counters" value="Zähler hinzufügen/entfernen" revision="0" />
+  <Message key="Available counters:" value="Verfügbare Zähler:" revision="0" />
+  <Message key="Select All" value="Alle auswählen" revision="0" />
+  <Message key="Counter description:" value="Beschreibung des Zählers:" revision="0" />
+  <Message key="Select the counter to view its description." value="Wählen Sie den Zähler aus, um seine Beschreibung anzuzeigen." revision="0" />
+  <Message key="Layout" value="Layout" revision="0" />
+  <Message key="Font:" value="Schrift:" revision="0" />
+  <Message key="Size:" value="Größe:" revision="0" />
+  <Message key="Visualization elements:" value="Visualisierungselemente:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Fokus-Cursor-Rahmen zeichnen" revision="0" />
+  <Message key="Color:" value="Farbe:" revision="0" />
+  <Message key="Automatic" value="Automatisch" revision="0" />
+  <Message key="Do not interlace background" value="Hintergrund ist nicht interlaced" revision="0" />
+  <Message key="Interlace columns" value="Spalten interlaced" revision="0" />
+  <Message key="Interlace rows" value="Zeilen interlaced" revision="0" />
+  <Message key="Smart indentation" value="Intelligente Einrückung" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Antialiasing (langsamer)" revision="0" />
+  <Message key="Schemes…" value="Schemata…" revision="0" />
+  <Message key="Layout Schemes" value="Layout Schemata" revision="0" />
+  <Message key="Pattern Coloring" value="Muster Färbung" revision="0" />
+  <Message key="Variable Properties" value="Variable Eigenschaften" revision="0" />
+  <Message key="Variable name:" value="Variablenname:" revision="0" />
+  <Message key="Units:" value="Einheiten:" revision="0" />
+  <Message key="Line width:" value="Linienbreite" revision="0" />
+  <Message key="Scale:" value="Skala:" revision="0" />
+  <Message key="Please Wait..." value="Bitte warten..." revision="0" />
+  <Message key="Find all results" value="Alle Ergebnisse finden" revision="0" />
+  <Message key="Display results pane" value="Ergebnisbereich anzeigen" revision="0" />
+  <Message key="Pattern Editor" value="Muster Editor" revision="0" />
+  <Message key="Standard rule:" value="Standardregel:" revision="0" />
+  <Message key="Round edges" value="Runde Kanten" revision="0" />
+  <Message key="Information" value="Informationen" revision="0" />
+  <Message key="Details" value="Einzelheiten" revision="0" />
+  <Message key="NotValid" value="Ungültiger Wert." revision="0" />
+  <Message key="SViewTitle" value="Struktur Ansicht" revision="0" />
+  <Message key="N/A" value="N/V" revision="0" />
+  <Message key="CantUpdate" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="PColFilter" value="Musterfärbungsschemadateien|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Jüngste Muster…" revision="0" />
+  <Message key="Type:" value="Typ:" revision="0" />
+  <Message key="Find what:" value="Was finden:" revision="0" />
+  <Message key="Custom colors:" value="Benutzerdefinierte Farben:" revision="0" />
+  <Message key="Default colors:" value="Standardfarben:" revision="0" />
+  <Message key="Alpha" value="Alpha" revision="0" />
+  <Message key="Custom..." value="Benutzerdefiniert..." revision="0" />
+  <Message key="Baud rate:" value="Baudrate:" revision="0" />
+  <Message key="Data bits:" value="Datenbits:" revision="0" />
+  <Message key="Parity:" value="Parität:" revision="0" />
+  <Message key="Stop bits:" value="Stoppbits:" revision="0" />
+  <Message key="Flow control:" value="Flusssteuerung:" revision="0" />
+  <Message key="Out DSR Flow:" value="Ausgehender DSR Flow:" revision="0" />
+  <Message key="RTS control:" value="RTS Kontrolle:" revision="0" />
+  <Message key="DSR sensivity:" value="DSR Empfindlichkeit:" revision="0" />
+  <Message key="DTR control:" value="DTR Kontrolle:" revision="0" />
+  <Message key="Out CTS Flow:" value="Ausgehender CTS Flow:" revision="0" />
+  <Message key="Out XON/XOFF:" value="Ausgehendes XON/XOFF:" revision="0" />
+  <Message key="In XON/XOFF:" value="Eingehendes XON/XOFF:" revision="0" />
+  <Message key="Click here" value="Hier klicken" revision="0" />
+  <Message key="Current" value="Aktuell" revision="0" />
+  <Message key="PredefinedOverwrite" value="Sie können vordefinierte Schemata nicht ändern" revision="0" />
+  <Message key="toolbar.Output" value="Ausgabe" revision="0" />
+  <Message key="toolbar.PacketBuilder" value="Paket Builder" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />

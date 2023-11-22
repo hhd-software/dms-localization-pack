@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ErrorTitle" value="Fehler" revision="0" />
   <Message key="Size_Error" value="Paketgrößengrenze überschritten." revision="0" />
-  <Message key="Packet Builder" value="Paket-Builder" revision="0" />
+  <Message key="Packet Builder" value="Paket Builder" revision="0" />
   <Message key="NetTerminal" value="Netzwerk-Terminal" revision="0" />
   <Message key="StructureNotFound" value="Strukturdefinition wird nicht gefunden. Netzwerkmonitor kann keine Ergebnisse anzeigen." revision="0" />
   <Message key="Network Raw" value="Netzwerk-Rohdaten" revision="0" />
