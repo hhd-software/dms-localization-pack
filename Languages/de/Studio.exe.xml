@@ -302,4 +302,10 @@
     <Item />
     <Item />
   </Enumeration>
+  <Enumeration key="themingMode">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

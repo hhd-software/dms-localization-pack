@@ -78,7 +78,7 @@
   <Message key="NetTermTooltip" value="Paket:\t\t{number}\nGröße:\t\t{size} bytes\nVerzögerung:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Möchten Sie diese Regelung außer Kraft setzen?" revision="0" />
   <Message key="SaveAs" value="Speichern unter" revision="0" />
-  <Message key="HexStartError" value="Hex Editor konnte nicht gestartet werden. Fehlercode = {code}" revision="0" />
+  <Message key="HexStartError" value="Hex Editor konnte nicht gestartet werden. Fehlercode = {code}" revision="1" />
   <Message key="HexLocationError" value="Ich kann den Installationsort von Hex Editor Neo nicht finden." revision="0" />
   <Message key="HexVersionError" value="Unbekannte Versionsnummer des Hex-Editors." revision="0" />
   <Message key="ErrorTitle" value="Fehler" revision="0" />
