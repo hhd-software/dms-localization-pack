@@ -602,9 +602,9 @@
 	<Message key="SchemeOverride" description="Message: Override scheme message" value="Do you want to override this scheme?"/>
 	<Message key="SaveAs" description="Title: Save As" value="Save As"/>	<!--TODO: Studio?-->
 
-	<Message key="HexStartError" description="Error: Failed to start Hex Editor"
-			 value="Failed to start Hex Editor. Error Code = {code}">
-		<Param name="code" format="b016x"/>
+	<Message key="HexStartError" description="Error: Failed to start Hex Editor Neo"
+			 value="Failed to start Hex Editor Neo. Error Code = {code}" revision="1">
+		<Param name="code" format="ub016x"/>
 	</Message>
 
 	<Message key="HexLocationError" description="Error: Hex Editor installation error" value="Can't find Hex Editor Neo install location."/>
