@@ -37,84 +37,84 @@
     <Item value="Консольный вид работает как окно консоли и отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Пустое место" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Текст I/O контрола" revision="0" />
+    <Item value="Заголовок I/O контрола" revision="0" />
+    <Item value="Запись - текст" revision="0" />
+    <Item value="Запись - заголовок" revision="0" />
+    <Item value="Запись - дамп" revision="0" />
+    <Item value="Чтение - текст" revision="0" />
+    <Item value="Чтение - заголовок" revision="0" />
+    <Item value="Чтение - дамп" revision="0" />
+    <Item value="Имя поля" revision="0" />
+    <Item value="Значение поля" revision="0" />
+    <Item value="Ошибка" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Отображать пустые запросы на чтение" revision="0" />
+    <Item value="Отображать I/O запросы без данных" revision="0" />
+    <Item value="Отображать I/O запросы" revision="0" />
+    <Item value="Отображать запросы подключения и создания" revision="0" />
+    <Item value="Отображать запросы на чтение вниз" revision="0" />
+    <Item value="Отображать запросы на запись вверх" revision="0" />
+    <Item value="Отображать номера строк" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Видео" revision="0" />
     <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.1) совместимого устройства." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
+    <Item value="Значение" revision="0" />
+    <Item value="Заголовок чтения" revision="0" />
+    <Item value="Заголовок записи" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Номер строки" revision="0" />
+    <Item value="Запись текст" revision="0" />
+    <Item value="Чтение текст" revision="0" />
+    <Item value="Сообщение" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Показывать запросы на чтение" revision="0" />
+    <Item value="Показывать запросы на запись" revision="0" />
+    <Item value="Показывать метки времени" revision="0" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
-    <Item />
-    <Item />
+    <Item value="Продвинутая консоль" revision="0" />
+    <Item value="Продвинутая консоль отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
     <Item value="Вид HTTP" revision="0" />
     <Item value="Визуализатор данных HTTP анализирует и отображает запросы и ответы протокола HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Заголовок запроса" revision="0" />
+    <Item value="Заголовок ответа" revision="0" />
+    <Item value="Поля запроса" revision="0" />
+    <Item value="Поля ответа" revision="0" />
+    <Item value="Текст запроса" revision="0" />
+    <Item value="Текст ответа" revision="0" />
+    <Item value="Общий дамп" revision="0" />
+    <Item value="Дамп запросов" revision="0" />
+    <Item value="Дамп ответов" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
     <Item value="Вид MODBUS" revision="0" />
     <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует и отображает пакеты протокола MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewSchemes">
-    <Item />
+    <Item value="Дамп" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Разбирать в шестнадцатеричном виде" revision="0" />
+    <Item value="Добавлять базовые смещения для регистров, дискретных вводов и т.д." revision="0" />
+    <Item value="Скрывать данные из дефектных пакетов" revision="0" />
   </Enumeration>
 </Language>

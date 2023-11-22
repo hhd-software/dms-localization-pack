@@ -37,84 +37,84 @@
     <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leerer Raum" revision="0" />
+    <Item value="Text" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="I/O-Steuerungstext" revision="0" />
+    <Item value="I/O-Steuerungkopfzeile" revision="0" />
+    <Item value="Schreiben: Text" revision="0" />
+    <Item value="Schreiben: Kopfzeile" revision="0" />
+    <Item value="Schreiben: Dump" revision="0" />
+    <Item value="Lesen: Text" revision="0" />
+    <Item value="Lesen: Kopfzeile" revision="0" />
+    <Item value="Lesen: Dump" revision="0" />
+    <Item value="Feld Name" revision="0" />
+    <Item value="Feld Wert" revision="0" />
+    <Item value="Fehler" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leere Lesung anzeigen" revision="0" />
+    <Item value="I/O-Anforderungen ohne Daten anzeigen" revision="0" />
+    <Item value="I/O-Anforderungen anzeigen" revision="0" />
+    <Item value="Verbinden und Erstellen von Anfragen anzeigen" revision="0" />
+    <Item value="Anzeige abwärt liest" revision="0" />
+    <Item value="Anzeige up schreibt" revision="0" />
+    <Item value="Zeilennummern anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Video Ansicht" revision="0" />
     <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.1) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Option" revision="0" />
+    <Item value="Wert" revision="0" />
+    <Item value="Kopfzeile lesen" revision="0" />
+    <Item value="Kopfzeile schreiben" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Linie Nummer" revision="0" />
+    <Item value="Text schreiben" revision="0" />
+    <Item value="Text lesen" revision="0" />
+    <Item value="Nachricht" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leseanfragen anzeigen" revision="0" />
+    <Item value="Schreibanfragen anzeigen" revision="0" />
+    <Item value="Zeitstempel anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
-    <Item />
-    <Item />
+    <Item value="Erweiterte Konsolen Ansicht" revision="0" />
+    <Item value="Die Erweiterte Konsolen Ansicht funktioniert wie ein serielles Konsolenfenster und zeigt die vom seriellen Gerät empfangenen Zeichen an. Es ist ein nützlicher Visualisierer zur Überwachung von textbasierten Protokollen." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
     <Item value="HTTP Ansicht" revision="0" />
     <Item value="Der HTTP Ansicht Datenvisualisierer parst und zeigt HTTP Protokoll Anfragen und Antworten an." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Anfrage Kopfzeile" revision="0" />
+    <Item value="Antwort Kopfzeile" revision="0" />
+    <Item value="Anfrage Felder" revision="0" />
+    <Item value="Antwort Felder" revision="0" />
+    <Item value="Anfrage Text" revision="0" />
+    <Item value="Antwort Text" revision="0" />
+    <Item value="Standard Dump" revision="0" />
+    <Item value="Anfrage Dump" revision="0" />
+    <Item value="Antwort Dump" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
     <Item value="MODBUS Ansicht" revision="0" />
     <Item value="MODBUS Ansicht dekodiert und zeigt MODBUS Protokollpakete an." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewSchemes">
-    <Item />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parsen als Hex" revision="0" />
+    <Item value="Hinzufügen von Basis-Offsets für Register, diskrete Eingänge usw." revision="0" />
+    <Item value="Ausblenden von Daten aus missgebildeten Paketen" revision="0" />
   </Enumeration>
 </Language>
