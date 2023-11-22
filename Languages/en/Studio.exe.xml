@@ -974,4 +974,11 @@
 		<Param name="size" format="l"/>
 	</Message>
 
+	<Enumeration key="themingMode" description="Option: Color Mode">
+		<Item text="Color Theme Mode (requires restart)"/>
+		<Item text="Use System"/>
+		<Item text="Always use Light Theme"/>
+		<Item text="Always use Dark Theme"/>
+	</Enumeration>
+
 </Definition>
