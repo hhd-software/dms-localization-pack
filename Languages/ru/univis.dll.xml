@@ -78,7 +78,7 @@
   <Message key="NetTermTooltip" value="Пакет:\t\t{number}\nРазмер:\t\t{size} bytes\nЗадержка:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Хотите перезаписать эту схему?" revision="0" />
   <Message key="SaveAs" value="Сохранить как" revision="0" />
-  <Message key="HexStartError" value="Не удалось запустить Hex редактор. Код ошибки = {code}" revision="0" />
+  <Message key="HexStartError" value="Не удалось запустить Hex редактор. Код ошибки = {code}" revision="1" />
   <Message key="HexLocationError" value="Не удается найти расположение установщика Hex Editor Neo." revision="0" />
   <Message key="HexVersionError" value="Неизвестен номер версии Hex Editor." revision="0" />
   <Message key="ErrorTitle" value="Ошибка" revision="0" />
@@ -246,8 +246,8 @@
     <Item value="ДЕБАГ: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item value="Перейти к образцу…" revision="0" />
-    <Item value="Найдите на схеме конкретный образец" revision="0" />
+    <Item value="Перейти к сэмплу…" revision="0" />
+    <Item value="Перейти к сэмплу" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
     <Item value="Перейти к линии" revision="0" />

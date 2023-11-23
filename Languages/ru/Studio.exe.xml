@@ -671,4 +671,10 @@
     <Item value="Возобновить" revision="0" />
     <Item value="Нажмите, чтобы возобновить работу этого модуля" revision="0" />
   </Enumeration>
+  <Enumeration key="themingMode">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

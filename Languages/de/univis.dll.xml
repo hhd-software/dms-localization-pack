@@ -78,7 +78,7 @@
   <Message key="NetTermTooltip" value="Paket:\t\t{number}\nGröße:\t\t{size} bytes\nVerzögerung:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Möchten Sie diese Regelung außer Kraft setzen?" revision="0" />
   <Message key="SaveAs" value="Speichern unter" revision="0" />
-  <Message key="HexStartError" value="Hex Editor konnte nicht gestartet werden. Fehlercode = {code}" revision="0" />
+  <Message key="HexStartError" value="Hex Editor konnte nicht gestartet werden. Fehlercode = {code}" revision="1" />
   <Message key="HexLocationError" value="Ich kann den Installationsort von Hex Editor Neo nicht finden." revision="0" />
   <Message key="HexVersionError" value="Unbekannte Versionsnummer des Hex-Editors." revision="0" />
   <Message key="ErrorTitle" value="Fehler" revision="0" />
@@ -191,253 +191,259 @@
   <Message key="PredefinedOverwrite" value="Sie können vordefinierte Schemata nicht ändern" revision="0" />
   <Message key="toolbar.Output" value="Ausgabe" revision="0" />
   <Message key="toolbar.PacketBuilder" value="Paket Builder" revision="0" />
+  <Message key="clr.plot_colors" value="Plot Farben" revision="0" />
+  <Message key="clr.plot_colors.ordinalLine" value="Ordinale Farbe" revision="0" />
+  <Message key="clr.plot_colors.timeLine" value="Zeit Farbe" revision="0" />
+  <Message key="clr.plot_colors.selected1" value="Auswahl 1" revision="0" />
+  <Message key="clr.plot_colors.selected2" value="Auswahl 2" revision="0" />
+  <Message key="Save Color" value="Farbe speichern" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Keine Paketfärbung" revision="0" />
+    <Item value="Keine paketfärbung" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item />
-    <Item />
+    <Item value="&amp;Ungerade/Gerade-Paketfärbung" revision="0" />
+    <Item value="Ungerade und gerade Pakete färben" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
-    <Item />
-    <Item />
+    <Item value="&amp;Lesen/Schreiben-Paketfärbung" revision="0" />
+    <Item value="Farbige Lese- und Schreib-Pakete" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingSwitch">
-    <Item />
-    <Item />
+    <Item value="Paket Färbung" revision="0" />
+    <Item value="Paketfärbungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item />
-    <Item />
+    <Item value="Alle löschen" revision="0" />
+    <Item value="Löschen des Inhalts des aktuellen Ausgabefensters" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
-    <Item />
-    <Item />
+    <Item value="Autofit" revision="0" />
+    <Item value="Autofit" revision="0" />
   </Enumeration>
   <Enumeration key="ModeLines">
-    <Item />
-    <Item />
+    <Item value="Linien zeichnen" revision="0" />
+    <Item value="Linien zeichnen" revision="0" />
   </Enumeration>
   <Enumeration key="ModeCurves">
-    <Item />
-    <Item />
+    <Item value="Kurven zeichnen" revision="0" />
+    <Item value="Kurven zeichnen" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
-    <Item />
-    <Item />
+    <Item value="Keine Füllung" revision="0" />
+    <Item value="Keine Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="FillSolid">
-    <Item />
-    <Item />
+    <Item value="Feste Füllung" revision="0" />
+    <Item value="Feste Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="FillGradient">
-    <Item />
-    <Item />
+    <Item value="Gradient Füllung" revision="0" />
+    <Item value="Gradient Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="DumpVarCommand">
-    <Item />
-    <Item />
+    <Item value="DEBUG: Dump var0" revision="0" />
+    <Item value="DEBUG: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Muster…" revision="0" />
+    <Item value="Suchen Sie die spezifische Probe auf der Karte" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Zeile" revision="0" />
+    <Item value="Gehe zu Zeile" revision="0" />
   </Enumeration>
   <Enumeration key="PlotSetOnAxis">
-    <Item />
-    <Item />
+    <Item value="Auf der Achse anzeigen" revision="0" />
+    <Item value="Auf der Achse anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="PlotProperties">
-    <Item />
-    <Item />
+    <Item value="Zähler bearbeiten…" revision="0" />
+    <Item value="Ausgewählten Zähler bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="PlotReset">
-    <Item />
-    <Item />
+    <Item value="Farben zurücksetzen" revision="0" />
+    <Item value="Farben zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PlotCopy">
-    <Item />
-    <Item />
+    <Item value="In Zwischenablage kopieren" revision="0" />
+    <Item value="In Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="PlotExportToCSV">
-    <Item />
-    <Item />
+    <Item value="In Datei exportieren (CSV)" revision="0" />
+    <Item value="In Datei exportieren (CSV)" revision="0" />
   </Enumeration>
   <Enumeration key="PlotResetColumnWidth">
-    <Item />
-    <Item />
+    <Item value="Spaltenbreiten zurücksetzen" revision="0" />
+    <Item value="Spaltenbreiten zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAdd">
-    <Item />
-    <Item />
+    <Item value="Neues Paket hinzufügen…" revision="0" />
+    <Item value="Neue Pakete zur Liste hinzufügen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDelete">
-    <Item />
-    <Item />
+    <Item value="Paket löschen…" revision="0" />
+    <Item value="Ausgewählte Pakete löschen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendSelected">
-    <Item />
-    <Item />
+    <Item value="Paket senden…" revision="0" />
+    <Item value="Ausgewählte Pakete senden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendAll">
-    <Item />
-    <Item />
+    <Item value="Alle Pakete senden…" revision="0" />
+    <Item value="Alle Pakete aus der Liste senden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Packetvorlage speichern…" revision="0" />
+    <Item value="Packetvorlage speichern" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Paketvorlage aus Datei laden…" revision="0" />
+    <Item value="Paketvorlage aus Datei laden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="Aufwärts bewegen" revision="0" />
+    <Item value="Das ausgewählte Paket nach oben verschieben" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
-    <Item />
+    <Item value="Abwärts bewegen" revision="0" />
+    <Item value="Das ausgewählte Paket nach unten verschieben" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Automatisches Berechnen von Prüfsummenfeldern für IP- und TCP-Pakete" revision="0" />
+    <Item value="Automatisches Berechnen von Prüfsummenfeldern für IP- und TCP-Pakete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Paketvorlage in Datei speichern…" revision="0" />
+    <Item value="Paketvorlage in Datei speichern" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Wert kopieren" revision="0" />
+    <Item value="Wert in die Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="&amp;Zeile kopieren" revision="0" />
+    <Item value="Ganze Zeile in die Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="Teilbaum e&amp;xpandieren" revision="0" />
+    <Item value="Erweitern des Teilbaums des Feldes" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="Teilbaum &amp;komprimieren" revision="0" />
+    <Item value="Den Teilbaum des Feldes zuklappen" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Nächstes Paket" revision="0" />
+    <Item value="Zum nächsten Paket springen" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Vorheriges Paket" revision="0" />
+    <Item value="Zum vorherigen Paket springen" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Zum Paket gehen…" revision="0" />
+    <Item value="Sprung zum angegebenen Paket" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="&amp;Ausgewählte Paketdetails" revision="0" />
+    <Item value="Details des Pakets anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="&amp;Filter einstellen…" revision="0" />
+    <Item value="Visualisierungsfilter konfigurieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="&amp;Root-Protokoll einstellen…" revision="0" />
+    <Item value="Geben Sie das Root-Protokoll für diesen Visualizer an" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Alle erweitern" revision="0" />
+    <Item value="Alle erweitern" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Alle einklappen" revision="0" />
+    <Item value="Alle einklappen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Keine auswählen" revision="0" />
+    <Item value="Alle Auswahlen im fokussierten Fenster löschen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="&amp;Invertieren auswählen" revision="0" />
+    <Item value="Auswahl invertieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Packet auswählen" revision="0" />
+    <Item value="Daten des aktuellen Pakets auswählen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Alle auswählen" revision="0" />
+    <Item value="Alle Inhalte des Visualizers auswählen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Hexadezimaler Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Dezimal" revision="0" />
+    <Item value="Dezimaler Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Oktal" revision="0" />
+    <Item value="Octal Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binär" revision="0" />
+    <Item value="Binärer Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="&amp;Gleitkomma" revision="0" />
+    <Item value="Einzelpräzisions-Gleitkomma-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="&amp;Doppelt Gleitkomma" revision="0" />
+    <Item value="Doppelpräzisions-Gleitkomma-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Bytes" revision="0" />
+    <Item value="Gruppe als Bytes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Wörter" revision="0" />
+    <Item value="Gruppe als Wörter" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Doppelte Wörter" revision="0" />
+    <Item value="Gruppe als Doppelwörter" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Vierfache Wörter" revision="0" />
+    <Item value="Gruppe als Viererwort" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Auto" revision="0" />
+    <Item value="Automatische Berechnung der Anzahl der Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 Spalten" revision="0" />
+    <Item value="4 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="8 Spalten" revision="0" />
+    <Item value="8 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 Spalten" revision="0" />
+    <Item value="16 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 Spalten" revision="0" />
+    <Item value="32 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Benutzerdefiniert…" revision="0" />
+    <Item value="Geben Sie die Anzahl der Spalten an" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
     <Item />
