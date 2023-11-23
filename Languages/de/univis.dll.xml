@@ -306,144 +306,144 @@
     <Item value="Das ausgewählte Paket nach oben verschieben" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item value="Abwärts" revision="0" />
-    <Item />
+    <Item value="Abwärts bewegen" revision="0" />
+    <Item value="Das ausgewählte Paket nach unten verschieben" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Automatisches Berechnen von Prüfsummenfeldern für IP- und TCP-Pakete" revision="0" />
+    <Item value="Automatisches Berechnen von Prüfsummenfeldern für IP- und TCP-Pakete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Paketvorlage in Datei speichern…" revision="0" />
+    <Item value="Paketvorlage in Datei speichern" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Wert kopieren" revision="0" />
+    <Item value="Wert in die Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="&amp;Zeile kopieren" revision="0" />
+    <Item value="Ganze Zeile in die Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="Teilbaum e&amp;xpandieren" revision="0" />
+    <Item value="Erweitern des Teilbaums des Feldes" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="Teilbaum &amp;komprimieren" revision="0" />
+    <Item value="Den Teilbaum des Feldes zuklappen" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Nächstes Paket" revision="0" />
+    <Item value="Zum nächsten Paket springen" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Vorheriges Paket" revision="0" />
+    <Item value="Zum vorherigen Paket springen" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Zum Paket gehen…" revision="0" />
+    <Item value="Sprung zum angegebenen Paket" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="&amp;Ausgewählte Paketdetails" revision="0" />
+    <Item value="Details des Pakets anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="&amp;Filter einstellen…" revision="0" />
+    <Item value="Visualisierungsfilter konfigurieren" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="&amp;Root-Protokoll einstellen…" revision="0" />
+    <Item value="Geben Sie das Root-Protokoll für diesen Visualizer an" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Alle erweitern" revision="0" />
+    <Item value="Alle erweitern" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Alle einklappen" revision="0" />
+    <Item value="Alle einklappen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Keine auswählen" revision="0" />
+    <Item value="Alle Auswahlen im fokussierten Fenster löschen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="&amp;Invertieren auswählen" revision="0" />
+    <Item value="Auswahl invertieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Packet auswählen" revision="0" />
+    <Item value="Daten des aktuellen Pakets auswählen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Alle auswählen" revision="0" />
+    <Item value="Alle Inhalte des Visualizers auswählen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Hexadezimaler Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Dezimal" revision="0" />
+    <Item value="Dezimaler Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Oktal" revision="0" />
+    <Item value="Octal Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binär" revision="0" />
+    <Item value="Binärer Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="&amp;Gleitkomma" revision="0" />
+    <Item value="Einzelpräzisions-Gleitkomma-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="&amp;Doppelt Gleitkomma" revision="0" />
+    <Item value="Doppelpräzisions-Gleitkomma-Modus" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Bytes" revision="0" />
+    <Item value="Gruppe als Bytes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Wörter" revision="0" />
+    <Item value="Gruppe als Wörter" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Doppelte Wörter" revision="0" />
+    <Item value="Gruppe als Doppelwörter" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Vierfache Wörter" revision="0" />
+    <Item value="Gruppe als Viererwort" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Auto" revision="0" />
+    <Item value="Automatische Berechnung der Anzahl der Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 Spalten" revision="0" />
+    <Item value="4 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="8 Spalten" revision="0" />
+    <Item value="8 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 Spalten" revision="0" />
+    <Item value="16 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 Spalten" revision="0" />
+    <Item value="32 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Benutzerdefiniert…" revision="0" />
+    <Item value="Geben Sie die Anzahl der Spalten an" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
     <Item />
