@@ -246,8 +246,8 @@
     <Item value="ДЕБАГ: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item value="Перейти к образцу…" revision="0" />
-    <Item value="Найдите на схеме конкретный образец" revision="0" />
+    <Item value="Перейти к сэмплу…" revision="0" />
+    <Item value="Перейти к сэмплу" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
     <Item value="Перейти к линии" revision="0" />

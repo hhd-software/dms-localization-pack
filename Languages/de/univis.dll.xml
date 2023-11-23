@@ -214,99 +214,99 @@
     <Item value="Paketfärbungsmodus umschalten" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item />
-    <Item />
+    <Item value="Alle löschen" revision="0" />
+    <Item value="Löschen des Inhalts des aktuellen Ausgabefensters" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
-    <Item />
-    <Item />
+    <Item value="Autofit" revision="0" />
+    <Item value="Autofit" revision="0" />
   </Enumeration>
   <Enumeration key="ModeLines">
-    <Item />
-    <Item />
+    <Item value="Linien zeichnen" revision="0" />
+    <Item value="Linien zeichnen" revision="0" />
   </Enumeration>
   <Enumeration key="ModeCurves">
-    <Item />
-    <Item />
+    <Item value="Kurven zeichnen" revision="0" />
+    <Item value="Kurven zeichnen" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
-    <Item />
-    <Item />
+    <Item value="Keine Füllung" revision="0" />
+    <Item value="Keine Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="FillSolid">
-    <Item />
-    <Item />
+    <Item value="Feste Füllung" revision="0" />
+    <Item value="Feste Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="FillGradient">
-    <Item />
-    <Item />
+    <Item value="Gradient Füllung" revision="0" />
+    <Item value="Gradient Füllung" revision="0" />
   </Enumeration>
   <Enumeration key="DumpVarCommand">
-    <Item />
-    <Item />
+    <Item value="DEBUG: Dump var0" revision="0" />
+    <Item value="DEBUG: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Muster…" revision="0" />
+    <Item value="Suchen Sie die spezifische Probe auf der Karte" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
-    <Item />
-    <Item />
+    <Item value="Gehe zu Zeile" revision="0" />
+    <Item value="Gehe zu Zeile" revision="0" />
   </Enumeration>
   <Enumeration key="PlotSetOnAxis">
-    <Item />
-    <Item />
+    <Item value="Auf der Achse anzeigen" revision="0" />
+    <Item value="Auf der Achse anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="PlotProperties">
-    <Item />
-    <Item />
+    <Item value="Zähler bearbeiten…" revision="0" />
+    <Item value="Ausgewählten Zähler bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="PlotReset">
-    <Item />
-    <Item />
+    <Item value="Farben zurücksetzen" revision="0" />
+    <Item value="Farben zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PlotCopy">
-    <Item />
-    <Item />
+    <Item value="In Zwischenablage kopieren" revision="0" />
+    <Item value="In Zwischenablage kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="PlotExportToCSV">
-    <Item />
-    <Item />
+    <Item value="In Datei exportieren (CSV)" revision="0" />
+    <Item value="In Datei exportieren (CSV)" revision="0" />
   </Enumeration>
   <Enumeration key="PlotResetColumnWidth">
-    <Item />
-    <Item />
+    <Item value="Spaltenbreiten zurücksetzen" revision="0" />
+    <Item value="Spaltenbreiten zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAdd">
-    <Item />
-    <Item />
+    <Item value="Neues Paket hinzufügen…" revision="0" />
+    <Item value="Neue Pakete zur Liste hinzufügen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDelete">
-    <Item />
-    <Item />
+    <Item value="Paket löschen…" revision="0" />
+    <Item value="Ausgewählte Pakete löschen" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendSelected">
-    <Item />
-    <Item />
+    <Item value="Paket senden…" revision="0" />
+    <Item value="Ausgewählte Pakete senden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendAll">
-    <Item />
-    <Item />
+    <Item value="Alle Pakete senden…" revision="0" />
+    <Item value="Alle Pakete aus der Liste senden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Packetvorlage speichern…" revision="0" />
+    <Item value="Packetvorlage speichern" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Paketvorlage aus Datei laden…" revision="0" />
+    <Item value="Paketvorlage aus Datei laden" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="Aufwärts bewegen" revision="0" />
+    <Item value="Das ausgewählte Paket nach oben verschieben" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
+    <Item value="Abwärts" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
