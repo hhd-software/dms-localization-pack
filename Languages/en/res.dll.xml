@@ -80,9 +80,13 @@
 
   <Message key="Trial dialog title: free" description="Trial dialog: title in free edition" value="Get Extended Functionality"/>
   <Message key="Trial dialog title: trial" description="Trial dialog: title in trial edition" value="Get Registered Version Now!"/>
-  <Message key="Trial text: free" description="Trial dialog: text in free edition" value="Some extended features of Device Monitoring Studio are Trial or Expired.\n\nYou may continue with limited functionality or upgrade to the extended version.\nPurchasing extended functionality will remove this screen."/>
+  <Message key="Trial text: free" description="Trial dialog: text in free edition" value="Some extended features of Device Monitoring Studio are [[[bTrial]]] or [[[bExpired]]].\n\nYou may continue with limited functionality or upgrade to the extended version.\nPurchasing extended functionality will remove this screen." revision="1"/>
 
-  <Message key="Trial text: trial" description="Trial dialog: text in trial edition" value="The following components are Trial or Expired.\n\nYou cannot continue using expired components and have a limited trial period for trial components. To eliminate this screen, you will need to purchase at least one component."/>
+  <Message key="Trial text: trial" description="Trial dialog: text in trial edition" value="The following components are [[[bTrial]]] or [[[bExpired]]].\n\nYou cannot continue using expired components and have a limited trial period for trial components. To eliminate this screen, you will need to purchase at least one component." revision="1"/>
+
+	<Message key="SpecialOfferFormat" description="Special offer format string on nag screen" value="[[[h#[Click to get more information about this offer]#{offer text}]]]">
+		<Param name="offer text"/>
+	</Message>
 
   <!-- Feature not available -->
   <Message key="Feature not Available.Title" description="Feature not available title" value="Feature not Available"/>

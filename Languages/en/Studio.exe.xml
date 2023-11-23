@@ -261,7 +261,7 @@
   <!-- Annoying dialog text templates -->
   <Message key="Continue with limited features" description="Link text: continue with limited features"/>
   <Message key="Try extended functionality" description="Button text: Try extended functionality"/>
-  <Message key="Purchase extended functionality" description="Button text: Purchase extended functionality" value="Get extended functionality"/>
+  <Message key="Purchase extended functionality" description="Button text: Get extended functionality" value="Get extended functionality"/>
   <Message key="Close this notification" description="Link text: Close this notification" value="Close this notification"/>
 
   <Message key="General Page" description="Page: General" value="General"/>
