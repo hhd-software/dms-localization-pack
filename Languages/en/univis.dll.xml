@@ -711,8 +711,8 @@
 		<Item text="&quot;No data&quot; text"/>
 		<Item text="Cursor fill"/>
 		<Item text="Cursor outline"/>
-		<Item text="Active row &amp; column hilight text"/>
-		<Item text="Active row &amp; column hilight background"/>
+		<Item text="Active row &amp; column highlight text"/>
+		<Item text="Active row &amp; column highlight background"/>
 		<Item text="Odd packet text"/>
 		<Item text="Odd packet background"/>
 		<Item text="Odd packet outline"/>

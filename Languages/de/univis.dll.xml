@@ -446,197 +446,197 @@
     <Item value="Geben Sie die Anzahl der Spalten an" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
-    <Item />
-    <Item />
+    <Item value="&amp;Textbereich" revision="0" />
+    <Item value="Einblenden oder Ausblenden eines Textfensters (ASCII oder UNICODE)" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
-    <Item />
-    <Item />
+    <Item value="&amp;Codebereich" revision="0" />
+    <Item value="Einblenden oder Ausblenden eines Codefensters" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Adresse als Hexadezimalwert anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Dezimal" revision="0" />
+    <Item value="Adresse als Dezimalwert anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Oktal" revision="0" />
+    <Item value="Adresse als oktal anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item />
-    <Item />
+    <Item value="Muster &amp;definieren…" revision="0" />
+    <Item value="Neue Muster erstellen oder bestehende verwalten" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item />
-    <Item />
+    <Item value="&amp;Codierung" revision="0" />
+    <Item value="Codierung" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Endpunkte" revision="0" />
+    <Item value="Endpunkte" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item />
-    <Item />
+    <Item value="Neue Regel hinzufügen…" revision="0" />
+    <Item value="Neue Musterfärberegel definieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item />
-    <Item />
+    <Item value="Schema speichern…" revision="0" />
+    <Item value="Muster speichern Färbung Schema" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item />
-    <Item />
+    <Item value="Schema laden…" revision="0" />
+    <Item value="Muster Farbschema laden" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
-    <Item />
-    <Item />
+    <Item value="Klares Farbschema" revision="0" />
+    <Item value="Klares Farbschema" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
-    <Item />
-    <Item />
+    <Item value="Alle prüfen" revision="0" />
+    <Item value="Alle Regeln freigeben" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item />
-    <Item />
+    <Item value="Alle abwählen" revision="0" />
+    <Item value="Alle Regeln deaktivieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
-    <Item />
-    <Item />
+    <Item value="Regel bearbeiten…" revision="0" />
+    <Item value="Regeleigenschaften bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDelete">
-    <Item />
-    <Item />
+    <Item value="Löschen" revision="0" />
+    <Item value="Färberegel löschen" revision="0" />
   </Enumeration>
   <Enumeration key="PatternHighlightingEnabled">
-    <Item />
-    <Item />
+    <Item value="Muster Hervorhebung" revision="0" />
+    <Item value="Aktivieren oder Deaktivieren aller Regeln zur Musterhervorhebung" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataSelection">
-    <Item />
-    <Item />
+    <Item value="&amp;Auswahl anzeigen" revision="0" />
+    <Item value="Auswahlfenster anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataInsertMode">
-    <Item />
-    <Item />
+    <Item value="Modus e&amp;infügen" revision="0" />
+    <Item value="Daten einfügen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Big-Endian" revision="0" />
+    <Item value="Byte Reihenfolge" revision="0" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Little-Endian" revision="0" />
+    <Item value="Byte Reihenfolge" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
-    <Item />
-    <Item />
+    <Item value="&amp;Gehe zu Offset" revision="0" />
+    <Item value="Sprung zum angegebenen Offset" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Nächstes Paket" revision="0" />
+    <Item value="Zum Anfang des nächsten Pakets springen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPrevPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Vorheriges Paket" revision="0" />
+    <Item value="Zum Anfang eines vorherigen Pakets springen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSynchronize">
-    <Item />
-    <Item />
+    <Item value="&amp;Synchronisieren" revision="0" />
+    <Item value="Nächstes Paket im Lese-/Schreibfenster anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindPrev">
-    <Item />
-    <Item />
+    <Item value="Vorheriges finden" revision="0" />
+    <Item value="Vorheriges finden" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataLayoutSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Färbung…" revision="0" />
+    <Item value="Färbungseinstellungen für die Rohdatenansicht anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHexEditorExport">
-    <Item />
-    <Item />
+    <Item value="Bearbeitung mit Hex Editor Neo" revision="0" />
+    <Item value="Anzeigen, Analysieren und Bearbeiten ausgewählter Fragmente mit dem Hex-Editor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
-    <Item />
-    <Item />
+    <Item value="Anzeigen &amp;als" revision="0" />
+    <Item value="Anzeigen als" revision="0" />
   </Enumeration>
   <Enumeration key="MenuGroupBy">
-    <Item />
-    <Item />
+    <Item value="Gruppe nach" revision="0" />
+    <Item value="Gruppe nach" revision="0" />
   </Enumeration>
   <Enumeration key="MenuColumns">
-    <Item />
-    <Item />
+    <Item value="&amp;Spalten" revision="0" />
+    <Item value="Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndians">
-    <Item />
-    <Item />
+    <Item value="Byte-&amp;Reihenfolge" revision="0" />
+    <Item value="Byte-Reihenfolge" revision="0" />
   </Enumeration>
   <Enumeration key="IncorrectInputText">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Muss ein hexadezimaler Wert sein" revision="0" />
+    <Item value="Muss ein Dezimalwert sein" revision="0" />
+    <Item value="Muss ein oktaler Wert sein" revision="0" />
+    <Item value="Muss ein reeller Wert sein" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item />
-    <Item />
+    <Item value="Bereich: {from} – {to} (Größe: {size})" revision="0" />
+    <Item value="Bereich: {from} – {to} (Größe: {size})" revision="0" />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
-    <Item />
-    <Item />
+    <Item value="Statische Linie platziert" revision="0" />
+    <Item value="Klicken Sie erneut bei gedrückter Strg-Taste, um eine Tracking-Linie zu platzieren" revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
-    <Item />
-    <Item />
+    <Item value="Spezieller Hochgeschwindigkeitsmodus" revision="0" />
+    <Item value="Device Monitoring Studio kann die Genauigkeit und Leistung des Statistik-Visualisierers erhöhen, wenn es allein verwendet wird. Starten Sie eine neue Überwachungssitzung, in der nur der Statistik-Visualisierer konfiguriert ist, oder schließen Sie alle anderen Datenverarbeitungsmodule, um in diesen Modus zu gelangen.\nBeachten Sie, dass die Protokollierung auch den Hochgeschwindigkeitsmodus deaktiviert." revision="0" />
   </Enumeration>
   <Enumeration key="PlotColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Name" revision="0" />
+    <Item value="Max" revision="0" />
+    <Item value="Durchschnitt" revision="0" />
+    <Item value="Zuletzt" revision="0" />
+    <Item value="Insgesamt" revision="0" />
+    <Item value="Skala" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gesamtgröße" revision="0" />
+    <Item value="Fragmente" revision="0" />
+    <Item value="Keine Auswahl" revision="0" />
+    <Item value="bytes" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionDetailsColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nr." revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Länge" revision="0" />
   </Enumeration>
   <Enumeration key="ColorItems">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Text" revision="1" />
+    <Item value="Hintergrund" revision="1" />
+    <Item value="Kopfzeile &amp; Adresse" revision="1" />
+    <Item value="Adresse Hintergrund" revision="1" />
+    <Item value="ASCII/UNICODE text" revision="1" />
+    <Item value="ASCII/UNICODE hintergrund" revision="1" />
+    <Item value="Gerade Spalte/Zeile (für Zeilensprungverfahren)" revision="1" />
+    <Item value="Ungerade Spalte/Zeile (für Zeilensprungverfahren)" revision="1" />
+    <Item value="Text &quot;keine daten&quot;" revision="1" />
+    <Item value="Cursor füllung" revision="1" />
+    <Item value="Cursor kontur" revision="1" />
+    <Item value="Aktive Zeile &amp; Spalte markieren text" revision="1" />
+    <Item value="Aktive Zeile &amp; Spalte markieren hintergrund" revision="1" />
+    <Item value="Ungerade Paket text" revision="1" />
+    <Item value="Ungerade Paket hintergrund" revision="1" />
+    <Item value="Ungerade Paket kontur" revision="1" />
+    <Item value="Gerade Paket text" revision="1" />
+    <Item value="Gerade Paket hintergrund" revision="1" />
+    <Item value="Gerade Paket kontur" revision="1" />
+    <Item value="Auswahl" revision="1" />
+    <Item value="Bearbeitbarer Text" revision="1" />
   </Enumeration>
   <Enumeration key="FRTypeList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Zeichenfolge" revision="0" />
+    <Item value="UNICODE Zeichenfolge" revision="0" />
+    <Item value="Hex" revision="0" />
   </Enumeration>
   <Enumeration key="FRGroupList">
     <Item />

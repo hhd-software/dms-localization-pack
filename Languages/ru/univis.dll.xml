@@ -471,7 +471,7 @@
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Кодировка" revision="0" />
-    <Item value="&amp;Кодировка" revision="0" />
+    <Item value="Кодировка" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Эндпоинты" revision="0" />
@@ -584,8 +584,8 @@
     <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
-    <Item value="Статическая линия проставлена" revision="0" />
-    <Item value="Щелкните еще раз, удерживая Ctrl, чтобы проставить линию отслеживания " revision="0" />
+    <Item value="Статическая линия поставлена" revision="0" />
+    <Item value="Щелкните еще раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
     <Item value="Специальный высокоскоростной режим" revision="0" />
