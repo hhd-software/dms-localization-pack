@@ -4,7 +4,7 @@
   <Message key="AllSupported" value="Все поддерживаемые" revision="0" />
   <Message key="WorkspaceFilter" value="Рабочие пространства" revision="0" />
   <Message key="InvalidScheme" value="Недопустимое имя схемы или схема уже существует." revision="0" />
-  <Message key="ActivatePane" value="Активировать панель {pane}" revision="0" />
+  <Message key="ActivatePane" value="Активировать {pane} панель" revision="0" />
   <Message key="Checking for new version" value="Проверка наличия новых версий" revision="0" />
   <Message key="You are using the most recent version of the software." value="Вы используете последнюю версию Device Monitoring Studio" revision="0" />
   <Message key="Error checking for new version" value="При проверке новой версии произошла следующая ошибка:\n\n  {error}" revision="0" />
@@ -51,7 +51,6 @@
   <Message key="OverwriteColoringScheme" value="Перезаписать схему {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Некорректное имя схемы или схема уже существует." revision="0" />
   <Message key="LowMemory" value="Сессия мониторинга была остановлена из-за нехватки памяти" revision="0" />
-  <Message key="EmergencySessionTermination" value="{error text} ({error code})" revision="0" />
   <Message key="EmptyFilter" value="Пусто (захват всех пакетов)" revision="0" />
   <Message key="DISPFILTER" value="Фильтр визуализатора" revision="0" />
   <Message key="CAPTUREFILTER" value="Фильтр сессии" revision="0" />

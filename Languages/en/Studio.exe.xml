@@ -9,7 +9,7 @@
   <!-- Filtering -->
   <Message key="InvalidScheme" description="Invalid scheme" value="Invalid scheme name or the scheme already exists." />
   <!--  -->
-  <Message key="ActivatePane" description="Activate {pane} pane" value="Activate Pane">
+  <Message key="ActivatePane" description="Activate Pane" value="Activate {pane} pane">
     <Param name="pane"/>
   </Message>
   <!-- Commands -->
@@ -171,7 +171,7 @@
 
   <Message key="LowMemory" description="Low memory condition" value="Monitoring session has been stopped due to low memory conditions"/>
 
-  <Message key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
+  <Message optional="true" key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
     <Param name="error text"/>
     <Param name="error code" format="ub016"/>
   </Message>

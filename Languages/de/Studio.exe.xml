@@ -1,5 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="AllFiles" value="Alle Dateien" revision="0" />
+  <Message key="AllSupported" value="Alle unterstützt" revision="0" />
+  <Message key="WorkspaceFilter" value="Arbeitsbereiche" revision="0" />
+  <Message key="InvalidScheme" value="Ungültiger Schemaname oder das Schema existiert bereits." revision="0" />
+  <Message key="ActivatePane" value="Fenster {pane} aktivieren" revision="0" />
+  <Message key="Checking for new version" value="Prüfen auf neue Version" revision="0" />
+  <Message key="You are using the most recent version of the software." value="Sie verwenden die neueste Version von Device Monitoring Studio" revision="0" />
+  <Message key="Error checking for new version" value="Bei der Prüfung auf eine neue Version ist folgender Fehler aufgetreten:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Ungültige Antwort vom Update-Server erhalten" revision="0" />
+  <Message key="Language Page" value="Sprache" revision="0" />
+  <Message key="Downloading language pack" value="Herunterladen des Sprachpakets" revision="0" />
+  <Message key="Product language" value="Produktsprache" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Die Änderung der Produktsprache erfordert einen Neustart von Device Monitoring Studio." revision="0" />
+  <Message key="I can't find my language in this list." value="Ich kann meine Sprache in dieser Liste nicht finden." revision="0" />
+  <Message key="Language pack storage location" value="Speicherort des Sprachpakets" revision="0" />
+  <Message key="Languages online" value="Sprachen online" revision="0" />
+  <Message key="Refresh" value="&amp;Aktualisieren" revision="0" />
+  <Message key="ButtonRefreshing" value="Erfrischend..." revision="0" />
+  <Message key="Download" value="&amp;Download" revision="0" />
+  <Message key="Start" value="&amp;Start" revision="0" />
+  <Message key="Language pack" value="Sprachpaket: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Wenn Sie ausgewählte Updates verwerfen, werden Sie von Device Monitoring Studio nicht mehr über diese Updates benachrichtigt. Sie werden weiterhin über zukünftige Updates benachrichtigt.\r\n\r\nMöchten Sie immer noch ausgewählte Updates verwerfen?" revision="0" />
+  <Message key="LangPackUpdated" value="Sprachpaket wurde aktualisiert. Sie müssen die Anwendung neu starten, um das Sprachpaket neu zu laden.\r\n\r\nDo you want to restart now?" revision="0" />
+  <Message key="Component Updates" value="Komponenten Updates" revision="0" />
+  <Message key="The following updates are found:" value="Folgende Aktualisierungen wurden gefunden:" revision="0" />
+  <Message key="Check for updates" value="Nach Aktualisierungen suchen" revision="0" />
+  <Message key="Start Download" value="Download starten" revision="0" />
+  <Message key="View Changes…" value="Änderungen anzeigen…" revision="0" />
+  <Message key="Discard" value="Verwerfen" revision="0" />
+  <Message key="ActionSelection" value="{name} wurde erfolgreich heruntergeladen. Was wollen Sie damit machen?" revision="0" />
+  <Message key="UpdateDownloadError" value="Beim Herunterladen des Updates ist der folgende Fehler aufgetreten:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Beim Kopieren der heruntergeladenen Datei ist ein Fehler aufgetreten:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Beim Speichern des Arbeitsbereichs ist ein Fehler aufgetreten: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Beim Ausführen des heruntergeladenen Images ist ein Fehler aufgetreten:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Neue Version heruntergeladen" revision="0" />
+  <Message key="Install now" value="Jetzt installieren" revision="0" />
+  <Message key="Make a copy and install now" value="Eine Kopie erstellen und jetzt installieren" revision="0" />
+  <Message key="Notifications" value="Benachrichtigungen" revision="0" />
+  <Message key="AutoHide" value="Werkzeugfenster automatisch ausblenden" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Aufforderung zum Speichern des geänderten Arbeitsbereichs" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Konfiguration der Werkzeuge mit Arbeitsbereich speichern" revision="0" />
+  <Message key="DocumentsToRemember" value="Zuletzt verwendete Arbeitsbereiche zur Anzeige" revision="0" />
+  <Message key="DisplayNotificationsFor" value="Anzeige des Benachrichtigungsfensters für (Sekunden)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Schließen betrifft nur das aktuelle Werkzeugfenster" revision="0" />
+  <Message key="RestoreWindowPosition" value="Position des Hauptfensters beim Starten wiederherstellen" revision="0" />
+  <Message key="HoverTime" value="Schwebezeit (ms)" revision="0" />
+  <Message key="CloseTime" value="Schließzeit (ms)" revision="0" />
+  <Message key="Coloring" value="Färbung" revision="0" />
+  <Message key="OverwriteColoringScheme" value="Schema {scheme} überschreiben?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Ungültiger Schemaname oder das Schema existiert bereits." revision="0" />
+  <Message key="LowMemory" value="Die Überwachungssitzung wurde aufgrund von Speichermangel beendet" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
