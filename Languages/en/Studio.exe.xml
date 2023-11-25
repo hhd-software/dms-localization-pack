@@ -9,7 +9,7 @@
   <!-- Filtering -->
   <Message key="InvalidScheme" description="Invalid scheme" value="Invalid scheme name or the scheme already exists." />
   <!--  -->
-  <Message key="ActivatePane" description="Activate {pane} pane">
+  <Message key="ActivatePane" description="Activate {pane} pane" value="Activate Pane">
     <Param name="pane"/>
   </Message>
   <!-- Commands -->
