@@ -51,6 +51,23 @@
   <Message key="OverwriteColoringScheme" value="Schema {scheme} überschreiben?" revision="0" />
   <Message key="InvalidColoringScheme" value="Ungültiger Schemaname oder das Schema existiert bereits." revision="0" />
   <Message key="LowMemory" value="Die Überwachungssitzung wurde aufgrund von Speichermangel beendet" revision="0" />
+  <Message key="EmptyFilter" value="Leer (alle Pakete erfassen)" revision="0" />
+  <Message key="DISPFILTER" value="Visualisierer-Filter" revision="0" />
+  <Message key="CAPTUREFILTER" value="Sitzungs-Filter" revision="0" />
+  <Message key="FLTWARNINGNEW" value="Ihre aktuelle Sitzung wird unterbrochen, bis die Daten in den Visualisierungen aktualisiert sind." revision="0" />
+  <Message key="DELETEERROR" value="Diese Regelung kann nicht gelöscht werden" revision="0" />
+  <Message key="WRITEERROR" value="Geben Sie den Namen des Filters an." revision="0" />
+  <Message key="READONLY" value="Dieses Schema kann nicht bearbeitet werden" revision="0" />
+  <Message key="NAMEERROR" value="Der Name ist leer, falsch oder zu lang (mehr als 100 Zeichen)" revision="0" />
+  <Message key="Filtering" value="Filterung" revision="0" />
+  <Message key="FILESNOTLOADED" value="Es ist ein Fehler beim Laden der Protokolldefinitionsdateien aufgetreten. Die Filterung wird nicht funktionieren." revision="0" />
+  <Message key="FilterDoesNotExist" value="Filter {filter} existiert nicht" revision="0" />
+  <Message key="FilterParamsMismatch" value="Filterstring kann nicht auf bestehenden Filter angewendet werden." revision="0" />
+  <Message key="FilterApplyError" value="Erwartete Filterparameter" revision="0" />
+  <Message key="CurrentUnsaved" value="Ungespeicherter Filter" revision="0" />
+  <Message key="OverwriteFilterScheme" value="Möchten Sie das Schema {scheme} überschreiben?" revision="0" />
+  <Message key="ErrorRootProtocol" value="Root-Protokoll wurde nicht angegeben" revision="0" />
+  <Message key="ErrorRootNotExist" value="Ausgewähltes Wurzelprotokoll existiert nicht" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

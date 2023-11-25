@@ -203,7 +203,7 @@
   </Message>
 
   <Message key="ErrorRootProtocol" description="Root protocol error" value="Root protocol was not specified"/>
-  <Message key="ErrorRootNotExist" description="Root protocol error" value="Selected root protocol is not exist"/>
+  <Message key="ErrorRootNotExist" description="Root protocol error" value="Selected root protocol does not exist"/>
 
   <!-- Structure Viewer error messages -->
   <Enumeration key="CompilerErrors" description="Compiler errors">
