@@ -178,6 +178,121 @@
   <Message key="Requests" value="Anfragen" revision="0" />
   <Message key="Responses" value="Antworten" revision="0" />
   <Message key="IO Requests" value="I/O-Anfragen" revision="0" />
+  <Message key="clr.default_colors" value="Standard UI Farben" revision="0" />
+  <Message key="clr.default_colors.background" value="Hintergrund" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Kontrolle Hintergrund" revision="0" />
+  <Message key="clr.default_colors.text" value="Text/Vordergrund" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Hintergrund der Auswahl" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Auswahl Strich" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Ausgewählter Text" revision="0" />
+  <Message key="clr.menu" value="Farben des Menüs" revision="0" />
+  <Message key="clr.menu.background" value="Hintergrund" revision="0" />
+  <Message key="clr.menu.text" value="Text" revision="0" />
+  <Message key="clr.menu.separator" value="Trennzeichen" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.menu.checked" value="Hintergrund des geprüften Objekts" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Hintergrund der geprüften und deaktivierten Objekte" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.menu.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Deaktivierter Element Hintergrund" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Deaktivierter Element Hoverstrich" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Deaktivierter Hover Text" revision="0" />
+  <Message key="clr.rebar" value="Rebar Farben" revision="0" />
+  <Message key="clr.rebar.background" value="Hintergrund" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Chevronpunkt Füllfarbe" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Chevron Punkt Strichfarbe" revision="0" />
+  <Message key="clr.toolbar" value="Farben der Symbolleiste" revision="0" />
+  <Message key="clr.toolbar.background" value="Hintergrund" revision="0" />
+  <Message key="clr.toolbar.text" value="Text" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.toolbar.separator" value="Trennzeichen" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Hintergrund der Drucksache" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Hub des gedrückten Elements" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Text des gedrückten Elements" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Hintergrund des gedrückten und deaktivierten Elements" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Schlaganfall bei gedrücktem und deaktiviertem Element" revision="0" />
+  <Message key="clr.frame" value="Rahmen Farben" revision="0" />
+  <Message key="clr.frame.frame.background" value="Hintergrund" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Kundenhintergrund" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Hintergrund des Dokumentenrahmens" revision="0" />
+  <Message key="clr.frame.frame.border" value="Rand" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Inaktiver Kopfzeilenhintergrund" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Inaktiver Kopfzeilentext/Strich" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Aktiver Kopfzeilenhintergrund" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Aktiver Kopfzeilentext/Strich" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Hover Strich" revision="0" />
+  <Message key="clr.frame.hover.text" value="Hover Text" revision="0" />
+  <Message key="clr.frame.title_text" value="Text des Titels" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Schatten des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.background" value="Hintergrund des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Hervorhebung des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.header" value="Kopfzeile des Navigationssymbols" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Rand des Navigationssymbols" revision="0" />
+  <Message key="clr.listview" value="Farben der Listenansicht" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Hintergrund" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Text" revision="0" />
+  <Message key="clr.listview.header.fill" value="Kopfzeile Hintergrund" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Kopfzeilen Text" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Inaktive Auswahl Hintergrund" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Inaktiver Auswahltext" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Inaktiver Auswahlstrich" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Aktive Auswahl Hintergrund" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Aktiver Auswahltext" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Aktiver Auswahlstrich" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Hover Hintergrund" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Hover Text" revision="0" />
+  <Message key="clr.listview.grid" value="Raster" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Alternativer Hintergrund" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="Settings Page" value="Einstellungen" revision="0" />
+  <Message key="Settings Storage Location" value="Einstellungen Speicherort" revision="0" />
+  <Message key="Settings Management" value="Verwaltung der Einstellungen" revision="0" />
+  <Message key="Export Settings…" value="Einstellungen exportieren…" revision="0" />
+  <Message key="Import Settings…" value="Einstellungen importieren…" revision="0" />
+  <Message key="Reset Settings…" value="Einstellungen zurücksetzen…" revision="0" />
+  <Message key="Ask to import settings" value="Die angegebene Datei existiert bereits. Möchten Sie ihren Inhalt jetzt importieren? Wenn Sie auf Nein klicken, wird die Datei mit den aktuellen Einstellungen überschrieben." revision="0" />
+  <Message key="Ask to reset settings" value="Die Anwendung muss neu gestartet werden, um die Einstellungen zurückzusetzen. Möchten Sie fortfahren?" revision="0" />
+  <Message key="Ask to restart" value="Es wird empfohlen, die Anwendung neu zu starten, um die importierten Einstellungen zu übernehmen. Möchten Sie jetzt neu starten?" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Apply" value="&amp;Anwenden" revision="0" />
+  <Message key="Cancel" value="Abbrechen" revision="0" />
+  <Message key="Reset" value="&amp;Zurücksetzen" revision="0" />
+  <Message key="Reset to Default" value="Zurücksetzen auf &amp;Standard" revision="0" />
+  <Message key="Help" value="&amp;Hilfe" revision="0" />
+  <Message key="Yes" value="&amp;Ja" revision="0" />
+  <Message key="No" value="&amp;Nein" revision="0" />
+  <Message key="Close" value="Schließen" revision="0" />
+  <Message key="Add" value="&amp;Hinzufügen" revision="0" />
+  <Message key="Edit" value="&amp;Bearbeiten" revision="0" />
+  <Message key="Remove" value="&amp;Entfernen" revision="0" />
+  <Message key="Remove All" value="A&amp;ll entfernen" revision="0" />
+  <Message key="Reset All" value="A&amp;ll zurücksetzen" revision="0" />
+  <Message key="Copy" value="&amp;Kopieren" revision="0" />
+  <Message key="Continue" value="Fortfahren" revision="0" />
+  <Message key="Import" value="&amp;Importieren…" revision="0" />
+  <Message key="Export" value="&amp;Exportieren…" revision="0" />
+  <Message key="Browse" value="&amp;Durchsuchen…" revision="0" />
+  <Message key="Save" value="Speichern" revision="0" />
+  <Message key="Delete" value="Löschen" revision="0" />
+  <Message key="Generate Script" value="&amp;Skript generieren" revision="0" />
+  <Message key="Stop" value="Stopp" revision="0" />
+  <Message key="B" value="B" revision="0" />
+  <Message key="KB" value="KB" revision="0" />
+  <Message key="MB" value="MB" revision="0" />
+  <Message key="GB" value="GB" revision="0" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="ms" value="ms" revision="0" />
+  <Message key="NextConnected" value="Nächstes angeschlossenes Gerät" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
