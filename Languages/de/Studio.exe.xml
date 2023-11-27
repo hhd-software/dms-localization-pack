@@ -293,6 +293,15 @@
   <Message key="TB" value="TB" revision="0" />
   <Message key="ms" value="ms" revision="0" />
   <Message key="NextConnected" value="Nächstes angeschlossenes Gerät" revision="0" />
+  <Message key="HotPlug" value="Unterstützung für Hotplug-Geräte" revision="0" />
+  <Message key="PacketNotFound" value="Das von Ihnen gesuchte Paket wird in diesem Visualizer nicht angezeigt. Versuchen Sie, es in anderen Visualisierern zu finden." revision="0" />
+  <Message key="Root Protocol" value="Root-Protokoll" revision="0" />
+  <Message key="Affect only new packets" value="Betrifft nur neue Pakete" revision="0" />
+  <Message key="Protocol:" value="Protokoll:" revision="0" />
+  <Message key="Serial Repeater Settings" value="Einstellungen des seriellen Repeaters" revision="0" />
+  <Message key="Send read packets to:" value="Senden Sie Lesepakete an:" revision="0" />
+  <Message key="Send write packets to:" value="Senden Sie Schreibpakete an:" revision="0" />
+  <Message key="Use the same serial device for both reads and writes" value="Verwendung desselben seriellen Geräts für Lese- und Schreibvorgänge" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
@@ -596,9 +605,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="themingMode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Farbthemenmodus (Neustart erforderlich)" revision="0" />
+    <Item value="System benutzen" revision="0" />
+    <Item value="Immer Light Theme verwenden" revision="0" />
+    <Item value="Immer Dunkles Thema verwenden" revision="0" />
   </Enumeration>
 </Language>
