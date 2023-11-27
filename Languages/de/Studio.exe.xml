@@ -124,6 +124,60 @@
   <Message key="Active Documents" value="Aktive Dokumente" revision="0" />
   <Message key="Settings group.Visual" value="Visuell" revision="0" />
   <Message key="Settings group.User Interface" value="Benutzeroberfläche" revision="0" />
+  <Message key="Settings group.Network" value="Netzwerk &amp; Support" revision="0" />
+  <Message key="Settings group.Monitoring" value="Überwachung" revision="0" />
+  <Message key="Settings group.Misc" value="Andere" revision="0" />
+  <Message key="Colors Page" value="Designs" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Geben Sie den Namen des Schemas ein und drücken Sie die Schaltfläche Speichern" revision="0" />
+  <Message key="ColorSchemeExists" value="Das Farbschema existiert bereits. Möchten Sie es außer Kraft setzen?" revision="0" />
+  <Message key="Theme:" value="Design:" revision="0" />
+  <Message key="Display elements:" value="Angezeigte Elemente:" revision="0" />
+  <Message key="Automatic" value="Automatisch" revision="0" />
+  <Message key="Current" value="Aktuell" revision="0" />
+  <Message key="Selected" value="Ausgewählte" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Die automatische Farbe ist abhängig vom aktuellen Farbschema des Betriebssystems." revision="0" />
+  <Message key="&amp;Open" value="&amp;Offen" revision="0" />
+  <Message key="Open Recent" value="Offen {item}" revision="0" />
+  <Message key="Settings" value="Einstellung" revision="0" />
+  <Message key="Search settings" value="Sucheinstellungen" revision="0" />
+  <Message key="This toolbar cannot be deleted." value="Diese Symbolleiste kann nicht gelöscht werden." revision="0" />
+  <Message key="Toolbar Deletion Failed" value="Löschung der Symbolleiste fehlgeschlagen" revision="0" />
+  <Message key="Invalid toolbar name" value="Ungültiger Name der Symbolleiste. Gültiger Name muss mit einem Buchstaben beginnen." revision="0" />
+  <Message key="Toolbar Creation Failed" value="Erstellung der Symbolleiste fehlgeschlagen" revision="0" />
+  <Message key="Toolbar already exists" value="Die Symbolleiste mit dem von Ihnen angegebenen Namen ist bereits vorhanden." revision="0" />
+  <Message key="All commands" value="Alle Befehle" revision="0" />
+  <Message key="Commands Page" value="Befehle" revision="0" />
+  <Message key="Toolbars" value="Symbolleiste:" revision="0" />
+  <Message key="New" value="&amp;Neu…" revision="0" />
+  <Message key="Button size" value="Knopfgröße:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Wählen Sie einen Befehl aus, um seine Beschreibung anzuzeigen, oder ziehen Sie ihn auf eine Symbolleiste:" revision="0" />
+  <Message key="New Group" value="Neu &amp;Gruppe" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Hinzufügen" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Entfernen &gt;" revision="0" />
+  <Message key="Move Up" value="Au&amp;fwärts bewegen" revision="0" />
+  <Message key="Move Down" value="A&amp;bwärts bewegen" revision="0" />
+  <Message key="Clear" value="&amp;Klar" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Clip-Symbolleisten" revision="0" />
+  <Message key="Wrap toolbars" value="Symbolleisten &amp;umbrechen" revision="0" />
+  <Message key="Keyboard" value="Tastatur" revision="0" />
+  <Message key="MaxShortcuts" value="Sie können einem Befehl nicht mehr als 5 Tastenkombinationen zuweisen." revision="0" />
+  <Message key="ShortcutExists" value="Diese Abkürzung ist bereits für {command} definiert. Möchten Sie sie neu definieren?" revision="0" />
+  <Message key="Keyboard Page" value="Tastatur" revision="0" />
+  <Message key="Category" value="Kategorie:" revision="0" />
+  <Message key="Commands" value="Befehle:" revision="0" />
+  <Message key="Current keys" value="Aktuelle Tasten:" revision="0" />
+  <Message key="Press new shortcut key" value="Drücken Sie die &amp;neue Tastenkombination:" revision="0" />
+  <Message key="Description" value="Beschreibung:" revision="0" />
+  <Message key="Currently assigned to" value="Derzeit zugewiesen an:" revision="0" />
+  <Message key="Assign" value="&amp;Zuweisen" revision="0" />
+  <Message key="Keyboard Map" value="Tastatur &amp;Karte" revision="0" />
+  <Message key="[unassigned]" value="[nicht zugewiesen]" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Tastatur Karte" revision="0" />
+  <Message key="Print" value="&amp;Drucken" revision="0" />
+  <Message key="General" value="Allgemein" revision="0" />
+  <Message key="Requests" value="Anfragen" revision="0" />
+  <Message key="Responses" value="Antworten" revision="0" />
+  <Message key="IO Requests" value="I/O-Anfragen" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
