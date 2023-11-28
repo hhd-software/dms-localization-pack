@@ -427,29 +427,29 @@
     <Item value="Niemals" revision="0" />
   </Enumeration>
   <Enumeration key="CompilerErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="KEIN_FEHLER" revision="0" />
+    <Item value="CE001: Die angeforderte Operation ist für den angegebenen Datentyp nicht zulässig oder wird hier nicht erwartet" revision="0" />
+    <Item value="CE002: Division durch Null" revision="0" />
+    <Item value="CE003: Der angegebene Bezeichner wurde nicht gefunden" revision="0" />
+    <Item value="CE004: Skalar wird erwartet" revision="0" />
+    <Item value="CE005: Vektor wird erwartet" revision="0" />
+    <Item value="CE006: Array-Index liegt außerhalb des Bereichs" revision="0" />
+    <Item value="CE007: Noch nicht implementiert" revision="0" />
+    <Item value="CE008: Ungültige Bitfeldgröße" revision="0" />
+    <Item value="CE009: Syntaxfehler" revision="0" />
+    <Item value="CE010: Der Typ wurde nur vorwärts deklariert" revision="0" />
+    <Item value="CE011: Operation für dynamischen Typ nicht unterstützt" revision="0" />
+    <Item value="CE012: Typ wird neu definiert" revision="0" />
+    <Item value="CE013: Assertion fehlgeschlagen" revision="0" />
+    <Item value="CE014: Konstanter Ausdruck wird erwartet" revision="0" />
+    <Item value="CE015: Konstanter String-Ausdruck wird erwartet" revision="0" />
+    <Item value="CE016: Falsche Anzahl von Argumenten für einen Funktionsaufruf" revision="0" />
+    <Item value="CE017: Subscript-Operation für nicht-indizierte Arrays (Hinweis: Entfernen Sie das Attribut [noindex])" revision="0" />
+    <Item value="CE018: Von der Javascript-Engine zurückgegebener Fehler" revision="0" />
+    <Item value="CE019: Ungültiges Argument" revision="0" />
+    <Item value="CE020: Maximal zulässige Rekursionstiefe ist erreicht" revision="0" />
+    <Item value="CE021: Ausdruck eines anderen Typs wird erwartet" revision="0" />
+    <Item value="CE022: Fehler in der Vorverarbeitung" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
     <Item value="&amp;Alle speichern" revision="0" />
@@ -662,12 +662,12 @@
     <Item value="Dieses Sprachpaket wurde von der Open Source Community erstellt. Wir übernehmen keine Verantwortung für die Qualität dieser Übersetzung.\r\n\r\nWenn Sie einen Fehler in einer Übersetzung gefunden haben, können Sie ein Ticket einreichen oder den Fehler selbst korrigieren." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
-    <Item />
-    <Item />
+    <Item value="Unterbrechen" revision="0" />
+    <Item value="Klicken Sie hier, um den Betrieb dieses Moduls zu unterbrechen" revision="0" />
   </Enumeration>
   <Enumeration key="Resume1">
-    <Item />
-    <Item />
+    <Item value="Fortsetzen" revision="0" />
+    <Item value="Klicken Sie auf , um den Betrieb dieses Moduls fortzusetzen" revision="0" />
   </Enumeration>
   <Enumeration key="themingMode">
     <Item value="Farbthemenmodus (Neustart erforderlich)" revision="0" />
