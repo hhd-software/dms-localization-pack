@@ -313,64 +313,118 @@
   <Message key="Match case" value="&amp;Fall übereinstimmen" revision="0" />
   <Message key="Whole window" value="&amp;Ganzes Fenster" revision="0" />
   <Message key="Selection" value="&amp;Auswahl" revision="0" />
+  <Message key="GotoCaption" value="Gehe zu {caption}" revision="0" />
+  <Message key="Packet number" value="Paketnummer" revision="0" />
+  <Message key="Code" value="Code" revision="0" />
+  <Message key="The following monitoring sessions are active:" value="{has sessions?}Die folgenden Überwachungssitzungen sind aktiv: {sessions}{|has sessions}Keine aktiven Überwachungssitzungen.{?has sessions}" revision="0" />
+  <Message key="Default" value="Standard" revision="0" />
+  <Message key="This scheme cannot be deleted" value="Diese Schema kann nicht gelöscht werden" revision="0" />
+  <Message key="Plase wait" value="Bitte warten..." revision="0" />
+  <Message key="DataNoLongerValid" value="Dieser Datenblock ist nicht mehr gültig." revision="0" />
+  <Message key="Unknown Request" value="Unbekannt Anfrage" revision="0" />
+  <Message key="Value" value="Wert" revision="0" />
+  <Message key="Undefined" value="Undefiniert" revision="0" />
+  <Message key="None" value="Keine" revision="0" />
+  <Message key="Request" value="Anfrage" revision="0" />
+  <Message key="Request Name" value="Anfrage Name" revision="0" />
+  <Message key="Delay" value="Verzögerung" revision="0" />
+  <Message key="Request Subtype" value="Anfrage Subtyp" revision="0" />
+  <Message key="Interface" value="Interface" revision="0" />
+  <Message key="Request Type" value="Anfrage Typ" revision="0" />
+  <Message key="CopyProtect" value="Kopierschutz" revision="0" />
+  <Message key="InterfaceFmt" value="Interface{number}" revision="0" />
+  <Message key="PinFmt" value="Pin{number}: " revision="0" />
+  <Message key="ControlFmt" value="Kontrolle{number}: " revision="0" />
+  <Message key="Up" value="Auf" revision="0" />
+  <Message key="Down" value="Abwärts" revision="0" />
+  <Message key="Enabled" value="Aktiviert" revision="0" />
+  <Message key="ToolsFilter" value="Tools Konfigurationsdateien|*.dmsdwc9|" revision="0" />
+  <Message key="AllFilesFilterString" value="Alle Dateien|*.*|" revision="0" />
+  <Message key="Setting files" value="Einstellungen|*.dmsset9|" revision="0" />
+  <Message key="Export successful" value="Die Einstellungen wurden erfolgreich in einer Datei gespeichert." revision="0" />
+  <Message key="Import successful" value="Die Einstellungen wurden erfolgreich importiert." revision="0" />
+  <Message key="File creation error" value="Es ist ein Fehler beim {create?}Erstellen{|create}Öffnen{?create} einer Datei aufgetreten &quot;{name}&quot;: {text} ({code})" revision="0" />
+  <Message key="Vendor-Specific" value="Anbieterspezifisch" revision="0" />
+  <Message key="MissingFilterHost" value="Fehler beim Abrufen des Filter-Hosts. Strukturdatei fehlt oder hat Kompilierfehler." revision="0" />
+  <Message key="UseLanguage" value="Verwenden Sie dieses Sprachpaket" revision="0" />
+  <Message key="AccessLangsOnline" value="Zugriff auf das Online-Repository" revision="0" />
+  <Message key="LangChanged" value="Sie müssen Device Monitoring Studio neu starten, nachdem Sie die Sprache geändert haben. Möchten Sie jetzt neu starten?" revision="0" />
+  <Message key="ThemeFiles" value="Theme-Dateien (*.dmsheme)|*.dmstheme||" revision="1" />
+  <Message key="BindPathWarning" value="Ihre aktuelle Sitzung wird unterbrochen werden." revision="0" />
+  <Message key="WarningTitle" value="Warnung" revision="0" />
+  <Message key="Wait_Text" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="Crash Page" value="Absturzbericht" revision="0" />
+  <Message key="CrashIntro" value="Wenn Sie über den Status Ihres Absturzberichts benachrichtigt werden möchten und wünschen, dass Ihre Berichte mit höherer Priorität bearbeitet werden, geben Sie bitte Ihre E-Mail-Adresse in das unten stehende Feld ein. Ihre E-Mail-Adresse wird nicht für andere Zwecke als die Erörterung Ihrer Meldung verwendet." revision="0" />
+  <Message key="Report Settings" value="Einstellungen" revision="0" />
+  <Message key="Send report automatically" value="&amp;Bericht automatisch versenden" revision="0" />
+  <Message key="Report verbosity level" value="Detaillierungsgrad des Berichts" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="&amp;Volle dump" revision="0" />
+  <Message key="Minidump description" value="Minidumps haben in der Regel eine Größe von weniger als einem Megabyte und enthalten nur begrenzte Informationen über einen Absturz. Manchmal reicht ein Minidump aus, um das Problem zu diagnostizieren, aber oft fehlen ihm die notwendigen Informationen, um den Absturz zu reproduzieren." revision="0" />
+  <Message key="Full dump description" value="Vollständige Dumps enthalten die komprimierte Ansicht des gesamten Prozessadressraums. Sie sind am besten geeignet, um Entwicklern die Möglichkeit zu geben, die Situation, die den Absturz verursacht hat, zu reproduzieren und so schnell wie möglich zu beheben. Die Größe eines vollständigen Dumps kann jedoch leicht Hunderte von Megabyte erreichen." revision="0" />
+  <Message key="Privacy Policy" value="Datenschutz" revision="0" />
+  <Message key="Credits to" value="Credits an:" revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Klicken Sie, um den Visualisierungsfilter zu ändern" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Klicken Sie, um das Root-Protokoll zu ändern" revision="0" />
+  <Message key="WrittenBytes" value="{size as text} ({size} bytes) geschrieben" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
-    <Item />
-    <Item />
+    <Item value="Nach Updates &amp;suchen" revision="0" />
+    <Item value="Prüfen Sie online, ob eine aktualisierte Version vorliegt." revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Datei" revision="0" />
+    <Item value="Datei" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Neu" revision="0" />
+    <Item value="Neu" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Bearbeiten" revision="0" />
+    <Item value="Bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Ansicht" revision="0" />
+    <Item value="Ansicht" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;Tools" revision="0" />
+    <Item value="Tools" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenster" revision="0" />
+    <Item value="Fenster" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Hilfe" revision="0" />
+    <Item value="Hilfe" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="&amp;Werkzeug Fenster" revision="0" />
+    <Item value="Liste der Werkzeugfenster" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Speichern" revision="0" />
+    <Item value="Das aktuelle Dokument oder den Arbeitsbereich speichern" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="&amp;Filterung" revision="0" />
+    <Item value="Visualisierungsfilter und -optionen anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Speichern &amp;als…" revision="0" />
+    <Item value="Das aktuelle Dokument oder den Arbeitsbereich unter einem anderen Namen speichern" revision="0" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Komponente" revision="0" />
+    <Item value="Aktuelle Version" revision="0" />
+    <Item value="Aktualisierte Version" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nach Updates suchen" revision="0" />
+    <Item value="Jeder Start" revision="0" />
+    <Item value="Jede Woche" revision="0" />
+    <Item value="Niemals" revision="0" />
   </Enumeration>
   <Enumeration key="CompilerErrors">
     <Item />
@@ -398,214 +452,214 @@
     <Item />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle speichern" revision="0" />
+    <Item value="Alle geöffneten Dokumente speichern" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Alle anzeigen" revision="0" />
+    <Item value="Keine Anzeige" revision="0" />
+    <Item value="Aktuell" revision="0" />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Neue Beta-Versionen verfügbar" revision="0" />
+    <Item value="Es stehen neue Betaversionen für Ihre Produktversion zum Download bereit." revision="0" />
+    <Item value="Möchten Sie die Liste der aktualisierten Komponenten durchsuchen und sie herunterladen?" revision="0" />
+    <Item value="Diese Aufforderung erscheint nur einmal für jeden Satz von eindeutigen Online-Komponenten." revision="0" />
+    <Item value="Nicht nach neuen Beta-Versionen suchen" revision="0" />
   </Enumeration>
   <Enumeration key="FileExit">
-    <Item />
-    <Item />
+    <Item value="Bee&amp;nden" revision="0" />
+    <Item value="Anwendung beenden" revision="0" />
   </Enumeration>
   <Enumeration key="FileOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Öffnen…" revision="0" />
+    <Item value="Dokument im unterstützten Format öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item />
-    <Item />
+    <Item value="Arbeitsbereich &amp;leeren" revision="0" />
+    <Item value="Schließen Sie alle Überwachungssitzungen und geöffneten Fenster und löschen Sie andere Einträge im Arbeitsbereich." revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Au&amp;sschneiden" revision="0" />
+    <Item value="Ausschneiden der Auswahl in die Zwischenablage" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Kopieren" revision="0" />
+    <Item value="Auswahl kopieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Einfügen" revision="0" />
+    <Item value="Einfügen des Inhalts der Zwischenablage" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="&amp;Export" revision="0" />
+    <Item value="Auswahl exportieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="&amp;Löschen/Leeren Ansicht" revision="0" />
+    <Item value="Klare Ansicht" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
-    <Item />
-    <Item />
+    <Item value="Klare &amp;Alle Ansichten" revision="0" />
+    <Item value="Alle Ansichten löschen" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Finde…" revision="0" />
+    <Item value="Finde" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="&amp;Nächste finden" revision="0" />
+    <Item value="Nächste finden" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item />
-    <Item />
+    <Item value="&amp;Go to Packet…" revision="0" />
+    <Item value="Suchen Sie das betreffende Paket" revision="0" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item />
-    <Item />
+    <Item value="Konfiguration &amp;exportieren…" revision="0" />
+    <Item value="Fenster-Konfiguration exportieren" revision="0" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item />
-    <Item />
+    <Item value="Konfiguration &amp;importieren…" revision="0" />
+    <Item value="Fenster-Konfiguration importieren" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Einstellungen…" revision="0" />
+    <Item value="Programmeinstellungen anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
-    <Item />
-    <Item />
+    <Item value="Alle Sitzungen &amp;fortsetzen" revision="0" />
+    <Item value="Alle Überwachungssitzungen fortsetzen" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
-    <Item />
-    <Item />
+    <Item value="Alle Sitzungen &amp;unterbrechen" revision="0" />
+    <Item value="Alle Überwachungssitzungen anhalten" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Alle Sitzungen stoppen" revision="0" />
+    <Item value="Stoppt alle Überwachungssitzungen" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrev">
-    <Item />
-    <Item />
+    <Item value="&amp;Zurück" revision="0" />
+    <Item value="Zum vorherigen Fenster wechseln" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNext">
-    <Item />
-    <Item />
+    <Item value="&amp;Weiter" revision="0" />
+    <Item value="Zum nächsten Fenster wechseln" revision="0" />
   </Enumeration>
   <Enumeration key="WindowClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenster schließen" revision="0" />
+    <Item value="Das aktive Fenster schließen" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNextPane">
-    <Item />
-    <Item />
+    <Item value="Nächstes Fenster" revision="0" />
+    <Item value="Nächstes Fenster aktivieren" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrevPane">
-    <Item />
-    <Item />
+    <Item value="Vorheriges Fenster" revision="0" />
+    <Item value="Vorheriges Fenster aktivieren" revision="0" />
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
-    <Item />
-    <Item />
+    <Item value="&amp;In Tray minimieren" revision="0" />
+    <Item value="Minimieren Sie das Device Monitoring Studio-Fenster in die Systemtray" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
-    <Item />
-    <Item />
+    <Item value="Abbrechen" revision="0" />
+    <Item value="Abbrechen" revision="0" />
   </Enumeration>
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Inhalt" revision="0" />
+    <Item value="Inhalt" revision="0" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item />
-    <Item />
+    <Item value="&amp;Rückmeldung…" revision="0" />
+    <Item value="Rückmeldung" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
-    <Item />
-    <Item />
+    <Item value="&amp;Tastaturkarte..." revision="0" />
+    <Item value="Tastaturbelegung anzeigen und drucken" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardPrint">
-    <Item />
-    <Item />
+    <Item value="&amp;Drucken…" revision="0" />
+    <Item value="Drucken der Tastaturbelegung" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Kopieren…" revision="0" />
+    <Item value="Kopieren Sie die Tastaturbelegung" revision="0" />
   </Enumeration>
   <Enumeration key="Endpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Endpunkte" revision="0" />
+    <Item value="Endpunkte" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsColoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Färbung" revision="0" />
+    <Item value="Färbungseinstellungen öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="FiltersSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Filtern…" revision="0" />
+    <Item value="Filtereinstellungen öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item />
-    <Item />
+    <Item value="Konfiguration &amp;zurücksetzen" revision="0" />
+    <Item value="Konfiguration der Werkzeugfenster zurücksetzen" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Neuer &amp;horizontaler Rahmen" revision="0" />
+    <Item value="Neuer horizontaler Rahmen" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Neuer &amp;vertikaler Rahmen" revision="0" />
+    <Item value="Neuer vertikaler Rahmen" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Dockbares Fenster" revision="0" />
+    <Item value="Dockbares Fenster" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Tabelliertes Dokument" revision="0" />
+    <Item value="Tabelliertes Dokument" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Befehl" revision="0" />
+    <Item value="Verknüpfungen" revision="0" />
+    <Item value="Beschreibung" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registrierung" revision="0" />
+    <Item value="Standard-Speicherort pro Benutzer." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
-    <Item />
+    <Item value="Portabler Modus" revision="0" />
+    <Item value="Speichern Sie die Anwendungseinstellungen in der Datei portable.hexset7 im Autostart-Ordner." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Externe Datei:" revision="0" />
+    <Item value="Speichern Sie die Anwendungseinstellungen in einer externen Datei. Geben Sie einen gemeinsamen Speicherort an (z. B. OneDrive oder einen gemeinsamen Dropbox-Ordner), um Ihre Einstellungen für verschiedene Geräte freizugeben." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDirection">
-    <Item />
-    <Item />
+    <Item value="ABWÄRTS" revision="0" />
+    <Item value="AUF" revision="0" />
   </Enumeration>
   <Enumeration key="Boolean">
-    <Item />
-    <Item />
+    <Item value="Wahr" revision="0" />
+    <Item value="Falsch" revision="0" />
   </Enumeration>
   <Enumeration key="YesNo">
-    <Item />
-    <Item />
+    <Item value="JA" revision="0" />
+    <Item value="NEIN" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Weitere Sprachen…" revision="0" />
+    <Item value="Prüfen Sie online, ob es weitere Sprachen gibt" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Online-Sprachenspeicher" revision="0" />
+    <Item value="Beteiligen Sie sich an der Erstellung weiterer Sprachpakete für Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
-    <Item />
-    <Item />
+    <Item value="Sprache ändern" revision="0" />
+    <Item value="Dieses Sprachpaket wurde von der Open Source Community erstellt. Wir übernehmen keine Verantwortung für die Qualität dieser Übersetzung.\r\n\r\nWenn Sie einen Fehler in einer Übersetzung gefunden haben, können Sie ein Ticket einreichen oder den Fehler selbst korrigieren." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
     <Item />

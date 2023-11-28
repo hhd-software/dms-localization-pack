@@ -374,31 +374,31 @@
   </Enumeration>
   <Enumeration key="MenuFile">
     <Item value="&amp;Файл" revision="0" />
-    <Item value="Меню файлов" revision="0" />
+    <Item value="Файл" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Новое" revision="0" />
-    <Item value="Новое меню" revision="0" />
+    <Item value="Новый" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
     <Item value="&amp;Редактировать" revision="0" />
-    <Item value="Редактировать меню" revision="0" />
+    <Item value="Редактирование" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
     <Item value="&amp;Смотреть" revision="0" />
-    <Item value="Смотреть меню" revision="0" />
+    <Item value="Просмотр" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
     <Item value="&amp;Инструменты" revision="0" />
-    <Item value="Меню инструментов" revision="0" />
+    <Item value="Инструменты" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
     <Item value="&amp;Окно" revision="0" />
-    <Item value="Меню окон" revision="0" />
+    <Item value="Окно" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
     <Item value="&amp;Справка" revision="0" />
-    <Item value="Меню справки" revision="0" />
+    <Item value="Справка" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
     <Item value="&amp;Инструментальные окна" revision="0" />
@@ -531,7 +531,7 @@
   </Enumeration>
   <Enumeration key="ToolsStart">
     <Item value="&amp;Возобновить все сессии" revision="0" />
-    <Item value="Возобновить все сеансы мониторингаClick to apply" revision="0" />
+    <Item value="Возобновить все сеансы мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
     <Item value="&amp;Приостановить все сессии" revision="0" />
