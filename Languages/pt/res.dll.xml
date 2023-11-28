@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="HelpRegister">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpAbout">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditionNames">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FeatureDlgColumnNames">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LicenseType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CommercialState">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Feature not Available.Text">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpStartTrial">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlayerSource">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LicenseColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

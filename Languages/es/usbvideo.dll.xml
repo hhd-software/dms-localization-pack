@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="VideoConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoSubclasses">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CommandsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoRequestSubtypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoErrorCodes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SubclassesCat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VCDescriptorsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VSDescriptorsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoScanningModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoExposureModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoPriorityModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoFocusModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoIrisModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoZoomModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoSwitchModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoPanRelativeModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoTiltModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoPrivacyModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoStatusModes">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoStandardModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoFrequencyModes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoTriggerModes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoErrors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideColorPrimaries">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoTransferCharacteristics">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoMatrixCoefficients">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoFieldsPerFrame">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoFormatType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoFormatRefresh">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoTerminalOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoDescriptors1">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoDescriptors2">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbVideoColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
