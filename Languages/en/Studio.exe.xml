@@ -826,7 +826,7 @@
 	<Message key="Whole window" description="Option: Whole window" value="W&amp;hole window"/>
 	<Message key="Selection" description="Option: Selection" value="&amp;Selection"/>
 	
-	<Message key="GotoTemplate" description="Go to window template" value="{caption} ({from} - {to}):">
+	<Message optional="true" key="GotoTemplate" description="Go to window template" value="{caption} ({from} - {to}):">
 		<Param name="caption"/>
 		<Param name="from" format="l"/>
 		<Param name="to" format="l"/>
