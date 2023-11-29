@@ -48,6 +48,29 @@
   <Message key="HoverTime" value="hover tempo (ms)" revision="0" />
   <Message key="CloseTime" value="Fecho tempo (ms)" revision="0" />
   <Message key="Coloring" value="Coloração" revision="0" />
+  <Message key="OverwriteColoringScheme" value="Substituir o esquema {scheme}?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Nome do esquema inválido ou o esquema já existe." revision="0" />
+  <Message key="LowMemory" value="A sessão de monitorização foi interrompida devido a condições de pouca memória" revision="0" />
+  <Message key="EmptyFilter" value="Vazio (capturar todos os pacotes)" revision="0" />
+  <Message key="DISPFILTER" value="Filtro visualizador" revision="0" />
+  <Message key="CAPTUREFILTER" value="Filtro de sessão" revision="0" />
+  <Message key="FLTWARNINGNEW" value="A sua sessão atual será suspensa até que os dados nos visualizadores sejam actualizados." revision="0" />
+  <Message key="DELETEERROR" value="Este esquema não pode ser apagado" revision="0" />
+  <Message key="WRITEERROR" value="Especificar o nome do filtro." revision="0" />
+  <Message key="READONLY" value="Este esquema não pode ser editado" revision="0" />
+  <Message key="NAMEERROR" value="O nome está vazio, incorreto ou é demasiado longo (mais de 100 símbolos)" revision="0" />
+  <Message key="Filtering" value="Filtragem" revision="0" />
+  <Message key="FILESNOTLOADED" value="Ocorreu um erro ao carregar os ficheiros de definição de protocolo. A filtragem não funcionará." revision="0" />
+  <Message key="FilterDoesNotExist" value="O filtro {filter} não existe" revision="0" />
+  <Message key="FilterParamsMismatch" value="Não é possível aplicar a cadeia de filtros a um filtro existente." revision="0" />
+  <Message key="FilterApplyError" value="Parâmetros de filtragem esperados" revision="0" />
+  <Message key="CurrentUnsaved" value="Filtro não guardado" revision="0" />
+  <Message key="OverwriteFilterScheme" value="Pretende substituir o esquema {scheme}?" revision="0" />
+  <Message key="ErrorRootProtocol" value="O protocolo de raiz não foi especificado" revision="0" />
+  <Message key="ErrorRootNotExist" value="O protocolo de raiz selecionado não existe" revision="0" />
+  <Message key="ConcantenatePackets" value="Juntar-se a solicitações consequentes" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Este componente está em modo [[[bTrial]]] com [[[b{days}]]] dias de avaliação restantes. Está disponível a partir da [[[b{edition} Edição]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Este componente está [[[bexpired]]]. É necessário atualizar para a [[[b{edition} Edição]]] para o poder utilizar.]]]" revision="2" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
