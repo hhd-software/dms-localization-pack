@@ -28,6 +28,8 @@
   <Message key="Check for updates" value="Verificar actualizações" revision="0" />
   <Message key="Start Download" value="Iniciar a transferência" revision="0" />
   <Message key="View Changes…" value="Ver alterações…" revision="0" />
+  <Message key="Discard" value="Descartar" revision="0" />
+  <Message key="ActionSelection" value="{name} foi descarregado com sucesso. O que pretende fazer com ele?" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

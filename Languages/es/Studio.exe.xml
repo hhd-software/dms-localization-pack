@@ -28,6 +28,8 @@
   <Message key="Check for updates" value="Buscar actualizaciones" revision="0" />
   <Message key="Start Download" value="Iniciar descarga" revision="0" />
   <Message key="View Changes…" value="Ver cambios…" revision="0" />
+  <Message key="Discard" value="Descartar" revision="0" />
+  <Message key="ActionSelection" value="{name} se ha descargado correctamente. ¿Qué quieres hacer con él?" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
