@@ -30,6 +30,24 @@
   <Message key="View Changes…" value="Ver cambios…" revision="0" />
   <Message key="Discard" value="Descartar" revision="0" />
   <Message key="ActionSelection" value="{name} se ha descargado correctamente. ¿Qué quieres hacer con él?" revision="0" />
+  <Message key="UpdateDownloadError" value="Se ha producido el siguiente error al descargar la actualización:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Se ha producido un error al copiar el archivo descargado:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Se ha producido un error al guardar el espacio de trabajo: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Se ha producido un error al ejecutar la imagen descargada:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Nueva versión descargada" revision="0" />
+  <Message key="Install now" value="Instalar ahora" revision="0" />
+  <Message key="Make a copy and install now" value="Haga una copia e instale ahora" revision="0" />
+  <Message key="Notifications" value="Notificaciones" revision="0" />
+  <Message key="AutoHide" value="Ocultar automáticamente las ventanas de herramientas" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Pedir que se guarde el espacio de trabajo modificado" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Guardar la configuración de las herramientas con el espacio de trabajo" revision="0" />
+  <Message key="DocumentsToRemember" value="Espacios de trabajo utilizados recientemente " revision="0" />
+  <Message key="DisplayNotificationsFor" value="Mostrar ventana de notificación durante (segundos)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Cerrar sólo afecta a la ventana de la herramienta actual" revision="0" />
+  <Message key="RestoreWindowPosition" value="Restaurar la posición de la ventana principal al inicio" revision="0" />
+  <Message key="HoverTime" value="Hover tiempo (ms)" revision="0" />
+  <Message key="CloseTime" value="Cerrar tiempo (ms)" revision="0" />
+  <Message key="Coloring" value="Colorear" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

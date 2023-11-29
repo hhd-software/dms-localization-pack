@@ -30,6 +30,24 @@
   <Message key="View Changes…" value="Ver alterações…" revision="0" />
   <Message key="Discard" value="Descartar" revision="0" />
   <Message key="ActionSelection" value="{name} foi descarregado com sucesso. O que pretende fazer com ele?" revision="0" />
+  <Message key="UpdateDownloadError" value="Ocorreu o seguinte erro ao descarregar a atualização:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Ocorreu um erro durante a cópia do ficheiro descarregado:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Ocorreu um erro ao copiar o ficheiro descarregado: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Ocorreu um erro ao executar a imagem descarregada:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Nova versão descarregada" revision="0" />
+  <Message key="Install now" value="Instalar agora" revision="0" />
+  <Message key="Make a copy and install now" value="Faça uma cópia e instale agora" revision="0" />
+  <Message key="Notifications" value="Notificações" revision="0" />
+  <Message key="AutoHide" value="Ocultar automaticamente as janelas de ferramentas" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Pedir para guardar o espaço de trabalho modificado" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Guardar a configuração das ferramentas com o espaço de trabalho" revision="0" />
+  <Message key="DocumentsToRemember" value="Espaços de trabalho utilizados recentemente" revision="0" />
+  <Message key="DisplayNotificationsFor" value="Mostrar janela de notificação durante (segundos)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Fechar afecta apenas a janela da ferramenta atual" revision="0" />
+  <Message key="RestoreWindowPosition" value="Restaurar a posição da janela principal no arranque" revision="0" />
+  <Message key="HoverTime" value="hover tempo (ms)" revision="0" />
+  <Message key="CloseTime" value="Fecho tempo (ms)" revision="0" />
+  <Message key="Coloring" value="Coloração" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
