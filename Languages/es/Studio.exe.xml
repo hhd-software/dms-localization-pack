@@ -1,5 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="AllFiles" value="Todos los archivos" revision="0" />
+  <Message key="AllSupported" value="Todos compatibles" revision="0" />
+  <Message key="WorkspaceFilter" value="Espacios de trabajo" revision="0" />
+  <Message key="InvalidScheme" value="Nombre de esquema no válido o el esquema ya existe." revision="0" />
+  <Message key="ActivatePane" value="Activar el panel {pane}" revision="0" />
+  <Message key="Checking for new version" value="Comprobación de la nueva versión" revision="0" />
+  <Message key="You are using the most recent version of the software." value="Está utilizando la versión más reciente de Device Monitoring Studio" revision="0" />
+  <Message key="Error checking for new version" value="Se ha producido el siguiente error durante la comprobación de la nueva versión:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Respuesta no válida recibida del servidor de actualización" revision="0" />
+  <Message key="Language Page" value="Idioma" revision="0" />
+  <Message key="Downloading language pack" value="Descarga del paquete de idiomas" revision="0" />
+  <Message key="Product language" value="Idioma del producto" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Cambiar el idioma del producto requiere reiniciar Device Monitoring Studio." revision="0" />
+  <Message key="I can't find my language in this list." value="No encuentro mi idioma en esta lista." revision="0" />
+  <Message key="Language pack storage location" value="Ubicación del paquete de idiomas" revision="0" />
+  <Message key="Languages online" value="Idiomas online" revision="0" />
+  <Message key="Refresh" value="&amp;Actualizar" revision="0" />
+  <Message key="ButtonRefreshing" value="Refrescante…" revision="0" />
+  <Message key="Download" value="&amp;Descargar" revision="0" />
+  <Message key="Start" value="&amp;Inicio" revision="0" />
+  <Message key="Language pack" value="Paquete de idiomas: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Si descarta las actualizaciones seleccionadas, Device Monitoring Studio dejará de notificárselas. Seguirá recibiendo notificaciones de futuras actualizaciones.\r\n\r\n¿Sigue queriendo descartar las actualizaciones seleccionadas?" revision="0" />
+  <Message key="LangPackUpdated" value="Paquete(s) de idioma(s) actualizado(s). Es necesario reiniciar la aplicación para volver a cargar el paquete de idioma.\r\n\r\n¿Quieres reiniciar ahora?" revision="0" />
+  <Message key="Component Updates" value="Actualizaciones de componentes" revision="0" />
+  <Message key="The following updates are found:" value="Se encuentran las siguientes actualizaciones:" revision="0" />
+  <Message key="Check for updates" value="Buscar actualizaciones" revision="0" />
+  <Message key="Start Download" value="Iniciar descarga" revision="0" />
+  <Message key="View Changes…" value="Ver cambios…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
