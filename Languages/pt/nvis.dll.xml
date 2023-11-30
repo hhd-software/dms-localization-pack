@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="CustomConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ExportError">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopyAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopyHtml">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Options">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Colors">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

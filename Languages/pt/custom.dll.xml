@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ProtocolNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProtocolOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditReplace">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Recompile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditUndo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditRedo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEditor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureDesc">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureFormats">
+    <Item />
+  </Enumeration>
+  <Enumeration key="ErrorColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureEditor">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Custom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProtocolRevertAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProtocolAutoRecompile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProtocolDeleteFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ProtocolOpenFolder">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PredefinedSchemes">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilterComponentColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

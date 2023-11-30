@@ -4,7 +4,7 @@
   <Message key="AllSupported" value="Все поддерживаемые" revision="0" />
   <Message key="WorkspaceFilter" value="Рабочие пространства" revision="0" />
   <Message key="InvalidScheme" value="Недопустимое имя схемы или схема уже существует." revision="0" />
-  <Message key="ActivatePane" value="Активировать панель {pane}" revision="0" />
+  <Message key="ActivatePane" value="Активировать {pane} панель" revision="0" />
   <Message key="Checking for new version" value="Проверка наличия новых версий" revision="0" />
   <Message key="You are using the most recent version of the software." value="Вы используете последнюю версию Device Monitoring Studio" revision="0" />
   <Message key="Error checking for new version" value="При проверке новой версии произошла следующая ошибка:\n\n  {error}" revision="0" />
@@ -51,7 +51,6 @@
   <Message key="OverwriteColoringScheme" value="Перезаписать схему {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Некорректное имя схемы или схема уже существует." revision="0" />
   <Message key="LowMemory" value="Сессия мониторинга была остановлена из-за нехватки памяти" revision="0" />
-  <Message key="EmergencySessionTermination" value="{error text} ({error code})" revision="0" />
   <Message key="EmptyFilter" value="Пусто (захват всех пакетов)" revision="0" />
   <Message key="DISPFILTER" value="Фильтр визуализатора" revision="0" />
   <Message key="CAPTUREFILTER" value="Фильтр сессии" revision="0" />
@@ -305,7 +304,7 @@
   <Message key="Use the same serial device for both reads and writes" value="Использовать одно и то же последовательное устройство для чтения и записи" revision="0" />
   <Message key="Don't show this anymore" value="Больше не показывать это" revision="0" />
   <Message key="Find" value="Поиск" revision="0" />
-  <Message key="Passed the end of the data" value="Прошел конец данных" revision="0" />
+  <Message key="Passed the end of the data" value="Пройден конец данных" revision="0" />
   <Message key="The pattern was not found." value="Паттерн не найден." revision="0" />
   <Message key="Find what:" value="&amp;Найти что:" revision="0" />
   <Message key="Options" value="Опции" revision="0" />
@@ -314,7 +313,6 @@
   <Message key="Match case" value="Учитывать &amp;регистр" revision="0" />
   <Message key="Whole window" value="Окно &amp;целиком" revision="0" />
   <Message key="Selection" value="&amp;Выделение" revision="0" />
-  <Message key="GotoTemplate" value="{caption} ({from} - {to}):" revision="0" />
   <Message key="GotoCaption" value="Перейти к {caption}" revision="0" />
   <Message key="Packet number" value="Номер пакета" revision="0" />
   <Message key="Code" value="Код" revision="0" />
@@ -375,31 +373,31 @@
   </Enumeration>
   <Enumeration key="MenuFile">
     <Item value="&amp;Файл" revision="0" />
-    <Item value="Меню файлов" revision="0" />
+    <Item value="Файл" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
     <Item value="&amp;Новое" revision="0" />
-    <Item value="Новое меню" revision="0" />
+    <Item value="Новый" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
     <Item value="&amp;Редактировать" revision="0" />
-    <Item value="Редактировать меню" revision="0" />
+    <Item value="Редактирование" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
     <Item value="&amp;Смотреть" revision="0" />
-    <Item value="Смотреть меню" revision="0" />
+    <Item value="Просмотр" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
     <Item value="&amp;Инструменты" revision="0" />
-    <Item value="Меню инструментов" revision="0" />
+    <Item value="Инструменты" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
     <Item value="&amp;Окно" revision="0" />
-    <Item value="Меню окон" revision="0" />
+    <Item value="Окно" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
     <Item value="&amp;Справка" revision="0" />
-    <Item value="Меню справки" revision="0" />
+    <Item value="Справка" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
     <Item value="&amp;Инструментальные окна" revision="0" />
@@ -532,7 +530,7 @@
   </Enumeration>
   <Enumeration key="ToolsStart">
     <Item value="&amp;Возобновить все сессии" revision="0" />
-    <Item value="Возобновить все сеансы мониторингаClick to apply" revision="0" />
+    <Item value="Возобновить все сеансы мониторинга" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
     <Item value="&amp;Приостановить все сессии" revision="0" />
@@ -672,9 +670,9 @@
     <Item value="Нажмите, чтобы возобновить работу этого модуля" revision="0" />
   </Enumeration>
   <Enumeration key="themingMode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Режим цветовой схемы (требует перезапуска)" revision="0" />
+    <Item value="Использовать системную" revision="0" />
+    <Item value="Всегда использовать Светлую Тему" revision="0" />
+    <Item value="Всегда использовать Тёмную Тему" revision="0" />
   </Enumeration>
 </Language>

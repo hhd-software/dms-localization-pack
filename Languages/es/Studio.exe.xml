@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="AllFiles" value="Todos los archivos" revision="0" />
+  <Message key="AllSupported" value="Todos compatibles" revision="0" />
+  <Message key="WorkspaceFilter" value="Espacios de trabajo" revision="0" />
+  <Message key="InvalidScheme" value="Nombre de esquema no válido o el esquema ya existe." revision="0" />
+  <Message key="ActivatePane" value="Activar el panel {pane}" revision="0" />
+  <Message key="Checking for new version" value="Comprobación de la nueva versión" revision="0" />
+  <Message key="You are using the most recent version of the software." value="Está utilizando la versión más reciente de Device Monitoring Studio" revision="0" />
+  <Message key="Error checking for new version" value="Se ha producido el siguiente error durante la comprobación de la nueva versión:\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Respuesta no válida recibida del servidor de actualización" revision="0" />
+  <Message key="Language Page" value="Idioma" revision="0" />
+  <Message key="Downloading language pack" value="Descarga del paquete de idiomas" revision="0" />
+  <Message key="Product language" value="Idioma del producto" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Cambiar el idioma del producto requiere reiniciar Device Monitoring Studio." revision="0" />
+  <Message key="I can't find my language in this list." value="No encuentro mi idioma en esta lista." revision="0" />
+  <Message key="Language pack storage location" value="Ubicación del paquete de idiomas" revision="0" />
+  <Message key="Languages online" value="Idiomas online" revision="0" />
+  <Message key="Refresh" value="&amp;Actualizar" revision="0" />
+  <Message key="ButtonRefreshing" value="Refrescante…" revision="0" />
+  <Message key="Download" value="&amp;Descargar" revision="0" />
+  <Message key="Start" value="&amp;Inicio" revision="0" />
+  <Message key="Language pack" value="Paquete de idiomas: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Si descarta las actualizaciones seleccionadas, Device Monitoring Studio dejará de notificárselas. Seguirá recibiendo notificaciones de futuras actualizaciones.\r\n\r\n¿Sigue queriendo descartar las actualizaciones seleccionadas?" revision="0" />
+  <Message key="LangPackUpdated" value="Paquete(s) de idioma(s) actualizado(s). Es necesario reiniciar la aplicación para volver a cargar el paquete de idioma.\r\n\r\n¿Quieres reiniciar ahora?" revision="0" />
+  <Message key="Component Updates" value="Actualizaciones de componentes" revision="0" />
+  <Message key="The following updates are found:" value="Se encuentran las siguientes actualizaciones:" revision="0" />
+  <Message key="Check for updates" value="Buscar actualizaciones" revision="0" />
+  <Message key="Start Download" value="Iniciar descarga" revision="0" />
+  <Message key="View Changes…" value="Ver cambios…" revision="0" />
+  <Message key="Discard" value="Descartar" revision="0" />
+  <Message key="ActionSelection" value="{name} se ha descargado correctamente. ¿Qué quieres hacer con él?" revision="0" />
+  <Message key="UpdateDownloadError" value="Se ha producido el siguiente error al descargar la actualización:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Se ha producido un error al copiar el archivo descargado:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Se ha producido un error al guardar el espacio de trabajo: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Se ha producido un error al ejecutar la imagen descargada:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Nueva versión descargada" revision="0" />
+  <Message key="Install now" value="Instalar ahora" revision="0" />
+  <Message key="Make a copy and install now" value="Haga una copia e instale ahora" revision="0" />
+  <Message key="Notifications" value="Notificaciones" revision="0" />
+  <Message key="AutoHide" value="Ocultar automáticamente las ventanas de herramientas" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Pedir que se guarde el espacio de trabajo modificado" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Guardar la configuración de las herramientas con el espacio de trabajo" revision="0" />
+  <Message key="DocumentsToRemember" value="Espacios de trabajo utilizados recientemente " revision="0" />
+  <Message key="DisplayNotificationsFor" value="Mostrar ventana de notificación durante (segundos)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Cerrar sólo afecta a la ventana de la herramienta actual" revision="0" />
+  <Message key="RestoreWindowPosition" value="Restaurar la posición de la ventana principal al inicio" revision="0" />
+  <Message key="HoverTime" value="Hover tiempo (ms)" revision="0" />
+  <Message key="CloseTime" value="Cerrar tiempo (ms)" revision="0" />
+  <Message key="Coloring" value="Colorear" revision="0" />
+  <Message key="OverwriteColoringScheme" value="¿Sobrescribir esquema {scheme}?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Nombre de esquema no válido o el esquema ya existe." revision="0" />
+  <Message key="LowMemory" value="La sesión de monitorización se ha detenido por falta de memoria" revision="0" />
+  <Message key="EmptyFilter" value="Vacío (captura todos los paquetes)" revision="0" />
+  <Message key="DISPFILTER" value="Filtro visualizador" revision="0" />
+  <Message key="CAPTUREFILTER" value="Filtro de sesión" revision="0" />
+  <Message key="FLTWARNINGNEW" value="La sesión actual se suspenderá hasta que se actualicen los datos de los visualizadores." revision="0" />
+  <Message key="DELETEERROR" value="Este esquema no puede borrarse" revision="0" />
+  <Message key="WRITEERROR" value="Especifique el nombre del filtro." revision="0" />
+  <Message key="READONLY" value="Este esquema no puede editarse" revision="0" />
+  <Message key="NAMEERROR" value="El nombre está vacío, es incorrecto o demasiado largo (más de 100 símbolos)" revision="0" />
+  <Message key="Filtering" value="Filtrado" revision="0" />
+  <Message key="FILESNOTLOADED" value="Se ha producido un error al cargar los archivos de definición de protocolo. El filtrado no funcionará." revision="0" />
+  <Message key="FilterDoesNotExist" value="El filtro {filter} no existe" revision="0" />
+  <Message key="FilterParamsMismatch" value="No se puede aplicar la cadena de filtros en un filtro existente." revision="0" />
+  <Message key="FilterApplyError" value="Parámetros de filtrado esperados" revision="0" />
+  <Message key="CurrentUnsaved" value="Filtro no guardado" revision="0" />
+  <Message key="OverwriteFilterScheme" value="¿Desea sobrescribir el esquema {scheme}?" revision="0" />
+  <Message key="ErrorRootProtocol" value="El protocolo raíz no se ha especificado" revision="0" />
+  <Message key="ErrorRootNotExist" value="El protocolo raíz seleccionado no existe" revision="0" />
+  <Message key="ConcantenatePackets" value="Unirse a las solicitudes consecuentes" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Este componente está en modo [[[bTrial]]] al que le quedan [[[b{days}]]] días de evaluación. Está disponible a partir de [[[b{edition} Edición]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Este componente ha [[[bexpired]]]. Debe actualizar a  [[[b{edition} Edición]]] para poder utilizarlo.]]]" revision="2" />
+  <Message key="FreeWarning" value="Este componente no está disponible en la Edición Gratuita. Puede iniciar una prueba gratuita para probar este componente si aún no se ha iniciado." revision="0" />
+  <Message key="Continue with limited features" value="Continuar con funciones limitadas" revision="0" />
+  <Message key="Try extended functionality" value="Pruebe la funcionalidad ampliada" revision="0" />
+  <Message key="Purchase extended functionality" value="Obtenga funciones ampliadas" revision="0" />
+  <Message key="Close this notification" value="Cerrar esta notificación" revision="0" />
+  <Message key="General Page" value="General" revision="0" />
+  <Message key="ExecutablesFilter" value="Ejecutables|*.exe|Todos los archivos|*.*||" revision="0" />
+  <Message key="WorkspaceFilterNotExist" value="El espacio de trabajo contiene una referencia al nombre de filtro &lt;{filter}&gt; que no existe. Se aplicará el filtro vacío." revision="0" />
+  <Message key="All sessions stopped" value="Todas las sesiones se detuvieron debido a la condición de memoria baja. Es posible que tenga que reiniciar Device Monitoring Studio para reanudar la monitorización. Si sigue recibiendo este mensaje de error, intente reducir el número de módulos de procesamiento de datos utilizados." revision="0" />
+  <Message key="PredefinedDelete" value="Está prohibido borrar esquemas de color predefinidos. Sólo se pueden borrar los esquemas de usuario" revision="0" />
+  <Message key="SignatureError" value="Device Monitoring Studio ha descargado una actualización, pero ha fallado la comprobación de integridad. Esto puede indicar errores temporales o permanentes en la configuración de la red. Intente actualizar más tarde." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio se encuentra en estado no válido. Reinstale la aplicación para solucionarlo." revision="0" />
+  <Message key="Restarting Device" value="Reiniciar el dispositivo" revision="0" />
+  <Message key="ElevationError" value="No se pueden elevar los privilegios. Mensaje de error: {error}" revision="0" />
+  <Message key="ElevationErrorTitle" value="Error de elevación" revision="0" />
+  <Message key="Main Title" value="{free?}Gratis {?free}Device Monitoring Studio{prerelease?} (VERSIÓN DE PRE-LANZAMIENTO){?prerelease}" revision="0" />
+  <Message key="Beta Page" value="Beta" revision="0" />
+  <Message key="Beta title info" value="Esta página le permite examinar y descargar componentes beta opcionales. Estos componentes pueden añadir funciones experimentales o corregir errores notificados. Marque los componentes que desee instalar y desmarque los que desee desinstalar y pulse el botón Actualizar." revision="0" />
+  <Message key="BetaUpdateButton" value="Actualización" revision="0" />
+  <Message key="Available beta modules:" value="Módulos beta disponibles:" revision="0" />
+  <Message key="There are no updates available." value="No hay actualizaciones disponibles." revision="0" />
+  <Message key="BetaInstalled" value="La configuración del componente se ha actualizado correctamente. Es necesario reiniciar Device Monitoring Studio para aplicar los cambios." revision="0" />
+  <Message key="BetaDownloadConfirmation" value="{has new?}Se descargarán e instalarán los siguientes componentes:\r\n\n{new components}{has deleted?}\r\n\n{?has deleted}{?has new}{has deleted?}Se desinstalarán los siguientes componentes:\r\n\n{deleted components}{?has deleted}\r\n\n¿Quieres continuar?" revision="0" />
+  <Message key="BetaConflicts" value="Los componentes seleccionados entran en conflicto con los componentes instalados o entre sí. Los siguientes componentes deben ser eliminados para poder continuar:\r\n\n{components}\r\n\n¿Quiere eliminarlos y continuar?" revision="0" />
+  <Message key="BetaHeader" value="Versión Beta" revision="0" />
+  <Message key="BetaDownloadError" value="Se ha producido un error al descargar los componentes seleccionados. Vuelva a intentarlo más tarde." revision="0" />
+  <Message key="newBetaVersions" value="Detectadas nuevas versiones beta" revision="0" />
+  <Message key="changeLanguage" value="Cambiar idioma " revision="0" />
+  <Message key="BetaAdvanced" value="&amp;Avanzado…" revision="0" />
+  <Message key="Enter the update ID sent to you by HHD Software support personnel:" value="Introduzca el ID de actualización que le ha enviado el personal de soporte de HHD Software:" revision="0" />
+  <Message key="Unknown" value="Desconocido" revision="0" />
+  <Message key="Empty" value="Vacío" revision="0" />
+  <Message key="SerialRepeaterConfig" value="Leer → {read},Escribe → {write}" revision="0" />
+  <Message key="RepeaterApplyError" value="Dispositivo receptor de paquetes {packettype} no especificado." revision="0" />
+  <Message key="SelectDevice" value="Seleccione el dispositivo de la lista..." revision="0" />
+  <Message key="Closing application" value="Cierre de la aplicación" revision="0" />
+  <Message key="DisplayLoadErrors" value="Se han producido los siguientes errores al cargar este archivo:\r\n{errors}" revision="0" />
+  <Enumeration key="HelpCheckForUpdates">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuFile">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuTools">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuWindow">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuHelp">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuToolWindows">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSave">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilteringX">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAs">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UpdatesColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Update">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CompilerErrors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileSaveAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FilteringSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewBetaVersionsAvailable">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileExit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileOpen">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FileClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPaste">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditExport">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditClearAllViews">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFind">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditFindNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditGoto">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewExportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewImportConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsStart">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsPause">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrev">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNext">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNextPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowPrevPane">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowMinimizeToTray">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowCancel">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpContents">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpFeedback">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HelpKeyboard">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardPrint">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardCopy">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Endpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ToolsColoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="FiltersSettings">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ViewResetConfiguration">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewHorizontal">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowNewVertical">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowDockable">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WindowTabbed">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="KeyboardColumns">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Registry">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Portable mode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="External file:">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbDirection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Boolean">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="YesNo">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangMore">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LangOnline">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ChangeLanguageNotification">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Pause1">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Resume1">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="themingMode">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="EditCopyDeviceName">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditRestartDevice">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditDeviceProperties">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Descriptor Tool Windows">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="URBConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuEndpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbDescriporsList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbTransferType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbEndpointType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbRequestDirection">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbRequestType">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbRecepient">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbDescriptorType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbPacketViewColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbPipeRequestType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbFeatureType">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbConfigAttribs">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PnpEventType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbConnectionState">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DeviceQueryType">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbReportTypesList">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbEventTypesList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbPageList">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GeneralCat">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbRawColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

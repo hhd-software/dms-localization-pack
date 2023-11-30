@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="CellConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StructureConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StatisticsConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="TableConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DataConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewRequestViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewConsoleConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RequestViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewVideoViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBVideoViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AdvancedConsoleView">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HttpViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="HttpViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewModbusConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModbusViewSchemes">
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModbusViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

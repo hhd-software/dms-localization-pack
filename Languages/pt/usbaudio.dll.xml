@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="AudioConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioBool">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioSubclasses">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AudioRequestsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AudioRequestTypesCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioRequestSubtypes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AudioSubclassesCat">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ACDescriptorsCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioUnitFields">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ASDescriptorsCat">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioCopyProtect">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioFeature">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioFormat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioDescriptorAC">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioDescriptorAS">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbAudioColors">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

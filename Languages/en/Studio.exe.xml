@@ -12,7 +12,7 @@
   <!-- Filtering -->
   <Message key="InvalidScheme" description="Invalid scheme" value="Invalid scheme name or the scheme already exists." />
   <!--  -->
-  <Message key="ActivatePane" description="Activate {pane} pane">
+  <Message key="ActivatePane" description="Activate Pane" value="Activate {pane} pane">
     <Param name="pane"/>
   </Message>
   <!-- Commands -->
@@ -174,7 +174,7 @@
 
   <Message key="LowMemory" description="Low memory condition" value="Monitoring session has been stopped due to low memory conditions"/>
 
-  <Message key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
+  <Message optional="true" key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
     <Param name="error text"/>
     <Param name="error code" format="ub016"/>
   </Message>
@@ -206,7 +206,7 @@
   </Message>
 
   <Message key="ErrorRootProtocol" description="Root protocol error" value="Root protocol was not specified"/>
-  <Message key="ErrorRootNotExist" description="Root protocol error" value="Selected root protocol is not exist"/>
+  <Message key="ErrorRootNotExist" description="Root protocol error" value="Selected root protocol does not exist"/>
 
   <!-- Structure Viewer error messages -->
   <Enumeration key="CompilerErrors" description="Compiler errors">
@@ -344,7 +344,7 @@
   <Message key="SelectDevice" description="Select device hint message" value="Select device from the list..."/>
   <Message key="Closing application" description="Closing application"/>
 
-	<Message key="DisplayLoadErrors" description="Load errors title" value="There were the following errors during loading of this file:\r\n{errors}">
+	<Message key="DisplayLoadErrors" description="Load errors title" value="The following errors occurred while loading this file:\r\n{errors}">
 		<Param name="errors"/>
 	</Message>
 	<Message key="MissingComponents" description="Missing workspace components on load" value="Several workspace components were not found and were not loaded."/>
@@ -829,7 +829,7 @@
 	<Message key="Whole window" description="Option: Whole window" value="W&amp;hole window"/>
 	<Message key="Selection" description="Option: Selection" value="&amp;Selection"/>
 	
-	<Message key="GotoTemplate" description="Go to window template" value="{caption} ({from} - {to}):">
+	<Message optional="true" key="GotoTemplate" description="Go to window template" value="{caption} ({from} - {to}):">
 		<Param name="caption"/>
 		<Param name="from" format="l"/>
 		<Param name="to" format="l"/>

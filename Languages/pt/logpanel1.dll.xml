@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="LogConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="LogConverter4">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SaveNow">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StartRecording">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PauseRecording">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StopRecording">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BrowsePlayback">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
