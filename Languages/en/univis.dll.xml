@@ -824,8 +824,8 @@
 		<Item lookup="Value"/>
 		<Item lookup="Offset"/>
 		<Item lookup="Size"/>
-		<Item text="Type"/>
-		<Item text="Time"/>
+		<Item lookup="Type"/>
+		<Item lookup="Time"/>
 	</Enumeration>
 	<!--IDS_NOTVALID-->
 	<Message key="NotValid" description="Message: Not valid value" value="Not valid value."/>
