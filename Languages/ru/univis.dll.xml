@@ -650,7 +650,7 @@
     <Item lookup="Value" />
     <Item lookup="Offset" />
     <Item lookup="Size" />
-    <Item value="" revision="1" />
-    <Item value="" revision="1" />
+    <Item lookup="Type" />
+    <Item lookup="Time" />
   </Enumeration>
 </Language>

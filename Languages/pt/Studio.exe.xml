@@ -108,6 +108,13 @@
   <Message key="SelectDevice" value="Selecionar o dispositivo da lista..." revision="0" />
   <Message key="Closing application" value="Encerramento da aplicação" revision="0" />
   <Message key="DisplayLoadErrors" value="Ocorreram os seguintes erros ao carregar este ficheiro:\r\n{errors}" revision="0" />
+  <Message key="MissingComponents" value="Vários componentes do espaço de trabalho não foram encontrados e não foram carregados." revision="0" />
+  <Message key="WorkspaceLoadWarnings" value="O espaço de trabalho foi carregado com os seguintes avisos:\r\n{warnings}" revision="0" />
+  <Message key="BadWorkspaceFormat" value="O formato do ficheiro do espaço de trabalho não é válido." revision="0" />
+  <Message key="WorkspaceLoadError" value="Não é possível abrir {path}: {error} ({error code})" revision="0" />
+  <Message key="ConfirmClearAll" value="Isto irá limpar todas as janelas do visualizador. Deseja continuar?" revision="0" />
+  <Message key="Invalid file format." value="Formato de ficheiro inválido." revision="0" />
+  <Message key="MultipleWorkspaces" value="Só pode ser aberto um espaço de trabalho de cada vez. Pretende abrir outros espaços de trabalho em janelas diferentes?" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
