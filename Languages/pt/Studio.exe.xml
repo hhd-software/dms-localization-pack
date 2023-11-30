@@ -71,6 +71,24 @@
   <Message key="ConcantenatePackets" value="Juntar-se a solicitações consequentes" revision="0" />
   <Message key="TrialWarning" value="[[[T#[#9A4D02]#Este componente está em modo [[[bTrial]]] com [[[b{days}]]] dias de avaliação restantes. Está disponível a partir da [[[b{edition} Edição]]].]]]" revision="2" />
   <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Este componente está [[[bexpired]]]. É necessário atualizar para a [[[b{edition} Edição]]] para o poder utilizar.]]]" revision="2" />
+  <Message key="FreeWarning" value="Este componente não está disponível na Edição Gratuita. Pode iniciar uma avaliação gratuita para experimentar este componente, se ainda não tiver sido iniciada." revision="0" />
+  <Message key="Continue with limited features" value="Continuar com funcionalidades limitadas" revision="0" />
+  <Message key="Try extended functionality" value="Experimentar a funcionalidade alargada" revision="0" />
+  <Message key="Purchase extended functionality" value="Obter funcionalidade alargada" revision="0" />
+  <Message key="Close this notification" value="Fechar esta notificação" revision="0" />
+  <Message key="General Page" value="Geral" revision="0" />
+  <Message key="ExecutablesFilter" value="Executáveis|*.exe|Todos os ficheiros|*.*||" revision="0" />
+  <Message key="WorkspaceFilterNotExist" value="O espaço de trabalho contém uma referência ao nome do filtro &lt;{filter}&gt; que não existe. Será aplicado um filtro vazio." revision="0" />
+  <Message key="All sessions stopped" value="Todas as sessões foram interrompidas devido a uma condição de pouca memória. Poderá ser necessário reiniciar o Device Monitoring Studio para retomar a monitorização. Se continuar a receber esta mensagem de erro, tente reduzir o número de módulos de processamento de dados utilizados." revision="0" />
+  <Message key="PredefinedDelete" value="É proibido apagar esquemas de cores predefinidos. Apenas os esquemas do utilizador podem ser eliminados" revision="0" />
+  <Message key="SignatureError" value="O Device Monitoring Studio descarregou uma atualização, mas esta falhou nas verificações de integridade. Isso pode indicar erros de configuração de rede temporários ou permanentes. Tente atualizar mais tarde." revision="0" />
+  <Message key="ConfigurationError" value="O Device Monitoring Studio está num estado inválido. Reinstale a aplicação para o corrigir." revision="0" />
+  <Message key="Restarting Device" value="Reiniciar o dispositivo" revision="0" />
+  <Message key="ElevationError" value="Não é possível elevar os privilégios. Mensagem de erro: {error}" revision="0" />
+  <Message key="ElevationErrorTitle" value="Erro de elevação" revision="0" />
+  <Message key="Main Title" value="{free?}Grátis {?free}Device Monitoring Studio{prerelease?} (VERSÃO DE PRÉ-LANÇAMENTO){?prerelease}" revision="0" />
+  <Message key="Beta Page" value="Beta" revision="0" />
+  <Message key="Beta title info" value="Esta página permite-lhe navegar e descarregar componentes beta opcionais. Estes componentes podem adicionar funcionalidades experimentais ou corrigir erros comunicados. Marque os componentes que pretende instalar e desmarque os componentes que pretende desinstalar e prima o botão Atualizar." revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
