@@ -313,7 +313,6 @@
   <Message key="Match case" value="Учитывать &amp;регистр" revision="0" />
   <Message key="Whole window" value="Окно &amp;целиком" revision="0" />
   <Message key="Selection" value="&amp;Выделение" revision="0" />
-  <Message key="GotoTemplate" value="{caption} ({from} - {to}):" revision="0" />
   <Message key="GotoCaption" value="Перейти к {caption}" revision="0" />
   <Message key="Packet number" value="Номер пакета" revision="0" />
   <Message key="Code" value="Код" revision="0" />
