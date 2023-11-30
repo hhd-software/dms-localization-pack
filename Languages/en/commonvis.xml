@@ -372,6 +372,5 @@
 	<Message key="Next Object Id" description="MODBUS View visualizer: Next Object Id" />
 	<Message key="Objects Count" description="MODBUS View visualizer: Objects Count" />
 	<Message key="Object Length" description="MODBUS View visualizer: Object Length" />
-	<Message key="Value" description="MODBUS View visualizer: Value" />
 
 </Definition>
