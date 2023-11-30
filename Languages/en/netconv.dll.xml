@@ -18,7 +18,6 @@
 	<Message key="NetTerminal" description="Title: Network Terminal" value="Network Terminal"/>
 
 	<Message key="StructureNotFound" description="Error: Structure not found" value="structure definition is not found. Network Monitor is unable to display any results."/>
-	<Message key="Network Raw" description="Title: Network Raw" value="Network Raw"/>
 	<Message key="bytes" description="Text: bytes" value="bytes"/>
 
 	<Message key="NetTermSizeError" description="Error: Packet size larger than Adapter MTU size"

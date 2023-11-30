@@ -823,7 +823,7 @@
 		<Item text="Name"/>
 		<Item text="Value"/>
 		<Item text="Offset"/>
-		<Item text="Size"/>
+		<Item lookup="Size"/>
 		<Item text="Type"/>
 		<Item text="Time"/>
 	</Enumeration>

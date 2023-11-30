@@ -13,7 +13,7 @@
   <Enumeration key="DownloaderColumns" description="Downloader window columns">
     <Item text="Task"/>
     <Item text="Status"/>
-    <Item text="Size"/>
+    <Item lookup="Size"/>
   </Enumeration>
 
 	<Enumeration key="DownloadStatus" description="Download statuses">

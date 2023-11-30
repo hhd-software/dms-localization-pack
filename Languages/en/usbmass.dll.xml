@@ -421,7 +421,6 @@
 	<Message optional="true" key="NotSupportedPacket" description="Text: Not Supported Packet" value="Can't parse packet. Unsupported set of commands."/>
 	<Message optional="true" key="LUNHintText" description="Hint: LUN Hint Text" value="Logical Unit Number. Each device could have multiple LUNs"/>
 	<Message optional="true" key="Expected Data Received" description="Header: Expected Data Received" value="Expected Data Received"/>
-	<Message optional="true" key="Size" description="Field: Size" value="Size"/>
 	<Message optional="true" key="No Command" description="Value: No Command" value="No Command"/>
 	<Message optional="true" key="Opcode" description="Field: Opcode" value="Opcode"/>
 	<Message optional="true" key="Name" description="Field: Name" value="Name"/>

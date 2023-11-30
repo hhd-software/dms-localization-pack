@@ -356,7 +356,6 @@
 	<Message optional="true" key="Destination Storage ID on Responder" description="Field: Destination Storage ID on Responder" value="Destination Storage ID on Responder"/>
 	<Message optional="true" key="Parent Object Handle on Responder" description="Field: Parent Object Handle on Responder" value="Parent Object Handle on Responder"/>
 	<Message optional="true" key="Data Object" description="Field: Data Object" value="Data Object"/>
-	<Message optional="true" key="Size" description="Field: Size" value="Size"/>
 	<Message optional="true" key="DATA" description="Field: DATA" value="DATA"/>
 	<Message optional="true" key="Thumbnail Object" description="Field: Thumbnail Object" value="Thumbnail Object"/>
 	<Message optional="true" key="Actual number of bytes sent" description="Field: Actual number of bytes sent" value="Actual number of bytes sent"/>

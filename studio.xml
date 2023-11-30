@@ -4,7 +4,12 @@
 	<ValidationRule name="OpenFileDialogFilter" regexp=".*|$" message="A string must conform to Open/Save dialog filter list."/>
 	<ValidationRule name="StartsWithSpace" regexp="^ .*$" message="A string must start with space."/>
 	<ValidationRule name="EndsWithSpace" regexp=".* $" message="A string must end with space."/>
+
 	<Application id="{7c2d8794-34e4-48f0-8cf4-1782dcac6369}">
 		<LanguagePack key="HHD Software\Device Monitoring Studio\9\language" value="language_pack_folder"/>
 	</Application>
+
+	<CommonParents>
+		<Parent name="Studio.exe"/>
+	</CommonParents>
 </LocalizationPack>

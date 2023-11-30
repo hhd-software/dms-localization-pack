@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-
   <Message key="Protocols Editor" description="Editor Title"/>
   <Message key="Line" description="Line"/>
   <Message key="Protocols List" description="Protocols list title"/>
