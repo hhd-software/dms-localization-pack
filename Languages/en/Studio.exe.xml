@@ -856,7 +856,6 @@
 		<Item text="DOWN"/>
 		<Item text="UP"/>
 	</Enumeration>
-	<Message key="Value" description="Field: Value" value="Value"/>
 	<Message key="Undefined" description="Value: Undefined" value="Undefined"/>
 	<Message key="None" description="Value: None" value="None"/>
 	<Message key="Request" description="Header: Request" value="Request"/>

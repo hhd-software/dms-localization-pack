@@ -131,7 +131,7 @@
 
   <Enumeration key="FilterComponentColumns" description="Columns in filter list">
     <Item text="Option"/>
-    <Item text="Value"/>
+    <Item lookup="Value"/>
   </Enumeration>
 
   <Message key="UnsavedCurrentScheme" description="Unsaved current scheme title" value="&lt;Unsaved current scheme&gt;"/>

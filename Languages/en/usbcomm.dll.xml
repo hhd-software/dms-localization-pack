@@ -328,7 +328,6 @@
 		<Item text="CONNECTION_SPEED_CHANGE"/>
 	</Enumeration>
 
-<Message optional="true" key="Value" description="Field: Value" value="Value"/>
 <!--IDS_STRING1177          "Value:"-->
 
 	<Enumeration optional="true" key="UsbCommNetState" description="USB CDC Network States list">

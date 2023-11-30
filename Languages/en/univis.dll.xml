@@ -821,8 +821,8 @@
 	<Enumeration key="SViewColumns" description="Structure view columns list" revision="1">
 		<Item text="Number"/>
 		<Item text="Name"/>
-		<Item text="Value"/>
-		<Item text="Offset"/>
+		<Item lookup="Value"/>
+		<Item lookup="Offset"/>
 		<Item lookup="Size"/>
 		<Item text="Type"/>
 		<Item text="Time"/>

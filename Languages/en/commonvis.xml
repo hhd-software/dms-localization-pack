@@ -146,7 +146,7 @@
 		<Item text="Default"/>
 		<Item text="Header"/>
 		<Item text="Option"/>
-		<Item text="Value"/>
+		<Item lookup="Value"/>
 		<Item text="Header Read"/>
 		<Item text="Header Write"/>
 	</Enumeration>

@@ -4,5 +4,7 @@
 		<RemoveParent name="Studio.exe" />
 	</Parents>
 	<Message key="Size" description="Common string: Size" />
+	<Message key="Offset" description="Common string: Offset" />
+	<Message key="Value" description="Common string: Value" />
 
 </Definition>

@@ -1480,7 +1480,7 @@
 		<Item text="Custom Force Data Offset"/>
 		<Item text="Sample Count"/>
 		<Item text="Set Periodic Report"/>
-		<Item text="Offset"/>
+		<Item lookup="Offset"/>
 		<Item text="Magnitude"/>
 		<Item text="Phase"/>
 		<Item text="Period"/>
