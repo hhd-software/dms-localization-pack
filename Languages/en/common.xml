@@ -6,5 +6,8 @@
 	<Message key="Size" description="Common string: Size" />
 	<Message key="Offset" description="Common string: Offset" />
 	<Message key="Value" description="Common string: Value" />
+	<Message key="Type" description="Common string: Type" />
+	<Message key="Time" description="Common string: Time" />
+	<Message key="Name" description="Common string: Name" />
 
 </Definition>

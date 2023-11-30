@@ -322,7 +322,6 @@
   <Message key="Plase wait" value="Пожалуйста, подождите…" revision="0" />
   <Message key="DataNoLongerValid" value="Этот блок данных больше не действителен." revision="0" />
   <Message key="Unknown Request" value="Неизвестный запрос" revision="0" />
-  <Message key="Value" value="Значение" revision="0" />
   <Message key="Undefined" value="Неопределенный" revision="0" />
   <Message key="None" value="Нет" revision="0" />
   <Message key="Request" value="Запрос" revision="0" />

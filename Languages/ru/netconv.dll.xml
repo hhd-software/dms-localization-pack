@@ -5,7 +5,6 @@
   <Message key="Packet Builder" value="Конструктор пакетов" revision="0" />
   <Message key="NetTerminal" value="Сетевой терминал" revision="0" />
   <Message key="StructureNotFound" value="определение структуры не найдено. Сетевой монитор не может отобразить какие-либо результаты." revision="0" />
-  <Message key="Network Raw" value="Сетевые сырые данные" revision="0" />
   <Message key="bytes" value="байт" revision="0" />
   <Message key="NetTermSizeError" value="Пакет ({packetno}): Размер пакета ({size}) больше размера MTU адаптера ({maxsize})." revision="0" />
   <Message key="NetTermTooltipText" value="Физический адрес: {mac}\nМаксимальный блок передачи: {size} bytes\nСкорость передачи: {speed} МБ\nIP: {ip}\nСостояние: {status}" revision="0" />

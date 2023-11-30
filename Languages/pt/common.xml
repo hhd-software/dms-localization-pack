@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size" value="Tamanho" revision="0" />
+  <Message key="Offset" value="Deslocamento" revision="0" />
+  <Message key="Value" value="Valor" revision="0" />
+  <Message key="Type" value="Tipo" revision="0" />
+  <Message key="Time" value="Tempo" revision="0" />
+  <Message key="Name" value="Nome" revision="0" />
+</Language>

@@ -5,7 +5,6 @@
   <Message key="Packet Builder" value="Paket Builder" revision="0" />
   <Message key="NetTerminal" value="Netzwerk-Terminal" revision="0" />
   <Message key="StructureNotFound" value="Strukturdefinition wird nicht gefunden. Netzwerkmonitor kann keine Ergebnisse anzeigen." revision="0" />
-  <Message key="Network Raw" value="Netzwerk-Rohdaten" revision="0" />
   <Message key="bytes" value="bytes" revision="0" />
   <Message key="NetTermSizeError" value="Paket ({packetno}): Größe des Pakets ({size}) größer als die MTU-Größe des Adapterss ({maxsize})." revision="0" />
   <Message key="NetTermTooltipText" value="Physische Adresse: {mac}\nMaximale Übertragungseinheit: {size} bytes\nLink Geschwindigkeit: {speed} MB\nIP: {ip}\nStatus: {status}" revision="0" />

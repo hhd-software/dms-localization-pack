@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size" value="Размер" revision="0" />
+  <Message key="Offset" value="Смещение" revision="0" />
+  <Message key="Value" value="Значение" revision="0" />
+  <Message key="Type" value="Тип" revision="0" />
+  <Message key="Time" value="Время" revision="0" />
+  <Message key="Name" value="Имя" revision="0" />
+</Language>

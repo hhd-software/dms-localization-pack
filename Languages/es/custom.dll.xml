@@ -76,6 +76,6 @@
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item />
-    <Item />
+    <Item lookup="Value" />
   </Enumeration>
 </Language>

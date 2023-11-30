@@ -322,7 +322,6 @@
   <Message key="Plase wait" value="Bitte warten..." revision="0" />
   <Message key="DataNoLongerValid" value="Dieser Datenblock ist nicht mehr gültig." revision="0" />
   <Message key="Unknown Request" value="Unbekannt Anfrage" revision="0" />
-  <Message key="Value" value="Wert" revision="0" />
   <Message key="Undefined" value="Undefiniert" revision="0" />
   <Message key="None" value="Keine" revision="0" />
   <Message key="Request" value="Anfrage" revision="0" />

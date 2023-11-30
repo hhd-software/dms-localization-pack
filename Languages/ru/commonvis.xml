@@ -69,9 +69,9 @@
     <Item value="По умолчанию" revision="0" />
     <Item value="Заголовок" revision="0" />
     <Item value="Опция" revision="0" />
-    <Item value="Значение" revision="0" />
-    <Item value="Заголовок чтения" revision="0" />
-    <Item value="Заголовок записи" revision="0" />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Номер строки" revision="0" />

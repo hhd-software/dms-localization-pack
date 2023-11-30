@@ -122,6 +122,6 @@
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Опция" revision="0" />
-    <Item value="Значение" revision="0" />
+    <Item lookup="Value" />
   </Enumeration>
 </Language>

@@ -30,7 +30,7 @@
   <Enumeration key="DownloaderColumns">
     <Item value="Aufgabe" revision="0" />
     <Item value="Status" revision="0" />
-    <Item value="Größe" revision="0" />
+    <Item lookup="Size" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
     <Item value="Unbekannt" revision="0" />

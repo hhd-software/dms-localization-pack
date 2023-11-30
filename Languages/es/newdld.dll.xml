@@ -11,7 +11,7 @@
   <Enumeration key="DownloaderColumns">
     <Item />
     <Item />
-    <Item />
+    <Item lookup="Size" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
     <Item />

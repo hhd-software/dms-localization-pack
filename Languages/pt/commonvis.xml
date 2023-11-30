@@ -69,7 +69,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item lookup="Value" />
     <Item />
     <Item />
   </Enumeration>

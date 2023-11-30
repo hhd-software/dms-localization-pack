@@ -450,10 +450,10 @@
   <Enumeration key="SViewColumns">
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item lookup="Value" />
+    <Item lookup="Offset" />
+    <Item lookup="Size" />
+    <Item value="" revision="1" />
+    <Item value="" revision="1" />
   </Enumeration>
 </Language>
