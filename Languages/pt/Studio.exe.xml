@@ -176,6 +176,45 @@
   <Message key="IO Requests" value="E/S Solicitações" revision="0" />
   <Message key="clr.default_colors" value="Cores UI predefinidas" revision="0" />
   <Message key="clr.default_colors.background" value="Fundo" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Fundo do controlo " revision="0" />
+  <Message key="clr.default_colors.text" value="Texto/plano de fundo" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Texto desativado" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Fundo do elemento hover" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Traço do elemento hover" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Texto do elemento hover" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Fundo de seleção" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Traço da seleção" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Texto selecionado" revision="0" />
+  <Message key="clr.menu" value="Cor dos menu" revision="0" />
+  <Message key="clr.menu.text" value="Texto" revision="0" />
+  <Message key="clr.menu.separator" value="Separador" revision="0" />
+  <Message key="clr.menu.checked" value="Fundo do elemento marcado" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Fundo do item inacessível selecionado" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Fundo do hover do item desativado" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Traço do item de hover desativado" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Texto do item de hover desativado" revision="0" />
+  <Message key="clr.rebar" value="Cores dos Rebar" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Cor do ponto chevron" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Cor do traço do ponto chevron" revision="0" />
+  <Message key="clr.toolbar" value="Cores da barra de ferramentas" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Fundo do elemento prensado" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Traço do item prensado" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Texto do elemento prensado" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Fundo do item prensado e desativado" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Traço do item pressionado e desativado" revision="0" />
+  <Message key="clr.frame" value="Cores da moldura" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Cor de fundo do cliente" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Fundo da moldura do documento" revision="0" />
+  <Message key="clr.frame.frame.border" value="Borde" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Fundo do cabeçalho inativo" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Texto/traço do cabeçalho inativo" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Fundo do cabeçalho ativo" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Texto/traço do cabeçalho ativo" revision="0" />
+  <Message key="clr.frame.title_text" value="Texto do título" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Sombra do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.background" value="Fundo do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Ícone de navegação realçado" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

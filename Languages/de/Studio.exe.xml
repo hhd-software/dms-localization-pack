@@ -218,7 +218,7 @@
   <Message key="clr.toolbar.pressed.fill" value="Hintergrund der Drucksache" revision="0" />
   <Message key="clr.toolbar.pressed.stroke" value="Hub des gedrückten Elements" revision="0" />
   <Message key="clr.toolbar.pressed.text" value="Text des gedrückten Elements" revision="0" />
-  <Message key="clr.toolbar.disabled_pressed.fill" value="Hintergrund des gedrückten und deaktivierten Elements" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Hintergrund des gedrückten und deaktivierten elements" revision="0" />
   <Message key="clr.toolbar.disabled_pressed.stroke" value="Schlaganfall bei gedrücktem und deaktiviertem Element" revision="0" />
   <Message key="clr.frame" value="Rahmen Farben" revision="0" />
   <Message key="clr.frame.frame.background" value="Hintergrund" revision="0" />
