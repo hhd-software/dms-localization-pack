@@ -117,7 +117,7 @@
   <Message key="MultipleWorkspaces" value="Одновременно может быть открыта только одна рабочая область. Хотите открыть другие рабочие области в других окнах?" revision="0" />
   <Message key="WorkspaceModified" value="Текущая рабочая область была изменена. Хотите сохранить ее?" revision="0" />
   <Message key="toolbar.Standard" value="Стандартный" revision="0" />
-  <Message key="Auto Hide" value="Автоматический" revision="0" />
+  <Message key="Auto Hide" value="Авто-скрытие" revision="0" />
   <Message key="Window list" value="Список окон" revision="0" />
   <Message key="Switch Window" value="Переключить окно" revision="0" />
   <Message key="Active Tool Windows" value="Активные инструментальные окна" revision="0" />

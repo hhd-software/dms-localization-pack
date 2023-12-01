@@ -115,6 +115,13 @@
   <Message key="ConfirmClearAll" value="Esto vaciará todas las ventanas del visualizador. ¿Desea continuar?" revision="0" />
   <Message key="Invalid file format." value="Formato de archivo no válido." revision="0" />
   <Message key="MultipleWorkspaces" value="Sólo se puede abrir un espacio de trabajo a la vez. Quieres abrir otros espacios de trabajo en ventanas diferentes?" revision="0" />
+  <Message key="WorkspaceModified" value="Se ha modificado el espacio de trabajo actual. ¿Desea guardarlo?" revision="0" />
+  <Message key="toolbar.Standard" value="Standard" revision="0" />
+  <Message key="Auto Hide" value="Auto Hide" revision="0" />
+  <Message key="Window list" value="Lista de ventanas" revision="0" />
+  <Message key="Switch Window" value="Ventana del interruptor" revision="0" />
+  <Message key="Active Tool Windows" value="Ventanas de herramientas activas" revision="0" />
+  <Message key="Active Documents" value="Documentos activos" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
