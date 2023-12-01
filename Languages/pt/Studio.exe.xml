@@ -161,6 +161,21 @@
   <Message key="Keyboard" value="Teclado" revision="0" />
   <Message key="MaxShortcuts" value="Não é possível atribuir mais de 5 atalhos a um comando." revision="0" />
   <Message key="ShortcutExists" value="Este atalho já está definido para {command}. Pretende redefini-lo?" revision="0" />
+  <Message key="Category" value="Categoria:" revision="0" />
+  <Message key="Current keys" value="Teclas actuais:" revision="0" />
+  <Message key="Press new shortcut key" value="Premir a &amp;nova tecla de atalho:" revision="0" />
+  <Message key="Description" value="Descrição:" revision="0" />
+  <Message key="Currently assigned to" value="Atualmente atribuído a:" revision="0" />
+  <Message key="Assign" value="&amp;Atribuir" revision="0" />
+  <Message key="Keyboard Map" value="&amp;Mapa do teclado" revision="0" />
+  <Message key="[unassigned]" value="[não atribuído]" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Mapa do teclado" revision="0" />
+  <Message key="Print" value="&amp;Imprimir" revision="0" />
+  <Message key="Requests" value="Solicitações" revision="0" />
+  <Message key="Responses" value="Respostas" revision="0" />
+  <Message key="IO Requests" value="E/S Solicitações" revision="0" />
+  <Message key="clr.default_colors" value="Cores UI predefinidas" revision="0" />
+  <Message key="clr.default_colors.background" value="Fundo" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

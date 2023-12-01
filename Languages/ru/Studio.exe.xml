@@ -166,7 +166,7 @@
   <Message key="Category" value="Категория:" revision="0" />
   <Message key="Commands" value="Команды:" revision="0" />
   <Message key="Current keys" value="Текущие клавиши:" revision="0" />
-  <Message key="Press new shortcut key" value="Нажать &amp;новую клавишу ярлыка" revision="0" />
+  <Message key="Press new shortcut key" value="Нажать &amp;новую клавишу ярлыка:" revision="0" />
   <Message key="Description" value="Описание:" revision="0" />
   <Message key="Currently assigned to" value="В настоящее время назначен на:" revision="0" />
   <Message key="Assign" value="&amp;Назначить" revision="0" />
