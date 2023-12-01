@@ -215,6 +215,31 @@
   <Message key="clr.frame.nav.shadow" value="Sombra del icono de navegación" revision="0" />
   <Message key="clr.frame.nav.background" value="Fondo del icono de navegación" revision="0" />
   <Message key="clr.frame.nav.highlight" value="Icono de navegación resaltado" revision="0" />
+  <Message key="clr.frame.nav.header" value="Encabezado del icono de navegación" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Borde del icono de navegación" revision="0" />
+  <Message key="clr.listview" value="Colores de la vista de lista" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Texto de cabecera" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Fondo de selección inactivo" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Texto de selección inactivo" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Trazo de selección inactivo" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Fondo de selección activo" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Texto de selección activo" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Trazo de selección activo" revision="0" />
+  <Message key="clr.listview.grid" value="Cuadrícula" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Fondo alternativo" revision="0" />
+  <Message key="Settings Storage Location" value="Ubicación del almacenamiento de configuraciones" revision="0" />
+  <Message key="Settings Management" value="Gestión de la configuración" revision="0" />
+  <Message key="Export Settings…" value="Exportar configuración…" revision="0" />
+  <Message key="Import Settings…" value="Importar configuración…" revision="0" />
+  <Message key="Reset Settings…" value="Restablecer configuración…" revision="0" />
+  <Message key="Ask to import settings" value="El archivo especificado ya existe. ¿Desea importar su contenido ahora? Si hace clic en No, el archivo se sobrescribirá con la configuración actual." revision="0" />
+  <Message key="Ask to reset settings" value="Es necesario reiniciar la aplicación para restablecer la configuración. ¿Desea continuar?" revision="0" />
+  <Message key="Ask to restart" value="Se recomienda reiniciar la aplicación para aplicar los ajustes importados. ¿Desea reiniciar ahora?" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Apply" value="&amp;Aplicar" revision="0" />
+  <Message key="Cancel" value="Cancelar" revision="0" />
+  <Message key="Reset" value="&amp;Restablecer" revision="0" />
+  <Message key="Reset to Default" value="Restablecer valores por defecto" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

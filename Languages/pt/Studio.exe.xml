@@ -215,6 +215,31 @@
   <Message key="clr.frame.nav.shadow" value="Sombra do ícone de navegação" revision="0" />
   <Message key="clr.frame.nav.background" value="Fundo do ícone de navegação" revision="0" />
   <Message key="clr.frame.nav.highlight" value="Ícone de navegação realçado" revision="0" />
+  <Message key="clr.frame.nav.header" value="Cabeçalho do ícone de navegação" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Rebordo do ícone de navegação" revision="0" />
+  <Message key="clr.listview" value="Cores da vista de lista" revision="0" />
+  <Message key="clr.listview.header.stroke" value="Texto do cabeçalho" revision="0" />
+  <Message key="clr.listview.selected.inactive.fill" value="Fundo de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.inactive.text" value="Texto de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Traço de seleção inativo" revision="0" />
+  <Message key="clr.listview.selected.active.fill" value="Fundo de seleção ativo" revision="0" />
+  <Message key="clr.listview.selected.active.text" value="Texto de seleção ativo" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Traço de seleção ativo" revision="0" />
+  <Message key="clr.listview.grid" value="Grade" revision="0" />
+  <Message key="clr.listview.alternate_background" value="Fundo alternativo" revision="0" />
+  <Message key="Settings Storage Location" value="Local de armazenamento da configuração" revision="0" />
+  <Message key="Settings Management" value="Gestão de definições" revision="0" />
+  <Message key="Export Settings…" value="Exportar configuração…" revision="0" />
+  <Message key="Import Settings…" value="Importar configuração…" revision="0" />
+  <Message key="Reset Settings…" value="Repor definições…" revision="0" />
+  <Message key="Ask to import settings" value="O ficheiro especificado já existe. Pretende importar o seu conteúdo agora? Se clicar em Não, o ficheiro será substituído pelas definições actuais." revision="0" />
+  <Message key="Ask to reset settings" value="A aplicação tem de ser reiniciada para repor as definições. Deseja continuar?" revision="0" />
+  <Message key="Ask to restart" value="Recomenda-se que reinicie a aplicação para aplicar as definições importadas. Pretende reiniciar agora?" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Apply" value="&amp;Aplicar" revision="0" />
+  <Message key="Cancel" value="Cancelar" revision="0" />
+  <Message key="Reset" value="&amp;Repor" revision="0" />
+  <Message key="Reset to Default" value="Repor a predefinição" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
