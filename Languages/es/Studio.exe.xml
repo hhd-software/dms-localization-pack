@@ -240,6 +240,34 @@
   <Message key="Cancel" value="Cancelar" revision="0" />
   <Message key="Reset" value="&amp;Restablecer" revision="0" />
   <Message key="Reset to Default" value="Restablecer valores por defecto" revision="0" />
+  <Message key="Help" value="&amp;Ayuda" revision="0" />
+  <Message key="Yes" value="&amp;Sí" revision="0" />
+  <Message key="No" value="&amp;No" revision="0" />
+  <Message key="Close" value="Cerrar" revision="0" />
+  <Message key="Add" value="&amp;Agregar" revision="0" />
+  <Message key="Edit" value="&amp;Editar" revision="0" />
+  <Message key="Remove" value="&amp;Eliminar" revision="0" />
+  <Message key="Remove All" value="Quitar to&amp;do" revision="0" />
+  <Message key="Reset All" value="Restablecer to&amp;do" revision="0" />
+  <Message key="Copy" value="&amp;Copiar" revision="0" />
+  <Message key="Continue" value="Continuar" revision="0" />
+  <Message key="Import" value="&amp;Importar…" revision="0" />
+  <Message key="Export" value="&amp;Exportar…" revision="0" />
+  <Message key="Browse" value="&amp;Navegar…" revision="0" />
+  <Message key="Save" value="Guardar" revision="0" />
+  <Message key="Delete" value="Eliminar" revision="0" />
+  <Message key="Generate Script" value="&amp;Generar script" revision="0" />
+  <Message key="Stop" value="Stop" revision="0" />
+  <Message key="B" value="B" revision="0" />
+  <Message key="KB" value="KB" revision="0" />
+  <Message key="MB" value="MB" revision="0" />
+  <Message key="GB" value="GB" revision="0" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="ms" value="ms" revision="0" />
+  <Message key="NextConnected" value="Siguiente dispositivo conectado" revision="0" />
+  <Message key="HotPlug" value="Compatibilidad con dispositivos de conexión en caliente" revision="0" />
+  <Message key="PacketNotFound" value="El paquete que busca no aparece en este visualizador. Intente localizarlo en otros visualizadores." revision="0" />
+  <Message key="Root Protocol" value="Protocolo raíz" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
