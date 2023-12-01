@@ -122,6 +122,45 @@
   <Message key="Switch Window" value="Janela do interrutor" revision="0" />
   <Message key="Active Tool Windows" value="Janelas de ferramentas activas" revision="0" />
   <Message key="Active Documents" value="Documentos activos" revision="0" />
+  <Message key="Settings group.Visual" value="Visual" revision="0" />
+  <Message key="Settings group.User Interface" value="Interface do utilizador" revision="0" />
+  <Message key="Settings group.Network" value="Rede &amp; Suporte" revision="0" />
+  <Message key="Settings group.Monitoring" value="Monitorização" revision="0" />
+  <Message key="Settings group.Misc" value="Outros" revision="0" />
+  <Message key="Colors Page" value="Temas" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Introduzir o nome do esquema e premir o botão Guardar" revision="0" />
+  <Message key="ColorSchemeExists" value="O esquema de cores já existe. Pretende substituí-lo?" revision="0" />
+  <Message key="Display elements:" value="Elementos exibidos:" revision="0" />
+  <Message key="Automatic" value="Automático" revision="0" />
+  <Message key="Current" value="Atual" revision="0" />
+  <Message key="Selected" value="Selecionado" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="A cor automática depende do tema de cor do sistema operativo atual." revision="0" />
+  <Message key="&amp;Open" value="&amp;Abrir" revision="0" />
+  <Message key="Open Recent" value="Abrir {item}" revision="0" />
+  <Message key="Settings" value="Configurações" revision="0" />
+  <Message key="Search settings" value="Pesquisar nas configurações" revision="0" />
+  <Message key="This toolbar cannot be deleted." value="Esta barra de ferramentas não pode ser eliminada." revision="0" />
+  <Message key="Toolbar Deletion Failed" value="Falha na eliminação da barra de ferramentas" revision="0" />
+  <Message key="Invalid toolbar name" value="Nome inválido da barra de ferramentas. O nome válido deve começar com uma letra." revision="0" />
+  <Message key="Toolbar Creation Failed" value="Falha na criação da barra de ferramentas" revision="0" />
+  <Message key="Toolbar already exists" value="A barra de ferramentas com o nome que especificou já existe." revision="0" />
+  <Message key="All commands" value="Todos os comandos" revision="0" />
+  <Message key="Commands Page" value="Comandos" revision="0" />
+  <Message key="Toolbars" value="Barra de ferramentas:" revision="0" />
+  <Message key="New" value="&amp;Novo…" revision="0" />
+  <Message key="Button size" value="Tamanho do botão:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Seleccione um comando para ver a respectiva descrição ou arraste-o para uma barra de ferramentas:" revision="0" />
+  <Message key="New Group" value="Novo &amp;Grupo" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Adicionar" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Remover &gt;" revision="0" />
+  <Message key="Move Up" value="&amp;Acima" revision="0" />
+  <Message key="Move Down" value="A&amp;baixo" revision="0" />
+  <Message key="Clear" value="&amp;Limpar" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Recortar estas barras de ferramentas" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Envolver estas barras de ferramentas" revision="0" />
+  <Message key="Keyboard" value="Teclado" revision="0" />
+  <Message key="MaxShortcuts" value="Não é possível atribuir mais de 5 atalhos a um comando." revision="0" />
+  <Message key="ShortcutExists" value="Este atalho já está definido para {command}. Pretende redefini-lo?" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
