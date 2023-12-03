@@ -113,7 +113,7 @@
 
   <Enumeration key="CallStackColumns" description="Call Stack Columns Names">
     <Item optional="true" text=" "/>
-    <Item text="Name"/>
+    <Item lookup="Name"/>
     <Item text="Line"/>
   </Enumeration>
 

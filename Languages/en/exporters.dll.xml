@@ -29,4 +29,10 @@
     <Param name="error code" format="b016x"/>
     <Param name="error"/>
   </Message>
+
+	<Message key="Export Filter" description="Converter config page: Export filter"/>
+
+	<Message key="Exporter Settings" description="Converter page title: Export Settings" value="Export Settings" revision="1"/>
+	<Message key="Specify location for export file" description="Field: Specify location for export file" />
+	<Message key="No caching" description="Field: No caching" />
 </Definition>

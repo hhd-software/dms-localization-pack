@@ -807,6 +807,7 @@
 
 	<Message key="Root Protocol" description="Window title: Root Protocol" />
 	<Message key="Affect only new packets" description="Option: Affect only new packets"/>
+	<Message key="Filter string" description="Field: Filter string" />
 	<Message key="Protocol:" description="Field: Protocol"/>
 
 	<!-- Serial Repeater Dialog -->
@@ -936,7 +937,7 @@
 	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.dmsheme)|*.dmstheme||" revision="1">
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
-	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused."/>
+	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused in order to apply new root protocol. Events that happen during this operation will be lost. Do you want to continue?"/>
 	<Message key="WarningTitle" description="Title: Warning" value="Warning"/>
 	<Message key="Wait_Text" description="Notification: Wait" value="Requested operation is being performed..."/>
 

@@ -102,7 +102,6 @@
 
 	<!-- Session Type Page -->
 
-	<Message key="Session Type" description="Window title: Session Type" />
 	<Message key="Select the serial bridge monitoring session type:" description="Field: Select the serial bridge monitoring session type" />
 	<Message key="Press the following button to change bridge parameters for this session only:" description="Field: Press the following button to change bridge parameters for this session only" />
 	<Message key="Generic" description="Session type: Generic" />

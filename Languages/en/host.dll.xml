@@ -88,7 +88,6 @@
   </Message>
 
   <Message key="Data Source Configuration" description="Data Source Configuration window title"/>
-  <Message key="Capture Filter" description="Capture Filter window title"/>
 
   <Message key="MultiDeviceConfig" description="Multi-source config" value="{has nested?}{nested}, {?has nested}Device coloring">
     <Param name="has nested" format="?"/>
@@ -334,8 +333,8 @@
 	<Message key="Device coloring" description="Window Title: Device coloring"/>
 	<Message key="Back color:" description="Field: Back color" />
 
-	<Message key="Multisource Device Colors" description="Window Title: Multisource Device Colors"/>
-	<Message key="Multisource device list:" description="Field: Multisource device list"/>
+	<Message key="Multisource Device Colors" description="Window Title: Multisource Device Colors" value="Multi-source Device Colors" revision="1" />
+	<Message key="Multisource device list:" description="Field: Multisource device list" value="Multi-source device list:" revision="1"/>
 	<Message key="Background color:" description="Field: Background color"/>
 
 	<Message key="Rename Device" description="Window Title: Rename Device"/>
@@ -345,9 +344,8 @@
 	<Message key="Selected sources" description="Field: Selected sources"/>
 	<Message key="Selected processing" description="Field: Selected processing"/>
 	<Message key="Available processing" description="Field: Available processing"/>
-	<Message key="Description" description="Field: Description"/>
 	<Message key="Filter text" description="Field: Filter text"/>
-	<Message key="Capture filter" description="Field: Capture filter"/>
+	<Message key="Capture Filter" description="Window title and Field: Capture filter"/>
 	<Message key="Precise time marks" description="Checkbox: Precise time marks"/>
 	<Message key="Add More" description="Button: Add More"/>
 	<Message key="Remove" description="Button: Remove"/>
@@ -384,8 +382,7 @@
 	<Message key="clr.device_colors.color16" description="Color: Device 16" value="Device 16"/>
 
 	<!-- Log config window -->
-	<Message key="Data Recording Properties" description="Window title: Data Recording Properties"/>
-	<Message key="Overwrite" description="Field: Overwrite"/>
+	<Message key="Data Recording Properties" description="Window title: Data Recording Settings" value="Data Recording Settings" revision="1"/>
 	<Message key="No limits enforced" description="Field: No limits enforced"/>
 	<Message key="Enforce size limit:" description="Field: Enforce size limit:"/>
 	<Message key="Enforce time limit:" description="Field: Enforce time limit:"/>
@@ -402,4 +399,6 @@
 
 	<Message key="Collapse session" description="Sessions Tool Window tooltip: Click to collapse session information" value="Click to collapse session information"/>
 	<Message key="Expand session" description="Sessions Tool Window tooltip: Click to expand session information" value="Click to expand session information"/>
+
+	<Message key="Processing Module Configuration" description="Window title: Processing Module Configuration" />
 </Definition>

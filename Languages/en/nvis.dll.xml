@@ -96,4 +96,6 @@
 		<Param name="scheme"/>
 	</Message>
 
+	<Message key="Select visualizer" description="Custom View configuration page: Visualizer Script" value="Visualizer Script" />
+	
 </Definition>

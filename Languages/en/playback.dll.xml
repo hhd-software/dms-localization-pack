@@ -148,5 +148,7 @@
 	<Message key="DifferentArchError" description="Message: Cannot playback log file" value="This log file stream was created on a machine with different processor architecture and cannot be played back."/>
 	<Message key="Playback" description="Title: Playback" value="Playback"/>
 
+	<Message key="Playback settings" description="Configuration window: Playback settings" />
+	<Message key="Virtual device configuration" description="Configuration window: Virtual Device Configuration" value="Virtual Device Configuration"/>
 
 </Definition>

@@ -73,7 +73,6 @@
 	<Message optional="true" key="Bulk-Only" description="Value: Bulk-Only" value="Bulk-Only"/>
 	<Message optional="true" key="Bulk Transfer" description="Header: Bulk Transfer" value="Bulk Transfer"/>
 	<Message optional="true" key="Undefined Block" description="Field: Undefined Block" value="Undefined Block"/>
-	<Message optional="true" key="Name" description="Field: Name" value="Name"/>
 	<Message optional="true" key="Container Length" description="Field: Container Length" value="Container Length"/>
 
 	<Message optional="true" key="UsbPimalHeader" description="Header: USB PIMA packet header" value="{ordinal}: {desc}\n">

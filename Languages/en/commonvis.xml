@@ -165,7 +165,6 @@
 	<Message key="Subtype" description="USB Video View visualizer: Subtype"/>
 	<Message key="Interface" description="USB Video View visualizer: Interface"/>
 	<Message key="Unit ID" description="USB Video View visualizer: Unit ID"/>
-	<Message key="Name" description="USB Video View visualizer: Name"/>
 	<Message key="DevicePowerMode" description="USB Video View visualizer: DevicePowerMode"/>
 	<Message key="PowerMode" description="USB Video View visualizer: PowerMode"/>
 	<Message key="DeviceDependentMode" description="USB Video View visualizer: DeviceDependentMode"/>

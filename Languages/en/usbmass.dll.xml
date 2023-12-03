@@ -423,7 +423,6 @@
 	<Message optional="true" key="Expected Data Received" description="Header: Expected Data Received" value="Expected Data Received"/>
 	<Message optional="true" key="No Command" description="Value: No Command" value="No Command"/>
 	<Message optional="true" key="Opcode" description="Field: Opcode" value="Opcode"/>
-	<Message optional="true" key="Name" description="Field: Name" value="Name"/>
 	<Message optional="true" key="Unknown Command" description="Value: Unknown Command" value="Unknown Command"/>
 	<Message optional="true" key="Page or OPCODE" description="Field: Page or OPCODE" value="Page or OPCODE"/>
 	<Message optional="true" key="Allocation Length" description="Field: Allocation Length" value="Allocation Length"/>
