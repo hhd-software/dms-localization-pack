@@ -325,25 +325,36 @@
   <Message key="Wait_Text" value="Se está realizando la operación solicitada..." revision="0" />
   <Message key="Crash Page" value="Informes de crashs" revision="0" />
   <Message key="CrashIntro" value="Si desea que se le notifique el estado de su informe de accidente y que sus informes se tramiten con mayor prioridad, indique su dirección de correo electrónico en el recuadro siguiente. Su dirección de correo electrónico no se utilizará para ningún otro fin que no sea el debate sobre su envío." revision="0" />
+  <Message key="Send report automatically" value="&amp;Enviar informe automáticamente" revision="0" />
+  <Message key="Report verbosity level" value="Nivel de detalle del informe" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="Volcado &amp;completo" revision="0" />
+  <Message key="Minidump description" value="Los minivolcados suelen tener un tamaño inferior a un megabyte y sólo contienen información limitada sobre un fallo. A veces, un minivolcado es suficiente para diagnosticar el problema, pero a menudo carece de la información necesaria para reproducir el fallo." revision="0" />
+  <Message key="Full dump description" value="Los volcados completos contienen la vista comprimida de todo el espacio de direcciones del proceso. Son los mejores para permitir a los desarrolladores reproducir la situación que causó el fallo y solucionarla lo antes posible. Sin embargo, el tamaño de un volcado completo puede alcanzar fácilmente cientos de megabytes." revision="0" />
+  <Message key="Privacy Policy" value="Política de privacidad" revision="0" />
+  <Message key="Credits to" value="Agradecimientos: " revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Haga clic para cambiar el filtro" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Haga clic para cambiar el protocolo raíz" revision="0" />
+  <Message key="WrittenBytes" value="{size as text} ({size} bytes) escrito" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
-    <Item />
-    <Item />
+    <Item value="&amp;Buscar actualizaciones" revision="0" />
+    <Item value="Busque la versión actualizada en Internet." revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Archivo" revision="0" />
+    <Item value="Archivo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Nuevo" revision="0" />
+    <Item value="Nuevo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editar" revision="0" />
+    <Item value="Editar" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Vista" revision="0" />
+    <Item value="Vista" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
     <Item />

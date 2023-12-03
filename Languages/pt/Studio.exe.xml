@@ -325,25 +325,36 @@
   <Message key="Wait_Text" value="A operação solicitada está a ser executada..." revision="0" />
   <Message key="Crash Page" value="Relatórios de crashs" revision="0" />
   <Message key="CrashIntro" value="Se pretender ser notificado sobre o estado do seu relatório de acidente e desejar que os seus relatórios sejam processados com maior prioridade, indique o seu endereço de correio eletrónico na caixa abaixo. O seu endereço de correio eletrónico não será utilizado para mais nada para além da discussão do seu relatório." revision="0" />
+  <Message key="Send report automatically" value="&amp;Enviar relatório automaticamente" revision="0" />
+  <Message key="Report verbosity level" value="Nível de pormenor do relatório" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="Captura &amp;completa" revision="0" />
+  <Message key="Minidump description" value="Os minidumps geralmente têm um tamanho inferior a um megabyte e contêm apenas informações limitadas sobre uma falha. Por vezes, um minidump é suficiente para diagnosticar o problema, mas muitas vezes falta-lhe a informação necessária para reproduzir a falha." revision="0" />
+  <Message key="Full dump description" value="Os dumps completos contêm a visão comprimida de todo o espaço de endereço do processo. São os melhores para permitir que os programadores reproduzam a situação que causou a falha e a corrijam o mais rapidamente possível. No entanto, o tamanho de um dump completo pode facilmente atingir centenas de megabytes." revision="0" />
+  <Message key="Privacy Policy" value="Política de privacidade" revision="0" />
+  <Message key="Credits to" value="Agradecimentos:" revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Clique para alterar o filtro" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Clique para alterar o protocolo de raiz" revision="0" />
+  <Message key="WrittenBytes" value="{size as text} ({size} bytes) escrito" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
-    <Item />
-    <Item />
+    <Item value="&amp;Verificar actualizações" revision="0" />
+    <Item value="Busque la versión actualizada en línea." revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Ficheiro" revision="0" />
+    <Item value="Ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Novo" revision="0" />
+    <Item value="Novo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editar" revision="0" />
+    <Item value="Editar" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Vista" revision="0" />
+    <Item value="Vista" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
     <Item />
