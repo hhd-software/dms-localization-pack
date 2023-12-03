@@ -348,8 +348,8 @@
   <Message key="UseLanguage" value="Verwenden Sie dieses Sprachpaket" revision="0" />
   <Message key="AccessLangsOnline" value="Zugriff auf das Online-Repository" revision="0" />
   <Message key="LangChanged" value="Sie müssen Device Monitoring Studio neu starten, nachdem Sie die Sprache geändert haben. Möchten Sie jetzt neu starten?" revision="0" />
-  <Message key="ThemeFiles" value="Theme-Dateien (*.dmsheme)|*.dmstheme||" revision="1" />
-  <Message key="BindPathWarning" value="Ihre aktuelle Sitzung wird unterbrochen werden." revision="0" />
+  <Message key="ThemeFiles" value="Design-Dateien (*.dmstheme)|*.dmstheme||" revision="1" />
+  <Message key="BindPathWarning" value="Ihre aktuelle Sitzung wird unterbrochen, um das neue Root-Protokoll anzuwenden. Ereignisse, die während dieses Vorgangs stattfinden, gehen verloren. Möchten Sie fortfahren?" revision="0" />
   <Message key="WarningTitle" value="Warnung" revision="0" />
   <Message key="Wait_Text" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
   <Message key="Crash Page" value="Absturzbericht" revision="0" />

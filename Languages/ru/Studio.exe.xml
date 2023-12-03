@@ -348,8 +348,8 @@
   <Message key="UseLanguage" value="Использовать данный языковой пакет" revision="0" />
   <Message key="AccessLangsOnline" value="Зайти в онлайновое хранилище" revision="0" />
   <Message key="LangChanged" value="После изменения языка необходимо перезапустить Device Monitoring Studio. Перезапустить сейчас?" revision="0" />
-  <Message key="ThemeFiles" value="Файлы тем (*.dmsheme)|*.dmstheme||" revision="1" />
-  <Message key="BindPathWarning" value="Текущая сессия будет приостановлена." revision="0" />
+  <Message key="ThemeFiles" value="Файлы тем (*.dmstheme)|*.dmstheme||" revision="1" />
+  <Message key="BindPathWarning" value="Текущая сессия будет приостановлена, чтобы применить новый корневой протокол. События, произошедшие во время этой операции, будут потеряны. Хотите продолжить?" revision="0" />
   <Message key="WarningTitle" value="Внимание" revision="0" />
   <Message key="Wait_Text" value="Выполняется запрашиваемая операция..." revision="0" />
   <Message key="Crash Page" value="Отчеты о сбоях" revision="0" />

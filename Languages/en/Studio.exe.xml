@@ -934,7 +934,7 @@
 	<Message key="UseLanguage" description="Action: Use this language pack" value="Use this language pack"/>
 	<Message key="AccessLangsOnline" description="Action: Access online repository" value="Access online repository"/>
 	<Message key="LangChanged" description="Language changed, need to restart" value="You need to restart Device Monitoring Studio after changing the language. Do you want to restart now?"/>
-	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.dmsheme)|*.dmstheme||" revision="1">
+	<Message key="ThemeFiles" description="Format string: Theme files" value="Theme Files (*.dmstheme)|*.dmstheme||" revision="1">
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
 	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused in order to apply new root protocol. Events that happen during this operation will be lost. Do you want to continue?"/>

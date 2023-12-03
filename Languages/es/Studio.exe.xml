@@ -292,6 +292,39 @@
   <Message key="The following monitoring sessions are active:" value="{has sessions?}Las siguientes sesiones de monitorización están activas: {sessions}{|has sessions}No hay sesiones de monitorización activas.{?has sessions}" revision="0" />
   <Message key="Default" value="Predeterminado" revision="0" />
   <Message key="Plase wait" value="Espere, por favor…" revision="0" />
+  <Message key="DataNoLongerValid" value="Este bloque de datos ya no es válido." revision="0" />
+  <Message key="Unknown Request" value="Solicitud desconocida" revision="0" />
+  <Message key="Undefined" value="Indefinido" revision="0" />
+  <Message key="None" value="None" revision="0" />
+  <Message key="Request" value="Solicitar" revision="0" />
+  <Message key="Request Name" value="Nombre de la solicitud " revision="0" />
+  <Message key="Delay" value="Retraso" revision="0" />
+  <Message key="Request Subtype" value="Subtipo de solicitud" revision="0" />
+  <Message key="Interface" value="Interfaz" revision="0" />
+  <Message key="Request Type" value="Tipo de solicitud" revision="0" />
+  <Message key="CopyProtect" value="Protección de copia" revision="0" />
+  <Message key="InterfaceFmt" value="Interfaz{number}" revision="0" />
+  <Message key="PinFmt" value="Pin{number}: " revision="0" />
+  <Message key="ControlFmt" value="Control{number}: " revision="0" />
+  <Message key="Up" value="Arriba" revision="0" />
+  <Message key="Down" value="Abajo" revision="0" />
+  <Message key="Enabled" value="Activado" revision="0" />
+  <Message key="ToolsFilter" value="Archivos de configuración de herramientas|*.dmsdwc9|" revision="0" />
+  <Message key="Setting files" value="Configuración|*.dmsset9|" revision="0" />
+  <Message key="Export successful" value="La configuración se ha guardado correctamente en un archivo." revision="0" />
+  <Message key="Import successful" value="La configuración se ha importado correctamente." revision="0" />
+  <Message key="File creation error" value="Se ha producido un error al {create?}crear{|create} abrir un archivo &quot;{name}&quot;: {text} ({code})" revision="0" />
+  <Message key="Vendor-Specific" value="Proveedor-específico" revision="0" />
+  <Message key="MissingFilterHost" value="Error al obtener el host de filtrado. Falta el archivo de estructura o tiene errores de compilación." revision="0" />
+  <Message key="UseLanguage" value="Utilice este paquete de idiomas" revision="0" />
+  <Message key="AccessLangsOnline" value="Acceder al repositorio en línea" revision="0" />
+  <Message key="LangChanged" value="Es necesario reiniciar Device Monitoring Studio después de cambiar el idioma. Desea reiniciar ahora?" revision="0" />
+  <Message key="ThemeFiles" value="Archivos de tema (*.dmstheme)|*.dmstheme||" revision="1" />
+  <Message key="BindPathWarning" value="La sesión actual se detendrá para aplicar el nuevo protocolo raíz. Los eventos que ocurran durante esta operación se perderán. ¿Desea continuar?" revision="0" />
+  <Message key="WarningTitle" value="Advertencia" revision="0" />
+  <Message key="Wait_Text" value="Se está realizando la operación solicitada..." revision="0" />
+  <Message key="Crash Page" value="Informes de crashs" revision="0" />
+  <Message key="CrashIntro" value="Si desea que se le notifique el estado de su informe de accidente y que sus informes se tramiten con mayor prioridad, indique su dirección de correo electrónico en el recuadro siguiente. Su dirección de correo electrónico no se utilizará para ningún otro fin que no sea el debate sobre su envío." revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
