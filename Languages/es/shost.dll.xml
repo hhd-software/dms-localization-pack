@@ -58,7 +58,7 @@
   </Enumeration>
   <Enumeration key="CallStackColumns">
     <Item />
-    <Item />
+    <Item lookup="Name" />
     <Item />
   </Enumeration>
   <Enumeration key="WatchValueAdd">

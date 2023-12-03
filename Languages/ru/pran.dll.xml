@@ -26,7 +26,6 @@
   <Message key="Device A:" value="Устройство A:" revision="0" />
   <Message key="Device B:" value="Устройство B:" revision="0" />
   <Message key="Same port settings" value="Одинаковые настройки порта" revision="0" />
-  <Message key="Session Type" value="Тип сессии" revision="0" />
   <Message key="Select the serial bridge monitoring session type:" value="Выберите тип сеанса мониторинга последовательного моста:" revision="0" />
   <Message key="Press the following button to change bridge parameters for this session only:" value="Нажмите следующую кнопку для изменения параметров моста только для данной сессии:" revision="0" />
   <Message key="Generic" value="Дженерик" revision="0" />

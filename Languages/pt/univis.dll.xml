@@ -395,7 +395,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="PlotColumns">
-    <Item />
+    <Item lookup="Name" />
     <Item />
     <Item />
     <Item />
@@ -449,7 +449,7 @@
   </Enumeration>
   <Enumeration key="SViewColumns">
     <Item />
-    <Item />
+    <Item lookup="Name" />
     <Item lookup="Value" />
     <Item lookup="Offset" />
     <Item lookup="Size" />

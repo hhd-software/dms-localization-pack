@@ -84,7 +84,7 @@
   </Enumeration>
   <Enumeration key="CallStackColumns">
     <Item value=" " revision="0" />
-    <Item value="Имя" revision="0" />
+    <Item lookup="Name" />
     <Item value="Строка" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">

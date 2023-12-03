@@ -19,7 +19,6 @@
   <Message key="SourceExpired" value="Просрочен один из выбранных источников данных." revision="0" />
   <Message key="DeviceConfig" value="Конфигурация: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
   <Message key="Data Source Configuration" value="Настройка источника данных" revision="0" />
-  <Message key="Capture Filter" value="Фильтр сессии" revision="0" />
   <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Расцветка устройства" revision="0" />
   <Message key="UnsupportedProcessingsTitle" value="Внимание" revision="0" />
   <Message key="UnsupportedProcessings" value="Следующие обработчики\n{processings}\nне поддерживают мониторинг нескольких устройств и будут удалены." revision="0" />
@@ -78,9 +77,8 @@
   <Message key="Selected sources" value="Выбранные источники" revision="0" />
   <Message key="Selected processing" value="Выбранные обработчики" revision="0" />
   <Message key="Available processing" value="Доступные обработчики" revision="0" />
-  <Message key="Description" value="Описание" revision="0" />
   <Message key="Filter text" value="Текст фильтра" revision="0" />
-  <Message key="Capture filter" value="Фильтр сессии" revision="0" />
+  <Message key="Capture Filter" value="Фильтр сессии" revision="0" />
   <Message key="Precise time marks" value="Точные метки времени" revision="0" />
   <Message key="Add More" value="Добавить еще" revision="0" />
   <Message key="Remove" value="Убрать" revision="0" />
@@ -102,7 +100,6 @@
   <Message key="clr.device_colors.color15" value="Устройство 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Устройство 16" revision="0" />
   <Message key="Data Recording Properties" value="Свойства записи данных" revision="0" />
-  <Message key="Overwrite" value="Перезаписывать" revision="0" />
   <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
   <Message key="Enforce size limit:" value="Ограничение на размер:" revision="0" />
   <Message key="Enforce time limit:" value="Ограничение по времени:" revision="0" />

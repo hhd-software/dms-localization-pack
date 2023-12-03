@@ -297,6 +297,7 @@
   <Message key="PacketNotFound" value="Das von Ihnen gesuchte Paket wird in diesem Visualizer nicht angezeigt. Versuchen Sie, es in anderen Visualisierern zu finden." revision="0" />
   <Message key="Root Protocol" value="Root-Protokoll" revision="0" />
   <Message key="Affect only new packets" value="Betrifft nur neue Pakete" revision="0" />
+  <Message key="Filter string" value="Filterstring" revision="0" />
   <Message key="Protocol:" value="Protokoll:" revision="0" />
   <Message key="Serial Repeater Settings" value="Einstellungen des seriellen Repeaters" revision="0" />
   <Message key="Send read packets to:" value="Senden Sie Lesepakete an:" revision="0" />
@@ -318,7 +319,6 @@
   <Message key="Code" value="Code" revision="0" />
   <Message key="The following monitoring sessions are active:" value="{has sessions?}Die folgenden Überwachungssitzungen sind aktiv: {sessions}{|has sessions}Keine aktiven Überwachungssitzungen.{?has sessions}" revision="0" />
   <Message key="Default" value="Standard" revision="0" />
-  <Message key="This scheme cannot be deleted" value="Diese Schema kann nicht gelöscht werden" revision="0" />
   <Message key="Plase wait" value="Bitte warten..." revision="0" />
   <Message key="DataNoLongerValid" value="Dieser Datenblock ist nicht mehr gültig." revision="0" />
   <Message key="Unknown Request" value="Unbekannt Anfrage" revision="0" />

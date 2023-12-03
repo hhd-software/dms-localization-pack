@@ -19,7 +19,6 @@
   <Message key="SourceExpired" value="Eine der ausgewählten Datenquellen ist ausgelaufen." revision="0" />
   <Message key="DeviceConfig" value="Konfiguration: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
   <Message key="Data Source Configuration" value="Konfiguration der Datenquelle" revision="0" />
-  <Message key="Capture Filter" value="Sitzungsfilter" revision="0" />
   <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Gerätefärbung" revision="0" />
   <Message key="UnsupportedProcessingsTitle" value="Warnung" revision="0" />
   <Message key="UnsupportedProcessings" value="Die folgenden Verarbeitungsmodule:\n{processings}\nunterstützen nicht die Überwachung mehrerer Geräte und werden entfernt." revision="0" />
@@ -78,9 +77,8 @@
   <Message key="Selected sources" value="Ausgewählte Quellen" revision="0" />
   <Message key="Selected processing" value="Ausgewählte Verarbeitung" revision="0" />
   <Message key="Available processing" value="Verfügbare Verarbeitung" revision="0" />
-  <Message key="Description" value="Beschreibung" revision="0" />
   <Message key="Filter text" value="Text filtern" revision="0" />
-  <Message key="Capture filter" value="Sitzungsfilter" revision="0" />
+  <Message key="Capture Filter" value="Sitzungsfilter" revision="0" />
   <Message key="Precise time marks" value="Präzise Zeitmarken" revision="0" />
   <Message key="Add More" value="Mehr hinzufügen" revision="0" />
   <Message key="Remove" value="Entfernen" revision="0" />
@@ -102,7 +100,6 @@
   <Message key="clr.device_colors.color15" value="Gerät 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Gerät 16" revision="0" />
   <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="0" />
-  <Message key="Overwrite" value="Überschreiben" revision="0" />
   <Message key="No limits enforced" value="Keine Grenzen" revision="0" />
   <Message key="Enforce size limit:" value="Größenbeschränkung:" revision="0" />
   <Message key="Enforce time limit:" value="Zeitlimit:" revision="0" />

@@ -6,4 +6,5 @@
   <Message key="Type" value="Typ" revision="0" />
   <Message key="Time" value="Zeit" revision="0" />
   <Message key="Name" value="Name" revision="0" />
+  <Message key="Overwrite" value="Überschreiben" revision="0" />
 </Language>

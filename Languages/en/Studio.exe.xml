@@ -849,7 +849,7 @@
 
 	<Message key="Default" description="Default"/>
 	<Message key="This scheme cannot be deleted" description="This scheme cannot be deleted"/>
-	<Message key="Plase wait" description="Plase wait…" value="Plase wait…"/>
+	<Message key="Plase wait" description="Please wait…" value="Please wait…"/>
 
 	<Message key="DataNoLongerValid" description="Error: Data is no longer valid" value="This data block is no longer valid."/>
 	<Message key="Unknown Request" description="Header: Unknown Request" value="Unknown Request"/>

@@ -26,7 +26,6 @@
   <Message key="Device A:" value="Gerät A:" revision="0" />
   <Message key="Device B:" value="Gerät B:" revision="0" />
   <Message key="Same port settings" value="Gleiche Anschlusseinstellungen" revision="0" />
-  <Message key="Session Type" value="Sitzungstyp" revision="0" />
   <Message key="Select the serial bridge monitoring session type:" value="Wählen Sie den Sitzungstyp für die Überwachung der seriellen Brücke aus:" revision="0" />
   <Message key="Press the following button to change bridge parameters for this session only:" value="Drücken Sie die folgende Schaltfläche, um die Brückenparameter nur für diese Sitzung zu ändern:" revision="0" />
   <Message key="Generic" value="Generische" revision="0" />

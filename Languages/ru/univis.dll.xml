@@ -59,7 +59,6 @@
   <Message key="Packet Template:" value="Шаблон пакета:" revision="0" />
   <Message key="Interval:" value="Интервал:" revision="0" />
   <Message key="Save Template" value="Сохранить шаблон" revision="0" />
-  <Message key="Name:" value="Имя:" revision="0" />
   <Message key="NoSelection" value="Нет выделения" revision="0" />
   <Message key="Number" value="№." revision="0" />
   <Message key="Address" value="Адрес" revision="0" />
@@ -592,7 +591,7 @@
     <Item value="Device Monitoring Studio может повысить точность и производительность визуализатора Статистика, если он используется отдельно. Начните новый сеанс мониторинга, настроив только визуализатор Статистика, или закройте все остальные модули обработки данных прямо сейчас, чтобы перейти в этот режим.\n Примечание: запись лога также отключает высокоскоростной режим." revision="0" />
   </Enumeration>
   <Enumeration key="PlotColumns">
-    <Item value="Имя" revision="0" />
+    <Item lookup="Name" />
     <Item value="Макс." revision="0" />
     <Item value="Средн." revision="0" />
     <Item value="Последн." revision="0" />
@@ -646,7 +645,7 @@
   </Enumeration>
   <Enumeration key="SViewColumns">
     <Item value="Номер" revision="1" />
-    <Item value="Имя" revision="1" />
+    <Item lookup="Name" />
     <Item lookup="Value" />
     <Item lookup="Offset" />
     <Item lookup="Size" />

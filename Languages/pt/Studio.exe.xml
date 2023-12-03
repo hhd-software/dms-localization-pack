@@ -268,6 +268,30 @@
   <Message key="HotPlug" value="Suporte para dispositivos ligados em tensão" revision="0" />
   <Message key="PacketNotFound" value="O pacote que está a procurar não é apresentado neste visualizador. Tente localizá-lo noutros visualizadores." revision="0" />
   <Message key="Root Protocol" value="Protocolo raiz" revision="0" />
+  <Message key="Affect only new packets" value="Afetar apenas os novos pacotes" revision="0" />
+  <Message key="Filter string" value="Cadeia de filtros" revision="0" />
+  <Message key="Protocol:" value="Protocolo:" revision="0" />
+  <Message key="Serial Repeater Settings" value="Configurações do repetidor de série" revision="0" />
+  <Message key="Send read packets to:" value="Enviar pacotes de leitura para:" revision="0" />
+  <Message key="Send write packets to:" value="Enviar pacotes de escrita para:" revision="0" />
+  <Message key="Use the same serial device for both reads and writes" value="Utilizar o mesmo dispositivo de série para leituras e escritas" revision="0" />
+  <Message key="Don't show this anymore" value="Não mostrar mais isto" revision="0" />
+  <Message key="Find" value="Localizar" revision="0" />
+  <Message key="Passed the end of the data" value="O fim dos dados foi ultrapassado" revision="0" />
+  <Message key="The pattern was not found." value="O padrão não foi encontrado." revision="0" />
+  <Message key="Find what:" value="&amp;Descobrir o que:" revision="0" />
+  <Message key="Options" value="Opções" revision="0" />
+  <Message key="Find within" value="Encontrar dentro" revision="0" />
+  <Message key="Match whole word only" value="Corresponder apenas à palavra &amp;inteira" revision="0" />
+  <Message key="Match case" value="Corresponder ao &amp;caso" revision="0" />
+  <Message key="Whole window" value="&amp;Toda a janela" revision="0" />
+  <Message key="Selection" value="&amp;Seleção" revision="0" />
+  <Message key="GotoCaption" value="Ir para {caption}" revision="0" />
+  <Message key="Packet number" value="Número do pacote" revision="0" />
+  <Message key="Code" value="Código" revision="0" />
+  <Message key="The following monitoring sessions are active:" value="{has sessions?}Estão activas as seguintes sessões de monitorização: {sessions}{|has sessions}Nenhuma sessão de monitorização ativa.{?has sessions}" revision="0" />
+  <Message key="Default" value="Predefinição" revision="0" />
+  <Message key="Plase wait" value="Por favor, aguarde…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
@@ -406,8 +430,8 @@
     <Item />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Localizar…" revision="0" />
+    <Item value="Localizar" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
     <Item />
