@@ -628,10 +628,6 @@
     <Item value="Registrierung" revision="0" />
     <Item value="Standard-Speicherort pro Benutzer." revision="0" />
   </Enumeration>
-  <Enumeration key="Portable mode">
-    <Item value="Portabler Modus" revision="0" />
-    <Item value="Speichern Sie die Anwendungseinstellungen in der Datei portable.hexset7 im Autostart-Ordner." revision="0" />
-  </Enumeration>
   <Enumeration key="External file:">
     <Item value="Externe Datei:" revision="0" />
     <Item value="Speichern Sie die Anwendungseinstellungen in einer externen Datei. Geben Sie einen gemeinsamen Speicherort an (z. B. OneDrive oder einen gemeinsamen Dropbox-Ordner), um Ihre Einstellungen für verschiedene Geräte freizugeben." revision="0" />

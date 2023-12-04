@@ -599,50 +599,46 @@
     <Item value="Registro" revision="0" />
     <Item value="Ubicación de almacenamiento por defecto por usuario." revision="0" />
   </Enumeration>
-  <Enumeration key="Portable mode">
-    <Item value="Modo portátil" revision="0" />
-    <Item />
-  </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Archivo externo:" revision="0" />
+    <Item value="Almacenar la configuración de la aplicación en un archivo externo. Especifique una ubicación compartida (como una carpeta compartida de OneDrive o Dropbox) para compartir la configuración entre dispositivos." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDirection">
-    <Item />
-    <Item />
+    <Item value="ABAJO" revision="0" />
+    <Item value="ARRIBA" revision="0" />
   </Enumeration>
   <Enumeration key="Boolean">
-    <Item />
-    <Item />
+    <Item value="Verdadero" revision="0" />
+    <Item value="Falso" revision="0" />
   </Enumeration>
   <Enumeration key="YesNo">
-    <Item />
-    <Item />
+    <Item value="SÍ" revision="0" />
+    <Item value="NO" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Más idiomas…" revision="0" />
+    <Item value="Consulte más idiomas en línea" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Repositorio de idiomas en línea" revision="0" />
+    <Item value="Participa en la creación de más paquetes de idiomas para Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
-    <Item />
-    <Item />
+    <Item value="Cambiar idioma" revision="0" />
+    <Item value="Este paquete de idiomas ha sido creado por la comunidad de código abierto. No nos hacemos responsables de la calidad de esta traducción.\r\n\r\nSi ha encontrado un error en una traducción, puede enviar un ticket o corregirlo usted mismo." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
-    <Item />
-    <Item />
+    <Item value="Pausa" revision="0" />
+    <Item value="Haga clic para pausar el funcionamiento de este módulo" revision="0" />
   </Enumeration>
   <Enumeration key="Resume1">
-    <Item />
-    <Item />
+    <Item value="Reanudar" revision="0" />
+    <Item value="Haga clic para reanudar el funcionamiento de este módulo" revision="0" />
   </Enumeration>
   <Enumeration key="themingMode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modo de tema de color (requiere reinicio)" revision="0" />
+    <Item value="Utilizar el sistema" revision="0" />
+    <Item value="Utilice siempre un tema ligero" revision="0" />
+    <Item value="Utilice siempre un tema oscuro" revision="0" />
   </Enumeration>
 </Language>

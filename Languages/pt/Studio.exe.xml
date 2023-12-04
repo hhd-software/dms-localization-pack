@@ -154,7 +154,7 @@
   <Message key="&lt; Add" value="&lt; &amp;Adicionar" revision="0" />
   <Message key="Remove &gt;" value="&amp;Remover &gt;" revision="0" />
   <Message key="Move Up" value="&amp;Acima" revision="0" />
-  <Message key="Move Down" value="A&amp;baixo" revision="0" />
+  <Message key="Move Down" value="&amp;Baixo" revision="0" />
   <Message key="Clear" value="&amp;Limpar" revision="0" />
   <Message key="Clip toolbars" value="&amp;Recortar estas barras de ferramentas" revision="0" />
   <Message key="Wrap toolbars" value="&amp;Envolver estas barras de ferramentas" revision="0" />
@@ -307,7 +307,7 @@
   <Message key="PinFmt" value="Pino{number}: " revision="0" />
   <Message key="ControlFmt" value="Controlo{number}: " revision="0" />
   <Message key="Up" value="Acima" revision="0" />
-  <Message key="Down" value="Abaixo" revision="0" />
+  <Message key="Down" value="Baixo" revision="0" />
   <Message key="Enabled" value="Ativado" revision="0" />
   <Message key="ToolsFilter" value="Ficheiros de configuração de ferramentas|*.dmsdwc9|" revision="0" />
   <Message key="AllFilesFilterString" value="Todos os ficheiros|*.*|" revision="0" />
@@ -599,50 +599,46 @@
     <Item value="Registo" revision="0" />
     <Item value="Local de armazenamento predefinido por utilizador." revision="0" />
   </Enumeration>
-  <Enumeration key="Portable mode">
-    <Item value="Modo portátil" revision="0" />
-    <Item />
-  </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="Ficheiro externo:" revision="0" />
+    <Item value="Armazenar as definições da aplicação num ficheiro externo. Especifique a localização partilhada (como a pasta partilhada OneDrive ou Dropbox) para partilhar as suas definições entre dispositivos." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDirection">
-    <Item />
-    <Item />
+    <Item value="BAIXO" revision="0" />
+    <Item value="ACIMA" revision="0" />
   </Enumeration>
   <Enumeration key="Boolean">
-    <Item />
-    <Item />
+    <Item value="Verdadeiro" revision="0" />
+    <Item value="Falso" revision="0" />
   </Enumeration>
   <Enumeration key="YesNo">
-    <Item />
-    <Item />
+    <Item value="SIM" revision="0" />
+    <Item value="NÃO" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Mais línguas…" revision="0" />
+    <Item value="Verificar se existem mais línguas em linha" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Repositório de línguas em linha" revision="0" />
+    <Item value="Participe na criação de mais pacotes de idiomas para o Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
-    <Item />
-    <Item />
+    <Item value="Alterar idioma" revision="0" />
+    <Item value="Este pacote de idiomas foi criado pela comunidade de código aberto. Não assumimos qualquer responsabilidade pela qualidade desta tradução.\r\n\r\nSe encontrar um erro numa tradução, pode apresentar uma reclamação ou corrigi-lo você mesmo." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
-    <Item />
-    <Item />
+    <Item value="Pausa" revision="0" />
+    <Item value="Clique para fazer uma pausa no funcionamento deste módulo" revision="0" />
   </Enumeration>
   <Enumeration key="Resume1">
-    <Item />
-    <Item />
+    <Item value="Retomar" revision="0" />
+    <Item value="Clique para retomar a operação deste módulo" revision="0" />
   </Enumeration>
   <Enumeration key="themingMode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modo de tema de cor (requer reinício)" revision="0" />
+    <Item value="Utilizar o sistema" revision="0" />
+    <Item value="Utilizar sempre o tema ligeiro" revision="0" />
+    <Item value="Utilizar sempre o tema escuro" revision="0" />
   </Enumeration>
 </Language>

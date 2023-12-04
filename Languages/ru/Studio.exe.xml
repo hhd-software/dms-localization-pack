@@ -628,10 +628,6 @@
     <Item value="Реестр" revision="0" />
     <Item value="Место хранения для каждого пользователя по умолчанию." revision="0" />
   </Enumeration>
-  <Enumeration key="Portable mode">
-    <Item value="Переносной режим" revision="0" />
-    <Item value="Сохраните настройки приложения в файле portable.hexset7 в папке запуска." revision="0" />
-  </Enumeration>
   <Enumeration key="External file:">
     <Item value="Внешний файл:" revision="0" />
     <Item value="Сохранять настройки приложения во внешнем файле. Укажите общее местоположение (например, общую папку OneDrive или Dropbox) для обмена настройками между устройствами." revision="0" />
