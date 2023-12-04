@@ -287,10 +287,10 @@
   <Message key="Generate Script" value="&amp;Генерировать скрипт" revision="0" />
   <Message key="Stop" value="Стоп" revision="0" />
   <Message key="B" value="Б" revision="0" />
-  <Message key="KB" value="Кб" revision="0" />
-  <Message key="MB" value="Мб" revision="0" />
-  <Message key="GB" value="Гб" revision="0" />
-  <Message key="TB" value="Тб" revision="0" />
+  <Message key="KB" value="КБ" revision="0" />
+  <Message key="MB" value="МБ" revision="0" />
+  <Message key="GB" value="ГБ" revision="0" />
+  <Message key="TB" value="ТБ" revision="0" />
   <Message key="ms" value="мс" revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
   <Message key="HotPlug" value="Поддержка устройств с горячим подключением" revision="0" />
@@ -617,7 +617,7 @@
   </Enumeration>
   <Enumeration key="WindowTabbed">
     <Item value="Документ с закладкой" revision="0" />
-    <Item value="Документ с закладкой" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
     <Item value="Команда" revision="0" />

@@ -575,32 +575,32 @@
     <Item value="Repor a configuração das janelas da ferramenta" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Novo quadro &amp;horizontal" revision="0" />
+    <Item value="Novo quadro horizontal" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Novo quadro &amp;vertical" revision="0" />
+    <Item value="Novo quadro vertical" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Janela acoplável" revision="0" />
+    <Item value="Janela acoplável" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Documento com separador" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Comando" revision="0" />
+    <Item value="Atalhos" revision="0" />
+    <Item value="Descrição" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registo" revision="0" />
+    <Item value="Local de armazenamento predefinido por utilizador." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
+    <Item value="Modo portátil" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="External file:">

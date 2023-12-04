@@ -575,32 +575,32 @@
     <Item value="Restablecer la configuración de las ventanas de herramientas" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Nuevo encuadre &amp;horizontal" revision="0" />
+    <Item value="Nuevo encuadre horizontal" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Nuevo encuadre &amp;vertical" revision="0" />
+    <Item value="Nuevo encuadre vertical" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Ventana acoplable" revision="0" />
+    <Item value="Ventana acoplable" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Documento con pestañas" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Comando" revision="0" />
+    <Item value="Atajos" revision="0" />
+    <Item value="Descripción" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registro" revision="0" />
+    <Item value="Ubicación de almacenamiento por defecto por usuario." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
+    <Item value="Modo portátil" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="External file:">
