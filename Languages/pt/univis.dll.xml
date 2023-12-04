@@ -396,11 +396,11 @@
   </Enumeration>
   <Enumeration key="PlotColumns">
     <Item lookup="Name" />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Max" revision="0" />
+    <Item value="Média" revision="0" />
+    <Item value="Último" revision="0" />
+    <Item value="Total" revision="0" />
+    <Item value="Escala" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionColumns">
     <Item />

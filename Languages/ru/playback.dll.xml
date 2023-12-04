@@ -30,6 +30,16 @@
   <Message key="Continue Playback" value="Продолжить воспроизведение\nНажмите кнопку, чтобы продолжить воспроизведение." revision="0" />
   <Message key="DifferentArchError" value="Этот лог был создан на машине с другой архитектурой процессора и не может быть воспроизведен." revision="0" />
   <Message key="Playback" value="Воспроизведение" revision="0" />
+  <Message key="Playback settings" value="Настройки воспроизведения" revision="0" />
+  <Message key="Virtual device configuration" value="Конфигурация виртуального устройства" revision="0" />
+  <Message key="Import file path" value="Путь к входному файлу" revision="0" />
+  <Message key="Select time range for playback" value="Воспроизводить временной интервал" revision="0" />
+  <Message key="Logarithmic scale" value="Логарифмическая шкала" revision="0" />
+  <Message key="Highlight missing data" value="Подстветка отсутствующих данных" revision="0" />
+  <Message key="From" value="От" revision="0" />
+  <Message key="to" value="до" revision="0" />
+  <Message key="Select playback speed" value="Скорость воспроизведения" revision="0" />
+  <Message key="Update..." value="Обновить…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Воспроизведение" revision="0" />
     <Item value="Воспроизведение данных позволяет проигрывать записанные сессии мониторинга, что дает возможность отложенного анализа устройства." revision="0" />

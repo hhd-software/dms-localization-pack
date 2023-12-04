@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Select visualizer" value="Script visualizador" revision="0" />
   <Enumeration key="CustomConverter">
     <Item />
     <Item />

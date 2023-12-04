@@ -30,6 +30,16 @@
   <Message key="Continue Playback" value="Wiedergabe fortsetzen\nDrücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen." revision="0" />
   <Message key="DifferentArchError" value="Dieser Logdateistrom wurde auf einem Rechner mit anderer Prozessorarchitektur erstellt und kann nicht wiedergegeben werden." revision="0" />
   <Message key="Playback" value="Wiedergabe" revision="0" />
+  <Message key="Playback settings" value="Einstellungen für die Wiedergabe" revision="0" />
+  <Message key="Virtual device configuration" value="Konfiguration des virtuellen Geräts" revision="0" />
+  <Message key="Import file path" value="Pfad der Eingabedatei" revision="0" />
+  <Message key="Select time range for playback" value="Zeitbereich für die Wiedergabe auswählen" revision="0" />
+  <Message key="Logarithmic scale" value="Logarithmische Skala" revision="0" />
+  <Message key="Highlight missing data" value="Fehlende Daten hervorheben" revision="0" />
+  <Message key="From" value="Von" revision="0" />
+  <Message key="to" value="bis" revision="0" />
+  <Message key="Select playback speed" value="Wiedergabegeschwindigkeit" revision="0" />
+  <Message key="Update..." value="Update…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Wiedergabe" revision="0" />
     <Item value="Die Wiedergabedatenquelle gibt aufgezeichnete Überwachungssitzungen wieder und ermöglicht eine verzögerte Geräteanalyse." revision="0" />

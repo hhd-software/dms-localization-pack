@@ -17,6 +17,7 @@
   <Message key="Visualizer template name expected" value="Ожидается имя шаблона визуализатора" revision="0" />
   <Message key="SelectOptionsScheme" value="Загрузить схему с опциями: &quot;{scheme}&quot;" revision="0" />
   <Message key="SelectColorsScheme" value="Загрузить цветовую схему: &quot;{scheme}&quot;" revision="0" />
+  <Message key="Select visualizer" value="Скрипт визуализатора" revision="0" />
   <Enumeration key="CustomConverter">
     <Item value="Пользовательский вид" revision="0" />
     <Item value="Пользовательский визуализатор позволяет полностью настроить текстовый вывод." revision="0" />

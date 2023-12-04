@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Playback settings" value="Definições de reprodução" revision="0" />
+  <Message key="Virtual device configuration" value="Configuração do dispositivo virtual" revision="0" />
+  <Message key="Import file path" value="Caminho do ficheiro de entrada" revision="0" />
+  <Message key="Select time range for playback" value="Selecionar o intervalo de tempo para reprodução" revision="0" />
+  <Message key="Logarithmic scale" value="Escala logarítmica" revision="0" />
+  <Message key="Highlight missing data" value="Destacar dados em falta" revision="0" />
+  <Message key="From" value="De" revision="0" />
+  <Message key="to" value="a" revision="0" />
+  <Message key="Select playback speed" value="Velocidade de reprodução" revision="0" />
+  <Message key="Update..." value="Atualização…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item />
     <Item />

@@ -17,6 +17,7 @@
   <Message key="Visualizer template name expected" value="Name der Visualisierungsvorlage erwartet" revision="0" />
   <Message key="SelectOptionsScheme" value="Ladeschema mit Optionen: &quot;{scheme}&quot;" revision="0" />
   <Message key="SelectColorsScheme" value="Ladeschema mit Einfärbung: &quot;{scheme}&quot;" revision="0" />
+  <Message key="Select visualizer" value="Anzeige-Skript" revision="0" />
   <Enumeration key="CustomConverter">
     <Item value="Benutzerdefinierte Ansicht" revision="0" />
     <Item value="Ein benutzerdefinierter Visualisierer ermöglicht es Ihnen, die Textausgabe vollständig anzupassen." revision="0" />
