@@ -68,8 +68,8 @@
   <Message key="Enter custom data processor configuration name:" value="Geben Sie den Namen der benutzerdefinierten Konfiguration ein:" revision="0" />
   <Message key="Device coloring" value="Gerätefärbung" revision="0" />
   <Message key="Back color:" value="Hintergrundfarbe:" revision="0" />
-  <Message key="Multisource Device Colors" value="Multisource-Gerätefarben" revision="0" />
-  <Message key="Multisource device list:" value="Multi-Quellen-Geräteliste:" revision="0" />
+  <Message key="Multisource Device Colors" value="Multisource-Gerätefarben" revision="1" />
+  <Message key="Multisource device list:" value="Multi-Quellen-Geräteliste:" revision="1" />
   <Message key="Background color:" value="Hintergrundfarbe:" revision="0" />
   <Message key="Rename Device" value="Gerät umbenennen" revision="0" />
   <Message key="Enter new device name:" value="Geben Sie einen neuen Gerätenamen ein:" revision="0" />
@@ -99,7 +99,7 @@
   <Message key="clr.device_colors.color14" value="Gerät 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Gerät 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Gerät 16" revision="0" />
-  <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="0" />
+  <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="1" />
   <Message key="No limits enforced" value="Keine Grenzen" revision="0" />
   <Message key="Enforce size limit:" value="Größenbeschränkung:" revision="0" />
   <Message key="Enforce time limit:" value="Zeitlimit:" revision="0" />

@@ -9,6 +9,10 @@
   <Message key="WritingErrorTitle" value="Fehler beim Exportieren" revision="0" />
   <Message key="Text Exporter paused" value="Der Textexporter wurde aufgrund eines Disk-Schreibfehlers angehalten. Prüfen Sie, ob genügend freier Speicherplatz auf dem Datenträger vorhanden ist, und setzen Sie den Textexporter entweder fort oder entfernen Sie ihn aus der Sitzung." revision="0" />
   <Message key="RawWriterCreateError" value="Bei der Initialisierung des Exports ist ein Fehler aufgetreten: {error} ({error code})" revision="0" />
+  <Message key="Export Filter" value="Filter exportieren" revision="0" />
+  <Message key="Exporter Settings" value="Export-Einstellungen" revision="1" />
+  <Message key="Specify location for export file" value="Speicherort der Exportdatei " revision="0" />
+  <Message key="No caching" value="Kein Caching" revision="0" />
   <Enumeration key="RawExporter">
     <Item value="Rohdaten-Exporter" revision="0" />
     <Item value="Der Rohdaten-Exporter schreibt alle überwachten Daten in die Ausgabedatei im Binärformat. Er unterstützt Filterung und ermöglicht die Konfiguration des Root-Protokolls." revision="0" />

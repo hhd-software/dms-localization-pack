@@ -68,8 +68,8 @@
   <Message key="Enter custom data processor configuration name:" value="Введите имя пользовательской настройки обработчика данных:" revision="0" />
   <Message key="Device coloring" value="Расцветка устройства" revision="0" />
   <Message key="Back color:" value="Цвет фона:" revision="0" />
-  <Message key="Multisource Device Colors" value="Цвета многоисточниковых устройств" revision="0" />
-  <Message key="Multisource device list:" value="Список многоисточниковых устройств:" revision="0" />
+  <Message key="Multisource Device Colors" value="Цвета многоисточниковых устройств" revision="1" />
+  <Message key="Multisource device list:" value="Список многоисточниковых устройств:" revision="1" />
   <Message key="Background color:" value="Цвет фона:" revision="0" />
   <Message key="Rename Device" value="Переименовать устройство" revision="0" />
   <Message key="Enter new device name:" value="Введите новое имя устройства:" revision="0" />
@@ -99,7 +99,7 @@
   <Message key="clr.device_colors.color14" value="Устройство 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Устройство 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Устройство 16" revision="0" />
-  <Message key="Data Recording Properties" value="Свойства записи данных" revision="0" />
+  <Message key="Data Recording Properties" value="Настройки записи данных" revision="1" />
   <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
   <Message key="Enforce size limit:" value="Ограничение на размер:" revision="0" />
   <Message key="Enforce time limit:" value="Ограничение по времени:" revision="0" />
