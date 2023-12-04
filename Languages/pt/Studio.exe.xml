@@ -314,7 +314,7 @@
   <Message key="Setting files" value="Configurações|*.dmsset9|" revision="0" />
   <Message key="Export successful" value="As definições foram guardadas com êxito num ficheiro." revision="0" />
   <Message key="Import successful" value="As definições foram importadas com êxito." revision="0" />
-  <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create} abrir um ficheiro &quot;{name}&quot;: {text} ({code})" revision="0" />
+  <Message key="File creation error" value="Ocorreu um erro ao {create?}criar{|create} abrir{?create} um ficheiro &quot;{name}&quot;: {text} ({code})" revision="0" />
   <Message key="Vendor-Specific" value="Fornecedor-específico" revision="0" />
   <Message key="MissingFilterHost" value="Erro na obtenção do anfitrião de filtragem. Ficheiro de estrutura em falta ou com erros de compilação." revision="0" />
   <Message key="UseLanguage" value="Utilizar este pacote de idiomas" revision="0" />
@@ -439,8 +439,8 @@
     <Item value="Não verificar se há novas versões beta" revision="0" />
   </Enumeration>
   <Enumeration key="FileExit">
-    <Item />
-    <Item />
+    <Item value="&amp;Sair " revision="0" />
+    <Item value="Sair da aplicação" revision="0" />
   </Enumeration>
   <Enumeration key="FileOpen">
     <Item value="&amp;Abrir…" revision="0" />
@@ -499,108 +499,108 @@
     <Item value="Definições do programa" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
-    <Item />
-    <Item />
+    <Item value="&amp;Retomar todas as sessões" revision="0" />
+    <Item value="Retomar todas as sessões de monitorização" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausa em todas as sessões" revision="0" />
+    <Item value="Pausa de todas as sessões de monitorização" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Parar todas as sessões" revision="0" />
+    <Item value="Interrompe todas as sessões de monitorização" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrev">
-    <Item />
-    <Item />
+    <Item value="&amp;Anterior" revision="0" />
+    <Item value="Mudar para a janela anterior" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNext">
-    <Item />
-    <Item />
+    <Item value="&amp;Seguinte" revision="0" />
+    <Item value="Mudar para a janela seguinte" revision="0" />
   </Enumeration>
   <Enumeration key="WindowClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Fechar a janela" revision="0" />
+    <Item value="Fechar a janela ativa" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNextPane">
-    <Item />
-    <Item />
+    <Item value="Painel seguinte" revision="0" />
+    <Item value="Ativar o painel seguinte" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrevPane">
-    <Item />
-    <Item />
+    <Item value="Painel anterior" revision="0" />
+    <Item value="Ativar o painel anterior" revision="0" />
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
-    <Item />
-    <Item />
+    <Item value="&amp;Minimizar para o tabuleiro" revision="0" />
+    <Item value="Minimizar a janela do Device Monitoring Studio para a bandeja do sistema" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Conteúdo" revision="0" />
+    <Item value="Conteúdo" revision="0" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item />
-    <Item />
+    <Item value="&amp;Comentários…" revision="0" />
+    <Item value="Comentários" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
-    <Item />
-    <Item />
+    <Item value="Mapa do &amp;teclado…" revision="0" />
+    <Item value="Visualizar e imprimir o mapa do teclado" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardPrint">
-    <Item />
-    <Item />
+    <Item value="&amp;Imprimir…" revision="0" />
+    <Item value="Imprimir o mapa do teclado" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiar…" revision="0" />
+    <Item value="Copiar o mapa do teclado" revision="0" />
   </Enumeration>
   <Enumeration key="Endpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Pontos finais" revision="0" />
+    <Item value="Pontos finais" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsColoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Coloração" revision="0" />
+    <Item value="Abrir definições de coloração" revision="0" />
   </Enumeration>
   <Enumeration key="FiltersSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Filtragem…" revision="0" />
+    <Item value="Abrir as definições de filtragem" revision="0" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Repor a configuração" revision="0" />
+    <Item value="Repor a configuração das janelas da ferramenta" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Novo quadro &amp;horizontal" revision="0" />
+    <Item value="Novo quadro horizontal" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Novo quadro &amp;vertical" revision="0" />
+    <Item value="Novo quadro vertical" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Janela acoplável" revision="0" />
+    <Item value="Janela acoplável" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Documento com separador" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Comando" revision="0" />
+    <Item value="Atalhos" revision="0" />
+    <Item value="Descrição" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registo" revision="0" />
+    <Item value="Local de armazenamento predefinido por utilizador." revision="0" />
   </Enumeration>
   <Enumeration key="Portable mode">
-    <Item />
+    <Item value="Modo portátil" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="External file:">

@@ -617,7 +617,7 @@
   </Enumeration>
   <Enumeration key="WindowTabbed">
     <Item value="Tabelliertes Dokument" revision="0" />
-    <Item value="Tabelliertes Dokument" revision="0" />
+    <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
     <Item value="Befehl" revision="0" />
