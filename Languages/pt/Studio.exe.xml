@@ -310,6 +310,7 @@
   <Message key="Down" value="Abaixo" revision="0" />
   <Message key="Enabled" value="Ativado" revision="0" />
   <Message key="ToolsFilter" value="Ficheiros de configuração de ferramentas|*.dmsdwc9|" revision="0" />
+  <Message key="AllFilesFilterString" value="Todos os ficheiros|*.*|" revision="0" />
   <Message key="Setting files" value="Configurações|*.dmsset9|" revision="0" />
   <Message key="Export successful" value="As definições foram guardadas com êxito num ficheiro." revision="0" />
   <Message key="Import successful" value="As definições foram importadas com êxito." revision="0" />
@@ -357,72 +358,72 @@
     <Item value="Vista" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;Ferramentas" revision="0" />
+    <Item value="Ferramentas" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Janela" revision="0" />
+    <Item value="Janela" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Ajuda" revision="0" />
+    <Item value="Ajuda" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="Janelas de &amp;ferramentas" revision="0" />
+    <Item value="Janelas de ferramentas" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Guardar" revision="0" />
+    <Item value="Guardar o documento ou espaço de trabalho atual" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="&amp;Filtragem" revision="0" />
+    <Item value="Exibir filtros e opções do visualizador" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Guardar &amp;como…" revision="0" />
+    <Item value="Guardar o documento ou espaço de trabalho atual com outro nome" revision="0" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Componente" revision="0" />
+    <Item value="Versão atual" revision="0" />
+    <Item value="Versão de atualização" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Verificar actualizações" revision="0" />
+    <Item value="Cada lançamento" revision="0" />
+    <Item value="Cada semana" revision="0" />
+    <Item value="Nunca" revision="0" />
   </Enumeration>
   <Enumeration key="CompilerErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="NÃO_ERRO" revision="0" />
+    <Item value="CE001: A operação solicitada não é permitida no tipo de dados fornecido ou não é esperada aqui" revision="0" />
+    <Item value="CE002: Divisão por zero" revision="0" />
+    <Item value="CE003: O identificador especificado não foi encontrado" revision="0" />
+    <Item value="CE004: O escalar é esperado" revision="0" />
+    <Item value="CE005: O vetor é esperado" revision="0" />
+    <Item value="CE006: O índice da matriz está fora do intervalo" revision="0" />
+    <Item value="CE007: Ainda não implementado" revision="0" />
+    <Item value="CE008: Tamanho do campo de bits inválido" revision="0" />
+    <Item value="CE009: Erro de sintaxe" revision="0" />
+    <Item value="CE010: O tipo só foi declarado a posteriori" revision="0" />
+    <Item value="CE011: Operação não suportada para o tipo dinâmico" revision="0" />
+    <Item value="CE012: O tipo é redefinido" revision="0" />
+    <Item value="CE013: A afirmação falhou" revision="0" />
+    <Item value="CE014: Espera-se uma expressão constante" revision="0" />
+    <Item value="CE015: Espera-se uma expressão de cadeia constante" revision="0" />
+    <Item value="CE016: Número incorreto de argumentos para uma chamada de função" revision="0" />
+    <Item value="CE017: Operação de subscrição para uma matriz não indexada (sugestão: remover o atributo [noindex])" revision="0" />
+    <Item value="CE018: Erro devolvido pelo motor Javascript" revision="0" />
+    <Item value="CE019: Argumento inválido" revision="0" />
+    <Item value="CE020: A profundidade máxima de recursão permitida foi atingida" revision="0" />
+    <Item value="CE021: Espera-se uma expressão de outro tipo" revision="0" />
+    <Item value="CE022: Erro de pré-processamento" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Guardar &amp;Tudo" revision="0" />
+    <Item value="Guardar todos os documentos abertos" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringSchemes">
     <Item />
@@ -431,71 +432,71 @@
     <Item />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Novas versões beta disponíveis" revision="0" />
+    <Item value="Existem novas versões beta disponíveis para transferência para a sua versão do produto." revision="0" />
+    <Item value="Pretende consultar a lista de componentes actualizados e descarregá-los?" revision="0" />
+    <Item value="Este aviso aparece apenas uma vez para cada conjunto de componentes únicos em linha." revision="0" />
+    <Item value="Não verificar se há novas versões beta" revision="0" />
   </Enumeration>
   <Enumeration key="FileExit">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="FileOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Abrir…" revision="0" />
+    <Item value="Abrir documento de formato suportado" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Limpar o espaço de trabalho" revision="0" />
+    <Item value="Fechar todas as sessões de monitorização, janelas abertas e limpar outras entradas do espaço de trabalho." revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Cor&amp;tar" revision="0" />
+    <Item value="Cortar a seleção para a Área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiar" revision="0" />
+    <Item value="Copiar seleção" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="Co&amp;lar" revision="0" />
+    <Item value="Colar o conteúdo da Área de Transferência" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="&amp;Exportar" revision="0" />
+    <Item value="Exportar seleção" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Apagar/Limpar &amp;vista" revision="0" />
+    <Item value="Limpar a vista" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
-    <Item />
-    <Item />
+    <Item value="Limpar &amp;todas as vistas" revision="0" />
+    <Item value="Limpar todas as vistas" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
     <Item value="&amp;Localizar…" revision="0" />
     <Item value="Localizar" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="Encontrar &amp;seguinte" revision="0" />
+    <Item value="Encontrar seguinte" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item />
-    <Item />
+    <Item value="&amp;Ir para o pacote…" revision="0" />
+    <Item value="Localizar o pacote específico" revision="0" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Exportar configuração…" revision="0" />
+    <Item value="Exportar a configuração das janelas da ferramenta" revision="0" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Importar configuração…" revision="0" />
+    <Item value="Importar a configuração das janelas da ferramenta" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Definições…" revision="0" />
+    <Item value="Definições do programa" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
     <Item />

@@ -496,7 +496,7 @@
     <Item value="Auswahl exportieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item value="&amp;Löschen/Leeren Ansicht" revision="0" />
+    <Item value="Löschen/Leeren &amp;Ansicht" revision="0" />
     <Item value="Klare Ansicht" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
