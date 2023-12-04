@@ -151,4 +151,12 @@
 	<Message key="Playback settings" description="Configuration window: Playback settings" />
 	<Message key="Virtual device configuration" description="Configuration window: Virtual Device Configuration" value="Virtual Device Configuration"/>
 
+	<Message key="Import file path" description="Field: Import file path"/>
+	<Message key="Select time range for playback" description="Field: Select time range for playback" />
+	<Message key="Logarithmic scale" description="Field: Logarithmic scale"/>
+	<Message key="Highlight missing data" description="Field: Highlight missing data"/>
+	<Message key="From" description="Field: From [time] in Playback Settings"/>
+	<Message key="to" description="Field: to [time] in Playback Settings"/>
+	<Message key="Select playback speed" description="Field: Select playback speed"/>
+	<Message key="Update..." description="Button: Update…" value="Update…" />
 </Definition>
