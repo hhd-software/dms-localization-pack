@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Línea estática (Estadísticas)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Modo especial de alta velocidad (Estadísticas)" revision="0" />
+  <Message key="plot_drawticks" value="Visualizar índices de muestra en el eje X" revision="0" />
+  <Message key="cell_lowerhex" value="Mostrar hexadecimal en minúsculas" revision="0" />
+  <Message key="cell_showresult" value="Panel de resultados" revision="0" />
+  <Message key="cell_showtooltip" value="Mostrar información emergente sobre paquetes" revision="0" />
+  <Message key="tooltip_delay" value="Definir intervalo de información sobre herramientas" revision="0" />
+  <Message key="Statistics" value="Estadísticas" revision="0" />
+  <Message key="Raw Data View" value="Vista de datos brutos" revision="0" />
+  <Message key="Network Packet View" value="Vista de paquetes de red" revision="0" />
+  <Message key="LineNumbers" value="Mostrar números de línea" revision="0" />
+  <Message key="Console View" value="Vista de la consola" revision="0" />
+  <Message key="Goto Dialog" value="Ir a Diálogo" revision="0" />
+  <Message key="Structure Coloring" value="Estructura Colorear" revision="0" />
+  <Message key="Raw Data View Coloring" value="Coloración de la vista de datos brutos" revision="0" />
+  <Message key="Go to Offset" value="Ir a Desplazamiento" revision="0" />
+  <Message key="Offset:" value="Desplazamiento:" revision="0" />
+  <Message key="Resulting offset:" value="Desplazamiento resultante:" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
