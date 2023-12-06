@@ -6,6 +6,7 @@
   <Message key="cell_lowerhex" value="Mostrar hexadecimal em minúsculas" revision="0" />
   <Message key="cell_showresult" value="Exibir painel de resultados" revision="0" />
   <Message key="cell_showtooltip" value="Exibir informações de pacotes pop-up" revision="0" />
+  <Message key="netvis_showpackettip" value="Exibir informações de pacotes pop-up" revision="0" />
   <Message key="tooltip_delay" value="Definir o intervalo da dica de ferramenta" revision="0" />
   <Message key="Statistics" value="Estatísticas" revision="0" />
   <Message key="Raw Data View" value="Vista de dados brutos" revision="0" />
@@ -18,6 +19,17 @@
   <Message key="Go to Offset" value="Ir para Deslocação" revision="0" />
   <Message key="Offset:" value="Deslocação:" revision="0" />
   <Message key="Resulting offset:" value="Offset resultante:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Hexadecimal" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Decimal" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Octal" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Deslocamento relativa" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Percentagem" revision="0" />
+  <Message key="IncorrectInputTitle" value="Entrada incorrecta" revision="0" />
+  <Message key="Send packets" value="Enviar pacotes" revision="0" />
+  <Message key="Options" value="Opções" revision="0" />
+  <Message key="Adapter:" value="Adaptador:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Ignorar o atraso do pacote (modo burst)" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
