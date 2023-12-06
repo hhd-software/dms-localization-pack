@@ -66,6 +66,53 @@
   <Message key="PacketBuilderTitle" value="Criador de pacotes" revision="0" />
   <Message key="TemplateDeleteError" value="Este esquema não pode ser removido ou modificado." revision="0" />
   <Message key="NoPackets" value="Este esquema não pode ser removido ou modificado." revision="0" />
+  <Message key="BigPacket" value="Tamanho do pacote superior ao MTU padrão (1500). Envio não garantido." revision="0" />
+  <Message key="LimitSize" value="Pacote demasiado grande. Tamanho do ficheiro de entrada superior a {limit} bytes. Utilizar os primeiros {first} bytes." revision="0" />
+  <Message key="NetTermTooltip" value="Pacote:\t\t{number}\nTamanho:\t\t{size} bytes\nAtraso:\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Pretende substituir este esquema?" revision="0" />
+  <Message key="SaveAs" value="Guardar como" revision="0" />
+  <Message key="HexStartError" value="Falha ao iniciar o Hex Editor Neo. Código de erro = {code}" revision="1" />
+  <Message key="HexLocationError" value="Não é possível encontrar o local de instalação do Hex Editor Neo." revision="0" />
+  <Message key="HexVersionError" value="Número de versão desconhecido do Hex Editor." revision="0" />
+  <Message key="EncodingNotSupported" value="Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada." revision="0" />
+  <Message key="NotSupported" value="O seu sistema não possui os componentes necessários para suportar a codificação selecionada. Seleccione outra codificação." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Erro ao localizar o pacote" revision="0" />
+  <Message key="InvalidOffset" value="Deslocação inválida." revision="0" />
+  <Message key="GoToOffset" value="Ir para o Offset" revision="0" />
+  <Message key="InvalidRule" value="Não é possível ativar a regra, a regra é inválida." revision="0" />
+  <Message key="SchemeOverwrite" value="O esquema atual será perdido. Querem continuar?" revision="0" />
+  <Message key="VersionError" value="O ficheiro tem uma versão diferente." revision="0" />
+  <Message key="ItemWillBeRemoved" value="O item atual será removido. Deseja continuar?" revision="0" />
+  <Message key="SampleText" value="Texto de exemplo" revision="0" />
+  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Não foi possível ler o ficheiro." revision="0" />
+  <Message key="PatternColoringRule" value="Regra para colorir padrões {number}" revision="0" />
+  <Message key="CopyWait" value="Aguarde enquanto os dados são copiados para a área de transferência." revision="0" />
+  <Message key="CantCreateFile" value="Não é possível criar um ficheiro" revision="0" />
+  <Message key="StatisticsTip" value="Seleccione o contador para ver a sua descrição." revision="0" />
+  <Message key="Lines" value="Linhas" revision="0" />
+  <Message key="SchemeNameCue" value="Introduzir aqui o nome do regime" revision="0" />
+  <Message key="Device" value="Dispositivo" revision="0" />
+  <Message key="Selection" value="Seleção" revision="0" />
+  <Message key="SelectedPacket" value="Pacote selecionado" revision="0" />
+  <Message key="Output" value="Saída" revision="0" />
+  <Message key="TimeLabel" value="Tempo:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Repor a posição predefinida" revision="0" />
+  <Message key="AddRemoveCounters" value="Adicionar/Remover balcões" revision="0" />
+  <Message key="Sample" value="Amostra" revision="0" />
+  <Message key="ErrorCreate" value="Não foi possível criar o ficheiro." revision="0" />
+  <Message key="Plot" value="Horário" revision="0" />
+  <Message key="PlotStaticLine" value="Linha de seguimento: " revision="0" />
+  <Message key="PlotDynamicLine" value="Linha estática:" revision="0" />
+  <Message key="FindPatternTitle" value="Padrão:" revision="0" />
+  <Message key="OperationPerformed" value="A operação solicitada está a ser executada..." revision="0" />
+  <Message key="CopyrightNotice" value="Gerado por HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Erro de sintaxe de expressão regular: {error}." revision="0" />
+  <Message key="AllFilesFilter" value="Todos os ficheiros|*|" revision="0" />
+  <Message key="Type: " value="Tipo: " revision="0" />
+  <Message key="Fi&amp;nd what: " value="Des&amp;cobrir o que: " revision="0" />
+  <Message key="Regular expression" value="Expressão regular" revision="0" />
+  <Message key="Sub-match:" value="Conformidade:" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
