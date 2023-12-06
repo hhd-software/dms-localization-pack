@@ -87,4 +87,14 @@
 	<Message key="Playback" description="Field group: Playback" />
 	<Message key="Select the location the program will use to playback." description="Field: Select the location the program will use to playback." />
 	<Message key="Recurse sub-directories" description="Checkbox: Recurse sub-directories" value="&amp;Recurse sub-directories" />
+
+	<!-- Log config window -->
+	<Message key="Data Recording Properties" description="Window title: Data Recording Settings" value="Data Recording Settings" revision="1"/>
+	<Message key="No limits enforced" description="Field: No limits enforced"/>
+	<Message key="Enforce size limit:" description="Field: Enforce size limit:"/>
+	<Message key="Enforce time limit:" description="Field: Enforce time limit:"/>
+	<Message key="Single file" description="Field: Single file"/>
+	<Message key="Multiple files. Maximum:" description="Field: Multiple files. Maximum:"/>
+	<Message key="Specify location of log file:" description="Field: Specify location of log file:"/>
+
 </Definition>

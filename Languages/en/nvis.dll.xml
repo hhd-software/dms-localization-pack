@@ -97,5 +97,5 @@
 	</Message>
 
 	<Message key="Select visualizer" description="Custom View configuration page: Visualizer Script" value="Visualizer Script" />
-	
+	<Message key="Select custom visualizer to use" description="Field: Select custom visualizer to use" />
 </Definition>

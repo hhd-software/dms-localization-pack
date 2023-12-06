@@ -771,7 +771,6 @@
 	<Message key="Interlace rows" description="Radio option: Interlace rows" value="Interlace rows"/>
 	<Message key="Smart indentation" description="Check box text: Smart indentation" value="Smart indentation"/>
 	<Message key="Antialiased quality (slower)" description="Check box text: Antialiased quality" value="Antialiased quality (slower)"/>
-	<Message key="Schemes…" description="Button: Schemes" value="Schemes…"/>
 
 	<!-- Layout Schemes -->
 	<Message key="Layout Schemes" description="Title: Layout Schemes" value="Layout Schemes"/>

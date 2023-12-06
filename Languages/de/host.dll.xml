@@ -99,14 +99,6 @@
   <Message key="clr.device_colors.color14" value="Gerät 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Gerät 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Gerät 16" revision="0" />
-  <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="1" />
-  <Message key="No limits enforced" value="Keine Grenzen" revision="0" />
-  <Message key="Enforce size limit:" value="Größenbeschränkung:" revision="0" />
-  <Message key="Enforce time limit:" value="Zeitlimit:" revision="0" />
-  <Message key="Single file" value="Einzelne Datei" revision="0" />
-  <Message key="Multiple files. Maximum:" value="Mehrere Dateien. Maximal:" revision="0" />
-  <Message key="Specify location of log file:" value="Speicherort der Protokolldatei angeben:" revision="0" />
-  <Message key="Unlimited" value="Unbegrenzt" revision="0" />
   <Message key="Collapse session" value="Klicken Sie hier, um die Sitzungsinformationen auszublenden" revision="0" />
   <Message key="Expand session" value="Klicken Sie hier, um die Informationen zur Sitzung zu erweitern" revision="0" />
   <Enumeration key="VisualizerNaming">

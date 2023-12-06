@@ -23,6 +23,13 @@
   <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Select the location the program will use to playback." value="Выберите место, которое программа будет использовать для воспроизведения." revision="0" />
   <Message key="Recurse sub-directories" value="&amp;Искать в подкаталогах" revision="0" />
+  <Message key="Data Recording Properties" value="Настройки записи данных" revision="1" />
+  <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
+  <Message key="Enforce size limit:" value="Ограничение на размер:" revision="0" />
+  <Message key="Enforce time limit:" value="Ограничение по времени:" revision="0" />
+  <Message key="Single file" value="Единый файл" revision="0" />
+  <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
+  <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />

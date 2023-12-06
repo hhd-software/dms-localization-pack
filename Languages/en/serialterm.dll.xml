@@ -102,7 +102,6 @@
 	<Message key="Serial Terminal component has expired!" description="Message: Serial Terminal component has expired!"/>
 
 	<Message key="Session Configuration" description="Window title: Session Configuration"/>
-	<Message key="Scheme:" description="Field: Scheme"/>
 	<Message key="Device:" description="Field: Device"/>
 	<Message key="Connect" description="Button: Connect"/>
 	<Message key="Defaults" description="Button: Defaults"/>

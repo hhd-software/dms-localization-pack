@@ -2,7 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Multisource Device Colors" value="Cores de dispositivos multi-fonte" revision="1" />
   <Message key="Multisource device list:" value="Lista de dispositivos multi-fonte:" revision="1" />
-  <Message key="Data Recording Properties" value="Definições de registo de dados" revision="1" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />

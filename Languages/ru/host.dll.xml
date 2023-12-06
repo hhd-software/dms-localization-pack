@@ -99,14 +99,6 @@
   <Message key="clr.device_colors.color14" value="Устройство 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Устройство 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Устройство 16" revision="0" />
-  <Message key="Data Recording Properties" value="Настройки записи данных" revision="1" />
-  <Message key="No limits enforced" value="Ограничения не устанавливаются" revision="0" />
-  <Message key="Enforce size limit:" value="Ограничение на размер:" revision="0" />
-  <Message key="Enforce time limit:" value="Ограничение по времени:" revision="0" />
-  <Message key="Single file" value="Единый файл" revision="0" />
-  <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
-  <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
-  <Message key="Unlimited" value="Без ограничений" revision="0" />
   <Message key="Collapse session" value="Щелкните, чтобы свернуть информацию о сессии" revision="0" />
   <Message key="Expand session" value="Щелкните, чтобы развернуть информацию о сессии" revision="0" />
   <Enumeration key="VisualizerNaming">

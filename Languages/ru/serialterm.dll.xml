@@ -27,7 +27,6 @@
   <Message key="Save to File" value="Сохранить в файл" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Срок действия последовательного терминала истек!" revision="0" />
   <Message key="Session Configuration" value="Конфигурация сессии" revision="0" />
-  <Message key="Scheme:" value="Схема:" revision="0" />
   <Message key="Device:" value="Устройство:" revision="0" />
   <Message key="Connect" value="Подключить" revision="0" />
   <Message key="Defaults" value="По умолчанию" revision="0" />

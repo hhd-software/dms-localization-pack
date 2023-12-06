@@ -27,7 +27,6 @@
   <Message key="Save to File" value="In Datei speichern" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Die Komponente Serielles Terminal ist abgelaufen!" revision="0" />
   <Message key="Session Configuration" value="Konfiguration der Sitzung" revision="0" />
-  <Message key="Scheme:" value="Schema:" revision="0" />
   <Message key="Device:" value="Gerät:" revision="0" />
   <Message key="Connect" value="Verbinden" revision="0" />
   <Message key="Defaults" value="Standardwerte" revision="0" />

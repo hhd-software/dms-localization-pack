@@ -381,16 +381,6 @@
 	<Message key="clr.device_colors.color15" description="Color: Device 15" value="Device 15"/>
 	<Message key="clr.device_colors.color16" description="Color: Device 16" value="Device 16"/>
 
-	<!-- Log config window -->
-	<Message key="Data Recording Properties" description="Window title: Data Recording Settings" value="Data Recording Settings" revision="1"/>
-	<Message key="No limits enforced" description="Field: No limits enforced"/>
-	<Message key="Enforce size limit:" description="Field: Enforce size limit:"/>
-	<Message key="Enforce time limit:" description="Field: Enforce time limit:"/>
-	<Message key="Single file" description="Field: Single file"/>
-	<Message key="Multiple files. Maximum:" description="Field: Multiple files. Maximum:"/>
-	<Message key="Specify location of log file:" description="Field: Specify location of log file:"/>
-	<Message key="Unlimited" description="Field: Unlimited"/>
-
 	<Enumeration key="SessionState" description="Session states">
 		<Item text="Stopped"/>
 		<Item text="Running"/>
