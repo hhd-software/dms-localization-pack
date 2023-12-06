@@ -61,7 +61,7 @@
 		<Item text="Read Dump"/>
 		<Item text="Field Name"/>
 		<Item text="Field Value"/>
-		<Item text="Error"/>
+		<Item lookup="Error"/>
 	</Enumeration>
 
 	<Enumeration key="RequestViewOptions" description="Request View visualizer options">

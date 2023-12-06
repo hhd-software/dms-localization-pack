@@ -383,8 +383,8 @@
     <Item value="Редактирование" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item value="&amp;Смотреть" revision="0" />
-    <Item value="Просмотр" revision="0" />
+    <Item value="&amp;Вид" revision="0" />
+    <Item value="Вид" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
     <Item value="&amp;Инструменты" revision="0" />

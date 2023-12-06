@@ -574,7 +574,7 @@
 	<Message key="Address" description="Field: Address" value="Address"/> <!--TODO: Studio?-->
 	<Message key="Length" description="Field: Length" value="Length"/> <!--TODO: Studio?-->
 	<Message key="AdapterSelect" description="Message: Adapter Select" value="Select adapter…\nSelect default adapter for sending packets" />
-	<Message key="TemplateAlreadyExists" description="Error: Template already exist" value="Template already exists. Do you want to overwite it?" />
+	<Message key="TemplateAlreadyExists" description="Error: Template already exist" value="Template already exists. Do you want to overwrite it?" />
 	<Message key="ErrorRead" description="Error: Reading file error" value="Error reading from the file. " />
 	<Message key="PacketBuilderTitle" description="Title: Packet builder" value="Packet Builder" />
 	<Message key="TemplateDeleteError" description="Error: Template deletion error" value= "This scheme can not be removed or modified."/>

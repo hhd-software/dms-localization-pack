@@ -30,6 +30,42 @@
   <Message key="Options" value="Opções" revision="0" />
   <Message key="Adapter:" value="Adaptador:" revision="0" />
   <Message key="Ignore packet delay (burst mode)" value="Ignorar o atraso do pacote (modo burst)" revision="0" />
+  <Message key="Loop mode:" value="Modo loop:" revision="0" />
+  <Message key="loops" value="laços" revision="0" />
+  <Message key="Loop delay:" value="Retardamento entre ciclos:" revision="0" />
+  <Message key="milliseconds" value="milissegundos" revision="0" />
+  <Message key="Close this window after sending packets" value="Fechar esta janela depois de enviar os pacotes" revision="0" />
+  <Message key="Packets Statistics" value="Estatísticas de pacotes" revision="0" />
+  <Message key="Total:" value="Total:" revision="0" />
+  <Message key="Sent:" value="Enviado:" revision="0" />
+  <Message key="SentFormat" value="Enviado: {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
+  <Message key="Process" value="Processo" revision="0" />
+  <Message key="Delay" value="Atraso" revision="0" />
+  <Message key="ErrorInput" value="Intervalo inválido. O intervalo de valores é ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Não é possível enviar pacotes. Adaptador de rede não selecionado ou o sistema não tem adaptadores de rede ligados." revision="0" />
+  <Message key="LogStartBurst" value="Início (modo Burst)..." revision="0" />
+  <Message key="LogStart" value="Início..." revision="0" />
+  <Message key="LogStop" value="Parar..." revision="0" />
+  <Message key="PatternColoring" value="Coloração de padrões de dados" revision="0" />
+  <Message key="Pattern" value="Padrão" revision="0" />
+  <Message key="WriteFileError" value="Erro ao escrever no ficheiro. Tenta uma localização diferente." revision="0" />
+  <Message key="Back color:" value="Cor de fundo" revision="0" />
+  <Message key="Text color:" value="Cor do texto:" revision="0" />
+  <Message key="Outline color:" value="Cor do contorno:" revision="0" />
+  <Message key="New Packet" value="Novo pacote" revision="0" />
+  <Message key="Packet Template:" value="Modelo de pacote:" revision="0" />
+  <Message key="Interval:" value="Intervalo:" revision="0" />
+  <Message key="Save Template" value="Guardar modelo" revision="0" />
+  <Message key="NoSelection" value="Sem seleção" revision="0" />
+  <Message key="Number" value="№." revision="0" />
+  <Message key="Address" value="Endereço" revision="0" />
+  <Message key="AdapterSelect" value="Selecionar adaptador…\nSelecionar o adaptador predefinido para o envio de pacotes" revision="0" />
+  <Message key="TemplateAlreadyExists" value="O modelo já existe. Pretende substituí-lo?" revision="0" />
+  <Message key="ErrorRead" value="Erro na leitura do ficheiro." revision="0" />
+  <Message key="PacketBuilderTitle" value="Criador de pacotes" revision="0" />
+  <Message key="TemplateDeleteError" value="Este esquema não pode ser removido ou modificado." revision="0" />
+  <Message key="NoPackets" value="Este esquema não pode ser removido ou modificado." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />

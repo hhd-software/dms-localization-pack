@@ -50,7 +50,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
     <Item />

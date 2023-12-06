@@ -50,7 +50,7 @@
     <Item value="Чтение - дамп" revision="0" />
     <Item value="Имя поля" revision="0" />
     <Item value="Значение поля" revision="0" />
-    <Item value="Ошибка" revision="0" />
+    <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
     <Item value="Отображать пустые запросы на чтение" revision="0" />

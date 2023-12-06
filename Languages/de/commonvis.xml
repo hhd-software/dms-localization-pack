@@ -50,7 +50,7 @@
     <Item value="Lesen: Dump" revision="0" />
     <Item value="Feld Name" revision="0" />
     <Item value="Feld Wert" revision="0" />
-    <Item value="Fehler" revision="0" />
+    <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
     <Item value="Leere Lesung anzeigen" revision="0" />

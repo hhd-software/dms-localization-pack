@@ -11,7 +11,7 @@
 	<Message key="Time" description="Common string: Time" />
 	<Message key="Name" description="Common string: Name" />
 	<Message key="Overwrite" description="Field: Overwrite"/>
-
 	<Message key="Scheme" description="Field: Scheme"/>
-
+	<Message key="Delay" description="Common string: Delay"/>
+	<Message key="Error" description="Field: Error"/>
 </Definition>
