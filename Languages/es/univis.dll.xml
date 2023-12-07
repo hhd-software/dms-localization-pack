@@ -216,76 +216,76 @@
     <Item value="Dibujar curvas" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
-    <Item />
-    <Item />
+    <Item value="Sin relleno" revision="0" />
+    <Item value="Sin relleno" revision="0" />
   </Enumeration>
   <Enumeration key="FillSolid">
-    <Item />
-    <Item />
+    <Item value="Relleno sólido" revision="0" />
+    <Item value="Relleno sólido" revision="0" />
   </Enumeration>
   <Enumeration key="FillGradient">
-    <Item />
-    <Item />
+    <Item value="Relleno degradado" revision="0" />
+    <Item value="Relleno degradado" revision="0" />
   </Enumeration>
   <Enumeration key="DumpVarCommand">
-    <Item />
-    <Item />
+    <Item value="DEBUG: Dump var0" revision="0" />
+    <Item value="DEBUG: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item />
-    <Item />
+    <Item value="Ir a la muestra…" revision="0" />
+    <Item value="Localice la muestra específica en el gráfico" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
-    <Item />
-    <Item />
+    <Item value="Ir a la línea" revision="0" />
+    <Item value="Ir a la línea" revision="0" />
   </Enumeration>
   <Enumeration key="PlotSetOnAxis">
-    <Item />
-    <Item />
+    <Item value="Mostrar en el eje" revision="0" />
+    <Item value="Mostrar en el eje" revision="0" />
   </Enumeration>
   <Enumeration key="PlotProperties">
-    <Item />
-    <Item />
+    <Item value="Editar contador…" revision="0" />
+    <Item value="Editar contador seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="PlotReset">
-    <Item />
-    <Item />
+    <Item value="Restablecer colores por defecto" revision="0" />
+    <Item value="Restablecer colores por defecto" revision="0" />
   </Enumeration>
   <Enumeration key="PlotCopy">
-    <Item />
-    <Item />
+    <Item value="Copiar al portapapeles" revision="0" />
+    <Item value="Copiar al portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="PlotExportToCSV">
-    <Item />
-    <Item />
+    <Item value="Exportar a archivo (CSV)" revision="0" />
+    <Item value="Exportar a archivo (CSV)" revision="0" />
   </Enumeration>
   <Enumeration key="PlotResetColumnWidth">
-    <Item />
-    <Item />
+    <Item value="Restablecer anchos de columna" revision="0" />
+    <Item value="Restablecer anchos de columna" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAdd">
-    <Item />
-    <Item />
+    <Item value="Añadir nuevo paquete…" revision="0" />
+    <Item value="Añadir nuevo paquete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDelete">
-    <Item />
-    <Item />
+    <Item value="Borrar paquete…" revision="0" />
+    <Item value="Borrar paquete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendSelected">
-    <Item />
-    <Item />
+    <Item value="Enviar paquete…" revision="0" />
+    <Item value="Enviar paquete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendAll">
-    <Item />
-    <Item />
+    <Item value="Enviar todos los paquetes…" revision="0" />
+    <Item value="Enviar todos los paquetes" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Guardar plantilla de paquete…" revision="0" />
+    <Item value="Guardar plantilla de paquete" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Cargar plantilla de paquete desde archivo…" revision="0" />
+    <Item value="Cargar plantilla de paquete desde archivo" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
     <Item />
