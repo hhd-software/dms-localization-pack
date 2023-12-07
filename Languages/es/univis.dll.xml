@@ -169,37 +169,51 @@
   <Message key="Flow control:" value="Control de flujo:" revision="0" />
   <Message key="Out DSR Flow:" value="Out Flujo DSR:" revision="0" />
   <Message key="RTS control:" value="Control RTS:" revision="0" />
+  <Message key="DSR sensivity:" value="Sensibilidad DSR:" revision="0" />
+  <Message key="DTR control:" value="Control DTR:" revision="0" />
+  <Message key="Out CTS Flow:" value="Out Flujo CTS:" revision="0" />
+  <Message key="Out XON/XOFF:" value="Out XON/XOFF:" revision="0" />
+  <Message key="In XON/XOFF:" value="En XON/XOFF:" revision="0" />
+  <Message key="Click here" value="Pulse aquí" revision="0" />
+  <Message key="Current" value="Actual" revision="0" />
+  <Message key="PredefinedOverwrite" value="No se pueden modificar los esquemas predefinidos" revision="0" />
+  <Message key="clr.plot_colors" value="Colores de los gráficos" revision="0" />
+  <Message key="clr.plot_colors.ordinalLine" value="Color del ordinal" revision="0" />
+  <Message key="clr.plot_colors.timeLine" value="Color del tiempo" revision="0" />
+  <Message key="clr.plot_colors.selected1" value="Selección 1" revision="0" />
+  <Message key="clr.plot_colors.selected2" value="Selección 2" revision="0" />
+  <Message key="Save Color" value="Guardar color" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Sin coloreado de paquetes" revision="0" />
+    <Item value="Sin coloreado de paquetes" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item />
-    <Item />
+    <Item value="Colorear paquetes &amp;pares/impares" revision="0" />
+    <Item value="Colorear paquetes pares/impares" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
-    <Item />
-    <Item />
+    <Item value="Coloración de &amp;lectura/escritura" revision="0" />
+    <Item value="Coloración de lectura/escritura" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingSwitch">
-    <Item />
-    <Item />
+    <Item value="Colorear paquetes" revision="0" />
+    <Item value="Cambiar el modo de coloreado de paquetes" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item />
-    <Item />
+    <Item value="Borrar todo" revision="0" />
+    <Item value="Borrar todo" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
-    <Item />
-    <Item />
+    <Item value="Ajuste automático" revision="0" />
+    <Item value="Ajuste automático" revision="0" />
   </Enumeration>
   <Enumeration key="ModeLines">
-    <Item />
-    <Item />
+    <Item value="Dibujar líneas" revision="0" />
+    <Item value="Dibujar líneas" revision="0" />
   </Enumeration>
   <Enumeration key="ModeCurves">
-    <Item />
-    <Item />
+    <Item value="Dibujar curvas" revision="0" />
+    <Item value="Dibujar curvas" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
     <Item />
