@@ -113,6 +113,62 @@
   <Message key="Fi&amp;nd what: " value="Des&amp;cobrir o que: " revision="0" />
   <Message key="Regular expression" value="Expressão regular" revision="0" />
   <Message key="Sub-match:" value="Conformidade:" revision="0" />
+  <Message key="Search Up" value="Pesquisar em cima" revision="0" />
+  <Message key="Search Down" value="Pesquisar em baixo" revision="0" />
+  <Message key="Ignore case" value="Ignorar caso" revision="0" />
+  <Message key="&amp;Find" value="&amp;Localizar" revision="0" />
+  <Message key="Find All" value="Localizar tudo" revision="0" />
+  <Message key="Set Columns" value="Definir colunas" revision="0" />
+  <Message key="Enter number of columns per row:" value="Introduzir o número de colunas por linha:" revision="0" />
+  <Message key="Add/Remove Counters" value="Adicionar/Remover balcões" revision="0" />
+  <Message key="Available counters:" value="Balcões disponíveis:" revision="0" />
+  <Message key="Select All" value="Selecionar tudo" revision="0" />
+  <Message key="Counter description:" value="Descrição do contador:" revision="0" />
+  <Message key="Select the counter to view its description." value="Seleccione o contador para ver a sua descrição." revision="0" />
+  <Message key="Layout" value="Esquema" revision="0" />
+  <Message key="Font:" value="Tipo de letra:" revision="0" />
+  <Message key="Size:" value="Tamanho:" revision="0" />
+  <Message key="Visualization elements:" value="Elementos de visualização:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Desenhar a moldura do cursor focado" revision="0" />
+  <Message key="Color:" value="Cor:" revision="0" />
+  <Message key="Automatic" value="Automático" revision="0" />
+  <Message key="Do not interlace background" value="Não entrelaçar o fundo" revision="0" />
+  <Message key="Interlace columns" value="Entrelaçar colunas" revision="0" />
+  <Message key="Interlace rows" value="Entrelaçar linhas" revision="0" />
+  <Message key="Smart indentation" value="Indentação inteligente" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Qualidade antialiada (mais lenta)" revision="0" />
+  <Message key="Layout Schemes" value="Esquemas de apresentação" revision="0" />
+  <Message key="Variable Properties" value="Propriedades das variáveis" revision="0" />
+  <Message key="Variable name:" value="Nome da variável:" revision="0" />
+  <Message key="Units:" value="Unidades:" revision="0" />
+  <Message key="Line width:" value="Largura da linha" revision="0" />
+  <Message key="Scale:" value="Escala:" revision="0" />
+  <Message key="Please Wait..." value="Por favor, aguarde..." revision="0" />
+  <Message key="Find all results" value="Encontrar todos os resultados" revision="0" />
+  <Message key="Display results pane" value="Visualizar o painel de resultados" revision="0" />
+  <Message key="Pattern Editor" value="Editor de padrões" revision="0" />
+  <Message key="Standard rule:" value="Regra standard:" revision="0" />
+  <Message key="Round edges" value="Arestas redondas" revision="0" />
+  <Message key="Information" value="Informações" revision="0" />
+  <Message key="Details" value="Detalhes" revision="0" />
+  <Message key="NotValid" value="Valor não válido." revision="0" />
+  <Message key="SViewTitle" value="Visualizador de estruturas" revision="0" />
+  <Message key="N/A" value="N/D" revision="0" />
+  <Message key="CantUpdate" value="A operação solicitada está a ser executada..." revision="0" />
+  <Message key="PColFilter" value="Ficheiros de esquemas de coloração de padrões|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Padrões recentes…" revision="0" />
+  <Message key="Type:" value="Tipo:" revision="0" />
+  <Message key="Find what:" value="Descobrir o que:" revision="0" />
+  <Message key="Custom colors:" value="Cores personalizadas:" revision="0" />
+  <Message key="Default colors:" value="Cores predefinidas:" revision="0" />
+  <Message key="Alpha" value="Alfa" revision="0" />
+  <Message key="Custom..." value="Personalizado..." revision="0" />
+  <Message key="Baud rate:" value="Velocidade de transmissão:" revision="0" />
+  <Message key="Data bits:" value="Bits de dados:" revision="0" />
+  <Message key="Parity:" value="Paridade:" revision="0" />
+  <Message key="Flow control:" value="Controlo de fluxos:" revision="0" />
+  <Message key="Out DSR Flow:" value="Out DSR Fluxo:" revision="0" />
+  <Message key="RTS control:" value="Controlo RTS:" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />

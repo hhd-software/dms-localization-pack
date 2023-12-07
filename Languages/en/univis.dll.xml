@@ -857,7 +857,7 @@
 	<Message key="Flow control:" description="Label text: Flow control" value="Flow control:"/>
 	<Message key="Out DSR Flow:" description="Label text: output DSR" value="Out DSR Flow:"/>
 	<Message key="RTS control:" description="Label text: RTS control" value="RTS control:"/>
-	<Message key="DSR sensivity:" description="Label text: DSR sensivity" value="DSR sensivity:"/>
+	<Message key="DSR sensivity:" description="Label text: DSR sensitivity" value="DSR sensitivity:"/>
 	<Message key="DTR control:" description="Label text: DTR control" value="DTR control:"/>
 	<Message key="Out CTS Flow:" description="Label text: Output CTS" value="Out CTS Flow:"/>
 	<Message key="Out XON/XOFF:" description="Label text: Output xon/xoff" value="Out XON/XOFF:"/>
