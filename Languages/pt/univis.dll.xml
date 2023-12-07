@@ -296,28 +296,28 @@
     <Item />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Calcular automaticamente campos de soma de verificação para pacotes IP e TCP" revision="0" />
+    <Item value="Calcular automaticamente campos de soma de verificação para pacotes IP e TCP" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Guardar modelo de pacote em ficheiro…" revision="0" />
+    <Item value="Guardar modelo de pacote em ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Valor de cópia" revision="0" />
+    <Item value="Copiar valor para a área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="Copiar &amp;linha" revision="0" />
+    <Item value="Copiar linha" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="E&amp;xpandir sub-árvore" revision="0" />
+    <Item value="Expandir sub-árvore" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="&amp;Comprimir sub-árvore" revision="0" />
+    <Item value="Comprimir a sub-árvore do campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
     <Item />
