@@ -14,4 +14,11 @@
 	<Message key="Scheme" description="Field: Scheme"/>
 	<Message key="Delay" description="Common string: Delay"/>
 	<Message key="Error" description="Field: Error"/>
+	<Message key="CsvFilesFilter" description="CSV files filter" value="Comma-separated Files|*.csv|">
+		<Validate rule="OpenFileDialogFilter" />
+	</Message>
+	<Message key="ImageFilesFilter" description="Image files filter" value="JPEG Files|*.jpg|BMP Files|*.bmp|PNG Files|*.png|TIFF Files|*.tiff|GIF Files|*.gif|">
+		<Validate rule="OpenFileDialogFilter" />
+	</Message>
+
 </Definition>

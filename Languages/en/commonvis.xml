@@ -372,4 +372,30 @@
 	<Message key="Objects Count" description="MODBUS View visualizer: Objects Count" />
 	<Message key="Object Length" description="MODBUS View visualizer: Object Length" />
 
+	<!-- Statistics visualizer -->
+	<Enumeration key="Packets Total" description="Statistics: Packets Total/sec counter (name, units, description)">
+		<Item text="Packets Total/sec"/>
+		<Item text="packets/s"/>
+		<Item text="Packets Total/Sec is the rate packets are transferred to or from the device during write or read operations."/>
+	</Enumeration>
+
+	<Enumeration key="Bytes Total" description="Statistics: Bytes Total/sec counter (name, units, description)">
+		<Item text="Bytes Total/sec"/>
+		<Item text="bytes/s"/>
+		<Item text="Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations."/>
+	</Enumeration>
+
+	<Enumeration key="Bytes Read" description="Statistics: Bytes Read/sec counter (name, units, description)">
+		<Item text="Bytes Read/sec"/>
+		<Item text="bytes/s"/>
+		<Item text="Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations."/>
+	</Enumeration>
+
+	<Enumeration key="Bytes Written" description="Statistics: Bytes Written/sec counter (name, units, description)">
+		<Item text="Byte Written/sec"/>
+		<Item text="bytes/s"/>
+		<Item text="Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations."/>
+	</Enumeration>
+
+	<Message key="PacketNo" description="Statistics: Axis name: Packet No" value="Packet No"/>
 </Definition>

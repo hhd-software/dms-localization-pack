@@ -669,20 +669,28 @@
 		<Item text="Special High-Speed Mode"/>
 		<Item text="Device Monitoring Studio can increase the accuracy and performance of the Statistics visualizer if it is used alone. Start new monitoring session with only Statistics visualizer configured, or close all other data processing modules right now to enter this mode.\nNote that Logging also disables the high-speed mode."/>
 	</Enumeration>
-	<Message key="PlotStaticLine" description="Label text for static line in plot visualizer" value="Tracking Line: "/>
-	<Message key="PlotDynamicLine" description="Label text for dynamic line in plot visualizer" value="Static Line:"/>
+	
+	<Message key="PlotStaticLine" description="Label text for static line in Statistics Visualizer" value="Static Line: " revision="2">
+		<Validate rule="EndsWithSpace"/>
+	</Message>
 
+	<Message key="PlotDynamicLine" description="Label text for tracking line in Statistics Visualizer" value="Tracking Line: " revision="2">
+		<Validate rule="EndsWithSpace"/>
+	</Message>
+	
+	<Enumeration key="PlotVariables" description="Fields in Variables window">
+		<Item text="Sample"/>
+		<Item text="Packet"/>
+		<Item text="Time"/>
+	</Enumeration>
 
-	<Enumeration key="PlotColumns" description="Columns in plot visualizer">
+	<Enumeration key="PlotColumns" description="Statistics Visualizer list columns">
 		<Item lookup="Name"/>
 		<Item text="Max"/>
 		<Item text="Average"/>
 		<Item text="Last"/>
 		<Item text="Total"/>
 		<Item text="Scale"/>
-
-		<!--<Item text="Min"/>
-		<Item text="Dispersion"/>-->
 	</Enumeration>
 
 	<Enumeration key="SelectionColumns" description="Columns in selection info list">
@@ -783,11 +791,11 @@
 	<Message key="Variable name:" description="Field: Variable name" value="Variable name:"/>
 	<Message key="Units:" description="Field: Units" value="Units:"/>
 	<!--<Message key="Color:" description="" value=""/>-->
-	<Message key="Line width:" description="Field: Line width" value="Line width"/>
+	<Message key="Line width:" description="Field: Line width" value="Line width:" revision="1"/>
 	<Message key="Scale:" description="Field: Scale" value="Scale:"/>
 
 	<!-- Progress -->
-	<Message key="Please Wait..." description="Title: Please Wait..." value="Please Wait..."/>
+	<Message key="Please Wait..." description="Title: Please Wait..." value="Please Wait…"/>
 
 	<!-- Find All Results -->
 	<!--<Message key="Find All" description="Title: Find All" value="Find All"/>-->
@@ -872,11 +880,12 @@
 	<Message key="toolbar.PacketBuilder" description="Toolbar: Packet Builder" value="Packet Builder"/>
 
 	<!-- Plot Color scheme -->
-	<Message key="clr.plot_colors" description="Color: Plot Visualizer Colors" value="Plot Colors"/>
-	<Message key="clr.plot_colors.ordinalLine" description="Color: Ordinal line color" value="Ordinal color" />
-	<Message key="clr.plot_colors.timeLine" description="Color: Time line color" value="Time color" />
-	<Message key="clr.plot_colors.selected1" description="Color: TODO" value="Selection 1" /> 
-	<Message key="clr.plot_colors.selected2" description="Color: TODO" value="Selection 2" />
+	<Message key="clr.plot_colors" description="Color: Statistics Visualizer Colors" value="Statistics Colors" revision="1"/>
+	<Message key="clr.plot_colors.grid" description="Color: Statistics Visualizer Grid" value="Grid" revision="1"/>
+	<Message key="clr.plot_colors.ordinalLine" description="Color: Statistics Visualizer packet ordinal" value="Packet Ordinal" revision="1"/>
+	<Message key="clr.plot_colors.timeLine" description="Color: Statistics Visualizer time" value="Time" revision="1"/>
+	<Message key="clr.plot_colors.selectedLine" description="Color: Statistics Visualizer static selection line" value="Static line" revision="1"/> 
+	<Message key="clr.plot_colors.trackingLine" description="Color: Statistics Visualizer tracking line" value="Tracking line" revision="1"/>
 
 	<!-- Save Scheme dialog -->
 	<Message key="Save Color" description="Window title: Save Color"/>

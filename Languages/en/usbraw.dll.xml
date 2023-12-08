@@ -456,8 +456,6 @@
 		<Item text="PnP: Query Interface"/>
 	</Enumeration>
 
-	<Message key="PacketNo" description="Plot Visualizer: value time mark text"       value="Packet No:"/>
-
 	<Enumeration key="UsbPageList" description="USB usage page list">
 		<Item text="Generic Desktop"/>
 		<Item text="Simulation Controls"/>
@@ -480,38 +478,76 @@
 		<Item text="Battery"/>
 	</Enumeration>
 
-	<Message key="PacketsTotalSecDesc" description="Packets Total counter description" value="Packets Total/Sec is the rate packets are transferred to or from the device during write or read operations."/>
-	<Message key="CounterBytesTransferTotalDesc"  description="Bytes Total counter description" value="Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations."/>
-	<Message key="CounterBytesReadDesc"  description="Bytes Read counter description" value="Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations."/>
-	<Message key="CounterBytesWrittenDesc"  description="Bytes Written counter description" value="Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations."/>
-	<Message key="IDS_STRING1434"  description="Packets Written counter description" value="Packets Written/Sec is the rate at which packets are transferred to the device during write operations."/>
-	<Message key="IDS_STRING1435"  description="Packets Read counter description" value="Packets Read/Sec is the rate at which packets are transferred from the device during read operations."/>
-	<Message key="CounterControlTotalDesc"  description="Control Bytes Total counter description" value="Control: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via control pipe."/>
-	<Message key="CounterControlReadDesc"  description="Control Bytes Read counter description" value="Control: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via control pipe."/>
-	<Message key="CounterControlWrittenDesc"  description="Control Bytes Written counter description" value="Control: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via control pipe."/>
-	<Message key="CounterBulkTotalDesc"  description="Bulk Bytes Total counter description" value="Bulk: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via bulk pipes."/>
-	<Message key="CounterBulkWrittenDesc"  description="Bulk Bytes Written counter description" value="Bulk: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via bulk pipes."/>
-	<Message key="CounterBulkReadDesc"  description="Bulk Bytes Read counter description" value="Bulk: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via bulk pipes."/>
-	<Message key="CounterInterruptTotalDesc"  description="Interrupt Bytes Total counter description" value="Interrupt: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via interrupt pipes."/>
-	<Message key="CounterInterruptWrittenDesc"  description="Interrupt Bytes Written counter description" value="Interrupt: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via interrupt pipes."/>
-	<Message key="CounterInterruptReadDesc"  description="Interrupt Bytes Read counter description" value="Interrupt: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via interrupt pipes."/>
-	<Message key="CounterIsochronousTotalDesc"  description="Isochronous Bytes Total counter description" value="Isochronous: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via isochronous pipes."/>
-	<Message key="CounterIsochronousWrittenDesc"  description="Isochronous Bytes Written counter description" value="Isochronous: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via isochronous pipes."/>
-	<Message key="CounterIsochronousReadDesc"  description="Isochronous Bytes Read counter description" value="Isochronous: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via isochronous pipes."/>
-	<Message key="CounterPacketsWritten" description="Plot counter name: Packets Written" value="Packets Written/Sec"/>
-	<Message key="CounterPacketsRead" description="Plot counter name: Packets Read/Sec"  value ="Packets Read/Sec"/>
-	<Message key="CounterControlTotal" description="Plot counter name: Control Bytes Total" value="Control: Bytes Total/Sec"/>
-	<Message key="CounterControlRead" description="Plot counter name: Control Bytes Read" value="Control: Bytes Read/Sec"/>
-	<Message key="CounterControlWritten" description="Plot counter name: Control Bytes Written" value="Control: Bytes Written/Sec"/>
-	<Message key="CounterBulkTotal"          description="Plot counter name: Bulk Bytes Total" value="Bulk: Bytes Total/Sec"/>
-	<Message key="CounterBulkWritten" description="Plot counter name: Bulk Bytes Written" value="Bulk: Bytes Written/Sec"/>
-	<Message key="CounterBulkRead"          description="Plot counter name: Bulk Bytes Read" value="Bulk: Bytes Read/Sec"/>
-	<Message key="CounterInterruptTotal" description="Plot counter name: Interrupt Bytes Total" value="Interrupt: Bytes Total/Sec"/>
-	<Message key="CounterInterruptWritten" description="Plot counter name: Interrupt Bytes Written" value="Interrupt: Bytes Written/Sec"/>
-	<Message key="CounterInterruptRead" description="Plot counter name: Interrupt Bytes Read" value="Interrupt: Bytes Read/Sec"/>
-	<Message key="CounterIsochronousTotal" description="Plot counter name: Isochronous Bytes Total" value="Isochronous: Bytes Total/Sec"/>
-	<Message key="CounterIsochronousWritten"   description="Plot counter name: Isochronous Bytes Written"  value="Isochronous: Bytes Written/Sec"/>
-	<Message key="CounterIsochronousRead"  description="Plot counter name: Isochronous Bytes Read" value="Isochronous: Bytes Read/Sec"/>
+	<Enumeration key="CounterControlTotal" description="Control Bytes Total counter (name, units, description)">
+		<Item text="Control: Bytes Total/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Control: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via control pipe."/>
+	</Enumeration>
+	<Enumeration key="CounterControlRead" description="Control Bytes Read counter (name, units, description)">
+		<Item text="Control: Bytes Read/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Control: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via control pipe."/>
+	</Enumeration>
+	<Enumeration key="CounterControlWritten" description="Control Bytes Written counter (name, units, description)">
+		<Item text="Control: Bytes Written/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Control: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via control pipe."/>
+	</Enumeration>
+	<Enumeration key="CounterPacketsWritten" description="Plot counter name: Packets Written (name, units, description)">
+		<Item text="Packets Written/Sec"/>
+		<Item text="pckts/sec"/>
+		<Item text="Packets Written/Sec is the rate at which packets are transferred to the device during write operations."/>
+	</Enumeration>
+	<Enumeration key="CounterPacketsRead" description="Plot counter name: Packets Read/Sec (name, units, description)">
+		<Item text="Packets Read/Sec"/>
+		<Item text="pckts/sec"/>
+		<Item text="Packets Read/Sec is the rate at which packets are transferred from the device during read operations."/>
+	</Enumeration>
+	<Enumeration key="CounterBulkTotal" description="Plot counter name: Bulk Bytes Total (name, units, description)">
+		<Item text="Bulk: Bytes Total/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text ="Bulk: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via bulk pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterBulkWritten" description="Plot counter name: Bulk Bytes Written (name, units, description)">
+		<Item text="Bulk: Bytes Written/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text ="Bulk: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via bulk pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterBulkRead" description="Plot counter name: Bulk Bytes Read (name, units, description)">
+		<Item text="Bulk: Bytes Read/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Bulk: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via bulk pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterInterruptTotal" description="Plot counter name: Interrupt Bytes Total (name, units, description)">
+		<Item text="Interrupt: Bytes Total/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Interrupt: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via interrupt pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterInterruptWritten" description="Plot counter name: Interrupt Bytes Written (name, units, description)">
+		<Item text="Interrupt: Bytes Written/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Interrupt: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via interrupt pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterInterruptRead" description="Plot counter name: Interrupt Bytes Read (name, units, description)">
+		<Item text="Interrupt: Bytes Read/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text ="Interrupt: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via interrupt pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterIsochronousTotal" description="Plot counter name: Isochronous Bytes Total (name, units, description)">
+		<Item text="Isochronous: Bytes Total/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Isochronous: Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations via isochronous pipes."/>"
+	</Enumeration>
+	<Enumeration key="CounterIsochronousWritten" description="Plot counter name: Isochronous Bytes Written (name, units, description)">
+		<Item text="Isochronous: Bytes Written/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Isochronous: Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations via isochronous pipes."/>
+	</Enumeration>
+	<Enumeration key="CounterIsochronousRead" description="Plot counter name: Isochronous Bytes Read (name, units, description)">
+		<Item text="Isochronous: Bytes Read/Sec"/>
+		<Item text="bytes/sec"/>
+		<Item text="Isochronous: Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations via isochronous pipes."/>
+	</Enumeration>
 
 	<Message key="PipeHandleFmt" description="Field group: Setup packet" value="Endpoint: {addr}, {type}, {dir}">
 		<Param name="addr" format="b016x"/>

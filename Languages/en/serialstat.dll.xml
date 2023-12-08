@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-	<Message key="Ordinal" description="Axis: Ordinal"/>
-
-	<Enumeration key="Packets Total" description="Packets Total/sec counter (name, units, description)">
-		<Item text="Packets Total/sec"/>
-		<Item text="pckts/sec"/>
-		<Item text="Packets Total/Sec is the rate packets are transferred to or from the device during write or read operations."/>
-	</Enumeration>
-
-	<Enumeration key="Bytes Total" description="Bytes Total/sec counter (name, units, description)">
-		<Item text="Bytes Total/sec"/>
-		<Item text="bytes/sec"/>
-		<Item text="Bytes Total/Sec is the rate bytes are transferred to or from the device during write or read operations."/>
-	</Enumeration>
-
-	<Enumeration key="Bytes Read" description="Bytes Read/sec counter (name, units, description)">
-		<Item text="Bytes Read/sec"/>
-		<Item text="bytes/sec"/>
-		<Item text="Bytes Read/Sec is the rate at which bytes are transferred from the device during read operations."/>
-	</Enumeration>
-
-	<Enumeration key="Bytes Written" description="Bytes Written/sec counter (name, units, description)">
-		<Item text="Byte Written/sec"/>
-		<Item text="bytes/sec"/>
-		<Item text="Bytes Written/Sec is the rate at which bytes are transferred to the device during write operations."/>
-	</Enumeration>
 
 	<Enumeration key="IO Packets" description="IO Packets/sec counter (name, units, description)">
 		<Item text="IO Packets/sec"/>
 		<Item text="pckts/sec"/>
 		<Item text="IO Packets/Sec is the rate IO packets are transferred to or from the device during write or read operations."/>
 	</Enumeration>
+
 </Definition>

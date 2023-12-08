@@ -246,9 +246,6 @@
 	<Message key="BinaryFilesFilter" description="Binary files filter" value="Binary Files|*.bin|">
 		<Validate rule="OpenFileDialogFilter"/>
 	</Message>
-	<Message key="CsvFilesFilter" description="CSV files filter" value="Comma Separated File (*.csv) |*.csv|">
-		<Validate rule="OpenFileDialogFilter" />
-	</Message>
 
 	<Message key="File is too big! (1024 bytes maximum)" description="Files is too big" value="File is too big! (1,024 bytes maximum)"/>
 	<Message key="Wrong file format!" description="Wrong file format!" value="Wrong file format! Only .txt and .bin files are supported."/>
