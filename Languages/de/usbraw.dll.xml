@@ -93,39 +93,6 @@
   <Message key="HID Descriptor" value="HID Deskriptor\n" revision="0" />
   <Message key="HIDPhysicalDescriptorWarning" value="HID Physikalischer Deskriptor (bitte HID-Visualizer verwenden) " revision="0" />
   <Message key="Reserved Item" value="Reservierter Posten" revision="0" />
-  <Message key="PacketNo" value="Paket Nr:" revision="0" />
-  <Message key="PacketsTotalSecDesc" value="Pakete gesamt/Sek ist die Rate, mit der Pakete während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterBytesTransferTotalDesc" value="Bytes gesamt/Sek ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterBytesReadDesc" value="Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterBytesWrittenDesc" value="Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
-  <Message key="IDS_STRING1434" value="Pakete geschrieben/Sek ist die Rate, mit der Pakete bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
-  <Message key="IDS_STRING1435" value="Pakete gelesen/Sek ist die Rate, mit der Pakete bei Lesevorgängen vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterControlTotalDesc" value="Kontrolle: Bytes gesamt/Sek. ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen über die Steuerleitung zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterControlReadDesc" value="Kontrolle: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über die Steuerleitung vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterControlWrittenDesc" value="Kontrolle: Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über die Steuerleitung an das Gerät übertragen werden." revision="0" />
-  <Message key="CounterBulkTotalDesc" value="Bulk: Bytes gesamt/Sek ist die Rate, mit der Bytes bei Schreib- oder Lesevorgängen über Bulk-Pipes zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterBulkWrittenDesc" value="Bulk: Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über Bulk-Pipes an das Gerät übertragen werden." revision="0" />
-  <Message key="CounterBulkReadDesc" value="Bulk: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über Bulk-Pipes vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterInterruptTotalDesc" value="Unterbrechung: Bytes gesamt/Sek. ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen über Interruptleitungen zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterInterruptWrittenDesc" value="Unterbrechung: Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über Interruptleitungen an das Gerät übertragen werden." revision="0" />
-  <Message key="CounterInterruptReadDesc" value="Unterbrechung: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über Interruptleitungen vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterIsochronousTotalDesc" value="Isochronous: Bytes gesamt/Sek ist die Rate, mit der Bytes bei Schreib- oder Lesevorgängen über isochrone Pipes zum oder vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterIsochronousWrittenDesc" value="Isochronous: Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über isochrone Pipes an das Gerät übertragen werden." revision="0" />
-  <Message key="CounterIsochronousReadDesc" value="Isochronous: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über isochrone Pipes vom Gerät übertragen werden." revision="0" />
-  <Message key="CounterPacketsWritten" value="Geschriebene Pakete/Sek" revision="0" />
-  <Message key="CounterPacketsRead" value="Gelesene Pakete/Sek" revision="0" />
-  <Message key="CounterControlTotal" value="Kontrolle: Bytes Gesamt/Sek" revision="0" />
-  <Message key="CounterControlRead" value="Kontrolle: Gelesene Bytes/Sek" revision="0" />
-  <Message key="CounterControlWritten" value="Kontrolle: Geschriebene Bytes/Sek" revision="0" />
-  <Message key="CounterBulkTotal" value="Bulk: Bytes Gesamt/Sek" revision="0" />
-  <Message key="CounterBulkWritten" value="Bulk: Geschriebene Bytes/Sek" revision="0" />
-  <Message key="CounterBulkRead" value="Bulk: Gelesene Bytes/Sek" revision="0" />
-  <Message key="CounterInterruptTotal" value="Unterbrechung: Bytes Gesamt/Sek" revision="0" />
-  <Message key="CounterInterruptWritten" value="Unterbrechung: Geschriebene Bytes/Sek" revision="0" />
-  <Message key="CounterInterruptRead" value="Unterbrechung: Gelesene Bytes/Sek" revision="0" />
-  <Message key="CounterIsochronousTotal" value="Isochronous: Bytes Gesamt/Sek" revision="0" />
-  <Message key="CounterIsochronousWritten" value="Isochronous: Geschriebene Bytes/Sek" revision="0" />
-  <Message key="CounterIsochronousRead" value="Isochronous: Gelesene Bytes/Sek" revision="0" />
   <Message key="PipeHandleFmt" value="Endpunkt: {addr}, {type}, {dir}" revision="0" />
   <Message key="STRINGCONTROL" value="Kontrolle" revision="0" />
   <Message key="STRINGISOCHRONOUS" value="Isochonous" revision="0" />
@@ -276,6 +243,76 @@
     <Item value="Physikalische Geräte" revision="0" />
     <Item value="Leistungsgeräte" revision="0" />
     <Item value="Batterie" revision="0" />
+  </Enumeration>
+  <Enumeration key="CounterControlTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterControlRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterControlWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterPacketsWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterPacketsRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousRead">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Leere Pakete anzeigen" revision="0" />

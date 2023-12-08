@@ -102,8 +102,8 @@
   <Message key="Sample" value="Muestra" revision="0" />
   <Message key="ErrorCreate" value="No se ha podido crear el archivo." revision="0" />
   <Message key="Plot" value="Horario" revision="0" />
-  <Message key="PlotStaticLine" value="Línea de seguimiento: " revision="0" />
-  <Message key="PlotDynamicLine" value="Línea estática:" revision="0" />
+  <Message key="PlotStaticLine" value="Línea de seguimiento: " revision="2" />
+  <Message key="PlotDynamicLine" value="Línea estática:" revision="2" />
   <Message key="FindPatternTitle" value="Patrón:" revision="0" />
   <Message key="OperationPerformed" value="Se está realizando la operación solicitada..." revision="0" />
   <Message key="CopyrightNotice" value="Generado por HHD Software Device Monitoring Studio" revision="0" />
@@ -141,7 +141,7 @@
   <Message key="Variable Properties" value="Propiedades de las variables" revision="0" />
   <Message key="Variable name:" value="Nombre de la variable:" revision="0" />
   <Message key="Units:" value="Unidades:" revision="0" />
-  <Message key="Line width:" value="Anchura de línea" revision="0" />
+  <Message key="Line width:" value="Anchura de línea" revision="1" />
   <Message key="Scale:" value="Escala:" revision="0" />
   <Message key="Please Wait..." value="Por favor, espere..." revision="0" />
   <Message key="Find all results" value="Buscar todos los resultados" revision="0" />
@@ -177,11 +177,10 @@
   <Message key="Click here" value="Pulse aquí" revision="0" />
   <Message key="Current" value="Actual" revision="0" />
   <Message key="PredefinedOverwrite" value="No se pueden modificar los esquemas predefinidos" revision="0" />
-  <Message key="clr.plot_colors" value="Colores de los gráficos" revision="0" />
-  <Message key="clr.plot_colors.ordinalLine" value="Color del ordinal" revision="0" />
-  <Message key="clr.plot_colors.timeLine" value="Color del tiempo" revision="0" />
-  <Message key="clr.plot_colors.selected1" value="Selección 1" revision="0" />
-  <Message key="clr.plot_colors.selected2" value="Selección 2" revision="0" />
+  <Message key="clr.plot_colors" value="Colores de los gráficos" revision="1" />
+  <Message key="clr.plot_colors.grid" value="Cuadrícula" revision="1" />
+  <Message key="clr.plot_colors.ordinalLine" value="Color del ordinal" revision="1" />
+  <Message key="clr.plot_colors.timeLine" value="Color del tiempo" revision="1" />
   <Message key="Save Color" value="Guardar color" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Sin coloreado de paquetes" revision="0" />
@@ -320,47 +319,47 @@
     <Item value="Contraer el subárbol del campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="Paquete &amp;siguiente" revision="0" />
+    <Item value="Saltar al siguiente paquete" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Paquete &amp;precedente" revision="0" />
+    <Item value="Saltar al paquete precedente" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Saltar al paquete especificado" revision="0" />
+    <Item value="Saltar al paquete especificado" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="Detalles del paquete &amp;seleccionado" revision="0" />
+    <Item value="Mostrar los detalles del paquete" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="Fijar &amp;filtro…" revision="0" />
+    <Item value="Configurar el filtro del visualizador" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="Establecer protocolo &amp;raíz…" revision="0" />
+    <Item value="Especifique el protocolo raíz para este visualizador" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Expandir todo" revision="0" />
+    <Item value="Expandir todo" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Colapsar todo" revision="0" />
+    <Item value="Colapsar todo" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Seleccione Ninguno" revision="0" />
+    <Item value="Soltar toda la selección en la ventana enfocada" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="Seleccione &amp;Invertir" revision="0" />
+    <Item value="Seleccione Invertir" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
+    <Item value="" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="EditSelectAll">
@@ -574,6 +573,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlotVariables">
+    <Item />
     <Item />
     <Item />
   </Enumeration>

@@ -88,7 +88,6 @@
   <Message key="Can't load from file!" value="Ошибка при загрузке из файла!" revision="0" />
   <Message key="TextFilesFilter" value="Текстовые файлы|*.txt|" revision="0" />
   <Message key="BinaryFilesFilter" value="Бинарные файлы|*.bin|" revision="0" />
-  <Message key="CsvFilesFilter" value="Файл с разделителями-запятыми (*.csv) |*.csv|" revision="0" />
   <Message key="File is too big! (1024 bytes maximum)" value="Файл слишком большой! (не более 1024 байт)" revision="0" />
   <Message key="Wrong file format!" value="Неправильный формат файла! Поддерживаются только файлы .txt и .bin." revision="0" />
   <Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" value="Размер данных превышает допустимый размер PDU MODBUS (не более 253 байт)!" revision="0" />

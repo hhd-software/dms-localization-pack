@@ -117,4 +117,24 @@
     <Item value="Hinzufügen von Basis-Offsets für Register, diskrete Eingänge usw." revision="0" />
     <Item value="Ausblenden von Daten aus missgebildeten Paketen" revision="0" />
   </Enumeration>
+  <Enumeration key="Packets Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Read">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Written">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

@@ -93,39 +93,6 @@
   <Message key="HID Descriptor" value="Дескриптор HID\n" revision="0" />
   <Message key="HIDPhysicalDescriptorWarning" value="Физический HID дескриптор (используйте HID-визуализатор)" revision="0" />
   <Message key="Reserved Item" value="Резервный элемент" revision="0" />
-  <Message key="PacketNo" value="Пакет №:" revision="0" />
-  <Message key="PacketsTotalSecDesc" value="Всего пакетов/сек - скорость передачи пакетов в устройство или из него во время операций записи или чтения." revision="0" />
-  <Message key="CounterBytesTransferTotalDesc" value="Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения." revision="0" />
-  <Message key="CounterBytesReadDesc" value="Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения." revision="0" />
-  <Message key="CounterBytesWrittenDesc" value="Запись байт/сек - скорость передачи байтов в устройство при операциях записи." revision="0" />
-  <Message key="IDS_STRING1434" value="Запись пакетов/сек - скорость передачи пакетов в устройство при операциях записи." revision="0" />
-  <Message key="IDS_STRING1435" value="Чтение пакетов/сек - скорость передачи пакетов из устройства при операциях чтения." revision="0" />
-  <Message key="CounterControlTotalDesc" value="Control: Всего байт/сек - скорость передачи байтов в устройство или из него при операциях записи или чтения по управляющему каналу." revision="0" />
-  <Message key="CounterControlReadDesc" value="Control: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по управляющему каналу." revision="0" />
-  <Message key="CounterControlWrittenDesc" value="Control: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по управляющему каналу." revision="0" />
-  <Message key="CounterBulkTotalDesc" value="Bulk: Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения по массовым каналам." revision="0" />
-  <Message key="CounterBulkWrittenDesc" value="Bulk: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по массовым каналам." revision="0" />
-  <Message key="CounterBulkReadDesc" value="Bulk: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по массовым каналам." revision="0" />
-  <Message key="CounterInterruptTotalDesc" value="Прерывание: Всего байт/сек - скорость передачи байтов в устройство или из него во время операций записи или чтения по каналам прерываний." revision="0" />
-  <Message key="CounterInterruptWrittenDesc" value="Прерывание: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по каналам прерываний." revision="0" />
-  <Message key="CounterInterruptReadDesc" value="Прерывание: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по каналам прерываний." revision="0" />
-  <Message key="CounterIsochronousTotalDesc" value="Isochronous: Всего байт/сек - скорость передачи байтов на устройство или с устройства во время операций записи или чтения по изохронным каналам." revision="0" />
-  <Message key="CounterIsochronousWrittenDesc" value="Isochronous: Запись байт/сек - скорость передачи байтов в устройство при операциях записи по изохронным каналам." revision="0" />
-  <Message key="CounterIsochronousReadDesc" value="Isochronous: Чтение байт/сек - скорость передачи байтов из устройства при операциях чтения по изохронным каналам." revision="0" />
-  <Message key="CounterPacketsWritten" value="Запись пакетов/сек" revision="0" />
-  <Message key="CounterPacketsRead" value="Чтение пакетов/сек" revision="0" />
-  <Message key="CounterControlTotal" value="Control: Всего байт/сек" revision="0" />
-  <Message key="CounterControlRead" value="Control: Чтение байт/сек" revision="0" />
-  <Message key="CounterControlWritten" value="Control: Запись байтов/сек" revision="0" />
-  <Message key="CounterBulkTotal" value="Bulk: Всего байт/сек" revision="0" />
-  <Message key="CounterBulkWritten" value="Bulk: Запись байт/сек" revision="0" />
-  <Message key="CounterBulkRead" value="Bulk: Чтение байт/сек" revision="0" />
-  <Message key="CounterInterruptTotal" value="Прерывание: Всего байт/сек" revision="0" />
-  <Message key="CounterInterruptWritten" value="Прерывание: Запись байт/сек" revision="0" />
-  <Message key="CounterInterruptRead" value="Прерывание: Чтение байт/сек " revision="0" />
-  <Message key="CounterIsochronousTotal" value="Isochronous: Всего байт/сек" revision="0" />
-  <Message key="CounterIsochronousWritten" value="Isochronous: Запись байт/сек" revision="0" />
-  <Message key="CounterIsochronousRead" value="Isochronous: Чтение байт/сек" revision="0" />
   <Message key="PipeHandleFmt" value="Энд поинт: {addr}, {type}, {dir}" revision="0" />
   <Message key="STRINGCONTROL" value="Контрол" revision="0" />
   <Message key="STRINGISOCHRONOUS" value="Isochonous" revision="0" />
@@ -276,6 +243,76 @@
     <Item value="Физические устройства" revision="0" />
     <Item value="Силовые устройства" revision="0" />
     <Item value="Батарея" revision="0" />
+  </Enumeration>
+  <Enumeration key="CounterControlTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterControlRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterControlWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterPacketsWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterPacketsRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterBulkRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterInterruptRead">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousTotal">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousWritten">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CounterIsochronousRead">
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Отображать пустые пакеты" revision="0" />

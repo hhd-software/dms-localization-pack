@@ -1,26 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="Ordinal" value="Ordinale" revision="0" />
-  <Enumeration key="Packets Total">
-    <Item value="Pakete gesamt/sec" revision="0" />
-    <Item value="pckts/sec" revision="0" />
-    <Item value="Pakete gesamt/sec ist die Rate, mit der Pakete während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
-  </Enumeration>
-  <Enumeration key="Bytes Total">
-    <Item value="Bytes gesamt/sec" revision="0" />
-    <Item value="bytes/sec" revision="0" />
-    <Item value="Bytes gesamt/sec ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
-  </Enumeration>
-  <Enumeration key="Bytes Read">
-    <Item value="Bytes gelesen/sec" revision="0" />
-    <Item value="bytes/sec" revision="0" />
-    <Item value="Bytes gelesen/sec ist die Rate, mit der Bytes bei Lesevorgängen vom Gerät übertragen werden." revision="0" />
-  </Enumeration>
-  <Enumeration key="Bytes Written">
-    <Item value="Byte geschrieben/sec" revision="0" />
-    <Item value="bytes/sec" revision="0" />
-    <Item value="Bytes geschrieben/sec ist die Rate, mit der Bytes bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
-  </Enumeration>
   <Enumeration key="IO Packets">
     <Item value="IO Pakete/sec" revision="0" />
     <Item value="pckts/sec" revision="0" />
