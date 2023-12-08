@@ -169,109 +169,123 @@
   <Message key="Flow control:" value="Controlo de fluxos:" revision="0" />
   <Message key="Out DSR Flow:" value="Out DSR Fluxo:" revision="0" />
   <Message key="RTS control:" value="Controlo RTS:" revision="0" />
+  <Message key="DSR sensivity:" value="Sensibilidade DSR:" revision="0" />
+  <Message key="DTR control:" value="Controlo DTR: " revision="0" />
+  <Message key="Out CTS Flow:" value="Out CTS Fluxo:" revision="0" />
+  <Message key="Out XON/XOFF:" value="Out XON/XOFF:" revision="0" />
+  <Message key="In XON/XOFF:" value="Em XON/XOFF:" revision="0" />
+  <Message key="Click here" value="Clique aqui" revision="0" />
+  <Message key="Current" value="Atual" revision="0" />
+  <Message key="PredefinedOverwrite" value="Não é possível modificar esquemas predefinidos" revision="0" />
+  <Message key="clr.plot_colors" value="Cores do gráfico" revision="0" />
+  <Message key="clr.plot_colors.ordinalLine" value="Cor do ordinal" revision="0" />
+  <Message key="clr.plot_colors.timeLine" value="Cor do tempo" revision="0" />
+  <Message key="clr.plot_colors.selected1" value="Seleção 1" revision="0" />
+  <Message key="clr.plot_colors.selected2" value="Seleção 2" revision="0" />
+  <Message key="Save Color" value="Guardar cor" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Sem coloração de pacotes" revision="0" />
+    <Item value="Sem coloração de pacotes" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item />
-    <Item />
+    <Item value="Colorir pacotes de &amp;pares/ímpares" revision="0" />
+    <Item value="Colorir pacotes de pares/ímpares" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
-    <Item />
-    <Item />
+    <Item value="Coloração de &amp;leitura/escrita" revision="0" />
+    <Item value="Coloração de leitura/escrita" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingSwitch">
-    <Item />
-    <Item />
+    <Item value="Coloração de pacotes" revision="0" />
+    <Item value="Mudar o modo de coloração de pacotes" revision="0" />
   </Enumeration>
   <Enumeration key="OutputClear">
-    <Item />
-    <Item />
+    <Item value="Eliminar tudo" revision="0" />
+    <Item value="Eliminar tudo" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
-    <Item />
-    <Item />
+    <Item value="Ajuste automático" revision="0" />
+    <Item value="Ajuste automático" revision="0" />
   </Enumeration>
   <Enumeration key="ModeLines">
-    <Item />
-    <Item />
+    <Item value="Desenhar linhas" revision="0" />
+    <Item value="Desenhar linhas" revision="0" />
   </Enumeration>
   <Enumeration key="ModeCurves">
-    <Item />
-    <Item />
+    <Item value="Desenhar curvas" revision="0" />
+    <Item value="Desenhar curvas" revision="0" />
   </Enumeration>
   <Enumeration key="FillNo">
-    <Item />
-    <Item />
+    <Item value="Sem enchimento" revision="0" />
+    <Item value="Sem enchimento" revision="0" />
   </Enumeration>
   <Enumeration key="FillSolid">
-    <Item />
-    <Item />
+    <Item value="Preenchimento sólido" revision="0" />
+    <Item value="Preenchimento sólido" revision="0" />
   </Enumeration>
   <Enumeration key="FillGradient">
-    <Item />
-    <Item />
+    <Item value="Preenchimento de gradiente" revision="0" />
+    <Item value="Preenchimento de gradiente" revision="0" />
   </Enumeration>
   <Enumeration key="DumpVarCommand">
-    <Item />
-    <Item />
+    <Item value="DEBUG: Dump var0" revision="0" />
+    <Item value="DEBUG: Dump var0" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToTick">
-    <Item />
-    <Item />
+    <Item value="Ir para Amostra…" revision="0" />
+    <Item value="Localizar a amostra específica no gráfico" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoToLine">
-    <Item />
-    <Item />
+    <Item value="Ir para a linha" revision="0" />
+    <Item value="Ir para a linha" revision="0" />
   </Enumeration>
   <Enumeration key="PlotSetOnAxis">
-    <Item />
-    <Item />
+    <Item value="Mostrar no Eixo" revision="0" />
+    <Item value="Mostrar no Eixo" revision="0" />
   </Enumeration>
   <Enumeration key="PlotProperties">
-    <Item />
-    <Item />
+    <Item value="Editar contador…" revision="0" />
+    <Item value="Editar contador selecionado" revision="0" />
   </Enumeration>
   <Enumeration key="PlotReset">
-    <Item />
-    <Item />
+    <Item value="Repor as cores por defeito" revision="0" />
+    <Item value="Repor as cores por defeito" revision="0" />
   </Enumeration>
   <Enumeration key="PlotCopy">
-    <Item />
-    <Item />
+    <Item value="Copiar para a área de transferência" revision="0" />
+    <Item value="Copiar para a área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="PlotExportToCSV">
-    <Item />
-    <Item />
+    <Item value="Exportar para ficheiro (CSV)" revision="0" />
+    <Item value="Exportar para ficheiro (CSV)" revision="0" />
   </Enumeration>
   <Enumeration key="PlotResetColumnWidth">
-    <Item />
-    <Item />
+    <Item value="Redefinir larguras de coluna" revision="0" />
+    <Item value="Redefinir larguras de coluna" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAdd">
-    <Item />
-    <Item />
+    <Item value="Adicionar novo pacote…" revision="0" />
+    <Item value="Adicionar novo pacote" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDelete">
-    <Item />
-    <Item />
+    <Item value="Apagar pacote…" revision="0" />
+    <Item value="Apagar pacote" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendSelected">
-    <Item />
-    <Item />
+    <Item value="Enviar pacote…" revision="0" />
+    <Item value="Enviar pacote" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSendAll">
-    <Item />
-    <Item />
+    <Item value="Enviar todos os pacotes…" revision="0" />
+    <Item value="Enviar todos os pacotes" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Guardar modelo de pacote…" revision="0" />
+    <Item value="Guardar modelo de pacote" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Carregar modelo de pacote do ficheiro…" revision="0" />
+    <Item value="Carregar modelo de pacote do ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
     <Item />
@@ -282,28 +296,28 @@
     <Item />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Calcular automaticamente campos de soma de verificação para pacotes IP e TCP" revision="0" />
+    <Item value="Calcular automaticamente campos de soma de verificação para pacotes IP e TCP" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Guardar modelo de pacote em ficheiro…" revision="0" />
+    <Item value="Guardar modelo de pacote em ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Valor de cópia" revision="0" />
+    <Item value="Copiar valor para a área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="Copiar &amp;linha" revision="0" />
+    <Item value="Copiar linha" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="E&amp;xpandir sub-árvore" revision="0" />
+    <Item value="Expandir sub-árvore" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="&amp;Comprimir sub-árvore" revision="0" />
+    <Item value="Comprimir a sub-árvore do campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
     <Item />
