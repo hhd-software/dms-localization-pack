@@ -371,7 +371,7 @@
     <Item value="Auswahl invertieren" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item value="&amp;Packet auswählen" revision="0" />
+    <Item value="Packet &amp;auswählen" revision="0" />
     <Item value="Daten des aktuellen Pakets auswählen" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
@@ -427,7 +427,7 @@
     <Item value="4 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item value="8 Spalten" revision="0" />
+    <Item value="&amp;8 Spalten" revision="0" />
     <Item value="8 Spalten" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">

@@ -78,7 +78,6 @@
   <Message key="NotSupported" value="O seu sistema não possui os componentes necessários para suportar a codificação selecionada. Seleccione outra codificação." revision="0" />
   <Message key="ErrorLocatingPacket" value="Erro ao localizar o pacote" revision="0" />
   <Message key="InvalidOffset" value="Deslocação inválida." revision="0" />
-  <Message key="GoToOffset" value="Ir para o Offset" revision="0" />
   <Message key="InvalidRule" value="Não é possível ativar a regra, a regra é inválida." revision="0" />
   <Message key="SchemeOverwrite" value="O esquema atual será perdido. Querem continuar?" revision="0" />
   <Message key="VersionError" value="O ficheiro tem uma versão diferente." revision="0" />
@@ -359,164 +358,164 @@
     <Item value="Selecionar Inverter" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item value="" revision="0" />
-    <Item />
+    <Item value="&amp;Selecionar pacote" revision="0" />
+    <Item value="Selecionar dados do pacote atual" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Selecionar tudo" revision="0" />
+    <Item value="Selecionar todos os conteúdos do visualizador" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Hexadecimal mode" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Decimal" revision="0" />
+    <Item value="Modo decimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Octal" revision="0" />
+    <Item value="Modo octal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binário" revision="0" />
+    <Item value="Modo binário" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="F&amp;loat" revision="0" />
+    <Item value="Modo de vírgula flutuante de precisão simples" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="D&amp;ouble" revision="0" />
+    <Item value="Modo de vírgula flutuante de precisão dupla" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Bytes" revision="0" />
+    <Item value="Agrupar como bytes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Palavras" revision="0" />
+    <Item value="Agrupar como palavras" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Palavras duplas" revision="0" />
+    <Item value="Agrupar como palavras duplas" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Palavras quadrangulares" revision="0" />
+    <Item value="Agrupar como palavras quádruplas" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Automóvel" revision="0" />
+    <Item value="Calcular automaticamente o número de colunas" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 colunas" revision="0" />
+    <Item value="4 colunas" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;8 columnas" revision="0" />
+    <Item value="8 colunas" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 columnas" revision="0" />
+    <Item value="16 columnas" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 columnas" revision="0" />
+    <Item value="32 columnas" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Personalizado…" revision="0" />
+    <Item value="Especificar o número de colunas" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
-    <Item />
-    <Item />
+    <Item value="Painel de &amp;texto" revision="0" />
+    <Item value="Mostrar ou ocultar um painel de texto (ASCII ou UNICODE)" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
-    <Item />
-    <Item />
+    <Item value="Painel de &amp;código" revision="0" />
+    <Item value="Mostrar ou ocultar um painel de código" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item />
-    <Item />
+    <Item value="" revision="0" />
+    <Item value="Ver o endereço como hexadecimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
     <Item />
-    <Item />
+    <Item value="Ver o endereço como decimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
     <Item />
-    <Item />
+    <Item value="Ver o endereço como octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item />
-    <Item />
+    <Item value="&amp;Definir padrões…" revision="0" />
+    <Item value="Criar novos padrões ou gerir padrões existentes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item />
-    <Item />
+    <Item value="&amp;Codificação" revision="0" />
+    <Item value="Codificação" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Pontos finais" revision="0" />
+    <Item value="Pontos finais" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item />
-    <Item />
+    <Item value="Adicionar nova regra…" revision="0" />
+    <Item value="Definir nova regra de coloração" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item />
-    <Item />
+    <Item value="Guardar este esquema…" revision="0" />
+    <Item value="Guardar este esquema" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item />
-    <Item />
+    <Item value="Carregar este esquema…" revision="0" />
+    <Item value="Carregar este esquema" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
-    <Item />
+    <Item value="Limpar este esquema de coloração" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
-    <Item />
-    <Item />
+    <Item value="Selecionar tudo" revision="0" />
+    <Item value="Selecionar tudo" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item />
-    <Item />
+    <Item value="Retirar todas" revision="0" />
+    <Item value="Desativar todas as regras" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
-    <Item />
-    <Item />
+    <Item value="Editar regra…" revision="0" />
+    <Item value="Editar propriedades da regra" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDelete">
-    <Item />
-    <Item />
+    <Item value="Eliminar" revision="0" />
+    <Item value="Eliminar" revision="0" />
   </Enumeration>
   <Enumeration key="PatternHighlightingEnabled">
-    <Item />
-    <Item />
+    <Item value="Realce de padrões" revision="0" />
+    <Item value="Ativar ou desativar todas as regras de realce de padrões" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataSelection">
-    <Item />
-    <Item />
+    <Item value="&amp;Mostrar seleção" revision="0" />
+    <Item value="Mostrar seleção" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataInsertMode">
-    <Item />
-    <Item />
+    <Item value="Modo de &amp;inserção" revision="0" />
+    <Item value="Inserir dados" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Big-Endian" revision="0" />
+    <Item value="Ordem dos bytes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Little-Endian" revision="0" />
+    <Item value="Codificação little-endian" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
-    <Item />
-    <Item />
+    <Item value="&amp;Ir para Deslocação" revision="0" />
+    <Item value="Salta para o desvio especificado" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
     <Item />
