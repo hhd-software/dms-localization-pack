@@ -1,33 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Device sends" value="{device} Envia" revision="0" />
+  <Message key="Unable to retrieve data" value="Não é possível recuperar dados" revision="0" />
+  <Message key="Complete" value="Completa" revision="0" />
+  <Message key="Packet No:" value="Nº do pacote:" revision="0" />
+  <Message key="bytes/sec" value="bytes/seg" revision="0" />
   <Enumeration key="BridgeColumns">
+    <Item value="" revision="1" />
     <Item />
+    <Item value="" revision="1" />
+    <Item value="Diferença de tempo" revision="1" />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Tipos de dados" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositivo A Bytes lidos/seg." revision="0" />
+    <Item value="Dispositivo A Bytes lidos/seg. é a taxa a que os dados são enviados pelo dispositivo A." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositivo B Bytes lidos/seg." revision="0" />
+    <Item value="Dispositivo B Bytes lidos/seg. é a taxa a que os dados são enviados pelo dispositivo B." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ler: Cabeçalho" revision="0" />
+    <Item value="Ler: Texto" revision="0" />
+    <Item value="Ler: Dados binários" revision="0" />
+    <Item value="Escrever: Cabeçalho" revision="0" />
+    <Item value="Escrever: Texto" revision="0" />
+    <Item value="Escrever: Dados binários" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabeçalho do dispositivo A" revision="0" />
+    <Item value="Dispositivo A Dados binários" revision="0" />
+    <Item value="Cabeçalho do dispositivo B" revision="0" />
+    <Item value="Dispositivo B Dados binários" revision="0" />
   </Enumeration>
 </Language>
