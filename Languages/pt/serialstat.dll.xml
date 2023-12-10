@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="IO Packets">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacotes IO/seg." revision="0" />
+    <Item value="pckts/seg" revision="0" />
+    <Item value="Pacotes IO/Seg é a taxa a que os pacotes IO são transferidos de ou para o dispositivo durante as operações de escrita ou leitura." revision="0" />
   </Enumeration>
 </Language>

@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="multilink_seq_num_short" value="Campo Número de secuencia (protocolo multienlace) en formato corto (12 bits). De lo contrario - analizar como en forma larga (24 bits)." revision="0" />
+  <Message key="truncate_if_too_big" value="Truncar la lista de registros (elementos) si es demasiado larga" revision="0" />
+  <Message key="use_2_bytes_for_fcs" value="El campo FCS de la trama PPP tiene una longitud de 2 bytes (de lo contrario - 4)" revision="0" />
+  <Message key="address_field" value="Dirección (cualquier valor superior a 255 para desactivar la comprobación de direcciones)" revision="0" />
+  <Message key="back_search" value="Número de paquetes a escanear (para concatenación de paquetes)" revision="0" />
+  <Message key="PPP View" value="Vista de PPP" revision="0" />
   <Enumeration key="PPPConverter">
     <Item />
-    <Item />
+    <Item value="El visualizador Vista de PPP analiza y muestra los paquetes PPP (peticiones, respuestas, opciones, etc.)." revision="0" />
   </Enumeration>
 </Language>
