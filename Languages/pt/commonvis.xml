@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PacketNo" value="Nº do pacote" revision="0" />
   <Enumeration key="CellConverter">
     <Item />
     <Item />

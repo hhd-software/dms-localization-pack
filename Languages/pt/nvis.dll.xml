@@ -1,29 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PacketBindException" value="Exceção {exception} em {file}({line}) {message}" revision="0" />
+  <Message key="BindError" value="Erro ao inicializar o visualizador personalizado &quot;{visname}&quot;: {message}{has location?} em {line}:{col}{?has location}" revision="0" />
+  <Message key="OpenError" value="Erro ao carregar o ficheiro de definição do visualizador personalizado: {exception} ({code})." revision="0" />
+  <Message key="NoSchemesDefined" value="O visualizador personalizado não define quaisquer esquemas" revision="0" />
+  <Message key="Empty" value="&lt;Vazio&gt;" revision="0" />
+  <Message key="BadStructureFile" value="Erro ao obter o anfitrião de ligação." revision="0" />
+  <Message key="CantCreateVisualizer" value="Erro ao criar o visualizador." revision="0" />
+  <Message key="CustomVisualizerName" value="Personalizado ({name})" revision="0" />
+  <Message key="TextFileFilter" value="Ficheiros de texto|*.txt|Ficheiros HTML|*.html|" revision="1" />
+  <Message key="Data Conversion" value="Conversão de dados" revision="0" />
+  <Message key="Find Operation" value="Encontrar texto" revision="0" />
+  <Message key="ExportHeader" value="Exportação de dados" revision="0" />
+  <Message key="CopyHeader" value="Cópia de dados" revision="0" />
+  <Message key="Visualizer template name expected" value="Nome do modelo do visualizador esperado" revision="0" />
+  <Message key="SelectOptionsScheme" value="Carregar o esquema de opções: &quot;{scheme}&quot;" revision="0" />
+  <Message key="SelectColorsScheme" value="Carregar o esquema de coloração: &quot;{scheme}&quot;" revision="0" />
   <Message key="Select visualizer" value="Script visualizador" revision="0" />
+  <Message key="Select custom visualizer to use" value="Selecionar o visualizador personalizado a utilizar" revision="0" />
   <Enumeration key="CustomConverter">
-    <Item />
-    <Item />
+    <Item value="Vista personalizada" revision="0" />
+    <Item value="O Visualizador de vistas personalizadas permite que a saída de texto seja totalmente configurada." revision="0" />
   </Enumeration>
   <Enumeration key="ExportError">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Erro ao criar ficheiro de destino: {error_text} ({error_code})" revision="0" />
+    <Item value="Erro ao escrever dados: {error_text} ({error_code})" revision="0" />
+    <Item value="Erro ao inicializar o Área de transferência: {error_text} ({error_code})" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopyAs">
-    <Item />
-    <Item />
+    <Item value="Copiar como" revision="0" />
+    <Item value="Copiar texto com formatação especial" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopyHtml">
-    <Item />
-    <Item />
+    <Item value="Html" revision="0" />
+    <Item value="Copiar texto como html" revision="0" />
   </Enumeration>
   <Enumeration key="Options">
-    <Item />
-    <Item />
+    <Item value="&amp;Opções" revision="0" />
+    <Item value="Apresentar e alterar as opções do visualizador" revision="0" />
   </Enumeration>
   <Enumeration key="Colors">
-    <Item />
-    <Item />
+    <Item value="&amp;Cores" revision="0" />
+    <Item value="Alterar esquemas de cores do visualizador" revision="0" />
   </Enumeration>
 </Language>

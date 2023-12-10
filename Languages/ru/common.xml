@@ -10,4 +10,6 @@
   <Message key="Scheme" value="Схема" revision="0" />
   <Message key="Delay" value="Задержка" revision="0" />
   <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="CsvFilesFilter" value="Файлы с разделителями-запятыми|*.csv|" revision="0" />
+  <Message key="ImageFilesFilter" value="JPEG файлы|*.jpg|BMP файлы|*.bmp|PNG файлы|*.png|TIFF файлы|*.tiff|GIF файлы|*.gif|" revision="0" />
 </Language>

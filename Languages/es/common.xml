@@ -10,4 +10,6 @@
   <Message key="Scheme" value="Esquema" revision="0" />
   <Message key="Delay" value="Retraso" revision="0" />
   <Message key="Error" value="Error" revision="0" />
+  <Message key="CsvFilesFilter" value="Archivos separados por comas|*.csv|" revision="0" />
+  <Message key="ImageFilesFilter" value="Archivos JPEG|*.jpg|Archivos BMP|*.bmp|Archivos PNG|*.png|Archivos TIFF|*.tiff|Archivos Files|*.gif|" revision="0" />
 </Language>

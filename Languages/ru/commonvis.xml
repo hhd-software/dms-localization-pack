@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PacketNo" value="Пакет №" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Сырые данные" revision="0" />
     <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Он обеспечивает гибкую настройку визуального оформления и компоновки, поддерживает фильтрацию по протоколам и смену корневого протокола." revision="0" />
