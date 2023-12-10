@@ -574,7 +574,7 @@
     <Item value="Должно быть шестнадцатеричное значение" revision="0" />
     <Item value="Должно быть десятичное значение" revision="0" />
     <Item value="Должно быть восьмеричное значение" revision="0" />
-    <Item value="Должна быть действительное значение" revision="0" />
+    <Item value="Должно быть действительное число" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
     <Item value="Диапазон: {from} – {to} (Размер: {size})" revision="0" />
@@ -589,9 +589,9 @@
     <Item value="Device Monitoring Studio может повысить точность и производительность визуализатора Статистика, если он используется отдельно. Начните новый сеанс мониторинга, настроив только визуализатор Статистика, или закройте все остальные модули обработки данных прямо сейчас, чтобы перейти в этот режим.\n Примечание: запись лога также отключает высокоскоростной режим." revision="0" />
   </Enumeration>
   <Enumeration key="PlotVariables">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Сэмпл" revision="0" />
+    <Item value="Пакет" revision="0" />
+    <Item lookup="Time" />
   </Enumeration>
   <Enumeration key="PlotColumns">
     <Item lookup="Name" />
@@ -628,10 +628,10 @@
     <Item value="Подсветка фона активной колонки/строки" revision="1" />
     <Item value="Текст нечетного пакета" revision="1" />
     <Item value="Фон нечетного пакета" revision="1" />
-    <Item value="Обводка нечетного пакета" revision="1" />
+    <Item value="Контур нечетного пакета" revision="1" />
     <Item value="Текст четного пакета" revision="1" />
     <Item value="Фон четного пакета" revision="1" />
-    <Item value="Обводка четного пакета" revision="1" />
+    <Item value="Контур четного пакета" revision="1" />
     <Item value="Выделение" revision="1" />
     <Item value="Редактируемый текст" revision="1" />
   </Enumeration>

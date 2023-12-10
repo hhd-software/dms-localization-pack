@@ -589,9 +589,9 @@
     <Item value="Device Monitoring Studio kann die Genauigkeit und Leistung des Statistik-Visualisierers erhöhen, wenn es allein verwendet wird. Starten Sie eine neue Überwachungssitzung, in der nur der Statistik-Visualisierer konfiguriert ist, oder schließen Sie alle anderen Datenverarbeitungsmodule, um in diesen Modus zu gelangen.\nBeachten Sie, dass die Protokollierung auch den Hochgeschwindigkeitsmodus deaktiviert." revision="0" />
   </Enumeration>
   <Enumeration key="PlotVariables">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Muster" revision="0" />
+    <Item value="Paket" revision="0" />
+    <Item lookup="Time" />
   </Enumeration>
   <Enumeration key="PlotColumns">
     <Item lookup="Name" />

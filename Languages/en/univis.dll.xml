@@ -681,7 +681,7 @@
 	<Enumeration key="PlotVariables" description="Fields in Variables window">
 		<Item text="Sample"/>
 		<Item text="Packet"/>
-		<Item text="Time"/>
+		<Item lookup="Time"/>
 	</Enumeration>
 
 	<Enumeration key="PlotColumns" description="Statistics Visualizer list columns">

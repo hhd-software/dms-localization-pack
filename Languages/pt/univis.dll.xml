@@ -518,7 +518,7 @@
     <Item value="Salta para o desvio especificado" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
-    <Item />
+    <Item value="" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ToolsPrevPacket">
@@ -526,59 +526,59 @@
     <Item />
   </Enumeration>
   <Enumeration key="ToolsSynchronize">
-    <Item />
-    <Item />
+    <Item value="&amp;Sincronizar" revision="0" />
+    <Item value="Mostrar o pacote mais próximo na janela de leitura/escrita" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindPrev">
-    <Item />
-    <Item />
+    <Item value="Encontrar Anterior" revision="0" />
+    <Item value="Encontrar Anterior" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataLayoutSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Coloração…" revision="0" />
+    <Item value="Mostrar definições de coloração para o visualizador Vista de dados brutos" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHexEditorExport">
-    <Item />
-    <Item />
+    <Item value="Processo com o Hex Editor Neo" revision="0" />
+    <Item value="Ver, analisar e editar fragmentos seleccionados com o Hex Editor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
-    <Item />
-    <Item />
+    <Item value="Exibir &amp;como" revision="0" />
+    <Item value="Exibir como" revision="0" />
   </Enumeration>
   <Enumeration key="MenuGroupBy">
-    <Item />
-    <Item />
+    <Item value="Agrupar por" revision="0" />
+    <Item value="Agrupar por" revision="0" />
   </Enumeration>
   <Enumeration key="MenuColumns">
-    <Item />
-    <Item />
+    <Item value="&amp;Colunas" revision="0" />
+    <Item value="Colunas" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndians">
-    <Item />
-    <Item />
+    <Item value="Ordem dos &amp;bytes" revision="0" />
+    <Item value="Ordem dos bytes" revision="0" />
   </Enumeration>
   <Enumeration key="IncorrectInputText">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Deve ser um valor hexadecimal" revision="0" />
+    <Item value="Deve ser um valor decimal" revision="0" />
+    <Item value="Deve ser um valor octal" revision="0" />
+    <Item value="Deve ser um número real" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item />
+    <Item value="Alcance: {from} – {to} (Tamanho: {size})" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
-    <Item />
-    <Item />
+    <Item value="Linha estática colocada" revision="0" />
+    <Item value="Clique novamente enquanto mantém premida a tecla Ctrl para colocar uma linha de seguimento" revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
-    <Item />
-    <Item />
+    <Item value="Modo especial de alta velocidade" revision="0" />
+    <Item value="O Device Monitoring Studio pode aumentar a precisão e o desempenho do visualizador de estatísticas se for usado sozinho. Inicie uma nova sessão de monitorização apenas com o visualizador de estatísticas configurado, ou feche todos os outros módulos de processamento de dados neste momento para entrar neste modo.\nObserve que o registro em log também desativa o modo de alta velocidade." revision="0" />
   </Enumeration>
   <Enumeration key="PlotVariables">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Amostra" revision="0" />
+    <Item value="Pacote" revision="0" />
+    <Item lookup="Time" />
   </Enumeration>
   <Enumeration key="PlotColumns">
     <Item lookup="Name" />
@@ -589,43 +589,43 @@
     <Item value="Escala" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Tamanho total" revision="0" />
+    <Item value="Fragmentos" revision="0" />
+    <Item value="Sem seleção" revision="0" />
+    <Item value="bytes" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionDetailsColumns">
-    <Item />
-    <Item />
+    <Item value="№" revision="0" />
+    <Item value="Endereço" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ColorItems">
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabeçalho e endereço" revision="1" />
+    <Item value="Contexto do endereço" revision="1" />
+    <Item value="Texto ASCII/UNICODE" revision="1" />
+    <Item value="Fundo ASCII/UNICODE" revision="1" />
+    <Item value="Coluna/linha par (para modos entrelaçados)" revision="1" />
+    <Item value="Coluna/linha ímpar (para modos entrelaçados)" revision="1" />
+    <Item value="Texto &quot;Sem dados&quot;" revision="1" />
+    <Item value="Preencher o cursor" revision="1" />
+    <Item value="Traço do cursor" revision="1" />
+    <Item value="Texto de realce de linha e coluna ativo" revision="1" />
+    <Item value="Fundo de realce da linha e coluna activas" revision="1" />
+    <Item value="Texto do pacote ímpares" revision="1" />
+    <Item value="Fundo do pacote ímpar" revision="1" />
+    <Item value="Contorno de pacotes com número ímpar" revision="1" />
+    <Item value="Texto do pacote com número par" revision="1" />
+    <Item value="Fundo do pacote par" revision="1" />
+    <Item value="Contorno de um pacote par" revision="1" />
+    <Item value="Seleção" revision="1" />
+    <Item value="Texto editável" revision="1" />
   </Enumeration>
   <Enumeration key="FRTypeList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cadeia de texto" revision="0" />
+    <Item value="UNICODE String" revision="0" />
+    <Item value="v" revision="0" />
   </Enumeration>
   <Enumeration key="FRGroupList">
     <Item />
