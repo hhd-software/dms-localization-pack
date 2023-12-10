@@ -18,7 +18,7 @@
   </Enumeration>
 
   <Message key="EmergencyErrorType" description="Diagnostic: USB emergency session termination" value="USB emergency session termination"/>
-  <Message key="USB.Advertise.Text" description="USB Advertise Text" value="We also offer USB Monitoring Control ActiveX library wich allows you to integrate monitoring functionality into your own application."/>
+  <Message key="USB.Advertise.Text" description="USB Advertise Text" value="We also offer USB Monitoring Control ActiveX library which allows you to integrate monitoring functionality into your own application."/>
   <Message key="Not specified" description="String descriptor does not exist"/>
   <Message key="Unable to retrieve" description="Unable to retrieve string descriptor" value="String descriptor {id} (unable to read)">
     <Param name="id"/>

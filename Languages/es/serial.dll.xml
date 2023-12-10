@@ -1,5 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Siguiente dispositivo conectado (serie)" revision="0" />
+  <Message key="DriverConnectError" value="Error al conectar con el driver del filtro: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="No se puede conectar al dispositivo seleccionado." revision="0" />
+  <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uPropiedades del puerto serie]]]]]]]]]\n\n" revision="0" />
+  <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} bytes{|has value}ninguno{?has value}\n" revision="0" />
+  <Message key="MaxRxQueue" value="[[[bMax. RX Queue]]]\t{has value?}{value} bytes{|has value}ninguno{?has value}\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bMax. Velocidad en baudios]]]\tconfigurable\n" revision="0" />
+  <Message key="MaxBaudRate" value="[[[bMax. Velocidad en baudios]]]\t{values}\n" revision="0" />
+  <Message key="Provider" value="[[[bProveedor]]]\t{provider}\n" revision="0" />
+  <Message key="Capabilities" value="[[[bCapacidades]]]\t{values}\n" revision="0" />
+  <Message key="SettableParameters" value="[[[bParámetros configurables]]]\t{values}\n" revision="0" />
+  <Message key="SettableBaud" value="[[[bVelocidades en baudios]]]\t{values}\n" revision="0" />
+  <Message key="DataBits" value="[[[bBits de datos]]]\t{values}\n" revision="0" />
+  <Message key="StopBits" value="[[[bBits de parada]]]\t{values}\n" revision="0" />
+  <Message key="Parity" value="[[[bParidad]]]\t{values}\n" revision="0" />
+  <Message key="Current Tx Queue" value="[[[bTx Queue actual]]]\t{has value?}{value} bytes{|has value}no disponible{?has value}\n" revision="0" />
+  <Message key="Current Rx Queue" value="[[[bRx Queue actual]]]\t{has value?}{value} bytes{|has value}no disponible{?has value}\n" revision="0" />
+  <Message key="Communication mode" value="Modo de comunicación: {mode}{discard?}, descartar lecturas vacías{?discard}{terminal?}, con escucha{?terminal}" revision="0" />
+  <Message key="Serial Terminal" value="Terminal serie" revision="0" />
+  <Message key="Custom Joiner" value="Tipo de sesión personalizada" revision="0" />
+  <Message key="Invalid mode" value="Modo no válido" revision="0" />
+  <Message key="SerialSessionState" value="{is terminal?}Sesión de terminal activa: {?is terminal}{baudrate}, bits de datos: {databits}, bits de parada: {stopbits}, paridad: {parity}" revision="0" />
+  <Message key="EmergencyErrorType" value="Finalización de la sesión de emergencia en serie" revision="0" />
+  <Message key="CustomEmpty" value="El script de tipo de sesión personalizado está vacío. Pulse el botón Establecer para introducir el script de tipo de sesión personalizado." revision="0" />
+  <Message key="CustomJoinerError" value="Error del modo personalizado" revision="0" />
+  <Message key="Error opening file" value="Error al abrir un archivo de script personalizado &quot;{path}&quot;: {error text} ({error code}). La sesión utilizará el modo de comunicación genérico." revision="0" />
+  <Message key="Error initializing chakra" value="Error de inicialización del sistema de scripting. Su sistema no admite esta función." revision="0" />
+  <Message key="JoinerSessionTermination" value="El divisor de paquetes devuelve el siguiente error: {error}" revision="0" />
+  <Message key="EmptyScript" value="El componente de script no está instalado o se utiliza un archivo de script vacío." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Faltan parámetros de configuración del tipo de sesión personalizada" revision="0" />
+  <Message key="Custom script modified" value="Se ha modificado el script personalizado. ¿Está seguro de que desea descartar los cambios?" revision="0" />
+  <Message key="Session Type" value="Tipo de sesión" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Seleccione el tipo de sesión de monitorización serie:" revision="0" />
+  <Message key="Discard empty read packets" value="Descartar paquetes de lectura vacíos" revision="0" />
+  <Message key="Set" value="&amp;Editar…" revision="0" />
+  <Message key="View" value="Ver" revision="0" />
+  <Message key="Listen on monitored port" value="Escuchar datos entrantes (abrirá el dispositivo serie)" revision="0" />
+  <Message key="Baud rate:" value="Velocidades en baudios:" revision="0" />
+  <Message key="Data bits:" value="Bits de datos:" revision="0" />
+  <Message key="Parity:" value="Paridad:" revision="0" />
+  <Message key="Stop bits:" value="Bits de parada:" revision="0" />
+  <Message key="Flow control:" value="Control de flujo:" revision="0" />
+  <Message key="Read interval:" value="Intervalo de lectura:" revision="0" />
+  <Message key="Write constant:" value="Constante de registro:" revision="0" />
+  <Message key="Write multiplier:" value="Multiplicador de escritura:" revision="0" />
+  <Message key="Terminal window:" value="Ventana de terminal:" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Editor de scripts de tipo de sesión personalizada" revision="0" />
+  <Message key="Load from File" value="&amp;Cargar desde archivo…" revision="0" />
+  <Message key="Save to File" value="&amp;Guardar en archivo…" revision="0" />
+  <Message key="Serial.Advertise.Text" value="También ofrecemos la librería Serial Port Monitoring Control ActiveX que le permite integrar la funcionalidad de monitorización en su propia aplicación." revision="0" />
+  <Message key="No terminal" value="No terminal" revision="0" />
+  <Message key="Set Custom Flow Control" value="Establecer control de flujo personalizado" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -20,19 +72,19 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="configurable" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
+    <Item value="sin especificar" revision="0" />
+    <Item />
+    <Item value="Puerto paralelo" revision="0" />
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Módem" revision="0" />
+    <Item value="Fax" revision="0" />
+    <Item value="Escáner" revision="0" />
+    <Item value="Puente de red" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -41,13 +93,13 @@
     <Item />
     <Item />
     <Item />
+    <Item value="Comprobación de paridad" revision="0" />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="XON/XOFF configurable" revision="0" />
+    <Item value="Total de tiempos límite" revision="0" />
+    <Item value="Intervalos de tiempo" revision="0" />
+    <Item value="Caracteres especiales " revision="0" />
+    <Item value="Modo de 16 bits" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
     <Item />
@@ -64,7 +116,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Especial Amplio" revision="0" />
   </Enumeration>
   <Enumeration key="StopBitsEnum">
     <Item />
@@ -72,61 +124,61 @@
     <Item />
   </Enumeration>
   <Enumeration key="ParityEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ninguno" revision="0" />
+    <Item value="Impar" revision="0" />
+    <Item value="Par" revision="0" />
+    <Item value="Marca" revision="0" />
+    <Item value="Espacio" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item />
-    <Item />
+    <Item value="Monitor serie" revision="0" />
+    <Item value="La fuente de datos serie permite supervisar los datos intercambiados entre los dispositivos serie y las aplicaciones que los utilizan." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="genérico" revision="2" />
+    <Item value="PPP" revision="2" />
+    <Item value="Línea (el paquete termina con una nueva línea)" revision="2" />
+    <Item value="Modo MODBUS RTU" revision="2" />
+    <Item value="Modo MODBUS ASCII" revision="2" />
+    <Item value="Personalizado" revision="2" />
   </Enumeration>
   <Enumeration key="Communication modes. Full description">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Genérico" revision="0" />
+    <Item value="PPP (Protocolo punto a punto)" revision="0" />
+    <Item value="Un paquete por línea (separado por 0D - comandos AT, NMEA, etc.)" revision="0" />
+    <Item value="Modo MODBUS RTU" revision="0" />
+    <Item value="Modo MODBUS ASCII" revision="0" />
+    <Item value="Personalizado" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Error de tipo: Argumento no válido" revision="0" />
+    <Item value="Error de tipo: Argumento nulo" revision="0" />
+    <Item value="Error de tipo: Argumento no objeto" revision="0" />
+    <Item value="Sin memoria" revision="0" />
+    <Item value="Error de script" revision="0" />
+    <Item value="Error de sintaxis" revision="0" />
+    <Item value="Error fatal" revision="0" />
+    <Item value="Excepción" revision="0" />
+    <Item value="Código inesperado" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
+    <Item value="Archivos TypeScript" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Archivos JavaScript" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="flow-control">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ninguno" revision="0" />
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item />
-    <Item />
+    <Item value="Oculto" revision="0" />
+    <Item value="Visible" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
-    <Item />
-    <Item />
+    <Item value="Conectar el dispositivo serie" revision="0" />
+    <Item value="La aplicación está esperando a que conectes un dispositivo serie compatible con PnP a tu ordenador." revision="0" />
   </Enumeration>
 </Language>

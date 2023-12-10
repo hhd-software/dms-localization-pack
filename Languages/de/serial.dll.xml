@@ -106,7 +106,7 @@
     <Item value="Parität" revision="0" />
     <Item value="Baud" revision="0" />
     <Item value="Datenbits" revision="0" />
-    <Item value="oppbits" revision="0" />
+    <Item value="Stoppbits" revision="0" />
     <Item value="Durchflussregelung" revision="0" />
     <Item value="Paritätsprüfung" revision="0" />
     <Item />

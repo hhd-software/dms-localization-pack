@@ -256,7 +256,7 @@
   <Message key="Custom Session Type Script Editor" description="Window title: Custom Session Type Script Editor"/>
   <Message key="Load from File" description="Button: Load from file" value="&amp;Load from File…"/>
   <Message key="Save to File" description="Button: Save to file" value="&amp;Save to File…"/>
-  <Message key="Serial.Advertise.Text" description="Serial Advertise Text" value="We also offer Serial Port Monitoring Control ActiveX library wich allows you to integrate monitoring functionality into your own application."/>
+  <Message key="Serial.Advertise.Text" description="Serial Advertise Text" value="We also offer Serial Port Monitoring Control ActiveX library which allows you to integrate monitoring functionality into your own application."/>
 
   <Message key="No terminal" description="Terminal monitoring session config text"/>
   <Enumeration key="flow-control" description="Flow control types">
