@@ -1,43 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="savetoworkspace" value="Incluir a configuração do terminal no espaço de trabalho" revision="0" />
+  <Message key="sendtofile_line" value="Enviar linhas de texto do ficheiro uma a uma" revision="0" />
+  <Message key="converttabs" value="Converter caracteres de tabulação em N espaços (N=0 - desativado)" revision="0" />
+  <Message key="chunk_size" value="Tamanho do bloco de dados" revision="0" />
+  <Message key="newsession_notify" value="Criação de sessão de terminal" revision="0" />
+  <Message key="Array expected" value="Matriz de bytes esperada" revision="0" />
+  <Message key="Invalid constant" value="Valor inválido da constante" revision="0" />
+  <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Enviado: {sent} Recebido: {received}" revision="0" />
+  <Message key="Data Paste" value="Aguarde enquanto os dados estão a ser enviados." revision="0" />
+  <Message key="NoDevicesFound" value="Não foram encontrados dispositivos de série." revision="0" />
+  <Message key="TerminalError" value="Falha ao criar sessão de terminal para {friendly name}: {error text} ({error code})" revision="0" />
+  <Message key="TerminalSendError" value="Não é possível enviar dados: {error text} ({error code})" revision="0" />
+  <Message key="Stop Terminal Session" value="Parar a sessão de terminal" revision="0" />
+  <Message key="Click To Switch State" value="Clique para mudar de estado" revision="0" />
+  <Message key="Advanced Send title" value="Envio avançado: {port}" revision="0" />
+  <Message key="Device Setup" value="Configuração do dispositivo" revision="0" />
+  <Message key="Configuration with this name already exists. Do you want to overwrite it?" value="Já existe uma configuração com este nome. Pretende substituí-la?" revision="0" />
+  <Message key="No description" value="Sem descrição" revision="0" />
+  <Message key="Enter the configuration name." value="Introduzir o nome da configuração." revision="0" />
+  <Message key="Configuration will be lost! Do you want to continue?" value="A configuração perder-se-á! Deseja continuar?" revision="0" />
+  <Message key="The configuration will be deleted. Do you want to continue?" value="A configuração será eliminada. Deseja continuar?" revision="0" />
+  <Message key="Serial Terminal component has expired!" value="O componente Terminal de série expirou!" revision="0" />
+  <Message key="Session Configuration" value="Configuração da sessão" revision="0" />
+  <Message key="Device:" value="Dispositivo:" revision="0" />
+  <Message key="Connect" value="Ligar" revision="0" />
+  <Message key="Defaults" value="Predefinições" revision="0" />
+  <Message key="Ignore delay (burst mode)" value="Ignorar atraso (modo burst)" revision="0" />
+  <Message key="Loop mode:" value="Modo cíclico:" revision="0" />
+  <Message key="loops" value="ciclos" revision="0" />
+  <Message key="milliseconds" value="milissegundos" revision="0" />
+  <Message key="Send" value="Enviar" revision="0" />
   <Enumeration key="TerminalNewSession">
-    <Item />
-    <Item />
+    <Item value="Iniciar sessão de terminal…" revision="0" />
+    <Item value="Lançar o terminal de série para o dispositivo selecionado." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSpecialSend">
-    <Item />
-    <Item />
+    <Item value="Envio avançado…" revision="0" />
+    <Item value="Enviar dados binários." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFile">
-    <Item />
-    <Item />
+    <Item value="Enviar ficheiro…" revision="0" />
+    <Item value="Envia o conteúdo de um ficheiro para a sessão do terminal." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalCRLF">
-    <Item />
-    <Item />
+    <Item value="Enviar CR+LF em Enter" revision="0" />
+    <Item value="Enviar CR+LF (em vez de CR) ao premir Enter" revision="0" />
   </Enumeration>
   <Enumeration key="SerialTerminal">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="MenuTermSessions">
-    <Item />
-    <Item />
+    <Item value="Sessões de terminal" revision="0" />
+    <Item value="Lista as sessões de terminal série atualmente em curso" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSendFilters">
+    <Item value="Ficheiros de texto" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Todos os ficheiros" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="TerminalEcho">
-    <Item />
-    <Item />
+    <Item value="Eco" revision="0" />
+    <Item value="Ativar/desativar o modo de eco" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Texto enviado" revision="0" />
+    <Item value="Texto recebido" revision="0" />
+    <Item value="Dump hexadecimal enviado" revision="0" />
+    <Item value="Dump hexadecimal recebido" revision="0" />
   </Enumeration>
 </Language>

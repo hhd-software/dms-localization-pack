@@ -1,30 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Do you want to cancel all active download tasks?" value="Pretende cancelar todas as tarefas de transferência activas?" revision="0" />
+  <Message key="Proxy Page" value="Proxy" revision="0" />
+  <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Selecionar uma definição de proxy a utilizar por &quot; Verificar actualizações&quot;:" revision="0" />
+  <Message key="Autodetect proxy settings" value="Autodetectar definições de proxy" revision="0" />
+  <Message key="Do not use proxy" value="Não utilizar proxy" revision="0" />
+  <Message key="Use the following proxy (HTTP):" value="Utilizar o seguinte proxy (HTTP):" revision="0" />
+  <Message key="Authentication" value="Autenticação" revision="0" />
+  <Message key="Authentication is not required" value="A autenticação não é necessária" revision="0" />
+  <Message key="Authenticate me as logged on user" value="Autenticar-me como utilizador com sessão iniciada" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Autentique-me com as seguintes credenciais:" revision="0" />
+  <Message key="User name:" value="Nome do utilizador:" revision="0" />
+  <Message key="Password:" value="Palavra-passe:" revision="0" />
+  <Message key="Re-type password:" value="Voltar a introduzir a palavra-passe:" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(O Device Monitoring Studio armazena de forma segura a palavra-passe introduzida na sua conta de utilizador localmente)" revision="0" />
+  <Message key="PasswordMismatch" value="As palavras-passe introduzidas têm de corresponder." revision="0" />
+  <Message key="Downloader settings" value="Definições de proxy" revision="0" />
+  <Message key="toolbar.Downloader" value="Descarregador" revision="0" />
   <Enumeration key="Downloader">
     <Item />
-    <Item />
+    <Item value="Comandos do descarregador" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsCancelAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Cancelar todas as tarefas de transferência" revision="0" />
+    <Item value="Cancelar todas as tarefas de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="DownloaderColumns">
-    <Item />
+    <Item value="Tarefa" revision="0" />
     <Item />
     <Item lookup="Size" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Iniciado" revision="0" />
+    <Item value="Deteção de proxy" revision="0" />
+    <Item value="Nome de resolução" revision="0" />
+    <Item value="Ligação ao servidor" revision="0" />
+    <Item value="Negociar SSL" revision="0" />
+    <Item value="Envio de cabeçalhos" revision="0" />
+    <Item value="Envio de conteúdos" revision="0" />
+    <Item value="A aguardar resposta" revision="0" />
+    <Item value="Receção de cabeçalhos" revision="0" />
+    <Item value="Receção de conteúdos" revision="0" />
+    <Item value="Erro: {error}" revision="0" />
   </Enumeration>
 </Language>
