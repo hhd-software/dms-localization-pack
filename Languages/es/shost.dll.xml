@@ -1,56 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Scripting" revision="0" />
+  <Message key="ReloadScripts" value="Recarga de scripts al inicio" revision="0" />
+  <Message key="AskToSaveScripts" value="Pedir que se guarden los scripts no guardados al cerrar" revision="0" />
+  <Message key="IncludeInWorkspace" value="Incluir la configuración de secuencias de comandos en el espacio de trabajo" revision="0" />
+  <Message key="AskToSaveScript" value="El archivo de script actual tiene cambios sin guardar. ¿Desea guardarlos?" revision="0" />
+  <Message key="Expired" value="El componente Scripting ha caducado. Necesita actualizar el producto a la {edition} Edición para poder utilizarlo." revision="0" />
+  <Message key="SaveScripts" value="Algunos scripts abiertos se modifican y no se guardan. ¿Desea guardarlos ahora?" revision="0" />
+  <Message key="Running Script" value="Ejecutar script {name}…\n" revision="0" />
+  <Message key="Stopping Script" value="Detención de la ejecución del script" revision="0" />
+  <Message key="Stopped Script" value="\nSe ha detenido la ejecución del script.\n" revision="0" />
+  <Message key="Compiling TypeScript" value="Compilación de TypeScript…\n" revision="0" />
+  <Message key="New Script" value="Nuevo Script {ordinal}" revision="0" />
+  <Message key="Javascript description" value="Archivo JavaScript" revision="0" />
+  <Message key="Typescript description" value="Archivo TypeScript" revision="0" />
+  <Message key="Invalid handle" value="Identificador no válido" revision="0" />
+  <Message key="ScriptFiles" value="Archivos JavaScript (*.js)|*.js|Archivos TypeScript (*.ts)|*.ts|All files|*.*|" revision="0" />
+  <Message key="ScriptException" value="{uncaught?}Se ha producido una e{|uncaught}E{?uncaught}xcepción &quot;{name}&quot; en {line}:{column}\n" revision="0" />
+  <Message key="Main body finish" value="\nFinalizada la ejecución del cuerpo principal del script. Ejecución de funciones y eventos asíncronos…\n" revision="0" />
+  <Message key="WatchTitle" value="Debug Watch" revision="0" />
+  <Message key="CallStackTitle" value="Pila de depuración" revision="0" />
+  <Message key="Script Trace Output" value="Salida de trazas del script" revision="0" />
+  <Message key="ScriptChanged" value="Su script ha sido modificado. Es imposible continuar la ejecución. ¿Desea detener la ejecución del script?" revision="0" />
+  <Message key="Input Value" value="Valor de entrada" revision="0" />
+  <Message key="Breakpoints" value="Puntos de interrupción" revision="0" />
+  <Message key="Line:" value="Línea:" revision="0" />
   <Enumeration key="ScriptingNew">
-    <Item />
-    <Item />
+    <Item value="Nuevo &amp;Script" revision="0" />
+    <Item value="Crear un nuevo script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">
-    <Item />
-    <Item />
+    <Item value="&amp;Ejecutar script" revision="0" />
+    <Item value="Iniciar la ejecución del script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Detener Script" revision="0" />
+    <Item value="Detener la ejecución del script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStartStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Ejecutar/Detener script" revision="0" />
+    <Item value="Iniciar o detener la ejecución del script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Depurar el Script" revision="0" />
+    <Item value="Iniciar la depuración de scripts" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingToggleBreakpoint">
-    <Item />
-    <Item />
+    <Item value="Conmutar punto de interrupción" revision="0" />
+    <Item value="Establece o elimina un punto de interrupción de la ejecución" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepIn">
-    <Item />
-    <Item />
+    <Item value="Paso En" revision="0" />
+    <Item value="Paso en la función llamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOut">
-    <Item />
-    <Item />
+    <Item value="Paso Fuera" revision="0" />
+    <Item value="Paso fuera de la función llamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOver">
-    <Item />
-    <Item />
+    <Item value="Paso Sobre" revision="0" />
+    <Item value="Paso sobre la función llamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">
     <Item />
-    <Item />
+    <Item value="Continuar la ejecución" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Debug" revision="0" />
+    <Item value="Menú de depuración" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRemoveAllBreakpoints">
-    <Item />
-    <Item />
+    <Item value="Eliminar todos los puntos de interrupción" revision="0" />
+    <Item value="Eliminar todos los puntos de interrupción" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingAsyncBreak">
-    <Item />
-    <Item />
+    <Item value="Interrumpir la ejecución" revision="0" />
+    <Item value="Interrumpir la ejecución del script" revision="0" />
   </Enumeration>
   <Enumeration key="BreakpointsColumns">
     <Item />
@@ -62,15 +87,15 @@
     <Item />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
-    <Item />
+    <Item value="Añadir Watch" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
-    <Item />
+    <Item value="Retirar Watch" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item />
+    <Item value="Editar Watch" revision="0" />
     <Item />
   </Enumeration>
 </Language>

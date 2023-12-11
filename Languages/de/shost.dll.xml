@@ -89,11 +89,11 @@
   </Enumeration>
   <Enumeration key="WatchValueAdd">
     <Item value="Überwachung hinzufügen" revision="0" />
-    <Item value="Hinzufügen Überwachung" revision="0" />
+    <Item value="Überwachung hinzufügen" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
     <Item value="Überwachung entfernen" revision="0" />
-    <Item value="Entfernen Überwachung" revision="0" />
+    <Item value="Überwachung entfernen" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
     <Item value="Überwachung bearbeiten" revision="0" />
