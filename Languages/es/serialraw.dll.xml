@@ -1,23 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LampWindowNotification" value="Notificación de posición del visualizador de vista en línea" revision="0" />
+  <Message key="RepeaterSkip" value="No envíe" revision="0" />
+  <Message key="Basic" value="Básico" revision="0" />
+  <Message key="Complete" value="Completo" revision="0" />
+  <Message key="PnP Event" value="Evento PnP" revision="0" />
+  <Message key="The device has just been connected to the system." value="El dispositivo acaba de conectarse al sistema." revision="0" />
+  <Message key="The device has been disconnected." value="El aparato se ha desconectado." revision="0" />
+  <Message key="PacketHeader" value="{n}: {header} ({up?}ARRIBA{|up}ABAJO{?up}), {time} ({device number}. Dispositivo: {device name})\n" revision="0" />
+  <Message key="Reads" value="Lecturas" revision="0" />
+  <Message key="Writes" value="Escribe" revision="0" />
+  <Message key="Buffer size" value="Tamaño del búfer" revision="0" />
+  <Message key="bytes" value="bytes" revision="0" />
+  <Message key="PnP Event: Connect" value="Evento PnP: Conectar" revision="0" />
+  <Message key="PnP Event: Disconnect" value="Evento PnP: Desconectar" revision="0" />
+  <Message key="ProcessOpen" value="Proceso {pid} ({has name?}{name}{|has name}&lt;Imposible recuperar el nombre del proceso&gt;{?has name}) intentó abrir el dispositivo." revision="0" />
+  <Message key="ProcessCreate" value="Proceso {pid} ({has name?}{name}{|has name}&lt;Imposible recuperar el nombre del proceso&gt;{?has name}) intentó abrir el dispositivo: {status}" revision="0" />
+  <Message key="Status" value="Estado: {status}" revision="0" />
+  <Message key="OpenedBy" value="IRP_MJ_CREATE - proceso [[[b{process id}]]] ({process name})" revision="0" />
+  <Message key="Serial Structure View" value="{name} - Vista de la estructura de serie" revision="0" />
+  <Message key="struct not found" value="No se encuentra la definición de la estructura 'Serie'. La vista de estructura no puede mostrar ningún resultado." revision="0" />
+  <Message key="Serial Device Information" value="Información del dispositivo serie" revision="0" />
   <Enumeration key="LineConverter">
-    <Item />
-    <Item />
+    <Item value="Vista en línea" revision="0" />
+    <Item value="La vista de líneas muestra el estado de todas las líneas de control del módem." revision="0" />
   </Enumeration>
   <Enumeration key="DataRepeater">
-    <Item />
-    <Item />
+    <Item value="Repetidor de datos" revision="0" />
+    <Item value="El Repetidor de Datos se hace eco de los datos serie monitorizados en el puerto o puertos serie físicos. Puede añadirse a una sesión de monitorización serie o a una sesión de reproducción de registros serie." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leer solicitud" revision="0" />
+    <Item value="Solicitud de escritura" revision="0" />
+    <Item value="Cerrar solicitud" revision="0" />
+    <Item value="Crear solicitud" revision="0" />
+    <Item value="Solicitud de I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">
     <Item />
-    <Item />
+    <Item value="El visualizador Vista de Líneas muestra su salida en esta ventana. Muestra el estado de las líneas de módem para el dispositivo serie monitorizado actualmente." revision="0" />
   </Enumeration>
   <Enumeration key="PacketViewColumns">
     <Item />
@@ -27,49 +48,49 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Datos (caracteres)" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="SerialGeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizar paquetes vacíos" revision="0" />
+    <Item value="Visualizar paquetes leídos" revision="0" />
+    <Item value="Visualizar paquetes de escritura" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Información de rendimiento clara" revision="0" />
+    <Item value="Borrar DTR" revision="0" />
+    <Item value="Borrar RTS" revision="0" />
+    <Item value="Recuperar información sobre el tamaño de la configuración" revision="0" />
+    <Item value="Recuperar velocidad en baudios" revision="0" />
+    <Item value="Recuperar caracteres especiales" revision="0" />
+    <Item value="Recuperar estado COM" revision="0" />
+    <Item value="Recuperar DTR y RT" revision="0" />
+    <Item value="Recuperar información de handshake" revision="0" />
+    <Item value="Recuperar control de línea" revision="0" />
+    <Item value="Recuperar el estado del módem" revision="0" />
+    <Item value="Recuperar propiedades COM" revision="0" />
+    <Item value="Recuperar información de rendimiento" revision="0" />
+    <Item value="Recuperar tiempos de espera" revision="0" />
+    <Item value="Recuperar máscara de evento actual" revision="0" />
+    <Item value="Transmitir carácter inmediato" revision="0" />
+    <Item value="Carácter de escape de estado de línea y módem" revision="0" />
+    <Item value="Purgar solicitudes" revision="0" />
+    <Item value="Reiniciar puerto COM" revision="0" />
+    <Item value="Configurar la velocidad en baudios" revision="0" />
+    <Item value="Desactivar interrupción de control de línea" revision="0" />
+    <Item value="Encender interrupción de control de línea" revision="0" />
+    <Item value="Establecer caracteres especiales" revision="0" />
+    <Item value="Configurar DTR" revision="0" />
+    <Item value="Configurar información de handshake" revision="0" />
+    <Item value="Configurar control de línea" revision="0" />
+    <Item value="Establecer el tamaño de la cola" revision="0" />
+    <Item value="Configurar RTS" revision="0" />
+    <Item value="Establecer tiempos de espera" revision="0" />
+    <Item value="Establecer máscara de evento actual" revision="0" />
+    <Item value="Emular XOFF" revision="0" />
+    <Item value="Emular XON" revision="0" />
+    <Item value="Esperar evento" revision="0" />
+    <Item value="Configurar contador XOFF" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
     <Item />
@@ -83,7 +104,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConcatPackets">
-    <Item />
-    <Item />
+    <Item value="Juntar-se aos pedidos consequentes (série)" revision="0" />
+    <Item value="Alternar la unión de solicitudes consecutivas del mismo tipo. Se aplica a las sesiones de supervisión en serie." revision="0" />
   </Enumeration>
 </Language>

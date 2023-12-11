@@ -1,23 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LampWindowNotification" value="Notificação de posição do visualizador da vista de linha" revision="0" />
+  <Message key="RepeaterSkip" value="Não enviar" revision="0" />
+  <Message key="Basic" value="Básico" revision="0" />
+  <Message key="Complete" value="Completo" revision="0" />
+  <Message key="PnP Event" value="Evento PnP" revision="0" />
+  <Message key="The device has just been connected to the system." value="O aparelho acabou de ser ligado ao sistema." revision="0" />
+  <Message key="The device has been disconnected." value="O aparelho foi desligado." revision="0" />
+  <Message key="PacketHeader" value="{n}: {header} ({up?}PARA CIMA{|up}BAIXO{?up}), {time} ({device number}. Dispositivo: {device name})\n" revision="0" />
+  <Message key="Reads" value="Leituras" revision="0" />
+  <Message key="Writes" value="Escreve" revision="0" />
+  <Message key="Buffer size" value="Tamanho do buffer" revision="0" />
+  <Message key="bytes" value="bytes" revision="0" />
+  <Message key="PnP Event: Connect" value="Evento PnP: Ligar" revision="0" />
+  <Message key="PnP Event: Disconnect" value="Evento PnP: Desconectar" revision="0" />
+  <Message key="ProcessOpen" value="Processo {pid} ({has name?}{name}{|has name}&lt;Não é possível obter o nome do processo&gt;{?has name}) tentativa de abrir o dispositivo." revision="0" />
+  <Message key="ProcessCreate" value="Processo {pid} ({has name?}{name}{|has name}&lt;Não é possível obter o nome do processo&gt;{?has name}) tentativa de abrir o dispositivo: {status}" revision="0" />
+  <Message key="Status" value="Estado: {status}" revision="0" />
+  <Message key="OpenedBy" value="IRP_MJ_CREATE - processo [[[b{process id}]]] ({process name})" revision="0" />
+  <Message key="Serial Structure View" value="{name} - Vista da estrutura de série" revision="0" />
+  <Message key="struct not found" value="A definição da estrutura 'Serial' não foi encontrada. A Vista de Estrutura não consegue apresentar quaisquer resultados." revision="0" />
+  <Message key="Serial Device Information" value="Informações do dispositivo de série" revision="0" />
   <Enumeration key="LineConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de linha" revision="0" />
+    <Item value="A vista de linhas apresenta o estado de todas as linhas de controlo do modem." revision="0" />
   </Enumeration>
   <Enumeration key="DataRepeater">
-    <Item />
-    <Item />
+    <Item value="Repetidor de dados" revision="0" />
+    <Item value="O repetidor de dados faz eco dos dados de série monitorizados para a porta ou portas de série físicas. Pode ser adicionado a uma sessão de monitorização de série ou a uma sessão de reprodução de registos de série." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ler pedido" revision="0" />
+    <Item value="Pedido de escrita" revision="0" />
+    <Item value="Fechar pedido" revision="0" />
+    <Item value="Criar pedido" revision="0" />
+    <Item value="Pedido de I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">
     <Item />
-    <Item />
+    <Item value="O visualizador da Vista de Linha apresenta a sua saída nesta janela. Apresenta o estado das linhas de modem para o dispositivo de série atualmente monitorizado." revision="0" />
   </Enumeration>
   <Enumeration key="PacketViewColumns">
     <Item />
@@ -27,49 +48,49 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Dados (caracteres)" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="SerialGeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizar pacotes vazios" revision="0" />
+    <Item value="Visualizar pacotes de leitura" revision="0" />
+    <Item value="Visualizar pacotes de escrita" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Limpar informações de desempenho" revision="0" />
+    <Item value="Limpar DTR" revision="0" />
+    <Item value="Limpar RTS" revision="0" />
+    <Item value="Recuperar informações sobre o tamanho da configuração" revision="0" />
+    <Item value="Recuperar taxa de baud" revision="0" />
+    <Item value="Recuperar caracteres especiais" revision="0" />
+    <Item value="Recuperar o estatuto COM" revision="0" />
+    <Item value="Recuperar DTR e RTS" revision="0" />
+    <Item value="Recuperar informações de handshake" revision="0" />
+    <Item value="Recuperar o controlo da linha" revision="0" />
+    <Item value="Recuperar o estado do modem" revision="0" />
+    <Item value="Recuperar propriedades COM" revision="0" />
+    <Item value="Recuperar informações sobre o desempenho" revision="0" />
+    <Item value="Recuperar os tempos limite" revision="0" />
+    <Item value="Recuperar a máscara do evento atual" revision="0" />
+    <Item value="Transmitir carácter imediato" revision="0" />
+    <Item value="Caractere de escape do estado da linha e do modem" revision="0" />
+    <Item value="Purgar pedidos" revision="0" />
+    <Item value="Repor a porta COM" revision="0" />
+    <Item value="Definir taxa de baud" revision="0" />
+    <Item value="Desligar a interrupção do controlo de linha" revision="0" />
+    <Item value="Ligar a interrupção do controlo de linha" revision="0" />
+    <Item value="Definir caracteres especiais" revision="0" />
+    <Item value="Definir DTR" revision="0" />
+    <Item value="Definir informações de handshake" revision="0" />
+    <Item value="Definir o controlo da linha" revision="0" />
+    <Item value="Definir o tamanho da fila" revision="0" />
+    <Item value="Definir RTS" revision="0" />
+    <Item value="Definir tempos limite" revision="0" />
+    <Item value="Definir a máscara do evento atual" revision="0" />
+    <Item value="Emular XOFF" revision="0" />
+    <Item value="Emular XON" revision="0" />
+    <Item value="Esperar pelo evento" revision="0" />
+    <Item value="Definir contador XOFF" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
     <Item />
@@ -83,7 +104,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConcatPackets">
-    <Item />
-    <Item />
+    <Item value="Juntar-se aos pedidos consequentes (série)" revision="0" />
+    <Item value="Alternar a junção de pedidos consequentes do mesmo tipo. Aplica-se a sessões de monitorização em série." revision="0" />
   </Enumeration>
 </Language>
