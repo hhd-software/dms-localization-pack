@@ -8,7 +8,7 @@
   <Message key="UpgradeToEdition" value="Upgrade auf {edition} Ausgabe" revision="0" />
   <Message key="Never" value="Niemals" revision="0" />
   <Message key="LicenseSuccess" value="Die Lizenzdatei wurde erfolgreich installiert und die Anwendung aktiviert. Vielen Dank, dass Sie sich für Device Monitoring Studio entschieden haben!" revision="0" />
-  <Message key="LicenseFailure" value="Bei der Installation der ausgewählten Lizenzdatei ist ein Fehler aufgetreten. Dies kann folgende Gründe haben:\n\n  · Beschädigte Lizenzdatei.\n  · " revision="0" />
+  <Message key="LicenseFailure" value="Bei der Installation der ausgewählten Lizenzdatei ist ein Fehler aufgetreten. Dies kann folgende Gründe haben:\n\n  · Beschädigte Lizenzdatei.\n  · Abgelaufene Lizenzdatei.\n  · Lizenzdatei für ein anderes Produkt.\n\nMelden Sie sich im Bereich Mein Konto auf unserer Website an und laden Sie die neue Lizenzdatei kostenlos herunter." revision="0" />
   <Message key="LicenseRestart" value="Es wird dringend empfohlen, das Produkt neu zu starten, um die Änderungen zu berücksichtigen." revision="0" />
   <Message key="FreeFirstLaunchTitle" value="Willkommen bei HHD Software Free Device Monitoring Studio" revision="0" />
   <Message key="FreeFirstLaunchText" value="Die kostenlose Version des Produkts hat einen begrenzten Funktionsumfang.\n\nSie können mit eingeschränkten Funktionen fortfahren oder die erweiterten Funktionen 14 Tage lang KOSTENLOS testen." revision="0" />

@@ -1,5 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SteppedSpeedNotify" value="Continuar la reproducción (Reproducción)" revision="0" />
+  <Message key="CreateReaderError" value="No se puede crear el lector de logs {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Fallo en la inicialización de la reproducción  {filename}" revision="0" />
+  <Message key="FileOpenError" value="Error al abrir {filename}. El archivo falta o está dañado." revision="1" />
+  <Message key="StreamOpenError" value="Fallo al abrir el flujo {stream} de {filename}" revision="0" />
+  <Message key="PropertiesReadError" value="Error al leer propiedades de {filename}." revision="0" />
+  <Message key="FileNotSpecified" value="Debe especificarse el archivo de importación. Cree una nueva sesión de supervisión y especifique el archivo de importación." revision="0" />
+  <Message key="OpenFileError" value="Error al abrir el archivo de importación: {error text} ({error code})." revision="0" />
+  <Message key="ReaderCreationError" value="Se desconoce el formato del archivo." revision="0" />
+  <Message key="Config Error" value="Se espera la ruta completa" revision="0" />
+  <Message key="ErrorRangeAll" value="Error de análisis del campo 'range'. Debe ser un objeto range o la cadena 'all'" revision="0" />
+  <Message key="ErrorRangeFrom" value="Error de análisis del campo 'from'" revision="0" />
+  <Message key="ErrorRangeTo" value="Error de análisis del campo 'to'" revision="0" />
+  <Message key="SpeedError" value="Valor de velocidad fuera de rango" revision="0" />
+  <Message key="Repairing damaged log files" value="Reparación de archivos de log dañados" revision="0" />
+  <Message key="EmergencyErrorType" value="Finalización de emergencia de la sesión de reproducción" revision="0" />
+  <Message key="NewLogFormatDescription" value="Archivos log" revision="0" />
+  <Message key="Computing" value="Calcular…" revision="0" />
+  <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Sin datos{?valid}" revision="0" />
+  <Message key="RangeSelTooltip" value="Inicio: {from}\nFin: {to}\nDuración: {has days?}{days} días, {?has days}{has hours?}{hours} horas, {?has hours}{has minutes?}{minutes} minutos, {?has minutes}{seconds} segundos." revision="0" />
+  <Message key="InvalidRange" value="Un intervalo de reproducción debe tener una duración mínima de un segundo." revision="0" />
+  <Message key="Searching for log files" value="Búsqueda de archivos de registro" revision="0" />
+  <Message key="Stepped" value="Paso a paso" revision="0" />
+  <Message key="Continuous" value="Continuo" revision="0" />
+  <Message key="Unable to delete selected playback files" value="No se pueden eliminar los archivos de reproducción seleccionados. Al menos uno de ellos se está reproduciendo actualmente." revision="0" />
+  <Message key="Continue Playback" value="Continuar la reproducción\nPulse el botón Siguiente para continuar la reproducción." revision="0" />
+  <Message key="DifferentArchError" value="Este flujo de archivos de registro se creó en una máquina con una arquitectura de procesador diferente y no se puede reproducir." revision="0" />
   <Message key="Playback settings" value="Configuración de la reproducción" revision="0" />
   <Message key="Virtual device configuration" value="Configuración del dispositivo virtual" revision="0" />
   <Message key="Import file path" value="Ruta del archivo de entrada" revision="0" />
@@ -12,28 +39,28 @@
   <Message key="Update..." value="Actualización…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item />
-    <Item />
+    <Item value="La fuente de datos de reproducción reproduce las sesiones de supervisión grabadas, lo que permite un análisis diferido del dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
-    <Item />
-    <Item />
+    <Item value="Importar" revision="0" />
+    <Item value="Importar fuente de datos lee datos en formatos ajenos exportados desde otros productos de monitorización y los reproduce. Esto permite utilizar el amplio conjunto de componentes de procesamiento de datos de Device Monitoring Studio." revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">
     <Item />
-    <Item />
+    <Item value="Archivos de captura Wireshark" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="NetmonDesc">
     <Item />
-    <Item />
+    <Item value="Archivos de captura de Microsoft Netmon" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="MonitoredNotify">
-    <Item />
-    <Item />
+    <Item value="Al menos una sesión sigue ejecutándose en el adaptador virtual. Desea detener la(s) sesión(es) del adaptador virtual y continuar?" revision="0" />
+    <Item value="Adaptador virtual" revision="0" />
   </Enumeration>
   <Enumeration key="ImportFormats">
-    <Item />
+    <Item value="Todos los archivos compatibles|*.pcap;*.cap|Archivos Wireshark|*.pcap|Archivos Netmon|*.cap|" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
@@ -51,26 +78,26 @@
   </Enumeration>
   <Enumeration key="DeletePlayback">
     <Item />
-    <Item />
+    <Item value="Eliminar el archivo seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="SortByDate">
-    <Item />
+    <Item value="Ordenar por fecha" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="SortByName">
-    <Item />
+    <Item value="Ordenar por nombre" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ShowDateTime">
-    <Item />
+    <Item value="Mostrar fecha y hora" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="ShowSize">
-    <Item />
+    <Item value="Mostrar Tamaño" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="OpenFileLocation">
-    <Item />
+    <Item value="Abrir archivo Ubicación" revision="0" />
     <Item />
   </Enumeration>
 </Language>

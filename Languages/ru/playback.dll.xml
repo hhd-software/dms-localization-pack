@@ -11,7 +11,7 @@
   <Message key="ReaderCreationError" value="Формат файла неизвестен." revision="0" />
   <Message key="Config Error" value="Ожидается полный путь" revision="0" />
   <Message key="ErrorRangeAll" value="Ошибка разбора поля 'range'. Должен быть объект range или строка 'all'" revision="0" />
-  <Message key="ErrorRangeFrom" value=" field parsing error 'from'" revision="0" />
+  <Message key="ErrorRangeFrom" value="ошибка разбора поля 'from'" revision="0" />
   <Message key="ErrorRangeTo" value="ошибка разбора поля 'to'" revision="0" />
   <Message key="SpeedError" value="Значение скорости вне диапазона" revision="0" />
   <Message key="Repairing damaged log files" value="Восстановление поврежденных лог файлов" revision="0" />

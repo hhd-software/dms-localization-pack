@@ -1,24 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PortOpenError" value="No se puede abrir el dispositivo &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommStateError" value="No se puede configurar el dispositivo &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommTimeouts" value="No se pueden configurar los tiempos de espera del dispositivo &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="Bridge Config" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Baudios, {mode}" revision="0" />
+  <Message key="Device not found" value="El dispositivo {name} no se encuentra" revision="0" />
+  <Message key="Invalid flow control" value="Objeto de control de flujo no válido" revision="0" />
+  <Message key="Same device" value="Se especificó el mismo dispositivo para ambos lados del puente" revision="0" />
+  <Message key="Bridge deleted" value="Se ha eliminado el puente de la interfaz de usuario" revision="0" />
+  <Message key="Wrong device" value="El objeto puente se refiere a un dispositivo incorrecto" revision="0" />
+  <Message key="Bridge Page" value="Puente serie" revision="0" />
+  <Message key="Timeout settings:" value="Ajustes de tiempo de espera:" revision="0" />
+  <Message key="(See documentation on-line)" value="(Consulte la documentación en línea)" revision="0" />
+  <Message key="Read interval timeout:" value="Tiempo de espera del intervalo de lectura:" revision="0" />
+  <Message key="Read multiplier timeout:" value="Tiempo de espera del multiplicador de lectura:" revision="0" />
+  <Message key="Read constant timeout:" value="Tiempo de espera constante de lectura:" revision="0" />
+  <Message key="Buffer size:" value="Tamaño del búfer:" revision="0" />
+  <Message key="IDS_NOSERIALDEVICES" value="No se han encontrado suficientes dispositivos serie. Necesita al menos dos dispositivos serie diferentes para crear un puente." revision="0" />
+  <Message key="IDS_BRIDGEERROR" value="Error al crear un puente" revision="0" />
+  <Message key="IDS_BRIDGEALREADYEXISTS" value="Ya existe un puente con este nombre. Especifique otro nombre." revision="0" />
+  <Message key="IDS_CATEGORYFILTER" value="Puente serie" revision="0" />
+  <Message key="Enter Bridge Name" value="Introduzca el nombre del puente" revision="0" />
+  <Message key="Enter new bridge name:" value="Introduzca el nuevo nombre del puente:" revision="0" />
+  <Message key="Create New Bridge" value="Crear nuevo puente" revision="0" />
+  <Message key="Device A:" value="Dispositivo A:" revision="0" />
+  <Message key="Device B:" value="Dispositivo B:" revision="0" />
+  <Message key="Same port settings" value="Misma configuración de puerto" revision="0" />
+  <Message key="Select the serial bridge monitoring session type:" value="Seleccione el tipo de sesión de monitorización del puente serie:" revision="0" />
+  <Message key="Press the following button to change bridge parameters for this session only:" value="Pulse el siguiente botón para cambiar los parámetros del puente sólo para esta sesión:" revision="0" />
+  <Message key="Change Bridge Parameters" value="&amp;Cambiar los parámetros del puente…" revision="0" />
   <Enumeration key="BridgeNewBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Crear nuevo puente…" revision="0" />
+    <Item value="Crear nuevo puente serie" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDelete">
-    <Item />
-    <Item />
+    <Item value="&amp;Borrar Puente" revision="0" />
+    <Item value="Borrar el puente actualmente seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeDeleteAll">
-    <Item />
-    <Item />
+    <Item value="Borrar &amp;todos los puentes" revision="0" />
+    <Item value="Borrar todos los puentes" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editar Puente…" revision="0" />
+    <Item value="Cambiar los parámetros del puente serie" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeSource">
     <Item />
-    <Item />
+    <Item value="Puente Serie le permite monitorizar las comunicaciones entre dos dispositivos serie conectados a su ordenador. La monitorización se realiza mediante un puente virtual creado entre los puertos serie seleccionados." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
     <Item />
@@ -28,7 +57,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="MenuBridge">
-    <Item />
-    <Item />
+    <Item value="&amp;Puente" revision="0" />
+    <Item value="Menú Puente" revision="0" />
   </Enumeration>
 </Language>
