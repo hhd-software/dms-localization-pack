@@ -64,15 +64,15 @@
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Video Ansicht" revision="0" />
-    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.1) konforme Geräte." revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.5) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="Standard" revision="0" />
     <Item value="Kopfzeile" revision="0" />
     <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="0" />
+    <Item value="Kopfzeile des Schreibens" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Linie Nummer" revision="0" />
@@ -119,23 +119,23 @@
     <Item value="Ausblenden von Daten aus missgebildeten Paketen" revision="0" />
   </Enumeration>
   <Enumeration key="Packets Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pakete gesamt/sec" revision="0" />
+    <Item value="pakete/s" revision="0" />
+    <Item value="Pakete gesamt/Sek ist die Rate, mit der Pakete während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bytes gesamt/sec" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes Gesamt/Sek ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Read">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bytes gelesen/sec" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Written">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Byte geschrieben/sek" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
   </Enumeration>
 </Language>

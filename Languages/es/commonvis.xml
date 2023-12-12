@@ -2,83 +2,83 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Paquete nº" revision="0" />
   <Enumeration key="CellConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de datos brutos" revision="0" />
+    <Item value="La vista de datos brutos muestra los datos de paquetes brutos en dos flujos contiguos (entrada y salida). Ofrece una personalización visual y de diseño flexible y admite el filtrado controlado por protocolo y el cambio del protocolo raíz." revision="0" />
   </Enumeration>
   <Enumeration key="StructureConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de estructura" revision="0" />
+    <Item value="La Vista de Estructura descodifica todos los datos de los paquetes utilizando las definiciones de protocolo almacenadas en el producto o proporcionadas por el usuario. Admite el filtrado y el cambio del protocolo raíz." revision="0" />
   </Enumeration>
   <Enumeration key="StatisticsConverter">
-    <Item />
-    <Item />
+    <Item value="Estadísticas" revision="0" />
+    <Item value="Estadísticas recopila y muestra estadísticas y el rendimiento del dispositivo. Se calculan varios valores estadísticos y se muestran en el gráfico lineal." revision="0" />
   </Enumeration>
   <Enumeration key="TableConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de paquetes" revision="0" />
+    <Item value="La vista de paquetes muestra cada paquete de datos supervisado en una fila separada y ofrece descodificación individual de paquetes, según los distintos formatos y protocolos." revision="0" />
   </Enumeration>
   <Enumeration key="DataConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de datos" revision="0" />
+    <Item value="El visualizador Vista de datos muestra los datos en dos ventanas separadas. La primera ventana muestra los datos recibidos del dispositivo, mientras que la segunda muestra los datos enviados al dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
-    <Item />
-    <Item />
+    <Item value="Solicitar Ver (Legacy)" revision="0" />
+    <Item value="El visualizador Solicitar Ver decodifica todos los paquetes de datos y solicitudes de control enviados y recibidos desde el dispositivo serie. Se trata de un conversor de datos heredado." revision="0" />
   </Enumeration>
   <Enumeration key="NewRequestViewConverter">
-    <Item />
-    <Item />
+    <Item value="Solicitar Ver" revision="0" />
+    <Item value="La Solicitar Ver descodifica todos los paquetes de datos y peticiones de control enviados y recibidos del dispositivo serie." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de la consola (Legacy)" revision="0" />
+    <Item value="La Vista de Consola funciona como una ventana de consola serie y muestra los caracteres recibidos desde el dispositivo serie. Es un visualizador útil para supervisar protocolos basados en texto. Se trata de un visualizador de datos heredado." revision="0" />
   </Enumeration>
   <Enumeration key="NewConsoleConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de la consola" revision="0" />
+    <Item value="La Vista de Consola funciona como una ventana de consola serie y muestra los caracteres recibidos desde el dispositivo serie. Es un visualizador útil para supervisar protocolos basados en texto." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
+    <Item value="Espacio vacío" revision="0" />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Texto de control de E/S" revision="0" />
+    <Item value="Cabezal de control de E/S" revision="0" />
+    <Item value="Escribir texto" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
+    <Item value="Escribir Dump" revision="0" />
+    <Item value="Leer texto" revision="0" />
+    <Item value="Leer cabecera" revision="0" />
+    <Item value="Leer Dump" revision="0" />
+    <Item value="Nombre del campo" revision="0" />
+    <Item value="Valor del campo" revision="0" />
     <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Mostrar las lecturas vacías" revision="0" />
+    <Item value="Mostrar solicitudes de E/S sin datos" revision="0" />
+    <Item value="Mostrar las solicitudes de E/S" revision="0" />
+    <Item value="Mostrar las solicitudes de conexión y creación" revision="0" />
+    <Item value="Mostrar la lectura de abajo" revision="0" />
+    <Item value="Mostrar el arriba escribe" revision="0" />
+    <Item value="Mostrar los números de línea" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
-    <Item />
-    <Item />
+    <Item value="Vista del vídeo" revision="0" />
+    <Item value="El visualizador Vista de vídeo analiza paquetes y descriptores de configuración para dispositivos compatibles con USB Video (versión 1.5)." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item />
     <Item />
     <Item />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Cabecera de lectura" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Número de línea" revision="0" />
+    <Item value="Escribir texto" revision="0" />
+    <Item value="Leer texto" revision="0" />
+    <Item value="Mensaje" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
     <Item />
@@ -90,52 +90,52 @@
     <Item />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
-    <Item />
-    <Item />
+    <Item value="Vista HTTP" revision="0" />
+    <Item value="El visualizador de datos Vista HTTP analiza y muestra las solicitudes y respuestas del protocolo HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabecera de solicitudes" revision="0" />
+    <Item value="Cabecera para las respuestas" revision="0" />
+    <Item value="Campos de la solicitud" revision="0" />
+    <Item value="Campos de respuesta" revision="0" />
+    <Item value="Texto de la solicitud" revision="0" />
+    <Item value="Texto de la respuesta" revision="0" />
+    <Item value="Volcado por defecto" revision="0" />
+    <Item value="Volcado de solicitudes" revision="0" />
+    <Item value="Volcado de respuestas" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
-    <Item />
-    <Item />
+    <Item value="Vista MODBUS" revision="0" />
+    <Item value="La vista MODBUS descodifica todos los paquetes de datos enviados y recibidos del dispositivo serie que utiliza el protocolo MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewSchemes">
-    <Item />
+    <Item value="Volcado" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parsear como hexadecimal" revision="0" />
+    <Item value="Añade desplazamientos de base para registros, entradas discretas, etc." revision="0" />
+    <Item value="Ocultar datos de paquetes malformados" revision="0" />
   </Enumeration>
   <Enumeration key="Packets Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paquetes Total/seg" revision="0" />
+    <Item value="paquetes/s" revision="0" />
+    <Item value="Paquetes Total/seg es la velocidad a la que se transfieren paquetes hacia o desde el dispositivo durante las operaciones de escritura o lectura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bytes Total/seg" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes Total/Seg es la velocidad a la que se transfieren bytes hacia o desde el dispositivo durante las operaciones de escritura o lectura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Read">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bytes leídos/seg" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes Leídos/Seg es la velocidad a la que se transfieren bytes desde el dispositivo durante las operaciones de lectura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Written">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Byte escrito/seg" revision="0" />
+    <Item value="bytes/s" revision="0" />
+    <Item value="Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura." revision="0" />
   </Enumeration>
 </Language>
