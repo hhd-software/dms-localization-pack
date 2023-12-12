@@ -16,7 +16,6 @@
 
   <Message key="Array expected" description="Array expected" value="Byte array expected"/>
   <Message key="Invalid constant" description="Invalid constant" value="Invalid constant value"/>
-  <Message key="New" description="New session button title" value="New"/>
 
   <Enumeration key="TerminalNewSession" description="Command: Start Terminal">
     <Item text="Start Terminal Session…"/>
@@ -51,8 +50,6 @@
     <Item text="Serial Terminal"/>
     <Item text="Serial Terminal"/>
   </Enumeration>
-
-  <Message key="Find Operation" description="Find operation" value="Finding text"/>
 
   <Enumeration key="MenuTermSessions" description="Command group: Terminal Sessions">
     <Item text="Terminal Sessions"/>
@@ -97,7 +94,6 @@
 	<Message key="Enter the configuration name." description="Enter configuration name"/>
 	<Message key="Configuration will be lost! Do you want to continue?" description="Prompt: Configuration will be lost! Do you want to continue?"/>
 	<Message key="The configuration will be deleted. Do you want to continue?" description="Prompt: The configuration will be deleted. Do you want to continue?"/>
-	<Message key="Save to File" description="Save to File"/>
 
 	<Message key="Serial Terminal component has expired!" description="Message: Serial Terminal component has expired!"/>
 
@@ -110,7 +106,6 @@
 	<Message key="Loop mode:" description="Option: Loop mode"/>
 	<Message key="loops" description="Field: loops"/>
 	<Message key="milliseconds" description="Field: milliseconds"/>
-	<Message key="Delay:" description="Field: Delay"/>
 	<Message key="Send" description="Button: Send"/>
 
 	<Enumeration key="TerminalColors" description="Colors: Serial Terimal">

@@ -537,7 +537,6 @@
 	</Message>
 
 	<Message key="Process" description="Column Title: Process"/>
-	<Message key="Delay" description="Column Title: Delay"/>
 
 	<Message key="ErrorInput" value="Invalid range. Value range is ({first} - {last})." description="Field: Sent">
 		<Param name="first"/>
@@ -576,7 +575,6 @@
 	<Message key="AdapterSelect" description="Message: Adapter Select" value="Select adapter…\nSelect default adapter for sending packets" />
 	<Message key="TemplateAlreadyExists" description="Error: Template already exist" value="Template already exists. Do you want to overwrite it?" />
 	<Message key="ErrorRead" description="Error: Reading file error" value="Error reading from the file. " />
-	<Message key="PacketBuilderTitle" description="Title: Packet builder" value="Packet Builder" />
 	<Message key="TemplateDeleteError" description="Error: Template deletion error" value= "This scheme can not be removed or modified."/>
 	<Message key="TitleError" description="Title: Error" value= "Error"/> <!--TODO: Studio?-->
 	<Message key="NoPackets" description="Error: No packets to send" value="No one packet selected. Nothing to send."/>
@@ -740,7 +738,6 @@
 		 value="Regular expression syntax error: {error}.">
 		<Param name="error"/>
 	</Message>
-	<Message key="AllFilesFilter" description="All files filter" value="All Files|*|"/>
 
 	<!-- Cell Find -->
 	<Message key="Find" description="Title: Find" value="Find"/>

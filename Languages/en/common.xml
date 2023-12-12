@@ -21,4 +21,10 @@
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
 
+	<Message key="Save to File" description="Button: Save to File"/>
+
+	<Message key="AllFilesFilter" description="All files filter" value="All Files|*.*|"/>
+	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
+
+	<Message key="bytes" description="Common string: bytes, as in &quot;... NN bytes&quot;" value="bytes"/>
 </Definition>

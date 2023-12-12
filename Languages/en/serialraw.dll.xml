@@ -8,8 +8,6 @@
     <Item text="Line View displays the state of all modem control lines."/>
   </Enumeration>
 
-  <Message key="Error" description="Error title"/>
-
   <Enumeration key="DataRepeater" description="Data Repeater">
     <Item text="Data Repeater"/>
     <Item text="Data Repeater echoes monitored serial data to the physical serial port or ports. It may be added to a serial monitoring session or serial log playback session."/>
@@ -43,7 +41,6 @@
 	<Message key="Reads" description="Data View Part: Reads"/>
 	<Message key="Writes" description="Data View Part: Writes"/>
 	<Message key="Buffer size" description="Buffer size"/>
-	<Message key="bytes" description="bytes"/>
 
 	<Message key="PnP Event: Connect" description="PnP Event: Connect"/>
 	<Message key="PnP Event: Disconnect" description="PnP Event: Disconnect"/>

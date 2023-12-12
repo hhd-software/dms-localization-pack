@@ -235,7 +235,6 @@
 	<Message key="Enter register values." description="Enter register values."/>
 	<Message key="Add sub-requests." description="Add sub-requests."/>
 	<Message key="Save to binary file" description="Command: Save to binary file" value="Save to Binary File" />
-	<Message key="Save to file" description="Command: Save to file" value="Save to File"/>
 	<Message key="Load from file" description="Command: Load from file" value="Load from File"/>
 	<Message key="Can't create file!" description="Error creating file" value="Error creating file"/>
 	<Message key="Can't load from file!" description="Error loading file" value="Error loading from file!"/>

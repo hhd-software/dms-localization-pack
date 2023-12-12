@@ -861,7 +861,6 @@
 		<Item text="False"/>
 	</Enumeration>
 	<Message key="Request Name" description="Field: Request Name" value="Request Name"/>
-	<Message key="Delay" description="Field: Delay" value="Delay"/>
 	<Message key="Request Subtype" description="Field: Request Subtype" value="Request Subtype"/>
 	<Message key="Interface" description="Field: Interface" value="Interface"/>
 	<Message key="Request Type" description="Field: Request Type" value="Request Type"/>

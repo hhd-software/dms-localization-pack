@@ -161,7 +161,6 @@
 		<Param name="number"/>
 	</Message>
 
-	<Message optional="true" key="Delay: " description="Field: Delay" value="Delay"/>
 	<Message optional="true" key="Enable Control" description="Field: Enable Control" value="Enable Control"/>
 
 	<Message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
@@ -213,7 +212,6 @@
 	<Message optional="true" key="ExtensionCode" description="Field: ExtensionCode" value="ExtensionCode"/>
 	<Message optional="true" key="Description of Extension Unit (StringDescriptor ID)" description="Field: Description of Extension Unit (StringDescriptor ID)" value="Description of Extension Unit (StringDescriptor ID)"/>
 	<Message optional="true" key="Terminal Link" description="Field: Terminal Link" value="Terminal Link"/>
-	<Message optional="true" key="Delay" description="Field: Delay" value="Delay"/>
 	<Message optional="true" key="FormatTag" description="Field: FormatTag" value="FormatTag"/>
 	<Message optional="true" key="Attributes" description="Field: Attributes" value="Attributes"/>
 	<Message optional="true" key="Lock Delay Units" description="Field: Lock Delay Units" value="Lock Delay Units"/>

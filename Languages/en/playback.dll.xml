@@ -138,15 +138,12 @@
 	</Enumeration>
 
 	<Message key="Searching for log files" description="Message: Searching for log files" value="Searching for log files"/>
-	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
 	<Message key="Stepped" description="Playback list item text" value="Stepped"/>
 	<Message key="Continuous" description="Playback list item text" value="Continuous"/>
-	<Message key="Error" description="Title: Error" value="Error"/>
 	<Message key="Unable to delete selected playback files" description="Message: Unable to delete selected playback files" value="Unable to delete selected playback files. At least one of them is currently playing."/>
 	<!--<Message key="Log File Playback" description="" value="Log File Playback"/>-->
 	<Message key="Continue Playback" description="Message: Continue Playback" value="Continue Playback\nPress the Next button to continue playback."/>
 	<Message key="DifferentArchError" description="Message: Cannot playback log file" value="This log file stream was created on a machine with different processor architecture and cannot be played back."/>
-	<Message key="Playback" description="Title: Playback" value="Playback"/>
 
 	<Message key="Playback settings" description="Configuration window: Playback settings" />
 	<Message key="Virtual device configuration" description="Configuration window: Virtual Device Configuration" value="Virtual Device Configuration"/>

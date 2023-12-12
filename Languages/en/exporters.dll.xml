@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Message key="DefaultPath" description="Default path" value="Default"/>
-  <Message key="Error" description="" value="Error"/>
-  <Message key="ApplyError" description="" value="Destination path not specified"/>
-  <Message key="OutFilter" description="" value="All Files|*|"/>
-  <Message key="EmptyPath" description="Empty path" value="Empty"/>
+  <Message key="ApplyError" description="Exporter config error: destination path not specified" value="Destination path not specified"/>
 
   <Enumeration key="RawExporter" description="Raw Exporter Component">
     <Item text="Raw Exporter"/>
@@ -21,11 +17,9 @@
     <Param name="error" format="b016x"/>
   </Message>
 
-  <Message key="WritingErrorTitle" description="Exporting error window title" value="Exporting Error"/>
-
   <Message key="Text Exporter paused" description="Text Exporter paused message" value="Text Exporter has been paused due to disk writing error. Check if there is enough available disk space or for other disk-related errors and either Resume the operation, or remove Text Exporter from the session."/>
 
-  <Message key="RawWriterCreateError" description="Error during export" value="There was an error during export initialization: {error} ({error code})">
+  <Message key="RawWriterCreateError" description="Exporter initialization error" value="Exporter initialization error: {error} ({error code})" revision="1">
     <Param name="error code" format="b016x"/>
     <Param name="error"/>
   </Message>

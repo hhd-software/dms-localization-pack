@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-	<Message key="ErrorTitle" description="Title: Error" value="Error"/>
 
 	<Enumeration key="NetError" description="Network errors enumeration">
 		<Item text="Memory corruption"/>
@@ -18,7 +17,6 @@
 	<Message key="NetTerminal" description="Title: Network Terminal" value="Network Terminal"/>
 
 	<Message key="StructureNotFound" description="Error: Structure not found" value="structure definition is not found. Network Monitor is unable to display any results."/>
-	<Message key="bytes" description="Text: bytes" value="bytes"/>
 
 	<Message key="NetTermSizeError" description="Error: Packet size larger than Adapter MTU size"
 			 value="Packet ({packetno}): Size of packet ({size}) larger than Adapter MTU size ({maxsize}).">

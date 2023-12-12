@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Message key="PacketBindException" description="Exception calling process() function" value="Exception {exception} at {file}({line}) {message}">
-    <Param name="exception" />
-    <Param name="file"/>
-    <Param name="line"/>
-    <Param name="message"/>
-  </Message>
-
-  <Message key="PrepareException" description="Exception calling prepare() function" value="Exception {exception} at {file}({line}) {message}">
+  <Message key="PrepareException" description="Exception calling custom visualizer" value="Exception {exception} at {file}({line}) {message}">
     <Param name="exception" />
     <Param name="file"/>
     <Param name="line"/>
@@ -46,7 +39,7 @@
 
   <Message key="TextFileFilter" description="Text files filter string" value="Text files|*.txt|HTML files|*.html|" revision="1"/>
   <Message key="Data Conversion" description="Data conversion operation name" value="Converting Data"/>
-  <Message key="Find Operation" description="Find operation" value="Finding text"/>
+  <Message key="Find Operation" description="Find operation" value="Searching for text" revision="1"/>
 
   <Message key="ExportHeader" description="Exporting Data" value="Exporting Data"/>
   <Message key="CopyHeader" description="Copying Data" value="Copying Data"/>

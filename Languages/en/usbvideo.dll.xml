@@ -244,7 +244,6 @@
 	<Message optional="true" key="P Frame Rate" description="Field: P Frame Rate" value="P Frame Rate"/>
 	<Message optional="true" key="Compression Quality" description="Field: Compression Quality" value="Compression Quality"/>
 	<Message optional="true" key="Compression Window Size" description="Field: Compression Window Size" value="Compression Window Size"/>
-	<Message optional="true" key="Delay" description="Field: Delay" value="Delay"/>
 	<Message optional="true" key="Max Video Frame Size" description="Field: Max Video Frame Size" value="Max Video Frame Size"/>
 	<Message optional="true" key="Max Payload Transfer Size" description="Field: Max Payload Transfer Size" value="Max Payload Transfer Size"/>
 	<!--IDS_STRING1142          "Clock Frequency:"

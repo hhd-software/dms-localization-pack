@@ -33,12 +33,6 @@
 		</Item>
 	</Enumeration>
 
-	<Message key="ProgressStage" description="Download job progress" value="{stage}{has progress?}: {percent} %{|has progress}…{?has progress}">
-		<Param name="stage"/>
-		<Param name="has progress" format="?"/>
-		<Param name="percent"/>
-	</Message>
-
   <Message key="Do you want to cancel all active download tasks?" description="Do you want to cancel all active download tasks?"/>
 
 	<!-- Proxy Page -->
@@ -47,7 +41,6 @@
 	<Message key="Autodetect proxy settings" description="Choice: Autodetect proxy settings" />
 	<Message key="Do not use proxy" description="Choice: Do not use proxy" />
 	<Message key="Use the following proxy (HTTP):" description="Choice: Use the following proxy (HTTP)" />
-	<Message key="Settings" description="Group box: Settings" />
 	<Message key="Authentication" description="Group box: Authentication" />
 	<Message key="Authentication is not required" description="Choice: Authentication is not required" />
 	<Message key="Authenticate me as logged on user" description="Choice: Authenticate me as logged on user" />
