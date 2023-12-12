@@ -1,35 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Coloring" value="Visualizadores de datos" revision="0" />
+  <Message key="Component:" value="Componente:" revision="0" />
+  <Message key="Background:" value="Fondo:" revision="0" />
+  <Message key="Bold" value="Negrito" revision="0" />
+  <Message key="Italic" value="Сursiva" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Esquema actual no guardado&gt;" revision="0" />
+  <Message key="DeleteBuiltin" value="Este esquema está integrado y no puede suprimirse." revision="0" />
+  <Message key="SaveBuiltin" value="No se puede guardar un esquema con nombre incorporado." revision="0" />
+  <Message key="SchemeExists" value="Este esquema ya existe. ¿Desea anularlo?" revision="0" />
+  <Message key="ResetAllConfirm" value="Al restablecer los filtros, todas las páginas volverán a la configuración de filtros predeterminada, conservando los esquemas definidos por el usuario. Las sesiones de monitorización en curso no se verán afectadas. ¿Desea continuar?" revision="0" />
+  <Message key="ResetAllColorsConfirm" value="Al restablecer los colores, todos los módulos de procesamiento de datos volverán a la configuración de colores predeterminada, conservando los esquemas definidos por el usuario. Las sesiones de monitorización en curso no se verán afectadas. ¿Desea continuar?" revision="0" />
+  <Message key="Apply this scheme" value="Aplicar este esquema" revision="0" />
   <Enumeration key="FilterCustomize">
-    <Item />
-    <Item />
+    <Item value="Personalice…" revision="0" />
+    <Item value="Personalizar filtros" revision="0" />
   </Enumeration>
   <Enumeration key="ColorCustomize">
     <Item />
-    <Item />
+    <Item value="Personalizar colores" revision="0" />
   </Enumeration>
   <Enumeration key="FilterResetAll">
     <Item />
-    <Item />
+    <Item value="Restablecer todos los filtros a los valores por defecto" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Negro" revision="0" />
+    <Item value="Blanco" revision="0" />
+    <Item value="Granate" revision="0" />
+    <Item value="Verde oscuro" revision="0" />
+    <Item value="Aceituna" revision="0" />
+    <Item value="Azul oscuro" revision="0" />
+    <Item value="Púrpura" revision="0" />
+    <Item value="Aquamarin" revision="0" />
+    <Item value="Gris claro" revision="0" />
+    <Item value="Gris oscuro" revision="0" />
+    <Item value="Rojo" revision="0" />
+    <Item value="Verde" revision="0" />
+    <Item value="Amarillo" revision="0" />
+    <Item value="Azul" revision="0" />
+    <Item value="Magenta" revision="0" />
+    <Item value="Cian" revision="0" />
+    <Item value="Personalizado" revision="0" />
   </Enumeration>
 </Language>
