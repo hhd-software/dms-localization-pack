@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ApplyError" value="Caminho de destino não especificado" revision="0" />
+  <Message key="WritingError" value="Ocorreu um erro durante a exportação: {error}" revision="0" />
+  <Message key="WritingErrorTitle" value="Erro de exportação" revision="0" />
+  <Message key="Text Exporter paused" value="O Exportador de texto foi colocado em pausa devido a um erro de escrita no disco. Verifique se existe espaço disponível suficiente no disco ou se existem outros erros relacionados com o disco e retome a operação ou remova o Exportador de texto da sessão." revision="0" />
+  <Message key="RawWriterCreateError" value="Ocorreu um erro durante a inicialização da exportação: {error} ({error code})" revision="0" />
   <Message key="Export Filter" value="Filtro de exportação" revision="0" />
   <Message key="Exporter Settings" value="Configurações de exportação" revision="1" />
   <Message key="Specify location for export file" value="Localização do ficheiro de exportação" revision="0" />
   <Message key="No caching" value="Sem cache" revision="0" />
   <Enumeration key="RawExporter">
-    <Item />
-    <Item />
+    <Item value="Exportador de dados brutos" revision="0" />
+    <Item value="O exportador de dados brutos escreve todos os dados monitorizados no ficheiro de saída em formato binário. Suporta filtragem e permite a configuração do protocolo de raiz." revision="0" />
   </Enumeration>
   <Enumeration key="TextExporter">
-    <Item />
-    <Item />
+    <Item value="Exportador de texto" revision="0" />
+    <Item value="O Exportador de texto aplica um protocolo selecionado aos dados monitorizados, apresenta-os como um fluxo de campos textuais e escreve a saída num ficheiro de texto UNICODE. Suporta filtragem e permite a configuração do protocolo de raiz." revision="0" />
   </Enumeration>
 </Language>
