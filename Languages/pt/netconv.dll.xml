@@ -1,17 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size_Error" value="Limite de tamanho do pacote excedido." revision="0" />
+  <Message key="NetTerminal" value="Terminal de rede" revision="0" />
+  <Message key="StructureNotFound" value="A definição da estrutura não foi encontrada. O Monitor de Rede não consegue apresentar quaisquer resultados." revision="0" />
+  <Message key="NetTermSizeError" value="Pacote ({packetno}): Tamanho do pacote ({size}) superior ao tamanho da MTU do adaptador ({maxsize})." revision="0" />
+  <Message key="NetTermTooltipText" value="Endereço físico: {mac}\nUnidade de transmissão máxima: {size} bytes\nVelocidade da ligação: {speed} MB\nIP: {ip}\nEstado: {status}" revision="0" />
+  <Message key="CellConvTooltip" value="Pacote:\t\t{number}\nTempo:\t\t{timestamp}\nTamanho do pacote:\t{size} bytes\nTamanho dos dados:\t{datasize} bytes{has_name?}\nDispositivo:\t\t{devicename}{?has_name}\n" revision="0" />
   <Enumeration key="NetError">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Corrupção da memória" revision="0" />
+    <Item value="Não há recursos suficientes para o pacote" revision="0" />
+    <Item value="Pacote demasiado pequeno para ser um pacote válido" revision="0" />
+    <Item value="O adaptador não está conectado ou foi desconectado" revision="0" />
+    <Item value="O tamanho do pacote é demasiado grande para a placa de rede ou, possivelmente, a placa de rede indicou uma transmissão de pacote incorrecta ao seu controlador." revision="0" />
+    <Item value="O motor subjacente está a fechar." revision="0" />
+    <Item value="O controlador subjacente está atualmente a reiniciar a placa de rede." revision="0" />
+    <Item value="Erro de rede desconhecido." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">
-    <Item />
-    <Item />
+    <Item value="Desconectado" revision="0" />
+    <Item value="Conectado" revision="0" />
   </Enumeration>
 </Language>
