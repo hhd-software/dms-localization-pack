@@ -1,32 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LogWriteError" value="La grabación de datos se ha interrumpido debido al siguiente error: {error text} ({error code})" revision="0" />
+  <Message key="LogEmptyError" value="Ahora es imposible ejecutar el comando Guardar en Log porque no hay datos históricos disponibles para la sesión de monitorización actual. Considere la posibilidad de añadir el módulo de procesamiento Grabación de datos a una sesión de supervisión la próxima vez o añada uno o varios visualizadores de datos heredados para disponer automáticamente de datos históricos." revision="0" />
+  <Message key="LogProgress" value="Espere mientras se guarda la sesión actual en un archivo." revision="0" />
+  <Message key="MaxLogs" value="No se pueden utilizar más de 999 logs por carpeta." revision="0" />
+  <Message key="Default" value="Ubicación por defecto" revision="0" />
+  <Message key="Unlimited" value="Ilimitado" revision="0" />
+  <Message key="MinSizeLimit" value="Tamaño máximo del archivo" revision="0" />
+  <Message key="MaxSizeOutOfRange" value="El tamaño máximo de un archivo está fuera del rango permitido. El rango permitido es de {min} a {max}." revision="0" />
+  <Message key="MaxFilesOutOfRange" value="El número máximo de archivos de log está fuera del rango permitido. Debe ser un número entero positivo mayor que 1." revision="0" />
+  <Message key="PathIsEmpty" value="La ruta del archivo de registro de salida está vacía." revision="0" />
+  <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Tamaño máx: {size}{|is size limit}Duración máx: {time}{?is size limit}{has file limit?}; {is single file?}Archivo único{|is single file}Hasta {files} archivos{?is single file}{?has file limit}{?has limits}" revision="0" />
+  <Message key="Log8Filter" value="Archivos de logs DMS (*.dmslog8)|*.dmslog8|Todos los archivos|*|" revision="0" />
+  <Message key="CreateLogFailed" value="Error de creación de archivo de log: {error text} ({error code})." revision="1" />
+  <Message key="Save to Log" value="Guardar en Log" revision="0" />
+  <Message key="Settings group.Logging" value="Registro" revision="0" />
+  <Message key="Recording Page" value="Grabación/Reproducción" revision="0" />
+  <Message key="IncorrectFolder" value="Se ha especificado una carpeta incorrecta. No se puede utilizar como carpeta de destino para los archivos de log." revision="0" />
+  <Message key="Recording" value="Grabación" revision="0" />
+  <Message key="Select the location the program will use to store recorded data." value="Seleccione la ubicación que el programa utilizará para almacenar los datos grabados." revision="0" />
+  <Message key="Compress recorded data" value="&amp;Comprimir datos grabados" revision="0" />
+  <Message key="Playback" value="Reproducción" revision="0" />
+  <Message key="Select the location the program will use to playback." value="Seleccione la ubicación que el programa utilizará para la reproducción." revision="0" />
+  <Message key="Recurse sub-directories" value="&amp;Recurrir a subdirectorios" revision="0" />
   <Message key="Data Recording Properties" value="Configuración de registro de datos" revision="1" />
+  <Message key="No limits enforced" value="No se aplican límites" revision="0" />
+  <Message key="Enforce size limit:" value="Aplicar el límite de tamaño:" revision="0" />
+  <Message key="Enforce time limit:" value="Aplicar el límite de tiempo:" revision="0" />
+  <Message key="Single file" value="Archivo único" revision="0" />
+  <Message key="Multiple files. Maximum:" value="Múltiples archivos. Máximo:" revision="0" />
+  <Message key="Specify location of log file:" value="Especifique la ubicación del archivo de log:" revision="0" />
   <Enumeration key="LogConverter">
-    <Item />
-    <Item />
+    <Item value="Grabación de datos legados" revision="0" />
+    <Item value="La grabación de datos registra los datos monitorizados en el archivo de disco para su posterior reproducción. Admite el formato de archivo DMSLOG7." revision="0" />
   </Enumeration>
   <Enumeration key="LogConverter4">
-    <Item />
-    <Item />
+    <Item value="Grabación de datos" revision="0" />
+    <Item value="La grabación de datos registra los datos supervisados en el archivo de disco para su posterior reproducción. El nuevo formato permite escribir en varios archivos y limitar el tamaño máximo de los archivos." revision="0" />
   </Enumeration>
   <Enumeration key="SaveNow">
-    <Item />
-    <Item />
+    <Item value="Guardar en Log" revision="0" />
+    <Item value="Guardar la sesión supervisada en un archivo de log" revision="0" />
   </Enumeration>
   <Enumeration key="StartRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Iniciar/Reanudar grabación" revision="0" />
+    <Item value="Iniciar o reanudar la grabación de la sesión" revision="0" />
   </Enumeration>
   <Enumeration key="PauseRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausar grabación" revision="0" />
+    <Item value="Pausa la grabación de la sesión actual" revision="0" />
   </Enumeration>
   <Enumeration key="StopRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Dejar de grabar" revision="0" />
+    <Item value="Parar la grabación de la sesión actual" revision="0" />
   </Enumeration>
   <Enumeration key="BrowsePlayback">
-    <Item />
-    <Item />
+    <Item value="Configurar ruta de reproducción…" revision="0" />
+    <Item value="Especificar la ubicación de los archivos de registro para la reproducción" revision="0" />
   </Enumeration>
 </Language>
