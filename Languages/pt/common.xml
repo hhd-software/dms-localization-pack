@@ -12,4 +12,8 @@
   <Message key="Error" value="Erro" revision="0" />
   <Message key="CsvFilesFilter" value="Ficheiros separados por vírgulas|*.csv|" revision="0" />
   <Message key="ImageFilesFilter" value="Ficheiros JPEG|*.jpg|Ficheiros BMP|*.bmp|Ficheiros PNG|*.png|Ficheiros TIFF|*.tiff|Ficheiros GIF|*.gif|" revision="0" />
+  <Message key="Save to File" value="Guardar em ficheiro" revision="0" />
+  <Message key="AllFilesFilter" value="Todos os ficheiros|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Vazio" revision="0" />
+  <Message key="bytes" value="bytes" revision="0" />
 </Language>

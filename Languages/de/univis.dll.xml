@@ -41,7 +41,6 @@
   <Message key="SentFormat" value="Gesendet: {bytes}" revision="0" />
   <Message key="TotalFormat" value="Insgesamt: {bytes}" revision="0" />
   <Message key="Process" value="Prozess" revision="0" />
-  <Message key="Delay" value="Verzögerung" revision="0" />
   <Message key="ErrorInput" value="Ungültiger Bereich. Wertebereich ist ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Es können keine Pakete gesendet werden. Netzwerkadapter nicht ausgewählt oder System hat keine angeschlossenen Netzwerkadapter." revision="0" />
   <Message key="LogStartBurst" value="Start (Burst-Modus)..." revision="0" />
@@ -66,7 +65,6 @@
   <Message key="AdapterSelect" value="Adapter auswählen…\nWählen Sie den Standardadapter für das Senden von Paketen" revision="0" />
   <Message key="TemplateAlreadyExists" value="Die Vorlage existiert bereits. Möchten Sie sie überschreiben?" revision="0" />
   <Message key="ErrorRead" value="Fehler beim Lesen aus der Datei. " revision="0" />
-  <Message key="PacketBuilderTitle" value="Packet Builder" revision="0" />
   <Message key="TemplateDeleteError" value="Diese Regelung kann nicht entfernt oder geändert werden." revision="0" />
   <Message key="TitleError" value="Fehler" revision="0" />
   <Message key="NoPackets" value="Kein Paket ausgewählt. Nichts zu senden." revision="0" />
@@ -115,7 +113,6 @@
   <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
   <Message key="CopyrightNotice" value="Erzeugt von HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Syntaxfehler eines regulären Ausdrucks: {error}." revision="0" />
-  <Message key="AllFilesFilter" value="Alle Dateien|*|" revision="0" />
   <Message key="Find" value="Finde" revision="0" />
   <Message key="Type: " value="Typ:" revision="0" />
   <Message key="Fi&amp;nd what: " value="Was fi&amp;nden:" revision="0" />

@@ -48,7 +48,6 @@
   <Message key="Terminal window:" value="Окно терминала:" revision="0" />
   <Message key="Custom Session Type Script Editor" value="Редактор скриптов пользовательских сессий" revision="0" />
   <Message key="Load from File" value="&amp;Загрузить из файла…" revision="0" />
-  <Message key="Save to File" value="&amp;Сохранить в файл…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Мы также предлагаем библиотеку Serial Port Monitoring Control ActiveX, которая позволяет интегрировать мониторинг в ваши приложения." revision="0" />
   <Message key="No terminal" value="Без терминала" revision="0" />
   <Message key="terminal session creation failure" value="Не удалось запустить прослушивание последовательного устройства из-за следующей ошибки: {text} ({code}){access-denied?}\n\nВероятно, эта ошибка означает, что последовательный порт уже открыт другим приложением. Вы можете спокойно проигнорировать эту ошибку и продолжить мониторинг порта.\n\nЕсли вы постоянно следите за открытым последовательным устройством, убедитесь, что опция &quot;Слушать входящие данные...&quot; выключена в окне конфигурации сессии.{?access-denied}" revision="0" />

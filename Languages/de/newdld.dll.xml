@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ProgressStage" value="{stage}{has progress?}: {percent} %{|has progress}…{?has progress}" revision="0" />
   <Message key="Do you want to cancel all active download tasks?" value="Möchten Sie alle aktiven Download-Aufgaben abbrechen?" revision="0" />
   <Message key="Proxy Page" value="Proxy" revision="0" />
   <Message key="Select a proxy settings to be used by &quot;Check For Updates&quot;:" value="Wählen Sie die Proxyserver-Einstellungen, die bei der Suche nach Updates verwendet werden sollen:" revision="0" />
   <Message key="Autodetect proxy settings" value="Autodetect Proxy Einstellungen" revision="0" />
   <Message key="Do not use proxy" value="Keinen Proxy verwenden" revision="0" />
   <Message key="Use the following proxy (HTTP):" value="Verwenden Sie den folgenden Proxy (HTTP):" revision="0" />
-  <Message key="Settings" value="Einstellungen" revision="0" />
   <Message key="Authentication" value="Authentifizierung" revision="0" />
   <Message key="Authentication is not required" value="Eine Authentifizierung ist nicht erforderlich." revision="0" />
   <Message key="Authenticate me as logged on user" value="Mich als angemeldeten Benutzer authentifizieren" revision="0" />

@@ -12,4 +12,8 @@
   <Message key="Error" value="Ошибка" revision="0" />
   <Message key="CsvFilesFilter" value="Файлы с разделителями-запятыми|*.csv|" revision="0" />
   <Message key="ImageFilesFilter" value="JPEG файлы|*.jpg|BMP файлы|*.bmp|PNG файлы|*.png|TIFF файлы|*.tiff|GIF файлы|*.gif|" revision="0" />
+  <Message key="Save to File" value="Сохранить в файл" revision="0" />
+  <Message key="AllFilesFilter" value="Все файлы|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Пусто" revision="0" />
+  <Message key="bytes" value="байт" revision="0" />
 </Language>

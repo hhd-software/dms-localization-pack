@@ -41,7 +41,6 @@
   <Message key="SentFormat" value="Послано: {bytes}" revision="0" />
   <Message key="TotalFormat" value="Всего: {bytes}" revision="0" />
   <Message key="Process" value="Процесс" revision="0" />
-  <Message key="Delay" value="Задержка" revision="0" />
   <Message key="ErrorInput" value="Некорректный диапазон. Диапазон - ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Невозможно отправить пакеты. Сетевой адаптер не выбран или в системе нет подключенных сетевых адаптеров." revision="0" />
   <Message key="LogStartBurst" value="Пуск ( пакетный режим)..." revision="0" />
@@ -66,7 +65,6 @@
   <Message key="AdapterSelect" value="Выбрать адаптер…\nВыбор адаптера по умолчанию для отправки пакетов" revision="0" />
   <Message key="TemplateAlreadyExists" value="Шаблон уже существует. Хотите его заменить?" revision="0" />
   <Message key="ErrorRead" value="Ошибка чтения из файла. " revision="0" />
-  <Message key="PacketBuilderTitle" value="Конструктор пакетов" revision="0" />
   <Message key="TemplateDeleteError" value="Эта схема не может быть удалена или изменена." revision="0" />
   <Message key="TitleError" value="Ошибка" revision="0" />
   <Message key="NoPackets" value="Ни один пакет не выбран. Нечего отправлять." revision="0" />
@@ -115,7 +113,6 @@
   <Message key="OperationPerformed" value="Выполняется запрашиваемая операция..." revision="0" />
   <Message key="CopyrightNotice" value="Создано программой HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Ошибка синтаксиса регулярного выражения: {error}." revision="0" />
-  <Message key="AllFilesFilter" value="Все файлы|*|" revision="0" />
   <Message key="Find" value="Поиск" revision="0" />
   <Message key="Type: " value="Тип:" revision="0" />
   <Message key="Fi&amp;nd what: " value="Н&amp;айти что:" revision="0" />

@@ -48,7 +48,6 @@
   <Message key="Terminal window:" value="Janela do terminal:" revision="0" />
   <Message key="Custom Session Type Script Editor" value="Editor de scripts de tipo de sessão personalizada" revision="0" />
   <Message key="Load from File" value="&amp;Carregar do ficheiro…" revision="0" />
-  <Message key="Save to File" value="&amp;Guardar em ficheiro…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Também oferecemos a biblioteca ActiveX do Controlo de Monitorização de Porta Série, que lhe permite integrar a funcionalidade de monitorização na sua própria aplicação." revision="0" />
   <Message key="No terminal" value="Sem terminal" revision="0" />
   <Message key="Set Custom Flow Control" value="Definir controlo de fluxo personalizado" revision="0" />

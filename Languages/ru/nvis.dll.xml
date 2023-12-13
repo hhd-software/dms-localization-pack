@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="PacketBindException" value="Исключение {exception} в {file}({line}) {message}" revision="0" />
   <Message key="PrepareException" value="Исключение {exception} в {file}({line}) {message}" revision="0" />
   <Message key="BindError" value="Ошибка инициализации пользовательского визуализатора &quot;{visname}&quot;: {message}{has location?} в {line}:{col}{?has location}" revision="0" />
   <Message key="OpenError" value="Ошибка при загрузке файла определений пользовательского визуализатора: {exception} ({code})." revision="0" />
@@ -11,7 +10,7 @@
   <Message key="CustomVisualizerName" value="Пользовательский ({name})" revision="0" />
   <Message key="TextFileFilter" value="Текстовые файлы|*.txt|HTML файлы|*.html|" revision="1" />
   <Message key="Data Conversion" value="Конвертация данных" revision="0" />
-  <Message key="Find Operation" value="Поиск текста" revision="0" />
+  <Message key="Find Operation" value="Поиск текста" revision="1" />
   <Message key="ExportHeader" value="Экспорт данных" revision="0" />
   <Message key="CopyHeader" value="Копирование данных" revision="0" />
   <Message key="Visualizer template name expected" value="Ожидается имя шаблона визуализатора" revision="0" />

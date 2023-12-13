@@ -82,7 +82,6 @@
   <Message key="Enter register values." value="Geben Sie Registerwerte ein." revision="0" />
   <Message key="Add sub-requests." value="Unteranfragen hinzufügen." revision="0" />
   <Message key="Save to binary file" value="Speichern in Binärdatei" revision="0" />
-  <Message key="Save to file" value="In Datei speichern" revision="0" />
   <Message key="Load from file" value="Aus Datei laden" revision="0" />
   <Message key="Can't create file!" value="Fehler beim Erstellen der Datei" revision="0" />
   <Message key="Can't load from file!" value="Fehler beim Laden aus Datei!" revision="0" />

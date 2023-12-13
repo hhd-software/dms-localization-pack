@@ -22,14 +22,11 @@
   <Message key="RangeSelTooltip" value="Начало: {from}\nКонец: {to}\nДлительность: {has days?}{days} дней, {?has days}{has hours?}{hours} часов, {?has hours}{has minutes?}{minutes} минут, {?has minutes}{seconds} секунд." revision="0" />
   <Message key="InvalidRange" value="Диапазон воспроизведения должен иметь длительность не менее секунды." revision="0" />
   <Message key="Searching for log files" value="Поиск лог файлов" revision="0" />
-  <Message key="EmptyPath" value="Пусто" revision="0" />
   <Message key="Stepped" value="Пошаговый" revision="0" />
   <Message key="Continuous" value="Непрерывный" revision="0" />
-  <Message key="Error" value="Ошибка" revision="0" />
   <Message key="Unable to delete selected playback files" value="Невозможно удалить выбранные лог файлы. В настоящее время один из них воспроизводится." revision="0" />
   <Message key="Continue Playback" value="Продолжить воспроизведение\nНажмите кнопку, чтобы продолжить воспроизведение." revision="0" />
   <Message key="DifferentArchError" value="Этот лог был создан на машине с другой архитектурой процессора и не может быть воспроизведен." revision="0" />
-  <Message key="Playback" value="Воспроизведение" revision="0" />
   <Message key="Playback settings" value="Настройки воспроизведения" revision="0" />
   <Message key="Virtual device configuration" value="Конфигурация виртуального устройства" revision="0" />
   <Message key="Import file path" value="Путь к входному файлу" revision="0" />

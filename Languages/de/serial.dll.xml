@@ -48,7 +48,6 @@
   <Message key="Terminal window:" value="Terminal-Fenster:" revision="0" />
   <Message key="Custom Session Type Script Editor" value="Skript-Editor für Benutzersitzungen" revision="0" />
   <Message key="Load from File" value="&amp;Aus Datei laden…" revision="0" />
-  <Message key="Save to File" value="&amp;In Datei speichern…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Wir bieten auch eine ActiveX-Bibliothek für die Überwachung der seriellen Schnittstelle an, mit der Sie die Überwachung in Ihre Anwendungen integrieren können." revision="0" />
   <Message key="No terminal" value="Kein Terminal" revision="0" />
   <Message key="terminal session creation failure" value="Aufgrund des folgenden Fehlers konnte das Abhören eines seriellen Geräts nicht gestartet werden: {text} ({code}){access-denied?}\n\nDieser Fehler bedeutet höchstwahrscheinlich, dass die serielle Schnittstelle bereits von einer anderen Anwendung geöffnet ist. Sie können diesen Fehler getrost ignorieren und mit der Überwachung eines Anschlusses fortfahren.\n\nWenn Sie immer ein geöffnetes serielles Gerät überwachen, stellen Sie sicher, dass die Option &quot;Hören Sie auf eingehende Daten...&quot; im Sitzungskonfigurationsfenster ausgeschaltet ist.{?access-denied}" revision="0" />

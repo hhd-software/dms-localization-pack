@@ -8,10 +8,8 @@
   <Message key="Serial Terminal" value="Serielles Terminal" revision="0" />
   <Message key="Array expected" value="Byte-Array erwartet" revision="0" />
   <Message key="Invalid constant" value="Ungültiger konstanter Wert" revision="0" />
-  <Message key="New" value="Neu" revision="0" />
   <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Gesendet: {sent} Empfangen: {received}" revision="0" />
   <Message key="Data Paste" value="Bitte warten Sie, während die Daten gesendet werden." revision="0" />
-  <Message key="Find Operation" value="Suche nach Text" revision="0" />
   <Message key="NoDevicesFound" value="Keine seriellen Geräte gefunden." revision="0" />
   <Message key="TerminalError" value="Terminalsitzung kann nicht erstellt werden für {friendly name}: {error text} ({error code})" revision="0" />
   <Message key="TerminalSendError" value="Daten können nicht gesendet: {error text} ({error code})" revision="0" />
@@ -24,7 +22,6 @@
   <Message key="Enter the configuration name." value="Geben Sie den Konfigurationsnamen ein." revision="0" />
   <Message key="Configuration will be lost! Do you want to continue?" value="Die Konfiguration wird verloren gehen! Möchten Sie fortfahren?" revision="0" />
   <Message key="The configuration will be deleted. Do you want to continue?" value="Die Konfiguration wird gelöscht. Möchten Sie fortfahren?" revision="0" />
-  <Message key="Save to File" value="In Datei speichern" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Die Komponente Serielles Terminal ist abgelaufen!" revision="0" />
   <Message key="Session Configuration" value="Konfiguration der Sitzung" revision="0" />
   <Message key="Device:" value="Gerät:" revision="0" />
@@ -34,7 +31,6 @@
   <Message key="Loop mode:" value="Schleifenmodus:" revision="0" />
   <Message key="loops" value="Schleifen" revision="0" />
   <Message key="milliseconds" value="Millisekunden" revision="0" />
-  <Message key="Delay:" value="Verzögerung:" revision="0" />
   <Message key="Send" value="Senden" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Terminal-Sitzung starten…" revision="0" />

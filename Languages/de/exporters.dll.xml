@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DefaultPath" value="Standard" revision="0" />
-  <Message key="Error" value="Fehler" revision="0" />
   <Message key="ApplyError" value="Pfad nicht angegeben" revision="0" />
-  <Message key="OutFilter" value="Alle Dateien|*|" revision="0" />
-  <Message key="EmptyPath" value="Leere" revision="0" />
   <Message key="WritingError" value="Beim Exportieren ist ein Fehler aufgetreten: {error}" revision="0" />
-  <Message key="WritingErrorTitle" value="Fehler beim Exportieren" revision="0" />
   <Message key="Text Exporter paused" value="Der Textexporter wurde aufgrund eines Disk-Schreibfehlers angehalten. Prüfen Sie, ob genügend freier Speicherplatz auf dem Datenträger vorhanden ist, und setzen Sie den Textexporter entweder fort oder entfernen Sie ihn aus der Sitzung." revision="0" />
-  <Message key="RawWriterCreateError" value="Bei der Initialisierung des Exports ist ein Fehler aufgetreten: {error} ({error code})" revision="0" />
+  <Message key="RawWriterCreateError" value="Fehler bei der Initialisierung des Exporters: {error} ({error code})" revision="1" />
   <Message key="Export Filter" value="Filter exportieren" revision="0" />
   <Message key="Exporter Settings" value="Export-Einstellungen" revision="1" />
   <Message key="Specify location for export file" value="Speicherort der Exportdatei " revision="0" />

@@ -41,7 +41,6 @@
   <Message key="SentFormat" value="Enviado: {bytes}" revision="0" />
   <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
   <Message key="Process" value="Proceso" revision="0" />
-  <Message key="Delay" value="Retraso" revision="0" />
   <Message key="ErrorInput" value="Rango no válido. El rango de valores es ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="No se pueden enviar paquetes. Adaptador de red no seleccionado o el sistema no tiene adaptadores de red conectados." revision="0" />
   <Message key="LogStartBurst" value="Inicio (modo ráfaga)..." revision="0" />
@@ -63,7 +62,6 @@
   <Message key="AdapterSelect" value="Seleccionar adaptador…\nSeleccione el adaptador predeterminado para el envío de paquetes" revision="0" />
   <Message key="TemplateAlreadyExists" value="La plantilla ya existe. ¿Desea sobrescribirla?" revision="0" />
   <Message key="ErrorRead" value="Error de lectura del fichero." revision="0" />
-  <Message key="PacketBuilderTitle" value="Generador de paquetes" revision="0" />
   <Message key="TemplateDeleteError" value="Este esquema no puede eliminarse ni modificarse." revision="0" />
   <Message key="NoPackets" value="Este esquema no puede eliminarse ni modificarse." revision="0" />
   <Message key="BigPacket" value="Tamaño del paquete superior a la MTU estándar (1500). Envío no garantizado." revision="0" />
@@ -107,7 +105,6 @@
   <Message key="OperationPerformed" value="Se está realizando la operación solicitada..." revision="0" />
   <Message key="CopyrightNotice" value="Generado por HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Error de sintaxis de expresión regular: {error}." revision="0" />
-  <Message key="AllFilesFilter" value="Todos los archivos|*|" revision="0" />
   <Message key="Type: " value="Tipo: " revision="0" />
   <Message key="Fi&amp;nd what: " value="En&amp;cuentre lo que: " revision="0" />
   <Message key="Regular expression" value="Expresión regular" revision="0" />

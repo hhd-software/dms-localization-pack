@@ -81,13 +81,13 @@
     <Item value="Mensagem" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Mostrar pedidos de leitura" revision="0" />
+    <Item value="Mostrar pedidos de escrita" revision="0" />
+    <Item value="Mostrar carimbos de tempo" revision="0" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
-    <Item />
-    <Item />
+    <Item value="Vista avançada da consola" revision="0" />
+    <Item value="A Vista de consola avançada funciona como uma janela de consola de série e apresenta os caracteres recebidos do dispositivo de série. É um visualizador útil para monitorizar protocolos baseados em texto." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewConverter">
     <Item value="Vista HTTP" revision="0" />

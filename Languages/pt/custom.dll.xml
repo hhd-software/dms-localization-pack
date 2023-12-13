@@ -1,73 +1,117 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Protocols Editor" value="Editor de protocolos" revision="0" />
+  <Message key="Line" value="Linha" revision="0" />
+  <Message key="Protocols List" value="Lista de protocolos" revision="0" />
+  <Message key="Usb" value="Usb" revision="0" />
+  <Message key="Serial" value="Série" revision="0" />
+  <Message key="Network" value="Rede" revision="0" />
+  <Message key="Unknown" value="Não atribuído" revision="0" />
+  <Message key="Files" value="Ficheiros" revision="0" />
+  <Message key="Protocols" value="Protocolos" revision="0" />
+  <Message key="Visualizers" value="Visualizadores" revision="0" />
+  <Message key="FileNotSaved" value="O documento atual foi modificado. Deseja guardá-lo?" revision="0" />
+  <Message key="CompileErrors" value="Erros de compilação{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Compile Errors" value="Erros de compilação" revision="0" />
+  <Message key="Warning" value="Aviso" revision="0" />
+  <Message key="RunningSessions" value="Tem sessões de monitorização em curso. As suas sessões serão interrompidas." revision="0" />
+  <Message key="ResetSourceChanges" value="Todas as alterações efectuadas nos ficheiros de protocolo predefinidos serão perdidas! Pretende continuar?" revision="0" />
+  <Message key="Compile" value="Compilar" revision="0" />
+  <Message key="DeleteProtocolFile" value="Erro ao eliminar o ficheiro selecionado: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Erro ao guardar o ficheiro&quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="Os seguintes ficheiros foram modificados fora do Device Monitoring Studio :\r\n{file}\r\nQueres recarregá-lo?" revision="0" />
+  <Message key="FilterErrorTitle" value="Erro de compilação do filtro" revision="0" />
+  <Message key="FilterError" value="O ficheiro de estrutura não foi compilado ou foi compilado com erros" revision="0" />
+  <Message key="clr.scintilla_colors" value="Cores do editor de protocolos" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.fill" value="Fundo de texto simples" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Texto simples em primeiro plano" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Cor de fundo das palavras-chave" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Palavras-chave cor de primeiro plano" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Comentários cor de fundo" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Comentários cor de primeiro plano" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.fill" value="Cor de fundo dos números" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Cor de primeiro plano dos números" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Cadeias de caracteres fundo" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Primeiro plano das cadeias de caracteres" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Fundo dos identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Primeiro plano de identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.fill" value="Fundo do pré-processador" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Primeiro plano do pré-processador" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Cor de fundo dos operadores" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Cor de primeiro plano dos operadores" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Fundo de funções" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Primeiro plano de funções" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Fundo de pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Primeiro plano de pragmas" revision="0" />
+  <Message key="toolbar.Protocols" value="Lista de protocolos" revision="0" />
   <Enumeration key="ProtocolNew">
-    <Item />
-    <Item />
+    <Item value="Novo ficheiro de &amp;protocolo…" revision="0" />
+    <Item value="Criar um novo ficheiro de definição de protocolo" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Abrir ficheiro de protocolo" revision="0" />
+    <Item value="Abrir ficheiro de definição de protocolo existente" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Guardar &amp;todos os ficheiros de protocolo" revision="0" />
+    <Item value="Guardar no disco todos os ficheiros de definição de protocolos abertos" revision="0" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item />
-    <Item />
+    <Item value="Substituir…" revision="0" />
+    <Item value="Substituir texto" revision="0" />
   </Enumeration>
   <Enumeration key="Recompile">
-    <Item />
-    <Item />
+    <Item value="&amp;Recompilar" revision="0" />
+    <Item value="Compilar estruturas" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Anular" revision="0" />
+    <Item value="Anular a última ação" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Refazer" revision="0" />
+    <Item value="Refazer a última ação" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEditor">
-    <Item />
-    <Item />
+    <Item value="Editor de &amp;protocolos" revision="0" />
+    <Item value="Itens do menu do Editor de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
     <Item />
-    <Item />
+    <Item value="Ficheiro de definição de protocolo" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="StructureFormats">
-    <Item />
+    <Item value="Ficheiro de definição de protocolo (*.h)|*.h|" revision="0" />
   </Enumeration>
   <Enumeration key="ErrorColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ficheiro" revision="0" />
+    <Item value="Linha" revision="0" />
+    <Item value="Descrição" revision="0" />
   </Enumeration>
   <Enumeration key="StructureEditor">
-    <Item />
-    <Item />
+    <Item value="Editor de protocolos" revision="0" />
+    <Item value="não utilizado" revision="0" />
   </Enumeration>
   <Enumeration key="Custom">
-    <Item />
-    <Item />
+    <Item value="Protocolos personalizados" revision="0" />
+    <Item value="A funcionalidade Protocolos personalizados permite-lhe utilizar o editor incorporado ou externo para modificar protocolos incorporados ou adicionar protocolos personalizados ao Device Monitoring Studio para serem utilizados com a Vista de estrutura, o Filtro de captura e outras funções." revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Reverter tudo" revision="0" />
+    <Item value="Reverter todas as alterações feitas aos ficheiros de definição de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
-    <Item />
-    <Item />
+    <Item value="Recompilação automática" revision="0" />
+    <Item value="Recompilar automaticamente os ficheiros fonte se forem alterados" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolDeleteFile">
-    <Item />
-    <Item />
+    <Item value="Eliminar ficheiro" revision="0" />
+    <Item value="Eliminar o ficheiro fonte selecionado do diretório de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpenFolder">
-    <Item />
-    <Item />
+    <Item value="Abrir a pasta de protocolos" revision="0" />
+    <Item value="Abrir a pasta de ficheiros de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
     <Item />
@@ -75,7 +119,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
-    <Item />
+    <Item value="Opção" revision="0" />
     <Item lookup="Value" />
   </Enumeration>
 </Language>

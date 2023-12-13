@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Уведомление о положении визуализатора &quot;Линейный вид&quot;" revision="0" />
-  <Message key="Error" value="Ошибка" revision="0" />
   <Message key="RepeaterSkip" value="Не отправлять" revision="0" />
   <Message key="Basic" value="Базовый" revision="0" />
   <Message key="Complete" value="Полный" revision="0" />
@@ -12,7 +11,6 @@
   <Message key="Reads" value="Считываний" revision="0" />
   <Message key="Writes" value="Записей" revision="0" />
   <Message key="Buffer size" value="Объем буфера" revision="0" />
-  <Message key="bytes" value="байт" revision="0" />
   <Message key="PnP Event: Connect" value="Событие PnP: Соединение" revision="0" />
   <Message key="PnP Event: Disconnect" value="Событие PnP: Отключение" revision="0" />
   <Message key="ProcessOpen" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) попытался открыть устройство." revision="0" />

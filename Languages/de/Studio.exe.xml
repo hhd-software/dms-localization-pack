@@ -326,7 +326,6 @@
   <Message key="None" value="Keine" revision="0" />
   <Message key="Request" value="Anfrage" revision="0" />
   <Message key="Request Name" value="Anfrage Name" revision="0" />
-  <Message key="Delay" value="Verzögerung" revision="0" />
   <Message key="Request Subtype" value="Anfrage Subtyp" revision="0" />
   <Message key="Interface" value="Interface" revision="0" />
   <Message key="Request Type" value="Anfrage Typ" revision="0" />

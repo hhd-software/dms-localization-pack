@@ -298,7 +298,6 @@
   <Message key="None" value="None" revision="0" />
   <Message key="Request" value="Solicitar" revision="0" />
   <Message key="Request Name" value="Nombre de la solicitud " revision="0" />
-  <Message key="Delay" value="Retraso" revision="0" />
   <Message key="Request Subtype" value="Subtipo de solicitud" revision="0" />
   <Message key="Interface" value="Interfaz" revision="0" />
   <Message key="Request Type" value="Tipo de solicitud" revision="0" />

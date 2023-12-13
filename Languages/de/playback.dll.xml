@@ -22,14 +22,11 @@
   <Message key="RangeSelTooltip" value="Start: {from}\nEnde: {to}\nDauer: {has days?}{days} Tage, {?has days}{has hours?}{hours} Stunden, {?has hours}{has minutes?}{minutes} Minuten, {?has minutes}{seconds} Sekunden." revision="0" />
   <Message key="InvalidRange" value="Ein Abspielbereich muss mindestens eine Sekunde lang sein." revision="0" />
   <Message key="Searching for log files" value="Suche nach Protokolldateien" revision="0" />
-  <Message key="EmptyPath" value="Leere" revision="0" />
   <Message key="Stepped" value="Schritt für Schritt" revision="0" />
   <Message key="Continuous" value="Kontinuierlich" revision="0" />
-  <Message key="Error" value="Fehler" revision="0" />
   <Message key="Unable to delete selected playback files" value="Die ausgewählten Wiedergabedateien können nicht gelöscht werden. Mindestens eine von ihnen wird gerade wiedergegeben." revision="0" />
   <Message key="Continue Playback" value="Wiedergabe fortsetzen\nDrücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen." revision="0" />
   <Message key="DifferentArchError" value="Dieser Logdateistrom wurde auf einem Rechner mit anderer Prozessorarchitektur erstellt und kann nicht wiedergegeben werden." revision="0" />
-  <Message key="Playback" value="Wiedergabe" revision="0" />
   <Message key="Playback settings" value="Einstellungen für die Wiedergabe" revision="0" />
   <Message key="Virtual device configuration" value="Konfiguration des virtuellen Geräts" revision="0" />
   <Message key="Import file path" value="Pfad der Eingabedatei" revision="0" />

@@ -1,14 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DefaultPath" value="По умолчанию" revision="0" />
-  <Message key="Error" value="Ошибка" revision="0" />
   <Message key="ApplyError" value="Путь не указан" revision="0" />
-  <Message key="OutFilter" value="Все файлы|*|" revision="0" />
-  <Message key="EmptyPath" value="Пустой" revision="0" />
   <Message key="WritingError" value="При экспорте возникла ошибка: {error}" revision="0" />
-  <Message key="WritingErrorTitle" value="Ошибка экспорта" revision="0" />
   <Message key="Text Exporter paused" value="Работа текстового экспортера была приостановлена из-за ошибки записи на диск. Проверьте, достаточно ли свободного места на диске или нет ли других ошибок, связанных с диском, и либо возобновите работу, либо удалите текстовый экспортер из сессии." revision="0" />
-  <Message key="RawWriterCreateError" value="При инициализации экспорта произошла ошибка: {error} ({error code})" revision="0" />
+  <Message key="RawWriterCreateError" value="Ошибка инициализации экспортера: {error} ({error code})" revision="1" />
   <Message key="Export Filter" value="Фильтр экспорта" revision="0" />
   <Message key="Exporter Settings" value="Настройки экспорта" revision="1" />
   <Message key="Specify location for export file" value="Местоположение файла экспорта" revision="0" />

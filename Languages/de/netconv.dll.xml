@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ErrorTitle" value="Fehler" revision="0" />
   <Message key="Size_Error" value="Paketgrößengrenze überschritten." revision="0" />
   <Message key="Packet Builder" value="Paket Builder" revision="0" />
   <Message key="NetTerminal" value="Netzwerk-Terminal" revision="0" />
   <Message key="StructureNotFound" value="Strukturdefinition wird nicht gefunden. Netzwerkmonitor kann keine Ergebnisse anzeigen." revision="0" />
-  <Message key="bytes" value="bytes" revision="0" />
   <Message key="NetTermSizeError" value="Paket ({packetno}): Größe des Pakets ({size}) größer als die MTU-Größe des Adapterss ({maxsize})." revision="0" />
   <Message key="NetTermTooltipText" value="Physische Adresse: {mac}\nMaximale Übertragungseinheit: {size} bytes\nLink Geschwindigkeit: {speed} MB\nIP: {ip}\nStatus: {status}" revision="0" />
   <Message key="CellConvTooltip" value="Paket:\t\t{number}\nZeit:\t\t{timestamp}\nGröße des Pakets:\t{size} bytes\nDaten Größe:\t{datasize} bytes{has_name?}\nGerät:\t\t{devicename}{?has_name}\n" revision="0" />

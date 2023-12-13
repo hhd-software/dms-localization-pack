@@ -8,10 +8,8 @@
   <Message key="Serial Terminal" value="Последовательный терминал" revision="0" />
   <Message key="Array expected" value="Ожидается массив байтов" revision="0" />
   <Message key="Invalid constant" value="Недопустимое значение константы" revision="0" />
-  <Message key="New" value="Новая" revision="0" />
   <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Отправлено: {sent} Получено: {received}" revision="0" />
   <Message key="Data Paste" value="Подождите, пока идет отправка данных." revision="0" />
-  <Message key="Find Operation" value="Поиск текста" revision="0" />
   <Message key="NoDevicesFound" value="Последовательных устройств не найдено." revision="0" />
   <Message key="TerminalError" value="Не удалось создать терминальную сессию для {friendly name}: {error text} ({error code})" revision="0" />
   <Message key="TerminalSendError" value="Невозможно отправить данные: {error text} ({error code})" revision="0" />
@@ -24,7 +22,6 @@
   <Message key="Enter the configuration name." value="Введите имя конфигурации." revision="0" />
   <Message key="Configuration will be lost! Do you want to continue?" value="Конфигурация будет потеряна! Вы хотите продолжить?" revision="0" />
   <Message key="The configuration will be deleted. Do you want to continue?" value="Конфигурация будет удалена. Вы хотите продолжить?" revision="0" />
-  <Message key="Save to File" value="Сохранить в файл" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Срок действия последовательного терминала истек!" revision="0" />
   <Message key="Session Configuration" value="Конфигурация сессии" revision="0" />
   <Message key="Device:" value="Устройство:" revision="0" />
@@ -34,7 +31,6 @@
   <Message key="Loop mode:" value="Циклический режим:" revision="0" />
   <Message key="loops" value="циклов" revision="0" />
   <Message key="milliseconds" value="миллисекунд" revision="0" />
-  <Message key="Delay:" value="Задержка:" revision="0" />
   <Message key="Send" value="Отправить" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Начать терминальную сессию…" revision="0" />

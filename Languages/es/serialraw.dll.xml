@@ -11,7 +11,6 @@
   <Message key="Reads" value="Lecturas" revision="0" />
   <Message key="Writes" value="Escribe" revision="0" />
   <Message key="Buffer size" value="Tamaño del búfer" revision="0" />
-  <Message key="bytes" value="bytes" revision="0" />
   <Message key="PnP Event: Connect" value="Evento PnP: Conectar" revision="0" />
   <Message key="PnP Event: Disconnect" value="Evento PnP: Desconectar" revision="0" />
   <Message key="ProcessOpen" value="Proceso {pid} ({has name?}{name}{|has name}&lt;Imposible recuperar el nombre del proceso&gt;{?has name}) intentó abrir el dispositivo." revision="0" />

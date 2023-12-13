@@ -326,7 +326,6 @@
   <Message key="None" value="Нет" revision="0" />
   <Message key="Request" value="Запрос" revision="0" />
   <Message key="Request Name" value="Имя запроса" revision="0" />
-  <Message key="Delay" value="Задержка" revision="0" />
   <Message key="Request Subtype" value="Подтип запроса" revision="0" />
   <Message key="Interface" value="Интерфейс" revision="0" />
   <Message key="Request Type" value="Тип запроса" revision="0" />

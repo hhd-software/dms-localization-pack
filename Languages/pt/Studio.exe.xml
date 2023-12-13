@@ -298,7 +298,6 @@
   <Message key="None" value="None" revision="0" />
   <Message key="Request" value="Pedido" revision="0" />
   <Message key="Request Name" value="Nome do pedido " revision="0" />
-  <Message key="Delay" value="Atraso" revision="0" />
   <Message key="Request Subtype" value="Subtipo de pedido" revision="0" />
   <Message key="Interface" value="Interface" revision="0" />
   <Message key="Request Type" value="Tipo de pedido" revision="0" />

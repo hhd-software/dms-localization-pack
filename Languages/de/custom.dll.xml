@@ -4,7 +4,7 @@
   <Message key="Line" value="Zeile" revision="0" />
   <Message key="Protocols List" value="Liste von Protokollen" revision="0" />
   <Message key="Usb" value="Usb" revision="0" />
-  <Message key="Serial" value="Serial" revision="0" />
+  <Message key="Serial" value="Serielle" revision="0" />
   <Message key="Network" value="Netzwerk" revision="0" />
   <Message key="Unknown" value="Nicht zugewiesen" revision="0" />
   <Message key="Files" value="Dateien" revision="0" />

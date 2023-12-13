@@ -12,4 +12,8 @@
   <Message key="Error" value="Error" revision="0" />
   <Message key="CsvFilesFilter" value="Archivos separados por comas|*.csv|" revision="0" />
   <Message key="ImageFilesFilter" value="Archivos JPEG|*.jpg|Archivos BMP|*.bmp|Archivos PNG|*.png|Archivos TIFF|*.tiff|Archivos Files|*.gif|" revision="0" />
+  <Message key="Save to File" value="Guardar en archivo" revision="0" />
+  <Message key="AllFilesFilter" value="Todos los archivos|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Vacío" revision="0" />
+  <Message key="bytes" value="bytes" revision="0" />
 </Language>
