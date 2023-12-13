@@ -101,6 +101,7 @@
   <Message key="clr.device_colors.color16" value="Устройство 16" revision="0" />
   <Message key="Collapse session" value="Щелкните, чтобы свернуть информацию о сессии" revision="0" />
   <Message key="Expand session" value="Щелкните, чтобы развернуть информацию о сессии" revision="0" />
+  <Message key="Processing Module Configuration" value="Конфигурация обработчика" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Шаблон именования визуализатора" revision="0" />
     <Item value="[Имя устройства] - [Имя визуализатора]" revision="0" />

@@ -48,168 +48,215 @@
   <Message key="UnsavedCapture" value="Captura actual no guardada" revision="0" />
   <Message key="NagFreeTitle" value="Limitaciones de la versión gratuita" revision="0" />
   <Message key="FreeSessionExpireMsg" value="La versión gratuita permite sesiones de monitorización que no superen los {limit} minutos.\n\nSu sesión se detendrá en {minutes}:{seconds}.\n\n{expired?}Puede continuar con las funciones limitadas de la versión gratuita o actualizar a la versión ampliada.{|expired}Puede quedarse con la versión gratuita limitada o probar la versión extendida GRATIS durante 14 días.{?expired}" revision="0" />
+  <Message key="FreeSessionExpireMsg2" value="La versión gratuita tiene un límite de {limit} sesiones de monitorización al día.\n\nSesiones dejadas hoy: {left}.\n\n{expired?}Puede quedarse con las funciones limitadas de la versión gratuita o pasar a la versión ampliada.{|expired}Puede continuar con la versión gratuita limitada o probar la versión ampliada de forma GRATUITA durante 14 días.{?expired}" revision="0" />
+  <Message key="Close this notification" value="Cerrar esta notificación" revision="0" />
+  <Message key="Try extended version" value="Pruebe la versión ampliada" revision="0" />
+  <Message key="Purchase extended version" value="Obtener la versión ampliada" revision="0" />
+  <Message key="Out of memory" value="Sin memoria" revision="0" />
+  <Message key="Stopping session" value="Detención de la sesión" revision="0" />
+  <Message key="ShowImportantSessionConfig" value="Forzar el diálogo de configuración de sesión en los tipos de sesión seleccionados" revision="0" />
+  <Message key="MCAdv" value="Quiero monitorizar estos datos desde mi aplicación" revision="0" />
+  <Message key="Advertise.Title" value="Controles de supervisión ActiveX" revision="0" />
+  <Message key="Get More Details" value="Más información" revision="0" />
+  <Message key="toolbar.SessionConfig1" value="Configuración de la sesión 1" revision="0" />
+  <Message key="toolbar.SessionConfig2" value="Configuración de la sesión 2" revision="0" />
+  <Message key="Save Configuration" value="Guardar configuración" revision="0" />
+  <Message key="Enter custom data processor configuration name:" value="Introduzca el nombre de la configuración personalizada del procesador de datos:" revision="0" />
+  <Message key="Device coloring" value="Coloración del dispositivo" revision="0" />
+  <Message key="Back color:" value="Color de fondo:" revision="0" />
   <Message key="Multisource Device Colors" value="Colores de dispositivos multifuente" revision="1" />
   <Message key="Multisource device list:" value="Lista de dispositivos multifuente:" revision="1" />
+  <Message key="Background color:" value="Color de fondo:" revision="0" />
+  <Message key="Rename Device" value="Renombrar dispositivo" revision="0" />
+  <Message key="Enter new device name:" value="Introduzca el nuevo nombre del dispositivo:" revision="0" />
+  <Message key="Session Configuration" value="Configuración de la sesión" revision="0" />
+  <Message key="Selected sources" value="Fuentes seleccionadas" revision="0" />
+  <Message key="Selected processing" value="Procesamiento seleccionado" revision="0" />
+  <Message key="Available processing" value="Procesamiento disponible" revision="0" />
+  <Message key="Filter text" value="Filtrar texto" revision="0" />
+  <Message key="Capture Filter" value="Filtro de sesión" revision="0" />
+  <Message key="Precise time marks" value="Marcas de tiempo precisas" revision="0" />
+  <Message key="Add More" value="Añadir más" revision="0" />
+  <Message key="clr.device_colors" value="Colores de dispositivos multifuente" revision="0" />
+  <Message key="clr.device_colors.color1" value="Dispositivo 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Dispositivo 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Dispositivo 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Dispositivo 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Dispositivo 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Dispositivo 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Dispositivo 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Dispositivo 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Dispositivo 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Dispositivo 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Dispositivo 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Dispositivo 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Dispositivo 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Dispositivo 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Dispositivo 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Dispositivo 16" revision="0" />
+  <Message key="Collapse session" value="Haga clic para contraer la información de la sesión" revision="0" />
+  <Message key="Expand session" value="Haga clic para ampliar la información de la sesión" revision="0" />
+  <Message key="Processing Module Configuration" value="Configuración del módulo de procesamiento" revision="0" />
   <Enumeration key="VisualizerNaming">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Patrón de nomenclatura para el visualizador " revision="0" />
+    <Item value="[Nombre del dispositivo] - [Nombre del visualizador]" revision="0" />
+    <Item value="[Nombre del visualizador]: [Nombre del dispositivo]" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchNetwork">
-    <Item />
-    <Item />
+    <Item value="&amp;Red" revision="0" />
+    <Item value="Cambiar Device Monitoring Studio al modo de monitorización de red" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchSerial">
-    <Item />
-    <Item />
+    <Item value="&amp;Serie" revision="0" />
+    <Item value="Cambiar Device Monitoring Studio al modo de monitorización serie" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchUSB">
-    <Item />
-    <Item />
+    <Item value="&amp;USB" revision="0" />
+    <Item value="Cambiar Device Monitoring Studio al modo de monitorización USB" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Todos" revision="0" />
+    <Item value="Cambiar Device Monitoring Studio al modo de monitorización combi" revision="0" />
   </Enumeration>
   <Enumeration key="MultiSource">
-    <Item />
-    <Item />
+    <Item value="Monitorización multifuente" revision="0" />
+    <Item value="La monitorización multifuente permite supervisar simultáneamente varios dispositivos del mismo tipo." revision="0" />
   </Enumeration>
   <Enumeration key="&amp;Edit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editar" revision="0" />
+    <Item value="Editar" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsConfigure">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="SessionsResume">
-    <Item />
-    <Item />
+    <Item value="&amp;Reanudar la sesión" revision="0" />
+    <Item value="Reanudar la sesión" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausar la sesión" revision="0" />
+    <Item value="Pausa de la sesión actual" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Detener la sesión" revision="0" />
+    <Item value="Detener la sesión actual" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsClose">
-    <Item />
-    <Item />
+    <Item value="Cerrar &amp;Visualizador" revision="0" />
+    <Item value="Cerrar el visualizador seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsColumns">
-    <Item />
-    <Item />
+    <Item value="Tamaño automático de columnas" revision="1" />
+    <Item value="Cambiar automáticamente el tamaño de las columnas de la ventana para que todo el texto sea visible" revision="1" />
   </Enumeration>
   <Enumeration key="SessionsExpand">
-    <Item />
-    <Item />
+    <Item value="&amp;Expandir elemento" revision="0" />
+    <Item value="Desplegar un elemento de una lista" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsCollapse">
-    <Item />
-    <Item />
+    <Item value="Co&amp;lapsar elemento" revision="0" />
+    <Item value="Colapsar un elemento de una lista" revision="0" />
   </Enumeration>
   <Enumeration key="StartMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Iniciar la monitorización…" revision="0" />
+    <Item value="Crear una nueva sesión de monitorización" revision="0" />
   </Enumeration>
   <Enumeration key="PauseMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausa de monitorización" revision="0" />
+    <Item value="Pausar esta sesión de supervisión" revision="0" />
   </Enumeration>
   <Enumeration key="ConfigureDeviceSession">
-    <Item />
-    <Item />
+    <Item value="&amp;Configurar sesión…" revision="0" />
+    <Item value="Cambiar los parámetros de la sesión actual" revision="0" />
   </Enumeration>
   <Enumeration key="ResumeMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Reanudar monitorización" revision="0" />
+    <Item value="Reanudar esta sesión de monitorización" revision="0" />
   </Enumeration>
   <Enumeration key="StopMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Detener la monitorización" revision="0" />
+    <Item value="Detener esta sesión de monitorización" revision="0" />
   </Enumeration>
   <Enumeration key="RestartDevice">
-    <Item />
-    <Item />
+    <Item value="Reiniciar &amp;Dispositivo" revision="0" />
+    <Item value="Reiniciar el dispositivo seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="DeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Propiedades…" revision="0" />
+    <Item value="Mostrar propiedades del dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="RenameDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Renombrar…" revision="0" />
+    <Item value="Especificar un nombre personalizado para un dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="ScanForHardwareChanges">
-    <Item />
-    <Item />
+    <Item value="Buscar cambios en el hardware" revision="0" />
+    <Item value="Buscar cambios de hardware y actualizar el árbol de dispositivos" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Todos" revision="0" />
+    <Item value="Mostrar todas las categorías" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Ninguno" revision="0" />
+    <Item value="Ocultar todas las categorías" revision="0" />
   </Enumeration>
   <Enumeration key="AddConverter">
-    <Item />
-    <Item />
+    <Item value="Añadir a la sesión" revision="0" />
+    <Item value="Añadir a la sesión los tratamientos de datos seleccionados" revision="0" />
   </Enumeration>
   <Enumeration key="AddToFavorites">
-    <Item />
-    <Item />
+    <Item value="Añadir a Favoritos" revision="0" />
+    <Item value="Añadir tratamiento(s) de datos seleccionado(s) a la lista de favoritos" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveConverter">
-    <Item />
-    <Item />
+    <Item value="Eliminar de la sesión" revision="0" />
+    <Item value="Eliminar de la sesión el tratamiento de datos seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="DeleteCustom">
-    <Item />
-    <Item />
+    <Item value="Eliminar" revision="0" />
+    <Item value="Eliminar el procesamiento de datos de la lista" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustom">
-    <Item />
-    <Item />
+    <Item value="Configurar el tratamiento de datos…" revision="0" />
+    <Item value="Configurar el tratamiento de datos seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="SaveCustom">
-    <Item />
-    <Item />
+    <Item value="Guardar procesamiento personalizado…" revision="0" />
+    <Item value="Guardar la configuración de procesamiento de datos seleccionada" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilters">
-    <Item />
-    <Item />
+    <Item value="Mostrar u ocultar categorías" revision="0" />
+    <Item value="Seleccione las categorías de dispositivos que desea mostrar" revision="0" />
   </Enumeration>
   <Enumeration key="CategorySubfilters">
-    <Item />
-    <Item />
+    <Item value="Subcategorías" revision="0" />
+    <Item value="Seleccione las subcategorías de dispositivos que desea mostrar" revision="0" />
   </Enumeration>
   <Enumeration key="MenuSessions">
-    <Item />
-    <Item />
+    <Item value="Sesiones" revision="0" />
+    <Item value="Lista de sesiones en curso" revision="0" />
   </Enumeration>
   <Enumeration key="DataProcessingGroups">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Favoritos" revision="2" />
+    <Item value="Visualizadores" revision="2" />
+    <Item value="Exportadores" revision="2" />
+    <Item value="Personalizado" revision="2" />
+    <Item value="Legado" revision="2" />
   </Enumeration>
   <Enumeration key="SessionWindowColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Fuente" revision="0" />
+    <Item value="Tipo" revision="0" />
+    <Item value="Dispositivo" revision="0" />
+    <Item value="Procesamiento" revision="0" />
+    <Item value="Inicio" revision="0" />
+    <Item value="Duración" revision="0" />
+    <Item value="Estado" revision="0" />
   </Enumeration>
   <Enumeration key="SessionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parado" revision="0" />
+    <Item value="Ejecutando" revision="0" />
+    <Item value="Pausado" revision="0" />
   </Enumeration>
 </Language>
