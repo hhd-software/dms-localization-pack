@@ -1,5 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ElevationError" value="No se pueden elevar los privilegios. Mensaje de error: {error}" revision="1" />
+  <Message key="Devices" value="Dispositivos" revision="0" />
+  <Message key="Sessions" value="Sesiones" revision="0" />
+  <Message key="ElevationErrorTitle" value="Error de ampliación de privilegios" revision="1" />
+  <Message key="EmergencySessionTermination" value="La sesión se ha interrumpido tras el siguiente error: &quot;{error}&quot;" revision="0" />
+  <Message key="EmergencySessionTerminationTitle" value="Fin urgente de la sesión" revision="0" />
+  <Message key="IntegrityError" value="Fallo de inicialización del componente interno: {error}" revision="0" />
+  <Message key="DevicesAbsent" value="Faltan uno o varios dispositivos de sesión" revision="0" />
+  <Message key="LogCreationFailed" value="Error al crear el archivo de registro de supervisión: {error}" revision="0" />
+  <Message key="NoConverters" value="No hay módulos de procesamiento de datos que soporten esta sesión." revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}La sesión anterior ha finalizado por falta de memoria. Es necesario reiniciar la aplicación antes de iniciar una nueva sesión de monitorización.{|nomemory}No hay almacenamiento temporal configurado. Compruebe la configuración en Herramientas &quot; Configuración, pestaña Proceso de datos. Código de error: {error}{?nomemory}" revision="0" />
+  <Message key="UnknownError" value="Fallo en la creación de la sesión por motivo desconocido.{has warnings?} Se han generado las siguientes advertencias:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartErrorTitle" value="Error de creación de sesión" revision="0" />
+  <Message key="SessionStartWarningTitle" value="Avisos de creación de sesión" revision="0" />
+  <Message key="SessionStartError" value="La creación de la sesión ha fallado debido a la(s) siguiente(s) razón(es):\r\n{errors}{has warnings?}\r\n\r\nAdemás, se generaron las siguientes advertencias:\r\n{warnings}{?has warnings}" revision="0" />
+  <Message key="SessionStartWarning" value="La creación de la sesión tuvo éxito, pero con las siguientes advertencias:\n{warnings}" revision="0" />
+  <Message key="SourceExpired" value="Una de las fuentes de datos seleccionadas ha caducado." revision="0" />
+  <Message key="DeviceConfig" value="Configuración: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
+  <Message key="Data Source Configuration" value="Configuración de la fuente de datos" revision="0" />
+  <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Coloración del dispositivo" revision="0" />
+  <Message key="UnsupportedProcessings" value="Los siguientes módulos de procesamiento:\n{processings}\nno admiten la supervisión de varios dispositivos y se eliminarán." revision="0" />
+  <Message key="NoProcessings" value="No se pueden encontrar componentes de procesamiento para este dispositivo. Vuelva a instalar la aplicación." revision="0" />
+  <Message key="FilterError" value="Error al aplicar el filtro seleccionado" revision="0" />
+  <Message key="NoDataSource" value="El módulo de monitorización correspondiente no está instalado. Vuelva a instalar la aplicación." revision="0" />
+  <Message key="InstallMissingModule" value="Este módulo no está instalado actualmente. ¿Desea instalarlo ahora? (Se cerrará Device Monitoring Studio)." revision="0" />
+  <Message key="Configuration object is expected" value="Se espera el objeto de configuración" revision="0" />
+  <Message key="Configuration object is not expected" value="No se espera el objeto de configuración" revision="0" />
+  <Message key="Visualizer requires configuration, but no configuration object is specified" value="El visualizador requiere configuración, pero no se especifica ningún objeto de configuración" revision="0" />
+  <Message key="Visualizer not found" value="Visualizador no encontrado" revision="0" />
+  <Message key="Session has been destroyed" value="Se ha destruido la sesión" revision="0" />
+  <Message key="Session has already been started" value="La sesión ya se ha iniciado" revision="0" />
+  <Message key="String or object is expected" value="Se espera una cadena o un objeto" revision="0" />
+  <Message key="Servername is incorrect" value="El parámetro serverName es incorrecto" revision="0" />
+  <Message key="Device not found" value="Dispositivo no encontrado" revision="0" />
+  <Message key="Invalid argument: object of proper format is expected" value="Argumento inválido: se espera un objeto con el formato adecuado" revision="0" />
+  <Message key="No configuration objects specified" value="No se han especificado objetos de configuración" revision="0" />
+  <Message key="Source does not support configuration" value="La fuente no admite la configuración" revision="0" />
+  <Message key="Object is expected" value="El objeto se espera" revision="0" />
+  <Message key="Object of correct format is expected" value="Se espera un objeto con el formato correcto" revision="0" />
+  <Message key="Session startup error" value="Error de inicio de sesión" revision="0" />
+  <Message key="Session is not started" value="La sesión no se ha iniciado" revision="0" />
+  <Message key="Session cannot be stopped" value="No se puede detener la sesión" revision="0" />
+  <Message key="Device(s) must be added to the session" value="Los dispositivos deben añadirse a la sesión" revision="0" />
+  <Message key="Only one session is allowed per device" value="Sólo se permite una sesión por dispositivo" revision="0" />
+  <Message key="Unable to generate script" value="No se puede generar el script" revision="0" />
+  <Message key="UnsavedCapture" value="Captura actual no guardada" revision="0" />
+  <Message key="NagFreeTitle" value="Limitaciones de la versión gratuita" revision="0" />
+  <Message key="FreeSessionExpireMsg" value="La versión gratuita permite sesiones de monitorización que no superen los {limit} minutos.\n\nSu sesión se detendrá en {minutes}:{seconds}.\n\n{expired?}Puede continuar con las funciones limitadas de la versión gratuita o actualizar a la versión ampliada.{|expired}Puede quedarse con la versión gratuita limitada o probar la versión extendida GRATIS durante 14 días.{?expired}" revision="0" />
   <Message key="Multisource Device Colors" value="Colores de dispositivos multifuente" revision="1" />
   <Message key="Multisource device list:" value="Lista de dispositivos multifuente:" revision="1" />
   <Enumeration key="VisualizerNaming">
