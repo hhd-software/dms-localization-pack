@@ -30,6 +30,63 @@
   <Message key="DeviceDescriptor18" value="[[[b[[[uDescriptor de control de vídeo (VC): {name}]]]]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor19" value="[[[b[[[uDescriptor Video Streaming (VS): {name}]]]]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor20" value="[[[b[[[uDescriptor específico de la clase de comunicación: {type} ({name})]]]]]]\n\n" revision="0" />
+  <Message key="UsbInput" value="Entrada" revision="0" />
+  <Message key="UsbOutput" value="Salida" revision="0" />
+  <Message key="1msFramesFmt" value="{number} Cuadros de 1 milisegundo" revision="0" />
+  <Message key="MicroFramesFmt" value="{number} microcuadros" revision="0" />
+  <Message key="Restart Device" value="Reiniciar el dispositivo" revision="0" />
+  <Message key="Audio Device Class Specification Release Number:" value="Número de versión de la especificación de clase de dispositivo de audio:" revision="0" />
+  <Message key="Total Length:" value="Longitud total:" revision="0" />
+  <Message key="Number of Interfaces:" value="Número de interfaces:" revision="0" />
+  <Message key="Number Of Output Channels:" value="Número de canales de salida:" revision="0" />
+  <Message key="Name (String Descriptor ID):" value="Nombre (ID del descriptor de cadena):" revision="0" />
+  <Message key="Description (String Descriptor ID):" value="Descripción (cadena de ID del descriptor):" revision="0" />
+  <Message key="Number of Pins:" value="Número de pasadores:" revision="0" />
+  <Message key="Channel Configuration:" value="Configuración de canales:" revision="0" />
+  <Message key="Channel Names:" value="Nombres de canales:" revision="0" />
+  <Message key="Programmable Controls:" value="Controles programables:" revision="0" />
+  <Message key="SourceFmt" value="Fuente{number}:" revision="0" />
+  <Message key="Control Size:" value="Tamaño de control:" revision="0" />
+  <Message key="Supported Controls:" value="Controles compatibles:" revision="0" />
+  <Message key="Interface Number:" value="Número de interfaz:" revision="0" />
+  <Message key="Terminal Link:" value="Enlace de terminal:" revision="0" />
+  <Message key="Delay:" value="Retraso:" revision="0" />
+  <Message key="Format Tag:" value="Etiqueta de formato:" revision="0" />
+  <Message key="Attributes:" value="Atributos:" revision="0" />
+  <Message key="Delay Units:" value="Unidades de retardo:" revision="0" />
+  <Message key="Lock Delay:" value="Retardo de bloqueo:" revision="0" />
+  <Message key="Processing Type:" value="Tipo de procesamiento:" revision="0" />
+  <Message key="Number of Input Pins:" value="Número de pines de entrada:" revision="0" />
+  <Message key="UnitPinFmt" value="ID de la unidad a la que está conectada la clavija{number}:" revision="0" />
+  <Message key="Number of Supported Modes:" value="Número de modos admitidos:" revision="0" />
+  <Message key="ModeFmt" value="Modo{number}:" revision="0" />
+  <Message key="UsbErrorRetriveDescriptors" value="No se pueden recuperar los descriptores.\r\n\r\nSi este dispositivo forma parte de un dispositivo compuesto, haga clic en el dispositivo compuesto para ver los descriptores USB." revision="0" />
+  <Message key="UsbUnableToAttach" value="No se puede conectar al dispositivo USB seleccionado." revision="0" />
+  <Message key="MS_CS_ENDPOINT_1" value="\n\n[[[b[[[uClass-Specific MS Bulk Data Endpoint Descriptor]]]]]]\nTomas MIDI integradas: [[[b {number}]]]\n" revision="0" />
+  <Message key="Video Specification Release Number:" value="Especificación de vídeo Número de publicación:" revision="0" />
+  <Message key="Clock Frequency:" value="Frecuencia de reloj:" revision="0" />
+  <Message key="Terminal ID:" value="Terminal ID:" revision="0" />
+  <Message key="Associated Output Terminal:" value="Terminal de salida asociado:" revision="0" />
+  <Message key="Terminal Type:" value="Tipo de terminal:" revision="0" />
+  <Message key="Description (Index of String Descriptor):" value="Descripción (Índice del descriptor de cadena):" revision="0" />
+  <Message key="Source ID:" value="Fuente ID:" revision="0" />
+  <Message key="Unit ID:" value="Unidad ID:" revision="0" />
+  <Message key="Max Multiplier:" value="Multiplicador Max:" revision="0" />
+  <Message key="Controls:" value="Controles:" revision="0" />
+  <Message key="ControlFmt" value="Control{number}:\n" revision="0" />
+  <Message key="Number of Formats:" value="Número de formatos:" revision="0" />
+  <Message key="Endpoint Address:" value="Dirección del punto final:" revision="0" />
+  <Message key="Still Capture Method:" value="Método de captura de fotogramas:" revision="0" />
+  <Message key="Trigger Support:" value="Soporte de disparo:" revision="0" />
+  <Message key="Trigger Usage:" value="Uso del disparador:" revision="0" />
+  <Message key="FormatFmt" value="Formato{number}:\n" revision="0" />
+  <Message key="Width:" value="Anchura:" revision="0" />
+  <Message key="Height:" value="Altura:" revision="0" />
+  <Message key="CompressionFmt" value="Compresión{number}:" revision="0" />
+  <Message key="Color Primaries:" value="Primarios de color:" revision="0" />
+  <Message key="Transfer Characteristics:" value="Características de la transferencia:" revision="0" />
+  <Message key="Matrix Coefficients:" value="Coeficientes de la matriz:" revision="0" />
+  <Message key="Format Index:" value="Índice de formatos:" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
