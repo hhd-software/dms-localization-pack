@@ -87,6 +87,69 @@
   <Message key="Transfer Characteristics:" value="Características de transferência:" revision="0" />
   <Message key="Matrix Coefficients:" value="Coeficientes da matriz:" revision="0" />
   <Message key="Format Index:" value="Índice de formato:" revision="0" />
+  <Message key="Number of Frame Descriptors:" value="Número de descritores de quadros:" revision="0" />
+  <Message key="Format GUID:" value="Formato GUID:" revision="0" />
+  <Message key="Bits Per Pixel:" value="Bits por pixel:" revision="0" />
+  <Message key="Optimum Frame Index:" value="Índice de enquadramento ótimo:" revision="0" />
+  <Message key="Aspect Ratio X:" value="Relação de aspeto X:" revision="0" />
+  <Message key="Aspect Ratio Y:" value="Relação de aspeto Y:" revision="0" />
+  <Message key="Copy Protect:" value="Proteção contra cópia:" revision="0" />
+  <Message key="Interlace Flags:" value="Bandeiras de entrelaçamento:\n" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Fluxo entrelaçado ou variável" revision="0" />
+  <Message key="Fields Per Frame:" value="Campos por quadro:" revision="0" />
+  <Message key="Field 1 Is First:" value="O campo 1 é o primeiro:" revision="0" />
+  <Message key="Min Bit Rate:" value="Taxa de bits mínima:" revision="0" />
+  <Message key="Max Bit Rate:" value="Taxa de bits máxima:" revision="0" />
+  <Message key="Max Video Frame Buffer Size:" value="Tamanho máximo do buffer de vídeo:" revision="0" />
+  <Message key="Default Frame Interval:" value="Intervalo de quadros predefinido:" revision="0" />
+  <Message key="Frame Interval Type:" value="Tipo de intervalo de quadros:" revision="0" />
+  <Message key="Min Frame Interval (in 100 ns):" value="Intervalo mínimo de quadros (em 100 ns):" revision="0" />
+  <Message key="Max Frame Interval (in 100 ns):" value="Intervalo máximo de quadros (em 100 ns):" revision="0" />
+  <Message key="Frame Interval Step (in 100 ns):" value="Passo de intervalo de quadros (em 100 ns):" revision="0" />
+  <Message key="FrameIntervalFmt" value="Intervalo de quadros{number}:" revision="0" />
+  <Message key="Data Offset:" value="Offset de dados:" revision="0" />
+  <Message key="Length of TSP Packet:" value="Comprimento do pacote TSP:" revision="0" />
+  <Message key="Length of Transport Stride:" value="Comprimento da Transport Stride:" revision="0" />
+  <Message key="Format of Stride Data:" value="Formato dos Stride Data:" revision="0" />
+  <Message key="Variable Size:" value="Tamanho variável:" revision="0" />
+  <Message key="Bytes Per Line:" value="Bytes por linha:" revision="0" />
+  <Message key="Packet Length:" value="Comprimento do pacote:" revision="0" />
+  <Message key="Number of Channels:" value="Número de canais:" revision="0" />
+  <Message key="Format Type:" value="Tipo de formato:" revision="0" />
+  <Message key="Subframe Size:" value="Tamanho do subquadro:" revision="0" />
+  <Message key="Bit Resolution:" value="Resolução de bits:" revision="0" />
+  <Message key="Sampling Frequency Lower Bound:" value="Limite inferior da frequência de amostragem:" revision="0" />
+  <Message key="Sampling Frequency Upper Bound:" value="Limite superior da frequência de amostragem:" revision="0" />
+  <Message key="SamplingFrequencyFmt" value="Frequência de amostragem{number}:" revision="0" />
+  <Message key="Max Bitrate:" value="Taxa de bits máx:" revision="0" />
+  <Message key="Samples Per Frame:" value="Amostras por quadro:" revision="0" />
+  <Message key="Payload Type:" value="Tipo de carga útil:" revision="0" />
+  <Message key="MPEG Capabilities:" value="Capacidades MPEG:" revision="0" />
+  <Message key="MPEG Features:" value="MPEG Características:" revision="0" />
+  <Message key="AC3 Features:" value="AC3 Características:" revision="0" />
+  <Message key="MS_CS_ENDPOINT_2" value="Jack({number}) ID: [[[b{value}]]]\n" revision="0" />
+  <Message key="Max Transfer Size:" value="Tamanho max. de transferência:" revision="0" />
+  <Message key="Data Interface:" value="Interface de dados:" revision="0" />
+  <Message key="Ringer Volume Steps:" value="Passos do volume do toque:" revision="0" />
+  <Message key="Simple Mode" value="Modo simples" revision="0" />
+  <Message key="Standalone Mode" value="Modo autónomo" revision="0" />
+  <Message key="Computer Centric Mode " value="Modo centrado em computador" revision="0" />
+  <Message key="Dialtone" value="Tom de marcação" revision="0" />
+  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Comunica o tom de marcação interrompido para além do tom de marcação normal" revision="0" />
+  <Message key="Reports only dialtone" value="Reporta apenas o tom de marcação" revision="0" />
+  <Message key="Dialing State" value="Estado de marcação" revision="0" />
+  <Message key="Reports ringback, busy, fast busy states" value="Informa os estados de retorno de toque, ocupado e ocupado rápido" revision="0" />
+  <Message key="Reports only dialing state" value="Comunica apenas o estado de marcação" revision="0" />
+  <Message key="Caller ID" value="ID do chamador" revision="0" />
+  <Message key="Reports caller ID information" value="Informa sobre a identificação do autor da chamada" revision="0" />
+  <Message key="Does not report caller ID" value="Não reporta a ID do autor da chamada" revision="0" />
+  <Message key="Ringing" value="Ringing" revision="0" />
+  <Message key="Reports incoming distinctive ringing patterns" value="Comunica padrões de toque distintivos de entrada" revision="0" />
+  <Message key="Reports only incoming ringing" value="Reporta apenas os toques de entrada" revision="0" />
+  <Message key="DTMF digits" value="Dígitos DTMF" revision="0" />
+  <Message key="Can report DTMF digits input remotely over the telephone line" value="Pode comunicar dígitos DTMF introduzidos remotamente através da linha telefónica" revision="0" />
+  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Não é possível comunicar os dígitos DTMF introduzidos remotamente através da linha telefónica" revision="0" />
+  <Message key="Line State Change Notification" value="Notificação de mudança de estado da linha" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
