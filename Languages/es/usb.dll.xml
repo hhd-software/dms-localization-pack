@@ -150,9 +150,49 @@
   <Message key="Can report DTMF digits input remotely over the telephone line" value="Puede notificar dígitos DTMF introducidos a distancia a través de la línea telefónica" revision="0" />
   <Message key="Cannot report DTMF digits input remotely over the telephone line" value="No puede informar de dígitos DTMF introducidos a distancia a través de la línea telefónica." revision="0" />
   <Message key="Line State Change Notification" value="Notificación de cambio de estado de línea" revision="0" />
+  <Message key="Does support" value="Soporta" revision="0" />
+  <Message key="Does not support" value="No soporta" revision="0" />
+  <Message key="SlaveInterfacelFmt" value="Interfaz esclavo{number}:" revision="0" />
+  <Message key="Master Interface" value="Interfaz maestro" revision="0" />
+  <Message key="Country Code Release Date:" value="Código de país Fecha de publicación:" revision="0" />
+  <Message key="CountryCodeFmt" value="Código del país{number}:" revision="0" />
+  <Message key="Entity ID:" value="Entidad ID:" revision="0" />
+  <Message key="In Interface Number:" value="En el número de interfaz:" revision="0" />
+  <Message key="Out Interface Number:" value="Número de interfaz de salida:" revision="0" />
+  <Message key="Options:" value="Opciones:" revision="0" />
+  <Message key="ChildIDFmt" value="ChildID{number}:" revision="0" />
+  <Message key="Name (index):" value="Nombre (index):" revision="0" />
+  <Message key="Channel Index:" value="Índice del canal:" revision="0" />
+  <Message key="Physical Interface:" value="Interfaz física:" revision="0" />
+  <Message key="Protocol Code:" value="Código de protocolo:" revision="0" />
+  <Message key="Extension Code:" value="Código de extensión:" revision="0" />
+  <Message key="Device stores Unit parameters in non-volatile memory" value="El dispositivo almacena los parámetros de la unidad en una memoria no volátil" revision="0" />
+  <Message key="Device supports the request Clear_Unit_Parameter" value="El dispositivo admite la petición Clear_Unit_Parameter" revision="0" />
+  <Message key="Device supports the request Set_Unit_Parameter" value="El dispositivo admite la petición Set_Unit_Parameter" revision="0" />
+  <Message key="Device is an Intelligent CAPI device" value="El dispositivo es un dispositivo CAPI inteligente" revision="0" />
+  <Message key="Device is a Simple CAPI device" value="El dispositivo es un dispositivo CAPI simple" revision="0" />
+  <Message key="Mac Address (string descriptor index):" value="Dirección Mac (índice descriptor de cadena):" revision="0" />
+  <Message key="Ethernet Statistics:" value="Estadísticas Ethernet:" revision="0" />
+  <Message key="Number Of Configurable Multicast Filters:" value="Número de filtros multicast configurables:" revision="0" />
+  <Message key="Number Of Pattern Filters:" value="Número de filtros de patrón:" revision="0" />
+  <Message key="Max Segment Size:" value="Tamaño máximo del segmento:" revision="0" />
+  <Message key="End System Identifier (string descriptor index):" value="Identificador del sistema final (índice del descriptor de cadena):" revision="0" />
+  <Message key="Capabilities:" value="Capacidades:" revision="0" />
+  <Message key="ATM Device Statistics:" value="Estadísticas de dispositivos ATM:" revision="0" />
+  <Message key="The Maximum Type 2 Segment Size:" value="El tamaño máximo del segmento de tipo 2:" revision="0" />
+  <Message key="The Maximum Type 3 Segment Size:" value="El tamaño máximo del segmento de tipo 3:" revision="0" />
+  <Message key="Maximum Number Of Simultaneous Virtual Circuits:" value="Número máximo de circuitos virtuales simultáneos:" revision="0" />
+  <Message key="Release Number In Binary-Coded Decimal" value="Número de versión en código decimal binario" revision="0" />
+  <Message key="Reserved for future use" value="Reservado para uso futuro" revision="0" />
+  <Message key="MsHeaderFMT" value="Número de revisión de la especificación de clase de dispositivo de audio: [[[b{ver_major}.{ver_minor}]]]\nLongitud total: [[[b{bytes} bytes]]]\n" revision="0" />
+  <Message key="MS_MIDI_IN_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\n" revision="0" />
+  <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nClavijas de entrada: [[[b{pins}]]]\n" revision="0" />
+  <Message key="UsbMsPins" value="Clavija [[[b{number}]]]: Fuente ID: [[[b {source}]]], Clavija: [[[b{pin}]]]\n" revision="0" />
+  <Message key="Frame Index:" value="Índice de cuadros:" revision="0" />
+  <Message key="Controls Size:" value="Controles Tamaño:" revision="0" />
   <Enumeration key="UsbSource">
-    <Item />
-    <Item />
+    <Item value="USB Monitor" revision="0" />
+    <Item value="El módulo de fuente de datos USB permite supervisar los datos transferidos entre cualquier dispositivo USB y la aplicación que lo utiliza." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
     <Item />
@@ -161,65 +201,65 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbDescriptor">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Entrada" revision="0" />
+    <Item value="Salida" revision="0" />
+    <Item value="Función" revision="0" />
+    <Item value="Colección" revision="0" />
+    <Item value="Fin de la colección\n" revision="0" />
+    <Item value="Página de uso" revision="0" />
+    <Item value="Mínimo Lógico" revision="0" />
+    <Item value="Máximo Lógico" revision="0" />
+    <Item value="Mínimo físico" revision="0" />
+    <Item value="Máximo físico" revision="0" />
+    <Item value="Unidad Exponente" revision="0" />
+    <Item value="Unidad" revision="0" />
+    <Item value="Tamaño del informe" revision="0" />
+    <Item value="Informe ID" revision="0" />
+    <Item value="Recuento de informes" revision="0" />
+    <Item value="PUSH" revision="0" />
+    <Item value="POP" revision="0" />
+    <Item value="Uso" revision="0" />
   </Enumeration>
   <Enumeration key="JackType">
-    <Item />
-    <Item />
+    <Item value="EMBEDDED" revision="0" />
+    <Item value="EXTERNO" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ningún dispositivo conectado" revision="0" />
+    <Item value="Dispositivo conectado" revision="0" />
+    <Item value="Fallo en la enumeración del dispositivo" revision="0" />
+    <Item value="Error general de conexión" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Activación remota" revision="0" />
+    <Item value="Autoalimentación" revision="0" />
+    <Item value="Alimentado por bus" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Control" revision="0" />
+    <Item value="Isócrona" revision="0" />
+    <Item value="Bulk" revision="0" />
+    <Item value="Interrupción" revision="0" />
   </Enumeration>
   <Enumeration key="UsbInputParams">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Datos" revision="0" />
+    <Item value="Constante" revision="0" />
+    <Item value="Matriz" revision="0" />
+    <Item value="Variable" revision="0" />
+    <Item value="Absolute" revision="0" />
+    <Item value="Relativa" revision="0" />
+    <Item value="Sin envoltura" revision="0" />
+    <Item value="Envoltura" revision="0" />
+    <Item value="Lineal" revision="0" />
+    <Item value="No lineal" revision="0" />
+    <Item value="Estado preferido" revision="0" />
+    <Item value="No Estado preferido" revision="0" />
+    <Item value="No Posición nula" revision="0" />
+    <Item value="Estado Nulo" revision="0" />
   </Enumeration>
   <Enumeration key="UsbOutputParams">
-    <Item />
-    <Item />
+    <Item value="Volátil" revision="0" />
+    <Item value="No volátil" revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoStandards">
     <Item />
@@ -229,11 +269,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbBoolean">
-    <Item />
-    <Item />
+    <Item value="VERDADERO" revision="0" />
+    <Item value="FALSO" revision="0" />
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
-    <Item />
+    <Item value="Reservado" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -241,7 +281,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbTransferCharacteristics">
-    <Item />
+    <Item value="Reservado" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -251,7 +291,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbMatrixCoefficients">
-    <Item />
+    <Item value="Reserved" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -259,22 +299,22 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbYesNo">
-    <Item />
-    <Item />
+    <Item value="SÍ" revision="0" />
+    <Item value="NO" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFieldPerFrame">
-    <Item />
-    <Item />
+    <Item value="1 campo" revision="0" />
+    <Item value="2 campos" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFormatType">
-    <Item />
+    <Item value="Reservado" revision="0" />
     <Item />
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbRefreshRate">
-    <Item />
-    <Item />
+    <Item value="50 Hz" revision="0" />
+    <Item value="60 Hz" revision="0" />
   </Enumeration>
   <Enumeration key="UsbAudioDescriptorName">
     <Item />
@@ -412,7 +452,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConnectTheUSBDevice">
-    <Item />
-    <Item />
+    <Item value="Conectar el dispositivo USB" revision="0" />
+    <Item value="La aplicación está esperando a que conectes un dispositivo USB a uno de los puertos USB de tu ordenador." revision="0" />
   </Enumeration>
 </Language>

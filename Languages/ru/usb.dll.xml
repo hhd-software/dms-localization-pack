@@ -269,8 +269,8 @@
     <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="UsbBoolean">
-    <Item value="Истинно" revision="0" />
-    <Item value="Ложно" revision="0" />
+    <Item value="ИСТИНО" revision="0" />
+    <Item value="ЛОЖНО" revision="0" />
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
     <Item value="Резерв" revision="0" />
