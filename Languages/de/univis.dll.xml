@@ -190,6 +190,8 @@
   <Message key="clr.plot_colors.grid" value="Raster" revision="1" />
   <Message key="clr.plot_colors.ordinalLine" value="Ordinale Farbe" revision="1" />
   <Message key="clr.plot_colors.timeLine" value="Zeit Farbe" revision="1" />
+  <Message key="clr.plot_colors.selectedLine" value="Statische Linie" revision="1" />
+  <Message key="clr.plot_colors.trackingLine" value="Verfolgungslinie" revision="1" />
   <Message key="Save Color" value="Farbe speichern" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Keine Paketfärbung" revision="0" />

@@ -177,6 +177,8 @@
   <Message key="clr.plot_colors.grid" value="Grelha" revision="1" />
   <Message key="clr.plot_colors.ordinalLine" value="Cor do ordinal" revision="1" />
   <Message key="clr.plot_colors.timeLine" value="Cor do tempo" revision="1" />
+  <Message key="clr.plot_colors.selectedLine" value="Linha estática" revision="1" />
+  <Message key="clr.plot_colors.trackingLine" value="Linha de seguimento" revision="1" />
   <Message key="Save Color" value="Guardar cor" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Sem coloração de pacotes" revision="0" />

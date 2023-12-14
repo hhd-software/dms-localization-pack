@@ -190,6 +190,8 @@
   <Message key="clr.plot_colors.grid" value="Сетка" revision="1" />
   <Message key="clr.plot_colors.ordinalLine" value="Цвет ординат" revision="1" />
   <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="1" />
+  <Message key="clr.plot_colors.selectedLine" value="Статичная линия" revision="1" />
+  <Message key="clr.plot_colors.trackingLine" value="Следящая линия" revision="1" />
   <Message key="Save Color" value="Сохранить цвет" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
