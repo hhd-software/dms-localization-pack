@@ -1,5 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Dependent Devices" value="Dispositivos dependentes" revision="0" />
+  <Message key="CounterPacketsTotal" value="Pacotes Total/Seg" revision="0" />
+  <Message key="CounterBytesTransferTotal" value="Bytes Total/Seg" revision="0" />
+  <Message key="Get Descriptor Request" value="Pedido de obtenção de descritor" revision="0" />
+  <Message key="Set Descriptor Request" value="Pedido de definição de descritor" revision="0" />
+  <Message key="Function Code: " value="Código de função: " revision="0" />
+  <Message key="DirectionDown" value="Direção: Para baixo\nComprimento dos dados: " revision="0" />
+  <Message key="DirectionUp" value="Direção: Para cima\nComprimento dos dados: " revision="0" />
+  <Message key="VILFmt" value="Valor: {value}\nÍndice: {index}\nComprimento: {length}" revision="0" />
+  <Message key="Control Transfer" value="Transferência de controlo" revision="0" />
+  <Message key="Setup Packet" value="Pacote de configuração" revision="0" />
+  <Message key="UsbRequestFmt" value="Pedido: {id} ({name})\n" revision="0" />
+  <Message key="SchemeBasic" value="Básico" revision="0" />
+  <Message key="SchemeComplete" value="Completo" revision="0" />
+  <Message key="SetupPacketFmt" value="Beneficiário: {recp}\nTipo de pedido: {type}\nDireção: {dir}\n" revision="0" />
+  <Message key="UsbDescriptorFmt" value="Tipo de descritor: {name}\nÍndice descritor: {index}\nTamanho do buffer de transferência: {size} bytes\n" revision="0" />
+  <Message key="UsbDescriptorLangFmt" value="IdiomaId: {index}" revision="0" />
+  <Message key="Bulk or Interrupt Transfer" value="Bulk or Interrupt Transfer" revision="0" />
+  <Message key="Get" value="Obter" revision="0" />
+  <Message key="UsbSizeFmt" value="{size} bytes" revision="0" />
+  <Message key="from the device" value="do dispositivo" revision="0" />
+  <Message key="Send" value="Enviar" revision="0" />
+  <Message key="to the device" value="para o dispositivo" revision="0" />
+  <Message key="UsbTransferFmt" value="{operation} {size} bytes {dir}" revision="0" />
+  <Message key="Select Configuration" value="Selecionar configuração" revision="0" />
+  <Message key="ConfigurationIndexUnconfigured" value="Índice de configuração: &lt;não configurado&gt;\n" revision="0" />
+  <Message key="ConfigurationIndexFmt" value="Índice de configuração: {id}\n" revision="0" />
+  <Message key="ConfigurationHandleFmt" value="Pega de configuração: {handle}" revision="0" />
+  <Message key="Get Status Request" value="Obter pedido de estado" revision="0" />
+  <Message key="GetStatusFmt" value="Obter o estado de {name}. Comprimento dos dados " revision="0" />
+  <Message key="Set Feature Request" value="Pedir definir caraterística" revision="0" />
+  <Message key="Clear Feature Request" value="Pedir limpar funcionalidade" revision="0" />
+  <Message key="FeatureFmt" value="{state} funcionalidade {selector} em {endpoint}" revision="0" />
+  <Message key="index" value="índice" revision="0" />
+  <Message key="Vendor-Specific Request" value="Pedido específico do fornecedor" revision="0" />
+  <Message key="Class-Specific Request" value="Pedido específico por classe" revision="0" />
+  <Message key="ReservedBitsFmt" value="Bits reservados: {count}\nPedido: {request}\nValor: {value}\n" revision="0" />
+  <Message key="UsbDestinationIndex" value="Destino: {name}, Índice {index}\n" revision="0" />
+  <Message key="UsbDestination" value="Destino: {name}\n" revision="0" />
+  <Message key="Get Configuration Request" value="Pedido obter configuração" revision="0" />
+  <Message key="Get Interface Request" value="Pedido obter interface" revision="0" />
+  <Message key="InterfaceIndexFmt" value="Índice de interface: {index}\n" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />
