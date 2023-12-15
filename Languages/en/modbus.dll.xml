@@ -219,7 +219,7 @@
 	<Message key="Can't be more than 1968 coils." description="Maximum number of coils" value="Maximum number of 1,968 coils exceeded."/>
 	<Message key="Can't be more than 65535 registers." description="Maximum number of registers" value="Maximum number of 65,535 registers exceeded."/>
 	<Message key="File number can't be more than 65535." description="Maximum number of files" value="Maximum number of 65,535 files exceeded."/>
-	<Message key="Record number can't be more than 9999." description="Maximum number of records" value="Maximum number of 9,999 records exceeeded."/>
+	<Message key="Record number can't be more than 9999." description="Maximum number of records" value="Maximum number of 9,999 records exceeded."/>
 	<Message key="Register length can't be more than 65535." description="Register length exceeded" value="Maximum register length of 65,535 exceeded."/>
 
 	<Message key="Register Length" description="Register Length"/>

@@ -1,5 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="show_compact_form" value="Truncar a lista de registos/coils/pedidos se for demasiado longa" revision="0" />
+  <Message key="add_offsets" value="Adicionar desvios de base para registos, entradas discretas, etc." revision="0" />
+  <Message key="request_read" value="Analisar pedidos na direção WRITE (respostas na direção READ)" revision="0" />
+  <Message key="concatenate_packets" value="Concatenar pacotes" revision="0" />
+  <Message key="use_rtu" value="Modo RTU" revision="0" />
+  <Message key="parse_as_hex" value="Parse como hex" revision="0" />
+  <Message key="incremental_join" value="Juntador de pacotes avançado" revision="0" />
+  <Message key="send_notification" value="Introdução rápida de dados (janela MODBUS Send)" revision="0" />
+  <Message key="Array expected" value="Matriz esperada" revision="0" />
+  <Message key="New TCP Session" value="Sessão TCP" revision="0" />
+  <Message key="New Serial Session" value="Sessão em série" revision="0" />
+  <Message key="Connecting to remote host" value="Conexão com o host remoto" revision="0" />
+  <Message key="Address: " value="Endereço: " revision="0" />
+  <Message key="Function: " value="Função: " revision="0" />
+  <Message key="Unknown Function!" value="Função desconhecida!" revision="0" />
+  <Message key="Parsed As:" value="Parsed como:" revision="0" />
+  <Message key="Set Coil" value="Definir coil" revision="0" />
+  <Message key="Register" value="Registo" revision="0" />
+  <Message key="Coil Data" value="Dados da coil" revision="0" />
+  <Message key="Status" value="Estado" revision="0" />
+  <Message key="Event Count" value="Contagem de eventos" revision="0" />
+  <Message key="Busy" value="Ocupado" revision="0" />
+  <Message key="Message Count" value="Contagem de mensagens" revision="0" />
+  <Message key="Event" value="Evento" revision="0" />
+  <Message key="Byte Count" value="Contagem de bytes" revision="0" />
+  <Message key="Coils" value="Coils" revision="0" />
+  <Message key="Registers" value="Registos" revision="0" />
+  <Message key="Yes" value="Sim" revision="0" />
+  <Message key="No" value="Não" revision="0" />
+  <Message key="Reference Type" value="Tipo de referência" revision="0" />
+  <Message key="Extended Memory file number" value="Número de ficheiro da memória alargada" revision="0" />
+  <Message key="Starting Address" value="Endereço inicial" revision="0" />
+  <Message key="Number of Registers" value="Número de registos" revision="0" />
+  <Message key="Register Data" value="Dados de registo" revision="0" />
+  <Message key="Reference Address" value="Endereço de referência" revision="0" />
+  <Message key="And Mask" value="Máscara E" revision="0" />
+  <Message key="Or Mask" value="Máscara Ou" revision="0" />
+  <Message key="Read Reference Address" value="Leitura do endereço de referência" revision="0" />
+  <Message key="Quantity to Read" value="Quantidade a ler" revision="0" />
+  <Message key="Write Reference Address" value="Escrever endereço de referência" revision="0" />
+  <Message key="Quantity to Write" value="Quantidade a escrever" revision="0" />
+  <Message key="FIFO Pointer Address" value="Endereço do ponteiro FIFO" revision="0" />
+  <Message key="FIFO Count" value="Contagem FIFO" revision="0" />
+  <Message key="Quantity of Coils" value="Número de coils" revision="0" />
+  <Message key="Force Data" value="Dados" revision="0" />
+  <Message key="Register Address" value="Endereço de registo" revision="0" />
+  <Message key="Output Address" value="Endereço de saída" revision="0" />
+  <Message key="Output Value" value="Valor de saída" revision="0" />
+  <Message key="Register Value" value="Valor do registo" revision="0" />
+  <Message key="Function" value="Função" revision="0" />
+  <Message key="Subfunction" value="Subfunção" revision="0" />
+  <Message key="No data entered!" value="Não foram introduzidos dados!" revision="0" />
+  <Message key="Wrong function!" value="Função errada!" revision="0" />
+  <Message key="Data" value="Dados" revision="0" />
+  <Message key="Enter the first parameter." value="Introduzir o primeiro parâmetro" revision="0" />
+  <Message key="Enter the second parameter." value="Introduzir o segundo parâmetro." revision="0" />
+  <Message key="There was an error sending data!" value="Houve um erro no envio de dados!" revision="0" />
+  <Message key="MODBUS Send" value="MODBUS Enviar" revision="0" />
+  <Message key="OK - Press the Send button" value="OK - Prima o botão Enviar" revision="0" />
+  <Message key="Wrong Function ID" value="ID de função incorrecta" revision="0" />
+  <Message key="StatusCode" value="Estado: {status}{has message?} ({message}){?has message}" revision="0" />
+  <Message key="AcceptedRange" value="Só são aceites valores de {min} a {max}" revision="0" />
+  <Message key="CoilN" value="Coil {n}" revision="0" />
+  <Message key="RegisterN" value="Registo {n} = {value}" revision="0" />
+  <Message key="Can't be more than 1968 coils." value="Número máximo de 1.968 coils ultrapassado." revision="0" />
+  <Message key="Can't be more than 65535 registers." value="Número máximo de 65.535 registos excedido." revision="0" />
+  <Message key="File number can't be more than 65535." value="Número máximo de 65.535 ficheiros ultrapassado." revision="0" />
+  <Message key="Record number can't be more than 9999." value="Número máximo de 9.999 registos excedido." revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item />
     <Item />
