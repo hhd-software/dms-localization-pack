@@ -42,6 +42,36 @@
   <Message key="Get Configuration Request" value="Pedido obter configuração" revision="0" />
   <Message key="Get Interface Request" value="Pedido obter interface" revision="0" />
   <Message key="InterfaceIndexFmt" value="Índice de interface: {index}\n" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Pedido de controlo para captura do comprimento do frame" revision="0" />
+  <Message key="Get Frame Length Request" value="Pedido para obter o comprimento do frame" revision="0" />
+  <Message key="FrameLengthFmt" value="Comprimento do quadro: {length}\nNúmero do quadro: {number}" revision="0" />
+  <Message key="Set Frame Length Request" value="Pedido de definição do comprimento do frame" revision="0" />
+  <Message key="FrameLengthDeltaFmt" value="Comprimento do quadro Delta: {delta}" revision="0" />
+  <Message key="FrameNumberFmt" value="Número do quadro: {frame}" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Estado: {status}\n" revision="0" />
+  <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name})\n" revision="0" />
+  <Message key="Device Descriptor" value="Descritor de dispositivo\n" revision="0" />
+  <Message key="Configuration Descriptor" value="Descritor de configuração\n" revision="0" />
+  <Message key="Interface Descriptor" value="Descritor de interface\n" revision="0" />
+  <Message key="Endpoint Descriptor" value="Descritor do ponto final\n" revision="0" />
+  <Message key="Interval" value="Intervalo: {frames} frames" revision="0" />
+  <Message key="Isochronous Transfer" value="Transferência isócrona" revision="0" />
+  <Message key="IsochTransferFmt" value="\nQuadro inicial: {frame}, Número de pacotes: {packets}, Contagem de erros: {error}{asap}\n" revision="0" />
+  <Message key="UsbIsochronousTransferFmt" value="Offset: {offset}, Comprimento: {length}, Estado: {status}\n" revision="0" />
+  <Message key="UsbTransferPacketFmt" value="Pacote {number}: " revision="0" />
+  <Message key="QueryInterfaceFmt" value="Interface GUID: {guid}\nTamanho da interface: {size} bytes\nVersión de interfaz: {version}\nEstado: {status}\nInformações: {info}" revision="0" />
+  <Message key="pcktssec" value="pckts/seg" revision="0" />
+  <Message key="bytessec" value="bytes/seg" revision="0" />
+  <Message key="CounterBytesRead" value="Bytes lidos/seg." revision="0" />
+  <Message key="CounterBytesWritten" value="Bytes escritos/seg." revision="0" />
+  <Message key="Unable to retrieve data" value="Não é possível recuperar dados" revision="0" />
+  <Message key="StartTransferASAP" value=", Início da transferência o mais rapidamente possível" revision="0" />
+  <Message key="DeviceQueryTextFmt1" value="Descrição: {string}" revision="0" />
+  <Message key="DeviceQueryTextFmt2" value="Localização: {string}" revision="0" />
+  <Message key="DeviceIDFmt" value="ID do dispositivo: {id}" revision="0" />
+  <Message key="Hardware IDs" value="IDs de hardware: " revision="0" />
+  <Message key="Compatible IDs" value="IDs compatíveis: " revision="0" />
+  <Message key="InstanceIDFmt" value="ID da instância: {id}" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />

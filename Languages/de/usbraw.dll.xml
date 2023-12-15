@@ -75,7 +75,7 @@
   <Message key="DeviceQueryTextFmt1" value="Beschreibung: {string}" revision="0" />
   <Message key="DeviceQueryTextFmt2" value="Standort: {string}" revision="0" />
   <Message key="DeviceIDFmt" value="Geräte ID: {id}" revision="0" />
-  <Message key="Hardware IDs" value="Hardware IDs:" revision="0" />
+  <Message key="Hardware IDs" value="Hardware IDs: " revision="0" />
   <Message key="Compatible IDs" value="Kompatible IDs: " revision="0" />
   <Message key="InstanceIDFmt" value="Instanz ID: {id}" revision="0" />
   <Message key="SerialNumberFmt" value="Seriennummer: {id}" revision="0" />
