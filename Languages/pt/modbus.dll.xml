@@ -68,13 +68,80 @@
   <Message key="Can't be more than 65535 registers." value="Número máximo de 65.535 registos excedido." revision="0" />
   <Message key="File number can't be more than 65535." value="Número máximo de 65.535 ficheiros ultrapassado." revision="0" />
   <Message key="Record number can't be more than 9999." value="Número máximo de 9.999 registos excedido." revision="0" />
+  <Message key="Register length can't be more than 65535." value="Comprimento máximo do registo de 65.535 excedido." revision="0" />
+  <Message key="Register Length" value="Comprimento do registo" revision="0" />
+  <Message key="Record Length" value="Comprimento do recorde" revision="0" />
+  <Message key="Record #" value="Record #" revision="0" />
+  <Message key="File #" value="Ficheiro #" revision="0" />
+  <Message key="Request #" value="Pedido #" revision="0" />
+  <Message key="Data Length" value="Comprimento dos dados" revision="0" />
+  <Message key="Enter the reference address." value="Introduzir o endereço de referência." revision="0" />
+  <Message key="Enter the read address." value="Introduzir o endereço de leitura." revision="0" />
+  <Message key="Enter read quantity." value="Introduzir a quantidade de leitura." revision="0" />
+  <Message key="Enter the write address." value="Introduzir o endereço de escrita." revision="0" />
+  <Message key="Enter register values." value="Introduzir valores de registo." revision="0" />
+  <Message key="Add sub-requests." value="Adicionar sub-solicitações." revision="0" />
+  <Message key="Save to binary file" value="Guardar em ficheiro binário" revision="0" />
+  <Message key="Load from file" value="Carregar do ficheiro" revision="0" />
+  <Message key="Can't create file!" value="Erro ao criar ficheiro" revision="0" />
+  <Message key="Can't load from file!" value="Erro ao carregar do ficheiro!" revision="0" />
+  <Message key="TextFilesFilter" value="Ficheiros de texto|*.txt|" revision="0" />
+  <Message key="BinaryFilesFilter" value="Ficheiros binários|*.bin|" revision="0" />
+  <Message key="File is too big! (1024 bytes maximum)" value="O ficheiro é demasiado grande! (1.024 bytes no máximo)" revision="0" />
+  <Message key="Wrong file format!" value="Formato de ficheiro errado! Só são suportados ficheiros .txt e .bin." revision="0" />
+  <Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" value="O tamanho dos dados excede o tamanho MODBUS PDU permitido (máximo de 253 bytes)!" revision="0" />
+  <Message key="ModbusRequestHeader" value="Pacote {n}: Pedido MODBUS (tamanho do pacote: {packet size}, tamanho dos dados: {data size}), {time}\n" revision="0" />
+  <Message key="ModbusResponseHeader" value="Pacote {n}: Resposta MODBUS (tamanho do pacote: {packet size}, tamanho dos dados: {data size}), {time}\n" revision="0" />
+  <Message key="Number of Outputs" value="Número de saídas" revision="0" />
+  <Message key="File Number" value="Número de ficheiro" revision="0" />
+  <Message key="Record Number" value="Número de registo" revision="0" />
+  <Message key="RequestN" value="Pedido {n}" revision="0" />
+  <Message key="OK - Return Query Data" value="OK - Devolver dados da consulta" revision="0" />
+  <Message key="Response Data Length" value="Resposta Comprimento dos dados" revision="0" />
+  <Message key="No coils" value="Não há coils especificadas." revision="0" />
+  <Message key="Create a terminal session and select it in Session list box." value="Crie uma sessão de terminal e seleccione-a na caixa de listagem Sessão." revision="0" />
+  <Message key="Set parameters" value="Parâmetros não definidos" revision="0" />
+  <Message key="Enter the starting address." value="Introduzir o endereço inicial." revision="0" />
+  <Message key="Enter the number of coils." value="Introduzir o número de coils." revision="0" />
+  <Message key="No registers" value="Nenhum registo especificado" revision="0" />
+  <Message key="This will delete all requests. Do you want to continue?" value="Isto irá eliminar todos os pedidos. Deseja continuar?" revision="0" />
+  <Message key="Check all" value="Marcar tudo" revision="0" />
+  <Message key="Uncheck all" value="Desmarcar tudo" revision="0" />
+  <Message key="Invert all" value="Inverter tudo" revision="0" />
+  <Message key="File is too big! (10000 bytes maximum)" value="Ficheiros com mais de 10.000 bytes não são suportados" revision="0" />
+  <Message key="Too many items!" value="Demasiados itens" revision="0" />
+  <Message key="Expired" value="Expirado. Actualize para a edição {edition} Edição para utilizar este componente." revision="0" />
+  <Message key="Show Data" value="Mostrar dados" revision="0" />
+  <Message key="Wrong file number" value="Número de ficheiro inválido" revision="0" />
+  <Message key="Wrong record number" value="Número de recorde inválido" revision="0" />
+  <Message key="Wrong register length" value="Comprimento de registo inválido" revision="0" />
+  <Message key="Output Data" value="Dados de saída" revision="0" />
+  <Message key="EventValue" value="Evento {n} = {value}" revision="0" />
+  <Message key="FIFOValue" value="Valor FIFO {n} = {value}" revision="0" />
+  <Message key="The Status value is not entered" value="O valor de Estado não é introduzido" revision="0" />
+  <Message key="Wrong Status value" value="Valor de estado inválido" revision="0" />
+  <Message key="No events entered" value="Nenhum evento registado" revision="0" />
+  <Message key="Response can not contain more than 65535 events" value="A resposta não pode conter mais de 65.535 eventos" revision="0" />
+  <Message key="Entered data size is too big. It can not be more than 65535 bytes" value="O tamanho dos dados introduzidos é demasiado grande. Não pode ser superior a 65.535 bytes." revision="0" />
+  <Message key="No registers entered" value="Nenhum registo introduzido" revision="0" />
+  <Message key="No values entered" value="Nenhum valor introduzido" revision="0" />
+  <Message key="Response can not contain more than 31 FIFO register values" value="A resposta não pode conter mais de 31 valores de registo FIFO" revision="0" />
+  <Message key="Data size is too big" value="O tamanho dos dados é demasiado grande" revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Esta resposta não pode ser analisada porque os tamanhos dos campos são específicos do dispositivo" revision="0" />
+  <Message key="Run Indicator Status can not be more than 255" value="O estado do indicador de funcionamento não pode ser superior a 255" revision="0" />
+  <Message key="Select function" value="Selecionar a função" revision="0" />
+  <Message key="Cant parse packet" value="Pacote {n}: Erro ao parsear o pacote" revision="0" />
+  <Message key="Exception Status" value="Estado de exceção" revision="0" />
+  <Message key="Exception Code" value="Código de exceção" revision="0" />
+  <Message key="Error Notification" value="Notificação de erro" revision="0" />
+  <Message key="Mode" value="Modo" revision="0" />
   <Enumeration key="MODBUSConverter">
-    <Item />
-    <Item />
+    <Item value="Vista MODBUS (legacy)" revision="0" />
+    <Item value="O visualizador MODBUS View descodifica os pacotes, formatados de acordo com a especificação do protocolo MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
-    <Item />
-    <Item />
+    <Item value="Erro de criação de sessão TCP" revision="0" />
+    <Item value="Ocorreu o seguinte erro ao tentar ligar-se ao anfitrião remoto: {text} ({code})" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
@@ -103,19 +170,20 @@
     <Item />
   </Enumeration>
   <Enumeration key="CrcOk">
-    <Item />
-    <Item />
+    <Item value="ERRADO" revision="0" />
+    <Item value="OK" revision="0" />
   </Enumeration>
   <Enumeration key="DestinationAddr">
-    <Item />
-    <Item />
+    <Item value="Escravo" revision="0" />
+    <Item value="Difusão" revision="0" />
   </Enumeration>
   <Enumeration key="ForceSingleCoil">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="LIGADO" revision="0" />
+    <Item value="DESLIGADO" revision="0" />
+    <Item value="Valor inválido (só são permitidos 0 ( desligado) e 65280 (ligado))" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
+    <Item value="PEDIDOS" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -134,6 +202,8 @@
     <Item />
     <Item />
     <Item />
+    <Item value="FUNÇÃO DEFINIDA PELO UTILIZADOR" revision="0" />
+    <Item value="RESPOSTAS" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -152,10 +222,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="ERRO" revision="0" />
   </Enumeration>
   <Enumeration key="ResponseCodes">
     <Item />
@@ -213,17 +280,17 @@
     <Item />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
-    <Item />
-    <Item />
+    <Item value="Modo ASCII" revision="0" />
+    <Item value="Modo RTU" revision="0" />
   </Enumeration>
   <Enumeration key="ModError">
-    <Item />
+    <Item value="Exibir notificação de erro" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Dados binários" revision="0" />
+    <Item value="Cabeçalho 2" revision="0" />
+    <Item value="Cabeçalho 3" revision="0" />
   </Enumeration>
 </Language>
