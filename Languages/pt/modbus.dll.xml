@@ -112,6 +112,7 @@
   <Message key="Too many items!" value="Demasiados itens" revision="0" />
   <Message key="Expired" value="Expirado. Actualize para a edição {edition} Edição para utilizar este componente." revision="0" />
   <Message key="Show Data" value="Mostrar dados" revision="0" />
+  <Message key="HelpNotify1" value="Rápida introdução de dados:\r\n1. Selecionar o primeiro item da lista.\r\n2. Introduzir o valor do registo na caixa de edição Valor do registo.\r\n3. Premir a tecla ENTER. O valor do registo realçado será atualizado e o registo seguinte ficará ativo. Repita os passos 2 e 3 para cada registo restante." revision="0" />
   <Message key="Wrong file number" value="Número de ficheiro inválido" revision="0" />
   <Message key="Wrong record number" value="Número de recorde inválido" revision="0" />
   <Message key="Wrong register length" value="Comprimento de registo inválido" revision="0" />
@@ -245,39 +246,39 @@
     <Item />
   </Enumeration>
   <Enumeration key="Diagnostics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Devolver dados de consulta" revision="0" />
+    <Item value="Opção Reiniciar comunicações" revision="0" />
+    <Item value="Retorno do registo de diagnóstico" revision="0" />
+    <Item value="Alterar o delimitador de entrada ASCII" revision="0" />
+    <Item value="Forçar o modo só de escuta" revision="0" />
+    <Item value="Limpar contadores e registo de diagnóstico" revision="0" />
+    <Item value="Devolver da contagem de mensagens do barramento" revision="0" />
+    <Item value="Devolver da contagem de erros de comunicação do barramento" revision="0" />
+    <Item value="Devolver da contagem de erros de exceção do barramento" revision="0" />
+    <Item value="Devolver a contagem de mensagens do escravo" revision="0" />
+    <Item value="Devolver escravo sem contagem de respostas" revision="0" />
+    <Item value="Devolver a contagem de NAK do escravo" revision="0" />
+    <Item value="Devolver a contagem de escravos ocupados" revision="0" />
+    <Item value="Devolver o contador de ultrapassagem de caracteres" revision="0" />
+    <Item value="Limpar contador e sinalizador de ultrapassagem" revision="0" />
+    <Item value="RESERVADO" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="OK - Devolver dados da consulta" revision="0" />
+    <Item value="OK - Reiniciar a opção de comunicações" revision="0" />
+    <Item value="OK - Devolver registo de diagnóstico" revision="0" />
+    <Item value="OK - Alterar o delimitador de entrada ASCII" revision="0" />
+    <Item value="OK - Forçar o modo só de escuta" revision="0" />
+    <Item value="OK - Limpar contadores e registo de diagnóstico" revision="0" />
+    <Item value="OK - Devolver da contagem de mensagens do barramento" revision="0" />
+    <Item value="OK - Devolver da contagem de erros de comunicação do barramento" revision="0" />
+    <Item value="OK - Devolver da contagem de erros de exceção do barramento" revision="0" />
+    <Item value="OK - Devolver a contagem de mensagens do escravo" revision="0" />
+    <Item value="OK - Devolver escravo sem contagem de respostas" revision="0" />
+    <Item value="OK - Devolver a contagem de NAK do escravo" revision="0" />
+    <Item value="OK - Devolver a contagem de escravos ocupados" revision="0" />
+    <Item value="OK - Devolver a contagem de escravos ocupados" revision="0" />
+    <Item value="OK - Código de função desconhecido" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
     <Item value="Modo ASCII" revision="0" />

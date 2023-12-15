@@ -276,7 +276,7 @@
     <Item value="OK - Anzahl der Slave-Nachrichten" revision="0" />
     <Item value="OK - Slave Keine Antwort Anzahl" revision="0" />
     <Item value="OK - Slave NAK Anzahl" revision="0" />
-    <Item value="Slave-Busy-Zähler" revision="0" />
+    <Item value="OK - Slave-Busy-Zähler" revision="0" />
     <Item value="OK - Slave-Busy-Zählers" revision="0" />
     <Item value="OK - Unbekannter Funktionscode" revision="0" />
   </Enumeration>

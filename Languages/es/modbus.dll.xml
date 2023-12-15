@@ -112,6 +112,7 @@
   <Message key="Too many items!" value="Demasiados elementos" revision="0" />
   <Message key="Expired" value="Expirado. Actualice a la {edition} Edición para utilizar este componente." revision="0" />
   <Message key="Show Data" value="Mostrar datos" revision="0" />
+  <Message key="HelpNotify1" value="Rápida introducción de datos:\r\n1. Seleccionar el primer elemento de la lista.\r\n2. Introduzca el valor de registro en el cuadro de edición Valor de registro.\r\n3. Pulse la tecla ENTER. El valor del registro resaltado se actualizará y se activará el siguiente registro. Repita los pasos 2 y 3 para cada registro restante." revision="0" />
   <Message key="Wrong file number" value="Número de archivo no válido" revision="0" />
   <Message key="Wrong record number" value="Número de récord no válido" revision="0" />
   <Message key="Wrong register length" value="Longitud de registro no válida" revision="0" />
@@ -245,39 +246,39 @@
     <Item />
   </Enumeration>
   <Enumeration key="Diagnostics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Devolver datos de consulta" revision="0" />
+    <Item value="Opción de reiniciar las comunicaciones" revision="0" />
+    <Item value="Retorno Registro de diagnóstico" revision="0" />
+    <Item value="Cambiar el Delimitador de Entrada ASCII" revision="0" />
+    <Item value="Forzar modo sólo escucha" revision="0" />
+    <Item value="Borrar contadores y registro de diagnóstico" revision="0" />
+    <Item value="Devolver Recuento de mensajes de bus" revision="0" />
+    <Item value="Devolver Recuento de errores de comunicación de bus" revision="0" />
+    <Item value="Devolver Recuento de errores de excepción de bus" revision="0" />
+    <Item value="Devolver recuento de mensajes esclavos" revision="0" />
+    <Item value="Devolver Esclavo Sin Respuesta Conteo" revision="0" />
+    <Item value="Devuelve Recuento NAK Esclavo" revision="0" />
+    <Item value="Devolver recuento de esclavos ocupados" revision="0" />
+    <Item value="Devolver el contador de caracteres rebasados" revision="0" />
+    <Item value="Borrar contador y bandera de rebasamiento" revision="0" />
+    <Item value="RESERVADO" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="OK - Devolver datos de consulta" revision="0" />
+    <Item value="OK - Reiniciar Comunicaciones Opción" revision="0" />
+    <Item value="OK - Devolver registro de diagnóstico" revision="0" />
+    <Item value="OK - Cambiar el Delimitador de Entrada ASCII" revision="0" />
+    <Item value="OK - Forzar modo sólo escucha" revision="0" />
+    <Item value="OK - Borrar contadores y registro de diagnóstico" revision="0" />
+    <Item value="OK - Devolver Recuento de mensajes de bus" revision="0" />
+    <Item value="OK - Devolver Recuento de errores de comunicación de bus" revision="0" />
+    <Item value="OK - Devolver Recuento de errores de excepción de bus" revision="0" />
+    <Item value="OK - Devolver recuento de mensajes esclavos" revision="0" />
+    <Item value="OK - Devolver Esclavo Sin Respuesta Conteo" revision="0" />
+    <Item value="OK - Devolver recuento NAK esclavo" revision="0" />
+    <Item value="OK - Devolver recuento de esclavos ocupados" revision="0" />
+    <Item value="OK - Devolver el contador de caracteres rebasados" revision="0" />
+    <Item value="OK - Código de función desconocido" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
     <Item value="Modo ASCII" revision="0" />
