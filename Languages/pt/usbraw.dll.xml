@@ -42,18 +42,24 @@
   <Message key="Get Configuration Request" value="Pedido obter configuração" revision="0" />
   <Message key="Get Interface Request" value="Pedido obter interface" revision="0" />
   <Message key="InterfaceIndexFmt" value="Índice de interface: {index}\n" revision="0" />
-  <Message key="Take Frame Length Control Request" value="Pedido de controlo para captura do comprimento do frame" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Captura de controlo de comprimento de quadro" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Libertar o controlo do comprimento do quadro" revision="0" />
   <Message key="Get Frame Length Request" value="Pedido para obter o comprimento do frame" revision="0" />
   <Message key="FrameLengthFmt" value="Comprimento do quadro: {length}\nNúmero do quadro: {number}" revision="0" />
   <Message key="Set Frame Length Request" value="Pedido de definição do comprimento do frame" revision="0" />
   <Message key="FrameLengthDeltaFmt" value="Comprimento do quadro Delta: {delta}" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Obter pedido de número de quadro atual" revision="0" />
   <Message key="FrameNumberFmt" value="Número do quadro: {frame}" revision="0" />
   <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Estado: {status}\n" revision="0" />
   <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name})\n" revision="0" />
   <Message key="Device Descriptor" value="Descritor de dispositivo\n" revision="0" />
+  <Message key="DisplayDescriptorFmt" value="Comprimento: {length} bytes, Especificação USB: {spec}\nClasse: {class}, Subclasse: {subclass}, Protocolo: {protocol}      \nTamanho máx. do pacote: {size} bytes\nID do fornecedor: {vendor_id} ({vendor_name}), ID do produto: {prod_id}, Versão do dispositivo: {version}\nFabricante: {manufacturer}, Produto: {product}, Número de série: {serial}\nNúmero de configurações: {num_configs}" revision="0" />
   <Message key="Configuration Descriptor" value="Descritor de configuração\n" revision="0" />
+  <Message key="UsbConfigurationDescriptorFmt" value="Comprimento: {length} bytes, Comprimento total: {total_len} bytes\nNúmero de interfaces: {num_interfaces}, Configuração desc.: {config}\n      Atributos: {attribs}: {attr1} {attr2} {attr3}\nPotência máxima: {max_power}" revision="0" />
   <Message key="Interface Descriptor" value="Descritor de interface\n" revision="0" />
+  <Message key="InterfaceDescriptorFmt" value="Comprimento: {length}\nNúmero da interface: {number}, Configuração alternativa: {alt_set}\n     Número de pontos finais: {endpoints}\nClasse: {class}, Subclasse: {subclass}, Protocolo: {protocol}\nInterface desc.: {interface}" revision="0" />
   <Message key="Endpoint Descriptor" value="Descritor do ponto final\n" revision="0" />
+  <Message key="EndpointDescriptorFmt" value="Comprimento: {length}\nEndereço do ponto final: {addr} ({name})\n     Atributos: {attribs} (attr_names)\nTamanho máx. do pacote: {size} bytes\n" revision="0" />
   <Message key="Interval" value="Intervalo: {frames} frames" revision="0" />
   <Message key="Isochronous Transfer" value="Transferência isócrona" revision="0" />
   <Message key="IsochTransferFmt" value="\nQuadro inicial: {frame}, Número de pacotes: {packets}, Contagem de erros: {error}{asap}\n" revision="0" />
@@ -162,81 +168,81 @@
     <Item value="Descritor de potência HID" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nº do pacote" revision="0" />
+    <Item value="Tempo" revision="0" />
+    <Item value="Diferença de tempo" revision="0" />
+    <Item value="Direção" revision="0" />
+    <Item value="Estado" revision="0" />
+    <Item value="Função" revision="0" />
+    <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
-    <Item />
-    <Item />
+    <Item value="Definir" revision="0" />
+    <Item value="Limpar" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="[Despertar remoto]" revision="0" />
+    <Item value="[Auto-alimentado]" revision="0" />
+    <Item value="[Alimentado por bus]" revision="0" />
   </Enumeration>
   <Enumeration key="PnpEventType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Evento PnP: Dispositivo conectado" revision="0" />
+    <Item value="Evento PnP: Dispositivo desconectado" revision="0" />
+    <Item value="Evento PnP: Remoção surpresa" revision="0" />
+    <Item value="Evento PnP: Consulta ID" revision="0" />
+    <Item value="Evento PnP: Consultar texto do dispositivo" revision="0" />
+    <Item value="Evento PnP: pedido de interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="O dispositivo USB acabou de ser ligado ao sistema." revision="0" />
+    <Item value="O dispositivo USB acabou de ser removido do sistema, todos os controladores foram descarregados." revision="0" />
+    <Item value="O dispositivo USB acabou de ser desligado do sistema." revision="0" />
   </Enumeration>
   <Enumeration key="DeviceQueryType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Consulta do ID do dispositivo (BusQueryDeviceID)." revision="0" />
+    <Item value="Consulta de IDs de hardware (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Consulta de IDs compatíveis (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Consulta de ID de instância (BusQueryInstanceID)." revision="0" />
+    <Item value="Consulta do número de série (BusQueryDeviceSerialNumber)." revision="0" />
   </Enumeration>
   <Enumeration key="UsbReportTypesList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Desconhecido" revision="0" />
+    <Item value="Relatório" revision="0" />
+    <Item value="Físico" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP: Dispositivo conectado" revision="0" />
+    <Item value="PnP: Dispositivo desconectado" revision="0" />
+    <Item value="PnP: Remoção surpresa de dispositivo" revision="0" />
+    <Item value="PnP: Consulta ID" revision="0" />
+    <Item value="PnP: Consulta de texto" revision="0" />
+    <Item value="Interno: Transferência de informações sobre Pipe" revision="0" />
+    <Item value="PnP: Consulta de interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Desktop genérico" revision="0" />
+    <Item value="Controlos de simulação" revision="0" />
+    <Item value="Controlos VR" revision="0" />
+    <Item value="Controlos desportivos" revision="0" />
+    <Item value="Controlos do jogo" revision="0" />
+    <Item value="Dispositivo genérico" revision="0" />
+    <Item value="Leds" revision="0" />
+    <Item value="Telefonia" revision="0" />
+    <Item value="Teclado" revision="0" />
+    <Item value="Botões" revision="0" />
+    <Item value="Ordinais" revision="0" />
+    <Item value="Página do consumidor" revision="0" />
+    <Item value="Digitalizadores" revision="0" />
+    <Item value="Unicode" revision="0" />
+    <Item value="Página de visualização alfanumérica" revision="0" />
+    <Item value="Instrumentos médicos" revision="0" />
+    <Item value="Dispositivos físicos" revision="0" />
+    <Item value="Dispositivos de potência" revision="0" />
+    <Item value="Bateria" revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlTotal">
     <Item />
@@ -309,9 +315,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="GeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Exibir pacotes vazios" revision="0" />
+    <Item value="Exibir pacotes de leitura" revision="0" />
+    <Item value="Exibir pacotes de escrita" revision="0" />
   </Enumeration>
   <Enumeration key="RequestsCat">
     <Item />
@@ -360,14 +366,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbRawColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Dados binários" revision="0" />
+    <Item value="Ler: Cabeçalho" revision="0" />
+    <Item value="Ler: Texto" revision="0" />
+    <Item value="Leitura: Dados binários" revision="0" />
+    <Item value="Escrever: Cabeçalho" revision="0" />
+    <Item value="Escrever: Texto" revision="0" />
+    <Item value="Escrever: Dados binários" revision="0" />
   </Enumeration>
 </Language>

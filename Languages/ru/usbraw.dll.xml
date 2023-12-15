@@ -42,8 +42,8 @@
   <Message key="Get Configuration Request" value="Запрос на получение конфигурации" revision="0" />
   <Message key="Get Interface Request" value="Запрос на получение интерфейса" revision="0" />
   <Message key="InterfaceIndexFmt" value="Индекс интерфейса: {index}\n" revision="0" />
-  <Message key="Take Frame Length Control Request" value="Контрольный запрос взятия длины кадра" revision="0" />
-  <Message key="Release Frame Length Control Request" value="Отдать запрос на управление длиной кадра" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Захватить управление длиной кадра" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Отпустить управление длиной кадра" revision="0" />
   <Message key="Get Frame Length Request" value="Запрос на получение длины кадра" revision="0" />
   <Message key="FrameLengthFmt" value="Длина кадра: {length}\nНомер кадра: {number}" revision="0" />
   <Message key="Set Frame Length Request" value="Запрос на установку длины кадра" revision="0" />
@@ -193,7 +193,7 @@
     <Item value="Событие PnP: Устройство подключено" revision="0" />
     <Item value="Событие PnP: Устройство отключено" revision="0" />
     <Item value="Событие PnP: Внезапное извлечение" revision="0" />
-    <Item value="Событие PnP: Запрос ID" revision="0" />
+    <Item value="Evento PnP: pedido de ID" revision="0" />
     <Item value="Событие PnP: Запрос текста устройства" revision="0" />
     <Item value="Событие PnP: Запрос интерфейса" revision="0" />
   </Enumeration>
