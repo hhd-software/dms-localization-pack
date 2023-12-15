@@ -72,70 +72,94 @@
   <Message key="Hardware IDs" value="IDs de hardware: " revision="0" />
   <Message key="Compatible IDs" value="IDs compatíveis: " revision="0" />
   <Message key="InstanceIDFmt" value="ID da instância: {id}" revision="0" />
+  <Message key="SerialNumberFmt" value="Número de série: {id}" revision="0" />
+  <Message key="NoStringFmt" value="Nenhuma cadeia, código de erro {code}" revision="0" />
+  <Message key="Select Interface" value="Selecionar interface" revision="0" />
+  <Message key="EndpointAddressFmt" value="{handle} (Endereço do ponto final: {address})\n" revision="0" />
+  <Message key="UsbConfigurationFmt" value="Pega de configuração: {handle}, Número de interface: {interface}, Configuração alternativa: {alt_set}\n" revision="0" />
+  <Message key="PipeInformationFmt2" value="Tamanho máximo do pacote: {size}\nEndereço do ponto final: {address}\nIntervalo: {interval}\n{transfer_type}\nTamanho máximo da transferência: {max_size}\n" revision="0" />
+  <Message key="PipeInformationFmt" value="Informações sobre Pipe (Handle {handle}, Endereço do ponto final {address})\n" revision="0" />
+  <Message key="InvalidDescriptorStructure" value="Estrutura de descritor inválida!\n" revision="0" />
+  <Message key="HIDReportDescriptorWarning" value="Descritor de relatório HID (utilize o conversor HID)" revision="0" />
+  <Message key="HidDescriptorFmt" value="Comprimento: {length}\nbcdHID: {hid}\nPaís: {country}\nTotal de descritores: {count}\n" revision="0" />
+  <Message key="HidDescriptorReportFmt" value="Tipo de descritor:{type} ({name})\nComprimento do descritor:{length}\n" revision="0" />
+  <Message key="DescriptorFmt" value="Descritor {id}:\n" revision="0" />
+  <Message key="HID Descriptor" value="Descritor HID\n" revision="0" />
+  <Message key="HIDPhysicalDescriptorWarning" value="Descritor físico HID (utilize o conversor HID)" revision="0" />
+  <Message key="Reserved Item" value="Item reservado" revision="0" />
+  <Message key="PipeHandleFmt" value="Ponto final: {addr}, {type}, {dir}" revision="0" />
+  <Message key="STRINGCONTROL" value="Controlo" revision="0" />
+  <Message key="STRINGISOCHRONOUS" value="Isócrono" revision="0" />
+  <Message key="STRINGBULK" value="Bulk" revision="0" />
+  <Message key="STRINGINTERRUPT" value="Interrupção" revision="0" />
+  <Message key="STRINGINPUT" value="Entrada" revision="0" />
+  <Message key="STRINGOUTPUT" value="Saída" revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="A definição da estrutura não foi encontrada. A Vista da estrutura não consegue apresentar quaisquer resultados." revision="0" />
+  <Message key="toolbar.UsbDeviceTree" value="Dispositivos dependentes" revision="0" />
   <Enumeration key="EditCopyDeviceName">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiar nome" revision="0" />
+    <Item value="Copiar o nome do dispositivo para a área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="EditRestartDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Reiniciar" revision="0" />
+    <Item value="Reiniciar o dispositivo selecionado" revision="0" />
   </Enumeration>
   <Enumeration key="EditDeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Propriedades…" revision="0" />
+    <Item value="Visualizar o dispositivo selecionado" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descritor de dispositivo" revision="0" />
+    <Item value="Descritor de configuração" revision="0" />
+    <Item value="Descritor HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item />
-    <Item />
+    <Item value="Vista URB" revision="0" />
+    <Item value="O visualizador de dados URB View descodifica os pacotes brutos e os pedidos de controlo enviados e recebidos do dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
-    <Item />
-    <Item />
+    <Item value="Pontos finais" revision="0" />
+    <Item value="Pontos finais USB" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descritor de dispositivo" revision="0" />
+    <Item value="Descritor de configuração" revision="0" />
+    <Item value="Descritor de cadeia de caracteres" revision="0" />
+    <Item value="Descritor de interface" revision="0" />
+    <Item value="Descritor do ponto final" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Tipo de transferência: Controlo" revision="0" />
+    <Item value="Tipo de transferência: Isócrono" revision="0" />
+    <Item value="Transfer Type: Bulk" revision="0" />
+    <Item value="Tipo de transferência: Interrupção" revision="0" />
+    <Item value="Tipo de transferência: Desconhecido" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEndpointType">
-    <Item />
-    <Item />
+    <Item value="Entrada" revision="0" />
+    <Item value="Saída" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestDirection">
-    <Item />
-    <Item />
+    <Item value="Host-&gt;Dispositivo" revision="0" />
+    <Item value="Dispositivo-&gt;Host" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Classe" revision="0" />
+    <Item value="Vendedor" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositivo" revision="0" />
+    <Item value="Interface" revision="0" />
+    <Item value="Outros" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptorType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositivo" revision="0" />
+    <Item value="Configuração" revision="0" />
+    <Item value="Cadeia de caracteres" revision="0" />
+    <Item value="Descritor HID" revision="0" />
+    <Item value="Descritor de relatório HID" revision="0" />
+    <Item value="Descritor de potência HID" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
     <Item />
