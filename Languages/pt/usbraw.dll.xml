@@ -245,74 +245,74 @@
     <Item value="Bateria" revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controlo: Bytes Total/Seg" revision="0" />
+    <Item value="bytes/seg" revision="0" />
+    <Item value="Controlo: Bytes Total/Sec é a taxa a que os bytes são transferidos de ou para o dispositivo durante as operações de escrita ou leitura através do tubo de controlo." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controlo: Bytes lidos/seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Controlo: Bytes lidos/seg. é a taxa a que os bytes são transferidos do dispositivo durante as operações de leitura através do tubo de controlo." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controlo: Bytes escritos/seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Controlo: Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita através do tubo de controlo." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacotes escritos/seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Pacotes escritos/segundo é a taxa a que os pacotes são transferidos para o dispositivo durante as operações de escrita." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacotes lidos/Seс" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Pacotes lidos/segundo é a taxa a que os pacotes são transferidos do dispositivo durante as operações de leitura." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Bytes Total/Seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes Total/Seg é a taxa a que os bytes são transferidos para ou a partir do dispositivo durante as operações de escrita ou leitura através de canais em massa." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Bytes escritos/seg." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita através de canais em massa." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Bytes lidos/seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes lidos/seg. é a taxa a que os bytes são transferidos do dispositivo durante as operações de leitura através de condutas em massa." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interrupção: Bytes Total/Seg" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Interrupção: Bytes Total/Seg é a taxa a que os bytes são transferidos de ou para o dispositivo durante operações de escrita ou leitura através de canais de interrupção." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
+    <Item value="Interrupção: Bytes escritos/seg" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Interrupção: Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita através de canais de interrupção." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
+    <Item value="Interrupção: Bytes lidos/seg" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Interrupção: Bytes lidos/seg. é a taxa a que os bytes são transferidos do dispositivo durante as operações de leitura através de canais de interrupção." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
+    <Item value="Isócrono: Bytes totais/seg." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isócrono: Bytes Total/Seg é a taxa a que os bytes são transferidos de ou para o dispositivo durante as operações de escrita ou leitura através de condutas isócronas." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
+    <Item value="Isócrono: Bytes escritos/seg." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isócrono: Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita através de canais isócronos." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
+    <Item value="Isócrono: Bytes lidos/seg." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isócrono: Bytes lidos/seg. é a taxa a que os bytes são transferidos do dispositivo durante as operações de leitura através de condutas isócronas." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Exibir pacotes vazios" revision="0" />

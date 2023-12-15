@@ -245,74 +245,74 @@
     <Item value="Batterie" revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kontrolle: Bytes Gesamt/Sek" revision="0" />
+    <Item value="Bytes/Sek" revision="0" />
+    <Item value="Steuerung: Bytes Gesamt/Sek. ist die Rate, mit der Bytes bei Schreib- oder Lesevorgängen über die Steuerleitung zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Steuerung: Gelesene Bytes/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Steuerung: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über die Steuerleitung vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kontrolle: Geschriebene Bytes/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Steuerung: Bytes Geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über die Steuerleitung an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Geschriebene Pakete/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Pakete geschrieben/Sek ist die Rate, mit der Pakete bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Gelesene Pakete/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Pakete Lesen/Sek. ist die Rate, mit der Pakete bei Lesevorgängen vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Bytes gesamt/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes Gesamt/Sek ist die Rate, mit der Bytes bei Schreib- oder Lesevorgängen über Bulk-Pipes zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Geschriebene Bytes/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes Geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über Bulk-Pipes an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Gelesene Bytes/Sek." revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Bulk: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über Bulk-Pipes vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unterbrechung: Bytes Gesamt/Sek" revision="0" />
+    <Item value="" revision="0" />
+    <Item value="Unterbrechung: Bytes Gesamt/Sek. ist die Rate, mit der Bytes während Schreib- oder Lesevorgängen über Interruptleitungen zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
+    <Item value="Unterbrechung: Geschriebene Bytes/Sek" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Unterbrechung: Bytes Geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über Interruptleitungen an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
+    <Item value="Unterbrechung: Gelesene Bytes/Sek" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Unterbrechung: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über Interruptleitungen vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
+    <Item value="Isochron: Bytes gesamt/Sek." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isochronous: Bytes Gesamt/Sek ist die Rate, mit der Bytes bei Schreib- oder Lesevorgängen über isochrone Pipes zum oder vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
+    <Item value="Isochron: Geschriebene Bytes/Sek." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isochronous: Geschriebene Bytes/Sek ist die Rate, mit der Bytes bei Schreibvorgängen über isochrone Pipes an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
+    <Item value="Isochron: Bytes Lesen/Sek." revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Isochronous: Bytes gelesen/Sek ist die Rate, mit der Bytes bei Lesevorgängen über isochrone Pipes vom Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Leere Pakete anzeigen" revision="0" />
