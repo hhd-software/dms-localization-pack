@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportFailed" value="La exportación ha fallado porque la vista no contiene datos" revision="0" />
+  <Message key="ErrorExportingData" value="Error al exportar datos" revision="0" />
+  <Message key="CannotCreateFile" value="No se puede crear el archivo" revision="0" />
+  <Message key="LocatingPacketError" value="Error al localizar el paquete" revision="0" />
+  <Message key="LittleEndianFormat" value="Little-Endian (formato numérico x86)" revision="0" />
+  <Message key="BigEndianFormat" value="Big-Endian (formato de número ALFA, orden de red)" revision="0" />
+  <Message key="ExportingCaption" value="Espere mientras el {exporter} convierte los datos seleccionados." revision="0" />
+  <Message key="HintError" value="Hex: {hex}, Decimal: {dec}, Decimal sin signo: {udec}, Octal: {oct}o\nBinario:{bin}\n" revision="0" />
+  <Message key="AsciiCharFormat" value="Caracteres: {char}" revision="0" />
+  <Message key="UnicodeCharFormat" value="Caracteres Unicode: {char}" revision="0" />
+  <Message key="SingleByteSelected" value="Byte único seleccionado" revision="0" />
+  <Message key="DataExported" value="Datos exportados correctamente" revision="0" />
+  <Message key="ExportTitle" value="Exportación" revision="0" />
+  <Message key="ClipboardOverflow" value="Ha colocado una gran cantidad de datos en el portapapeles. Quieres que los datos estén disponibles cuando cierres {app_name}" revision="0" />
+  <Message key="Converting..." value="Conversión..." revision="0" />
   <Enumeration key="MchDisplayHint">
-    <Item />
-    <Item />
+    <Item value="&amp;Mostrar sugerencia…" revision="0" />
+    <Item value="Mostrar la pista seleccionada en el cuadro de diálogo" revision="0" />
   </Enumeration>
   <Enumeration key="MchExportBinary">
-    <Item />
-    <Item />
+    <Item value="Exportar &amp;binario…" revision="0" />
+    <Item value="Exportación de datos de paquetes en formato binario" revision="0" />
   </Enumeration>
   <Enumeration key="ExportFormats">
-    <Item />
-    <Item />
+    <Item value="Todos los archivos (*.*)|*.*|" revision="0" />
+    <Item value="Archivos HTML (*.htm;*.html)|*.htm;*.html|Archivos de texto UNICODE (*.txt)|*.txt|Archivos de texto ANSI (*.txt)|*.txt||" revision="0" />
   </Enumeration>
 </Language>

@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="HidSessionError" value="O início da sessão falhou devido ao seguinte erro: &quot;{error}&quot;" revision="0" />
+  <Message key="HidSessionErrorTitle" value="Erro de sessão HID" revision="0" />
+  <Message key="HidSessionLicenseError" value="Expirado. Actualize para a edição {edition} Edição para utilizar este componente." revision="0" />
+  <Message key="HIDSendTitle" value="Envio HID" revision="0" />
+  <Message key="Unknown Hid Device" value="Dispositivo HID desconhecido" revision="0" />
+  <Message key="HID Info Not Available" value="N/D" revision="0" />
+  <Message key="Device Detected." value="Dispositivo detectado." revision="0" />
+  <Message key="HID Device Detected." value="Dispositivo HID detectado." revision="0" />
+  <Message key="WARNING: unsupported device type. Trying to parse." value="AVISO: tipo de dispositivo não suportado. A tentar analisar." revision="0" />
+  <Message key="Device Class" value="Classe de dispositivos" revision="0" />
   <Enumeration key="HumanConverter">
-    <Item />
-    <Item />
+    <Item value="Vista HID" revision="0" />
+    <Item value="O visualizador de dados Vista HID descodifica pacotes e estruturas de dados específicos de HID e apresenta-os de forma cómoda. Ideal para dispositivos que pertencem à classe de dispositivos de interface humana." revision="0" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />
@@ -1767,10 +1777,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbHidColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Dados binários" revision="0" />
+    <Item value="Erros" revision="0" />
+    <Item value="Cabeçalho 2" revision="0" />
   </Enumeration>
 </Language>

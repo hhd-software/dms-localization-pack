@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="operate independantly" value="Cada interface dentro da configuração especifica a sua própria informação de classe e várias interfaces funcionam independentemente" revision="0" />
+  <Message key="Device supports different class specifications" value="O dispositivo suporta especificações de classe diferentes em interfaces diferentes e as interfaces podem não funcionar de forma independente" revision="0" />
+  <Message key="Device Class" value="Classe de dispositivos" revision="0" />
+  <Message key="This command is not defined." value="AVISO: Este comando não está definido no conjunto de comandos atual." revision="0" />
+  <Message key="WARNING" value="AVISO" revision="0" />
+  <Message key="Mass Storage Device Detected." value="Dispositivo de armazenamento em massa detectado." revision="0" />
+  <Message key="unsupported device type" value="AVISO: tipo de dispositivo não suportado. A tentar analisar." revision="0" />
+  <Message key="Device Detected." value="Dispositivo detectado." revision="0" />
   <Enumeration key="MassConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de armazenamento em massa" revision="0" />
+    <Item value="O visualizador de dados da Vista de Armazenamento em Massa descodifica o protocolo de Armazenamento em Massa USB para dispositivos pertencentes à classe de Armazenamento em Massa" revision="0" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

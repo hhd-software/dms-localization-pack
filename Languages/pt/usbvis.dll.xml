@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportFailed" value="A exportação falhou porque a vista não contém dados" revision="0" />
+  <Message key="ErrorExportingData" value="Erro ao exportar dados" revision="0" />
+  <Message key="CannotCreateFile" value="Não é possível criar ficheiro" revision="0" />
+  <Message key="LocatingPacketError" value="Erro ao localizar o pacote" revision="0" />
+  <Message key="LittleEndianFormat" value="Little-Endian (formato de número x86)" revision="0" />
+  <Message key="BigEndianFormat" value="Big-Endian (formato de número ALPHA, ordem de rede)" revision="0" />
+  <Message key="ExportingCaption" value="Aguarde enquanto o {exporter} está a converter os dados seleccionados." revision="0" />
+  <Message key="HintError" value="Hex: {hex}, Decimal: {dec}, Decimal sem sinal: {udec}, Octal: {oct}o\nBinário:{bin}\n" revision="0" />
+  <Message key="AsciiCharFormat" value="Caracteres: {char}" revision="0" />
+  <Message key="UnicodeCharFormat" value="Caracteres Unicode: {char}" revision="0" />
+  <Message key="SingleByteSelected" value="Byte único selecionado" revision="0" />
+  <Message key="DataExported" value="Dados exportados com sucesso" revision="0" />
+  <Message key="ExportTitle" value="Exportação" revision="0" />
+  <Message key="ClipboardOverflow" value="Colocou uma grande quantidade de dados na área de transferência. Pretende que os dados estejam disponíveis quando fechar a aplicação {app_name}" revision="0" />
+  <Message key="Converting..." value="Conversão..." revision="0" />
   <Enumeration key="MchDisplayHint">
-    <Item />
-    <Item />
+    <Item value="&amp;Mostrar sugestão…" revision="0" />
+    <Item value="Mostrar a sugestão atualmente selecionada na caixa de diálogo" revision="0" />
   </Enumeration>
   <Enumeration key="MchExportBinary">
-    <Item />
-    <Item />
+    <Item value="Exportar &amp;binário…" revision="0" />
+    <Item value="Exportar dados de pacotes em formato binário" revision="0" />
   </Enumeration>
   <Enumeration key="ExportFormats">
-    <Item />
-    <Item />
+    <Item value="Todos os ficheiros (*.*)|*.*|" revision="0" />
+    <Item value="Ficheiros HTML (*.htm;*.html)|*.htm;*.html|Ficheiros de texto UNICODE (*.txt)|*.txt|Ficheiros de texto ANSI (*.txt)|*.txt||" revision="0" />
   </Enumeration>
 </Language>

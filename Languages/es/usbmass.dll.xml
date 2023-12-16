@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="operate independantly" value="Cada interfaz dentro de la configuración especifica su propia información de clase y varias interfaces funcionan de forma independiente" revision="0" />
+  <Message key="Device supports different class specifications" value="El dispositivo admite diferentes especificaciones de clase en diferentes interfaces y es posible que las interfaces no funcionen de forma independiente" revision="0" />
+  <Message key="Device Class" value="Clase de dispositivo" revision="0" />
+  <Message key="This command is not defined." value="ADVERTENCIA: Este comando no está definido en el conjunto de comandos actual." revision="0" />
+  <Message key="WARNING" value="ADVERTENCIA" revision="0" />
+  <Message key="Mass Storage Device Detected." value="Dispositivo de almacenamiento masivo detectado." revision="0" />
+  <Message key="unsupported device type" value="ADVERTENCIA: tipo de dispositivo no soportado. Intentando analizar." revision="0" />
+  <Message key="Device Detected." value="Dispositivo detectado." revision="0" />
   <Enumeration key="MassConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de almacenamiento masivo" revision="0" />
+    <Item value="El visualizador de datos Vista de almacenamiento masivo descodifica el protocolo de almacenamiento masivo USB para dispositivos pertenecientes a la clase de almacenamiento masivo" revision="0" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />
