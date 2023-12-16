@@ -58,9 +58,9 @@
   </Enumeration>
   <Enumeration key="TerminalSendFilters">
     <Item value="Text Dateien" revision="0" />
-    <Item />
+    <Item value="*.txt" revision="0" />
     <Item value="Alle Dateien" revision="0" />
-    <Item />
+    <Item value="*.*" revision="0" />
   </Enumeration>
   <Enumeration key="TerminalEcho">
     <Item value="Echo" revision="0" />
