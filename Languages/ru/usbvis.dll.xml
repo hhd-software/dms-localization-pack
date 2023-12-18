@@ -14,7 +14,7 @@
   <Message key="DataExported" value="Данные успешно экспортированы" revision="0" />
   <Message key="ExportTitle" value="Экспорт" revision="0" />
   <Message key="ClipboardOverflow" value="Вы поместили в буфер обмена большой объем данных. Хотите ли вы, чтобы эти данные были доступны при закрытии {app_name}" revision="0" />
-  <Message key="Converting..." value="Конвертация..." revision="0" />
+  <Message key="Converting..." value="Конвертация…" revision="0" />
   <Enumeration key="MchDisplayHint">
     <Item value="&amp;Показать подсказку…" revision="0" />
     <Item value="Отобразить в диалоговом окне текущую выбранную подсказку" revision="0" />

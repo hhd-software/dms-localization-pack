@@ -171,7 +171,7 @@
 
 	<Message key="Get Registered Version Now!" description="Window Title: Get Registered Version Now!"/>
 	<Message key="Select the edition type for each component and click Continue button." description="Field: Select the edition type for each component and click Continue button."/>
-	<Message key="Compare Editions..." description="Link: Compare Editions..." value="Compare Editions…"/>
+	<Message key="Compare Editions..." description="Link: Compare Editions…" value="Compare Editions…"/>
 	<Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." description="Field: Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later."/>
 
 </Definition>

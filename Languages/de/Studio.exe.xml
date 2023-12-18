@@ -17,7 +17,7 @@
   <Message key="Language pack storage location" value="Speicherort des Sprachpakets" revision="0" />
   <Message key="Languages online" value="Sprachen online" revision="0" />
   <Message key="Refresh" value="&amp;Aktualisieren" revision="0" />
-  <Message key="ButtonRefreshing" value="Erfrischend..." revision="0" />
+  <Message key="ButtonRefreshing" value="Erfrischend…" revision="0" />
   <Message key="Download" value="&amp;Download" revision="0" />
   <Message key="Start" value="&amp;Start" revision="0" />
   <Message key="Language pack" value="Sprachpaket: {native name}" revision="0" />
@@ -27,7 +27,7 @@
   <Message key="The following updates are found:" value="Folgende Aktualisierungen wurden gefunden:" revision="0" />
   <Message key="Check for updates" value="Nach Aktualisierungen suchen" revision="0" />
   <Message key="Start Download" value="Download starten" revision="0" />
-  <Message key="View Changes…" value="Änderungen anzeigen…" revision="0" />
+  <Message key="View Changes..." value="Änderungen anzeigen…" revision="0" />
   <Message key="Discard" value="Verwerfen" revision="0" />
   <Message key="ActionSelection" value="{name} wurde erfolgreich heruntergeladen. Was wollen Sie damit machen?" revision="0" />
   <Message key="UpdateDownloadError" value="Beim Herunterladen des Updates ist der folgende Fehler aufgetreten:\n\n  {error}" revision="0" />
@@ -51,6 +51,7 @@
   <Message key="OverwriteColoringScheme" value="Schema {scheme} überschreiben?" revision="0" />
   <Message key="InvalidColoringScheme" value="Ungültiger Schemaname oder das Schema existiert bereits." revision="0" />
   <Message key="LowMemory" value="Die Überwachungssitzung wurde aufgrund von Speichermangel beendet" revision="0" />
+  <Message key="EmergencySessionTermination" value="Die Sitzung wurde mit folgendem Fehler abgebrochen: {error text} ({error code})" revision="1" />
   <Message key="EmptyFilter" value="Leer (alle Pakete erfassen)" revision="0" />
   <Message key="DISPFILTER" value="Visualisierer-Filter" revision="0" />
   <Message key="CAPTUREFILTER" value="Sitzungs-Filter" revision="0" />
@@ -105,7 +106,7 @@
   <Message key="Empty" value="Leere" revision="0" />
   <Message key="SerialRepeaterConfig" value="Lesen → {read},Schreibe → {write}" revision="0" />
   <Message key="RepeaterApplyError" value="Für Pakete vom Typ {packettype} ist kein Empfangsgerät angegeben." revision="0" />
-  <Message key="SelectDevice" value="Gerät aus der Liste auswählen..." revision="0" />
+  <Message key="SelectDevice" value="Gerät aus der Liste auswählen…" revision="0" />
   <Message key="Closing application" value="Abschluss der Bewerbung" revision="0" />
   <Message key="DisplayLoadErrors" value="Beim Laden dieser Datei sind folgende Fehler aufgetreten:\r\n{errors}" revision="0" />
   <Message key="MissingComponents" value="Mehrere Arbeitsbereichskomponenten wurden nicht gefunden und nicht geladen." revision="0" />
@@ -319,7 +320,7 @@
   <Message key="Code" value="Code" revision="0" />
   <Message key="The following monitoring sessions are active:" value="{has sessions?}Die folgenden Überwachungssitzungen sind aktiv: {sessions}{|has sessions}Keine aktiven Überwachungssitzungen.{?has sessions}" revision="0" />
   <Message key="Default" value="Standard" revision="0" />
-  <Message key="Plase wait" value="Bitte warten..." revision="0" />
+  <Message key="Plase wait" value="Bitte warten…" revision="0" />
   <Message key="DataNoLongerValid" value="Dieser Datenblock ist nicht mehr gültig." revision="0" />
   <Message key="Unknown Request" value="Unbekannt Anfrage" revision="0" />
   <Message key="Undefined" value="Undefiniert" revision="0" />
@@ -350,7 +351,7 @@
   <Message key="ThemeFiles" value="Design-Dateien (*.dmstheme)|*.dmstheme||" revision="1" />
   <Message key="BindPathWarning" value="Ihre aktuelle Sitzung wird unterbrochen, um das neue Root-Protokoll anzuwenden. Ereignisse, die während dieses Vorgangs stattfinden, gehen verloren. Möchten Sie fortfahren?" revision="0" />
   <Message key="WarningTitle" value="Warnung" revision="0" />
-  <Message key="Wait_Text" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="Wait_Text" value="Der angeforderte Vorgang wird ausgeführt…" revision="0" />
   <Message key="Crash Page" value="Absturzbericht" revision="0" />
   <Message key="CrashIntro" value="Wenn Sie über den Status Ihres Absturzberichts benachrichtigt werden möchten und wünschen, dass Ihre Berichte mit höherer Priorität bearbeitet werden, geben Sie bitte Ihre E-Mail-Adresse in das unten stehende Feld ein. Ihre E-Mail-Adresse wird nicht für andere Zwecke als die Erörterung Ihrer Meldung verwendet." revision="0" />
   <Message key="Report Settings" value="Einstellungen" revision="0" />
@@ -575,7 +576,7 @@
     <Item value="Rückmeldung" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
-    <Item value="&amp;Tastaturkarte..." revision="0" />
+    <Item value="&amp;Tastaturkarte…" revision="0" />
     <Item value="Tastaturbelegung anzeigen und drucken" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardPrint">

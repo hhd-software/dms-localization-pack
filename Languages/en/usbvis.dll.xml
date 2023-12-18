@@ -50,5 +50,5 @@
 	<Message key="ClipboardOverflow" description="Error: Clipboard overflow" value="You placed a large amount of data to the clipboard. Do you want the data to be available when you close the {app_name}">
 		<Param name="app_name"/>
 	</Message>
-	<Message key="Converting..." description="Title: Export progress dialog" value="Converting..."/>
+	<Message key="Converting..." description="Title: Export progress dialog" value="Converting…"/>
 </Definition>

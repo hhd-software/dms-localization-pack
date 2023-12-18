@@ -27,7 +27,7 @@
   <Message key="The following updates are found:" value="Найдены следующие обновления:" revision="0" />
   <Message key="Check for updates" value="Проверить обновления" revision="0" />
   <Message key="Start Download" value="Начать загрузку" revision="0" />
-  <Message key="View Changes…" value="Посмотреть изменения…" revision="0" />
+  <Message key="View Changes..." value="Посмотреть изменения…" revision="0" />
   <Message key="Discard" value="Отказаться" revision="0" />
   <Message key="ActionSelection" value="{name} был успешно загружен. Что вы хотите с ним сделать?" revision="0" />
   <Message key="UpdateDownloadError" value="При загрузке обновления произошла ошибка:\n\n  {error}" revision="0" />
@@ -51,6 +51,7 @@
   <Message key="OverwriteColoringScheme" value="Перезаписать схему {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Некорректное имя схемы или схема уже существует." revision="0" />
   <Message key="LowMemory" value="Сессия мониторинга была остановлена из-за нехватки памяти" revision="0" />
+  <Message key="EmergencySessionTermination" value="Сессия была прервана после следующей ошибки: {error text} ({error code})" revision="1" />
   <Message key="EmptyFilter" value="Пусто (захват всех пакетов)" revision="0" />
   <Message key="DISPFILTER" value="Фильтр визуализатора" revision="0" />
   <Message key="CAPTUREFILTER" value="Фильтр сессии" revision="0" />
@@ -105,7 +106,7 @@
   <Message key="Empty" value="Пусто" revision="0" />
   <Message key="SerialRepeaterConfig" value="Чтение → {read},Запись → {write}" revision="0" />
   <Message key="RepeaterApplyError" value="Не указано принимающее устройство для пакетов {packettype}." revision="0" />
-  <Message key="SelectDevice" value="Выберите устройство из списка..." revision="0" />
+  <Message key="SelectDevice" value="Выберите устройство из списка…" revision="0" />
   <Message key="Closing application" value="Закрытие приложения" revision="0" />
   <Message key="DisplayLoadErrors" value="При загрузке файла возникли следующие ошибки:\r\n{errors}" revision="0" />
   <Message key="MissingComponents" value="Несколько компонентов рабочей области не найдены и не были загружены." revision="0" />
@@ -350,7 +351,7 @@
   <Message key="ThemeFiles" value="Файлы тем (*.dmstheme)|*.dmstheme||" revision="1" />
   <Message key="BindPathWarning" value="Текущая сессия будет приостановлена, чтобы применить новый корневой протокол. События, произошедшие во время этой операции, будут потеряны. Хотите продолжить?" revision="0" />
   <Message key="WarningTitle" value="Внимание" revision="0" />
-  <Message key="Wait_Text" value="Выполняется запрашиваемая операция..." revision="0" />
+  <Message key="Wait_Text" value="Выполняется запрашиваемая операция…" revision="0" />
   <Message key="Crash Page" value="Отчеты о сбоях" revision="0" />
   <Message key="CrashIntro" value="Если вы хотите получать уведомления о статусе ваших отчетов о сбоях и желаете, чтобы ваши отчеты обрабатывались с более высоким приоритетом, пожалуйста, укажите свой адрес электронной почты в поле ниже. Ваш адрес электронной почты не будет использоваться ни для каких других целей, кроме обсуждения ваших сообщений." revision="0" />
   <Message key="Report Settings" value="Настройки" revision="0" />

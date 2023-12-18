@@ -27,7 +27,7 @@
   <Message key="The following updates are found:" value="Se encuentran las siguientes actualizaciones:" revision="0" />
   <Message key="Check for updates" value="Buscar actualizaciones" revision="0" />
   <Message key="Start Download" value="Iniciar descarga" revision="0" />
-  <Message key="View Changes…" value="Ver cambios…" revision="0" />
+  <Message key="View Changes..." value="Ver cambios…" revision="0" />
   <Message key="Discard" value="Descartar" revision="0" />
   <Message key="ActionSelection" value="{name} se ha descargado correctamente. ¿Qué quieres hacer con él?" revision="0" />
   <Message key="UpdateDownloadError" value="Se ha producido el siguiente error al descargar la actualización:\n\n  {error}" revision="0" />
@@ -51,6 +51,7 @@
   <Message key="OverwriteColoringScheme" value="¿Sobrescribir esquema {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Nombre de esquema no válido o el esquema ya existe." revision="0" />
   <Message key="LowMemory" value="La sesión de monitorización se ha detenido por falta de memoria" revision="0" />
+  <Message key="EmergencySessionTermination" value="La sesión se ha interrumpido tras el siguiente error: {error text} ({error code})" revision="1" />
   <Message key="EmptyFilter" value="Vacío (captura todos los paquetes)" revision="0" />
   <Message key="DISPFILTER" value="Filtro visualizador" revision="0" />
   <Message key="CAPTUREFILTER" value="Filtro de sesión" revision="0" />
@@ -105,7 +106,7 @@
   <Message key="Empty" value="Vacío" revision="0" />
   <Message key="SerialRepeaterConfig" value="Leer → {read},Escribe → {write}" revision="0" />
   <Message key="RepeaterApplyError" value="Dispositivo receptor de paquetes {packettype} no especificado." revision="0" />
-  <Message key="SelectDevice" value="Seleccione el dispositivo de la lista..." revision="0" />
+  <Message key="SelectDevice" value="Seleccione el dispositivo de la lista…" revision="0" />
   <Message key="Closing application" value="Cierre de la aplicación" revision="0" />
   <Message key="DisplayLoadErrors" value="Se han producido los siguientes errores al cargar este archivo:\r\n{errors}" revision="0" />
   <Message key="MissingComponents" value="Varios componentes del espacio de trabajo no se encontraron y no se cargaron." revision="0" />
@@ -322,7 +323,7 @@
   <Message key="ThemeFiles" value="Archivos de tema (*.dmstheme)|*.dmstheme||" revision="1" />
   <Message key="BindPathWarning" value="La sesión actual se detendrá para aplicar el nuevo protocolo raíz. Los eventos que ocurran durante esta operación se perderán. ¿Desea continuar?" revision="0" />
   <Message key="WarningTitle" value="Advertencia" revision="0" />
-  <Message key="Wait_Text" value="Se está realizando la operación solicitada..." revision="0" />
+  <Message key="Wait_Text" value="Se está realizando la operación solicitada…" revision="0" />
   <Message key="Crash Page" value="Informes de crashs" revision="0" />
   <Message key="CrashIntro" value="Si desea que se le notifique el estado de su informe de accidente y que sus informes se tramiten con mayor prioridad, indique su dirección de correo electrónico en el recuadro siguiente. Su dirección de correo electrónico no se utilizará para ningún otro fin que no sea el debate sobre su envío." revision="0" />
   <Message key="Send report automatically" value="&amp;Enviar informe automáticamente" revision="0" />

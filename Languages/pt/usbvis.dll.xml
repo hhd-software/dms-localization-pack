@@ -14,7 +14,7 @@
   <Message key="DataExported" value="Dados exportados com sucesso" revision="0" />
   <Message key="ExportTitle" value="Exportação" revision="0" />
   <Message key="ClipboardOverflow" value="Colocou uma grande quantidade de dados na área de transferência. Pretende que os dados estejam disponíveis quando fechar a aplicação {app_name}" revision="0" />
-  <Message key="Converting..." value="Conversão..." revision="0" />
+  <Message key="Converting..." value="Conversão…" revision="0" />
   <Enumeration key="MchDisplayHint">
     <Item value="&amp;Mostrar sugestão…" revision="0" />
     <Item value="Mostrar a sugestão atualmente selecionada na caixa de diálogo" revision="0" />

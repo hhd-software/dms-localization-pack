@@ -116,7 +116,7 @@
   <Message key="The following updates are found:" description="Field: The following updates are found"/>
   <Message key="Check for updates" description="Field: Check for updates"/>
   <Message key="Start Download" description="Button: Start Download"/>
-  <Message key="View Changes…" description="Button: View Changes…"/>
+  <Message key="View Changes..." description="Button: View Changes…"/>
   <Message key="Discard" description="Button and choice: Discard"/>
 
   <Message key="ActionSelection" description="Update has been successfully downloaded. What do you want to do with it?" value="{name} has been successfully downloaded. What do you want to do with it?">
@@ -174,11 +174,10 @@
 
   <Message key="LowMemory" description="Low memory condition" value="Monitoring session has been stopped due to low memory conditions"/>
 
-  <Message optional="true" key="EmergencySessionTermination" description="Emergency session termination error" value="{error text} ({error code})">
+  <Message key="EmergencySessionTermination" description="Emergency session termination error" value="The session was aborted after the following error: {error text} ({error code})" revision="1">
     <Param name="error text"/>
     <Param name="error code" format="ub016"/>
   </Message>
-
 
   <!-- Filters -->
   <Message key="EmptyFilter" description="Empty filter" value="Empty (capture all packets)"/>
@@ -341,7 +340,7 @@
     <Param name="packettype"/>
   </Message>
 
-  <Message key="SelectDevice" description="Select device hint message" value="Select device from the list..."/>
+  <Message key="SelectDevice" description="Select device hint message" value="Select device from the list…"/>
   <Message key="Closing application" description="Closing application"/>
 
 	<Message key="DisplayLoadErrors" description="Load errors title" value="The following errors occurred while loading this file:\r\n{errors}">
@@ -934,7 +933,7 @@
 	</Message>
 	<Message key="BindPathWarning" description="Warning: Session will be paused" value="Your current session will be paused in order to apply new root protocol. Events that happen during this operation will be lost. Do you want to continue?"/>
 	<Message key="WarningTitle" description="Title: Warning" value="Warning"/>
-	<Message key="Wait_Text" description="Notification: Wait" value="Requested operation is being performed..."/>
+	<Message key="Wait_Text" description="Notification: Wait" value="Requested operation is being performed…"/>
 
 	<!-- Crash Page -->
 	<Message key="Crash Page" description="Crash Reporting Settings Page" value="Crash Reporting"/>

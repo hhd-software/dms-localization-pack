@@ -14,7 +14,7 @@
   <Message key="DataExported" value="Datos exportados correctamente" revision="0" />
   <Message key="ExportTitle" value="Exportación" revision="0" />
   <Message key="ClipboardOverflow" value="Ha colocado una gran cantidad de datos en el portapapeles. Quieres que los datos estén disponibles cuando cierres {app_name}" revision="0" />
-  <Message key="Converting..." value="Conversión..." revision="0" />
+  <Message key="Converting..." value="Conversión…" revision="0" />
   <Enumeration key="MchDisplayHint">
     <Item value="&amp;Mostrar sugerencia…" revision="0" />
     <Item value="Mostrar la pista seleccionada en el cuadro de diálogo" revision="0" />

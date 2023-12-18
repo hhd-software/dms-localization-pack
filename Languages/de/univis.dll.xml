@@ -43,9 +43,9 @@
   <Message key="Process" value="Prozess" revision="0" />
   <Message key="ErrorInput" value="Ungültiger Bereich. Wertebereich ist ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Es können keine Pakete gesendet werden. Netzwerkadapter nicht ausgewählt oder System hat keine angeschlossenen Netzwerkadapter." revision="0" />
-  <Message key="LogStartBurst" value="Start (Burst-Modus)..." revision="0" />
-  <Message key="LogStart" value="Start..." revision="0" />
-  <Message key="LogStop" value="Stopp..." revision="0" />
+  <Message key="LogStartBurst" value="Start (Burst-Modus)…" revision="0" />
+  <Message key="LogStart" value="Start…" revision="0" />
+  <Message key="LogStop" value="Stopp…" revision="0" />
   <Message key="ViewOffset" value="Offset" revision="0" />
   <Message key="PatternColoring" value="Muster Färbung" revision="0" />
   <Message key="Pattern" value="Muster" revision="0" />
@@ -110,7 +110,7 @@
   <Message key="PlotStaticLine" value="Verfolgungslinie: " revision="2" />
   <Message key="PlotDynamicLine" value="Statische Linie: " revision="2" />
   <Message key="FindPatternTitle" value="Muster:" revision="0" />
-  <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt…" revision="0" />
   <Message key="CopyrightNotice" value="Erzeugt von HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Syntaxfehler eines regulären Ausdrucks: {error}." revision="0" />
   <Message key="Find" value="Finde" revision="0" />
@@ -149,7 +149,7 @@
   <Message key="Units:" value="Einheiten:" revision="0" />
   <Message key="Line width:" value="Linienbreite" revision="1" />
   <Message key="Scale:" value="Skala:" revision="0" />
-  <Message key="Please Wait..." value="Bitte warten..." revision="0" />
+  <Message key="Please Wait..." value="Bitte warten…" revision="0" />
   <Message key="Find all results" value="Alle Ergebnisse finden" revision="0" />
   <Message key="Display results pane" value="Ergebnisbereich anzeigen" revision="0" />
   <Message key="Pattern Editor" value="Muster Editor" revision="0" />
@@ -160,7 +160,7 @@
   <Message key="NotValid" value="Ungültiger Wert." revision="0" />
   <Message key="SViewTitle" value="Struktur Ansicht" revision="0" />
   <Message key="N/A" value="N/V" revision="0" />
-  <Message key="CantUpdate" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
+  <Message key="CantUpdate" value="Der angeforderte Vorgang wird ausgeführt…" revision="0" />
   <Message key="PColFilter" value="Musterfärbungsschemadateien|*.hexpcs|" revision="0" />
   <Message key="Recent Patterns…" value="Jüngste Muster…" revision="0" />
   <Message key="Type:" value="Typ:" revision="0" />
@@ -168,7 +168,7 @@
   <Message key="Custom colors:" value="Benutzerdefinierte Farben:" revision="0" />
   <Message key="Default colors:" value="Standardfarben:" revision="0" />
   <Message key="Alpha" value="Alpha" revision="0" />
-  <Message key="Custom..." value="Benutzerdefiniert..." revision="0" />
+  <Message key="Custom..." value="Benutzerdefiniert…" revision="0" />
   <Message key="Baud rate:" value="Baudrate:" revision="0" />
   <Message key="Data bits:" value="Datenbits:" revision="0" />
   <Message key="Parity:" value="Parität:" revision="0" />

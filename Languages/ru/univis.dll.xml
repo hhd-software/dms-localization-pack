@@ -43,9 +43,9 @@
   <Message key="Process" value="Процесс" revision="0" />
   <Message key="ErrorInput" value="Некорректный диапазон. Диапазон - ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Невозможно отправить пакеты. Сетевой адаптер не выбран или в системе нет подключенных сетевых адаптеров." revision="0" />
-  <Message key="LogStartBurst" value="Пуск ( пакетный режим)..." revision="0" />
-  <Message key="LogStart" value="Пуск..." revision="0" />
-  <Message key="LogStop" value="Остановить..." revision="0" />
+  <Message key="LogStartBurst" value="Пуск (пакетный режим)…" revision="0" />
+  <Message key="LogStart" value="Пуск…" revision="0" />
+  <Message key="LogStop" value="Остановить…" revision="0" />
   <Message key="ViewOffset" value="Смещение" revision="0" />
   <Message key="PatternColoring" value="Подсветка паттернов" revision="0" />
   <Message key="Pattern" value="Паттерн" revision="0" />
@@ -110,7 +110,7 @@
   <Message key="PlotStaticLine" value="Следящая линия: " revision="2" />
   <Message key="PlotDynamicLine" value="Статичная линия: " revision="2" />
   <Message key="FindPatternTitle" value="Паттерн:" revision="0" />
-  <Message key="OperationPerformed" value="Выполняется запрашиваемая операция..." revision="0" />
+  <Message key="OperationPerformed" value="Выполняется запрашиваемая операция…" revision="0" />
   <Message key="CopyrightNotice" value="Создано программой HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Ошибка синтаксиса регулярного выражения: {error}." revision="0" />
   <Message key="Find" value="Поиск" revision="0" />
@@ -149,7 +149,7 @@
   <Message key="Units:" value="Единицы:" revision="0" />
   <Message key="Line width:" value="Ширина строки" revision="1" />
   <Message key="Scale:" value="Масштаб:" revision="0" />
-  <Message key="Please Wait..." value="Пожалуйста, подождите..." revision="0" />
+  <Message key="Please Wait..." value="Пожалуйста, подождите…" revision="0" />
   <Message key="Find all results" value="Найти все результаты" revision="0" />
   <Message key="Display results pane" value="Показать панель результатов" revision="0" />
   <Message key="Pattern Editor" value="Редактор паттернов" revision="0" />
@@ -160,7 +160,7 @@
   <Message key="NotValid" value="Недопустимое значение." revision="0" />
   <Message key="SViewTitle" value="Структурный вид" revision="0" />
   <Message key="N/A" value="Н/Д" revision="0" />
-  <Message key="CantUpdate" value="Запрашиваемая операция выполняется..." revision="0" />
+  <Message key="CantUpdate" value="Запрашиваемая операция выполняется…" revision="0" />
   <Message key="PColFilter" value="Файлы раскраски паттернов|*.hexpcs|" revision="0" />
   <Message key="Recent Patterns…" value="Последние паттерны…" revision="0" />
   <Message key="Type:" value="Тип:" revision="0" />
@@ -168,7 +168,7 @@
   <Message key="Custom colors:" value="Пользовательские цвета:" revision="0" />
   <Message key="Default colors:" value="Цвета по умолчанию:" revision="0" />
   <Message key="Alpha" value="Альфа" revision="0" />
-  <Message key="Custom..." value="Пользовательский..." revision="0" />
+  <Message key="Custom..." value="Пользовательский…" revision="0" />
   <Message key="Baud rate:" value="Скорость:" revision="0" />
   <Message key="Data bits:" value="Биты данных:" revision="0" />
   <Message key="Parity:" value="Чётность:" revision="0" />

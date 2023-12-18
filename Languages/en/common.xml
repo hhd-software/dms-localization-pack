@@ -26,5 +26,5 @@
 	<Message key="AllFilesFilter" description="All files filter" value="All Files|*.*|"/>
 	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
 
-	<Message key="bytes" description="Common string: bytes, as in &quot;... NN bytes&quot;" value="bytes"/>
+	<Message key="bytes" description="Common string: bytes, as in &quot;… NN bytes&quot;" value="bytes"/>
 </Definition>

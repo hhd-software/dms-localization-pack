@@ -45,7 +45,7 @@
   <Message key="NagInfo" value="Следующие компоненты пробные или просрочены.\n\nВы не можете продолжать использовать просроченные компоненты. Чтобы устранить это окно, необходимо приобрести хотя бы один компонент." revision="0" />
   <Message key="Get Registered Version Now!" value="Получить зарегистрированную версию сейчас!" revision="0" />
   <Message key="Select the edition type for each component and click Continue button." value="Выберите редакцию для каждого компонента и нажмите кнопку Продолжить." revision="0" />
-  <Message key="Compare Editions..." value="Сравнить издания..." revision="0" />
+  <Message key="Compare Editions..." value="Сравнить издания…" revision="0" />
   <Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." value="Нажмите кнопку Продолжить, чтобы поместить выбранный модуль(и) в Корзину. Дополнительные опции можно будет указать позже." revision="0" />
   <Enumeration key="HelpRegister">
     <Item value="&amp;Управление лицензиями…" revision="0" />

@@ -43,9 +43,9 @@
   <Message key="Process" value="Processo" revision="0" />
   <Message key="ErrorInput" value="Intervalo inválido. O intervalo de valores é ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Não é possível enviar pacotes. Adaptador de rede não selecionado ou o sistema não tem adaptadores de rede ligados." revision="0" />
-  <Message key="LogStartBurst" value="Início (modo Burst)..." revision="0" />
-  <Message key="LogStart" value="Início..." revision="0" />
-  <Message key="LogStop" value="Parar..." revision="0" />
+  <Message key="LogStartBurst" value="Início (modo Burst)…" revision="0" />
+  <Message key="LogStart" value="Início…" revision="0" />
+  <Message key="LogStop" value="Parar…" revision="0" />
   <Message key="PatternColoring" value="Coloração de padrões de dados" revision="0" />
   <Message key="Pattern" value="Padrão" revision="0" />
   <Message key="WriteFileError" value="Erro ao escrever no ficheiro. Tenta uma localização diferente." revision="0" />
@@ -102,7 +102,7 @@
   <Message key="PlotStaticLine" value="Linha de seguimento: " revision="2" />
   <Message key="PlotDynamicLine" value="Linha estática: " revision="2" />
   <Message key="FindPatternTitle" value="Padrão:" revision="0" />
-  <Message key="OperationPerformed" value="A operação solicitada está a ser executada..." revision="0" />
+  <Message key="OperationPerformed" value="A operação solicitada está a ser executada…" revision="0" />
   <Message key="CopyrightNotice" value="Gerado por HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Erro de sintaxe de expressão regular: {error}." revision="0" />
   <Message key="Type: " value="Tipo: " revision="0" />
@@ -139,7 +139,7 @@
   <Message key="Units:" value="Unidades:" revision="0" />
   <Message key="Line width:" value="Largura da linha" revision="1" />
   <Message key="Scale:" value="Escala:" revision="0" />
-  <Message key="Please Wait..." value="Por favor, aguarde..." revision="0" />
+  <Message key="Please Wait..." value="Por favor, aguarde…" revision="0" />
   <Message key="Find all results" value="Encontrar todos os resultados" revision="0" />
   <Message key="Display results pane" value="Visualizar o painel de resultados" revision="0" />
   <Message key="Pattern Editor" value="Editor de padrões" revision="0" />
@@ -150,7 +150,7 @@
   <Message key="NotValid" value="Valor não válido." revision="0" />
   <Message key="SViewTitle" value="Visualizador de estruturas" revision="0" />
   <Message key="N/A" value="N/D" revision="0" />
-  <Message key="CantUpdate" value="A operação solicitada está a ser executada..." revision="0" />
+  <Message key="CantUpdate" value="A operação solicitada está a ser executada…" revision="0" />
   <Message key="PColFilter" value="Ficheiros de esquemas de coloração de padrões|*.hexpcs|" revision="0" />
   <Message key="Recent Patterns…" value="Padrões recentes…" revision="0" />
   <Message key="Type:" value="Tipo:" revision="0" />
@@ -158,7 +158,7 @@
   <Message key="Custom colors:" value="Cores personalizadas:" revision="0" />
   <Message key="Default colors:" value="Cores predefinidas:" revision="0" />
   <Message key="Alpha" value="Alfa" revision="0" />
-  <Message key="Custom..." value="Personalizado..." revision="0" />
+  <Message key="Custom..." value="Personalizado…" revision="0" />
   <Message key="Baud rate:" value="Velocidade de transmissão:" revision="0" />
   <Message key="Data bits:" value="Bits de dados:" revision="0" />
   <Message key="Parity:" value="Paridade:" revision="0" />

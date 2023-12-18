@@ -14,7 +14,7 @@
   <Message key="DataExported" value="Daten erfolgreich exportiert" revision="0" />
   <Message key="ExportTitle" value="Exportieren" revision="0" />
   <Message key="ClipboardOverflow" value="Sie haben eine große Menge an Daten in der Zwischenablage abgelegt. Möchten Sie, dass die Daten verfügbar sind, wenn Sie die {app_name}" revision="0" />
-  <Message key="Converting..." value="Konvertieren..." revision="0" />
+  <Message key="Converting..." value="Konvertieren…" revision="0" />
   <Enumeration key="MchDisplayHint">
     <Item value="&amp;Hinweis anzeigen…" revision="0" />
     <Item value="Anzeige des aktuell ausgewählten Hinweises in der Dialogbox" revision="0" />

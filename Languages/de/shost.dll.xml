@@ -7,7 +7,7 @@
   <Message key="AskToSaveScript" value="Die aktuelle Skriptdatei hat ungespeicherte Änderungen. Möchten Sie sie speichern?" revision="0" />
   <Message key="Expired" value="Die Scripting-Komponente ist abgelaufen. Sie müssen das Produkt auf die {edition} Ausgabe aktualisieren, um es verwenden zu können." revision="0" />
   <Message key="SaveScripts" value="Einige geöffnete Skripte werden geändert und nicht gespeichert. Möchten Sie sie jetzt speichern?" revision="0" />
-  <Message key="Running Script" value="Skript {name} wird ausgeführt...\n" revision="0" />
+  <Message key="Running Script" value="Skript {name} wird ausgeführt…\n" revision="0" />
   <Message key="Stopping Script" value="Anhalten der Skriptausführung" revision="0" />
   <Message key="Stopped Script" value="\nScript-Ausführung angehalten.\n" revision="0" />
   <Message key="Compiling TypeScript" value="TypeScript kompilieren…\n" revision="0" />
