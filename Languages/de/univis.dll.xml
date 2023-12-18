@@ -108,7 +108,7 @@
   <Message key="ErrorCreate" value="Datei kann nicht erstellen." revision="0" />
   <Message key="Plot" value="Plot" revision="0" />
   <Message key="PlotStaticLine" value="Verfolgungslinie: " revision="2" />
-  <Message key="PlotDynamicLine" value="Statische Linie:" revision="2" />
+  <Message key="PlotDynamicLine" value="Statische Linie: " revision="2" />
   <Message key="FindPatternTitle" value="Muster:" revision="0" />
   <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt..." revision="0" />
   <Message key="CopyrightNotice" value="Erzeugt von HHD Software Device Monitoring Studio" revision="0" />

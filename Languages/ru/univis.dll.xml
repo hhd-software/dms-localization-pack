@@ -108,7 +108,7 @@
   <Message key="ErrorCreate" value="Невозможно создать файл." revision="0" />
   <Message key="Plot" value="График" revision="0" />
   <Message key="PlotStaticLine" value="Следящая линия: " revision="2" />
-  <Message key="PlotDynamicLine" value="Статичная линия:" revision="2" />
+  <Message key="PlotDynamicLine" value="Статичная линия: " revision="2" />
   <Message key="FindPatternTitle" value="Паттерн:" revision="0" />
   <Message key="OperationPerformed" value="Выполняется запрашиваемая операция..." revision="0" />
   <Message key="CopyrightNotice" value="Создано программой HHD Software Device Monitoring Studio" revision="0" />
