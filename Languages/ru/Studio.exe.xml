@@ -294,7 +294,7 @@
   <Message key="TB" value="ТБ" revision="0" />
   <Message key="ms" value="мс" revision="0" />
   <Message key="NextConnected" value="Следующее подключённое устройство" revision="0" />
-  <Message key="HotPlug" value="Поддержка устройств с горячим подключением" revision="0" />
+  <Message key="HotPlug" value="Устройства с горячим подключением" revision="0" />
   <Message key="PacketNotFound" value="Искомый пакет не отображается в этом визуализаторе. Поищите его в других визуализаторах." revision="0" />
   <Message key="Root Protocol" value="Корневой протокол" revision="0" />
   <Message key="Affect only new packets" value="Влияние только на новые пакеты" revision="0" />
