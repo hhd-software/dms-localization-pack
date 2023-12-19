@@ -63,6 +63,7 @@
   <Message key="TemplateAlreadyExists" value="O modelo já existe. Pretende substituí-lo?" revision="0" />
   <Message key="ErrorRead" value="Erro na leitura do ficheiro." revision="0" />
   <Message key="TemplateDeleteError" value="Este esquema não pode ser removido ou modificado." revision="0" />
+  <Message key="TitleError" value="Erro" revision="0" />
   <Message key="NoPackets" value="Este esquema não pode ser removido ou modificado." revision="0" />
   <Message key="BigPacket" value="Tamanho do pacote superior ao MTU padrão (1500). Envio não garantido." revision="0" />
   <Message key="LimitSize" value="Pacote demasiado grande. Tamanho do ficheiro de entrada superior a {limit} bytes. Utilizar os primeiros {first} bytes." revision="0" />
