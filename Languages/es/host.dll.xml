@@ -4,8 +4,6 @@
   <Message key="Devices" value="Dispositivos" revision="0" />
   <Message key="Sessions" value="Sesiones" revision="0" />
   <Message key="ElevationErrorTitle" value="Error de ampliación de privilegios" revision="1" />
-  <Message key="EmergencySessionTermination" value="La sesión se ha interrumpido tras el siguiente error: &quot;{error}&quot;" revision="0" />
-  <Message key="EmergencySessionTerminationTitle" value="Fin urgente de la sesión" revision="0" />
   <Message key="IntegrityError" value="Fallo de inicialización del componente interno: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Faltan uno o varios dispositivos de sesión" revision="0" />
   <Message key="LogCreationFailed" value="Error al crear el archivo de registro de supervisión: {error}" revision="0" />

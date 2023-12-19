@@ -25,6 +25,5 @@
 	<Message key="Drive Policy:" description="Field: Drive Policy:"/>
 
 	<Message key="Low Disk Space Warning" description="Window Title: Low Disk Space Warning"/>
-	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this warning anymore"/>
 	<Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." description="Low disk space notification text"/>
 </Definition>

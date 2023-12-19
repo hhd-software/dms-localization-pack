@@ -9,12 +9,6 @@
 	
   <Message key="ElevationErrorTitle" description="Message box title: Process elecvation error" revision="1" value="Elevation Error"/>
 
-  <Message key="EmergencySessionTermination" description="Emergency session termination message" value="The session was aborted after the following error: &quot;{error}&quot;">
-    <Param name="error"/>
-  </Message>
-
-  <Message key="EmergencySessionTerminationTitle" description="Title: Emergency Session Termination" value="Emergency Session Termination"/>
-
   <Message key="IntegrityError" description="Error initializing internal component" value="Internal component initialization failure: {error}">
     <Param name="error" format="b016x"/>
   </Message>

@@ -366,6 +366,7 @@
   <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Щелкнуть для смены фильтра" revision="0" />
   <Message key="RootProtocolStateTooltip" value="Щелкнуть для смены корневого протокола" revision="0" />
   <Message key="WrittenBytes" value="{size as text} ({size} байт) записано" revision="0" />
+  <Message key="Do not display this warning anymore" value="Больше не выводить это предупреждение" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />
     <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />

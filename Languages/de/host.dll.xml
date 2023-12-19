@@ -4,8 +4,6 @@
   <Message key="Devices" value="Geräte" revision="0" />
   <Message key="Sessions" value="Sitzungen" revision="0" />
   <Message key="ElevationErrorTitle" value="Fehler beim Upgrade von Berechtigungen" revision="1" />
-  <Message key="EmergencySessionTermination" value="Die Sitzung wurde mit folgendem Fehler abgebrochen: &quot;{error}&quot;" revision="0" />
-  <Message key="EmergencySessionTerminationTitle" value="Notfall Ende der Sitzung" revision="0" />
   <Message key="IntegrityError" value="Fehler bei der Initialisierung einer internen Komponente: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Ein oder mehrere Sitzungsgeräte fehlen" revision="0" />
   <Message key="LogCreationFailed" value="Fehler bei der Erstellung der Logdatei: {error}" revision="0" />

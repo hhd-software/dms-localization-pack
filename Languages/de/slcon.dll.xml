@@ -11,7 +11,6 @@
   <Message key="Use full" value="Vollständig verwenden" revision="0" />
   <Message key="Drive Policy:" value="Verwendung des Laufwerks:" revision="0" />
   <Message key="Low Disk Space Warning" value="Warnung bei geringem Speicherplatz" revision="0" />
-  <Message key="Do not display this warning anymore" value="Diese Warnung nicht mehr anzeigen" revision="0" />
   <Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." value="Device Monitoring Studio benötigt für den normalen Betrieb mindestens 512 MB freien Speicherplatz auf einem der Volumes. Wenn Sie den erforderlichen Speicherplatz nicht freigeben können, sind Sie nicht in der Lage, lange Sitzungen mit großen Datenübertragungen zu überwachen." revision="0" />
   <Enumeration key="SlConColumns">
     <Item value="Laufwerk" revision="0" />

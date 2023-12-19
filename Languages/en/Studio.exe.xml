@@ -978,4 +978,5 @@
 		<Item text="Always use Dark Theme"/>
 	</Enumeration>
 
+	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this warning anymore"/>
 </Definition>

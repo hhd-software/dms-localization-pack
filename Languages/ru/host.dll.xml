@@ -4,8 +4,6 @@
   <Message key="Devices" value="Устройства" revision="0" />
   <Message key="Sessions" value="Сессии" revision="0" />
   <Message key="ElevationErrorTitle" value="Ошибка повышения привелегий" revision="1" />
-  <Message key="EmergencySessionTermination" value="Сессия была прервана после следующей ошибки: &quot;{error}&quot;" revision="0" />
-  <Message key="EmergencySessionTerminationTitle" value="Экстренное завершение сессии" revision="0" />
   <Message key="IntegrityError" value="Сбой инициализации внутреннего компонента: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Отсутствует одно или несколько сессионных устройств" revision="0" />
   <Message key="LogCreationFailed" value="Ошибка создания лога файла мониторинга: {error}" revision="0" />

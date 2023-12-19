@@ -4,8 +4,6 @@
   <Message key="Devices" value="Dispositivos" revision="0" />
   <Message key="Sessions" value="Sessões" revision="0" />
   <Message key="ElevationErrorTitle" value="Erro de escalada de privilégios" revision="1" />
-  <Message key="EmergencySessionTermination" value="A sessão foi cancelada após o seguinte erro: &quot;{error}&quot;" revision="0" />
-  <Message key="EmergencySessionTerminationTitle" value="Fim urgente da sessão" revision="0" />
   <Message key="IntegrityError" value="Fallo de inicialización del componente interno: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Um ou mais dispositivos de sessão estão em falta" revision="0" />
   <Message key="LogCreationFailed" value="Erro ao criar ficheiro de registo de monitorização: {error}" revision="0" />
