@@ -518,12 +518,12 @@
     <Item value="Вставка данных" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item value="&amp;Обратный порядок" revision="0" />
-    <Item value="Обратный порядок байтов" revision="0" />
+    <Item value="От &amp;старшего" revision="0" />
+    <Item value="От старшего к младшему" revision="0" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item value="&amp;Прямой порядок" revision="0" />
-    <Item value="Прямой порядок байтов" revision="0" />
+    <Item value="От &amp;младшего" revision="0" />
+    <Item value="От младшего к старшему" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
     <Item value="&amp;Перейти к  cмещению" revision="0" />
