@@ -110,4 +110,6 @@
 	<Message key="MODBUS (RTU mode)" description="Session type: MODBUS (RTU mode)" />
 	<Message key="MODBUS (ASCII mode)" description="Session type: MODBUS (ASCII mode)" />
 	<Message key="Change Bridge Parameters" description="Button: Change Bridge Parameters" value="&amp;Change Bridge Parameters…"/>
+
+	<Message key="Bridge" description="Device category name: Bridge" value="Bridges" />
 </Definition>

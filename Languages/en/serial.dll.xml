@@ -283,5 +283,7 @@
 
 	<!-- Windows -->
 	<Message key="Set Custom Flow Control" description="Window title: Set Custom Flow Control"/>
+
+	<Message key="Serial" description="Root device category name: Serial"/>
 </Definition>
 

@@ -156,4 +156,6 @@
 	<Message key="to" description="Field: to [time] in Playback Settings"/>
 	<Message key="Select playback speed" description="Field: Select playback speed"/>
 	<Message key="Update..." description="Button: Update…" value="Update…" />
+
+	<Message key="Recorded sessions" description="Device category name: Recorded sessions"/>
 </Definition>

@@ -18,5 +18,6 @@
   <Message key="EmergencyErrorType" description="Diagnostic: Network emergency session termination" value="Network emergency session termination"/>
   <Message key="Expired" description="Message: Component is expired" value="This component has expired. You need to upgrade to %s Edition in order to use it. Do you want to go to License Management now?"/>
 
+	<Message key="Network" description="Root device category name: Network" />
 	
 </Definition>
