@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="tutorialStep1" value="Anleitung für die ersten Schritte" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Virtuelle serielle Schnittstelle erstellen…" revision="0" />
     <Item value="Erstellen Sie eine virtuelle serielle Schnittstelle mit HHD Software Free Virtual Serial Ports." revision="0" />

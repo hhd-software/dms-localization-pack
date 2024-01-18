@@ -6,6 +6,7 @@
   <Message key="VirtualAdapterCategory" value="Adaptadores virtuales" revision="0" />
   <Message key="EmergencyErrorType" value="Finalización de emergencia de la sesión de red" revision="0" />
   <Message key="Expired" value="Este componente ha caducado. Necesita actualizar a la Edición %s para poder utilizarlo. ¿Desea ir ahora a Gestión de licencias?" revision="0" />
+  <Message key="Network" value="Red" revision="0" />
   <Enumeration key="NetworkSource">
     <Item value="Monitor de red" revision="0" />
     <Item value="La fuente de datos de red supervisa la conexión de red y captura cada paquete procedente de o con destino a la interfaz de red." revision="0" />

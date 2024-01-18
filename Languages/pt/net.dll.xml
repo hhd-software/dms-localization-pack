@@ -6,6 +6,7 @@
   <Message key="VirtualAdapterCategory" value="Adaptadores virtuais" revision="0" />
   <Message key="EmergencyErrorType" value="Terminação de emergência da sessão de rede" revision="0" />
   <Message key="Expired" value="Este componente expirou. É necessário atualizar para a Edição %s para o poder utilizar. Pretende aceder agora à Gestão de licenças?" revision="0" />
+  <Message key="Network" value="Rede" revision="0" />
   <Enumeration key="NetworkSource">
     <Item value="Monitor de rede" revision="0" />
     <Item value="A fonte de dados de rede monitoriza a ligação de rede e capta cada pacote proveniente ou destinado à interface de rede." revision="0" />

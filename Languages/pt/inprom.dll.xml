@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="tutorialStep1" value="Tutorial de introdução" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Criar porta serial virtual…" revision="0" />
     <Item value="Criar porta serial virtual usando HHD Software Free Virtual Serial Ports." revision="0" />

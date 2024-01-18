@@ -39,8 +39,8 @@
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
     <Item value="Espaço vazio" revision="0" />
-    <Item />
-    <Item />
+    <Item value="Texto" revision="0" />
+    <Item value="Cabeçalho" revision="0" />
     <Item value="Texto de controlo de E/S" revision="0" />
     <Item value="Cabeçalho de controlo de E/S" revision="0" />
     <Item value="Escrever texto" revision="0" />
@@ -67,9 +67,9 @@
     <Item value="O visualizador da Vista de Vídeo analisa pacotes e descritores de configuração para dispositivos compatíveis com Vídeo USB (versão 1.5)." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defeito" revision="0" />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Opção" revision="0" />
     <Item lookup="Value" />
     <Item value="Cabeçalho de leitura" revision="0" />
     <Item value="Cabeçalho de escrita" revision="0" />
@@ -94,8 +94,8 @@
     <Item value="O visualizador de dados da Vista HTTP analisa e apresenta pedidos e respostas do protocolo HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
-    <Item />
-    <Item />
+    <Item value="Por defeito" revision="0" />
+    <Item value="Cabeçalho" revision="0" />
     <Item value="Cabeçalho para pedidos" revision="0" />
     <Item value="Cabeçalho para respostas" revision="0" />
     <Item value="Campos do pedido" revision="0" />

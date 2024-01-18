@@ -6,6 +6,7 @@
   <Message key="VirtualAdapterCategory" value="Виртуальные адаптеры" revision="0" />
   <Message key="EmergencyErrorType" value="Аварийное завершение сетевой сессии" revision="0" />
   <Message key="Expired" value="Срок действия этого компонента истек. Необходимо обновить версию до редакции %s.  Хотите перейти к управлению лицензиями сейчас?" revision="0" />
+  <Message key="Network" value="Сеть" revision="0" />
   <Enumeration key="NetworkSource">
     <Item value="Сетевой монитор" revision="0" />
     <Item value="Источник сетевых данных осуществляет наблюдение за сетевым соединением и перехватывает каждый пакет, поступающий от или к сетевому интерфейсу." revision="0" />

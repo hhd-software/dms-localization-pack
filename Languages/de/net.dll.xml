@@ -6,6 +6,7 @@
   <Message key="VirtualAdapterCategory" value="Virtuelle Adapter" revision="0" />
   <Message key="EmergencyErrorType" value="Notbeendigung einer Netzsitzung" revision="0" />
   <Message key="Expired" value="Diese Komponente ist abgelaufen. Sie müssen auf die %s Edition aktualisieren, um sie verwenden zu können. Möchten Sie jetzt zur Lizenzverwaltung gehen?" revision="0" />
+  <Message key="Network" value="Netzwerk" revision="0" />
   <Enumeration key="NetworkSource">
     <Item value="Netzwerk-Monitor" revision="0" />
     <Item value="Die Netzwerkdatenquelle überwacht die Netzwerkverbindung und erfasst jedes Paket, das von der oder zur Netzwerkschnittstelle kommt." revision="0" />

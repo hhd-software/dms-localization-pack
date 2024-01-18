@@ -83,7 +83,7 @@
     <Item value="Linie" revision="0" />
   </Enumeration>
   <Enumeration key="CallStackColumns">
-    <Item />
+    <Item value=" " revision="0" />
     <Item lookup="Name" />
     <Item value="Linie" revision="0" />
   </Enumeration>

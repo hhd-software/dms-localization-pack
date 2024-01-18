@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Size_Error" value="Limite de tamanho do pacote excedido." revision="0" />
+  <Message key="Packet Builder" value="Construtor de pacotes" revision="0" />
   <Message key="NetTerminal" value="Terminal de rede" revision="0" />
   <Message key="StructureNotFound" value="A definição da estrutura não foi encontrada. O Monitor de Rede não consegue apresentar quaisquer resultados." revision="0" />
   <Message key="NetTermSizeError" value="Pacote ({packetno}): Tamanho do pacote ({size}) superior ao tamanho da MTU do adaptador ({maxsize})." revision="0" />

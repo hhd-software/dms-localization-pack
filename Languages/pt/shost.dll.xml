@@ -25,6 +25,7 @@
   <Message key="Input Value" value="Valor de entrada" revision="0" />
   <Message key="Breakpoints" value="Pontos de interrupção" revision="0" />
   <Message key="Line:" value="Linha:" revision="0" />
+  <Message key="toolbar.Watch" value="Debug Watch" revision="0" />
   <Enumeration key="ScriptingNew">
     <Item value="Novo &amp;Script" revision="0" />
     <Item value="Criar novo script" revision="0" />
@@ -62,7 +63,7 @@
     <Item value="Passar por cima da função chamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">
-    <Item />
+    <Item value="Continuar" revision="0" />
     <Item value="Continuar a execução" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDebug">
@@ -78,24 +79,24 @@
     <Item value="Interromper a execução do script" revision="0" />
   </Enumeration>
   <Enumeration key="BreakpointsColumns">
-    <Item />
-    <Item />
+    <Item value="Ficheiro" revision="0" />
+    <Item value="Linha" revision="0" />
   </Enumeration>
   <Enumeration key="CallStackColumns">
-    <Item />
+    <Item value=" " revision="0" />
     <Item lookup="Name" />
-    <Item />
+    <Item value="Linha" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
     <Item value="Adicionar Watch" revision="0" />
-    <Item />
+    <Item value="Adicionar Watch" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
     <Item value="Remover Watch" revision="0" />
-    <Item />
+    <Item value="Remover Watch" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
     <Item value="Editar Watch" revision="0" />
-    <Item />
+    <Item value="Editar Watch" revision="0" />
   </Enumeration>
 </Language>
