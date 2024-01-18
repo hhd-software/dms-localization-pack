@@ -251,67 +251,67 @@
   </Enumeration>
   <Enumeration key="CounterControlRead">
     <Item value="Управление: Чтение байтов/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Управление: Чтение байт/сек - это скорость передачи байтов из устройства во время операций чтения по управляющему каналу." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
     <Item value="Управление: Запись байты/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Управление: Запись байт/сек - это скорость передачи байтов на устройство во время операций записи по управляющему каналу." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
     <Item value="Запись пакетов/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="пакетов/сек" revision="0" />
     <Item value="Пакеты записанные/сек - это скорость передачи пакетов на устройство во время операций записи." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
     <Item value="Пакеты чтения/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="пакетов/сек" revision="0" />
     <Item value="Пакеты чтения/сек - это скорость передачи пакетов из устройства во время операций чтения." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
     <Item value="Bulk: Всего байт/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Bulk: Байт Всего/Сек - это скорость передачи байтов на устройство или с устройства во время операций записи или чтения по массовым каналам." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
     <Item value="Bulk: Запись байт/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Bulk: Запись Байт/Сек - скорость передачи байтов на устройство во время операций записи по массовым каналам." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
     <Item value="Bulk: Чтение байт/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Bulk: Чтение байт/сек - это скорость передачи байтов из устройства во время операций чтения по массовым каналам." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
     <Item value="Прерывание: Всего байт/сек" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="байт/сек" revision="0" />
     <Item value="Прерывание: Байты всего/сек - это скорость передачи байтов на устройство или с устройства во время операций записи или чтения через каналы прерываний." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
     <Item value="Прерывание: Запись байт/сек" revision="0" />
-    <Item />
+    <Item value="байт/сек" revision="0" />
     <Item value="Прерывание: Запись байт/сек - это скорость передачи байтов в устройство во время операций записи по каналам прерывания." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
     <Item value="Прерывание: Чтение байт/сек" revision="0" />
-    <Item />
+    <Item value="байт/сек" revision="0" />
     <Item value="Прерывание: Чтение байт/сек - это скорость передачи байтов из устройства во время операций чтения по каналам прерываний." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
     <Item value="Изохронный: Всего байт/сек" revision="0" />
-    <Item />
+    <Item value="байт/сек" revision="0" />
     <Item value="Изохронный: Байт всего/сек - скорость передачи байтов на устройство или с устройства во время операций записи или чтения по изохронным каналам." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
     <Item value="Изохронный: Запись байт/сек" revision="0" />
-    <Item />
+    <Item value="байт/сек" revision="0" />
     <Item value="Изохронный: Запись байт/сек - скорость передачи байтов на устройство во время операций записи по изохронным каналам." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
     <Item value="Изохронный: Чтение байтов/сек" revision="0" />
-    <Item />
+    <Item value="байт/сек" revision="0" />
     <Item value="Изохронный: Чтение байт/сек - это скорость передачи байтов с устройства во время операций чтения по изохронным каналам." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">

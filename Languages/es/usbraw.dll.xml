@@ -251,67 +251,67 @@
   </Enumeration>
   <Enumeration key="CounterControlRead">
     <Item value="Control: Bytes Leídos/Seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Control: Bytes Leídos/Seg es la velocidad a la que se transfieren bytes desde el dispositivo durante las operaciones de lectura a través de la tubería de control." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
     <Item value="Control: Bytes escritos/seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Control: Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura a través de la tubería de control." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
     <Item value="Paquetes escritos/seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="pqts/s" revision="0" />
     <Item value="Paquetes escritos/seg es la velocidad a la que se transfieren paquetes al dispositivo durante las operaciones de escritura." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
     <Item value="Paquetes leídos/seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="pqts/s" revision="0" />
     <Item value="Paquetes leídos/seg es la velocidad a la que se transfieren paquetes desde el dispositivo durante las operaciones de lectura." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
     <Item value="Bulk: Bytes Total/Seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Bulk: Bytes Total/Seg es la velocidad a la que se transfieren bytes hacia o desde el dispositivo durante las operaciones de escritura o lectura a través de tuberías masivas." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
     <Item value="Bulk: Bytes escritos/seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Bulk: Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura a través de tuberías masivas." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
     <Item value="Bulk: Bytes Leídos/Seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Bulk: Bytes Leídos/Seg es la velocidad a la que se transfieren bytes desde el dispositivo durante las operaciones de lectura a través de tuberías bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
     <Item value="Interrupción: Bytes Total/Seg" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Interrupción: Bytes Total/Seg es la velocidad a la que se transfieren bytes hacia o desde el dispositivo durante las operaciones de escritura o lectura a través de las tuberías de interrupción." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
     <Item value="Interrupción: Bytes escritos/seg" revision="0" />
-    <Item />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Interrupción: Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura a través de las tuberías de interrupción." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
     <Item value="Interrupción: Bytes Leídos/Seg" revision="0" />
-    <Item />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Interrupción: Bytes Read/Sec es la velocidad a la que se transfieren bytes desde el dispositivo durante las operaciones de lectura a través de las tuberías de interrupción." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
     <Item value="Isócrono: Bytes totales/seg." revision="0" />
-    <Item />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Isochronous: Bytes Total/Seg es la velocidad a la que se transfieren bytes hacia o desde el dispositivo durante las operaciones de escritura o lectura a través de tuberías isócronas." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
     <Item value="Isócrono: Bytes escritos/seg." revision="0" />
-    <Item />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Isócrona: Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura a través de tuberías isócronas." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
     <Item value="Isócrono: Bytes leídos/seg." revision="0" />
-    <Item />
+    <Item value="bytes/seg" revision="0" />
     <Item value="Isócrona: Bytes Leídos/Seg es la velocidad a la que se transfieren los bytes desde el dispositivo durante las operaciones de lectura a través de tuberías isócronas." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
