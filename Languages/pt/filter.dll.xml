@@ -2,30 +2,38 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="Coloring" value="Visualizadores de dados" revision="0" />
   <Message key="Component:" value="Componente:" revision="0" />
+  <Message key="Font:" value="Tipo:" revision="0" />
+  <Message key="Size:" value="Tamanho:" revision="0" />
+  <Message key="Color:" value="Cor:" revision="0" />
   <Message key="Background:" value="Fundo:" revision="0" />
   <Message key="Bold" value="Negrito" revision="0" />
   <Message key="Italic" value="Itálico" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Esquema atual não guardado&gt;" revision="0" />
+  <Message key="DefaultScheme" value="Por defeito" revision="0" />
+  <Message key="DisplayAllScheme" value="Mostrar tudo" revision="0" />
+  <Message key="DisplayNoneScheme" value="Mostrar nada" revision="0" />
+  <Message key="Filter" value="Filtro" revision="0" />
   <Message key="DeleteBuiltin" value="Este esquema está incorporado e não pode ser eliminado." revision="0" />
   <Message key="SaveBuiltin" value="Não é possível guardar um esquema com um nome incorporado." revision="0" />
   <Message key="SchemeExists" value="Este esquema já existe. Pretende substituí-lo?" revision="0" />
   <Message key="ResetAllConfirm" value="A reposição dos filtros irá reverter todas as páginas para as definições de filtro predefinidas, mantendo os esquemas definidos pelo utilizador. As sessões de monitorização atualmente em curso não serão afectadas. Pretende continuar?" revision="0" />
   <Message key="ResetAllColorsConfirm" value="A reposição das cores irá reverter todos os módulos de processamento de dados para as predefinições de cor, mantendo os esquemas definidos pelo utilizador. As sessões de monitorização atualmente em curso não serão afectadas. Pretende continuar?" revision="0" />
+  <Message key="FilteringPageX" value="Página de filtragem: {page}" revision="0" />
   <Message key="Apply this scheme" value="Aplicar este esquema" revision="0" />
   <Enumeration key="FilterCustomize">
     <Item value="Personalize…" revision="0" />
     <Item value="Personalizar filtros" revision="0" />
   </Enumeration>
   <Enumeration key="ColorCustomize">
-    <Item />
+    <Item value="Personalizar…" revision="0" />
     <Item value="Personalizar cores" revision="0" />
   </Enumeration>
   <Enumeration key="FilterResetAll">
-    <Item />
+    <Item value="Repor tudo" revision="0" />
     <Item value="Repor todos os filtros para os valores predefinidos" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
-    <Item />
+    <Item value="Por defeito" revision="0" />
     <Item value="Preto" revision="0" />
     <Item value="Branco" revision="0" />
     <Item value="Maroon" revision="0" />
