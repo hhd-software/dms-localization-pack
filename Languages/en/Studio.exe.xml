@@ -732,6 +732,12 @@
 	<Message key="clr.listview.alternate_background" description="Color: ListView Alternate Background Color" value="Alternate background"/>
 	<Message key="clr.listview.hyperlink" description="Color: ListView Hyperlink Color" value="Hyperlink"/>
 
+	<Message key="clr.balloon" description="Color: Notification Window Colors" value="Notification Window Colors"/>
+	<Message key="clr.balloon.balloon.fill" description="Color: Notification Window Background" value="Background"/>
+	<Message key="clr.balloon.balloon.text" description="Color: Notification Window Text" value="Text"/>
+	<Message key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke" value="Stroke"/>
+	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore" value="&quot;Don't display anymore&quot; message"/>
+	
 	<!-- Settings Page -->
 	<Message key="Settings Page" description="Settings page title" value="Settings"/>
 
@@ -978,5 +984,9 @@
 		<Item text="Always use Dark Theme"/>
 	</Enumeration>
 
-	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this warning anymore"/>
+	<Message key="Do not display this warning anymore" description="Checkbox: Do not display this message anymore" value="Do not display this message anymore" revision="1"/>
+
+	<Message key="Find Operation" description="Find operation" value="Searching for text" />
+
+	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
 </Definition>

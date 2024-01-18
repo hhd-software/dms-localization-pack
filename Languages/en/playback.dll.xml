@@ -142,7 +142,12 @@
 	<Message key="Continuous" description="Playback list item text" value="Continuous"/>
 	<Message key="Unable to delete selected playback files" description="Message: Unable to delete selected playback files" value="Unable to delete selected playback files. At least one of them is currently playing."/>
 	<!--<Message key="Log File Playback" description="" value="Log File Playback"/>-->
-	<Message key="Continue Playback" description="Message: Continue Playback" value="Continue Playback\nPress the Next button to continue playback."/>
+	
+	<Enumeration key="Continue Playback2" description="Notification message: Continue Playback">
+		<Item text="Continue Playback"/>
+		<Item text="Press the Next button to continue playback."/>
+	</Enumeration>
+	
 	<Message key="DifferentArchError" description="Message: Cannot playback log file" value="This log file stream was created on a machine with different processor architecture and cannot be played back."/>
 
 	<Message key="Playback settings" description="Configuration window: Playback settings" />
@@ -158,4 +163,6 @@
 	<Message key="Update..." description="Button: Update…" value="Update…" />
 
 	<Message key="Recorded sessions" description="Device category name: Recorded sessions"/>
+
+	<Message key="Next" description="Button: Next (Playback status bar)"/>
 </Definition>

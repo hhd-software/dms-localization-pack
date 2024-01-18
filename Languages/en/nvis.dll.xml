@@ -39,7 +39,6 @@
 
   <Message key="TextFileFilter" description="Text files filter string" value="Text files|*.txt|HTML files|*.html|" revision="1"/>
   <Message key="Data Conversion" description="Data conversion operation name" value="Converting Data"/>
-  <Message key="Find Operation" description="Find operation" value="Searching for text" revision="1"/>
 
   <Message key="ExportHeader" description="Exporting Data" value="Exporting Data"/>
   <Message key="CopyHeader" description="Copying Data" value="Copying Data"/>
