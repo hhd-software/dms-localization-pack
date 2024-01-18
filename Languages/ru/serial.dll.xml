@@ -181,4 +181,9 @@
     <Item value="Подключить последовательное устройство" revision="0" />
     <Item value="Приложение ждет, когда вы подключите к компьютеру PnP-совместимое последовательное устройство." revision="0" />
   </Enumeration>
+  <Enumeration key="SessionTypeTutorialSteps">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

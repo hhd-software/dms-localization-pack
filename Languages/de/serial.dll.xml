@@ -181,4 +181,9 @@
     <Item value="Anschließen des seriellen Geräts" revision="0" />
     <Item value="Die Anwendung wartet darauf, dass Sie ein PnP-kompatibles serielles Gerät an Ihren Computer anschließen." revision="0" />
   </Enumeration>
+  <Enumeration key="SessionTypeTutorialSteps">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

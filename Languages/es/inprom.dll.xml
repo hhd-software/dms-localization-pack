@@ -12,4 +12,8 @@
     <Item value="Conectar puerto serie remoto…" revision="0" />
     <Item value="Ponga a disposición un puerto serie remoto en este ordenador utilizando el Cliente de Puertos Serie Remotos de HHD Software." revision="0" />
   </Enumeration>
+  <Enumeration key="tutorialStep1-text">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

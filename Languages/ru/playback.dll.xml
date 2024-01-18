@@ -25,7 +25,6 @@
   <Message key="Stepped" value="Пошаговый" revision="0" />
   <Message key="Continuous" value="Непрерывный" revision="0" />
   <Message key="Unable to delete selected playback files" value="Невозможно удалить выбранные лог файлы. В настоящее время один из них воспроизводится." revision="0" />
-  <Message key="Continue Playback" value="Продолжить воспроизведение\nНажмите кнопку, чтобы продолжить воспроизведение." revision="0" />
   <Message key="DifferentArchError" value="Этот лог был создан на машине с другой архитектурой процессора и не может быть воспроизведен." revision="0" />
   <Message key="Playback settings" value="Настройки воспроизведения" revision="0" />
   <Message key="Virtual device configuration" value="Конфигурация виртуального устройства" revision="0" />
@@ -99,5 +98,9 @@
   <Enumeration key="OpenFileLocation">
     <Item value="Открыть местоположение файла" revision="0" />
     <Item value="Открыть местоположение файла" revision="0" />
+  </Enumeration>
+  <Enumeration key="Continue Playback2">
+    <Item value="Продолжить воспроизведение"/>
+    <Item value="Нажмите кнопку, чтобы продолжить воспроизведение."/>
   </Enumeration>
 </Language>

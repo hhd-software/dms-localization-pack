@@ -180,4 +180,9 @@
     <Item value="Ligar o dispositivo de série" revision="0" />
     <Item value="A aplicação está à espera que ligue um dispositivo de série compatível com PnP ao seu computador." revision="0" />
   </Enumeration>
+  <Enumeration key="SessionTypeTutorialSteps">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

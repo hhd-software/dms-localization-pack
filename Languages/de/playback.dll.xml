@@ -25,7 +25,6 @@
   <Message key="Stepped" value="Schritt für Schritt" revision="0" />
   <Message key="Continuous" value="Kontinuierlich" revision="0" />
   <Message key="Unable to delete selected playback files" value="Die ausgewählten Wiedergabedateien können nicht gelöscht werden. Mindestens eine von ihnen wird gerade wiedergegeben." revision="0" />
-  <Message key="Continue Playback" value="Wiedergabe fortsetzen\nDrücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen." revision="0" />
   <Message key="DifferentArchError" value="Dieser Logdateistrom wurde auf einem Rechner mit anderer Prozessorarchitektur erstellt und kann nicht wiedergegeben werden." revision="0" />
   <Message key="Playback settings" value="Einstellungen für die Wiedergabe" revision="0" />
   <Message key="Virtual device configuration" value="Konfiguration des virtuellen Geräts" revision="0" />
@@ -99,5 +98,9 @@
   <Enumeration key="OpenFileLocation">
     <Item value="Speicherort der geöffneten Datei" revision="0" />
     <Item value="Speicherort der geöffneten Datei" revision="0" />
+  </Enumeration>
+  <Enumeration key="Continue Playback2">
+    <Item value="Wiedergabe fortsetzen"/>
+    <Item value="Drücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen."/>
   </Enumeration>
 </Language>

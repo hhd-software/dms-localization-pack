@@ -10,7 +10,6 @@
   <Message key="CustomVisualizerName" value="Пользовательский ({name})" revision="0" />
   <Message key="TextFileFilter" value="Текстовые файлы|*.txt|HTML файлы|*.html|" revision="1" />
   <Message key="Data Conversion" value="Конвертация данных" revision="0" />
-  <Message key="Find Operation" value="Поиск текста" revision="1" />
   <Message key="ExportHeader" value="Экспорт данных" revision="0" />
   <Message key="CopyHeader" value="Копирование данных" revision="0" />
   <Message key="Visualizer template name expected" value="Ожидается имя шаблона визуализатора" revision="0" />

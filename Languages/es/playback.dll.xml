@@ -25,7 +25,6 @@
   <Message key="Stepped" value="Paso a paso" revision="0" />
   <Message key="Continuous" value="Continuo" revision="0" />
   <Message key="Unable to delete selected playback files" value="No se pueden eliminar los archivos de reproducción seleccionados. Al menos uno de ellos se está reproduciendo actualmente." revision="0" />
-  <Message key="Continue Playback" value="Continuar la reproducción\nPulse el botón Siguiente para continuar la reproducción." revision="0" />
   <Message key="DifferentArchError" value="Este flujo de archivos de registro se creó en una máquina con una arquitectura de procesador diferente y no se puede reproducir." revision="0" />
   <Message key="Playback settings" value="Configuración de la reproducción" revision="0" />
   <Message key="Virtual device configuration" value="Configuración del dispositivo virtual" revision="0" />
@@ -99,5 +98,9 @@
   <Enumeration key="OpenFileLocation">
     <Item value="Abrir archivo Ubicación" revision="0" />
     <Item />
+  </Enumeration>
+  <Enumeration key="Continue Playback2">
+    <Item value="Continuar la reproducción"/>
+    <Item value="Pulse el botón Siguiente para continuar la reproducción."/>
   </Enumeration>
 </Language>

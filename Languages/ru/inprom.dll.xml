@@ -12,4 +12,8 @@
     <Item value="Подключиться к удаленному COM порту…" revision="0" />
     <Item value="Сделайте доступным удаленный последовательный порт на этом компьютере с помощью HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
+  <Enumeration key="tutorialStep1-text">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

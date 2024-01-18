@@ -262,4 +262,14 @@
     <Item value="Работает" revision="0" />
     <Item value="Приостановлен" revision="0" />
   </Enumeration>
+  <Enumeration key="SessionConfigSteps">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

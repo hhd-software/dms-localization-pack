@@ -12,4 +12,8 @@
     <Item value="Ligar a porta série remota…" revision="0" />
     <Item value="Disponibilize uma porta serial remota neste computador usando o Cliente de Portas Seriais Remotas do HHD Software." revision="0" />
   </Enumeration>
+  <Enumeration key="tutorialStep1-text">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

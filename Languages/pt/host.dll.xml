@@ -257,4 +257,14 @@
     <Item value="Em curso" revision="0" />
     <Item value="Pausado" revision="0" />
   </Enumeration>
+  <Enumeration key="SessionConfigSteps">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

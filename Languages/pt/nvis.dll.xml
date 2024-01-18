@@ -9,7 +9,6 @@
   <Message key="CustomVisualizerName" value="Personalizado ({name})" revision="0" />
   <Message key="TextFileFilter" value="Ficheiros de texto|*.txt|Ficheiros HTML|*.html|" revision="1" />
   <Message key="Data Conversion" value="Conversão de dados" revision="0" />
-  <Message key="Find Operation" value="Encontrar texto" revision="1" />
   <Message key="ExportHeader" value="Exportação de dados" revision="0" />
   <Message key="CopyHeader" value="Cópia de dados" revision="0" />
   <Message key="Visualizer template name expected" value="Nome do modelo do visualizador esperado" revision="0" />

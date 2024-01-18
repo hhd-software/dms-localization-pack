@@ -12,4 +12,8 @@
     <Item value="Verbindung mit einem entfernten COM-Port" revision="0" />
     <Item value="Machen Sie mit dem HHD Software Remote Serial Ports Client eine entfernte serielle Schnittstelle auf diesem Computer verfügbar." revision="0" />
   </Enumeration>
+  <Enumeration key="tutorialStep1-text">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

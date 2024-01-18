@@ -262,4 +262,14 @@
     <Item value="Laufen" revision="0" />
     <Item value="Unterbrochen" revision="0" />
   </Enumeration>
+  <Enumeration key="SessionConfigSteps">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>
