@@ -55,6 +55,7 @@
   <Message key="Out of memory" value="Не хватает памяти" revision="0" />
   <Message key="Stopping session" value="Остановка сессии" revision="0" />
   <Message key="ShowImportantSessionConfig" value="Выводить диалог конфигурации принудительно для выбранных типов сессий" revision="0" />
+  <Message key="sessionConfigTutorial" value="Пособие по окну конфигурации сессии" revision="0" />
   <Message key="MCAdv" value="Хочу отслеживать эти данные из моего собственного приложения" revision="0" />
   <Message key="Advertise.Title" value="ActiveX контроллеры мониторинга" revision="0" />
   <Message key="Get More Details" value="Подробнее" revision="0" />

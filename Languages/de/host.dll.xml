@@ -55,6 +55,7 @@
   <Message key="Out of memory" value="Nicht genug Raum" revision="0" />
   <Message key="Stopping session" value="Anhalten der Sitzung" revision="0" />
   <Message key="ShowImportantSessionConfig" value="Erzwingen des Sitzungskonfigurationsdialogs bei ausgewählten Sitzungstypen" revision="0" />
+  <Message key="sessionConfigTutorial" value="Tutorial zum Sitzungskonfigurationsfenster" revision="0" />
   <Message key="MCAdv" value="Ich möchte diese Daten von meiner Anwendung aus überwachen" revision="0" />
   <Message key="Advertise.Title" value="Überwachungssteuerungen ActiveX" revision="0" />
   <Message key="Get More Details" value="Mehr lesen" revision="0" />

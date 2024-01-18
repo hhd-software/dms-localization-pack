@@ -18,8 +18,10 @@
   <Message key="DeviceConfig" value="Configuração: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
   <Message key="Data Source Configuration" value="Configuração da fonte de dados" revision="0" />
   <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Coloração de dispositivos" revision="0" />
+  <Message key="UnsupportedProcessingsTitle" value="Aviso" revision="0" />
   <Message key="UnsupportedProcessings" value="Os seguintes módulos de processamento:\n{processings}\nnão suportam a monitorização de múltiplos dispositivos e serão removidos." revision="0" />
   <Message key="NoProcessings" value="Não foi possível encontrar componentes de processamento para este dispositivo. Por favor, reinstale a aplicação." revision="0" />
+  <Message key="Error" value="Erro" revision="0" />
   <Message key="FilterError" value="Erro ao aplicar o filtro selecionado" revision="0" />
   <Message key="NoDataSource" value="O módulo de monitorização correspondente não está instalado. Por favor, reinstale a aplicação." revision="0" />
   <Message key="InstallMissingModule" value="Este módulo não está atualmente instalado. Deseja instalá-lo agora? (Isto fechará o Device Monitoring Studio)." revision="0" />
@@ -53,11 +55,14 @@
   <Message key="Out of memory" value="Sem memória" revision="0" />
   <Message key="Stopping session" value="Paragem da sessão" revision="0" />
   <Message key="ShowImportantSessionConfig" value="Forçar a caixa de diálogo de configuração da sessão nos tipos de sessão seleccionados" revision="0" />
+  <Message key="sessionConfigTutorial" value="Tutorial da janela de configuração da sessão" revision="0" />
   <Message key="MCAdv" value="Quero monitorizar estes dados a partir da minha aplicação" revision="0" />
   <Message key="Advertise.Title" value="Controlos de monitorização ActiveX" revision="0" />
   <Message key="Get More Details" value="Obter mais detalhes" revision="0" />
   <Message key="toolbar.SessionConfig1" value="Configuração da sessão 1" revision="0" />
   <Message key="toolbar.SessionConfig2" value="Configuração da sessão 2" revision="0" />
+  <Message key="toolbar.Devices" value="Dispositivos" revision="0" />
+  <Message key="toolbar.Sessions" value="Sessões" revision="0" />
   <Message key="Save Configuration" value="Guardar configuração" revision="0" />
   <Message key="Enter custom data processor configuration name:" value="Introduza o nome personalizado da configuração do processador de dados:" revision="0" />
   <Message key="Device coloring" value="Coloração de dispositivos" revision="0" />
@@ -75,6 +80,7 @@
   <Message key="Capture Filter" value="Filtro de sessão" revision="0" />
   <Message key="Precise time marks" value="Marcas de tempo precisas" revision="0" />
   <Message key="Add More" value="Adicionar mais" revision="0" />
+  <Message key="Remove" value="Retirar" revision="0" />
   <Message key="clr.device_colors" value="Cores de dispositivos multi-fonte" revision="0" />
   <Message key="clr.device_colors.color1" value="Dispositivo 1" revision="0" />
   <Message key="clr.device_colors.color2" value="Dispositivo 2" revision="0" />
@@ -125,8 +131,8 @@
     <Item value="Editar" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsConfigure">
-    <Item />
-    <Item />
+    <Item value="&amp;Configurar a sessão…" revision="0" />
+    <Item value="Alterar os parâmetros da sessão atual" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsResume">
     <Item value="&amp;Retomar a sessão" revision="0" />

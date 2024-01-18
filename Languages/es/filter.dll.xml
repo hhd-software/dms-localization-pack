@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Filtering" value="Filtrado" revision="0" />
   <Message key="Coloring" value="Visualizadores de datos" revision="0" />
   <Message key="Component:" value="Componente:" revision="0" />
   <Message key="Font:" value="Fuente:" revision="0" />
