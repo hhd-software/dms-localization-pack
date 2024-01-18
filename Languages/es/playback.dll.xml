@@ -100,7 +100,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="Continue Playback2">
-    <Item value="Continuar la reproducción"/>
-    <Item value="Pulse el botón Siguiente para continuar la reproducción."/>
+    <Item value="Continuar la reproducción" revision="0" />
+    <Item value="Pulse el botón Siguiente para continuar la reproducción." revision="0" />
   </Enumeration>
 </Language>

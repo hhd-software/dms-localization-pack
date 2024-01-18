@@ -100,7 +100,7 @@
     <Item value="Speicherort der geöffneten Datei" revision="0" />
   </Enumeration>
   <Enumeration key="Continue Playback2">
-    <Item value="Wiedergabe fortsetzen"/>
-    <Item value="Drücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen."/>
+    <Item value="Wiedergabe fortsetzen" revision="0" />
+    <Item value="Drücken Sie die Taste Weiter, um die Wiedergabe fortzusetzen." revision="0" />
   </Enumeration>
 </Language>

@@ -14,6 +14,7 @@
   <Message key="CompileErrors" value="Errores de compilación{has_n?} ({n}){?has_n}" revision="0" />
   <Message key="Compile Errors" value="Errores de compilación" revision="0" />
   <Message key="Warning" value="Advertencia" revision="0" />
+  <Message key="Error" value="Error" revision="0" />
   <Message key="RunningSessions" value="Tiene sesiones de monitorización en curso. Sus sesiones se detendrán." revision="0" />
   <Message key="ResetSourceChanges" value="Se perderán todos los cambios realizados en los archivos de protocolo predefinidos. ¿Desea continuar?" revision="0" />
   <Message key="Compile" value="Compile" revision="0" />
@@ -22,6 +23,7 @@
   <Message key="ExternalModified" value="El siguiente archivo ha sido modificado fuera de Device Monitoring Studio :\r\n{file}\r\n¿Quieres recargarlo?" revision="0" />
   <Message key="FilterErrorTitle" value="Error de compilación del filtro" revision="0" />
   <Message key="FilterError" value="Archivo de estructura no compilado o compilado con errores" revision="0" />
+  <Message key="UnsavedCurrentScheme" value="&lt;Esquema actual no guardado&gt;" revision="0" />
   <Message key="clr.scintilla_colors" value="Colores del editor de protocolos" revision="0" />
   <Message key="clr.scintilla_colors.plainText.fill" value="Fondo de texto sin formato" revision="0" />
   <Message key="clr.scintilla_colors.plainText.stroke" value="Texto en primer plano" revision="0" />
@@ -77,9 +79,9 @@
     <Item value="Elementos de menú del editor de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
-    <Item />
+    <Item value="*.h" revision="0" />
     <Item value="Fichero de definición del protocolo" revision="0" />
-    <Item />
+    <Item value=".h" revision="0" />
   </Enumeration>
   <Enumeration key="StructureFormats">
     <Item value="Fichero de definición del protocolo (*.h)|*.h|" revision="0" />
@@ -114,9 +116,9 @@
     <Item value="Abrir carpeta de archivos de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Mostrar todo" revision="0" />
+    <Item value="Mostrar ninguno" revision="0" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Opción" revision="0" />
