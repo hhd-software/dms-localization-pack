@@ -6,6 +6,7 @@
   <Message key="EditionName" value="{edition} Edición" revision="0" />
   <Message key="SelectComponentEdition" value="Seleccionar edición de componentes…" revision="0" />
   <Message key="UpgradeToEdition" value="Actualizar a la edición {edition}" revision="0" />
+  <Message key="Never" value="Nunca" revision="0" />
   <Message key="LicenseSuccess" value="El archivo de licencia se ha instalado correctamente y la aplicación se ha activado. Muchas gracias por elegir Device Monitoring Studio." revision="0" />
   <Message key="LicenseFailure" value="Se ha producido un error al instalar el archivo de licencia seleccionado. Esto puede deberse a lo siguiente:\n\n  · Archivo de licencia corrupto.\n  · Archivo de licencia caducado.\n  · Archivo de licencia para otro producto.\n\nAcceda a la sección Mi cuenta de nuestro sitio web y descargue gratuitamente un nuevo archivo de licencia." revision="0" />
   <Message key="LicenseRestart" value="Se recomienda encarecidamente reiniciar el producto para reflejar los cambios." revision="0" />
@@ -42,6 +43,7 @@
   <Message key="Start Free Trial" value="Iniciar prueba gratuita" revision="0" />
   <Message key="Purchase Device Monitoring Studio Now!" value="¡Compra Device Monitoring Studio ahora!" revision="0" />
   <Message key="NagInfo" value="Los siguientes componentes son de prueba o han caducado.\n\nNo puede seguir utilizando componentes caducados y tiene un periodo de prueba limitado para los componentes de prueba. Para eliminar esta pantalla, deberá adquirir al menos un componente." revision="0" />
+  <Message key="Get Registered Version Now!" value="Obtenga ahora la versión registrada" revision="0" />
   <Message key="Select the edition type for each component and click Continue button." value="Seleccione el tipo de edición para cada componente y haga clic en el botón Continuar." revision="0" />
   <Message key="Compare Editions..." value="Comparar ediciones…" revision="0" />
   <Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." value="Clique en Continuar para colocar el módulo(s) seleccionado(s) en la Cesta de la Compra. Más adelante podrá configurar opciones adicionales." revision="0" />
@@ -63,7 +65,7 @@
     <Item value="Edición" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseType">
-    <Item />
+    <Item value="Desconocido" revision="0" />
     <Item value="Gratis" revision="0" />
     <Item value="Período de prueba" revision="0" />
     <Item value="Expirado" revision="0" />
@@ -80,8 +82,8 @@
     <Item value="Las funciones que intenta utilizar no están incluidas en la edición actual.\n\n{has feature names?}{feature names}\n\n{?has feature names}Puedes continuar con las funciones limitadas o pasar a la versión ampliada." revision="0" />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
-    <Item />
-    <Item />
+    <Item value="Iniciar prueba gratuita" revision="0" />
+    <Item value="Iniciar prueba gratuita" revision="0" />
   </Enumeration>
   <Enumeration key="PlayerSource">
     <Item value="Reproducción de logs" revision="0" />
@@ -93,7 +95,7 @@
   </Enumeration>
   <Enumeration key="LicenseColumns">
     <Item value="Licencia" revision="0" />
-    <Item />
+    <Item value="Tipo" revision="0" />
     <Item value="Expira el" revision="0" />
     <Item value="Comercial" revision="0" />
   </Enumeration>

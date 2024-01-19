@@ -18,7 +18,7 @@
   <Message key="Downloader settings" value="Definições de proxy" revision="0" />
   <Message key="toolbar.Downloader" value="Descarregador" revision="0" />
   <Enumeration key="Downloader">
-    <Item />
+    <Item value="Descarregador" revision="0" />
     <Item value="Comandos do descarregador" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsCancelAll">
@@ -27,11 +27,11 @@
   </Enumeration>
   <Enumeration key="DownloaderColumns">
     <Item value="Tarefa" revision="0" />
-    <Item />
+    <Item value="Estado" revision="0" />
     <Item lookup="Size" />
   </Enumeration>
   <Enumeration key="DownloadStatus">
-    <Item />
+    <Item value="Desconhecido" revision="0" />
     <Item value="Iniciado" revision="0" />
     <Item value="Deteção de proxy" revision="0" />
     <Item value="Nome de resolução" revision="0" />

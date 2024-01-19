@@ -55,7 +55,7 @@
     <Item value="Serielle Brücke ermöglicht die Überwachung der Kommunikation zwischen zwei seriellen Geräten, die an Ihren Computer angeschlossen sind. Die Überwachung erfolgt über eine virtuelle Brücke, die zwischen ausgewählten seriellen Schnittstellen erstellt wird." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item value="generisch" revision="0" />
+    <Item value="Generisch" revision="0" />
     <Item value="PPP" revision="0" />
     <Item value="Linie (Paket endet mit neuer Linie)" revision="0" />
     <Item value="MODBUS RTU-Modus" revision="0" />

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PrepareException" value="Exceção {exception} em {file}({line}) {message}" revision="0" />
   <Message key="BindError" value="Erro ao inicializar o visualizador personalizado &quot;{visname}&quot;: {message}{has location?} em {line}:{col}{?has location}" revision="0" />
   <Message key="OpenError" value="Erro ao carregar o ficheiro de definição do visualizador personalizado: {exception} ({code})." revision="0" />
   <Message key="NoSchemesDefined" value="O visualizador personalizado não define quaisquer esquemas" revision="0" />

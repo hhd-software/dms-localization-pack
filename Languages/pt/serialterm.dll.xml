@@ -5,6 +5,7 @@
   <Message key="converttabs" value="Converter caracteres de tabulação em N espaços (N=0 - desativado)" revision="0" />
   <Message key="chunk_size" value="Tamanho do bloco de dados" revision="0" />
   <Message key="newsession_notify" value="Criação de sessão de terminal" revision="0" />
+  <Message key="Serial Terminal" value="Terminal série" revision="0" />
   <Message key="Array expected" value="Matriz de bytes esperada" revision="0" />
   <Message key="Invalid constant" value="Valor inválido da constante" revision="0" />
   <Message key="TerminalStatistics" value="Rx: {rx} B Tx: {tx} B Enviado: {sent} Recebido: {received}" revision="0" />
@@ -48,8 +49,8 @@
     <Item value="Enviar CR+LF (em vez de CR) ao premir Enter" revision="0" />
   </Enumeration>
   <Enumeration key="SerialTerminal">
-    <Item />
-    <Item />
+    <Item value="Terminal série" revision="0" />
+    <Item value="Terminal série" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTermSessions">
     <Item value="Sessões de terminal" revision="0" />

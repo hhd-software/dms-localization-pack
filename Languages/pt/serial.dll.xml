@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Próximo dispositivo ligado (série)" revision="0" />
+  <Message key="sessionTypeTutorial" value="Tutorial para a janela Tipo de sessão de série" revision="0" />
   <Message key="DriverConnectError" value="Erro ao ligar ao driver do filtro: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Não é possível ligar ao dispositivo selecionado." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uPropriedades da porta de série]]]]]]]]]\n\n" revision="0" />
@@ -50,7 +51,9 @@
   <Message key="Load from File" value="&amp;Carregar do ficheiro…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Também oferecemos a biblioteca ActiveX do Controlo de Monitorização de Porta Série, que lhe permite integrar a funcionalidade de monitorização na sua própria aplicação." revision="0" />
   <Message key="No terminal" value="Sem terminal" revision="0" />
+  <Message key="terminal session creation failure" value="Falha ao iniciar a escuta num dispositivo de série devido ao seguinte erro: {text} ({code}){access-denied?}\n\nEste erro significa muito provavelmente que a porta série já está aberta por outra aplicação. Pode ignorar este erro com segurança e continuar a monitorizar uma porta.\n\nSe estiver sempre a monitorizar um dispositivo de série aberto, certifique-se de que a opção &quot;Escuta os dados de entrada...&quot; está desligada na janela de configuração da sessão.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Definir controlo de fluxo personalizado" revision="0" />
+  <Message key="Serial" value="Série" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -101,12 +104,12 @@
     <Item value="Modo de 16 bits" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paridade" revision="0" />
+    <Item value="Baud" revision="0" />
+    <Item value="Bits de dados" revision="0" />
+    <Item value="Bits de paragem" revision="0" />
+    <Item value="Controlo do fluxo" revision="0" />
+    <Item value="Verificação de paridade" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -170,7 +173,7 @@
     <Item value="Nenhum" revision="0" />
     <Item value="Xon/Xoff" revision="0" />
     <Item value="Hardware" revision="0" />
-    <Item />
+    <Item value="Personalizado" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
     <Item value="Oculto" revision="0" />
@@ -181,8 +184,8 @@
     <Item value="A aplicação está à espera que ligue um dispositivo de série compatível com PnP ao seu computador." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Configuração do tipo de sessão" revision="0" />
+    <Item value="Escolha o [[[htipo de sessão]]] adequado para a sua sessão de monitorização:\n\n • [[[bGenéricos]]]: para processamento por defeito sem qualquer processamento adicional de pacotes\n • [[[bMODBUS]]]: para localizar pacotes MODBUS no fluxo de dados monitorizado\n • [[[bPPP]]]: para monitorização do protocolo ponto-a-ponto\n • [[[bUm pacote por linha]]]: para protocolos como o NMEA\n • [[[bPersonalizado]]]: para usar divisão e junção avançadas de pacotes baseadas em scripts" revision="0" />
+    <Item value="Active esta opción [[[bligar]]] si no tiene una aplicación de terceros que vaya a abrir (o ya haya abierto) un dispositivo serie. Tener esta opción [[[bligar]]] inicia una sesión de emulación de terminal [[[ialém disso]]] a una sesión de monitorización. Es posible que también necesite configurar los parámetros del puerto serie en este caso.\n\nActive esta opción [[[bdesligar]]] si el puerto ya está abierto por una aplicación monitorizada de terceros, o si se va a abrir." revision="0" />
   </Enumeration>
 </Language>

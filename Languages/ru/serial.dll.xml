@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Следующее подключённое устройство (Serial)" revision="0" />
+  <Message key="sessionTypeTutorial" value="Пособие по окну последовательных сессий" revision="0" />
   <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Невозможно присоединиться к выбранному устройству." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uСвойства последовательного порта]]]]]]]]]\n\n" revision="0" />
@@ -52,6 +53,7 @@
   <Message key="No terminal" value="Без терминала" revision="0" />
   <Message key="terminal session creation failure" value="Не удалось запустить прослушивание последовательного устройства из-за следующей ошибки: {text} ({code}){access-denied?}\n\nВероятно, эта ошибка означает, что последовательный порт уже открыт другим приложением. Вы можете спокойно проигнорировать эту ошибку и продолжить мониторинг порта.\n\nЕсли вы постоянно следите за открытым последовательным устройством, убедитесь, что опция &quot;Слушать входящие данные…&quot; выключена в окне конфигурации сессии.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Пользовательский Flow Control" revision="0" />
+  <Message key="Serial" value="Serial" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item value="" revision="0" />
     <Item value="" revision="0" />
@@ -182,8 +184,8 @@
     <Item value="Приложение ждет, когда вы подключите к компьютеру PnP-совместимое последовательное устройство." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Конфигурация типа сессии" revision="0" />
+    <Item value="Выберите подходящий [[[hтип сессии]]] для сеанса мониторинга:\n\n • [[[bДженерик]]]: для обработки по умолчанию без дополнительной обработки пакетов\n • [[[bMODBUS]]]: для обнаружения MODBUS пакетов в потоке данных\n • [[[bPPP]]]: для мониторинга PPP протокола\n • [[[bОдин пакет на строку]]]: для протоколов типа NMEA\n • [[[bПользовательский]]]: для продвинутого объединения/разделения пакетов на основе скриптов" revision="0" />
+    <Item value="Включите опцию [[[bвкл]], если у вас нет стороннего приложения, которое собирается открыть (или уже открыло) последовательное устройство. Состояние опции [[[bвкл]] запускает сеанс эмуляции терминала [[[iдополнительно]] к сеансу мониторинга. В этом случае может потребоваться настройка параметров последовательного порта.\n\nУстановите этот параметр в состояние [[[bвыкл]], если порт уже открыт сторонним приложением для мониторинга, или если он будет открыт." revision="0" />
   </Enumeration>
 </Language>

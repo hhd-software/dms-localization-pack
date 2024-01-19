@@ -7,7 +7,7 @@
   <Message key="back_search" value="Número de pacotes a examinar (para concatenação de pacotes)" revision="0" />
   <Message key="PPP View" value="Vista de PPP" revision="0" />
   <Enumeration key="PPPConverter">
-    <Item />
+    <Item value="Vista PPP" revision="0" />
     <Item value="O visualizador Vista de PPP analisa e apresenta pacotes PPP (pedidos, respostas, opções, etc.)." revision="0" />
   </Enumeration>
 </Language>

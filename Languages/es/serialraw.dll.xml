@@ -36,19 +36,19 @@
     <Item value="Solicitud de I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">
-    <Item />
+    <Item value="Vista de líneas" revision="0" />
     <Item value="El visualizador Vista de Líneas muestra su salida en esta ventana. Muestra el estado de las líneas de módem para el dispositivo serie monitorizado actualmente." revision="0" />
   </Enumeration>
   <Enumeration key="PacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ordinal" revision="0" />
+    <Item value="Tiempo" revision="0" />
+    <Item value="Diferencia de tiempo" revision="0" />
+    <Item value="Función" revision="0" />
+    <Item value="Dirección" revision="0" />
+    <Item value="Estado" revision="0" />
+    <Item value="Datos" revision="0" />
     <Item value="Datos (caracteres)" revision="0" />
-    <Item />
+    <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="SerialGeneralCat">
     <Item value="Visualizar paquetes vacíos" revision="0" />
@@ -92,15 +92,15 @@
     <Item value="Configurar contador XOFF" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabecera" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Datos binarios" revision="0" />
+    <Item value="Leer: Cabecera" revision="0" />
+    <Item value="Leer: Texto" revision="0" />
+    <Item value="Leer: Datos binarios" revision="0" />
+    <Item value="Escribir: Cabecera" revision="0" />
+    <Item value="Escribir: Texto" revision="0" />
+    <Item value="Escribir: Datos binarios" revision="0" />
   </Enumeration>
   <Enumeration key="ConcatPackets">
     <Item value="Juntar-se aos pedidos consequentes (série)" revision="0" />

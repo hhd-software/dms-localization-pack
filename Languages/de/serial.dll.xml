@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Nächstes angeschlossenes Gerät (seriell)" revision="0" />
+  <Message key="sessionTypeTutorial" value="Tutorial zum Fenster Serieller Sitzungstyp " revision="0" />
   <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Die Verbindung zum Gerät kann nicht hergestellt werden." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uEigenschaften von seriellen Anschlüsse]]]]]]]]]\n\n" revision="0" />
@@ -52,6 +53,7 @@
   <Message key="No terminal" value="Kein Terminal" revision="0" />
   <Message key="terminal session creation failure" value="Aufgrund des folgenden Fehlers konnte das Abhören eines seriellen Geräts nicht gestartet werden: {text} ({code}){access-denied?}\n\nDieser Fehler bedeutet höchstwahrscheinlich, dass die serielle Schnittstelle bereits von einer anderen Anwendung geöffnet ist. Sie können diesen Fehler getrost ignorieren und mit der Überwachung eines Anschlusses fortfahren.\n\nWenn Sie immer ein geöffnetes serielles Gerät überwachen, stellen Sie sicher, dass die Option &quot;Hören Sie auf eingehende Daten…&quot; im Sitzungskonfigurationsfenster ausgeschaltet ist.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Benutzerdefinierte Flusssteuerung" revision="0" />
+  <Message key="Serial" value="Serielle" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -182,8 +184,8 @@
     <Item value="Die Anwendung wartet darauf, dass Sie ein PnP-kompatibles serielles Gerät an Ihren Computer anschließen." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Konfiguration des Sitzungstyps" revision="0" />
+    <Item value="Wählen Sie den passenden [[[hsession-typ]]] für Ihre Überwachungssitzung:\n\n • [[[bGenerisch]]]: für Standardverarbeitung ohne zusätzliche Paketverarbeitung\n • [[[bMODBUS]]]: zum Auffinden von MODBUS-Paketen im überwachten Datenstrom\n • [[[bPPP]]]: für die Überwachung des Punkt-zu-Punkt-Protokolls\n • [[[bEin Paket pro Linie]]]: für Protokolle wie NMEA\n • [[[bBenutzerdefiniert]]]: für die Verwendung des erweiterten skriptbasierten Aufteilens und Zusammenfügens von Paketen" revision="0" />
+    <Item value="Schalten Sie diese Option [[[beinschalten]]] ein, wenn Sie keine Anwendung eines Drittanbieters haben, die ein serielles Gerät öffnen wird (oder bereits geöffnet hat). Wenn Sie diese Option [[[beinschalten]]] aktivieren, wird eine Terminalemulationssitzung [[[izusätzlich]]] zu einer Überwachungssitzung gestartet. Möglicherweise müssen Sie in diesem Fall auch Parameter für die serielle Schnittstelle konfigurieren. Aktivieren Sie diese Option [[[bausschalten]]], wenn die Schnittstelle bereits von einer überwachten Anwendung eines Drittanbieters geöffnet ist oder geöffnet werden soll." revision="0" />
   </Enumeration>
 </Language>

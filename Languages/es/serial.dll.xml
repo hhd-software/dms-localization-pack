@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Siguiente dispositivo conectado (serie)" revision="0" />
+  <Message key="sessionTypeTutorial" value="Tutorial de la ventana Tipo de sesión en serie" revision="0" />
   <Message key="DriverConnectError" value="Error al conectar con el driver del filtro: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="No se puede conectar al dispositivo seleccionado." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uPropiedades del puerto serie]]]]]]]]]\n\n" revision="0" />
@@ -50,7 +51,9 @@
   <Message key="Load from File" value="&amp;Cargar desde archivo…" revision="0" />
   <Message key="Serial.Advertise.Text" value="También ofrecemos la librería Serial Port Monitoring Control ActiveX que le permite integrar la funcionalidad de monitorización en su propia aplicación." revision="0" />
   <Message key="No terminal" value="No terminal" revision="0" />
+  <Message key="terminal session creation failure" value="Error al iniciar la escucha en un dispositivo serie debido al siguiente error: {text} ({code}){access-denied?}\n\nLo más probable es que este error signifique que el puerto serie ya está abierto por otra aplicación. Puede ignorar con seguridad este error y continuar supervisando un puerto.\n\nSi siempre está supervisando un dispositivo serie abierto, asegúrese de que la opción &quot;Escuchar datos entrantes...&quot; está desactivada en la ventana de configuración de la sesión.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Establecer control de flujo personalizado" revision="0" />
+  <Message key="Serial" value="Serie" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -101,12 +104,12 @@
     <Item value="Modo de 16 bits" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paridad" revision="0" />
+    <Item value="Baudios" revision="0" />
+    <Item value="Bits de datos" revision="0" />
+    <Item value="Bits de parada" revision="0" />
+    <Item value="Control del flujo" revision="0" />
+    <Item value="Verificación de paridad" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -170,7 +173,7 @@
     <Item value="Ninguno" revision="0" />
     <Item value="Xon/Xoff" revision="0" />
     <Item value="Hardware" revision="0" />
-    <Item />
+    <Item value="Personalizado" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
     <Item value="Oculto" revision="0" />
@@ -181,8 +184,8 @@
     <Item value="La aplicación está esperando a que conectes un dispositivo serie compatible con PnP a tu ordenador." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Configuración del tipo de sesión" revision="0" />
+    <Item value="Elija el [[[htipo de sesión]]] adecuado para su sesión de supervisión:\n\n • [[[bGenérico]]]: para el procesamiento por defecto sin ningún procesamiento adicional de paquetes\n • [[[bMODBUS]]]: para localizar paquetes MODBUS en el flujo de datos supervisado\n • [[[bPPP]]]: para la supervisión del Protocolo Punto a Punto\n • [[[bUn paquete por línea]]]: para protocolos como NMEA\n • [[[bPersonalizar]]]: para utilizar la división y unión de paquetes avanzada basada en scripts" revision="0" />
+    <Item value="Active esta opción [[[bactivar]]] si no tiene una aplicación de terceros que vaya a abrir (o ya haya abierto) un dispositivo serie. Tener esta opción [[[bactivar]]] inicia una sesión de emulación de terminal [[[iademás]]] a una sesión de monitorización. Es posible que también necesite configurar los parámetros del puerto serie en este caso.\n\nActive esta opción [[[bdesactivar]]] si el puerto ya está abierto por una aplicación monitorizada de terceros, o si se va a abrir." revision="0" />
   </Enumeration>
 </Language>
