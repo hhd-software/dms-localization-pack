@@ -264,13 +264,13 @@
     <Item value="Unterbrochen" revision="0" />
   </Enumeration>
   <Enumeration key="SessionConfigSteps">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Durchgang zur Sitzungskonfiguration" revision="0" />
+    <Item value="Dies ist eine Liste mit allen verfügbaren Verarbeitungsmodulen. Wählen Sie das Verarbeitungsmodul aus, um seine Kurzbeschreibung anzuzeigen, und doppelklicken Sie darauf, um es zu einer Überwachungssitzung hinzuzufügen.\n\nDurch Hinzufügen der Komponente &quot;Datenaufzeichnung&quot; zur Sitzung werden alle überwachten Daten in einer Protokolldatei gespeichert, die später mit demselben oder einem anderen Satz von Datenverarbeitungsmodulen wiedergegeben werden kann." revision="0" />
+    <Item value="Dies ist eine Liste aller Verarbeitungsmodule, die derzeit für eine Überwachungssitzung konfiguriert sind. Mehrere Verarbeitungsmodule unterstützen zusätzliche Konfigurationen. Klicken Sie auf die entsprechenden Optionen, um sie zu konfigurieren." revision="0" />
+    <Item value="Legen Sie den [[[hSitzungs-Filter]]] fest, der für die gesamte Überwachungssitzung aktiv sein soll.\n\nViele Datenvisualisierer unterstützen die Einstellung von [[[hVisualisierer-Filter]]] pro Visualisierer." revision="0" />
+    <Item value="Klicken Sie auf die Schaltfläche [[[bMehr hinzufügen]]], um weitere Geräte zu der Überwachungssitzung hinzuzufügen. Alle hinzugefügten Geräte müssen gleichzeitig in einer einzigen Sitzung überwacht werden." revision="0" />
+    <Item value="Einige Überwachungssitzungen unterstützen zusätzliche Konfigurationen. Klicken Sie auf den Konfigurationstext, um das Konfigurationsfenster zu öffnen und die Überwachungssitzung zu konfigurieren." revision="0" />
+    <Item value="Sobald Sie bereit sind, drücken Sie die Taste [[[bStart]]], um mit der Überwachung zu beginnen!" revision="0" />
+    <Item value="Alternativ können Sie die Einstellungen des [[[bKonfiguration der Sitzung]]]-Fensters auch in einem Skript erfassen. Drücken Sie dazu die Schaltfläche [[[bSkript generieren]]]." revision="0" />
   </Enumeration>
 </Language>

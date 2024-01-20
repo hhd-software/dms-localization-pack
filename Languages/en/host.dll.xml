@@ -392,7 +392,7 @@
 		<Item text="This is a list of all available processing modules. Select the processing module to view its short description and double-click it in order to add it to a monitoring session.\n\nAdding [[[v#[vis.recording]# ]]] [[[hData Recording]]] component to the session will cause all monitored data to be saved into the log file which may be played back later with the same or different set of data processing modules."/>
 		<Item text="This is a list of all processing modules currently configured for a monitoring session. Several processing modules support additional configuration. Click on the corresponding options to configure them."/>
 		<Item text="Specify the [[[hCapture Filter]]] that will be active for the entire monitoring session.\n\nSeveral data visualizers support setting per-visualizer [[[hDisplay Filter]]]."/>
-		<Item text="Click the [[[bAdd More]]] button to add more devices to the monitoring session. All added devices will be monitored simultanously in a single session."/>
+		<Item text="Click the [[[bAdd More]]] button to add more devices to the monitoring session. All added devices will be monitored simultaneously in a single session."/>
 		<Item text="Some monitoring sessions support additional configuration. Click on the configuration text to open configuration window and configure monitoring session."/>
 		<Item text="Once ready, press the [[[bStart]]] button to start monitoring!"/>
 		<Item text="Alternatively, you may capture the [[[bSession Configuration]]] window settings in a script. Press the [[[bGenerate Script]]] button in order to do that."/>

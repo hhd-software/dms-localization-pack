@@ -264,13 +264,13 @@
     <Item value="Pausado" revision="0" />
   </Enumeration>
   <Enumeration key="SessionConfigSteps">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Passo a passo da configuração da sessão" revision="0" />
+    <Item value="Esta é uma lista de todos os módulos de processamento disponíveis. Selecionar o módulo de processamento para ver a sua breve descrição e fazer duplo clique para o adicionar a uma sessão de monitorização\n\nA adição do componente &quot;Gravação de dados&quot; à sessão fará com que todos os dados monitorizados sejam guardados no ficheiro de registo, que pode ser reproduzido mais tarde com o mesmo ou diferente conjunto de módulos de processamento de dados." revision="0" />
+    <Item value="Esta é uma lista de todos os módulos de processamento atualmente configurados para uma sessão de monitorização. Vários módulos de processamento suportam configurações adicionais. Clique nas opções correspondentes para as configurar." revision="0" />
+    <Item value="Especifique o [[[hFiltro de sessão]]] que estará ativo para toda a sessão de monitorização.\n\nVários visualizadores de dados suportam a definição do [[[hFiltro visualizador]]] por visualizador." revision="0" />
+    <Item value="Clique no botão [[[bAdicionar mais]]] para adicionar mais dispositivos à sessão de monitorização. Todos os dispositivos adicionados devem ser monitorizados simultaneamente numa única sessão." revision="0" />
+    <Item value="Algumas sessões de monitorização suportam configurações adicionais. Clique no texto de configuração para abrir a janela de configuração e configurar a sessão de monitorização." revision="0" />
+    <Item value="Quando estiver pronto, prima o botão [[[bInício]]] para começar a monitorizar!" revision="0" />
+    <Item value="Em alternativa, pode capturar as definições da janela [[[bConfiguração da sessão]]] num script. Prima o botão [[[bGerar Script]]] para o fazer." revision="0" />
   </Enumeration>
 </Language>
