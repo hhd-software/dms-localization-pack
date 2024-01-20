@@ -46,12 +46,14 @@
   <Message key="LogStartBurst" value="Início (modo Burst)…" revision="0" />
   <Message key="LogStart" value="Início…" revision="0" />
   <Message key="LogStop" value="Parar…" revision="0" />
+  <Message key="ViewOffset" value="Offset" revision="0" />
   <Message key="PatternColoring" value="Coloração de padrões de dados" revision="0" />
   <Message key="Pattern" value="Padrão" revision="0" />
   <Message key="WriteFileError" value="Erro ao escrever no ficheiro. Tenta uma localização diferente." revision="0" />
   <Message key="Back color:" value="Cor de fundo" revision="0" />
   <Message key="Text color:" value="Cor do texto:" revision="0" />
   <Message key="Outline color:" value="Cor do contorno:" revision="0" />
+  <Message key="Description" value="Descrição" revision="0" />
   <Message key="New Packet" value="Novo pacote" revision="0" />
   <Message key="Packet Template:" value="Modelo de pacote:" revision="0" />
   <Message key="Interval:" value="Intervalo:" revision="0" />
@@ -59,13 +61,16 @@
   <Message key="NoSelection" value="Sem seleção" revision="0" />
   <Message key="Number" value="№." revision="0" />
   <Message key="Address" value="Endereço" revision="0" />
+  <Message key="Length" value="Comprimento" revision="0" />
   <Message key="AdapterSelect" value="Selecionar adaptador…\nSelecionar o adaptador predefinido para o envio de pacotes" revision="0" />
   <Message key="TemplateAlreadyExists" value="O modelo já existe. Pretende substituí-lo?" revision="0" />
   <Message key="ErrorRead" value="Erro na leitura do ficheiro." revision="0" />
   <Message key="TemplateDeleteError" value="Este esquema não pode ser removido ou modificado." revision="0" />
   <Message key="TitleError" value="Erro" revision="0" />
   <Message key="NoPackets" value="Este esquema não pode ser removido ou modificado." revision="0" />
+  <Message key="Warning" value="Aviso" revision="0" />
   <Message key="BigPacket" value="Tamanho do pacote superior ao MTU padrão (1500). Envio não garantido." revision="0" />
+  <Message key="All files" value="Todos os ficheiros" revision="0" />
   <Message key="LimitSize" value="Pacote demasiado grande. Tamanho do ficheiro de entrada superior a {limit} bytes. Utilizar os primeiros {first} bytes." revision="0" />
   <Message key="NetTermTooltip" value="Pacote:\t\t{number}\nTamanho:\t\t{size} bytes\nAtraso:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Pretende substituir este esquema?" revision="0" />
@@ -73,10 +78,12 @@
   <Message key="HexStartError" value="Falha ao iniciar o Hex Editor Neo. Código de erro = {code}" revision="1" />
   <Message key="HexLocationError" value="Não é possível encontrar o local de instalação do Hex Editor Neo." revision="0" />
   <Message key="HexVersionError" value="Número de versão desconhecido do Hex Editor." revision="0" />
+  <Message key="ErrorTitle" value="Erro" revision="0" />
   <Message key="EncodingNotSupported" value="Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada. Codificação não suportada." revision="0" />
   <Message key="NotSupported" value="O seu sistema não possui os componentes necessários para suportar a codificação selecionada. Seleccione outra codificação." revision="0" />
   <Message key="ErrorLocatingPacket" value="Erro ao localizar o pacote" revision="0" />
   <Message key="InvalidOffset" value="Deslocação inválida." revision="0" />
+  <Message key="GoToOffset" value="Ir para Offset" revision="0" />
   <Message key="InvalidRule" value="Não é possível ativar a regra, a regra é inválida." revision="0" />
   <Message key="SchemeOverwrite" value="O esquema atual será perdido. Querem continuar?" revision="0" />
   <Message key="VersionError" value="O ficheiro tem uma versão diferente." revision="0" />
@@ -106,6 +113,7 @@
   <Message key="OperationPerformed" value="A operação solicitada está a ser executada…" revision="0" />
   <Message key="CopyrightNotice" value="Gerado por HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Erro de sintaxe de expressão regular: {error}." revision="0" />
+  <Message key="Find" value="Localizar" revision="0" />
   <Message key="Type: " value="Tipo: " revision="0" />
   <Message key="Fi&amp;nd what: " value="Des&amp;cobrir o que: " revision="0" />
   <Message key="Regular expression" value="Expressão regular" revision="0" />
@@ -135,6 +143,7 @@
   <Message key="Smart indentation" value="Indentação inteligente" revision="0" />
   <Message key="Antialiased quality (slower)" value="Qualidade antialiada (mais lenta)" revision="0" />
   <Message key="Layout Schemes" value="Esquemas de apresentação" revision="0" />
+  <Message key="Pattern Coloring" value="Coloração de padrões" revision="0" />
   <Message key="Variable Properties" value="Propriedades das variáveis" revision="0" />
   <Message key="Variable name:" value="Nome da variável:" revision="0" />
   <Message key="Units:" value="Unidades:" revision="0" />
@@ -163,6 +172,7 @@
   <Message key="Baud rate:" value="Velocidade de transmissão:" revision="0" />
   <Message key="Data bits:" value="Bits de dados:" revision="0" />
   <Message key="Parity:" value="Paridade:" revision="0" />
+  <Message key="Stop bits:" value="Bits de paragem:" revision="0" />
   <Message key="Flow control:" value="Controlo de fluxos:" revision="0" />
   <Message key="Out DSR Flow:" value="Out DSR Fluxo:" revision="0" />
   <Message key="RTS control:" value="Controlo RTS:" revision="0" />
@@ -174,6 +184,8 @@
   <Message key="Click here" value="Clique aqui" revision="0" />
   <Message key="Current" value="Atual" revision="0" />
   <Message key="PredefinedOverwrite" value="Não é possível modificar esquemas predefinidos" revision="0" />
+  <Message key="toolbar.Output" value="Saída" revision="0" />
+  <Message key="toolbar.PacketBuilder" value="Criador de pacotes" revision="0" />
   <Message key="clr.plot_colors" value="Cores do gráfico" revision="1" />
   <Message key="clr.plot_colors.grid" value="Grelha" revision="1" />
   <Message key="clr.plot_colors.ordinalLine" value="Cor do ordinal" revision="1" />
@@ -286,12 +298,12 @@
     <Item value="Carregar modelo de pacote do ficheiro" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="Acima" revision="0" />
+    <Item value="Mover o pacote selecionado para cima" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
-    <Item />
+    <Item value="Baixo" revision="0" />
+    <Item value="Mover o pacote selecionado para baixo" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
     <Item value="Calcular automaticamente campos de soma de verificação para pacotes IP e TCP" revision="0" />
@@ -438,15 +450,15 @@
     <Item value="Mostrar ou ocultar um painel de código" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item value="" revision="0" />
+    <Item value="&amp;Hex" revision="0" />
     <Item value="Ver o endereço como hexadecimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item />
+    <Item value="&amp;Decimal" revision="0" />
     <Item value="Ver o endereço como decimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
-    <Item />
+    <Item value="&amp;Octal" revision="0" />
     <Item value="Ver o endereço como octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
@@ -475,7 +487,7 @@
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
     <Item value="Limpar este esquema de coloração" revision="0" />
-    <Item />
+    <Item value="Limpar este esquema de coloração" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
     <Item value="Selecionar tudo" revision="0" />
@@ -518,12 +530,12 @@
     <Item value="Salta para o desvio especificado" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
-    <Item value="" revision="0" />
-    <Item />
+    <Item value="Pacote &amp;seguinte" revision="0" />
+    <Item value="Saltar para o início de um pacote seguinte" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Pacote &amp;anterior" revision="0" />
+    <Item value="Saltar para o início de um pacote anterior" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSynchronize">
     <Item value="&amp;Sincronizar" revision="0" />
@@ -565,7 +577,7 @@
   </Enumeration>
   <Enumeration key="Range">
     <Item value="Alcance: {from} – {to} (Tamanho: {size})" revision="0" />
-    <Item />
+    <Item value="Alcance: {from} – {to} (Tamanho: {size})" revision="0" />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
     <Item value="Linha estática colocada" revision="0" />
@@ -597,11 +609,11 @@
   <Enumeration key="SelectionDetailsColumns">
     <Item value="№" revision="0" />
     <Item value="Endereço" revision="0" />
-    <Item />
+    <Item value="Comprimento" revision="0" />
   </Enumeration>
   <Enumeration key="ColorItems">
-    <Item />
-    <Item />
+    <Item value="Texto" revision="1" />
+    <Item value="Fundo" revision="1" />
     <Item value="Cabeçalho e endereço" revision="1" />
     <Item value="Contexto do endereço" revision="1" />
     <Item value="Texto ASCII/UNICODE" revision="1" />
@@ -634,7 +646,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item />
+    <Item value="Número" revision="1" />
     <Item lookup="Name" />
     <Item lookup="Value" />
     <Item lookup="Offset" />
