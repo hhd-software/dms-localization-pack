@@ -255,6 +255,8 @@
   <Message key="clr.listview.grid" value="Raster" revision="0" />
   <Message key="clr.listview.alternate_background" value="Alternativer Hintergrund" revision="0" />
   <Message key="clr.listview.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.balloon" value="Farben des Benachrichtigungsfensters" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="Meldung &quot;Nicht mehr anzeigen&quot;" revision="0" />
   <Message key="Settings Page" value="Einstellungen" revision="0" />
   <Message key="Settings Storage Location" value="Einstellungen Speicherort" revision="0" />
   <Message key="Settings Management" value="Verwaltung der Einstellungen" revision="0" />
@@ -320,6 +322,7 @@
   <Message key="Code" value="Code" revision="0" />
   <Message key="The following monitoring sessions are active:" value="{has sessions?}Die folgenden Überwachungssitzungen sind aktiv: {sessions}{|has sessions}Keine aktiven Überwachungssitzungen.{?has sessions}" revision="0" />
   <Message key="Default" value="Standard" revision="0" />
+  <Message key="This scheme cannot be deleted" value="Diese Regelung kann nicht gelöscht werden" revision="0" />
   <Message key="Plase wait" value="Bitte warten…" revision="0" />
   <Message key="DataNoLongerValid" value="Dieser Datenblock ist nicht mehr gültig." revision="0" />
   <Message key="Unknown Request" value="Unbekannt Anfrage" revision="0" />
@@ -366,7 +369,9 @@
   <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Klicken Sie, um den Visualisierungsfilter zu ändern" revision="0" />
   <Message key="RootProtocolStateTooltip" value="Klicken Sie, um das Root-Protokoll zu ändern" revision="0" />
   <Message key="WrittenBytes" value="{size as text} ({size} bytes) geschrieben" revision="0" />
-  <Message key="Do not display this warning anymore" value="Diese Warnung nicht mehr anzeigen" revision="0" />
+  <Message key="Do not display this warning anymore" value="Diese Meldung nicht mehr anzeigen" revision="1" />
+  <Message key="Find Operation" value="Suche nach Text" revision="0" />
+  <Message key="NextPage" value="Weiter…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="Nach Updates &amp;suchen" revision="0" />
     <Item value="Prüfen Sie online, ob eine aktualisierte Version vorliegt." revision="0" />
@@ -618,7 +623,7 @@
   </Enumeration>
   <Enumeration key="WindowTabbed">
     <Item value="Tabelliertes Dokument" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="Tabelliertes Dokument" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
     <Item value="Befehl" revision="0" />

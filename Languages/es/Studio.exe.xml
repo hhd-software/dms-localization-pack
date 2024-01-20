@@ -131,6 +131,7 @@
   <Message key="Colors Page" value="Temas" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Introduzca el nombre del esquema y pulse el botón Guardar" revision="0" />
   <Message key="ColorSchemeExists" value="El esquema de colores ya existe. ¿Desea anularlo?" revision="0" />
+  <Message key="Theme:" value="Diseño:" revision="0" />
   <Message key="Display elements:" value="Elementos mostrados:" revision="0" />
   <Message key="Automatic" value="Automático" revision="0" />
   <Message key="Current" value="Actual" revision="0" />
@@ -162,7 +163,9 @@
   <Message key="Keyboard" value="Teclado" revision="0" />
   <Message key="MaxShortcuts" value="No puedes asignar más de 5 atajos a un comando." revision="0" />
   <Message key="ShortcutExists" value="Este atajo ya está definido para {command}. ¿Quiere redefinirlo?" revision="0" />
+  <Message key="Keyboard Page" value="Teclado" revision="0" />
   <Message key="Category" value="Categoría:" revision="0" />
+  <Message key="Commands" value="Comandos:" revision="0" />
   <Message key="Current keys" value="Teclas actuales:" revision="0" />
   <Message key="Press new shortcut key" value="Pulsar &amp;nueva tecla de acceso directo:" revision="0" />
   <Message key="Description" value="Descripción:" revision="0" />
@@ -172,6 +175,7 @@
   <Message key="[unassigned]" value="[no asignado]" revision="0" />
   <Message key="Keyboard Map Dialog" value="Mapa del teclado" revision="0" />
   <Message key="Print" value="&amp;Imprimir" revision="0" />
+  <Message key="General" value="General" revision="0" />
   <Message key="Requests" value="Solicitudes" revision="0" />
   <Message key="Responses" value="Respuestas" revision="0" />
   <Message key="IO Requests" value="E/S Solicitudes" revision="0" />
@@ -228,6 +232,9 @@
   <Message key="clr.listview.selected.active.stroke" value="Trazo de selección activo" revision="0" />
   <Message key="clr.listview.grid" value="Cuadrícula" revision="0" />
   <Message key="clr.listview.alternate_background" value="Fondo alternativo" revision="0" />
+  <Message key="clr.balloon" value="Colores de la ventana de notificación" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="&quot;Mensaje &quot;No mostrar más" revision="0" />
+  <Message key="Settings Page" value="Configuración" revision="0" />
   <Message key="Settings Storage Location" value="Ubicación del almacenamiento de configuraciones" revision="0" />
   <Message key="Settings Management" value="Gestión de la configuración" revision="0" />
   <Message key="Export Settings…" value="Exportar configuración…" revision="0" />
@@ -292,6 +299,7 @@
   <Message key="Code" value="Código" revision="0" />
   <Message key="The following monitoring sessions are active:" value="{has sessions?}Las siguientes sesiones de monitorización están activas: {sessions}{|has sessions}No hay sesiones de monitorización activas.{?has sessions}" revision="0" />
   <Message key="Default" value="Predeterminado" revision="0" />
+  <Message key="This scheme cannot be deleted" value="Este esquema no puede borrarse" revision="0" />
   <Message key="Plase wait" value="Espere, por favor…" revision="0" />
   <Message key="DataNoLongerValid" value="Este bloque de datos ya no es válido." revision="0" />
   <Message key="Unknown Request" value="Solicitud desconocida" revision="0" />
@@ -326,6 +334,7 @@
   <Message key="Wait_Text" value="Se está realizando la operación solicitada…" revision="0" />
   <Message key="Crash Page" value="Informes de crashs" revision="0" />
   <Message key="CrashIntro" value="Si desea que se le notifique el estado de su informe de accidente y que sus informes se tramiten con mayor prioridad, indique su dirección de correo electrónico en el recuadro siguiente. Su dirección de correo electrónico no se utilizará para ningún otro fin que no sea el debate sobre su envío." revision="0" />
+  <Message key="Report Settings" value="Configuración" revision="0" />
   <Message key="Send report automatically" value="&amp;Enviar informe automáticamente" revision="0" />
   <Message key="Report verbosity level" value="Nivel de detalle del informe" revision="0" />
   <Message key="Minidump" value="&amp;Minidump" revision="0" />
@@ -337,6 +346,9 @@
   <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Haga clic para cambiar el filtro" revision="0" />
   <Message key="RootProtocolStateTooltip" value="Haga clic para cambiar el protocolo raíz" revision="0" />
   <Message key="WrittenBytes" value="{size as text} ({size} bytes) escrito" revision="0" />
+  <Message key="Do not display this warning anymore" value="No mostrar más este mensaje" revision="1" />
+  <Message key="Find Operation" value="Búsqueda de texto" revision="0" />
+  <Message key="NextPage" value="Continuar…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Buscar actualizaciones" revision="0" />
     <Item value="Busque la versión actualizada en Internet." revision="0" />
@@ -535,8 +547,8 @@
     <Item value="Minimizar la ventana de Device Monitoring Studio a la bandeja del sistema" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
-    <Item />
-    <Item />
+    <Item value="Cancelar" revision="0" />
+    <Item value="Cancelar" revision="0" />
   </Enumeration>
   <Enumeration key="HelpContents">
     <Item value="&amp;Contenido" revision="0" />
@@ -588,7 +600,7 @@
   </Enumeration>
   <Enumeration key="WindowTabbed">
     <Item value="Documento con pestañas" revision="0" />
-    <Item value="" revision="0" />
+    <Item value="Documento con pestañas" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
     <Item value="Comando" revision="0" />
