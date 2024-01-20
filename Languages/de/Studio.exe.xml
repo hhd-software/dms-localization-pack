@@ -256,6 +256,9 @@
   <Message key="clr.listview.alternate_background" value="Alternativer Hintergrund" revision="0" />
   <Message key="clr.listview.hyperlink" value="Hyperlink" revision="0" />
   <Message key="clr.balloon" value="Farben des Benachrichtigungsfensters" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Hintergrund" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Text" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Strich" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Meldung &quot;Nicht mehr anzeigen&quot;" revision="0" />
   <Message key="Settings Page" value="Einstellungen" revision="0" />
   <Message key="Settings Storage Location" value="Einstellungen Speicherort" revision="0" />

@@ -256,6 +256,9 @@
   <Message key="clr.listview.alternate_background" value="Альтернативный фон" revision="0" />
   <Message key="clr.listview.hyperlink" value="Гиперссылка" revision="0" />
   <Message key="clr.balloon" value="Цвета окон уведомлений" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Фон" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Обводка" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Сообщение &quot;Больше не выводить это&quot;" revision="0" />
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Путь к хранилищу настроек" revision="0" />

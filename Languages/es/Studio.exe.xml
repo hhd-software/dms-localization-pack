@@ -192,8 +192,10 @@
   <Message key="clr.default_colors.selected.stroke" value="Trazo de la selección " revision="0" />
   <Message key="clr.default_colors.selected.text" value="Texto seleccionado" revision="0" />
   <Message key="clr.menu" value="Color de menú" revision="0" />
+  <Message key="clr.menu.background" value="Fondo" revision="0" />
   <Message key="clr.menu.text" value="Texto" revision="0" />
   <Message key="clr.menu.separator" value="Separador" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Texto desactivado" revision="0" />
   <Message key="clr.menu.checked" value="Fondo del elemento marcado" revision="0" />
   <Message key="clr.menu.checked_disabled" value="Fondo del elemento inaccesible seleccionado" revision="0" />
   <Message key="clr.menu.disabled_hover.fill" value="Fondo del hover del elemento desactivado" revision="0" />
@@ -203,6 +205,8 @@
   <Message key="clr.rebar.chevron.fill" value="Color del punto chevron" revision="0" />
   <Message key="clr.rebar.chevron.stroke" value="Color del trazo del punto chevron" revision="0" />
   <Message key="clr.toolbar" value="Colores de la barra de herramientas" revision="0" />
+  <Message key="clr.toolbar.text" value="Texto" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Texto desactivado" revision="0" />
   <Message key="clr.toolbar.pressed.fill" value="Fondo de elemento prensado" revision="0" />
   <Message key="clr.toolbar.pressed.stroke" value="Trazo del elemento prensado" revision="0" />
   <Message key="clr.toolbar.pressed.text" value="Texto del elemento presionado" revision="0" />
@@ -223,6 +227,8 @@
   <Message key="clr.frame.nav.header" value="Encabezado del icono de navegación" revision="0" />
   <Message key="clr.frame.nav.frame" value="Borde del icono de navegación" revision="0" />
   <Message key="clr.listview" value="Colores de la vista de lista" revision="0" />
+  <Message key="clr.listview.normal.fill" value="Fondo" revision="0" />
+  <Message key="clr.listview.normal.stroke" value="Texto" revision="0" />
   <Message key="clr.listview.header.stroke" value="Texto de cabecera" revision="0" />
   <Message key="clr.listview.selected.inactive.fill" value="Fondo de selección inactivo" revision="0" />
   <Message key="clr.listview.selected.inactive.text" value="Texto de selección inactivo" revision="0" />
@@ -232,7 +238,11 @@
   <Message key="clr.listview.selected.active.stroke" value="Trazo de selección activo" revision="0" />
   <Message key="clr.listview.grid" value="Cuadrícula" revision="0" />
   <Message key="clr.listview.alternate_background" value="Fondo alternativo" revision="0" />
+  <Message key="clr.listview.hyperlink" value="Hiperenlace" revision="0" />
   <Message key="clr.balloon" value="Colores de la ventana de notificación" revision="0" />
+  <Message key="clr.balloon.balloon.fill" value="Fondo" revision="0" />
+  <Message key="clr.balloon.balloon.text" value="Texto" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Contorno" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Mensaje &quot;No mostrar más" revision="0" />
   <Message key="Settings Page" value="Configuración" revision="0" />
   <Message key="Settings Storage Location" value="Ubicación del almacenamiento de configuraciones" revision="0" />
@@ -438,10 +448,10 @@
     <Item value="Guardar todos los documentos abiertos" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Mostrar todos" revision="0" />
+    <Item value="Mostrar ningún" revision="0" />
+    <Item value="Actual" revision="0" />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
     <Item value="Nuevas versiones beta disponibles" revision="0" />
