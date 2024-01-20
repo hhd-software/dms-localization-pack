@@ -36,6 +36,8 @@
   <Message key="to" value="bis" revision="0" />
   <Message key="Select playback speed" value="Wiedergabegeschwindigkeit" revision="0" />
   <Message key="Update..." value="Update…" revision="0" />
+  <Message key="Recorded sessions" value="Aufgezeichnete Sitzungen" revision="0" />
+  <Message key="Next" value="Weiter" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Wiedergabe" revision="0" />
     <Item value="Die Wiedergabedatenquelle gibt aufgezeichnete Überwachungssitzungen wieder und ermöglicht eine verzögerte Geräteanalyse." revision="0" />

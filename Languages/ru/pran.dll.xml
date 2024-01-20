@@ -34,6 +34,7 @@
   <Message key="MODBUS (RTU mode)" value="MODBUS (режим RTU)" revision="0" />
   <Message key="MODBUS (ASCII mode)" value="MODBUS (режим ASCII)" revision="0" />
   <Message key="Change Bridge Parameters" value="&amp;Изменение параметров моста…" revision="0" />
+  <Message key="Bridge" value="Мосты" revision="0" />
   <Enumeration key="BridgeNewBridge">
     <Item value="&amp;Создать новый мост…" revision="0" />
     <Item value="Создание нового последовательного моста" revision="0" />

@@ -14,7 +14,7 @@
     <Item value="Сделайте доступным удаленный последовательный порт на этом компьютере с помощью HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item />
-    <Item />
+    <Item value="Начало работы" revision="0" />
+    <Item value="Чтобы начать мониторинг, найдите последовательное, USB или сетевое устройство, которое вы хотите отслеживать, в [[[v#[toolwindow.devices]# ]]] [[[hинструментальном окне &quot;Устройства&quot;]]] и дважды щелкните на нем.\n\n[[[hОтключить все пособия и руководства]]]" revision="0" />
   </Enumeration>
 </Language>

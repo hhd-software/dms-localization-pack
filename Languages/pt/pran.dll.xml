@@ -28,7 +28,13 @@
   <Message key="Same port settings" value="Mesmas definições de porta" revision="0" />
   <Message key="Select the serial bridge monitoring session type:" value="Seleccione o tipo de sessão de monitorização da ponte série:" revision="0" />
   <Message key="Press the following button to change bridge parameters for this session only:" value="Prima o botão seguinte para alterar os parâmetros da ponte apenas para esta sessão:" revision="0" />
+  <Message key="Generic" value="Genérico" revision="0" />
+  <Message key="PPP (Point-to-Point Protocol)" value="PPP (Protocolo Ponto-a-Ponto)" revision="0" />
+  <Message key="One packet a line (separated by 0D - AT commands, NMEA, etc.)" value="Um pacote por linha (separado por 0D - comandos AT, NMEA, etc.)" revision="0" />
+  <Message key="MODBUS (RTU mode)" value="MODBUS (modo RTU)" revision="0" />
+  <Message key="MODBUS (ASCII mode)" value="MODBUS (modo ASCII)" revision="0" />
   <Message key="Change Bridge Parameters" value="&amp;Alterar os parâmetros da ponte…" revision="0" />
+  <Message key="Bridge" value="Pontes" revision="0" />
   <Enumeration key="BridgeNewBridge">
     <Item value="&amp;Criar nova ponte…" revision="0" />
     <Item value="Criar uma nova ponte série" revision="0" />
@@ -46,15 +52,15 @@
     <Item value="Alterar os parâmetros da ponte série" revision="0" />
   </Enumeration>
   <Enumeration key="BridgeSource">
-    <Item />
+    <Item value="Ponte de série" revision="0" />
     <Item value="A Ponte Série permite-lhe monitorizar as comunicações entre dois dispositivos série ligados ao seu computador. A monitorização é efectuada através de uma ponte virtual criada entre as portas série seleccionadas." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="genérico" revision="0" />
+    <Item value="PPP" revision="0" />
+    <Item value="Linha (o pacote termina com uma nova linha)" revision="0" />
+    <Item value="Modo MODBUS RTU" revision="0" />
+    <Item value="Modo MODBUS ASCII" revision="0" />
   </Enumeration>
   <Enumeration key="MenuBridge">
     <Item value="&amp;Ponte" revision="0" />

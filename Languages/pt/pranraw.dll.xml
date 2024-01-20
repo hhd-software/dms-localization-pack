@@ -6,11 +6,11 @@
   <Message key="Packet No:" value="Nº do pacote:" revision="0" />
   <Message key="bytes/sec" value="bytes/seg" revision="0" />
   <Enumeration key="BridgeColumns">
-    <Item value="" revision="1" />
-    <Item />
-    <Item value="" revision="1" />
+    <Item value="Ordinal" revision="1" />
+    <Item value="Tempo" revision="1" />
     <Item value="Diferença de tempo" revision="1" />
-    <Item />
+    <Item value="Diferença de tempo" revision="1" />
+    <Item value="Dados" revision="1" />
     <Item value="Tipos de dados" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">

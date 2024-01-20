@@ -14,7 +14,7 @@
     <Item value="Ponga a disposición un puerto serie remoto en este ordenador utilizando el Cliente de Puertos Serie Remotos de HHD Software." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item />
-    <Item />
+    <Item value="Primeros pasos" revision="0" />
+    <Item value="Para iniciar la supervisión, localice el dispositivo serie, USB o de red que desea supervisar en la [[[v#[toolwindow.devices]# ]]] [[[hventana de herramientas de dispositivos]]] y haga doble clic en él.[[[hDesactivar todos los tutoriales y guías]]]" revision="0" />
   </Enumeration>
 </Language>

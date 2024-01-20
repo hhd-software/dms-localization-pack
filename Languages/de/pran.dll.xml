@@ -34,6 +34,7 @@
   <Message key="MODBUS (RTU mode)" value="MODBUS (RTU-Modus)" revision="0" />
   <Message key="MODBUS (ASCII mode)" value="MODBUS (ASCII-Modus)" revision="0" />
   <Message key="Change Bridge Parameters" value="Brückenparameter &amp;ändern…" revision="0" />
+  <Message key="Bridge" value="Brücken" revision="0" />
   <Enumeration key="BridgeNewBridge">
     <Item value="&amp;Neue Brücke erstellen…" revision="0" />
     <Item value="Neue serielle Brücke erstellen" revision="0" />
@@ -55,7 +56,7 @@
     <Item value="Serielle Brücke ermöglicht die Überwachung der Kommunikation zwischen zwei seriellen Geräten, die an Ihren Computer angeschlossen sind. Die Überwachung erfolgt über eine virtuelle Brücke, die zwischen ausgewählten seriellen Schnittstellen erstellt wird." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item value="Generisch" revision="0" />
+    <Item value="generisch" revision="0" />
     <Item value="PPP" revision="0" />
     <Item value="Linie (Paket endet mit neuer Linie)" revision="0" />
     <Item value="MODBUS RTU-Modus" revision="0" />

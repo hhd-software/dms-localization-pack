@@ -36,8 +36,10 @@
   <Message key="to" value="a" revision="0" />
   <Message key="Select playback speed" value="Velocidad de reproducción" revision="0" />
   <Message key="Update..." value="Actualización…" revision="0" />
+  <Message key="Recorded sessions" value="Sesiones grabadas" revision="0" />
+  <Message key="Next" value="Siguiente" revision="0" />
   <Enumeration key="PlaybackSource">
-    <Item />
+    <Item value="Reproducción" revision="0" />
     <Item value="La fuente de datos de reproducción reproduce las sesiones de supervisión grabadas, lo que permite un análisis diferido del dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
@@ -60,9 +62,10 @@
   </Enumeration>
   <Enumeration key="ImportFormats">
     <Item value="Todos los archivos compatibles|*.pcap;*.cap|Archivos Wireshark|*.pcap|Archivos Netmon|*.cap|" revision="0" />
-    <Item />
+    <Item value="Archivos JavaScript|*.js|" revision="0" />
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
+    <Item value="Paso a paso" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -72,32 +75,31 @@
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
+    <Item value="Continuo" revision="0" />
   </Enumeration>
   <Enumeration key="DeletePlayback">
-    <Item />
+    <Item value="Borrar" revision="0" />
     <Item value="Eliminar el archivo seleccionado" revision="0" />
   </Enumeration>
   <Enumeration key="SortByDate">
     <Item value="Ordenar por fecha" revision="0" />
-    <Item />
+    <Item value="Ordenar por fecha" revision="0" />
   </Enumeration>
   <Enumeration key="SortByName">
     <Item value="Ordenar por nombre" revision="0" />
-    <Item />
+    <Item value="Ordenar por nombre" revision="0" />
   </Enumeration>
   <Enumeration key="ShowDateTime">
     <Item value="Mostrar fecha y hora" revision="0" />
-    <Item />
+    <Item value="Mostrar fecha y hora" revision="0" />
   </Enumeration>
   <Enumeration key="ShowSize">
     <Item value="Mostrar Tamaño" revision="0" />
-    <Item />
+    <Item value="Mostrar Tamaño" revision="0" />
   </Enumeration>
   <Enumeration key="OpenFileLocation">
     <Item value="Abrir archivo Ubicación" revision="0" />
-    <Item />
+    <Item value="Abrir archivo Ubicación" revision="0" />
   </Enumeration>
   <Enumeration key="Continue Playback2">
     <Item value="Continuar la reproducción" revision="0" />
