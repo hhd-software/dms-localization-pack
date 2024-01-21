@@ -10,6 +10,9 @@
   <Message key="Scheme" value="Schema" revision="0" />
   <Message key="Delay" value="Verzögerung" revision="0" />
   <Message key="Error" value="Fehler" revision="0" />
+  <Message key="Data" value="Daten" revision="0" />
+  <Message key="Length" value="Länge" revision="0" />
+  <Message key="Code" value="Code" revision="0" />
   <Message key="CsvFilesFilter" value="Komma-getrennte Dateien|*.csv|" revision="0" />
   <Message key="ImageFilesFilter" value="JPEG-Dateien|*.jpg|BMP-Dateien|*.bmp|PNG-Dateien|*.png|TIFF-Dateien|*.tiff|GIF-Dateien|*.gif|" revision="0" />
   <Message key="Save to File" value="In Datei speichern" revision="0" />
@@ -17,6 +20,18 @@
   <Message key="EmptyPath" value="Leere" revision="0" />
   <Message key="bytes" value="Bytes" revision="0" />
   <Message key="Device:" value="Gerät:" revision="0" />
+  <Message key="Function:" value="Funktion:" revision="0" />
+  <Message key="Value:" value="Wert:" revision="0" />
   <Message key="Send" value="Senden" revision="0" />
+  <Message key="Report ID:" value="Bericht-ID:" revision="0" />
+  <Message key="Count:" value="Zählen:" revision="0" />
+  <Message key="Report Type:" value="Berichtstyp:" revision="0" />
+  <Message key="Usage Page:" value="Verwendung Seite:" revision="0" />
+  <Message key="Usage:" value="Verwendung:" revision="0" />
+  <Message key="Success" value="Erfolg" revision="0" />
+  <Message key="Fail" value="Fail" revision="0" />
+  <Message key="Session:" value="Sitzung:" revision="0" />
+  <Message key="Mode:" value="Modus:" revision="0" />
+  <Message key="Address:" value="Adresse:" revision="0" />
   <Message key="Total Length:" value="Gesamtlänge:" revision="0" />
 </Language>

@@ -136,6 +136,10 @@
   <Message key="Exception Code" value="Код исключения" revision="0" />
   <Message key="Error Notification" value="Уведомление об ошибке" revision="0" />
   <Message key="Mode" value="Режим" revision="0" />
+  <Message key="Address:" value="Адрес:" revision="0" />
+  <Message key="Parameters" value="Параметры" revision="0" />
+  <Message key="Result" value="Результат" revision="0" />
+  <Message key="Result Length:" value="Длина результата:" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Вид MODBUS (устаревший)" revision="0" />
     <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует пакеты, отформатированные в соответствии со спецификацией протокола MODBUS." revision="0" />

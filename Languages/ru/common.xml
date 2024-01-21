@@ -10,6 +10,9 @@
   <Message key="Scheme" value="Схема" revision="0" />
   <Message key="Delay" value="Задержка" revision="0" />
   <Message key="Error" value="Ошибка" revision="0" />
+  <Message key="Data" value="Данные" revision="0" />
+  <Message key="Length" value="Длина" revision="0" />
+  <Message key="Code" value="Код" revision="0" />
   <Message key="CsvFilesFilter" value="Файлы с разделителями-запятыми|*.csv|" revision="0" />
   <Message key="ImageFilesFilter" value="JPEG файлы|*.jpg|BMP файлы|*.bmp|PNG файлы|*.png|TIFF файлы|*.tiff|GIF файлы|*.gif|" revision="0" />
   <Message key="Save to File" value="Сохранить в файл" revision="0" />
@@ -17,6 +20,18 @@
   <Message key="EmptyPath" value="Пусто" revision="0" />
   <Message key="bytes" value="байт" revision="0" />
   <Message key="Device:" value="Устройство:" revision="0" />
+  <Message key="Function:" value="Функция:" revision="0" />
+  <Message key="Value:" value="Значение:" revision="0" />
   <Message key="Send" value="Отправить" revision="0" />
+  <Message key="Report ID:" value="ID отчета:" revision="0" />
+  <Message key="Count:" value="Счётчик:" revision="0" />
+  <Message key="Report Type:" value="Тип отчёта:" revision="0" />
+  <Message key="Usage Page:" value="Страница пользования:" revision="0" />
+  <Message key="Usage:" value="Использование:" revision="0" />
+  <Message key="Success" value="Успех" revision="0" />
+  <Message key="Fail" value="Отказ" revision="0" />
+  <Message key="Session:" value="Сессия:" revision="0" />
+  <Message key="Mode:" value="Режим:" revision="0" />
+  <Message key="Address:" value="Адрес:" revision="0" />
   <Message key="Total Length:" value="Общая длина:" revision="0" />
 </Language>
