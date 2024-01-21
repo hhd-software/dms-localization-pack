@@ -68,29 +68,29 @@
     <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.5) совместимого устройства." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
-    <Item />
-    <Item />
+    <Item value="Аудио" revision="0" />
+    <Item value="Визуализатор USB Аудио анализирует пакеты и дескрипторы конфигурации для USB Audio (версия 2.0) совместимого устройства." revision="0" />
   </Enumeration>
   <Enumeration key="NewStillConverter">
-    <Item />
-    <Item />
+    <Item value="Медиа протоколы передачи" revision="0" />
+    <Item value="Визуализатор данных для Still Image и медиа протокола передачи декодирует протокол USB Still Image/MTP для устройств, относящихся к классу Still Image/MTP." revision="0" />
   </Enumeration>
   <Enumeration key="NewMassConverter">
-    <Item />
-    <Item />
+    <Item value="Устройства хранения" revision="0" />
+    <Item value="Визуализатор устройств хранения USB декодирует протокол USB Mass Storage для устройств, относящихся к классу Mass Storage" revision="0" />
   </Enumeration>
   <Enumeration key="NewCommConverter">
-    <Item />
-    <Item />
+    <Item value="Связь" revision="0" />
+    <Item value="Визуализатор Связь декодирует пакеты и дескрипторы устройств класса USB Communication." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item value="По умолчанию" revision="0" />
-    <Item value="Заголовок" revision="0" />
-    <Item value="Опция" revision="0" />
+    <Item value="По умолчанию" revision="1" />
+    <Item value="Заголовок" revision="1" />
+    <Item value="Опция" revision="1" />
     <Item lookup="Value" />
-    <Item value="Заголовок чтений" revision="0" />
-    <Item value="Заголовок записей" revision="0" />
-    <Item />
+    <Item value="Заголовок чтений" revision="1" />
+    <Item value="Заголовок записей" revision="1" />
+    <Item value="Дамп" revision="1" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Номер строки" revision="0" />
@@ -157,41 +157,41 @@
     <Item value="Запись байт/сек - это скорость передачи байтов в устройство во время операций записи." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Заголовок чтений" revision="0" />
+    <Item value="Заголовок записей" revision="0" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок чтений" revision="0" />
+    <Item value="Заголовок записей" revision="0" />
+    <Item value="Дамп" revision="0" />
   </Enumeration>
   <Enumeration key="USBStillViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок чтений" revision="0" />
+    <Item value="Заголовок записей" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBAudioViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Заголовок чтений" revision="0" />
+    <Item value="Заголовок записей" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="MassViewOptions">
-    <Item />
+    <Item value="Отображать сырые данные" revision="0" />
   </Enumeration>
 </Language>

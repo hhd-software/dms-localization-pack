@@ -68,29 +68,29 @@
     <Item value="El visualizador Vista de vídeo analiza paquetes y descriptores de configuración para dispositivos compatibles con USB Video (versión 1.5)." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de audio" revision="0" />
+    <Item value="El visualizador Vista de audio analiza paquetes y descriptores de configuración de dispositivos compatibles con USB Audio (versión 2.0)." revision="0" />
   </Enumeration>
   <Enumeration key="NewStillConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de imagen fija/MTP" revision="0" />
+    <Item value="El visualizador de datos Vista Imagen Fija/MTP descodifica el protocolo USB Imagen Fija/MTP para dispositivos pertenecientes a la clase Imagen Fija/MTP." revision="0" />
   </Enumeration>
   <Enumeration key="NewMassConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de almacenamiento masivo" revision="0" />
+    <Item value="El visualizador de datos Vista de almacenamiento masivo descodifica el protocolo de almacenamiento masivo USB para dispositivos pertenecientes a la clase de almacenamiento masivo" revision="0" />
   </Enumeration>
   <Enumeration key="NewCommConverter">
-    <Item />
-    <Item />
+    <Item value="Vista de comunicaciones" revision="0" />
+    <Item value="El visualizador de datos de la Vista de Comunicaciones decodifica los paquetes y descriptores de la Clase de Comunicaciones USB." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item value="Por defecto" revision="0" />
-    <Item value="Cabecera" revision="0" />
-    <Item value="Opción" revision="0" />
+    <Item value="Por defecto" revision="1" />
+    <Item value="Cabecera" revision="1" />
+    <Item value="Opción" revision="1" />
     <Item lookup="Value" />
-    <Item value="Cabecera de lectura" revision="0" />
-    <Item value="Cabecera de escritura" revision="0" />
-    <Item />
+    <Item value="Cabecera de lectura" revision="1" />
+    <Item value="Cabecera de escritura" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Número de línea" revision="0" />
@@ -157,41 +157,41 @@
     <Item value="Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Cabecera" revision="0" />
+    <Item value="Opción" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Cabecera de lectura" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Cabecera" revision="0" />
+    <Item value="Opción" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabecera de lectura" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBStillViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Cabecera" revision="0" />
+    <Item value="Opción" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabecera de lectura" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBAudioViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Por defecto" revision="0" />
+    <Item value="Cabecera" revision="0" />
+    <Item value="Opción" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Cabecera de lectura" revision="0" />
+    <Item value="Cabecera de escritura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="MassViewOptions">
-    <Item />
+    <Item value="Visualizar datos brutos" revision="0" />
   </Enumeration>
 </Language>

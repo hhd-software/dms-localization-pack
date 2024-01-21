@@ -68,29 +68,29 @@
     <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.5) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
-    <Item />
-    <Item />
+    <Item value="Audio-Ansicht" revision="0" />
+    <Item value="Der USB Audio-Ansicht visualizer analysiert Pakete und Konfigurationsdeskriptoren für USB Audio (Version 2.0) konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="NewStillConverter">
-    <Item />
-    <Item />
+    <Item value="Standbild/MTP-Ansicht" revision="0" />
+    <Item value="Der Data Visualiser for Still Image and Media Transfer Protocol dekodiert das USB Still Image/MTP Protokoll für Geräte der Still Image/MTP Klasse." revision="0" />
   </Enumeration>
   <Enumeration key="NewMassConverter">
-    <Item />
-    <Item />
+    <Item value="Ansicht Massenspeicher" revision="0" />
+    <Item value="Der Datenvisualisierer Mass Storage Ansicht dekodiert das USB-Massenspeicherprotokoll für Geräte, die zur Klasse Massenspeicher gehören" revision="0" />
   </Enumeration>
   <Enumeration key="NewCommConverter">
-    <Item />
-    <Item />
+    <Item value="Kommunikation Ansicht" revision="0" />
+    <Item value="Der Datenvisualisierer der Kommunikationsansicht dekodiert Pakete und Deskriptoren der USB-Kommunikationsklasse." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item value="Standard" revision="0" />
-    <Item value="Kopfzeile" revision="0" />
-    <Item value="Option" revision="0" />
+    <Item value="Standard" revision="1" />
+    <Item value="Kopfzeile" revision="1" />
+    <Item value="Option" revision="1" />
     <Item lookup="Value" />
-    <Item value="Kopfzeile des lesen" revision="0" />
-    <Item value="Kopfzeile des Schreibens" revision="0" />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="1" />
+    <Item value="Kopfzeile des Schreibens" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Linie Nummer" revision="0" />
@@ -157,41 +157,41 @@
     <Item value="Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="0" />
+    <Item value="Kopfzeile des Schreibens" revision="0" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="0" />
+    <Item value="Kopfzeile des Schreibens" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBStillViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="0" />
+    <Item value="Kopfzeile des Schreibens" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBAudioViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Kopfzeile des lesen" revision="0" />
+    <Item value="Kopfzeile des Schreibens" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="MassViewOptions">
-    <Item />
+    <Item value="Rohdaten anzeigen" revision="0" />
   </Enumeration>
 </Language>
