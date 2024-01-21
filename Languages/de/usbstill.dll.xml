@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StillConverter">
-    <Item value="Standbild/MTP-Ansicht" revision="0" />
-    <Item value="Der Data Visualiser for Still Image and Media Transfer Protocol dekodiert das USB Still Image/MTP Protokoll für Geräte der Still Image/MTP Klasse." revision="0" />
+    <Item value="Standbild/MTP-Ansicht (Legacy)" revision="1" />
+    <Item value="Der Data Visualiser for Still Image and Media Transfer Protocol dekodiert das USB Still Image/MTP Protokoll für Geräte der Still Image/MTP Klasse." revision="1" />
   </Enumeration>
   <Enumeration key="BlockTypesCat">
     <Item />

@@ -198,21 +198,31 @@
   <Message key="clr.menu.disabled_text" value="Texto desactivado" revision="0" />
   <Message key="clr.menu.checked" value="Fondo del elemento marcado" revision="0" />
   <Message key="clr.menu.checked_disabled" value="Fondo del elemento inaccesible seleccionado" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Fondo del elemento hover" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Trazo del elemento hover" revision="0" />
+  <Message key="clr.menu.hover.text" value="Texto del elemento hover" revision="0" />
   <Message key="clr.menu.disabled_hover.fill" value="Fondo del hover del elemento desactivado" revision="0" />
   <Message key="clr.menu.disabled_hover.stroke" value="Trazo del elemento hover desactivado" revision="0" />
   <Message key="clr.menu.disabled_hover.text" value="Texto del elemento hover desactivado" revision="0" />
   <Message key="clr.rebar" value="Colores de Rebar" revision="0" />
+  <Message key="clr.rebar.background" value="Fondo" revision="0" />
   <Message key="clr.rebar.chevron.fill" value="Color del punto chevron" revision="0" />
   <Message key="clr.rebar.chevron.stroke" value="Color del trazo del punto chevron" revision="0" />
   <Message key="clr.toolbar" value="Colores de la barra de herramientas" revision="0" />
+  <Message key="clr.toolbar.background" value="Fondo" revision="0" />
   <Message key="clr.toolbar.text" value="Texto" revision="0" />
   <Message key="clr.toolbar.disabled" value="Texto desactivado" revision="0" />
+  <Message key="clr.toolbar.separator" value="Separador" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Fondo del elemento hover" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Trazo del elemento hover" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Texto del elemento hover" revision="0" />
   <Message key="clr.toolbar.pressed.fill" value="Fondo de elemento prensado" revision="0" />
   <Message key="clr.toolbar.pressed.stroke" value="Trazo del elemento prensado" revision="0" />
   <Message key="clr.toolbar.pressed.text" value="Texto del elemento presionado" revision="0" />
   <Message key="clr.toolbar.disabled_pressed.fill" value="Fondo del elemento presionado y desactivado" revision="0" />
   <Message key="clr.toolbar.disabled_pressed.stroke" value="Trazo de elemento presionado y desactivado" revision="0" />
   <Message key="clr.frame" value="Colores del marco" revision="0" />
+  <Message key="clr.frame.frame.background" value="Fondo" revision="0" />
   <Message key="clr.frame.frame.client_background" value="Color de fondo del cliente" revision="0" />
   <Message key="clr.frame.frame.document_frame_background" value="Fondo del marco del documento" revision="0" />
   <Message key="clr.frame.frame.border" value="Borda" revision="0" />
@@ -220,6 +230,9 @@
   <Message key="clr.frame.header.inactive.stroke" value="Texto/trazo de la cabecera inactiva" revision="0" />
   <Message key="clr.frame.header.active.fill" value="Fondo de cabecera activo" revision="0" />
   <Message key="clr.frame.header.active.stroke" value="Texto/trazo de cabecera activo" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Fondo del elemento hover" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Trazo del elemento hover" revision="0" />
+  <Message key="clr.frame.hover.text" value="Texto del elemento hover" revision="0" />
   <Message key="clr.frame.title_text" value="Texto del título" revision="0" />
   <Message key="clr.frame.nav.shadow" value="Sombra del icono de navegación" revision="0" />
   <Message key="clr.frame.nav.background" value="Fondo del icono de navegación" revision="0" />
@@ -229,6 +242,7 @@
   <Message key="clr.listview" value="Colores de la vista de lista" revision="0" />
   <Message key="clr.listview.normal.fill" value="Fondo" revision="0" />
   <Message key="clr.listview.normal.stroke" value="Texto" revision="0" />
+  <Message key="clr.listview.header.fill" value="Fondo del elemento cabecera" revision="0" />
   <Message key="clr.listview.header.stroke" value="Texto de cabecera" revision="0" />
   <Message key="clr.listview.selected.inactive.fill" value="Fondo de selección inactivo" revision="0" />
   <Message key="clr.listview.selected.inactive.text" value="Texto de selección inactivo" revision="0" />
@@ -236,6 +250,8 @@
   <Message key="clr.listview.selected.active.fill" value="Fondo de selección activo" revision="0" />
   <Message key="clr.listview.selected.active.text" value="Texto de selección activo" revision="0" />
   <Message key="clr.listview.selected.active.stroke" value="Trazo de selección activo" revision="0" />
+  <Message key="clr.listview.hover.fill" value="Fondo del elemento hover" revision="0" />
+  <Message key="clr.listview.hover.stroke" value="Texto del elemento hover" revision="0" />
   <Message key="clr.listview.grid" value="Cuadrícula" revision="0" />
   <Message key="clr.listview.alternate_background" value="Fondo alternativo" revision="0" />
   <Message key="clr.listview.hyperlink" value="Hiperenlace" revision="0" />
@@ -485,8 +501,8 @@
     <Item value="Pegar el contenido del Portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item value="&amp;Exportar" revision="0" />
-    <Item value="Exportar selección" revision="0" />
+    <Item value="&amp;Exportar…" revision="1" />
+    <Item value="Exportar selección" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearView">
     <Item value="Suprimir/Borrar &amp;vista" revision="0" />

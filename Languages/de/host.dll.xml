@@ -271,6 +271,6 @@
     <Item value="Klicken Sie auf die Schaltfläche [[[bMehr hinzufügen]]], um weitere Geräte zu der Überwachungssitzung hinzuzufügen. Alle hinzugefügten Geräte müssen gleichzeitig in einer einzigen Sitzung überwacht werden." revision="0" />
     <Item value="Einige Überwachungssitzungen unterstützen zusätzliche Konfigurationen. Klicken Sie auf den Konfigurationstext, um das Konfigurationsfenster zu öffnen und die Überwachungssitzung zu konfigurieren." revision="0" />
     <Item value="Sobald Sie bereit sind, drücken Sie die Taste [[[bStart]]], um mit der Überwachung zu beginnen!" revision="0" />
-    <Item value="Alternativ können Sie die Einstellungen des [[[bKonfiguration der Sitzung]]]-Fensters auch in einem Skript erfassen. Drücken Sie dazu die Schaltfläche [[[bSkript generieren]]]." revision="0" />
+    <Item value="Alternativ können Sie die Einstellungen des [[[bKonfiguration der Sitzung]]]-Fensters auch in einem Skript erfassen. Drücken Sie dazu die Schaltfläche [[[bSkript generieren]]]. Es sind auch andere Optionen zum Starten von Sitzungen verfügbar. Konsultieren Sie die [[[hdokumentation]]] für weitere Informationen." revision="1" />
   </Enumeration>
 </Language>

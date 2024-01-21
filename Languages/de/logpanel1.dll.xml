@@ -30,6 +30,8 @@
   <Message key="Single file" value="Einzelne Datei" revision="0" />
   <Message key="Multiple files. Maximum:" value="Mehrere Dateien. Maximal:" revision="0" />
   <Message key="Specify location of log file:" value="Speicherort der Protokolldatei angeben:" revision="0" />
+  <Message key="sessionClosing" value="Beenden der Sitzung ohne Datenaufzeichnung" revision="0" />
+  <Message key="SaveToLog" value="Überwachte Daten jetzt in einer Protokolldatei speichern" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Datenaufzeichnung (Legacy)" revision="0" />
     <Item value="Die Datenaufzeichnung speichert überwachte Daten in einer Datei auf der Festplatte, die später wiedergegeben werden kann. Unterstützt das Dateiformat DMSLOG7." revision="0" />
@@ -59,7 +61,7 @@
     <Item value="Festlegen des Speicherorts der Protokolldateien für die Wiedergabe" revision="0" />
   </Enumeration>
   <Enumeration key="ClosingSessionWithoutLogging">
-    <Item />
-    <Item />
+    <Item value="Abschluss der Sitzung" revision="0" />
+    <Item value="Mit dieser Aktion wird die aktuelle Überwachungssitzung angehalten und beendet. Alle überwachten Daten gehen verloren. Fügen Sie der Überwachungssitzung beim nächsten Mal die Komponente Datenaufzeichnung hinzu, um alle aufgezeichneten Daten automatisch in der Protokolldatei zu speichern.\n\nWählen Sie die Aktion zum Fortfahren:" revision="0" />
   </Enumeration>
 </Language>

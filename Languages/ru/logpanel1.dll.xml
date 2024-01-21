@@ -30,6 +30,8 @@
   <Message key="Single file" value="Единый файл" revision="0" />
   <Message key="Multiple files. Maximum:" value="Несколько файлов. Максимум:" revision="0" />
   <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
+  <Message key="sessionClosing" value="Закрытие сеанса без записи данных" revision="0" />
+  <Message key="SaveToLog" value="Сохраните данные мониторинга в файл журнала" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Запись данных (Legacy)" revision="0" />
     <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />
@@ -59,7 +61,7 @@
     <Item value="Укажите местоположение логов для воспроизведения" revision="0" />
   </Enumeration>
   <Enumeration key="ClosingSessionWithoutLogging">
-    <Item />
-    <Item />
+    <Item value="Закрытие сессии" revision="0" />
+    <Item value="Это действие приведет к остановке и закрытию текущей сессии мониторинга. Все отслеживаемые данные будут потеряны. В следующий раз добавьте компонент &quot;Запись данных&quot; в сессию мониторинга, чтобы автоматически сохранить все записанные данные в логи.\n\nВыберите действие для продолжения:" revision="0" />
   </Enumeration>
 </Language>

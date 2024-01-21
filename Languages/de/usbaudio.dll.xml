@@ -4,8 +4,8 @@
   <Message key="Audio View" value="Audio Ansicht" revision="0" />
   <Message key="USB Audio Device Detected." value="USB-Audiogerät erkannt." revision="0" />
   <Enumeration key="AudioConverter">
-    <Item value="Audio Ansicht" revision="0" />
-    <Item value="Der USB Audio Visualiser parst Pakete und Konfigurationsdeskriptoren für USB Audio (Version 1.0) konforme Geräte." revision="0" />
+    <Item value="Audio Ansicht (Legacy)" revision="1" />
+    <Item value="Der USB Audio Visualiser parst Pakete und Konfigurationsdeskriptoren für USB Audio (Version 1.0) konforme Geräte." revision="1" />
   </Enumeration>
   <Enumeration key="UsbAudioBool">
     <Item />

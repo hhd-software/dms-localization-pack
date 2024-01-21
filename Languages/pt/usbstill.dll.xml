@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StillConverter">
-    <Item value="Vista de imagem fixa/MTP" revision="0" />
-    <Item value="O visualizador de dados de imagem fixa/MTP Vista descodifica o protocolo USB de imagem fixa/MTP para dispositivos pertencentes à classe de imagem fixa/MTP." revision="0" />
+    <Item value="Vista de imagem fixa/MTP (Legacy)" revision="1" />
+    <Item value="O visualizador de dados de imagem fixa/MTP Vista descodifica o protocolo USB de imagem fixa/MTP para dispositivos pertencentes à classe de imagem fixa/MTP." revision="1" />
   </Enumeration>
   <Enumeration key="BlockTypesCat">
     <Item />

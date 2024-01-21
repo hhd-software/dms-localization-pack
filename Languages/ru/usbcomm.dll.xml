@@ -3,8 +3,8 @@
   <Message key="USB Communication Device Detected." value="Обнаружено устройство класса USB Communication" revision="0" />
   <Message key="DataNbytes" value="Данные ({size} байт)" revision="0" />
   <Enumeration key="CommConverter">
-    <Item value="Связь" revision="0" />
-    <Item value="Визуализатор Связь декодирует пакеты и дескрипторы устройств класса USB Communication." revision="0" />
+    <Item value="Связь (Legacy)" revision="1" />
+    <Item value="Визуализатор Связь декодирует пакеты и дескрипторы устройств класса USB Communication." revision="1" />
   </Enumeration>
   <Enumeration key="CommRequestsCat">
     <Item />

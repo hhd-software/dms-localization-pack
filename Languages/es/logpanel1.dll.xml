@@ -30,6 +30,8 @@
   <Message key="Single file" value="Archivo único" revision="0" />
   <Message key="Multiple files. Maximum:" value="Múltiples archivos. Máximo:" revision="0" />
   <Message key="Specify location of log file:" value="Especifique la ubicación del archivo de log:" revision="0" />
+  <Message key="sessionClosing" value="Cerrar la sesión sin grabación de datos" revision="0" />
+  <Message key="SaveToLog" value="Guardar ahora los datos supervisados en un archivo de registro" revision="0" />
   <Enumeration key="LogConverter">
     <Item value="Grabación de datos legados" revision="0" />
     <Item value="La grabación de datos registra los datos monitorizados en el archivo de disco para su posterior reproducción. Admite el formato de archivo DMSLOG7." revision="0" />
@@ -59,7 +61,7 @@
     <Item value="Especificar la ubicación de los archivos de registro para la reproducción" revision="0" />
   </Enumeration>
   <Enumeration key="ClosingSessionWithoutLogging">
-    <Item />
-    <Item />
+    <Item value="Clausura de la sesión" revision="0" />
+    <Item value="Esta acción detendrá y cerrará la sesión de monitorización actual. Se perderán todos los datos monitorizados. La próxima vez, añada el componente Grabación de datos a la sesión de monitorización para guardar automáticamente todos los datos grabados en el archivo de registro.\n\nElija la acción para continuar:" revision="0" />
   </Enumeration>
 </Language>

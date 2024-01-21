@@ -136,6 +136,10 @@
   <Message key="Exception Code" value="Código de exceção" revision="0" />
   <Message key="Error Notification" value="Notificação de erro" revision="0" />
   <Message key="Mode" value="Modo" revision="0" />
+  <Message key="Address:" value="Endereço:" revision="0" />
+  <Message key="Parameters" value="Parâmetros" revision="0" />
+  <Message key="Result" value="Resultado" revision="0" />
+  <Message key="Result Length:" value="Resultado Comprimento:" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Vista MODBUS (legacy)" revision="0" />
     <Item value="O visualizador MODBUS View descodifica os pacotes, formatados de acordo com a especificação do protocolo MODBUS." revision="0" />
