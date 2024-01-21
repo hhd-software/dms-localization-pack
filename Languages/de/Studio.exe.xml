@@ -501,8 +501,8 @@
     <Item value="Einfügen des Inhalts der Zwischenablage" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item value="&amp;Export" revision="0" />
-    <Item value="Auswahl exportieren" revision="0" />
+    <Item value="&amp;Export…" revision="1" />
+    <Item value="Auswahl exportieren" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearView">
     <Item value="Löschen/Leeren &amp;Ansicht" revision="0" />

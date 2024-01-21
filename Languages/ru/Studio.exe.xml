@@ -501,8 +501,8 @@
     <Item value="Вставить содержимое буфера обмена" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item value="&amp;Экспорт" revision="0" />
-    <Item value="Экспорт выделенного" revision="0" />
+    <Item value="&amp;Экспорт…" revision="1" />
+    <Item value="Экспорт выделенного" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearView">
     <Item value="Удалить/очистить &amp;вид" revision="0" />
