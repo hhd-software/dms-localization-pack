@@ -144,7 +144,7 @@
 
 	<Enumeration key="NewAudioConverter" description="New Audio Converter">
 		<Item text="Audio View"/>
-		<Item text="USB Audio View visualizer parses packets and configuration descriptors for USB Audio (version 1.0) compliant device."/>
+		<Item text="USB Audio View visualizer parses packets and configuration descriptors for USB Audio (version 2.0) compliant device."/>
 	</Enumeration>
 
 	<Enumeration key="NewStillConverter" description="New Still Image View">
