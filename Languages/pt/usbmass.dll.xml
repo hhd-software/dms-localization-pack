@@ -9,8 +9,8 @@
   <Message key="unsupported device type" value="AVISO: tipo de dispositivo não suportado. A tentar analisar." revision="0" />
   <Message key="Device Detected." value="Dispositivo detectado." revision="0" />
   <Enumeration key="MassConverter">
-    <Item value="Vista de armazenamento em massa" revision="0" />
-    <Item value="O visualizador de dados da Vista de Armazenamento em Massa descodifica o protocolo de Armazenamento em Massa USB para dispositivos pertencentes à classe de Armazenamento em Massa" revision="0" />
+    <Item value="Vista de armazenamento em massa (Legacy)" revision="1" />
+    <Item value="O visualizador de dados da Vista de Armazenamento em Massa descodifica o protocolo de Armazenamento em Massa USB para dispositivos pertencentes à classe de Armazenamento em Massa" revision="1" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

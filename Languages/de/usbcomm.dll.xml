@@ -3,8 +3,8 @@
   <Message key="USB Communication Device Detected." value="USB-Kommunikationsgerät erkannt." revision="0" />
   <Message key="DataNbytes" value="Daten ({size} bytes)" revision="0" />
   <Enumeration key="CommConverter">
-    <Item value="Kommunikation Ansicht" revision="0" />
-    <Item value="Der Datenvisualisierer der Kommunikationsansicht dekodiert Pakete und Deskriptoren der USB-Kommunikationsklasse." revision="0" />
+    <Item value="Kommunikation Ansicht (Legacy)" revision="1" />
+    <Item value="Der Datenvisualisierer der Kommunikationsansicht dekodiert Pakete und Deskriptoren der USB-Kommunikationsklasse." revision="1" />
   </Enumeration>
   <Enumeration key="CommRequestsCat">
     <Item />

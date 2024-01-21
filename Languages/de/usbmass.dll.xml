@@ -9,8 +9,8 @@
   <Message key="unsupported device type" value="WARNUNG: Nicht unterstützter Gerätetyp. Versucht zu parsen." revision="0" />
   <Message key="Device Detected." value="Gerät erkannt." revision="0" />
   <Enumeration key="MassConverter">
-    <Item value="Ansicht Massenspeicher" revision="0" />
-    <Item value="Der Datenvisualisierer Mass Storage Ansicht dekodiert das USB-Massenspeicherprotokoll für Geräte, die zur Klasse Massenspeicher gehören" revision="0" />
+    <Item value="Ansicht Massenspeicher (Legacy)" revision="1" />
+    <Item value="Der Datenvisualisierer Mass Storage Ansicht dekodiert das USB-Massenspeicherprotokoll für Geräte, die zur Klasse Massenspeicher gehören" revision="1" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

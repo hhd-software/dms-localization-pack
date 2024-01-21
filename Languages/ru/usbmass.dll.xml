@@ -9,8 +9,8 @@
   <Message key="unsupported device type" value="WARNING: неподдерживаемый тип устройства. Попытка разбора." revision="0" />
   <Message key="Device Detected." value="Обнаружено устройство." revision="0" />
   <Enumeration key="MassConverter">
-    <Item value="Устройства хранения" revision="0" />
-    <Item value="Визуализатор устройств хранения USB декодирует протокол USB Mass Storage для устройств, относящихся к классу Mass Storage" revision="0" />
+    <Item value="Устройства хранения (Legacy)" revision="1" />
+    <Item value="Визуализатор устройств хранения USB декодирует протокол USB Mass Storage для устройств, относящихся к классу Mass Storage" revision="1" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

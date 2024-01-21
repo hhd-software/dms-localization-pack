@@ -271,6 +271,6 @@
     <Item value="Clique no botão [[[bAdicionar mais]]] para adicionar mais dispositivos à sessão de monitorização. Todos os dispositivos adicionados devem ser monitorizados simultaneamente numa única sessão." revision="0" />
     <Item value="Algumas sessões de monitorização suportam configurações adicionais. Clique no texto de configuração para abrir a janela de configuração e configurar a sessão de monitorização." revision="0" />
     <Item value="Quando estiver pronto, prima o botão [[[bInício]]] para começar a monitorizar!" revision="0" />
-    <Item value="Em alternativa, pode capturar as definições da janela [[[bConfiguração da sessão]]] num script. Prima o botão [[[bGerar Script]]] para o fazer." revision="0" />
+    <Item value="Em alternativa, pode capturar as definições da janela [[[bConfiguração da sessão]]] num script. Prima o botão [[[bGerar Script]]] para o fazer. Estão também disponíveis outras opções de início de sessão. Consulte a [[[hdocumentação]]] para mais informações." revision="1" />
   </Enumeration>
 </Language>

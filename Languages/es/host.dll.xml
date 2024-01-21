@@ -271,6 +271,6 @@
     <Item value="Haga clic en el botón [[[bAñadir más]]] para añadir más dispositivos a la sesión de supervisión. Todos los dispositivos añadidos se supervisarán simultáneamente en una única sesión." revision="0" />
     <Item value="Algunas sesiones de monitorización admiten una configuración adicional. Haga clic en el texto de configuración para abrir la ventana de configuración y configurar la sesión de monitorización." revision="0" />
     <Item value="Una vez listo, pulsa el botón [[[bInicio]]] para iniciar la supervisión." revision="0" />
-    <Item value="Alternativamente, puede capturar los ajustes de la ventana [[[bConfiguración de la sesión]]] en un script. Para ello, pulse el botón [[[bGenerar script]]]." revision="0" />
+    <Item value="Alternativamente, puede capturar los ajustes de la ventana [[[bConfiguración de la sesión]]] en un script. Para ello, pulse el botón [[[bGenerar script]]]. También existen otras opciones de inicio de sesión. Consulte la [[[hdocumentación]]] para más información." revision="1" />
   </Enumeration>
 </Language>
