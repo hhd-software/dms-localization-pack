@@ -24,14 +24,12 @@
   <Message key="The configuration will be deleted. Do you want to continue?" value="Конфигурация будет удалена. Вы хотите продолжить?" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Срок действия последовательного терминала истек!" revision="0" />
   <Message key="Session Configuration" value="Конфигурация сессии" revision="0" />
-  <Message key="Device:" value="Устройство:" revision="0" />
   <Message key="Connect" value="Подключить" revision="0" />
   <Message key="Defaults" value="По умолчанию" revision="0" />
   <Message key="Ignore delay (burst mode)" value="Игнорировать задержку (пакетный режим)" revision="0" />
   <Message key="Loop mode:" value="Циклический режим:" revision="0" />
   <Message key="loops" value="циклов" revision="0" />
   <Message key="milliseconds" value="миллисекунд" revision="0" />
-  <Message key="Send" value="Отправить" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Начать терминальную сессию…" revision="0" />
     <Item value="Запустить последовательный терминал для выбранного устройства." revision="0" />

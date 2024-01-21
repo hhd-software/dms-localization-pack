@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-	<Enumeration key="MassConverter" description="Mass View">
-		<Item text="Mass Storage View"/>
+	<Enumeration key="MassConverter" description="Mass View (Legacy)" revision="1">
+		<Item text="Mass Storage View (Legacy)"/>
 		<Item text="Mass Storage View data visualizer decodes USB Mass Storage protocol for devices belonging to the Mass Storage class"/>
 	</Enumeration>
 
@@ -319,8 +319,6 @@
 	</Enumeration>
 
 	<Message optional="true" key="Subclass" description="Field: Subclass" value="Subclass"/>
-	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
-	<Message optional="true" key="Scope" description="Field: Scope" value="Scope"/>
 	<Message key="operate independantly" description="Value: operate independantly" value="Each interface within configuration specifies it's own class information and various interfaces operate independently"/>
 	<Message key="Device supports different class specifications" description="Message: Device supports different class specifications" value="Device supports different class specifications on different interfaces and interfaces may not operate independently"/>
 	<Message key="Device Class" description="Field: Device Class" value="Device Class"/>
@@ -331,10 +329,7 @@
 	<Message optional="true" key="Expect" description="Field: Expect" value="Expect"/>
 	<Message optional="true" key="LUN" description="Field: LUN" value="LUN"/>
 	<Message optional="true" key="Command Status Wrapper" description="Header: Command Status Wrapper" value="Command Status Wrapper"/>
-	<Message optional="true" key="Data Residue" description="Field: Data Residue" value="Data Residue"/>
 	<Message optional="true" key="Returned Tag" description="Field: Returned Tag" value="Returned Tag"/>
-	<Message optional="true" key="Tag" description="Field: Tag" value="Tag"/>
-	<Message optional="true" key="Status" description="Field: Status" value="Status"/>
 	<Message optional="true" key="HintTagText" description="Hint: Tag field hint text" value="Device shall echo TAG to associate CSW with corresponding CBW"/>
 	<Message optional="true" key="CSWDataResidue" description="Value: CSWDataResidue" value="Difference between the amount of data expected and the actual ammount of data processed by the device"/>
 	<Message optional="true" key="Mass Storage Reset" description="Header: Mass Storage Reset" value="Mass Storage Reset"/>
@@ -425,17 +420,8 @@
 	<Message optional="true" key="Opcode" description="Field: Opcode" value="Opcode"/>
 	<Message optional="true" key="Unknown Command" description="Value: Unknown Command" value="Unknown Command"/>
 	<Message optional="true" key="Page or OPCODE" description="Field: Page or OPCODE" value="Page or OPCODE"/>
-	<Message optional="true" key="Allocation Length" description="Field: Allocation Length" value="Allocation Length"/>
 	<Message optional="true" key="Control" description="Field: Control" value="Control"/>
-	<Message optional="true" key="Logical Block Address" description="Field: Logical Block Address" value="Logical Block Address"/>
-	<Message optional="true" key="Disable Block Descriptor" description="Field: Disable Block Descriptor" value="Disable Block Descriptor"/>
-	<Message optional="true" key="Page Control" description="Field: Page Control" value="Page Control"/>
-	<Message optional="true" key="Page Code" description="Field: Page Code" value="Page Code"/>
-	<Message optional="true" key="Command Support Data" description="Field: Command Support Data" value="Command Support Data"/>
-	<Message optional="true" key="Enable Vital Product Data" description="Field: Enable Vital Product Data" value="Enable Vital Product Data"/>
 	<Message optional="true" key="Long LBA Accepted" description="Field: Long LBA Accepted" value="Long LBA Accepted"/>
-	<Message optional="true" key="Transfer Length" description="Field: Transfer Length" value="Transfer Length"/>
-	<Message optional="true" key="Parameter List Length" description="Field: Parameter List Length" value="Parameter List Length"/>
 	<Message optional="true" key="Save Parameters" description="Field: Save Parameters" value="Save Parameters"/>
 	<Message optional="true" key="Parameter Code Reset" description="Field: Parameter Code Reset" value="Parameter Code Reset"/>
 	<Message optional="true" key="Parameter Pointer Control" description="Field: Parameter Pointer Control" value="Parameter Pointer Control"/>
@@ -444,11 +430,7 @@
 	<Message optional="true" key="Page Format" description="Field: Page Format" value="Page Format"/>
 	<Message optional="true" key="Save Pages" description="Field: Save Pages" value="Save Pages"/>
 	<Message optional="true" key="Removal" description="Field: Removal" value="Removal"/>
-	<Message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
-	<Message optional="true" key="Buffer Offset" description="Field: Buffer Offset" value="Buffer Offset"/>
-	<Message optional="true" key="Buffer ID" description="Field: Buffer ID" value="Buffer ID"/>
 	<Message optional="true" key="List ID" description="Field: List ID" value="List ID"/>
-	<Message optional="true" key="Service Action" description="Field: Service Action" value="Service Action"/>
 	<Message optional="true" key="Page Code Valid" description="Field: Page Code Valid" value="Page Code Valid"/>
 	<Message optional="true" key="Third-Party Device ID" description="Field: Third-Party Device ID" value="Third-Party Device ID"/>
 	<Message optional="true" key="LongID" description="Field: LongID" value="LongID"/>
@@ -464,67 +446,33 @@
 	<Message optional="true" key="Start Address/Track Number" description="Field: Start Address/Track Number" value="Start Address/Track Number"/>
 	<Message optional="true" key="IMMED" description="Field: IMMED" value="IMMED"/>
 	<Message optional="true" key="Blanking Type" description="Field: Blanking Type" value="Blanking Type"/>
-	<Message optional="true" key="Track Number" description="Field: Track Number" value="Track Number"/>
-	<Message optional="true" key="Track" description="Field: Track" value="Track"/>
-	<Message optional="true" key="Session" description="Field: Session" value="Session"/>
-	<Message optional="true" key="Interleave value" description="Field: Interleave value" value="Interleave value"/>
 	<Message optional="true" key="CmpList" description="Field: CmpList" value="CmpList"/>
 	<Message optional="true" key="FmtData" description="Field: FmtData" value="FmtData"/>
-	<Message optional="true" key="Format Code" description="Field: Format Code" value="Format Code"/>
-	<Message optional="true" key="Starting Feature Number" description="Field: Starting Feature Number" value="Starting Feature Number"/>
 	<Message optional="true" key="Request Type" description="Field: Request Type" value="Request Type"/>
 	<Message optional="true" key="Maximum Number Of Descriptors" description="Field: Maximum Number Of Descriptors" value="Maximum Number Of Descriptors"/>
-	<Message optional="true" key="Starting LBA" description="Field: Starting LBA" value="Starting LBA"/>
-	<Message optional="true" key="Except" description="Field: Except" value="Except"/>
-	<Message optional="true" key="Write" description="Field: Write" value="Write"/>
-	<Message optional="true" key="Tolerance" description="Field: Tolerance" value="Tolerance"/>
 	<Message optional="true" key="UsbMassDescriptorException" description="Message: Descriptor exception" value="Descriptors shall have 10% tolerance for nominal performance and 20% for excpetion list"/>
 	<Message optional="true" key="Slot" description="Field: Slot" value="Slot"/>
 	<Message optional="true" key="Start" description="Field: Start" value="Start"/>
 	<Message optional="true" key="LoUnlo" description="Field: LoUnlo" value="LoUnlo"/>
-	<Message optional="true" key="Resume" description="Field: Resume" value="Resume"/>
 	<Message optional="true" key="RELADR" description="Field: RELADR" value="RELADR"/>
 	<Message optional="true" key="Starting LBA Address" description="Field: Starting LBA Address" value="Starting LBA Address"/>
-	<Message optional="true" key="Play Length" description="Field: Play Length" value="Play Length"/>
-	<Message optional="true" key="Starting M Field" description="Field: Starting M Field" value="Starting M Field"/>
-	<Message optional="true" key="Starting S Field" description="Field: Starting S Field" value="Starting S Field"/>
-	<Message optional="true" key="Starting F Field" description="Field: Starting F Field" value="Starting F Field"/>
-	<Message optional="true" key="Ending M Field" description="Field: Ending M Field" value="Ending M Field"/>
-	<Message optional="true" key="Ending S Field" description="Field: Ending S Field" value="Ending S Field"/>
-	<Message optional="true" key="Ending F Field" description="Field: Ending F Field" value="Ending F Field"/>
 	<Message optional="true" key="Play Length in Blocks" description="Field: Play Length in Blocks" value="Play Length in Blocks"/>
 	<Message optional="true" key="CMSF" description="Field: CMSF" value="CMSF"/>
-	<Message optional="true" key="Audio" description="Field: Audio" value="Audio"/>
 	<Message optional="true" key="Composite" description="Field: Composite" value="Composite"/>
 	<Message optional="true" key="Port1" description="Field: Port1" value="Port1"/>
 	<Message optional="true" key="Port2" description="Field: Port2" value="Port2"/>
-	<Message optional="true" key="Speed" description="Field: Speed" value="Speed"/>
-	<Message optional="true" key="Expected Sector Type" description="Field: Expected Sector Type" value="Expected Sector Type"/>
 	<Message optional="true" key="EDC&amp;ECC" description="Field: EDC&amp;ECC" value="EDC&amp;ECC"/>
-	<Message optional="true" key="User Data" description="Field: User Data" value="User Data"/>
 	<Message optional="true" key="SYNC" description="Field: SYNC" value="SYNC"/>
 	<Message optional="true" key="Sub Chanel Selection" description="Field: Sub Chanel Selection" value="Sub Chanel Selection"/>
-	<Message optional="true" key="Error Field" description="Field: Error Field" value="Error Field"/>
-	<Message optional="true" key="Header Codes" description="Field: Header Codes" value="Header Codes"/>
-	<Message optional="true" key="Sheet Number" description="Field: Sheet Number" value="Sheet Number"/>
 	<Message optional="true" key="Address" description="Field: Address" value="Address"/>
-	<Message optional="true" key="Layer Number" description="Field: Layer Number" value="Layer Number"/>
-	<Message optional="true" key="Format" description="Field: Format" value="Format"/>
 	<Message optional="true" key="AGID" description="Field: AGID" value="AGID"/>
 	<Message optional="true" key="MSF" description="Field: MSF" value="MSF"/>
 	<Message optional="true" key="SUBQ" description="Field: SUBQ" value="SUBQ"/>
 	<Message optional="true" key="LBA/ Track/Session Number" description="Field: LBA/ Track/Session Number" value="LBA/ Track/Session Number"/>
 	<Message optional="true" key="Address/Number type" description="Field: Address/Number type" value="Address/Number type"/>
-	<Message optional="true" key="Key format" description="Field: Key format" value="Key format"/>
-	<Message optional="true" key="Reservation Size" description="Field: Reservation Size" value="Reservation Size"/>
 	<Message optional="true" key="Scan Starting Address" description="Field: Scan Starting Address" value="Scan Starting Address"/>
-	<Message optional="true" key="Direct" description="Field: Direct" value="Direct"/>
-	<Message optional="true" key="Cue Sheet Size" description="Field: Cue Sheet Size" value="Cue Sheet Size"/>
 	<Message optional="true" key="Struct Data Length" description="Field: Struct Data Length" value="Struct Data Length"/>
 	<Message optional="true" key="DocOpc" description="Field: DocOpc" value="DocOpc"/>
-	<Message optional="true" key="Trigger LBA" description="Field: Trigger LBA" value="Trigger LBA"/>
-	<Message optional="true" key="Read Ahead LBA" description="Field: Read Ahead LBA" value="Read Ahead LBA"/>
-	<Message optional="true" key="Number Of Blocks" description="Field: Number Of Blocks" value="Number Of Blocks"/>
 	<Message optional="true" key="Force Unit Access" description="Field: Force Unit Access" value="Force Unit Access"/>
 	<Message optional="true" key="Disable Page Out" description="Field: Disable Page Out" value="Disable Page Out"/>
 	<Message optional="true" key="BytChk" description="Field: BytChk" value="BytChk"/>
@@ -532,17 +480,13 @@
 	<Message optional="true" key="Percent/Time" description="Field: Percent/Time" value="Percent/Time"/>
 	<Message optional="true" key="Progress" description="Field: Progress" value="Progress"/>
 	<Message optional="true" key="Immed" description="Field: Immed" value="Immed"/>
-	<Message optional="true" key="Streaming" description="Field: Streaming" value="Streaming"/>
 	<Message optional="true" key="LoEj" description="Field: LoEj" value="LoEj"/>
 	<Message optional="true" key="Format-layer" description="Field: Format-layer" value="Format-layer"/>
 	<Message optional="true" key="Format-layer number" description="Field: Format-layer number" value="Format-layer number"/>
 	<Message optional="true" key="Power Conditions" description="Field: Power Conditions" value="Power Conditions"/>
 	<Message optional="true" key="RelAdr" description="Field: RelAdr" value="RelAdr"/>
 	<Message optional="true" key="Erase All" description="Field: Erase All" value="Erase All"/>
-	<Message optional="true" key="Notification Class Request" description="Field: Notification Class Request" value="Notification Class Request"/>
 	<Message optional="true" key="ByteChk" description="Field: ByteChk" value="ByteChk"/>
-	<Message optional="true" key="Verification Length" description="Field: Verification Length" value="Verification Length"/>
-	<Message optional="true" key="Pad" description="Field: Pad" value="Pad"/>
 	<Message optional="true" key="SCSI Primary Command Set 2" description="Name: SCSI Primary Command Set 2" value="SCSI Primary Command Set 2"/>
 	<Message optional="true" key="Logical unit read speed (Kbytes/sec)" description="Field: Logical unit read speed (Kbytes/sec)" value="Logical unit read speed (Kbytes/sec)"/>
 	<Message optional="true" key="Logical unit write speed (Kbytes/sec)" description="Field: Logical unit write speed (Kbytes/sec)" value="Logical unit write speed (Kbytes/sec)"/>

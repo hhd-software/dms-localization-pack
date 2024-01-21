@@ -21,7 +21,6 @@
   <Message key="Get" value="Obter" revision="0" />
   <Message key="UsbSizeFmt" value="{size} bytes" revision="0" />
   <Message key="from the device" value="do dispositivo" revision="0" />
-  <Message key="Send" value="Enviar" revision="0" />
   <Message key="to the device" value="para o dispositivo" revision="0" />
   <Message key="UsbTransferFmt" value="{operation} {size} bytes {dir}" revision="0" />
   <Message key="Select Configuration" value="Selecionar configuração" revision="0" />

@@ -98,7 +98,6 @@
 	<Message key="Serial Terminal component has expired!" description="Message: Serial Terminal component has expired!"/>
 
 	<Message key="Session Configuration" description="Window title: Session Configuration"/>
-	<Message key="Device:" description="Field: Device"/>
 	<Message key="Connect" description="Button: Connect"/>
 	<Message key="Defaults" description="Button: Defaults"/>
 
@@ -106,7 +105,6 @@
 	<Message key="Loop mode:" description="Option: Loop mode"/>
 	<Message key="loops" description="Field: loops"/>
 	<Message key="milliseconds" description="Field: milliseconds"/>
-	<Message key="Send" description="Button: Send"/>
 
 	<Enumeration key="TerminalColors" description="Colors: Serial Terimal">
 		<Item text="Sent Text"/>

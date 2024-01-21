@@ -58,4 +58,8 @@
     <Item value="Wiedergabepfad konfigurieren…" revision="0" />
     <Item value="Festlegen des Speicherorts der Protokolldateien für die Wiedergabe" revision="0" />
   </Enumeration>
+  <Enumeration key="ClosingSessionWithoutLogging">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

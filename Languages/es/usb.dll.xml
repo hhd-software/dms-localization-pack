@@ -36,7 +36,6 @@
   <Message key="MicroFramesFmt" value="{number} microcuadros" revision="0" />
   <Message key="Restart Device" value="Reiniciar el dispositivo" revision="0" />
   <Message key="Audio Device Class Specification Release Number:" value="Número de versión de la especificación de clase de dispositivo de audio:" revision="0" />
-  <Message key="Total Length:" value="Longitud total:" revision="0" />
   <Message key="Number of Interfaces:" value="Número de interfaces:" revision="0" />
   <Message key="Number Of Output Channels:" value="Número de canales de salida:" revision="0" />
   <Message key="Name (String Descriptor ID):" value="Nombre (ID del descriptor de cadena):" revision="0" />
@@ -149,7 +148,6 @@
   <Message key="DTMF digits" value="Cifras DTMF" revision="0" />
   <Message key="Can report DTMF digits input remotely over the telephone line" value="Puede notificar dígitos DTMF introducidos a distancia a través de la línea telefónica" revision="0" />
   <Message key="Cannot report DTMF digits input remotely over the telephone line" value="No puede informar de dígitos DTMF introducidos a distancia a través de la línea telefónica." revision="0" />
-  <Message key="Line State Change Notification" value="Notificación de cambio de estado de línea" revision="0" />
   <Message key="Does support" value="Soporta" revision="0" />
   <Message key="Does not support" value="No soporta" revision="0" />
   <Message key="SlaveInterfacelFmt" value="Interfaz esclavo{number}:" revision="0" />

@@ -24,14 +24,12 @@
   <Message key="The configuration will be deleted. Do you want to continue?" value="Die Konfiguration wird gelöscht. Möchten Sie fortfahren?" revision="0" />
   <Message key="Serial Terminal component has expired!" value="Die Komponente Serielles Terminal ist abgelaufen!" revision="0" />
   <Message key="Session Configuration" value="Konfiguration der Sitzung" revision="0" />
-  <Message key="Device:" value="Gerät:" revision="0" />
   <Message key="Connect" value="Verbinden" revision="0" />
   <Message key="Defaults" value="Standardwerte" revision="0" />
   <Message key="Ignore delay (burst mode)" value="Verzögerung ignorieren (Burst-Modus)" revision="0" />
   <Message key="Loop mode:" value="Schleifenmodus:" revision="0" />
   <Message key="loops" value="Schleifen" revision="0" />
   <Message key="milliseconds" value="Millisekunden" revision="0" />
-  <Message key="Send" value="Senden" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Terminal-Sitzung starten…" revision="0" />
     <Item value="Serielles Terminal für das ausgewählte Gerät starten." revision="0" />

@@ -222,7 +222,6 @@
 
 	<!--IDS_ERRORRESTARTHEADER-->  <Message key="Restart Device" description="Title: Restart Device"/>
 	<!--IDS_STRING1079-->          <Message key="Audio Device Class Specification Release Number:" description="Field: Audio Device Class Specification Release Number"/>
-	<!--IDS_STRING1080-->          <Message key="Total Length:" description="Field: Total Length"/>
 	<!--IDS_STRING1081-->          <Message key="Number of Interfaces:" description="Field: Number of Interfaces"/>
 	<!--IDS_STRING1082-->
 	<!--IDS_STRING1086-->          <Message key="Number Of Output Channels:" description="Field: Number Of Output Channels"/>
@@ -552,7 +551,6 @@
 	<!--IDS_STRING1344-->          <Message key="DTMF digits" description="Value: DTMF digits"/>
 	<!--IDS_STRING1345-->          <Message key="Can report DTMF digits input remotely over the telephone line" description="Value: Can report DTMF digits input remotely over the telephone line"/>
 	<!--IDS_STRING1346-->          <Message key="Cannot report DTMF digits input remotely over the telephone line" description="Value: Cannot report DTMF digits input remotely over the telephone line"/>
-	<!--IDS_STRING1347-->          <Message key="Line State Change Notification" description="Value: Line State Change Notification"/>
 	<!--IDS_STRING1348-->          <Message key="Does support" description="Value: Does support"/>
 	<!--IDS_STRING1349-->          <Message key="Does not support" description="Value: Does not support"/>
 
@@ -686,4 +684,6 @@
 		<Item text="Connect the USB Device"/>
 		<Item text="The application is waiting for you to connect an USB device to one of your computer USB ports." />
 	</Enumeration>
+
+	
 </Definition>

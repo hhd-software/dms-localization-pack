@@ -59,7 +59,6 @@
 	<Message optional="true" key="Indefinite" description="Value: Indefinite" value="Indefinite"/>
 	<Message optional="true" key="Data" description="Field: Data" value="Data"/>
 	<Message optional="true" key="Idle Rate" description="Field: Idle Rate" value="Idle Rate"/>
-	<Message optional="true" key="Protocol" description="Field: Protocol" value="Protocol"/>
 	<Message optional="true" key="Report Type" description="Field: Report Type" value="Report Type"/>
 	<Message optional="true" key="Data Size" description="Field: Data Size" value="Data Size"/>
 	<Message optional="true" key="Descriptor parsing failed. " description="Header: Descriptor parsing failed" value="Descriptor parsing failed. "/>

@@ -24,14 +24,12 @@
   <Message key="The configuration will be deleted. Do you want to continue?" value="Se borrará la configuración. ¿Desea continuar?" revision="0" />
   <Message key="Serial Terminal component has expired!" value="El componente Terminal serie ha caducado." revision="0" />
   <Message key="Session Configuration" value="Configuración de la sesión" revision="0" />
-  <Message key="Device:" value="Dispositivo:" revision="0" />
   <Message key="Connect" value="Conectar" revision="0" />
   <Message key="Defaults" value="Por defecto" revision="0" />
   <Message key="Ignore delay (burst mode)" value="Ignorar retardo (modo ráfaga)" revision="0" />
   <Message key="Loop mode:" value="Modo cíclico:" revision="0" />
   <Message key="loops" value="ciclos" revision="0" />
   <Message key="milliseconds" value="milisegundos" revision="0" />
-  <Message key="Send" value="Enviar" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Iniciar sesión de terminal…" revision="0" />
     <Item value="Inicia el terminal serie para el dispositivo seleccionado." revision="0" />

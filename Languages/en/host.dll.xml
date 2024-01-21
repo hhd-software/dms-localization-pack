@@ -395,6 +395,6 @@
 		<Item text="Click the [[[bAdd More]]] button to add more devices to the monitoring session. All added devices will be monitored simultaneously in a single session."/>
 		<Item text="Some monitoring sessions support additional configuration. Click on the configuration text to open configuration window and configure monitoring session."/>
 		<Item text="Once ready, press the [[[bStart]]] button to start monitoring!"/>
-		<Item text="Alternatively, you may capture the [[[bSession Configuration]]] window settings in a script. Press the [[[bGenerate Script]]] button in order to do that."/>
+		<Item text="Alternatively, you may capture the [[[bSession Configuration]]] window settings in a script. Press the [[[bGenerate Script]]] button in order to do that.\n\nOther session starting options are also available. Consult the [[[hdocumentation]]] for more information." revision="1"/>
 	</Enumeration>
 </Definition>

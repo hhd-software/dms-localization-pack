@@ -5,8 +5,8 @@
 
 	<Message key="USB Audio Visualizer" description="Settings group: USB Audio Visualizer"/>
 
-	<Enumeration key="AudioConverter" description="Audio Converter">
-		<Item text="Audio View"/>
+	<Enumeration key="AudioConverter" description="Audio Converter (Legacy)" revision="1">
+		<Item text="Audio View (Legacy)"/>
 		<Item text="USB Audio View visualizer parses packets and configuration descriptors for USB Audio (version 1.0) compliant device."/>
 	</Enumeration>
 
@@ -161,9 +161,6 @@
 		<Param name="number"/>
 	</Message>
 
-	<Message optional="true" key="Enable Control" description="Field: Enable Control" value="Enable Control"/>
-
-	<Message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
 	<Message optional="true" key="Unit" description="Field: Unit" value="Unit"/>
 	<Message optional="true" key="Up/Down" description="Value: Up/Down" value="Up/Down"/>
 	<Message optional="true" key="Dolby Prologic" description="Value: Dolby Prologic" value="Dolby Prologic"/>
@@ -174,11 +171,8 @@
 	<Message optional="true" key="Extension" description="Value: Extension" value="Extension"/>
 	<!--<Message optional="true" key="Undefined" description="Field: Undefined" value="Undefined"/>-->
 
-	<Message optional="true" key="Spaciosness" description="Field: Spaciosness (%)" value="Spaciosness (%)"/>
-	<Message optional="true" key="Reverb Level" description="Field: Reverb Level (%)" value="Reverb Level (%)"/>
 	<Message optional="true" key="Reverb Time" description="Field: Reverb Time (in 1/256 s)" value="Reverb Time (in 1/256 s)"/>
 	<Message optional="true" key="Reverb Feedback" description="Field: Reverb Feedback (%)" value="Reverb Feedback (%)"/>
-	<Message optional="true" key="Chorus Level" description="Field: Chorus Level (%)" value="Chorus Level (%)"/>
 	<Message optional="true" key="Chorus Rate" description="Field: Chorus Rate (in 1/256 hZ)" value="Chorus Rate (in 1/256 hZ)"/>
 	<Message optional="true" key="Chorus Depth" description="Field: Chorus Depth (in 1/256 ms)" value="Chorus Depth (in 1/256 ms)"/>
 	<Message optional="true" key="Compression Rate" description="Field: Compression Rate (in 1/256 dB/dB)" value="Compression Rate (in 1/256 dB/dB)"/>
@@ -189,21 +183,14 @@
 	<Message optional="true" key="Sampling Frequency" description="Field: Sampling Frequency (in Hz)" value="Sampling Frequency (in Hz)"/>
 	<Message optional="true" key="Pitch Control" description="Field: Pitch Control (On/OFF)" value="Pitch Control (On/OFF)"/>
 	<Message optional="true" key="Audio Device Class Specification Release Number" description="Field: Audio Device Class Specification Release Number" value="Audio Device Class Specification Release Number"/>
-	<Message optional="true" key="Total Length" description="Field: Total Length" value="Total Length"/>
 	<Message optional="true" key="Item Count" description="Field: Item Count" value="Item Count"/>
-	<Message optional="true" key="Unit ID" description="Field: Unit ID" value="Unit ID"/>
-	<Message optional="true" key="Terminal Type" description="Field: Terminal Type" value="Terminal Type"/>
 	<Message optional="true" key="Associated Terminal" description="Field: Associated Terminal" value="Associated Terminal"/>
 	<Message optional="true" key="Number of Output Channels" description="Field: Number of Output Channels" value="Number of Output Channels"/>
-	<Message optional="true" key="Channel Configuration" description="Field: Channel Configuration" value="Channel Configuration"/>
 	<Message optional="true" key="Name of First Logical Channel (StringDescriptor ID)" description="Field: Name of First Logical Channel (StringDescriptor ID)" value="Name of First Logical Channel (StringDescriptor ID)"/>
 	<Message optional="true" key="Description of Terminal (StringDescriptor ID)" description="Field: Description of Terminal (StringDescriptor ID)" value="Description of Terminal (StringDescriptor ID)"/>
 	<Message optional="true" key="Number of Input Pins" description="Field: Number of Input Pins" value="Number of Input Pins"/>
-	<Message optional="true" key="Programmable Controls" description="Field: Programmable Controls" value="Programmable Controls"/>
-	<Message optional="true" key="Index of StringDescriptor" description="Field: Index of StringDescriptor" value="Index of StringDescriptor"/>
 	<Message optional="true" key="Description of Selector Unit (StringDescriptor ID)" description="Field: Description of Selector Unit (StringDescriptor ID)" value="Description of Selector Unit (StringDescriptor ID)"/>
 	<Message optional="true" key="ID of Unit to which this unit is connected" description="Field: ID of Unit to which this unit is connected" value="ID of Unit to which this unit is connected"/>
-	<Message optional="true" key="Control size" description="Field: Control size" value="Control size"/>
 	<Message optional="true" key="Supported controls" description="Field: Supported controls" value="Supported controls"/>
 	<Message optional="true" key="Description of Feature Unit (StringDescriptor ID)" description="Field: Description of Feature Unit (StringDescriptor ID)" value="Description of Feature Unit (StringDescriptor ID)"/>
 	<Message optional="true" key="Processing Type" description="Field: Processing Type" value="Processing Type"/>
@@ -211,13 +198,11 @@
 	<Message optional="true" key="Number of Supported Modes" description="Field: Number of Supported Modes" value="Number of Supported Modes"/>
 	<Message optional="true" key="ExtensionCode" description="Field: ExtensionCode" value="ExtensionCode"/>
 	<Message optional="true" key="Description of Extension Unit (StringDescriptor ID)" description="Field: Description of Extension Unit (StringDescriptor ID)" value="Description of Extension Unit (StringDescriptor ID)"/>
-	<Message optional="true" key="Terminal Link" description="Field: Terminal Link" value="Terminal Link"/>
 	<Message optional="true" key="FormatTag" description="Field: FormatTag" value="FormatTag"/>
 	<Message optional="true" key="Attributes" description="Field: Attributes" value="Attributes"/>
 	<Message optional="true" key="Lock Delay Units" description="Field: Lock Delay Units" value="Lock Delay Units"/>
 	<Message optional="true" key="Lock Delay" description="Field: Lock Delay" value="Lock Delay"/>
 	<Message optional="true" key="Format Type" description="Field: Format Type" value="Format Type"/>
-	<Message optional="true" key="Number of Channels" description="Field: Number of Channels" value="Number of Channels"/>
 
 	<Message optional="true" key="UsbAudioInterfaceFmt" description="Field: Interface" value="Interface{number}: ">
 		<Param name="number"/>
@@ -230,7 +215,6 @@
 	</Message>
 
 	<Message optional="true" key="Subframe Size" description="Field: Subframe Size" value="Subframe Size"/>
-	<Message optional="true" key="Bit Resolution" description="Field: Bit Resolution" value="Bit Resolution"/>
 	<Message optional="true" key="Sampling Frequency Lower Bound" description="Field: Sampling Frequency Lower Bound" value="Sampling Frequency Lower Bound"/>
 	<Message optional="true" key="Sampling Frequency Upper Bound" description="Field: Sampling Frequency Upper Bound" value="Sampling Frequency Upper Bound"/>
 
@@ -239,7 +223,6 @@
 	</Message>
 
 	<Message optional="true" key="Max Bitrate" description="Field: Max Bitrate" value="Max Bitrate"/>
-	<Message optional="true" key="Samples Per Frame" description="Field: Samples Per Frame" value="Samples Per Frame"/>
 	<Message optional="true" key="Payload Type" description="Field: Payload Type" value="Payload Type"/>
 	<Message optional="true" key="MPEG Capabilities" description="Field: MPEG Capabilities" value="MPEG Capabilities"/>
 	<Message optional="true" key="BSID" description="Field: BSID" value="BSID"/>

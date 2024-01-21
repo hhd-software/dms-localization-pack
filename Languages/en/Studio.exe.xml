@@ -393,8 +393,8 @@
 		<Item text="Paste the contents of the Clipboard"/>
 	</Enumeration>
 
-	<Enumeration key="EditExport" description="Command: Export">
-		<Item text="&amp;Export"/>
+	<Enumeration key="EditExport" description="Command: Export" revision="1">
+		<Item text="&amp;Export…"/>
 		<Item text="Export selection"/>
 	</Enumeration>
 
@@ -989,4 +989,7 @@
 	<Message key="Find Operation" description="Find operation" value="Searching for text" />
 
 	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
+
+	
+
 </Definition>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Nº do pacote" revision="0" />
+  <Message key="Line State Change Notification" value="Notificação de mudança de estado da linha" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vista de dados brutos" revision="0" />
     <Item value="A visualização de dados brutos exibe dados brutos de pacotes em dois fluxos contíguos (entrada e saída). Oferece personalização flexível do visual e do layout e suporta filtragem controlada por protocolo e alteração do protocolo raiz." revision="0" />
@@ -66,6 +67,22 @@
     <Item value="Vista de vídeo" revision="0" />
     <Item value="O visualizador da Vista de Vídeo analisa pacotes e descritores de configuração para dispositivos compatíveis com Vídeo USB (versão 1.5)." revision="0" />
   </Enumeration>
+  <Enumeration key="NewAudioConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewStillConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewMassConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewCommConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="Por defeito" revision="0" />
     <Item value="Cabeçalho" revision="0" />
@@ -73,6 +90,7 @@
     <Item lookup="Value" />
     <Item value="Cabeçalho de leitura" revision="0" />
     <Item value="Cabeçalho de escrita" revision="0" />
+    <Item />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
     <Item value="Número da linha" revision="0" />
@@ -137,5 +155,43 @@
     <Item value="Byte escrito/seg" revision="0" />
     <Item value="bytes/s" revision="0" />
     <Item value="Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita." revision="0" />
+  </Enumeration>
+  <Enumeration key="USBCommViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBMassViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBStillViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBAudioViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MassViewOptions">
+    <Item />
   </Enumeration>
 </Language>

@@ -58,4 +58,8 @@
     <Item value="Configurar o caminho de reprodução…" revision="0" />
     <Item value="Especificar a localização dos ficheiros de registo para reprodução" revision="0" />
   </Enumeration>
+  <Enumeration key="ClosingSessionWithoutLogging">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

@@ -58,4 +58,8 @@
     <Item value="Настройка пути к логам…" revision="0" />
     <Item value="Укажите местоположение логов для воспроизведения" revision="0" />
   </Enumeration>
+  <Enumeration key="ClosingSessionWithoutLogging">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

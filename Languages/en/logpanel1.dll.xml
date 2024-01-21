@@ -97,4 +97,11 @@
 	<Message key="Multiple files. Maximum:" description="Field: Multiple files. Maximum:"/>
 	<Message key="Specify location of log file:" description="Field: Specify location of log file:"/>
 
+	<Message key="sessionClosing" description="Notification: Closing session without Data Recording" value="Closing session without Data Recording"/>
+	<Enumeration key="ClosingSessionWithoutLogging" description="Closing session without Data Recording notification">
+		<Item text="Closing Session"/>
+		<Item text="This action will stop and close the current monitoring session. All monitored data will be lost. Add Data Recording component to the monitoring session next time in order to automatically save all recorded data into the log file.\n\nChoose the action to continue:"/>
+	</Enumeration>
+
+	<Message key="SaveToLog" description="Save to log prompt" value="Save monitored data to a log file now"/>
 </Definition>

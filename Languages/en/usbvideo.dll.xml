@@ -103,7 +103,6 @@
 
 	<Message optional="true" key="Camera Terminal" description="Field: Camera Terminal" value="Camera Terminal"/>
 	<Message optional="true" key="Camera Terminal Control" description="Value: Camera Terminal Control" value="Camera Terminal Control"/>
-	<Message optional="true" key="Scanning Mode" description="Field: Scanning Mode" value="Scanning Mode"/>
 
 	<Enumeration optional="true" key="UsbVideoScanningModes" description="USB Video Scanning Modes list">
 		<Item text="Interlaced"/>
@@ -122,12 +121,9 @@
 		<Item text="Apperture Priority Mode"/>
 	</Enumeration>
 
-	<Message optional="true" key="Priority" description="Field: Priority" value="Priority"/>
 	<Message optional="true" key="Auto Exposure Priority" description="Field: Auto Exposure Priority" value="Auto Exposure Priority"/>
 	<Message optional="true" key="Exposure Time Absolute" description="Field: Exposure Time" value="Exposure Time (Absolute) (in 0.0001 sec)"/>
-	<Message optional="true" key="Exposure Time Relative" description="Field: Exposure Time Relative" value="Exposure Time (Relative) (in steps)"/>
 	<Message optional="true" key="Focus (Absolute)" description="Field: Focus (Absolute)" value="Focus (Absolute)"/>
-	<Message optional="true" key="Speed" description="Field: Speed" value="Speed"/>
 	<Message optional="true" key="Focus (Relative)" description="Field: Focus (Relative)" value="Focus (Relative)"/>
 
 	<Enumeration optional="true" key="UsbVideoFocusModes" description="USB Video Focus Modes list">
@@ -136,7 +132,6 @@
 		<Item text="Focus Infinite Direction"/>
 	</Enumeration>
 
-	<Message optional="true" key="Auto Focus" description="Field: Auto Focus" value="Auto Focus"/>
 	<Message optional="true" key="Absolute Iris" description="Field: Absolute Iris" value="Absolute Iris"/>
 	<Message optional="true" key="Relative Iris" description="Field: Relative Iris" value="Relative Iris"/>
 
@@ -146,7 +141,6 @@
 		<Item text="Iris is Closed by 1 Step"/>
 	</Enumeration>
 
-	<Message optional="true" key="Objective Focal Length" description="Field: Objective Focal Length" value="Objective Focal Length"/>
 
 	<Enumeration optional="true" key="UsbVideoZoomModes" description="USB Video Zoom Modes list">
 		<Item text="Stop"/>
@@ -159,8 +153,6 @@
 		<Item text="ON"/>
 	</Enumeration>
 
-	<Message optional="true" key="Digital Zoom" description="Field: Digital Zoom" value="Digital Zoom"/>
-	<Message optional="true" key="Zoom" description="Field: Zoom" value="Zoom"/>
 	<Message optional="true" key="Pan (Absoute)" description="Field: Pan (Absoute)" value="Pan (Absoute)"/>
 	<Message optional="true" key="Tilt (Absolute)" description="Field: Tilt (Absolute)" value="Tilt (Absolute)"/>
 
@@ -170,10 +162,7 @@
 		<Item text="Moving to Counter Clockwise Direction"/>
 	</Enumeration>
 
-	<Message optional="true" key="Pan Relative" description="Field: Pan Relative" value="Pan Relative"/>
-
 	<Message optional="true" key="Pan Speed" description="Field: Pan Speed" value="Pan Speed"/>
-	<Message optional="true" key="Tilt Relative" description="Field: Tilt Relative" value="Tilt Relative"/>
 
 	<Enumeration optional="true" key="UsbVideoTiltModes" description="USB Video Tilt Modes list">
 		<Item text="Stop"/>
@@ -181,35 +170,16 @@
 		<Item text="Point The Imaging Plane Down"/>
 	</Enumeration>
 
-	<Message optional="true" key="Tilt Speed" description="Field: Tilt Speed" value="Tilt Speed"/>
-	<Message optional="true" key="Roll Absolute" description="Field: Roll Absolute" value="Roll Absolute"/>
-	<Message optional="true" key="Roll Relative" description="Field: Roll Absolute" value="Roll Absolute"/>
-
 	<Enumeration optional="true" key="UsbVideoPrivacyModes" description="USB Video Privacy Modes list">
 		<Item text="Open"/>
 		<Item text="Close"/>
 	</Enumeration>
-	<Message optional="true" key="Privacy" description="Field: Privacy" value="Privacy"/>
 	<!--IDS_STRING1093          "Selector Unit Control"
 	IDS_STRING1094          "Selector Unit:"-->
-	<Message optional="true" key="Selector" description="Field: Selector" value="Selector"/>
 	<Message optional="true" key="Processing Unit Control" description="Field: Processing Unit Control" value="Processing Unit Control"/>
 	<Message optional="true" key="Processing Unit" description="Field: Processing Unit" value="Processing Unit"/>
-	<Message optional="true" key="Brightness" description="Field: Brightness" value="Brightness"/>
-	<Message optional="true" key="Contrast" description="Field: Contrast" value="Contrast"/>
-	<Message optional="true" key="Gain" description="Field: Gain" value="Gain"/>
-	<Message optional="true" key="Hue" description="Field: Hue" value="Hue"/>
-	<Message optional="true" key="Hue Auto" description="Field: Hue Auto" value="Hue Auto"/>
-	<Message optional="true" key="Saturation" description="Field: Saturation" value="Saturation"/>
-	<Message optional="true" key="Sharpness" description="Field: Sharpness" value="Sharpness"/>
-	<Message optional="true" key="Gamma" description="Field: Gamma" value="Gamma"/>
-	<Message optional="true" key="White Balance Temperature" description="Field: White Balance Temperature" value="White Balance Temperature"/>
 	<Message optional="true" key="White Balance Temperature Auto" description="Field: White Balance Temperature Auto" value="White Balance Temperature Auto"/>
-	<Message optional="true" key="White Balance Component Auto" description="Field: White Balance Component Auto" value="White Balance Component Auto"/>
-	<Message optional="true" key="Multiplier Step" description="Field: Multiplier Step" value="Multiplier Step"/>
-	<Message optional="true" key="Multiplier Limit" description="Field: Multiplier Limit" value="Multiplier Limit"/>
-	<Message optional="true" key="Status" description="Field: Status" value="Status"/>
-
+	
 	<Enumeration optional="true" key="UsbVideoStatusModes" description="USB Video Status list">
 		<Item text="Video Decoder Locked"/>
 		<Item text="Video Decoder Unlocked"/>
@@ -224,11 +194,6 @@
 		<Item text="PAL - 525/60"/>
 	</Enumeration>
 
-	<Message optional="true" key="Video Standard" description="Field: Video Standard" value="Video Standard"/>
-	<Message optional="true" key="White Balance Blue" description="Field: White Balance Blue" value="White Balance Blue"/>
-	<Message optional="true" key="White Balance Red" description="Field: White Balance Red" value="White Balance Red"/>
-	<Message optional="true" key="Power Line Frequency" description="Field: Power Line Frequency" value="Power Line Frequency"/>
-
 	<Enumeration optional="true" key="UsbVideoFrequencyModes" description="USB Video Frequency list">
 		<Item text="Disabled"/>
 		<Item text="50 Hz"/>
@@ -237,15 +202,7 @@
 
 	<Message optional="true" key="Extension Unit Control" description="Field: Extension Unit Control" value="Extension Unit Control"/>
 	<Message optional="true" key="Hint (bitmap)" description="Field: Hint (bitmap)" value="Hint (bitmap)"/>
-	<Message optional="true" key="Format Index" description="Field: Format Index" value="Format Index"/>
-	<Message optional="true" key="Frame Index" description="Field: Frame Index" value="Frame Index"/>
 	<Message optional="true" key="Frame Interval (in 100 ns)" description="Field: Frame Interval (in 100 ns)" value="Frame Interval (in 100 ns)"/>
-	<Message optional="true" key="Key Frame Rate" description="Field: Key Frame Rate" value="Key Frame Rate"/>
-	<Message optional="true" key="P Frame Rate" description="Field: P Frame Rate" value="P Frame Rate"/>
-	<Message optional="true" key="Compression Quality" description="Field: Compression Quality" value="Compression Quality"/>
-	<Message optional="true" key="Compression Window Size" description="Field: Compression Window Size" value="Compression Window Size"/>
-	<Message optional="true" key="Max Video Frame Size" description="Field: Max Video Frame Size" value="Max Video Frame Size"/>
-	<Message optional="true" key="Max Payload Transfer Size" description="Field: Max Payload Transfer Size" value="Max Payload Transfer Size"/>
 	<!--IDS_STRING1142          "Clock Frequency:"
 	IDS_STRING1143          "Framing Info:"
 	IDS_STRING1144          "Preferred Version:"
@@ -253,8 +210,6 @@
 	IDS_STRING1146          "Max Version:"
 	IDS_STRING1147          "Frame ID is required in Payload Header:"-->
 	<!--IDS_STRING1150          "End of Frame (EOF) may be present in Payload Header:"-->
-	<Message optional="true" key="Compression Index" description="Field: Compression Index" value="Compression Index"/>
-	<Message optional="true" key="Trigger" description="Field: Trigger" value="Trigger"/>
 
 	<Enumeration optional="true" key="UsbVideoTriggerModes" description="USB Video Triggers list">
 		<Item text="Normal Operation"/>
@@ -263,12 +218,6 @@
 		<Item text="Abort Still Image Transmittion"/>
 	</Enumeration>
 	
-	<Message optional="true" key="Generate Key Frame:" description="Field: Generate Key Frame" value="Generate Key Frame"/>
-
-	<Message optional="true" key="Start Frame Segment" description="Field: Start Frame Segment" value="Start Frame Segment"/>
-	<Message optional="true" key="End Frame Segment" description="Field: End Frame Segment" value="End Frame Segment"/>
-	<Message optional="true" key="Stream Error Code" description="Field: Stream Error Code" value="Stream Error Code"/>
-
 	<Enumeration optional="true" key="UsbVideoErrors" description="USB Video Errors list">
 		<Item text="No Error"/>
 		<Item text="Protected Content"/>
@@ -291,29 +240,14 @@
 	<Message optional="true" key="Synch Delay Control" description="Field: Synch Delay Control" value="Synch Delay Control"/>
 	<Message optional="true" key="Video Specification Release Number" description="Field: Video Specification Release Number" value="Video Specification Release Number"/>
 	<Message optional="true" key="Clock Frequency" description="Field: Clock Frequency" value="Clock Frequency"/>
-	<Message optional="true" key="Terminal ID" description="Field: Terminal ID" value="Terminal ID"/>
 	<Message optional="true" key="Associated Output Terminal" description="Field: Associated Output Terminal" value="Associated Output Terminal"/>
-	<Message optional="true" key="Terminal Type" description="Field: Terminal Type" value="Terminal Type"/>
 	<Message optional="true" key="Description (Index of String Descriptor)" description="Field: Description (Index of String Descriptor)" value="Description (Index of String Descriptor)"/>
-	<Message optional="true" key="Source ID" description="Field: Source ID" value="Source ID"/>
-	<Message optional="true" key="Unit ID" description="Field: Unit ID" value="Unit ID"/>
-	<Message optional="true" key="Max Multiplier" description="Field: Max Multiplier" value="Max Multiplier"/>
 	<Message optional="true" key="Controls" description="Field: Controls" value="Controls"/>
 	<Message optional="true" key="GUID" description="Field: GUID" value="GUID"/>
-	<Message optional="true" key="Number of Formats" description="Field: Number of Formats" value="Number of Formats"/>
-	<Message optional="true" key="Endpoint Address" description="Field: Endpoint Address" value="Endpoint Address"/>
-	<Message optional="true" key="Capabilities" description="Field: Capabilities" value="Capabilities"/>
-	<Message optional="true" key="Still Capture Method" description="Field: Still Capture Method" value="Still Capture Method"/>
-	<Message optional="true" key="Trigger Support" description="Field: Trigger Support" value="Trigger Support"/>
-	<Message optional="true" key="Trigger Usage" description="Field: Trigger Usage" value="Trigger Usage"/>
-	<Message optional="true" key="Width" description="Field: Width" value="Width"/>
-	<Message optional="true" key="Height" description="Field: Height" value="Height"/>
-
+	
 	<Message optional="true" key="UsbVideoCompression" description="Field: Compression" value="Compression{number}: ">
 		<Param name="number"/>
 	</Message>
-
-	<Message optional="true" key="Color Primaries" description="Field: Color Primaries" value="Color Primaries"/>
 
 	<Enumeration optional="true" key="UsbVideColorPrimaries" description="USB Video Color Primaries list">
 		<Item text="Reserved"/>
@@ -323,8 +257,6 @@
 		<Item text="SMPTE 170M"/>
 		<Item text="SMPTE 240M"/>
 	</Enumeration>
-
-	<Message optional="true" key="Transfer Characteristics" description="Field: Transfer Characteristics" value="Transfer Characteristics"/>
 
 	<Enumeration optional="true" key="UsbVideoTransferCharacteristics" description="USB Video Transfer Characteristics list">
 		<Item text="Reserved"/>
@@ -337,8 +269,6 @@
 		<Item text="sRGB (very similar to BT.709)"/>
 	</Enumeration>
 
-	<Message optional="true" key="Matrix Coefficients" description="Field: Matrix Coefficients" value="Matrix Coefficients"/>
-
 	<Enumeration optional="true" key="UsbVideoMatrixCoefficients" description="USB Video Matrix Coefficients list">
 		<Item text="Reserved"/>
 		<Item text="BT.709"/>
@@ -350,11 +280,7 @@
 
 	<Message optional="true" key="Number of Frame Descriptors" description="Field: Number of Frame Descriptors" value="Number of Frame Descriptors"/>
 	<Message optional="true" key="Format GUID" description="Field: Format GUID" value="Format GUID"/>
-	<Message optional="true" key="Bits Per Pixel" description="Field: Bits Per Pixel" value="Bits Per Pixel"/>
 	<Message optional="true" key="Optimum Frame Index" description="Field: Optimum Frame Index" value="Optimum Frame Index"/>
-	<Message optional="true" key="Aspect Ratio X" description="Field: Aspect Ratio X" value="Aspect Ratio X"/>
-	<Message optional="true" key="Aspect Ratio Y" description="Field: Aspect Ratio Y" value="Aspect Ratio Y"/>
-	<Message optional="true" key="Interlace Flags" description="Field: Interlace Flags" value="Interlace Flags"/>
 	<Message optional="true" key="Interface Stream Or Variable" description="Field: Interlace Stream Or Variable" value="Interlace Stream Or Variable"/>
 	<Message optional="true" key="Fields Per Frame" description="Field: Fields Per Frame" value="Fields Per Frame"/>
 
@@ -363,11 +289,6 @@
 		<Item text="2 fields"/>
 	</Enumeration>
 	<Message optional="true" key="Field 1 Is First" description="Field: Field 1 Is First" value="Field 1 Is First"/>
-	<Message optional="true" key="Min Bit Rate" description="Field: Min Bit Rate" value="Min Bit Rate"/>
-	<Message optional="true" key="Max Bit Rate" description="Field: Max Bit Rate" value="Max Bit Rate"/>
-	<Message optional="true" key="Max Video Frame Buffer Size" description="Field: Max Video Frame Buffer Size" value="Max Video Frame Buffer Size"/>
-	<Message optional="true" key="Default Frame Interval" description="Field: Default Frame Interval" value="Default Frame Interval"/>
-	<Message optional="true" key="Frame Interval Type" description="Field: Frame Interval Type" value="Frame Interval Type"/>
 	<Message optional="true" key="Min Frame Interval (in 100 ns)" description="Field: Min Frame Interval (in 100 ns)" value="Min Frame Interval (in 100 ns)"/>
 	<Message optional="true" key="Max Frame Interval (in 100 ns)" description="Field: Max Frame Interval (in 100 ns)" value="Max Frame Interval (in 100 ns)"/>
 	<Message optional="true" key="Frame Interval Step (in 100 ns)" description="Field: Frame Interval Step (in 100 ns)" value="Frame Interval Step (in 100 ns)"/>
@@ -375,12 +296,10 @@
 		<Param name="number"/>
 	</Message>
 
-	<Message optional="true" key="Data Offset" description="Field: Data Offset" value="Data Offset"/>
 	<Message optional="true" key="Length of TSP Packet" description="Field: Length of TSP Packet" value="Length of TSP Packet"/>
 	<Message optional="true" key="Length of Transport Stride" description="Field: Length of Transport Stride" value="Length of Transport Stride"/>
 	<Message optional="true" key="Format of Stride Data" description="Field: Format of Stride Data" value="Format of Stride Data"/>
-	<Message optional="true" key="Format Type" description="Field: Format Type" value="Format Type"/>
-
+	
 	<Enumeration optional="true" key="UsbVideoFormatType" description="USB Video Format Types list">
 		<Item text="SD-DV"/>
 		<Item text="SDL-DV"/>
@@ -392,9 +311,6 @@
 		<Item text="50 Hz"/>
 		<Item text="60 Hz"/>
 	</Enumeration>
-	<Message optional="true" key="Variable Size" description="Field: Variable Size" value="Variable Size"/>
-	<Message optional="true" key="Bytes Per Line" description="Field: Bytes Per Line" value="Bytes Per Line"/>
-	<Message optional="true" key="Packet Length" description="Field: Packet Length" value="Packet Length"/>
 	<Message optional="true" key="Transport Control" description="Field: Transport Control" value="Transport Control"/>
 
 	<Message optional="true" key="Absolute Track Number Control" description="Field: Absolute Track Number Control" value="Absolute Track Number Control"/>

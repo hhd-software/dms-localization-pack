@@ -21,7 +21,6 @@
   <Message key="Get" value="Получить" revision="0" />
   <Message key="UsbSizeFmt" value="{size} байт" revision="0" />
   <Message key="from the device" value="от устройства" revision="0" />
-  <Message key="Send" value="Отправить" revision="0" />
   <Message key="to the device" value="к устройству" revision="0" />
   <Message key="UsbTransferFmt" value="{operation} {size} байт {dir}" revision="0" />
   <Message key="Select Configuration" value="Выбрать конфигурацию" revision="0" />

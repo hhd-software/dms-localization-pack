@@ -16,4 +16,7 @@
   <Message key="AllFilesFilter" value="Alle Dateien|*.*|" revision="0" />
   <Message key="EmptyPath" value="Leere" revision="0" />
   <Message key="bytes" value="Bytes" revision="0" />
+  <Message key="Device:" value="Gerät:" revision="0" />
+  <Message key="Send" value="Senden" revision="0" />
+  <Message key="Total Length:" value="Gesamtlänge:" revision="0" />
 </Language>

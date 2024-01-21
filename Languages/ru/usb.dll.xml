@@ -36,7 +36,6 @@
   <Message key="MicroFramesFmt" value="{number} микрокадров" revision="0" />
   <Message key="Restart Device" value="Перезапустить устройство" revision="0" />
   <Message key="Audio Device Class Specification Release Number:" value="Спецификация класса аудиоустройств Номер:" revision="0" />
-  <Message key="Total Length:" value="Общая длина:" revision="0" />
   <Message key="Number of Interfaces:" value="Число интерфейсов:" revision="0" />
   <Message key="Number Of Output Channels:" value="Число каналов вывода:" revision="0" />
   <Message key="Name (String Descriptor ID):" value="Имя (строковый ID дескриптора):" revision="0" />
@@ -149,7 +148,6 @@
   <Message key="DTMF digits" value="Цифры DTMF" revision="0" />
   <Message key="Can report DTMF digits input remotely over the telephone line" value="Может сообщать о вводе DTMF-цифр удаленно по телефонной линии" revision="0" />
   <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Невозможно сообщить о цифрах DTMF, введенных удаленно по телефонной линии" revision="0" />
-  <Message key="Line State Change Notification" value="Уведомление об изменении состояния линии" revision="0" />
   <Message key="Does support" value="Поддерживает" revision="0" />
   <Message key="Does not support" value="Не поддерживает" revision="0" />
   <Message key="SlaveInterfacelFmt" value="Ведомый интерфейс{number}:" revision="0" />

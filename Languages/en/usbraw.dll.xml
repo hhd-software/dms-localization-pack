@@ -130,7 +130,6 @@
 	</Message>
 
 	<Message key="from the device" description="Value: from the device" value="from the device"/>
-	<Message key="Send" description="Field: Send" value="Send"/>
 	<Message key="to the device" description="Value: to the device" value="to the device"/>
 
 	<Message key="UsbTransferFmt" description="Formatted Value: N bytes" value="{operation} {size} bytes {dir}">

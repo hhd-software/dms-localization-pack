@@ -375,5 +375,11 @@
 		<Item text="Header 2"/>
 		<Item text="Header 3"/>
 	</Enumeration>
-	
+
+	<!-- MODBUS Send -->
+	<Message key="Address:" description="Field: Address"/>
+	<Message key="Parameters" description="Scroll title: Parameters"/>
+	<Message key="Result" description="Scroll title: Result"/>
+	<Message key="Result Length:" description="Field: Result Length"/>
+
 </Definition>

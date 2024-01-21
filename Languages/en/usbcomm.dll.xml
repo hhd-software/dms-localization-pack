@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Enumeration key="CommConverter" description="USB Communications Converter">
-    <Item text="Communications View"/>
+  <Enumeration key="CommConverter" description="USB Communications Converter (Legacy)" revision="1">
+    <Item text="Communications View (Legacy)"/>
     <Item text="Communications View data visualizer decodes USB Communications Class packets and descriptors."/>
   </Enumeration>
 
@@ -45,10 +45,6 @@
 	</Enumeration>
 
   <Message key="USB Communication Device Detected." description="Message: USB Communication Device Detected." value="USB Communication Device Detected."/>
-  <Message optional="true" key="Cycles" description="Field: Cycles" value="Cycles"/>
-  <Message optional="true" key="Timing" description="Field: Timing" value="Timing"/>
-  <Message optional="true" key="Number of Rings" description="Field: Number of Rings" value="Number of Rings"/>
-  <Message optional="true" key="Duration of Brake" description="Field: Duration of Brake" value="Duration of Brake"/>
 
 	<Message optional="true" key="UsbCommHeader" description="Header: USB communication class packet header" value="{ordinal}: {header} ({dir}), {time}\n">
 		<Param name="ordinal" format="b010w6arf0"/>
@@ -102,10 +98,6 @@
 	
 	<!--IDS_STRING1052          "Request Name:"
 	IDS_STRING1053          "Data (%d bytes):\n"-->
-  <Message optional="true" key="Abstract State" description="Field: Abstract State" value="Abstract State"/>
-	<!--IDS_STRING1054          "Abstract State:"-->
-	<!--IDS_STRING1055          "Country Setting:"-->
-  <Message optional="true" key="Country Setting" description="Field: Country Setting" value="Country Setting"/>
 
   <Message optional="true" key="Idle Setting" description="Field: Idle Setting" value="Idle Setting"/>
 <!--IDS_STRING1056          "Idle Setting:"-->
@@ -134,10 +126,6 @@
 		<Item text="Prepare"/>
 	</Enumeration>
 
-  <Message optional="true" key="Pulse-Dialing Cycle" description="Field: Pulse-Dialing Cycle" value="Pulse-Dialing Cycle"/>
-	<!--IDS_STRING1068          "Pulse-Dialing Cycle:"-->
-  <Message optional="true" key="Data Terminal Rate (bits/sec)" description="Field: Data Terminal Rate (bits/sec)" value="Data Terminal Rate (bits/sec)"/>
-	<!--IDS_STRING1069          "Data Terminal Rate (bits/sec):"-->
 
 	<Message optional="true" key="Stop Bits" description="Field: Stop Bits" value="Stop Bits"/>
 
@@ -164,20 +152,11 @@
 		<Item text="Not Present"/>
 	</Enumeration>
 
-<!--IDS_STRING1082          "DTE Present:"-->
-	<Message optional="true" key="DTE Present" description="Field: DTE Present" value="DTE Present"/>
-	<!--IDS_STRING1083          "Carrier Control:"-->
-	<Message optional="true" key="Carrier Control" description="Field: Carrier Control" value="Carrier Control"/>
 	<Enumeration optional="true" key="UsbCommCarrierControl" description="USB CDC Carrier Control list">
 		<Item text="Deactivate Carrier"/>
 		<Item text="Activate Carrier"/>
 	</Enumeration>
 	
-	<!--IDS_STRING1086          "Ringer Pattern:"-->
-	<Message optional="true" key="Ringer Pattern" description="Field: Ringer Pattern" value="Ringer Pattern"/>
-	<!--IDS_STRING1087          "Volume Settings:"-->
-	<Message optional="true" key="Volume Settings" description="Field: Volume Settings" value="Volume Settings"/>
-
 	<Message optional="true" key="Ringer Exists" description="Field: Ringer Exists" value="Ringer Exists"/>
 <!--IDS_STRING1088          "Ringer Exists:"-->
 
@@ -187,11 +166,7 @@
 		<Item text="Host Centric Mode"/>
 	</Enumeration>
 
-	<Message optional="true" key="Mode" description="Field: Mode" value="Mode"/>
-<!--IDS_STRING1094          "Mode:"-->
-	<Message optional="true" key="Line State Change" description="Field: Line State Change" value="Line State Change"/>
-	<!--IDS_STRING1095          "Line State Change:"-->
-
+	
 	<Enumeration optional="true" key="UsbCommLineStateChange" description="USB CDC Line State Change States list">
 		<Item text="Drop Active Call"/>
 		<Item text="Start A New Call"/>
@@ -210,36 +185,20 @@
 	</Message>
 
 
-	<Message optional="true" key="Dialing String" description="Field: Dialing String" value="Dialing String"/>
-<!--IDS_STRING1104          "Dialing String:"-->
-	<Message optional="true" key="Entity ID" description="Field: Entity ID" value="Entity ID"/>
-	<!--IDS_STRING1105          "Entity ID:"-->
-	<Message optional="true" key="Parameter Index" description="Field: Parameter Index" value="Parameter Index"/>
 	<Message optional="true" key="Parameter Length" description="Field: Parameter Length" value="Parameter Length"/>
 	<!--IDS_STRING1106          "Parameter Index:"-->
 	<Message optional="true" key="Parameter" description="Field: Parameter" value="Parameter"/>
 	<!--IDS_STRING1107          "Parameter:"-->
-	<Message optional="true" key="Profile Information" description="Field: Profile Information" value="Profile Information"/>
-	<!--IDS_STRING1108          "Profile Information:"-->
 	<Message optional="true" key="Number Of Filters" description="Field: Number Of Filters" value="Number Of Filters"/>
 	<!--IDS_STRING1109          "Number Of Filters:"-->
 	<Message optional="true" key="FilterN" description="Field: Filter" value="Filter{number}">
 		<Param name="number"/>
 	</Message>
 	<!--IDS_STRING1110          "Filter%d:"-->
-	<Message optional="true" key="Filter Number" description="Field: Filter Number" value="Filter Number"/>
-	<!--IDS_STRING1111          "Filter Number:"-->
 	<Message optional="true" key="Mask" description="Field: Mask" value="Mask"/>
 	<!--IDS_STRING1112          "Mask:"-->
-	<Message optional="true" key="Pattern" description="Field: Pattern" value="Pattern"/>
-	<!--IDS_STRING1113          "Pattern:"-->
 	<Message optional="true" key="Pattern Active Boolean" description="Field: Pattern Active Boolean" value="Pattern Active Boolean"/>
 	<!--IDS_STRING1114          "Pattern Active Boolean"-->
-	<Message optional="true" key="Promiscuous" description="Field: Promiscuous" value="Promiscuous"/>
-	<Message optional="true" key="All Multicast" description="Field: All Multicast" value="All Multicast"/>
-	<Message optional="true" key="Directed" description="Field: Directed" value="Directed"/>
-	<Message optional="true" key="Broadcast" description="Field: Broadcast" value="Broadcast"/>
-	<Message optional="true" key="Multicast" description="Field: Multicast" value="Multicast"/>
 	<Message optional="true" key="Feature Selector" description="Field: Feature Selector" value="Feature Selector"/>
 	<!--IDS_STRING1115          "Promiscuous:"
 	IDS_STRING1116          "All Multicast:"
@@ -286,9 +245,7 @@
 	</Enumeration>
 
 	<Message optional="true" key="Data" description="Field: Data" value="Data"/>
-	<Message optional="true" key="Data Format" description="Field: Data Format" value="Data Format"/>
 <!--IDS_STRING1152          "Data:"-->
-	<!--IDS_STRING1153          "Data Format:"-->
 
 	<Enumeration optional="true" key="UsbCommDataFormat" description="USB CDC Data Format list">
 		<Item text="Concatenated ATM cells"/>
@@ -358,8 +315,6 @@
 <Message optional="true" key="bOverRun" description="Field: bOverRun" value="bOverRun"/>
 	<!--IDS_STRING1189          "bOverRun"-->
 	
-<Message optional="true" key="Call State" description="Field: Call State" value="Call State"/>
-	<!--IDS_STRING1190          "Call State:"-->
 
 	<Enumeration optional="true" key="UsbCommCallState" description="USB CDC Call States list">
 		<Item text="Call Has Become Idle"/>
@@ -408,9 +363,6 @@
 	<!--IDS_STRING1212          "USBitRate:"
 	IDS_STRING1213          "DSBitRate:"-->
 
-<Message optional="true" key="Capabilities" description="Field: Capabilities" value="Capabilities"/>
-	<!--IDS_STRING1309          "Capabilities:"-->
-
 	<Enumeration optional="true" key="UsbCommDescriptors" description="USB CDC Descriptors list">
 		<Item text="Header Functional Descriptor"/>
 		<Item text="Call Management Functional Descriptor"/>
@@ -431,10 +383,6 @@
 		<Item text="ATM Networking Functional Descriptor"/>
 	</Enumeration>
 
-<Message optional="true" key="Data Interface" description="Field: Data Interface" value="Data Interface"/>
-	<!--IDS_STRING1327          "Data Interface:"-->
-<Message optional="true" key="Ringer Volume Steps" description="Field: Ringer Volume Steps" value="Ringer Volume Steps"/>
-	<!--IDS_STRING1328          "Ringer Volume Steps:"-->
 <Message optional="true" key="Simple Mode" description="Field: Simple Mode" value="Simple Mode"/>
 	<!--IDS_STRING1329          "Simple Mode"-->
 <Message optional="true" key="Standalone Mode" description="Field: Standalone Mode" value="Standalone Mode"/>
@@ -444,10 +392,8 @@
 <Message optional="true" key="Dialtone" description="Field: Dialtone" value="Dialtone"/>
 	<!--IDS_STRING1332          "Dialtone"-->
 <Message optional="true" key="Dialing State" description="Field: Dialing State" value="Dialing State"/>
-<Message optional="true" key="Caller ID" description="Field: Caller ID" value="Caller ID"/>
 <Message optional="true" key="Ringing" description="Field: Ringing" value="Ringing"/>
 <Message optional="true" key="DTMF digits" description="Field: DTMF digits" value="DTMF digits"/>
-<Message optional="true" key="Line State Change Notification" description="Field: Line State Change Notification" value="Line State Change Notification"/>
 
 <!--IDS_STRING1335          "Dialing State"
 		IDS_STRING1338          "Caller ID"
@@ -485,10 +431,6 @@
 	<!--IDS_STRING1352          "Country Code Release Date:"-->
 	<!--IDS_STRING1353          "CountryCode%d:"-->
 	<!--IDS_STRING1354          "Entity ID:"-->
-	<!--IDS_STRING1355          "In Interface Number:"-->
-<Message optional="true" key="In Interface Number" description="Field: In Interface Number" value="In Interface Number"/>
-<Message optional="true" key="Out Interface Number" description="Field: Out Interface Number" value="Out Interface Number"/>
-	<!--IDS_STRING1356          "Out Interface Number:"-->
 <Message optional="true" key="Options" description="Field: Options" value="Options"/>
 	<!--IDS_STRING1357          "Options:"-->
 	<Message optional="true" key="ChildIDN" description="Field: ChildID" value="ChildID{number}">
@@ -499,14 +441,8 @@
 
 <Message optional="true" key="Name (index)" description="Field: Name (index)" value="Name (index)"/>
 <!--IDS_STRING1360          "Name (index):"-->
-<Message optional="true" key="Channel Index" description="Field: Channel Index" value="Channel Index"/>
-	<!--IDS_STRING1361          "Channel Index:"-->
-<Message optional="true" key="Physical Interface" description="Field: Physical Interface" value="Physical Interface"/>
-	<!--IDS_STRING1362          "Physical Interface:"-->
 <Message optional="true" key="Protocol Code" description="Field: Protocol Code" value="Protocol Code"/>
 	<!--IDS_STRING1363          "Protocol Code:"-->
-<Message optional="true" key="Extension Code" description="Field: Extension Code" value="Extension Code"/>
-	<!--IDS_STRING1364          "Extension Code:"-->
 
 <Message optional="true" key="Device stores Unit parameters in non-volatile memory" description="Field: Device stores Unit parameters in non-volatile memory" value="Device stores Unit parameters in non-volatile memory"/>
 	<!--IDS_STRING1365          "Device stores Unit parameters in non-volatile memory"-->
@@ -526,8 +462,6 @@ IDS_STRING1367          "Device supports the request Set_Unit_Parameter"
 	<!--IDS_STRING1373          "Number Of Configurable Multicast Filters:"-->
 	<!--IDS_STRING1374          "Number Of Pattern Filters:"-->
 <Message optional="true" key="Number Of Pattern Filters" description="Field: Number Of Pattern Filters" value="Number Of Pattern Filters"/>
-<Message optional="true" key="Max Segment Size" description="Field: Max Segment Size" value="Max Segment Size"/>
-	<!--IDS_STRING1375          "Max Segment Size:"-->
 
 <Message optional="true" key="End System Identifier (string descriptor index)" description="Field: End System Identifier (string descriptor index)" value="End System Identifier (string descriptor index)"/>
 <!--IDS_STRING1376          "End System Identifier (string descriptor index):"-->
@@ -535,12 +469,6 @@ IDS_STRING1367          "Device supports the request Set_Unit_Parameter"
 	<!--IDS_STRING1378          "ATM Device Statistics:"-->
 <Message optional="true" key="ATM Device Statistics" description="Field: ATM Device Statistics" value="ATM Device Statistics"/>
 
-<Message optional="true" key="The Maximum Type 2 Segment Size" description="Field: The Maximum Type 2 Segment Size" value="The Maximum Type 2 Segment Size"/>
-<!--IDS_STRING1379          "The Maximum Type 2 Segment Size:"-->
-<Message optional="true" key="The Maximum Type 3 Segment Size" description="Field: The Maximum Type 3 Segment Size" value="The Maximum Type 3 Segment Size"/>
-	<!--IDS_STRING1380          "The Maximum Type 3 Segment Size:"-->
-<Message optional="true" key="Maximum Number Of Simultaneous Virtual Circuits" description="Field: Maximum Number Of Simultaneous Virtual Circuits" value="Maximum Number Of Simultaneous Virtual Circuits"/>
-	<!--IDS_STRING1381          "Maximum Number Of Simultaneous Virtual Circuits:"-->
 	<!--IDS_STRING1382          "XMIT_OK"
 	IDS_STRING1383          "RVC_OK"
 	IDS_STRING1384          "XMIT_ERROR"

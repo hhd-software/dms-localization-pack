@@ -58,4 +58,8 @@
     <Item value="Configurar ruta de reproducción…" revision="0" />
     <Item value="Especificar la ubicación de los archivos de registro para la reproducción" revision="0" />
   </Enumeration>
+  <Enumeration key="ClosingSessionWithoutLogging">
+    <Item />
+    <Item />
+  </Enumeration>
 </Language>

@@ -14,6 +14,9 @@
 	<Message key="Scheme" description="Field: Scheme"/>
 	<Message key="Delay" description="Common string: Delay"/>
 	<Message key="Error" description="Field: Error"/>
+	<Message key="Data" description="Field: Data"/>
+	<Message key="Length" description="Field: Length"/>
+	<Message key="Code" description="Field: Code"/>
 	<Message key="CsvFilesFilter" description="CSV files filter" value="Comma-separated Files|*.csv|">
 		<Validate rule="OpenFileDialogFilter" />
 	</Message>
@@ -27,4 +30,25 @@
 	<Message key="EmptyPath" description="Empty path cue banner text" value="Empty"/>
 
 	<Message key="bytes" description="Common string: bytes, as in &quot;… NN bytes&quot;" value="bytes"/>
+
+	<!-- HID Send -->
+	<Message key="Device:" description="Field: Device"/>
+	<Message key="Function:" description="Field: Function"/>
+	<Message key="Value:" description="Field: Value"/>
+	<Message key="Send" description="Button: Send"/>
+
+	<Message key="Report ID:" description="Field: Report ID"/>
+	<Message key="Count:" description="Field: Count"/>
+	<Message key="Report Type:" description="Field: Report Type"/>
+	<Message key="Usage Page:" description="Field: Usage Page"/>
+	<Message key="Usage:" description="Field: Usage"/>
+	<Message key="Success" description="Common string: Success"/>
+	<Message key="Fail" description="Common string: Fail"/>
+
+	<!-- MODBUS Send -->
+	<Message key="Session:" description="Field: Session"/>
+	<Message key="Mode:" description="Field: Mode"/>
+	<Message key="Address:" description="Field: Address"/>
+	<Message key="Total Length:" description="Field: Total Length"/>
+
 </Definition>
