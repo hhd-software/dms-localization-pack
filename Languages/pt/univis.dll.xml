@@ -32,7 +32,7 @@
   <Message key="Ignore packet delay (burst mode)" value="Ignorar o atraso do pacote (modo burst)" revision="0" />
   <Message key="Loop mode:" value="Modo loop:" revision="0" />
   <Message key="loops" value="laços" revision="0" />
-  <Message key="Loop delay:" value="Retardamento entre ciclos:" revision="0" />
+  <Message key="Loop delay:" value="Atraso do loop:" revision="0" />
   <Message key="milliseconds" value="milissegundos" revision="0" />
   <Message key="Close this window after sending packets" value="Fechar esta janela depois de enviar os pacotes" revision="0" />
   <Message key="Packets Statistics" value="Estatísticas de pacotes" revision="0" />
