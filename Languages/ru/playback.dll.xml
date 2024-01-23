@@ -38,6 +38,7 @@
   <Message key="Update..." value="Обновить…" revision="0" />
   <Message key="Recorded sessions" value="Сохранённые сессии" revision="0" />
   <Message key="Next" value="Следующий" revision="0" />
+  <Message key="PlaybackCategoryFilter" value="Воспроизведение" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Воспроизведение" revision="0" />
     <Item value="Воспроизведение данных позволяет проигрывать записанные сессии мониторинга, что дает возможность отложенного анализа устройства." revision="0" />

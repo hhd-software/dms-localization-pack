@@ -38,6 +38,7 @@
   <Message key="Update..." value="Atualização…" revision="0" />
   <Message key="Recorded sessions" value="Sessões gravadas" revision="0" />
   <Message key="Next" value="Seguinte" revision="0" />
+  <Message key="PlaybackCategoryFilter" value="Reprodução" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Reprodução" revision="0" />
     <Item value="A fonte de dados de reprodução reproduz as sessões de monitorização gravadas, permitindo uma análise diferida do dispositivo." revision="0" />

@@ -101,6 +101,7 @@
   <Message key="Collapse session" value="Clique para recolher as informações da sessão" revision="0" />
   <Message key="Expand session" value="Clique para expandir as informações sobre a sessão" revision="0" />
   <Message key="Processing Module Configuration" value="Configuração do módulo de processamento" revision="0" />
+  <Message key="HiddenDevicesCategoryFilter" value="Dispositivos ocultos" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Padrão de nomenclatura para o Visualizador" revision="0" />
     <Item value="[Nome do dispositivo] - [Nome do visualizador]" revision="0" />
