@@ -165,4 +165,6 @@
 	<Message key="Recorded sessions" description="Device category name: Recorded sessions"/>
 
 	<Message key="Next" description="Button: Next (Playback status bar)"/>
+
+	<Message key="PlaybackCategoryFilter" description="Device category filter: Playback" value="Playback"/>
 </Definition>

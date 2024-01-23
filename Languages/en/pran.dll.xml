@@ -87,7 +87,7 @@
 	<Message key="IDS_NOSERIALDEVICES" description="Not enough serial devices found" value="Not enough serial devices found. You need at least two different serial devices in order to create a bridge."/>
 	<Message key="IDS_BRIDGEERROR" description="Message Box Title: Bridge Creation Error" value="Bridge Creation Error"/>
 	<Message key="IDS_BRIDGEALREADYEXISTS" description="Bridge already exists" value="Bridge with this name already exists. Specify another name."/>
-	<Message key="IDS_CATEGORYFILTER" description="Bridge Category Filter" value="Serial Bridge"></Message>
+	<Message key="IDS_CATEGORYFILTER" description="Device category filter: Serial Bridge" value="Serial Bridge" />
 
 	<!-- Bridge Name dialog -->
 	<Message key="Enter Bridge Name" description="Window title: Enter Bridge Name" />

@@ -285,7 +285,7 @@
 	<!-- Windows -->
 	<Message key="Set Custom Flow Control" description="Window title: Set Custom Flow Control"/>
 
-	<Message key="Serial" description="Root device category name: Serial"/>
+	<Message key="Serial" description="Device category filter: Serial"/>
 
 	<Enumeration key="SessionTypeTutorialSteps" description="Session Type window tutoral.">
 		<Item text="Serial Session Type Configuration"/>
@@ -293,4 +293,3 @@
 		<Item text="Turn this option [[[bon]]] if you don't have a third-party application that is going to open (or has already opened) a serial device. Having this option [[[bon]]] starts a terminal emulation session [[[iin addition]]] to a monitoring session. You might also need to configure serial port parameters in this case.\n\nTurn this option [[[boff]]] if the port is already opened by third-party monitored application, or if it is going to be opened."/>
 	</Enumeration>
 </Definition>
-
