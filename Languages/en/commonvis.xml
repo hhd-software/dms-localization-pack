@@ -74,66 +74,66 @@
 		<Item text="Display line numbers"/>
 	</Enumeration>
 
-	<Message key="Errors" description="Serial Request View: SERIAL_STATUS: Errors"/>
-	<Message key="Hold reasons" description="Serial Request View: SERIAL_STATUS: Hold reasons"/>
-	<Message key="In queue" description="Serial Request View: SERIAL_STATUS: In queue"/>
-	<Message key="Out queue" description="Serial Request View: SERIAL_STATUS: Out queue"/>
-	<Message key="EOF received" description="Serial Request View: SERIAL_STATUS: EOF received"/>
-	<Message key="Wait for immediate" description="Serial Request View: SERIAL_STATUS: Wait for immediate"/>
+	<Message optional="true" key="Errors" description="Serial Request View: SERIAL_STATUS: Errors"/>
+	<Message optional="true" key="Hold reasons" description="Serial Request View: SERIAL_STATUS: Hold reasons"/>
+	<Message optional="true" key="In queue" description="Serial Request View: SERIAL_STATUS: In queue"/>
+	<Message optional="true" key="Out queue" description="Serial Request View: SERIAL_STATUS: Out queue"/>
+	<Message optional="true" key="EOF received" description="Serial Request View: SERIAL_STATUS: EOF received"/>
+	<Message optional="true" key="Wait for immediate" description="Serial Request View: SERIAL_STATUS: Wait for immediate"/>
 
-	<Message key="Control lines" description="Serial Request View: HANDFLOW: Control lines" />
-	<Message key="Flow control" description="Serial Request View: HANDFLOW: Flow control" />
-	<Message key="Xon Limit" description="Serial Request View: HANDFLOW: Xon Limit" />
-	<Message key="Xoff Limit" description="Serial Request View: HANDFLOW: Xoff Limit" />
+	<Message optional="true" key="Control lines" description="Serial Request View: HANDFLOW: Control lines" />
+	<Message optional="true" key="Flow control" description="Serial Request View: HANDFLOW: Flow control" />
+	<Message optional="true" key="Xon Limit" description="Serial Request View: HANDFLOW: Xon Limit" />
+	<Message optional="true" key="Xoff Limit" description="Serial Request View: HANDFLOW: Xoff Limit" />
 
 	<!--SERIAL_LINE_CONTROL-->
 
-	<Message key="Stop bits" description="Serial Request View: SERIAL_LINE_CONTROL: Stop bits" />
-	<Message key="Parity" description="Serial Request View: SERIAL_LINE_CONTROL: Parity" />
-	<Message key="Data bits" description="Serial Request View: SERIAL_LINE_CONTROL: Data bits" />
+	<Message optional="true" key="Stop bits" description="Serial Request View: SERIAL_LINE_CONTROL: Stop bits" />
+	<Message optional="true" key="Parity" description="Serial Request View: SERIAL_LINE_CONTROL: Parity" />
+	<Message optional="true" key="Data bits" description="Serial Request View: SERIAL_LINE_CONTROL: Data bits" />
 
 	<!--COMMPROP-->
 
-	<Message key="Max Tx Queue" description="Serial Request View: COMMPROP: Max Tx Queue" />
-	<Message key="Max Rx Queue" description="Serial Request View: COMMPROP: Max Rx Queue" />
-	<Message key="Provider type" description="Serial Request View: COMMPROP: Provider type" />
-	<Message key="Max baud" description="Serial Request View: COMMPROP: Max baud" />
-	<Message key="Supported baud rates" description="Serial Request View: COMMPROP: Supported baud rates" />
-	<Message key="Supported parameters" description="Serial Request View: COMMPROP: Supported parameters" />
-	<Message key="Supported data" description="Serial Request View: COMMPROP: Supported data" />
-	<Message key="Supported stop bits and parity" description="Serial Request View: COMMPROP: Supported stop bits and parity" />
-	<Message key="Current Tx queue" description="Serial Request View: COMMPROP: Current Tx queue" />
-	<Message key="Current Rx queue" description="Serial Request View: COMMPROP: Current Rx queue" />
+	<Message optional="true" key="Max Tx Queue" description="Serial Request View: COMMPROP: Max Tx Queue" />
+	<Message optional="true" key="Max Rx Queue" description="Serial Request View: COMMPROP: Max Rx Queue" />
+	<Message optional="true" key="Provider type" description="Serial Request View: COMMPROP: Provider type" />
+	<Message optional="true" key="Max baud" description="Serial Request View: COMMPROP: Max baud" />
+	<Message optional="true" key="Supported baud rates" description="Serial Request View: COMMPROP: Supported baud rates" />
+	<Message optional="true" key="Supported parameters" description="Serial Request View: COMMPROP: Supported parameters" />
+	<Message optional="true" key="Supported data" description="Serial Request View: COMMPROP: Supported data" />
+	<Message optional="true" key="Supported stop bits and parity" description="Serial Request View: COMMPROP: Supported stop bits and parity" />
+	<Message optional="true" key="Current Tx queue" description="Serial Request View: COMMPROP: Current Tx queue" />
+	<Message optional="true" key="Current Rx queue" description="Serial Request View: COMMPROP: Current Rx queue" />
 
 	<!--SERIAL_TIMEOUTS-->
 
-	<Message key="Read interval" description="Serial Request View: SERIAL_TIMEOUTS: Read interval" />
-	<Message key="Read total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Read total multiplier" />
-	<Message key="Read total constant" description="Serial Request View: SERIAL_TIMEOUTS: Read total constant" />
-	<Message key="Write total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Write total multiplier" />
-	<Message key="Write total constant" description="Serial Request View: SERIAL_TIMEOUTS: Write total constant" />
+	<Message optional="true" key="Read interval" description="Serial Request View: SERIAL_TIMEOUTS: Read interval" />
+	<Message optional="true" key="Read total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Read total multiplier" />
+	<Message optional="true" key="Read total constant" description="Serial Request View: SERIAL_TIMEOUTS: Read total constant" />
+	<Message optional="true" key="Write total multiplier" description="Serial Request View: SERIAL_TIMEOUTS: Write total multiplier" />
+	<Message optional="true" key="Write total constant" description="Serial Request View: SERIAL_TIMEOUTS: Write total constant" />
 
 
 	<!--SERIALPERF_STATS-->
 
-	<Message key="Received bytes" description="Serial Request View: SERIALPERF_STATS: Received bytes" />
-	<Message key="Transmitted bytes" description="Serial Request View: SERIALPERF_STATS: Transmitted bytes" />
-	<Message key="Frame errors" description="Serial Request View: SERIALPERF_STATS: Frame errors" />
-	<Message key="Serial Overrun errors" description="Serial Request View: SERIALPERF_STATS: Serial Overrun errors" />
-	<Message key="Buffer Overrun errors" description="Serial Request View: SERIALPERF_STATS: Buffer Overrun errors" />
-	<Message key="Parity errors" description="Serial Request View: SERIALPERF_STATS: Parity errors" />
+	<Message optional="true" key="Received bytes" description="Serial Request View: SERIALPERF_STATS: Received bytes" />
+	<Message optional="true" key="Transmitted bytes" description="Serial Request View: SERIALPERF_STATS: Transmitted bytes" />
+	<Message optional="true" key="Frame errors" description="Serial Request View: SERIALPERF_STATS: Frame errors" />
+	<Message optional="true" key="Serial Overrun errors" description="Serial Request View: SERIALPERF_STATS: Serial Overrun errors" />
+	<Message optional="true" key="Buffer Overrun errors" description="Serial Request View: SERIALPERF_STATS: Buffer Overrun errors" />
+	<Message optional="true" key="Parity errors" description="Serial Request View: SERIALPERF_STATS: Parity errors" />
 
 
 	<!--SET_QUEUE_SIZE-->
 
-	<Message key="Input queue size" description="Serial Request View: SET_QUEUE_SIZE: Input queue size" />
-	<Message key="Output queue size" description="Serial Request View: SET_QUEUE_SIZE: Output queue size" />
+	<Message optional="true" key="Input queue size" description="Serial Request View: SET_QUEUE_SIZE: Input queue size" />
+	<Message optional="true" key="Output queue size" description="Serial Request View: SET_QUEUE_SIZE: Output queue size" />
 
-	<Message key="Escape character" description="Serial Request View: Escape character" />
-	<Message key="Wait Mask" description="Serial Request View: Wait Mask" />
-	<Message key="Baud Rate" description="Serial Request View: Baud Rate" />
-	<Message key="Character" description="Serial Request View: Character" />
-	<Message key="Mask" description="Serial Request View: Mask" />
+	<Message optional="true" key="Escape character" description="Serial Request View: Escape character" />
+	<Message optional="true" key="Wait Mask" description="Serial Request View: Wait Mask" />
+	<Message optional="true" key="Baud Rate" description="Serial Request View: Baud Rate" />
+	<Message optional="true" key="Character" description="Serial Request View: Character" />
+	<Message optional="true" key="Mask" description="Serial Request View: Mask" />
 
 	<!-- New USB Video View (based on Custom View) localization -->
 
@@ -172,125 +172,125 @@
 		<Item text="Dump"/>
 	</Enumeration>
 
-	<Message key="Hint(bitmap)" description="USB Video View visualizer: Hint(bitmap)" />
-	<Message key="Format Index" description="USB Video View visualizer: Format Index" />
-	<Message key="Frame Index" description="USB Video View visualizer: Frame Index" />
-	<Message key="Frame Interval(in 100 ns)" description="USB Video View visualizer: Frame Interval(in 100 ns)" />
-	<Message key="Key Frame Rate" description="USB Video View visualizer: Key Frame Rate" />
-	<Message key="P Frame Rate" description="USB Video View visualizer: P Frame Rate" />
-	<Message key="Compression Quality" description="USB Video View visualizer: Compression Quality" />
-	<Message key="Compression Window Size" description="USB Video View visualizer: Compression Window Size" />
-	<Message key="Delay" description="USB Video View visualizer: Delay" />
-	<Message key="Max Video Frame Size" description="USB Video View visualizer: Max Video Frame Size" />
-	<Message key="Max Payload Transfer Size" description="USB Video View visualizer: Max Payload Transfer Size" />
-	<Message key="Subtype" description="USB Video View visualizer: Subtype"/>
-	<Message key="Interface" description="USB Video View visualizer: Interface"/>
-	<Message key="Unit ID" description="USB Video View visualizer: Unit ID"/>
-	<Message key="DevicePowerMode" description="USB Video View visualizer: DevicePowerMode"/>
-	<Message key="PowerMode" description="USB Video View visualizer: PowerMode"/>
-	<Message key="DeviceDependentMode" description="USB Video View visualizer: DeviceDependentMode"/>
-	<Message key="SuppliedByUsb" description="USB Video View visualizer: SuppliedByUsb"/>
-	<Message key="SuppliedByBattery" description="USB Video View visualizer: SuppliedByBattery"/>
-	<Message key="SuppliedByAc" description="USB Video View visualizer: SuppliedByAc"/>
-	<Message key="RequestErrorCode" description="USB Video View visualizer: RequestErrorCode"/>
-	<Message key="ScanningModeName" description="USB Video View visualizer: ScanningModeName"/>
-	<Message key="Manual Mode" description="USB Video View visualizer: Manual Mode"/>
-	<Message key="Auto Mode" description="USB Video View visualizer: Auto Mode"/>
-	<Message key="Shutter Priority Mode" description="USB Video View visualizer: Shutter Priority Mode"/>
-	<Message key="Aperture Priority Mode" description="USB Video View visualizer: Aperture Priority Mode"/>
-	<Message key="Reserved" description="USB Video View visualizer: Reserved"/>
-	<Message key="Auto Exposure Priority" description="USB Video View visualizer: Auto Exposure Priority"/>
-	<Message key="Exposure Time Absolute Value" description="USB Video View visualizer: Exposure Time Absolute Value"/>
-	<Message key="Exposure Time Relative" description="USB Video View visualizer: Exposure Time Relative"/>
-	<Message key="Focus Absolute Value" description="USB Video View visualizer: Focus Absolute Value"/>
-	<Message key="Focus Relative Value" description="USB Video View visualizer: Focus Relative Value" />
-	<Message key="Focus Auto" description="USB Video View visualizer: Focus Auto" />
-	<Message key="Iris Absolute Value" description="USB Video View visualizer: Iris Absolute Value" />
-	<Message key="Iris Relative Value" description="USB Video View visualizer: Iris Relative Value" />
-	<Message key="Objective Focal Length" description="USB Video View visualizer: Objective Focal Length" />
-	<Message key="Zoom" description="USB Video View visualizer: Zoom" />
-	<Message key="Digital Zoom" description="USB Video View visualizer: Digital Zoom" />
-	<Message key="Speed" description="USB Video View visualizer: Speed" />
-	<Message key="Pan Absolute" description="USB Video View visualizer: Pan Absolute" />
-	<Message key="Tilt Absolute" description="USB Video View visualizer: Tilt Absolute" />
-	<Message key="Pan Relative" description="USB Video View visualizer: Pan Relative" />
-	<Message key="Tilt Relative" description="USB Video View visualizer: Tilt Relative" />
-	<Message key="Tilt Speed" description="USB Video View visualizer: Tilt Speed" />
-	<Message key="Roll Absolute" description="USB Video View visualizer: Roll Absolute" />
-	<Message key="Roll Relative" description="USB Video View visualizer: Roll Relative" />
-	<Message key="Privacy Control" description="USB Video View visualizer: Privacy Control" />
-	<Message key="Focus" description="USB Video View visualizer: Focus" />
-	<Message key="Window Top" description="USB Video View visualizer: Window Top" />
-	<Message key="Window Left" description="USB Video View visualizer: Window Left" />
-	<Message key="Window Bottom" description="USB Video View visualizer: Window Bottom" />
-	<Message key="Window Right" description="USB Video View visualizer: Window Right" />
-	<Message key="Num Steps" description="USB Video View visualizer: Num Steps" />
-	<Message key="Num Steps Units (bitmap)" description="USB Video View visualizer: Num Steps Units (bitmap)" />
-	<Message key="Auto Exposure" description="USB Video View visualizer: Auto Exposure" />
-	<Message key="Auto Iris" description="USB Video View visualizer: Auto Iris" />
-	<Message key="Auto White Balance" description="USB Video View visualizer: Auto White Balance" />
-	<Message key="Auto Focus" description="USB Video View visualizer: Auto Focus" />
-	<Message key="Auto Face Detect" description="USB Video View visualizer: Auto Face Detect" />
-	<Message key="Auto Detect And Track" description="USB Video View visualizer: Auto Detect And Track" />
-	<Message key="Image Stabilization" description="USB Video View visualizer: Image Stabilization" />
-	<Message key="Higher Quality" description="USB Video View visualizer: Higher Quality" />
-	<Message key="Selector" description="USB Video View visualizer: Selector" />
-	<Message key="Backlight Compensation" description="USB Video View visualizer: Backlight Compensation" />
-	<Message key="Brightness" description="USB Video View visualizer: Brightness" />
-	<Message key="Contrast" description="USB Video View visualizer: Contrast" />
-	<Message key="Gain" description="USB Video View visualizer: Gain" />
-	<Message key="Power Line Frequency" description="USB Video View visualizer: Power Line Frequency" />
-	<Message key="Hue" description="USB Video View visualizer: Hue" />
-	<Message key="Saturation" description="USB Video View visualizer: Saturation" />
-	<Message key="Sharpness" description="USB Video View visualizer: Sharpness" />
-	<Message key="Gamma" description="USB Video View visualizer: Gamma" />
-	<Message key="White Balance Temperature" description="USB Video View visualizer: White Balance Temperature" />
-	<Message key="White Balance Blue" description="USB Video View visualizer: White Balance Blue" />
-	<Message key="White Balance Red" description="USB Video View visualizer: White Balance Red" />
-	<Message key="Auto White Balance Component" description="USB Video View visualizer: Auto White Balance Component" />
-	<Message key="Multiplier Step" description="USB Video View visualizer: Multiplier Step" />
-	<Message key="Multiplier Limit" description="USB Video View visualizer: Multiplier Limit" />
-	<Message key="Auto Hue" description="USB Video View visualizer: Auto Hue" />
-	<Message key="Video Standard" description="USB Video View visualizer: Video Standard" />
-	<Message key="Status" description="USB Video View visualizer: Status" />
-	<Message key="Auto Contrast" description="USB Video View visualizer: Auto Contrast" />
-	<Message key="Layer Or View ID" description="USB Video View visualizer: Layer Or View ID" />
-	<Message key="Profile" description="USB Video View visualizer: Profile" />
-	<Message key="Constrained Toolset" description="USB Video View visualizer: Constrained Toolset" />
-	<Message key="Settings (bitmap)" description="USB Video View visualizer: Settings (bitmap)" />
-	<Message key="Width" description="USB Video View visualizer: Width" />
-	<Message key="Height" description="USB Video View visualizer: Height" />
-	<Message key="Frame Interval" description="USB Video View visualizer: Frame Interval" />
-	<Message key="Slice Mode" description="USB Video View visualizer: Slice Mode" />
-	<Message key="Slice Config Setting" description="USB Video View visualizer: Slice Config Setting" />
-	<Message key="Rate Control Mode" description="USB Video View visualizer: Rate Control Mode" />
-	<Message key="Average Bit Rate" description="USB Video View visualizer: Average Bit Rate" />
-	<Message key="CPB Size" description="USB Video View visualizer: CPB Size" />
-	<Message key="Peak Bit Rate" description="USB Video View visualizer: Peak Bit Rate" />
-	<Message key="Qp Prime I" description="USB Video View visualizer: Qp Prime I" />
-	<Message key="Qp Prime P" description="USB Video View visualizer: Qp Prime P" />
-	<Message key="Qp Prime B" description="USB Video View visualizer: Qp Prime B" />
-	<Message key="Sync Frame Type" description="USB Video View visualizer: Sync Frame Type" />
-	<Message key="Sync Frame Interval" description="USB Video View visualizer: Sync Frame Interval" />
-	<Message key="Gradual Decoder Refresh" description="USB Video View visualizer: Gradual Decoder Refresh" />
-	<Message key="Num Host Control LTR Buffers" description="USB Video View visualizer: Num Host Control LTR Buffers" />
-	<Message key="Trust Mode" description="USB Video View visualizer: Trust Mode" />
-	<Message key="Put At Position In LTR Buffer" description="USB Video View visualizer: Put At Position In LTR Buffer" />
-	<Message key="LTR Mode" description="USB Video View visualizer: LTR Mode" />
-	<Message key="Valid LTRs (bitmap)" description="USB Video View visualizer: Valid LTRs (bitmap)" />
-	<Message key="IDC Level" description="USB Video View visualizer: IDC Level" />
-	<Message key="SEI Messages (bitmap)" description="USB Video View visualizer: SEI Messages (bitmap)" />
-	<Message key="Min Qp" description="USB Video View visualizer: Min Qp" />
-	<Message key="Max Qp" description="USB Video View visualizer: Max Qp" />
-	<Message key="Priority" description="USB Video View visualizer: Priority" />
-	<Message key="Update" description="USB Video View visualizer: Update" />
-	<Message key="Error Resiliency Features (bitmap)" description="USB Video View visualizer: Error Resiliency Features (bitmap)" />
-	<Message key="Compression Index" description="USB Video View visualizer: Compression Index" />
-	<Message key="Trigger" description="USB Video View visualizer: Trigger" />
-	<Message key="Stream Error Code" description="USB Video View visualizer: Stream Error Code" />
-	<Message key="Generate Key Frame" description="USB Video View visualizer: Generate Key Frame" />
-	<Message key="Start Frame Segment" description="USB Video View visualizer: Start Frame Segment" />
-	<Message key="End Frame Segment" description="USB Video View visualizer: End Frame Segment" />
+	<Message optional="true" key="Hint(bitmap)" description="USB Video View visualizer: Hint(bitmap)" />
+	<Message optional="true" key="Format Index" description="USB Video View visualizer: Format Index" />
+	<Message optional="true" key="Frame Index" description="USB Video View visualizer: Frame Index" />
+	<Message optional="true" key="Frame Interval(in 100 ns)" description="USB Video View visualizer: Frame Interval(in 100 ns)" />
+	<Message optional="true" key="Key Frame Rate" description="USB Video View visualizer: Key Frame Rate" />
+	<Message optional="true" key="P Frame Rate" description="USB Video View visualizer: P Frame Rate" />
+	<Message optional="true" key="Compression Quality" description="USB Video View visualizer: Compression Quality" />
+	<Message optional="true" key="Compression Window Size" description="USB Video View visualizer: Compression Window Size" />
+	<Message optional="true" key="Delay" description="USB Video View visualizer: Delay" />
+	<Message optional="true" key="Max Video Frame Size" description="USB Video View visualizer: Max Video Frame Size" />
+	<Message optional="true" key="Max Payload Transfer Size" description="USB Video View visualizer: Max Payload Transfer Size" />
+	<Message optional="true" key="Subtype" description="USB Video View visualizer: Subtype"/>
+	<Message optional="true" key="Interface" description="USB Video View visualizer: Interface"/>
+	<Message optional="true" key="Unit ID" description="USB Video View visualizer: Unit ID"/>
+	<Message optional="true" key="DevicePowerMode" description="USB Video View visualizer: DevicePowerMode"/>
+	<Message optional="true" key="PowerMode" description="USB Video View visualizer: PowerMode"/>
+	<Message optional="true" key="DeviceDependentMode" description="USB Video View visualizer: DeviceDependentMode"/>
+	<Message optional="true" key="SuppliedByUsb" description="USB Video View visualizer: SuppliedByUsb"/>
+	<Message optional="true" key="SuppliedByBattery" description="USB Video View visualizer: SuppliedByBattery"/>
+	<Message optional="true" key="SuppliedByAc" description="USB Video View visualizer: SuppliedByAc"/>
+	<Message optional="true" key="RequestErrorCode" description="USB Video View visualizer: RequestErrorCode"/>
+	<Message optional="true" key="ScanningModeName" description="USB Video View visualizer: ScanningModeName"/>
+	<Message optional="true" key="Manual Mode" description="USB Video View visualizer: Manual Mode"/>
+	<Message optional="true" key="Auto Mode" description="USB Video View visualizer: Auto Mode"/>
+	<Message optional="true" key="Shutter Priority Mode" description="USB Video View visualizer: Shutter Priority Mode"/>
+	<Message optional="true" key="Aperture Priority Mode" description="USB Video View visualizer: Aperture Priority Mode"/>
+	<Message optional="true" key="Reserved" description="USB Video View visualizer: Reserved"/>
+	<Message optional="true" key="Auto Exposure Priority" description="USB Video View visualizer: Auto Exposure Priority"/>
+	<Message optional="true" key="Exposure Time Absolute Value" description="USB Video View visualizer: Exposure Time Absolute Value"/>
+	<Message optional="true" key="Exposure Time Relative" description="USB Video View visualizer: Exposure Time Relative"/>
+	<Message optional="true" key="Focus Absolute Value" description="USB Video View visualizer: Focus Absolute Value"/>
+	<Message optional="true" key="Focus Relative Value" description="USB Video View visualizer: Focus Relative Value" />
+	<Message optional="true" key="Focus Auto" description="USB Video View visualizer: Focus Auto" />
+	<Message optional="true" key="Iris Absolute Value" description="USB Video View visualizer: Iris Absolute Value" />
+	<Message optional="true" key="Iris Relative Value" description="USB Video View visualizer: Iris Relative Value" />
+	<Message optional="true" key="Objective Focal Length" description="USB Video View visualizer: Objective Focal Length" />
+	<Message optional="true" key="Zoom" description="USB Video View visualizer: Zoom" />
+	<Message optional="true" key="Digital Zoom" description="USB Video View visualizer: Digital Zoom" />
+	<Message optional="true" key="Speed" description="USB Video View visualizer: Speed" />
+	<Message optional="true" key="Pan Absolute" description="USB Video View visualizer: Pan Absolute" />
+	<Message optional="true" key="Tilt Absolute" description="USB Video View visualizer: Tilt Absolute" />
+	<Message optional="true" key="Pan Relative" description="USB Video View visualizer: Pan Relative" />
+	<Message optional="true" key="Tilt Relative" description="USB Video View visualizer: Tilt Relative" />
+	<Message optional="true" key="Tilt Speed" description="USB Video View visualizer: Tilt Speed" />
+	<Message optional="true" key="Roll Absolute" description="USB Video View visualizer: Roll Absolute" />
+	<Message optional="true" key="Roll Relative" description="USB Video View visualizer: Roll Relative" />
+	<Message optional="true" key="Privacy Control" description="USB Video View visualizer: Privacy Control" />
+	<Message optional="true" key="Focus" description="USB Video View visualizer: Focus" />
+	<Message optional="true" key="Window Top" description="USB Video View visualizer: Window Top" />
+	<Message optional="true" key="Window Left" description="USB Video View visualizer: Window Left" />
+	<Message optional="true" key="Window Bottom" description="USB Video View visualizer: Window Bottom" />
+	<Message optional="true" key="Window Right" description="USB Video View visualizer: Window Right" />
+	<Message optional="true" key="Num Steps" description="USB Video View visualizer: Num Steps" />
+	<Message optional="true" key="Num Steps Units (bitmap)" description="USB Video View visualizer: Num Steps Units (bitmap)" />
+	<Message optional="true" key="Auto Exposure" description="USB Video View visualizer: Auto Exposure" />
+	<Message optional="true" key="Auto Iris" description="USB Video View visualizer: Auto Iris" />
+	<Message optional="true" key="Auto White Balance" description="USB Video View visualizer: Auto White Balance" />
+	<Message optional="true" key="Auto Focus" description="USB Video View visualizer: Auto Focus" />
+	<Message optional="true" key="Auto Face Detect" description="USB Video View visualizer: Auto Face Detect" />
+	<Message optional="true" key="Auto Detect And Track" description="USB Video View visualizer: Auto Detect And Track" />
+	<Message optional="true" key="Image Stabilization" description="USB Video View visualizer: Image Stabilization" />
+	<Message optional="true" key="Higher Quality" description="USB Video View visualizer: Higher Quality" />
+	<Message optional="true" key="Selector" description="USB Video View visualizer: Selector" />
+	<Message optional="true" key="Backlight Compensation" description="USB Video View visualizer: Backlight Compensation" />
+	<Message optional="true" key="Brightness" description="USB Video View visualizer: Brightness" />
+	<Message optional="true" key="Contrast" description="USB Video View visualizer: Contrast" />
+	<Message optional="true" key="Gain" description="USB Video View visualizer: Gain" />
+	<Message optional="true" key="Power Line Frequency" description="USB Video View visualizer: Power Line Frequency" />
+	<Message optional="true" key="Hue" description="USB Video View visualizer: Hue" />
+	<Message optional="true" key="Saturation" description="USB Video View visualizer: Saturation" />
+	<Message optional="true" key="Sharpness" description="USB Video View visualizer: Sharpness" />
+	<Message optional="true" key="Gamma" description="USB Video View visualizer: Gamma" />
+	<Message optional="true" key="White Balance Temperature" description="USB Video View visualizer: White Balance Temperature" />
+	<Message optional="true" key="White Balance Blue" description="USB Video View visualizer: White Balance Blue" />
+	<Message optional="true" key="White Balance Red" description="USB Video View visualizer: White Balance Red" />
+	<Message optional="true" key="Auto White Balance Component" description="USB Video View visualizer: Auto White Balance Component" />
+	<Message optional="true" key="Multiplier Step" description="USB Video View visualizer: Multiplier Step" />
+	<Message optional="true" key="Multiplier Limit" description="USB Video View visualizer: Multiplier Limit" />
+	<Message optional="true" key="Auto Hue" description="USB Video View visualizer: Auto Hue" />
+	<Message optional="true" key="Video Standard" description="USB Video View visualizer: Video Standard" />
+	<Message optional="true" key="Status" description="USB Video View visualizer: Status" />
+	<Message optional="true" key="Auto Contrast" description="USB Video View visualizer: Auto Contrast" />
+	<Message optional="true" key="Layer Or View ID" description="USB Video View visualizer: Layer Or View ID" />
+	<Message optional="true" key="Profile" description="USB Video View visualizer: Profile" />
+	<Message optional="true" key="Constrained Toolset" description="USB Video View visualizer: Constrained Toolset" />
+	<Message optional="true" key="Settings (bitmap)" description="USB Video View visualizer: Settings (bitmap)" />
+	<Message optional="true" key="Width" description="USB Video View visualizer: Width" />
+	<Message optional="true" key="Height" description="USB Video View visualizer: Height" />
+	<Message optional="true" key="Frame Interval" description="USB Video View visualizer: Frame Interval" />
+	<Message optional="true" key="Slice Mode" description="USB Video View visualizer: Slice Mode" />
+	<Message optional="true" key="Slice Config Setting" description="USB Video View visualizer: Slice Config Setting" />
+	<Message optional="true" key="Rate Control Mode" description="USB Video View visualizer: Rate Control Mode" />
+	<Message optional="true" key="Average Bit Rate" description="USB Video View visualizer: Average Bit Rate" />
+	<Message optional="true" key="CPB Size" description="USB Video View visualizer: CPB Size" />
+	<Message optional="true" key="Peak Bit Rate" description="USB Video View visualizer: Peak Bit Rate" />
+	<Message optional="true" key="Qp Prime I" description="USB Video View visualizer: Qp Prime I" />
+	<Message optional="true" key="Qp Prime P" description="USB Video View visualizer: Qp Prime P" />
+	<Message optional="true" key="Qp Prime B" description="USB Video View visualizer: Qp Prime B" />
+	<Message optional="true" key="Sync Frame Type" description="USB Video View visualizer: Sync Frame Type" />
+	<Message optional="true" key="Sync Frame Interval" description="USB Video View visualizer: Sync Frame Interval" />
+	<Message optional="true" key="Gradual Decoder Refresh" description="USB Video View visualizer: Gradual Decoder Refresh" />
+	<Message optional="true" key="Num Host Control LTR Buffers" description="USB Video View visualizer: Num Host Control LTR Buffers" />
+	<Message optional="true" key="Trust Mode" description="USB Video View visualizer: Trust Mode" />
+	<Message optional="true" key="Put At Position In LTR Buffer" description="USB Video View visualizer: Put At Position In LTR Buffer" />
+	<Message optional="true" key="LTR Mode" description="USB Video View visualizer: LTR Mode" />
+	<Message optional="true" key="Valid LTRs (bitmap)" description="USB Video View visualizer: Valid LTRs (bitmap)" />
+	<Message optional="true" key="IDC Level" description="USB Video View visualizer: IDC Level" />
+	<Message optional="true" key="SEI Messages (bitmap)" description="USB Video View visualizer: SEI Messages (bitmap)" />
+	<Message optional="true" key="Min Qp" description="USB Video View visualizer: Min Qp" />
+	<Message optional="true" key="Max Qp" description="USB Video View visualizer: Max Qp" />
+	<Message optional="true" key="Priority" description="USB Video View visualizer: Priority" />
+	<Message optional="true" key="Update" description="USB Video View visualizer: Update" />
+	<Message optional="true" key="Error Resiliency Features (bitmap)" description="USB Video View visualizer: Error Resiliency Features (bitmap)" />
+	<Message optional="true" key="Compression Index" description="USB Video View visualizer: Compression Index" />
+	<Message optional="true" key="Trigger" description="USB Video View visualizer: Trigger" />
+	<Message optional="true" key="Stream Error Code" description="USB Video View visualizer: Stream Error Code" />
+	<Message optional="true" key="Generate Key Frame" description="USB Video View visualizer: Generate Key Frame" />
+	<Message optional="true" key="Start Frame Segment" description="USB Video View visualizer: Start Frame Segment" />
+	<Message optional="true" key="End Frame Segment" description="USB Video View visualizer: End Frame Segment" />
 
 	<!-- New Console View -->
 
@@ -352,46 +352,46 @@
 	</Enumeration>
 
 
-	<Message key="Starting Address" description="MODBUS View visualizer: Starting Address" />
-	<Message key="Quantity of Coils" description="MODBUS View visualizer: Quantity of Coils" />
-	<Message key="Address" description="MODBUS View visualizer: Address" />
-	<Message key="Coils Count" description="MODBUS View visualizer: Coils Count" />
-	<Message key="Quantity of Inputs" description="MODBUS View visualizer: Quantity of Inputs" />
-	<Message key="Bits" description="MODBUS View visualizer: Bits" />
-	<Message key="Quantity Of Registers" description="MODBUS View visualizer: Quantity Of Registers" />
-	<Message key="Registers Count" description="MODBUS View visualizer: Registers Count" />
-	<Message key="Register Address" description="MODBUS View visualizer: Register Address" />
-	<Message key="Register Data" description="MODBUS View visualizer: Register Data" />
-	<Message key="Communication Option" description="MODBUS View visualizer: Communication Option" />
-	<Message key="Event Count" description="MODBUS View visualizer: Event Count" />
-	<Message key="Message Count" description="MODBUS View visualizer: Message Count" />
-	<Message key="Number Of Outputs" description="MODBUS View visualizer: Number Of Outputs" />
-	<Message key="Count" description="MODBUS View visualizer: Count" />
-	<Message key="Number Of Registers" description="MODBUS View visualizer: Number Of Registers" />
-	<Message key="Group Id" description="MODBUS View visualizer: Group Id" />
-	<Message key="File Number" description="MODBUS View visualizer: File Number" />
-	<Message key="Record Number" description="MODBUS View visualizer: Record Number" />
-	<Message key="Register Length" description="MODBUS View visualizer: Register Length" />
-	<Message key="Data Length" description="MODBUS View visualizer: Data Length" />
-	<Message key="Reference Type" description="MODBUS View visualizer: Reference Type" />
-	<Message key="Response Data" description="MODBUS View visualizer: Response Data" />
-	<Message key="Reference Address" description="MODBUS View visualizer: Reference Address" />
-	<Message key="And Mask" description="MODBUS View visualizer: And Mask" />
-	<Message key="Or Mask" description="MODBUS View visualizer: Or Mask" />
-	<Message key="Word Count" description="MODBUS View visualizer: Word Count" />
-	<Message key="Read Reference Address" description="MODBUS View visualizer: Read Reference Address" />
-	<Message key="Quantity to Read" description="MODBUS View visualizer: Quantity to Read" />
-	<Message key="Write Reference Address" description="MODBUS View visualizer: Write Reference Address" />
-	<Message key="Quantity to Write" description="MODBUS View visualizer: Quantity to Write" />
-	<Message key="FIFO Pointer Address" description="MODBUS View visualizer: FIFO Pointer Address" />
-	<Message key="Byte Count" description="MODBUS View visualizer: Byte Count" />
-	<Message key="FIFO Count" description="MODBUS View visualizer: FIFO Count" />
-	<Message key="Read Device Id" description="MODBUS View visualizer: Read Device Id" />
-	<Message key="Object Id" description="MODBUS View visualizer: Object Id" />
-	<Message key="Conformity Level" description="MODBUS View visualizer: Conformity Level" />
-	<Message key="Next Object Id" description="MODBUS View visualizer: Next Object Id" />
-	<Message key="Objects Count" description="MODBUS View visualizer: Objects Count" />
-	<Message key="Object Length" description="MODBUS View visualizer: Object Length" />
+	<Message optional="true" key="Starting Address" description="MODBUS View visualizer: Starting Address" />
+	<Message optional="true" key="Quantity of Coils" description="MODBUS View visualizer: Quantity of Coils" />
+	<Message optional="true" key="Address" description="MODBUS View visualizer: Address" />
+	<Message optional="true" key="Coils Count" description="MODBUS View visualizer: Coils Count" />
+	<Message optional="true" key="Quantity of Inputs" description="MODBUS View visualizer: Quantity of Inputs" />
+	<Message optional="true" key="Bits" description="MODBUS View visualizer: Bits" />
+	<Message optional="true" key="Quantity Of Registers" description="MODBUS View visualizer: Quantity Of Registers" />
+	<Message optional="true" key="Registers Count" description="MODBUS View visualizer: Registers Count" />
+	<Message optional="true" key="Register Address" description="MODBUS View visualizer: Register Address" />
+	<Message optional="true" key="Register Data" description="MODBUS View visualizer: Register Data" />
+	<Message optional="true" key="Communication Option" description="MODBUS View visualizer: Communication Option" />
+	<Message optional="true" key="Event Count" description="MODBUS View visualizer: Event Count" />
+	<Message optional="true" key="Message Count" description="MODBUS View visualizer: Message Count" />
+	<Message optional="true" key="Number Of Outputs" description="MODBUS View visualizer: Number Of Outputs" />
+	<Message optional="true" key="Count" description="MODBUS View visualizer: Count" />
+	<Message optional="true" key="Number Of Registers" description="MODBUS View visualizer: Number Of Registers" />
+	<Message optional="true" key="Group Id" description="MODBUS View visualizer: Group Id" />
+	<Message optional="true" key="File Number" description="MODBUS View visualizer: File Number" />
+	<Message optional="true" key="Record Number" description="MODBUS View visualizer: Record Number" />
+	<Message optional="true" key="Register Length" description="MODBUS View visualizer: Register Length" />
+	<Message optional="true" key="Data Length" description="MODBUS View visualizer: Data Length" />
+	<Message optional="true" key="Reference Type" description="MODBUS View visualizer: Reference Type" />
+	<Message optional="true" key="Response Data" description="MODBUS View visualizer: Response Data" />
+	<Message optional="true" key="Reference Address" description="MODBUS View visualizer: Reference Address" />
+	<Message optional="true" key="And Mask" description="MODBUS View visualizer: And Mask" />
+	<Message optional="true" key="Or Mask" description="MODBUS View visualizer: Or Mask" />
+	<Message optional="true" key="Word Count" description="MODBUS View visualizer: Word Count" />
+	<Message optional="true" key="Read Reference Address" description="MODBUS View visualizer: Read Reference Address" />
+	<Message optional="true" key="Quantity to Read" description="MODBUS View visualizer: Quantity to Read" />
+	<Message optional="true" key="Write Reference Address" description="MODBUS View visualizer: Write Reference Address" />
+	<Message optional="true" key="Quantity to Write" description="MODBUS View visualizer: Quantity to Write" />
+	<Message optional="true" key="FIFO Pointer Address" description="MODBUS View visualizer: FIFO Pointer Address" />
+	<Message optional="true" key="Byte Count" description="MODBUS View visualizer: Byte Count" />
+	<Message optional="true" key="FIFO Count" description="MODBUS View visualizer: FIFO Count" />
+	<Message optional="true" key="Read Device Id" description="MODBUS View visualizer: Read Device Id" />
+	<Message optional="true" key="Object Id" description="MODBUS View visualizer: Object Id" />
+	<Message optional="true" key="Conformity Level" description="MODBUS View visualizer: Conformity Level" />
+	<Message optional="true" key="Next Object Id" description="MODBUS View visualizer: Next Object Id" />
+	<Message optional="true" key="Objects Count" description="MODBUS View visualizer: Objects Count" />
+	<Message optional="true" key="Object Length" description="MODBUS View visualizer: Object Length" />
 
 	<!-- Statistics visualizer -->
 	<Enumeration key="Packets Total" description="Statistics: Packets Total/sec counter (name, units, description)">
@@ -421,85 +421,85 @@
 	<Message key="PacketNo" description="Statistics: Axis name: Packet No" value="Packet No"/>
 
 	<!-- Communication view visualizer -->
-	<Message key="Abstract State" description="Field: Abstract State"/>
-	<Message key="Country Setting" description="Field: Country Setting"/>
-	<Message key="Pulse-Dialing Cycle" description="Field: Pulse-Dialing Cycle"/>
-	<Message key="Cycles" description="Field: Cycles"/>
-	<Message key="Timing" description="Field: Timing"/>
-	<Message key="Number Of Rings" description="Field: Number Of Rings"/>
-	<Message key="Data Terminal Rate" description="Field: Data Terminal Rate" value="Data Terminal Rate (bits/sec)"/>
-	<Message key="Stop Bit One" description="Field: Stop Bit One"/>
-	<Message key="DTE Present" description="Field: DTE Present"/>
-	<Message key="Carrier Control" description="Field: Carrier Control"/>
-	<Message key="Duration Of Brake" description="Field: Duration Of Brake"/>
-	<Message key="Ringer Pattern" description="Field: Ringer Pattern"/>
-	<Message key="Volume Settings" description="Field: Volume Settings"/>
-	<Message key="Present" description="Field: Present"/>
-	<Message key="Operation Mode" description="Field: Operation Mode"/>
-	<Message key="Line State Change" description="Field: Line State Change"/>
-	<Message key="Ringer Pattern Type" description="Field: Ringer Pattern Type"/>
-	<Message key="Ringer Volume" description="Field: Ringer Volume"/>
-	<Message key="Ringer Exist" description="Field: Ringer Exist"/> <!--TODO-->
-	<Message key="Change" description="Field: Change"/> 
-	<Message key="Active" description="Field: Active"/>
-	<Message key="Dialing String" description="Field: Dialing String"/>
-	<Message key="Profile Information" description="Field: Profile Information"/>
-	<Message key="Filter Number" description="Field: Filter Number"/>
-	<Message key="Pattern" description="Field: Pattern"/>
-	<Message key="Pattern Active" description="Field: Pattern Active"/> <!--TODO-->
-	<Message key="Promiscuous" description="Field: Promiscuous"/>
-	<Message key="All Multicast" description="Field: All Multicast"/>
-	<Message key="Directed" description="Field: Directed"/>
-	<Message key="Broadcast" description="Field: Broadcast"/>
-	<Message key="Multicast" description="Field: Multicast"/>
-	<Message key="Data Format" description="Field: Data Format"/>
-	<Message key="Call State" description="Field: Call State"/>
-	<Message key="Filter" description="Field: Filter"/>
+	<Message optional="true" key="Abstract State" description="Field: Abstract State"/>
+	<Message optional="true" key="Country Setting" description="Field: Country Setting"/>
+	<Message optional="true" key="Pulse-Dialing Cycle" description="Field: Pulse-Dialing Cycle"/>
+	<Message optional="true" key="Cycles" description="Field: Cycles"/>
+	<Message optional="true" key="Timing" description="Field: Timing"/>
+	<Message optional="true" key="Number Of Rings" description="Field: Number Of Rings"/>
+	<Message optional="true" key="Data Terminal Rate" description="Field: Data Terminal Rate" value="Data Terminal Rate (bits/sec)"/>
+	<Message optional="true" key="Stop Bit One" description="Field: Stop Bit One"/>
+	<Message optional="true" key="DTE Present" description="Field: DTE Present"/>
+	<Message optional="true" key="Carrier Control" description="Field: Carrier Control"/>
+	<Message optional="true" key="Duration Of Brake" description="Field: Duration Of Brake"/>
+	<Message optional="true" key="Ringer Pattern" description="Field: Ringer Pattern"/>
+	<Message optional="true" key="Volume Settings" description="Field: Volume Settings"/>
+	<Message optional="true" key="Present" description="Field: Present"/>
+	<Message optional="true" key="Operation Mode" description="Field: Operation Mode"/>
+	<Message optional="true" key="Line State Change" description="Field: Line State Change"/>
+	<Message optional="true" key="Ringer Pattern Type" description="Field: Ringer Pattern Type"/>
+	<Message optional="true" key="Ringer Volume" description="Field: Ringer Volume"/>
+	<Message optional="true" key="Ringer Exist" description="Field: Ringer Exist"/> <!--TODO-->
+	<Message optional="true" key="Change" description="Field: Change"/> 
+	<Message optional="true" key="Active" description="Field: Active"/>
+	<Message optional="true" key="Dialing String" description="Field: Dialing String"/>
+	<Message optional="true" key="Profile Information" description="Field: Profile Information"/>
+	<Message optional="true" key="Filter Number" description="Field: Filter Number"/>
+	<Message optional="true" key="Pattern" description="Field: Pattern"/>
+	<Message optional="true" key="Pattern Active" description="Field: Pattern Active"/> <!--TODO-->
+	<Message optional="true" key="Promiscuous" description="Field: Promiscuous"/>
+	<Message optional="true" key="All Multicast" description="Field: All Multicast"/>
+	<Message optional="true" key="Directed" description="Field: Directed"/>
+	<Message optional="true" key="Broadcast" description="Field: Broadcast"/>
+	<Message optional="true" key="Multicast" description="Field: Multicast"/>
+	<Message optional="true" key="Data Format" description="Field: Data Format"/>
+	<Message optional="true" key="Call State" description="Field: Call State"/>
+	<Message optional="true" key="Filter" description="Field: Filter"/>
 
 	<!--Communication descriptor-->
-	<Message key="Data Interface" description="Field: Data Interface"/>
-	<Message key="Use Class Interface" description="Field: Use Class Interface"/>
-	<Message key="Self Control" description="Field: Self Control"/>
-	<Message key="Feature Support" description="Field: Feature Support"/>
-	<Message key="Line State Support" description="Field: Line State Support"/>
-	<Message key="Send Break Support" description="Field: Send Break Support"/>
-	<Message key="Notification Support" description="Field: Notification Support"/>
-	<Message key="Pulse Support" description="Field: Pulse Support"/>
-	<Message key="Aux Support" description="Field: Aux Support"/>
-	<Message key="Ext Support" description="Field: Ext Support"/>
-	<Message key="Ringer Volume Steps" description="Field: Ringer Volume Steps"/>
-	<Message key="Number Of Ringer Patterns" description="Field: Number Of Ringer Patterns"/>
-	<Message key="Interrupted Dialtone Report" description="Field: Interrupted Dialtone Report"/>
-	<Message key="All Line State Report" description="Field: All Line State Report"/>
-	<Message key="Caller ID" description="Field: Caller ID"/>
-	<Message key="Distinctive Ringing" description="Field: Distinctive Ringing"/>
-	<Message key="Digits Report" description="Field: Digits Report"/>
-	<Message key="Line State Change Notification" description="Field: Line State Change Notification"/>
-	<Message key="Slave Interface" description="Field: Slave Interface"/>
-	<Message key="Country Code" description="Field: Country Code"/>
-	<Message key="Country Code Release Date Index" description="Field: Country Code Release Date Index"/>
-	<Message key="Simple Mode Support" description="Field: Simple Mode Support"/>
-	<Message key="Standalone Support" description="Field: Standalone Support"/>
-	<Message key="Computer Centric Support" description="Field: Computer Centric Support"/>
-	<Message key="Wrapper Used" description="Field: Wrapper Used"/>
-	<Message key="Entity ID" description="Field: Entity ID"/>
-	<Message key="In Interface Number" description="Field: In Interface Number"/>
-	<Message key="Out Interface Number" description="Field: Out Interface Number"/>
-	<Message key="Child ID" description="Field: Child ID"/>
-	<Message key="Channel Index" description="Field: Channel Index"/>
-	<Message key="Physical Interface" description="Field: Physical Interface"/>
-	<Message key="Protocol" description="Field: Protocol"/>
-	<Message key="Stores Unit Parameter" description="Field: Stores Unit Parameter"/>
-	<Message key="Clear Unit" description="Field: Clear Unit"/>
-	<Message key="Set Unit" description="Field: Set Unit"/>
-	<Message key="Simple CAPI device" description="Field: Simple CAPI device"/>
-	<Message key="Mac Address Index" description="Field: Mac Address Index"/>
-	<Message key="Number Of Power Filters" description="Field: Number Of Power Filters"/>
-	<Message key="Max Segment Size" description="Field: Max Segment Size"/>
-	<Message key="Number Of Multicast Filters" description="Field: Number Of Multicast Filters"/>
-	<Message key="Maximum Number Of Simultaneous Virtual Circuits" description="Field: Maximum Number Of Simultaneous Virtual Circuits"/>
-	<Message key="The Maximum Type 2 Segment Size" description="Field: The Maximum Type 2 Segment Size"/>
-	<Message key="The Maximum Type 3 Segment Size" description="Field: The Maximum Type 3 Segment Size"/>
+	<Message optional="true" key="Data Interface" description="Field: Data Interface"/>
+	<Message optional="true" key="Use Class Interface" description="Field: Use Class Interface"/>
+	<Message optional="true" key="Self Control" description="Field: Self Control"/>
+	<Message optional="true" key="Feature Support" description="Field: Feature Support"/>
+	<Message optional="true" key="Line State Support" description="Field: Line State Support"/>
+	<Message optional="true" key="Send Break Support" description="Field: Send Break Support"/>
+	<Message optional="true" key="Notification Support" description="Field: Notification Support"/>
+	<Message optional="true" key="Pulse Support" description="Field: Pulse Support"/>
+	<Message optional="true" key="Aux Support" description="Field: Aux Support"/>
+	<Message optional="true" key="Ext Support" description="Field: Ext Support"/>
+	<Message optional="true" key="Ringer Volume Steps" description="Field: Ringer Volume Steps"/>
+	<Message optional="true" key="Number Of Ringer Patterns" description="Field: Number Of Ringer Patterns"/>
+	<Message optional="true" key="Interrupted Dialtone Report" description="Field: Interrupted Dialtone Report"/>
+	<Message optional="true" key="All Line State Report" description="Field: All Line State Report"/>
+	<Message optional="true" key="Caller ID" description="Field: Caller ID"/>
+	<Message optional="true" key="Distinctive Ringing" description="Field: Distinctive Ringing"/>
+	<Message optional="true" key="Digits Report" description="Field: Digits Report"/>
+	<Message optional="true" key="Line State Change Notification" description="Field: Line State Change Notification"/>
+	<Message optional="true" key="Slave Interface" description="Field: Slave Interface"/>
+	<Message optional="true" key="Country Code" description="Field: Country Code"/>
+	<Message optional="true" key="Country Code Release Date Index" description="Field: Country Code Release Date Index"/>
+	<Message optional="true" key="Simple Mode Support" description="Field: Simple Mode Support"/>
+	<Message optional="true" key="Standalone Support" description="Field: Standalone Support"/>
+	<Message optional="true" key="Computer Centric Support" description="Field: Computer Centric Support"/>
+	<Message optional="true" key="Wrapper Used" description="Field: Wrapper Used"/>
+	<Message optional="true" key="Entity ID" description="Field: Entity ID"/>
+	<Message optional="true" key="In Interface Number" description="Field: In Interface Number"/>
+	<Message optional="true" key="Out Interface Number" description="Field: Out Interface Number"/>
+	<Message optional="true" key="Child ID" description="Field: Child ID"/>
+	<Message optional="true" key="Channel Index" description="Field: Channel Index"/>
+	<Message optional="true" key="Physical Interface" description="Field: Physical Interface"/>
+	<Message optional="true" key="Protocol" description="Field: Protocol"/>
+	<Message optional="true" key="Stores Unit Parameter" description="Field: Stores Unit Parameter"/>
+	<Message optional="true" key="Clear Unit" description="Field: Clear Unit"/>
+	<Message optional="true" key="Set Unit" description="Field: Set Unit"/>
+	<Message optional="true" key="Simple CAPI device" description="Field: Simple CAPI device"/>
+	<Message optional="true" key="Mac Address Index" description="Field: Mac Address Index"/>
+	<Message optional="true" key="Number Of Power Filters" description="Field: Number Of Power Filters"/>
+	<Message optional="true" key="Max Segment Size" description="Field: Max Segment Size"/>
+	<Message optional="true" key="Number Of Multicast Filters" description="Field: Number Of Multicast Filters"/>
+	<Message optional="true" key="Maximum Number Of Simultaneous Virtual Circuits" description="Field: Maximum Number Of Simultaneous Virtual Circuits"/>
+	<Message optional="true" key="The Maximum Type 2 Segment Size" description="Field: The Maximum Type 2 Segment Size"/>
+	<Message optional="true" key="The Maximum Type 3 Segment Size" description="Field: The Maximum Type 3 Segment Size"/>
 
 
 
@@ -513,98 +513,98 @@
 	</Enumeration>
 
 	<!-- Mass view visualizer -->
-	<Message key="Operation Code" description="Field: Operation Code"/>
-	<Message key="Tag" description="Field: Tag"/>
-	<Message key="Data Residue" description="Field: Data Residue"/>
-	<Message key="Start Address Track Number" description="Field: Start Address Track Number"/>
-	<Message key="Control Byte" description="Field: Control Byte"/>
-	<Message key="Format Code" description="Field: Format Code"/>
-	<Message key="Cmp List" description="Field: Cmp List"/>
-	<Message key="Format Data" description="Field: Format Data"/>
-	<Message key="Interleave Value" description="Field: Interleave Value"/>
-	<Message key="Track" description="Field: Track"/>
-	<Message key="Session" description="Field: Session"/>
-	<Message key="Track Number" description="Field: Track Number"/>
-	<Message key="Requested Types" description="Field: Requested Types"/>
-	<Message key="Starting Feature Number" description="Field: Starting Feature Number"/>
-	<Message key="Allocation Length" description="Field: Allocation Length"/>
-	<Message key="Except" description="Field: Except"/>
-	<Message key="Write" description="Field: Write"/>
-	<Message key="Tolerance" description="Field: Tolerance"/>
-	<Message key="Starting Logical Block Address" description="Field: Starting Logical Block Address"/>
-	<Message key="Max Number Of Descriptors" description="Field: Max Number Of Descriptors"/>
-	<Message key="Load or Unload" description="Field: Load or Unload"/>
-	<Message key="Resume" description="Field: Resume"/>
-	<Message key="Logical Block Address" description="Field: Logical Block Address"/>
-	<Message key="Play Length" description="Field: Play Length"/>
-	<Message key="Starting M Field" description="Field: Starting M Field"/>
-	<Message key="Starting S Field" description="Field: Starting S Field"/>
-	<Message key="Starting F Field" description="Field: Starting F Field"/>
-	<Message key="Ending M Field" description="Field: Ending M Field"/>
-	<Message key="Ending S Field" description="Field: Ending S Field"/>
-	<Message key="Ending F Field" description="Field: Ending F Field"/>
-	<Message key="Expected Sector Type" description="Field: Expected Sector Type"/>
-	<Message key="Starting LBA" description="Field: Starting LBA"/>
-	<Message key="Play Length Blocks" description="Field: Play Length Blocks"/>
-	<Message key="Audio" description="Field: Audio"/>
-	<Message key="Port" description="Field: Port"/>
-	<Message key="Transfer Length" description="Field: Transfer Length"/>
-	<Message key="Error Field" description="Field: Error Field"/>
-	<Message key="User Data" description="Field: User Data"/>
-	<Message key="Header Codes" description="Field: Header Codes"/>
-	<Message key="SubChannel Selection Bits" description="Field: SubChannel Selection Bits"/>
-	<Message key="Sector Type" description="Field: Sector Type"/>
-	<Message key="Error Fields" description="Field: Error Fields"/>
-	<Message key="Number Of Blocks" description="Field: Number Of Blocks"/>
-	<Message key="Layer Number" description="Field: Layer Number"/>
-	<Message key="Format" description="Field: Format"/>
-	<Message key="Sheet Number" description="Field: Sheet Number"/>
-	<Message key="SubChannel Parameters List" description="Field: SubChannel Parameters List"/>
-	<Message key="Track/Session Number" description="Field: Track/Session Number"/>
-	<Message key="Allocation Number" description="Field: Allocation Number"/>
-	<Message key="Address Number Type" description="Field: Address Number Type"/>
-	<Message key="Key Format" description="Field: Key Format"/>
-	<Message key="Reservation Size" description="Field: Reservation Size"/>
-	<Message key="Direct" description="Field: Direct"/>
-	<Message key="Start Scanning Address" description="Field: Start Scanning Address"/>
-	<Message key="Cue Sheet Size" description="Field: Cue Sheet Size"/>
-	<Message key="Structure Data Length" description="Field: Structure Data Length"/>
-	<Message key="Parameters List Length" description="Field: Parameters List Length"/>
-	<Message key="Logical Unit Read Speed" description="Field: Logical Unit Read Speed"/>
-	<Message key="Logical Unit Write Speed" description="Field: Logical Unit Write Speed"/>
-	<Message key="Trigger LBA" description="Field: Trigger LBA"/>
-	<Message key="Read Ahead LBA" description="Field: Read Ahead LBA"/>
-	<Message key="Streaming" description="Field: Streaming"/>
-	<Message key="Notification Class Request" description="Field: Notification Class Request"/>
-	<Message key="Pad" description="Field: Pad"/>
-	<Message key="Parameter List Length" description="Field: Parameter List Length"/>
-	<Message key="Verification Length" description="Field: Verification Length"/>
-	<Message key="Power Condition" description="Field: Power Condition"/>
-	<Message key="Link" description="Field: Link"/>
-	<Message key="Flag" description="Field: Flag"/>
-	<Message key="Vendor Specific" description="Field: Vendor Specific"/>
-	<Message key="Enable Vital Product Data" description="Field: Enable Vital Product Data"/>
-	<Message key="Command Support Data" description="Field: Command Support Data"/>
-	<Message key="Ignored" description="Field: Ignored"/>
-	<Message key="Obsolete" description="Field: Obsolete"/>
-	<Message key="Disable Block Descriptor" description="Field: Disable Block Descriptor"/>
-	<Message key="Page Code" description="Field: Page Code"/>
-	<Message key="Page Control" description="Field: Page Control"/>
-	<Message key="SubPage Code" description="Field: SubPage Code"/>
-	<Message key="Self Test" description="Field: Self Test"/>
-	<Message key="Param Pointer" description="Field: Param Pointer"/>
-	<Message key="Service Action" description="Field: Service Action"/>
-	<Message key="Scope" description="Field: Scope"/>
-	<Message key="Prevent" description="Field: Prevent"/>
-	<Message key="Buffer ID" description="Field: Buffer ID"/>
-	<Message key="Buffer Offset" description="Field: Buffer Offset"/>
-	<Message key="List Identifier" description="Field: List Identifier"/>
-	<Message key="Long ID" description="Field: Long ID"/>
-	<Message key="Third Party" description="Field: Third Party"/>
-	<Message key="Third Party Device ID" description="Field: Third Party Device ID"/>
-	<Message key="Select Report" description="Field: Select Report"/>
-	<Message key="Operation" description="Field: Operation"/>
-	<Message key="Interface Number" description="Field: Interface Number"/>
+	<Message optional="true" key="Operation Code" description="Field: Operation Code"/>
+	<Message optional="true" key="Tag" description="Field: Tag"/>
+	<Message optional="true" key="Data Residue" description="Field: Data Residue"/>
+	<Message optional="true" key="Start Address Track Number" description="Field: Start Address Track Number"/>
+	<Message optional="true" key="Control Byte" description="Field: Control Byte"/>
+	<Message optional="true" key="Format Code" description="Field: Format Code"/>
+	<Message optional="true" key="Cmp List" description="Field: Cmp List"/>
+	<Message optional="true" key="Format Data" description="Field: Format Data"/>
+	<Message optional="true" key="Interleave Value" description="Field: Interleave Value"/>
+	<Message optional="true" key="Track" description="Field: Track"/>
+	<Message optional="true" key="Session" description="Field: Session"/>
+	<Message optional="true" key="Track Number" description="Field: Track Number"/>
+	<Message optional="true" key="Requested Types" description="Field: Requested Types"/>
+	<Message optional="true" key="Starting Feature Number" description="Field: Starting Feature Number"/>
+	<Message optional="true" key="Allocation Length" description="Field: Allocation Length"/>
+	<Message optional="true" key="Except" description="Field: Except"/>
+	<Message optional="true" key="Write" description="Field: Write"/>
+	<Message optional="true" key="Tolerance" description="Field: Tolerance"/>
+	<Message optional="true" key="Starting Logical Block Address" description="Field: Starting Logical Block Address"/>
+	<Message optional="true" key="Max Number Of Descriptors" description="Field: Max Number Of Descriptors"/>
+	<Message optional="true" key="Load or Unload" description="Field: Load or Unload"/>
+	<Message optional="true" key="Resume" description="Field: Resume"/>
+	<Message optional="true" key="Logical Block Address" description="Field: Logical Block Address"/>
+	<Message optional="true" key="Play Length" description="Field: Play Length"/>
+	<Message optional="true" key="Starting M Field" description="Field: Starting M Field"/>
+	<Message optional="true" key="Starting S Field" description="Field: Starting S Field"/>
+	<Message optional="true" key="Starting F Field" description="Field: Starting F Field"/>
+	<Message optional="true" key="Ending M Field" description="Field: Ending M Field"/>
+	<Message optional="true" key="Ending S Field" description="Field: Ending S Field"/>
+	<Message optional="true" key="Ending F Field" description="Field: Ending F Field"/>
+	<Message optional="true" key="Expected Sector Type" description="Field: Expected Sector Type"/>
+	<Message optional="true" key="Starting LBA" description="Field: Starting LBA"/>
+	<Message optional="true" key="Play Length Blocks" description="Field: Play Length Blocks"/>
+	<Message optional="true" key="Audio" description="Field: Audio"/>
+	<Message optional="true" key="Port" description="Field: Port"/>
+	<Message optional="true" key="Transfer Length" description="Field: Transfer Length"/>
+	<Message optional="true" key="Error Field" description="Field: Error Field"/>
+	<Message optional="true" key="User Data" description="Field: User Data"/>
+	<Message optional="true" key="Header Codes" description="Field: Header Codes"/>
+	<Message optional="true" key="SubChannel Selection Bits" description="Field: SubChannel Selection Bits"/>
+	<Message optional="true" key="Sector Type" description="Field: Sector Type"/>
+	<Message optional="true" key="Error Fields" description="Field: Error Fields"/>
+	<Message optional="true" key="Number Of Blocks" description="Field: Number Of Blocks"/>
+	<Message optional="true" key="Layer Number" description="Field: Layer Number"/>
+	<Message optional="true" key="Format" description="Field: Format"/>
+	<Message optional="true" key="Sheet Number" description="Field: Sheet Number"/>
+	<Message optional="true" key="SubChannel Parameters List" description="Field: SubChannel Parameters List"/>
+	<Message optional="true" key="Track/Session Number" description="Field: Track/Session Number"/>
+	<Message optional="true" key="Allocation Number" description="Field: Allocation Number"/>
+	<Message optional="true" key="Address Number Type" description="Field: Address Number Type"/>
+	<Message optional="true" key="Key Format" description="Field: Key Format"/>
+	<Message optional="true" key="Reservation Size" description="Field: Reservation Size"/>
+	<Message optional="true" key="Direct" description="Field: Direct"/>
+	<Message optional="true" key="Start Scanning Address" description="Field: Start Scanning Address"/>
+	<Message optional="true" key="Cue Sheet Size" description="Field: Cue Sheet Size"/>
+	<Message optional="true" key="Structure Data Length" description="Field: Structure Data Length"/>
+	<Message optional="true" key="Parameters List Length" description="Field: Parameters List Length"/>
+	<Message optional="true" key="Logical Unit Read Speed" description="Field: Logical Unit Read Speed"/>
+	<Message optional="true" key="Logical Unit Write Speed" description="Field: Logical Unit Write Speed"/>
+	<Message optional="true" key="Trigger LBA" description="Field: Trigger LBA"/>
+	<Message optional="true" key="Read Ahead LBA" description="Field: Read Ahead LBA"/>
+	<Message optional="true" key="Streaming" description="Field: Streaming"/>
+	<Message optional="true" key="Notification Class Request" description="Field: Notification Class Request"/>
+	<Message optional="true" key="Pad" description="Field: Pad"/>
+	<Message optional="true" key="Parameter List Length" description="Field: Parameter List Length"/>
+	<Message optional="true" key="Verification Length" description="Field: Verification Length"/>
+	<Message optional="true" key="Power Condition" description="Field: Power Condition"/>
+	<Message optional="true" key="Link" description="Field: Link"/>
+	<Message optional="true" key="Flag" description="Field: Flag"/>
+	<Message optional="true" key="Vendor Specific" description="Field: Vendor Specific"/>
+	<Message optional="true" key="Enable Vital Product Data" description="Field: Enable Vital Product Data"/>
+	<Message optional="true" key="Command Support Data" description="Field: Command Support Data"/>
+	<Message optional="true" key="Ignored" description="Field: Ignored"/>
+	<Message optional="true" key="Obsolete" description="Field: Obsolete"/>
+	<Message optional="true" key="Disable Block Descriptor" description="Field: Disable Block Descriptor"/>
+	<Message optional="true" key="Page Code" description="Field: Page Code"/>
+	<Message optional="true" key="Page Control" description="Field: Page Control"/>
+	<Message optional="true" key="SubPage Code" description="Field: SubPage Code"/>
+	<Message optional="true" key="Self Test" description="Field: Self Test"/>
+	<Message optional="true" key="Param Pointer" description="Field: Param Pointer"/>
+	<Message optional="true" key="Service Action" description="Field: Service Action"/>
+	<Message optional="true" key="Scope" description="Field: Scope"/>
+	<Message optional="true" key="Prevent" description="Field: Prevent"/>
+	<Message optional="true" key="Buffer ID" description="Field: Buffer ID"/>
+	<Message optional="true" key="Buffer Offset" description="Field: Buffer Offset"/>
+	<Message optional="true" key="List Identifier" description="Field: List Identifier"/>
+	<Message optional="true" key="Long ID" description="Field: Long ID"/>
+	<Message optional="true" key="Third Party" description="Field: Third Party"/>
+	<Message optional="true" key="Third Party Device ID" description="Field: Third Party Device ID"/>
+	<Message optional="true" key="Select Report" description="Field: Select Report"/>
+	<Message optional="true" key="Operation" description="Field: Operation"/>
+	<Message optional="true" key="Interface Number" description="Field: Interface Number"/>
 
 	<Enumeration key="USBMassViewSchemes" description="USB Mass storage View visualizer schemes (coloring and fonts)">
 		<Item text="Default"/>
@@ -617,83 +617,82 @@
 	</Enumeration>
 
 	<!-- Still view visualizer -->
-	<Message key="Transaction ID" description="Field: Transaction ID"/>
-	<Message key="Session ID" description="Field: Session ID"/>
-	<Message key="Object Format Code" description="Field: Object Format Code"/>
-	<Message key="Object Handle" description="Field: Object Handle"/>
-	<Message key="Destination Storage ID" description="Field: Destination Storage ID"/>
-	<Message key="Parent Object Handle" description="Field: Parent Object Handle"/>
-	<Message key="File System Format" description="Field: File System Format"/>
-	<Message key="Self Test Type" description="Field: Self Test Type"/>
-	<Message key="Protection Status" description="Field: Protection Status"/>
-	<Message key="Property Code" description="Field: Property Code"/>
-	<Message key="Maximum Number To Obtain" description="Field: Maximum Number To Obtain"/>
-	<Message key="Object Prop Code" description="Field: Object Prop Code"/>
-	<Message key="Skip Index" description="Field: Skip Index"/>
-	<Message key="Standard Version" description="Field: Standard Version"/>
-	<Message key="Vendor Extension ID" description="Field: Vendor Extension ID"/>
-	<Message key="Vendor Extension Version" description="Field: Vendor Extension Version"/>
-	<Message key="Vendor Extension Description" description="Field: Vendor Extension Description"/>
-	<Message key="Functional Mode" description="Field: Functional Mode"/>
-	<Message key="Manufacturer" description="Field: Manufacturer"/>
-	<Message key="Model" description="Field: Model"/>
-	<Message key="Device Version" description="Field: Device Version"/>
-	<Message key="Serial Number" description="Field: Serial Number"/>
-	<Message key="Supported Operations" description="Field: Supported Operations"/>
-	<Message key="Supported Operation" description="Field: Supported Operation"/>
-	<Message key="Events Supported" description="Field: Events Supported"/>
-	<Message key="Supported Event" description="Field: Supported Event"/>
-	<Message key="Supported Device Properies" description="Field: Supported Device Properies"/>
-	<Message key="Supported Device Property" description="Field: Supported Device Property"/>
-	<Message key="Supported Capture Formats" description="Field: Supported Capture Formats"/>
-	<Message key="Supported Capture Format" description="Field: Supported Capture Format"/>
-	<Message key="Supported Image Formats" description="Field: Supported Image Formats"/>
-	<Message key="Supported Image Format" description="Field: Supported Image Format"/>
-	<Message key="Storage Type" description="Field: Storage Type"/>
-	<Message key="Filesystem Type" description="Field: Filesystem Type"/>
-	<Message key="Access Capability" description="Field: Access Capability"/>
-	<Message key="Max Capacity" description="Field: Max Capacity"/>
-	<Message key="Free Space (bytes)" description="Field: Free Space (bytes)"/>
-	<Message key="Free Space (images)" description="Field: Free Space (images)"/>
-	<Message key="Storage Descriptor" description="Field: Storage Descriptor"/>
-	<Message key="Volume Label" description="Field: Volume Label"/>
-	<Message key="Object Handles" description="Field: Object Handles"/>
-	<Message key="Storage ID" description="Field: Storage ID"/>
-	<Message key="Object Format" description="Field: Object Format"/>
-	<Message key="Object Compressed Size" description="Field: Object Compressed Size"/>
-	<Message key="Thumb Format" description="Field: Thumb Format"/>
-	<Message key="Thumb Compressed Size" description="Field: Thumb Compressed Size"/>
-	<Message key="Thumb Width (pixels)" description="Field: Thumb Width (pixels)"/>
-	<Message key="Thumb Height (pixels)" description="Field: Thumb Height (pixels)"/>
-	<Message key="Image Width (pixels)" description="Field: Image Width (pixels)"/>
-	<Message key="Image Height (pixels)" description="Field: Image Height (pixels)"/>
-	<Message key="Image Bit Depth" description="Field: Image Bit Depth"/>
-	<Message key="Parent Object" description="Field: Parent Object"/>
-	<Message key="Association Type" description="Field: Association Type"/>
-	<Message key="Association Descriptor" description="Field: Association Descriptor"/>
-	<Message key="Sequence Number" description="Field: Sequence Number"/>
-	<Message key="Filename" description="Field: Filename"/>
-	<Message key="Capture Date" description="Field: Capture Date"/>
-	<Message key="Modification Date" description="Field: Modification Date"/>
-	<Message key="Keywords" description="Field: Keywords"/>
-	<Message key="Data Type" description="Field: Data Type"/>
-	<Message key="Factory Default Value" description="Field: Factory Default Value"/>
-	<Message key="Current Value" description="Field: Current Value"/>
-	<Message key="Form Flag" description="Field: Form Flag"/>
-	<Message key="Minimum Value" description="Field: Minimum Value"/>
-	<Message key="Maximum Value" description="Field: Maximum Value"/>
-	<Message key="Step Size" description="Field: Step Size"/>
-	<Message key="Supported Values" description="Field: Supported Values"/>
-	<Message key="Supported Value" description="Field: Supported Value"/>
-	<Message key="Properties" description="Field: Properties"/>
-	<Message key="Supported Property" description="Field: Supported Property"/>
-	<Message key="Object Prop Value" description="Field: Object Prop Value"/>
-	<Message key="Number Of Objects" description="Field: Number Of Objects"/>
-	<Message key="Responder Storage ID" description="Field: Responder Storage ID"/>
-	<Message key="Responder Parent Object Handle" description="Field: Responder Parent Object Handle"/>
-	<Message key="Responder Reserved Object Handle" description="Field: Responder Reserved Object Handle"/>
-	<Message key="Bytes Sent" description="Field: Bytes Sent"/>
-	<Message key="Device Prop Code" description="Field: Device Prop Code"/>
+	<Message optional="true" key="Transaction ID" description="Field: Transaction ID"/>
+	<Message optional="true" key="Session ID" description="Field: Session ID"/>
+	<Message optional="true" key="Object Format Code" description="Field: Object Format Code"/>
+	<Message optional="true" key="Object Handle" description="Field: Object Handle"/>
+	<Message optional="true" key="Destination Storage ID" description="Field: Destination Storage ID"/>
+	<Message optional="true" key="Parent Object Handle" description="Field: Parent Object Handle"/>
+	<Message optional="true" key="File System Format" description="Field: File System Format"/>
+	<Message optional="true" key="Self Test Type" description="Field: Self Test Type"/>
+	<Message optional="true" key="Protection Status" description="Field: Protection Status"/>
+	<Message optional="true" key="Property Code" description="Field: Property Code"/>
+	<Message optional="true" key="Maximum Number To Obtain" description="Field: Maximum Number To Obtain"/>
+	<Message optional="true" key="Object Prop Code" description="Field: Object Prop Code"/>
+	<Message optional="true" key="Skip Index" description="Field: Skip Index"/>
+	<Message optional="true" key="Standard Version" description="Field: Standard Version"/>
+	<Message optional="true" key="Vendor Extension ID" description="Field: Vendor Extension ID"/>
+	<Message optional="true" key="Vendor Extension Version" description="Field: Vendor Extension Version"/>
+	<Message optional="true" key="Vendor Extension Description" description="Field: Vendor Extension Description"/>
+	<Message optional="true" key="Functional Mode" description="Field: Functional Mode"/>
+	<Message optional="true" key="Manufacturer" description="Field: Manufacturer"/>
+	<Message optional="true" key="Model" description="Field: Model"/>
+	<Message optional="true" key="Device Version" description="Field: Device Version"/>
+	<Message optional="true" key="Serial Number" description="Field: Serial Number"/>
+	<Message optional="true" key="Supported Operations" description="Field: Supported Operations"/>
+	<Message optional="true" key="Supported Operation" description="Field: Supported Operation"/>
+	<Message optional="true" key="Events Supported" description="Field: Events Supported"/>
+	<Message optional="true" key="Supported Event" description="Field: Supported Event"/>
+	<Message optional="true" key="Supported Device Properies" description="Field: Supported Device Properies"/>
+	<Message optional="true" key="Supported Device Property" description="Field: Supported Device Property"/>
+	<Message optional="true" key="Supported Capture Formats" description="Field: Supported Capture Formats"/>
+	<Message optional="true" key="Supported Capture Format" description="Field: Supported Capture Format"/>
+	<Message optional="true" key="Supported Image Formats" description="Field: Supported Image Formats"/>
+	<Message optional="true" key="Supported Image Format" description="Field: Supported Image Format"/>
+	<Message optional="true" key="Storage Type" description="Field: Storage Type"/>
+	<Message optional="true" key="Filesystem Type" description="Field: Filesystem Type"/>
+	<Message optional="true" key="Access Capability" description="Field: Access Capability"/>
+	<Message optional="true" key="Max Capacity" description="Field: Max Capacity"/>
+	<Message optional="true" key="Free Space (bytes)" description="Field: Free Space (bytes)"/>
+	<Message optional="true" key="Free Space (images)" description="Field: Free Space (images)"/>
+	<Message optional="true" key="Storage Descriptor" description="Field: Storage Descriptor"/>
+	<Message optional="true" key="Volume Label" description="Field: Volume Label"/>
+	<Message optional="true" key="Object Handles" description="Field: Object Handles"/>
+	<Message optional="true" key="Storage ID" description="Field: Storage ID"/>
+	<Message optional="true" key="Object Format" description="Field: Object Format"/>
+	<Message optional="true" key="Object Compressed Size" description="Field: Object Compressed Size"/>
+	<Message optional="true" key="Thumb Format" description="Field: Thumb Format"/>
+	<Message optional="true" key="Thumb Compressed Size" description="Field: Thumb Compressed Size"/>
+	<Message optional="true" key="Thumb Width (pixels)" description="Field: Thumb Width (pixels)"/>
+	<Message optional="true" key="Thumb Height (pixels)" description="Field: Thumb Height (pixels)"/>
+	<Message optional="true" key="Image Width (pixels)" description="Field: Image Width (pixels)"/>
+	<Message optional="true" key="Image Height (pixels)" description="Field: Image Height (pixels)"/>
+	<Message optional="true" key="Image Bit Depth" description="Field: Image Bit Depth"/>
+	<Message optional="true" key="Association Type" description="Field: Association Type"/>
+	<Message optional="true" key="Association Descriptor" description="Field: Association Descriptor"/>
+	<Message optional="true" key="Sequence Number" description="Field: Sequence Number"/>
+	<Message optional="true" key="Filename" description="Field: Filename"/>
+	<Message optional="true" key="Capture Date" description="Field: Capture Date"/>
+	<Message optional="true" key="Modification Date" description="Field: Modification Date"/>
+	<Message optional="true" key="Keywords" description="Field: Keywords"/>
+	<Message optional="true" key="Data Type" description="Field: Data Type"/>
+	<Message optional="true" key="Factory Default Value" description="Field: Factory Default Value"/>
+	<Message optional="true" key="Current Value" description="Field: Current Value"/>
+	<Message optional="true" key="Form Flag" description="Field: Form Flag"/>
+	<Message optional="true" key="Minimum Value" description="Field: Minimum Value"/>
+	<Message optional="true" key="Maximum Value" description="Field: Maximum Value"/>
+	<Message optional="true" key="Step Size" description="Field: Step Size"/>
+	<Message optional="true" key="Supported Values" description="Field: Supported Values"/>
+	<Message optional="true" key="Supported Value" description="Field: Supported Value"/>
+	<Message optional="true" key="Properties" description="Field: Properties"/>
+	<Message optional="true" key="Supported Property" description="Field: Supported Property"/>
+	<Message optional="true" key="Object Prop Value" description="Field: Object Prop Value"/>
+	<Message optional="true" key="Number Of Objects" description="Field: Number Of Objects"/>
+	<Message optional="true" key="Responder Storage ID" description="Field: Responder Storage ID"/>
+	<Message optional="true" key="Responder Parent Object Handle" description="Field: Responder Parent Object Handle"/>
+	<Message optional="true" key="Responder Reserved Object Handle" description="Field: Responder Reserved Object Handle"/>
+	<Message optional="true" key="Bytes Sent" description="Field: Bytes Sent"/>
+	<Message optional="true" key="Device Prop Code" description="Field: Device Prop Code"/>
 
 	<Enumeration key="USBStillViewSchemes" description="USB Still View visualizer schemes (coloring and fonts)">
 		<Item text="Default"/>
@@ -707,22 +706,22 @@
 
 
 	<!-- Audio view visualizer -->
-	<Message key="Sub Class" description="Field: Sub Class"/>
-	<Message key="Copy Protect" description="Field: Copy Protect"/>
-	<Message key="Channel Number" description="Field: Channel Number"/>
-	<Message key="Band" description="Field: Band"/>
-	<Message key="Enable" description="Field: Enable"/>
-	<Message key="Mode" description="Field: Mode"/>
-	<Message key="Spaciosness" description="Field: Spaciosness" value="Spaciosness (%)"/>
-	<Message key="Chorus Enable" description="Field: Chorus Enable"/>
-	<Message key="Max Amplitude" description="Field: Max Amplitude"/>
-	<Message key="Parametric Equalizer Section Effect Unit" description="Field: Parametric Equalizer Section Effect Unit"/>
-	<Message key="Reverberation Effect" description="Field: Reverberation Effect"/>
-	<Message key="Modulation Delay Effect Unit" description="Field: Modulation Delay Effect Unit"/>
-	<Message key="Dynamic Range Compressor Effect Unit" description="Field: Dynamic Range Compressor Effect Unit"/>
-	<Message key="Channel" description="Field: Channel"/>
-	<Message key="Source Pin" description="Field: Source Pin"/>
-	<Message key="Parameter Index" description="Field: Parameter Index"/>
+	<Message optional="true" key="Sub Class" description="Field: Sub Class"/>
+	<Message optional="true" key="Copy Protect" description="Field: Copy Protect"/>
+	<Message optional="true" key="Channel Number" description="Field: Channel Number"/>
+	<Message optional="true" key="Band" description="Field: Band"/>
+	<Message optional="true" key="Enable" description="Field: Enable"/>
+	<Message optional="true" key="Mode" description="Field: Mode"/>
+	<Message optional="true" key="Spaciosness" description="Field: Spaciosness" value="Spaciosness (%)"/>
+	<Message optional="true" key="Chorus Enable" description="Field: Chorus Enable"/>
+	<Message optional="true" key="Max Amplitude" description="Field: Max Amplitude"/>
+	<Message optional="true" key="Parametric Equalizer Section Effect Unit" description="Field: Parametric Equalizer Section Effect Unit"/>
+	<Message optional="true" key="Reverberation Effect" description="Field: Reverberation Effect"/>
+	<Message optional="true" key="Modulation Delay Effect Unit" description="Field: Modulation Delay Effect Unit"/>
+	<Message optional="true" key="Dynamic Range Compressor Effect Unit" description="Field: Dynamic Range Compressor Effect Unit"/>
+	<Message optional="true" key="Channel" description="Field: Channel"/>
+	<Message optional="true" key="Source Pin" description="Field: Source Pin"/>
+	<Message optional="true" key="Parameter Index" description="Field: Parameter Index"/>
 
 	<Enumeration key="USBAudioViewSchemes" description="USB Audio View visualizer schemes (coloring and fonts)">
 		<Item text="Default"/>
@@ -736,226 +735,225 @@
 
 
 	<!--Audio descriptor-->
-	<Message key="Category" description="Field: Category"/>
-	<Message key="Total Length" description="Field: Total Length"/>
-	<Message key="Latency Control" description="Field: Latency Control"/>
-	<Message key="Assoc Terminal" description="Field: Assoc Terminal"/>
-	<Message key="CSource ID" description="Field: CSource ID"/>
-	<Message key="Number of Channels" description="Field: Number of Channels"/>
-	<Message key="Channel Configuration" description="Field: Channel Configuration"/>
-	<Message key="Connector Control" description="Field: Connector Control"/>
-	<Message key="Overload Control" description="Field: Overload Control"/>
-	<Message key="Cluster Control" description="Field: Cluster Control"/>
-	<Message key="Underflow Control" description="Field: Underflow Control"/>
-	<Message key="Overflow Control" description="Field: Overflow Control"/>
-	<Message key="Source ID" description="Field: Source ID"/>
-	<Message key="Number of Pins" description="Field: Number of Pins"/>
-	<Message key="Index of StringDescriptor" description="Field: Index of StringDescriptor"/>
-	<Message key="Programmable Controls" description="Field: Programmable Controls"/>
-	<Message key="Feature Control" description="Field: Feature Control"/>
-	<Message key="Extension Code" description="Field: Extension Code"/>
-	<Message key="Enable Control" description="Field: Enable Control"/>
-	<Message key="Name of First Logical Channel" description="Field: Name of First Logical Channel"/>
-	<Message key="Effect Type" description="Field: Effect Type"/>
-	<Message key="Center Frequency Control" description="Field: Center Frequency Control"/>
-	<Message key="Q Factor Control" description="Field: Q Factor Control"/>
-	<Message key="Gain Control" description="Field: Gain Control"/>
-	<Message key="Mute Control" description="Field: Mute Control"/>
-	<Message key="Volume Control" description="Field: Volume Control"/>
-	<Message key="Bass Control" description="Field: Bass Control"/>
-	<Message key="Mid Control" description="Field: Mid Control"/>
-	<Message key="Treble Control" description="Field: Treble Control"/>
-	<Message key="Graphic Equalizer" description="Field: Graphic Equalizer"/>
-	<Message key="Automatic Gain" description="Field: Automatic Gain"/>
-	<Message key="Delay Control" description="Field: Delay Control"/>
-	<Message key="Bass Boost Control" description="Field: Bass Boost Control"/>
-	<Message key="Loudness Control" description="Field: Loudness Control"/>
-	<Message key="Input Gain Control" description="Field: Input Gain Control"/>
-	<Message key="Input Gain Pad Control" description="Field: Input Gain Pad Control"/>
-	<Message key="Phase Inverter Control" description="Field: Phase Inverter Control"/>
-	<Message key="Type Control" description="Field: Type Control"/>
-	<Message key="Level Control" description="Field: Level Control"/>
-	<Message key="Delay Feedback Control" description="Field: Delay Feedback Control"/>
-	<Message key="Pre Delay Control" description="Field: Pre Delay Control"/>
-	<Message key="Density Control" description="Field: Density Control"/>
-	<Message key="Hi Frequency Roll Off Control" description="Field: Hi Frequency Roll Off Control"/>
-	<Message key="Time Control" description="Field: Time Control"/>
-	<Message key="Feedback Level Control" description="Field: Feedback Level Control"/>
-	<Message key="Depth Control" description="Field: Depth Control"/>
-	<Message key="Rate Control" description="Field: Rate Control"/>
-	<Message key="Balance Control" description="Field: Balance Control"/>
-	<Message key="Compression Ratio Control" description="Field: Compression Ratio Control"/>
-	<Message key="Max Amplitude Control" description="Field: Max Amplitude Control"/>
-	<Message key="Threshold Control" description="Field: Threshold Control"/>
-	<Message key="Attack Time Control" description="Field: Attack Time Control"/>
-	<Message key="Release Time Control" description="Field: Release Time Control"/>
-	<Message key="Clock ID" description="Field: Clock ID"/>
-	<Message key="Clock Validity Control" description="Field: Clock Validity Control"/>
-	<Message key="Clock Frequency Control" description="Field: Clock Frequency Control"/>
-	<Message key="Clock Selector Control" description="Field: Clock Selector Control"/>
-	<Message key="Clock Numerator Control" description="Field: Clock Numerator Control"/>
-	<Message key="Clock Denominator Control" description="Field: Clock Denominator Control"/>
-	<Message key="CSource Out ID" description="Field: CSource Out ID"/>
-	<Message key="CSource In ID" description="Field: CSource In ID"/>
-	<Message key="Process Type" description="Field: Process Type"/>
-	<Message key="Mode Select Control" description="Field: Mode Select Control"/>
-	<Message key="Width Control" description="Field: Width Control"/>
-	<Message key="Terminal Link" description="Field: Terminal Link"/>
-	<Message key="Format Type" description="Field: Format Type"/>
-	<Message key="Formats (bitmap)" description="Field: Formats (bitmap)"/>
-	<Message key="Encoder Error Control" description="Field: Encoder Error Control"/>
-	<Message key="Bit Rate Control" description="Field: Bit Rate Control"/>
-	<Message key="Quality Control" description="Field: Quality Control"/>
-	<Message key="VBR Control" description="Field: VBR Control"/>
-	<Message key="Decoder ID" description="Field: Decoder ID"/>
-	<Message key="Decoder" description="Field: Decoder"/>
-	<Message key="Multi Language Support" description="Field: Multi Language Support"/>
-	<Message key="Adaptive Multi Channel Prediction" description="Field: Adaptive Multi Channel Prediction"/>
-	<Message key="Subslot Size" description="Field: Subslot Size"/>
-	<Message key="Bit Resolution" description="Field: Bit Resolution"/>
-	<Message key="Sample Frequency Type" description="Field: Sample Frequency Type"/>
-	<Message key="Sample Frequency" description="Field: Sample Frequency"/>
-	<Message key="Max Bit Rate" description="Field: Max Bit Rate"/>
-	<Message key="Slots Per Frame" description="Field: Slots Per Frame"/>
-	<Message key="Header Length" description="Field: Header Length"/>
-	<Message key="Side Band Protocol" description="Field: Side Band Protocol"/>
-	<Message key="Control Size" description="Field: Control Size"/>
-	<Message key="Samples Per Frame" description="Field: Samples Per Frame"/>
-	<Message key="Jack Type" description="Field: Jack Type"/>
-	<Message key="Jack ID" description="Field: Jack ID"/>
-	<Message key="Reverb Level" description="Field: Reverb Level" value="Reverb Level (%)"/>
-	<Message key="Reverb Time" description="Field: Reverb Time"/>
-	<Message key="Reverb Feedback" description="Field: Reverb Feedback"/>
-	<Message key="Chorus Level" description="Field: Chorus Level" value="Chorus Level (%)"/>
-	<Message key="Chorus Rate" description="Field: Chorus Rate"/>
-	<Message key="Chorus Depth" description="Field: Chorus Depth"/>
-	<Message key="Compression Rate" description="Field: Compression Rate"/>
-	<Message key="Threshold" description="Field: Threshold"/>
-	<Message key="Attack Time" description="Field: Attack Time"/>
-	<Message key="Release Time" description="Field: Release Time"/>
-	<Message key="Pitch Control" description="Field: Pitch Control"/>
-	<Message key="Sampling Frequency" description="Field: Sampling Frequency"/>
+	<Message optional="true" key="Category" description="Field: Category"/>
+	<Message optional="true" key="Total Length" description="Field: Total Length"/>
+	<Message optional="true" key="Latency Control" description="Field: Latency Control"/>
+	<Message optional="true" key="Assoc Terminal" description="Field: Assoc Terminal"/>
+	<Message optional="true" key="CSource ID" description="Field: CSource ID"/>
+	<Message optional="true" key="Number of Channels" description="Field: Number of Channels"/>
+	<Message optional="true" key="Channel Configuration" description="Field: Channel Configuration"/>
+	<Message optional="true" key="Connector Control" description="Field: Connector Control"/>
+	<Message optional="true" key="Overload Control" description="Field: Overload Control"/>
+	<Message optional="true" key="Cluster Control" description="Field: Cluster Control"/>
+	<Message optional="true" key="Underflow Control" description="Field: Underflow Control"/>
+	<Message optional="true" key="Overflow Control" description="Field: Overflow Control"/>
+	<Message optional="true" key="Source ID" description="Field: Source ID"/>
+	<Message optional="true" key="Number of Pins" description="Field: Number of Pins"/>
+	<Message optional="true" key="Index of StringDescriptor" description="Field: Index of StringDescriptor"/>
+	<Message optional="true" key="Programmable Controls" description="Field: Programmable Controls"/>
+	<Message optional="true" key="Feature Control" description="Field: Feature Control"/>
+	<Message optional="true" key="Extension Code" description="Field: Extension Code"/>
+	<Message optional="true" key="Enable Control" description="Field: Enable Control"/>
+	<Message optional="true" key="Name of First Logical Channel" description="Field: Name of First Logical Channel"/>
+	<Message optional="true" key="Effect Type" description="Field: Effect Type"/>
+	<Message optional="true" key="Center Frequency Control" description="Field: Center Frequency Control"/>
+	<Message optional="true" key="Q Factor Control" description="Field: Q Factor Control"/>
+	<Message optional="true" key="Gain Control" description="Field: Gain Control"/>
+	<Message optional="true" key="Mute Control" description="Field: Mute Control"/>
+	<Message optional="true" key="Volume Control" description="Field: Volume Control"/>
+	<Message optional="true" key="Bass Control" description="Field: Bass Control"/>
+	<Message optional="true" key="Mid Control" description="Field: Mid Control"/>
+	<Message optional="true" key="Treble Control" description="Field: Treble Control"/>
+	<Message optional="true" key="Graphic Equalizer" description="Field: Graphic Equalizer"/>
+	<Message optional="true" key="Automatic Gain" description="Field: Automatic Gain"/>
+	<Message optional="true" key="Delay Control" description="Field: Delay Control"/>
+	<Message optional="true" key="Bass Boost Control" description="Field: Bass Boost Control"/>
+	<Message optional="true" key="Loudness Control" description="Field: Loudness Control"/>
+	<Message optional="true" key="Input Gain Control" description="Field: Input Gain Control"/>
+	<Message optional="true" key="Input Gain Pad Control" description="Field: Input Gain Pad Control"/>
+	<Message optional="true" key="Phase Inverter Control" description="Field: Phase Inverter Control"/>
+	<Message optional="true" key="Type Control" description="Field: Type Control"/>
+	<Message optional="true" key="Level Control" description="Field: Level Control"/>
+	<Message optional="true" key="Delay Feedback Control" description="Field: Delay Feedback Control"/>
+	<Message optional="true" key="Pre Delay Control" description="Field: Pre Delay Control"/>
+	<Message optional="true" key="Density Control" description="Field: Density Control"/>
+	<Message optional="true" key="Hi Frequency Roll Off Control" description="Field: Hi Frequency Roll Off Control"/>
+	<Message optional="true" key="Time Control" description="Field: Time Control"/>
+	<Message optional="true" key="Feedback Level Control" description="Field: Feedback Level Control"/>
+	<Message optional="true" key="Depth Control" description="Field: Depth Control"/>
+	<Message optional="true" key="Rate Control" description="Field: Rate Control"/>
+	<Message optional="true" key="Balance Control" description="Field: Balance Control"/>
+	<Message optional="true" key="Compression Ratio Control" description="Field: Compression Ratio Control"/>
+	<Message optional="true" key="Max Amplitude Control" description="Field: Max Amplitude Control"/>
+	<Message optional="true" key="Threshold Control" description="Field: Threshold Control"/>
+	<Message optional="true" key="Attack Time Control" description="Field: Attack Time Control"/>
+	<Message optional="true" key="Release Time Control" description="Field: Release Time Control"/>
+	<Message optional="true" key="Clock ID" description="Field: Clock ID"/>
+	<Message optional="true" key="Clock Validity Control" description="Field: Clock Validity Control"/>
+	<Message optional="true" key="Clock Frequency Control" description="Field: Clock Frequency Control"/>
+	<Message optional="true" key="Clock Selector Control" description="Field: Clock Selector Control"/>
+	<Message optional="true" key="Clock Numerator Control" description="Field: Clock Numerator Control"/>
+	<Message optional="true" key="Clock Denominator Control" description="Field: Clock Denominator Control"/>
+	<Message optional="true" key="CSource Out ID" description="Field: CSource Out ID"/>
+	<Message optional="true" key="CSource In ID" description="Field: CSource In ID"/>
+	<Message optional="true" key="Process Type" description="Field: Process Type"/>
+	<Message optional="true" key="Mode Select Control" description="Field: Mode Select Control"/>
+	<Message optional="true" key="Width Control" description="Field: Width Control"/>
+	<Message optional="true" key="Terminal Link" description="Field: Terminal Link"/>
+	<Message optional="true" key="Format Type" description="Field: Format Type"/>
+	<Message optional="true" key="Formats (bitmap)" description="Field: Formats (bitmap)"/>
+	<Message optional="true" key="Encoder Error Control" description="Field: Encoder Error Control"/>
+	<Message optional="true" key="Bit Rate Control" description="Field: Bit Rate Control"/>
+	<Message optional="true" key="Quality Control" description="Field: Quality Control"/>
+	<Message optional="true" key="VBR Control" description="Field: VBR Control"/>
+	<Message optional="true" key="Decoder ID" description="Field: Decoder ID"/>
+	<Message optional="true" key="Decoder" description="Field: Decoder"/>
+	<Message optional="true" key="Multi Language Support" description="Field: Multi Language Support"/>
+	<Message optional="true" key="Adaptive Multi Channel Prediction" description="Field: Adaptive Multi Channel Prediction"/>
+	<Message optional="true" key="Subslot Size" description="Field: Subslot Size"/>
+	<Message optional="true" key="Bit Resolution" description="Field: Bit Resolution"/>
+	<Message optional="true" key="Sample Frequency Type" description="Field: Sample Frequency Type"/>
+	<Message optional="true" key="Sample Frequency" description="Field: Sample Frequency"/>
+	<Message optional="true" key="Max Bit Rate" description="Field: Max Bit Rate"/>
+	<Message optional="true" key="Slots Per Frame" description="Field: Slots Per Frame"/>
+	<Message optional="true" key="Header Length" description="Field: Header Length"/>
+	<Message optional="true" key="Side Band Protocol" description="Field: Side Band Protocol"/>
+	<Message optional="true" key="Control Size" description="Field: Control Size"/>
+	<Message optional="true" key="Samples Per Frame" description="Field: Samples Per Frame"/>
+	<Message optional="true" key="Jack Type" description="Field: Jack Type"/>
+	<Message optional="true" key="Jack ID" description="Field: Jack ID"/>
+	<Message optional="true" key="Reverb Time" description="Field: Reverb Time"/>
+	<Message optional="true" key="Reverb Feedback" description="Field: Reverb Feedback"/>
+	<Message optional="true" key="Chorus Level" description="Field: Chorus Level" value="Chorus Level (%)"/>
+	<Message optional="true" key="Chorus Rate" description="Field: Chorus Rate"/>
+	<Message optional="true" key="Chorus Depth" description="Field: Chorus Depth"/>
+	<Message optional="true" key="Compression Rate" description="Field: Compression Rate"/>
+	<Message optional="true" key="Threshold" description="Field: Threshold"/>
+	<Message optional="true" key="Attack Time" description="Field: Attack Time"/>
+	<Message optional="true" key="Release Time" description="Field: Release Time"/>
+	<Message optional="true" key="Pitch Control" description="Field: Pitch Control"/>
+	<Message optional="true" key="Sampling Frequency" description="Field: Sampling Frequency"/>
 
 
 	<!--Video Descriptor-->
-	<Message key="Terminal ID" description="Field: Terminal ID"/>
-	<Message key="Terminal Type" description="Field: Terminal Type"/>
-	<Message key="Interface Count" description="Field: Interface Count"/>
-	<Message key="Function Class" description="Field: Function Class"/>
-	<Message key="Function Sub Class" description="Field: Function Sub Class"/>
-	<Message key="Function Protocol" description="Field: Function Protocol"/>
-	<Message key="Input Collection" description="Field: Input Collection"/>
-	<Message key="Scanning Mode" description="Field: Scanning Mode"/>
-	<Message key="Auto Exposure Mode" description="Field: Auto Exposure Mode"/>
-	<Message key="Focus Absolute" description="Field: Focus Absolute"/>
-	<Message key="Focus Relative" description="Field: Focus Relative"/>
-	<Message key="Iris Relative" description="Field: Iris Relative"/>
-	<Message key="Iris Absolute" description="Field: Iris Absolute"/>
-	<Message key="Zoom Relative" description="Field: Zoom Relative"/>
-	<Message key="Zoom Absolute" description="Field: Zoom Absolute"/>
-	<Message key="Pan/Tilt Relative" description="Field: Pan/Tilt Relative"/>
-	<Message key="Pan/Tilt Absolute" description="Field: Pan/Tilt Absolute"/>
-	<Message key="Auto" description="Field: Auto"/>
-	<Message key="Privacy" description="Field: Privacy"/>
-	<Message key="Focus Simple" description="Field: Focus Simple"/>
-	<Message key="Window" description="Field: Window"/>
-	<Message key="Region Of Interest" description="Field: Region Of Interest"/>
-	<Message key="Max Multiplier" description="Field: Max Multiplier"/>
-	<Message key="White Balance" description="Field: White Balance"/>
-	<Message key="Temperature" description="Field: Temperature"/>
-	<Message key="White Balance Component" description="Field: White Balance Component"/>
-	<Message key="Hue Auto" description="Field: Hue Auto"/>
-	<Message key="White Balance Component Auto" description="Field: White Balance Component Auto"/>
-	<Message key="Digital Multiplier" description="Field: Digital Multiplier"/>
-	<Message key="Digital Multiplier Limit" description="Field: Digital Multiplier Limit"/>
-	<Message key="Analog Video Standard" description="Field: Analog Video Standard"/>
-	<Message key="Analog Video Lock Status" description="Field: Analog Video Lock Status"/>
-	<Message key="Contrast Auto" description="Field: Contrast Auto"/>
-	<Message key="None" description="Field: None"/>
-	<Message key="Number Of Controls" description="Field: Number Of Controls"/>
-	<Message key="Controls" description="Field: Controls"/>
-	<Message key="Select Layer" description="Field: Select Layer"/>
-	<Message key="Profile And Toolset" description="Field: Profile And Toolset"/>
-	<Message key="Video Resolution" description="Field: Video Resolution"/>
-	<Message key="Minimum Frame Interval" description="Field: Minimum Frame Interval"/>
-	<Message key="Quantization Parameter" description="Field: Quantization Parameter"/>
-	<Message key="Synchronization" description="Field: Synchronization"/>
-	<Message key="Long Term Buffer" description="Field: Long Term Buffer"/>
-	<Message key="Picture" description="Field: Picture"/>
-	<Message key="Validation" description="Field: Validation"/>
-	<Message key="SEI Message" description="Field: SEI Message"/>
-	<Message key="QP Range" description="Field: QP Range"/>
-	<Message key="Start/Stop Layer Or View" description="Field: Start/Stop Layer Or View"/>
-	<Message key="Error Resiliency" description="Field: Error Resiliency"/>
-	<Message key="Number Of Formats" description="Field: Number Of Formats"/>
-	<Message key="Endpoint Address" description="Field: Endpoint Address"/>
-	<Message key="Info" description="Field: Info"/>
-	<Message key="Trigger Support" description="Field: Trigger Support"/>
-	<Message key="Trigger Usage" description="Field: Trigger Usage"/>
-	<Message key="Still Capture Method" description="Field: Still Capture Method"/>
-	<Message key="Image Size Patterns" description="Field: Image Size Patterns"/>
-	<Message key="Compression Patterns" description="Field: Compression Patterns"/>
-	<Message key="Frame Descriptors" description="Field: Frame Descriptors"/>
+	<Message optional="true" key="Terminal ID" description="Field: Terminal ID"/>
+	<Message optional="true" key="Terminal Type" description="Field: Terminal Type"/>
+	<Message optional="true" key="Interface Count" description="Field: Interface Count"/>
+	<Message optional="true" key="Function Class" description="Field: Function Class"/>
+	<Message optional="true" key="Function Sub Class" description="Field: Function Sub Class"/>
+	<Message optional="true" key="Function Protocol" description="Field: Function Protocol"/>
+	<Message optional="true" key="Input Collection" description="Field: Input Collection"/>
+	<Message optional="true" key="Scanning Mode" description="Field: Scanning Mode"/>
+	<Message optional="true" key="Auto Exposure Mode" description="Field: Auto Exposure Mode"/>
+	<Message optional="true" key="Focus Absolute" description="Field: Focus Absolute"/>
+	<Message optional="true" key="Focus Relative" description="Field: Focus Relative"/>
+	<Message optional="true" key="Iris Relative" description="Field: Iris Relative"/>
+	<Message optional="true" key="Iris Absolute" description="Field: Iris Absolute"/>
+	<Message optional="true" key="Zoom Relative" description="Field: Zoom Relative"/>
+	<Message optional="true" key="Zoom Absolute" description="Field: Zoom Absolute"/>
+	<Message optional="true" key="Pan/Tilt Relative" description="Field: Pan/Tilt Relative"/>
+	<Message optional="true" key="Pan/Tilt Absolute" description="Field: Pan/Tilt Absolute"/>
+	<Message optional="true" key="Auto" description="Field: Auto"/>
+	<Message optional="true" key="Privacy" description="Field: Privacy"/>
+	<Message optional="true" key="Focus Simple" description="Field: Focus Simple"/>
+	<Message optional="true" key="Window" description="Field: Window"/>
+	<Message optional="true" key="Region Of Interest" description="Field: Region Of Interest"/>
+	<Message optional="true" key="Max Multiplier" description="Field: Max Multiplier"/>
+	<Message optional="true" key="White Balance" description="Field: White Balance"/>
+	<Message optional="true" key="Temperature" description="Field: Temperature"/>
+	<Message optional="true" key="White Balance Component" description="Field: White Balance Component"/>
+	<Message optional="true" key="Hue Auto" description="Field: Hue Auto"/>
+	<Message optional="true" key="White Balance Component Auto" description="Field: White Balance Component Auto"/>
+	<Message optional="true" key="Digital Multiplier" description="Field: Digital Multiplier"/>
+	<Message optional="true" key="Digital Multiplier Limit" description="Field: Digital Multiplier Limit"/>
+	<Message optional="true" key="Analog Video Standard" description="Field: Analog Video Standard"/>
+	<Message optional="true" key="Analog Video Lock Status" description="Field: Analog Video Lock Status"/>
+	<Message optional="true" key="Contrast Auto" description="Field: Contrast Auto"/>
+	<Message optional="true" key="None" description="Field: None"/>
+	<Message optional="true" key="Number Of Controls" description="Field: Number Of Controls"/>
+	<Message optional="true" key="Controls" description="Field: Controls"/>
+	<Message optional="true" key="Select Layer" description="Field: Select Layer"/>
+	<Message optional="true" key="Profile And Toolset" description="Field: Profile And Toolset"/>
+	<Message optional="true" key="Video Resolution" description="Field: Video Resolution"/>
+	<Message optional="true" key="Minimum Frame Interval" description="Field: Minimum Frame Interval"/>
+	<Message optional="true" key="Quantization Parameter" description="Field: Quantization Parameter"/>
+	<Message optional="true" key="Synchronization" description="Field: Synchronization"/>
+	<Message optional="true" key="Long Term Buffer" description="Field: Long Term Buffer"/>
+	<Message optional="true" key="Picture" description="Field: Picture"/>
+	<Message optional="true" key="Validation" description="Field: Validation"/>
+	<Message optional="true" key="SEI Message" description="Field: SEI Message"/>
+	<Message optional="true" key="QP Range" description="Field: QP Range"/>
+	<Message optional="true" key="Start/Stop Layer Or View" description="Field: Start/Stop Layer Or View"/>
+	<Message optional="true" key="Error Resiliency" description="Field: Error Resiliency"/>
+	<Message optional="true" key="Number Of Formats" description="Field: Number Of Formats"/>
+	<Message optional="true" key="Endpoint Address" description="Field: Endpoint Address"/>
+	<Message optional="true" key="Info" description="Field: Info"/>
+	<Message optional="true" key="Trigger Support" description="Field: Trigger Support"/>
+	<Message optional="true" key="Trigger Usage" description="Field: Trigger Usage"/>
+	<Message optional="true" key="Still Capture Method" description="Field: Still Capture Method"/>
+	<Message optional="true" key="Image Size Patterns" description="Field: Image Size Patterns"/>
+	<Message optional="true" key="Compression Patterns" description="Field: Compression Patterns"/>
+	<Message optional="true" key="Frame Descriptors" description="Field: Frame Descriptors"/>
 	<!--<Message key="Format" description="Field: Format"/>-->
-	<Message key="Bits Per Pixel" description="Field: Bits Per Pixel"/>
-	<Message key="Default Frame Index" description="Field: Default Frame Index"/>
-	<Message key="Aspect Ratio X" description="Field: Aspect Ratio X"/>
-	<Message key="Aspect Ratio Y" description="Field: Aspect Ratio Y"/>
-	<Message key="Interlace Flags" description="Field: Interlace Flags"/>
-	<Message key="Still Image Supported" description="Field: Still Image Supported"/>
-	<Message key="Fixed Frame Rate" description="Field: Fixed Frame Rate"/>
-	<Message key="Min Bit Rate" description="Field: Min Bit Rate"/>
-	<Message key="Max Video Frame Buffer Size" description="Field: Max Video Frame Buffer Size"/>
-	<Message key="Default Frame Interval" description="Field: Default Frame Interval"/>
-	<Message key="Frame Interval Type" description="Field: Frame Interval Type"/>
-	<Message key="Min Frame Interval" description="Field: Min Frame Interval"/>
-	<Message key="Max Frame Interval" description="Field: Max Frame Interval"/>
-	<Message key="Frame Interval Step" description="Field: Frame Interval Step"/>
-	<Message key="Flags" description="Field: Flags"/>
-	<Message key="Capabilities" description="Field: Capabilities"/>
-	<Message key="Data Offset" description="Field: Data Offset"/>
-	<Message key="Packet Length" description="Field: Packet Length"/>
-	<Message key="Stride Length" description="Field: Stride Length"/>
-	<Message key="Stride Format" description="Field: Stride Format"/>
-	<Message key="Color Primaries" description="Field: Color Primaries"/>
-	<Message key="Transfer Characteristics" description="Field: Transfer Characteristics"/>
-	<Message key="Matrix Coefficients" description="Field: Matrix Coefficients"/>
-	<Message key="Variable Size" description="Field: Variable Size"/>
-	<Message key="Bytes Per Line" description="Field: Bytes Per Line"/>
-	<Message key="Max Codec Config Delay" description="Field: Max Codec Config Delay"/>
-	<Message key="Supported Slice Modes" description="Field: Supported Slice Modes"/>
-	<Message key="Supported Sync Frame Types" description="Field: Supported Sync Frame Types"/>
-	<Message key="Resolution Scaling" description="Field: Resolution Scaling"/>
-	<Message key="Supported Rate Control Modes" description="Field: Supported Rate Control Modes"/>
-	<Message key="SAR Width" description="Field: SAR Width"/>
-	<Message key="SAR Height" description="Field: SAR Height"/>
-	<Message key="Supported Usages" description="Field: Supported Usages"/>
-	<Message key="Max Number Of Temporal Layers" description="Field: Max Number Of Temporal Layers"/>
-	<Message key="Frame Intervals" description="Field: Frame Intervals"/>
-	<Message key="Rewrite Support" description="Field: Rewrite Support"/>
-	<Message key="Max Number Of CGS Layers" description="Field: Max Number Of CGS Layers"/>
-	<Message key="Max Number Of MGS Sublayers" description="Field: Max Number Of MGS Sublayers"/>
-	<Message key="Additional SNR Scalability" description="Field: Additional SNR Scalability"/>
-	<Message key="Max Number Of Spatial Layers" description="Field: Max Number Of Spatial Layers"/>
-	<Message key="Max Number Of View Components" description="Field: Max Number Of View Components"/>
-	<Message key="Supported Partition Count" description="Field: Supported Partition Count"/>
-	<Message key="Reset" description="Field: Reset"/>
-	<Message key="Intra Frame" description="Field: Intra Frame"/>
-	<Message key="Golden Frame" description="Field: Golden Frame"/>
-	<Message key="Alternate Reference Frame" description="Field: Alternate Reference Frame"/>
-	<Message key="Gradual Decoder Refresh Frames" description="Field: Gradual Decoder Refresh Frames"/>
-	<Message key="Constant QP" description="Field: Constant QP"/>
-	<Message key="Max (MB/Sec)" description="Field: Max (MB/Sec)"/>
-	<Message key="Constant Frame Rate" description="Field: Constant Frame Rate"/>
-	<Message key="Scalability Capabilities" description="Field: Scalability Capabilities"/>
-	<Message key="Stream" description="Field: Stream"/>
-	<Message key="Max processing rate" description="Field: Max processing rate"/>
+	<Message optional="true" key="Bits Per Pixel" description="Field: Bits Per Pixel"/>
+	<Message optional="true" key="Default Frame Index" description="Field: Default Frame Index"/>
+	<Message optional="true" key="Aspect Ratio X" description="Field: Aspect Ratio X"/>
+	<Message optional="true" key="Aspect Ratio Y" description="Field: Aspect Ratio Y"/>
+	<Message optional="true" key="Interlace Flags" description="Field: Interlace Flags"/>
+	<Message optional="true" key="Still Image Supported" description="Field: Still Image Supported"/>
+	<Message optional="true" key="Fixed Frame Rate" description="Field: Fixed Frame Rate"/>
+	<Message optional="true" key="Min Bit Rate" description="Field: Min Bit Rate"/>
+	<Message optional="true" key="Max Video Frame Buffer Size" description="Field: Max Video Frame Buffer Size"/>
+	<Message optional="true" key="Default Frame Interval" description="Field: Default Frame Interval"/>
+	<Message optional="true" key="Frame Interval Type" description="Field: Frame Interval Type"/>
+	<Message optional="true" key="Min Frame Interval" description="Field: Min Frame Interval"/>
+	<Message optional="true" key="Max Frame Interval" description="Field: Max Frame Interval"/>
+	<Message optional="true" key="Frame Interval Step" description="Field: Frame Interval Step"/>
+	<Message optional="true" key="Flags" description="Field: Flags"/>
+	<Message optional="true" key="Capabilities" description="Field: Capabilities"/>
+	<Message optional="true" key="Data Offset" description="Field: Data Offset"/>
+	<Message optional="true" key="Packet Length" description="Field: Packet Length"/>
+	<Message optional="true" key="Stride Length" description="Field: Stride Length"/>
+	<Message optional="true" key="Stride Format" description="Field: Stride Format"/>
+	<Message optional="true" key="Color Primaries" description="Field: Color Primaries"/>
+	<Message optional="true" key="Transfer Characteristics" description="Field: Transfer Characteristics"/>
+	<Message optional="true" key="Matrix Coefficients" description="Field: Matrix Coefficients"/>
+	<Message optional="true" key="Variable Size" description="Field: Variable Size"/>
+	<Message optional="true" key="Bytes Per Line" description="Field: Bytes Per Line"/>
+	<Message optional="true" key="Max Codec Config Delay" description="Field: Max Codec Config Delay"/>
+	<Message optional="true" key="Supported Slice Modes" description="Field: Supported Slice Modes"/>
+	<Message optional="true" key="Supported Sync Frame Types" description="Field: Supported Sync Frame Types"/>
+	<Message optional="true" key="Resolution Scaling" description="Field: Resolution Scaling"/>
+	<Message optional="true" key="Supported Rate Control Modes" description="Field: Supported Rate Control Modes"/>
+	<Message optional="true" key="SAR Width" description="Field: SAR Width"/>
+	<Message optional="true" key="SAR Height" description="Field: SAR Height"/>
+	<Message optional="true" key="Supported Usages" description="Field: Supported Usages"/>
+	<Message optional="true" key="Max Number Of Temporal Layers" description="Field: Max Number Of Temporal Layers"/>
+	<Message optional="true" key="Frame Intervals" description="Field: Frame Intervals"/>
+	<Message optional="true" key="Rewrite Support" description="Field: Rewrite Support"/>
+	<Message optional="true" key="Max Number Of CGS Layers" description="Field: Max Number Of CGS Layers"/>
+	<Message optional="true" key="Max Number Of MGS Sublayers" description="Field: Max Number Of MGS Sublayers"/>
+	<Message optional="true" key="Additional SNR Scalability" description="Field: Additional SNR Scalability"/>
+	<Message optional="true" key="Max Number Of Spatial Layers" description="Field: Max Number Of Spatial Layers"/>
+	<Message optional="true" key="Max Number Of View Components" description="Field: Max Number Of View Components"/>
+	<Message optional="true" key="Supported Partition Count" description="Field: Supported Partition Count"/>
+	<Message optional="true" key="Reset" description="Field: Reset"/>
+	<Message optional="true" key="Intra Frame" description="Field: Intra Frame"/>
+	<Message optional="true" key="Golden Frame" description="Field: Golden Frame"/>
+	<Message optional="true" key="Alternate Reference Frame" description="Field: Alternate Reference Frame"/>
+	<Message optional="true" key="Gradual Decoder Refresh Frames" description="Field: Gradual Decoder Refresh Frames"/>
+	<Message optional="true" key="Constant QP" description="Field: Constant QP"/>
+	<Message optional="true" key="Max (MB/Sec)" description="Field: Max (MB/Sec)"/>
+	<Message optional="true" key="Constant Frame Rate" description="Field: Constant Frame Rate"/>
+	<Message optional="true" key="Scalability Capabilities" description="Field: Scalability Capabilities"/>
+	<Message optional="true" key="Stream" description="Field: Stream"/>
+	<Message optional="true" key="Max processing rate" description="Field: Max processing rate"/>
 
-	<Message key="No Scalability" description="Field: No Scalability"/>
-	<Message key="Temporal Scalability" description="Field: Temporal Scalability"/>
-	<Message key="Temporal Quality Scalability" description="Field: Temporal Quality Scalability"/>
-	<Message key="Temporal Spatial Scalability" description="Field: Temporal Spatial Scalability"/>
-	<Message key="Full Scalability" description="Field: Full Scalability"/>
+	<Message optional="true" key="No Scalability" description="Field: No Scalability"/>
+	<Message optional="true" key="Temporal Scalability" description="Field: Temporal Scalability"/>
+	<Message optional="true" key="Temporal Quality Scalability" description="Field: Temporal Quality Scalability"/>
+	<Message optional="true" key="Temporal Spatial Scalability" description="Field: Temporal Spatial Scalability"/>
+	<Message optional="true" key="Full Scalability" description="Field: Full Scalability"/>
 
 	<Enumeration key="MassViewOptions" description="Mass Storage View visualizer options">
 		<Item text="Display Raw Data"/>
