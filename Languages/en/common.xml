@@ -10,9 +10,10 @@
 	<Message key="Type" description="Common string: Type" />
 	<Message key="Time" description="Common string: Time" />
 	<Message key="Name" description="Common string: Name" />
+	<Message key="Delay" description="Common string: Delay"/>
+	<Message key="Packet" description="Common string: Packet"/>
 	<Message key="Overwrite" description="Field: Overwrite"/>
 	<Message key="Scheme" description="Field: Scheme"/>
-	<Message key="Delay" description="Common string: Delay"/>
 	<Message key="Error" description="Field: Error"/>
 	<Message key="Data" description="Field: Data"/>
 	<Message key="Length" description="Field: Length"/>

@@ -6,9 +6,9 @@
   <Message key="Type" value="Tipo" revision="0" />
   <Message key="Time" value="Tempo" revision="0" />
   <Message key="Name" value="Nome" revision="0" />
+  <Message key="Delay" value="Atraso" revision="0" />
   <Message key="Overwrite" value="Substituir" revision="0" />
   <Message key="Scheme" value="Esquema" revision="0" />
-  <Message key="Delay" value="Atraso" revision="0" />
   <Message key="Error" value="Erro" revision="0" />
   <Message key="Data" value="Dados" revision="0" />
   <Message key="Length" value="Comprimento" revision="0" />

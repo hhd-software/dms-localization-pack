@@ -6,9 +6,10 @@
   <Message key="Type" value="Тип" revision="0" />
   <Message key="Time" value="Время" revision="0" />
   <Message key="Name" value="Имя" revision="0" />
+  <Message key="Delay" value="Задержка" revision="0" />
+  <Message key="Packet" value="Пакет" revision="0" />
   <Message key="Overwrite" value="Перезаписать" revision="0" />
   <Message key="Scheme" value="Схема" revision="0" />
-  <Message key="Delay" value="Задержка" revision="0" />
   <Message key="Error" value="Ошибка" revision="0" />
   <Message key="Data" value="Данные" revision="0" />
   <Message key="Length" value="Длина" revision="0" />
