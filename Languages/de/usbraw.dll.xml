@@ -12,8 +12,6 @@
   <Message key="Control Transfer" value="Kontrolle übertragen" revision="0" />
   <Message key="Setup Packet" value="Setup-Paket" revision="0" />
   <Message key="UsbRequestFmt" value="Anfrage: {id} ({name})\n" revision="0" />
-  <Message key="SchemeBasic" value="Grundlegend" revision="0" />
-  <Message key="SchemeComplete" value="Vollständig" revision="0" />
   <Message key="SetupPacketFmt" value="Empfänger: {recp}\nAnfrage Typ: {type}\nRichtung: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Deskriptor Typ: {name}\nDeskriptor-Index: {index}\nGröße des Übertragungspuffers: {size} bytes\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="SpracheId: {index}" revision="0" />

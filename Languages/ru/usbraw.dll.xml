@@ -12,8 +12,6 @@
   <Message key="Control Transfer" value="Передача контрола" revision="0" />
   <Message key="Setup Packet" value="Пакет настройки" revision="0" />
   <Message key="UsbRequestFmt" value="Запрос: {id} ({name})\n" revision="0" />
-  <Message key="SchemeBasic" value="Основная" revision="0" />
-  <Message key="SchemeComplete" value="Полная" revision="0" />
   <Message key="SetupPacketFmt" value="Получатель: {recp}\nТип запроса: {type}\nНаправление: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Тип дескриптора: {name}\nИндекс дескриптора: {index}\nРазмер буфера передачи: {size} байт\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="ID языка: {index}" revision="0" />

@@ -2,6 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Paket Nr." revision="0" />
   <Message key="Line State Change Notification" value="Benachrichtigung Änderung des Leitungsstatus" revision="0" />
+  <Message key="SchemeBasic" value="Grundlegend" revision="0" />
+  <Message key="SchemeComplete" value="Vollständig" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Rohdaten" revision="0" />
     <Item value="Die Rohdatenansicht zeigt rohe Paketdaten in zwei zusammenhängenden Strömen (Eingabe und Ausgabe) an. Sie bietet flexible visuelle und Layout-Anpassung und unterstützt protokollgesteuerte Filterung und Änderung des Root-Protokolls." revision="0" />

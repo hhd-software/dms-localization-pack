@@ -12,8 +12,6 @@
   <Message key="Control Transfer" value="Transferência de controlo" revision="0" />
   <Message key="Setup Packet" value="Pacote de configuração" revision="0" />
   <Message key="UsbRequestFmt" value="Pedido: {id} ({name})\n" revision="0" />
-  <Message key="SchemeBasic" value="Básico" revision="0" />
-  <Message key="SchemeComplete" value="Completo" revision="0" />
   <Message key="SetupPacketFmt" value="Beneficiário: {recp}\nTipo de pedido: {type}\nDireção: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Tipo de descritor: {name}\nÍndice descritor: {index}\nTamanho do buffer de transferência: {size} bytes\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="IdiomaId: {index}" revision="0" />

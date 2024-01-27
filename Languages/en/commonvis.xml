@@ -958,5 +958,7 @@
 	<Enumeration key="MassViewOptions" description="Mass Storage View visualizer options">
 		<Item text="Display Raw Data"/>
 	</Enumeration>
+	<Message key="SchemeBasic" description="Scheme name: Basic" value="Basic"/>
+	<Message key="SchemeComplete" description="Scheme name: Complete" value="Complete"/>
 
 </Definition>

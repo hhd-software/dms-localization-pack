@@ -2,6 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Paquete nº" revision="0" />
   <Message key="Line State Change Notification" value="Notificación de cambio de estado de línea" revision="0" />
+  <Message key="SchemeBasic" value="Básico" revision="0" />
+  <Message key="SchemeComplete" value="Complete" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vista de datos brutos" revision="0" />
     <Item value="La vista de datos brutos muestra los datos de paquetes brutos en dos flujos contiguos (entrada y salida). Ofrece una personalización visual y de diseño flexible y admite el filtrado controlado por protocolo y el cambio del protocolo raíz." revision="0" />
