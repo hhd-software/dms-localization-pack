@@ -15,7 +15,7 @@
   <Message key="SettableBaud" value="[[[bVelocidades en baudios]]]\t{values}\n" revision="0" />
   <Message key="DataBits" value="[[[bBits de datos]]]\t{values}\n" revision="0" />
   <Message key="StopBits" value="[[[bBits de parada]]]\t{values}\n" revision="0" />
-  <Message key="Parity" value="[[[bParidad]]]\t{values}\n" revision="0" />
+  <Message key="InfoParity" value="[[[bParidad]]]\t{values}\n" revision="0" />
   <Message key="Current Tx Queue" value="[[[bTx Queue actual]]]\t{has value?}{value} bytes{|has value}no disponible{?has value}\n" revision="0" />
   <Message key="Current Rx Queue" value="[[[bRx Queue actual]]]\t{has value?}{value} bytes{|has value}no disponible{?has value}\n" revision="0" />
   <Message key="Communication mode" value="Modo de comunicación: {mode}{discard?}, descartar lecturas vacías{?discard}{terminal?}, con escucha{?terminal}" revision="0" />
@@ -38,11 +38,6 @@
   <Message key="Set" value="&amp;Editar…" revision="0" />
   <Message key="View" value="Ver" revision="0" />
   <Message key="Listen on monitored port" value="Escuchar datos entrantes (abrirá el dispositivo serie)" revision="0" />
-  <Message key="Baud rate:" value="Velocidades en baudios:" revision="0" />
-  <Message key="Data bits:" value="Bits de datos:" revision="0" />
-  <Message key="Parity:" value="Paridad:" revision="0" />
-  <Message key="Stop bits:" value="Bits de parada:" revision="0" />
-  <Message key="Flow control:" value="Control de flujo:" revision="0" />
   <Message key="Read interval:" value="Intervalo de lectura:" revision="0" />
   <Message key="Write constant:" value="Constante de registro:" revision="0" />
   <Message key="Write multiplier:" value="Multiplicador de escritura:" revision="0" />

@@ -169,18 +169,6 @@
   <Message key="Default colors:" value="Colores por defecto:" revision="0" />
   <Message key="Alpha" value="Alfa" revision="0" />
   <Message key="Custom..." value="Personalizado…" revision="0" />
-  <Message key="Baud rate:" value="Velocidad en baudios:" revision="0" />
-  <Message key="Data bits:" value="Bits de datos:" revision="0" />
-  <Message key="Parity:" value="Paridad:" revision="0" />
-  <Message key="Stop bits:" value="Bits de parada:" revision="0" />
-  <Message key="Flow control:" value="Control de flujo:" revision="0" />
-  <Message key="Out DSR Flow:" value="Out Flujo DSR:" revision="0" />
-  <Message key="RTS control:" value="Control RTS:" revision="0" />
-  <Message key="DSR sensivity:" value="Sensibilidad DSR:" revision="0" />
-  <Message key="DTR control:" value="Control DTR:" revision="0" />
-  <Message key="Out CTS Flow:" value="Out Flujo CTS:" revision="0" />
-  <Message key="Out XON/XOFF:" value="Out XON/XOFF:" revision="0" />
-  <Message key="In XON/XOFF:" value="En XON/XOFF:" revision="0" />
   <Message key="Click here" value="Pulse aquí" revision="0" />
   <Message key="Current" value="Actual" revision="0" />
   <Message key="PredefinedOverwrite" value="No se pueden modificar los esquemas predefinidos" revision="0" />

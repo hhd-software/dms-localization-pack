@@ -169,18 +169,6 @@
   <Message key="Default colors:" value="Standardfarben:" revision="0" />
   <Message key="Alpha" value="Alpha" revision="0" />
   <Message key="Custom..." value="Benutzerdefiniert…" revision="0" />
-  <Message key="Baud rate:" value="Baudrate:" revision="0" />
-  <Message key="Data bits:" value="Datenbits:" revision="0" />
-  <Message key="Parity:" value="Parität:" revision="0" />
-  <Message key="Stop bits:" value="Stoppbits:" revision="0" />
-  <Message key="Flow control:" value="Flusssteuerung:" revision="0" />
-  <Message key="Out DSR Flow:" value="Ausgehender DSR Flow:" revision="0" />
-  <Message key="RTS control:" value="RTS Kontrolle:" revision="0" />
-  <Message key="DSR sensivity:" value="DSR Empfindlichkeit:" revision="0" />
-  <Message key="DTR control:" value="DTR Kontrolle:" revision="0" />
-  <Message key="Out CTS Flow:" value="Ausgehender CTS Flow:" revision="0" />
-  <Message key="Out XON/XOFF:" value="Ausgehendes XON/XOFF:" revision="0" />
-  <Message key="In XON/XOFF:" value="Eingehendes XON/XOFF:" revision="0" />
   <Message key="Click here" value="Hier klicken" revision="0" />
   <Message key="Current" value="Aktuell" revision="0" />
   <Message key="PredefinedOverwrite" value="Sie können vordefinierte Schemata nicht ändern" revision="0" />

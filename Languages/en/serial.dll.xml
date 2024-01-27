@@ -90,7 +90,7 @@
     <Param name="values"/>
   </Message>
 
-  <Message key="Parity" description="Serial Device Information: Parity" value="[[[bParity]]]\t{values}\n">
+  <Message key="InfoParity" description="Serial Device Information: Parity" value="[[[bParity]]]\t{values}\n">
     <Param name="values"/>
   </Message>
 
@@ -242,12 +242,8 @@
 	<Message key="Discard empty read packets" description="Option: Discard empty read packets"/>
 	<Message key="Set" description="Button: Edit" value="&amp;Edit…"/>
 	<Message key="View" description="Button: View"/>
-  <Message key="Listen on monitored port" description="Option: Listen on monitored port" value="Listen for incoming data (will open the serial device)"/>
-	<Message key="Baud rate:" description="Field: Baud rate"/>
-	<Message key="Data bits:" description="Field: Data bits"/>
-	<Message key="Parity:" description="Field: Parity"/>
-	<Message key="Stop bits:" description="Field: Stop bits"/>
-	<Message key="Flow control:" description="Field: Flow control"/>
+	<Message key="Listen on monitored port" description="Option: Listen on monitored port" value="Listen for incoming data (will open the serial device)"/>
+
 	<Message key="Read interval:" description="Field: Read interval"/>
 	<Message key="Write constant:" description="Field: Write constant"/>
 	<Message key="Write multiplier:" description="Field: Write multiplier:"/>

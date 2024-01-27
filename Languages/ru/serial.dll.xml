@@ -15,7 +15,7 @@
   <Message key="SettableBaud" value="[[[bСкорости]]]\t{values}\n" revision="0" />
   <Message key="DataBits" value="[[[bБиты данных]]]\t{values}\n" revision="0" />
   <Message key="StopBits" value="[[[bСтоп биты]]]\t{values}\n" revision="0" />
-  <Message key="Parity" value="[[[bЧётность]]]\t{values}\n" revision="0" />
+  <Message key="InfoParity" value="[[[bЧётность]]]\t{values}\n" revision="0" />
   <Message key="Current Tx Queue" value="[[[bТекущ. Tx Queue]]]\t{has value?}{value} байт{|has value}недоступно{?has value}\n" revision="0" />
   <Message key="Current Rx Queue" value="[[[bТекущ. Rx Queue]]]\t{has value?}{value} байт{|has value}недоступно{?has value}\n" revision="0" />
   <Message key="Communication mode" value="Режим передачи данных: {mode}{discard?}, отбросить пустые чтения{?discard}{terminal?}, с прослушиванием{?terminal}" revision="0" />
@@ -38,11 +38,6 @@
   <Message key="Set" value="&amp;Редактировать…" revision="0" />
   <Message key="View" value="Посмотреть" revision="0" />
   <Message key="Listen on monitored port" value="Слушать входящие данные (откроет последовательное устройство)" revision="0" />
-  <Message key="Baud rate:" value="Скорость:" revision="0" />
-  <Message key="Data bits:" value="Биты данных:" revision="0" />
-  <Message key="Parity:" value="Чётность:" revision="0" />
-  <Message key="Stop bits:" value="Стоп биты:" revision="0" />
-  <Message key="Flow control:" value="Контроль потока:" revision="0" />
   <Message key="Read interval:" value="Интервал чтения:" revision="0" />
   <Message key="Write constant:" value="Константа записи:" revision="0" />
   <Message key="Write multiplier:" value="Множитель записи:" revision="0" />

@@ -855,18 +855,6 @@
 	<Message key="Custom..." description="Button text: Custom" value="Custom…"/>
 
 	<!--SPIDD_COMSETTINGSCTL-->
-	<Message key="Baud rate:" description="Label text: Baud rate" value="Baud rate:"/>
-	<Message key="Data bits:" description="Label text: Data bits" value="Data bits:"/>
-	<Message key="Parity:" description="Label text: Parity" value="Parity:"/>
-	<Message key="Stop bits:" description="Label text: Stop bits" value="Stop bits:"/>
-	<Message key="Flow control:" description="Label text: Flow control" value="Flow control:"/>
-	<Message key="Out DSR Flow:" description="Label text: output DSR" value="Out DSR Flow:"/>
-	<Message key="RTS control:" description="Label text: RTS control" value="RTS control:"/>
-	<Message key="DSR sensivity:" description="Label text: DSR sensitivity" value="DSR sensitivity:"/>
-	<Message key="DTR control:" description="Label text: DTR control" value="DTR control:"/>
-	<Message key="Out CTS Flow:" description="Label text: Output CTS" value="Out CTS Flow:"/>
-	<Message key="Out XON/XOFF:" description="Label text: Output xon/xoff" value="Out XON/XOFF:"/>
-	<Message key="In XON/XOFF:" description="Label text: Input xon/xoff" value="In XON/XOFF:"/>
 
 	<Message key="Click here" description="Tooltip text: Click here" value="Click here"/>
 	<Message key="Current" description="Scheme Name: Current" value="Current"/>

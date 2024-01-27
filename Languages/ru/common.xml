@@ -34,4 +34,16 @@
   <Message key="Mode:" value="Режим:" revision="0" />
   <Message key="Address:" value="Адрес:" revision="0" />
   <Message key="Total Length:" value="Общая длина:" revision="0" />
+  <Message key="Baud rate" value="Скорость" revision="0" />
+  <Message key="Data bits" value="Биты данных" revision="0" />
+  <Message key="Parity" value="Чётность" revision="0" />
+  <Message key="Stop bits" value="Стоп-биты" revision="0" />
+  <Message key="Flow control" value="Контроль потока" revision="0" />
+  <Message key="Out DSR Flow" value="Исходящий DSR Flow" revision="0" />
+  <Message key="RTS control" value="Контроль RTS" revision="0" />
+  <Message key="DSR sensivity" value="Чувствительность DSR" revision="0" />
+  <Message key="DTR control" value="Контроль DTR" revision="0" />
+  <Message key="Out CTS Flow" value="Исходящий CTS Flow" revision="0" />
+  <Message key="Out XON/XOFF" value="Исходящий XON/XOFF" revision="0" />
+  <Message key="In XON/XOFF" value="Входящий XON/XOFF" revision="0" />
 </Language>
