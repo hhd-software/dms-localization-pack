@@ -2,8 +2,10 @@
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
   <Message key="LampWindowNotification" description="Option: Line View visualizer position notification" value="Line View visualizer position notification"/>
+	<Message key="maxPacketViewData" description="Option: Max packet length in Packet View" value="Maximum packet length, bytes"/>
+	<Message key="Packet View (Serial)" description="Option group: Packet View (Serial)"/>
 
-  <Enumeration key="LineConverter" description="Line View">
+	<Enumeration key="LineConverter" description="Line View">
     <Item text="Line View"/>
     <Item text="Line View displays the state of all modem control lines."/>
   </Enumeration>
