@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Benachrichtigung über die Position der Linienansicht-Visualisierung" revision="0" />
+  <Message key="maxPacketViewData" value="Maximale Paketlänge, Bytes" revision="0" />
+  <Message key="Packet View (Serial)" value="Paket Ansicht" revision="0" />
   <Message key="RepeaterSkip" value="Nicht senden" revision="0" />
   <Message key="Basic" value="Basic" revision="0" />
   <Message key="Complete" value="Vollständige" revision="0" />
