@@ -23,12 +23,12 @@
     <Item value="El visualizador Vista de datos muestra los datos en dos ventanas separadas. La primera ventana muestra los datos recibidos del dispositivo, mientras que la segunda muestra los datos enviados al dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
-    <Item value="Solicitar Ver (Legacy)" revision="0" />
-    <Item value="El visualizador Solicitar Ver decodifica todos los paquetes de datos y solicitudes de control enviados y recibidos desde el dispositivo serie. Se trata de un conversor de datos heredado." revision="0" />
+    <Item value="Vista de la solicitud (Legacy)" revision="0" />
+    <Item value="El visualizador Vista de la solicitud decodifica todos los paquetes de datos y solicitudes de control enviados y recibidos desde el dispositivo serie. Se trata de un conversor de datos heredado." revision="0" />
   </Enumeration>
   <Enumeration key="NewRequestViewConverter">
-    <Item value="Solicitar Ver" revision="0" />
-    <Item value="La Solicitar Ver descodifica todos los paquetes de datos y peticiones de control enviados y recibidos del dispositivo serie." revision="0" />
+    <Item value="Vista de la solicitud" revision="0" />
+    <Item value="La Vista de la solicitud descodifica todos los paquetes de datos y peticiones de control enviados y recibidos del dispositivo serie." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista de la consola (Legacy)" revision="0" />
@@ -65,7 +65,7 @@
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Vista del vídeo" revision="0" />
-    <Item value="El visualizador Vista de vídeo analiza paquetes y descriptores de configuración para dispositivos compatibles con USB Video (versión 1.5)." revision="0" />
+    <Item value="El visualizador Vista de vídeo analiza paquetes y descriptores de configuración para dispositivos compatibles con USB Video." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
     <Item value="Vista de audio" revision="0" />

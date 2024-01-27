@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="PlaybackSource">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ImportSource">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WiresharkDesc">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NetmonDesc">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MonitoredNotify">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ImportFormats">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PlaybackSpeeds">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DeletePlayback">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SortByDate">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SortByName">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ShowDateTime">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ShowSize">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="OpenFileLocation">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Continue Playback2">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="VisualizerNaming">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GlobalSwitchNetwork">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GlobalSwitchSerial">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GlobalSwitchUSB">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="GlobalSwitchAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MultiSource">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="&amp;Edit">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsConfigure">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsResume">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsPause">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsClose">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsExpand">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionsCollapse">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StartMonitoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="PauseMonitoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConfigureDeviceSession">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ResumeMonitoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="StopMonitoring">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RestartDevice">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DeviceProperties">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RenameDevice">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScanForHardwareChanges">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CategoryFilterAll">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CategoryFilterNone">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AddConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AddToFavorites">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RemoveConverter">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DeleteCustom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditCustom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SaveCustom">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CategoryFilters">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CategorySubfilters">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuSessions">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="DataProcessingGroups">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionWindowColumns">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionState">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="SessionConfigSteps">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>

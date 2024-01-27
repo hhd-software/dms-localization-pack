@@ -23,12 +23,12 @@
     <Item value="O visualizador da Vista de dados apresenta os dados em duas janelas separadas. A primeira janela mostra os dados recebidos do dispositivo e a segunda janela mostra os dados enviados para o dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="RequestConverter">
-    <Item value="Pedidos Ver (Legacy)" revision="0" />
-    <Item value="O visualizador de dados Pedidos Ver descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série. Trata-se de um conversor de dados antigo." revision="0" />
+    <Item value="Vista do pedido (Legacy)" revision="0" />
+    <Item value="O visualizador de dados Vista do pedido descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série. Trata-se de um conversor de dados antigo." revision="0" />
   </Enumeration>
   <Enumeration key="NewRequestViewConverter">
-    <Item value="Pedidos Ver" revision="0" />
-    <Item value="Pedidos Ver descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série." revision="0" />
+    <Item value="Vista do pedido" revision="0" />
+    <Item value="Vista do pedido descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista da consola (Legacy)" revision="0" />
@@ -65,14 +65,14 @@
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Vista de vídeo" revision="0" />
-    <Item value="O visualizador da Vista de Vídeo analisa pacotes e descritores de configuração para dispositivos compatíveis com Vídeo USB (versão 1.5)." revision="0" />
+    <Item value="O visualizador da Vista de Vídeo analisa pacotes e descritores de configuração para dispositivos compatíveis com Vídeo USB." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
     <Item value="Vista de áudio" revision="0" />
     <Item value="O visualizador Vista de áudio analisa pacotes e descritores de configuração para dispositivos compatíveis com USB Audio (versão 2.0)." revision="0" />
   </Enumeration>
   <Enumeration key="NewStillConverter">
-    <Item value="Vista de imagem fixa/MTP (Legacy)" revision="0" />
+    <Item value="Vista de imagem fixa/MTP" revision="0" />
     <Item value="O visualizador de dados de imagem fixa/MTP Vista descodifica o protocolo USB de imagem fixa/MTP para dispositivos pertencentes à classe de imagem fixa/MTP." revision="0" />
   </Enumeration>
   <Enumeration key="NewMassConverter">

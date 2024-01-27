@@ -65,7 +65,7 @@
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Video Ansicht" revision="0" />
-    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video (Version 1.5) konforme Geräte." revision="0" />
+    <Item value="Der Video Ansicht Datenvisualisierer parst Pakete und Konfigurationsdeskriptoren für USB Video konforme Geräte." revision="0" />
   </Enumeration>
   <Enumeration key="NewAudioConverter">
     <Item value="Audio-Ansicht" revision="0" />

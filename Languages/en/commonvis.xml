@@ -139,7 +139,7 @@
 
 	<Enumeration key="NewVideoViewConverter" description="New Video View Converter">
 		<Item text="Video View"/>
-		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video (version 1.5) compliant device."/>
+		<Item text="Video View data visualizer parses packets and configuration descriptors for USB Video compliant device."/>
 	</Enumeration>
 
 	<Enumeration key="NewAudioConverter" description="New Audio Converter">

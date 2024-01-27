@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PacketNo" value="Paquet n°" revision="0" />
+  <Enumeration key="CellConverter">
+    <Item value="Vue des données brutes" revision="0" />
+    <Item value="La vue des données brutes affiche les données brutes des paquets en deux flux contigus (entrée et sortie). Elle permet une personnalisation souple de l'affichage et de la mise en page et prend en charge le filtrage en fonction du protocole et la commutation du protocole racine." revision="0" />
+  </Enumeration>
+  <Enumeration key="StructureConverter">
+    <Item value="Vue de la structure" revision="0" />
+    <Item value="La vue structurelle décode toutes les données des paquets à l'aide des définitions de protocole stockées dans le produit ou fournies par l'utilisateur. Prend en charge le filtrage et la modification du protocole racine." revision="0" />
+  </Enumeration>
+  <Enumeration key="StatisticsConverter">
+    <Item value="Statistiques" revision="0" />
+    <Item value="Les statistiques collectent et affichent les statistiques et le débit de l'appareil. Plusieurs valeurs statistiques sont calculées et affichées sur le graphique linéaire." revision="0" />
+  </Enumeration>
+  <Enumeration key="TableConverter">
+    <Item value="Vue du paquet" revision="0" />
+    <Item value="La vue des paquets affiche chaque paquet de données surveillé sur une ligne distincte et fournit un décodage individuel des paquets, en fonction des différents formats et protocoles." revision="0" />
+  </Enumeration>
+  <Enumeration key="DataConverter">
+    <Item value="Vue des données" revision="0" />
+    <Item value="Le visualisateur de données affiche les données dans deux fenêtres distinctes. La première fenêtre montre les données reçues de l'appareil, tandis que la seconde montre les données envoyées à l'appareil." revision="0" />
+  </Enumeration>
+  <Enumeration key="RequestConverter">
+    <Item value="Vue des demandes (Legacy)" revision="0" />
+    <Item value="La visionneuse Vue des demandes décode tous les paquets de données et les demandes de contrôle envoyés et reçus de l'appareil série. Il s'agit d'un convertisseur de données hérité." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewRequestViewConverter">
+    <Item value="Vue des demandes" revision="0" />
+    <Item value="La visionneuse Vue des demandes décode tous les paquets de données et les demandes de contrôle envoyés et reçus de l'appareil série." revision="0" />
+  </Enumeration>
+  <Enumeration key="ConsoleConverter">
+    <Item value="Vue de la console (Legacy)" revision="0" />
+    <Item value="La Vue de la console fonctionne comme une fenêtre de console série et affiche les caractères reçus de l'appareil série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte. Il s'agit d'un visualiseur de données anciennes." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewConsoleConverter">
+    <Item value="Vue de la console" revision="0" />
+    <Item value="La Vue de la console fonctionne comme une fenêtre de console série et affiche les caractères reçus de l'appareil série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte. " revision="0" />
+  </Enumeration>
+  <Enumeration key="RequestViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Error" />
+  </Enumeration>
+  <Enumeration key="RequestViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewVideoViewConverter">
+    <Item value="Vue vidéo" revision="0" />
+    <Item value="La visionneuse Vue vidéo analyse les paquets et les descripteurs de configuration pour les appareils compatibles avec la vidéo USB." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewAudioConverter">
+    <Item value="Vue audio" revision="0" />
+    <Item value="Le visualiseur Vue audio USB analyse les paquets et les descripteurs de configuration pour les périphériques conformes à la norme Audio USB (version 2.0)." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewStillConverter">
+    <Item value="Vue de l'image fixe/MTP" revision="0" />
+    <Item value="Le visualisateur de données Image fixe/MTP View décode le protocole USB Image fixe/MTP pour les dispositifs appartenant à la classe Image fixe/MTP." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewMassConverter">
+    <Item value="Vue de la mémoire de masse" revision="0" />
+    <Item value="Le visualisateur Vue Mémoire de Masse décode le protocole de mémoire de masse USB pour les dispositifs appartenant à la classe Mémoire de Masse." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewCommConverter">
+    <Item value="Vue des communications" revision="0" />
+    <Item value="Le visualiseur &quot; Vue des communications &quot; décode les paquets et les descripteurs de la classe des communications USB." revision="0" />
+  </Enumeration>
+  <Enumeration key="USBVideoViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ConsoleViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="AdvancedConsoleView">
+    <Item value="Vue avancée de la console" revision="0" />
+    <Item value="La Vue console avancée fonctionne comme une fenêtre de console série et affiche les caractères reçus du périphérique série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte." revision="0" />
+  </Enumeration>
+  <Enumeration key="HttpViewConverter">
+    <Item value="Vue HTTP" revision="0" />
+    <Item value="Le visualisateur de données Vue HTTP analyse et affiche les requêtes et les réponses du protocole HTTP." revision="0" />
+  </Enumeration>
+  <Enumeration key="HttpViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="NewModbusConverter">
+    <Item value="Vue MODBUS" revision="0" />
+    <Item value="La vue MODBUS décode tous les paquets de données envoyés et reçus de l'appareil série utilisant le protocole MODBUS." revision="0" />
+  </Enumeration>
+  <Enumeration key="ModbusViewSchemes">
+    <Item />
+  </Enumeration>
+  <Enumeration key="ModbusViewOptions">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Packets Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Total">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Read">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="Bytes Written">
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBCommViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBMassViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBStillViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="USBAudioViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item lookup="Value" />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MassViewOptions">
+    <Item />
+  </Enumeration>
+</Language>

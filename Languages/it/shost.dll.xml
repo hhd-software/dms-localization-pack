@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ScriptingNew">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingRun">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStartStop">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingToggleBreakpoint">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepIn">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOut">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepOver">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingStepContinue">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="MenuDebug">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingRemoveAllBreakpoints">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ScriptingAsyncBreak">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="BreakpointsColumns">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="CallStackColumns">
+    <Item />
+    <Item lookup="Name" />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueAdd">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueRemove">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="WatchValueEdit">
+    <Item />
+    <Item />
+  </Enumeration>
+</Language>
