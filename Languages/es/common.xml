@@ -6,9 +6,9 @@
   <Message key="Type" value="Tipo" revision="0" />
   <Message key="Time" value="Tiempo" revision="0" />
   <Message key="Name" value="Nombre" revision="0" />
-  <Message key="Delay" value="Retraso" revision="0" />
   <Message key="Overwrite" value="Sobrescribir" revision="0" />
   <Message key="Scheme" value="Esquema" revision="0" />
+  <Message key="Delay" value="Retraso" revision="0" />
   <Message key="Error" value="Error" revision="0" />
   <Message key="Data" value="Datos" revision="0" />
   <Message key="Length" value="Longitud" revision="0" />
@@ -34,6 +34,7 @@
   <Message key="Mode:" value="Modo:" revision="0" />
   <Message key="Address:" value="Dirección:" revision="0" />
   <Message key="Total Length:" value="Longitud total:" revision="0" />
+  <Message key="Baud rate" value="Velocidad de transmisión" revision="0" />
   <Message key="Data bits" value="Bits de datos" revision="0" />
   <Message key="Parity" value="Paridad" revision="0" />
   <Message key="Stop bits" value="Bits de parada" revision="0" />
