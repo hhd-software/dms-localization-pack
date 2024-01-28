@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Packet" value="Paquet" revision="0" />
   <Message key="Baud rate" value="Vitesse de transmission" revision="0" />
 </Language>

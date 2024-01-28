@@ -7,6 +7,7 @@
   <Message key="Time" value="Zeit" revision="0" />
   <Message key="Name" value="Name" revision="0" />
   <Message key="Delay" value="Verzögerung" revision="0" />
+  <Message key="Packet" value="Paket" revision="0" />
   <Message key="Overwrite" value="Überschreiben" revision="0" />
   <Message key="Scheme" value="Schema" revision="0" />
   <Message key="Error" value="Fehler" revision="0" />
