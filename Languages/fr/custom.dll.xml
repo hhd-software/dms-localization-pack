@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Protocols Editor" value="Éditeur de protocoles" revision="0" />
+  <Message key="Line" value="Ligne" revision="0" />
+  <Message key="Protocols List" value="Liste de protocoles" revision="0" />
+  <Message key="Usb" value="Usb" revision="0" />
+  <Message key="Serial" value="Série" revision="0" />
+  <Message key="Network" value="Réseau" revision="0" />
+  <Message key="Unknown" value="Non attribué" revision="0" />
+  <Message key="Files" value="Fichiers" revision="0" />
+  <Message key="Protocols" value="Protocoles" revision="0" />
+  <Message key="Visualizers" value="Visualisateurs" revision="0" />
+  <Message key="FileNotSaved" value="Le document actuel a été modifié. Voulez-vous l'enregistrer ?" revision="0" />
+  <Message key="CompileErrors" value="Erreurs de compilation{has_n?} ({n}){?has_n}" revision="0" />
+  <Message key="Compile Errors" value="Erreurs de compilation" revision="0" />
+  <Message key="Warning" value="Avertissement" revision="0" />
+  <Message key="Error" value="Erreur" revision="0" />
+  <Message key="RunningSessions" value="Vous avez des sessions de surveillance en cours. Vos sessions seront arrêtées." revision="0" />
+  <Message key="ResetSourceChanges" value="Toutes les modifications apportées aux fichiers de protocole prédéfinis seront perdues ! Voulez-vous continuer ?" revision="0" />
+  <Message key="Compile" value="Compiler" revision="0" />
+  <Message key="DeleteProtocolFile" value="Erreur de suppression du fichier sélectionné: {error text} ({error})" revision="0" />
+  <Message key="SaveProtocolFile" value="Erreur d'enregistrement du fichier &quot;{file}&quot;: {error text} ({error})" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item />
     <Item />
