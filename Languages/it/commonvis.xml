@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Pacchetto n." revision="0" />
+  <Message key="SchemeBasic" value="Base" revision="0" />
+  <Message key="SchemeComplete" value="Completo" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vista dei dati grezzi" revision="0" />
     <Item value="La vista dei dati grezzi visualizza i dati grezzi dei pacchetti in due flussi contigui (ingresso e uscita). Offre una personalizzazione flessibile della visualizzazione e del layout e supporta il filtraggio guidato dal protocollo e la commutazione del protocollo principale." revision="0" />
@@ -38,29 +40,29 @@
     <Item value="La Vista della console funziona come una finestra di console seriale e visualizza i caratteri ricevuti dal dispositivo seriale. È un visualizzatore utile per monitorare i protocolli basati sul testo." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Spazio vuoto" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Testo di controllo I/O" revision="0" />
+    <Item value="Intestazione di controllo I/O" revision="0" />
+    <Item value="Scrivere testo" revision="0" />
+    <Item value="Scrivere intestazione" revision="0" />
+    <Item value="Scrivere Dump" revision="0" />
+    <Item value="Leggi testo" revision="0" />
+    <Item value="Leggi intestazione" revision="0" />
+    <Item value="Leggi Dump" revision="0" />
+    <Item value="Nome del campo" revision="0" />
+    <Item value="Valore del campo" revision="0" />
     <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizza le letture vuote" revision="0" />
+    <Item value="Visualizza le richieste di I/O senza dati" revision="0" />
+    <Item value="Visualizza le richieste di I/O" revision="0" />
+    <Item value="Visualizza le richieste di connessione e creazione" revision="0" />
+    <Item value="Visualizza le richieste di lettura giù" revision="0" />
+    <Item value="Visualizza le richieste di scrittura su" revision="0" />
+    <Item value="Visualizza i numeri delle righe" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Vista video" revision="0" />
@@ -83,24 +85,24 @@
     <Item value="La visualizzazione delle comunicazioni decodifica i pacchetti e i descrittori della classe di comunicazione USB." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="1" />
+    <Item value="Intestazione" revision="1" />
+    <Item value="Opzione" revision="1" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione Lettura" revision="1" />
+    <Item value="Intestazione Scrittura" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Numero di linea" revision="0" />
+    <Item value="Scrivere testo" revision="0" />
+    <Item value="Leggi testo" revision="0" />
+    <Item value="Messaggio" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizza le richieste di lettura" revision="0" />
+    <Item value="Visualizza le richieste di &quot;scrittura" revision="0" />
+    <Item value="Mostra i timestamp" revision="0" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
     <Item value="Vista avanzata della console" revision="0" />
@@ -111,24 +113,24 @@
     <Item value="Il visualizzatore di dati Vista HTTP analizza e visualizza le richieste e le risposte del protocollo HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Intestazione della richiesta " revision="0" />
+    <Item value="Intestazione della risposta" revision="0" />
+    <Item value="Campi di richiesta" revision="0" />
+    <Item value="Campi di risposta" revision="0" />
+    <Item value="Testo della richiesta" revision="0" />
+    <Item value="Testo della risposta" revision="0" />
+    <Item value="Dump predefinito" revision="0" />
+    <Item value="Dump di richieste" revision="0" />
+    <Item value="Dump di risposte" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
     <Item value="Vista MODBUS" revision="0" />
     <Item value="La vista MODBUS decodifica tutti i pacchetti di dati inviati e ricevuti dal dispositivo seriale utilizzando il protocollo MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewSchemes">
-    <Item />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
     <Item />

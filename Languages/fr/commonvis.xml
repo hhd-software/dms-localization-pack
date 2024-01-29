@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="PacketNo" value="Paquet n°" revision="0" />
+  <Message key="SchemeBasic" value="De base" revision="0" />
+  <Message key="SchemeComplete" value="Complet" revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vue des données brutes" revision="0" />
     <Item value="La vue des données brutes affiche les données brutes des paquets en deux flux contigus (entrée et sortie). Elle permet une personnalisation souple de l'affichage et de la mise en page et prend en charge le filtrage en fonction du protocole et la commutation du protocole racine." revision="0" />
@@ -38,29 +40,29 @@
     <Item value="La Vue de la console fonctionne comme une fenêtre de console série et affiche les caractères reçus de l'appareil série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte. " revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Espace vide" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Texte de contrôle E/S" revision="0" />
+    <Item value="En-tête de contrôle E/S" revision="0" />
+    <Item value="Écrire texte" revision="0" />
+    <Item value="Écrire en-tête" revision="0" />
+    <Item value="Écrire Dump" revision="0" />
+    <Item value="Lire texte" revision="0" />
+    <Item value="Lire en-tête" revision="0" />
+    <Item value="Lire Dump" revision="0" />
+    <Item value="Nom du champ" revision="0" />
+    <Item value="Valeur du champ" revision="0" />
     <Item lookup="Error" />
   </Enumeration>
   <Enumeration key="RequestViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Afficher les lectures vides" revision="0" />
+    <Item value="Display I/O requests without data" revision="0" />
+    <Item value="Afficher les demandes d'E/S" revision="0" />
+    <Item value="Afficher les demandes de connexion et de création" revision="0" />
+    <Item value="Afficher les demandes de lecture vers le bas" revision="0" />
+    <Item value="Afficher les demandes d'écriture en haut" revision="0" />
+    <Item value="Affichage des numéros de ligne" revision="0" />
   </Enumeration>
   <Enumeration key="NewVideoViewConverter">
     <Item value="Vue vidéo" revision="0" />
@@ -83,24 +85,24 @@
     <Item value="Le visualiseur &quot; Vue des communications &quot; décode les paquets et les descripteurs de la classe des communications USB." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="1" />
+    <Item value="En-tête" revision="1" />
+    <Item value="Option" revision="1" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête Lire" revision="1" />
+    <Item value="En-tête Écrire" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="ConsoleViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Numéro de ligne" revision="0" />
+    <Item value="Écrire texte" revision="0" />
+    <Item value="Lire texte" revision="0" />
+    <Item value="Message" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Afficher les demandes de lecture" revision="0" />
+    <Item value="Afficher les demandes d'écriture" revision="0" />
+    <Item value="Afficher les timestamps" revision="0" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
     <Item value="Vue avancée de la console" revision="0" />
@@ -111,24 +113,24 @@
     <Item value="Le visualisateur de données Vue HTTP analyse et affiche les requêtes et les réponses du protocole HTTP." revision="0" />
   </Enumeration>
   <Enumeration key="HttpViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="En-tête de la demande " revision="0" />
+    <Item value="En-tête de la réponse" revision="0" />
+    <Item value="Champs de la demande" revision="0" />
+    <Item value="Champs de réponse" revision="0" />
+    <Item value="Texte de la demande" revision="0" />
+    <Item value="Texte de la réponse" revision="0" />
+    <Item value="Dump par défaut" revision="0" />
+    <Item value="Dump des demandes" revision="0" />
+    <Item value="Dump des réponses" revision="0" />
   </Enumeration>
   <Enumeration key="NewModbusConverter">
     <Item value="Vue MODBUS" revision="0" />
     <Item value="La vue MODBUS décode tous les paquets de données envoyés et reçus de l'appareil série utilisant le protocole MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewSchemes">
-    <Item />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
     <Item />
