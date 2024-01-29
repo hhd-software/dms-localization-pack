@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size" value="Taille" revision="0" />
+  <Message key="Offset" value="Décalage" revision="0" />
+  <Message key="Value" value="Valeur" revision="0" />
+  <Message key="Type" value="Type" revision="0" />
+  <Message key="Time" value="Temps" revision="0" />
+  <Message key="Name" value="Nom" revision="0" />
+  <Message key="Delay" value="Retard" revision="0" />
   <Message key="Packet" value="Paquet" revision="0" />
+  <Message key="Overwrite" value="Remplacer" revision="0" />
+  <Message key="Scheme" value="Schéma" revision="0" />
+  <Message key="Error" value="Erreur" revision="0" />
+  <Message key="Data" value="Données" revision="0" />
+  <Message key="Length" value="Longueur" revision="0" />
+  <Message key="Code" value="Code" revision="0" />
+  <Message key="CsvFilesFilter" value="Fichiers séparé par des virgules|*.csv|" revision="0" />
+  <Message key="ImageFilesFilter" value="Fichiers JPEG|*.jpg|BMP Files|*.bmp|Fichiers PNG|*.png|Files TIFF|*.tiff|Files GIF|*.gif|" revision="0" />
+  <Message key="Save to File" value="Enregistrer un fichier" revision="0" />
+  <Message key="AllFilesFilter" value="Tous les fichiers|*.*|" revision="0" />
+  <Message key="EmptyPath" value="Vide" revision="0" />
+  <Message key="bytes" value="octets" revision="0" />
+  <Message key="Device:" value="Dispositif:" revision="0" />
   <Message key="Baud rate" value="Vitesse de transmission" revision="0" />
 </Language>
