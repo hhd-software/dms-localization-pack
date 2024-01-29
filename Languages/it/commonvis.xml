@@ -133,66 +133,66 @@
     <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Analizzare come hex" revision="0" />
+    <Item value="Aggiungere gli offset di base per i registri, gli ingressi discreti, ecc." revision="0" />
+    <Item value="Nascondere i dati dai pacchetti malformati" revision="0" />
   </Enumeration>
   <Enumeration key="Packets Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacchetti Totale/sec" revision="0" />
+    <Item value="pacchetti/s" revision="0" />
+    <Item value="Pacchetti totali/sec è la velocità con cui i pacchetti vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Byte totali/sec" revision="0" />
+    <Item value="byte/s" revision="0" />
+    <Item value="Byte totali/sec è la velocità con cui i byte vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Read">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Byte letti/sec" revision="0" />
+    <Item value="byte/s" revision="0" />
+    <Item value="Byte letti/sec è la velocità con cui i byte vengono trasferiti dal dispositivo durante le operazioni di lettura." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Written">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Byte scritti/sec" revision="0" />
+    <Item value="byte/s" revision="0" />
+    <Item value="Byte scritti/sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Opzione" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="Intestazione Lettura" revision="0" />
+    <Item value="Intestazione Scrittura" revision="0" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Opzione" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione Lettura" revision="0" />
+    <Item value="Intestazione Scrittura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBStillViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Opzione" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione Lettura" revision="0" />
+    <Item value="Intestazione Scrittura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBAudioViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Opzione" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione Lettura" revision="0" />
+    <Item value="Intestazione Scrittura" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="MassViewOptions">
-    <Item />
+    <Item value="Visualizzare i dati grezzi" revision="0" />
   </Enumeration>
 </Language>

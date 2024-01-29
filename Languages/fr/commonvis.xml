@@ -133,66 +133,66 @@
     <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewOptions">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parser en hexadécimal" revision="0" />
+    <Item value="Ajouter des décalages de base pour les registres, les entrées discrètes, etc." revision="0" />
+    <Item value="Masquer les données des paquets malformés" revision="0" />
   </Enumeration>
   <Enumeration key="Packets Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paquets Total/sec" revision="0" />
+    <Item value="paquets/s" revision="0" />
+    <Item value="Paquets Total/Sec est le taux de transfert des paquets vers ou depuis l'appareil pendant les opérations d'écriture ou de lecture." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Total">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Octets Total/sec" revision="0" />
+    <Item value="octets/s" revision="0" />
+    <Item value="Octets totaux/Sec est le taux de transfert d'octets vers ou depuis l'appareil pendant les opérations d'écriture ou de lecture." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Read">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Octets lus/sec" revision="0" />
+    <Item value="octets/s" revision="0" />
+    <Item value="Octets lus/sec. est la vitesse à laquelle les octets sont transférés à partir de l'appareil pendant les opérations de lecture." revision="0" />
   </Enumeration>
   <Enumeration key="Bytes Written">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Octet écrit/sec" revision="0" />
+    <Item value="octets/s" revision="0" />
+    <Item value="Octets écrits/Sec est la vitesse à laquelle les octets sont transférés vers l'appareil pendant les opérations d'écriture." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
+    <Item value="En-tête Lire" revision="0" />
+    <Item value="En-tête Écrire" revision="0" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête Lire" revision="0" />
+    <Item value="En-tête Écrire" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBStillViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête Lire" revision="0" />
+    <Item value="En-tête Écrire" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="USBAudioViewSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête Lire" revision="0" />
+    <Item value="En-tête Écrire" revision="0" />
+    <Item value="Dump" revision="0" />
   </Enumeration>
   <Enumeration key="MassViewOptions">
-    <Item />
+    <Item value="Visualiser les données brutes" revision="0" />
   </Enumeration>
 </Language>
