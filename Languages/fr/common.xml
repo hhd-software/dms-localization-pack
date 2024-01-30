@@ -21,5 +21,26 @@
   <Message key="EmptyPath" value="Vide" revision="0" />
   <Message key="bytes" value="octets" revision="0" />
   <Message key="Device:" value="Dispositif:" revision="0" />
+  <Message key="Function:" value="Fonction:" revision="0" />
+  <Message key="Value:" value="Valeur:" revision="0" />
+  <Message key="Send" value="Envoyer" revision="0" />
+  <Message key="Report ID:" value="Rapport ID:" revision="0" />
+  <Message key="Count:" value="Compter:" revision="0" />
+  <Message key="Report Type:" value="Type de rapport:" revision="0" />
+  <Message key="Usage Page:" value="Page d'usage:" revision="0" />
+  <Message key="Usage:" value="Usage:" revision="0" />
+  <Message key="Success" value="Succès" revision="0" />
+  <Message key="Fail" value="Échec" revision="0" />
+  <Message key="Session:" value="Session:" revision="0" />
+  <Message key="Mode:" value="Mode:" revision="0" />
+  <Message key="Address:" value="Adresse:" revision="0" />
+  <Message key="Total Length:" value="Longueur totale:" revision="0" />
   <Message key="Baud rate" value="Vitesse de transmission" revision="0" />
+  <Message key="Data bits" value="Bits de données" revision="0" />
+  <Message key="Parity" value="Parité" revision="0" />
+  <Message key="Stop bits" value="Bits d'arrêt" revision="0" />
+  <Message key="Flow control" value="Contrôle des flux" revision="0" />
+  <Message key="Out DSR Flow" value="Sortie flux DSR" revision="0" />
+  <Message key="RTS control" value="Contrôle RTS" revision="0" />
+  <Message key="DSR sensivity" value="Sensibilité DSR" revision="0" />
 </Language>

@@ -21,5 +21,26 @@
   <Message key="EmptyPath" value="Vuoto" revision="0" />
   <Message key="bytes" value="byte" revision="0" />
   <Message key="Device:" value="Dispositivo:" revision="0" />
+  <Message key="Function:" value="Funzione:" revision="0" />
+  <Message key="Value:" value="Valore:" revision="0" />
+  <Message key="Send" value="Inviare" revision="0" />
+  <Message key="Report ID:" value="Rapporto ID:" revision="0" />
+  <Message key="Count:" value="Conta:" revision="0" />
+  <Message key="Report Type:" value="Tipo di rapporto:" revision="0" />
+  <Message key="Usage Page:" value="Pagina d'uso:" revision="0" />
+  <Message key="Usage:" value="Uso:" revision="0" />
+  <Message key="Success" value="Successo" revision="0" />
+  <Message key="Fail" value="Fallire" revision="0" />
+  <Message key="Session:" value="Sessione:" revision="0" />
+  <Message key="Mode:" value="Modo:" revision="0" />
+  <Message key="Address:" value="Indirizzo:" revision="0" />
+  <Message key="Total Length:" value="Lunghezza totale:" revision="0" />
   <Message key="Baud rate" value="Velocità in baud" revision="0" />
+  <Message key="Data bits" value="Bit di dati" revision="0" />
+  <Message key="Parity" value="Parità" revision="0" />
+  <Message key="Stop bits" value="Bit di stop" revision="0" />
+  <Message key="Flow control" value="Controllo del flusso" revision="0" />
+  <Message key="Out DSR Flow" value="Uscita Flusso DSR" revision="0" />
+  <Message key="RTS control" value="Controllo RTS" revision="0" />
+  <Message key="DSR sensivity" value="Sensibilità DSR" revision="0" />
 </Language>
