@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ApplyError" value="Percorso di destinazione non specificato" revision="0" />
+  <Message key="WritingError" value="Si è verificato un errore durante l'esportazione: {error}" revision="0" />
+  <Message key="Text Exporter paused" value="Esportatore di testo è stato messo in pausa a causa di un errore di scrittura del disco. Verificate se lo spazio disponibile sul disco è sufficiente o se ci sono altri errori relativi al disco e riprendete l'operazione o rimuovete Esportatore di testo dalla sessione." revision="0" />
+  <Message key="RawWriterCreateError" value="Errore di inizializzazione dell'esportatore: {error} ({error code})" revision="1" />
+  <Message key="Export Filter" value="Filtro di esportazione" revision="0" />
+  <Message key="Exporter Settings" value="Impostazioni di esportazione" revision="1" />
+  <Message key="Specify location for export file" value="Specificare la posizione del file di esportazione" revision="0" />
+  <Message key="No caching" value="Nessuna cache" revision="0" />
   <Enumeration key="RawExporter">
-    <Item />
-    <Item />
+    <Item value="Esportatore di dati grezzi" revision="0" />
+    <Item value="Esportatore di dati grezzi scrive tutti i dati monitorati nel file di uscita in formato binario. Supporta il filtraggio e consente di configurare il protocollo di root." revision="0" />
   </Enumeration>
   <Enumeration key="TextExporter">
-    <Item />
-    <Item />
+    <Item value="Esportatore di testo" revision="0" />
+    <Item value="Esportatore di testo applica un protocollo selezionato ai dati monitorati, li presenta come un flusso di campi testuali e scrive l'output in un file di testo UNICODE. Supporta il filtraggio e consente di configurare il protocollo principale." revision="0" />
   </Enumeration>
 </Language>

@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ApplyError" value="Chemin de destination non spécifié" revision="0" />
+  <Message key="WritingError" value="Une erreur s'est produite lors de l'exportation: {error}" revision="0" />
+  <Message key="Text Exporter paused" value="Exportateur de texte a été mis en pause en raison d'une erreur d'écriture sur le disque. Vérifiez s'il y a suffisamment d'espace disque disponible ou s'il y a d'autres erreurs liées au disque et reprenez l'opération ou supprimez Exportateur de texte de la session." revision="0" />
+  <Message key="RawWriterCreateError" value="Erreur d'initialisation de l'exportateur: {error} ({error code})" revision="1" />
+  <Message key="Export Filter" value="Filtre d'exportation" revision="0" />
+  <Message key="Exporter Settings" value="Paramètres d'exportation" revision="1" />
+  <Message key="Specify location for export file" value="Spécifier l'emplacement du fichier d'exportation" revision="0" />
+  <Message key="No caching" value="Pas de mise en cache" revision="0" />
   <Enumeration key="RawExporter">
-    <Item />
-    <Item />
+    <Item value="Exportateur de données brutes" revision="0" />
+    <Item value="Exportateur de données brutes écrit toutes les données surveillées dans le fichier de sortie au format binaire. Il prend en charge le filtrage et permet de configurer le protocole racine." revision="0" />
   </Enumeration>
   <Enumeration key="TextExporter">
-    <Item />
-    <Item />
+    <Item value="Exportateur de texte" revision="0" />
+    <Item value="Exportateur de texte applique un protocole sélectionné aux données surveillées, les présente sous la forme d'un flux de champs textuels et écrit la sortie dans un fichier texte UNICODE. Il prend en charge le filtrage et permet de configurer le protocole racine." revision="0" />
   </Enumeration>
 </Language>
