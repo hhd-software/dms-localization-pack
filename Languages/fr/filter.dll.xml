@@ -34,23 +34,23 @@
     <Item value="Rétablir les valeurs par défaut de tous les filtres" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="Noir" revision="0" />
+    <Item value="Couleur" revision="0" />
+    <Item value="Marron" revision="0" />
+    <Item value="Vert foncé" revision="0" />
+    <Item value="Olive" revision="0" />
+    <Item value="Bleu foncé" revision="0" />
+    <Item value="Violette" revision="0" />
+    <Item value="Aigue-marine" revision="0" />
+    <Item value="Gris clair" revision="0" />
+    <Item value="Gris foncé" revision="0" />
+    <Item value="Rouge" revision="0" />
+    <Item value="Vert" revision="0" />
+    <Item value="Jaune" revision="0" />
+    <Item value="Bleu" revision="0" />
+    <Item value="Magenta" revision="0" />
+    <Item value="Cyan" revision="0" />
+    <Item value="Personnalisée" revision="0" />
   </Enumeration>
 </Language>

@@ -34,23 +34,23 @@
     <Item value="Ripristinare tutti i filtri ai valori predefiniti" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Nero" revision="0" />
+    <Item value="Colore" revision="0" />
+    <Item value="Marrone" revision="0" />
+    <Item value="Verde scuro" revision="0" />
+    <Item value="Oliva" revision="0" />
+    <Item value="Blu scuro" revision="0" />
+    <Item value="Viola" revision="0" />
+    <Item value="Acquamarina" revision="0" />
+    <Item value="Grigio chiaro" revision="0" />
+    <Item value="Grigio scuro" revision="0" />
+    <Item value="Rosso" revision="0" />
+    <Item value="Verde" revision="0" />
+    <Item value="Giallo" revision="0" />
+    <Item value="Blu" revision="0" />
+    <Item value="Magenta" revision="0" />
+    <Item value="Ciano" revision="0" />
+    <Item value="Personalizzato" revision="0" />
   </Enumeration>
 </Language>
