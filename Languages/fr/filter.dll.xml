@@ -1,16 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Filtering" value="Filtrage" revision="0" />
+  <Message key="Coloring" value="Visualiseurs de données" revision="0" />
+  <Message key="Component:" value="Composant:" revision="0" />
+  <Message key="Font:" value="Caractères:" revision="0" />
+  <Message key="Size:" value="Taille:" revision="0" />
+  <Message key="Color:" value="Couleur:" revision="0" />
+  <Message key="Background:" value="Arrière-plan:" revision="0" />
+  <Message key="Bold" value="Gras" revision="0" />
+  <Message key="Italic" value="Italique" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Schéma actuel non sauvegardé&gt;" revision="0" />
+  <Message key="DefaultScheme" value="Défaut" revision="0" />
+  <Message key="DisplayAllScheme" value="Afficher tout" revision="0" />
+  <Message key="DisplayNoneScheme" value="Afficheur Aucun" revision="0" />
+  <Message key="Filter" value="Filtre" revision="0" />
+  <Message key="DeleteBuiltin" value="Ce système est intégré et ne peut pas être supprimé." revision="0" />
+  <Message key="SaveBuiltin" value="Vous ne pouvez pas enregistrer un schéma avec un nom intégré." revision="0" />
+  <Message key="SchemeExists" value="Ce système existe déjà. Voulez-vous le remplacer ?" revision="0" />
+  <Message key="ResetAllConfirm" value="La réinitialisation des filtres ramène toutes les pages aux paramètres de filtrage par défaut, en conservant les schémas définis par l'utilisateur. Les sessions de surveillance en cours ne seront pas affectées. Voulez-vous continuer ?" revision="0" />
+  <Message key="ResetAllColorsConfirm" value="La réinitialisation des couleurs ramène tous les modules de traitement des données aux paramètres de couleur par défaut, en conservant les schémas définis par l'utilisateur. Les sessions de surveillance en cours ne seront pas affectées. Voulez-vous continuer ?" revision="0" />
+  <Message key="FilteringPageX" value="Page de filtrage: {page}" revision="0" />
+  <Message key="Apply this scheme" value="Appliquer ce schéma" revision="0" />
   <Enumeration key="FilterCustomize">
-    <Item />
-    <Item />
+    <Item value="Personalizar…" revision="0" />
+    <Item value="Personnaliser les filtres" revision="0" />
   </Enumeration>
   <Enumeration key="ColorCustomize">
-    <Item />
-    <Item />
+    <Item value="Personalizar…" revision="0" />
+    <Item value="Personnaliser les couleurs" revision="0" />
   </Enumeration>
   <Enumeration key="FilterResetAll">
-    <Item />
-    <Item />
+    <Item value="Rétablir tout" revision="0" />
+    <Item value="Rétablir les valeurs par défaut de tous les filtres" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedColors">
     <Item />
