@@ -30,7 +30,7 @@
   <Message key="clr.scintilla_colors.keywords.fill" value="Schlüsselwort Hintergrund" revision="0" />
   <Message key="clr.scintilla_colors.keywords.stroke" value="Farbe der Schlüsselwörter" revision="0" />
   <Message key="clr.scintilla_colors.comments.fill" value="Kommentare Hintergrund" revision="0" />
-  <Message key="clr.scintilla_colors.comments.stroke" value="Vordergrund der Kommentare " revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Vordergrund der Kommentare" revision="0" />
   <Message key="clr.scintilla_colors.numbers.fill" value="Hintergrund der Zahlen" revision="0" />
   <Message key="clr.scintilla_colors.numbers.stroke" value="Die Farbe der Zahlen" revision="0" />
   <Message key="clr.scintilla_colors.strings.fill" value="Hintergrund der Linie" revision="0" />

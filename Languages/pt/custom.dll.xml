@@ -26,25 +26,25 @@
   <Message key="UnsavedCurrentScheme" value="&lt;Esquema atual não guardado&gt;" revision="0" />
   <Message key="clr.scintilla_colors" value="Cores do editor de protocolos" revision="0" />
   <Message key="clr.scintilla_colors.plainText.fill" value="Fundo de texto simples" revision="0" />
-  <Message key="clr.scintilla_colors.plainText.stroke" value="Texto simples em primeiro plano" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Primeiro plano de texto simples" revision="0" />
   <Message key="clr.scintilla_colors.keywords.fill" value="Cor de fundo das palavras-chave" revision="0" />
-  <Message key="clr.scintilla_colors.keywords.stroke" value="Palavras-chave cor de primeiro plano" revision="0" />
-  <Message key="clr.scintilla_colors.comments.fill" value="Comentários cor de fundo" revision="0" />
-  <Message key="clr.scintilla_colors.comments.stroke" value="Comentários cor de primeiro plano" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Cor de primeiro plano das palavras-chave" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Cor de fundo dos comentários " revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Cor de primeiro plano dos comentários" revision="0" />
   <Message key="clr.scintilla_colors.numbers.fill" value="Cor de fundo dos números" revision="0" />
   <Message key="clr.scintilla_colors.numbers.stroke" value="Cor de primeiro plano dos números" revision="0" />
-  <Message key="clr.scintilla_colors.strings.fill" value="Cadeias de caracteres fundo" revision="0" />
-  <Message key="clr.scintilla_colors.strings.stroke" value="Primeiro plano das cadeias de caracteres" revision="0" />
-  <Message key="clr.scintilla_colors.identifiers.fill" value="Fundo dos identificadores" revision="0" />
-  <Message key="clr.scintilla_colors.identifiers.stroke" value="Primeiro plano de identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Cor de fundo das cadeias de caracteres" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Cor de primeiro plano das cadeias de caracteres" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Cor de fundo dos identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Cor de primeiro plano dos identificadores" revision="0" />
   <Message key="clr.scintilla_colors.preprocessor.fill" value="Fundo do pré-processador" revision="0" />
-  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Primeiro plano do pré-processador" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Cor de primeiro plano do pré-processador" revision="0" />
   <Message key="clr.scintilla_colors.operators.fill" value="Cor de fundo dos operadores" revision="0" />
-  <Message key="clr.scintilla_colors.operators.stroke" value="Cor de primeiro plano dos operadores" revision="0" />
-  <Message key="clr.scintilla_colors.functions.fill" value="Fundo de funções" revision="0" />
-  <Message key="clr.scintilla_colors.functions.stroke" value="Primeiro plano de funções" revision="0" />
-  <Message key="clr.scintilla_colors.pragmas.fill" value="Fundo de pragmas" revision="0" />
-  <Message key="clr.scintilla_colors.pragmas.stroke" value="Primeiro plano de pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Cor de primeiro plano dos operadores " revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Cor de fundo das funções" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Cor de primeiro plano das funções" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Cor de fundo dos pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Cor de primeiro plano dos pragmas" revision="0" />
   <Message key="toolbar.Protocols" value="Lista de protocolos" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item value="Novo ficheiro de &amp;protocolo…" revision="0" />

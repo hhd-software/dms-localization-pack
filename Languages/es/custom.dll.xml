@@ -26,25 +26,25 @@
   <Message key="UnsavedCurrentScheme" value="&lt;Esquema actual no guardado&gt;" revision="0" />
   <Message key="clr.scintilla_colors" value="Colores del editor de protocolos" revision="0" />
   <Message key="clr.scintilla_colors.plainText.fill" value="Fondo de texto sin formato" revision="0" />
-  <Message key="clr.scintilla_colors.plainText.stroke" value="Texto en primer plano" revision="0" />
-  <Message key="clr.scintilla_colors.keywords.fill" value="Palabras clave color de fondo" revision="0" />
-  <Message key="clr.scintilla_colors.keywords.stroke" value="Palabras clave color de primer plano" revision="0" />
-  <Message key="clr.scintilla_colors.comments.fill" value="Comentarios color de fondo" revision="0" />
-  <Message key="clr.scintilla_colors.comments.stroke" value="Comentarios color de primer plano" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Primero plano de texto sin formato" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Color de fondo de las palabras clave" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Color de primer plano de las palabras clave" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Color de fondo de los comentarios" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Color de primer plano de los comentarios" revision="0" />
   <Message key="clr.scintilla_colors.numbers.fill" value="Color de fondo de los números" revision="0" />
-  <Message key="clr.scintilla_colors.numbers.stroke" value="Números color de primer plano" revision="0" />
-  <Message key="clr.scintilla_colors.strings.fill" value="Fondo de cadenas de caracteres" revision="0" />
-  <Message key="clr.scintilla_colors.strings.stroke" value="Primer plano de cadenas de caracteres" revision="0" />
-  <Message key="clr.scintilla_colors.identifiers.fill" value="Identificadores fondo" revision="0" />
-  <Message key="clr.scintilla_colors.identifiers.stroke" value="Primer plano de los identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Color de primer plano de los números" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Color de fondo de las cadenas" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Color de primer plano de las cadenas" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Color de fondo de los identificadores" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Color de primer plano de los identificadores" revision="0" />
   <Message key="clr.scintilla_colors.preprocessor.fill" value="Fondo del preprocesador" revision="0" />
-  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Primer plano del preprocesador" revision="0" />
-  <Message key="clr.scintilla_colors.operators.fill" value="Color de fondo de los operadores " revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Color de primer plano del preprocesador" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Color de fondo de los operadores" revision="0" />
   <Message key="clr.scintilla_colors.operators.stroke" value="Color de primer plano de los operadores" revision="0" />
-  <Message key="clr.scintilla_colors.functions.fill" value="Fondo de funciones" revision="0" />
-  <Message key="clr.scintilla_colors.functions.stroke" value="Primer plano de las funciones" revision="0" />
-  <Message key="clr.scintilla_colors.pragmas.fill" value="Fondo de pragmas" revision="0" />
-  <Message key="clr.scintilla_colors.pragmas.stroke" value="Primer plano de las pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Color de fondo de las funciones" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Color de primer plano de las funciones" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Color de fondo de los pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Color de primer plano de los pragmas" revision="0" />
   <Message key="toolbar.Protocols" value="Lista de protocolos" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item value="Nuevo archivo de &amp;protocolo…" revision="0" />

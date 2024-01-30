@@ -43,4 +43,8 @@
   <Message key="Out DSR Flow" value="Sortie flux DSR" revision="0" />
   <Message key="RTS control" value="Contrôle RTS" revision="0" />
   <Message key="DSR sensivity" value="Sensibilité DSR" revision="0" />
+  <Message key="DTR control" value="Contrôle DTR" revision="0" />
+  <Message key="Out CTS Flow" value="Sortie Flux CTS" revision="0" />
+  <Message key="Out XON/XOFF" value="Sortie XON/XOFF" revision="0" />
+  <Message key="In XON/XOFF" value="En XON/XOFF" revision="0" />
 </Language>

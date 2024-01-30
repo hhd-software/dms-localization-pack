@@ -20,6 +20,31 @@
   <Message key="Compile" value="Compiler" revision="0" />
   <Message key="DeleteProtocolFile" value="Erreur de suppression du fichier sélectionné: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Erreur d'enregistrement du fichier &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="Les fichiers suivants ont été modifiés en dehors du Device Monitoring Studio :\r\n{file}\r\nVoulez-vous le recharger ?" revision="0" />
+  <Message key="FilterErrorTitle" value="Erreur de compilation du filtre" revision="0" />
+  <Message key="FilterError" value="Le fichier de structure n'a pas été compilé ou a été compilé avec des erreurs" revision="0" />
+  <Message key="UnsavedCurrentScheme" value="&lt;Schéma actuel non sauvegardé&gt;" revision="0" />
+  <Message key="clr.scintilla_colors" value="Couleurs de l'éditeur de protocole" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.fill" value="Arrière-plan de texte simple" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Avant-plan en texte simple" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Couleur d'arrière-plan des mots-clés" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Mot-clé couleur d'avant-plan" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Couleur d'arrière-plan des commentaires" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Couleur d'avant-plan des commentaires" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.fill" value="Couleur d'arrière-plan des numéros" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Couleur d'avant-plan des numéros" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Couleur d'arrière-plan des chaînes de caractères" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Couleur d'avant-plan des chaînes de caractères" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Couleur d'arrière-plan des identifiants" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Couleur d'avant-plan des identificateurs" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.fill" value="Couleur d'arrière-plan du préprocesseur" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Couleur d'avant-plan du préprocesseur" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Couleur d'arrière-plan des opérateurs" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Couleur d'avant-plan des opérateurs" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Couleur d'arrière-plan des fonctions" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Couleur d'avant-plan des fonctions" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Couleur d'arrière-plan des pragmas" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Couleur d'avant-plan des pragmas" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item />
     <Item />

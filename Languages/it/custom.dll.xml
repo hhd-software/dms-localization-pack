@@ -20,6 +20,31 @@
   <Message key="Compile" value="Compilare" revision="0" />
   <Message key="DeleteProtocolFile" value="Errore nell'eliminazione del file selezionato: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Errore nel salvataggio del file &quot;{file}&quot;: {error text} ({error})" revision="0" />
+  <Message key="ExternalModified" value="I seguenti file sono stati modificati al di fuori di Device Monitoring Studio :\r\n{file}\r\nVuoi ricaricarlo?" revision="0" />
+  <Message key="FilterErrorTitle" value="Errore di compilazione del filtro" revision="0" />
+  <Message key="FilterError" value="Il file di struttura non è stato compilato o è stato compilato con errori." revision="0" />
+  <Message key="UnsavedCurrentScheme" value="&lt;Schema corrente non salvato&gt;" revision="0" />
+  <Message key="clr.scintilla_colors" value="Colori dell'editor di protocollo" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.fill" value="Sfondo di testo normale" revision="0" />
+  <Message key="clr.scintilla_colors.plainText.stroke" value="Primo piano del testo normale" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.fill" value="Colore di sfondo delle parole chiave" revision="0" />
+  <Message key="clr.scintilla_colors.keywords.stroke" value="Parola chiave colore di primo piano" revision="0" />
+  <Message key="clr.scintilla_colors.comments.fill" value="Colore di sfondo dei commenti" revision="0" />
+  <Message key="clr.scintilla_colors.comments.stroke" value="Colore di primo piano dei commenti" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.fill" value="Colore di sfondo dei numeri" revision="0" />
+  <Message key="clr.scintilla_colors.numbers.stroke" value="Colore di primo piano dei numeri" revision="0" />
+  <Message key="clr.scintilla_colors.strings.fill" value="Colore di sfondo delle stringhe" revision="0" />
+  <Message key="clr.scintilla_colors.strings.stroke" value="Colore di primo piano delle stringhe" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.fill" value="Colore di sfondo degli identificatori" revision="0" />
+  <Message key="clr.scintilla_colors.identifiers.stroke" value="Colore di primo piano degli identificatori" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.fill" value="Colore di sfondo del preprocessore" revision="0" />
+  <Message key="clr.scintilla_colors.preprocessor.stroke" value="Colore di primo piano del preprocessore" revision="0" />
+  <Message key="clr.scintilla_colors.operators.fill" value="Colore di sfondo degli operatori" revision="0" />
+  <Message key="clr.scintilla_colors.operators.stroke" value="Colore di primo piano degli operatori" revision="0" />
+  <Message key="clr.scintilla_colors.functions.fill" value="Colore di sfondo delle funzioni" revision="0" />
+  <Message key="clr.scintilla_colors.functions.stroke" value="Colore di primo piano delle funzioni" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.fill" value="Colore di sfondo dei pragmi" revision="0" />
+  <Message key="clr.scintilla_colors.pragmas.stroke" value="Colore di primo piano dei pragmi" revision="0" />
   <Enumeration key="ProtocolNew">
     <Item />
     <Item />
