@@ -45,82 +45,83 @@
   <Message key="clr.scintilla_colors.functions.stroke" value="Couleur d'avant-plan des fonctions" revision="0" />
   <Message key="clr.scintilla_colors.pragmas.fill" value="Couleur d'arrière-plan des pragmas" revision="0" />
   <Message key="clr.scintilla_colors.pragmas.stroke" value="Couleur d'avant-plan des pragmas" revision="0" />
+  <Message key="toolbar.Protocols" value="Liste des protocoles" revision="0" />
   <Enumeration key="ProtocolNew">
-    <Item />
-    <Item />
+    <Item value="Nouveau fichier de &amp;Protocole…" revision="0" />
+    <Item value="Créer un nouveau fichier de définition de protocole" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Ouvrir un fichier de protocole" revision="0" />
+    <Item value="Ouvrir un fichier de définition de protocole existant" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Sauvegarder &amp;Tous les fichiers du protocole" revision="0" />
+    <Item value="Enregistrer tous les fichiers de définition de protocole ouverts sur le disque" revision="0" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item />
-    <Item />
+    <Item value="Remplacer…" revision="0" />
+    <Item value="Remplacer le texte" revision="0" />
   </Enumeration>
   <Enumeration key="Recompile">
-    <Item />
-    <Item />
+    <Item value="&amp;Recompiler" revision="0" />
+    <Item value="Compiler les structures" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Annuler" revision="0" />
+    <Item value="Annuler la dernière action" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Rétablir" revision="0" />
+    <Item value="Rétablir la dernière action" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEditor">
-    <Item />
-    <Item />
+    <Item value="Éditeur de &amp;protocole" revision="0" />
+    <Item value="Éléments du menu de l'éditeur de protocole" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.h" revision="0" />
+    <Item value="Fichier de définition du protocole" revision="0" />
+    <Item value=".h" revision="0" />
   </Enumeration>
   <Enumeration key="StructureFormats">
-    <Item />
+    <Item value="Fichier de définition du protocole (*.h)|*.h|" revision="0" />
   </Enumeration>
   <Enumeration key="ErrorColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Fichier" revision="0" />
+    <Item value="Ligne" revision="0" />
+    <Item value="Description" revision="0" />
   </Enumeration>
   <Enumeration key="StructureEditor">
-    <Item />
-    <Item />
+    <Item value="Éditeur de protocole" revision="0" />
+    <Item value="non utilisé" revision="0" />
   </Enumeration>
   <Enumeration key="Custom">
-    <Item />
-    <Item />
+    <Item value="Protocoles personnalisés" revision="0" />
+    <Item value="La fonction Protocoles personnalisés vous permet d'utiliser l'éditeur intégré ou externe pour modifier les protocoles intégrés ou ajouter des protocoles personnalisés à Device Monitoring Studio afin de les utiliser avec la vue structurelle, le filtre de capture et d'autres fonctions." revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Rétablir tous" revision="0" />
+    <Item value="Rétablir toutes les modifications apportées aux fichiers de définition des protocoles" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
-    <Item />
-    <Item />
+    <Item value="Recompilation automatique" revision="0" />
+    <Item value="Recompilation automatique des fichiers sources en cas de modification" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolDeleteFile">
-    <Item />
-    <Item />
+    <Item value="Supprimer le fichier" revision="0" />
+    <Item value="Supprimer le fichier source sélectionné dans le répertoire des protocoles" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpenFolder">
-    <Item />
-    <Item />
+    <Item value="Ouvrir le dossier des protocoles" revision="0" />
+    <Item value="Ouvrir le dossier des fichiers de protocoles" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="Afficher tout" revision="0" />
+    <Item value="Affichage aucun" revision="0" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
-    <Item />
+    <Item value="Option" revision="0" />
     <Item lookup="Value" />
   </Enumeration>
 </Language>

@@ -45,82 +45,83 @@
   <Message key="clr.scintilla_colors.functions.stroke" value="Colore di primo piano delle funzioni" revision="0" />
   <Message key="clr.scintilla_colors.pragmas.fill" value="Colore di sfondo dei pragmi" revision="0" />
   <Message key="clr.scintilla_colors.pragmas.stroke" value="Colore di primo piano dei pragmi" revision="0" />
+  <Message key="toolbar.Protocols" value="Elenco dei protocolli" revision="0" />
   <Enumeration key="ProtocolNew">
-    <Item />
-    <Item />
+    <Item value="Nuovo file &amp;Protocollo…" revision="0" />
+    <Item value="Creare un nuovo file di definizione del protocollo" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Aprire il file di protocollo" revision="0" />
+    <Item value="Aprire il file di definizione del protocollo esistente" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Salva &amp;Tutti i file di protocollo" revision="0" />
+    <Item value="Salva su disco tutti i file di definizione di protocollo aperti" revision="0" />
   </Enumeration>
   <Enumeration key="EditReplace">
-    <Item />
-    <Item />
+    <Item value="Sostituire…" revision="0" />
+    <Item value="Sostituire il testo" revision="0" />
   </Enumeration>
   <Enumeration key="Recompile">
-    <Item />
-    <Item />
+    <Item value="&amp;Ricompilare" revision="0" />
+    <Item value="Compilare strutture" revision="0" />
   </Enumeration>
   <Enumeration key="EditUndo">
-    <Item />
-    <Item />
+    <Item value="&amp;Annullare" revision="0" />
+    <Item value="Annullare l'ultima azione" revision="0" />
   </Enumeration>
   <Enumeration key="EditRedo">
-    <Item />
-    <Item />
+    <Item value="&amp;Ripetere" revision="0" />
+    <Item value="Ripetere l'ultima azione" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEditor">
-    <Item />
-    <Item />
+    <Item value="Editor di &amp;protocollo" revision="0" />
+    <Item value="Voci di menu dell'Editor di protocollo" revision="0" />
   </Enumeration>
   <Enumeration key="StructureDesc">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="*.h" revision="0" />
+    <Item value="File di definizione del protocollo" revision="0" />
+    <Item value=".h" revision="0" />
   </Enumeration>
   <Enumeration key="StructureFormats">
-    <Item />
+    <Item value="File di definizione del protocollo (*.h)|*.h|" revision="0" />
   </Enumeration>
   <Enumeration key="ErrorColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="File" revision="0" />
+    <Item value="Linea" revision="0" />
+    <Item value="Descrizione" revision="0" />
   </Enumeration>
   <Enumeration key="StructureEditor">
-    <Item />
-    <Item />
+    <Item value="Editor di protocollo" revision="0" />
+    <Item value="non utilizzato" revision="0" />
   </Enumeration>
   <Enumeration key="Custom">
-    <Item />
-    <Item />
+    <Item value="Protocolli personalizzati" revision="0" />
+    <Item value="La funzione Protocolli personalizzati consente di utilizzare l'editor integrato o esterno per modificare i protocolli integrati o aggiungere protocolli personalizzati a Device Monitoring Studio da utilizzare con Vista struttura, Filtro acquisizione e altre funzioni." revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Ripristinare tutti" revision="0" />
+    <Item value="Ripristinare tutte le modifiche apportate ai file di definizione del protocollo" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
-    <Item />
-    <Item />
+    <Item value="Ricompilazione automatica" revision="0" />
+    <Item value="Ricompilazione automatica dei file sorgente se modificati" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolDeleteFile">
-    <Item />
-    <Item />
+    <Item value="Eliminare il file" revision="0" />
+    <Item value="Eliminare il file sorgente selezionato dalla directory dei protocolli" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolOpenFolder">
-    <Item />
-    <Item />
+    <Item value="Aprire la cartella dei protocolli" revision="0" />
+    <Item value="Aprire la cartella dei file dei protocolli" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Predefinito" revision="0" />
+    <Item value="Visualizza tutti" revision="0" />
+    <Item value="Visualizza nessuno" revision="0" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
-    <Item />
+    <Item value="Opzione" revision="0" />
     <Item lookup="Value" />
   </Enumeration>
 </Language>
