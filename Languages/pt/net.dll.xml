@@ -5,7 +5,7 @@
   <Message key="VirtualAdapterDevice" value="Adaptador de importação de ficheiros de log externo" revision="0" />
   <Message key="VirtualAdapterCategory" value="Adaptadores virtuais" revision="0" />
   <Message key="EmergencyErrorType" value="Terminação de emergência da sessão de rede" revision="0" />
-  <Message key="Expired" value="Este componente expirou. É necessário atualizar para a Edição %s para o poder utilizar. Pretende aceder agora à Gestão de licenças?" revision="0" />
+  <Message key="Expired" value="Este componente expirou. É necessário atualizar para a Edição % para o poder utilizar. Pretende aceder agora à Gestão de licenças?" revision="0" />
   <Message key="Network" value="Rede" revision="0" />
   <Enumeration key="NetworkSource">
     <Item value="Monitor de rede" revision="0" />

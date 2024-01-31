@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="DriverConnectError" value="Erreur de connexion au pilote du filtre: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Impossible de s'attacher à l'appareil sélectionné." revision="0" />
+  <Message key="VirtualAdapterDevice" value="Adaptateur pour l'importation de fichiers journaux externes" revision="0" />
+  <Message key="VirtualAdapterCategory" value="Adaptateurs virtuels" revision="0" />
+  <Message key="EmergencyErrorType" value="Fin d'urgence de la session réseau" revision="0" />
+  <Message key="Expired" value="Ce composant a expiré. Vous devez passer à l'édition % pour pouvoir l'utiliser. Voulez-vous passer à la gestion des licences maintenant ?" revision="0" />
+  <Message key="Network" value="Réseau" revision="0" />
   <Enumeration key="NetworkSource">
-    <Item />
-    <Item />
+    <Item value="Moniteur de réseau" revision="0" />
+    <Item value="La source de données réseau surveille la connexion réseau et capture chaque paquet en provenance ou à destination de l'interface réseau." revision="0" />
   </Enumeration>
 </Language>
