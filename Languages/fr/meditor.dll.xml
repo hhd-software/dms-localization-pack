@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="ScriptingGoToDefinition">
-    <Item />
-    <Item />
+    <Item value="Aller à la définition" revision="0" />
+    <Item value="Ouvrir la définition de l'identifiant" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingPeekDefinition">
-    <Item />
-    <Item />
+    <Item value="Définition de Peek" revision="0" />
+    <Item value="Définition de l'identifiant Peek" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFindAllReferences">
-    <Item />
-    <Item />
+    <Item value="Rechercher toutes les références" revision="0" />
+    <Item value="Recherche de toutes les références d'un identifiant" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingGoToSymbol">
-    <Item />
-    <Item />
+    <Item value="Aller au symbole…" revision="0" />
+    <Item value="Naviguer vers la définition du symbole" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingChangeAllOccurrences">
-    <Item />
-    <Item />
+    <Item value="Modifier toutes les occurrences" revision="0" />
+    <Item value="Modifier toutes les occurrences d'un symbole" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingFormatDocument">
-    <Item />
-    <Item />
+    <Item value="Formater le document" revision="0" />
+    <Item value="Formater l'ensemble du document" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingCommandPalette">
-    <Item />
-    <Item />
+    <Item value="Palette de commandes" revision="0" />
+    <Item value="Ouvrir la palette de commandes de l'éditeur" revision="0" />
   </Enumeration>
 </Language>
