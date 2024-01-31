@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="tutorialStep1" value="Tutoriel de démarrage" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
-    <Item />
-    <Item />
+    <Item value="Créer un port série virtuel…" revision="0" />
+    <Item value="Créer un port série virtuel à l'aide de HHD Software Free Virtual Serial Ports." revision="0" />
   </Enumeration>
   <Enumeration key="SerialSharePorts">
-    <Item />
-    <Item />
+    <Item value="Partager ce port…" revision="0" />
+    <Item value="Rendez ce port disponible sur un ordinateur distant à l'aide du serveur de ports série distants de HHD Software." revision="0" />
   </Enumeration>
   <Enumeration key="SerialConnectRemotePort">
-    <Item />
-    <Item />
+    <Item value="Connecter le port série distant…" revision="0" />
+    <Item value="Rendez un port série distant disponible sur cet ordinateur à l'aide de HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item />
-    <Item />
+    <Item value="Pour commencer" revision="0" />
+    <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus. \n\n[[[hDésactiver tous les tutoriels et les guides d'utilisation]]]" revision="0" />
   </Enumeration>
 </Language>

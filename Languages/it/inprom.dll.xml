@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="tutorialStep1" value="Esercitazione introduttiva" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
-    <Item />
-    <Item />
+    <Item value="Creare la porta seriale virtuale…" revision="0" />
+    <Item value="Creare una porta seriale virtuale con HHD Software Porte seriali virtuali gratuite." revision="0" />
   </Enumeration>
   <Enumeration key="SerialSharePorts">
-    <Item />
-    <Item />
+    <Item value="Condividi questo porto…" revision="0" />
+    <Item value="Rendere disponibile questa porta su un computer remoto utilizzando HHD Software Remote Serial Ports Server." revision="0" />
   </Enumeration>
   <Enumeration key="SerialConnectRemotePort">
-    <Item />
-    <Item />
+    <Item value="Collegare la porta seriale remota…" revision="0" />
+    <Item value="Rendere disponibile una porta seriale remota su questo computer utilizzando HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item />
-    <Item />
+    <Item value="Come iniziare" revision="0" />
+    <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso.\n\n[[[hDisattivare tutte le esercitazioni e le guide]]]" revision="0" />
   </Enumeration>
 </Language>
