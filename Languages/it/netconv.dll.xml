@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size_Error" value="Il limite di dimensione dei pacchetti è stato superato." revision="0" />
+  <Message key="Packet Builder" value="Costruttore di pacchetti" revision="0" />
+  <Message key="NetTerminal" value="Terminale di rete" revision="0" />
+  <Message key="StructureNotFound" value="La definizione della struttura non è stata trovata. Il Monitor di rete non è in grado di visualizzare alcun risultato." revision="0" />
+  <Message key="NetTermSizeError" value="Pacchetto ({packetno}): Dimensione del pacchetto ({size}) superiore alla dimensione MTU dell'adattatore ({maxsize})." revision="0" />
+  <Message key="NetTermTooltipText" value="Indirizzo fisico: {mac}\nUnità di trasmissione massima: {size} byte\nVelocità di collegamento: {speed} MB\nIP: {ip}\nStato: {status}" revision="0" />
+  <Message key="CellConvTooltip" value="Pacchetto:\t\t{number}\nTempo:\t\t{timestamp}\nDimensione del pacchetto:\t{datasize} byte{has_name?}\nDispositivo:\t\t{devicename}{?has_name}\n" revision="0" />
   <Enumeration key="NetError">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Corruzione della memoria" revision="0" />
+    <Item value="Risorse insufficienti per il pacchetto" revision="0" />
+    <Item value="Pacchetto troppo piccolo per essere un pacchetto valido" revision="0" />
+    <Item value="L'adattatore non è collegato o è stato scollegato" revision="0" />
+    <Item value="La dimensione del pacchetto è troppo grande per la scheda NIC o forse la scheda NIC ha segnalato al suo driver una trasmissione errata del pacchetto." revision="0" />
+    <Item value="Il driver di fondo è la chiusura." revision="0" />
+    <Item value="Il driver di fondo è la chiusura." revision="0" />
+    <Item value="Errore di rete sconosciuto." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">
-    <Item />
-    <Item />
+    <Item value="Disconnesso" revision="0" />
+    <Item value="Collegato" revision="0" />
   </Enumeration>
 </Language>

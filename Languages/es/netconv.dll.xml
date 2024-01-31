@@ -13,8 +13,8 @@
     <Item value="Paquete demasiado pequeño para ser un paquete válido" revision="0" />
     <Item value="El adaptador no está conectado o se ha desconectado" revision="0" />
     <Item value="El tamaño del paquete es demasiado grande para el NIC, o posiblemente el NIC indicó una transmisión de paquete errónea a su controlador." revision="0" />
-    <Item value="El motor subyacente se está cerrando." revision="0" />
-    <Item value="El controlador subyacente está reiniciando el NIC." revision="0" />
+    <Item value="El driver subyacente es el cierre." revision="0" />
+    <Item value="El driver subyacente está reiniciando el NIC." revision="0" />
     <Item value="Error de red desconocido." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">

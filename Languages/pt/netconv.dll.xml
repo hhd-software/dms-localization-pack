@@ -13,8 +13,8 @@
     <Item value="Pacote demasiado pequeno para ser um pacote válido" revision="0" />
     <Item value="O adaptador não está conectado ou foi desconectado" revision="0" />
     <Item value="O tamanho do pacote é demasiado grande para a placa de rede ou, possivelmente, a placa de rede indicou uma transmissão de pacote incorrecta ao seu controlador." revision="0" />
-    <Item value="O motor subjacente está a fechar." revision="0" />
-    <Item value="O controlador subjacente está atualmente a reiniciar a placa de rede." revision="0" />
+    <Item value="O driver subjacente é o encerramento." revision="0" />
+    <Item value="O driver subjacente está atualmente a reiniciar a placa de rede." revision="0" />
     <Item value="Erro de rede desconhecido." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">

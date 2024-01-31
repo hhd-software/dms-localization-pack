@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Size_Error" value="La limite de taille des paquets a été dépassée." revision="0" />
+  <Message key="Packet Builder" value="Constructeur de paquets" revision="0" />
+  <Message key="NetTerminal" value="Terminal de réseau" revision="0" />
+  <Message key="StructureNotFound" value="La définition de la structure est introuvable. Le moniteur de réseau ne peut pas afficher de résultats." revision="0" />
+  <Message key="NetTermSizeError" value="Paquet ({packetno}) : Taille du paquet ({size}) supérieure à la taille du MTU de l'adaptateur ({maxsize})." revision="0" />
+  <Message key="NetTermTooltipText" value="Adresse physique: {mac}\nUnité de transmission maximale: {size} octets\nVitesse de la liaison: {speed} MB\nIP: {ip}\nStatut: {status}" revision="0" />
+  <Message key="CellConvTooltip" value="Paquet:\t\t{number}\nTemps:\t\t{timestamp}\nTaille du paquet:\t{datasize} octets{has_name?}\nDispositif:\t\t{devicename}{?has_name}\n" revision="0" />
   <Enumeration key="NetError">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Corruption de la mémoire" revision="0" />
+    <Item value="Ressources insuffisantes pour le paquet" revision="0" />
+    <Item value="Paquet trop petit pour être un paquet valide" revision="0" />
+    <Item value="L'adaptateur n'est pas lié ou a été déconnecté" revision="0" />
+    <Item value="La taille du paquet est trop importante pour la carte d'interface réseau, ou la carte d'interface réseau a indiqué une transmission de paquet erronée à son pilote." revision="0" />
+    <Item value="Le pilote sous-jacent est la fermeture." revision="0" />
+    <Item value="Le pilote sous-jacent est en train de réinitialiser le NIC." revision="0" />
+    <Item value="Erreur de réseau inconnue." revision="0" />
   </Enumeration>
   <Enumeration key="NetStatus">
-    <Item />
-    <Item />
+    <Item value="Déconnecté" revision="0" />
+    <Item value="Connecté" revision="0" />
   </Enumeration>
 </Language>
