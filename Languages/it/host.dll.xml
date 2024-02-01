@@ -59,6 +59,14 @@
   <Message key="MCAdv" value="Voglio monitorare questi dati dalla mia applicazione personalizzata" revision="0" />
   <Message key="Advertise.Title" value="Controlli di monitoraggio ActiveX" revision="0" />
   <Message key="Get More Details" value="Per saperne di più" revision="0" />
+  <Message key="toolbar.SessionConfig1" value="Configurazione della sessione 2" revision="0" />
+  <Message key="toolbar.SessionConfig2" value="Configurazione della sessione 2" revision="0" />
+  <Message key="toolbar.Devices" value="Dispositivi" revision="0" />
+  <Message key="toolbar.Sessions" value="Sessioni" revision="0" />
+  <Message key="Save Configuration" value="Salva la configurazione" revision="0" />
+  <Message key="Enter custom data processor configuration name:" value="Inserire il nome della configurazione dell'elaboratore dati personalizzato:" revision="0" />
+  <Message key="Device coloring" value="Colorazione dei dispositivi" revision="0" />
+  <Message key="Back color:" value="Colore di sfondo:" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />
