@@ -48,6 +48,17 @@
   <Message key="UnsavedCapture" value="Acquisizione corrente non salvata" revision="0" />
   <Message key="NagFreeTitle" value="Limitazioni della versione gratuita" revision="0" />
   <Message key="FreeSessionExpireMsg" value="La versione gratuita consente sessioni di monitoraggio di durata non superiore a {limit} minuti.\n\nLa sessione verrà interrotta tra {minutes}:{seconds}.\n\n{expired?}Si può rimanere con le funzioni limitate della versione gratuita o passare alla versione estesa.{|expired}È possibile rimanere con la versione gratuita limitata o provare la versione estesa GRATUITAMENTE per 14 giorni." revision="0" />
+  <Message key="FreeSessionExpireMsg2" value="La versione gratuita ha un limite di {limit} di sessioni di monitoraggio al giorno.\n\nSessioni rimaste oggi: {left}.\n\n{expired?}Si può rimanere con le funzioni limitate della versione gratuita o passare alla versione estesa.{|expired}È possibile rimanere con la versione gratuita limitata o provare la versione estesa GRATUITAMENTE per 14 giorni.{?expired}" revision="0" />
+  <Message key="Close this notification" value="Chiudere questa notifica" revision="0" />
+  <Message key="Try extended version" value="Prova la versione estesa" revision="0" />
+  <Message key="Purchase extended version" value="Ottenere la versione estesa" revision="0" />
+  <Message key="Out of memory" value="Memoria insufficiente" revision="0" />
+  <Message key="Stopping session" value="Interruzione della sessione" revision="0" />
+  <Message key="ShowImportantSessionConfig" value="Forza la finestra di dialogo di configurazione della sessione per i tipi di sessione selezionati" revision="0" />
+  <Message key="sessionConfigTutorial" value="Esercitazione della finestra di configurazione della sessione" revision="0" />
+  <Message key="MCAdv" value="Voglio monitorare questi dati dalla mia applicazione personalizzata" revision="0" />
+  <Message key="Advertise.Title" value="Controlli di monitoraggio ActiveX" revision="0" />
+  <Message key="Get More Details" value="Per saperne di più" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />
