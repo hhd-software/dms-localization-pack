@@ -67,6 +67,37 @@
   <Message key="Enter custom data processor configuration name:" value="Saisir le nom de la configuration personnalisée du processeur de données:" revision="0" />
   <Message key="Device coloring" value="Coloration des dispositifs" revision="0" />
   <Message key="Back color:" value="Couleur de fond:" revision="0" />
+  <Message key="Multisource Device Colors" value="Couleurs des dispositifs multi-sources" revision="1" />
+  <Message key="Multisource device list:" value="Couleurs des dispositifs multi-sources:" revision="1" />
+  <Message key="Background color:" value="Couleur d'arrière-plan:" revision="0" />
+  <Message key="Rename Device" value="Renommer le dispositif" revision="0" />
+  <Message key="Enter new device name:" value="Saisir le nouveau nom du dispositif:" revision="0" />
+  <Message key="Session Configuration" value="Configuration de la session" revision="0" />
+  <Message key="Selected sources" value="Sources sélectionnées" revision="0" />
+  <Message key="Selected processing" value="Traitement sélectionné" revision="0" />
+  <Message key="Available processing" value="Traitement disponible" revision="0" />
+  <Message key="Filter text" value="Texte du filtre" revision="0" />
+  <Message key="Capture Filter" value="Filtre de session" revision="0" />
+  <Message key="Precise time marks" value="Repères temporels précis" revision="0" />
+  <Message key="Add More" value="Ajouter d'autres" revision="0" />
+  <Message key="Remove" value="Retirer" revision="0" />
+  <Message key="clr.device_colors" value="Couleurs des dispositifs multi-sources" revision="0" />
+  <Message key="clr.device_colors.color1" value="Dispositif 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Dispositif 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Dispositif 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Dispositif 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Dispositif 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Dispositif 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Dispositif 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Dispositif 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Dispositif 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Dispositif 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Dispositif 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Dispositif 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Dispositif 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Dispositif 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Dispositif 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Dispositif 16" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />

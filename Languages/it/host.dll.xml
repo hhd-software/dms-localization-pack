@@ -67,6 +67,37 @@
   <Message key="Enter custom data processor configuration name:" value="Inserire il nome della configurazione dell'elaboratore dati personalizzato:" revision="0" />
   <Message key="Device coloring" value="Colorazione dei dispositivi" revision="0" />
   <Message key="Back color:" value="Colore di sfondo:" revision="0" />
+  <Message key="Multisource Device Colors" value="Colori dei dispositivi multisorgente" revision="1" />
+  <Message key="Multisource device list:" value="Elenco di dispositivi multisorgente:" revision="1" />
+  <Message key="Background color:" value="Colore di sfondo:" revision="0" />
+  <Message key="Rename Device" value="Rinominare il dispositivo" revision="0" />
+  <Message key="Enter new device name:" value="Inserire il nuovo nome del dispositivo:" revision="0" />
+  <Message key="Session Configuration" value="Configurazione della sessione" revision="0" />
+  <Message key="Selected sources" value="Fonti selezionate" revision="0" />
+  <Message key="Selected processing" value="Elaborazione selezionata" revision="0" />
+  <Message key="Available processing" value="Elaborazione disponibile" revision="0" />
+  <Message key="Filter text" value="Testo del filtro" revision="0" />
+  <Message key="Capture Filter" value="Filtro di sessione" revision="0" />
+  <Message key="Precise time marks" value="Segni di tempo precisi" revision="0" />
+  <Message key="Add More" value="Aggiungi altro" revision="0" />
+  <Message key="Remove" value="Rimuovere" revision="0" />
+  <Message key="clr.device_colors" value="Colori dei dispositivi multisorgente" revision="0" />
+  <Message key="clr.device_colors.color1" value="Dispositivo 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Dispositivo 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Dispositivo 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Dispositivo 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Dispositivo 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Dispositivo 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Dispositivo 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Dispositivo 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Dispositivo 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Dispositivo 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Dispositivo 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Dispositivo 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Dispositivo 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Dispositivo 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Dispositivo 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Dispositivo 16" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item />
     <Item />
