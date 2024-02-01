@@ -8,7 +8,7 @@
   <Message key="DevicesAbsent" value="Faltan uno o varios dispositivos de sesión" revision="0" />
   <Message key="LogCreationFailed" value="Error al crear el archivo de registro de supervisión: {error}" revision="0" />
   <Message key="NoConverters" value="No hay módulos de procesamiento de datos que soporten esta sesión." revision="0" />
-  <Message key="NoTemporaryStorage" value="{nomemory?}La sesión anterior ha finalizado por falta de memoria. Es necesario reiniciar la aplicación antes de iniciar una nueva sesión de monitorización.{|nomemory}No hay almacenamiento temporal configurado. Compruebe la configuración en Herramientas &quot; Configuración, pestaña Proceso de datos. Código de error: {error}{?nomemory}" revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}La sesión anterior ha finalizado por falta de memoria. Es necesario reiniciar la aplicación antes de iniciar una nueva sesión de monitorización.{|nomemory}No hay almacenamiento temporal configurado. Compruebe la configuración en Herramientas - Configuración, pestaña Proceso de datos. Código de error: {error}{?nomemory}" revision="0" />
   <Message key="UnknownError" value="Fallo en la creación de la sesión por motivo desconocido.{has warnings?} Se han generado las siguientes advertencias:\r\n{warnings}{?has warnings}" revision="0" />
   <Message key="SessionStartErrorTitle" value="Error de creación de sesión" revision="0" />
   <Message key="SessionStartWarningTitle" value="Avisos de creación de sesión" revision="0" />

@@ -8,7 +8,7 @@
   <Message key="DevicesAbsent" value="Um ou mais dispositivos de sessão estão em falta" revision="0" />
   <Message key="LogCreationFailed" value="Erro ao criar ficheiro de registo de monitorização: {error}" revision="0" />
   <Message key="NoConverters" value="Não existem módulos de processamento de dados que suportem esta sessão." revision="0" />
-  <Message key="NoTemporaryStorage" value="{nomemory?}A sessão anterior foi terminada devido a condições de pouca memória. É necessário reiniciar a aplicação antes de iniciar uma nova sessão de monitorização.{|nomemory}Não está configurado nenhum armazenamento temporário. Verificar as definições em Ferramentas &quot; Definições, separador Processamento de dados. Código de erro: {error}{?nomemory}" revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}A sessão anterior foi terminada devido a condições de pouca memória. É necessário reiniciar a aplicação antes de iniciar uma nova sessão de monitorização.{|nomemory}Não está configurado nenhum armazenamento temporário. Verificar as definições em Ferramentas - Definições, separador Processamento de dados. Código de erro: {error}{?nomemory}" revision="0" />
   <Message key="UnknownError" value="Falha na criação da sessão por motivo desconhecido.{has warnings?} Foram gerados os seguintes avisos:\r\n{warnings}{?has warnings}" revision="0" />
   <Message key="SessionStartErrorTitle" value="Erro de criação de sessão" revision="0" />
   <Message key="SessionStartWarningTitle" value="Avisos de criação de sessão" revision="0" />

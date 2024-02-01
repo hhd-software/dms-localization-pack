@@ -8,7 +8,7 @@
   <Message key="DevicesAbsent" value="Отсутствует одно или несколько сессионных устройств" revision="0" />
   <Message key="LogCreationFailed" value="Ошибка создания лога файла мониторинга: {error}" revision="0" />
   <Message key="NoConverters" value="Модули обработки данных, поддерживающие такую сессию, отсутствуют." revision="0" />
-  <Message key="NoTemporaryStorage" value="{nomemory?}The previous session has been terminated due to low memory conditions. You need to restart the application before starting new monitoring session.{|nomemory}Не настроено временное хранилище. Проверьте настройки здесь: Инструменты » Настройки, Обработка данных. Код ошибки: {error}{?nomemory}" revision="0" />
+  <Message key="NoTemporaryStorage" value="{nomemory?}The previous session has been terminated due to low memory conditions. You need to restart the application before starting new monitoring session.{|nomemory}Не настроено временное хранилище. Проверьте настройки здесь: Инструменты - Настройки, Обработка данных. Код ошибки: {error}{?nomemory}" revision="0" />
   <Message key="UnknownError" value="Не удалось создать сессию по неизвестной причине.{has warnings?} Выдаются следующие предупреждения:\r\n{warnings}{?has warnings}" revision="0" />
   <Message key="SessionStartErrorTitle" value="Ошибка создания сессии" revision="0" />
   <Message key="SessionStartWarningTitle" value="Предупреждения о создании сессии" revision="0" />
