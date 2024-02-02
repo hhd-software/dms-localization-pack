@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LogWriteError" value="La registrazione dei dati è stata interrotta a causa del seguente errore: {error text} ({error code})" revision="0" />
+  <Message key="LogEmptyError" value="Non è possibile eseguire il comando Salva nel registro perché non sono disponibili dati storici per la sessione di monitoraggio corrente. La prossima volta, considerate la possibilità di aggiungere il modulo di elaborazione Registrazione dati a una sessione di monitoraggio o di aggiungere uno o più visualizzatori di dati legacy per avere automaticamente a disposizione i dati storici." revision="0" />
+  <Message key="LogProgress" value="Attendere mentre la sessione corrente viene salvata in un file." revision="0" />
+  <Message key="MaxLogs" value="Non è possibile utilizzare più di 999 registri per singola cartella!" revision="0" />
+  <Message key="Default" value="Ubicazione predefinita" revision="0" />
+  <Message key="Unlimited" value="Illimitato" revision="0" />
+  <Message key="MinSizeLimit" value="Dimensione massima del file" revision="0" />
+  <Message key="MaxSizeOutOfRange" value="La dimensione massima di un singolo file non rientra nell'intervallo consentito. L'intervallo consentito va da {min} a {max}." revision="0" />
+  <Message key="MaxFilesOutOfRange" value="Il numero massimo di file di registro non rientra nell'intervallo consentito. Deve essere un intero positivo superiore a 1." revision="0" />
+  <Message key="PathIsEmpty" value="Il percorso del file di log di output è vuoto." revision="0" />
+  <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Dimensione massima: {size}{|is size limit}Durata massima: {time}{?is size limit}{has file limit?}; {is single file?}File unico{|is single file}Fino a {files} file{?is single file}{?has file limit}{?has limits}" revision="0" />
+  <Message key="Log8Filter" value="File di log del DMS (*.dmslog8)|*.dmslog8|Tutti i file|*|" revision="0" />
+  <Message key="CreateLogFailed" value="Errore di creazione del file di registro: {error text} ({error code})." revision="1" />
+  <Message key="Save to Log" value="Salva nel registro" revision="0" />
+  <Message key="Settings group.Logging" value="Registrazione" revision="0" />
+  <Message key="Recording Page" value="Registrazione/riproduzione" revision="0" />
+  <Message key="IncorrectFolder" value="Cartella non corretta specificata. Non può essere utilizzata come cartella di destinazione per i file di log." revision="0" />
+  <Message key="Recording" value="Registrazione" revision="0" />
+  <Message key="Select the location the program will use to store recorded data." value="Selezionare la posizione che il programma utilizzerà per memorizzare i dati registrati." revision="0" />
+  <Message key="Compress recorded data" value="&amp;Comprimere i dati registrati" revision="0" />
   <Enumeration key="LogConverter">
     <Item />
     <Item />

@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LogWriteError" value="L'enregistrement des données a été interrompu en raison de l'erreur suivante: {error text} ({error code})" revision="0" />
+  <Message key="LogEmptyError" value="Il est impossible d'exécuter la commande Enregistrer dans le journal maintenant car aucune donnée historique n'est disponible pour la session de surveillance en cours. Envisagez d'ajouter le module de traitement Enregistrement de données à une session de surveillance la prochaine fois ou ajoutez un ou plusieurs visualisateurs de données pour disposer automatiquement de données historiques." revision="0" />
+  <Message key="LogProgress" value="Veuillez patienter pendant que la session en cours est enregistrée dans un fichier." revision="0" />
+  <Message key="MaxLogs" value="Impossible d'utiliser plus de 999 journaux par dossier !" revision="0" />
+  <Message key="Default" value="Emplacement par défaut" revision="0" />
+  <Message key="Unlimited" value="Illimité" revision="0" />
+  <Message key="MinSizeLimit" value="Taille maximale du fichier" revision="0" />
+  <Message key="MaxSizeOutOfRange" value="La taille maximale d'un fichier est en dehors de la plage autorisée. La plage autorisée est comprise entre {min} et {max}." revision="0" />
+  <Message key="MaxFilesOutOfRange" value="Le nombre maximum de fichiers journaux est en dehors de la plage autorisée. Doit être un nombre entier positif supérieur à 1." revision="0" />
+  <Message key="PathIsEmpty" value="Le chemin du fichier journal de sortie est vide." revision="0" />
+  <Message key="LogConfigStatus" value="{path}{has limits?}; {is size limit?}Taille maximale: {size}{|is size limit}Durée max.: {time}{?is size limit}{has file limit?}; {is single file?}Fichier unique{|is single file}Jusqu'à {files} fichiers{?is single file}{?has file limit}{?has limits}" revision="0" />
+  <Message key="Log8Filter" value="Fichiers journaux DMS (*.dmslog8)|*.dmslog8|Tous les dossiers|*|" revision="0" />
+  <Message key="CreateLogFailed" value="Erreur de création du fichier journal: {error text} ({error code})." revision="1" />
+  <Message key="Save to Log" value="Enregistrer dans le journal" revision="0" />
+  <Message key="Settings group.Logging" value="Enregistrement" revision="0" />
+  <Message key="Recording Page" value="Enregistrement/Lecture" revision="0" />
+  <Message key="IncorrectFolder" value="Le dossier spécifié est incorrect. Il ne peut pas être utilisé comme dossier cible pour les fichiers journaux." revision="0" />
+  <Message key="Recording" value="Enregistrement" revision="0" />
+  <Message key="Select the location the program will use to store recorded data." value="Sélectionnez l'emplacement que le programme utilisera pour stocker les données enregistrées." revision="0" />
+  <Message key="Compress recorded data" value="&amp;Compresser les données enregistrées" revision="0" />
   <Enumeration key="LogConverter">
     <Item />
     <Item />
