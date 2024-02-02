@@ -148,121 +148,121 @@
     <Item value="Arrêter la session en cours" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsClose">
-    <Item />
-    <Item />
+    <Item value="Fermer le &amp;visualiseur" revision="0" />
+    <Item value="Fermer le visualiseur sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsColumns">
-    <Item />
-    <Item />
+    <Item value="Taille automatique des colonnes" revision="1" />
+    <Item value="Redimensionner automatiquement les colonnes de la fenêtre pour que tout le texte soit visible" revision="1" />
   </Enumeration>
   <Enumeration key="SessionsExpand">
-    <Item />
-    <Item />
+    <Item value="&amp;Développer élément" revision="0" />
+    <Item value="Développer un élément dans une liste" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsCollapse">
-    <Item />
-    <Item />
+    <Item value="&amp;Réduire l'élément" revision="0" />
+    <Item value="Réduire un élément d'une liste" revision="0" />
   </Enumeration>
   <Enumeration key="StartMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Commencer la surveillance…" revision="0" />
+    <Item value="Créer une nouvelle session de surveillance" revision="0" />
   </Enumeration>
   <Enumeration key="PauseMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Pause Surveillance" revision="0" />
+    <Item value="Pause de cette session de surveillance" revision="0" />
   </Enumeration>
   <Enumeration key="ConfigureDeviceSession">
-    <Item />
-    <Item />
+    <Item value="&amp;Configurer la session…" revision="0" />
+    <Item value="Modifier les paramètres de la session en cours" revision="0" />
   </Enumeration>
   <Enumeration key="ResumeMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Reprendre surveillance" revision="0" />
+    <Item value="Reprendre cette session de surveillance" revision="0" />
   </Enumeration>
   <Enumeration key="StopMonitoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Arrêter surveillance" revision="0" />
+    <Item value="Arrêter cette session de surveillance" revision="0" />
   </Enumeration>
   <Enumeration key="RestartDevice">
-    <Item />
-    <Item />
+    <Item value="Redémarrer &amp;dispositif" revision="0" />
+    <Item value="Redémarrer le dispositif sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="DeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Propriétés…" revision="0" />
+    <Item value="Afficher les propriétés du dispositif" revision="0" />
   </Enumeration>
   <Enumeration key="RenameDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Renommer…" revision="0" />
+    <Item value="Spécifier un nom personnalisé pour un dispositif" revision="0" />
   </Enumeration>
   <Enumeration key="ScanForHardwareChanges">
-    <Item />
-    <Item />
+    <Item value="Recherche de modifications matérielles" revision="0" />
+    <Item value="Recherche de modifications matérielles et mise à jour de l'arborescence" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Tous" revision="0" />
+    <Item value="Afficher toutes les catégories" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilterNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Aucun" revision="0" />
+    <Item value="Masquer toutes les catégories" revision="0" />
   </Enumeration>
   <Enumeration key="AddConverter">
-    <Item />
-    <Item />
+    <Item value="Ajouter à la session" revision="0" />
+    <Item value="Ajouter le(s) traitement(s) de données sélectionné(s) à la session" revision="0" />
   </Enumeration>
   <Enumeration key="AddToFavorites">
-    <Item />
-    <Item />
+    <Item value="Ajouter à la favoris" revision="0" />
+    <Item value="Ajouter le(s) traitement(s) de données sélectionné(s) à la liste des favoris" revision="0" />
   </Enumeration>
   <Enumeration key="RemoveConverter">
-    <Item />
-    <Item />
+    <Item value="Retirer de la session" revision="0" />
+    <Item value="Supprimer de la session le traitement des données sélectionnées" revision="0" />
   </Enumeration>
   <Enumeration key="DeleteCustom">
-    <Item />
-    <Item />
+    <Item value="Retirer" revision="0" />
+    <Item value="Supprimer le traitement des données de la liste" revision="0" />
   </Enumeration>
   <Enumeration key="EditCustom">
-    <Item />
-    <Item />
+    <Item value="Configurer le traitement des données…" revision="0" />
+    <Item value="Configurer le traitement des données sélectionnées" revision="0" />
   </Enumeration>
   <Enumeration key="SaveCustom">
-    <Item />
-    <Item />
+    <Item value="Sauvegarder le traitement personnalisé…" revision="0" />
+    <Item value="Sauvegarde de la configuration de traitement des données sélectionnée" revision="0" />
   </Enumeration>
   <Enumeration key="CategoryFilters">
-    <Item />
-    <Item />
+    <Item value="Afficher ou masquer les catégories" revision="0" />
+    <Item value="Sélectionner les catégories d'appareils à afficher" revision="0" />
   </Enumeration>
   <Enumeration key="CategorySubfilters">
-    <Item />
-    <Item />
+    <Item value="Sous-catégories" revision="0" />
+    <Item value="Sélectionner les sous-catégories d'appareils à afficher" revision="0" />
   </Enumeration>
   <Enumeration key="MenuSessions">
-    <Item />
-    <Item />
+    <Item value="Sessions" revision="0" />
+    <Item value="Liste des sessions en cours" revision="0" />
   </Enumeration>
   <Enumeration key="DataProcessingGroups">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Favoris" revision="2" />
+    <Item value="Visualisateurs" revision="2" />
+    <Item value="Exportateurs" revision="2" />
+    <Item value="Personnalisé" revision="2" />
+    <Item value="Legacy" revision="2" />
   </Enumeration>
   <Enumeration key="SessionWindowColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Source" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Dispositif" revision="0" />
+    <Item value="Traitement" revision="0" />
+    <Item value="Début" revision="0" />
+    <Item value="Durée" revision="0" />
+    <Item value="État" revision="0" />
   </Enumeration>
   <Enumeration key="SessionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Stoppé" revision="0" />
+    <Item value="Exécution" revision="0" />
+    <Item value="En pause" revision="0" />
   </Enumeration>
   <Enumeration key="SessionConfigSteps">
     <Item />
