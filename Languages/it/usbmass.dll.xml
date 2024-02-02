@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="operate independantly" value="Ogni interfaccia all'interno della configurazione specifica le proprie informazioni di classe e le varie interfacce operano in modo indipendente." revision="0" />
+  <Message key="Device supports different class specifications" value="Il dispositivo supporta specifiche di classe diverse su interfacce diverse e le interfacce potrebbero non funzionare in modo indipendente" revision="0" />
+  <Message key="Device Class" value="Classe del dispositivo" revision="0" />
+  <Message key="This command is not defined." value="ATTENZIONE: Questo comando non è definito nel set di comandi corrente. " revision="0" />
+  <Message key="WARNING" value="ATTENZIONE" revision="0" />
+  <Message key="Mass Storage Device Detected." value="Rilevato dispositivo di archiviazione di massa." revision="0" />
+  <Message key="unsupported device type" value="ATTENZIONE: tipo di dispositivo non supportato. Tentativo di analisi." revision="0" />
+  <Message key="Device Detected." value="Dispositivo rilevato." revision="0" />
   <Enumeration key="MassConverter">
-    <Item />
-    <Item />
+    <Item value="Vista della memoria di massa (Legacy)" revision="1" />
+    <Item value="Il visualizzatore Vista Memoria di massa decodifica il protocollo di memoria di massa USB per i dispositivi appartenenti alla classe Memoria di massa." revision="1" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />
