@@ -60,8 +60,6 @@
   <Message key="Save Template" value="Сохранить шаблон" revision="0" />
   <Message key="NoSelection" value="Нет выделения" revision="0" />
   <Message key="Number" value="№." revision="0" />
-  <Message key="Address" value="Адрес" revision="0" />
-  <Message key="Length" value="Длина" revision="0" />
   <Message key="AdapterSelect" value="Выбрать адаптер…\nВыбор адаптера по умолчанию для отправки пакетов" revision="0" />
   <Message key="TemplateAlreadyExists" value="Шаблон уже существует. Хотите его заменить?" revision="0" />
   <Message key="ErrorRead" value="Ошибка чтения из файла. " revision="0" />
@@ -70,11 +68,9 @@
   <Message key="NoPackets" value="Ни один пакет не выбран. Нечего отправлять." revision="0" />
   <Message key="Warning" value="Внимание" revision="0" />
   <Message key="BigPacket" value="Размер пакета больше стандартного MTU (1500). Отправка не гарантируется." revision="0" />
-  <Message key="All files" value="Все файлы" revision="0" />
   <Message key="LimitSize" value="Пакет слишком большой. Размер входного файла больше {limit} байт. Используйте первые {first} байт." revision="0" />
   <Message key="NetTermTooltip" value="Пакет:\t\t{number}\nРазмер:\t\t{size} bytes\nЗадержка:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Хотите перезаписать эту схему?" revision="0" />
-  <Message key="SaveAs" value="Сохранить как" revision="0" />
   <Message key="HexStartError" value="Не удалось запустить Hex редактор. Код ошибки = {code}" revision="1" />
   <Message key="HexLocationError" value="Не удается найти расположение установщика Hex Editor Neo." revision="0" />
   <Message key="HexVersionError" value="Неизвестен номер версии Hex Editor." revision="0" />

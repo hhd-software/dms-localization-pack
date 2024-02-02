@@ -60,8 +60,6 @@
   <Message key="Save Template" value="Guardar plantilla" revision="0" />
   <Message key="NoSelection" value="Sin selección" revision="0" />
   <Message key="Number" value="№." revision="0" />
-  <Message key="Address" value="Dirección" revision="0" />
-  <Message key="Length" value="Longitud" revision="0" />
   <Message key="AdapterSelect" value="Seleccionar adaptador…\nSeleccione el adaptador predeterminado para el envío de paquetes" revision="0" />
   <Message key="TemplateAlreadyExists" value="La plantilla ya existe. ¿Desea sobrescribirla?" revision="0" />
   <Message key="ErrorRead" value="Error de lectura del fichero." revision="0" />
@@ -70,11 +68,9 @@
   <Message key="NoPackets" value="Este esquema no puede eliminarse ni modificarse." revision="0" />
   <Message key="Warning" value="Advertencia" revision="0" />
   <Message key="BigPacket" value="Tamaño del paquete superior a la MTU estándar (1500). Envío no garantizado." revision="0" />
-  <Message key="All files" value="Todos los archivos" revision="0" />
   <Message key="LimitSize" value="Paquete demasiado grande. El tamaño del fichero de entrada es superior a {limit} bytes. Utilice los primeros {first} bytes." revision="0" />
   <Message key="NetTermTooltip" value="Paquete:\t\t{number}\nTamaño:\t\t{size} bytes\nRetraso:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="¿Desea anular este esquema?" revision="0" />
-  <Message key="SaveAs" value="Guardar como" revision="0" />
   <Message key="HexStartError" value="Error al iniciar Hex Editor Neo. Código de error = {code}" revision="1" />
   <Message key="HexLocationError" value="No encuentro la ubicación de instalación de Hex Editor Neo." revision="0" />
   <Message key="HexVersionError" value="Número de versión del editor hexadecimal desconocido." revision="0" />

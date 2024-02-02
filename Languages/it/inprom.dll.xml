@@ -15,6 +15,6 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Come iniziare" revision="0" />
-    <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso.\n\n[[[hDisattivare tutte le esercitazioni e le guide]]]" revision="0" />
+    <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso." revision="1" />
   </Enumeration>
 </Language>

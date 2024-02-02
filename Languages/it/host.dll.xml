@@ -98,50 +98,54 @@
   <Message key="clr.device_colors.color14" value="Dispositivo 14" revision="0" />
   <Message key="clr.device_colors.color15" value="Dispositivo 15" revision="0" />
   <Message key="clr.device_colors.color16" value="Dispositivo 16" revision="0" />
+  <Message key="Collapse session" value="Fare clic per comprimere le informazioni sulla sessione" revision="0" />
+  <Message key="Expand session" value="Fare clic per espandere le informazioni sulla sessione" revision="0" />
+  <Message key="Processing Module Configuration" value="Configurazione del modulo di elaborazione" revision="0" />
+  <Message key="HiddenDevicesCategoryFilter" value="Dispositivi nascosti" revision="0" />
   <Enumeration key="VisualizerNaming">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Schema di denominazione del visualizzatore" revision="0" />
+    <Item value="[Nome del dispositivo] - [Nome del visualizzatore]" revision="0" />
+    <Item value="[Nome del visualizzatore]: [Nome del dispositivo]" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchNetwork">
-    <Item />
-    <Item />
+    <Item value="&amp;Rete" revision="0" />
+    <Item value="Passare Device Monitoring Studio alla modalità di monitoraggio della rete" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchSerial">
-    <Item />
-    <Item />
+    <Item value="&amp;Seriale" revision="0" />
+    <Item value="Passare Device Monitoring Studio alla modalità di monitoraggio seriale" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchUSB">
-    <Item />
-    <Item />
+    <Item value="&amp;USB" revision="0" />
+    <Item value="Passare Device Monitoring Studio alla modalità di monitoraggio USB" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchAll">
-    <Item />
-    <Item />
+    <Item value="&amp;Tutti" revision="0" />
+    <Item value="Passare Device Monitoring Studio alla modalità di monitoraggio combinato" revision="0" />
   </Enumeration>
   <Enumeration key="MultiSource">
-    <Item />
-    <Item />
+    <Item value="Monitoraggio multisorgente" revision="0" />
+    <Item value="Il monitoraggio multisorgente consente di monitorare contemporaneamente diversi dispositivi dello stesso tipo." revision="0" />
   </Enumeration>
   <Enumeration key="&amp;Edit">
-    <Item />
-    <Item />
+    <Item value="&amp;Modifica" revision="0" />
+    <Item value="Modifica" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsConfigure">
-    <Item />
-    <Item />
+    <Item value="&amp;Configurare la sessione…" revision="0" />
+    <Item value="Modifica dei parametri della sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsResume">
-    <Item />
-    <Item />
+    <Item value="&amp;Riprendere la sessione" revision="0" />
+    <Item value="Riprendere la sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausa sessione" revision="0" />
+    <Item value="Mettere in pausa la sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Stop alla sessione" revision="0" />
+    <Item value="Stop alla sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="SessionsClose">
     <Item />

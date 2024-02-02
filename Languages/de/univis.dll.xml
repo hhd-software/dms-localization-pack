@@ -60,8 +60,6 @@
   <Message key="Save Template" value="Vorlage speichern" revision="0" />
   <Message key="NoSelection" value="Keine Auswahl" revision="0" />
   <Message key="Number" value="Nr." revision="0" />
-  <Message key="Address" value="Adresse" revision="0" />
-  <Message key="Length" value="Länge" revision="0" />
   <Message key="AdapterSelect" value="Adapter auswählen…\nWählen Sie den Standardadapter für das Senden von Paketen" revision="0" />
   <Message key="TemplateAlreadyExists" value="Die Vorlage existiert bereits. Möchten Sie sie überschreiben?" revision="0" />
   <Message key="ErrorRead" value="Fehler beim Lesen aus der Datei. " revision="0" />
@@ -70,11 +68,9 @@
   <Message key="NoPackets" value="Kein Paket ausgewählt. Nichts zu senden." revision="0" />
   <Message key="Warning" value="Warnung" revision="0" />
   <Message key="BigPacket" value="Paketgröße größer als Standard-MTU (1500). Senden nicht garantiert." revision="0" />
-  <Message key="All files" value="Alle Dateien" revision="0" />
   <Message key="LimitSize" value="Paket zu groß. Größe der Eingabedatei größer als {limit} Bytes. Verwende die ersten {first} Bytes." revision="0" />
   <Message key="NetTermTooltip" value="Paket:\t\t{number}\nGröße:\t\t{size} bytes\nVerzögerung:\t\t{delay} ms\n" revision="0" />
   <Message key="SchemeOverride" value="Möchten Sie diese Regelung außer Kraft setzen?" revision="0" />
-  <Message key="SaveAs" value="Speichern unter" revision="0" />
   <Message key="HexStartError" value="Hex Editor konnte nicht gestartet werden. Fehlercode = {code}" revision="1" />
   <Message key="HexLocationError" value="Ich kann den Installationsort von Hex Editor Neo nicht finden." revision="0" />
   <Message key="HexVersionError" value="Unbekannte Versionsnummer des Hex-Editors." revision="0" />

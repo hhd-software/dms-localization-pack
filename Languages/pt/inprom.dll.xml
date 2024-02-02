@@ -15,6 +15,6 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Como começar" revision="0" />
-    <Item value="Para iniciar a monitorização, localize o dispositivo de série, USB ou de rede que pretende monitorizar na [[[v#[toolwindow.devices]# ]]] [[[hjanela da ferramenta de dispositivos]]] e faça duplo clique no mesmo.\n\n[[[hDesativar todos os tutoriais e orientações]]]" revision="0" />
+    <Item value="Para iniciar a monitorização, localize o dispositivo de série, USB ou de rede que pretende monitorizar na [[[v#[toolwindow.devices]# ]]] [[[hjanela da ferramenta de dispositivos]]] e faça duplo clique no mesmo." revision="1" />
   </Enumeration>
 </Language>

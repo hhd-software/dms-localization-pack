@@ -15,6 +15,6 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Wie man anfängt" revision="0" />
-    <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf.\n\n[[[hDeaktivieren aller Tutorials]]]" revision="0" />
+    <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf." revision="1" />
   </Enumeration>
 </Language>

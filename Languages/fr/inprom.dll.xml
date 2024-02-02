@@ -15,6 +15,6 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Pour commencer" revision="0" />
-    <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus. \n\n[[[hDésactiver tous les tutoriels et les guides d'utilisation]]]" revision="0" />
+    <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus." revision="1" />
   </Enumeration>
 </Language>
