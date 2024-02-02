@@ -439,14 +439,14 @@
 	<Message optional="true" key="Line State Change" description="Field: Line State Change"/>
 	<Message optional="true" key="Ringer Pattern Type" description="Field: Ringer Pattern Type"/>
 	<Message optional="true" key="Ringer Volume" description="Field: Ringer Volume"/>
-	<Message optional="true" key="Ringer Exist" description="Field: Ringer Exist"/> <!--TODO-->
+	<Message optional="true" key="Ringer Exist" description="Field: Ringer Exist"/>
 	<Message optional="true" key="Change" description="Field: Change"/> 
 	<Message optional="true" key="Active" description="Field: Active"/>
 	<Message optional="true" key="Dialing String" description="Field: Dialing String"/>
 	<Message optional="true" key="Profile Information" description="Field: Profile Information"/>
 	<Message optional="true" key="Filter Number" description="Field: Filter Number"/>
 	<Message optional="true" key="Pattern" description="Field: Pattern"/>
-	<Message optional="true" key="Pattern Active" description="Field: Pattern Active"/> <!--TODO-->
+	<Message optional="true" key="Pattern Active" description="Field: Pattern Active"/>
 	<Message optional="true" key="Promiscuous" description="Field: Promiscuous"/>
 	<Message optional="true" key="All Multicast" description="Field: All Multicast"/>
 	<Message optional="true" key="Directed" description="Field: Directed"/>

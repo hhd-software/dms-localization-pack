@@ -464,7 +464,6 @@
 	<Message optional="true" key="EDC&amp;ECC" description="Field: EDC&amp;ECC" value="EDC&amp;ECC"/>
 	<Message optional="true" key="SYNC" description="Field: SYNC" value="SYNC"/>
 	<Message optional="true" key="Sub Chanel Selection" description="Field: Sub Chanel Selection" value="Sub Chanel Selection"/>
-	<Message optional="true" key="Address" description="Field: Address" value="Address"/>
 	<Message optional="true" key="AGID" description="Field: AGID" value="AGID"/>
 	<Message optional="true" key="MSF" description="Field: MSF" value="MSF"/>
 	<Message optional="true" key="SUBQ" description="Field: SUBQ" value="SUBQ"/>

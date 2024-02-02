@@ -74,19 +74,19 @@
 
 	<Message optional="true" key="Additional" description="Value: Additional" value="Additional"/>
 
-	<Enumeration optional="true" key="UsbAudioRequestSubtypes" description="USB Audio Request Subtypes list">
-		<Item text="Unknown\n"/>
-		<Item text="Set Cur\n"/>
-		<Item text="Get Cur\n"/>
-		<Item text="Set Min\n"/>
-		<Item text="Get Min\n"/>
-		<Item text="Set Max\n"/>
-		<Item text="Get Max\n"/>
-		<Item text="Set Res\n"/>
-		<Item text="Get Res\n"/>
-		<Item text="Set Mem\n"/>
-		<Item text="Get Mem\n"/>
-		<Item text="Get Stat\n"/>
+	<Enumeration optional="true" key="UsbAudioRequestSubtypes" description="USB Audio Request Subtypes list" revision="1">
+		<Item text="Unknown"/>
+		<Item text="Set Cur"/>
+		<Item text="Get Cur"/>
+		<Item text="Set Min"/>
+		<Item text="Get Min"/>
+		<Item text="Set Max"/>
+		<Item text="Get Max"/>
+		<Item text="Set Res"/>
+		<Item text="Get Res"/>
+		<Item text="Set Mem"/>
+		<Item text="Get Mem"/>
+		<Item text="Get Stat"/>
 	</Enumeration>
 	
 	<Enumeration optional="true" key="AudioSubclassesCat" description="Filters: Audio Subclasses">

@@ -2,8 +2,9 @@
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
   <Message key="LampWindowNotification" description="Option: Line View visualizer position notification" value="Line View visualizer position notification"/>
-	<Message key="maxPacketViewData" description="Option: Max packet length in Packet View" value="Maximum packet length, bytes"/>
-	<Message key="Packet View (Serial)" description="Option group: Packet View (Serial)"/>
+	<Message key="maxPacketViewData" description="Option: Max packet length in Packet View" value="Maximum number of bytes to show for a packet"/>
+	<Message key="maxPacketViewDataExport" description="Option: Max packet length in Packet View (export)" value="Maximum packet length when exporting, bytes"/>
+	<Message key="Packet View (Serial)" description="Option group: Packet View (Serial)" value="Packet View (Serial &amp; Bridge)" revision="1"/>
 
 	<Enumeration key="LineConverter" description="Line View">
     <Item text="Line View"/>

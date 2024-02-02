@@ -17,8 +17,8 @@
 
 	<Message key="tutorialStep1" description="Notification: Getting started tutorial" value="Getting started tutorial"/>
 
-	<Enumeration key="tutorialStep1-text" description="">
+	<Enumeration key="tutorialStep1-text" description="Getting Started Tutorial Text">
 		<Item text="Getting Started"/>
-		<Item text="In order to start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it.\n\n[[[hDisable all tutorials and walkthroughs]]]"/>
+		<Item text="In order to start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it." revision="1"/>
 	</Enumeration>
 </Definition>

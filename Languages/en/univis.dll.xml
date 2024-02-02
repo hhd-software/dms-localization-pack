@@ -569,19 +569,15 @@
 	<Message key="Save Template" description="Title: Save Template"/>
 
 	<Message key="NoSelection" description="Field: Incorrect input" value="No selection"/>
-	<Message key="Number" description="Field: Number" value="No."/> <!--TODO: Studio?-->
-	<Message key="Address" description="Field: Address" value="Address"/> <!--TODO: Studio?-->
-	<Message key="Length" description="Field: Length" value="Length"/> <!--TODO: Studio?-->
+	<Message key="Number" description="Field: Number" value="No."/>
 	<Message key="AdapterSelect" description="Message: Adapter Select" value="Select adapter…\nSelect default adapter for sending packets" />
 	<Message key="TemplateAlreadyExists" description="Error: Template already exist" value="Template already exists. Do you want to overwrite it?" />
 	<Message key="ErrorRead" description="Error: Reading file error" value="Error reading from the file. " />
 	<Message key="TemplateDeleteError" description="Error: Template deletion error" value= "This scheme can not be removed or modified."/>
-	<Message key="TitleError" description="Title: Error" value= "Error"/> <!--TODO: Studio?-->
+	<Message key="TitleError" description="Title: Error" value= "Error"/>
 	<Message key="NoPackets" description="Error: No packets to send" value="No one packet selected. Nothing to send."/>
 	<Message key="Warning" description="Title: Warning" value="Warning"/>
 	<Message key="BigPacket" description="Error: Packet too big" value="Packet size larger than standard MTU (1500). Sending not guaranteed."/>
-
-	<Message key="All files" description="Title: All Files" value="All files"/>	<!--TODO: Studio?-->
 
 	<Message key="LimitSize" description="Packet Sender tooltip text"
 			 value="Packet too big. Input file size more then {limit} bytes. Use first {first} bytes.">
@@ -597,7 +593,6 @@
 	</Message>
 
 	<Message key="SchemeOverride" description="Message: Override scheme message" value="Do you want to override this scheme?"/>
-	<Message key="SaveAs" description="Title: Save As" value="Save As"/>	<!--TODO: Studio?-->
 
 	<Message key="HexStartError" description="Error: Failed to start Hex Editor Neo"
 			 value="Failed to start Hex Editor Neo. Error Code = {code}" revision="1">
@@ -606,7 +601,7 @@
 
 	<Message key="HexLocationError" description="Error: Hex Editor installation error" value="Can't find Hex Editor Neo install location."/>
 	<Message key="HexVersionError" description="Error: Hex Editor version error" value="Unknown Hex Editor version number."/>
-	<Message key="ErrorTitle" description="Title: Error" value="Error"/>	<!--TODO: Studio?-->
+	<Message key="ErrorTitle" description="Title: Error" value="Error"/>
 
 	<Message key="EncodingNotSupported" description="Message: Encoding not supported" value="Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. Encoding not supported. "/>
 	<Message key="NotSupported" description="Error: Unsupported encoding" value="Your system lacks the components required to support the selected encoding. Select another encoding."/>
