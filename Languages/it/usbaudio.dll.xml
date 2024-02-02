@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="USB Audio Visualizer" value="Visualizzatore audio USB" revision="0" />
+  <Message key="Audio View" value="Vista audio" revision="0" />
+  <Message key="USB Audio Device Detected." value="Rilevato dispositivo audio USB." revision="0" />
   <Enumeration key="AudioConverter">
-    <Item />
-    <Item />
+    <Item value="Vista audio (Legacy)" revision="1" />
+    <Item value="Il visualizzatore della vista audio USB analizza i pacchetti e i descrittori di configurazione per i dispositivi compatibili con USB Audio (versione 1.0)." revision="1" />
   </Enumeration>
   <Enumeration key="UsbAudioBool">
     <Item />
@@ -135,10 +138,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbAudioColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Dati binari" revision="0" />
+    <Item value="Intestazione 2" revision="0" />
+    <Item value="Intestazione 3" revision="0" />
   </Enumeration>
 </Language>
