@@ -265,13 +265,13 @@
     <Item value="En pause" revision="0" />
   </Enumeration>
   <Enumeration key="SessionConfigSteps">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Présentation de la configuration de la session" revision="0" />
+    <Item value="Il s'agit d'une liste de tous les modules de traitement disponibles. Sélectionnez le module de traitement pour afficher sa brève description et double-cliquez dessus pour l'ajouter à une session de surveillance.\n\n L'ajout du composant [[[v#[vis.recording]# ]]] [[[hEnregistrement des données]]] à la session entraînera l'enregistrement de toutes les données surveillées dans le fichier journal, qui pourra être lu ultérieurement avec le même ensemble de modules de traitement des données ou un ensemble différent." revision="0" />
+    <Item value="Il s'agit d'une liste de tous les modules de traitement actuellement configurés pour une session de suivi. Plusieurs modules de traitement permettent une configuration supplémentaire. Cliquez sur les options correspondantes pour les configurer." revision="0" />
+    <Item value="Spécifiez le [[[hFiltre de session]]] qui sera actif pour l'ensemble de la session de surveillance. Plusieurs visualiseurs de données permettent de définir un [[[hFiltres du visualiseur]]] pour chaque visualiseur." revision="0" />
+    <Item value="Cliquez sur le bouton [[[bAjouter d'autres]]] pour ajouter d'autres appareils à la session de surveillance. Tous les dispositifs ajoutés seront surveillés simultanément dans une seule session." revision="0" />
+    <Item value="Certaines sessions de surveillance peuvent faire l'objet d'une configuration supplémentaire. Cliquez sur le texte de configuration pour ouvrir la fenêtre de configuration et configurer la session de surveillance." revision="0" />
+    <Item value="Une fois prêt, appuyez sur le bouton [[[bDébut]]] pour commencer la surveillance !" revision="0" />
+    <Item value="Vous pouvez également capturer les paramètres de la fenêtre [[[bConfiguration de la session]]] dans un script. Pour ce faire, appuyez sur le bouton [[[bGénérer un script]]].\n\nD'autres options de début de session sont également disponibles. Consultez la [[[hdocumentation]]] pour plus d'informations." revision="1" />
   </Enumeration>
 </Language>

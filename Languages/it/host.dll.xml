@@ -265,13 +265,13 @@
     <Item value="In pausa" revision="0" />
   </Enumeration>
   <Enumeration key="SessionConfigSteps">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Guida alla configurazione della sessione" revision="0" />
+    <Item value="Questo è un elenco di tutti i moduli di elaborazione disponibili. Selezionare il modulo di elaborazione per visualizzarne la breve descrizione e fare doppio clic su di esso per aggiungerlo a una sessione di monitoraggio.\n\n Aggiungendo il componente [[[v#[vis.recording]# ]]] [[[hRegistrazione dati]]] alla sessione, tutti i dati monitorati verranno salvati nel file di log che potrà essere riprodotto in seguito con lo stesso o con un diverso set di moduli di elaborazione dati." revision="0" />
+    <Item value="È un elenco di tutti i moduli di elaborazione attualmente configurati per una sessione di monitoraggio. Alcuni moduli di elaborazione supportano una configurazione aggiuntiva. Fare clic sulle opzioni corrispondenti per configurarle." revision="0" />
+    <Item value="Specificare il [[[hFiltro di sessione]]] che sarà attivo per l'intera sessione di monitoraggio. Diversi visualizzatori di dati supportano l'impostazione del [[[hFiltro di visualizzazione]]] per ciascun visualizzatore." revision="0" />
+    <Item value="Fare clic sul pulsante [[[bAggiungi altro]]] per aggiungere altri dispositivi alla sessione di monitoraggio. Tutti i dispositivi aggiunti saranno monitorati simultaneamente in un'unica sessione." revision="0" />
+    <Item value="Alcune sessioni di monitoraggio supportano una configurazione aggiuntiva. Fare clic sul testo di configurazione per aprire la finestra di configurazione e configurare la sessione di monitoraggio." revision="0" />
+    <Item value="Una volta pronto, premere il pulsante [[[bInizio]]] per avviare il monitoraggio!" revision="0" />
+    <Item value="In alternativa, è possibile catturare le impostazioni della finestra [[[bConfigurazione della sessione]]] in uno script. Premete il pulsante [[[bGenera script]]] per farlo.\n\nSono disponibili anche altre opzioni di inizio sessione. Per ulteriori informazioni, consultare la [[[hdocumentazione]]]." revision="1" />
   </Enumeration>
 </Language>
