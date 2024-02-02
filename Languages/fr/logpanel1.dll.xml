@@ -20,36 +20,48 @@
   <Message key="Recording" value="Enregistrement" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Sélectionnez l'emplacement que le programme utilisera pour stocker les données enregistrées." revision="0" />
   <Message key="Compress recorded data" value="&amp;Compresser les données enregistrées" revision="0" />
+  <Message key="Playback" value="Lecture" revision="0" />
+  <Message key="Select the location the program will use to playback." value="Sélectionnez l'emplacement que le programme utilisera pour la lecture." revision="0" />
+  <Message key="Recurse sub-directories" value="Sous-annuaires &amp;récursifs" revision="0" />
+  <Message key="Data Recording Properties" value="Paramètres d'enregistrement des données" revision="1" />
+  <Message key="No limits enforced" value="Aucune limite n'est imposée" revision="0" />
+  <Message key="Enforce size limit:" value="Appliquer la limite de taille:" revision="0" />
+  <Message key="Enforce time limit:" value="Faire respecter le délai:" revision="0" />
+  <Message key="Single file" value="Fichier unique" revision="0" />
+  <Message key="Multiple files. Maximum:" value="Fichiers multiples. Maximum:" revision="0" />
+  <Message key="Specify location of log file:" value="Spécifier l'emplacement du fichier journal:" revision="0" />
+  <Message key="sessionClosing" value="Session de clôture sans enregistrement des données" revision="0" />
+  <Message key="SaveToLog" value="Sauvegarde des données surveillées dans un fichier journal" revision="0" />
   <Enumeration key="LogConverter">
-    <Item />
-    <Item />
+    <Item value="Enregistrement données (Legacy)" revision="0" />
+    <Item value="L'enregistrement des données permet d'enregistrer les données surveillées sur le disque pour une lecture ultérieure. Prend en charge le format de fichier DMSLOG7." revision="0" />
   </Enumeration>
   <Enumeration key="LogConverter4">
-    <Item />
-    <Item />
+    <Item value="Enregistrement données" revision="0" />
+    <Item value="L'enregistrement des données permet d'enregistrer les données surveillées sur le disque pour une lecture ultérieure. Le nouveau format permet d'écrire dans plusieurs fichiers et de limiter la taille maximale des fichiers." revision="0" />
   </Enumeration>
   <Enumeration key="SaveNow">
-    <Item />
-    <Item />
+    <Item value="Enregistrer dans le journal" revision="0" />
+    <Item value="Sauvegarde de la session surveillée dans un fichier journal" revision="0" />
   </Enumeration>
   <Enumeration key="StartRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Démarrer/reprendre un enregistrement" revision="0" />
+    <Item value="Démarrer ou reprendre l'enregistrement d'une session" revision="0" />
   </Enumeration>
   <Enumeration key="PauseRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Pause de l'enregistrement" revision="0" />
+    <Item value="Pause de l'enregistrement de la session en cours" revision="0" />
   </Enumeration>
   <Enumeration key="StopRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Arrêter l'enregistrement" revision="0" />
+    <Item value="Arrêter l'enregistrement de la session en cours" revision="0" />
   </Enumeration>
   <Enumeration key="BrowsePlayback">
-    <Item />
-    <Item />
+    <Item value="Configurer le chemin de lecture…" revision="0" />
+    <Item value="Spécifier l'emplacement des fichiers journaux pour la lecture" revision="0" />
   </Enumeration>
   <Enumeration key="ClosingSessionWithoutLogging">
-    <Item />
-    <Item />
+    <Item value="Clôture de la session" revision="0" />
+    <Item value="This action will stop and close the current monitoring session. All monitored data will be lost. Add Data Recording component to the monitoring session next time in order to automatically save all recorded data into the log file.\n\nChoose the action to continue:" revision="0" />
   </Enumeration>
 </Language>

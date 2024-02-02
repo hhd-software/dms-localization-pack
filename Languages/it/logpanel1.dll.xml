@@ -20,36 +20,48 @@
   <Message key="Recording" value="Registrazione" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Selezionare la posizione che il programma utilizzerà per memorizzare i dati registrati." revision="0" />
   <Message key="Compress recorded data" value="&amp;Comprimere i dati registrati" revision="0" />
+  <Message key="Playback" value="Riproduzione" revision="0" />
+  <Message key="Select the location the program will use to playback." value="Selezionare la posizione che il programma utilizzerà per la riproduzione." revision="0" />
+  <Message key="Recurse sub-directories" value="Sottodirectory &amp;ricorsive" revision="0" />
+  <Message key="Data Recording Properties" value="Impostazioni di registrazione dei dati" revision="1" />
+  <Message key="No limits enforced" value="Nessun limite applicato" revision="0" />
+  <Message key="Enforce size limit:" value="Applicare il limite di dimensioni:" revision="0" />
+  <Message key="Enforce time limit:" value="Applicare il limite di tempo:" revision="0" />
+  <Message key="Single file" value="File singolo" revision="0" />
+  <Message key="Multiple files. Maximum:" value="File multipli. Massimo:" revision="0" />
+  <Message key="Specify location of log file:" value="Specificare la posizione del file di log:" revision="0" />
+  <Message key="sessionClosing" value="Sessione di chiusura senza registrazione dei dati" revision="0" />
+  <Message key="SaveToLog" value="Salvate ora i dati monitorati in un file di log" revision="0" />
   <Enumeration key="LogConverter">
-    <Item />
-    <Item />
+    <Item value="Registrazione dati (Legacy)" revision="0" />
+    <Item value="La registrazione dei dati registra i dati monitorati sul file del disco per la successiva riproduzione. Supporta il formato di file DMSLOG7" revision="0" />
   </Enumeration>
   <Enumeration key="LogConverter4">
-    <Item />
-    <Item />
+    <Item value="Registrazione dati" revision="0" />
+    <Item value="La registrazione dei dati registra i dati monitorati sul file del disco per la successiva riproduzione. Il nuovo formato supporta la scrittura in più file e limita la dimensione massima del file." revision="0" />
   </Enumeration>
   <Enumeration key="SaveNow">
-    <Item />
-    <Item />
+    <Item value="Salva nel registro" revision="0" />
+    <Item value="Salva la sessione monitorata nel file di log" revision="0" />
   </Enumeration>
   <Enumeration key="StartRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Avviare/riprendere la registrazione" revision="0" />
+    <Item value="Avviare o riprendere la registrazione della sessione" revision="0" />
   </Enumeration>
   <Enumeration key="PauseRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Pausa la registrazione" revision="0" />
+    <Item value="Sospendere la registrazione della sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="StopRecording">
-    <Item />
-    <Item />
+    <Item value="&amp;Interrompere la registrazione" revision="0" />
+    <Item value="Interrompere la registrazione della sessione corrente" revision="0" />
   </Enumeration>
   <Enumeration key="BrowsePlayback">
-    <Item />
-    <Item />
+    <Item value="Configurare il percorso di riproduzione…" revision="0" />
+    <Item value="Specificare la posizione dei file di log per la riproduzione" revision="0" />
   </Enumeration>
   <Enumeration key="ClosingSessionWithoutLogging">
-    <Item />
-    <Item />
+    <Item value="Chiusura della sessione" revision="0" />
+    <Item value="Questa azione interrompe e chiude la sessione di monitoraggio corrente. Tutti i dati monitorati andranno persi. La prossima volta, aggiungere il componente Registrazione dati alla sessione di monitoraggio per salvare automaticamente tutti i dati registrati nel file di log.\n\nScegliere l'azione per continuare:" revision="0" />
   </Enumeration>
 </Language>
