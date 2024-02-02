@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="HidSessionError" value="Le démarrage de la session a échoué en raison de l'erreur suivante: &quot;{error}&quot;" revision="0" />
+  <Message key="HidSessionErrorTitle" value="Erreur de session HID" revision="0" />
+  <Message key="HidSessionLicenseError" value="Expiré. Passez à l'édition {edition} pour utiliser ce composant." revision="0" />
+  <Message key="HIDSendTitle" value="Envoi HID" revision="0" />
+  <Message key="Unknown Hid Device" value="Dispositif HID inconnu" revision="0" />
+  <Message key="HID Info Not Available" value="N/A" revision="0" />
+  <Message key="Device Detected." value="Dispositif détecté." revision="0" />
+  <Message key="HID Device Detected." value="Dispositif HID détecté." revision="0" />
+  <Message key="WARNING: unsupported device type. Trying to parse." value="AVERTISSEMENT : type de périphérique non pris en charge." revision="0" />
+  <Message key="Device Class" value="Classe de dispositif" revision="0" />
   <Enumeration key="HumanConverter">
-    <Item />
-    <Item />
+    <Item value="Vue HID" revision="0" />
+    <Item value="Le visualisateur de données à la vue de HID décode les paquets et les structures de données spécifiques à HID et les affiche d'une manière confortable. Idéal pour les appareils appartenant à la classe des dispositifs d'interface humaine." revision="0" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />
@@ -1767,10 +1777,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbHidColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="Données binaires" revision="0" />
+    <Item value="Erreurs" revision="0" />
+    <Item value="En-tête 2" revision="0" />
   </Enumeration>
 </Language>
