@@ -2,7 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Notificación de posición del visualizador de vista en línea" revision="0" />
   <Message key="maxPacketViewData" value="Longitud máxima del paquete, bytes" revision="0" />
-  <Message key="Packet View (Serial)" value="Vista de paquetes" revision="0" />
+  <Message key="maxPacketViewDataExport" value="Longitud máxima del paquete al exportar, bytes" revision="0" />
+  <Message key="Packet View (Serial)" value="Vista de paquetes (serie y puente)" revision="1" />
   <Message key="RepeaterSkip" value="No envíe" revision="0" />
   <Message key="Basic" value="Básico" revision="0" />
   <Message key="Complete" value="Completo" revision="0" />
@@ -20,7 +21,7 @@
   <Message key="Status" value="Estado: {status}" revision="0" />
   <Message key="OpenedBy" value="IRP_MJ_CREATE - proceso [[[b{process id}]]] ({process name})" revision="0" />
   <Message key="Serial Structure View" value="{name} - Vista de la estructura de serie" revision="0" />
-  <Message key="struct not found" value="No se encuentra la definición de la estructura 'Serie'. La vista de estructura no puede mostrar ningún resultado." revision="0" />
+  <Message key="struct not found" value="No se encuentra la definición de la estructura 'Série'. La vista de estructura no puede mostrar ningún resultado." revision="0" />
   <Message key="Serial Device Information" value="Información del dispositivo serie" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Vista en línea" revision="0" />
@@ -31,10 +32,10 @@
     <Item value="El Repetidor de Datos se hace eco de los datos serie monitorizados en el puerto o puertos serie físicos. Puede añadirse a una sesión de monitorización serie o a una sesión de reproducción de registros serie." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item value="Leer solicitud" revision="0" />
+    <Item value="Solicitud de lectura" revision="0" />
     <Item value="Solicitud de escritura" revision="0" />
-    <Item value="Cerrar solicitud" revision="0" />
-    <Item value="Crear solicitud" revision="0" />
+    <Item value="Solicitud cerrar" revision="0" />
+    <Item value="Solicitud crear" revision="0" />
     <Item value="Solicitud de I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">

@@ -2,7 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Notificação de posição do visualizador da vista de linha" revision="0" />
   <Message key="maxPacketViewData" value="Comprimento máximo do pacote, bytes" revision="0" />
-  <Message key="Packet View (Serial)" value="Vista de pacotes" revision="0" />
+  <Message key="maxPacketViewDataExport" value="Comprimento máximo do pacote aquando da exportação, bytes" revision="0" />
+  <Message key="Packet View (Serial)" value="Visualização de pacotes (série e ponte)" revision="1" />
   <Message key="RepeaterSkip" value="Não enviar" revision="0" />
   <Message key="Basic" value="Básico" revision="0" />
   <Message key="Complete" value="Completo" revision="0" />
@@ -31,10 +32,10 @@
     <Item value="O repetidor de dados faz eco dos dados de série monitorizados para a porta ou portas de série físicas. Pode ser adicionado a uma sessão de monitorização de série ou a uma sessão de reprodução de registos de série." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item value="Ler pedido" revision="0" />
+    <Item value="Pedido de leitura" revision="0" />
     <Item value="Pedido de escrita" revision="0" />
-    <Item value="Fechar pedido" revision="0" />
-    <Item value="Criar pedido" revision="0" />
+    <Item value="Pedido de fecho" revision="0" />
+    <Item value="Pedido criar" revision="0" />
     <Item value="Pedido de I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">

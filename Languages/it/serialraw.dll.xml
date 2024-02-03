@@ -1,39 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="LampWindowNotification" value="Notifica della posizione del visualizzatore di linee" revision="0" />
+  <Message key="maxPacketViewData" value="Numero massimo di byte da mostrare per un pacchetto" revision="0" />
+  <Message key="maxPacketViewDataExport" value="Lunghezza massima del pacchetto durante l'esportazione, byte" revision="0" />
+  <Message key="Packet View (Serial)" value="Vista dei pacchetti (seriale e bridge)" revision="1" />
+  <Message key="RepeaterSkip" value="Non inviare" revision="0" />
+  <Message key="Basic" value="Base" revision="0" />
+  <Message key="Complete" value="Completa" revision="0" />
+  <Message key="PnP Event" value="Evento PnP" revision="0" />
+  <Message key="The device has just been connected to the system." value="Il dispositivo è stato appena collegato al sistema." revision="0" />
+  <Message key="The device has been disconnected." value="Il dispositivo è stato scollegato." revision="0" />
+  <Message key="PacketHeader" value="{n}: {header} ({up?}SU{|up}GIÙ{?up}), {time} ({device number}. Dispositivo: {device name})\n" revision="0" />
+  <Message key="Reads" value="Letture" revision="0" />
+  <Message key="Writes" value="Scrive" revision="0" />
+  <Message key="Buffer size" value="Dimensione del buffer" revision="0" />
+  <Message key="PnP Event: Connect" value="Evento PnP: Collegare" revision="0" />
+  <Message key="PnP Event: Disconnect" value="Evento PnP: Disconnessione" revision="0" />
+  <Message key="ProcessOpen" value="Processo {pid} ({has name?}{name}{|has name}&lt;Impossibile recuperare il nome del processo&gt;{?has name}) ha tentato di aprire il dispositivo." revision="0" />
+  <Message key="ProcessCreate" value="Processo {pid} ({has name?}{name}{|has name}&lt;Impossibile recuperare il nome del processo&gt;{?has name}) creare lo stato della richiesta: {status}" revision="0" />
+  <Message key="Status" value="Stato: {status}" revision="0" />
+  <Message key="OpenedBy" value="IRP_MJ_CREATE - processo [[[b{process id}]]] ({process name})" revision="0" />
+  <Message key="Serial Structure View" value="{name} - Vista della struttura seriale" revision="0" />
+  <Message key="struct not found" value="La definizione della struttura 'Seriale' non è stata trovata. La visualizzazione della struttura non è in grado di visualizzare alcun risultato." revision="0" />
+  <Message key="Serial Device Information" value="Informazioni sul dispositivo seriale" revision="0" />
   <Enumeration key="LineConverter">
-    <Item />
-    <Item />
+    <Item value="Vista della linea" revision="0" />
+    <Item value="La vista linee visualizza lo stato di tutte le linee di controllo del modem." revision="0" />
   </Enumeration>
   <Enumeration key="DataRepeater">
-    <Item />
-    <Item />
+    <Item value="Ripetitore di dati" revision="0" />
+    <Item value="Il ripetitore di dati riecheggia i dati seriali monitorati sulla porta o sulle porte seriali fisiche. Può essere aggiunto a una sessione di monitoraggio seriale o di riproduzione dei registri seriali." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Richiesta di lettura" revision="0" />
+    <Item value="Richiesta di scrittura" revision="0" />
+    <Item value="Richiesta di chiusura" revision="0" />
+    <Item value="Richiesta di creazione" revision="0" />
+    <Item value="Richiesta di I/O" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">
-    <Item />
-    <Item />
+    <Item value="Vista della linea" revision="0" />
+    <Item value="Il visualizzatore Vista linee visualizza i suoi risultati in questa finestra. Visualizza lo stato delle linee del modem per il dispositivo seriale attualmente monitorato." revision="0" />
   </Enumeration>
   <Enumeration key="PacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ordinale" revision="0" />
+    <Item value="Tempo" revision="0" />
+    <Item value="Differenza di tempo" revision="0" />
+    <Item value="Funzione" revision="0" />
+    <Item value="Direzione" revision="0" />
+    <Item value="Stato" revision="0" />
+    <Item value="Dati" revision="0" />
+    <Item value="Dati (caratteri)" revision="0" />
+    <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="SerialGeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizzazione dei pacchetti vuoti" revision="0" />
+    <Item value="Visualizzazione dei pacchetti letti" revision="0" />
+    <Item value="Visualizzazione dei pacchetti di scrittura" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
     <Item />
@@ -83,7 +106,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConcatPackets">
-    <Item />
-    <Item />
+    <Item value="Partecipa alle Richieste Conseguenti (Seriale)" revision="0" />
+    <Item value="Alterna l'unione di richieste conseguenti dello stesso tipo. Si applica alle sessioni di monitoraggio seriali." revision="0" />
   </Enumeration>
 </Language>

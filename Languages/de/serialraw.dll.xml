@@ -2,7 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Benachrichtigung über die Position der Linienansicht-Visualisierung" revision="0" />
   <Message key="maxPacketViewData" value="Maximale Paketlänge, Bytes" revision="0" />
-  <Message key="Packet View (Serial)" value="Paket Ansicht" revision="0" />
+  <Message key="maxPacketViewDataExport" value="Maximale Paketlänge beim Exportieren, Bytes" revision="0" />
+  <Message key="Packet View (Serial)" value="Paketansicht (Seriell &amp; Bridge)" revision="1" />
   <Message key="RepeaterSkip" value="Nicht senden" revision="0" />
   <Message key="Basic" value="Basic" revision="0" />
   <Message key="Complete" value="Vollständige" revision="0" />
@@ -31,10 +32,10 @@
     <Item value="Der Datenrepeater sendet ein Echo der überwachten seriellen Daten an den oder die physischen seriellen Anschlüsse. Er kann zu einer seriellen Überwachungssitzung oder einer seriellen Protokollwiedergabesitzung hinzugefügt werden." revision="0" />
   </Enumeration>
   <Enumeration key="RequestType">
-    <Item value="Anfrage lesen" revision="0" />
-    <Item value="Anfrage schreiben" revision="0" />
-    <Item value="Anfrage schließen" revision="0" />
-    <Item value="Anfrage erstellen" revision="0" />
+    <Item value="Leseanforderung" revision="0" />
+    <Item value="Schreibanforderung" revision="0" />
+    <Item value="Anfrage Schließen" revision="0" />
+    <Item value="Antrage erstellen" revision="0" />
     <Item value="I/O Anfrage" revision="0" />
   </Enumeration>
   <Enumeration key="LineViewNotification">

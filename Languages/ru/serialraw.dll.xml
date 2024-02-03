@@ -2,7 +2,8 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="LampWindowNotification" value="Уведомление о положении визуализатора &quot;Линейный вид&quot;" revision="0" />
   <Message key="maxPacketViewData" value="Максимальная длина пакета, байт" revision="0" />
-  <Message key="Packet View (Serial)" value="Пакетный вид" revision="0" />
+  <Message key="maxPacketViewDataExport" value="Максимальная длина пакета при экспорте, байты" revision="0" />
+  <Message key="Packet View (Serial)" value="Пакетный вид (Serial &amp; Мост)" revision="1" />
   <Message key="RepeaterSkip" value="Не отправлять" revision="0" />
   <Message key="Basic" value="Базовый" revision="0" />
   <Message key="Complete" value="Полный" revision="0" />
