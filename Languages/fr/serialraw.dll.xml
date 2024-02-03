@@ -95,15 +95,15 @@
     <Item />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="Données binaires" revision="0" />
+    <Item value="Lire : En-tête" revision="0" />
+    <Item value="Lire : Texte" revision="0" />
+    <Item value="Lecture : données binaires" revision="0" />
+    <Item value="Écrire : En-tête" revision="0" />
+    <Item value="Écrire : Texte" revision="0" />
+    <Item value="Écrire : Données binaires" revision="0" />
   </Enumeration>
   <Enumeration key="ConcatPackets">
     <Item value="Rejoindre les demandes conséquentes (en série)" revision="0" />
