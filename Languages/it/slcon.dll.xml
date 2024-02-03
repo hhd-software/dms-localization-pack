@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="InvalidLocationConfig" value="Rilevata configurazione non valida. Almeno un azionamento deve avere un valore diverso da zero." revision="0" />
+  <Message key="Out of memory" value="Memoria esaurita" revision="0" />
+  <Message key="BrokenIndexer" value="Le strutture interne si sono corrotte" revision="0" />
+  <Message key="DriveC" value="Unità {drive}" revision="0" />
+  <Message key="Data Processing" value="Elaborazione dati" revision="0" />
+  <Message key="Select the location..." value="Selezionare la posizione o le posizioni che il programma utilizzerà per memorizzare i dati temporanei monitorati. In questa pagina è possibile specificare anche la politica di archiviazione dei dati." revision="0" />
+  <Message key="Don't use" value="Non utilizzare" revision="0" />
+  <Message key="Use half" value="Utilizzare la metà" revision="0" />
+  <Message key="Use full" value="Utilizzare l'intero" revision="0" />
+  <Message key="Drive Policy:" value="Politica di utilizzo:" revision="0" />
+  <Message key="Low Disk Space Warning" value="Avviso di spazio su disco ridotto" revision="0" />
+  <Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." value="Per il normale funzionamento, Device Monitoring Studio richiede almeno 512 MB di spazio libero su uno dei volumi. Se non si riesce a liberare lo spazio necessario, non sarà possibile monitorare lunghe sessioni con trasferimenti di dati di grandi dimensioni." revision="0" />
   <Enumeration key="SlConColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Unità" revision="0" />
+    <Item value="Spazio libero" revision="0" />
+    <Item value="Utilizzare fino a" revision="0" />
   </Enumeration>
 </Language>

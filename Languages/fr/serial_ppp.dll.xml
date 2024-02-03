@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="multilink_seq_num_short" value="Champ du numéro de séquence (protocole Multilink) sous forme courte (12 bits). Dans le cas contraire, le champ est analysé comme s'il s'agissait d'un numéro long (24 bits)." revision="0" />
   <Enumeration key="PPPConverter">
     <Item />
     <Item />

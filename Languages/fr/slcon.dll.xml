@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="InvalidLocationConfig" value="Configuration non valide détectée. Au moins un lecteur doit avoir une valeur non nulle." revision="0" />
+  <Message key="Out of memory" value="Hors mémoire" revision="0" />
+  <Message key="BrokenIndexer" value="Les structures internes ont été corrompues" revision="0" />
+  <Message key="DriveC" value="Lecteur {drive}" revision="0" />
+  <Message key="Data Processing" value="Traitement des données" revision="0" />
+  <Message key="Select the location..." value="Sélectionnez le(s) emplacement(s) que le programme utilisera pour stocker les données surveillées temporaires. Vous pouvez également spécifier la politique de stockage des données sur cette page." revision="0" />
+  <Message key="Don't use" value="Ne pas utiliser" revision="0" />
+  <Message key="Use half" value="Utiliser la moitié" revision="0" />
+  <Message key="Use full" value="Utiliser complèt" revision="0" />
+  <Message key="Drive Policy:" value="Politique d'usage:" revision="0" />
+  <Message key="Low Disk Space Warning" value="Avertissement de manque d'espace disque" revision="0" />
+  <Message key="Device Monitoring Studio requires at least 512 MB of free disk space on one of the volumes for normal operation. If you cannot free the required space, you won't be able to monitor long session with large data transfers." value="Pour fonctionner normalement, Device Monitoring Studio a besoin d'au moins 512 Mo d'espace disque libre sur l'un des volumes. Si vous ne pouvez pas libérer l'espace nécessaire, vous ne pourrez pas surveiller de longues sessions avec d'importants transferts de données." revision="0" />
   <Enumeration key="SlConColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Lecteur" revision="0" />
+    <Item value="Espace libre" revision="0" />
+    <Item value="Utiliser jusqu'à" revision="0" />
   </Enumeration>
 </Language>
