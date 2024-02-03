@@ -1,33 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Device sends" value="{device} Invia" revision="0" />
+  <Message key="Unable to retrieve data" value="Impossibile recuperare i dati" revision="0" />
+  <Message key="Complete" value="Completo" revision="0" />
+  <Message key="Packet No:" value="Pacchetto n:" revision="0" />
+  <Message key="bytes/sec" value="byte/sec" revision="0" />
   <Enumeration key="BridgeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ordinale" revision="1" />
+    <Item value="Tempo" revision="1" />
+    <Item value="Differenza di tempo" revision="1" />
+    <Item value="Dispositivo di invio" revision="1" />
+    <Item value="Dati" revision="1" />
+    <Item value="Caratteri dei dati" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositivo A Byte letti/sec" revision="0" />
+    <Item value="Dispositivo A Byte letti/sec è la velocità di invio dei dati da parte del dispositivo A." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositivo B Byte letti/sec" revision="0" />
+    <Item value="Dispositivo B Byte letti/sec è la velocità con cui i dati vengono inviati dal dispositivo B." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leggi: Intestazione" revision="0" />
+    <Item value="Leggi: Testo" revision="0" />
+    <Item value="Leggi: Dati binari" revision="0" />
+    <Item value="Scrivere: Intestazione" revision="0" />
+    <Item value="Scrivere: Testo" revision="0" />
+    <Item value="Scrivere: Dati binari" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositivo A intestazione" revision="0" />
+    <Item value="Dispositivo A dati binari" revision="0" />
+    <Item value="Dispositivo B intestazione" revision="0" />
+    <Item value="Dispositivo B dati binari" revision="0" />
   </Enumeration>
 </Language>

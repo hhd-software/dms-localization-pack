@@ -30,9 +30,9 @@
     <Item value="Escrever: Dados binários" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item value="Cabeçalho do dispositivo A" revision="0" />
+    <Item value="Dispositivo A Cabeçalho" revision="0" />
     <Item value="Dispositivo A Dados binários" revision="0" />
-    <Item value="Cabeçalho do dispositivo B" revision="0" />
+    <Item value="Dispositivo B Cabeçalho" revision="0" />
     <Item value="Dispositivo B Dados binários" revision="0" />
   </Enumeration>
 </Language>

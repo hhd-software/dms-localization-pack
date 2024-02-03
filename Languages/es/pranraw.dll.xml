@@ -32,7 +32,7 @@
   <Enumeration key="RequestViewColors">
     <Item value="Dispositivo A Cabecera" revision="0" />
     <Item value="Dispositivo A Datos binarios" revision="0" />
-    <Item value="Cabecera del dispositivo B" revision="0" />
+    <Item value="Dispositivo B Cabecera" revision="0" />
     <Item value="Dispositivo B Datos binarios" revision="0" />
   </Enumeration>
 </Language>

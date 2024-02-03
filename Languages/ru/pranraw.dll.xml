@@ -24,7 +24,7 @@
   <Enumeration key="DataViewColors">
     <Item value="Чтение: Заголовок" revision="0" />
     <Item value="Чтение: Текст" revision="0" />
-    <Item value="Чтение: двоичные данные" revision="0" />
+    <Item value="Чтение: Двоичные данные" revision="0" />
     <Item value="Запись: Заголовок" revision="0" />
     <Item value="Запись: Текст" revision="0" />
     <Item value="Запись: Двоичные данные" revision="0" />

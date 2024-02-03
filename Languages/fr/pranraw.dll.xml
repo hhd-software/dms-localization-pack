@@ -1,33 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Device sends" value="{device} Envoie" revision="0" />
+  <Message key="Unable to retrieve data" value="Impossible de récupérer les données" revision="0" />
+  <Message key="Complete" value="Compléter" revision="0" />
+  <Message key="Packet No:" value="Paquet n° :" revision="0" />
+  <Message key="bytes/sec" value="octets/sec" revision="0" />
   <Enumeration key="BridgeColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Ordinal" revision="1" />
+    <Item value="Heure" revision="1" />
+    <Item value="Différence de temps" revision="1" />
+    <Item value="Dispositif d'envoi" revision="1" />
+    <Item value="Données" revision="1" />
+    <Item value="Chars de données" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositif A Octets lus/sec" revision="0" />
+    <Item value="Dispositif A Octets lus/sec est la vitesse à laquelle les données sont envoyées par le dispositif A." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item />
-    <Item />
+    <Item value="Dispositif B Octets lus/sec" revision="0" />
+    <Item value="Dispositif B Octets lus/sec est le taux de données envoyées par le dispositif B." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Lire : En-tête" revision="0" />
+    <Item value="Lire : Texte" revision="0" />
+    <Item value="Lire : Données binaires" revision="0" />
+    <Item value="Écrire : En-tête" revision="0" />
+    <Item value="Écrire : Texte" revision="0" />
+    <Item value="Écrire : Données binaires" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositif A En-tête" revision="0" />
+    <Item value="Dispositif A données binaires" revision="0" />
+    <Item value="Dispositif B En-tête" revision="0" />
+    <Item value="Dispositif B données binaires" revision="0" />
   </Enumeration>
 </Language>
