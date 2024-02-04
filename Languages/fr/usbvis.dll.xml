@@ -1,15 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ExportFailed" value="L'exportation a échoué car la vue ne contient pas de données" revision="0" />
+  <Message key="ErrorExportingData" value="Erreur d'exportation des données" revision="0" />
+  <Message key="CannotCreateFile" value="Impossible de créer un fichier" revision="0" />
+  <Message key="LocatingPacketError" value="Erreur de localisation du paquet" revision="0" />
+  <Message key="LittleEndianFormat" value="Little-Endian (Format des nombres x86)" revision="0" />
+  <Message key="BigEndianFormat" value="Big-Endian (Format des nombres ALPHA, ordre du réseau)" revision="0" />
+  <Message key="ExportingCaption" value="Veuillez patienter pendant que l'{exporter} convertit les données sélectionnées." revision="0" />
+  <Message key="HintError" value="Hex: {hex}, Décimale: {dec}, Décimale non signée: {udec}, Octal{oct}o\nBinaire:{bin}\n" revision="0" />
+  <Message key="AsciiCharFormat" value="Caractère: {char}" revision="0" />
+  <Message key="UnicodeCharFormat" value="Caractère Unicode: {char}" revision="0" />
+  <Message key="SingleByteSelected" value="Octet unique sélectionné" revision="0" />
+  <Message key="DataExported" value="Données exportées avec succès" revision="0" />
+  <Message key="ExportTitle" value="Exportation" revision="0" />
+  <Message key="ClipboardOverflow" value="Vous avez placé une grande quantité de données dans le presse-papiers. Voulez-vous que les données soient disponibles lorsque vous fermez l'application {app_name}" revision="0" />
+  <Message key="Converting..." value="Conversion…" revision="0" />
   <Enumeration key="MchDisplayHint">
-    <Item />
-    <Item />
+    <Item value="&amp;Afficher le conseil…" revision="0" />
+    <Item value="Afficher l'indice sélectionné dans la boîte de dialogue" revision="0" />
   </Enumeration>
   <Enumeration key="MchExportBinary">
-    <Item />
-    <Item />
+    <Item value="Exporter &amp;Binaire…" revision="0" />
+    <Item value="Exporter les données des paquets en format binaire" revision="0" />
   </Enumeration>
   <Enumeration key="ExportFormats">
-    <Item />
-    <Item />
+    <Item value="Tous les fichiers (*.*)|*.*|" revision="0" />
+    <Item value="Fichiers HTML (*.htm;*.html)|*.htm;*.html|Fichiers texte UNICODE (*.txt)|*.txt|Fichiers texte ANSI (*.txt)|*.txt||" revision="0" />
   </Enumeration>
 </Language>
