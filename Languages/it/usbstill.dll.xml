@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StillConverter">
-    <Item />
-    <Item />
+    <Item value="Vista di immagini fisse/MTP (Legacy)" revision="1" />
+    <Item value="La vista Immagini fisse/MTP decodifica il protocollo USB Immagini fisse/MTP per i dispositivi appartenenti alla classe Immagini fisse/MTP." revision="1" />
   </Enumeration>
   <Enumeration key="BlockTypesCat">
     <Item />
@@ -281,10 +281,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbStillColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Dati binari" revision="0" />
+    <Item value="Intestazione 2" revision="0" />
+    <Item value="Intestazione 3" revision="0" />
   </Enumeration>
 </Language>
