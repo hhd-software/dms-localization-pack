@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Enumeration key="LogConverter" description="Log Converter">
-    <Item text="Legacy Data Recording"/>
-    <Item text="Data Recording records monitored data to the disk file for subsequent playback. Supports DMSLOG7 file format."/>
-  </Enumeration>
-
   <Enumeration key="LogConverter4" description="Log Converter (.dmslog8)">
     <Item text="Data Recording"/>
     <Item text="Data Recording records monitored data to the disk file for subsequent playback. New format supports writing into multiple files and limiting maximum file size."/>

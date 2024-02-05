@@ -21,12 +21,13 @@
     <Param name="build" format="arw4f0"/>
   </Message>
 
-  <Message key="AboutBoxInfo" description="About box formatted info" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nAll rights reserved." revision="5">
+  <Message key="AboutBoxInfo" description="About box formatted info" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2001 - {year} HHD Software Ltd.\nAll rights reserved." revision="6">
     <Param name="appname"/>
     <Param name="major"/>
     <Param name="minor" format="arw2f0"/>
     <Param name="revision" format="arw2f0"/>
     <Param name="build" format="arw4f0"/>
+	<Param name="year"/>
   </Message>
 
   <Enumeration key="EditionNames" description="Edition names" revision="1">

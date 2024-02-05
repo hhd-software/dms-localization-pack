@@ -94,82 +94,82 @@
 		<Item text="Edit"/>
 	</Enumeration>
 
-	<Enumeration key="SessionsConfigure" description="Command: SessionsConfigure">
+	<Enumeration key="SessionsConfigure" description="Command: Configure Session">
     <Item text="&amp;Configure Session…"/>
     <Item text="Change current session parameters"/>
   </Enumeration>
 
-  <Enumeration key="SessionsResume" description="Command: SessionsResume">
+  <Enumeration key="SessionsResume" description="Command: Resume Sessions">
     <Item text="&amp;Resume Session"/>
     <Item text="Resume current session"/>
   </Enumeration>
 
-  <Enumeration key="SessionsPause" description="Command: SessionsPause">
+  <Enumeration key="SessionsPause" description="Command: Pause Session">
     <Item text="&amp;Pause Session"/>
     <Item text="Pause current session"/>
   </Enumeration>
 
-  <Enumeration key="SessionsStop" description="Command: SessionsStop">
+  <Enumeration key="SessionsStop" description="Command: Stop Session">
     <Item text="&amp;Stop Session"/>
     <Item text="Stop current session"/>
   </Enumeration>
 
-  <Enumeration key="SessionsClose" description="Command: SessionsClose">
+  <Enumeration key="SessionsClose" description="Command: Close Visualizer">
     <Item text="Close &amp;Visualizer"/>
     <Item text="Close selected visualizer"/>
   </Enumeration>
 
-  <Enumeration key="SessionsColumns" description="Command: SessionsColumns" revision="1">
+  <Enumeration key="SessionsColumns" description="Command: Auto-size columns" revision="1">
     <Item text="Auto-size Columns"/>
     <Item text="Automatically resize window columns so all text is visible"/>
   </Enumeration>
 
-  <Enumeration key="SessionsExpand" description="Command: SessionsExpand">
+  <Enumeration key="SessionsExpand" description="Command: Expand Item">
     <Item text="&amp;Expand Item"/>
     <Item text="Expand item in a list"/>
   </Enumeration>
 
-  <Enumeration key="SessionsCollapse" description="Command: SessionsCollapse">
+  <Enumeration key="SessionsCollapse" description="Command: Collapse Item">
     <Item text="Co&amp;llapse Item"/>
     <Item text="Collapse item in a list"/>
   </Enumeration>
 
-  <Enumeration key="StartMonitoring" description="Command: StartMonitoring">
+  <Enumeration key="StartMonitoring" description="Command: Start Monitoring">
     <Item text="&amp;Start Monitoring…"/>
     <Item text="Create new monitoring session"/>
   </Enumeration>
 
-  <Enumeration key="PauseMonitoring" description="Command: PauseMonitoring">
+  <Enumeration key="PauseMonitoring" description="Command: Pause Monitoring">
     <Item text="&amp;Pause Monitoring"/>
     <Item text="Pause this monitoring session"/>
   </Enumeration>
 
-  <Enumeration key="ConfigureDeviceSession" description="Command: ConfigureDeviceSession">
+  <Enumeration key="ConfigureDeviceSession" description="Command: Configure Session">
     <Item text="&amp;Configure Session…"/>
     <Item text="Change current session parameters"/>
   </Enumeration>
 
-  <Enumeration key="ResumeMonitoring" description="Command: ResumeMonitoring">
+  <Enumeration key="ResumeMonitoring" description="Command: Resume Monitoring">
     <Item text="&amp;Resume Monitoring"/>
     <Item text="Resume this monitoring session"/>
   </Enumeration>
 
-  <Enumeration key="StopMonitoring" description="Command: StopMonitoring">
+  <Enumeration key="StopMonitoring" description="Command: Stop Monitoring">
     <Item text="&amp;Stop Monitoring"/>
     <Item text="Stop this monitoring session"/>
   </Enumeration>
 
-  <Enumeration key="RestartDevice" description="Command: RestartDevice">
+  <Enumeration key="RestartDevice" description="Command: Restart Device">
     <Item text="Restart &amp;Device"/>
     <Item text="Restart selected device"/>
   </Enumeration>
 
-  <Enumeration key="DeviceProperties" description="Command: DeviceProperties">
+  <Enumeration key="DeviceProperties" description="Command: Device Properties">
     <Item text="&amp;Properties…"/>
     <Item text="Show device properties"/>
   </Enumeration>
 
-  <Enumeration key="RenameDevice" description="Command: RenameDevice">
+  <Enumeration key="RenameDevice" description="Command: Rename Device">
     <Item text="&amp;Rename…"/>
     <Item text="Specify custom name for a device"/>
   </Enumeration>
@@ -179,52 +179,52 @@
     <Item text="Scan for hardware changes and update device tree"/>
   </Enumeration>
 
-  <Enumeration key="CategoryFilterAll" description="Command: CategoryFilterAll">
+  <Enumeration key="CategoryFilterAll" description="Command: Category Filter All">
     <Item text="&amp;All"/>
     <Item text="Show all categories"/>
   </Enumeration>
 
-  <Enumeration key="CategoryFilterNone" description="Command: CategoryFilterNone">
+  <Enumeration key="CategoryFilterNone" description="Command: Category Filter None">
     <Item text="&amp;None"/>
     <Item text="Hide all categories"/>
   </Enumeration>
 
-  <Enumeration key="AddConverter" description="Command: AddConverter">
+  <Enumeration key="AddConverter" description="Command: Add Converter">
     <Item text="Add to Session"/>
     <Item text="Add selected data processing(s) to the session"/>
   </Enumeration>
 
-  <Enumeration key="AddToFavorites" description="Command: AddToFavorites">
+  <Enumeration key="AddToFavorites" description="Command: Add to Favorites">
     <Item text="Add to Favorites"/>
     <Item text="Add selected data processing(s) to favorites list"/>
   </Enumeration>
 
-  <Enumeration key="RemoveConverter" description="Command: RemoveConverter">
+  <Enumeration key="RemoveConverter" description="Command: Remove Converter">
     <Item text="Remove from Session"/>
     <Item text="Remove selected data processing from the session"/>
   </Enumeration>
 
-  <Enumeration key="DeleteCustom" description="Command: DeleteCustom">
+  <Enumeration key="DeleteCustom" description="Command: Delete Custom">
     <Item text="Remove"/>
     <Item text="Remove data processing from the list"/>
   </Enumeration>
 
-  <Enumeration key="EditCustom" description="Command: EditCustom">
+  <Enumeration key="EditCustom" description="Command: Edit Custom">
     <Item text="Configure Data Processing…"/>
     <Item text="Configure selected data processing"/>
   </Enumeration>
 
-  <Enumeration key="SaveCustom" description="Command: SaveCustom">
+  <Enumeration key="SaveCustom" description="Command: Save Custom">
     <Item text="Save Custom Processing…"/>
     <Item text="Save selected data processing configuration"/>
   </Enumeration>
 
-  <Enumeration key="CategoryFilters" description="Command group: CategoryFilters">
+  <Enumeration key="CategoryFilters" description="Command group: Show or Hide Categories">
     <Item text="Show or Hide Categories"/>
     <Item text="Select which device categories to display"/>
   </Enumeration>
 
-  <Enumeration key="CategorySubfilters" description="Command group: CategorySubfilters">
+  <Enumeration key="CategorySubfilters" description="Command group: Subcategories">
     <Item text="Subcategories"/>
     <Item text="Select which device subcategories to display"/>
   </Enumeration>
@@ -339,8 +339,8 @@
 	<Message key="Selected sources" description="Field: Selected sources"/>
 	<Message key="Selected processing" description="Field: Selected processing"/>
 	<Message key="Available processing" description="Field: Available processing"/>
-	<Message key="Filter text" description="Field: Filter text"/>
-	<Message key="Capture Filter" description="Window title and Field: Capture filter"/>
+	<Message key="Filter text" description="Field: Capture filter expression" value="Capture filter expression" revision="1"/>
+	<Message key="Capture Filter" description="Window title and Field: Capture filter" value="Capture filter" revision="1"/>
 	<Message key="Precise time marks" description="Checkbox: Precise time marks"/>
 	<Message key="Add More" description="Button: Add More"/>
 	<Message key="Remove" description="Button: Remove"/>
@@ -399,4 +399,8 @@
 	</Enumeration>
 
 	<Message key="HiddenDevicesCategoryFilter" description="Device category filter: Hidden Devices" value="Hidden Devices"/>
+
+	<Message key="Capture filter license note" description="Capture filter license note" value="Capture Filter: {message}">
+		<Param name="message"/>
+	</Message>
 </Definition>
