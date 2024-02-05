@@ -97,7 +97,7 @@
   <Message key="Record Number" value="Número de registo" revision="0" />
   <Message key="RequestN" value="Pedido {n}" revision="0" />
   <Message key="OK - Return Query Data" value="OK - Devolver dados da consulta" revision="0" />
-  <Message key="Response Data Length" value="Resposta Comprimento dos dados" revision="0" />
+  <Message key="Response Data Length" value="Comprimento dos dados da resposta" revision="0" />
   <Message key="No coils" value="Não há coils especificadas." revision="0" />
   <Message key="Create a terminal session and select it in Session list box." value="Crie uma sessão de terminal e seleccione-a na caixa de listagem Sessão." revision="0" />
   <Message key="Set parameters" value="Parâmetros não definidos" revision="0" />

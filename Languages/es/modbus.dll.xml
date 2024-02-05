@@ -77,7 +77,7 @@
   <Message key="Data Length" value="Longitud de los datos" revision="0" />
   <Message key="Enter the reference address." value="Introduzca la dirección de referencia." revision="0" />
   <Message key="Enter the read address." value="Introduzca la dirección de lectura." revision="0" />
-  <Message key="Enter read quantity." value="Introduzca la cantidad leída." revision="0" />
+  <Message key="Enter read quantity." value="Introduzca la cantidad de lectura." revision="0" />
   <Message key="Enter the write address." value="Introduzca la dirección de escritura." revision="0" />
   <Message key="Enter register values." value="Introduzca los valores de registro." revision="0" />
   <Message key="Add sub-requests." value="Añadir sub-solicitudes." revision="0" />

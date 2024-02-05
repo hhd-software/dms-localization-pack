@@ -48,6 +48,68 @@
   <Message key="Register Address" value="Adresse du registre" revision="0" />
   <Message key="Output Address" value="Adresse de sortie" revision="0" />
   <Message key="Output Value" value="Valeur de sortie" revision="0" />
+  <Message key="Register Value" value="Valeur du registre" revision="0" />
+  <Message key="Function" value="Fonction" revision="0" />
+  <Message key="Subfunction" value="Sous-fonction" revision="0" />
+  <Message key="No data entered!" value="Aucune donnée n'a été introduite !" revision="0" />
+  <Message key="Wrong function!" value="Mauvaise fonction !" revision="0" />
+  <Message key="Data" value="Données" revision="0" />
+  <Message key="Enter the first parameter." value="Saisir le premier paramètre." revision="0" />
+  <Message key="Enter the second parameter." value="Saisir le deuxième paramètre." revision="0" />
+  <Message key="There was an error sending data!" value="Une erreur s'est produite lors de l'envoi des données !" revision="0" />
+  <Message key="MODBUS Send" value="MODBUS Envoyer" revision="0" />
+  <Message key="OK - Press the Send button" value="OK - Appuyez sur le bouton Envoyer" revision="0" />
+  <Message key="Wrong Function ID" value="ID de fonction erronée" revision="0" />
+  <Message key="StatusCode" value="Statut: {status}{has message?} ({message}){?has message}" revision="0" />
+  <Message key="AcceptedRange" value="Seules les valeurs comprises entre {min} et {max} sont acceptées." revision="0" />
+  <Message key="CoilN" value="Coil {n}" revision="0" />
+  <Message key="RegisterN" value="Registre {n} = {value}" revision="0" />
+  <Message key="Can't be more than 1968 coils." value="Le nombre maximum de 1 968 coils a été dépassé." revision="0" />
+  <Message key="Can't be more than 65535 registers." value="Le nombre maximum de 65 535 registres a été dépassé." revision="0" />
+  <Message key="File number can't be more than 65535." value="Le nombre maximum de 65 535 fichiers a été dépassé." revision="0" />
+  <Message key="Record number can't be more than 9999." value="Le nombre maximum de 9 999 enregistrements a été dépassé." revision="0" />
+  <Message key="Register length can't be more than 65535." value="La longueur maximale du registre de 65 535 est dépassée." revision="0" />
+  <Message key="Register Length" value="Longueur du registre" revision="0" />
+  <Message key="Record Length" value="Longueur de l'enregistrement" revision="0" />
+  <Message key="Record #" value="Record #" revision="0" />
+  <Message key="File #" value="Fichier #" revision="0" />
+  <Message key="Request #" value="Demande #" revision="0" />
+  <Message key="Data Length" value="Longueur des données" revision="0" />
+  <Message key="Enter the reference address." value="Saisissez l'adresse de référence." revision="0" />
+  <Message key="Enter the read address." value="Saisir l'adresse de lecture." revision="0" />
+  <Message key="Enter read quantity." value="Saisir la quantité de lecture." revision="0" />
+  <Message key="Enter the write address." value="Saisir l'adresse d'écriture." revision="0" />
+  <Message key="Enter register values." value="Saisir les valeurs du registre." revision="0" />
+  <Message key="Add sub-requests." value="Ajouter des sous-demandes." revision="0" />
+  <Message key="Save to binary file" value="Enregistrer dans un fichier binaire" revision="0" />
+  <Message key="Load from file" value="Charger à partir d'un fichier" revision="0" />
+  <Message key="Can't create file!" value="Erreur lors de la création du fichier" revision="0" />
+  <Message key="Can't load from file!" value="Erreur de chargement du fichier !" revision="0" />
+  <Message key="TextFilesFilter" value="Fichiers texte|*.txt|" revision="0" />
+  <Message key="BinaryFilesFilter" value="Fichiers binaires|*.bin|" revision="0" />
+  <Message key="File is too big! (1024 bytes maximum)" value="Le fichier est trop volumineux ! (1 024 octets maximum)" revision="0" />
+  <Message key="Wrong file format!" value="Mauvais format de fichier ! Seuls les fichiers .txt et .bin sont pris en charge." revision="0" />
+  <Message key="Data size exceeds allowed MODBUS PDU size (253 bytes maximum)!" value="La taille des données dépasse la taille PDU MODBUS autorisée (253 octets maximum) !" revision="0" />
+  <Message key="ModbusRequestHeader" value="Paquet {n} : Demande MODBUS (taille du paquet: {packet size}, taille des données: {data size}), {time}\n" revision="0" />
+  <Message key="ModbusResponseHeader" value="Paquet {n} : Réponse MODBUS (taille du paquet: {packet size}, taille des données: {data size}), {time}\n" revision="0" />
+  <Message key="Number of Outputs" value="Nombre de sorties" revision="0" />
+  <Message key="File Number" value="Numéro de fichier" revision="0" />
+  <Message key="Record Number" value="Numéro d'enregistrement" revision="0" />
+  <Message key="RequestN" value="Demande {n}" revision="0" />
+  <Message key="OK - Return Query Data" value="OK - Retourner les données de la requête" revision="0" />
+  <Message key="Response Data Length" value="Longueur des données de la réponse" revision="0" />
+  <Message key="No coils" value="Aucune coils n'est spécifiée." revision="0" />
+  <Message key="Create a terminal session and select it in Session list box." value="Créez une session de terminal et sélectionnez-la dans la liste déroulante Session." revision="0" />
+  <Message key="Set parameters" value="Paramètres non définis" revision="0" />
+  <Message key="Enter the starting address." value="Saisir l'adresse de début." revision="0" />
+  <Message key="Enter the number of coils." value="Entrer le nombre de coils." revision="0" />
+  <Message key="No registers" value="Aucun registre n'est spécifié" revision="0" />
+  <Message key="This will delete all requests. Do you want to continue?" value="Cette opération supprimera toutes les demandes. Voulez-vous continuer ?" revision="0" />
+  <Message key="Check all" value="Marquer tous" revision="0" />
+  <Message key="Uncheck all" value="Décocher tous" revision="0" />
+  <Message key="Invert all" value="Inverser tout" revision="0" />
+  <Message key="File is too big! (10000 bytes maximum)" value="Les fichiers de plus de 10 000 octets ne sont pas pris en charge." revision="0" />
+  <Message key="Too many items!" value="Trop d'objets" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item />
     <Item />
