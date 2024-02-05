@@ -16,7 +16,7 @@
   <Message key="Function: " value="Función: " revision="0" />
   <Message key="Unknown Function!" value="Función desconocida" revision="0" />
   <Message key="Parsed As:" value="Parsed como:" revision="0" />
-  <Message key="Set Coil" value="Set Coil" revision="0" />
+  <Message key="Set Coil" value="Set coil" revision="0" />
   <Message key="Register" value="Registro" revision="0" />
   <Message key="Coil Data" value="Datos de la coil" revision="0" />
   <Message key="Status" value="Estado" revision="0" />
@@ -30,7 +30,7 @@
   <Message key="Yes" value="Sí" revision="0" />
   <Message key="No" value="No" revision="0" />
   <Message key="Reference Type" value="Tipo de referencia" revision="0" />
-  <Message key="Extended Memory file number" value="Número de archivo de memoria ampliada" revision="0" />
+  <Message key="Extended Memory file number" value="Número de archivo de memoria extendida" revision="0" />
   <Message key="Starting Address" value="Dirección inicial" revision="0" />
   <Message key="Number of Registers" value="Número de registros" revision="0" />
   <Message key="Register Data" value="Datos de registro" revision="0" />
