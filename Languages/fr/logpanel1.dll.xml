@@ -32,10 +32,6 @@
   <Message key="Specify location of log file:" value="Spécifier l'emplacement du fichier journal:" revision="0" />
   <Message key="sessionClosing" value="Session de clôture sans enregistrement des données" revision="0" />
   <Message key="SaveToLog" value="Sauvegarde des données surveillées dans un fichier journal" revision="0" />
-  <Enumeration key="LogConverter">
-    <Item value="Enregistrement données (Legacy)" revision="0" />
-    <Item value="L'enregistrement des données permet d'enregistrer les données surveillées sur le disque pour une lecture ultérieure. Prend en charge le format de fichier DMSLOG7." revision="0" />
-  </Enumeration>
   <Enumeration key="LogConverter4">
     <Item value="Enregistrement données" revision="0" />
     <Item value="L'enregistrement des données permet d'enregistrer les données surveillées sur le disque pour une lecture ultérieure. Le nouveau format permet d'écrire dans plusieurs fichiers et de limiter la taille maximale des fichiers." revision="0" />

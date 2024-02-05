@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SkipNagScreen" value="Пропустить Nag Screen (только для отладки)" revision="0" />
   <Message key="ModuleName" value="{module}\tВерсия {major}.{minor}.{revision}.{build}" revision="0" />
-  <Message key="AboutBoxInfo" value="HHD Software {appname}\nВерсия {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nВсе права защищены." revision="5" />
+  <Message key="AboutBoxInfo" value="HHD Software {appname}\nВерсия {major}.{minor}.{revision}.{build}\n© 2001 - {year} HHD Software Ltd.\nВсе права защищены." revision="6" />
   <Message key="EditionName" value="Редакция {edition}" revision="0" />
   <Message key="SelectComponentEdition" value="Выберите редакцию компонента…" revision="0" />
   <Message key="UpgradeToEdition" value="Апгрейд до редакции {edition}" revision="0" />

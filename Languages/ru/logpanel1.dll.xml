@@ -32,10 +32,6 @@
   <Message key="Specify location of log file:" value="Укажите местоположение лог файла:" revision="0" />
   <Message key="sessionClosing" value="Закрытие сеанса без записи данных" revision="0" />
   <Message key="SaveToLog" value="Сохраните данные мониторинга в файл журнала" revision="0" />
-  <Enumeration key="LogConverter">
-    <Item value="Запись данных (Legacy)" revision="0" />
-    <Item value="Запись данных сохраняет данные сессии в дисковый файл для последующего воспроизведения. Поддерживается формат файлов DMSLOG7." revision="0" />
-  </Enumeration>
   <Enumeration key="LogConverter4">
     <Item value="Запись данных" revision="0" />
     <Item value="Запись данных позволяет сохранять данные сессии в дисковый файл для последующего воспроизведения. Новый формат поддерживает запись в несколько файлов и ограничение максимального размера файла." revision="0" />

@@ -32,10 +32,6 @@
   <Message key="Specify location of log file:" value="Especificar a localização do ficheiro de log:" revision="0" />
   <Message key="sessionClosing" value="Encerrar a sessão sem registo de dados" revision="0" />
   <Message key="SaveToLog" value="Guardar agora os dados monitorizados num ficheiro de registo" revision="0" />
-  <Enumeration key="LogConverter">
-    <Item value="Registo de Dados (Legacy)" revision="0" />
-    <Item value="A gravação de dados regista os dados monitorizados no ficheiro de disco para reprodução posterior. Suporta o formato de ficheiro DMSLOG7." revision="0" />
-  </Enumeration>
   <Enumeration key="LogConverter4">
     <Item value="Registo de dados" revision="0" />
     <Item value="A gravação de dados regista os dados monitorizados no ficheiro do disco para posterior reprodução. O novo formato suporta a gravação em vários ficheiros e a limitação do tamanho máximo do ficheiro." revision="0" />

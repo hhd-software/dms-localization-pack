@@ -32,10 +32,6 @@
   <Message key="Specify location of log file:" value="Speicherort der Protokolldatei angeben:" revision="0" />
   <Message key="sessionClosing" value="Beenden der Sitzung ohne Datenaufzeichnung" revision="0" />
   <Message key="SaveToLog" value="Überwachte Daten jetzt in einer Protokolldatei speichern" revision="0" />
-  <Enumeration key="LogConverter">
-    <Item value="Datenaufzeichnung (Legacy)" revision="0" />
-    <Item value="Die Datenaufzeichnung speichert überwachte Daten in einer Datei auf der Festplatte, die später wiedergegeben werden kann. Unterstützt das Dateiformat DMSLOG7." revision="0" />
-  </Enumeration>
   <Enumeration key="LogConverter4">
     <Item value="Datenaufzeichnung " revision="0" />
     <Item value="Bei der Datenaufzeichnung werden überwachte Daten zur späteren Wiedergabe in einer Datei auf der Festplatte gespeichert. Das neue Format unterstützt das Schreiben in mehrere Dateien und die Begrenzung der maximalen Dateigröße." revision="0" />

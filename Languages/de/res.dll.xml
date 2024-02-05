@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SkipNagScreen" value="Nag-Bildschirm überspringen (nur Debug)" revision="0" />
   <Message key="ModuleName" value="{module}\tVersion {major}.{minor}.{revision}.{build}" revision="0" />
-  <Message key="AboutBoxInfo" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2023 HHD Software Ltd.\nAlle Rechte vorbehalten." revision="5" />
+  <Message key="AboutBoxInfo" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2001 - {year} HHD Software Ltd.\nAlle Rechte vorbehalten." revision="6" />
   <Message key="EditionName" value="{edition} Ausgabe" revision="0" />
   <Message key="SelectComponentEdition" value="Komponentenausgabe auswählen" revision="0" />
   <Message key="UpgradeToEdition" value="Upgrade auf {edition} Ausgabe" revision="0" />
