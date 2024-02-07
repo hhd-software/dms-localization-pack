@@ -110,13 +110,43 @@
   <Message key="Invert all" value="Inverser tout" revision="0" />
   <Message key="File is too big! (10000 bytes maximum)" value="Les fichiers de plus de 10 000 octets ne sont pas pris en charge." revision="0" />
   <Message key="Too many items!" value="Trop d'objets" revision="0" />
+  <Message key="Expired" value="Expiré. Passez à l'édition {edition} pour utiliser ce composant." revision="0" />
+  <Message key="Show Data" value="Afficher les données" revision="0" />
+  <Message key="HelpNotify1" value="Saisie rapide des données:\r\n1. Sélectionner le premier élément de la liste.\r\n2. Saisir la valeur du registre dans la boîte d'édition Valeur du registre.\r\n3. Appuyer sur la touche ENTRÉE. La valeur du registre en surbrillance est mise à jour et le registre suivant devient actif. Répéter les étapes 2 et 3 pour chaque registre restant." revision="0" />
+  <Message key="Wrong file number" value="Numéro de fichier invalide" revision="0" />
+  <Message key="Wrong record number" value="Numéro d'enregistrement invalide" revision="0" />
+  <Message key="Wrong register length" value="Longueur de registre non valide" revision="0" />
+  <Message key="Output Data" value="Données de sortie" revision="0" />
+  <Message key="EventValue" value="Événement {n} = {value}" revision="0" />
+  <Message key="FIFOValue" value="Valeur FIFO {n} = {value}" revision="0" />
+  <Message key="The Status value is not entered" value="La valeur de l'état n'est pas saisie" revision="0" />
+  <Message key="Wrong Status value" value="Valeur d'état non valide" revision="0" />
+  <Message key="No events entered" value="Aucun événement n'a été saisi" revision="0" />
+  <Message key="Response can not contain more than 65535 events" value="La réponse ne peut pas contenir plus de 65 535 événements." revision="0" />
+  <Message key="Entered data size is too big. It can not be more than 65535 bytes" value="La taille des données saisies est trop importante. Elle ne peut pas être supérieure à 65 535 octets." revision="0" />
+  <Message key="No registers entered" value="Aucun registre n'a été saisi" revision="0" />
+  <Message key="No values entered" value="Aucune valeur n'a été saisie" revision="0" />
+  <Message key="Response can not contain more than 31 FIFO register values" value="La réponse ne peut pas contenir plus de 31 valeurs de registre FIFO" revision="0" />
+  <Message key="Data size is too big" value="La taille des données est trop importante" revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Cette réponse ne peut pas être analysée car la taille des champs est spécifique à chaque dispositif." revision="0" />
+  <Message key="Run Indicator Status can not be more than 255" value="L'état de l'indicateur de marche ne peut être supérieur à 255." revision="0" />
+  <Message key="Select function" value="Sélectionner la fonction" revision="0" />
+  <Message key="Cant parse packet" value="Paquet {n} : Erreur d'analyse du paquet" revision="0" />
+  <Message key="Exception Status" value="Statut d'exception" revision="0" />
+  <Message key="Exception Code" value="Code d'exception" revision="0" />
+  <Message key="Error Notification" value="Notification d'erreurs" revision="0" />
+  <Message key="Mode" value="Mode" revision="0" />
+  <Message key="Address:" value="Adresse:" revision="0" />
+  <Message key="Parameters" value="Paramètres" revision="0" />
+  <Message key="Result" value="Résultat" revision="0" />
+  <Message key="Result Length:" value="Résultat Longueur:" revision="0" />
   <Enumeration key="MODBUSConverter">
-    <Item />
-    <Item />
+    <Item value="Vue MODBUS (legacy)" revision="0" />
+    <Item value="La Vue MODBUS décode les paquets, formatés selon la spécification du protocole MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
-    <Item />
-    <Item />
+    <Item value="Erreur de création de session TCP" revision="0" />
+    <Item value="L'erreur suivante s'est produite lors de la tentative de connexion à l'hôte distant : {text} ({code})" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
@@ -145,17 +175,17 @@
     <Item />
   </Enumeration>
   <Enumeration key="CrcOk">
-    <Item />
-    <Item />
+    <Item value="A TORT" revision="0" />
+    <Item value="OK" revision="0" />
   </Enumeration>
   <Enumeration key="DestinationAddr">
-    <Item />
-    <Item />
+    <Item value="Esclave" revision="0" />
+    <Item value="Radiodiffusion" revision="0" />
   </Enumeration>
   <Enumeration key="ForceSingleCoil">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="ON" revision="0" />
+    <Item value="OFF" revision="0" />
+    <Item value="Valeur non valide (seules 0 (OFF) et 65280 (ON) sont autorisées)" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
     <Item />

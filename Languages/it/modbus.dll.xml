@@ -110,13 +110,43 @@
   <Message key="Invert all" value="Invertire tutto" revision="0" />
   <Message key="File is too big! (10000 bytes maximum)" value="I file di dimensioni superiori a 10.000 byte non sono supportati." revision="0" />
   <Message key="Too many items!" value="Troppi elementi" revision="0" />
+  <Message key="Expired" value="Scaduto. Aggiornare all'edizione {edition} per utilizzare questo componente." revision="0" />
+  <Message key="Show Data" value="Mostra dati" revision="0" />
+  <Message key="HelpNotify1" value="Inserimento rapido dei dati:\r\n1. Selezionare il primo elemento dell'elenco.\r\n2. Inserire il valore del registro nella casella di modifica Valore registro.\r\n3. Premere il tasto INVIO. Il valore del registro evidenziato viene aggiornato e il registro successivo diventa attivo. Ripetere i punti 2 e 3 per ogni registro rimanente." revision="0" />
+  <Message key="Wrong file number" value="Numero di file non valido" revision="0" />
+  <Message key="Wrong record number" value="Numero di record non valido" revision="0" />
+  <Message key="Wrong register length" value="Lunghezza del registro non valida" revision="0" />
+  <Message key="Output Data" value="Dati di uscita" revision="0" />
+  <Message key="EventValue" value="Evento {n} = {value}" revision="0" />
+  <Message key="FIFOValue" value="Valore FIFO {n} = {value}" revision="0" />
+  <Message key="The Status value is not entered" value="Il valore di Stato non è stato inserito" revision="0" />
+  <Message key="Wrong Status value" value="Valore di stato non valido" revision="0" />
+  <Message key="No events entered" value="Nessun evento inserito" revision="0" />
+  <Message key="Response can not contain more than 65535 events" value="La risposta non può contenere più di 65.535 eventi." revision="0" />
+  <Message key="Entered data size is too big. It can not be more than 65535 bytes" value="La dimensione dei dati immessi è troppo grande. Non può essere superiore a 65.535 byte." revision="0" />
+  <Message key="No registers entered" value="Nessun registro inserito" revision="0" />
+  <Message key="No values entered" value="Nessun valore inserito" revision="0" />
+  <Message key="Response can not contain more than 31 FIFO register values" value="La risposta non può contenere più di 31 valori di registro FIFO" revision="0" />
+  <Message key="Data size is too big" value="La dimensione dei dati è troppo grande" revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Questa risposta non può essere analizzata perché le dimensioni dei campi sono specifiche del dispositivo." revision="0" />
+  <Message key="Run Indicator Status can not be more than 255" value="Lo stato dell'indicatore di marcia non può essere superiore a 255." revision="0" />
+  <Message key="Select function" value="Selezionare la funzione" revision="0" />
+  <Message key="Cant parse packet" value="Pacchetto {n}: Errore nell'analisi del pacchetto" revision="0" />
+  <Message key="Exception Status" value="Stato di eccezione" revision="0" />
+  <Message key="Exception Code" value="Codice di eccezione" revision="0" />
+  <Message key="Error Notification" value="Notifica di errore" revision="0" />
+  <Message key="Mode" value="Modalità" revision="0" />
+  <Message key="Address:" value="Indirizzo:" revision="0" />
+  <Message key="Parameters" value="Parametri" revision="0" />
+  <Message key="Result" value="Risultato" revision="0" />
+  <Message key="Result Length:" value="Risultato Lunghezza:" revision="0" />
   <Enumeration key="MODBUSConverter">
-    <Item />
-    <Item />
+    <Item value="Vista MODBUS (legacy)" revision="0" />
+    <Item value="La Vista MODBUS decodifica i pacchetti, formattati secondo le specifiche del protocollo MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
-    <Item />
-    <Item />
+    <Item value="Erro de criação de sessão TCP" revision="0" />
+    <Item value="Ocorreu o seguinte erro ao tentar ligar ao anfitrião remoto: {text} ({code})" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />
@@ -145,17 +175,17 @@
     <Item />
   </Enumeration>
   <Enumeration key="CrcOk">
-    <Item />
-    <Item />
+    <Item value="ERRADO" revision="0" />
+    <Item value="OK" revision="0" />
   </Enumeration>
   <Enumeration key="DestinationAddr">
-    <Item />
-    <Item />
+    <Item value="Escravo" revision="0" />
+    <Item value="Trasmissione" revision="0" />
   </Enumeration>
   <Enumeration key="ForceSingleCoil">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="ON" revision="0" />
+    <Item value="OFF" revision="0" />
+    <Item value="Valore non valido (sono ammessi solo 0 (OFF) e 65280 (ON))" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
     <Item />

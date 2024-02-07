@@ -142,7 +142,7 @@
   <Message key="Result Length:" value="Resultado Comprimento:" revision="0" />
   <Enumeration key="MODBUSConverter">
     <Item value="Vista MODBUS (legacy)" revision="0" />
-    <Item value="O visualizador MODBUS View descodifica os pacotes, formatados de acordo com a especificação do protocolo MODBUS." revision="0" />
+    <Item value="O visualizador do MODBUS descodifica os pacotes, formatados de acordo com a especificação do protocolo MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
     <Item value="Erro de criação de sessão TCP" revision="0" />
