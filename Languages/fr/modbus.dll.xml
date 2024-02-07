@@ -207,6 +207,8 @@
     <Item />
     <Item />
     <Item />
+    <Item value="FONCTION DÉFINIE PAR L'UTILISATEUR" revision="0" />
+    <Item value="RÉPONSES" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -225,9 +227,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="ERREUR" revision="0" />
   </Enumeration>
   <Enumeration key="ResponseCodes">
     <Item />
