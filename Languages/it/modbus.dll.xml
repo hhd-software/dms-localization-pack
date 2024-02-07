@@ -188,7 +188,7 @@
     <Item value="Valore non valido (sono ammessi solo 0 (OFF) e 65280 (ON))" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
-    <Item />
+    <Item value="RICHIESTE" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -250,52 +250,52 @@
     <Item />
   </Enumeration>
   <Enumeration key="Diagnostics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Restituire i dati della query" revision="0" />
+    <Item value="Opzione di riavvio delle comunicazioni" revision="0" />
+    <Item value="Restituzione del registro diagnostico" revision="0" />
+    <Item value="Modifica del delimitatore di ingresso ASCII" revision="0" />
+    <Item value="Forzare la modalità di solo ascolto" revision="0" />
+    <Item value="Azzeramento dei contatori e del registro diagnostico" revision="0" />
+    <Item value="Restituire il conteggio dei messaggi del bus" revision="0" />
+    <Item value="Restituire il conteggio degli errori di comunicazione del bus" revision="0" />
+    <Item value="Restituire il conteggio degli errori di eccezione del bus" revision="0" />
+    <Item value="Restituire il conteggio dei messaggi slave" revision="0" />
+    <Item value="Restituire il conteggio di &quot;Nessuna risposta&quot; dello slave" revision="0" />
+    <Item value="Restituire il conteggio NAK dello slave" revision="0" />
+    <Item value="Restituire il conteggio dello slave &quot;occupato" revision="0" />
+    <Item value="Restituire il conteggio di superamento dei caratteri del bus" revision="0" />
+    <Item value="Azzeramento del contatore di superamento e del flag" revision="0" />
+    <Item value="RISERVATO" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="OK - Restituire i dati della query" revision="0" />
+    <Item value="OK - Opzione di riavvio delle comunicazioni" revision="0" />
+    <Item value="OK - Restituzione del registro diagnostico" revision="0" />
+    <Item value="OK - Modifica del delimitatore di ingresso ASCII" revision="0" />
+    <Item value="OK - Forzare la modalità di solo ascolto" revision="0" />
+    <Item value="OK - Azzeramento dei contatori e del registro diagnostico" revision="0" />
+    <Item value="OK - Restituire il conteggio dei messaggi del bus" revision="0" />
+    <Item value="OK - Restituire il conteggio degli errori di comunicazione del bus" revision="0" />
+    <Item value="OK - Restituire il conteggio degli errori di eccezione del bus" revision="0" />
+    <Item value="OK - Restituire il conteggio dei messaggi slave" revision="0" />
+    <Item value="OK - Restituire il conteggio di &quot;Nessuna risposta&quot; dello slave" revision="0" />
+    <Item value="OK - Restituire il conteggio NAK dello slave" revision="0" />
+    <Item value="OK - Restituire il conteggio dello slave &quot;occupato" revision="0" />
+    <Item value="OK - Restituire il conteggio di superamento dei caratteri del bus" revision="0" />
+    <Item value="OK - Codice funzione sconosciuto" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
-    <Item />
-    <Item />
+    <Item value="Modalità ASCII" revision="0" />
+    <Item value="Modalità RTU" revision="0" />
   </Enumeration>
   <Enumeration key="ModError">
-    <Item />
+    <Item value="Notifica di errore sul display" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Dati binari" revision="0" />
+    <Item value="Intestazione 2" revision="0" />
+    <Item value="Intestazione 3" revision="0" />
   </Enumeration>
 </Language>

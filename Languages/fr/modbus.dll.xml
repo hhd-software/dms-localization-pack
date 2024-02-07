@@ -188,7 +188,7 @@
     <Item value="Valeur non valide (seules 0 (OFF) et 65280 (ON) sont autorisées)" revision="0" />
   </Enumeration>
   <Enumeration key="FunctionCodes">
-    <Item />
+    <Item value="DEMANDES" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -250,52 +250,52 @@
     <Item />
   </Enumeration>
   <Enumeration key="Diagnostics">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Retourner les données de la requête" revision="0" />
+    <Item value="Option de redémarrage des communications" revision="0" />
+    <Item value="Retourner le registre de diagnostic" revision="0" />
+    <Item value="Modifier le délimiteur d'entrée ASCII" revision="0" />
+    <Item value="Forcer le mode écoute seule" revision="0" />
+    <Item value="Effacer les compteurs et le registre de diagnostic" revision="0" />
+    <Item value="Renvoi du nombre de messages du bus" revision="0" />
+    <Item value="Renvoi du nombre d'erreurs de communication sur le bus" revision="0" />
+    <Item value="Renvoi du nombre d'erreurs d'exception du bus" revision="0" />
+    <Item value="Renvoi du nombre de messages de l'esclave" revision="0" />
+    <Item value="Renvoi du compte &quot;Pas de réponse&quot; de l'esclave" revision="0" />
+    <Item value="Renvoi du nombre de NAK de l'esclave" revision="0" />
+    <Item value="Renvoi du compte &quot;occupé&quot; de l'esclave" revision="0" />
+    <Item value="Renvoi du compte de dépassement de caractères du bus" revision="0" />
+    <Item value="Effacer le compteur de dépassement et le drapeau" revision="0" />
+    <Item value="RÉSERVÉ" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="OK - Retourner les données de la requête" revision="0" />
+    <Item value="OK - Option de redémarrage des communications" revision="0" />
+    <Item value="OK - Retourner le registre de diagnostic" revision="0" />
+    <Item value="OK - Modifier le délimiteur d'entrée ASCII" revision="0" />
+    <Item value="OK - Forcer le mode écoute seule" revision="0" />
+    <Item value="OK - Effacer les compteurs et le registre de diagnostic" revision="0" />
+    <Item value="OK - Renvoi du nombre de messages du bus" revision="0" />
+    <Item value="OK - Renvoi du nombre d'erreurs de communication sur le bus" revision="0" />
+    <Item value="OK - Renvoi du nombre d'erreurs d'exception du bus" revision="0" />
+    <Item value="OK - Renvoi du nombre de messages de l'esclave" revision="0" />
+    <Item value="OK - Renvoi du compte &quot;Pas de réponse&quot; de l'esclave" revision="0" />
+    <Item value="OK - Renvoi du nombre de NAK de l'esclave" revision="0" />
+    <Item value="OK - Renvoi du compte &quot;occupé&quot; de l'esclave" revision="0" />
+    <Item value="OK - Renvoi du compte de dépassement de caractères du bus" revision="0" />
+    <Item value="OK - Code de fonction inconnu" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">
-    <Item />
-    <Item />
+    <Item value="Mode ASCII" revision="0" />
+    <Item value="Mode RTU" revision="0" />
   </Enumeration>
   <Enumeration key="ModError">
-    <Item />
+    <Item value="Affichage d'une notification d'erreur" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusViewColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="Données binaires" revision="0" />
+    <Item value="En-tête 2" revision="0" />
+    <Item value="En-tête 3" revision="0" />
   </Enumeration>
 </Language>
