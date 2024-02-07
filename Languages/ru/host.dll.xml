@@ -76,8 +76,8 @@
   <Message key="Selected sources" value="Выбранные источники" revision="0" />
   <Message key="Selected processing" value="Выбранные обработчики" revision="0" />
   <Message key="Available processing" value="Доступные обработчики" revision="0" />
-  <Message key="Filter text" value="Текст фильтра" revision="0" />
-  <Message key="Capture Filter" value="Фильтр сессии" revision="0" />
+  <Message key="Filter text" value="Выражение фильтра сессии" revision="1" />
+  <Message key="Capture Filter" value="Фильтр сессии" revision="1" />
   <Message key="Precise time marks" value="Точные метки времени" revision="0" />
   <Message key="Add More" value="Добавить еще" revision="0" />
   <Message key="Remove" value="Убрать" revision="0" />
@@ -102,6 +102,7 @@
   <Message key="Expand session" value="Щелкните, чтобы развернуть информацию о сессии" revision="0" />
   <Message key="Processing Module Configuration" value="Конфигурация обработчика" revision="0" />
   <Message key="HiddenDevicesCategoryFilter" value="Скрытые устройства" revision="0" />
+  <Message key="Capture filter license note" value="Фильтр сессии: {message}" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Шаблон именования визуализатора" revision="0" />
     <Item value="[Имя устройства] - [Имя визуализатора]" revision="0" />

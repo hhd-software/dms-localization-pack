@@ -76,8 +76,8 @@
   <Message key="Selected sources" value="Fonti selezionate" revision="0" />
   <Message key="Selected processing" value="Elaborazione selezionata" revision="0" />
   <Message key="Available processing" value="Elaborazione disponibile" revision="0" />
-  <Message key="Filter text" value="Testo del filtro" revision="0" />
-  <Message key="Capture Filter" value="Filtro di sessione" revision="0" />
+  <Message key="Filter text" value="Espressione del filtro di sessione" revision="1" />
+  <Message key="Capture Filter" value="Filtro di sessione" revision="1" />
   <Message key="Precise time marks" value="Segni di tempo precisi" revision="0" />
   <Message key="Add More" value="Aggiungi altro" revision="0" />
   <Message key="Remove" value="Rimuovere" revision="0" />
@@ -102,6 +102,7 @@
   <Message key="Expand session" value="Fare clic per espandere le informazioni sulla sessione" revision="0" />
   <Message key="Processing Module Configuration" value="Configurazione del modulo di elaborazione" revision="0" />
   <Message key="HiddenDevicesCategoryFilter" value="Dispositivi nascosti" revision="0" />
+  <Message key="Capture filter license note" value="Filtro di sessione: {message}" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Schema di denominazione del visualizzatore" revision="0" />
     <Item value="[Nome del dispositivo] - [Nome del visualizzatore]" revision="0" />

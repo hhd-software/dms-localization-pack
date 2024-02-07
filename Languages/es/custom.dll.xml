@@ -97,7 +97,7 @@
   </Enumeration>
   <Enumeration key="Custom">
     <Item value="Protocolos personalizados" revision="0" />
-    <Item value="La función Protocolos personalizados permite utilizar el editor integrado o externo para modificar los protocolos integrados o añadir protocolos personalizados a Device Monitoring Studio para utilizarlos con Structure View, Capture Filter y otras funciones." revision="0" />
+    <Item value="La función Protocolos personalizados permite utilizar el editor integrado o externo para modificar los protocolos integrados o añadir protocolos personalizados a Device Monitoring Studio para utilizarlos con Vista de la estructura, Filtro de sesión y otras funciones." revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
     <Item value="&amp;Revertir todo" revision="0" />
