@@ -158,12 +158,13 @@
     <Item value="Octets écrits/Sec est la vitesse à laquelle les octets sont transférés vers l'appareil pendant les opérations d'écriture." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="Défaut" revision="0" />
-    <Item value="En-tête" revision="0" />
-    <Item value="Option" revision="0" />
+    <Item value="Défaut" revision="1" />
+    <Item value="En-tête" revision="1" />
+    <Item value="Option" revision="1" />
     <Item lookup="Value" />
-    <Item value="En-tête Lire" revision="0" />
-    <Item value="En-tête Écrire" revision="0" />
+    <Item value="En-tête Lire" revision="1" />
+    <Item value="En-tête Écrire" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="Défaut" revision="0" />

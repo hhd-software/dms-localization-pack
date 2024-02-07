@@ -159,12 +159,13 @@
     <Item value="Запись байт/сек - это скорость передачи байтов в устройство во время операций записи." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="По умолчанию" revision="0" />
-    <Item value="Заголовок" revision="0" />
-    <Item value="Опция" revision="0" />
+    <Item value="По умолчанию" revision="1" />
+    <Item value="Заголовок" revision="1" />
+    <Item value="Опция" revision="1" />
     <Item lookup="Value" />
-    <Item value="Заголовок чтений" revision="0" />
-    <Item value="Заголовок записей" revision="0" />
+    <Item value="Заголовок чтений" revision="1" />
+    <Item value="Заголовок записей" revision="1" />
+    <Item value="Дамп" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="По умолчанию" revision="0" />

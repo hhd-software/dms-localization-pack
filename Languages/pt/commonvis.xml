@@ -159,12 +159,13 @@
     <Item value="Bytes escritos/seg. é a taxa a que os bytes são transferidos para o dispositivo durante as operações de escrita." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="Por defeito" revision="0" />
-    <Item value="Cabeçalho" revision="0" />
-    <Item value="Opção" revision="0" />
+    <Item value="Por defeito" revision="1" />
+    <Item value="Cabeçalho" revision="1" />
+    <Item value="Opção" revision="1" />
     <Item lookup="Value" />
-    <Item value="Cabeçalho de leitura" revision="0" />
-    <Item value="Cabeçalho de escrita" revision="0" />
+    <Item value="Cabeçalho de leitura" revision="1" />
+    <Item value="Cabeçalho de escrita" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="Por defeito" revision="0" />

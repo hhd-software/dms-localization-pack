@@ -158,12 +158,13 @@
     <Item value="Byte scritti/sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="Predefinito" revision="0" />
-    <Item value="Intestazione" revision="0" />
-    <Item value="Opzione" revision="0" />
+    <Item value="Predefinito" revision="1" />
+    <Item value="Intestazione" revision="1" />
+    <Item value="Opzione" revision="1" />
     <Item lookup="Value" />
-    <Item value="Intestazione Lettura" revision="0" />
-    <Item value="Intestazione Scrittura" revision="0" />
+    <Item value="Intestazione Lettura" revision="1" />
+    <Item value="Intestazione Scrittura" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="Predefinito" revision="0" />

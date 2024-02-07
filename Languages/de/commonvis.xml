@@ -159,12 +159,13 @@
     <Item value="Bytes geschrieben/Sek ist die Rate, mit der Bytes bei Schreibvorgängen an das Gerät übertragen werden." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="Standard" revision="0" />
-    <Item value="Kopfzeile" revision="0" />
-    <Item value="Option" revision="0" />
+    <Item value="Standard" revision="1" />
+    <Item value="Kopfzeile" revision="1" />
+    <Item value="Option" revision="1" />
     <Item lookup="Value" />
-    <Item value="Kopfzeile des lesen" revision="0" />
-    <Item value="Kopfzeile des Schreibens" revision="0" />
+    <Item value="Kopfzeile des lesen" revision="1" />
+    <Item value="Kopfzeile des Schreibens" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="Standard" revision="0" />

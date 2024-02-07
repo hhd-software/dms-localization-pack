@@ -159,12 +159,13 @@
     <Item value="Bytes escritos/seg es la velocidad a la que se transfieren bytes al dispositivo durante las operaciones de escritura." revision="0" />
   </Enumeration>
   <Enumeration key="USBCommViewSchemes">
-    <Item value="Por defecto" revision="0" />
-    <Item value="Cabecera" revision="0" />
-    <Item value="Opción" revision="0" />
+    <Item value="Por defecto" revision="1" />
+    <Item value="Cabecera" revision="1" />
+    <Item value="Opción" revision="1" />
     <Item lookup="Value" />
-    <Item value="Cabecera de lectura" revision="0" />
-    <Item value="Cabecera de escritura" revision="0" />
+    <Item value="Cabecera de lectura" revision="1" />
+    <Item value="Cabecera de escritura" revision="1" />
+    <Item value="Dump" revision="1" />
   </Enumeration>
   <Enumeration key="USBMassViewSchemes">
     <Item value="Por defecto" revision="0" />
