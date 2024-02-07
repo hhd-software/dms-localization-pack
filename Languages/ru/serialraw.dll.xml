@@ -76,7 +76,7 @@
     <Item value="Получить маску текущих событий" revision="0" />
     <Item value="Передать immediate символ" revision="0" />
     <Item value="Escape character линии и модема " revision="0" />
-    <Item value="Очистить запросы" revision="0" />
+    <Item value="Очистить Запросы" revision="0" />
     <Item value="Сбросить COM-порт" revision="0" />
     <Item value="Установить baud rate" revision="0" />
     <Item value="Выключить line control break" revision="0" />

@@ -59,40 +59,40 @@
     <Item value="Visualizzazione dei pacchetti di scrittura" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Chiara informazione sulle prestazioni" revision="0" />
+    <Item value="Pulire il DTR" revision="0" />
+    <Item value="Pulire il RTS" revision="0" />
+    <Item value="Recuperare le informazioni sulle dimensioni della configurazione" revision="0" />
+    <Item value="Recuperare la velocità in baud" revision="0" />
+    <Item value="Recuperare i caratteri speciali" revision="0" />
+    <Item value="Recuperare lo stato del COM" revision="0" />
+    <Item value="Recuperare DTR e RTS" revision="0" />
+    <Item value="Recuperare le informazioni sull'handshake" revision="0" />
+    <Item value="Recuperare il controllo della linea" revision="0" />
+    <Item value="Recuperare lo stato del modem" revision="0" />
+    <Item value="Recuperare le proprietà COM" revision="0" />
+    <Item value="Recuperare le informazioni sulle prestazioni" revision="0" />
+    <Item value="Recuperare i timeout" revision="0" />
+    <Item value="Recuperare la maschera dell'evento corrente" revision="0" />
+    <Item value="Trasmettere un carattere immediato" revision="0" />
+    <Item value="Carattere di escape dello stato della linea e del modem" revision="0" />
+    <Item value="Spurgo delle richieste" revision="0" />
+    <Item value="Ripristino della porta COM" revision="0" />
+    <Item value="Impostare la velocità in baud" revision="0" />
+    <Item value="Disattivare l'interruzione del controllo di linea" revision="0" />
+    <Item value="Attivare l'interruzione del controllo di linea" revision="0" />
+    <Item value="Impostare i caratteri speciali" revision="0" />
+    <Item value="Impostare DTR" revision="0" />
+    <Item value="Configurare le informazioni di handshake" revision="0" />
+    <Item value="Impostare il controllo della linea" revision="0" />
+    <Item value="Impostare la dimensione della coda" revision="0" />
+    <Item value="Imposta RTS" revision="0" />
+    <Item value="Impostazione dei timeout" revision="0" />
+    <Item value="Impostare la maschera dell'evento corrente" revision="0" />
+    <Item value="Emulare XOFF" revision="0" />
+    <Item value="Emulare XON" revision="0" />
+    <Item value="Attendere l'evento" revision="0" />
+    <Item value="Impostare il contatore XOFF" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
     <Item value="Intestazione" revision="0" />

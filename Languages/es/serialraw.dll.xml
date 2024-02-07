@@ -59,9 +59,9 @@
     <Item value="Visualizar paquetes de escritura" revision="0" />
   </Enumeration>
   <Enumeration key="SerialReqViewIOCat">
-    <Item value="Información de rendimiento clara" revision="0" />
-    <Item value="Borrar DTR" revision="0" />
-    <Item value="Borrar RTS" revision="0" />
+    <Item value="Clara información de rendimiento" revision="0" />
+    <Item value="Limpiar DTR" revision="0" />
+    <Item value="Limpiar RTS" revision="0" />
     <Item value="Recuperar información sobre el tamaño de la configuración" revision="0" />
     <Item value="Recuperar velocidad en baudios" revision="0" />
     <Item value="Recuperar caracteres especiales" revision="0" />
