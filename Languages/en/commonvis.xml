@@ -503,13 +503,14 @@
 
 
 
-	<Enumeration key="USBCommViewSchemes" description="USB Comm View visualizer schemes (coloring and fonts)">
+	<Enumeration key="USBCommViewSchemes" description="USB Comm View visualizer schemes (coloring and fonts)" revision="1">
 		<Item text="Default"/>
 		<Item text="Header"/>
 		<Item text="Option"/>
 		<Item lookup="Value"/>
 		<Item text="Header Read"/>
 		<Item text="Header Write"/>
+		<Item text="Dump"/>
 	</Enumeration>
 
 	<!-- Mass view visualizer -->
