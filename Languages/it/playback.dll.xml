@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SteppedSpeedNotify" value="Continua la riproduzione (Riproduzione)" revision="0" />
+  <Message key="CreateReaderError" value="Impossibile creare un lettore di log {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Inizializzazione della riproduzione fallita  {filename}" revision="0" />
+  <Message key="FileOpenError" value="Errore nell'apertura di {filename}. File mancante o danneggiato." revision="1" />
   <Enumeration key="PlaybackSource">
     <Item />
     <Item />

@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Wiedergabe fortsetzen (Playback)" revision="0" />
   <Message key="CreateReaderError" value="Logbuchleser kann nicht erstellt werden {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Initialisierung der Wiedergabe fehlgeschlagen {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Initialisierung der Wiedergabe fehlgeschlagen  {filename}" revision="0" />
   <Message key="FileOpenError" value="Fehler beim Öffnen von {filename}. Datei fehlt oder ist beschädigt." revision="1" />
   <Message key="StreamOpenError" value="Öffnen des Streams {stream} von {filename} fehlgeschlagen" revision="0" />
   <Message key="PropertiesReadError" value="Fehler beim Lesen von Eigenschaften aus {filename}." revision="0" />

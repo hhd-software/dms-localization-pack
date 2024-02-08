@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SteppedSpeedNotify" value="Continuer la lecture (Lecture)" revision="0" />
+  <Message key="CreateReaderError" value="Impossible de créer un lecteur de journaux {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="L'initialisation de la lecture a échoué  {filename}" revision="0" />
+  <Message key="FileOpenError" value="Erreur d'ouverture de {filename}. Fichier manquant ou endommagé." revision="1" />
   <Enumeration key="PlaybackSource">
     <Item />
     <Item />

@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Продолжить воспроизведение (Воспроизведение)" revision="0" />
   <Message key="CreateReaderError" value="Невозможно создать cчитыватель лога {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Инициализация воспроизведения не удалась {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Инициализация воспроизведения не удалась  {filename}" revision="0" />
   <Message key="FileOpenError" value="Ошибка открытия {filename}. Файл отсутствует или поврежден." revision="1" />
   <Message key="StreamOpenError" value="Не удалось открыть поток {stream} из {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Ошибка чтения свойств из {filename}." revision="0" />
