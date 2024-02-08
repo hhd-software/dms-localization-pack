@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="ElevationError" value="Impossible d'élever les privilèges. Message d'erreur: {error}" revision="1" />
-  <Message key="Devices" value="Dispositifs" revision="0" />
+  <Message key="Devices" value="Appareils" revision="0" />
   <Message key="Sessions" value="Sessions" revision="0" />
   <Message key="ElevationErrorTitle" value="Erreur d'extension de privilège" revision="1" />
   <Message key="IntegrityError" value="Échec de l'initialisation du composant interne: {error}" revision="0" />
-  <Message key="DevicesAbsent" value="Un ou plusieurs dispositifs de session sont manquants" revision="0" />
+  <Message key="DevicesAbsent" value="Un ou plusieurs appareils de session sont manquants" revision="0" />
   <Message key="LogCreationFailed" value="Erreur de création du fichier journal de surveillance: {error}" revision="0" />
   <Message key="NoConverters" value="Aucun module de traitement des données ne prend en charge cette session." revision="0" />
   <Message key="NoTemporaryStorage" value="{nomemory?}La session précédente a été interrompue en raison d'un manque de mémoire. Vous devez redémarrer l'application avant de lancer une nouvelle session de surveillance.{|nomemory}Aucun stockage temporaire n'est configuré. Vérifiez les paramètres dans Outils - Paramètres, onglet Traitement des données. Code d'erreur: {error}{?nomemory}" revision="0" />
@@ -17,10 +17,10 @@
   <Message key="SourceExpired" value="L'une des sources de données sélectionnées a expiré." revision="0" />
   <Message key="DeviceConfig" value="Configuration: &lt;a&gt;{config}&lt;/a&gt;" revision="0" />
   <Message key="Data Source Configuration" value="Configuration de la source de données" revision="0" />
-  <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Coloration du dispositif" revision="0" />
+  <Message key="MultiDeviceConfig" value="{has nested?}{nested}, {?has nested}Coloration de l'appareil" revision="0" />
   <Message key="UnsupportedProcessingsTitle" value="Avertissement" revision="0" />
   <Message key="UnsupportedProcessings" value="Les modules de traitement suivants:\n{processings}\nne prennent pas en charge la surveillance de plusieurs appareils et seront supprimés." revision="0" />
-  <Message key="NoProcessings" value="Les composants de traitement pour ce dispositif sont introuvables. Veuillez réinstaller l'application." revision="0" />
+  <Message key="NoProcessings" value="Les composants de traitement pour cet appareil sont introuvables. Veuillez réinstaller l'application." revision="0" />
   <Message key="Error" value="Erreur" revision="0" />
   <Message key="FilterError" value="Erreur dans l'application du filtre sélectionné" revision="0" />
   <Message key="NoDataSource" value="Le module de monitoring correspondant n'est pas installé. Veuillez réinstaller l'application." revision="0" />
@@ -33,7 +33,7 @@
   <Message key="Session has already been started" value="La session a déjà été lancée" revision="0" />
   <Message key="String or object is expected" value="Une chaîne de caractères ou un objet est attendu" revision="0" />
   <Message key="Servername is incorrect" value="Le paramètre serverName est incorrect" revision="0" />
-  <Message key="Device not found" value="Dispositif non trouvé" revision="0" />
+  <Message key="Device not found" value="Appareil non trouvé" revision="0" />
   <Message key="Invalid argument: object of proper format is expected" value="Argument non valide : un objet au format approprié est attendu" revision="0" />
   <Message key="No configuration objects specified" value="Aucun objet de configuration n'est spécifié" revision="0" />
   <Message key="Source does not support configuration" value="La source ne prend pas en charge la configuration" revision="0" />
@@ -42,8 +42,8 @@
   <Message key="Session startup error" value="Erreur de démarrage de la session" revision="0" />
   <Message key="Session is not started" value="La session n'est pas démarrée" revision="0" />
   <Message key="Session cannot be stopped" value="La session ne peut pas être arrêtée" revision="0" />
-  <Message key="Device(s) must be added to the session" value="Le(s) dispositif(s) doit(vent) être ajouté(s) à la session" revision="0" />
-  <Message key="Only one session is allowed per device" value="Une seule session est autorisée par dispositif" revision="0" />
+  <Message key="Device(s) must be added to the session" value="Le(s) appareil(s) doit(vent) être ajouté(s) à la session" revision="0" />
+  <Message key="Only one session is allowed per device" value="Une seule session est autorisée par appareil" revision="0" />
   <Message key="Unable to generate script" value="Impossible de générer un script" revision="0" />
   <Message key="UnsavedCapture" value="Capture actuelle non sauvegardée" revision="0" />
   <Message key="NagFreeTitle" value="Limitation de la version gratuite" revision="0" />
@@ -61,17 +61,17 @@
   <Message key="Get More Details" value="Obtenir plus de détails" revision="0" />
   <Message key="toolbar.SessionConfig1" value="Configuration de la session 1" revision="0" />
   <Message key="toolbar.SessionConfig2" value="Configuration de la session 2" revision="0" />
-  <Message key="toolbar.Devices" value="Dispositifs" revision="0" />
+  <Message key="toolbar.Devices" value="Appareils" revision="0" />
   <Message key="toolbar.Sessions" value="Sessions" revision="0" />
   <Message key="Save Configuration" value="Sauvegarder la configuration" revision="0" />
   <Message key="Enter custom data processor configuration name:" value="Saisir le nom de la configuration personnalisée du processeur de données:" revision="0" />
-  <Message key="Device coloring" value="Coloration des dispositifs" revision="0" />
+  <Message key="Device coloring" value="Coloration de l'appareil" revision="0" />
   <Message key="Back color:" value="Couleur de fond:" revision="0" />
-  <Message key="Multisource Device Colors" value="Couleurs des dispositifs multi-sources" revision="1" />
-  <Message key="Multisource device list:" value="Couleurs des dispositifs multi-sources:" revision="1" />
+  <Message key="Multisource Device Colors" value="Couleurs les appareils multi-sources" revision="1" />
+  <Message key="Multisource device list:" value="Couleurs les appareils multi-sources:" revision="1" />
   <Message key="Background color:" value="Couleur d'arrière-plan:" revision="0" />
-  <Message key="Rename Device" value="Renommer le dispositif" revision="0" />
-  <Message key="Enter new device name:" value="Saisir le nouveau nom du dispositif:" revision="0" />
+  <Message key="Rename Device" value="Renommer l'appareil" revision="0" />
+  <Message key="Enter new device name:" value="Saisir le nouveau nom de l'appareil:" revision="0" />
   <Message key="Session Configuration" value="Configuration de la session" revision="0" />
   <Message key="Selected sources" value="Sources sélectionnées" revision="0" />
   <Message key="Selected processing" value="Traitement sélectionné" revision="0" />
@@ -81,32 +81,32 @@
   <Message key="Precise time marks" value="Repères temporels précis" revision="0" />
   <Message key="Add More" value="Ajouter d'autres" revision="0" />
   <Message key="Remove" value="Retirer" revision="0" />
-  <Message key="clr.device_colors" value="Couleurs des dispositifs multi-sources" revision="0" />
-  <Message key="clr.device_colors.color1" value="Dispositif 1" revision="0" />
-  <Message key="clr.device_colors.color2" value="Dispositif 2" revision="0" />
-  <Message key="clr.device_colors.color3" value="Dispositif 3" revision="0" />
-  <Message key="clr.device_colors.color4" value="Dispositif 4" revision="0" />
-  <Message key="clr.device_colors.color5" value="Dispositif 5" revision="0" />
-  <Message key="clr.device_colors.color6" value="Dispositif 6" revision="0" />
-  <Message key="clr.device_colors.color7" value="Dispositif 7" revision="0" />
-  <Message key="clr.device_colors.color8" value="Dispositif 8" revision="0" />
-  <Message key="clr.device_colors.color9" value="Dispositif 9" revision="0" />
-  <Message key="clr.device_colors.color10" value="Dispositif 10" revision="0" />
-  <Message key="clr.device_colors.color11" value="Dispositif 11" revision="0" />
-  <Message key="clr.device_colors.color12" value="Dispositif 12" revision="0" />
-  <Message key="clr.device_colors.color13" value="Dispositif 13" revision="0" />
-  <Message key="clr.device_colors.color14" value="Dispositif 14" revision="0" />
-  <Message key="clr.device_colors.color15" value="Dispositif 15" revision="0" />
-  <Message key="clr.device_colors.color16" value="Dispositif 16" revision="0" />
+  <Message key="clr.device_colors" value="Couleurs pour les appareils multi-sources" revision="0" />
+  <Message key="clr.device_colors.color1" value="Appareil 1" revision="0" />
+  <Message key="clr.device_colors.color2" value="Appareil 2" revision="0" />
+  <Message key="clr.device_colors.color3" value="Appareil 3" revision="0" />
+  <Message key="clr.device_colors.color4" value="Appareil 4" revision="0" />
+  <Message key="clr.device_colors.color5" value="Appareil 5" revision="0" />
+  <Message key="clr.device_colors.color6" value="Appareil 6" revision="0" />
+  <Message key="clr.device_colors.color7" value="Appareil 7" revision="0" />
+  <Message key="clr.device_colors.color8" value="Appareil 8" revision="0" />
+  <Message key="clr.device_colors.color9" value="Appareil 9" revision="0" />
+  <Message key="clr.device_colors.color10" value="Appareil 10" revision="0" />
+  <Message key="clr.device_colors.color11" value="Appareil 11" revision="0" />
+  <Message key="clr.device_colors.color12" value="Appareil 12" revision="0" />
+  <Message key="clr.device_colors.color13" value="Appareil 13" revision="0" />
+  <Message key="clr.device_colors.color14" value="Appareil 14" revision="0" />
+  <Message key="clr.device_colors.color15" value="Appareil 15" revision="0" />
+  <Message key="clr.device_colors.color16" value="Appareil 16" revision="0" />
   <Message key="Collapse session" value="Cliquez pour réduire les informations sur la session" revision="0" />
   <Message key="Expand session" value="Cliquez pour étendre l'information sur la session" revision="0" />
   <Message key="Processing Module Configuration" value="Configuration du module de traitement" revision="0" />
-  <Message key="HiddenDevicesCategoryFilter" value="Dispositifs cachés" revision="0" />
+  <Message key="HiddenDevicesCategoryFilter" value="Appareils cachés" revision="0" />
   <Message key="Capture filter license note" value="Filtre de session: {message}" revision="0" />
   <Enumeration key="VisualizerNaming">
     <Item value="Modèle de dénomination du visualiseur" revision="0" />
-    <Item value="[Nom du dispositif] - [Nom du visualiseur]" revision="0" />
-    <Item value="[Nom du visualiseur]: [Nom du dispositif]" revision="0" />
+    <Item value="[Nom de l'appareil] - [Nom du visualiseur]" revision="0" />
+    <Item value="[Nom du visualiseur]: [Nom de l'appareil]" revision="0" />
   </Enumeration>
   <Enumeration key="GlobalSwitchNetwork">
     <Item value="&amp;Réseau" revision="0" />
@@ -185,16 +185,16 @@
     <Item value="Arrêter cette session de surveillance" revision="0" />
   </Enumeration>
   <Enumeration key="RestartDevice">
-    <Item value="Redémarrer &amp;dispositif" revision="0" />
-    <Item value="Redémarrer le dispositif sélectionné" revision="0" />
+    <Item value="Redémarrer &amp;appareil" revision="0" />
+    <Item value="Redémarrer l'appareil sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="DeviceProperties">
     <Item value="&amp;Propriétés…" revision="0" />
-    <Item value="Afficher les propriétés du dispositif" revision="0" />
+    <Item value="Afficher les propriétés de l'appareil" revision="0" />
   </Enumeration>
   <Enumeration key="RenameDevice">
     <Item value="&amp;Renommer…" revision="0" />
-    <Item value="Spécifier un nom personnalisé pour un dispositif" revision="0" />
+    <Item value="Spécifier un nom personnalisé pour un appareil" revision="0" />
   </Enumeration>
   <Enumeration key="ScanForHardwareChanges">
     <Item value="Recherche de modifications matérielles" revision="0" />
@@ -254,7 +254,7 @@
   <Enumeration key="SessionWindowColumns">
     <Item value="Source" revision="0" />
     <Item value="Type" revision="0" />
-    <Item value="Dispositif" revision="0" />
+    <Item value="Appareil" revision="0" />
     <Item value="Traitement" revision="0" />
     <Item value="Début" revision="0" />
     <Item value="Durée" revision="0" />
@@ -270,7 +270,7 @@
     <Item value="Il s'agit d'une liste de tous les modules de traitement disponibles. Sélectionnez le module de traitement pour afficher sa brève description et double-cliquez dessus pour l'ajouter à une session de surveillance.\n\n L'ajout du composant [[[v#[vis.recording]# ]]] [[[hEnregistrement des données]]] à la session entraînera l'enregistrement de toutes les données surveillées dans le fichier journal, qui pourra être lu ultérieurement avec le même ensemble de modules de traitement des données ou un ensemble différent." revision="0" />
     <Item value="Il s'agit d'une liste de tous les modules de traitement actuellement configurés pour une session de suivi. Plusieurs modules de traitement permettent une configuration supplémentaire. Cliquez sur les options correspondantes pour les configurer." revision="0" />
     <Item value="Spécifiez le [[[hFiltre de session]]] qui sera actif pour l'ensemble de la session de surveillance. Plusieurs visualiseurs de données permettent de définir un [[[hFiltres du visualiseur]]] pour chaque visualiseur." revision="0" />
-    <Item value="Cliquez sur le bouton [[[bAjouter d'autres]]] pour ajouter d'autres appareils à la session de surveillance. Tous les dispositifs ajoutés seront surveillés simultanément dans une seule session." revision="0" />
+    <Item value="Cliquez sur le bouton [[[bAjouter d'autres]]] pour ajouter d'autres appareils à la session de surveillance. Tous les appareils ajoutés seront surveillés simultanément dans une seule session." revision="0" />
     <Item value="Certaines sessions de surveillance peuvent faire l'objet d'une configuration supplémentaire. Cliquez sur le texte de configuration pour ouvrir la fenêtre de configuration et configurer la session de surveillance." revision="0" />
     <Item value="Une fois prêt, appuyez sur le bouton [[[bDébut]]] pour commencer la surveillance !" revision="0" />
     <Item value="Vous pouvez également capturer les paramètres de la fenêtre [[[bConfiguration de la session]]] dans un script. Pour ce faire, appuyez sur le bouton [[[bGénérer un script]]].\n\nD'autres options de début de session sont également disponibles. Consultez la [[[hdocumentation]]] pour plus d'informations." revision="1" />

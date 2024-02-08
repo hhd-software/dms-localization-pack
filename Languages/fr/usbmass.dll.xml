@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="operate independantly" value="Chaque interface au sein de la configuration spécifie ses propres informations de classe et les différentes interfaces fonctionnent de manière indépendante." revision="0" />
-  <Message key="Device supports different class specifications" value="Le dispositif prend en charge différentes spécifications de classe sur différentes interfaces et les interfaces peuvent ne pas fonctionner indépendamment." revision="0" />
-  <Message key="Device Class" value="Classe de dispositif" revision="0" />
+  <Message key="Device supports different class specifications" value="L'appareil prend en charge différentes spécifications de classe sur différentes interfaces et les interfaces peuvent ne pas fonctionner indépendamment." revision="0" />
+  <Message key="Device Class" value="Classe d'appareil" revision="0" />
   <Message key="This command is not defined." value="AVERTISSEMENT : Cette commande n'est pas définie dans le jeu de commandes actuel. " revision="0" />
   <Message key="WARNING" value="AVERTISSEMENT" revision="0" />
   <Message key="Mass Storage Device Detected." value="Périphérique de stockage de masse détecté." revision="0" />
   <Message key="unsupported device type" value="AVERTISSEMENT : type de périphérique non pris en charge." revision="0" />
-  <Message key="Device Detected." value="Dispositif détecté." revision="0" />
+  <Message key="Device Detected." value="Appareil détecté." revision="0" />
   <Enumeration key="MassConverter">
     <Item value="Vue de la mémoire de masse (Legacy)" revision="1" />
-    <Item value="Le visualisateur de données Vue mémoire de masse décode le protocole de mémoire de masse USB pour les dispositifs appartenant à la classe mémoire de masse." revision="1" />
+    <Item value="Le visualisateur de données Vue mémoire de masse décode le protocole de mémoire de masse USB pour les appareils appartenant à la classe mémoire de masse." revision="1" />
   </Enumeration>
   <Enumeration key="SPCCommandsCat">
     <Item />

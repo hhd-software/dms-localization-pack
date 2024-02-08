@@ -16,7 +16,7 @@
   <Message key="Stop Terminal Session" value="Arrêter la session du terminal" revision="0" />
   <Message key="Click To Switch State" value="Cliquer pour changer d'état" revision="0" />
   <Message key="Advanced Send title" value="Envoi avancé: {port}" revision="0" />
-  <Message key="Device Setup" value="Configuration du dispositif" revision="0" />
+  <Message key="Device Setup" value="Configuration de l'appareil" revision="0" />
   <Message key="Configuration with this name already exists. Do you want to overwrite it?" value="Une configuration portant ce nom existe déjà. Voulez-vous l'écraser ?" revision="0" />
   <Message key="No description" value="Aucune description" revision="0" />
   <Message key="Enter the configuration name." value="Saisissez le nom de la configuration." revision="0" />
@@ -32,7 +32,7 @@
   <Message key="milliseconds" value="millisecondes" revision="0" />
   <Enumeration key="TerminalNewSession">
     <Item value="Démarrer la session du terminal…" revision="0" />
-    <Item value="Lancer le terminal série pour le dispositif sélectionné." revision="0" />
+    <Item value="Lancer le terminal série pour l'appareil sélectionné." revision="0" />
   </Enumeration>
   <Enumeration key="TerminalSpecialSend">
     <Item value="Envoi avancé…" revision="0" />

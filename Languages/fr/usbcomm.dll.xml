@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="USB Communication Device Detected." value="Dispositif de communication USB détecté." revision="0" />
+  <Message key="USB Communication Device Detected." value="Appareil de communication USB détecté." revision="0" />
   <Message key="DataNbytes" value="Données ({size} octets)" revision="0" />
   <Enumeration key="CommConverter">
     <Item value="Vue des communications (Legacy)" revision="1" />

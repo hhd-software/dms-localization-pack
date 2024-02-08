@@ -9,17 +9,17 @@
     <Item value="Ordinal" revision="1" />
     <Item value="Heure" revision="1" />
     <Item value="Différence de temps" revision="1" />
-    <Item value="Dispositif d'envoi" revision="1" />
+    <Item value="Appareil d'envoi" revision="1" />
     <Item value="Données" revision="1" />
     <Item value="Chars de données" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item value="Dispositif A Octets lus/sec" revision="0" />
-    <Item value="Dispositif A Octets lus/sec est la vitesse à laquelle les données sont envoyées par le dispositif A." revision="0" />
+    <Item value="Appareil A Octets lus/sec" revision="0" />
+    <Item value="Appareil A Octets lus/sec est la vitesse à laquelle les données sont envoyées par l'appareil A." revision="0" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item value="Dispositif B Octets lus/sec" revision="0" />
-    <Item value="Dispositif B Octets lus/sec est le taux de données envoyées par le dispositif B." revision="0" />
+    <Item value="Appareil B Octets lus/sec" revision="0" />
+    <Item value="Appareil B Octets lus/sec est le taux de données envoyées par l'appareil B." revision="0" />
   </Enumeration>
   <Enumeration key="DataViewColors">
     <Item value="Lire : En-tête" revision="0" />
@@ -30,9 +30,9 @@
     <Item value="Écrire : Données binaires" revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewColors">
-    <Item value="Dispositif A En-tête" revision="0" />
-    <Item value="Dispositif A données binaires" revision="0" />
-    <Item value="Dispositif B En-tête" revision="0" />
-    <Item value="Dispositif B données binaires" revision="0" />
+    <Item value="Appareil A En-tête" revision="0" />
+    <Item value="Appareil A données binaires" revision="0" />
+    <Item value="Appareil B En-tête" revision="0" />
+    <Item value="Appareil B données binaires" revision="0" />
   </Enumeration>
 </Language>

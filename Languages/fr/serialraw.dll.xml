@@ -8,21 +8,21 @@
   <Message key="Basic" value="Base" revision="0" />
   <Message key="Complete" value="Complète" revision="0" />
   <Message key="PnP Event" value="Événement PnP" revision="0" />
-  <Message key="The device has just been connected to the system." value="Le dispositif vient d'être connecté au système." revision="0" />
-  <Message key="The device has been disconnected." value="Le dispositif a été déconnecté." revision="0" />
-  <Message key="PacketHeader" value="{n}: {header} ({up?}HAUT{|up}BAS{?up}), {time} ({device number}. Dispositif: {device name})\n" revision="0" />
+  <Message key="The device has just been connected to the system." value="L'appareil vient d'être connecté au système." revision="0" />
+  <Message key="The device has been disconnected." value="L'appareil a été déconnecté." revision="0" />
+  <Message key="PacketHeader" value="{n}: {header} ({up?}HAUT{|up}BAS{?up}), {time} ({device number}. Appareil: {device name})\n" revision="0" />
   <Message key="Reads" value="Lectures" revision="0" />
   <Message key="Writes" value="Écrire" revision="0" />
   <Message key="Buffer size" value="Taille du tampon" revision="0" />
   <Message key="PnP Event: Connect" value="Événement PnP : Connecter" revision="0" />
   <Message key="PnP Event: Disconnect" value="Événement PnP : Déconnexion" revision="0" />
-  <Message key="ProcessOpen" value="Processus {pid} ({has name?}{name}{|has name}&lt;Impossible de récupérer le nom du processus&gt;{?has name}) a tenté d'ouvrir le dispositif." revision="0" />
+  <Message key="ProcessOpen" value="Processus {pid} ({has name?}{name}{|has name}&lt;Impossible de récupérer le nom du processus&gt;{?has name}) a tenté d'ouvrir l'appareil." revision="0" />
   <Message key="ProcessCreate" value="Processus {pid} ({has name?}{name}{|has name}&lt;Impossible de récupérer le nom du processus&gt;{?has name}) créer un statut de demande: {status}" revision="0" />
   <Message key="Status" value="Statut: {status}" revision="0" />
   <Message key="OpenedBy" value="IRP_MJ_CREATE - processus [[[b{process id}]]] ({process name})" revision="0" />
   <Message key="Serial Structure View" value="{name} - Vue de la structure en série" revision="0" />
   <Message key="struct not found" value="La définition de la structure 'Serial' est introuvable. La vue de la structure ne peut pas afficher de résultats." revision="0" />
-  <Message key="Serial Device Information" value="Informations sur les dispositifs en série" revision="0" />
+  <Message key="Serial Device Information" value="Informations sur les appareils en série" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Vue de ligne" revision="0" />
     <Item value="La vue des lignes affiche l'état de toutes les lignes de contrôle du modem." revision="0" />
@@ -51,7 +51,7 @@
     <Item value="Statut" revision="0" />
     <Item value="Données" revision="0" />
     <Item value="Données (caractères)" revision="0" />
-    <Item value="Dispositif" revision="0" />
+    <Item value="Appareil" revision="0" />
   </Enumeration>
   <Enumeration key="SerialGeneralCat">
     <Item value="Afficher les paquets vides" revision="0" />

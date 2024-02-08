@@ -20,7 +20,7 @@
   <Message key="AllFilesFilter" value="Tous les fichiers|*.*|" revision="0" />
   <Message key="EmptyPath" value="Vide" revision="0" />
   <Message key="bytes" value="octets" revision="0" />
-  <Message key="Device:" value="Dispositif:" revision="0" />
+  <Message key="Device:" value="Appareil:" revision="0" />
   <Message key="Function:" value="Fonction:" revision="0" />
   <Message key="Value:" value="Valeur:" revision="0" />
   <Message key="Send" value="Envoyer" revision="0" />

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="PortOpenError" value="Impossible d'ouvrir le dispositif &quot;{device}&quot; : {error text} ({error code})" revision="0" />
-  <Message key="SetCommStateError" value="Impossible de configurer le dispositif &quot;{device}&quot;: {error text} ({error code})" revision="0" />
-  <Message key="SetCommTimeouts" value="Impossible de configurer les délais d'attente du dispositif &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="PortOpenError" value="Impossible d'ouvrir l'appareil &quot;{device}&quot; : {error text} ({error code})" revision="0" />
+  <Message key="SetCommStateError" value="Impossible de configurer l'appareil &quot;{device}&quot;: {error text} ({error code})" revision="0" />
+  <Message key="SetCommTimeouts" value="Impossible de configurer les délais d'attente de l'appareil &quot;{device}&quot;: {error text} ({error code})" revision="0" />
   <Message key="Bridge Config" value="{deviceA} &lt;-&gt; {deviceB} {baudrate} Baud, {mode}" revision="0" />
-  <Message key="Device not found" value="Le dispositif {name} est introuvable" revision="0" />
+  <Message key="Device not found" value="L'appareil {name} est introuvable" revision="0" />
   <Message key="Invalid flow control" value="Objet de contrôle de flux non valide" revision="0" />
-  <Message key="Same device" value="Le même dispositif a été spécifié pour les deux côtés du pont" revision="0" />
+  <Message key="Same device" value="Le même appareil a été spécifié pour les deux côtés du pont" revision="0" />
   <Message key="Bridge deleted" value="Le pont a été supprimé de l'interface utilisateur" revision="0" />
-  <Message key="Wrong device" value="L'objet pont renvoie à un mauvais dispositif" revision="0" />
+  <Message key="Wrong device" value="L'objet pont renvoie à un mauvais appareil" revision="0" />
   <Message key="Bridge Page" value="Pont série" revision="0" />
   <Message key="Timeout settings:" value="Paramètres du délai d'attente :" revision="0" />
   <Message key="(See documentation on-line)" value="(Voir la documentation en ligne)" revision="0" />
@@ -16,15 +16,15 @@
   <Message key="Read multiplier timeout:" value="Délai d'attente du multiplicateur de lecture:" revision="0" />
   <Message key="Read constant timeout:" value="Délai d'attente de la constante de lecture :" revision="0" />
   <Message key="Buffer size:" value="Taille du tampon :" revision="0" />
-  <Message key="IDS_NOSERIALDEVICES" value="Pas assez de dispositifs série trouvés. Vous avez besoin d'au moins deux appareils série différents pour créer un pont." revision="0" />
+  <Message key="IDS_NOSERIALDEVICES" value="Pas assez d'appareils série trouvés. Vous avez besoin d'au moins deux appareils série différents pour créer un pont." revision="0" />
   <Message key="IDS_BRIDGEERROR" value="Erreur de création de pont" revision="0" />
   <Message key="IDS_BRIDGEALREADYEXISTS" value="Un pont portant ce nom existe déjà. Spécifiez un autre nom." revision="0" />
   <Message key="IDS_CATEGORYFILTER" value="Pont série" revision="0" />
   <Message key="Enter Bridge Name" value="Saisir le nom du pont" revision="0" />
   <Message key="Enter new bridge name:" value="Saisir le nouveau nom du pont :" revision="0" />
   <Message key="Create New Bridge" value="Créer un nouveau pont" revision="0" />
-  <Message key="Device A:" value="Dispositif A :" revision="0" />
-  <Message key="Device B:" value="Dispositif B :" revision="0" />
+  <Message key="Device A:" value="Appareil A :" revision="0" />
+  <Message key="Device B:" value="Appareil B :" revision="0" />
   <Message key="Same port settings" value="Mêmes paramètres de port" revision="0" />
   <Message key="Select the serial bridge monitoring session type:" value="Sélectionnez le type de session de surveillance du pont série :" revision="0" />
   <Message key="Press the following button to change bridge parameters for this session only:" value="Appuyez sur le bouton suivant pour modifier les paramètres du pont pour cette session uniquement :" revision="0" />

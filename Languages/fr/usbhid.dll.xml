@@ -4,15 +4,15 @@
   <Message key="HidSessionErrorTitle" value="Erreur de session HID" revision="0" />
   <Message key="HidSessionLicenseError" value="Expiré. Passez à l'édition {edition} pour utiliser ce composant." revision="0" />
   <Message key="HIDSendTitle" value="Envoi HID" revision="0" />
-  <Message key="Unknown Hid Device" value="Dispositif HID inconnu" revision="0" />
+  <Message key="Unknown Hid Device" value="Appareil HID inconnu" revision="0" />
   <Message key="HID Info Not Available" value="N/A" revision="0" />
-  <Message key="Device Detected." value="Dispositif détecté." revision="0" />
-  <Message key="HID Device Detected." value="Dispositif HID détecté." revision="0" />
+  <Message key="Device Detected." value="Appareil détecté." revision="0" />
+  <Message key="HID Device Detected." value="Appareil HID détecté." revision="0" />
   <Message key="WARNING: unsupported device type. Trying to parse." value="AVERTISSEMENT : type de périphérique non pris en charge." revision="0" />
-  <Message key="Device Class" value="Classe de dispositif" revision="0" />
+  <Message key="Device Class" value="Classe d'appareil" revision="0" />
   <Enumeration key="HumanConverter">
     <Item value="Vue HID" revision="0" />
-    <Item value="Le visualisateur de données à la vue de HID décode les paquets et les structures de données spécifiques à HID et les affiche d'une manière confortable. Idéal pour les appareils appartenant à la classe des dispositifs d'interface humaine." revision="0" />
+    <Item value="Le visualisateur de données à la vue de HID décode les paquets et les structures de données spécifiques à HID et les affiche d'une manière confortable. Idéal pour les appareils appartenant à la classe des appareils à interface humaine." revision="0" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />

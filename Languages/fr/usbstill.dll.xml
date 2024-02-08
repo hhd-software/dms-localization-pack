@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Enumeration key="StillConverter">
     <Item value="Vue de l'image fixe/MTP (Legacy)" revision="1" />
-    <Item value="La Vue Image fixe/MTP décode le protocole USB Image fixe/MTP pour les dispositifs appartenant à la classe Image fixe/MTP." revision="1" />
+    <Item value="La Vue Image fixe/MTP décode le protocole USB Image fixe/MTP pour les appareils appartenant à la classe Image fixe/MTP." revision="1" />
   </Enumeration>
   <Enumeration key="BlockTypesCat">
     <Item />

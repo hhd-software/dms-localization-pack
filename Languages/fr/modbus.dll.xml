@@ -128,7 +128,7 @@
   <Message key="No values entered" value="Aucune valeur n'a été saisie" revision="0" />
   <Message key="Response can not contain more than 31 FIFO register values" value="La réponse ne peut pas contenir plus de 31 valeurs de registre FIFO" revision="0" />
   <Message key="Data size is too big" value="La taille des données est trop importante" revision="0" />
-  <Message key="This response can not be parsed because field sizes are device specific" value="Cette réponse ne peut pas être analysée car la taille des champs est spécifique à chaque dispositif." revision="0" />
+  <Message key="This response can not be parsed because field sizes are device specific" value="Cette réponse ne peut pas être analysée car la taille des champs est spécifique à chaque appareil." revision="0" />
   <Message key="Run Indicator Status can not be more than 255" value="L'état de l'indicateur de marche ne peut être supérieur à 255." revision="0" />
   <Message key="Select function" value="Sélectionner la fonction" revision="0" />
   <Message key="Cant parse packet" value="Paquet {n} : Erreur d'analyse du paquet" revision="0" />

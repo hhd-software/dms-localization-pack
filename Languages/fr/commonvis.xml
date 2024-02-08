@@ -74,11 +74,11 @@
   </Enumeration>
   <Enumeration key="NewStillConverter">
     <Item value="Vue de l'image fixe/MTP" revision="0" />
-    <Item value="Le visualisateur de données Image fixe/MTP View décode le protocole USB Image fixe/MTP pour les dispositifs appartenant à la classe Image fixe/MTP." revision="0" />
+    <Item value="Le visualisateur de données Image fixe/MTP View décode le protocole USB Image fixe/MTP pour les appareils appartenant à la classe Image fixe/MTP." revision="0" />
   </Enumeration>
   <Enumeration key="NewMassConverter">
     <Item value="Vue de la mémoire de masse" revision="0" />
-    <Item value="Le visualisateur Vue Mémoire de Masse décode le protocole de mémoire de masse USB pour les dispositifs appartenant à la classe Mémoire de Masse." revision="0" />
+    <Item value="Le visualisateur Vue Mémoire de Masse décode le protocole de mémoire de masse USB pour les appareils appartenant à la classe Mémoire de Masse." revision="0" />
   </Enumeration>
   <Enumeration key="NewCommConverter">
     <Item value="Vue des communications" revision="0" />
