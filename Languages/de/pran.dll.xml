@@ -12,9 +12,9 @@
   <Message key="Bridge Page" value="Serielle Brücke" revision="0" />
   <Message key="Timeout settings:" value="Timeout-Einstellungen:" revision="0" />
   <Message key="(See documentation on-line)" value="(Siehe Dokumentation online)" revision="0" />
-  <Message key="Read interval timeout:" value="Zeitüberschreitung beim Lesen:" revision="0" />
-  <Message key="Read multiplier timeout:" value="Multiplikator-Timeout lesen:" revision="0" />
-  <Message key="Read constant timeout:" value="Konstante Zeitüberschreitung lesen:" revision="0" />
+  <Message key="Read interval timeout:" value="Zeitüberschreitung des Leseintervalls:" revision="0" />
+  <Message key="Read multiplier timeout:" value="Zeitüberschreitung des Lesemultiplikators:" revision="0" />
+  <Message key="Read constant timeout:" value="Zeitüberschreitung der Lesekonstante:" revision="0" />
   <Message key="Buffer size:" value="Puffergröße:" revision="0" />
   <Message key="IDS_NOSERIALDEVICES" value="Nicht genügend serielle Geräte gefunden. Sie benötigen mindestens zwei verschiedene serielle Geräte, um eine Brücke zu erstellen." revision="0" />
   <Message key="IDS_BRIDGEERROR" value="Fehler bei der Erstellung einer Brücke" revision="0" />
