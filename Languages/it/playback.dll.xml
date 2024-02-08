@@ -4,6 +4,7 @@
   <Message key="CreateReaderError" value="Impossibile creare un lettore di log {filename}" revision="0" />
   <Message key="PlaybackInitError" value="Inizializzazione della riproduzione fallita  {filename}" revision="0" />
   <Message key="FileOpenError" value="Errore nell'apertura di {filename}. File mancante o danneggiato." revision="1" />
+  <Message key="StreamOpenError" value="Fallimento dell'apertura del flusso {stream} da {filename}" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item />
     <Item />

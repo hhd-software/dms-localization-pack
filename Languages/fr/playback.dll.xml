@@ -4,6 +4,7 @@
   <Message key="CreateReaderError" value="Impossible de créer un lecteur de journaux {filename}" revision="0" />
   <Message key="PlaybackInitError" value="L'initialisation de la lecture a échoué  {filename}" revision="0" />
   <Message key="FileOpenError" value="Erreur d'ouverture de {filename}. Fichier manquant ou endommagé." revision="1" />
+  <Message key="StreamOpenError" value="Échec de l'ouverture du flux {stream} à partir de {filename}" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item />
     <Item />
