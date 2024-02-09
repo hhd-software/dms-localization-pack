@@ -44,7 +44,7 @@
     <Item value="Die Wiedergabedatenquelle gibt aufgezeichnete Überwachungssitzungen wieder und ermöglicht eine verzögerte Geräteanalyse." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
-    <Item value="Importe" revision="0" />
+    <Item value="Import" revision="0" />
     <Item value="Die Quelle &quot;Datenimport&quot; liest Daten in Fremdformaten, die aus anderen Produkten exportiert wurden, und reproduziert sie. " revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">

@@ -44,7 +44,7 @@
     <Item value="La fuente de datos de reproducción reproduce las sesiones de supervisión grabadas, lo que permite un análisis diferido del dispositivo." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
-    <Item value="Importar" revision="0" />
+    <Item value="Importación" revision="0" />
     <Item value="Importar fuente de datos lee datos en formatos ajenos exportados desde otros productos de monitorización y los reproduce. Esto permite utilizar el amplio conjunto de componentes de procesamiento de datos de Device Monitoring Studio." revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">

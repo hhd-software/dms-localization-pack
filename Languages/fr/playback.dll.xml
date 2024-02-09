@@ -5,33 +5,68 @@
   <Message key="PlaybackInitError" value="L'initialisation de la lecture a échoué  {filename}" revision="0" />
   <Message key="FileOpenError" value="Erreur d'ouverture de {filename}. Fichier manquant ou endommagé." revision="1" />
   <Message key="StreamOpenError" value="Échec de l'ouverture du flux {stream} à partir de {filename}" revision="0" />
+  <Message key="PropertiesReadError" value="Erreur de lecture des propriétés de {filename}." revision="0" />
+  <Message key="FileNotSpecified" value="Le fichier d'importation doit être spécifié. Créez une nouvelle session de surveillance et spécifiez le fichier d'importation." revision="0" />
+  <Message key="OpenFileError" value="Erreur d'ouverture du fichier d'importation : {error text} ({error code})." revision="0" />
+  <Message key="ReaderCreationError" value="Le format du fichier est inconnu." revision="0" />
+  <Message key="Config Error" value="Le nom de chemin complet est attendu" revision="0" />
+  <Message key="ErrorRangeAll" value="Erreur d'analyse du champ 'range'. Il doit s'agir d'un objet ou de la chaîne 'all'" revision="0" />
+  <Message key="ErrorRangeFrom" value="Erreur d'analyse du champ &quot;from" revision="0" />
+  <Message key="ErrorRangeTo" value="Erreur d'analyse du champ &quot;to" revision="0" />
+  <Message key="SpeedError" value="Valeur de la vitesse hors plage" revision="0" />
+  <Message key="Repairing damaged log files" value="Réparation des fichiers journaux endommagés" revision="0" />
+  <Message key="EmergencyErrorType" value="Arrêt d'urgence de la session de lecture" revision="0" />
+  <Message key="NewLogFormatDescription" value="Fichiers journaux" revision="0" />
+  <Message key="Computing" value="Calculs…" revision="0" />
+  <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Pas de données{?valid}" revision="0" />
+  <Message key="RangeSelTooltip" value="Début: {from}\nFin: {to}\nDurée: {has days?}{days} jours, {?has days}{has hours?}{hours} heures, {?has hours}{has minutes?}{minutes} minutes, {?has minutes}{seconds} secondes." revision="0" />
+  <Message key="InvalidRange" value="Une plage de lecture doit durer au moins une seconde." revision="0" />
+  <Message key="Searching for log files" value="Recherche de fichiers journaux" revision="0" />
+  <Message key="Stepped" value="Pas à pas" revision="0" />
+  <Message key="Continuous" value="En continu" revision="0" />
+  <Message key="Unable to delete selected playback files" value="Impossible de supprimer les fichiers de lecture sélectionnés. Au moins l'un d'entre eux est en cours de lecture." revision="0" />
+  <Message key="DifferentArchError" value="Ce flux de fichiers journaux a été créé sur une machine dont l'architecture de processeur est différente et ne peut pas être lu." revision="0" />
+  <Message key="Playback settings" value="Paramètres de lecture" revision="0" />
+  <Message key="Virtual device configuration" value="Configuration de l'appareil virtuel" revision="0" />
+  <Message key="Import file path" value="Chemin du fichier d'importation" revision="0" />
+  <Message key="Select time range for playback" value="Sélection de l'intervalle de temps pour la lecture" revision="0" />
+  <Message key="Logarithmic scale" value="Échelle logarithmique" revision="0" />
+  <Message key="Highlight missing data" value="Mettre en évidence les données manquantes" revision="0" />
+  <Message key="From" value="De" revision="0" />
+  <Message key="to" value="à" revision="0" />
+  <Message key="Select playback speed" value="Sélection de la vitesse de lecture" revision="0" />
+  <Message key="Update..." value="Mettre à jour…" revision="0" />
+  <Message key="Recorded sessions" value="Sessions enregistrées" revision="0" />
+  <Message key="Next" value="Suivant" revision="0" />
+  <Message key="PlaybackCategoryFilter" value="Lecture" revision="0" />
   <Enumeration key="PlaybackSource">
-    <Item />
-    <Item />
+    <Item value="Lecture" revision="0" />
+    <Item value="La source de données Lecture permet de lire les sessions de surveillance enregistrées, ce qui permet une analyse différée de l'appareil." revision="0" />
   </Enumeration>
   <Enumeration key="ImportSource">
-    <Item />
-    <Item />
+    <Item value="Importation" revision="0" />
+    <Item value="La source de données d'importation lit les données dans des formats étrangers exportés à partir d'autres produits de surveillance et les lit. Cela vous permet d'utiliser le large éventail de composants de traitement des données de Device Monitoring Studio." revision="0" />
   </Enumeration>
   <Enumeration key="WiresharkDesc">
     <Item />
-    <Item />
+    <Item value="Fichiers de capture Wireshark" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="NetmonDesc">
     <Item />
-    <Item />
+    <Item value="Fichiers de capture Microsoft Netmon" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="MonitoredNotify">
-    <Item />
-    <Item />
+    <Item value="Au moins une session est encore en cours sur l'adaptateur virtuel. Voulez-vous arrêter la (les) session(s) de l'adaptateur virtuel et continuer ?" revision="0" />
+    <Item value="Adaptateur virtuel" revision="0" />
   </Enumeration>
   <Enumeration key="ImportFormats">
-    <Item />
-    <Item />
+    <Item value="Tous les fichiers pris en charge|*.pcap;*.cap|Fichiers Wireshark|*.pcap|Fichiers Netmon|*.cap|" revision="0" />
+    <Item value="Fichiers JavaScript|*.js|" revision="0" />
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
+    <Item value="Pas à pas" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -41,35 +76,34 @@
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
+    <Item value="En continu" revision="0" />
   </Enumeration>
   <Enumeration key="DeletePlayback">
-    <Item />
-    <Item />
+    <Item value="Supprimer" revision="0" />
+    <Item value="Supprimer le fichier sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="SortByDate">
-    <Item />
-    <Item />
+    <Item value="Trier par date" revision="0" />
+    <Item value="Trier par date" revision="0" />
   </Enumeration>
   <Enumeration key="SortByName">
-    <Item />
-    <Item />
+    <Item value="Trier par nom" revision="0" />
+    <Item value="Trier par nom" revision="0" />
   </Enumeration>
   <Enumeration key="ShowDateTime">
-    <Item />
-    <Item />
+    <Item value="Affichage de la date et de l'heure" revision="0" />
+    <Item value="Affichage de la date et de l'heure" revision="0" />
   </Enumeration>
   <Enumeration key="ShowSize">
-    <Item />
-    <Item />
+    <Item value="Afficher la taille" revision="0" />
+    <Item value="Afficher la taille" revision="0" />
   </Enumeration>
   <Enumeration key="OpenFileLocation">
-    <Item />
-    <Item />
+    <Item value="Ouvrir l'emplacement du fichier" revision="0" />
+    <Item value="Ouvrir l'emplacement du fichier" revision="0" />
   </Enumeration>
   <Enumeration key="Continue Playback2">
-    <Item />
-    <Item />
+    <Item value="Continuer la lecture" revision="0" />
+    <Item value="Appuyez sur la touche Next pour poursuivre la lecture." revision="0" />
   </Enumeration>
 </Language>
