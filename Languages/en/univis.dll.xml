@@ -869,5 +869,21 @@
 
 	<!-- Save Scheme dialog -->
 	<Message key="Save Color" description="Window title: Save Color"/>
-	
+
+	<Enumeration key="SelectionGotoStart" description="Command: Go to Start (Selection details)">
+		<Item text="Go to Start"/>
+		<Item text="Jump to the start of selection block"/>
+	</Enumeration>
+	<Enumeration key="SelectionGotoEnd" description="Command: Go to End (Selection details)">
+		<Item text="Go to End"/>
+		<Item text="Jump to the end of selection block"/>
+	</Enumeration>
+	<Enumeration key="SelectionDeleteBlock" description="Command: Delete Block (Selection details)">
+		<Item text="Delete Block"/>
+		<Item text="Delete selection block"/>
+	</Enumeration>
+	<Enumeration key="SelectionClear" description="Command: Clear Selection (Selection details)">
+		<Item text="Clear Selection"/>
+		<Item text="Delete all selected blocks"/>
+	</Enumeration>
 </Definition>
