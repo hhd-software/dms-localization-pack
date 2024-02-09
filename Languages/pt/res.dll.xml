@@ -14,8 +14,8 @@
   <Message key="FreeFirstLaunchText" value="A versão gratuita do produto tem um conjunto limitado de funcionalidades.\n\nPode continuar com as características limitadas ou experimentar a funcionalidade alargada GRATUITAMENTE durante 14 dias." revision="0" />
   <Message key="Trial dialog title: free" value="Obter funcionalidade alargada" revision="0" />
   <Message key="Trial dialog title: trial" value="Obter a versão registada agora!" revision="0" />
-  <Message key="Trial text: free" value="Algumas funcionalidades alargadas do Device Monitoring Studio são [[[bTrial]]] ou [[[bExpired]]].\n\nPode continuar com a funcionalidade limitada ou atualizar para a versão alargada.\nA aquisição de uma funcionalidade alargada eliminará este ecrã." revision="1" />
-  <Message key="Trial text: trial" value="Os seguintes componentes são [[[bTrial]]] ou [[[bExpired]]].\n\nNão pode continuar a utilizar componentes expirados e tem um período de avaliação limitado para os componentes de avaliação. Para eliminar este ecrã, terá de comprar pelo menos um componente." revision="1" />
+  <Message key="Trial text: free" value="Algumas funcionalidades alargadas do Device Monitoring Studio são [[[bTrial]]] ou [[[bExpiradas]]].\n\nPode continuar com a funcionalidade limitada ou atualizar para a versão alargada.\nA aquisição de uma funcionalidade alargada eliminará este ecrã." revision="1" />
+  <Message key="Trial text: trial" value="Os seguintes componentes são [[[bTrial]]] ou [[[bExpiradas]]].\n\nNão pode continuar a utilizar componentes expirados e tem um período de avaliação limitado para os componentes de avaliação. Para eliminar este ecrã, terá de comprar pelo menos um componente." revision="1" />
   <Message key="SpecialOfferFormat" value="[[[h#[Clique para obter mais informações sobre esta oferta]#{offer text}]]]" revision="0" />
   <Message key="Feature not Available.Title" value="Funcionalidade não disponível" revision="0" />
   <Message key="Trial days left" value="Período de teste, {days} dias restantes" revision="0" />
@@ -67,7 +67,7 @@
   <Enumeration key="LicenseType">
     <Item value="Desconhecido" revision="0" />
     <Item value="Grátis" revision="0" />
-    <Item value="Período de teste" revision="0" />
+    <Item value="Teste" revision="0" />
     <Item value="Expirado" revision="0" />
     <Item value="Registado" revision="0" />
   </Enumeration>

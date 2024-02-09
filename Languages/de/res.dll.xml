@@ -27,7 +27,7 @@
   <Message key="MessageStartTrial" value="Sie haben die kostenlose Probezeit für alle erweiterten Funktionen erfolgreich gestartet!" revision="0" />
   <Message key="Commercial" value="Kommerzielle Lizenz" revision="0" />
   <Message key="NonCommercial" value="Nicht-kommerzielle Lizenz" revision="0" />
-  <Message key="License File Filter" value="Device Monitoring Studio-Lizenzdateien|*.dmslic|All Files|*.*|" revision="0" />
+  <Message key="License File Filter" value="Device Monitoring Studio-Lizenzdateien|*.dmslic|Alle Dateien|*.*|" revision="0" />
   <Message key="Copyright" value="Warnung: Dieses Computerprogramm ist durch das Urheberrechtsgesetz und internationale Verträge geschützt. Die unbefugte Vervielfältigung oder Verbreitung dieses Programms oder eines Teils davon kann schwere zivil- und strafrechtliche Folgen haben und wird im Rahmen der gesetzlichen Möglichkeiten verfolgt." revision="0" />
   <Message key="About Device Monitoring Studio" value="Über Device Monitoring Studio" revision="0" />
   <Message key="Installed Components:" value="Installierte Komponenten:" revision="0" />

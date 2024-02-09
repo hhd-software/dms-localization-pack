@@ -14,8 +14,8 @@
   <Message key="FreeFirstLaunchText" value="La versión gratuita del producto tiene funciones limitadas.\n\nPuede continuar con las funciones limitadas o probar la funcionalidad ampliada de forma GRATUITA durante 14 días." revision="0" />
   <Message key="Trial dialog title: free" value="Obtenga funcionalidad ampliada" revision="0" />
   <Message key="Trial dialog title: trial" value="Obtenga la versión registrada ahora" revision="0" />
-  <Message key="Trial text: free" value="Algunas funciones ampliadas de Device Monitoring Studio son [[[bTrial]]] o [[[bExpired]]].\n\nPuede continuar con la funcionalidad limitada o actualizar a la versión ampliada.\nLa compra de la funcionalidad ampliada eliminará esta pantalla." revision="1" />
-  <Message key="Trial text: trial" value="Los siguientes componentes son [[[bTrial]]] o [[[bExpired]]].\n\nNo puede seguir utilizando componentes caducados y tiene un periodo de prueba limitado para los componentes de prueba. Para eliminar esta pantalla, deberá adquirir al menos un componente." revision="1" />
+  <Message key="Trial text: free" value="Algunas funciones ampliadas de Device Monitoring Studio son [[[bde prueba]]] o [[[bcaducadas]]].\n\nPuede continuar con la funcionalidad limitada o actualizar a la versión ampliada.\nLa compra de la funcionalidad ampliada eliminará esta pantalla." revision="1" />
+  <Message key="Trial text: trial" value="Los siguientes componentes son [[[bde prueba]]] o [[[bcaducadas]]].\n\nNo puede seguir utilizando componentes caducados y tiene un periodo de prueba limitado para los componentes de prueba. Para eliminar esta pantalla, deberá adquirir al menos un componente." revision="1" />
   <Message key="SpecialOfferFormat" value="[[[h#[Clic para obtener más información sobre esta oferta]#{offer text}]]]" revision="0" />
   <Message key="Feature not Available.Title" value="Función no disponible" revision="0" />
   <Message key="Trial days left" value="Período de prueba, {days} días restantes" revision="0" />
@@ -35,7 +35,7 @@
   <Message key="Feature Not Available" value="Función no disponible" revision="0" />
   <Message key="The features you are trying to use are not available in the current edition." value="Las funciones que intentas utilizar no están disponibles en la edición actual." revision="0" />
   <Message key="Start Trial!" value="Iniciar prueba" revision="0" />
-  <Message key="License Management" value="License Management" revision="0" />
+  <Message key="License Management" value="Gestión de licencias " revision="0" />
   <Message key="Installed licenses:" value="Licencias instaladas:" revision="0" />
   <Message key="Install License" value="&amp;Instalar licencia…" revision="0" />
   <Message key="Purchase" value="&amp;Comprar…" revision="0" />
@@ -67,7 +67,7 @@
   <Enumeration key="LicenseType">
     <Item value="Desconocido" revision="0" />
     <Item value="Gratis" revision="0" />
-    <Item value="Período de prueba" revision="0" />
+    <Item value="Prueba" revision="0" />
     <Item value="Expirado" revision="0" />
     <Item value="Registrado" revision="0" />
   </Enumeration>

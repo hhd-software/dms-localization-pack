@@ -1,34 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="SkipNagScreen" value="Sauter l'écran Nag (débogage uniquement)" revision="0" />
+  <Message key="ModuleName" value="{module}\tVersion {major}.{minor}.{revision}.{build}" revision="0" />
   <Message key="AboutBoxInfo" value="HHD Software {appname}\nVersion {major}.{minor}.{revision}.{build}\n© 2001 - {year} HHD Software Ltd.\nTous droits réservés." revision="6" />
+  <Message key="EditionName" value="{edition} Édition" revision="0" />
+  <Message key="SelectComponentEdition" value="Sélectionner l'édition du composant…" revision="0" />
+  <Message key="UpgradeToEdition" value="Passer à l'édition {edition}" revision="0" />
+  <Message key="Never" value="Jamais" revision="0" />
+  <Message key="LicenseSuccess" value="Le fichier de licence a été installé avec succès et l'application a été activée. Nous vous remercions d'avoir choisi Device Monitoring Studio !" revision="0" />
+  <Message key="LicenseFailure" value="Une erreur s'est produite lors de l'installation du fichier de licence sélectionné. Cette erreur peut être due à ce qui suit :\n\n  · Fichier de licence corrompu.\n  · Fichier de licence expiré.\n  · Fichier de licence pour un autre produit.\n\nConnectez-vous à la section Mon compte de notre site web et téléchargez gratuitement le nouveau fichier de licence." revision="0" />
+  <Message key="LicenseRestart" value="Il est fortement recommandé de redémarrer le produit pour prendre en compte les modifications." revision="0" />
+  <Message key="FreeFirstLaunchTitle" value="Bienvenue sur le site de HHD Software Free Device Monitoring Studio" revision="0" />
+  <Message key="FreeFirstLaunchText" value="La version gratuite du produit présente un ensemble limité de fonctionnalités.\n\nVous pouvez continuer à utiliser les fonctionnalités limitées ou essayer les fonctionnalités étendues GRATUITEMENT pendant 14 jours." revision="0" />
+  <Message key="Trial dialog title: free" value="Obtenir des fonctionnalités étendues" revision="0" />
+  <Message key="Trial dialog title: trial" value="Obtenez la version enregistrée dès maintenant !" revision="0" />
+  <Message key="Trial text: free" value="Certaines fonctions étendues de Device Monitoring Studio sont [[[bà l'essai]]] ou [[[bexpirées]]].\n\nVous pouvez continuer à utiliser des fonctionnalités limitées ou passer à la version étendue.\nL'achat d'une fonctionnalité étendue supprimera cet écran." revision="1" />
+  <Message key="Trial text: trial" value="Les composants suivants sont [[[bà l'essai]]] ou [[[bexpirées]]].\n\nVous ne pouvez pas continuer à utiliser des composants périmés et vous disposez d'une période d'essai limitée pour les composants d'essai. Pour éliminer cet écran, vous devez acheter au moins un composant." revision="1" />
+  <Message key="SpecialOfferFormat" value="[[[h#[Cliquez pour obtenir plus d'informations sur cette offre]#{offer text}]]]" revision="0" />
+  <Message key="Feature not Available.Title" value="Caractéristique non disponible" revision="0" />
+  <Message key="Trial days left" value="Essai, {days} jours restants" revision="0" />
+  <Message key="Upgrade Notification" value="Vous serez alors redirigé vers la section Mon compte du site web de HHD Software où vous pourrez configurer votre mise à niveau.\n\nVeuillez noter que si vous utilisez la version enregistrée, vous disposez déjà d'un compte.\n\nUtilisez le Conseil du mot de passe si vous ne vous souvenez plus de votre mot de passe ou demandez à notre équipe d'assistance si vous n'arrivez toujours pas à vous connecter." revision="0" />
+  <Message key="Upgrades" value="Mises à niveau" revision="0" />
+  <Message key="You must select at least one edition!" value="Vous devez sélectionner au moins une édition !" revision="0" />
+  <Message key="Purchase Now" value="Acheter" revision="0" />
+  <Message key="All components purchased" value="Tous les composants installés ont déjà été achetés. Si vous souhaitez effectuer une mise à niveau, veuillez cliquer sur le bouton Mise à niveau…" revision="0" />
+  <Message key="MessageStartTrial" value="Vous avez démarré avec succès la période d'essai gratuite pour toutes les fonctions étendues !" revision="0" />
+  <Message key="Commercial" value="Licence commerciale" revision="0" />
+  <Message key="NonCommercial" value="Licence non commerciale" revision="0" />
+  <Message key="License File Filter" value="Fichiers de licence de Device Monitoring Studio|*.dmslic|Tous les fichiers|*.*|" revision="0" />
+  <Message key="Copyright" value="Avertissement : Ce programme informatique est protégé par la loi sur les droits d'auteur et les traités internationaux. La reproduction ou la distribution non autorisée de ce programme, ou d'une partie de celui-ci, peut entraîner de graves sanctions civiles et pénales, et sera poursuivie dans toute la mesure permise par la loi." revision="0" />
+  <Message key="About Device Monitoring Studio" value="À propos de Device Monitoring Studio" revision="0" />
+  <Message key="Installed Components:" value="Composants installés :" revision="0" />
+  <Message key="Component Details:" value="Détails du composant :" revision="0" />
+  <Message key="Feature Not Available" value="Caractéristique non disponible" revision="0" />
+  <Message key="The features you are trying to use are not available in the current edition." value="Les fonctions que vous essayez d'utiliser ne sont pas disponibles dans l'édition actuelle." revision="0" />
+  <Message key="Start Trial!" value="Commencez l'essai !" revision="0" />
+  <Message key="License Management" value="Gestion des licences" revision="0" />
+  <Message key="Installed licenses:" value="Licences installées :" revision="0" />
+  <Message key="Install License" value="&amp;Installer la licence…" revision="0" />
+  <Message key="Purchase" value="&amp;Achat…" revision="0" />
+  <Message key="Upgrade" value="&amp;Mise à niveau…" revision="0" />
+  <Message key="Start Free Trial" value="Commencer l'essai gratuit" revision="0" />
+  <Message key="Purchase Device Monitoring Studio Now!" value="Achetez Device Monitoring Studio dès maintenant !" revision="0" />
+  <Message key="Get Registered Version Now!" value="Obtenez la version enregistrée dès maintenant !" revision="0" />
+  <Message key="Select the edition type for each component and click Continue button." value="Sélectionnez le type d'édition pour chaque composant et cliquez sur le bouton Continuer." revision="0" />
+  <Message key="Compare Editions..." value="Comparer les éditions…" revision="0" />
+  <Message key="Click Continue to place selected module(s) into the Shopping Cart. You will be able to set additional options later." value="Cliquez sur Continuer pour placer le(s) module(s) sélectionné(s) dans le panier d'achat. Vous pourrez définir des options supplémentaires ultérieurement." revision="0" />
   <Enumeration key="HelpRegister">
-    <Item />
-    <Item />
+    <Item value="&amp;Gestion des licences…" revision="0" />
+    <Item value="Ouvrir la boîte de dialogue Gestion des licences" revision="0" />
   </Enumeration>
   <Enumeration key="HelpAbout">
-    <Item />
-    <Item />
+    <Item value="&amp;A propos…" revision="0" />
+    <Item value="À propos du studio de surveillance des appareils" revision="0" />
   </Enumeration>
   <Enumeration key="EditionNames">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="1" />
+    <Item value="Professionnelle" revision="1" />
+    <Item value="Ultimate" revision="1" />
   </Enumeration>
   <Enumeration key="FeatureDlgColumnNames">
-    <Item />
-    <Item />
+    <Item value="Fonctionnalité" revision="0" />
+    <Item value="Édition" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Inconnu" revision="0" />
+    <Item value="Gratuit" revision="0" />
+    <Item value="Essai" revision="0" />
+    <Item value="Expiré" revision="0" />
+    <Item value="Enregistré" revision="0" />
   </Enumeration>
   <Enumeration key="CommercialState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Non" revision="0" />
+    <Item value="Oui" revision="0" />
+    <Item value="N/A" revision="0" />
   </Enumeration>
   <Enumeration key="Feature not Available.Text">
     <Item />
@@ -36,21 +81,21 @@
     <Item />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
-    <Item />
-    <Item />
+    <Item value="Commencer l'essai gratuit" revision="0" />
+    <Item value="Commencer l'essai gratuit" revision="0" />
   </Enumeration>
   <Enumeration key="PlayerSource">
-    <Item />
-    <Item />
+    <Item value="Lecture du journal" revision="0" />
+    <Item value="Le module de lecture des journaux vous permet de lire les sessions de surveillance précédemment enregistrées." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteSource">
-    <Item />
-    <Item />
+    <Item value="Moniteur à distance" revision="0" />
+    <Item value="Permet de surveiller les appareils à distance" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Licence" revision="0" />
+    <Item value="Type" revision="0" />
+    <Item value="Expire le" revision="0" />
+    <Item value="Commercial" revision="0" />
   </Enumeration>
 </Language>
