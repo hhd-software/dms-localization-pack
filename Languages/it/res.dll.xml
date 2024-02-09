@@ -42,6 +42,7 @@
   <Message key="Upgrade" value="&amp;Aggiornamento…" revision="0" />
   <Message key="Start Free Trial" value="Iniziare la prova gratuita" revision="0" />
   <Message key="Purchase Device Monitoring Studio Now!" value="Acquistate ora Device Monitoring Studio!" revision="0" />
+  <Message key="NagInfo" value="I seguenti componenti sono in prova o scaduti.\n\nNon è possibile continuare a utilizzare i componenti scaduti e il periodo di prova dei componenti di prova è limitato. Per eliminare questa schermata, è necessario acquistare almeno un componente." revision="0" />
   <Message key="Get Registered Version Now!" value="Ottenete subito la versione registrata!" revision="0" />
   <Message key="Select the edition type for each component and click Continue button." value="Selezionare il tipo di edizione per ciascun componente e fare clic sul pulsante Continua." revision="0" />
   <Message key="Compare Editions..." value="Confronta le edizioni…" revision="0" />
@@ -76,9 +77,9 @@
     <Item value="N/D" revision="0" />
   </Enumeration>
   <Enumeration key="Feature not Available.Text">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Le funzioni che state cercando di utilizzare non sono incluse nella versione gratuita.\n\n{has feature names?}{feature names}\n\n{?has feature names}Potete continuare con le funzioni limitate o provare le funzionalità estese GRATUITAMENTE per 14 giorni." revision="0" />
+    <Item value="Le funzioni che state cercando di utilizzare non sono incluse nella versione gratuita.\n\n{has feature names?}{feature names}\n\n{?has feature names}È possibile continuare con le funzioni limitate o passare alla versione estesa." revision="0" />
+    <Item value="Le funzioni che si stanno cercando di utilizzare non sono incluse nell'edizione corrente.\n\n{has feature names?}{feature names}\n\n{?has feature names}È possibile continuare con le funzioni limitate o passare alla versione estesa." revision="0" />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
     <Item value="Iniziare la prova gratuita" revision="0" />

@@ -42,6 +42,7 @@
   <Message key="Upgrade" value="&amp;Mise à niveau…" revision="0" />
   <Message key="Start Free Trial" value="Commencer l'essai gratuit" revision="0" />
   <Message key="Purchase Device Monitoring Studio Now!" value="Achetez Device Monitoring Studio dès maintenant !" revision="0" />
+  <Message key="NagInfo" value="Les composants suivants sont à l'essai ou expirés.\n\nVous ne pouvez pas continuer à utiliser des composants périmés et vous disposez d'une période d'essai limitée pour les composants d'essai. Pour éliminer cet écran, vous devez acheter au moins un composant." revision="0" />
   <Message key="Get Registered Version Now!" value="Obtenez la version enregistrée dès maintenant !" revision="0" />
   <Message key="Select the edition type for each component and click Continue button." value="Sélectionnez le type d'édition pour chaque composant et cliquez sur le bouton Continuer." revision="0" />
   <Message key="Compare Editions..." value="Comparer les éditions…" revision="0" />
@@ -76,9 +77,9 @@
     <Item value="N/A" revision="0" />
   </Enumeration>
   <Enumeration key="Feature not Available.Text">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Les fonctions que vous essayez d'utiliser ne sont pas incluses dans la version gratuite.\n\n{has feature names?}{feature names}\n\n{?has feature names}Vous pouvez continuer à utiliser des fonctionnalités limitées ou essayer des fonctionnalités étendues GRATUITEMENT pendant 14 jours." revision="0" />
+    <Item value="Les fonctions que vous essayez d'utiliser ne sont pas incluses dans la version gratuite.\n\n{has feature names?}{feature names}\n\n{?has feature names}Vous pouvez continuer à utiliser les fonctionnalités limitées ou passer à la version étendue." revision="0" />
+    <Item value="La ou les fonctionnalités que vous essayez d'utiliser ne sont pas incluses dans l'édition actuelle.\n\n{has feature names?}{feature names}\n\n{?has feature names}Vous pouvez continuer à utiliser les fonctionnalités limitées ou passer à la version étendue." revision="0" />
   </Enumeration>
   <Enumeration key="HelpStartTrial">
     <Item value="Commencer l'essai gratuit" revision="0" />
