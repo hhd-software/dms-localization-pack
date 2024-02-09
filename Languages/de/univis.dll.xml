@@ -638,4 +638,20 @@
     <Item lookup="Type" />
     <Item lookup="Time" />
   </Enumeration>
+  <Enumeration key="SelectionGotoStart">
+    <Item value="Zum Start gehen" revision="0" />
+    <Item value="Sprung an den Anfang des Auswahlblocks" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoEnd">
+    <Item value="Zum Ende gehen" revision="0" />
+    <Item value="An das Ende des Auswahlblocks springen" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDeleteBlock">
+    <Item value="Block löschen" revision="0" />
+    <Item value="Auswahlblock löschen" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionClear">
+    <Item value="Auswahl löschen" revision="0" />
+    <Item value="Alle ausgewählten Blöcke löschen" revision="0" />
+  </Enumeration>
 </Language>

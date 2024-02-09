@@ -638,4 +638,20 @@
     <Item lookup="Type" />
     <Item lookup="Time" />
   </Enumeration>
+  <Enumeration key="SelectionGotoStart">
+    <Item value="Перейти к началу" revision="0" />
+    <Item value="Перейти к началу выделенного блока" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionGotoEnd">
+    <Item value="Перейти в конец" revision="0" />
+    <Item value="Переход к концу выделенного блока" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionDeleteBlock">
+    <Item value="Удалить блок" revision="0" />
+    <Item value="Удалить выделенный блок" revision="0" />
+  </Enumeration>
+  <Enumeration key="SelectionClear">
+    <Item value="Очистить выделенное" revision="0" />
+    <Item value="Удалить все выбранные блоки" revision="0" />
+  </Enumeration>
 </Language>
