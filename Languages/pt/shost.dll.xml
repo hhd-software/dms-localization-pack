@@ -59,7 +59,7 @@
     <Item value="Passo fora da função chamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOver">
-    <Item value="Passar Por Cima " revision="0" />
+    <Item value="Passar Por Cima" revision="0" />
     <Item value="Passar por cima da função chamada" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">

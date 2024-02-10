@@ -1,76 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Scripting" value="Scripting" revision="0" />
+  <Message key="ReloadScripts" value="Recharger les scripts au démarrage" revision="0" />
+  <Message key="AskToSaveScripts" value="Demande d'enregistrement des scripts non sauvegardés à la fermeture" revision="0" />
+  <Message key="IncludeInWorkspace" value="Inclure la configuration des scripts dans l'espace de travail" revision="0" />
+  <Message key="AskToSaveScript" value="Le fichier de script actuel contient des modifications non enregistrées. Voulez-vous les enregistrer ?" revision="0" />
+  <Message key="Expired" value="Le composant de script a expiré. Vous devez mettre à niveau le produit vers l'édition {edition} pour pouvoir l'utiliser." revision="0" />
+  <Message key="SaveScripts" value="Certains scripts ouverts sont modifiés et ne sont pas enregistrés. Voulez-vous les enregistrer maintenant ?" revision="0" />
+  <Message key="Running Script" value="Exécution du script…\n" revision="0" />
+  <Message key="Stopping Script" value="Arrêt de l'exécution du script" revision="0" />
+  <Message key="Stopped Script" value="\nL'exécution du script s'est arrêtée.\n" revision="0" />
+  <Message key="Compiling TypeScript" value="Compilation du TypeScript…\n" revision="0" />
+  <Message key="New Script" value="Nouveau script {ordinal}" revision="0" />
+  <Message key="Javascript description" value="Fichier JavaScript" revision="0" />
+  <Message key="Typescript description" value="Fichier TypeScript" revision="0" />
+  <Message key="Invalid handle" value="Handle non valide" revision="0" />
+  <Message key="ScriptFiles" value="Fichiers JavaScript (*.js)|*.js|Fichiers TypeScript (*.ts)|*.ts|ous les fichiers|*.*|" revision="0" />
+  <Message key="ScriptException" value="{uncaught?}L'e{|uncaught}E{?uncaught}xception non résolue &quot;{name}&quot; s'est produite à {line}:{column}\n" revision="0" />
+  <Message key="Main body finish" value="\nL'exécution du corps du script principal est terminée. Exécution de fonctions et d'événements asynchrones…\n" revision="0" />
+  <Message key="WatchTitle" value="Debug Watch" revision="0" />
+  <Message key="CallStackTitle" value="Pile de purification" revision="0" />
+  <Message key="Script Trace Output" value="Sortie de la trace de script" revision="0" />
+  <Message key="ScriptChanged" value="Votre script a été modifié. Il est impossible d'en poursuivre l'exécution. Voulez-vous arrêter l'exécution du script ?" revision="0" />
+  <Message key="Input Value" value="Valeur d'entrée" revision="0" />
+  <Message key="Breakpoints" value="Points d'arrêt" revision="0" />
+  <Message key="Line:" value="Ligne:" revision="0" />
+  <Message key="toolbar.Watch" value="Debug Watch" revision="0" />
   <Enumeration key="ScriptingNew">
-    <Item />
-    <Item />
+    <Item value="Nouveau &amp;Script" revision="0" />
+    <Item value="Créer un nouveau script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRun">
-    <Item />
-    <Item />
+    <Item value="&amp;Exécuter script" revision="0" />
+    <Item value="Lancer l'exécution du script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Arrêter script" revision="0" />
+    <Item value="Arrêter l'exécution du script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStartStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Exécuter/arrêter le script" revision="0" />
+    <Item value="Démarrer ou arrêter l'exécution du script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Déboguer script" revision="0" />
+    <Item value="Démarrer le débogage du script" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingToggleBreakpoint">
-    <Item />
-    <Item />
+    <Item value="Basculer le point d'arrêt" revision="0" />
+    <Item value="Définit ou supprime un point d'arrêt d'exécution" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepIn">
-    <Item />
-    <Item />
+    <Item value="Entrer" revision="0" />
+    <Item value="Étape de la fonction appelée" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOut">
-    <Item />
-    <Item />
+    <Item value="Sortir" revision="0" />
+    <Item value="Sortir de la fonction appelée" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepOver">
-    <Item />
-    <Item />
+    <Item value="Passer à l'étape" revision="0" />
+    <Item value="Passer par-dessus la fonction appelée" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingStepContinue">
-    <Item />
-    <Item />
+    <Item value="Continuer" revision="0" />
+    <Item value="Continuer l'exécution" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDebug">
-    <Item />
-    <Item />
+    <Item value="&amp;Debug" revision="0" />
+    <Item value="Menu débogage" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingRemoveAllBreakpoints">
-    <Item />
-    <Item />
+    <Item value="Supprimer tous les points d'arrêt" revision="0" />
+    <Item value="Supprimer tous les points d'arrêt" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptingAsyncBreak">
-    <Item />
-    <Item />
+    <Item value="Interrompre exécution" revision="0" />
+    <Item value="Interrompre l'exécution du script" revision="0" />
   </Enumeration>
   <Enumeration key="BreakpointsColumns">
-    <Item />
-    <Item />
+    <Item value="Fichier" revision="0" />
+    <Item value="Ligne" revision="0" />
   </Enumeration>
   <Enumeration key="CallStackColumns">
     <Item />
     <Item lookup="Name" />
-    <Item />
+    <Item value="Ligne" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueAdd">
-    <Item />
-    <Item />
+    <Item value="Ajouter Watch" revision="0" />
+    <Item value="Ajouter Watch" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueRemove">
-    <Item />
-    <Item />
+    <Item value="Retirer Watch" revision="0" />
+    <Item value="Retirer Watch" revision="0" />
   </Enumeration>
   <Enumeration key="WatchValueEdit">
-    <Item />
-    <Item />
+    <Item value="Editer Watch" revision="0" />
+    <Item value="Editer Watch" revision="0" />
   </Enumeration>
 </Language>
