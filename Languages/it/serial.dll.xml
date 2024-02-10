@@ -1,5 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Prossimo dispositivo collegato (seriale)" revision="0" />
+  <Message key="sessionTypeTutorial" value="Esercitazione della finestra del tipo di sessione seriale" revision="0" />
+  <Message key="DriverConnectError" value="Errore durante la connessione al driver del filtro: {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Impossibile collegarsi al dispositivo selezionato." revision="0" />
+  <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uProprietà della porta seriale]]]]]]]]]\n\n" revision="0" />
+  <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} byte{|has value}nessuno{?has value}\n" revision="0" />
+  <Message key="MaxRxQueue" value="[[[bMax. RX Queue]]]\t{has value?}{value} byte{|has value}nessuno{?has value}\n" revision="0" />
+  <Message key="AnyBaudRate" value="[[[bMax. Velocità di trasmissione]]]\tconfigurabile\n" revision="0" />
+  <Message key="MaxBaudRate" value="[[[bMax. Max. Velocità di trasmissione]]]\t{values}\n" revision="0" />
+  <Message key="Provider" value="[[[bProvider]]]\t{provider}\n" revision="0" />
+  <Message key="Capabilities" value="[[[bCapacità]]]\t{values}\n" revision="0" />
+  <Message key="SettableParameters" value="[[[bParametri]]]\t{values}\n" revision="0" />
+  <Message key="SettableBaud" value="[[[bVelocità Baud]]]\t{values}\n" revision="0" />
+  <Message key="DataBits" value="[[[bBit di dati]]]\t{values}\n" revision="0" />
+  <Message key="StopBits" value="[[[bBit di stop]]]\t{values}\n" revision="0" />
+  <Message key="InfoParity" value="[[[bParità]]]\t{values}\n" revision="0" />
+  <Message key="Current Tx Queue" value="[[[bCoda Tx corrente]]]\t{has value?}{value} byte{|has value}indisponibile{?has value}\n" revision="0" />
+  <Message key="Current Rx Queue" value="[[[bCoda Rx corrente]]]\t{has value?}{value} byte{|has value}indisponibile{?has value}\n" revision="0" />
+  <Message key="Communication mode" value="Modalità di comunicazione: {mode}{discard?}, scartare le letture vuote{?discard}{terminal?}, con ascolto{?terminal}" revision="0" />
+  <Message key="Serial Terminal" value="Terminale seriale" revision="0" />
+  <Message key="Custom Joiner" value="Tipo di sessione personalizzata" revision="0" />
+  <Message key="Invalid mode" value="Modalità non valida" revision="0" />
+  <Message key="SerialSessionState" value="{is terminal?}Sessione terminale attiva: {?is terminal}{baudrate}, bit di dati: {databits}, bit di stop: {stopbits}, parità: {parity}" revision="0" />
+  <Message key="EmergencyErrorType" value="Terminazione di emergenza della sessione seriale " revision="0" />
+  <Message key="CustomEmpty" value="Lo script del tipo di sessione personalizzato è vuoto. Premere il pulsante Imposta e inserire lo script del tipo di sessione personalizzato." revision="0" />
+  <Message key="CustomJoinerError" value="Errore della modalità personalizzata" revision="0" />
+  <Message key="Error opening file" value="Errore nell'apertura del file di script personalizzato &quot;{path}&quot;: {error text} ({error code}). La sessione utilizzerà una modalità di comunicazione generica." revision="0" />
+  <Message key="Error initializing chakra" value="Errore di inizializzazione del sistema di scripting. Questa funzione non è supportata dal vostro sistema." revision="0" />
+  <Message key="JoinerSessionTermination" value="Il packet splitter ha restituito il seguente errore: {error}" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
