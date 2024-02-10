@@ -29,6 +29,21 @@
   <Message key="Error opening file" value="Erreur lors de l'ouverture d'un fichier de script personnalisé &quot;{path}&quot;: {error text} ({error code}). La session utilisera un mode de communication générique" revision="0" />
   <Message key="Error initializing chakra" value="Erreur d'initialisation du système de script. Cette fonction n'est pas prise en charge par votre système." revision="0" />
   <Message key="JoinerSessionTermination" value="Le séparateur de paquets a renvoyé l'erreur suivante : {error}" revision="0" />
+  <Message key="EmptyScript" value="Le composant de script n'est pas installé ou un fichier de script vide est utilisé." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Les paramètres de configuration du type de session personnalisé sont manquants" revision="0" />
+  <Message key="Custom script modified" value="Le script personnalisé a été modifié. Êtes-vous sûr de vouloir annuler les modifications ?" revision="0" />
+  <Message key="Session Type" value="Type de session" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Sélectionnez le type de session de surveillance en série :" revision="0" />
+  <Message key="Discard empty read packets" value="Rejeter les paquets de lecture vides" revision="0" />
+  <Message key="Set" value="&amp;Editer…" revision="0" />
+  <Message key="View" value="Voir" revision="0" />
+  <Message key="Listen on monitored port" value="Écoute des données entrantes (ouvre le périphérique série)" revision="0" />
+  <Message key="Read interval:" value="Intervalle de lecture :" revision="0" />
+  <Message key="Write constant:" value="Constante d'écriture :" revision="0" />
+  <Message key="Write multiplier:" value="Multiplicateur d'écriture :" revision="0" />
+  <Message key="Terminal window:" value="Fenêtre du terminal :" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Éditeur de scripts pour les sessions personnalisées" revision="0" />
+  <Message key="Load from File" value="&amp;Charger à partir du fichier…" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />

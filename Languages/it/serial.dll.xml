@@ -29,6 +29,21 @@
   <Message key="Error opening file" value="Errore nell'apertura del file di script personalizzato &quot;{path}&quot;: {error text} ({error code}). La sessione utilizzerà una modalità di comunicazione generica." revision="0" />
   <Message key="Error initializing chakra" value="Errore di inizializzazione del sistema di scripting. Questa funzione non è supportata dal vostro sistema." revision="0" />
   <Message key="JoinerSessionTermination" value="Il packet splitter ha restituito il seguente errore: {error}" revision="0" />
+  <Message key="EmptyScript" value="Il componente di scripting non è installato o viene utilizzato un file di script vuoto." revision="0" />
+  <Message key="Invalid custom session type configuration" value="Mancano i parametri di configurazione del tipo di sessione personalizzata" revision="0" />
+  <Message key="Custom script modified" value="Lo script personalizzato è stato modificato. Siete sicuri di voler eliminare le modifiche?" revision="0" />
+  <Message key="Session Type" value="Tipo di sessione" revision="0" />
+  <Message key="Select the serial monitoring session type:" value="Selezionare il tipo di sessione di monitoraggio seriale:" revision="0" />
+  <Message key="Discard empty read packets" value="Scartare i pacchetti di lettura vuoti" revision="0" />
+  <Message key="Set" value="&amp;Edit…" revision="0" />
+  <Message key="View" value="Vista" revision="0" />
+  <Message key="Listen on monitored port" value="Ascolta i dati in arrivo (apre il dispositivo seriale)" revision="0" />
+  <Message key="Read interval:" value="Intervallo di lettura:" revision="0" />
+  <Message key="Write constant:" value="Costante di scrittura:" revision="0" />
+  <Message key="Write multiplier:" value="Moltiplicatore di scrittura:" revision="0" />
+  <Message key="Terminal window:" value="Finestra del terminale:" revision="0" />
+  <Message key="Custom Session Type Script Editor" value="Editor di script di tipo di sessione personalizzato" revision="0" />
+  <Message key="Load from File" value="&amp;Carica da file…" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
