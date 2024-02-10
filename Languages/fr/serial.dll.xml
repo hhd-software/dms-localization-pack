@@ -44,6 +44,10 @@
   <Message key="Terminal window:" value="Fenêtre du terminal :" revision="0" />
   <Message key="Custom Session Type Script Editor" value="Éditeur de scripts pour les sessions personnalisées" revision="0" />
   <Message key="Load from File" value="&amp;Charger à partir du fichier…" revision="0" />
+  <Message key="Serial.Advertise.Text" value="Nous proposons également la bibliothèque ActiveX de contrôle de surveillance du port série qui vous permet d'intégrer la fonctionnalité de surveillance dans votre propre application." revision="0" />
+  <Message key="No terminal" value="Pas de terminal" revision="0" />
+  <Message key="Set Custom Flow Control" value="Définir un contrôle de flux personnalisé" revision="0" />
+  <Message key="Serial" value="Série" revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />
@@ -64,19 +68,19 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="configurable" revision="0" />
   </Enumeration>
   <Enumeration key="ProviderTypes">
+    <Item value="non spécifié" revision="0" />
+    <Item />
+    <Item value="Port parallèle" revision="0" />
     <Item />
     <Item />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modem" revision="0" />
+    <Item value="Fax" revision="0" />
+    <Item value="Scanner" revision="0" />
+    <Item value="Pont de réseau" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -123,24 +127,24 @@
     <Item />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item />
-    <Item />
+    <Item value="Moniteur série" revision="0" />
+    <Item value="La source de données série vous permet de surveiller les données échangées entre les dispositifs série et les applications qui les utilisent." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="générique" revision="2" />
+    <Item value="PPP" revision="2" />
+    <Item value="Ligne (le paquet se termine par une nouvelle ligne)" revision="2" />
+    <Item value="Mode MODBUS RTU" revision="2" />
+    <Item value="Mode MODBUS ASCII" revision="2" />
+    <Item value="Personnalisé" revision="2" />
   </Enumeration>
   <Enumeration key="Communication modes. Full description">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Générique" revision="0" />
+    <Item value="PPP (protocole point à point)" revision="0" />
+    <Item value="Un paquet par ligne (séparé par 0D - commandes AT, NMEA, etc.)" revision="0" />
+    <Item value="Mode MODBUS RTU" revision="0" />
+    <Item value="Mode MODBUS ASCII" revision="0" />
+    <Item value="Personnalisé" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
     <Item />
@@ -166,12 +170,12 @@
     <Item />
   </Enumeration>
   <Enumeration key="terminalwindow">
-    <Item />
-    <Item />
+    <Item value="Caché" revision="0" />
+    <Item value="Visible" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectSerialDevice">
-    <Item />
-    <Item />
+    <Item value="Connecter le dispositif sériel" revision="0" />
+    <Item value="L'application attend que vous connectiez un périphérique série compatible PnP à votre ordinateur." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
     <Item />
