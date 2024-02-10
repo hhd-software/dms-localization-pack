@@ -46,6 +46,7 @@
   <Message key="Load from File" value="&amp;Charger à partir du fichier…" revision="0" />
   <Message key="Serial.Advertise.Text" value="Nous proposons également la bibliothèque ActiveX de contrôle de surveillance du port série qui vous permet d'intégrer la fonctionnalité de surveillance dans votre propre application." revision="0" />
   <Message key="No terminal" value="Pas de terminal" revision="0" />
+  <Message key="terminal session creation failure" value="Échec du démarrage de l'écoute sur un périphérique série en raison de l'erreur suivante : {text} ({code}){access-denied?}\n\nCette erreur signifie très probablement que le port série est déjà ouvert par une autre application. Vous pouvez ignorer cette erreur et continuer à surveiller un port.\n\nSi vous surveillez en permanence un périphérique série ouvert, assurez-vous que l'option &quot;Écoute des données entrantes...&quot; est désactivée dans la fenêtre de configuration de la session." revision="0" />
   <Message key="Set Custom Flow Control" value="Définir un contrôle de flux personnalisé" revision="0" />
   <Message key="Serial" value="Série" revision="0" />
   <Enumeration key="BaudRateValues">
@@ -89,21 +90,21 @@
     <Item />
     <Item />
     <Item />
+    <Item value="Contrôle de parité" revision="0" />
     <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="XON/XOFF configurable" revision="0" />
+    <Item value="Total des temps morts" revision="0" />
+    <Item value="Délais d'attente à intervalles" revision="0" />
+    <Item value="Caractères spéciaux" revision="0" />
+    <Item value="Mode 16 bits" revision="0" />
   </Enumeration>
   <Enumeration key="SettableParametersEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Parité" revision="0" />
+    <Item value="Baud" revision="0" />
+    <Item value="Bits de données" revision="0" />
+    <Item value="Bits d'arrêt" revision="0" />
+    <Item value="Contrôle du flux" revision="0" />
+    <Item value="Contrôle de parité" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="DataBitsEnum">
@@ -112,7 +113,7 @@
     <Item />
     <Item />
     <Item />
-    <Item />
+    <Item value="Spécial Wide" revision="0" />
   </Enumeration>
   <Enumeration key="StopBitsEnum">
     <Item />
@@ -120,11 +121,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="ParityEnum">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Aucun" revision="0" />
+    <Item value="Impair" revision="0" />
+    <Item value="Paire" revision="0" />
+    <Item value="Marque" revision="0" />
+    <Item value="Espace" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
     <Item value="Moniteur série" revision="0" />
@@ -158,16 +159,16 @@
     <Item />
   </Enumeration>
   <Enumeration key="ScriptFilters">
+    <Item value="Fichiers TypeScript" revision="0" />
     <Item />
-    <Item />
-    <Item />
+    <Item value="JavaScript Files" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="flow-control">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Aucun" revision="0" />
+    <Item value="Xon/Xoff" revision="0" />
+    <Item value="Hardware" revision="0" />
+    <Item value="Personnalisé" revision="0" />
   </Enumeration>
   <Enumeration key="terminalwindow">
     <Item value="Caché" revision="0" />
