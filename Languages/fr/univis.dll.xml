@@ -1,5 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="PressCtrlNotify" value="Ligne statique (Statistiques)" revision="0" />
+  <Message key="AboutSpecialLogging" value="Mode spécial à grande vitesse (Statistiques)" revision="0" />
+  <Message key="plot_drawticks" value="Affichage des indices de l'échantillon sur l'axe X" revision="0" />
+  <Message key="cell_lowerhex" value="Minuscules hexadécimales " revision="0" />
+  <Message key="cell_showresult" value="Affichage du volet des résultats" revision="0" />
+  <Message key="cell_showtooltip" value="Afficher les informations sur les paquets de la fenêtre contextuelle" revision="0" />
+  <Message key="netvis_showpackettip" value="Afficher les informations sur les paquets de la fenêtre contextuelle" revision="0" />
+  <Message key="tooltip_delay" value="Définir l'intervalle de l'infobulle" revision="0" />
+  <Message key="Statistics" value="Statistiques" revision="0" />
+  <Message key="Raw Data View" value="Vue des données brutes" revision="0" />
+  <Message key="Network Packet View" value="Vue des paquets du réseau" revision="0" />
+  <Message key="LineNumbers" value="Afficher les numéros de ligne" revision="0" />
+  <Message key="Console View" value="Vue de la console" revision="0" />
+  <Message key="Goto Dialog" value="Dialogue Aller à" revision="0" />
+  <Message key="Structure Coloring" value="Coloration des structures" revision="0" />
+  <Message key="Raw Data View Coloring" value="Coloration de la vue des données brutes" revision="0" />
+  <Message key="Go to Offset" value="Aller au Décalage" revision="0" />
+  <Message key="Offset:" value="Décalage:" revision="0" />
+  <Message key="Resulting offset:" value="Décalage résultant:" revision="0" />
+  <Message key="&amp;Hexadecimal" value="&amp;Hexadécimale" revision="0" />
+  <Message key="&amp;Decimal" value="&amp;Décimale" revision="0" />
+  <Message key="&amp;Octal" value="&amp;Octal" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Décalage absolu" revision="0" />
+  <Message key="&amp;Relative offset" value="&amp;Décalage relatif" revision="0" />
+  <Message key="&amp;Percent" value="&amp;Pourcentage" revision="0" />
+  <Message key="IncorrectInputTitle" value="Entrée incorrecte" revision="0" />
+  <Message key="Send packets" value="Envoi de paquets" revision="0" />
+  <Message key="Options" value="Options" revision="0" />
+  <Message key="Adapter:" value="Adaptateur:" revision="0" />
+  <Message key="Ignore packet delay (burst mode)" value="Ignorer le retard des paquets (mode rafale)" revision="0" />
+  <Message key="Loop mode:" value="Mode cyclique:" revision="0" />
+  <Message key="loops" value="cycles" revision="0" />
+  <Message key="Loop delay:" value="Délai entre les cycles :" revision="0" />
+  <Message key="milliseconds" value="millisecondes" revision="0" />
+  <Message key="Close this window after sending packets" value="Fermer cette fenêtre après l'envoi des paquets" revision="0" />
+  <Message key="Packets Statistics" value="Statistiques sur les paquets" revision="0" />
+  <Message key="Total:" value="Total :" revision="0" />
+  <Message key="Sent:" value="Envoyé :" revision="0" />
+  <Message key="SentFormat" value="Envoyé : {bytes}" revision="0" />
+  <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />

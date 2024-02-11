@@ -18,21 +18,21 @@
   <Message key="Raw Data View Coloring" value="Coloração da vista de dados brutos" revision="0" />
   <Message key="Go to Offset" value="Ir para Deslocação" revision="0" />
   <Message key="Offset:" value="Deslocação:" revision="0" />
-  <Message key="Resulting offset:" value="Offset resultante:" revision="0" />
+  <Message key="Resulting offset:" value="Deslocação resultante:" revision="0" />
   <Message key="&amp;Hexadecimal" value="&amp;Hexadecimal" revision="0" />
   <Message key="&amp;Decimal" value="&amp;Decimal" revision="0" />
   <Message key="&amp;Octal" value="&amp;Octal" revision="0" />
-  <Message key="&amp;Absolute offset" value="&amp;" revision="0" />
-  <Message key="&amp;Relative offset" value="&amp;Deslocamento relativa" revision="0" />
+  <Message key="&amp;Absolute offset" value="Deslocação &amp;absoluto" revision="0" />
+  <Message key="&amp;Relative offset" value="Deslocação &amp;relativa" revision="0" />
   <Message key="&amp;Percent" value="&amp;Percentagem" revision="0" />
   <Message key="IncorrectInputTitle" value="Entrada incorrecta" revision="0" />
   <Message key="Send packets" value="Enviar pacotes" revision="0" />
   <Message key="Options" value="Opções" revision="0" />
   <Message key="Adapter:" value="Adaptador:" revision="0" />
   <Message key="Ignore packet delay (burst mode)" value="Ignorar o atraso do pacote (modo burst)" revision="0" />
-  <Message key="Loop mode:" value="Modo loop:" revision="0" />
-  <Message key="loops" value="laços" revision="0" />
-  <Message key="Loop delay:" value="Atraso do loop:" revision="0" />
+  <Message key="Loop mode:" value="Modo cíclico:" revision="0" />
+  <Message key="loops" value="ciclos" revision="0" />
+  <Message key="Loop delay:" value="Atraso entre ciclos:" revision="0" />
   <Message key="milliseconds" value="milissegundos" revision="0" />
   <Message key="Close this window after sending packets" value="Fechar esta janela depois de enviar os pacotes" revision="0" />
   <Message key="Packets Statistics" value="Estatísticas de pacotes" revision="0" />

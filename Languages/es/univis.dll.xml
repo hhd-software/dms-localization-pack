@@ -22,7 +22,7 @@
   <Message key="&amp;Hexadecimal" value="&amp;Hexadecimal" revision="0" />
   <Message key="&amp;Decimal" value="&amp;Decimal" revision="0" />
   <Message key="&amp;Octal" value="&amp;Octal" revision="0" />
-  <Message key="&amp;Absolute offset" value="&amp;" revision="0" />
+  <Message key="&amp;Absolute offset" value="&amp;Desplazamiento absoluto" revision="0" />
   <Message key="&amp;Relative offset" value="&amp;Desplazamiento relativo" revision="0" />
   <Message key="&amp;Percent" value="&amp;Porcentaje" revision="0" />
   <Message key="IncorrectInputTitle" value="Entrada incorrecta" revision="0" />
@@ -30,9 +30,9 @@
   <Message key="Options" value="Opciones" revision="0" />
   <Message key="Adapter:" value="Adaptador:" revision="0" />
   <Message key="Ignore packet delay (burst mode)" value="Ignorar retardo de paquetes (modo ráfaga)" revision="0" />
-  <Message key="Loop mode:" value="Modo bucle:" revision="0" />
-  <Message key="loops" value="bucles" revision="0" />
-  <Message key="Loop delay:" value="Retraso de loop:" revision="0" />
+  <Message key="Loop mode:" value="Modo cíclico:" revision="0" />
+  <Message key="loops" value="ciclos" revision="0" />
+  <Message key="Loop delay:" value="Retraso entre ciclos:" revision="0" />
   <Message key="milliseconds" value="milisegundos" revision="0" />
   <Message key="Close this window after sending packets" value="Cerrar esta ventana después de enviar paquetes" revision="0" />
   <Message key="Packets Statistics" value="Estadísticas de paquetes" revision="0" />

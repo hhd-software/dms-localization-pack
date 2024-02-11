@@ -30,7 +30,7 @@
   <Message key="Options" value="Опции" revision="0" />
   <Message key="Adapter:" value="Адаптер:" revision="0" />
   <Message key="Ignore packet delay (burst mode)" value="Игнорирование задержки (пакетный режим)" revision="0" />
-  <Message key="Loop mode:" value="По кругу:" revision="0" />
+  <Message key="Loop mode:" value="Циклически:" revision="0" />
   <Message key="loops" value="циклов" revision="0" />
   <Message key="Loop delay:" value="Задержка между циклами:" revision="0" />
   <Message key="milliseconds" value="миллисекунд" revision="0" />
