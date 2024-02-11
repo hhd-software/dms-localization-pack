@@ -148,15 +148,15 @@
     <Item value="Personalizzato" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Errore di tipo: Argomento non valido" revision="0" />
+    <Item value="Errore di tipo: Argomento nullo" revision="0" />
+    <Item value="Errore di tipo: L'argomento non è un oggetto" revision="0" />
+    <Item value="Memoria esaurita" revision="0" />
+    <Item value="Errore di script" revision="0" />
+    <Item value="Errore di sintassi" revision="0" />
+    <Item value="Errore fatale" revision="0" />
+    <Item value="Eccezione" revision="0" />
+    <Item value="Codice inatteso" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
     <Item value="File TypeScript" revision="0" />
@@ -179,8 +179,8 @@
     <Item value="L'applicazione attende che si colleghi al computer un dispositivo seriale conforme a PnP." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Configurazione del tipo di sessione seriale" revision="0" />
+    <Item value="Scegliere il [[[tipo di sessione]] appropriato per la sessione di monitoraggio:\n\n • [[[bGenerico]]]: per l'elaborazione predefinita senza alcuna elaborazione aggiuntiva dei pacchetti\n • [[[bMODBUS]]]: per individuare i pacchetti MODBUS nel flusso di dati monitorato\n • [[[bPPP]]]: per il monitoraggio del protocollo Point-to-Point\n • [[[bUn pacchetto per linea]]]: per protocolli come NMEA\n • [[[bPersonalizzato]]]: per l'utilizzo di una suddivisione e unione dei pacchetti avanzata basata su script" revision="0" />
+    <Item value="Attivare questa opzione [[[bon]] se non si dispone di un'applicazione di terze parti che sta per aprire (o ha già aperto) un dispositivo seriale.Questa opzione [[[bon]]] avvia una sessione di emulazione di terminale [[[iin aggiunta]]] alla sessione di monitoraggio. In questo caso potrebbe essere necessario configurare i parametri della porta seriale.\n\nImpostare questa opzione [[[boff]]] se la porta è già aperta da un'applicazione di terze parti monitorata o se sta per essere aperta." revision="0" />
   </Enumeration>
 </Language>

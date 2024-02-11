@@ -148,15 +148,15 @@
     <Item value="Personnalisé" revision="0" />
   </Enumeration>
   <Enumeration key="ChakraErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Erreur de type : Argument non valide" revision="0" />
+    <Item value="Erreur de type : Argument nul" revision="0" />
+    <Item value="Erreur de type : L'argument n'est pas un objet" revision="0" />
+    <Item value="Mémoire épuisée" revision="0" />
+    <Item value="Erreur de script" revision="0" />
+    <Item value="Erreur de syntaxe" revision="0" />
+    <Item value="Erreur fatale" revision="0" />
+    <Item value="Exception" revision="0" />
+    <Item value="Code inattendu" revision="0" />
   </Enumeration>
   <Enumeration key="ScriptFilters">
     <Item value="Fichiers TypeScript" revision="0" />
@@ -179,8 +179,8 @@
     <Item value="L'application attend que vous connectiez un périphérique série compatible PnP à votre ordinateur." revision="0" />
   </Enumeration>
   <Enumeration key="SessionTypeTutorialSteps">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Configuration du type de session série" revision="0" />
+    <Item value="Choisissez le [[[htype de session]]] approprié pour votre session de surveillance :\n\n • [[[bGénérique]]] : pour un traitement par défaut sans traitement supplémentaire des paquets\n • [[[bMODBUS]]] : pour localiser les paquets MODBUS dans le flux de données surveillé\n • [[[bPPP]]] : pour la surveillance du protocole point à point\n • [[[bUn paquet par ligne]]] : pour les protocoles tels que NMEA\n • [[[bPersonnalisé]]] : pour l'utilisation de la division et de la jonction de paquets par script avancé" revision="0" />
+    <Item value="Activez cette option [[[bsi]]] vous n'avez pas d'application tierce qui va ouvrir (ou a déjà ouvert) un périphérique série. Cette option [[[bsi]]] lance une session d'émulation de terminal [[[ien plus]]] d'une session de surveillance. Dans ce cas, il peut être nécessaire de configurer les paramètres du port série.\n\nRéglez cette option [[[bdésactivé]]] si le port est déjà ouvert par une application tierce surveillée, ou s'il va l'être." revision="0" />
   </Enumeration>
 </Language>
