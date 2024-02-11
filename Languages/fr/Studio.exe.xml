@@ -1,5 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="AllFiles" value="Tous les dossiers" revision="0" />
+  <Message key="AllSupported" value="Tous soutenus" revision="0" />
+  <Message key="WorkspaceFilter" value="Espaces de travail" revision="0" />
+  <Message key="InvalidScheme" value="Nom de schéma invalide ou schéma déjà existant." revision="0" />
+  <Message key="ActivatePane" value="Activer le volet {pane}" revision="0" />
+  <Message key="Checking for new version" value="Vérification de l'existence d'une nouvelle version" revision="0" />
+  <Message key="You are using the most recent version of the software." value="Vous utilisez la version la plus récente de Device Monitoring Studio." revision="0" />
+  <Message key="Error checking for new version" value="L'erreur suivante s'est produite lors de la vérification de la nouvelle version :\n\n  {error}" revision="0" />
+  <Message key="Invalid response" value="Réponse non valide reçue du serveur de mise à jour" revision="0" />
+  <Message key="Language Page" value="Langue" revision="0" />
+  <Message key="Downloading language pack" value="Téléchargement du pack linguistique" revision="0" />
+  <Message key="Product language" value="Langue du produit" revision="0" />
+  <Message key="Changing product language requires restart of Hex Editor Neo." value="Le changement de langue du produit nécessite le redémarrage de Device Monitoring Studio." revision="0" />
+  <Message key="I can't find my language in this list." value="Je ne trouve pas ma langue dans cette liste." revision="0" />
+  <Message key="Language pack storage location" value="Emplacement de stockage du pack linguistique" revision="0" />
+  <Message key="Languages online" value="Langues en ligne" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
