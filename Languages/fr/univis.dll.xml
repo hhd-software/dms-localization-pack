@@ -158,6 +158,11 @@
   <Message key="N/A" value="N/D" revision="0" />
   <Message key="CantUpdate" value="L'opération demandée est en cours d'exécution…" revision="0" />
   <Message key="PColFilter" value="Fichiers de schémas de coloriage de modèles|*.hexpcs|" revision="0" />
+  <Message key="Recent Patterns…" value="Modèles récents…" revision="0" />
+  <Message key="Type:" value="Type :" revision="0" />
+  <Message key="Find what:" value="Trouver quoi :" revision="0" />
+  <Message key="Custom colors:" value="Couleurs personnalisées :" revision="0" />
+  <Message key="Default colors:" value="Couleurs par défaut :" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
