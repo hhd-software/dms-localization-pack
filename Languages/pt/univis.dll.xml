@@ -103,8 +103,8 @@
   <Message key="Sample" value="Amostra" revision="0" />
   <Message key="ErrorCreate" value="Não foi possível criar o ficheiro." revision="0" />
   <Message key="Plot" value="Horário" revision="0" />
-  <Message key="PlotStaticLine" value="Linha de seguimento: " revision="2" />
-  <Message key="PlotDynamicLine" value="Linha estática: " revision="2" />
+  <Message key="PlotStaticLine" value="Linha estática: " revision="2" />
+  <Message key="PlotDynamicLine" value="Linha de seguimento: " revision="2" />
   <Message key="FindPatternTitle" value="Padrão:" revision="0" />
   <Message key="OperationPerformed" value="A operação solicitada está a ser executada…" revision="0" />
   <Message key="CopyrightNotice" value="Gerado por HHD Software Device Monitoring Studio" revision="0" />

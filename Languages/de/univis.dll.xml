@@ -103,15 +103,15 @@
   <Message key="Sample" value="Muster" revision="0" />
   <Message key="ErrorCreate" value="Datei kann nicht erstellen." revision="0" />
   <Message key="Plot" value="Plot" revision="0" />
-  <Message key="PlotStaticLine" value="Verfolgungslinie: " revision="2" />
-  <Message key="PlotDynamicLine" value="Statische Linie: " revision="2" />
+  <Message key="PlotStaticLine" value="Statische Linie: " revision="2" />
+  <Message key="PlotDynamicLine" value="Verfolgungslinie: " revision="2" />
   <Message key="FindPatternTitle" value="Muster:" revision="0" />
   <Message key="OperationPerformed" value="Der angeforderte Vorgang wird ausgeführt…" revision="0" />
   <Message key="CopyrightNotice" value="Erzeugt von HHD Software Device Monitoring Studio" revision="0" />
   <Message key="RegExpError" value="Syntaxfehler eines regulären Ausdrucks: {error}." revision="0" />
   <Message key="Find" value="Finde" revision="0" />
   <Message key="Type: " value="Typ:" revision="0" />
-  <Message key="Fi&amp;nd what: " value="Was fi&amp;nden:" revision="0" />
+  <Message key="Fi&amp;nd what: " value="Was fi&amp;nden: " revision="0" />
   <Message key="Regular expression" value="Regulärer Ausdruck" revision="0" />
   <Message key="Sub-match:" value="Übereinstimmung:" revision="0" />
   <Message key="Search Up" value="Suche aufwärts" revision="0" />

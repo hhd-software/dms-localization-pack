@@ -89,6 +89,47 @@
   <Message key="ErrorReadFile2" value="Impossible de lire le fichier. " revision="0" />
   <Message key="PatternColoringRule" value="Righello per colorare i modelli {number}" revision="0" />
   <Message key="CopyWait" value="Attendere mentre i dati vengono copiati negli appunti." revision="0" />
+  <Message key="CantCreateFile" value="Impossibile creare il file" revision="0" />
+  <Message key="StatisticsTip" value="Selezionare il contatore per visualizzarne la descrizione." revision="0" />
+  <Message key="Lines" value="Linee" revision="0" />
+  <Message key="SchemeNameCue" value="Inserire qui il nome dello schema" revision="0" />
+  <Message key="Device" value="Dispositivo" revision="0" />
+  <Message key="Selection" value="Selezione" revision="0" />
+  <Message key="SelectedPacket" value="Pacchetto selezionato" revision="0" />
+  <Message key="Output" value="Uscita" revision="0" />
+  <Message key="TimeLabel" value="Tempo:" revision="0" />
+  <Message key="ResetToDefaultPosition" value="Ripristinare la posizione predefinita" revision="0" />
+  <Message key="AddRemoveCounters" value="Aggiungere/rimuovere i contatori" revision="0" />
+  <Message key="Sample" value="Campione" revision="0" />
+  <Message key="ErrorCreate" value="Impossibile creare il file." revision="0" />
+  <Message key="Plot" value="Orario" revision="0" />
+  <Message key="PlotStaticLine" value="Linea statica: " revision="2" />
+  <Message key="PlotDynamicLine" value="Linea di tracciamento: " revision="2" />
+  <Message key="FindPatternTitle" value="Modello:" revision="0" />
+  <Message key="OperationPerformed" value="L'operazione richiesta è in corso di esecuzione…" revision="0" />
+  <Message key="CopyrightNotice" value="Generato da HHD Software Device Monitoring Studio" revision="0" />
+  <Message key="RegExpError" value="Errore di sintassi dell'espressione regolare: {error}." revision="0" />
+  <Message key="Find" value="Trova" revision="0" />
+  <Message key="Type: " value="Tipo: " revision="0" />
+  <Message key="Fi&amp;nd what: " value="T&amp;rova cosa: " revision="0" />
+  <Message key="Regular expression" value="Espressione regolare" revision="0" />
+  <Message key="Sub-match:" value="Conformità:" revision="0" />
+  <Message key="Search Up" value="Cerca in alto" revision="0" />
+  <Message key="Search Down" value="Cerca in basso" revision="0" />
+  <Message key="Ignore case" value="Ignorare il caso" revision="0" />
+  <Message key="&amp;Find" value="&amp;Trova" revision="0" />
+  <Message key="Find All" value="Trova tutti" revision="0" />
+  <Message key="Set Columns" value="Imposta colonne" revision="0" />
+  <Message key="Enter number of columns per row:" value="Inserire il numero di colonne per riga:" revision="0" />
+  <Message key="Add/Remove Counters" value="Aggiungere/rimuovere i contatori" revision="0" />
+  <Message key="Available counters:" value="Contatori disponibili:" revision="0" />
+  <Message key="Select All" value="Seleziona tutti" revision="0" />
+  <Message key="Counter description:" value="Descrizione del contatore:" revision="0" />
+  <Message key="Select the counter to view its description." value="Selezionare il contatore per visualizzarne la descrizione." revision="0" />
+  <Message key="Layout" value="Layout" revision="0" />
+  <Message key="Font:" value="Tipo di carattere:" revision="0" />
+  <Message key="Size:" value="Dimensioni:" revision="0" />
+  <Message key="Visualization elements:" value="Elementi di visualizzazione:" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
