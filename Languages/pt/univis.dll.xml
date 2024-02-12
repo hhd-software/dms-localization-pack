@@ -195,7 +195,7 @@
   </Enumeration>
   <Enumeration key="OutputClear">
     <Item value="Eliminar tudo" revision="0" />
-    <Item value="Eliminar tudo" revision="0" />
+    <Item value="Limpar o conteúdo da janela de Saída atual" revision="0" />
   </Enumeration>
   <Enumeration key="AutoFit">
     <Item value="Ajuste automático" revision="0" />
