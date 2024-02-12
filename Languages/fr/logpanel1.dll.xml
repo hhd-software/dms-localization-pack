@@ -19,10 +19,8 @@
   <Message key="IncorrectFolder" value="Le dossier spécifié est incorrect. Il ne peut pas être utilisé comme dossier cible pour les fichiers journaux." revision="0" />
   <Message key="Recording" value="Enregistrement" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Sélectionnez l'emplacement que le programme utilisera pour stocker les données enregistrées." revision="0" />
-  <Message key="Compress recorded data" value="&amp;Compresser les données enregistrées" revision="0" />
   <Message key="Playback" value="Lecture" revision="0" />
   <Message key="Select the location the program will use to playback." value="Sélectionnez l'emplacement que le programme utilisera pour la lecture." revision="0" />
-  <Message key="Recurse sub-directories" value="Sous-annuaires &amp;récursifs" revision="0" />
   <Message key="Data Recording Properties" value="Paramètres d'enregistrement des données" revision="1" />
   <Message key="No limits enforced" value="Aucune limite n'est imposée" revision="0" />
   <Message key="Enforce size limit:" value="Appliquer la limite de taille:" revision="0" />

@@ -19,10 +19,8 @@
   <Message key="IncorrectFolder" value="Pasta incorrecta especificada. Não pode ser utilizada como pasta de destino para ficheiros de log." revision="0" />
   <Message key="Recording" value="Registo" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Seleccione a localização que o programa irá utilizar para armazenar os dados gravados." revision="0" />
-  <Message key="Compress recorded data" value="&amp;Comprimir dados gravados" revision="0" />
   <Message key="Playback" value="Reprodução" revision="0" />
   <Message key="Select the location the program will use to playback." value="Seleccione a localização que o programa irá utilizar para reproduzir." revision="0" />
-  <Message key="Recurse sub-directories" value="&amp;Recursar sub-directórios" revision="0" />
   <Message key="Data Recording Properties" value="Definições de registo de dados" revision="1" />
   <Message key="No limits enforced" value="Não são aplicados limites" revision="0" />
   <Message key="Enforce size limit:" value="Aplicar o limite de tamanho:" revision="0" />

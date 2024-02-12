@@ -19,10 +19,8 @@
   <Message key="IncorrectFolder" value="Cartella non corretta specificata. Non può essere utilizzata come cartella di destinazione per i file di log." revision="0" />
   <Message key="Recording" value="Registrazione" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Selezionare la posizione che il programma utilizzerà per memorizzare i dati registrati." revision="0" />
-  <Message key="Compress recorded data" value="&amp;Comprimere i dati registrati" revision="0" />
   <Message key="Playback" value="Riproduzione" revision="0" />
   <Message key="Select the location the program will use to playback." value="Selezionare la posizione che il programma utilizzerà per la riproduzione." revision="0" />
-  <Message key="Recurse sub-directories" value="Sottodirectory &amp;ricorsive" revision="0" />
   <Message key="Data Recording Properties" value="Impostazioni di registrazione dei dati" revision="1" />
   <Message key="No limits enforced" value="Nessun limite applicato" revision="0" />
   <Message key="Enforce size limit:" value="Applicare il limite di dimensioni:" revision="0" />
