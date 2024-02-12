@@ -19,10 +19,8 @@
   <Message key="IncorrectFolder" value="Falscher Ordner angegeben. Er kann nicht als Zielordner für Protokolldateien verwendet werden." revision="0" />
   <Message key="Recording" value="Aufnahme" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Wählen Sie den Ort, an dem das Programm die aufgezeichneten Daten speichern soll." revision="0" />
-  <Message key="Compress recorded data" value="Aufgezeichnete Daten &amp;komprimieren" revision="0" />
   <Message key="Playback" value="Wiedergabe" revision="0" />
   <Message key="Select the location the program will use to playback." value="Wählen Sie den Ort, den das Programm für die Wiedergabe verwenden soll." revision="0" />
-  <Message key="Recurse sub-directories" value="&amp;Suche in Unterverzeichnissen" revision="0" />
   <Message key="Data Recording Properties" value="Eigenschaften des Datensatzes" revision="1" />
   <Message key="No limits enforced" value="Keine Grenzen" revision="0" />
   <Message key="Enforce size limit:" value="Größenbeschränkung:" revision="0" />
