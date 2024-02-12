@@ -86,7 +86,7 @@
   <Message key="ItemWillBeRemoved" value="Der aktuelle Artikel wird entfernt. Möchten Sie fortfahren?" revision="0" />
   <Message key="SampleText" value="Mustertext" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
-  <Message key="ErrorReadFile2" value="Kann nicht aus Datei gelesen werden." revision="0" />
+  <Message key="ErrorReadFile2" value="Kann nicht aus Datei gelesen werden. " revision="0" />
   <Message key="PatternColoringRule" value="Musterfärberei-Regel {number}" revision="0" />
   <Message key="CopyWait" value="Bitte warten Sie, während die Daten in die Zwischenablage kopiert werden." revision="0" />
   <Message key="CantCreateFile" value="Kann Datei nicht erstellen" revision="0" />

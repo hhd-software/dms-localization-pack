@@ -43,8 +43,8 @@
   <Message key="Process" value="Proceso" revision="0" />
   <Message key="ErrorInput" value="Rango no válido. El rango de valores es ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="No se pueden enviar paquetes. Adaptador de red no seleccionado o el sistema no tiene adaptadores de red conectados." revision="0" />
-  <Message key="LogStartBurst" value="Inicio (modo ráfaga)…" revision="0" />
-  <Message key="LogStart" value="Inicio…" revision="0" />
+  <Message key="LogStartBurst" value="Iniciar (modo ráfaga)…" revision="0" />
+  <Message key="LogStart" value="Iniciar…" revision="0" />
   <Message key="LogStop" value="Detener…" revision="0" />
   <Message key="ViewOffset" value="Offset" revision="0" />
   <Message key="PatternColoring" value="Coloreado de patrones de datos" revision="0" />
@@ -86,7 +86,7 @@
   <Message key="ItemWillBeRemoved" value="Se eliminará el elemento actual. ¿Desea continuar?" revision="0" />
   <Message key="SampleText" value="Texto de muestra" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
-  <Message key="ErrorReadFile2" value="No se puede leer del archivo." revision="0" />
+  <Message key="ErrorReadFile2" value="No se puede leer del archivo. " revision="0" />
   <Message key="PatternColoringRule" value="Regla para colorear patrones {number}" revision="0" />
   <Message key="CopyWait" value="Espere mientras se copian los datos en el portapapeles." revision="0" />
   <Message key="CantCreateFile" value="No se puede crear el archivo" revision="0" />

@@ -40,6 +40,55 @@
   <Message key="Sent:" value="Envoyé :" revision="0" />
   <Message key="SentFormat" value="Envoyé : {bytes}" revision="0" />
   <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
+  <Message key="Process" value="Processus" revision="0" />
+  <Message key="ErrorInput" value="Plage non valide. La plage de valeurs est ({first} - {last})." revision="0" />
+  <Message key="NoAdapters" value="Impossible d'envoyer des paquets. L'adaptateur réseau n'est pas sélectionné ou le système n'a pas d'adaptateur réseau connecté." revision="0" />
+  <Message key="LogStartBurst" value="Démarrage (mode rafale))…" revision="0" />
+  <Message key="LogStart" value="Démarrage…" revision="0" />
+  <Message key="LogStop" value="Arrêter…" revision="0" />
+  <Message key="ViewOffset" value="Décalage" revision="0" />
+  <Message key="PatternColoring" value="Coloration des modèles de données" revision="0" />
+  <Message key="Pattern" value="Modèle" revision="0" />
+  <Message key="WriteFileError" value="Erreur d'écriture dans le fichier. Essayez à un autre endroit." revision="0" />
+  <Message key="Back color:" value="Couleur d'arrière-plan :" revision="0" />
+  <Message key="Text color:" value="Couleur du texte :" revision="0" />
+  <Message key="Outline color:" value="Couleur du contour :" revision="0" />
+  <Message key="Description" value="Description" revision="0" />
+  <Message key="New Packet" value="Nouveau paquet" revision="0" />
+  <Message key="Packet Template:" value="Modèle de dossier:" revision="0" />
+  <Message key="Interval:" value="Intervalo:" revision="0" />
+  <Message key="Save Template" value="Sauvegarder le modèle" revision="0" />
+  <Message key="NoSelection" value="Pas de sélection" revision="0" />
+  <Message key="Number" value="Non." revision="0" />
+  <Message key="AdapterSelect" value="Sélectionner l'adaptateur…\nSélection de l'adaptateur par défaut pour l'envoi de paquets" revision="0" />
+  <Message key="TemplateAlreadyExists" value="Le modèle existe déjà. Voulez-vous l'écraser ?" revision="0" />
+  <Message key="ErrorRead" value="Erreur de lecture du fichier." revision="0" />
+  <Message key="TemplateDeleteError" value="Ce système ne peut pas être supprimé ou modifié." revision="0" />
+  <Message key="TitleError" value="Erreur" revision="0" />
+  <Message key="NoPackets" value="Aucun paquet n'a été sélectionné. Rien à envoyer." revision="0" />
+  <Message key="Warning" value="Avertissement" revision="0" />
+  <Message key="BigPacket" value="La taille des paquets est supérieure au MTU standard (1500). L'envoi n'est pas garanti." revision="0" />
+  <Message key="LimitSize" value="Paquet trop volumineux. La taille du fichier d'entrée est supérieure à {limit} octets. Utiliser les premiers {first} octets." revision="0" />
+  <Message key="NetTermTooltip" value="Paquet :\t\t{number}\nTaille :\t\t{size} octets\nDélai :\t\t{delay} ms\n" revision="0" />
+  <Message key="SchemeOverride" value="Souhaitez-vous remplacer outre ce schéma ?" revision="0" />
+  <Message key="HexStartError" value="Échec du démarrage de Hex Editor Neo. Code d'erreur = {code}" revision="1" />
+  <Message key="HexLocationError" value="Impossible de trouver l'emplacement d'installation de Hex Editor Neo." revision="0" />
+  <Message key="HexVersionError" value="Numéro de version de Hex Editor inconnu." revision="0" />
+  <Message key="ErrorTitle" value="Erreur" revision="0" />
+  <Message key="EncodingNotSupported" value="Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. Encodage non pris en charge. " revision="0" />
+  <Message key="NotSupported" value="Votre système ne dispose pas des composants nécessaires pour prendre en charge l'encodage sélectionné. Sélectionnez un autre encodage." revision="0" />
+  <Message key="ErrorLocatingPacket" value="Erreur de localisation du paquet" revision="0" />
+  <Message key="InvalidOffset" value="Décalage non valide." revision="0" />
+  <Message key="GoToOffset" value="Aller à Offset" revision="0" />
+  <Message key="InvalidRule" value="Impossible d'activer la règle, la règle n'est pas valide." revision="0" />
+  <Message key="SchemeOverwrite" value="Le système actuel sera perdu. Voulez-vous continuer ?" revision="0" />
+  <Message key="VersionError" value="Le fichier a une version différente." revision="0" />
+  <Message key="ItemWillBeRemoved" value="L'article actuel sera supprimé. Voulez-vous continuer ?" revision="0" />
+  <Message key="SampleText" value="Texte modèle" revision="0" />
+  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="ErrorReadFile2" value="Impossible de lire le fichier. " revision="0" />
+  <Message key="PatternColoringRule" value="Règle de coloriage des modèles {number}" revision="0" />
+  <Message key="CopyWait" value="Veuillez patienter pendant que les données sont copiées dans le presse-papiers." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />

@@ -43,8 +43,8 @@
   <Message key="Process" value="Processo" revision="0" />
   <Message key="ErrorInput" value="Intervalo inválido. O intervalo de valores é ({first} - {last})." revision="0" />
   <Message key="NoAdapters" value="Não é possível enviar pacotes. Adaptador de rede não selecionado ou o sistema não tem adaptadores de rede ligados." revision="0" />
-  <Message key="LogStartBurst" value="Início (modo Burst)…" revision="0" />
-  <Message key="LogStart" value="Início…" revision="0" />
+  <Message key="LogStartBurst" value="Iniciar (modo Burst)…" revision="0" />
+  <Message key="LogStart" value="Iniciar…" revision="0" />
   <Message key="LogStop" value="Parar…" revision="0" />
   <Message key="ViewOffset" value="Offset" revision="0" />
   <Message key="PatternColoring" value="Coloração de padrões de dados" revision="0" />
@@ -86,7 +86,7 @@
   <Message key="ItemWillBeRemoved" value="O item atual será removido. Deseja continuar?" revision="0" />
   <Message key="SampleText" value="Texto de exemplo" revision="0" />
   <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
-  <Message key="ErrorReadFile2" value="Não foi possível ler o ficheiro." revision="0" />
+  <Message key="ErrorReadFile2" value="Não foi possível ler o ficheiro. " revision="0" />
   <Message key="PatternColoringRule" value="Regra para colorir padrões {number}" revision="0" />
   <Message key="CopyWait" value="Aguarde enquanto os dados são copiados para a área de transferência." revision="0" />
   <Message key="CantCreateFile" value="Não é possível criar um ficheiro" revision="0" />
