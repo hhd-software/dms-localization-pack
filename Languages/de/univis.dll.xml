@@ -143,7 +143,7 @@
   <Message key="Variable Properties" value="Variable Eigenschaften" revision="0" />
   <Message key="Variable name:" value="Variablenname:" revision="0" />
   <Message key="Units:" value="Einheiten:" revision="0" />
-  <Message key="Line width:" value="Linienbreite" revision="1" />
+  <Message key="Line width:" value="Linienbreite:" revision="1" />
   <Message key="Scale:" value="Skala:" revision="0" />
   <Message key="Please Wait..." value="Bitte warten…" revision="0" />
   <Message key="Find all results" value="Alle Ergebnisse finden" revision="0" />

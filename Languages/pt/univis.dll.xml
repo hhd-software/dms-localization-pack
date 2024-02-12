@@ -137,13 +137,13 @@
   <Message key="Interlace columns" value="Entrelaçar colunas" revision="0" />
   <Message key="Interlace rows" value="Entrelaçar linhas" revision="0" />
   <Message key="Smart indentation" value="Indentação inteligente" revision="0" />
-  <Message key="Antialiased quality (slower)" value="Qualidade antialiada (mais lenta)" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Qualidade anti-aliased (mais lento)" revision="0" />
   <Message key="Layout Schemes" value="Esquemas de apresentação" revision="0" />
   <Message key="Pattern Coloring" value="Coloração de padrões" revision="0" />
   <Message key="Variable Properties" value="Propriedades das variáveis" revision="0" />
   <Message key="Variable name:" value="Nome da variável:" revision="0" />
   <Message key="Units:" value="Unidades:" revision="0" />
-  <Message key="Line width:" value="Largura da linha" revision="1" />
+  <Message key="Line width:" value="Largura da linha:" revision="1" />
   <Message key="Scale:" value="Escala:" revision="0" />
   <Message key="Please Wait..." value="Por favor, aguarde…" revision="0" />
   <Message key="Find all results" value="Encontrar todos os resultados" revision="0" />

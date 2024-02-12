@@ -143,9 +143,9 @@
   <Message key="Variable Properties" value="Свойства переменной" revision="0" />
   <Message key="Variable name:" value="Имя переменной:" revision="0" />
   <Message key="Units:" value="Единицы:" revision="0" />
-  <Message key="Line width:" value="Ширина строки" revision="1" />
+  <Message key="Line width:" value="Ширина линии:" revision="1" />
   <Message key="Scale:" value="Масштаб:" revision="0" />
-  <Message key="Please Wait..." value="Пожалуйста, подождите…" revision="0" />
+  <Message key="Please Wait..." value="Пожалуйста, ждите…" revision="0" />
   <Message key="Find all results" value="Найти все результаты" revision="0" />
   <Message key="Display results pane" value="Показать панель результатов" revision="0" />
   <Message key="Pattern Editor" value="Редактор паттернов" revision="0" />

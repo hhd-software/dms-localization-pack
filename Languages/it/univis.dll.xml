@@ -133,6 +133,31 @@
   <Message key="Draw focus cursor frame" value="Disegna la riquadro del cursore con il focus" revision="0" />
   <Message key="Color:" value="Colore:" revision="0" />
   <Message key="Automatic" value="Automatico" revision="0" />
+  <Message key="Do not interlace background" value="Non interlacciare lo sfondo" revision="0" />
+  <Message key="Interlace columns" value="Intreccio di colonne" revision="0" />
+  <Message key="Interlace rows" value="Intreccio di righe" revision="0" />
+  <Message key="Smart indentation" value="Rientri intelligenti" revision="0" />
+  <Message key="Antialiased quality (slower)" value="Qualità anti-alias (più lenta)" revision="0" />
+  <Message key="Layout Schemes" value="Schemi di layout" revision="0" />
+  <Message key="Pattern Coloring" value="Colorazione dei modelli di dati" revision="0" />
+  <Message key="Variable Properties" value="Proprietà variabili" revision="0" />
+  <Message key="Variable name:" value="Nome della variabile:" revision="0" />
+  <Message key="Units:" value="Unità:" revision="0" />
+  <Message key="Line width:" value="Larghezza della linea:" revision="1" />
+  <Message key="Scale:" value="Scala:" revision="0" />
+  <Message key="Please Wait..." value="Attendere prego…" revision="0" />
+  <Message key="Find all results" value="Trova tutti i risultati" revision="0" />
+  <Message key="Display results pane" value="Visualizzare il pannello dei risultati" revision="0" />
+  <Message key="Pattern Editor" value="Editor di modelli" revision="0" />
+  <Message key="Standard rule:" value="Regola standard:" revision="0" />
+  <Message key="Round edges" value="Bordi rotondi" revision="0" />
+  <Message key="Information" value="Informazioni" revision="0" />
+  <Message key="Details" value="Dettagli" revision="0" />
+  <Message key="NotValid" value="Valore non valido." revision="0" />
+  <Message key="SViewTitle" value="Visualizzatore di strutture" revision="0" />
+  <Message key="N/A" value="N/D" revision="0" />
+  <Message key="CantUpdate" value="L'operazione richiesta è in corso di esecuzione…" revision="0" />
+  <Message key="PColFilter" value="File di schema per la colorazione dei modelli|*.hexpcs|" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
