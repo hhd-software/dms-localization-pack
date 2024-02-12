@@ -130,6 +130,9 @@
   <Message key="Font:" value="Tipo di carattere:" revision="0" />
   <Message key="Size:" value="Dimensioni:" revision="0" />
   <Message key="Visualization elements:" value="Elementi di visualizzazione:" revision="0" />
+  <Message key="Draw focus cursor frame" value="Disegna la riquadro del cursore con il focus" revision="0" />
+  <Message key="Color:" value="Colore:" revision="0" />
+  <Message key="Automatic" value="Automatico" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item />
     <Item />
