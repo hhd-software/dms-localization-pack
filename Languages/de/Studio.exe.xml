@@ -521,7 +521,7 @@
     <Item value="Nächste finden" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item value="&amp;Go to Packet…" revision="0" />
+    <Item value="&amp;Gehe zum Packet…" revision="0" />
     <Item value="Suchen Sie das betreffende Paket" revision="0" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">

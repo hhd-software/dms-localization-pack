@@ -274,44 +274,44 @@
     <Item value="Inviare tutti i pacchetti" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Salvare il modello del pacchetto…" revision="0" />
+    <Item value="Salvare il modello" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Carica modello di pacchetto da file…" revision="0" />
+    <Item value="Carica modello di pacchetto da file" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="In alto" revision="0" />
+    <Item value="Sposta il pacchetto selezionato verso l'alto" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
-    <Item />
+    <Item value="In basso" revision="0" />
+    <Item value="Sposta il pacchetto selezionato verso il basso" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Calcolo automatico dei campi di checksum per i pacchetti IP e TCP" revision="0" />
+    <Item value="Calcolo automatico delle somme di controllo per i pacchetti IP e TCP" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Salvare il modello di pacchetto in un file…" revision="0" />
+    <Item value="Salvare il modello in un file" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiare il valore" revision="0" />
+    <Item value="Copiare il valore negli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="Copia della &amp;linea" revision="0" />
+    <Item value="Copiare l'intera riga negli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="E&amp;spandi sottoalbero" revision="0" />
+    <Item value="Espandere il sottoalbero del campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="&amp;Collasso del sottoalbero" revision="0" />
+    <Item value="Chiudere il sottoalbero del campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
     <Item />

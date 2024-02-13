@@ -274,44 +274,44 @@
     <Item value="Envoyer tous les paquets" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderSaveTemplate">
-    <Item />
-    <Item />
+    <Item value="Sauvegarder le modèle du paquet…" revision="0" />
+    <Item value="Sauvegarder le modèle" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderLoadFromFile">
-    <Item />
-    <Item />
+    <Item value="Chargement d'un modèle de paquet à partir d'un fichier…" revision="0" />
+    <Item value="Chargement d'un modèle de paquet à partir d'un fichier" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderUp">
-    <Item />
-    <Item />
+    <Item value="Haut" revision="0" />
+    <Item value="Déplacer le paquet sélectionné vers le haut" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderDown">
-    <Item />
-    <Item />
+    <Item value="En bas" revision="0" />
+    <Item value="Déplacer le paquet sélectionné vers le bas" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderAutoChecksum">
-    <Item />
-    <Item />
+    <Item value="Calculer automatiquement les champs de la somme de contrôle pour les paquets IP et TCP" revision="0" />
+    <Item value="Calcul automatique des sommes de contrôle pour les paquets IP et TCP" revision="0" />
   </Enumeration>
   <Enumeration key="PacketBuilderExport">
-    <Item />
-    <Item />
+    <Item value="Enregistrer le modèle de paquet dans un fichier…" revision="0" />
+    <Item value="Enregistrer le modèle dans un fichier" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyValue">
-    <Item />
-    <Item />
+    <Item value="&amp;Valeur de copie" revision="0" />
+    <Item value="Copier la valeur dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="NetCopyLine">
-    <Item />
-    <Item />
+    <Item value="Copier la &amp;ligne" revision="0" />
+    <Item value="Copier une ligne entière dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandSubTree">
-    <Item />
-    <Item />
+    <Item value="Dé&amp;velopper la sous-arborescence" revision="0" />
+    <Item value="Développer la sous-arborescence du champ" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseSubTree">
-    <Item />
-    <Item />
+    <Item value="&amp;Réduire la sous-arborescence" revision="0" />
+    <Item value="Réduire la sous-arborescence du champ" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
     <Item />
