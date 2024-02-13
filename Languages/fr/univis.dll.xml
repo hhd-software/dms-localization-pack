@@ -314,164 +314,164 @@
     <Item value="Réduire la sous-arborescence du champ" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="Paquet &amp;suivant" revision="0" />
+    <Item value="Passer au paquet suivant" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Paquet &amp;précédent" revision="0" />
+    <Item value="Sauter au paquet précédent" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Aller au paquet" revision="0" />
+    <Item value="Aller au paquet spécifié" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="Détails du paquet &amp;sélectionné" revision="0" />
+    <Item value="Afficher les détails du paquet" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="Définir le &amp;filtre…" revision="0" />
+    <Item value="Configurer le filtre de visualisation" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="Définir le protocole &amp;racine…" revision="0" />
+    <Item value="Spécifier le protocole racine pour ce visualiseur" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Développer tout" revision="0" />
+    <Item value="Développer tout" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Réduire tout" revision="0" />
+    <Item value="Réduire tout" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Sélectionner Aucun" revision="0" />
+    <Item value="Supprimer toute la sélection dans la fenêtre ciblée" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="&amp;Sélectionner Inverser" revision="0" />
+    <Item value="Sélectionner Inverser" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Sélectionner un paquet" revision="0" />
+    <Item value="Sélection des données du paquet actuel" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Sélectionner tout" revision="0" />
+    <Item value="Sélectionner tous les contenus du visualiseur" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Mode hexadécimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Décimale" revision="0" />
+    <Item value="Mode décimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Octal" revision="0" />
+    <Item value="Mode octal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binaire" revision="0" />
+    <Item value="Mode binaire" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="F&amp;lottant" revision="0" />
+    <Item value="Mode flottant simple précision" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="D&amp;ouble" revision="0" />
+    <Item value="Mode double précision en virgule flottante" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Octets" revision="0" />
+    <Item value="Groupe en octets" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Mots" revision="0" />
+    <Item value="Groupe de mots" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Mots doubles" revision="0" />
+    <Item value="Regrouper en mots doubles" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Mots quadruples" revision="0" />
+    <Item value="Regrouper en mots quadruples" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Automatique" revision="0" />
+    <Item value="Calculer automatiquement le nombre de colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 colonnes" revision="0" />
+    <Item value="4 colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;8 colonnes" revision="0" />
+    <Item value="8 colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 colonnes" revision="0" />
+    <Item value="16 colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 colonnes" revision="0" />
+    <Item value="32 colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Personnalisé…" revision="0" />
+    <Item value="Spécifier le nombre de colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
-    <Item />
-    <Item />
+    <Item value="Panneau de &amp;texte" revision="0" />
+    <Item value="Afficher ou masquer un panneau de texte (ASCII ou UNICODE)" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
-    <Item />
-    <Item />
+    <Item value="Panneau de &amp;code" revision="0" />
+    <Item value="Afficher ou masquer un panneau de code" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Hex" revision="0" />
+    <Item value="Afficher l'adresse en hexadécimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Décimale" revision="0" />
+    <Item value="Afficher l'adresse sous forme décimale" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Octal" revision="0" />
+    <Item value="Afficher l'adresse en octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item />
-    <Item />
+    <Item value="&amp;Définir les modèles…" revision="0" />
+    <Item value="Créer de nouveaux modèles ou gérer les modèles existants" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item />
-    <Item />
+    <Item value="&amp;Encodage" revision="0" />
+    <Item value="Encodage" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Points finaux" revision="0" />
+    <Item value="Points finaux" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item />
-    <Item />
+    <Item value="Ajouter une nouvelle règle…" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des motifs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item />
-    <Item />
+    <Item value="Sauvegarde du régime…" revision="0" />
+    <Item value="Sauvegarder le schéma de coloriage des modèles" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item />
-    <Item />
+    <Item value="Charger le régime…" revision="0" />
+    <Item value="Chargement du modèle Schéma de coloration" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
-    <Item />
-    <Item />
+    <Item value="Effacer le schéma de coloration" revision="0" />
+    <Item value="Effacer le schéma de coloration" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
     <Item />

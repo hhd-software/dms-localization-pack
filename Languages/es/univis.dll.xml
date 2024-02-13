@@ -350,7 +350,7 @@
     <Item value="Soltar toda la selección en la ventana enfocada" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item value="Seleccione &amp;Invertir" revision="0" />
+    <Item value="&amp;Seleccione Invertir" revision="0" />
     <Item value="Seleccione Invertir" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">

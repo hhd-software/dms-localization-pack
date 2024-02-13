@@ -350,7 +350,7 @@
     <Item value="Deixar cair toda a seleção na janela focada" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item value="Selecionar &amp;Inverter" revision="0" />
+    <Item value="&amp;Selecionar Inverter" revision="0" />
     <Item value="Selecionar Inverter" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">

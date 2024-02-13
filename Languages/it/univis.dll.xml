@@ -314,164 +314,164 @@
     <Item value="Chiudere il sottoalbero del campo" revision="0" />
   </Enumeration>
   <Enumeration key="NetNextPacket">
-    <Item />
-    <Item />
+    <Item value="Pacchetto &amp;successivo" revision="0" />
+    <Item value="Passa al pacchetto successivo" revision="0" />
   </Enumeration>
   <Enumeration key="NetPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Pacchetto &amp;precedente" revision="0" />
+    <Item value="Passa al pacchetto precedente" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Vai al pacchetto" revision="0" />
+    <Item value="Salta al pacchetto specificato" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
-    <Item />
-    <Item />
+    <Item value="Dettagli del pacchetto &amp;selezionato " revision="0" />
+    <Item value="Visualizzare i dettagli del pacchetto" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetFilter">
-    <Item />
-    <Item />
+    <Item value="Imposta &amp;filtro…" revision="0" />
+    <Item value="Configurazione del filtro di visualizzazione" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
-    <Item />
-    <Item />
+    <Item value="Stabilire il protocollo di &amp;root…" revision="0" />
+    <Item value="Specificare il protocollo principale per questo visualizzatore" revision="0" />
   </Enumeration>
   <Enumeration key="NetExpandAll">
-    <Item />
-    <Item />
+    <Item value="Espandi tutto" revision="0" />
+    <Item value="Espandi tutto" revision="0" />
   </Enumeration>
   <Enumeration key="NetCollapseAll">
-    <Item />
-    <Item />
+    <Item value="Comprimere tutti" revision="0" />
+    <Item value="Comprimere tutti" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectNone">
-    <Item />
-    <Item />
+    <Item value="&amp;Selezionare Nessuno" revision="0" />
+    <Item value="Eliminazione di tutte le selezioni nella finestra focalizzata" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectInvert">
-    <Item />
-    <Item />
+    <Item value="&amp;Selezionare Invertire" revision="0" />
+    <Item value="Selezionare Invertire" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectPacket">
-    <Item />
-    <Item />
+    <Item value="&amp;Selezionare il pacchetto" revision="0" />
+    <Item value="Selezionare i dati del pacchetto corrente" revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
-    <Item />
-    <Item />
+    <Item value="Seleziona tutti" revision="0" />
+    <Item value="Selezionare tutti i contenuti del visualizzatore" revision="0" />
   </Enumeration>
   <Enumeration key="ViewHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Esadecimale" revision="0" />
+    <Item value="Modalità esadecimale" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Decimale" revision="0" />
+    <Item value="Modalità decimale" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Ottale" revision="0" />
+    <Item value="Modalità ottale" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBinary">
-    <Item />
-    <Item />
+    <Item value="&amp;Binario" revision="0" />
+    <Item value="Modalità binaria" revision="0" />
   </Enumeration>
   <Enumeration key="ViewFloat">
-    <Item />
-    <Item />
+    <Item value="F&amp;loat" revision="0" />
+    <Item value="Modalità a virgola mobile a precisione singola" revision="0" />
   </Enumeration>
   <Enumeration key="ViewDouble">
-    <Item />
-    <Item />
+    <Item value="D&amp;ouble" revision="0" />
+    <Item value="Modalità a virgola mobile a doppia precisione" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupByte">
-    <Item />
-    <Item />
+    <Item value="Byte" revision="0" />
+    <Item value="Gruppo come byte" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupWord">
-    <Item />
-    <Item />
+    <Item value="Words" revision="0" />
+    <Item value="Gruppo come parole" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupDword">
-    <Item />
-    <Item />
+    <Item value="Words doppie" revision="0" />
+    <Item value="Gruppo come parole doppie" revision="0" />
   </Enumeration>
   <Enumeration key="ViewGroupQword">
-    <Item />
-    <Item />
+    <Item value="Words quadrate" revision="0" />
+    <Item value="Raggruppare come parole quadrate" revision="0" />
   </Enumeration>
   <Enumeration key="ViewAutoCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Automatico" revision="0" />
+    <Item value="Calcolo automatico del numero di colonne" revision="0" />
   </Enumeration>
   <Enumeration key="View4Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;4 colonne" revision="0" />
+    <Item value="4 colonne" revision="0" />
   </Enumeration>
   <Enumeration key="View8Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;8 colonne" revision="0" />
+    <Item value="8 colonne" revision="0" />
   </Enumeration>
   <Enumeration key="View16Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;16 colonne" revision="0" />
+    <Item value="16 colonne" revision="0" />
   </Enumeration>
   <Enumeration key="View32Cols">
-    <Item />
-    <Item />
+    <Item value="&amp;32 colonne" revision="0" />
+    <Item value="32 colonne" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCustomCols">
-    <Item />
-    <Item />
+    <Item value="&amp;Personalizzato…" revision="0" />
+    <Item value="Specificare il numero di colonne" revision="0" />
   </Enumeration>
   <Enumeration key="ViewTextPane">
-    <Item />
-    <Item />
+    <Item value="Riquadro di &amp;testo" revision="0" />
+    <Item value="Mostrare o nascondere un riquadro di testo (ASCII o UNICODE)" revision="0" />
   </Enumeration>
   <Enumeration key="ViewCodePane">
-    <Item />
-    <Item />
+    <Item value="Riquadro del &amp;codice" revision="0" />
+    <Item value="Mostrare o nascondere un riquadro di codice" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
-    <Item />
-    <Item />
+    <Item value="&amp;Esadecimale" revision="0" />
+    <Item value="Visualizza l'indirizzo come esadecimale" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetDecimal">
-    <Item />
-    <Item />
+    <Item value="&amp;Decimale" revision="0" />
+    <Item value="Visualizza l'indirizzo come decimal" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetOctal">
-    <Item />
-    <Item />
+    <Item value="&amp;Ottale" revision="0" />
+    <Item value="Visualizza l'indirizzo come ottale" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item />
-    <Item />
+    <Item value="&amp;Definire i modelli…" revision="0" />
+    <Item value="Creare nuovi modelli o gestire quelli esistenti" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
-    <Item />
-    <Item />
+    <Item value="&amp;Codifica" revision="0" />
+    <Item value="Codifica" revision="0" />
   </Enumeration>
   <Enumeration key="ViewEndpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Punti finali" revision="0" />
+    <Item value="Punti finali" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
-    <Item />
-    <Item />
+    <Item value="Aggiungi nuova regola…" revision="0" />
+    <Item value="Definire una nuova regola di colorazione dei modelli" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringSaveColoring">
-    <Item />
-    <Item />
+    <Item value="Salva schema…" revision="0" />
+    <Item value="Salva schema da colorare" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringLoadColoring">
-    <Item />
-    <Item />
+    <Item value="Caricare schema…" revision="0" />
+    <Item value="Carica schema di colorazione del modello" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringClearColoring">
-    <Item />
-    <Item />
+    <Item value="Cancellare lo schema di colorazione" revision="0" />
+    <Item value="Cancellare lo schema di colorazione" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
     <Item />

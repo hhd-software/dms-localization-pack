@@ -322,7 +322,7 @@
     <Item value="Zum vorherigen Paket springen" revision="0" />
   </Enumeration>
   <Enumeration key="NetGotoPacket">
-    <Item value="&amp;Zum Paket gehen…" revision="0" />
+    <Item value="&amp;Weiter zum Paket…" revision="0" />
     <Item value="Sprung zum angegebenen Paket" revision="0" />
   </Enumeration>
   <Enumeration key="NetShowCurrent">
