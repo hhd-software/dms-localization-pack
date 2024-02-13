@@ -475,10 +475,10 @@
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
     <Item value="Seleccionar todo" revision="0" />
-    <Item value="Seleccionar todo" revision="0" />
+    <Item value="Activar todas las reglas" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item value="Sacar todas" revision="0" />
+    <Item value="Seleccione ninguno" revision="0" />
     <Item value="Desactivar todas las reglas" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
@@ -487,7 +487,7 @@
   </Enumeration>
   <Enumeration key="ColoringDelete">
     <Item value="Borrar" revision="0" />
-    <Item value="Borrar" revision="0" />
+    <Item value="Borrar regla de coloración" revision="0" />
   </Enumeration>
   <Enumeration key="PatternHighlightingEnabled">
     <Item value="Resaltado de patrones" revision="0" />

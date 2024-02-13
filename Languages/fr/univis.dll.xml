@@ -474,106 +474,106 @@
     <Item value="Effacer le schéma de coloration" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
-    <Item />
-    <Item />
+    <Item value="Sélectionner tous" revision="0" />
+    <Item value="Activer toutes les règles" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item />
-    <Item />
+    <Item value="Sélectionner aucun" revision="0" />
+    <Item value="Désactiver toutes les règles" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
-    <Item />
-    <Item />
+    <Item value="Modifier la règle…" revision="0" />
+    <Item value="Modifier les propriétés d'une règle" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDelete">
-    <Item />
-    <Item />
+    <Item value="Supprimer" revision="0" />
+    <Item value="Supprimer une règle de coloration" revision="0" />
   </Enumeration>
   <Enumeration key="PatternHighlightingEnabled">
-    <Item />
-    <Item />
+    <Item value="Mise en évidence du modèle" revision="0" />
+    <Item value="Activer ou désactiver toutes les règles de mise en évidence des modèles" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataSelection">
-    <Item />
-    <Item />
+    <Item value="&amp;Afficher la sélection" revision="0" />
+    <Item value="Afficher la sélection" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataInsertMode">
-    <Item />
-    <Item />
+    <Item value="Mode d'&amp;insertion" revision="0" />
+    <Item value="Insérer des données" revision="0" />
   </Enumeration>
   <Enumeration key="ViewBigEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Big-Endian" revision="0" />
+    <Item value="Ordre des octets" revision="0" />
   </Enumeration>
   <Enumeration key="ViewLittleEndian">
-    <Item />
-    <Item />
+    <Item value="&amp;Little-Endian" revision="0" />
+    <Item value="Encodage Little-endian" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsGotoOffset">
-    <Item />
-    <Item />
+    <Item value="&amp;Aller à Offset" revision="0" />
+    <Item value="Sauter à l'offset spécifié" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsNextPacket">
-    <Item />
-    <Item />
+    <Item value="Paquet &amp;suivant" revision="0" />
+    <Item value="Sauter au début d'un paquet suivant" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Paquet &amp;précédent" revision="0" />
+    <Item value="Sauter au début d'un paquet précédent" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSynchronize">
-    <Item />
-    <Item />
+    <Item value="&amp;Synchroniser" revision="0" />
+    <Item value="Afficher le paquet le plus proche dans la fenêtre de lecture/écriture" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindPrev">
-    <Item />
-    <Item />
+    <Item value="Trouver Précédent" revision="0" />
+    <Item value="Trouver Précédent" revision="0" />
   </Enumeration>
   <Enumeration key="RawDataLayoutSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Coloration…" revision="0" />
+    <Item value="Afficher les paramètres de coloration du visualiseur de données brutes" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHexEditorExport">
-    <Item />
-    <Item />
+    <Item value="Processus avec Hex Editor Neo" revision="0" />
+    <Item value="Visualiser, analyser et modifier les fragments sélectionnés avec Hex Editor Neo" revision="0" />
   </Enumeration>
   <Enumeration key="MenuDisplayAs">
-    <Item />
-    <Item />
+    <Item value="Afficher &amp;comme" revision="0" />
+    <Item value="Afficher comme" revision="0" />
   </Enumeration>
   <Enumeration key="MenuGroupBy">
-    <Item />
-    <Item />
+    <Item value="Groupe par" revision="0" />
+    <Item value="Groupe par" revision="0" />
   </Enumeration>
   <Enumeration key="MenuColumns">
-    <Item />
-    <Item />
+    <Item value="&amp;Colonnes" revision="0" />
+    <Item value="Colonnes" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndians">
-    <Item />
-    <Item />
+    <Item value="Ordre des &amp;octets" revision="0" />
+    <Item value="Ordre des octets" revision="0" />
   </Enumeration>
   <Enumeration key="IncorrectInputText">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Doit être une valeur hexadécimale" revision="0" />
+    <Item value="Doit être une valeur décimale" revision="0" />
+    <Item value="Doit être une valeur octale" revision="0" />
+    <Item value="Doit être un nombre réel" revision="0" />
   </Enumeration>
   <Enumeration key="Range">
-    <Item />
-    <Item />
+    <Item value="Gamme : {from} – {to} (Taille: {size})" revision="0" />
+    <Item value="Gamme : {from} – {to} (Taille: {size})" revision="0" />
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
-    <Item />
-    <Item />
+    <Item value="Ligne statique placée" revision="0" />
+    <Item value="Cliquez à nouveau tout en maintenant la touche Ctrl enfoncée pour placer une ligne de suivi." revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
-    <Item />
-    <Item />
+    <Item value="Mode spécial à grande vitesse" revision="0" />
+    <Item value="Device Monitoring Studio peut augmenter la précision et les performances du visualiseur de statistiques s'il est utilisé seul. Démarrez une nouvelle session de surveillance en configurant uniquement le visualiseur de statistiques ou fermez immédiatement tous les autres modules de traitement des données pour accéder à ce mode.\nNotez que la journalisation désactive également le mode haute vitesse." revision="0" />
   </Enumeration>
   <Enumeration key="PlotVariables">
-    <Item />
-    <Item />
+    <Item value="Échantillon" revision="0" />
+    <Item value="Paquet" revision="0" />
     <Item lookup="Time" />
   </Enumeration>
   <Enumeration key="PlotColumns">
@@ -630,7 +630,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item />
+    <Item value="Nombre" revision="1" />
     <Item lookup="Name" />
     <Item lookup="Value" />
     <Item lookup="Offset" />

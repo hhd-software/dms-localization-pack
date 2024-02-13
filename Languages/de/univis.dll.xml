@@ -474,11 +474,11 @@
     <Item value="Klares Farbschema" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringCheckAll">
-    <Item value="Alle prüfen" revision="0" />
+    <Item value="Alle auswählen" revision="0" />
     <Item value="Alle Regeln freigeben" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringUncheckAll">
-    <Item value="Alle abwählen" revision="0" />
+    <Item value="Keine auswählen" revision="0" />
     <Item value="Alle Regeln deaktivieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringEditRule">
