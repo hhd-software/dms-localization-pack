@@ -328,6 +328,7 @@
 	<Message optional="true" key="Responder Parent ObjectHandle" description="Field: Responder Parent ObjectHandle" value="Responder Parent ObjectHandle"/>
 	<Message optional="true" key="Responder reserved ObjectHandle" description="Field: Responder reserved ObjectHandle" value="Responder reserved ObjectHandle"/>
 	<Message optional="true" key="Num Of Objects" description="Field: Num Of Objects" value="Num Of Objects"/>
+	<Message optional="true" key="Parent Object" description="Field: Parent Object" value="Parent Object"/>
 
 	<Enumeration optional="true" key="UsbStillDataTypes" description="USB Still Data Types list">
 		<Item text="INT8"/>

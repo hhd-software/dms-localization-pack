@@ -198,11 +198,6 @@
 		<Item text="Jump to the previous packet"/>
 	</Enumeration>
 
-	<Enumeration key="NetGotoPacket" description="Command: Go to Packet">
-		<Item text="&amp;Go to Packet…"/>
-		<Item text="Jump to the specified packet"/>
-	</Enumeration>
-
 	<Enumeration key="NetShowCurrent" description="Command: Selected Packet Details">
 		<Item text="&amp;Selected Packet Details"/>
 		<Item text="Display packet's details"/>
