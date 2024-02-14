@@ -52,6 +52,27 @@
   <Message key="InvalidColoringScheme" value="Nome di schema non valido o schema già esistente." revision="0" />
   <Message key="LowMemory" value="La sessione di monitoraggio è stata interrotta per mancanza di memoria." revision="0" />
   <Message key="EmergencySessionTermination" value="La sessione è stata interrotta dopo il seguente errore: {error text} ({error code})" revision="1" />
+  <Message key="EmptyFilter" value="Vuoto (cattura tutti i pacchetti)" revision="0" />
+  <Message key="DISPFILTER" value="Filtro visualizzatore" revision="0" />
+  <Message key="CAPTUREFILTER" value="Filtro di sessione" revision="0" />
+  <Message key="FLTWARNINGNEW" value="La sessione corrente sarà sospesa fino all'aggiornamento dei dati nei visualizzatori." revision="0" />
+  <Message key="DELETEERROR" value="Questo schema non può essere cancellato" revision="0" />
+  <Message key="WRITEERROR" value="Specificare il nome del filtro." revision="0" />
+  <Message key="READONLY" value="Questo schema non può essere modificato" revision="0" />
+  <Message key="NAMEERROR" value="Il nome è vuoto, errato o troppo lungo (più di 100 simboli)." revision="0" />
+  <Message key="Filtering" value="Filtraggio" revision="0" />
+  <Message key="FILESNOTLOADED" value="Si è verificato un errore nel caricamento dei file di definizione del protocollo. Il filtraggio non funziona." revision="0" />
+  <Message key="FilterDoesNotExist" value="Il filtro {filter} non esiste" revision="0" />
+  <Message key="FilterParamsMismatch" value="Non è possibile applicare una stringa di filtro a un filtro esistente." revision="0" />
+  <Message key="FilterApplyError" value="Parametri del filtro previsti" revision="0" />
+  <Message key="CurrentUnsaved" value="Filtro non salvato" revision="0" />
+  <Message key="OverwriteFilterScheme" value="Si vuole sovrascrivere lo schema {scheme}?" revision="0" />
+  <Message key="ErrorRootProtocol" value="Il protocollo di radice non è stato specificato" revision="0" />
+  <Message key="ErrorRootNotExist" value="Il protocollo radice selezionato non esiste" revision="0" />
+  <Message key="ConcantenatePackets" value="Merge the consequent demands" revision="0" />
+  <Message key="FreeWarning" value="Questo componente non è disponibile nella Free Edition. È possibile avviare una prova gratuita per provare questo componente, se non è ancora stata avviata." revision="0" />
+  <Message key="Continue with limited features" value="Continuare con funzioni limitate" revision="0" />
+  <Message key="Try extended functionality" value="Prova la funzionalità estesa" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

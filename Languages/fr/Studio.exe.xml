@@ -52,6 +52,27 @@
   <Message key="InvalidColoringScheme" value="Nom de schéma invalide ou schéma déjà existant." revision="0" />
   <Message key="LowMemory" value="La session de surveillance a été interrompue en raison d'un manque de mémoire." revision="0" />
   <Message key="EmergencySessionTermination" value="La session a été interrompue après l'erreur suivante : {error text} ({error code})" revision="1" />
+  <Message key="EmptyFilter" value="Vide (capture de tous les paquets)" revision="0" />
+  <Message key="DISPFILTER" value="Filtre de visualisation" revision="0" />
+  <Message key="CAPTUREFILTER" value="Filtre de session" revision="0" />
+  <Message key="FLTWARNINGNEW" value="Votre session actuelle sera suspendue jusqu'à ce que les données des visualiseurs soient mises à jour." revision="0" />
+  <Message key="DELETEERROR" value="Ce régime ne peut pas être supprimé" revision="0" />
+  <Message key="WRITEERROR" value="Spécifiez le nom du filtre." revision="0" />
+  <Message key="READONLY" value="Ce schéma ne peut pas être modifié" revision="0" />
+  <Message key="NAMEERROR" value="Le nom est vide, incorrect ou trop long (plus de 100 symboles)" revision="0" />
+  <Message key="Filtering" value="Filtrage" revision="0" />
+  <Message key="FILESNOTLOADED" value="Une erreur s'est produite lors du chargement des fichiers de définition du protocole. Le filtrage ne fonctionnera pas." revision="0" />
+  <Message key="FilterDoesNotExist" value="Le filtre {filter} n'existe pas" revision="0" />
+  <Message key="FilterParamsMismatch" value="Impossible d'appliquer une chaîne de filtrage à un filtre existant." revision="0" />
+  <Message key="FilterApplyError" value="Paramètres de filtrage attendus" revision="0" />
+  <Message key="CurrentUnsaved" value="Filtre non sauvegardé" revision="0" />
+  <Message key="OverwriteFilterScheme" value="Voulez-vous écraser le schéma {scheme} ?" revision="0" />
+  <Message key="ErrorRootProtocol" value="Le protocole racine n'a pas été spécifié" revision="0" />
+  <Message key="ErrorRootNotExist" value="Le protocole racine sélectionné n'existe pas" revision="0" />
+  <Message key="ConcantenatePackets" value="Rejoindre les demandes conséquentes" revision="0" />
+  <Message key="FreeWarning" value="Ce composant n'est pas disponible dans l'édition gratuite. Vous pouvez démarrer un essai gratuit pour essayer ce composant s'il n'a pas encore été lancé." revision="0" />
+  <Message key="Continue with limited features" value="Poursuivre avec des fonctionnalités limitées" revision="0" />
+  <Message key="Try extended functionality" value="Essayer les fonctionnalités étendues" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
