@@ -45,7 +45,7 @@
   <Message key="DisplayNotificationsFor" value="Mostrar janela de notificação durante (segundos)" revision="0" />
   <Message key="ClosesCurrentOnly" value="Fechar afecta apenas a janela da ferramenta atual" revision="0" />
   <Message key="RestoreWindowPosition" value="Restaurar a posição da janela principal no arranque" revision="0" />
-  <Message key="HoverTime" value="hover tempo (ms)" revision="0" />
+  <Message key="HoverTime" value="Hover tempo (ms)" revision="0" />
   <Message key="CloseTime" value="Fecho tempo (ms)" revision="0" />
   <Message key="Coloring" value="Coloração" revision="0" />
   <Message key="OverwriteColoringScheme" value="Substituir o esquema {scheme}?" revision="0" />

@@ -16,6 +16,42 @@
   <Message key="I can't find my language in this list." value="Je ne trouve pas ma langue dans cette liste." revision="0" />
   <Message key="Language pack storage location" value="Emplacement de stockage du pack linguistique" revision="0" />
   <Message key="Languages online" value="Langues en ligne" revision="0" />
+  <Message key="Refresh" value="&amp;Actualiser" revision="0" />
+  <Message key="ButtonRefreshing" value="Actualisation…" revision="0" />
+  <Message key="Download" value="&amp;Télécharger" revision="0" />
+  <Message key="Start" value="&amp;Démarrer" revision="0" />
+  <Message key="Language pack" value="Paquet de langues: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Si vous rejetez les mises à jour sélectionnées, Device Monitoring Studio ne vous en informera plus. Vous serez toujours informé des futures mises à jour.\r\n\r\nSouhaitez-vous toujours supprimer les mises à jour sélectionnées ?" revision="0" />
+  <Message key="LangPackUpdated" value="Le(s) pack(s) linguistique(s) a (ont) été mis à jour. Vous devez redémarrer l'application pour recharger le pack linguistique.\r\n\r\nVoulez-vous redémarrer maintenant ?" revision="0" />
+  <Message key="Component Updates" value="Mises à jour des composants" revision="0" />
+  <Message key="The following updates are found:" value="Les mises à jour suivantes ont été trouvées :" revision="0" />
+  <Message key="Check for updates" value="Vérifier les mises à jour" revision="0" />
+  <Message key="Start Download" value="Démarrer le téléchargement" revision="0" />
+  <Message key="View Changes..." value="Afficher les modifications..." revision="0" />
+  <Message key="Discard" value="Abandon" revision="0" />
+  <Message key="ActionSelection" value="{name} a été téléchargé avec succès. Que voulez-vous en faire ?" revision="0" />
+  <Message key="UpdateDownloadError" value="L'erreur suivante s'est produite lors du téléchargement de la mise à jour :\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Une erreur s'est produite lors de la copie du fichier téléchargé :\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Une erreur s'est produite lors de l'enregistrement de l'espace de travail : {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Une erreur s'est produite lors de l'exécution de l'image téléchargée :\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Nouvelle version téléchargée" revision="0" />
+  <Message key="Install now" value="Installer maintenant" revision="0" />
+  <Message key="Make a copy and install now" value="Faites une copie et installez-la maintenant" revision="0" />
+  <Message key="Notifications" value="Notifications" revision="0" />
+  <Message key="AutoHide" value="Masquage automatique des fenêtres d'outils" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Demande de sauvegarde de l'espace de travail modifié" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Sauvegarder la configuration des outils avec l'espace de travail" revision="0" />
+  <Message key="DocumentsToRemember" value="Affichage des derniers espaces de travail utilisés" revision="0" />
+  <Message key="DisplayNotificationsFor" value="Affichage de la fenêtre de notification pendant (secondes)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Fermer n'affecte que la fenêtre de l'outil en cours" revision="0" />
+  <Message key="RestoreWindowPosition" value="Restaurer la position de la fenêtre principale au démarrage" revision="0" />
+  <Message key="HoverTime" value="Temps de hover (ms)" revision="0" />
+  <Message key="CloseTime" value="Temps de fermeture (ms)" revision="0" />
+  <Message key="Coloring" value="Coloriage" revision="0" />
+  <Message key="OverwriteColoringScheme" value="Remplacer le schéma {scheme} ?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Nom de schéma invalide ou schéma déjà existant." revision="0" />
+  <Message key="LowMemory" value="La session de surveillance a été interrompue en raison d'un manque de mémoire." revision="0" />
+  <Message key="EmergencySessionTermination" value="La session a été interrompue après l'erreur suivante : {error text} ({error code})" revision="1" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />

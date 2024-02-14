@@ -16,6 +16,42 @@
   <Message key="I can't find my language in this list." value="Non riesco a trovare la mia lingua in questo elenco." revision="0" />
   <Message key="Language pack storage location" value="Posizione di memorizzazione del Language Pack" revision="0" />
   <Message key="Languages online" value="Lingue online" revision="0" />
+  <Message key="Refresh" value="&amp;Aggiorna" revision="0" />
+  <Message key="ButtonRefreshing" value="Aggiornamento…" revision="0" />
+  <Message key="Download" value="&amp;Scaricare" revision="0" />
+  <Message key="Start" value="&amp;Inizio" revision="0" />
+  <Message key="Language pack" value="Pacchetto lingua: {native name}" revision="0" />
+  <Message key="DiscardWarning" value="Se si scartano gli aggiornamenti selezionati, Device Monitoring Studio non li notificherà più. Gli aggiornamenti futuri continueranno a essere notificati.\r\n\r\nSi desidera ancora scartare gli aggiornamenti selezionati?" revision="0" />
+  <Message key="LangPackUpdated" value="Pacchetto/i linguistico/i aggiornato/i. È necessario riavviare l'applicazione per ricaricare il pacchetto linguistico.\r\n\r\nVuoi riavviare ora?" revision="0" />
+  <Message key="Component Updates" value="Aggiornamenti dei componenti" revision="0" />
+  <Message key="The following updates are found:" value="Sono stati trovati i seguenti aggiornamenti:" revision="0" />
+  <Message key="Check for updates" value="Controlla gli aggiornamenti" revision="0" />
+  <Message key="Start Download" value="Iniziare a scaricare" revision="0" />
+  <Message key="View Changes..." value="Visualizza le modifiche..." revision="0" />
+  <Message key="Discard" value="Scartare" revision="0" />
+  <Message key="ActionSelection" value="{name} è stato scaricato con successo. Cosa volete fare con esso?" revision="0" />
+  <Message key="UpdateDownloadError" value="Si è verificato il seguente errore durante il download dell'aggiornamento:\n\n  {error}" revision="0" />
+  <Message key="CopyError" value="Si è verificato un errore durante la copia del file scaricato:\n\n    {message} ({code})." revision="0" />
+  <Message key="SaveWorkspaceError" value="Si è verificato un errore nel salvataggio dell'area di lavoro: {error text} ({error code})" revision="0" />
+  <Message key="LaunchError" value="Si è verificato un errore nell'esecuzione dell'immagine scaricata:\n\n    {message} ({code})." revision="0" />
+  <Message key="New Version Downloaded" value="Nuova versione scaricata" revision="0" />
+  <Message key="Install now" value="Installa ora" revision="0" />
+  <Message key="Make a copy and install now" value="Fare una copia e installare ora" revision="0" />
+  <Message key="Notifications" value="Notifiche" revision="0" />
+  <Message key="AutoHide" value="Nascondere auto le finestre degli strumenti" revision="0" />
+  <Message key="AskToSaveWorkspace" value="Chiedere di salvare l'area di lavoro modificata" revision="0" />
+  <Message key="SaveConfWithWorkspace" value="Salvare la configurazione degli strumenti con l'area di lavoro" revision="0" />
+  <Message key="DocumentsToRemember" value="Visualizzazione degli ultimi spazi di lavoro utilizzati di recente" revision="0" />
+  <Message key="DisplayNotificationsFor" value="Visualizzazione della finestra di notifica per (secondi)" revision="0" />
+  <Message key="ClosesCurrentOnly" value="Chiudi agisce solo sulla finestra dello strumento corrente" revision="0" />
+  <Message key="RestoreWindowPosition" value="Ripristino della posizione della finestra principale all'avvio" revision="0" />
+  <Message key="HoverTime" value="Tempo di hovering (ms)" revision="0" />
+  <Message key="CloseTime" value="Tempo di chiusura (ms)" revision="0" />
+  <Message key="Coloring" value="Colorazione" revision="0" />
+  <Message key="OverwriteColoringScheme" value="Sovrascrivere lo schema {scheme}?" revision="0" />
+  <Message key="InvalidColoringScheme" value="Nome di schema non valido o schema già esistente." revision="0" />
+  <Message key="LowMemory" value="La sessione di monitoraggio è stata interrotta per mancanza di memoria." revision="0" />
+  <Message key="EmergencySessionTermination" value="La sessione è stata interrotta dopo il seguente errore: {error text} ({error code})" revision="1" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
