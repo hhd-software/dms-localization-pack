@@ -321,10 +321,6 @@
     <Item value="Pacote &amp;precedente" revision="0" />
     <Item value="Saltar para o pacote precedente" revision="0" />
   </Enumeration>
-  <Enumeration key="NetGotoPacket">
-    <Item value="&amp;Saltar para o pacote especificado" revision="0" />
-    <Item value="Saltar para o pacote especificado" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="Detalhes do pacote &amp;selecionado" revision="0" />
     <Item value="Detalhes do pacote selecionado" revision="0" />
@@ -599,19 +595,19 @@
     <Item value="Texto" revision="1" />
     <Item value="Fundo" revision="1" />
     <Item value="Cabeçalho e endereço" revision="1" />
-    <Item value="Contexto do endereço" revision="1" />
+    <Item value="Fundo do endereço" revision="1" />
     <Item value="Texto ASCII/UNICODE" revision="1" />
     <Item value="Fundo ASCII/UNICODE" revision="1" />
     <Item value="Coluna/linha par (para modos entrelaçados)" revision="1" />
     <Item value="Coluna/linha ímpar (para modos entrelaçados)" revision="1" />
     <Item value="Texto &quot;Sem dados&quot;" revision="1" />
-    <Item value="Preencher o cursor" revision="1" />
+    <Item value="Preenchimento do Cursor" revision="1" />
     <Item value="Traço do cursor" revision="1" />
-    <Item value="Texto de realce de linha e coluna ativo" revision="1" />
-    <Item value="Fundo de realce da linha e coluna activas" revision="1" />
-    <Item value="Texto do pacote ímpares" revision="1" />
-    <Item value="Fundo do pacote ímpar" revision="1" />
-    <Item value="Contorno de pacotes com número ímpar" revision="1" />
+    <Item value="Texto realçado da linha e coluna activas " revision="1" />
+    <Item value="Fundo realçado da linha e coluna activas " revision="1" />
+    <Item value="Texto do pacote com número ímpar" revision="1" />
+    <Item value="Fundo do pacote com número ímpar" revision="1" />
+    <Item value="Contorno do pacote com número ímpar" revision="1" />
     <Item value="Texto do pacote com número par" revision="1" />
     <Item value="Fundo do pacote par" revision="1" />
     <Item value="Contorno de um pacote par" revision="1" />
@@ -621,7 +617,7 @@
   <Enumeration key="FRTypeList">
     <Item value="Cadeia de texto" revision="0" />
     <Item value="UNICODE String" revision="0" />
-    <Item value="v" revision="0" />
+    <Item value="Hex" revision="0" />
   </Enumeration>
   <Enumeration key="FRGroupList">
     <Item />

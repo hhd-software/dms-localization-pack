@@ -321,10 +321,6 @@
     <Item value="Paquet &amp;précédent" revision="0" />
     <Item value="Sauter au paquet précédent" revision="0" />
   </Enumeration>
-  <Enumeration key="NetGotoPacket">
-    <Item value="&amp;Aller au paquet" revision="0" />
-    <Item value="Aller au paquet spécifié" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="Détails du paquet &amp;sélectionné" revision="0" />
     <Item value="Afficher les détails du paquet" revision="0" />
@@ -578,50 +574,50 @@
   </Enumeration>
   <Enumeration key="PlotColumns">
     <Item lookup="Name" />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Max" revision="0" />
+    <Item value="Moyenne" revision="0" />
+    <Item value="Dernière" revision="0" />
+    <Item value="Total" revision="0" />
+    <Item value="Échelle" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Taille totale" revision="0" />
+    <Item value="Fragments" revision="0" />
+    <Item value="Pas de sélection" revision="0" />
+    <Item value="octets" revision="0" />
   </Enumeration>
   <Enumeration key="SelectionDetailsColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="№" revision="0" />
+    <Item value="Adresse" revision="0" />
+    <Item value="Longueur" revision="0" />
   </Enumeration>
   <Enumeration key="ColorItems">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Texte" revision="1" />
+    <Item value="Arrière-plan" revision="1" />
+    <Item value="En-tête &amp; adresse" revision="1" />
+    <Item value="Arrière plan de l'adresse" revision="1" />
+    <Item value="Texte ASCII/UNICODE" revision="1" />
+    <Item value="Arrière-plan ASCII/UNICODE" revision="1" />
+    <Item value="Colonne/rangée paire (pour les modes verrouillés)" revision="1" />
+    <Item value="Colonne/rangée impaire (pour les modes entrelacés)" revision="1" />
+    <Item value="Texte &quot;Pas de données&quot;" revision="1" />
+    <Item value="Remplissage du curseur" revision="1" />
+    <Item value="Contour du curseur" revision="1" />
+    <Item value="Texte surligné de la ligne et de la colonne actives " revision="1" />
+    <Item value="Arrière-plan surligné de la ligne et de la colonne actives " revision="1" />
+    <Item value="Texte du paquet impair" revision="1" />
+    <Item value="Fonds des paquets impairs" revision="1" />
+    <Item value="Contour du paquet impair" revision="1" />
+    <Item value="Texte du paquet pair" revision="1" />
+    <Item value="Fonds de paquet pair" revision="1" />
+    <Item value="Les contours d'un paquet pair" revision="1" />
+    <Item value="Sélection" revision="1" />
+    <Item value="Texte modifiable" revision="1" />
   </Enumeration>
   <Enumeration key="FRTypeList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Chaîne de texte" revision="0" />
+    <Item value="Chaîne UNICODE" revision="0" />
+    <Item value="Hex" revision="0" />
   </Enumeration>
   <Enumeration key="FRGroupList">
     <Item />

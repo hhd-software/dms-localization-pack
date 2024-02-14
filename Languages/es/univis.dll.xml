@@ -321,10 +321,6 @@
     <Item value="Paquete &amp;precedente" revision="0" />
     <Item value="Saltar al paquete precedente" revision="0" />
   </Enumeration>
-  <Enumeration key="NetGotoPacket">
-    <Item value="&amp;Saltar al paquete especificado" revision="0" />
-    <Item value="Saltar al paquete especificado" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="Detalles del paquete &amp;seleccionado" revision="0" />
     <Item value="Mostrar los detalles del paquete" revision="0" />
@@ -599,22 +595,22 @@
     <Item value="Texto" revision="1" />
     <Item value="Fondo" revision="1" />
     <Item value="Encabezamiento y dirección" revision="1" />
-    <Item value="Antecedentes de la dirección" revision="1" />
+    <Item value="Fondo de la dirección" revision="1" />
     <Item value="Texto ASCII/UNICODE" revision="1" />
     <Item value="Fondo ASCII/UNICODE" revision="1" />
     <Item value="Columna/fila par (para modos entrelazados)" revision="1" />
     <Item value="Columna/fila impar (para modos entrelazados)" revision="1" />
     <Item value="Texto &quot;Sin datos&quot; " revision="1" />
-    <Item value="Cursor Fill" revision="1" />
+    <Item value="Relleno de cursor" revision="1" />
     <Item value="Trazo del cursor" revision="1" />
-    <Item value="Texto resaltado en filas y columnas activas" revision="1" />
-    <Item value="Fondo resaltado de filas y columnas activas" revision="1" />
+    <Item value="Texto resaltado de la fila y columna activas " revision="1" />
+    <Item value="Fondo resaltado de la fila y columna activas" revision="1" />
     <Item value="Texto del paquete impar" revision="1" />
     <Item value="Fondo de paquetes impares" revision="1" />
     <Item value="Contorno de paquete impar" revision="1" />
     <Item value="Texto del paquete par" revision="1" />
     <Item value="Fondo de paquetes pares" revision="1" />
-    <Item value="Contorno de un paquete par" revision="1" />
+    <Item value="Contour de un paquete par" revision="1" />
     <Item value="Selección" revision="1" />
     <Item value="Texto editable" revision="1" />
   </Enumeration>

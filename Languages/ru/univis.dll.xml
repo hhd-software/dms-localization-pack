@@ -321,10 +321,6 @@
     <Item value="&amp;Предыдущий пакет" revision="0" />
     <Item value="Перейти к предыдущему пакету" revision="0" />
   </Enumeration>
-  <Enumeration key="NetGotoPacket">
-    <Item value="&amp;Перейти к пакету…" revision="0" />
-    <Item value="Переход к указанному пакету" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="&amp;Детали выбранного пакета" revision="0" />
     <Item value="Детали выбранного пакета" revision="0" />
