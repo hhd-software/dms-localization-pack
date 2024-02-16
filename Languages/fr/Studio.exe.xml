@@ -178,6 +178,16 @@
   <Message key="Responses" value="Réponses" revision="0" />
   <Message key="IO Requests" value="Demandes d'E/S" revision="0" />
   <Message key="clr.default_colors" value="Couleurs par défaut de l'IU" revision="0" />
+  <Message key="clr.balloon.dontDisplay" value="Message &quot;Ne plus afficher&quot;" revision="0" />
+  <Message key="Settings Page" value="Paramètres" revision="0" />
+  <Message key="Settings Storage Location" value="Lieu de stockage des paramètres" revision="0" />
+  <Message key="Settings Management" value="Gestion des paramètres" revision="0" />
+  <Message key="Export Settings…" value="Exporter paramètres…" revision="0" />
+  <Message key="Import Settings…" value="Importer paramètres…" revision="0" />
+  <Message key="Reset Settings…" value="Réinitialiser paramètres…" revision="0" />
+  <Message key="Ask to import settings" value="Le fichier spécifié existe déjà. Voulez-vous importer son contenu maintenant ? Si vous cliquez sur Non, le fichier sera remplacé par les paramètres actuels." revision="0" />
+  <Message key="Ask to reset settings" value="L'application doit être redémarrée pour réinitialiser les paramètres. Voulez-vous continuer ?" revision="0" />
+  <Message key="Ask to restart" value="Il est recommandé de redémarrer l'application pour appliquer les paramètres importés. Voulez-vous redémarrer maintenant ?" revision="0" />
   <Message key="OK" value="OK" revision="0" />
   <Message key="Apply" value="&amp;Appliquer" revision="0" />
   <Message key="Cancel" value="Annuler" revision="0" />
@@ -257,6 +267,7 @@
   <Message key="Setting files" value="Paramètres|*.dmsset9|" revision="0" />
   <Message key="Export successful" value="Les paramètres ont été enregistrés avec succès dans un fichier." revision="0" />
   <Message key="Import successful" value="Les paramètres ont été importés avec succès." revision="0" />
+  <Message key="File creation error" value="Une erreur s'est produite lors de la {create?}création ou de {|create}l'ouverture{?create} d'un fichier &quot;{name}&quot;: {text} ({code})" revision="0" />
   <Message key="Vendor-Specific" value="Spécifique au vendeur" revision="0" />
   <Message key="MissingFilterHost" value="Erreur dans l'obtention de l'hôte de filtrage. Le fichier de structure est manquant ou comporte des erreurs de compilation." revision="0" />
   <Message key="UseLanguage" value="Utiliser ce pack linguistique" revision="0" />
@@ -337,63 +348,63 @@
     <Item value="Version de mise à jour" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Vérifier les mises à jour" revision="0" />
+    <Item value="Chaque lancement" revision="0" />
+    <Item value="Chaque semaine" revision="0" />
+    <Item value="Jamais" revision="0" />
   </Enumeration>
   <Enumeration key="CompilerErrors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PAS_D'ERREUR" revision="0" />
+    <Item value="CE001: L'opération demandée n'est pas autorisée pour le type de données donné ou n'est pas attendue ici" revision="0" />
+    <Item value="CE002: Diviser par zéro" revision="0" />
+    <Item value="CE003: L'identifiant spécifié n'a pas été trouvé" revision="0" />
+    <Item value="CE004: Scalar est attendu" revision="0" />
+    <Item value="CE005: Le vecteur est attendu" revision="0" />
+    <Item value="CE006: L'index du tableau est en dehors de la plage" revision="0" />
+    <Item value="CE007: Pas encore mis en œuvre" revision="0" />
+    <Item value="CE008: Taille du champ de bits invalide" revision="0" />
+    <Item value="CE009: Erreur de syntaxe" revision="0" />
+    <Item value="CE010: Le type n'a été déclaré que par anticipation" revision="0" />
+    <Item value="CE011: Opération non supportée pour le type dynamique" revision="0" />
+    <Item value="CE012: Le type est redéfini" revision="0" />
+    <Item value="CE013: Échec de l'assertion" revision="0" />
+    <Item value="CE014: Une expression constante est attendue" revision="0" />
+    <Item value="CE015: Une expression de chaîne constante est attendue" revision="0" />
+    <Item value="CE016: Nombre incorrect d'arguments pour un appel de fonction" revision="0" />
+    <Item value="CE017: Opération d'indice pour un tableau non indexé (astuce : supprimer l'attribut [noindex])" revision="0" />
+    <Item value="CE018: Erreur renvoyée par le moteur Javascript" revision="0" />
+    <Item value="CE019: Argument non valide" revision="0" />
+    <Item value="CE020: La profondeur de récursion maximale autorisée est atteinte" revision="0" />
+    <Item value="CE021: Une expression d'un autre type est attendue" revision="0" />
+    <Item value="CE022: Erreur de prétraitement" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAll">
-    <Item />
-    <Item />
+    <Item value="Enregistrer &amp;tous" revision="0" />
+    <Item value="Sauvegarder tous les documents ouverts" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Défaut" revision="0" />
+    <Item value="Afficher tout" revision="0" />
+    <Item value="Affichage aucun" revision="0" />
+    <Item value="Actuel" revision="0" />
   </Enumeration>
   <Enumeration key="NewBetaVersionsAvailable">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nouvelles versions bêta disponibles" revision="0" />
+    <Item value="De nouvelles versions bêta sont disponibles au téléchargement pour votre version du produit." revision="0" />
+    <Item value="Voulez-vous consulter la liste des composants mis à jour et les télécharger ?" revision="0" />
+    <Item value="Cette invite n'apparaît qu'une seule fois pour chaque ensemble de composants uniques en ligne." revision="0" />
+    <Item value="Ne pas vérifier les nouvelles versions bêta" revision="0" />
   </Enumeration>
   <Enumeration key="FileExit">
-    <Item />
-    <Item />
+    <Item value="&amp;Quitter" revision="0" />
+    <Item value="Quitter l'application" revision="0" />
   </Enumeration>
   <Enumeration key="FileOpen">
-    <Item />
-    <Item />
+    <Item value="&amp;Ouvrir…" revision="0" />
+    <Item value="Ouvrir un document au format supporté" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item />
+    <Item value="" revision="0" />
     <Item />
   </Enumeration>
   <Enumeration key="EditCut">

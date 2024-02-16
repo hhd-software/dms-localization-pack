@@ -437,7 +437,7 @@
   <Enumeration key="CompilerErrors">
     <Item value="NO_ERROR" revision="0" />
     <Item value="CE001: La operación solicitada no está permitida en el tipo de datos dado o no se espera aquí" revision="0" />
-    <Item value="CE002: Divison by zero" revision="0" />
+    <Item value="CE002: División por cero" revision="0" />
     <Item value="CE003: No se ha encontrado el identificador especificado" revision="0" />
     <Item value="CE004: Se espera escalar" revision="0" />
     <Item value="CE005: Se espera el vector" revision="0" />
