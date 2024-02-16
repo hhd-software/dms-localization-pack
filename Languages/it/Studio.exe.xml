@@ -404,20 +404,20 @@
     <Item value="Aprire un documento di formato supportato" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item value="" revision="0" />
-    <Item />
+    <Item value="Cancellare l'area di lavoro" revision="0" />
+    <Item value="Chiudere tutte le sessioni di monitoraggio, le finestre aperte e cancellare altre voci dello spazio di lavoro." revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="&amp;Tagliare" revision="0" />
+    <Item value="Tagliare la selezione e incollarla negli Appunti." revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiare" revision="0" />
+    <Item value="Copiare la selezione" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Incolla" revision="0" />
+    <Item value="Incolla il contenuto degli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
     <Item />

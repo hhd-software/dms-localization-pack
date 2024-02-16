@@ -490,14 +490,14 @@
   </Enumeration>
   <Enumeration key="EditCut">
     <Item value="Cor&amp;tar" revision="0" />
-    <Item value="Cortar a seleção para a Área de transferência" revision="0" />
+    <Item value="Cortar a seleção e colá-la na Área de transferência" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
     <Item value="&amp;Copiar" revision="0" />
     <Item value="Copiar seleção" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item value="Co&amp;lar" revision="0" />
+    <Item value="&amp;Colar" revision="0" />
     <Item value="Colar o conteúdo da Área de Transferência" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">

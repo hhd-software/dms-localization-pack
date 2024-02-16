@@ -404,20 +404,20 @@
     <Item value="Ouvrir un document au format supporté" revision="0" />
   </Enumeration>
   <Enumeration key="FileClose">
-    <Item value="" revision="0" />
-    <Item />
+    <Item value="Effacer l'espace de travail" revision="0" />
+    <Item value="Fermer toutes les sessions de surveillance, les fenêtres ouvertes et effacer les autres entrées de l'espace de travail" revision="0" />
   </Enumeration>
   <Enumeration key="EditCut">
-    <Item />
-    <Item />
+    <Item value="Cou&amp;per" revision="0" />
+    <Item value="Couper la sélection et la coller dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copier" revision="0" />
+    <Item value="Copier la sélection" revision="0" />
   </Enumeration>
   <Enumeration key="EditPaste">
-    <Item />
-    <Item />
+    <Item value="&amp;Coller" revision="0" />
+    <Item value="Coller le contenu du presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
     <Item />

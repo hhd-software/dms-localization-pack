@@ -490,7 +490,7 @@
   </Enumeration>
   <Enumeration key="EditCut">
     <Item value="Cor&amp;tar" revision="0" />
-    <Item value="Cortar la selección en el Portapapeles" revision="0" />
+    <Item value="Cortar la selección y pegarla en el Portapapeles" revision="0" />
   </Enumeration>
   <Enumeration key="EditCopy">
     <Item value="&amp;Copiar" revision="0" />
