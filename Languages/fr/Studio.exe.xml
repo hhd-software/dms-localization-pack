@@ -420,16 +420,16 @@
     <Item value="Coller le contenu du presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="&amp;Exporter" revision="1" />
+    <Item value="Exporter la sélection" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Supprimer/effacer &amp;vue" revision="0" />
+    <Item value="Effacer la vue" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
-    <Item />
-    <Item />
+    <Item value="Effacer &amp;toutes les vues" revision="0" />
+    <Item value="Effacer toutes les vues" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
     <Item />

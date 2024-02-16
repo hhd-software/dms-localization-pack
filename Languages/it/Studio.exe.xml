@@ -420,16 +420,16 @@
     <Item value="Incolla il contenuto degli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="EditExport">
-    <Item />
-    <Item />
+    <Item value="&amp;Esportare" revision="1" />
+    <Item value="Esportare la selezione" revision="1" />
   </Enumeration>
   <Enumeration key="EditClearView">
-    <Item />
-    <Item />
+    <Item value="Eliminare/ripulire la &amp;vista" revision="0" />
+    <Item value="Liberare la vista" revision="0" />
   </Enumeration>
   <Enumeration key="EditClearAllViews">
-    <Item />
-    <Item />
+    <Item value="Cancella &amp;tutte le viste" revision="0" />
+    <Item value="Cancella tutte le viste" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
     <Item />
