@@ -358,7 +358,7 @@
   <Message key="BindPathWarning" value="A sua sessão atual será interrompida para aplicar o novo protocolo de raiz. Os eventos que ocorrerem durante esta operação serão perdidos. Deseja continuar?" revision="0" />
   <Message key="WarningTitle" value="Aviso" revision="0" />
   <Message key="Wait_Text" value="A operação solicitada está a ser executada…" revision="0" />
-  <Message key="Crash Page" value="Relatórios de crashs" revision="0" />
+  <Message key="Crash Page" value="Comunicar as falhas" revision="0" />
   <Message key="CrashIntro" value="Se pretender ser notificado sobre o estado do seu relatório de acidente e desejar que os seus relatórios sejam processados com maior prioridade, indique o seu endereço de correio eletrónico na caixa abaixo. O seu endereço de correio eletrónico não será utilizado para mais nada para além da discussão do seu relatório." revision="0" />
   <Message key="Report Settings" value="Configurações" revision="0" />
   <Message key="Send report automatically" value="&amp;Enviar relatório automaticamente" revision="0" />

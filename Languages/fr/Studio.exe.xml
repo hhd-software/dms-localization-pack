@@ -229,58 +229,112 @@
   <Message key="Match case" value="Correspondance de la &amp;casse" revision="0" />
   <Message key="Whole window" value="Fenêtre &amp;entière" revision="0" />
   <Message key="Selection" value="&amp;Sélection" revision="0" />
+  <Message key="GotoCaption" value="Aller à {caption}" revision="0" />
+  <Message key="Packet number" value="Numéro de paquet" revision="0" />
+  <Message key="Code" value="Code" revision="0" />
+  <Message key="The following monitoring sessions are active:" value="{has sessions?}Les sessions de surveillance suivantes sont actives : {sessions}{|has sessions}Aucune session de surveillance active.{?has sessions}" revision="0" />
+  <Message key="Default" value="Défaut" revision="0" />
+  <Message key="This scheme cannot be deleted" value="Ce régime ne peut pas être supprimé" revision="0" />
+  <Message key="Plase wait" value="Veuillez patienter…" revision="0" />
+  <Message key="DataNoLongerValid" value="Ce bloc de données n'est plus valide." revision="0" />
+  <Message key="Unknown Request" value="Demande inconnue" revision="0" />
+  <Message key="Undefined" value="Non défini" revision="0" />
+  <Message key="None" value="Aucun" revision="0" />
+  <Message key="Request" value="Demande" revision="0" />
+  <Message key="Request Name" value="Nom de la demande" revision="0" />
+  <Message key="Request Subtype" value="Sous-type de demande" revision="0" />
+  <Message key="Interface" value="Interface" revision="0" />
+  <Message key="Request Type" value="Type de demande" revision="0" />
+  <Message key="CopyProtect" value="Protection des copies" revision="0" />
+  <Message key="InterfaceFmt" value="Interface{number}" revision="0" />
+  <Message key="PinFmt" value="Broche{number}: " revision="0" />
+  <Message key="ControlFmt" value="Contrôle{number}: " revision="0" />
+  <Message key="Up" value="Haut" revision="0" />
+  <Message key="Down" value="En bas" revision="0" />
+  <Message key="Enabled" value="Activé" revision="0" />
+  <Message key="ToolsFilter" value="Fichiers de configuration des outils|*.dmsdwc9|" revision="0" />
+  <Message key="AllFilesFilterString" value="Tous les fichiers|*.*|" revision="0" />
+  <Message key="Setting files" value="Paramètres|*.dmsset9|" revision="0" />
+  <Message key="Export successful" value="Les paramètres ont été enregistrés avec succès dans un fichier." revision="0" />
+  <Message key="Import successful" value="Les paramètres ont été importés avec succès." revision="0" />
+  <Message key="Vendor-Specific" value="Spécifique au vendeur" revision="0" />
+  <Message key="MissingFilterHost" value="Erreur dans l'obtention de l'hôte de filtrage. Le fichier de structure est manquant ou comporte des erreurs de compilation." revision="0" />
+  <Message key="UseLanguage" value="Utiliser ce pack linguistique" revision="0" />
+  <Message key="AccessLangsOnline" value="Accéder au référentiel en ligne" revision="0" />
+  <Message key="LangChanged" value="Vous devez redémarrer Device Monitoring Studio après avoir modifié la langue. Voulez-vous redémarrer maintenant ?" revision="0" />
+  <Message key="ThemeFiles" value="Fichiers du thème (*.dmstheme)|*.dmstheme||" revision="1" />
+  <Message key="BindPathWarning" value="La session en cours sera interrompue afin d'appliquer le nouveau protocole racine. Les événements qui se produiront pendant cette opération seront perdus. Voulez-vous continuer ?" revision="0" />
+  <Message key="WarningTitle" value="Avertissement" revision="0" />
+  <Message key="Wait_Text" value="L'opération demandée est en cours d'exécution…" revision="0" />
+  <Message key="Crash Page" value="Rapports d'accidents" revision="0" />
+  <Message key="CrashIntro" value="Si vous souhaitez être informé de l'état d'avancement de votre rapport d'accident et si vous voulez que vos rapports soient traités en priorité, veuillez indiquer votre adresse électronique dans la case ci-dessous. Votre adresse électronique ne sera pas utilisée à d'autres fins que la discussion de votre rapport." revision="0" />
+  <Message key="Report Settings" value="Paramètres" revision="0" />
+  <Message key="Send report automatically" value="&amp;Envoi automatique d'un rapport" revision="0" />
+  <Message key="Report verbosity level" value="Niveau de verbosité du rapport" revision="0" />
+  <Message key="Minidump" value="&amp;Minidump" revision="0" />
+  <Message key="Full dump" value="Dump &amp;complet" revision="0" />
+  <Message key="Minidump description" value="Les minidump ont généralement une taille inférieure à un mégaoctet et ne contiennent que des informations limitées sur un crash. Parfois, un minidump est suffisant pour diagnostiquer le problème, mais il manque souvent les informations nécessaires pour reproduire le crash." revision="0" />
+  <Message key="Full dump description" value="Les dumps complets contiennent la vue compressée de l'espace d'adressage de tous les processus. Ils sont idéaux pour permettre aux développeurs de reproduire la situation qui a causé le crash et de la corriger dès que possible. Cependant, la taille d'un dump complet peut facilement atteindre des centaines de mégaoctets." revision="0" />
+  <Message key="Privacy Policy" value="Politique de confidentialité" revision="0" />
+  <Message key="Credits to" value="Crédits à :" revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Cliquez pour changer de filtre" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Cliquez pour modifier le protocole racine" revision="0" />
+  <Message key="WrittenBytes" value="{size as text} ({size} octets) écrite" revision="0" />
+  <Message key="Do not display this warning anymore" value="Ne plus afficher ce message" revision="1" />
+  <Message key="Find Operation" value="Recherche de texte" revision="0" />
+  <Message key="NextPage" value="Continuer…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
-    <Item />
-    <Item />
+    <Item value="&amp;Vérifier les mises à jour" revision="0" />
+    <Item value="Vérifier si une version actualisée est disponible en ligne." revision="0" />
   </Enumeration>
   <Enumeration key="MenuFile">
-    <Item />
-    <Item />
+    <Item value="&amp;Fichier" revision="0" />
+    <Item value="Fichier" revision="0" />
   </Enumeration>
   <Enumeration key="MenuNew">
-    <Item />
-    <Item />
+    <Item value="&amp;Nouveau" revision="0" />
+    <Item value="Nouveau" revision="0" />
   </Enumeration>
   <Enumeration key="MenuEdit">
-    <Item />
-    <Item />
+    <Item value="&amp;Editer" revision="0" />
+    <Item value="Editer" revision="0" />
   </Enumeration>
   <Enumeration key="MenuView">
-    <Item />
-    <Item />
+    <Item value="&amp;Vue" revision="0" />
+    <Item value="Vue" revision="0" />
   </Enumeration>
   <Enumeration key="MenuTools">
-    <Item />
-    <Item />
+    <Item value="&amp;Outils" revision="0" />
+    <Item value="Outils" revision="0" />
   </Enumeration>
   <Enumeration key="MenuWindow">
-    <Item />
-    <Item />
+    <Item value="&amp;Fenêtre" revision="0" />
+    <Item value="Fenêtre" revision="0" />
   </Enumeration>
   <Enumeration key="MenuHelp">
-    <Item />
-    <Item />
+    <Item value="&amp;Aide" revision="0" />
+    <Item value="Aide" revision="0" />
   </Enumeration>
   <Enumeration key="MenuToolWindows">
-    <Item />
-    <Item />
+    <Item value="Fenêtres &amp;outils" revision="0" />
+    <Item value="Liste des fenêtres d'outils" revision="0" />
   </Enumeration>
   <Enumeration key="FileSave">
-    <Item />
-    <Item />
+    <Item value="&amp;Enregistrer" revision="0" />
+    <Item value="Sauvegarder le document ou l'espace de travail en cours" revision="0" />
   </Enumeration>
   <Enumeration key="FilteringX">
-    <Item />
-    <Item />
+    <Item value="&amp;Filtrage" revision="0" />
+    <Item value="Afficher les filtres et les options du visualiseur" revision="0" />
   </Enumeration>
   <Enumeration key="FileSaveAs">
-    <Item />
-    <Item />
+    <Item value="Enregistrer &amp;sous…" revision="0" />
+    <Item value="Enregistrer le document ou l'espace de travail actuel sous un autre nom" revision="0" />
   </Enumeration>
   <Enumeration key="UpdatesColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Composant" revision="0" />
+    <Item value="Version actuelle" revision="0" />
+    <Item value="Version de mise à jour" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
     <Item />
