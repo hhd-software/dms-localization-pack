@@ -120,7 +120,7 @@
   <Message key="toolbar.Standard" value="Standard" revision="0" />
   <Message key="Auto Hide" value="Auto Hide" revision="0" />
   <Message key="Window list" value="Lista de ventanas" revision="0" />
-  <Message key="Switch Window" value="Ventana del interruptor" revision="0" />
+  <Message key="Switch Window" value="Cambiar ventana" revision="0" />
   <Message key="Active Tool Windows" value="Ventanas de herramientas activas" revision="0" />
   <Message key="Active Documents" value="Documentos activos" revision="0" />
   <Message key="Settings group.Visual" value="Visual" revision="0" />
@@ -132,7 +132,7 @@
   <Message key="Enter the scheme name and press the Save button" value="Introduzca el nombre del esquema y pulse el botón Guardar" revision="0" />
   <Message key="ColorSchemeExists" value="El esquema de colores ya existe. ¿Desea anularlo?" revision="0" />
   <Message key="Theme:" value="Diseño:" revision="0" />
-  <Message key="Display elements:" value="Elementos mostrados:" revision="0" />
+  <Message key="Display elements:" value="Mostrar un elemento:" revision="0" />
   <Message key="Automatic" value="Automático" revision="0" />
   <Message key="Current" value="Actual" revision="0" />
   <Message key="Selected" value="Seleccionado" revision="0" />
@@ -273,7 +273,7 @@
   <Message key="Apply" value="&amp;Aplicar" revision="0" />
   <Message key="Cancel" value="Cancelar" revision="0" />
   <Message key="Reset" value="&amp;Restablecer" revision="0" />
-  <Message key="Reset to Default" value="Restablecer valores por defecto" revision="0" />
+  <Message key="Reset to Default" value="Restablecer valores por &amp;defecto" revision="0" />
   <Message key="Help" value="&amp;Ayuda" revision="0" />
   <Message key="Yes" value="&amp;Sí" revision="0" />
   <Message key="No" value="&amp;No" revision="0" />
@@ -303,7 +303,7 @@
   <Message key="PacketNotFound" value="El paquete que busca no aparece en este visualizador. Intente localizarlo en otros visualizadores." revision="0" />
   <Message key="Root Protocol" value="Protocolo raíz" revision="0" />
   <Message key="Affect only new packets" value="Afectar sólo a los paquetes nuevos" revision="0" />
-  <Message key="Filter string" value="Filtrar cadena" revision="0" />
+  <Message key="Filter string" value="Cadena del filtro" revision="0" />
   <Message key="Protocol:" value="Protocolo:" revision="0" />
   <Message key="Serial Repeater Settings" value="Configuración del repetidor serie" revision="0" />
   <Message key="Send read packets to:" value="Enviar paquetes de lectura a:" revision="0" />

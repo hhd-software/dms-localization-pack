@@ -110,6 +110,125 @@
   <Message key="MissingComponents" value="Diversi componenti dell'area di lavoro non sono stati trovati e non sono stati caricati." revision="0" />
   <Message key="WorkspaceLoadWarnings" value="L'area di lavoro è stata caricata con le seguenti avvertenze:\r\n{warnings}" revision="0" />
   <Message key="BadWorkspaceFormat" value="Il formato del file dell'area di lavoro non è valido." revision="0" />
+  <Message key="WorkspaceLoadError" value="Impossibile aprire {path}: {error} ({error code})" revision="0" />
+  <Message key="ConfirmClearAll" value="In questo modo si cancellano tutte le finestre del visualizzatore. Volete continuare?" revision="0" />
+  <Message key="Invalid file format." value="Formato file non valido." revision="0" />
+  <Message key="MultipleWorkspaces" value="È possibile aprire una sola area di lavoro alla volta. Si desidera aprire altri spazi di lavoro in finestre diverse?" revision="0" />
+  <Message key="WorkspaceModified" value="L'area di lavoro corrente è stata modificata. Si desidera salvarlo?" revision="0" />
+  <Message key="toolbar.Standard" value="Standard" revision="0" />
+  <Message key="Auto Hide" value="Auto Hide" revision="0" />
+  <Message key="Window list" value="Elenco delle finestre" revision="0" />
+  <Message key="Switch Window" value="Cambiare finestra" revision="0" />
+  <Message key="Active Tool Windows" value="Finestre degli strumenti attive" revision="0" />
+  <Message key="Active Documents" value="Documenti attivi" revision="0" />
+  <Message key="Settings group.Visual" value="Visivo" revision="0" />
+  <Message key="Settings group.User Interface" value="Interfaccia utente" revision="0" />
+  <Message key="Settings group.Network" value="Rete &amp; Supporto" revision="0" />
+  <Message key="Settings group.Monitoring" value="Monitoraggio" revision="0" />
+  <Message key="Settings group.Misc" value="Altro" revision="0" />
+  <Message key="Colors Page" value="Temi" revision="0" />
+  <Message key="Enter the scheme name and press the Save button" value="Inserire il nome dello schema e premere il pulsante Salva" revision="0" />
+  <Message key="ColorSchemeExists" value="La combinazione di colori esiste già. Si vuole sovrascrivere?" revision="0" />
+  <Message key="Theme:" value="Tema:" revision="0" />
+  <Message key="Display elements:" value="Display an elements:" revision="0" />
+  <Message key="Automatic" value="Automatico" revision="0" />
+  <Message key="Current" value="Attuale" revision="0" />
+  <Message key="Selected" value="Selezionato" revision="0" />
+  <Message key="Automatic color is dependent on current operating system color theme." value="Il colore automatico dipende dal tema colore del sistema operativo corrente." revision="0" />
+  <Message key="&amp;Open" value="&amp;Aperto" revision="0" />
+  <Message key="Open Recent" value="Aprire {item}" revision="0" />
+  <Message key="Settings" value="Impostazioni" revision="0" />
+  <Message key="Search settings" value="Ricerca nelle impostazioni" revision="0" />
+  <Message key="This toolbar cannot be deleted." value="Questa barra degli strumenti non può essere eliminata." revision="0" />
+  <Message key="Toolbar Deletion Failed" value="Eliminazione della barra degli strumenti non riuscita" revision="0" />
+  <Message key="Invalid toolbar name" value="Nome della barra degli strumenti non valido. Il nome valido deve iniziare con una lettera." revision="0" />
+  <Message key="Toolbar Creation Failed" value="Creazione della barra degli strumenti fallita" revision="0" />
+  <Message key="Toolbar already exists" value="La barra degli strumenti con il nome specificato esiste già." revision="0" />
+  <Message key="All commands" value="Tutti i comandi" revision="0" />
+  <Message key="Commands Page" value="Comandi" revision="0" />
+  <Message key="Toolbars" value="Barra degli strumenti:" revision="0" />
+  <Message key="New" value="&amp;Nuovo…" revision="0" />
+  <Message key="Button size" value="Dimensioni del pulsante:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Selezionare un comando per visualizzarne la descrizione o trascinarlo su una barra degli strumenti:" revision="0" />
+  <Message key="New Group" value="Nuovo &amp;Gruppo" revision="0" />
+  <Message key="&lt; Add" value="&lt; &amp;Aggiungi" revision="0" />
+  <Message key="Remove &gt;" value="&amp;Rimuovere &gt;" revision="0" />
+  <Message key="Move Up" value="In &amp;alto" revision="0" />
+  <Message key="Move Down" value="In &amp;basso" revision="0" />
+  <Message key="Clear" value="&amp;Cancella" revision="0" />
+  <Message key="Clip toolbars" value="&amp;Ritagliare queste barre degli strumenti" revision="0" />
+  <Message key="Wrap toolbars" value="&amp;Avvolgere queste barre degli strumenti" revision="0" />
+  <Message key="Keyboard" value="Tastiera" revision="0" />
+  <Message key="MaxShortcuts" value="Non è possibile assegnare più di 5 scorciatoie a un comando." revision="0" />
+  <Message key="ShortcutExists" value="Questa scorciatoia è già definita per {command}. Si desidera ridefinirla?" revision="0" />
+  <Message key="Keyboard Page" value="Tastiera" revision="0" />
+  <Message key="Category" value="Categoria:" revision="0" />
+  <Message key="Commands" value="Comandi:" revision="0" />
+  <Message key="Current keys" value="Chiavi attuali:" revision="0" />
+  <Message key="Press new shortcut key" value="Premere il &amp;nuovo tasto di scelta rapida:" revision="0" />
+  <Message key="Description" value="Descrizione:" revision="0" />
+  <Message key="Currently assigned to" value="Attualmente assegnato a:" revision="0" />
+  <Message key="Assign" value="&amp;Assegnazione" revision="0" />
+  <Message key="Keyboard Map" value="&amp;Mappa della tastiera" revision="0" />
+  <Message key="[unassigned]" value="[non assegnato]" revision="0" />
+  <Message key="Keyboard Map Dialog" value="Mappa della tastiera" revision="0" />
+  <Message key="Print" value="&amp;Stampare" revision="0" />
+  <Message key="General" value="Generale" revision="0" />
+  <Message key="Requests" value="Richieste" revision="0" />
+  <Message key="Responses" value="Risposte" revision="0" />
+  <Message key="IO Requests" value="Richieste di I/O" revision="0" />
+  <Message key="clr.default_colors" value="Colori predefiniti della UI" revision="0" />
+  <Message key="OK" value="OK" revision="0" />
+  <Message key="Apply" value="&amp;Applicare" revision="0" />
+  <Message key="Cancel" value="Annullare" revision="0" />
+  <Message key="Reset" value="&amp;Ripristinare" revision="0" />
+  <Message key="Reset to Default" value="Ripristino delle impostazioni &amp;predefinite" revision="0" />
+  <Message key="Help" value="&amp;Aiuto" revision="0" />
+  <Message key="Yes" value="&amp;Sì" revision="0" />
+  <Message key="No" value="&amp;No" revision="0" />
+  <Message key="Close" value="Chiudere" revision="0" />
+  <Message key="Add" value="&amp;Aggiungi" revision="0" />
+  <Message key="Edit" value="&amp;Modifica" revision="0" />
+  <Message key="Remove" value="&amp;Rimuovere" revision="0" />
+  <Message key="Remove All" value="Rimuovi &amp;tutto" revision="0" />
+  <Message key="Reset All" value="Azzeramento di &amp;tutti" revision="0" />
+  <Message key="Copy" value="&amp;Copia" revision="0" />
+  <Message key="Continue" value="Continua" revision="0" />
+  <Message key="Import" value="&amp;Importazione…" revision="0" />
+  <Message key="Export" value="&amp;Esportazione…" revision="0" />
+  <Message key="Browse" value="&amp;Sfogliare…" revision="0" />
+  <Message key="Save" value="Salvare" revision="0" />
+  <Message key="Delete" value="Cancellare" revision="0" />
+  <Message key="Generate Script" value="&amp;Generare script" revision="0" />
+  <Message key="Stop" value="Stop" revision="0" />
+  <Message key="B" value="B" revision="0" />
+  <Message key="KB" value="KB" revision="0" />
+  <Message key="MB" value="MB" revision="0" />
+  <Message key="GB" value="GB" revision="0" />
+  <Message key="TB" value="TB" revision="0" />
+  <Message key="ms" value="ms" revision="0" />
+  <Message key="NextConnected" value="Prossimo dispositivo collegato" revision="0" />
+  <Message key="HotPlug" value="Supporto per dispositivi hot-plugged" revision="0" />
+  <Message key="PacketNotFound" value="Il pacchetto che state cercando non è visualizzato in questo visualizzatore. Cercate di individuarlo in altri visualizzatori." revision="0" />
+  <Message key="Root Protocol" value="Protocollo radice" revision="0" />
+  <Message key="Affect only new packets" value="Interessa solo i nuovi pacchetti" revision="0" />
+  <Message key="Filter string" value="Catena di filtri" revision="0" />
+  <Message key="Protocol:" value="Protocollo:" revision="0" />
+  <Message key="Serial Repeater Settings" value="Configurazione del ripetitore seriale" revision="0" />
+  <Message key="Send read packets to:" value="Inviare i pacchetti di lettura a:" revision="0" />
+  <Message key="Send write packets to:" value="Inviare pacchetti di scrittura a:" revision="0" />
+  <Message key="Use the same serial device for both reads and writes" value="Utilizzare lo stesso dispositivo seriale sia per la lettura che per la scrittura" revision="0" />
+  <Message key="Don't show this anymore" value="Non mostrare più questo" revision="0" />
+  <Message key="Find" value="Trova" revision="0" />
+  <Message key="Passed the end of the data" value="Superata la fine dei dati" revision="0" />
+  <Message key="The pattern was not found." value="Il modello non è stato trovato." revision="0" />
+  <Message key="Find what:" value="&amp;Trova cosa:" revision="0" />
+  <Message key="Options" value="Opzioni" revision="0" />
+  <Message key="Find within" value="Trova all'interno" revision="0" />
+  <Message key="Match whole word only" value="Abbinare solo la parola &amp;intera" revision="0" />
+  <Message key="Match case" value="Corrisponde al &amp;caso" revision="0" />
+  <Message key="Whole window" value="Finestra &amp;intera" revision="0" />
+  <Message key="Selection" value="&amp;Selezione" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item />
     <Item />
