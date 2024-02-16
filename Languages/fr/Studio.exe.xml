@@ -432,28 +432,28 @@
     <Item value="Effacer toutes les vues" revision="0" />
   </Enumeration>
   <Enumeration key="EditFind">
-    <Item />
-    <Item />
+    <Item value="&amp;Trouver…" revision="0" />
+    <Item value="Trouver" revision="0" />
   </Enumeration>
   <Enumeration key="EditFindNext">
-    <Item />
-    <Item />
+    <Item value="Trouver &amp;suivant" revision="0" />
+    <Item value="Trouver suivant" revision="0" />
   </Enumeration>
   <Enumeration key="EditGoto">
-    <Item />
-    <Item />
+    <Item value="&amp;Aller au paquet…" revision="0" />
+    <Item value="Localiser le paquet spécifique" revision="0" />
   </Enumeration>
   <Enumeration key="ViewExportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Exporter la configuration…" revision="0" />
+    <Item value="Exporter la configuration des fenêtres de l'outil" revision="0" />
   </Enumeration>
   <Enumeration key="ViewImportConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Importer la configuration…" revision="0" />
+    <Item value="Importer la configuration des fenêtres de l'outil" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Paramètres…" revision="0" />
+    <Item value="Paramètres du programme" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
     <Item />
