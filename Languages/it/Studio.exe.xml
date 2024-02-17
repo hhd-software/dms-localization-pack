@@ -456,146 +456,146 @@
     <Item value="Impostazioni del programma" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStart">
-    <Item />
-    <Item />
+    <Item value="&amp;Riprendere tutte le sessioni" revision="0" />
+    <Item value="Riprendere tutte le sessioni di monitoraggio" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsPause">
-    <Item />
-    <Item />
+    <Item value="&amp;Sospendere tutte le sessioni" revision="0" />
+    <Item value="Sospendere tutte le sessioni di monitoraggio" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsStop">
-    <Item />
-    <Item />
+    <Item value="&amp;Interrompere tutte le sessioni" revision="0" />
+    <Item value="Interrompe tutte le sessioni di monitoraggio" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrev">
-    <Item />
-    <Item />
+    <Item value="&amp;Precedente" revision="0" />
+    <Item value="Passa alla finestra precedente" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNext">
-    <Item />
-    <Item />
+    <Item value="&amp;Successiva" revision="0" />
+    <Item value="Passare alla finestra successiva" revision="0" />
   </Enumeration>
   <Enumeration key="WindowClose">
-    <Item />
-    <Item />
+    <Item value="&amp;Chiudere la finestra" revision="0" />
+    <Item value="Chiudere la finestra attiva" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNextPane">
-    <Item />
-    <Item />
+    <Item value="Pannello successivo" revision="0" />
+    <Item value="Attivare il pannello successivo" revision="0" />
   </Enumeration>
   <Enumeration key="WindowPrevPane">
-    <Item />
-    <Item />
+    <Item value="Pannello precedente" revision="0" />
+    <Item value="Attivare il pannello precedente" revision="0" />
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
-    <Item />
-    <Item />
+    <Item value="&amp;Riduci a icona nell'area di notifica" revision="0" />
+    <Item value="Ridurre a icona la finestra di Device Monitoring Studio nella barra di sistema" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
-    <Item />
-    <Item />
+    <Item value="Annullare" revision="0" />
+    <Item value="Annullare" revision="0" />
   </Enumeration>
   <Enumeration key="HelpContents">
-    <Item />
-    <Item />
+    <Item value="&amp;Contenuti" revision="0" />
+    <Item value="Contenuti" revision="0" />
   </Enumeration>
   <Enumeration key="HelpFeedback">
-    <Item />
-    <Item />
+    <Item value="&amp;Feedback…" revision="0" />
+    <Item value="Feedback" revision="0" />
   </Enumeration>
   <Enumeration key="HelpKeyboard">
-    <Item />
-    <Item />
+    <Item value="Mappa della &amp;tastiera…" revision="0" />
+    <Item value="Visualizzazione e stampa della mappa della tastiera" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardPrint">
-    <Item />
-    <Item />
+    <Item value="&amp;Stampare" revision="0" />
+    <Item value="Stampare la mappa della tastiera" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardCopy">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiare…" revision="0" />
+    <Item value="Copiare la mappa della tastiera" revision="0" />
   </Enumeration>
   <Enumeration key="Endpoints">
-    <Item />
-    <Item />
+    <Item value="&amp;Endpoints" revision="0" />
+    <Item value="Endpoints" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsColoring">
-    <Item />
-    <Item />
+    <Item value="&amp;Colorazione" revision="0" />
+    <Item value="Aprire le impostazioni di colorazione" revision="0" />
   </Enumeration>
   <Enumeration key="FiltersSettings">
-    <Item />
-    <Item />
+    <Item value="&amp;Filtraggio…" revision="0" />
+    <Item value="Aprire le impostazioni di filtraggio" revision="0" />
   </Enumeration>
   <Enumeration key="ViewResetConfiguration">
-    <Item />
-    <Item />
+    <Item value="&amp;Ripristinare la configurazione" revision="0" />
+    <Item value="Ripristinare la configurazione delle finestre dello strumento" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewHorizontal">
-    <Item />
-    <Item />
+    <Item value="Nuova cornice &amp;orizzontale" revision="0" />
+    <Item value="Nuova cornice orizzontale" revision="0" />
   </Enumeration>
   <Enumeration key="WindowNewVertical">
-    <Item />
-    <Item />
+    <Item value="Nuova cornice &amp;verticale" revision="0" />
+    <Item value="Nuova cornice verticale" revision="0" />
   </Enumeration>
   <Enumeration key="WindowDockable">
-    <Item />
-    <Item />
+    <Item value="Finestra agganciabile" revision="0" />
+    <Item value="Finestra agganciabile" revision="0" />
   </Enumeration>
   <Enumeration key="WindowTabbed">
-    <Item />
-    <Item />
+    <Item value="Documento a schede" revision="0" />
+    <Item value="Documento a schede" revision="0" />
   </Enumeration>
   <Enumeration key="KeyboardColumns">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Comando" revision="0" />
+    <Item value="Collegamenti" revision="0" />
+    <Item value="Descrizione" revision="0" />
   </Enumeration>
   <Enumeration key="Registry">
-    <Item />
-    <Item />
+    <Item value="Registro" revision="0" />
+    <Item value="Posizione di archiviazione predefinita per utente." revision="0" />
   </Enumeration>
   <Enumeration key="External file:">
-    <Item />
-    <Item />
+    <Item value="File esterno:" revision="0" />
+    <Item value="Memorizzare le impostazioni dell'applicazione in un file esterno. Specificate una posizione condivisa (come una cartella condivisa di OneDrive o Dropbox) per condividere le impostazioni tra i dispositivi." revision="0" />
   </Enumeration>
   <Enumeration key="UsbDirection">
-    <Item />
-    <Item />
+    <Item value="IN BASSO" revision="0" />
+    <Item value="IN ALTO" revision="0" />
   </Enumeration>
   <Enumeration key="Boolean">
-    <Item />
-    <Item />
+    <Item value="Vero" revision="0" />
+    <Item value="Falso" revision="0" />
   </Enumeration>
   <Enumeration key="YesNo">
-    <Item />
-    <Item />
+    <Item value="SÌ" revision="0" />
+    <Item value="NO" revision="0" />
   </Enumeration>
   <Enumeration key="LangMore">
-    <Item />
-    <Item />
+    <Item value="Altre lingue…" revision="0" />
+    <Item value="Verifica la presenza di altre lingue in linea" revision="0" />
   </Enumeration>
   <Enumeration key="LangOnline">
-    <Item />
-    <Item />
+    <Item value="Repository linguistico on-line" revision="0" />
+    <Item value="Partecipate alla creazione di altri pacchetti di lingue per Device Monitoring Studio" revision="0" />
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
-    <Item />
-    <Item />
+    <Item value="Cambia lingua" revision="0" />
+    <Item value="Questo pacchetto linguistico è stato creato dalla comunità open source. Non ci assumiamo alcuna responsabilità sulla qualità di questa traduzione.\r\n\r\nSe avete trovato un errore in una traduzione, potete inviare un ticket o correggerlo voi stessi." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
-    <Item />
-    <Item />
+    <Item value="Pausa" revision="0" />
+    <Item value="Fare clic per mettere in pausa il funzionamento del modulo" revision="0" />
   </Enumeration>
   <Enumeration key="Resume1">
-    <Item />
-    <Item />
+    <Item value="Riprendere" revision="0" />
+    <Item value="Fare clic per riprendere il funzionamento del modulo" revision="0" />
   </Enumeration>
   <Enumeration key="themingMode">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Modalità del tema colore (richiede il riavvio)" revision="0" />
+    <Item value="Utilizzare il sistema" revision="0" />
+    <Item value="Utilizzare sempre un tema leggero" revision="0" />
+    <Item value="Utilizzare sempre il tema scuro" revision="0" />
   </Enumeration>
 </Language>

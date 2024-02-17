@@ -569,8 +569,8 @@
     <Item value="Activar panel anterior" revision="0" />
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
-    <Item value="&amp;Minimizar a bandeja" revision="0" />
-    <Item value="Minimizar la ventana de Device Monitoring Studio a la bandeja del sistema" revision="0" />
+    <Item value="&amp;Minimizar para o tabuleiro" revision="0" />
+    <Item value="Minimice la ventana de Device Monitoring Studio en la bandeja del sistema" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
     <Item value="Cancelar" revision="0" />

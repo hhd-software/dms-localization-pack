@@ -570,7 +570,7 @@
   </Enumeration>
   <Enumeration key="WindowMinimizeToTray">
     <Item value="&amp;Minimizar para o tabuleiro" revision="0" />
-    <Item value="Minimizar a janela do Device Monitoring Studio para a bandeja do sistema" revision="0" />
+    <Item value="Minimize a janela do Device Monitoring Studio na bandeja do sistema" revision="0" />
   </Enumeration>
   <Enumeration key="WindowCancel">
     <Item value="Cancelar" revision="0" />
