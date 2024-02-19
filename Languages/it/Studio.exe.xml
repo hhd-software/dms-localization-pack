@@ -70,6 +70,8 @@
   <Message key="ErrorRootProtocol" value="Il protocollo di radice non è stato specificato" revision="0" />
   <Message key="ErrorRootNotExist" value="Il protocollo radice selezionato non esiste" revision="0" />
   <Message key="ConcantenatePackets" value="Merge the consequent demands" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Questo componente è in modalità [[[bProva]]] con [[[b{days}]]] di valutazione rimanenti. È disponibile a partire dalla [[[b{edition} Edizione]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Questo componente è [[[bscaduto]]]. Per poterlo utilizzare, è necessario aggiornare alla [[[b{edition} Edizione]]].]]]" revision="2" />
   <Message key="FreeWarning" value="Questo componente non è disponibile nella Free Edition. È possibile avviare una prova gratuita per provare questo componente, se non è ancora stata avviata." revision="0" />
   <Message key="Continue with limited features" value="Continuare con funzioni limitate" revision="0" />
   <Message key="Try extended functionality" value="Prova la funzionalità estesa" revision="0" />
@@ -178,6 +180,65 @@
   <Message key="Responses" value="Risposte" revision="0" />
   <Message key="IO Requests" value="Richieste di I/O" revision="0" />
   <Message key="clr.default_colors" value="Colori predefiniti della UI" revision="0" />
+  <Message key="clr.default_colors.background" value="Sfondo" revision="0" />
+  <Message key="clr.default_colors.control_background" value="Sfondo dei controlli" revision="0" />
+  <Message key="clr.default_colors.text" value="Testo/primo piano" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Link ipertestuale" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Testo disattivato" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Sfondo dell'elemento Hover" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Corsa dell'elemento Hover" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Testo dell'elemento Hover" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Sfondo della selezione" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Corsa di selezione " revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Testo selezionato" revision="0" />
+  <Message key="clr.menu" value="Colore del menu" revision="0" />
+  <Message key="clr.menu.background" value="Sfondo" revision="0" />
+  <Message key="clr.menu.text" value="Testo" revision="0" />
+  <Message key="clr.menu.separator" value="Separatore" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Testo disabilitato" revision="0" />
+  <Message key="clr.menu.checked" value="Sfondo dell'elemento marcato" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Sfondo dell'elemento inaccessibile selezionato" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Sfondo dell'elemento Hover" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Corsa dell'elemento Hover" revision="0" />
+  <Message key="clr.menu.hover.text" value="Testo dell'elemento Hover" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Sfondo dell'elemento hover disabilitato" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Corsa dell'elemento hover disabilitata" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Testo dell'elemento hover disabilitata" revision="0" />
+  <Message key="clr.rebar" value="Colori delle Rebar" revision="0" />
+  <Message key="clr.rebar.background" value="Sfondo" revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Colore del punto chevron" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Colore del tratto del punto chevron" revision="0" />
+  <Message key="clr.toolbar" value="Colori della barra degli strumenti" revision="0" />
+  <Message key="clr.toolbar.background" value="Sfondo" revision="0" />
+  <Message key="clr.toolbar.text" value="Testo" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Testo disabilitato" revision="0" />
+  <Message key="clr.toolbar.separator" value="Separatore" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Sfondo dell'elemento Hover" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Corsa dell'elemento Hover" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Testo dell'elemento Hover" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Sfondo della voce stampata" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Corsa dell'elemento premuto" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Testo dell'elemento premuto" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Sfondo dell'elemento premuto e disabilitato" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Corsa dell'elemento premuto e disabilitato" revision="0" />
+  <Message key="clr.frame" value="Colori della cornice" revision="0" />
+  <Message key="clr.frame.frame.background" value="Sfondo" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Colore di sfondo del cliente" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Sfondo della cornice del documento" revision="0" />
+  <Message key="clr.frame.frame.border" value="Bordo" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Sfondo dell'intestazione inattivo" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Testo o corsa dell'intestazione non attivi" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Sfondo attivo dell'intestazione" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Testo o corsa dell'intestazione attiva" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Sfondo dell'elemento Hover" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Corsa dell'elemento Hover" revision="0" />
+  <Message key="clr.frame.hover.text" value="Testo dell'elemento Hover" revision="0" />
+  <Message key="clr.frame.title_text" value="Testo del titolo" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Ombra dell'icona di navigazione" revision="0" />
+  <Message key="clr.frame.nav.background" value="Sfondo dell'icona di navigazione" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Evidenziazione dell'icona di navigazione" revision="0" />
+  <Message key="clr.frame.nav.header" value="Intestazione dell'icona di navigazione" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Bordo dell'icona di navigazione" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Messaggio &quot;Non visualizzare più&quot;" revision="0" />
   <Message key="Settings Page" value="Impostazioni" revision="0" />
   <Message key="Settings Storage Location" value="Posizione di memorizzazione delle impostazioni" revision="0" />

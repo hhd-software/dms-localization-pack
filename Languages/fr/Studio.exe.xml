@@ -70,6 +70,8 @@
   <Message key="ErrorRootProtocol" value="Le protocole racine n'a pas été spécifié" revision="0" />
   <Message key="ErrorRootNotExist" value="Le protocole racine sélectionné n'existe pas" revision="0" />
   <Message key="ConcantenatePackets" value="Rejoindre les demandes conséquentes" revision="0" />
+  <Message key="TrialWarning" value="[[[T#[#9A4D02]#Ce composant est en mode [[[bEssai]]] avec [[[b{days}]]] jours d'évaluation restants. Il est disponible à partir de l'édition [[[b{edition} Édition]]].]]]" revision="2" />
+  <Message key="ExpiredWarning" value="[[[T#[#C83C3C]#Ce composant a [[[bexpiré]]]. Vous devez passer à l'édition [[[b{edition} Édition]]] pour l'utiliser.]]]" revision="2" />
   <Message key="FreeWarning" value="Ce composant n'est pas disponible dans l'édition gratuite. Vous pouvez démarrer un essai gratuit pour essayer ce composant s'il n'a pas encore été lancé." revision="0" />
   <Message key="Continue with limited features" value="Poursuivre avec des fonctionnalités limitées" revision="0" />
   <Message key="Try extended functionality" value="Essayer les fonctionnalités étendues" revision="0" />
@@ -178,6 +180,65 @@
   <Message key="Responses" value="Réponses" revision="0" />
   <Message key="IO Requests" value="Demandes d'E/S" revision="0" />
   <Message key="clr.default_colors" value="Couleurs par défaut de l'IU" revision="0" />
+  <Message key="clr.default_colors.background" value="Arrière-plan " revision="0" />
+  <Message key="clr.default_colors.control_background" value="Arrière-plan des contrôles" revision="0" />
+  <Message key="clr.default_colors.text" value="Texte/avant-plan" revision="0" />
+  <Message key="clr.default_colors.hyperlink" value="Lien hypertexte" revision="0" />
+  <Message key="clr.default_colors.disabled" value="Texte désactivé" revision="0" />
+  <Message key="clr.default_colors.hover.fill" value="Arrière-plan de l'élément en survol" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Course de l'élément en survol" revision="0" />
+  <Message key="clr.default_colors.hover.text" value="Texte de l'élément en survol" revision="0" />
+  <Message key="clr.default_colors.selected.fill" value="Arrière-plan de sélection" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Course de sélection" revision="0" />
+  <Message key="clr.default_colors.selected.text" value="Texte sélectionné" revision="0" />
+  <Message key="clr.menu" value="Couleur du menu" revision="0" />
+  <Message key="clr.menu.background" value="Arrière-plan " revision="0" />
+  <Message key="clr.menu.text" value="Texte" revision="0" />
+  <Message key="clr.menu.separator" value="Séparateur" revision="0" />
+  <Message key="clr.menu.disabled_text" value="Texte désactivé" revision="0" />
+  <Message key="clr.menu.checked" value="Arrière-plan de l'élément marqué" revision="0" />
+  <Message key="clr.menu.checked_disabled" value="Arrière-plan de l'élément inaccessible sélectionné" revision="0" />
+  <Message key="clr.menu.hover.fill" value="Arrière-plan de l'élément en survol" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Course de l'élément en survol" revision="0" />
+  <Message key="clr.menu.hover.text" value="Texte de l'élément en survol" revision="0" />
+  <Message key="clr.menu.disabled_hover.fill" value="Arrière-plan de l'élément désactivé" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Course de l'élément en survol désactivée" revision="0" />
+  <Message key="clr.menu.disabled_hover.text" value="Texte de l'élément en survol désactivée" revision="0" />
+  <Message key="clr.rebar" value="Couleurs de Rebar" revision="0" />
+  <Message key="clr.rebar.background" value="Arrière-plan " revision="0" />
+  <Message key="clr.rebar.chevron.fill" value="Couleur du point chevron" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Couleur du trait du point de chevron" revision="0" />
+  <Message key="clr.toolbar" value="Couleurs de la barre d'outils" revision="0" />
+  <Message key="clr.toolbar.background" value="Arrière-plan " revision="0" />
+  <Message key="clr.toolbar.text" value="Texte" revision="0" />
+  <Message key="clr.toolbar.disabled" value="Texte désactivé" revision="0" />
+  <Message key="clr.toolbar.separator" value="Séparateur" revision="0" />
+  <Message key="clr.toolbar.hover.fill" value="Arrière-plan de l'élément en survol" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Course de l'élément en survol" revision="0" />
+  <Message key="clr.toolbar.hover.text" value="Texte de l'élément en survol" revision="0" />
+  <Message key="clr.toolbar.pressed.fill" value="Arrière-plan de l'article pressé" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Course de l'élément pressé" revision="0" />
+  <Message key="clr.toolbar.pressed.text" value="Texte de l'article pressé" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.fill" value="Arrière-plan de l'article pressé et désactivé" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Course de l'article pressé et désactivé" revision="0" />
+  <Message key="clr.frame" value="Couleurs du cadre" revision="0" />
+  <Message key="clr.frame.frame.background" value="Arrière-plan" revision="0" />
+  <Message key="clr.frame.frame.client_background" value="Couleur d'arrière-plan du client" revision="0" />
+  <Message key="clr.frame.frame.document_frame_background" value="Arrière plan du cadre du document" revision="0" />
+  <Message key="clr.frame.frame.border" value="Bordure" revision="0" />
+  <Message key="clr.frame.header.inactive.fill" value="Arrière-plan de l'en-tête inactif" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Texte ou course de l'en-tête inactif" revision="0" />
+  <Message key="clr.frame.header.active.fill" value="Arrière-plan de l'en-tête actif" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Texte ou course de l'en-tête actif" revision="0" />
+  <Message key="clr.frame.hover.fill" value="Arrière-plan de l'élément en survol" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Course de l'élément en survol" revision="0" />
+  <Message key="clr.frame.hover.text" value="Texte de l'élément en survol" revision="0" />
+  <Message key="clr.frame.title_text" value="Texte du titre" revision="0" />
+  <Message key="clr.frame.nav.shadow" value="Ombre de l'icône de navigation" revision="0" />
+  <Message key="clr.frame.nav.background" value="Arrière-plan de l'icône de navigation" revision="0" />
+  <Message key="clr.frame.nav.highlight" value="Icône de navigation en surbrillance" revision="0" />
+  <Message key="clr.frame.nav.header" value="En-tête de l'icône de navigation" revision="0" />
+  <Message key="clr.frame.nav.frame" value="Bordure de l'icône de navigation" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Message &quot;Ne plus afficher&quot;" revision="0" />
   <Message key="Settings Page" value="Paramètres" revision="0" />
   <Message key="Settings Storage Location" value="Lieu de stockage des paramètres" revision="0" />
