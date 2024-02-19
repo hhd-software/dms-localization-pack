@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="NextConnectedNotify" value="Prochain appareil connecté (USB)" revision="0" />
+  <Message key="DriverConnectError" value="Erreur de connexion au pilote du filtre : {error text} ({error code})" revision="0" />
+  <Message key="AttachError" value="Impossible de s'attacher à l'appareil sélectionné." revision="0" />
+  <Message key="Unknown Device" value="Appareil inconnu" revision="0" />
+  <Message key="EmergencyErrorType" value="Arrêt d'urgence de la session USB" revision="0" />
+  <Message key="USB.Advertise.Text" value="Nous proposons également une bibliothèque ActiveX de contrôle de surveillance USB qui vous permet d'intégrer la fonctionnalité de surveillance dans votre propre application." revision="0" />
+  <Message key="Not specified" value="Non spécifié" revision="0" />
+  <Message key="Unable to retrieve" value="String descripteur {id} (incapable de lire)" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
