@@ -38,9 +38,33 @@
   <Message key="UnitPinFmt" value="ID dell'unità a cui è collegato il pin{number}:" revision="0" />
   <Message key="Number of Supported Modes:" value="Numero di modalità supportate:" revision="0" />
   <Message key="ModeFmt" value="Modalità{number}:" revision="0" />
+  <Message key="UsbUnableToAttach" value="Impossibile collegare il dispositivo USB selezionato." revision="0" />
+  <Message key="Video Specification Release Number:" value="Numero di rilascio delle specifiche del video:" revision="0" />
+  <Message key="Clock Frequency:" value="Frequenza di clock:" revision="0" />
+  <Message key="Terminal ID:" value="Terminale ID:" revision="0" />
+  <Message key="Associated Output Terminal:" value="Terminale di uscita associato:" revision="0" />
+  <Message key="Terminal Type:" value="Tipo di terminale:" revision="0" />
+  <Message key="Description (Index of String Descriptor):" value="Descrizione (indice del descrittore stringa):" revision="0" />
+  <Message key="Source ID:" value="ID della fonte:" revision="0" />
+  <Message key="Unit ID:" value="ID dell'unità:" revision="0" />
+  <Message key="Max Multiplier:" value="Moltiplicatore massimo:" revision="0" />
+  <Message key="Controls:" value="Controle:" revision="0" />
+  <Message key="ControlFmt" value="Controle{number}:\n" revision="0" />
+  <Message key="Number of Formats:" value="Numero di formati:" revision="0" />
+  <Message key="Endpoint Address:" value="Indirizzo del punto finale:" revision="0" />
+  <Message key="Still Capture Method:" value="Metodo di acquisizione dei fotogrammi:" revision="0" />
+  <Message key="Does support" value="Supporta" revision="0" />
+  <Message key="Does not support" value="Non supporta" revision="0" />
+  <Message key="Mac Address (string descriptor index):" value="Indirizzo Mac (indice del descrittore di stringa):" revision="0" />
+  <Message key="Ethernet Statistics:" value="Statistiche Ethernet::" revision="0" />
+  <Message key="Number Of Configurable Multicast Filters:" value="Numero di filtri multicast configurabili:" revision="0" />
+  <Message key="Number Of Pattern Filters:" value="Numero di filtri di modello:" revision="0" />
+  <Message key="Max Segment Size:" value="Dimensione massima del segmento:" revision="0" />
+  <Message key="Reserved for future use" value="Riservato per uso futuro" revision="0" />
+  <Message key="Controls Size:" value="Dimensioni dei controlli:" revision="0" />
   <Enumeration key="UsbSource">
-    <Item />
-    <Item />
+    <Item value="Monitor USB" revision="0" />
+    <Item value="Il modulo sorgente dati USB consente di monitorare i dati trasferiti tra qualsiasi dispositivo USB e l'applicazione che lo utilizza." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
     <Item />
@@ -49,65 +73,65 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbDescriptor">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Input" revision="0" />
+    <Item value="Output" revision="0" />
+    <Item value="Funzione" revision="0" />
+    <Item value="Collezione" revision="0" />
+    <Item value="Fine della collezione\n" revision="0" />
+    <Item value="Pagina d'uso" revision="0" />
+    <Item value="Minimo logico" revision="0" />
+    <Item value="Massimo logico" revision="0" />
+    <Item value="Minimo fisico" revision="0" />
+    <Item value="Massimo fisico" revision="0" />
+    <Item value="Unità Esponente" revision="0" />
+    <Item value="Unità" revision="0" />
+    <Item value="Dimensione del rapporto" revision="0" />
+    <Item value="ID del rapporto" revision="0" />
+    <Item value="ID rapporto" revision="0" />
+    <Item value="PUSH" revision="0" />
+    <Item value="POP" revision="0" />
+    <Item value="Utilizzo" revision="0" />
   </Enumeration>
   <Enumeration key="JackType">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Nessun dispositivo collegato" revision="0" />
+    <Item value="Dispositivo collegato" revision="0" />
+    <Item value="Enumerazione del dispositivo non riuscita" revision="0" />
+    <Item value="Errore generale di connessione" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Risveglio remoto" revision="0" />
+    <Item value="Autoalimentato" revision="0" />
+    <Item value="Alimentazione a bus" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controllo" revision="0" />
+    <Item value="Isocrono" revision="0" />
+    <Item value="Bulk" revision="0" />
+    <Item value="Interruzione" revision="0" />
   </Enumeration>
   <Enumeration key="UsbInputParams">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dati" revision="0" />
+    <Item value="Costante" revision="0" />
+    <Item value="Matrice" revision="0" />
+    <Item value="Variabile" revision="0" />
+    <Item value="Assoluto" revision="0" />
+    <Item value="Relativo" revision="0" />
+    <Item value="Non avvolto" revision="0" />
+    <Item value="Avvolto" revision="0" />
+    <Item value="Lineare" revision="0" />
+    <Item value="Non lineare" revision="0" />
+    <Item value="Stato preferito" revision="0" />
+    <Item value="No Stato preferito" revision="0" />
+    <Item value="Nessuna posizione nulla" revision="0" />
+    <Item value="Stato nullo" revision="0" />
   </Enumeration>
   <Enumeration key="UsbOutputParams">
-    <Item />
-    <Item />
+    <Item value="Volatile" revision="0" />
+    <Item value="Nonvolatile" revision="0" />
   </Enumeration>
   <Enumeration key="UsbVideoStandards">
     <Item />
@@ -117,11 +141,11 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbBoolean">
-    <Item />
-    <Item />
+    <Item value="VERO" revision="0" />
+    <Item value="FALSO" revision="0" />
   </Enumeration>
   <Enumeration key="UsbColorFormatPrimary">
-    <Item />
+    <Item value="Riservato" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -129,7 +153,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbTransferCharacteristics">
-    <Item />
+    <Item value="Riservato" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -139,7 +163,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbMatrixCoefficients">
-    <Item />
+    <Item value="Riservato" revision="0" />
     <Item />
     <Item />
     <Item />
@@ -147,22 +171,22 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbYesNo">
-    <Item />
-    <Item />
+    <Item value="SÌ" revision="0" />
+    <Item value="NO" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFieldPerFrame">
-    <Item />
-    <Item />
+    <Item value="1 campo" revision="0" />
+    <Item value="2 campi" revision="0" />
   </Enumeration>
   <Enumeration key="UsbFormatType">
-    <Item />
+    <Item value="Riservato" revision="0" />
     <Item />
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbRefreshRate">
-    <Item />
-    <Item />
+    <Item value="50 Hz" revision="0" />
+    <Item value="60 Hz" revision="0" />
   </Enumeration>
   <Enumeration key="UsbAudioDescriptorName">
     <Item />
@@ -300,7 +324,7 @@
     <Item />
   </Enumeration>
   <Enumeration key="ConnectTheUSBDevice">
-    <Item />
-    <Item />
+    <Item value="Collegare il dispositivo USB" revision="0" />
+    <Item value="L'applicazione attende che l'utente colleghi un dispositivo USB a una delle porte USB del computer." revision="0" />
   </Enumeration>
 </Language>

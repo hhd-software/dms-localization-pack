@@ -68,8 +68,8 @@
   <Message key="Associated Output Terminal:" value="Terminal de saída associado:" revision="0" />
   <Message key="Terminal Type:" value="Tipo de terminal:" revision="0" />
   <Message key="Description (Index of String Descriptor):" value="Descrição (índice do descritor de cadeia):" revision="0" />
-  <Message key="Source ID:" value="Fonte ID:" revision="0" />
-  <Message key="Unit ID:" value="Unidade ID:" revision="0" />
+  <Message key="Source ID:" value="ID da fonte:" revision="0" />
+  <Message key="Unit ID:" value="ID da unidade:" revision="0" />
   <Message key="Max Multiplier:" value="Multiplicador máx:" revision="0" />
   <Message key="Controls:" value="Controlos:" revision="0" />
   <Message key="ControlFmt" value="Controlo{number}:\n" revision="0" />
@@ -187,7 +187,7 @@
   <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nPinos de entrada: [[[b{pins}]]]\n" revision="0" />
   <Message key="UsbMsPins" value="Pino[[[b{number}]]]: Fonte ID: [[[b {source}]]], Pino: [[[b{pin}]]]\n" revision="0" />
   <Message key="Frame Index:" value="Índice do quadro:" revision="0" />
-  <Message key="Controls Size:" value="Controlos Tamanho:" revision="0" />
+  <Message key="Controls Size:" value="Tamanho dos controlos:" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB Monitor" revision="0" />
     <Item value="O módulo de fonte de dados USB permite-lhe monitorizar os dados transferidos entre qualquer dispositivo USB e a aplicação que o utiliza." revision="0" />

@@ -68,8 +68,8 @@
   <Message key="Associated Output Terminal:" value="Terminal de salida asociado:" revision="0" />
   <Message key="Terminal Type:" value="Tipo de terminal:" revision="0" />
   <Message key="Description (Index of String Descriptor):" value="Descripción (Índice del descriptor de cadena):" revision="0" />
-  <Message key="Source ID:" value="Fuente ID:" revision="0" />
-  <Message key="Unit ID:" value="Unidad ID:" revision="0" />
+  <Message key="Source ID:" value="ID de la fuente:" revision="0" />
+  <Message key="Unit ID:" value="ID de unidad:" revision="0" />
   <Message key="Max Multiplier:" value="Multiplicador Max:" revision="0" />
   <Message key="Controls:" value="Controles:" revision="0" />
   <Message key="ControlFmt" value="Control{number}:\n" revision="0" />
@@ -187,7 +187,7 @@
   <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nClavijas de entrada: [[[b{pins}]]]\n" revision="0" />
   <Message key="UsbMsPins" value="Clavija [[[b{number}]]]: Fuente ID: [[[b {source}]]], Clavija: [[[b{pin}]]]\n" revision="0" />
   <Message key="Frame Index:" value="Índice de cuadros:" revision="0" />
-  <Message key="Controls Size:" value="Controles Tamaño:" revision="0" />
+  <Message key="Controls Size:" value="Tamaño de los controles:" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB Monitor" revision="0" />
     <Item value="El módulo de fuente de datos USB permite supervisar los datos transferidos entre cualquier dispositivo USB y la aplicación que lo utiliza." revision="0" />
@@ -212,7 +212,7 @@
     <Item value="Unidad Exponente" revision="0" />
     <Item value="Unidad" revision="0" />
     <Item value="Tamaño del informe" revision="0" />
-    <Item value="Informe ID" revision="0" />
+    <Item value="ID del informe" revision="0" />
     <Item value="Recuento de informes" revision="0" />
     <Item value="PUSH" revision="0" />
     <Item value="POP" revision="0" />
