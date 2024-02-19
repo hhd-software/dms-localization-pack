@@ -186,10 +186,10 @@
   <Message key="clr.default_colors.hyperlink" value="Гиперссылка" revision="0" />
   <Message key="clr.default_colors.disabled" value="Недоступный текст" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Фон при наведении" revision="0" />
-  <Message key="clr.default_colors.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.default_colors.hover.stroke" value="Штрих при наведении" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Текст при наведении" revision="0" />
   <Message key="clr.default_colors.selected.fill" value="Фон выбора" revision="0" />
-  <Message key="clr.default_colors.selected.stroke" value="Обводка выбора" revision="0" />
+  <Message key="clr.default_colors.selected.stroke" value="Штрих выбора" revision="0" />
   <Message key="clr.default_colors.selected.text" value="Выбранный текст" revision="0" />
   <Message key="clr.menu" value="Цвета меню" revision="0" />
   <Message key="clr.menu.background" value="Фон" revision="0" />
@@ -199,39 +199,39 @@
   <Message key="clr.menu.checked" value="Фон выбранного элемента" revision="0" />
   <Message key="clr.menu.checked_disabled" value="Фон выбранного недоступного элемента" revision="0" />
   <Message key="clr.menu.hover.fill" value="Фон при наведении" revision="0" />
-  <Message key="clr.menu.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.menu.hover.stroke" value="Штрих при наведении" revision="0" />
   <Message key="clr.menu.hover.text" value="Текст при наведении" revision="0" />
   <Message key="clr.menu.disabled_hover.fill" value="Недоступный элемент при наведении" revision="0" />
-  <Message key="clr.menu.disabled_hover.stroke" value="Недоступный элемент, обводка при наведении" revision="0" />
+  <Message key="clr.menu.disabled_hover.stroke" value="Недоступный элемент, штрих при наведении" revision="0" />
   <Message key="clr.menu.disabled_hover.text" value="Недоступный элемент текст при наведении" revision="0" />
   <Message key="clr.rebar" value="Цвета ребара" revision="0" />
   <Message key="clr.rebar.background" value="Фон" revision="0" />
   <Message key="clr.rebar.chevron.fill" value="Цвет шевронной точки" revision="0" />
-  <Message key="clr.rebar.chevron.stroke" value="Цвет обводки шевронной точки" revision="0" />
+  <Message key="clr.rebar.chevron.stroke" value="Цвет штриха шевронной точки" revision="0" />
   <Message key="clr.toolbar" value="Цвета панели инструментов" revision="0" />
   <Message key="clr.toolbar.background" value="Фон" revision="0" />
   <Message key="clr.toolbar.text" value="Текст" revision="0" />
   <Message key="clr.toolbar.disabled" value="Недоступный текст" revision="0" />
   <Message key="clr.toolbar.separator" value="Разделитель" revision="0" />
   <Message key="clr.toolbar.hover.fill" value="Фон при наведении" revision="0" />
-  <Message key="clr.toolbar.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.toolbar.hover.stroke" value="Штрих при наведении" revision="0" />
   <Message key="clr.toolbar.hover.text" value="Текст при наведении" revision="0" />
   <Message key="clr.toolbar.pressed.fill" value="Фон нажатого" revision="0" />
-  <Message key="clr.toolbar.pressed.stroke" value="Обводка нажатого" revision="0" />
+  <Message key="clr.toolbar.pressed.stroke" value="Штрих нажатого" revision="0" />
   <Message key="clr.toolbar.pressed.text" value="Текст нажатого" revision="0" />
   <Message key="clr.toolbar.disabled_pressed.fill" value="Фон нажатого и недоступного" revision="0" />
-  <Message key="clr.toolbar.disabled_pressed.stroke" value="Обводка нажатого и ндоступного" revision="0" />
+  <Message key="clr.toolbar.disabled_pressed.stroke" value="Штрих нажатого и ндоступного" revision="0" />
   <Message key="clr.frame" value="Цвета фрейма" revision="0" />
   <Message key="clr.frame.frame.background" value="Фон" revision="0" />
   <Message key="clr.frame.frame.client_background" value="Клиентский фон" revision="0" />
   <Message key="clr.frame.frame.document_frame_background" value="Фон фрейма документа" revision="0" />
   <Message key="clr.frame.frame.border" value="Рамка" revision="0" />
   <Message key="clr.frame.header.inactive.fill" value="Фон неактивного заголовка" revision="0" />
-  <Message key="clr.frame.header.inactive.stroke" value="Текст/обводка неактивного заголовка" revision="0" />
+  <Message key="clr.frame.header.inactive.stroke" value="Текст/штрих неактивного заголовка" revision="0" />
   <Message key="clr.frame.header.active.fill" value="Фон активного заголовка" revision="0" />
-  <Message key="clr.frame.header.active.stroke" value="Текст, обводка активного заголовка" revision="0" />
+  <Message key="clr.frame.header.active.stroke" value="Текст, штрих активного заголовка" revision="0" />
   <Message key="clr.frame.hover.fill" value="Фон при наведении" revision="0" />
-  <Message key="clr.frame.hover.stroke" value="Обводка при наведении" revision="0" />
+  <Message key="clr.frame.hover.stroke" value="Штрих при наведении" revision="0" />
   <Message key="clr.frame.hover.text" value="Текст при наведении" revision="0" />
   <Message key="clr.frame.title_text" value="Текст заглавия" revision="0" />
   <Message key="clr.frame.nav.shadow" value="Тень навигационной иконки" revision="0" />
@@ -246,10 +246,10 @@
   <Message key="clr.listview.header.stroke" value="Текст заголовка" revision="0" />
   <Message key="clr.listview.selected.inactive.fill" value="Фон неактивного выделенного" revision="0" />
   <Message key="clr.listview.selected.inactive.text" value="Текст неактивного выделенного" revision="0" />
-  <Message key="clr.listview.selected.inactive.stroke" value="Обводка неактивного выделенного" revision="0" />
+  <Message key="clr.listview.selected.inactive.stroke" value="Штрих неактивного выделенного" revision="0" />
   <Message key="clr.listview.selected.active.fill" value="Фон активного выделенного" revision="0" />
   <Message key="clr.listview.selected.active.text" value="Текст активного выделенного" revision="0" />
-  <Message key="clr.listview.selected.active.stroke" value="Обводка активного выделенного" revision="0" />
+  <Message key="clr.listview.selected.active.stroke" value="Штрих активного выделенного" revision="0" />
   <Message key="clr.listview.hover.fill" value="Фон при наведении" revision="0" />
   <Message key="clr.listview.hover.stroke" value="Текст при наведении" revision="0" />
   <Message key="clr.listview.grid" value="Сетка" revision="0" />
@@ -258,7 +258,7 @@
   <Message key="clr.balloon" value="Цвета окон уведомлений" revision="0" />
   <Message key="clr.balloon.balloon.fill" value="Фон" revision="0" />
   <Message key="clr.balloon.balloon.text" value="Текст" revision="0" />
-  <Message key="clr.balloon.balloon.stroke" value="Обводка" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Штрих" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Сообщение &quot;Больше не выводить это&quot;" revision="0" />
   <Message key="Settings Page" value="Настройки" revision="0" />
   <Message key="Settings Storage Location" value="Путь к хранилищу настроек" revision="0" />

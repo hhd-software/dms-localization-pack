@@ -258,7 +258,7 @@
   <Message key="clr.balloon" value="Colores de la ventana de notificación" revision="0" />
   <Message key="clr.balloon.balloon.fill" value="Fondo" revision="0" />
   <Message key="clr.balloon.balloon.text" value="Texto" revision="0" />
-  <Message key="clr.balloon.balloon.stroke" value="Contorno" revision="0" />
+  <Message key="clr.balloon.balloon.stroke" value="Trazo" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="&quot;Mensaje &quot;No mostrar más" revision="0" />
   <Message key="Settings Page" value="Configuración" revision="0" />
   <Message key="Settings Storage Location" value="Ubicación del almacenamiento de configuraciones" revision="0" />
