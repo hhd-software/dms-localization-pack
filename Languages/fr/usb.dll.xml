@@ -9,6 +9,25 @@
   <Message key="Not specified" value="Non spécifié" revision="0" />
   <Message key="Unable to retrieve" value="String descripteur {id} (incapable de lire)" revision="0" />
   <Message key="DeviceDescriptor0" value="[[[bCe dispositif fait partie d'un appareil composite.]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor1" value="[[[b[[[uInformations sur la connexion]]]]]]\n\n Port: [[[b{port}]]]\n Vitesse: [[[b{speed}]]]\n Adresse de l'appareil: [[[b{addr}]]]\n Pipes ouvertes: [[[b{pipes}]]]\n État de la connexion: [[[b{status}]]]\n" revision="0" />
+  <Message key="DeviceDescriptor2" value="\n\n[[[b[[[uDescripteur d'appareil]]]]]]\n\n Version USB: [[[b{ver_major}.{ver_minor}]]]\n Classe d'appareil: [[[b{class_code} - {class}]]]\n Sous-classe d'appareil: [[[b{subcode} - {subclass}]]]\n Protocole de l'appareil: [[[b{proto_code} - {proto}]]]\n Taille maximale du pipe de contrôle: [[[b{max_bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor4" value="[[[b[[[uDescripteur de configuration]]]]]]\n\n Nombre d'interfaces: [[[b{num_interfaces}]]]\n Valeur de configuration: [[[b{config_value}]]]\n Attributs: [[[b{attribs}]]]" revision="0" />
+  <Message key="DeviceDescriptor5" value="\n Puissance max: [[[b{power} mA]]]" revision="0" />
+  <Message key="DeviceDescriptor6" value="\n\n Descripteur inconnu (Type: {type}, Longueur: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor8" value="\n Adresse du point final [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], taille maximale des paquets: [[[b{bytes} octets]]]" revision="0" />
+  <Message key="DeviceDescriptor9" value=", intervalle de renouvellement :: [[[b{interval}]]]" revision="0" />
+  <Message key="UnknownDescriptor" value="\n\nDescripteur inconnu (Type: {type}, Longueur: {bytes} octets)" revision="0" />
+  <Message key="DeviceDescriptor10" value="\n\n[[[b[[[uAudio Streaming (AS) Descripteur du point final des données audio isochrones]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor11" value="\n\n[[[b[[[uVideo Control (VC) Descripteur de point de terminaison d'interruption]]]]]]\n" revision="0" />
+  <Message key="DeviceDescriptor12" value="Poste réservé\n" revision="0" />
+  <Message key="DeviceDescriptor13" value="Usages ({min}-{max}): [[[b" revision="0" />
+  <Message key="DeviceDescriptor14" value="[[[b[[[uDescripteur HID]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor15" value="[[[b[[[uDescripteur de contrôle audio (AC) : {name}]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor16" value="[[[b[[[uDescripteur de flux audio (AS) : {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor17" value="[[[b[[[uDescripteur de flux MIDI (AS): {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor18" value="[[[b[[[uDescripteur de contrôle vidéo (VC): {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor19" value="[[[b[[[uDescripteur de flux vidéo (VS): {name}]]]]]]\n\n" revision="0" />
+  <Message key="DeviceDescriptor20" value="[[[b[[[uDescripteur spécifique à la classe de communication: {type} ({name})]]]]]]\n\n" revision="0" />
   <Message key="UsbInput" value="Entrée" revision="0" />
   <Message key="UsbOutput" value="Sortie" revision="0" />
   <Message key="1msFramesFmt" value="{number} Trames de 1 milliseconde" revision="0" />
@@ -38,7 +57,9 @@
   <Message key="UnitPinFmt" value="ID de l'unité à laquelle la broche{number} est connectée :" revision="0" />
   <Message key="Number of Supported Modes:" value="Nombre de modes supportés :" revision="0" />
   <Message key="ModeFmt" value="Mode{number} :" revision="0" />
+  <Message key="UsbErrorRetriveDescriptors" value="Impossible de récupérer les descripteurs.\r\n\r\nSi ce dispositif fait partie d'un dispositif composite, cliquez sur le dispositif composite pour voir les descripteurs USB." revision="0" />
   <Message key="UsbUnableToAttach" value="Impossible d'établir une connexion avec le périphérique USB sélectionné." revision="0" />
+  <Message key="MS_CS_ENDPOINT_1" value="\n\n[[[b[[[uClass-Specific MS Bulk Data Endpoint Descriptor]]]]]]\nPrises MIDI intégrées: [[[b {number}]]]\n" revision="0" />
   <Message key="Video Specification Release Number:" value="Numéro de version de la spécification de la vidéo :" revision="0" />
   <Message key="Clock Frequency:" value="Fréquence d'horloge :" revision="0" />
   <Message key="Terminal ID:" value="Terminal ID :" revision="0" />
@@ -53,6 +74,9 @@
   <Message key="Number of Formats:" value="Nombre de formats :" revision="0" />
   <Message key="Endpoint Address:" value="Adresse du point de terminaison :" revision="0" />
   <Message key="Still Capture Method:" value="Méthode de capture d'images :" revision="0" />
+  <Message key="Trigger Support:" value="Support de déclenchement :" revision="0" />
+  <Message key="Trigger Usage:" value="Utilisation du déclencheur :" revision="0" />
+  <Message key="FormatFmt" value="Format{number}:\n" revision="0" />
   <Message key="Does support" value="Apporte son soutien" revision="0" />
   <Message key="Does not support" value="Ne prend pas en charge" revision="0" />
   <Message key="Mac Address (string descriptor index):" value="Adresse Mac (indice du descripteur de chaîne) :" revision="0" />
