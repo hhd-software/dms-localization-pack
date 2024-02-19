@@ -33,7 +33,7 @@
   <Message key="UsbInput" value="Entrada" revision="0" />
   <Message key="UsbOutput" value="Saída" revision="0" />
   <Message key="1msFramesFmt" value="{number} Quadros de 1 milissegundo" revision="0" />
-  <Message key="MicroFramesFmt" value="{number} de microframes" revision="0" />
+  <Message key="MicroFramesFmt" value="{number} microframes" revision="0" />
   <Message key="Restart Device" value="Reiniciar o dispositivo" revision="0" />
   <Message key="Audio Device Class Specification Release Number:" value="Especificação de classe de dispositivo de áudio Número da versão:" revision="0" />
   <Message key="Number of Interfaces:" value="Número de interfaces:" revision="0" />

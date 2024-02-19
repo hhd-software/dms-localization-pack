@@ -8,6 +8,36 @@
   <Message key="USB.Advertise.Text" value="Offriamo anche la libreria ActiveX USB Monitoring Control che consente di integrare la funzionalità di monitoraggio nelle proprie applicazioni." revision="0" />
   <Message key="Not specified" value="Non specificato" revision="0" />
   <Message key="Unable to retrieve" value="Descrittore stringa {id} (impossibile da leggere)" revision="0" />
+  <Message key="DeviceDescriptor0" value="[[[bQuesto dispositivo fa parte di un dispositivo composito.]]]\n\n" revision="0" />
+  <Message key="UsbInput" value="Input" revision="0" />
+  <Message key="UsbOutput" value="Output" revision="0" />
+  <Message key="1msFramesFmt" value="{number} Frame da 1 millisecondo" revision="0" />
+  <Message key="MicroFramesFmt" value="{number} microframes" revision="0" />
+  <Message key="Restart Device" value="Riavviare il dispositivo" revision="0" />
+  <Message key="Audio Device Class Specification Release Number:" value="Numero di versione della specifica di classe del dispositivo audio:" revision="0" />
+  <Message key="Number of Interfaces:" value="Numero di interfacce:" revision="0" />
+  <Message key="Number Of Output Channels:" value="Numero di canali di uscita:" revision="0" />
+  <Message key="Name (String Descriptor ID):" value="Nome (ID descrittore stringa):" revision="0" />
+  <Message key="Description (String Descriptor ID):" value="Descrizione (ID descrittore stringa):" revision="0" />
+  <Message key="Number of Pins:" value="Numero di pin:" revision="0" />
+  <Message key="Channel Configuration:" value="Configurazione del canale:" revision="0" />
+  <Message key="Channel Names:" value="Nomi dei canale:" revision="0" />
+  <Message key="Programmable Controls:" value="Controlli programmabili:" revision="0" />
+  <Message key="SourceFmt" value="Origine{number}:" revision="0" />
+  <Message key="Control Size:" value="Dimensione del controllo:" revision="0" />
+  <Message key="Supported Controls:" value="Controlli compatibili:" revision="0" />
+  <Message key="Interface Number:" value="Numero di interfaccia:" revision="0" />
+  <Message key="Terminal Link:" value="Collegamento terminale:" revision="0" />
+  <Message key="Delay:" value="Ritardo:" revision="0" />
+  <Message key="Format Tag:" value="Tag di formato:" revision="0" />
+  <Message key="Attributes:" value="Attributi:" revision="0" />
+  <Message key="Delay Units:" value="Unità di ritardo:" revision="0" />
+  <Message key="Lock Delay:" value="Ritardo di blocco:" revision="0" />
+  <Message key="Processing Type:" value="Tipo di elaborazione:" revision="0" />
+  <Message key="Number of Input Pins:" value="Numero di pin di ingresso:" revision="0" />
+  <Message key="UnitPinFmt" value="ID dell'unità a cui è collegato il pin{number}:" revision="0" />
+  <Message key="Number of Supported Modes:" value="Numero di modalità supportate:" revision="0" />
+  <Message key="ModeFmt" value="Modalità{number}:" revision="0" />
   <Enumeration key="UsbSource">
     <Item />
     <Item />
