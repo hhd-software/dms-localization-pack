@@ -1,5 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="Dependent Devices" value="Dispositivi dipendenti" revision="0" />
+  <Message key="CounterPacketsTotal" value="Pacchetti totali/sec" revision="0" />
+  <Message key="CounterBytesTransferTotal" value="Byte totali/sec" revision="0" />
+  <Message key="Get Descriptor Request" value="Ottenere la richiesta del descrittore" revision="0" />
+  <Message key="Set Descriptor Request" value="Impostare una richiesta di descrittore" revision="0" />
+  <Message key="Function Code: " value="Codice funzione: " revision="0" />
+  <Message key="DirectionDown" value="Direzione: In basso\nLunghezza dei dati: " revision="0" />
+  <Message key="DirectionUp" value="Direzione: In alto\nLunghezza dei dati: " revision="0" />
+  <Message key="VILFmt" value="Valore: {value}\Indice: {index}\Lunghezza: {length}" revision="0" />
+  <Message key="Control Transfer" value="Trasferimento del controllo" revision="0" />
+  <Message key="Setup Packet" value="Pacchetto di configurazione" revision="0" />
+  <Message key="UsbRequestFmt" value="Richiesta: {id} ({name})\n" revision="0" />
+  <Message key="SetupPacketFmt" value="Destinatario: {recp}\nTipo di richiesta: {type}\nDirezione: {dir}\n" revision="0" />
+  <Message key="UsbDescriptorFmt" value="Tipo di descrittore: {name}\nIndice dei descrittori: {index}\nDimensione del buffer di trasferimento: {size} bytes\n" revision="0" />
+  <Message key="UsbDescriptorLangFmt" value="LinguaId: {index}" revision="0" />
+  <Message key="Bulk or Interrupt Transfer" value="Bulk or Interrupt Transfer" revision="0" />
+  <Message key="Get" value="Ottenere" revision="0" />
+  <Message key="UsbSizeFmt" value="{size} byte" revision="0" />
+  <Message key="from the device" value="dal dispositivo" revision="0" />
+  <Message key="to the device" value="al dispositivo" revision="0" />
+  <Message key="UsbTransferFmt" value="{operation} {size} byte {dir}" revision="0" />
+  <Message key="Select Configuration" value="Selezionare la configurazione" revision="0" />
+  <Message key="ConfigurationIndexUnconfigured" value="Indice di configurazione: &lt;non configurato&gt;\n" revision="0" />
+  <Message key="ConfigurationIndexFmt" value="Indice di configurazione: {id}\n" revision="0" />
+  <Message key="ConfigurationHandleFmt" value="Maniglia di configurazione: {handle}" revision="0" />
+  <Message key="Get Status Request" value="Ottenere la richiesta di stato" revision="0" />
+  <Message key="GetStatusFmt" value="Ottenere lo stato da {name}. Lunghezza dei dati " revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item />
     <Item />

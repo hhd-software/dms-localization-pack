@@ -3,8 +3,8 @@
   <Message key="Dependent Devices" value="Dispositivos dependentes" revision="0" />
   <Message key="CounterPacketsTotal" value="Pacotes Total/Seg" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Bytes Total/Seg" revision="0" />
-  <Message key="Get Descriptor Request" value="Pedido de obtenção de descritor" revision="0" />
-  <Message key="Set Descriptor Request" value="Pedido de definição de descritor" revision="0" />
+  <Message key="Get Descriptor Request" value="Obter um pedido de descritor" revision="0" />
+  <Message key="Set Descriptor Request" value="Definir um pedido de descritor" revision="0" />
   <Message key="Function Code: " value="Código de função: " revision="0" />
   <Message key="DirectionDown" value="Direção: Para baixo\nComprimento dos dados: " revision="0" />
   <Message key="DirectionUp" value="Direção: Para cima\nComprimento dos dados: " revision="0" />
