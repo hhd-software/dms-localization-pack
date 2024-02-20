@@ -11,9 +11,11 @@
   <Message key="DeviceDescriptor0" value="[[[bQuesto dispositivo fa parte di un dispositivo composito.]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor1" value="[[[b[[[uInformazioni sulla connessione]]]]]]\n\n Porto: [[[b{port}]]]\n Velocità: [[[b{speed}]]]\n Indirizzo del dispositivo: [[[b{addr}]]]\n Pipes aperti: [[[b{pipes}]]]\n Stato della connessione: [[[b{status}]]]\n" revision="0" />
   <Message key="DeviceDescriptor2" value="\n\n[[[b[[[uDescrittore del dispositivo]]]]]]\n\n Versione USB: [[[b{ver_major}.{ver_minor}]]]\n Classe del dispositivo: [[[b{class_code} - {class}]]]\n Sottoclasse del dispositivo: [[[b{subcode} - {subclass}]]]\n Protocollo del dispositivo: [[[b{proto_code} - {proto}]]]\n Dimensione massima del pipe di controllo: [[[b{max_bytes} bytes]]]" revision="0" />
+  <Message key="DeviceDescriptor3" value="\n ID venditore: [[[b{vendor_id} ({vendor})]]]\n ID del prodotto: [[[b{product_id} ({product})]]]\n Versione del prodotto: [[[b{ver_major}.{ver_minor}]]]\n Produttore: [[[b{manufacturer}]]]\n Prodotto: [[[b{product_name}]]]\n Numero di serie: [[[b{serial}]]]\n Configurazioni: [[[b{config_num}]]]\n" revision="0" />
   <Message key="DeviceDescriptor4" value="[[[b[[[uDescrittore di configurazione]]]]]]\n\n Numero di interfacce: [[[b{num_interfaces}]]]\n Valore di configurazione: [[[b{config_value}]]]\n Attributi: [[[b{attribs}]]]" revision="0" />
   <Message key="DeviceDescriptor5" value="\n Potenza massima: [[[b{power} mA]]]" revision="0" />
   <Message key="DeviceDescriptor6" value="\n\n Descrittore sconosciuto (Tipo: {type}, Lunghezza: {bytes} bytes)" revision="0" />
+  <Message key="DeviceDescriptor7" value="\n\n[[[b[[[uDescrittore di interfaccia: {descriptor}, Impostazione alternativa: {alter}]]]]]]\n\n Numero di endpoint: [[[b{endpoints}]]]\n Classe di interfaccia: [[[b{class_id} - {class}]]]\n Sottoclasse dell'interfaccia: [[[b{sub_id} - {subclass}]]]\n Protocollo di interfaccia: [[[b{proto_id} - {proto}]]]" revision="0" />
   <Message key="DeviceDescriptor8" value="\n Indirizzo del punto finale [[[b{address}]]], [[[b{endpoint}]]], [[[b{endpoint2}]]], dimensione massima del pacchetto: [[[b{bytes} byte]]]" revision="0" />
   <Message key="DeviceDescriptor9" value=", intervallo di attualizzazione: [[[b{interval}]]]" revision="0" />
   <Message key="UnknownDescriptor" value="\n\nDescrittore sconosciuto (Tipo: {type}, Lunghezza: {bytes} byte)" revision="0" />
@@ -77,6 +79,35 @@
   <Message key="Trigger Support:" value="Supporto per l'innesco:" revision="0" />
   <Message key="Trigger Usage:" value="Uso del trigger:" revision="0" />
   <Message key="FormatFmt" value="Formato{number}:\n" revision="0" />
+  <Message key="Width:" value="Larghezza:" revision="0" />
+  <Message key="Height:" value="Altezza:" revision="0" />
+  <Message key="CompressionFmt" value="Compressione{number}:" revision="0" />
+  <Message key="Color Primaries:" value="Primari di colore:" revision="0" />
+  <Message key="Transfer Characteristics:" value="Caratteristiche di trasferimento:" revision="0" />
+  <Message key="Matrix Coefficients:" value="Coefficienti della matrice:" revision="0" />
+  <Message key="Format Index:" value="Indice dei formati:" revision="0" />
+  <Message key="Number of Frame Descriptors:" value="Numero di descrittori di frame:" revision="0" />
+  <Message key="Format GUID:" value="Format GUID:" revision="0" />
+  <Message key="Bits Per Pixel:" value="Bit per pixel:" revision="0" />
+  <Message key="Optimum Frame Index:" value="Indice di inquadramento ottimale:" revision="0" />
+  <Message key="Aspect Ratio X:" value="Rapporto d'aspetto X:" revision="0" />
+  <Message key="Aspect Ratio Y:" value="Rapporto d'aspetto Y:" revision="0" />
+  <Message key="Copy Protect:" value="Protezione dalla copia:" revision="0" />
+  <Message key="Interlace Flags:" value="Bandiere di intreccio:\n" revision="0" />
+  <Message key="Interface Stream Or Variable:" value="Flusso interlacciato o variabile" revision="0" />
+  <Message key="Fields Per Frame:" value="Campi per frame:" revision="0" />
+  <Message key="Field 1 Is First:" value="Il campo 1 è il primo:" revision="0" />
+  <Message key="Min Bit Rate:" value="Velocità di trasmissione minima:" revision="0" />
+  <Message key="Max Bit Rate:" value="Velocità di trasmissione massima:" revision="0" />
+  <Message key="Max Video Frame Buffer Size:" value="Dimensione massima del buffer dei frame video:" revision="0" />
+  <Message key="Default Frame Interval:" value="Intervallo di frame predefinito:" revision="0" />
+  <Message key="Frame Interval Type:" value="Tipo di intervallo di frame:" revision="0" />
+  <Message key="Min Frame Interval (in 100 ns):" value="Intervallo di frame minimo (in 100 ns):" revision="0" />
+  <Message key="Max Frame Interval (in 100 ns):" value="Intervallo massimo di frame (in 100 ns):" revision="0" />
+  <Message key="Frame Interval Step (in 100 ns):" value="Passo dell'intervallo di frame (in 100 ns):" revision="0" />
+  <Message key="FrameIntervalFmt" value="Intervallo frame{number}:" revision="0" />
+  <Message key="Data Offset:" value="Offset dei dati:" revision="0" />
+  <Message key="Length of TSP Packet:" value="Lunghezza del pacchetto TSP:" revision="0" />
   <Message key="Does support" value="Supporta" revision="0" />
   <Message key="Does not support" value="Non supporta" revision="0" />
   <Message key="Mac Address (string descriptor index):" value="Indirizzo Mac (indice del descrittore di stringa):" revision="0" />
