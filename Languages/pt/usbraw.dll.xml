@@ -3,8 +3,8 @@
   <Message key="Dependent Devices" value="Dispositivos dependentes" revision="0" />
   <Message key="CounterPacketsTotal" value="Pacotes Total/Seg" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Bytes Total/Seg" revision="0" />
-  <Message key="Get Descriptor Request" value="Obter um pedido de descritor" revision="0" />
-  <Message key="Set Descriptor Request" value="Definir um pedido de descritor" revision="0" />
+  <Message key="Get Descriptor Request" value="Pedido de obtenção de descritor" revision="0" />
+  <Message key="Set Descriptor Request" value="Pedido de definição de descritor" revision="0" />
   <Message key="Function Code: " value="Código de função: " revision="0" />
   <Message key="DirectionDown" value="Direção: Para baixo\nComprimento dos dados: " revision="0" />
   <Message key="DirectionUp" value="Direção: Para cima\nComprimento dos dados: " revision="0" />
@@ -25,10 +25,10 @@
   <Message key="ConfigurationIndexUnconfigured" value="Índice de configuração: &lt;não configurado&gt;\n" revision="0" />
   <Message key="ConfigurationIndexFmt" value="Índice de configuração: {id}\n" revision="0" />
   <Message key="ConfigurationHandleFmt" value="Pega de configuração: {handle}" revision="0" />
-  <Message key="Get Status Request" value="Obter pedido de estado" revision="0" />
+  <Message key="Get Status Request" value="Pedido de obtenção de estatuto" revision="0" />
   <Message key="GetStatusFmt" value="Obter o estado de {name}. Comprimento dos dados " revision="0" />
-  <Message key="Set Feature Request" value="Pedir definir caraterística" revision="0" />
-  <Message key="Clear Feature Request" value="Pedir limpar funcionalidade" revision="0" />
+  <Message key="Set Feature Request" value="Definir pedido de funcionalidade" revision="0" />
+  <Message key="Clear Feature Request" value="Pedido de limpeza da funcionalidade " revision="0" />
   <Message key="FeatureFmt" value="{state} funcionalidade {selector} em {endpoint}" revision="0" />
   <Message key="index" value="índice" revision="0" />
   <Message key="Vendor-Specific Request" value="Pedido específico do fornecedor" revision="0" />
@@ -36,18 +36,18 @@
   <Message key="ReservedBitsFmt" value="Bits reservados: {count}\nPedido: {request}\nValor: {value}\n" revision="0" />
   <Message key="UsbDestinationIndex" value="Destino: {name}, Índice {index}\n" revision="0" />
   <Message key="UsbDestination" value="Destino: {name}\n" revision="0" />
-  <Message key="Get Configuration Request" value="Pedido obter configuração" revision="0" />
-  <Message key="Get Interface Request" value="Pedido obter interface" revision="0" />
+  <Message key="Get Configuration Request" value="Pedido para obter a configuração" revision="0" />
+  <Message key="Get Interface Request" value="Pedido para obter a interface" revision="0" />
   <Message key="InterfaceIndexFmt" value="Índice de interface: {index}\n" revision="0" />
-  <Message key="Take Frame Length Control Request" value="Captura de controlo de comprimento de quadro" revision="0" />
-  <Message key="Release Frame Length Control Request" value="Libertar o controlo do comprimento do quadro" revision="0" />
-  <Message key="Get Frame Length Request" value="Pedido para obter o comprimento do frame" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Pedido para assumir o controlo do comprimento do quadro" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Pedido de libertação do controlo do comprimento do quadro" revision="0" />
+  <Message key="Get Frame Length Request" value="Pedido para obter o comprimento do quadro" revision="0" />
   <Message key="FrameLengthFmt" value="Comprimento do quadro: {length}\nNúmero do quadro: {number}" revision="0" />
-  <Message key="Set Frame Length Request" value="Pedido de definição do comprimento do frame" revision="0" />
+  <Message key="Set Frame Length Request" value="Pedido de definição do comprimento do quadro" revision="0" />
   <Message key="FrameLengthDeltaFmt" value="Comprimento do quadro Delta: {delta}" revision="0" />
-  <Message key="Get Current Frame Number Request" value="Obter pedido de número de quadro atual" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Pedido para obter o número do fotograma atual" revision="0" />
   <Message key="FrameNumberFmt" value="Número do quadro: {frame}" revision="0" />
-  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Estado: {status}\n" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Stato: {status}\n" revision="0" />
   <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name})\n" revision="0" />
   <Message key="Device Descriptor" value="Descritor de dispositivo\n" revision="0" />
   <Message key="DisplayDescriptorFmt" value="Comprimento: {length} bytes, Especificação USB: {spec}\nClasse: {class}, Subclasse: {subclass}, Protocolo: {protocol}      \nTamanho máx. do pacote: {size} bytes\nID do fornecedor: {vendor_id} ({vendor_name}), ID do produto: {prod_id}, Versão do dispositivo: {version}\nFabricante: {manufacturer}, Produto: {product}, Número de série: {serial}\nNúmero de configurações: {num_configs}" revision="0" />
@@ -97,7 +97,7 @@
   <Message key="STRINGINTERRUPT" value="Interrupção" revision="0" />
   <Message key="STRINGINPUT" value="Entrada" revision="0" />
   <Message key="STRINGOUTPUT" value="Saída" revision="0" />
-  <Message key="IDS_STRUCT_NOT_FOUND" value="A definição da estrutura não foi encontrada. A Vista da estrutura não consegue apresentar quaisquer resultados." revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="definição da estrutura não foi encontrada. A Vista da estrutura não consegue apresentar quaisquer resultados." revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Dispositivos dependentes" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Copiar nome" revision="0" />

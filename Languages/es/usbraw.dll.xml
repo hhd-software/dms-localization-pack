@@ -3,8 +3,8 @@
   <Message key="Dependent Devices" value="Dispositivos dependientes" revision="0" />
   <Message key="CounterPacketsTotal" value="Paquetes Total/Seg" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Bytes Total/Seg" revision="0" />
-  <Message key="Get Descriptor Request" value="Obtener una solicitud de descriptor" revision="0" />
-  <Message key="Set Descriptor Request" value="Establecer una solicitud de descriptor" revision="0" />
+  <Message key="Get Descriptor Request" value="Solicitud de obtener descriptor" revision="0" />
+  <Message key="Set Descriptor Request" value="Solicitud para establecer un descriptor" revision="0" />
   <Message key="Function Code: " value="Código de función: " revision="0" />
   <Message key="DirectionDown" value="Dirección: Abajo\nLongitud de Datos: " revision="0" />
   <Message key="DirectionUp" value="Dirección: Arriba\nLongitud de datos: " revision="0" />
@@ -25,10 +25,10 @@
   <Message key="ConfigurationIndexUnconfigured" value="Índice de configuración: &lt;sin configurar&gt;\n" revision="0" />
   <Message key="ConfigurationIndexFmt" value="Índice de configuración: {id}\n" revision="0" />
   <Message key="ConfigurationHandleFmt" value="Mango de configuración: {handle}" revision="0" />
-  <Message key="Get Status Request" value="Obtener solicitud de estado" revision="0" />
+  <Message key="Get Status Request" value="Solicitud para obtener el estatuto" revision="0" />
   <Message key="GetStatusFmt" value="Obtener estado de {name}. Longitud de los datos " revision="0" />
-  <Message key="Set Feature Request" value="Solicitar establecer característica" revision="0" />
-  <Message key="Clear Feature Request" value="Solicitar borrar función" revision="0" />
+  <Message key="Set Feature Request" value="Solicitud para establecer una característica" revision="0" />
+  <Message key="Clear Feature Request" value="Solicitud para borrar la función " revision="0" />
   <Message key="FeatureFmt" value="{state} función {selector} en {endpoint}" revision="0" />
   <Message key="index" value="índice" revision="0" />
   <Message key="Vendor-Specific Request" value="Solicitud específica del proveedor" revision="0" />
@@ -36,16 +36,16 @@
   <Message key="ReservedBitsFmt" value="Bits reservados: {count}\nSolicitar: {request}\nValor: {value}\n" revision="0" />
   <Message key="UsbDestinationIndex" value="Destino: {name}, Índice {index}\n" revision="0" />
   <Message key="UsbDestination" value="Destino: {name}\n" revision="0" />
-  <Message key="Get Configuration Request" value="Solicitud obtener configuración" revision="0" />
-  <Message key="Get Interface Request" value="Solicitud obtener interfaz" revision="0" />
+  <Message key="Get Configuration Request" value="Solicitud para obtener la configuración" revision="0" />
+  <Message key="Get Interface Request" value="Solicitud para obtener la interfaz" revision="0" />
   <Message key="InterfaceIndexFmt" value="Índice de interfaz: {index}\n" revision="0" />
-  <Message key="Take Frame Length Control Request" value="Captura de control de longitud de cuadro" revision="0" />
-  <Message key="Release Frame Length Control Request" value="Liberar solicitud de control de longitud de cuadro" revision="0" />
-  <Message key="Get Frame Length Request" value="Solicitud para obtener la longitud de la trama" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Solicitud para tomar el control de la longitud de cuadro" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Solicitud de liberación del control de longitud de cuadro" revision="0" />
+  <Message key="Get Frame Length Request" value="Solicitud para obtener la longitud del cuadro" revision="0" />
   <Message key="FrameLengthFmt" value="Longitud del cuadro: {length}\nNúmero de cuadro: {number}" revision="0" />
   <Message key="Set Frame Length Request" value="Solicitud de ajuste de la longitud de la trama" revision="0" />
   <Message key="FrameLengthDeltaFmt" value="Longitud de cuadro Delta: {delta}" revision="0" />
-  <Message key="Get Current Frame Number Request" value="Obtener número de cuadro actual" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Solicitud para obtener el número de trama actual" revision="0" />
   <Message key="FrameNumberFmt" value="Número de cuadro: {frame}" revision="0" />
   <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Estado: {status}\n" revision="0" />
   <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name})\n" revision="0" />

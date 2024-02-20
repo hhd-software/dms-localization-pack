@@ -3,8 +3,8 @@
   <Message key="Dependent Devices" value="Appareils dépendants" revision="0" />
   <Message key="CounterPacketsTotal" value="Paquets Total/Sec" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Octets Total/Sec" revision="0" />
-  <Message key="Get Descriptor Request" value="Obtenir une demande de descripteur" revision="0" />
-  <Message key="Set Descriptor Request" value="Définir une demande de descripteur" revision="0" />
+  <Message key="Get Descriptor Request" value="Demande d'obtention d'un descripteur" revision="0" />
+  <Message key="Set Descriptor Request" value="Demande de définition du descripteur" revision="0" />
   <Message key="Function Code: " value="Code de fonction : " revision="0" />
   <Message key="DirectionDown" value="Direction : Vers le bas\nLongueur des données : " revision="0" />
   <Message key="DirectionUp" value="Direction : Vers le haut\nLongueur des données : " revision="0" />
@@ -27,22 +27,79 @@
   <Message key="ConfigurationHandleFmt" value="Poignée de configuration : {handle}" revision="0" />
   <Message key="Get Status Request" value="Obtenir une demande d'état" revision="0" />
   <Message key="GetStatusFmt" value="Obtenir le statut de {name}. Longueur des données " revision="0" />
+  <Message key="Set Feature Request" value="Demande pour l'établissement d'une fonctionnalité" revision="0" />
+  <Message key="Clear Feature Request" value="Demande d'effacement d'une caractéristique " revision="0" />
+  <Message key="FeatureFmt" value="{state} fonctionnalité {selector} sur {selector}" revision="0" />
+  <Message key="index" value="index" revision="0" />
+  <Message key="Vendor-Specific Request" value="Demande spécifique d'un fournisseur" revision="0" />
+  <Message key="Class-Specific Request" value="Demande spécifique à une classe" revision="0" />
+  <Message key="ReservedBitsFmt" value="Bits réservés : {count}\nDemande : {request}\nValeur\n" revision="0" />
+  <Message key="UsbDestinationIndex" value="Destination : {name}, Index {index}\n" revision="0" />
+  <Message key="UsbDestination" value="Destination : {name}\n" revision="0" />
+  <Message key="Get Configuration Request" value="Demande d'obtention de la configuration" revision="0" />
+  <Message key="Get Interface Request" value="Demande d'obtention de l'interface" revision="0" />
+  <Message key="InterfaceIndexFmt" value="Index de l'interface : {index}\n" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Demande de prise de contrôle de la longueur du trame" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Demande de libération du contrôle de la longueur de la trame" revision="0" />
+  <Message key="Get Frame Length Request" value="Demande d'obtention de la longueur de trame" revision="0" />
+  <Message key="FrameLengthFmt" value="Longueur de trame : {length}\nNuméro de trame: {number}" revision="0" />
+  <Message key="Set Frame Length Request" value="Demande de définition de la longueur de la trame" revision="0" />
+  <Message key="FrameLengthDeltaFmt" value="Delta de la longueur de trame : {delta}" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Demande d'obtention du numéro de trame actuel" revision="0" />
+  <Message key="FrameNumberFmt" value="Numéro de trame : {frame}" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Appareil : {name}) Statut: {status}\n" revision="0" />
+  <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Appareil : {name})\n" revision="0" />
+  <Message key="Device Descriptor" value="Descripteur d'appareil\n" revision="0" />
+  <Message key="Configuration Descriptor" value="Descripteur de configuration\n" revision="0" />
+  <Message key="Interface Descriptor" value="Descripteur d'interface\n" revision="0" />
+  <Message key="Endpoint Descriptor" value="Descripteur de point de terminaison\n" revision="0" />
+  <Message key="Interval" value="Intervalle : {frames} trames" revision="0" />
+  <Message key="Isochronous Transfer" value="Transfert isochrone" revision="0" />
+  <Message key="pcktssec" value="paquets/sec" revision="0" />
+  <Message key="bytessec" value="octets/sec" revision="0" />
+  <Message key="CounterBytesRead" value="Octets lus/sec" revision="0" />
+  <Message key="CounterBytesWritten" value="Octets écrits/sec" revision="0" />
+  <Message key="Unable to retrieve data" value="Impossible de récupérer les données" revision="0" />
+  <Message key="StartTransferASAP" value=", Start Transfer ASAP" revision="0" />
+  <Message key="DeviceQueryTextFmt1" value="Description : {string}" revision="0" />
+  <Message key="DeviceQueryTextFmt2" value="Localisation : {string}" revision="0" />
+  <Message key="DeviceIDFmt" value="ID de l'appareil : {id}" revision="0" />
+  <Message key="Hardware IDs" value="ID du hardware : " revision="0" />
+  <Message key="Compatible IDs" value="ID compatibles :" revision="0" />
+  <Message key="InstanceIDFmt" value="ID d'instance : {id}" revision="0" />
+  <Message key="SerialNumberFmt" value="Numéro de série : {id}" revision="0" />
+  <Message key="NoStringFmt" value="Pas de chaîne, code d'erreur {code}" revision="0" />
+  <Message key="Select Interface" value="Sélectionner l'interface" revision="0" />
+  <Message key="EndpointAddressFmt" value="{handle} (Adresse du point de terminaison: {address})\n" revision="0" />
+  <Message key="UsbConfigurationFmt" value="Poignée de configuration : {handle}, Numéro d'interface : {interface}, Configuration alternative : {alt_set}\n" revision="0" />
+  <Message key="InvalidDescriptorStructure" value="Structure du descripteur non valide !\n" revision="0" />
+  <Message key="HIDReportDescriptorWarning" value="Descripteur de rapport HID (veuillez utiliser la vue HID)" revision="0" />
+  <Message key="Reserved Item" value="Objet réservé" revision="0" />
+  <Message key="PipeHandleFmt" value="Point de terminaison : {addr}, {type}, {dir}" revision="0" />
+  <Message key="STRINGCONTROL" value="Contrôle" revision="0" />
+  <Message key="STRINGISOCHRONOUS" value="Isochrone" revision="0" />
+  <Message key="STRINGBULK" value="Bulk" revision="0" />
+  <Message key="STRINGINTERRUPT" value="Interruption" revision="0" />
+  <Message key="STRINGINPUT" value="Entrée" revision="0" />
+  <Message key="STRINGOUTPUT" value="Sortie" revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="définition de la structure est introuvable. La vue de la structure ne peut afficher aucun résultat." revision="0" />
+  <Message key="toolbar.UsbDeviceTree" value="Appareils dépendants" revision="0" />
   <Enumeration key="EditCopyDeviceName">
-    <Item />
-    <Item />
+    <Item value="&amp;Copier le nom" revision="0" />
+    <Item value="Copier le nom de l'appareil dans le presse-papiers" revision="0" />
   </Enumeration>
   <Enumeration key="EditRestartDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Redémarrer" revision="0" />
+    <Item value="Redémarrer l'appareil sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="EditDeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Propriétés…" revision="0" />
+    <Item value="Afficher l'appareil sélectionné" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descripteur d'appareil" revision="0" />
+    <Item value="Descripteur de configuration" revision="0" />
+    <Item value="Descripteur HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
     <Item />
@@ -60,84 +117,84 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbTransferType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Type de transfert : Contrôle" revision="0" />
+    <Item value="Type de transfert : Isochrone" revision="0" />
+    <Item value="Type de transfert : Bulk" revision="0" />
+    <Item value="Type de transfert : Interruption" revision="0" />
+    <Item value="Type de transfert : Inconnu" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEndpointType">
-    <Item />
-    <Item />
+    <Item value="Entrée" revision="0" />
+    <Item value="Sortie" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestDirection">
-    <Item />
-    <Item />
+    <Item value="Hôte-&gt;Appareil" revision="0" />
+    <Item value="Appareil-&gt;Hôte" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Classe" revision="0" />
+    <Item value="Vendeur" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Appareil" revision="0" />
+    <Item value="Interface" revision="0" />
+    <Item value="Autres" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptorType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Appareil" revision="0" />
+    <Item value="Configuration" revision="0" />
+    <Item value="Chaîne de caractères" revision="0" />
+    <Item value="Descripteur HID" revision="0" />
+    <Item value="Descripteur de rapport HID" revision="0" />
+    <Item value="Descripteur de puissance HID" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paquet n°" revision="0" />
+    <Item value="Temps" revision="0" />
+    <Item value="Différence de temps" revision="0" />
+    <Item value="Direction" revision="0" />
+    <Item value="Statut" revision="0" />
+    <Item value="Fonction" revision="0" />
+    <Item value="Appareil" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
-    <Item />
-    <Item />
+    <Item value="Définir" revision="0" />
+    <Item value="Effacer" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="[Réveil à distance]" revision="0" />
+    <Item value="[auto-alimenté]" revision="0" />
+    <Item value="[alimenté par bus]" revision="0" />
   </Enumeration>
   <Enumeration key="PnpEventType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Événement PnP : Appareil connecté" revision="0" />
+    <Item value="Événement PnP : Appareil déconnecté" revision="0" />
+    <Item value="Événement PnP : Déménagement surprise" revision="0" />
+    <Item value="Événement PnP : Demande d'ID" revision="0" />
+    <Item value="Événement PnP : Demande de texte de l'appareil" revision="0" />
+    <Item value="Événement PnP : Demande d'interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Le périphérique USB vient d'être connecté au système." revision="0" />
+    <Item value="Le périphérique USB vient d'être retiré du système et tous les pilotes ont été déchargés." revision="0" />
+    <Item value="Le périphérique USB vient d'être déconnecté du système." revision="0" />
   </Enumeration>
   <Enumeration key="DeviceQueryType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interrogation de l'ID de l'appareil (BusQueryDeviceID)." revision="0" />
+    <Item value="Interrogation des ID de hardware (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Requête sur les ID compatibles (BusQueryCompatibleIDs)." revision="0" />
+    <Item value="Demande d'ID d'instance (BusQueryInstanceID)." revision="0" />
+    <Item value="Demande de numéro de série (BusQueryDeviceSerialNumber)." revision="0" />
   </Enumeration>
   <Enumeration key="UsbReportTypesList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Inconnu" revision="0" />
+    <Item value="Rapport" revision="0" />
+    <Item value="Physique" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
     <Item />
@@ -240,9 +297,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="GeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Afficher les paquets vides" revision="0" />
+    <Item value="Affichage des paquets lus" revision="0" />
+    <Item value="Affichage des paquets écrits" revision="0" />
   </Enumeration>
   <Enumeration key="RequestsCat">
     <Item />
@@ -291,14 +348,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbRawColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="En-tête" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="Données binaires" revision="0" />
+    <Item value="Lire : En-tête" revision="0" />
+    <Item value="Lire : Texte" revision="0" />
+    <Item value="Lecture : données binaires" revision="0" />
+    <Item value="Écrire : En-tête" revision="0" />
+    <Item value="Écrire : Texte" revision="0" />
+    <Item value="Écrire : Données binaires" revision="0" />
   </Enumeration>
 </Language>

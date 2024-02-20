@@ -3,8 +3,8 @@
   <Message key="Dependent Devices" value="Dispositivi dipendenti" revision="0" />
   <Message key="CounterPacketsTotal" value="Pacchetti totali/sec" revision="0" />
   <Message key="CounterBytesTransferTotal" value="Byte totali/sec" revision="0" />
-  <Message key="Get Descriptor Request" value="Ottenere la richiesta del descrittore" revision="0" />
-  <Message key="Set Descriptor Request" value="Impostare una richiesta di descrittore" revision="0" />
+  <Message key="Get Descriptor Request" value="Richiesta di ottenere un descrittore" revision="0" />
+  <Message key="Set Descriptor Request" value="Richiesta di impostazione del descrittore" revision="0" />
   <Message key="Function Code: " value="Codice funzione: " revision="0" />
   <Message key="DirectionDown" value="Direzione: In basso\nLunghezza dei dati: " revision="0" />
   <Message key="DirectionUp" value="Direzione: In alto\nLunghezza dei dati: " revision="0" />
@@ -25,24 +25,81 @@
   <Message key="ConfigurationIndexUnconfigured" value="Indice di configurazione: &lt;non configurato&gt;\n" revision="0" />
   <Message key="ConfigurationIndexFmt" value="Indice di configurazione: {id}\n" revision="0" />
   <Message key="ConfigurationHandleFmt" value="Maniglia di configurazione: {handle}" revision="0" />
-  <Message key="Get Status Request" value="Ottenere la richiesta di stato" revision="0" />
+  <Message key="Get Status Request" value="Richiesta di ottenimento dello stato" revision="0" />
   <Message key="GetStatusFmt" value="Ottenere lo stato da {name}. Lunghezza dei dati " revision="0" />
+  <Message key="Set Feature Request" value="Richiesta di impostazione di funzionalità" revision="0" />
+  <Message key="Clear Feature Request" value="Richiesta di cancellazione della funzione " revision="0" />
+  <Message key="FeatureFmt" value="{state} caratteristica {selector} su {selector}" revision="0" />
+  <Message key="index" value="indice" revision="0" />
+  <Message key="Vendor-Specific Request" value="Richiesta specifica del fornitore" revision="0" />
+  <Message key="Class-Specific Request" value="Richiesta specifica della classe" revision="0" />
+  <Message key="ReservedBitsFmt" value="Bits reservados: {count}\nSolicitar: {request}\nValore\n" revision="0" />
+  <Message key="UsbDestinationIndex" value="Destinazione: {name}, Indice {index}\n" revision="0" />
+  <Message key="UsbDestination" value="Destinazione: {name}\n" revision="0" />
+  <Message key="Get Configuration Request" value="Richiesta di ottenere la configurazione" revision="0" />
+  <Message key="Get Interface Request" value="Richiesta di ottenere l'interfaccia" revision="0" />
+  <Message key="InterfaceIndexFmt" value="Indice dell'interfaccia: {index}\n" revision="0" />
+  <Message key="Take Frame Length Control Request" value="Richiesta di controllo della lunghezza del frame" revision="0" />
+  <Message key="Release Frame Length Control Request" value="Richiesta di rilascio del controllo per la lunghezza del frame" revision="0" />
+  <Message key="Get Frame Length Request" value="Richiesta di ottenere la lunghezza del frame" revision="0" />
+  <Message key="FrameLengthFmt" value="Lunghezza del frame: {length}\nNumero di frame: {number}" revision="0" />
+  <Message key="Set Frame Length Request" value="Richiesta di impostazione della lunghezza del frame" revision="0" />
+  <Message key="FrameLengthDeltaFmt" value="Delta della lunghezza del frame : {delta}" revision="0" />
+  <Message key="Get Current Frame Number Request" value="Richiesta di ottenere il numero di frame attuale" revision="0" />
+  <Message key="FrameNumberFmt" value="Numero di frame: {frame}" revision="0" />
+  <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name}) Status: {status}\n" revision="0" />
+  <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Dispositivo: {name})\n" revision="0" />
+  <Message key="Device Descriptor" value="Descrittore del dispositivo\n" revision="0" />
+  <Message key="Configuration Descriptor" value="Descrittore di configurazione\n" revision="0" />
+  <Message key="Interface Descriptor" value="Descrittore di interfaccia\n" revision="0" />
+  <Message key="Endpoint Descriptor" value="Descrittore del punto finale\n" revision="0" />
+  <Message key="Interval" value="Intervalle: {frames} frame" revision="0" />
+  <Message key="Isochronous Transfer" value="Trasferimento isocrono" revision="0" />
+  <Message key="pcktssec" value="pacchetti/sec" revision="0" />
+  <Message key="bytessec" value="byte/sec" revision="0" />
+  <Message key="CounterBytesRead" value="Byte letti/sec" revision="0" />
+  <Message key="CounterBytesWritten" value="Byte scritti/sec" revision="0" />
+  <Message key="Unable to retrieve data" value="Impossibile recuperare i dati" revision="0" />
+  <Message key="StartTransferASAP" value=", Inizio trasferimento ASAP" revision="0" />
+  <Message key="DeviceQueryTextFmt1" value="Descrizione: {string}" revision="0" />
+  <Message key="DeviceQueryTextFmt2" value="Posizione: {string}" revision="0" />
+  <Message key="DeviceIDFmt" value="ID dispositivo: {id}" revision="0" />
+  <Message key="Hardware IDs" value="ID dell'hardware:" revision="0" />
+  <Message key="Compatible IDs" value="ID compatibili:" revision="0" />
+  <Message key="InstanceIDFmt" value="ID istanza: {id}" revision="0" />
+  <Message key="SerialNumberFmt" value="Numero di serie: {id}" revision="0" />
+  <Message key="NoStringFmt" value="Nessuna stringa, codice di errore {code}" revision="0" />
+  <Message key="Select Interface" value="Selezionare l'interfaccia" revision="0" />
+  <Message key="EndpointAddressFmt" value="{handle} (Indirizzo del punto finale: {address})\n" revision="0" />
+  <Message key="UsbConfigurationFmt" value="Maniglia di configurazione: {handle}, Numero di interfaccia: {interface}, Impostazione alternativa: {alt_set}\n" revision="0" />
+  <Message key="InvalidDescriptorStructure" value="Struttura del descrittore non valida!\n" revision="0" />
+  <Message key="HIDReportDescriptorWarning" value="Descrittore del rapporto HID (utilizzare la vista HID)" revision="0" />
+  <Message key="Reserved Item" value="Elemento riservato" revision="0" />
+  <Message key="PipeHandleFmt" value="Punto finale: {addr}, {type}, {dir}" revision="0" />
+  <Message key="STRINGCONTROL" value="Controllo" revision="0" />
+  <Message key="STRINGISOCHRONOUS" value="Isocono" revision="0" />
+  <Message key="STRINGBULK" value="Bulk" revision="0" />
+  <Message key="STRINGINTERRUPT" value="Interruzione" revision="0" />
+  <Message key="STRINGINPUT" value="Ingresso" revision="0" />
+  <Message key="STRINGOUTPUT" value="Uscita" revision="0" />
+  <Message key="IDS_STRUCT_NOT_FOUND" value="definizione della struttura non è stata trovata. La visualizzazione struttura non è in grado di visualizzare alcun risultato." revision="0" />
+  <Message key="toolbar.UsbDeviceTree" value="Dispositivi dipendenti" revision="0" />
   <Enumeration key="EditCopyDeviceName">
-    <Item />
-    <Item />
+    <Item value="&amp;Copiare il nome" revision="0" />
+    <Item value="Copiare il nome del dispositivo negli Appunti" revision="0" />
   </Enumeration>
   <Enumeration key="EditRestartDevice">
-    <Item />
-    <Item />
+    <Item value="&amp;Riavviare" revision="0" />
+    <Item value="Riavviare il dispositivo selezionato" revision="0" />
   </Enumeration>
   <Enumeration key="EditDeviceProperties">
-    <Item />
-    <Item />
+    <Item value="&amp;Proprietà…" revision="0" />
+    <Item value="Visualizzare il dispositivo selezionato" revision="0" />
   </Enumeration>
   <Enumeration key="Descriptor Tool Windows">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descrittore del dispositivo" revision="0" />
+    <Item value="Descrittore di configurazione" revision="0" />
+    <Item value="Descrittore HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
     <Item />
@@ -60,84 +117,84 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbTransferType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Tipo di trasferimento: Controllo" revision="0" />
+    <Item value="Tipo di trasferimento: Isocrono" revision="0" />
+    <Item value="Tipo di trasferimento: Bulk" revision="0" />
+    <Item value="Tipo di trasferimento: Interruzione" revision="0" />
+    <Item value="Tipo di trasferimento: Sconosciuto" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEndpointType">
-    <Item />
-    <Item />
+    <Item value="Ingresso" revision="0" />
+    <Item value="Uscita" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestDirection">
-    <Item />
-    <Item />
+    <Item value="Host-&gt;Dispositivo" revision="0" />
+    <Item value="Dispositivo-&gt;Host" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Standard" revision="0" />
+    <Item value="Classe" revision="0" />
+    <Item value="Venditore" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositivo" revision="0" />
+    <Item value="Interfaccia" revision="0" />
+    <Item value="Altro" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriptorType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Dispositivo" revision="0" />
+    <Item value="Configurazione" revision="0" />
+    <Item value="Stringa" revision="0" />
+    <Item value="Descrittore HID" revision="0" />
+    <Item value="Descrittore del rapporto HID" revision="0" />
+    <Item value="Descrittore di potenza HID" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPacketViewColumns">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacchetto n." revision="0" />
+    <Item value="Tempo" revision="0" />
+    <Item value="Differenza di tempo" revision="0" />
+    <Item value="Direzione" revision="0" />
+    <Item value="Stato" revision="0" />
+    <Item value="Funzione" revision="0" />
+    <Item value="Dispositivo" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPipeRequestType">
     <Item />
     <Item />
   </Enumeration>
   <Enumeration key="UsbFeatureType">
-    <Item />
-    <Item />
+    <Item value="Impostare" revision="0" />
+    <Item value="Azzerare" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="[Risveglio remoto]" revision="0" />
+    <Item value="[Autoalimentato]" revision="0" />
+    <Item value="[alimentato da bus]" revision="0" />
   </Enumeration>
   <Enumeration key="PnpEventType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Evento PnP: Dispositivo collegato" revision="0" />
+    <Item value="Evento PnP: Dispositivo scollegato" revision="0" />
+    <Item value="Evento PnP: Rimozione a sorpresa" revision="0" />
+    <Item value="Evento PnP: Domanda ID" revision="0" />
+    <Item value="Evento PnP: Richiesta del testo del dispositivo" revision="0" />
+    <Item value="Evento PnP: Richiesta di interfaccia" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectionState">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Il dispositivo USB è stato appena collegato al sistema." revision="0" />
+    <Item value="Il dispositivo USB è stato appena rimosso dal sistema e tutti i driver sono stati scaricati." revision="0" />
+    <Item value="Il dispositivo USB è stato appena scollegato dal sistema." revision="0" />
   </Enumeration>
   <Enumeration key="DeviceQueryType">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interrogazione dell'ID del dispositivo (BusQueryDeviceID)." revision="0" />
+    <Item value="Interrogazione degli ID hardware (BusQueryHardwareIDs)." revision="0" />
+    <Item value="Interrogazione degli ID compatibili (BusQueryCompatibleIDs)." revision="0" />
+    <Item value="Interrogazione dell'ID dell'istanza (BusQueryInstanceID)." revision="0" />
+    <Item value="Interrogazione del numero di serie (BusQueryDeviceSerialNumber)" revision="0" />
   </Enumeration>
   <Enumeration key="UsbReportTypesList">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Sconosciuto" revision="0" />
+    <Item value="Rapporto" revision="0" />
+    <Item value="Fisico" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
     <Item />
@@ -240,9 +297,9 @@
     <Item />
   </Enumeration>
   <Enumeration key="GeneralCat">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizzare i pacchetti vuoti" revision="0" />
+    <Item value="Visualizzare i pacchetti letti" revision="0" />
+    <Item value="Visualizzare i pacchetti scritti" revision="0" />
   </Enumeration>
   <Enumeration key="RequestsCat">
     <Item />
@@ -291,14 +348,14 @@
     <Item />
   </Enumeration>
   <Enumeration key="UsbRawColors">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Dati binari" revision="0" />
+    <Item value="Leggi: Intestazione" revision="0" />
+    <Item value="Leggere: Testo" revision="0" />
+    <Item value="Lettura: dati binari" revision="0" />
+    <Item value="Scrivere: Intestazione" revision="0" />
+    <Item value="Scrivere: Testo" revision="0" />
+    <Item value="Scrivere: Dati binari" revision="0" />
   </Enumeration>
 </Language>
