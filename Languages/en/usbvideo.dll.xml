@@ -41,15 +41,15 @@
 		<Item text="Get Def"/>
 	</Enumeration>
 
-	<Enumeration optional="true" key="UsbVideoRequestSubtypes" description="USB Video Request Subtypes list">
-		<Item text="Unknown\n"/>
-		<Item text="Set Cur\n"/>
-		<Item text="Get Cur\n"/>
-		<Item text="Get Min\n"/>
-		<Item text="Get Max\n"/>
-		<Item text="Get Res\n"/>
-		<Item text="Get Len\n"/>
-		<Item text="Get Info\n"/>
+	<Enumeration optional="true" key="UsbVideoRequestSubtypes" description="USB Video Request Subtypes list" revision="1">
+		<Item text="Unknown"/>
+		<Item text="Set Cur"/>
+		<Item text="Get Cur"/>
+		<Item text="Get Min"/>
+		<Item text="Get Max"/>
+		<Item text="Get Res"/>
+		<Item text="Get Len"/>
+		<Item text="Get Info"/>
 	</Enumeration>
 
 	<Message optional="true" key="Request Error Code" description="Value: Request Error Code" value="Request Error Code"/>

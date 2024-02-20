@@ -313,7 +313,7 @@
 		<Param name="frames"/>
 	</Message>
 	<Message key="Isochronous Transfer" description="Header: Isochronous Transfer" value="Isochronous Transfer"/>
-	<Message key="IsochTransferFmt" description="Formatted value: Isoch Transfer" value="\nStart Frame: {frame}, Number of packets: {packets}, Error Count: {error}{asap}\n">
+	<Message key="IsochTransferFmt" description="Formatted value: Isoch Transfer" value="Start Frame: {frame}, Number of packets: {packets}, Error Count: {error}{asap}\n" revision="1">
 		<Param name="frame"/>
 		<Param name="packets"/>
 		<Param name="error"/>

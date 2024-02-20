@@ -59,7 +59,11 @@
     <Item text="Registered"/>
   </Enumeration>
 
-  <!--<Message key="Expired" description="Expired license"/>-->
+	<Message key="Standard Edition" description="Standard Edition"/>
+	<Message key="Professional Edition" description="Professional Edition"/>
+	<Message key="Ultimate Edition" description="Ultimate Edition"/>
+
+	<!--<Message key="Expired" description="Expired license"/>-->
   <!--<Message key="Free" description="Free license"/>-->
   <Message key="Never" description="License expiration: never"/>
 

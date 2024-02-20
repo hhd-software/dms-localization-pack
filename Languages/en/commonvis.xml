@@ -962,4 +962,6 @@
 	<Message key="SchemeBasic" description="Scheme name: Basic" value="Basic"/>
 	<Message key="SchemeComplete" description="Scheme name: Complete" value="Complete"/>
 
+	<Message optional="true" key="No Elements" description="Value: No Elements"/>
+
 </Definition>

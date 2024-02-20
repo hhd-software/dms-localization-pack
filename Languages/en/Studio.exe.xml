@@ -990,6 +990,7 @@
 
 	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
 
-	
+
+	<Message key="NonComMessage" description="Non-commercial license warning message" value="At least one of registered components is for [[[bhome]]] or [[[beducational]]] use.\nSee [[[hUsage Policy]]] for more information.\n\nFor commercial, government or military use [[[hupgrade]]] is required."/>
 
 </Definition>
