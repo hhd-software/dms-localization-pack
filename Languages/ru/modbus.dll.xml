@@ -141,7 +141,7 @@
   <Message key="Result" value="Результат" revision="0" />
   <Message key="Result Length:" value="Длина результата:" revision="0" />
   <Enumeration key="MODBUSConverter">
-    <Item value="Вид MODBUS (устаревший)" revision="0" />
+    <Item value="Вид MODBUS (Legacy)" revision="0" />
     <Item value="Визуализатор &quot;Вид MODBUS&quot; декодирует пакеты, отформатированные в соответствии со спецификацией протокола MODBUS." revision="0" />
   </Enumeration>
   <Enumeration key="tcp-creation-error">
