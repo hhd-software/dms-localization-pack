@@ -86,7 +86,7 @@
   <Message key="HIDReportDescriptorWarning" value="HID Report Deskriptor (bitte HID-Visualizer verwenden) " revision="0" />
   <Message key="HidDescriptorFmt" value="Länge: {length}\nbcdHID: {hid}\nLand: {country}\nTotal Deskriptoren: {count}\n" revision="0" />
   <Message key="HidDescriptorReportFmt" value="Deskriptor Typ:{type} ({name})\nDeskriptor Länge:{length}\n" revision="0" />
-  <Message key="DescriptorFmt" value="Deskriptor  {id}:\n" revision="0" />
+  <Message key="DescriptorFmt" value="Deskriptor {id}:\n" revision="0" />
   <Message key="HID Descriptor" value="HID Deskriptor\n" revision="0" />
   <Message key="HIDPhysicalDescriptorWarning" value="HID Physikalischer Deskriptor (bitte HID-Visualizer verwenden) " revision="0" />
   <Message key="Reserved Item" value="Reservierter Posten" revision="0" />

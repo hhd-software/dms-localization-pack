@@ -50,12 +50,19 @@
   <Message key="UsbHeader" value="{ordinal}: {header} ({dir}), {time}. ({source}. Appareil : {name}) Statut: {status}\n" revision="0" />
   <Message key="UsbHeaderNoStat" value="{ordinal}: {header} ({dir}), {time}. ({source}. Appareil : {name})\n" revision="0" />
   <Message key="Device Descriptor" value="Descripteur d'appareil\n" revision="0" />
+  <Message key="DisplayDescriptorFmt" value="Longueur : {length} octets, Spécification USB : {spec}\nClasse : {class}, Sous-classe : {subclass}, Protocole :      \nTaille maximale des paquets : {size} octets\nID du vendeur : {vendor_id} ({vendor_name}), ID du produit : {prod_id}, Version de l'appareil : {version}\nFabricant : {manufacturer}, Produit : {product}, Numéro de série : {serial}\nNombre de configurations : {num_configs}" revision="0" />
   <Message key="Configuration Descriptor" value="Descripteur de configuration\n" revision="0" />
+  <Message key="UsbConfigurationDescriptorFmt" value="Longueur : {length} octets, Longueur totale : {total_len} octets\nNombre d'interfaces : {num_interfaces}, Configuration desc. : {config}\n      Attributs : {attribs}: {attr1} {attr2} {attr3}\nPuissance maximale : {max_power}" revision="0" />
   <Message key="Interface Descriptor" value="Descripteur d'interface\n" revision="0" />
+  <Message key="InterfaceDescriptorFmt" value="Longueur : {length}\nNuméro d'interface : {number}, Configuration alternative : {alt_set}\n     Nombre de points terminaux : {endpoints}\nClasse : {class}, Sous-classe : {subclass}, Protocole : {protocol}\nDescription de l'interface : {interface}" revision="0" />
   <Message key="Endpoint Descriptor" value="Descripteur de point de terminaison\n" revision="0" />
+  <Message key="EndpointDescriptorFmt" value="Longueur : {length}\nAdresse du point de terminaison :{addr} ({name})\n     Attributs : {attribs} (attr_names)\nTaille maximale des paquets : {size} octets\n" revision="0" />
   <Message key="Interval" value="Intervalle : {frames} trames" revision="0" />
   <Message key="Isochronous Transfer" value="Transfert isochrone" revision="0" />
   <Message key="IsochTransferFmt" value="Trame de début : {frame}, Nombre de paquets :  {packets}, Nombre d'erreurs : {error}{asap}\n" revision="1" />
+  <Message key="UsbIsochronousTransferFmt" value="Offset : {offset}, Longueur : {length}, Statut {status}\n" revision="0" />
+  <Message key="UsbTransferPacketFmt" value="Paquet {number}: " revision="0" />
+  <Message key="QueryInterfaceFmt" value="Interface GUID : {guid}\nTaille de l'interface : {size} octets\nVersion de l'interface : {version}\nStatut : {status}\nInformation : {info}" revision="0" />
   <Message key="pcktssec" value="paquets/sec" revision="0" />
   <Message key="bytessec" value="octets/sec" revision="0" />
   <Message key="CounterBytesRead" value="Octets lus/sec" revision="0" />
@@ -73,8 +80,15 @@
   <Message key="Select Interface" value="Sélectionner l'interface" revision="0" />
   <Message key="EndpointAddressFmt" value="{handle} (Adresse du point de terminaison: {address})\n" revision="0" />
   <Message key="UsbConfigurationFmt" value="Poignée de configuration : {handle}, Numéro d'interface : {interface}, Configuration alternative : {alt_set}\n" revision="0" />
+  <Message key="PipeInformationFmt2" value="Taille maximale du paquet : {size}\nAdresse du point de terminaison : {address}\nIntervalle :{interval}\n{transfer_type}\nTaille maximale du transfert : {max_size}\n" revision="0" />
+  <Message key="PipeInformationFmt" value="Informations sur le pipe (Poignée {handle}, Adresse du point de terminaison {address})\n" revision="0" />
   <Message key="InvalidDescriptorStructure" value="Structure du descripteur non valide !\n" revision="0" />
   <Message key="HIDReportDescriptorWarning" value="Descripteur de rapport HID (veuillez utiliser la vue HID)" revision="0" />
+  <Message key="HidDescriptorFmt" value="Longueur : {length}\nbcdHID: {hid}\nPays : {country}\nTotal des descripteurs : {count}\n" revision="0" />
+  <Message key="HidDescriptorReportFmt" value="Type de descripteur :{type} ({name})\nLongueur du descripteur :{length}\n" revision="0" />
+  <Message key="DescriptorFmt" value="Descripteur {id}:\n" revision="0" />
+  <Message key="HID Descriptor" value="Descripteur HID\n" revision="0" />
+  <Message key="HIDPhysicalDescriptorWarning" value="Descripteur physique HID (veuillez utiliser la vue HID)" revision="0" />
   <Message key="Reserved Item" value="Objet réservé" revision="0" />
   <Message key="PipeHandleFmt" value="Point de terminaison : {addr}, {type}, {dir}" revision="0" />
   <Message key="STRINGCONTROL" value="Contrôle" revision="0" />
