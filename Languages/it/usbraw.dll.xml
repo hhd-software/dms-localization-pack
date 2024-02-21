@@ -55,6 +55,7 @@
   <Message key="Endpoint Descriptor" value="Descrittore del punto finale\n" revision="0" />
   <Message key="Interval" value="Intervalle: {frames} frame" revision="0" />
   <Message key="Isochronous Transfer" value="Trasferimento isocrono" revision="0" />
+  <Message key="IsochTransferFmt" value="Frame di inizio: {frame}, Numero di pacchetti: {packets}, Conteggio errori: {error}{asap}\n" revision="1" />
   <Message key="pcktssec" value="pacchetti/sec" revision="0" />
   <Message key="bytessec" value="byte/sec" revision="0" />
   <Message key="CounterBytesRead" value="Byte letti/sec" revision="0" />
@@ -102,8 +103,8 @@
     <Item value="Descrittore HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item />
-    <Item />
+    <Item value="Vista URB" revision="0" />
+    <Item value="La vista URB decodifica i pacchetti grezzi e le richieste di controllo inviate e ricevute dal dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item />

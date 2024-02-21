@@ -6,6 +6,9 @@
   <Message key="EditionName" value="Редакция {edition}" revision="0" />
   <Message key="SelectComponentEdition" value="Выберите редакцию компонента…" revision="0" />
   <Message key="UpgradeToEdition" value="Апгрейд до редакции {edition}" revision="0" />
+  <Message key="Standard Edition" value="Стандартная редакция" revision="0" />
+  <Message key="Professional Edition" value="Профессиональная редакция" revision="0" />
+  <Message key="Ultimate Edition" value="Конечная редакция" revision="0" />
   <Message key="Never" value="Никогда" revision="0" />
   <Message key="LicenseSuccess" value="Файл лицензии успешно установлен и приложение активировано. Большое спасибо за выбор Device Monitoring Studio!" revision="0" />
   <Message key="LicenseFailure" value="Ошибка при установке файла лицензии. Это может быть связано со следующими причинами:\n\n  · Поврежденный файл.\n  · Просроченный файл лицензии.\n  ·  Файл лицензии другого продукта.\n\nЗайдите в раздел Мой аккаунт на нашем сайте и бесплатно скачайте новый файл лицензии." revision="0" />

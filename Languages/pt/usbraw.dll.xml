@@ -59,7 +59,7 @@
   <Message key="EndpointDescriptorFmt" value="Comprimento: {length}\nEndereço do ponto final: {addr} ({name})\n     Atributos: {attribs} (attr_names)\nTamanho máx. do pacote: {size} bytes\n" revision="0" />
   <Message key="Interval" value="Intervalo: {frames} frames" revision="0" />
   <Message key="Isochronous Transfer" value="Transferência isócrona" revision="0" />
-  <Message key="IsochTransferFmt" value="\nQuadro inicial: {frame}, Número de pacotes: {packets}, Contagem de erros: {error}{asap}\n" revision="0" />
+  <Message key="IsochTransferFmt" value="Quadro inicial: {frame}, Número de pacotes: {packets}, Contagem de erros: {error}{asap}\n" revision="1" />
   <Message key="UsbIsochronousTransferFmt" value="Offset: {offset}, Comprimento: {length}, Estado: {status}\n" revision="0" />
   <Message key="UsbTransferPacketFmt" value="Pacote {number}: " revision="0" />
   <Message key="QueryInterfaceFmt" value="Interface GUID: {guid}\nTamanho da interface: {size} bytes\nVersión de interfaz: {version}\nEstado: {status}\nInformações: {info}" revision="0" />
@@ -118,7 +118,7 @@
   </Enumeration>
   <Enumeration key="URBConverter">
     <Item value="Vista URB" revision="0" />
-    <Item value="O visualizador de dados URB View descodifica os pacotes brutos e os pedidos de controlo enviados e recebidos do dispositivo USB." revision="0" />
+    <Item value="A vista URB descodifica os pacotes brutos e os pedidos de controlo enviados e recebidos do dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Pontos finais" revision="0" />

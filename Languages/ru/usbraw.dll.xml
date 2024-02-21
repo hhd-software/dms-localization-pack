@@ -59,7 +59,7 @@
   <Message key="EndpointDescriptorFmt" value="Длина: {length}\nАдрес энд поинта: {addr} ({name})\n     Атрибуты: {attribs} (attr_names)\nМакс. размер пакета: {size} байт\n" revision="0" />
   <Message key="Interval" value="Интервал: {frames} кадров" revision="0" />
   <Message key="Isochronous Transfer" value="Изохронная передача" revision="0" />
-  <Message key="IsochTransferFmt" value="\nНачальный кадр: {frame}, Число пакетов: {packets}, Счетчик ошибок: {error}{asap}\n" revision="0" />
+  <Message key="IsochTransferFmt" value="Начальный кадр: {frame}, Число пакетов: {packets}, Счетчик ошибок: {error}{asap}\n" revision="1" />
   <Message key="UsbIsochronousTransferFmt" value="Смещение: {offset}, Длина: {length}, Состояние: {status}\n" revision="0" />
   <Message key="UsbTransferPacketFmt" value="Пакет {number}: " revision="0" />
   <Message key="QueryInterfaceFmt" value="GUID интерфейса: {guid}\nРазмер интерфейса: {size} bytes\nВерсия интерфейса: {version}\nСостояние: {status}\nИнформация: {info}" revision="0" />
@@ -118,7 +118,7 @@
   </Enumeration>
   <Enumeration key="URBConverter">
     <Item value="Вид URB" revision="0" />
-    <Item value="Визуализатор данных Вид URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="0" />
+    <Item value="Визуализатор данных URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Энд поинты" revision="0" />

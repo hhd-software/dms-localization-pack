@@ -375,6 +375,7 @@
   <Message key="Do not display this warning anymore" value="Больше не выводить это сообщение" revision="1" />
   <Message key="Find Operation" value="Поиск текста" revision="0" />
   <Message key="NextPage" value="Продолжить…" revision="0" />
+  <Message key="NonComMessage" value="По крайней мере, один из зарегистрированных компонентов предназначен для [[[bдомашнего]]] или [[[bобразовательного]]] использования..\nПодробную информацию см. в [[[hПолитика использования]]].\n\nДля коммерческого, правительственного или военного использования требуется [[[hапгрейд]]]." revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />
     <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />

@@ -59,7 +59,7 @@
   <Message key="EndpointDescriptorFmt" value="Länge: {length}\nEndpunkt Adresse: {addr} ({name})\n     Attribute: {attribs} (attr_names)\nMaximale Paketgröße: {size} bytes\n" revision="0" />
   <Message key="Interval" value="Intervall: {frames} rahmens" revision="0" />
   <Message key="Isochronous Transfer" value="Isochrone Übertragung" revision="0" />
-  <Message key="IsochTransferFmt" value="\nStartrahmen: {frame}, Anzahl der Pakete: {packets}, Fehlerzahl: {error}{asap}\n" revision="0" />
+  <Message key="IsochTransferFmt" value="Startrahmen: {frame}, Anzahl der Pakete: {packets}, Fehlerzahl: {error}{asap}\n" revision="1" />
   <Message key="UsbIsochronousTransferFmt" value="Versetzt: {offset}, Länge: {length}, Status: {status}\n" revision="0" />
   <Message key="UsbTransferPacketFmt" value="Transferpaket {number}: " revision="0" />
   <Message key="QueryInterfaceFmt" value="Interface GUID: {guid}\nInterface Größe: {size} bytes\nInterface Version: {version}\nStatus: {status}\nInformationen: {info}" revision="0" />

@@ -375,6 +375,7 @@
   <Message key="Do not display this warning anymore" value="Non visualizzare più questo messaggio" revision="1" />
   <Message key="Find Operation" value="Ricerca del testo" revision="0" />
   <Message key="NextPage" value="Continua…" revision="0" />
+  <Message key="NonComMessage" value="Almeno uno dei componenti registrati è per uso [[[bdomestico]]] o [[[bdidattico]]]..\nPer ulteriori informazioni, consultare la sezione [[[hPolitica di utilizzo]]].\n\nPer uso commerciale, governativo o militare è necessario un [[[haggiornamento]]]." revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Verifica aggiornamenti" revision="0" />
     <Item value="Verificare la presenza di una versione aggiornata on-line." revision="0" />

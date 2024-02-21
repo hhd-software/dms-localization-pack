@@ -6,6 +6,9 @@
   <Message key="EditionName" value="{edition} Edición" revision="0" />
   <Message key="SelectComponentEdition" value="Seleccionar edición de componentes…" revision="0" />
   <Message key="UpgradeToEdition" value="Actualizar a la edición {edition}" revision="0" />
+  <Message key="Standard Edition" value="Edición estándar" revision="0" />
+  <Message key="Professional Edition" value="Edición profesional" revision="0" />
+  <Message key="Ultimate Edition" value="Edición Última" revision="0" />
   <Message key="Never" value="Nunca" revision="0" />
   <Message key="LicenseSuccess" value="El archivo de licencia se ha instalado correctamente y la aplicación se ha activado. Muchas gracias por elegir Device Monitoring Studio." revision="0" />
   <Message key="LicenseFailure" value="Se ha producido un error al instalar el archivo de licencia seleccionado. Esto puede deberse a lo siguiente:\n\n  · Archivo de licencia corrupto.\n  · Archivo de licencia caducado.\n  · Archivo de licencia para otro producto.\n\nAcceda a la sección Mi cuenta de nuestro sitio web y descargue gratuitamente un nuevo archivo de licencia." revision="0" />
