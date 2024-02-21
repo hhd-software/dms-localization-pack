@@ -107,15 +107,15 @@
     <Item value="La vista URB decodifica i pacchetti grezzi e le richieste di controllo inviate e ricevute dal dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
-    <Item />
-    <Item />
+    <Item value="Punti finali" revision="0" />
+    <Item value="Punti finali USB" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descrittore del dispositivo" revision="0" />
+    <Item value="Descrittore di configurazione" revision="0" />
+    <Item value="Descrittore di stringa" revision="0" />
+    <Item value="Descrittore di interfaccia" revision="0" />
+    <Item value="Descrittore del punto finale" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferType">
     <Item value="Tipo di trasferimento: Controllo" revision="0" />
@@ -198,104 +198,104 @@
     <Item value="Fisico" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP: dispositivo collegato" revision="0" />
+    <Item value="PnP: dispositivo scollegato" revision="0" />
+    <Item value="PnP: rimozione a sorpresa del dispositivo" revision="0" />
+    <Item value="PnP: Domanda ID" revision="0" />
+    <Item value="PnP: Domanda di testo" revision="0" />
+    <Item value="Interno: Trasferimento di informazioni sul pipe" revision="0" />
+    <Item value="PnP: Interrogare l'interfaccia" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Desktop generico" revision="0" />
+    <Item value="Controlli di simulazione" revision="0" />
+    <Item value="Controlli VR" revision="0" />
+    <Item value="Controlli sportivi" revision="0" />
+    <Item value="Controlli di gioco" revision="0" />
+    <Item value="Dispositivo generico" revision="0" />
+    <Item value="LED" revision="0" />
+    <Item value="Telefonia" revision="0" />
+    <Item value="Tastiera" revision="0" />
+    <Item value="Bottoni" revision="0" />
+    <Item value="Ordinals" revision="0" />
+    <Item value="Pagina del consumatore" revision="0" />
+    <Item value="Digitalizadores" revision="0" />
+    <Item value="Unicode" revision="0" />
+    <Item value="Pagina del display alfanumerico" revision="0" />
+    <Item value="Strumenti medici" revision="0" />
+    <Item value="Dispositivi fisici" revision="0" />
+    <Item value="Dispositivi di alimentazione" revision="0" />
+    <Item value="Batteria" revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controllo: Byte totali/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Controllo: Byte Total/Sec è la velocità con cui i byte vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura tramite control pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controllo: Byte letti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Controllo: Byte letti/sec è la velocità con cui i byte vengono trasferiti dal dispositivo durante le operazioni di lettura tramite la control pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Controllo: Byte scritti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Controllo: Byte scritti/sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura tramite control pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacchetti scritti/sec" revision="0" />
+    <Item value="pacchetti/sec" revision="0" />
+    <Item value="Pacchetti scritti/sec è la velocità con cui i pacchetti vengono trasferiti al dispositivo durante le operazioni di scrittura." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Pacchetti letti/sec" revision="0" />
+    <Item value="pacchetti/sec" revision="0" />
+    <Item value="Pacchetti letti/sec è la velocità di trasferimento dei pacchetti dal dispositivo durante le operazioni di lettura." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Byte totali/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Bulk: Byte Total/Sec è la velocità con cui i byte vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura tramite le pipe bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Byte scritti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Bulk: Byte scritti/Sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura tramite pipe bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Byte letti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Bulk: Byte letti/Sec è la velocità con cui i byte vengono trasferiti dal dispositivo durante le operazioni di lettura tramite pipe bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruzione: Byte totali/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Interruzione: Byte Total/Sec è la velocità con cui i byte vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura tramite interrupt pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruzione: Byte scritti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Interruzione: Byte scritti/sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura tramite interrupt pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruzione: Byte letti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Interruzione: Byte letti/sec è la velocità con cui i byte vengono trasferiti dal dispositivo durante le operazioni di lettura tramite interrupt pipe." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isocrono: Byte totali/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Isochronous: Bytes Total/Sec è la velocità con cui i byte vengono trasferiti al o dal dispositivo durante le operazioni di scrittura o lettura tramite pipe isocrone." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isocrono: Byte scritti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Isochronous: Byte scritti/sec è la velocità con cui i byte vengono trasferiti al dispositivo durante le operazioni di scrittura tramite pipe isocrone." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isocrono: Byte letti/sec" revision="0" />
+    <Item value="byte/sec" revision="0" />
+    <Item value="Isochronous: Byte letti/sec è la velocità con cui i byte vengono trasferiti dal dispositivo durante le operazioni di lettura tramite pipe isocrone." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Visualizzare i pacchetti vuoti" revision="0" />

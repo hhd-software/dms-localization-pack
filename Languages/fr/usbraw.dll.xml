@@ -107,15 +107,15 @@
     <Item value="La vue URB décode les paquets bruts et les demandes de contrôle envoyés et reçus par le périphérique USB." revision="0" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
-    <Item />
-    <Item />
+    <Item value="Points de terminaison" revision="0" />
+    <Item value="Points d'extrémité USB" revision="0" />
   </Enumeration>
   <Enumeration key="UsbDescriporsList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Descripteur d'appareil" revision="0" />
+    <Item value="Descripteur de configuration" revision="0" />
+    <Item value="Descripteur de chaîne de caractères" revision="0" />
+    <Item value="Descripteur d'interface" revision="0" />
+    <Item value="Descripteur de point de terminaison" revision="0" />
   </Enumeration>
   <Enumeration key="UsbTransferType">
     <Item value="Type de transfert : Contrôle" revision="0" />
@@ -198,104 +198,104 @@
     <Item value="Physique" revision="0" />
   </Enumeration>
   <Enumeration key="UsbEventTypesList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="PnP : appareil connecté" revision="0" />
+    <Item value="PnP : dispositif déconnecté" revision="0" />
+    <Item value="PnP : Suppression du dispositif de surprise" revision="0" />
+    <Item value="PnP : Demande d'ID" revision="0" />
+    <Item value="PnP : Demande de texte" revision="0" />
+    <Item value="Interne : Transfert d'informations sur les pipes" revision="0" />
+    <Item value="PnP : Requête de l'interface" revision="0" />
   </Enumeration>
   <Enumeration key="UsbPageList">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Desktop générique" revision="0" />
+    <Item value="Contrôles de simulation" revision="0" />
+    <Item value="Contrôles de la RV" revision="0" />
+    <Item value="Contrôles sportifs" revision="0" />
+    <Item value="Commandes du jeu" revision="0" />
+    <Item value="Appareil générique" revision="0" />
+    <Item value="LED" revision="0" />
+    <Item value="Téléphonie" revision="0" />
+    <Item value="Clavier" revision="0" />
+    <Item value="Boutons" revision="0" />
+    <Item value="Ordinals" revision="0" />
+    <Item value="Page des consommateurs" revision="0" />
+    <Item value="Numériseurs" revision="0" />
+    <Item value="Unicode" revision="0" />
+    <Item value="Page d'affichage alphanumérique" revision="0" />
+    <Item value="Instruments médicaux" revision="0" />
+    <Item value="Appareils physiques" revision="0" />
+    <Item value="Appareils de puissance" revision="0" />
+    <Item value="Batterie" revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Contrôle : Octets Total/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Contrôle : Octets Total/Sec est le taux de transfert d'octets vers ou depuis l'appareil pendant les opérations d'écriture ou de lecture via le tuyau de contrôle." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Contrôle : Octets lus/sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Contrôle : Octets lus/sec est la vitesse à laquelle les octets sont transférés à partir de l'appareil pendant les opérations de lecture via le tuyau de contrôle." revision="0" />
   </Enumeration>
   <Enumeration key="CounterControlWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Contrôle : Octets écrits/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Contrôle : Octets écrits/Sec est le taux auquel les octets sont transférés à l'appareil pendant les opérations d'écriture via le tuyau de contrôle." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paquets écrits/Sec" revision="0" />
+    <Item value="pqts/sec" revision="0" />
+    <Item value="Paquets écrits/Sec est le taux auquel les paquets sont transférés à l'appareil pendant les opérations d'écriture." revision="0" />
   </Enumeration>
   <Enumeration key="CounterPacketsRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Paquets lus/sec" revision="0" />
+    <Item value="pqts/sec" revision="0" />
+    <Item value="Paquets lus/sec. est le taux auquel les paquets sont transférés depuis l'appareil pendant les opérations de lecture." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Octets Total/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Bulk : Octets Total/Sec est le taux de transfert d'octets vers ou depuis l'appareil lors d'opérations d'écriture ou de lecture via des pipes bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk : Octets écrits/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Bulk : Octets écrits/Sec est le taux auquel les octets sont transférés à l'appareil pendant les opérations d'écriture via les pipes bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterBulkRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Bulk: Octets lus/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Bulk : Octets lus/sec est le taux auquel les octets sont transférés à partir de l'appareil pendant les opérations de lecture via les pipes bulk." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruption : Octets Total/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Interruption : Octets Total/Sec est le taux de transfert d'octets vers ou depuis l'appareil pendant les opérations d'écriture ou de lecture via les pipes d'interruption." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruption : Octets écrits/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Interruption : Octets écrits/sec est le taux auquel les octets sont transférés à l'appareil pendant les opérations d'écriture via les pipes d'interruption." revision="0" />
   </Enumeration>
   <Enumeration key="CounterInterruptRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Interruption : Octets lus/sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Interruption : Octets lus/sec est le taux auquel les octets sont transférés à partir de l'appareil pendant les opérations de lecture via les pipes d'interruption." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousTotal">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isochrone : Octets Total/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Isochrone : Bytes Total/Sec est le taux de transfert d'octets vers ou depuis l'appareil pendant les opérations d'écriture ou de lecture via des pipes isochrones." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousWritten">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isochrone : Octets écrits/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Isochrone : Octets écrits/sec est le taux auquel les octets sont transférés à l'appareil pendant les opérations d'écriture via des pipes isochrones." revision="0" />
   </Enumeration>
   <Enumeration key="CounterIsochronousRead">
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Isochrone : Octets lus/Sec" revision="0" />
+    <Item value="octets/sec" revision="0" />
+    <Item value="Isochrone : Octets lus/sec est le taux auquel les octets sont transférés à partir de l'appareil pendant les opérations de lecture via des tuyaux isochrones." revision="0" />
   </Enumeration>
   <Enumeration key="GeneralCat">
     <Item value="Afficher les paquets vides" revision="0" />
