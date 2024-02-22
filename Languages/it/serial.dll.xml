@@ -128,7 +128,7 @@
     <Item value="Spazio" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item value="Monitoraggio seriale" revision="0" />
+    <Item value="Monitor di seriale" revision="0" />
     <Item value="L'origine dati seriale consente di monitorare i dati scambiati tra i dispositivi seriali e le applicazioni che li utilizzano." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">

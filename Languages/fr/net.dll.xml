@@ -8,7 +8,7 @@
   <Message key="Expired" value="Ce composant a expiré. Vous devez passer à l'édition % pour pouvoir l'utiliser. Voulez-vous passer à la gestion des licences maintenant ?" revision="0" />
   <Message key="Network" value="Réseau" revision="0" />
   <Enumeration key="NetworkSource">
-    <Item value="Moniteur de réseau" revision="0" />
+    <Item value="Moniteur réseau" revision="0" />
     <Item value="La source de données réseau surveille la connexion réseau et capture chaque paquet en provenance ou à destination de l'interface réseau." revision="0" />
   </Enumeration>
 </Language>

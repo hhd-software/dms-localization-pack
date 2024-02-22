@@ -128,7 +128,7 @@
     <Item value="Espacio" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item value="Monitor serie" revision="0" />
+    <Item value="Monitor de serial" revision="0" />
     <Item value="La fuente de datos serie permite supervisar los datos intercambiados entre los dispositivos serie y las aplicaciones que los utilizan." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">

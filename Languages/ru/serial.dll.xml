@@ -128,7 +128,7 @@
     <Item value="Пробел" revision="0" />
   </Enumeration>
   <Enumeration key="SerialSource">
-    <Item value="Последовательный монитор" revision="0" />
+    <Item value="Serial монитор" revision="0" />
     <Item value="Источник данных последовательного интерфейса позволяет отслеживать данные, которыми обмениваются последовательные устройства и использующие их приложения." revision="0" />
   </Enumeration>
   <Enumeration key="Communication modes">

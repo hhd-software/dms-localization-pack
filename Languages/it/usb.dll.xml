@@ -118,7 +118,7 @@
   <Message key="Reserved for future use" value="Riservato per uso futuro" revision="0" />
   <Message key="Controls Size:" value="Dimensioni dei controlli:" revision="0" />
   <Enumeration key="UsbSource">
-    <Item value="Monitor USB" revision="0" />
+    <Item value="Monitor di USB" revision="0" />
     <Item value="Il modulo sorgente dati USB consente di monitorare i dati trasferiti tra qualsiasi dispositivo USB e l'applicazione che lo utilizza." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">

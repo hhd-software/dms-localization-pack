@@ -189,7 +189,7 @@
   <Message key="Frame Index:" value="Índice do quadro:" revision="0" />
   <Message key="Controls Size:" value="Tamanho dos controlos:" revision="0" />
   <Enumeration key="UsbSource">
-    <Item value="USB Monitor" revision="0" />
+    <Item value="Monitor de USB" revision="0" />
     <Item value="O módulo de fonte de dados USB permite-lhe monitorizar os dados transferidos entre qualquer dispositivo USB e a aplicação que o utiliza." revision="0" />
   </Enumeration>
   <Enumeration key="SpeedTable">
