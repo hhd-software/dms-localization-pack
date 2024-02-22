@@ -108,14 +108,75 @@
   <Message key="FrameIntervalFmt" value="Intervallo frame{number}:" revision="0" />
   <Message key="Data Offset:" value="Offset dei dati:" revision="0" />
   <Message key="Length of TSP Packet:" value="Lunghezza del pacchetto TSP:" revision="0" />
+  <Message key="Length of Transport Stride:" value="Lunghezza di Transport Stride:" revision="0" />
+  <Message key="Format of Stride Data:" value="Formato di Stride Data:" revision="0" />
+  <Message key="Variable Size:" value="Dimensione della variabile:" revision="0" />
+  <Message key="Bytes Per Line:" value="Byte per linea:" revision="0" />
+  <Message key="Packet Length:" value="Lunghezza del pacchetto:" revision="0" />
+  <Message key="Number of Channels:" value="Numero di canali:" revision="0" />
+  <Message key="Format Type:" value="Tipo di formato:" revision="0" />
+  <Message key="Subframe Size:" value="Dimensioni del sottotelaio:" revision="0" />
+  <Message key="Bit Resolution:" value="Risoluzione in bit:" revision="0" />
+  <Message key="Sampling Frequency Lower Bound:" value="Frequenza di campionamento Limite inferiore:" revision="0" />
+  <Message key="Sampling Frequency Upper Bound:" value="Frequenza di campionamento Limite superiore:" revision="0" />
+  <Message key="SamplingFrequencyFmt" value="Frequenza di campionamento{number}:" revision="0" />
+  <Message key="Max Bitrate:" value="Bitrate massimo:" revision="0" />
+  <Message key="Samples Per Frame:" value="Campioni per frame:" revision="0" />
+  <Message key="Payload Type:" value="Tipo di carico utile:" revision="0" />
+  <Message key="MPEG Capabilities:" value="Capacità MPEG:" revision="0" />
+  <Message key="MPEG Features:" value="MPEG Caratteristiche:" revision="0" />
+  <Message key="AC3 Features:" value="AC3 Caratteristiche:" revision="0" />
+  <Message key="MS_CS_ENDPOINT_2" value="Jack({number}) ID: [[[b{value}]]]\n" revision="0" />
+  <Message key="Max Transfer Size:" value="Dimensione massima di trasferimento:" revision="0" />
+  <Message key="Data Interface:" value="Interfaccia di dati:" revision="0" />
+  <Message key="Ringer Volume Steps:" value="Volume passi di suoneria:" revision="0" />
+  <Message key="Simple Mode" value="Modalità semplice" revision="0" />
+  <Message key="Standalone Mode" value="Modalità Standalone" revision="0" />
+  <Message key="Computer Centric Mode " value="Modalità computer-centrica " revision="0" />
+  <Message key="Dialtone" value="Tono di chiamata" revision="0" />
+  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Segnala il tono di chiamata interrotto oltre al tono di chiamata normale." revision="0" />
+  <Message key="Reports only dialtone" value="Segnala solo il tono di chiamata" revision="0" />
+  <Message key="Dialing State" value="Stato di composizione" revision="0" />
+  <Message key="Reports ringback, busy, fast busy states" value="Segnala gli stati di ringback, occupato e occupato veloce" revision="0" />
+  <Message key="Reports only dialing state" value="Riporta solo lo stato di composizione" revision="0" />
+  <Message key="Caller ID" value="ID del chiamante" revision="0" />
+  <Message key="Reports caller ID information" value="Riporta le informazioni sull'ID del chiamante" revision="0" />
+  <Message key="Does not report caller ID" value="Non riporta l'ID del chiamante" revision="0" />
+  <Message key="Ringing" value="Suoneria" revision="0" />
+  <Message key="Reports incoming distinctive ringing patterns" value="Segnala i modelli di suoneria distintivi in entrata" revision="0" />
+  <Message key="Reports only incoming ringing" value="Segnala solo gli squilli in entrata" revision="0" />
+  <Message key="DTMF digits" value="Cifre DTMF" revision="0" />
+  <Message key="Can report DTMF digits input remotely over the telephone line" value="Può segnalare le cifre DTMF immesse a distanza attraverso la linea telefonica" revision="0" />
+  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Non è in grado di segnalare le cifre DTMF immesse a distanza attraverso la linea telefonica." revision="0" />
   <Message key="Does support" value="Supporta" revision="0" />
   <Message key="Does not support" value="Non supporta" revision="0" />
+  <Message key="SlaveInterfacelFmt" value="Interfaccia esclavo{number}:" revision="0" />
+  <Message key="Master Interface" value="Maestro di Interfaz" revision="0" />
+  <Message key="Country Code Release Date:" value="Country Code Data di uscita:" revision="0" />
+  <Message key="CountryCodeFmt" value="Codice Paese{number}:" revision="0" />
+  <Message key="Entity ID:" value="ID dell'entità:" revision="0" />
+  <Message key="In Interface Number:" value="Numero di interfaccia In:" revision="0" />
+  <Message key="Out Interface Number:" value="Numero di interfaccia Uscita:" revision="0" />
+  <Message key="Options:" value="Opzioni:" revision="0" />
+  <Message key="ChildIDFmt" value="ChildID{number}:" revision="0" />
+  <Message key="Name (index):" value="Nome (indice):" revision="0" />
+  <Message key="Channel Index:" value="Indice del canale:" revision="0" />
+  <Message key="Physical Interface:" value="Interfaccia fisica:" revision="0" />
+  <Message key="Protocol Code:" value="Codice di protocollo:" revision="0" />
+  <Message key="Extension Code:" value="Codice di estensione:" revision="0" />
   <Message key="Mac Address (string descriptor index):" value="Indirizzo Mac (indice del descrittore di stringa):" revision="0" />
   <Message key="Ethernet Statistics:" value="Statistiche Ethernet::" revision="0" />
   <Message key="Number Of Configurable Multicast Filters:" value="Numero di filtri multicast configurabili:" revision="0" />
   <Message key="Number Of Pattern Filters:" value="Numero di filtri di modello:" revision="0" />
   <Message key="Max Segment Size:" value="Dimensione massima del segmento:" revision="0" />
+  <Message key="Capabilities:" value="Capacità:" revision="0" />
+  <Message key="Maximum Number Of Simultaneous Virtual Circuits:" value="Numero massimo di circuiti virtuali simultanei:" revision="0" />
+  <Message key="Release Number In Binary-Coded Decimal" value="Numero di rilascio in codice binario decimale" revision="0" />
   <Message key="Reserved for future use" value="Riservato per uso futuro" revision="0" />
+  <Message key="MS_MIDI_IN_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\n" revision="0" />
+  <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nPin di ingresso: [[[b{pins}]]]\n" revision="0" />
+  <Message key="UsbMsPins" value="Pin [[[b{number}]]]: ID della fonte: [[[b {source}]]], Pin: [[[b{pin}]]]\n" revision="0" />
+  <Message key="Frame Index:" value="Indice del frame:" revision="0" />
   <Message key="Controls Size:" value="Dimensioni dei controlli:" revision="0" />
   <Enumeration key="UsbSource">
     <Item value="Monitor di USB" revision="0" />
@@ -148,8 +209,8 @@
     <Item value="Utilizzo" revision="0" />
   </Enumeration>
   <Enumeration key="JackType">
-    <Item />
-    <Item />
+    <Item value="EMBEDDED" revision="0" />
+    <Item value="ESTERNO" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
     <Item value="Nessun dispositivo collegato" revision="0" />

@@ -132,10 +132,10 @@
   <Message key="Ringer Volume Steps:" value="Ступени громкости звонка:" revision="0" />
   <Message key="Simple Mode" value="Простой режим" revision="0" />
   <Message key="Standalone Mode" value="Автономный режим" revision="0" />
-  <Message key="Computer Centric Mode " value="Компьютерно-ориентированный режим" revision="0" />
-  <Message key="Dialtone" value="Dialtone" revision="0" />
-  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Сообщает о прерывании dialtone в дополнение к обычному dialtone" revision="0" />
-  <Message key="Reports only dialtone" value="Сообщает тотлько о dialtone" revision="0" />
+  <Message key="Computer Centric Mode " value="Компьютерно-ориентированный режим " revision="0" />
+  <Message key="Dialtone" value="Тон гудка" revision="0" />
+  <Message key="Reports interrupted dialtone in addition to normal dialtone" value="В дополнение к обычному тону гудка, сообщает о прерывании тона гудка" revision="0" />
+  <Message key="Reports only dialtone" value="Сообщает тотлько о тоне гудка" revision="0" />
   <Message key="Dialing State" value="Состояние дозвона" revision="0" />
   <Message key="Reports ringback, busy, fast busy states" value="Сообщает о состояниях &quot;звонок&quot;, &quot;занято&quot;, &quot;быстрое занято&quot;" revision="0" />
   <Message key="Reports only dialing state" value="Сообщает только о состоянии дозвона" revision="0" />

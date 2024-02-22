@@ -110,7 +110,7 @@
   <Message key="Length of TSP Packet:" value="Comprimento do pacote TSP:" revision="0" />
   <Message key="Length of Transport Stride:" value="Comprimento da Transport Stride:" revision="0" />
   <Message key="Format of Stride Data:" value="Formato dos Stride Data:" revision="0" />
-  <Message key="Variable Size:" value="Tamanho variável:" revision="0" />
+  <Message key="Variable Size:" value="Tamanho da variável:" revision="0" />
   <Message key="Bytes Per Line:" value="Bytes por linha:" revision="0" />
   <Message key="Packet Length:" value="Comprimento do pacote:" revision="0" />
   <Message key="Number of Channels:" value="Número de canais:" revision="0" />
@@ -132,7 +132,7 @@
   <Message key="Ringer Volume Steps:" value="Passos do volume do toque:" revision="0" />
   <Message key="Simple Mode" value="Modo simples" revision="0" />
   <Message key="Standalone Mode" value="Modo autónomo" revision="0" />
-  <Message key="Computer Centric Mode " value="Modo centrado em computador" revision="0" />
+  <Message key="Computer Centric Mode " value="Modo centrado em computador " revision="0" />
   <Message key="Dialtone" value="Tom de marcação" revision="0" />
   <Message key="Reports interrupted dialtone in addition to normal dialtone" value="Comunica o tom de marcação interrompido para além do tom de marcação normal" revision="0" />
   <Message key="Reports only dialtone" value="Reporta apenas o tom de marcação" revision="0" />
@@ -142,7 +142,7 @@
   <Message key="Caller ID" value="ID do chamador" revision="0" />
   <Message key="Reports caller ID information" value="Informa sobre a identificação do autor da chamada" revision="0" />
   <Message key="Does not report caller ID" value="Não reporta a ID do autor da chamada" revision="0" />
-  <Message key="Ringing" value="Ringing" revision="0" />
+  <Message key="Ringing" value="Toque" revision="0" />
   <Message key="Reports incoming distinctive ringing patterns" value="Comunica padrões de toque distintivos de entrada" revision="0" />
   <Message key="Reports only incoming ringing" value="Reporta apenas os toques de entrada" revision="0" />
   <Message key="DTMF digits" value="Dígitos DTMF" revision="0" />
@@ -155,8 +155,8 @@
   <Message key="Country Code Release Date:" value="Código do país Data de lançamento:" revision="0" />
   <Message key="CountryCodeFmt" value="Código do país{number}:" revision="0" />
   <Message key="Entity ID:" value="ID de entidade:" revision="0" />
-  <Message key="In Interface Number:" value="No número de interface:" revision="0" />
-  <Message key="Out Interface Number:" value="Número da interface de saída:" revision="0" />
+  <Message key="In Interface Number:" value="Número de interface Em:" revision="0" />
+  <Message key="Out Interface Number:" value="Número de interface Fora:" revision="0" />
   <Message key="Options:" value="Opções:" revision="0" />
   <Message key="ChildIDFmt" value="ChildID{number}:" revision="0" />
   <Message key="Name (index):" value="Nome (index):" revision="0" />
