@@ -135,7 +135,7 @@
   <Message key="Display elements:" value="Afficher un élément :" revision="0" />
   <Message key="Automatic" value="Automatique" revision="0" />
   <Message key="Current" value="Actuel" revision="0" />
-  <Message key="Selected" value="Sélectionné" revision="0" />
+  <Message key="Selected" value="Nouveau" revision="0" />
   <Message key="Automatic color is dependent on current operating system color theme." value="La couleur automatique dépend du thème de couleur du système d'exploitation actuel." revision="0" />
   <Message key="&amp;Open" value="&amp;Ouvrir" revision="0" />
   <Message key="Open Recent" value="Ouvrir {item}" revision="0" />

@@ -578,7 +578,7 @@
 	<Message key="Display elements:" description="Field: Display elements" />
 	<Message key="Automatic" description="Field: Automatic" />
 	<Message key="Current" description="Field: Current (color)" />
-	<Message key="Selected" description="Field: Selected (color)" />
+	<Message key="Selected" description="Field: New (color)" value="New" />
 	<Message key="Automatic color is dependent on current operating system color theme." description="Field: Automatic color is dependent on current operating system color theme." />
 
 	<Message key="&amp;Open" description="Button: Open" />
