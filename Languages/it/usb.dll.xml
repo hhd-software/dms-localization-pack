@@ -164,15 +164,25 @@
   <Message key="Physical Interface:" value="Interfaccia fisica:" revision="0" />
   <Message key="Protocol Code:" value="Codice di protocollo:" revision="0" />
   <Message key="Extension Code:" value="Codice di estensione:" revision="0" />
+  <Message key="Device stores Unit parameters in non-volatile memory" value="Il dispositivo memorizza i parametri dell'unità nella memoria non volatile" revision="0" />
+  <Message key="Device supports the request Clear_Unit_Parameter" value="Il dispositivo supporta la richiesta Clear_Unit_Parameter" revision="0" />
+  <Message key="Device supports the request Set_Unit_Parameter" value="Il dispositivo supporta la richiesta Set_Unit_Parameter" revision="0" />
+  <Message key="Device is an Intelligent CAPI device" value="Il dispositivo è un dispositivo CAPI intelligente" revision="0" />
+  <Message key="Device is a Simple CAPI device" value="Il dispositivo è un dispositivo CAPI semplice" revision="0" />
   <Message key="Mac Address (string descriptor index):" value="Indirizzo Mac (indice del descrittore di stringa):" revision="0" />
   <Message key="Ethernet Statistics:" value="Statistiche Ethernet::" revision="0" />
   <Message key="Number Of Configurable Multicast Filters:" value="Numero di filtri multicast configurabili:" revision="0" />
   <Message key="Number Of Pattern Filters:" value="Numero di filtri di modello:" revision="0" />
   <Message key="Max Segment Size:" value="Dimensione massima del segmento:" revision="0" />
+  <Message key="End System Identifier (string descriptor index):" value="Identificatore di sistema finale (indice del descrittore di stringa):" revision="0" />
   <Message key="Capabilities:" value="Capacità:" revision="0" />
+  <Message key="ATM Device Statistics:" value="Statistiche dei dispositivi ATM:" revision="0" />
+  <Message key="The Maximum Type 2 Segment Size:" value="La dimensione massima del segmento di tipo 2:" revision="0" />
+  <Message key="The Maximum Type 3 Segment Size:" value="La dimensione massima del segmento di tipo 3:" revision="0" />
   <Message key="Maximum Number Of Simultaneous Virtual Circuits:" value="Numero massimo di circuiti virtuali simultanei:" revision="0" />
   <Message key="Release Number In Binary-Coded Decimal" value="Numero di rilascio in codice binario decimale" revision="0" />
   <Message key="Reserved for future use" value="Riservato per uso futuro" revision="0" />
+  <Message key="MsHeaderFMT" value="Numero di revisione delle specifiche di classe dei dispositivi audio: [[[b{ver_major}.{ver_minor}]]]\nLunghezza totale: [[[b{bytes} byte]]]\n" revision="0" />
   <Message key="MS_MIDI_IN_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\n" revision="0" />
   <Message key="MS_MIDI_OUT_JACK_FMT" value="Jack ID: [[[b{id} ({name}): {value}]]]\nPin di ingresso: [[[b{pins}]]]\n" revision="0" />
   <Message key="UsbMsPins" value="Pin [[[b{number}]]]: ID della fonte: [[[b {source}]]], Pin: [[[b{pin}]]]\n" revision="0" />
