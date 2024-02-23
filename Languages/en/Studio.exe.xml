@@ -993,4 +993,11 @@
 
 	<Message key="NonComMessage" description="Non-commercial license warning message" value="At least one of registered components is for [[[bhome]]] or [[[beducational]]] use.\nSee [[[hUsage Policy]]] for more information.\n\nFor commercial, government or military use [[[hupgrade]]] is required."/>
 
+	<Message key="yourLanguage" description="Notification: User language available" value="User language available on-line"/>
+	<Enumeration key="YourLanguageAvailable" description="User language pack is available" optional="true">
+		<Item text="Language Pack Available On-Line"/>
+		<Item text='Device Monitoring Studio language pack for "{language}" is available on-line. Do you want to download and use this language pack?'>
+			<Param name="language"/>
+		</Item>
+	</Enumeration>
 </Definition>
