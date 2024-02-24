@@ -376,6 +376,7 @@
   <Message key="Find Operation" value="Ricerca del testo" revision="0" />
   <Message key="NextPage" value="Continua…" revision="0" />
   <Message key="NonComMessage" value="Almeno uno dei componenti registrati è per uso [[[bdomestico]]] o [[[bdidattico]]]..\nPer ulteriori informazioni, consultare la sezione [[[hPolitica di utilizzo]]].\n\nPer uso commerciale, governativo o militare è necessario un [[[haggiornamento]]]." revision="0" />
+  <Message key="yourLanguage" value="Lingua dell'utente disponibile online" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Verifica aggiornamenti" revision="0" />
     <Item value="Verificare la presenza di una versione aggiornata on-line." revision="0" />
@@ -679,5 +680,9 @@
     <Item value="Utilizzare il sistema" revision="0" />
     <Item value="Utilizzare sempre un tema leggero" revision="0" />
     <Item value="Utilizzare sempre il tema scuro" revision="0" />
+  </Enumeration>
+  <Enumeration key="YourLanguageAvailable">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>
