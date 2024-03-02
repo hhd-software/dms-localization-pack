@@ -15,6 +15,12 @@ Complete language packs are available directly in Device Monitoring Studio. Go t
 
 Currently, the following language packs are complete for latest version of Device Monitoring Studio:
 
+* German
+* Spanish
+* French
+* Italian
+* Portuguese
+* Russian
 
 ## Manually Building Language Packs
 
