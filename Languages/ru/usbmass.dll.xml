@@ -124,6 +124,8 @@
     <Item />
     <Item />
     <Item />
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="UsbMassProtocol">
     <Item />

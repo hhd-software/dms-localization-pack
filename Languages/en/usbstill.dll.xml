@@ -121,7 +121,6 @@
 		<Item text="InitiateOpenCapture"/>
 	</Enumeration>
 
-	<Message optional="true" key="Response Code" description="Field: Response Code" value="Response Code"/>
 	<Message optional="true" key="Reserved" description="Value: Reserved" value="Reserved"/>
 	<Message optional="true" key="Vendor-Specific" description="Value: Vendor-Specific" value="Vendor-Specific"/>
 

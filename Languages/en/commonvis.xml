@@ -964,4 +964,11 @@
 
 	<Message optional="true" key="No Elements" description="Value: No Elements"/>
 
+	<Message optional="true" key="Command ID" description="Field: Command ID"/>
+	<Message optional="true" key="Task Priority" description="Field: Task Priority"/>
+	<Message optional="true" key="Task Attribute" description="Field: Task Attribute"/>
+	<Message optional="true" key="Logical Unit Number" description="Field: Logical Unit Number"/>
+	<Message optional="true" key="Response Code" description="Field: Response Code"/>
+	<Message optional="true" key="Function" description="Field: Function"/>
+
 </Definition>

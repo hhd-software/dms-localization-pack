@@ -119,13 +119,15 @@
 		<Item text="The USB device has just been disconnected from the system."/>
 	</Enumeration>
 
-	<Enumeration optional="true" key="UsbMassCommandSet" description="USB Mass Commands set lists">
+	<Enumeration optional="true" key="UsbMassCommandSet" description="USB Mass Commands set lists" revision="1">
 		<Item text="Reduced Block Commands (RBC) command set"/>
 		<Item text="SFF-8020i, MMC2 (ATAPI) command set"/>
 		<Item text="QIC-157 command set"/>
 		<Item text="UFI command set"/>
 		<Item text="SFF-8070i command set"/>
 		<Item text="SCSI transparent command set"/>
+		<Item text="LSD FS command set"/>
+		<Item text="IEEE 1667 command set"/>
 		<Item text="Unknown command set"/>
 	</Enumeration>
 
