@@ -11,7 +11,7 @@
   <Message key="Array expected" value="Ожидается массив" revision="0" />
   <Message key="New TCP Session" value="Сессия TCP" revision="0" />
   <Message key="New Serial Session" value="Сессия Serial" revision="0" />
-  <Message key="Connecting to remote host" value="Подключение к удаленному хосту" revision="0" />
+  <Message key="Connecting to remote host" value="Подключение к удалённому хосту" revision="0" />
   <Message key="Address: " value="Адрес: " revision="0" />
   <Message key="Function: " value="Функция: " revision="0" />
   <Message key="Unknown Function!" value="Неизвестная функция!" revision="0" />
@@ -146,7 +146,7 @@
   </Enumeration>
   <Enumeration key="tcp-creation-error">
     <Item value="Ошибка создания TCP-сессии" revision="0" />
-    <Item value="При попытке подключения к удаленному хосту возникла следующая ошибка: {text} ({code})" revision="0" />
+    <Item value="При попытке подключения к удалённому хосту возникла следующая ошибка: {text} ({code})" revision="0" />
   </Enumeration>
   <Enumeration key="ModbusFunction">
     <Item />

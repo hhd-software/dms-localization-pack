@@ -83,7 +83,7 @@
   <Message key="InvalidRule" value="Невозможно включить правило, правило недействительно." revision="0" />
   <Message key="SchemeOverwrite" value="Текущая схема будет утрачена. Хотите продолжить?" revision="0" />
   <Message key="VersionError" value="Файл имеет другую версию." revision="0" />
-  <Message key="ItemWillBeRemoved" value="Текущий элемент будет удален. Хотите продолжить?" revision="0" />
+  <Message key="ItemWillBeRemoved" value="Текущий элемент будет удалён. Хотите продолжить?" revision="0" />
   <Message key="SampleText" value="Образец текста" revision="0" />
   <Message key="RegExpPattern" value="РВ: {pattern}" revision="0" />
   <Message key="ErrorReadFile2" value="Невозможно прочесть из файла. " revision="0" />

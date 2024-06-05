@@ -146,8 +146,8 @@
   <Message key="Reports incoming distinctive ringing patterns" value="Сообщает о входящих отличительных звонках" revision="0" />
   <Message key="Reports only incoming ringing" value="Сообщает только о входящих звонках" revision="0" />
   <Message key="DTMF digits" value="Цифры DTMF" revision="0" />
-  <Message key="Can report DTMF digits input remotely over the telephone line" value="Может сообщать о вводе DTMF-цифр удаленно по телефонной линии" revision="0" />
-  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Невозможно сообщить о цифрах DTMF, введенных удаленно по телефонной линии" revision="0" />
+  <Message key="Can report DTMF digits input remotely over the telephone line" value="Может сообщать о вводе DTMF-цифр удалённо по телефонной линии" revision="0" />
+  <Message key="Cannot report DTMF digits input remotely over the telephone line" value="Невозможно сообщить о цифрах DTMF, введенных удалённо по телефонной линии" revision="0" />
   <Message key="Does support" value="Поддерживает" revision="0" />
   <Message key="Does not support" value="Не поддерживает" revision="0" />
   <Message key="SlaveInterfacelFmt" value="Ведомый интерфейс{number}:" revision="0" />

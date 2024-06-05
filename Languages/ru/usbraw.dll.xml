@@ -182,7 +182,7 @@
     <Item value="Очистить" revision="0" />
   </Enumeration>
   <Enumeration key="UsbConfigAttribs">
-    <Item value="[Удаленное пробуждение]" revision="0" />
+    <Item value="[Удалённое пробуждение]" revision="0" />
     <Item value="[Автономное питание]" revision="0" />
     <Item value="[Питание по шине]" revision="0" />
   </Enumeration>

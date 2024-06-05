@@ -93,7 +93,7 @@
     <Item value="Модуль воспроизведения логов позволяет воспроизводить ранее записанные сессии мониторинга." revision="0" />
   </Enumeration>
   <Enumeration key="RemoteSource">
-    <Item value="Удаленный мониторинг" revision="0" />
+    <Item value="Удалённый мониторинг" revision="0" />
     <Item value="Позволяет осуществлять мониторинг удалённых устройств" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseColumns">
