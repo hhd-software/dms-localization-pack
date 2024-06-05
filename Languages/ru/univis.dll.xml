@@ -90,7 +90,7 @@
   <Message key="PatternColoringRule" value="Правило подсветки паттернов {number}" revision="0" />
   <Message key="CopyWait" value="Пожалуйста, подождите, пока данные будут скопированы в буфер обмена." revision="0" />
   <Message key="CantCreateFile" value="Невозможно создать файл" revision="0" />
-  <Message key="StatisticsTip" value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="StatisticsTip" value="Выберите счётчик, чтобы просмотреть его описание." revision="0" />
   <Message key="Lines" value="Строки" revision="0" />
   <Message key="SchemeNameCue" value="Введите здесь название схемы" revision="0" />
   <Message key="Device" value="Устройство" revision="0" />
@@ -121,8 +121,8 @@
   <Message key="Find All" value="Искать все" revision="0" />
   <Message key="Set Columns" value="Установить колонки" revision="0" />
   <Message key="Enter number of columns per row:" value="Введите количество колонок в строке:" revision="0" />
-  <Message key="Add/Remove Counters" value="Добавление/удаление счетчиков" revision="0" />
-  <Message key="Available counters:" value="Доступные счетчики:" revision="0" />
+  <Message key="Add/Remove Counters" value="Добавление/удаление счётчиков" revision="0" />
+  <Message key="Available counters:" value="Доступные счётчики:" revision="0" />
   <Message key="Select All" value="Выбрать все" revision="0" />
   <Message key="Counter description:" value="Описание счетчика:" revision="0" />
   <Message key="Select the counter to view its description." value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
@@ -182,8 +182,8 @@
     <Item value="Отсутствие окраски пакетов" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingInterlace">
-    <Item value="Раскраска пакетов &quot;&amp;чет/нечет&quot;" revision="0" />
-    <Item value="Раскраска пакетов &quot;чет/нечет&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;&amp;чёт/нечёт&quot;" revision="0" />
+    <Item value="Раскраска пакетов &quot;чёт/нечёт&quot;" revision="0" />
   </Enumeration>
   <Enumeration key="ToolsHighlightingRW">
     <Item value="Раскраска пакетов &quot;ч&amp;тение/запись&quot;" revision="0" />
@@ -561,7 +561,7 @@
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
     <Item value="Статическая линия поставлена" revision="0" />
-    <Item value="Щелкните еще раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
+    <Item value="Щелкните ещё раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
     <Item value="Специальный высокоскоростной режим" revision="0" />
@@ -605,12 +605,12 @@
     <Item value="Обводка курсора" revision="1" />
     <Item value="Подсветка текста активной колонки/строки" revision="1" />
     <Item value="Подсветка фона активной колонки/строки" revision="1" />
-    <Item value="Текст нечетного пакета" revision="1" />
-    <Item value="Фон нечетного пакета" revision="1" />
-    <Item value="Контур нечетного пакета" revision="1" />
-    <Item value="Текст четного пакета" revision="1" />
-    <Item value="Фон четного пакета" revision="1" />
-    <Item value="Контур четного пакета" revision="1" />
+    <Item value="Текст нечётного пакета" revision="1" />
+    <Item value="Фон нечётного пакета" revision="1" />
+    <Item value="Контур нечётного пакета" revision="1" />
+    <Item value="Текст чётного пакета" revision="1" />
+    <Item value="Фон чётного пакета" revision="1" />
+    <Item value="Контур чётного пакета" revision="1" />
     <Item value="Выделение" revision="1" />
     <Item value="Редактируемый текст" revision="1" />
   </Enumeration>

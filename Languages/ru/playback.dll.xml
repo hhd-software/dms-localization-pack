@@ -58,7 +58,7 @@
     <Item value="" revision="0" />
   </Enumeration>
   <Enumeration key="MonitoredNotify">
-    <Item value="На виртуальном адаптере все еще работает как минимум одна сессия. Хотите ли вы остановить сессию виртуального адаптера и продолжить работу?" revision="0" />
+    <Item value="На виртуальном адаптере все ещё работает как минимум одна сессия. Хотите ли вы остановить сессию виртуального адаптера и продолжить работу?" revision="0" />
     <Item value="Виртуальный адаптер" revision="0" />
   </Enumeration>
   <Enumeration key="ImportFormats">

@@ -9,14 +9,14 @@
   <Message key="Background:" value="Фон:" revision="0" />
   <Message key="Bold" value="Жирный" revision="0" />
   <Message key="Italic" value="Курсив" revision="0" />
-  <Message key="UnsavedScheme" value="&lt;Несохраненная текущая схема&gt;" revision="0" />
+  <Message key="UnsavedScheme" value="&lt;Несохранённая текущая схема&gt;" revision="0" />
   <Message key="DefaultScheme" value="По умолчанию" revision="0" />
   <Message key="DisplayAllScheme" value="Показать все" revision="0" />
   <Message key="DisplayNoneScheme" value="Не показывать ничего" revision="0" />
   <Message key="Filter" value="Фильтр" revision="0" />
   <Message key="DeleteBuiltin" value="Это встроенная схема, которая не может быть удалена." revision="0" />
   <Message key="SaveBuiltin" value="Сохранить схему под именем встроенной нельзя." revision="0" />
-  <Message key="SchemeExists" value="Такая схема уже существует. Хотите ли вы заменить ее?" revision="0" />
+  <Message key="SchemeExists" value="Такая схема уже существует. Хотите ли вы заменить её?" revision="0" />
   <Message key="ResetAllConfirm" value="Сброс фильтров приведет к настройкам фильтров по умолчанию с сохранением заданных пользователем схем. Работающие в данный момент сессии мониторинга не будут затронуты. Вы хотите продолжить?" revision="0" />
   <Message key="ResetAllColorsConfirm" value="Сброс цветов возвращает все модули обработки данных к цветовым настройкам по умолчанию, сохраняя заданные пользователем схемы. Работающие в данный момент сессии мониторинга не будут затронуты. Вы хотите продолжить?" revision="0" />
   <Message key="FilteringPageX" value="Страница фильтрации: {page}" revision="0" />
@@ -35,10 +35,10 @@
   </Enumeration>
   <Enumeration key="PredefinedColors">
     <Item value="По умолчанию" revision="0" />
-    <Item value="Черный" revision="0" />
+    <Item value="Чёрный" revision="0" />
     <Item value="Белый" revision="0" />
     <Item value="Бордовый" revision="0" />
-    <Item value="Темно-зеленый" revision="0" />
+    <Item value="Темно-зелёный" revision="0" />
     <Item value="Оливковый" revision="0" />
     <Item value="Темно-синий" revision="0" />
     <Item value="Фиолетовый" revision="0" />
@@ -46,7 +46,7 @@
     <Item value="Светло-серый" revision="0" />
     <Item value="Темно-серый" revision="0" />
     <Item value="Красный" revision="0" />
-    <Item value="Зеленый" revision="0" />
+    <Item value="Зелёный" revision="0" />
     <Item value="Желтый" revision="0" />
     <Item value="Голубой" revision="0" />
     <Item value="Пурпурный" revision="0" />

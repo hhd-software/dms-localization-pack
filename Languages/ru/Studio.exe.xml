@@ -36,7 +36,7 @@
   <Message key="LaunchError" value="При запуске загруженного образа произошла ошибка:\n\n    {message} ({code})." revision="0" />
   <Message key="New Version Downloaded" value="Новая версия загружена" revision="0" />
   <Message key="Install now" value="Установить сейчас" revision="0" />
-  <Message key="Make a copy and install now" value="Сделайте копию и установить сейчас" revision="0" />
+  <Message key="Make a copy and install now" value="Сделайть копию и установить сейчас" revision="0" />
   <Message key="Notifications" value="Уведомления" revision="0" />
   <Message key="AutoHide" value="Автоскрытие инструментальных окон" revision="0" />
   <Message key="AskToSaveWorkspace" value="Запрашивать сохранение измененного рабочего пространства" revision="0" />
@@ -116,7 +116,7 @@
   <Message key="ConfirmClearAll" value="Это приведет к очистке всех визуализаторов. Хотите продолжить?" revision="0" />
   <Message key="Invalid file format." value="Некорректный формат файла." revision="0" />
   <Message key="MultipleWorkspaces" value="Одновременно может быть открыта только одна рабочая область. Хотите открыть другие рабочие области в других окнах?" revision="0" />
-  <Message key="WorkspaceModified" value="Текущая рабочая область была изменена. Хотите сохранить ее?" revision="0" />
+  <Message key="WorkspaceModified" value="Текущая рабочая область была изменена. Хотите сохранить её?" revision="0" />
   <Message key="toolbar.Standard" value="Стандартный" revision="0" />
   <Message key="Auto Hide" value="Авто-скрытие" revision="0" />
   <Message key="Window list" value="Список окон" revision="0" />
@@ -130,7 +130,7 @@
   <Message key="Settings group.Misc" value="Другое" revision="0" />
   <Message key="Colors Page" value="Темы" revision="0" />
   <Message key="Enter the scheme name and press the Save button" value="Введите название схемы и нажмите кнопку Сохранить" revision="0" />
-  <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Хотите переопределить ее?" revision="0" />
+  <Message key="ColorSchemeExists" value="Цветовая схема уже существует. Хотите переопределить её?" revision="0" />
   <Message key="Theme:" value="Тема:" revision="0" />
   <Message key="Display elements:" value="Отображаемые элементы:" revision="0" />
   <Message key="Automatic" value="Автоматический" revision="0" />
@@ -151,7 +151,7 @@
   <Message key="Toolbars" value="Панель инструментов:" revision="0" />
   <Message key="New" value="&amp;Новый…" revision="0" />
   <Message key="Button size" value="Размер кнопки:" revision="0" />
-  <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду для просмотра ее описания или перетащите ее на панель инструментов:" revision="0" />
+  <Message key="Select a command to view its description or drag it to a toolbar" value="Выберите команду для просмотра её описания или перетащите её на панель инструментов:" revision="0" />
   <Message key="New Group" value="Новая &amp;Группа" revision="0" />
   <Message key="&lt; Add" value="&lt; &amp;Добавить" revision="0" />
   <Message key="Remove &gt;" value="&amp;Убрать &gt;" revision="0" />
@@ -329,7 +329,7 @@
   <Message key="Plase wait" value="Пожалуйста, подождите…" revision="0" />
   <Message key="DataNoLongerValid" value="Этот блок данных больше не действителен." revision="0" />
   <Message key="Unknown Request" value="Неизвестный запрос" revision="0" />
-  <Message key="Undefined" value="Неопределенный" revision="0" />
+  <Message key="Undefined" value="Неопределённый" revision="0" />
   <Message key="None" value="Нет" revision="0" />
   <Message key="Request" value="Запрос" revision="0" />
   <Message key="Request Name" value="Имя запроса" revision="0" />
@@ -358,19 +358,19 @@
   <Message key="BindPathWarning" value="Текущая сессия будет приостановлена, чтобы применить новый корневой протокол. События, произошедшие во время этой операции, будут потеряны. Хотите продолжить?" revision="0" />
   <Message key="WarningTitle" value="Внимание" revision="0" />
   <Message key="Wait_Text" value="Выполняется запрашиваемая операция…" revision="0" />
-  <Message key="Crash Page" value="Отчеты о сбоях" revision="0" />
+  <Message key="Crash Page" value="Отчёты о сбоях" revision="0" />
   <Message key="CrashIntro" value="Если вы хотите получать уведомления о статусе ваших отчетов о сбоях и желаете, чтобы ваши отчеты обрабатывались с более высоким приоритетом, пожалуйста, укажите свой адрес электронной почты в поле ниже. Ваш адрес электронной почты не будет использоваться ни для каких других целей, кроме обсуждения ваших сообщений." revision="0" />
   <Message key="Report Settings" value="Настройки" revision="0" />
-  <Message key="Send report automatically" value="&amp;Отправлять отчет автоматически" revision="0" />
-  <Message key="Report verbosity level" value="Уровень детализации отчета" revision="0" />
+  <Message key="Send report automatically" value="&amp;Отправлять отчёт автоматически" revision="0" />
+  <Message key="Report verbosity level" value="Уровень детализации отчёта" revision="0" />
   <Message key="Minidump" value="&amp;Минидамп" revision="0" />
   <Message key="Full dump" value="&amp;Полный дамп" revision="0" />
   <Message key="Minidump description" value="Минидампы обычно имеют размер менее мегабайта и содержат лишь ограниченную информацию об аварии. Иногда минидампа достаточно для диагностики проблемы, но часто в нем отсутствует необходимая информация, требуемая для воспроизведения сбоя." revision="0" />
-  <Message key="Full dump description" value="Полные дампы содержат сжатый вид всего адресного пространства процесса. Они лучше всего подходят для того, чтобы разработчики могли воспроизвести ситуацию, вызвавшую сбой, и исправить ее как можно быстрее. Однако размер полного дампа может легко достигать сотен мегабайт." revision="0" />
+  <Message key="Full dump description" value="Полные дампы содержат сжатый вид всего адресного пространства процесса. Они лучше всего подходят для того, чтобы разработчики могли воспроизвести ситуацию, вызвавшую сбой, и исправить её как можно быстрее. Однако размер полного дампа может легко достигать сотен мегабайт." revision="0" />
   <Message key="Privacy Policy" value="Политика конфиденциальности" revision="0" />
   <Message key="Credits to" value="Благодарности:" revision="0" />
-  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Щелкнуть для смены фильтра" revision="0" />
-  <Message key="RootProtocolStateTooltip" value="Щелкнуть для смены корневого протокола" revision="0" />
+  <Message key="DisplayFilterStateTooltip" value="{non-empty?}{filter}\n{?non-empty}Щёлкнуть для смены фильтра" revision="0" />
+  <Message key="RootProtocolStateTooltip" value="Щёлкнуть для смены корневого протокола" revision="0" />
   <Message key="WrittenBytes" value="{size as text} ({size} байт) записано" revision="0" />
   <Message key="Do not display this warning anymore" value="Больше не выводить это сообщение" revision="1" />
   <Message key="Find Operation" value="Поиск текста" revision="0" />
@@ -428,7 +428,7 @@
   <Enumeration key="UpdatesColumns">
     <Item value="Компонент" revision="0" />
     <Item value="Текущая версия" revision="0" />
-    <Item value="Обновленная версия" revision="0" />
+    <Item value="Обновлённая версия" revision="0" />
   </Enumeration>
   <Enumeration key="Update">
     <Item value="Проверка обновлений" revision="0" />
@@ -665,7 +665,7 @@
   </Enumeration>
   <Enumeration key="ChangeLanguageNotification">
     <Item value="Сменить язык" revision="0" />
-    <Item value="Этот языковой пакет был создан открытым сообществом. Мы не несем никакой ответственности за качество этого перевода.\r\n\r\nЕсли вы нашли ошибку в переводе, вы можете отправить тикет или исправить ее самостоятельно." revision="0" />
+    <Item value="Этот языковой пакет был создан открытым сообществом. Мы не несём никакой ответственности за качество этого перевода.\r\n\r\nЕсли вы нашли ошибку в переводе, вы можете отправить тикет или исправить её самостоятельно." revision="0" />
   </Enumeration>
   <Enumeration key="Pause1">
     <Item value="Приостановить" revision="0" />

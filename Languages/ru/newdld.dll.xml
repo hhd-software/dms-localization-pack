@@ -9,11 +9,11 @@
   <Message key="Authentication" value="Аутентификация" revision="0" />
   <Message key="Authentication is not required" value="Аутентификация не требуется" revision="0" />
   <Message key="Authenticate me as logged on user" value="Аутентифицировать меня как залогиненного пользователя" revision="0" />
-  <Message key="Authenticate me with the following credentials:" value="Аутентифицировать меня с следующими учетными данными:" revision="0" />
+  <Message key="Authenticate me with the following credentials:" value="Аутентифицировать меня с следующими учётными данными:" revision="0" />
   <Message key="User name:" value="Имя пользователя:" revision="0" />
   <Message key="Password:" value="Пароль:" revision="0" />
   <Message key="Re-type password:" value="Введите пароль повторно:" revision="0" />
-  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Продукт надежно сохраняет введенный пароль в локальной учетной записи пользователя)" revision="0" />
+  <Message key="(Hex Editor Neo securely stores the entered password in your user account locally)" value="(Продукт надежно сохраняет введенный пароль в локальной учётной записи пользователя)" revision="0" />
   <Message key="PasswordMismatch" value="Вводимые пароли должны совпадать." revision="0" />
   <Message key="Downloader settings" value="Настройки прокси" revision="0" />
   <Message key="toolbar.Downloader" value="Загрузчик" revision="0" />

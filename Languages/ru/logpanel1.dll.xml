@@ -16,7 +16,7 @@
   <Message key="Save to Log" value="Сохранить в лог" revision="0" />
   <Message key="Settings group.Logging" value="Логгинг" revision="0" />
   <Message key="Recording Page" value="Запись/воспроизведение" revision="0" />
-  <Message key="IncorrectFolder" value="Указана неверная папка. Ее нельзя использовать в качестве папки для логов." revision="0" />
+  <Message key="IncorrectFolder" value="Указана неверная папка. Её нельзя использовать в качестве папки для логов." revision="0" />
   <Message key="Recording" value="Запись" revision="0" />
   <Message key="Select the location the program will use to store recorded data." value="Выберите место, которое программа будет использовать для хранения записанных данных." revision="0" />
   <Message key="Playback" value="Воспроизведение" revision="0" />

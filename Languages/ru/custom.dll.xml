@@ -16,7 +16,7 @@
   <Message key="Warning" value="Внимание" revision="0" />
   <Message key="Error" value="Ошибка" revision="0" />
   <Message key="RunningSessions" value="У вас есть запущенные сеансы мониторинга. Ваши сеансы будут остановлены." revision="0" />
-  <Message key="ResetSourceChanges" value="Все изменения, внесенные в предопределенные файлы протоколов, будут потеряны! Вы хотите продолжить?" revision="0" />
+  <Message key="ResetSourceChanges" value="Все изменения, внесённые в предопределенные файлы протоколов, будут потеряны! Вы хотите продолжить?" revision="0" />
   <Message key="Compile" value="Компилировать" revision="0" />
   <Message key="DeleteProtocolFile" value="Ошибка удаления выбранного файла: {error text} ({error})" revision="0" />
   <Message key="SaveProtocolFile" value="Ошибка сохранения файла &quot;{file}&quot;: {error text} ({error})" revision="0" />
@@ -101,7 +101,7 @@
   </Enumeration>
   <Enumeration key="ProtocolRevertAll">
     <Item value="&amp;Вернуть всё" revision="0" />
-    <Item value="Возврат всех изменений, внесенных в файлы определений протоколов" revision="0" />
+    <Item value="Возврат всех изменений, внесённых в файлы определений протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="ProtocolAutoRecompile">
     <Item value="Автоматическая перекомпиляция" revision="0" />

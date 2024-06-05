@@ -7,7 +7,7 @@
   <Message key="EmergencyErrorType" value="Аварийное завершение сессии USB" revision="0" />
   <Message key="USB.Advertise.Text" value="Мы также предлагаем библиотеку USB Monitoring Control ActiveX, которая позволяет интегрировать мониторинг в ваше приложение." revision="0" />
   <Message key="Not specified" value="Не указано" revision="0" />
-  <Message key="Unable to retrieve" value="Строковый дескриптор {id} (не удается прочитать)" revision="0" />
+  <Message key="Unable to retrieve" value="Строковый дескриптор {id} (не удаётся прочитать)" revision="0" />
   <Message key="DeviceDescriptor0" value="[[[bДанное устройство является частью составного устройства.]]]\n\n" revision="0" />
   <Message key="DeviceDescriptor1" value="[[[b[[[uИнформация о соединении]]]]]]\n\n Порт: [[[b{port}]]]\n Скорость: [[[b{speed}]]]\n Адрес устройства: [[[b{addr}]]]\n Открытые пайпы: [[[b{pipes}]]]\n Статус соединения: [[[b{status}]]]\n" revision="0" />
   <Message key="DeviceDescriptor2" value="\n\n[[[b[[[uДескриптор устройства]]]]]]\n\n версия USB: [[[b{ver_major}.{ver_minor}]]]\n Класс устройства: [[[b{class_code} - {class}]]]\n Подкласс устройства: [[[b{subcode} - {subclass}]]]\n Протокол устройства: [[[b{proto_code} - {proto}]]]\n Максимальный размер control pipe: [[[b{max_bytes} bytes]]]" revision="0" />
@@ -59,7 +59,7 @@
   <Message key="UnitPinFmt" value="ID устройства, к которому подключен Pin{number}:" revision="0" />
   <Message key="Number of Supported Modes:" value="Число поддерживаемых режимов:" revision="0" />
   <Message key="ModeFmt" value="Режим{number}:" revision="0" />
-  <Message key="UsbErrorRetriveDescriptors" value="Невозможно получить дескрипторы.\r\n\r\nЕсли данное устройство является частью составного устройства, щелкните на составном устройстве, чтобы увидеть дескрипторы USB." revision="0" />
+  <Message key="UsbErrorRetriveDescriptors" value="Невозможно получить дескрипторы.\r\n\r\nЕсли данное устройство является частью составного устройства, щёлкните на составном устройстве, чтобы увидеть дескрипторы USB." revision="0" />
   <Message key="UsbUnableToAttach" value="Невозможно подключиться к выбранному USB-устройству." revision="0" />
   <Message key="MS_CS_ENDPOINT_1" value="\n\n[[[b[[[uClass-Specific MS Bulk Data Endpoint Дескриптор]]]]]]\nВстроенные MIDI Jacks: [[[b {number}]]]\n" revision="0" />
   <Message key="Video Specification Release Number:" value="Видеоспецификация Номер:" revision="0" />
@@ -451,6 +451,6 @@
   </Enumeration>
   <Enumeration key="ConnectTheUSBDevice">
     <Item value="Подключите USB-устройство" revision="0" />
-    <Item value="Программа ждет, пока вы подключите USB-устройство к одному из USB-портов компьютера." revision="0" />
+    <Item value="Программа ждёт, пока вы подключите USB-устройство к одному из USB-портов компьютера." revision="0" />
   </Enumeration>
 </Language>

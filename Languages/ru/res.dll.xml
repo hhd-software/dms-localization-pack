@@ -22,7 +22,7 @@
   <Message key="SpecialOfferFormat" value="[[[h#[Кликнуть для подробностей по предложению]#{offer text}]]]" revision="0" />
   <Message key="Feature not Available.Title" value="Функция недоступна" revision="0" />
   <Message key="Trial days left" value="Пробный, осталось {days} дней" revision="0" />
-  <Message key="Upgrade Notification" value="Вы будете перенаправлены в раздел Мой аккаунт на сайте HHD Software, где сможете настроить апгрейд.\n\nВнимание: если вы используете зарегистрированную версию, то у вас уже есть учетная запись.\n\nПользуйтесь подсказкой пароля, если вы не можете вспомнить пароль, или обратитесь в службу поддержки, если вы все еще не можете войти в систему." revision="0" />
+  <Message key="Upgrade Notification" value="Вы будете перенаправлены в раздел Мой аккаунт на сайте HHD Software, где сможете настроить апгрейд.\n\nВнимание: если вы используете зарегистрированную версию, то у вас уже есть учетная запись.\n\nПользуйтесь подсказкой пароля, если вы не можете вспомнить пароль, или обратитесь в службу поддержки, если вы все ещё не можете войти в систему." revision="0" />
   <Message key="Upgrades" value="Апгрейды" revision="0" />
   <Message key="You must select at least one edition!" value="Выберите хотя бы одну редакцию!" revision="0" />
   <Message key="Purchase Now" value="Купить сейчас" revision="0" />
@@ -31,7 +31,7 @@
   <Message key="Commercial" value="Коммерческая лицензия" revision="0" />
   <Message key="NonCommercial" value="Некоммерческая лицензия" revision="0" />
   <Message key="License File Filter" value="Файлы лицензий Device Monitoring Studio|*.dmslic|Все файлы|*.*|" revision="0" />
-  <Message key="Copyright" value="Предупреждение: Данная компьютерная программа защищена законом об авторском праве и международными соглашениями. Несанкционированное воспроизведение или распространение данной программы или любой ее части может повлечь за собой серьезные гражданские и уголовные санкции и будет преследоваться в максимально возможной степени в соответствии с законом." revision="0" />
+  <Message key="Copyright" value="Предупреждение: Данная компьютерная программа защищена законом об авторском праве и международными соглашениями. Несанкционированное воспроизведение или распространение данной программы или любой её части может повлечь за собой серьезные гражданские и уголовные санкции и будет преследоваться в максимально возможной степени в соответствии с законом." revision="0" />
   <Message key="About Device Monitoring Studio" value="О Device Monitoring Studio" revision="0" />
   <Message key="Installed Components:" value="Установленные компоненты:" revision="0" />
   <Message key="Component Details:" value="Детали компонента:" revision="0" />

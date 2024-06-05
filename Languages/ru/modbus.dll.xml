@@ -24,7 +24,7 @@
   <Message key="Busy" value="Занят" revision="0" />
   <Message key="Message Count" value="Счетчик сообщений" revision="0" />
   <Message key="Event" value="Событие" revision="0" />
-  <Message key="Byte Count" value="Счетчик байтов" revision="0" />
+  <Message key="Byte Count" value="Счётчик байтов" revision="0" />
   <Message key="Coils" value="Регистры флагов" revision="0" />
   <Message key="Registers" value="Регистры" revision="0" />
   <Message key="Yes" value="Да" revision="0" />
@@ -255,16 +255,16 @@
     <Item value="Возврат регистра диагностики" revision="0" />
     <Item value="Изменение разделителя ввода ASCII" revision="0" />
     <Item value="Включить режим &quot;Только прослушивание&quot;" revision="0" />
-    <Item value="Очистка счетчиков и диагностических регистров" revision="0" />
-    <Item value="Возвращение счетчика сообщений " revision="0" />
-    <Item value="Возвращение счетчика ошибок связи" revision="0" />
-    <Item value="Возвращение счетчика исключений" revision="0" />
-    <Item value="Возврат счетчика сообщений ведомого устройства" revision="0" />
-    <Item value="Возврат счетчика молчаний ведомого устройства" revision="0" />
-    <Item value="Возвра счетчика NAK ведомого устройства" revision="0" />
-    <Item value="Возврат счетчика занятости ведомого устройства" revision="0" />
-    <Item value="Возврат счетчика превышения символов" revision="0" />
-    <Item value="Очистка счетчика и флага превышения" revision="0" />
+    <Item value="Очистка счётчиков и диагностических регистров" revision="0" />
+    <Item value="Возвращение счётчика сообщений " revision="0" />
+    <Item value="Возвращение счётчика ошибок связи" revision="0" />
+    <Item value="Возвращение счётчика исключений" revision="0" />
+    <Item value="Возврат счётчика сообщений ведомого устройства" revision="0" />
+    <Item value="Возврат счётчика молчаний ведомого устройства" revision="0" />
+    <Item value="Возвра счётчика NAK ведомого устройства" revision="0" />
+    <Item value="Возврат счётчика занятости ведомого устройства" revision="0" />
+    <Item value="Возврат счётчика превышения символов" revision="0" />
+    <Item value="Очистка счётчика и флага превышения" revision="0" />
     <Item value="РЕЗЕРВ" revision="0" />
   </Enumeration>
   <Enumeration key="ResultCode">
@@ -273,15 +273,15 @@
     <Item value="OK - Возврат регистра диагностики" revision="0" />
     <Item value="OK - Изменение разделителя ввода ASCII" revision="0" />
     <Item value="OK - Включить режим &quot;Только прослушивание&quot;" revision="0" />
-    <Item value="OK - Очистка счетчиков и диагностических регистров" revision="0" />
-    <Item value="OK - Возвращение счетчика сообщений " revision="0" />
-    <Item value="OK - Возвращение счетчика ошибок связи" revision="0" />
-    <Item value="OK - Возвращение счетчика исключений" revision="0" />
-    <Item value="OK - Возврат счетчика сообщений ведомого устройства" revision="0" />
-    <Item value="OK - Возврат счетчика молчаний ведомого устройства" revision="0" />
-    <Item value="OK - Возвра счетчика NAK ведомого устройства" revision="0" />
-    <Item value="OK - Возврат счетчика занятости ведомого устройства" revision="0" />
-    <Item value="OK - Возврат счетчика превышения символов" revision="0" />
+    <Item value="OK - Очистка счётчиков и диагностических регистров" revision="0" />
+    <Item value="OK - Возвращение счётчика сообщений " revision="0" />
+    <Item value="OK - Возвращение счётчика ошибок связи" revision="0" />
+    <Item value="OK - Возвращение счётчика исключений" revision="0" />
+    <Item value="OK - Возврат счётчика сообщений ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счётчика молчаний ведомого устройства" revision="0" />
+    <Item value="OK - Возвра счётчика NAK ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счётчика занятости ведомого устройства" revision="0" />
+    <Item value="OK - Возврат счётчика превышения символов" revision="0" />
     <Item value="OK - Код неизвестной функции" revision="0" />
   </Enumeration>
   <Enumeration key="MODBUS Modes">

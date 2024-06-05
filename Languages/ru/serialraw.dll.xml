@@ -13,7 +13,7 @@
   <Message key="PacketHeader" value="{n}: {header} ({up?}ВВЕРХ{|up}ВНИЗ{?up}), {time} ({device number}. Устройство: {device name})\n" revision="0" />
   <Message key="Reads" value="Считываний" revision="0" />
   <Message key="Writes" value="Записей" revision="0" />
-  <Message key="Buffer size" value="Объем буфера" revision="0" />
+  <Message key="Buffer size" value="Объём буфера" revision="0" />
   <Message key="PnP Event: Connect" value="Событие PnP: Соединение" revision="0" />
   <Message key="PnP Event: Disconnect" value="Событие PnP: Отключение" revision="0" />
   <Message key="ProcessOpen" value="Процесс {pid} ({has name?}{name}{|has name}&lt;Невозможно получить имя процесса&gt;{?has name}) попытался открыть устройство." revision="0" />
