@@ -561,7 +561,7 @@
   </Enumeration>
   <Enumeration key="StaticLinePlaced">
     <Item value="Статическая линия поставлена" revision="0" />
-    <Item value="Щелкните ещё раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
+    <Item value="Щёлкните ещё раз, удерживая Ctrl, чтобы поставить линию отслеживания " revision="0" />
   </Enumeration>
   <Enumeration key="SpecialHighSpeedMode">
     <Item value="Специальный высокоскоростной режим" revision="0" />

@@ -22,7 +22,7 @@
   <Message key="Start" value="&amp;Запустить" revision="0" />
   <Message key="Language pack" value="Языковой пакет: {native name}" revision="0" />
   <Message key="DiscardWarning" value="Если вы отмените выбранные обновления, то Device Monitoring Studio больше не будет уведомлять вас о них. Вы по-прежнему будете получать уведомления о будущих обновлениях.\r\n\r\nВы хотите отменить выбранные обновления?" revision="0" />
-  <Message key="LangPackUpdated" value="Обновлен языковой пакет(ы). Для перезагрузки языкового пакета необходимо перезапустить приложение.\r\n\r\nПерезапустить сейчас?" revision="0" />
+  <Message key="LangPackUpdated" value="Обновлён языковой пакет(ы). Для перезагрузки языкового пакета необходимо перезапустить приложение.\r\n\r\nПерезапустить сейчас?" revision="0" />
   <Message key="Component Updates" value="Обновления компонентов" revision="0" />
   <Message key="The following updates are found:" value="Найдены следующие обновления:" revision="0" />
   <Message key="Check for updates" value="Проверить обновления" revision="0" />
@@ -79,7 +79,7 @@
   <Message key="Close this notification" value="Закрыть это уведомление" revision="0" />
   <Message key="General Page" value="Общие" revision="0" />
   <Message key="ExecutablesFilter" value="Исполняемые|*.exe|Все файлы|*.*||" revision="0" />
-  <Message key="WorkspaceFilterNotExist" value="Рабочая область содержит ссылку на имя фильтра &lt;{filter}&gt;, который не существует. Будет применен пустой фильтр." revision="0" />
+  <Message key="WorkspaceFilterNotExist" value="Рабочая область содержит ссылку на имя фильтра &lt;{filter}&gt;, который не существует. Будет применён пустой фильтр." revision="0" />
   <Message key="All sessions stopped" value="Все сессии были остановлены из-за нехватки памяти. Для возобновления мониторинга может потребоваться перезапуск Device Monitoring Studio. Если вы продолжаете получать это сообщение об ошибке, попробуйте уменьшить количество используемых визуализаторов" revision="0" />
   <Message key="PredefinedDelete" value="Удаление предустановленных цветовых схем запрещено. Удалять можно только пользовательские схемы" revision="0" />
   <Message key="SignatureError" value="Device Monitoring Studio загрузила обновление, но оно не прошло проверку целостности. Это может свидетельствовать о временных или постоянных ошибках конфигурации сети. Попробуйте выполнить обновление позже." revision="0" />
