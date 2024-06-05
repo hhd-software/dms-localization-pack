@@ -598,8 +598,8 @@
     <Item value="Фон адреса" revision="1" />
     <Item value="Текст ASCII/UNICODE " revision="1" />
     <Item value="Фон ASCII/UNICODE " revision="1" />
-    <Item value="Четный столбец/ряд (для чересстрочных режимов)" revision="1" />
-    <Item value="Нечетный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Чётный столбец/ряд (для чересстрочных режимов)" revision="1" />
+    <Item value="Нечётный столбец/ряд (для чересстрочных режимов)" revision="1" />
     <Item value="Текст &quot;нет данных&quot;" revision="1" />
     <Item value="Заливка курсора" revision="1" />
     <Item value="Обводка курсора" revision="1" />

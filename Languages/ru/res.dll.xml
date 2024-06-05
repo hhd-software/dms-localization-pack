@@ -22,7 +22,7 @@
   <Message key="SpecialOfferFormat" value="[[[h#[Кликнуть для подробностей по предложению]#{offer text}]]]" revision="0" />
   <Message key="Feature not Available.Title" value="Функция недоступна" revision="0" />
   <Message key="Trial days left" value="Пробный, осталось {days} дней" revision="0" />
-  <Message key="Upgrade Notification" value="Вы будете перенаправлены в раздел Мой аккаунт на сайте HHD Software, где сможете настроить апгрейд.\n\nВнимание: если вы используете зарегистрированную версию, то у вас уже есть учетная запись.\n\nПользуйтесь подсказкой пароля, если вы не можете вспомнить пароль, или обратитесь в службу поддержки, если вы все ещё не можете войти в систему." revision="0" />
+  <Message key="Upgrade Notification" value="Вы будете перенаправлены в раздел Мой аккаунт на сайте HHD Software, где сможете настроить апгрейд.\n\nВнимание: если вы используете зарегистрированную версию, то у вас уже есть учётная запись.\n\nПользуйтесь подсказкой пароля, если вы не можете вспомнить пароль, или обратитесь в службу поддержки, если вы все ещё не можете войти в систему." revision="0" />
   <Message key="Upgrades" value="Апгрейды" revision="0" />
   <Message key="You must select at least one edition!" value="Выберите хотя бы одну редакцию!" revision="0" />
   <Message key="Purchase Now" value="Купить сейчас" revision="0" />
