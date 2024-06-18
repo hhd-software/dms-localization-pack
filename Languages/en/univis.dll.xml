@@ -538,7 +538,7 @@
 		<Param name="last"/>
 	</Message>
 
-	<Message key="NoAdapters" description="Error: No adapters found" value="Can't send packets. Network adapter not selected or system has no connected network adapters."/>
+	<Message key="NoAdapters" description="Error: No adapters found" value="Can't send packets. Network adapter is not selected or there are no network adapters connected to the system."/>
 
 
 	<Message key="LogStartBurst" value="Start (Burst mode)…" description="Log Entry: Start burst mode"/>

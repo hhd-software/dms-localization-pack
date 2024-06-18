@@ -42,7 +42,7 @@
   <Message key="TotalFormat" value="Insgesamt: {bytes}" revision="0" />
   <Message key="Process" value="Prozess" revision="0" />
   <Message key="ErrorInput" value="Ungültiger Bereich. Wertebereich ist ({first} - {last})." revision="0" />
-  <Message key="NoAdapters" value="Es können keine Pakete gesendet werden. Netzwerkadapter nicht ausgewählt oder System hat keine angeschlossenen Netzwerkadapter." revision="0" />
+  <Message key="NoAdapters" value="Es können keine Pakete gesendet werden. Netzwerkadapter ist nicht ausgewählt oder es sind keine Netzwerkadapter an das System angeschlossen." revision="0" />
   <Message key="LogStartBurst" value="Start (Burst-Modus)…" revision="0" />
   <Message key="LogStart" value="Start…" revision="0" />
   <Message key="LogStop" value="Stopp…" revision="0" />

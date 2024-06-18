@@ -42,7 +42,7 @@
   <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
   <Message key="Process" value="Processus" revision="0" />
   <Message key="ErrorInput" value="Plage non valide. La plage de valeurs est ({first} - {last})." revision="0" />
-  <Message key="NoAdapters" value="Impossible d'envoyer des paquets. L'adaptateur réseau n'est pas sélectionné ou le système n'a pas d'adaptateur réseau connecté." revision="0" />
+  <Message key="NoAdapters" value="Impossible d'envoyer des paquets. L'adaptateur réseau n'est pas sélectionné ou aucun adaptateur réseau n'est connecté au système." revision="0" />
   <Message key="LogStartBurst" value="Démarrage (mode rafale))…" revision="0" />
   <Message key="LogStart" value="Démarrage…" revision="0" />
   <Message key="LogStop" value="Arrêter…" revision="0" />

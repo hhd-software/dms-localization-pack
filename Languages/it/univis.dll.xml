@@ -42,7 +42,7 @@
   <Message key="TotalFormat" value="Totale: {bytes}" revision="0" />
   <Message key="Process" value="Processo" revision="0" />
   <Message key="ErrorInput" value="Intervallo non valido. L'intervallo di valori è ({first} - {last})." revision="0" />
-  <Message key="NoAdapters" value="Impossibile inviare pacchetti. L'adattatore di rete non è selezionato o il sistema non ha adattatori di rete collegati." revision="0" />
+  <Message key="NoAdapters" value="Impossibile inviare pacchetti. L'adattatore di rete non è selezionato o non ci sono adattatori di rete collegati al sistema." revision="0" />
   <Message key="LogStartBurst" value="Avvio (modalità burst)…" revision="0" />
   <Message key="LogStart" value="Avvio…" revision="0" />
   <Message key="LogStop" value="Interrompere…" revision="0" />

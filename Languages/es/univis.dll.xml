@@ -42,7 +42,7 @@
   <Message key="TotalFormat" value="Total: {bytes}" revision="0" />
   <Message key="Process" value="Proceso" revision="0" />
   <Message key="ErrorInput" value="Rango no válido. El rango de valores es ({first} - {last})." revision="0" />
-  <Message key="NoAdapters" value="No se pueden enviar paquetes. Adaptador de red no seleccionado o el sistema no tiene adaptadores de red conectados." revision="0" />
+  <Message key="NoAdapters" value="No se pueden enviar paquetes. El adaptador de red no está seleccionado o no hay adaptadores de red conectados al sistema." revision="0" />
   <Message key="LogStartBurst" value="Iniciar (modo ráfaga)…" revision="0" />
   <Message key="LogStart" value="Iniciar…" revision="0" />
   <Message key="LogStop" value="Detener…" revision="0" />
