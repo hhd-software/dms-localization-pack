@@ -51,13 +51,16 @@
     <Item text="Edition"/>
   </Enumeration>
 
-  <Enumeration key="LicenseType" description="License type">
+  <Enumeration key="LicenseType" description="License type" revision="1">
     <Item text="Unknown"/>
     <Item text="Free"/>
     <Item text="Trial"/>
     <Item text="Expired"/>
     <Item text="Registered"/>
+	  <Item text="Upgrade plan expired"/>
   </Enumeration>
+
+	<Message key="Unregistered" description="About box: unregistered"/>
 
 	<Message key="Standard Edition" description="Standard Edition"/>
 	<Message key="Professional Edition" description="Professional Edition"/>

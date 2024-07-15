@@ -193,7 +193,7 @@
 
   <Message key="EmergencyErrorType" description="Diagnostic: Serial emergency session termination" value="Serial emergency session termination"/>
 
-  <Message key="CustomEmpty" description="Custom session type script is empty" value="Custom session type script is empty. Press the Set button and enter the custom session type script."/>
+  <Message key="CustomEmpty" description="Custom session type script is empty" value="Custom session type script is empty. Press the Edit… button and enter the custom session type script." revision="1"/>
   <Message key="CustomJoinerError" description="Message Title: Custom Mode Error" value="Custom Mode Error"/>
 
   <Message key="Error opening file" description="Error opening custom script file" value="Error opening custom script file &quot;{path}&quot;: {error text} ({error code}). Session will use generic communication mode.">

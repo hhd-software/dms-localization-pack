@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ElevationError" description="Process elevation error" revision="1" value="Unable to elevate privileges. Error message: {error}">
-    <Param name="error"/>
-  </Message>
-
 	<Message key="Devices" description="Tool window: Devices"/>
 	<Message key="Sessions" description="Tool window: Sessions"/>
 	
-  <Message key="ElevationErrorTitle" description="Message box title: Process elecvation error" revision="1" value="Elevation Error"/>
-
   <Message key="IntegrityError" description="Error initializing internal component" value="Internal component initialization failure: {error}">
     <Param name="error" format="b016x"/>
   </Message>

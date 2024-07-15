@@ -162,9 +162,6 @@
     <Item text="Never"/>
   </Enumeration>
 
-  <Message key="HoverTime" description="Option: Auto-hide tool window hover time (ms)" value="Hover time (ms)"/>
-  <Message key="CloseTime" description="Option: Auto-hide tool window auto close time (ms)" value="Close time (ms)"/>
-
   <Message key="Coloring" description="Message Box Title: Coloring"/>
   <Message key="OverwriteColoringScheme" description="Overwrite scheme &lt;scheme&gt;" value="Overwrite scheme {scheme}?">
     <Param name="scheme"/>
