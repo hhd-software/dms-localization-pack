@@ -988,7 +988,7 @@
 	<Message key="NextPage" description="Continue (link text on a balloon)" value="Continue…" />
 
 
-	<Message key="NonComMessage" description="Non-commercial license warning message" value="At least one of registered components is for [[[bhome]]] or [[[beducational]]] use.\nSee [[[hUsage Policy]]] for more information.\n\nFor commercial, government or military use [[[hupgrade]]] is required."/>
+	<Message key="NonComMessage" description="Non-commercial license warning message" value="At least one of installed components is for [[[bhome]]] or [[[beducational]]] use.\nSee [[[hUsage Policy]]] for more information.\n\nFor commercial, government or military use [[[hupgrade]]] is required." revision="1"/>
 
 	<Message key="yourLanguage" description="Notification: User language available" value="User language available on-line"/>
 	<Enumeration key="YourLanguageAvailable" description="User language pack is available" optional="true">
