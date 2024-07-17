@@ -45,8 +45,6 @@
   <Message key="DisplayNotificationsFor" value="Visualizzazione della finestra di notifica per (secondi)" revision="0" />
   <Message key="ClosesCurrentOnly" value="Chiudi agisce solo sulla finestra dello strumento corrente" revision="0" />
   <Message key="RestoreWindowPosition" value="Ripristino della posizione della finestra principale all'avvio" revision="0" />
-  <Message key="HoverTime" value="Tempo di hovering (ms)" revision="0" />
-  <Message key="CloseTime" value="Tempo di chiusura (ms)" revision="0" />
   <Message key="Coloring" value="Colorazione" revision="0" />
   <Message key="OverwriteColoringScheme" value="Sovrascrivere lo schema {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Nome di schema non valido o schema già esistente." revision="0" />
@@ -375,7 +373,7 @@
   <Message key="Do not display this warning anymore" value="Non visualizzare più questo messaggio" revision="1" />
   <Message key="Find Operation" value="Ricerca del testo" revision="0" />
   <Message key="NextPage" value="Continua…" revision="0" />
-  <Message key="NonComMessage" value="Almeno uno dei componenti registrati è per uso [[[bdomestico]]] o [[[bdidattico]]]..\nPer ulteriori informazioni, consultare la sezione [[[hPolitica di utilizzo]]].\n\nPer uso commerciale, governativo o militare è necessario un [[[haggiornamento]]]." revision="0" />
+  <Message key="NonComMessage" value="Almeno uno dei componenti installati è per uso [[[bdomestico]]] o [[[bdidattico]]]..\nPer ulteriori informazioni, consultare la sezione [[[hPolitica di utilizzo]]].\n\nPer uso commerciale, governativo o militare è necessario un [[[haggiornamento]]]." revision="1" />
   <Message key="yourLanguage" value="Lingua dell'utente disponibile online" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Verifica aggiornamenti" revision="0" />

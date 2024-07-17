@@ -45,8 +45,6 @@
   <Message key="DisplayNotificationsFor" value="Affichage de la fenêtre de notification pendant (secondes)" revision="0" />
   <Message key="ClosesCurrentOnly" value="Fermer n'affecte que la fenêtre de l'outil en cours" revision="0" />
   <Message key="RestoreWindowPosition" value="Restaurer la position de la fenêtre principale au démarrage" revision="0" />
-  <Message key="HoverTime" value="Temps de hover (ms)" revision="0" />
-  <Message key="CloseTime" value="Temps de fermeture (ms)" revision="0" />
   <Message key="Coloring" value="Coloriage" revision="0" />
   <Message key="OverwriteColoringScheme" value="Remplacer le schéma {scheme} ?" revision="0" />
   <Message key="InvalidColoringScheme" value="Nom de schéma invalide ou schéma déjà existant." revision="0" />
@@ -375,7 +373,7 @@
   <Message key="Do not display this warning anymore" value="Ne plus afficher ce message" revision="1" />
   <Message key="Find Operation" value="Recherche de texte" revision="0" />
   <Message key="NextPage" value="Continuer…" revision="0" />
-  <Message key="NonComMessage" value="Au moins un des composants enregistrés est destiné à un usage [[[bdomestique]]] ou [[[béducatif]]]..\nVoir [[[hPolitique d'utilisation]]] pour plus d'informations.\n\nPour une utilisation commerciale, gouvernementale ou militaire, une [[[hmise à niveau]]] est nécessaire." revision="0" />
+  <Message key="NonComMessage" value="Au moins un des composants installés est destiné à un usage [[[bdomestique]]] ou [[[béducatif]]].\nVoir [[[hPolitique d'utilisation]]] pour plus d'informations.\n\nPour une utilisation commerciale, gouvernementale ou militaire, une [[[hmise à niveau]]] est nécessaire." revision="1" />
   <Message key="yourLanguage" value="Langue de l'utilisateur disponible en ligne" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Vérifier les mises à jour" revision="0" />

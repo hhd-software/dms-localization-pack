@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ElevationError" value="Impossible d'élever les privilèges. Message d'erreur: {error}" revision="1" />
   <Message key="Devices" value="Appareils" revision="0" />
   <Message key="Sessions" value="Sessions" revision="0" />
-  <Message key="ElevationErrorTitle" value="Erreur d'extension de privilège" revision="1" />
   <Message key="IntegrityError" value="Échec de l'initialisation du composant interne: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Un ou plusieurs appareils de session sont manquants" revision="0" />
   <Message key="LogCreationFailed" value="Erreur de création du fichier journal de surveillance: {error}" revision="0" />

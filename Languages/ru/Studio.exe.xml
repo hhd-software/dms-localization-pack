@@ -45,8 +45,6 @@
   <Message key="DisplayNotificationsFor" value="Отображать окно уведомления в течение (секунд)" revision="0" />
   <Message key="ClosesCurrentOnly" value="Закрытие влияет только на текущее инструментальное окно" revision="0" />
   <Message key="RestoreWindowPosition" value="Восстанавливать положение главного окна при запуске" revision="0" />
-  <Message key="HoverTime" value="Время задержки (мс)" revision="0" />
-  <Message key="CloseTime" value="Время закрытия (мс)" revision="0" />
   <Message key="Coloring" value="Расцветка" revision="0" />
   <Message key="OverwriteColoringScheme" value="Перезаписать схему {scheme}?" revision="0" />
   <Message key="InvalidColoringScheme" value="Некорректное имя схемы или схема уже существует." revision="0" />
@@ -375,7 +373,7 @@
   <Message key="Do not display this warning anymore" value="Больше не выводить это сообщение" revision="1" />
   <Message key="Find Operation" value="Поиск текста" revision="0" />
   <Message key="NextPage" value="Продолжить…" revision="0" />
-  <Message key="NonComMessage" value="По крайней мере, один из зарегистрированных компонентов предназначен для [[[bдомашнего]]] или [[[bобразовательного]]] использования..\nПодробную информацию см. в [[[hПолитика использования]]].\n\nДля коммерческого, правительственного или военного использования требуется [[[hапгрейд]]]." revision="0" />
+  <Message key="NonComMessage" value="По крайней мере, один из установленных компонентов предназначен для [[[bдомашнего]]] или [[[bобразовательного]]] использования.\nПодробную информацию см. в [[[hПолитика использования]]].\n\nДля коммерческого, правительственного или военного использования требуется [[[hапгрейд]]]." revision="1" />
   <Message key="yourLanguage" value="Язык пользователя доступен онлайн" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />

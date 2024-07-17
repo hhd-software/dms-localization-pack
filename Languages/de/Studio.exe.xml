@@ -45,8 +45,6 @@
   <Message key="DisplayNotificationsFor" value="Anzeige des Benachrichtigungsfensters für (Sekunden)" revision="0" />
   <Message key="ClosesCurrentOnly" value="Schließen betrifft nur das aktuelle Werkzeugfenster" revision="0" />
   <Message key="RestoreWindowPosition" value="Position des Hauptfensters beim Starten wiederherstellen" revision="0" />
-  <Message key="HoverTime" value="Schwebezeit (ms)" revision="0" />
-  <Message key="CloseTime" value="Schließzeit (ms)" revision="0" />
   <Message key="Coloring" value="Färbung" revision="0" />
   <Message key="OverwriteColoringScheme" value="Schema {scheme} überschreiben?" revision="0" />
   <Message key="InvalidColoringScheme" value="Ungültiger Schemaname oder das Schema existiert bereits." revision="0" />
@@ -375,7 +373,7 @@
   <Message key="Do not display this warning anymore" value="Diese Meldung nicht mehr anzeigen" revision="1" />
   <Message key="Find Operation" value="Suche nach Text" revision="0" />
   <Message key="NextPage" value="Weiter…" revision="0" />
-  <Message key="NonComMessage" value="Mindestens eine der registrierten Komponenten ist für den [[[bHeimgebrauch]]] oder [[[bBildungsgebrauch]]] bestimmt..\nWeitere Informationen finden Sie unter [[[hNutzungsrichtlinie]]].\n\nFür kommerzielle, staatliche oder militärische Zwecke ist ein [[[hUpgrade]]] erforderlich." revision="0" />
+  <Message key="NonComMessage" value="Mindestens eine der installierten Komponenten ist für den [[[bHeimgebrauch]]] oder [[[bBildungsgebrauch]]] Gebrauch bestimmt.\nWeitere Informationen finden Sie unter [[[hNutzungsrichtlinie]]].\n\nFür kommerzielle, staatliche oder militärische Zwecke ist ein [[[hUpgrade]]] erforderlich." revision="1" />
   <Message key="yourLanguage" value="Benutzersprache online verfügbar" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="Nach Updates &amp;suchen" revision="0" />

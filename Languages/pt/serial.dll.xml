@@ -24,7 +24,7 @@
   <Message key="Invalid mode" value="Modo inválido" revision="0" />
   <Message key="SerialSessionState" value="{is terminal?}Sessão de terminal ativa: {?is terminal}{baudrate}, bits de dados: {databits}, bits de paragem: {stopbits}, paridade: {parity}" revision="0" />
   <Message key="EmergencyErrorType" value="Encerramento de emergência da sessão em série " revision="0" />
-  <Message key="CustomEmpty" value="O guião de tipo de sessão personalizado está vazio. Prima o botão Definir e introduza o guião de tipo de sessão personalizada." revision="0" />
+  <Message key="CustomEmpty" value="O script de tipo de sessão personalizado está vazio. Prima o botão Editar… e introduza o script de tipo de sessão personalizado." revision="1" />
   <Message key="CustomJoinerError" value="Erro do modo personalizado" revision="0" />
   <Message key="Error opening file" value="Erro ao abrir ficheiro de script personalizado &quot;{path}&quot;: {error text} ({error code}). A sessão utilizará o modo de comunicação genérico." revision="0" />
   <Message key="Error initializing chakra" value="Erro de inicialização do sistema de scripts. Esta funcionalidade não é suportada pelo seu sistema." revision="0" />

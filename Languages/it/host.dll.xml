@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ElevationError" value="Impossibile elevare i privilegi. Messaggio di errore: {error}" revision="1" />
   <Message key="Devices" value="Dispositivi" revision="0" />
   <Message key="Sessions" value="Sessioni" revision="0" />
-  <Message key="ElevationErrorTitle" value="Errore di estensione dei privilegi" revision="1" />
   <Message key="IntegrityError" value="Errore di inizializzazione del componente interno: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Mancano uno o più dispositivi di sessione" revision="0" />
   <Message key="LogCreationFailed" value="Errore di creazione del file di registro di monitoraggio: {error}" revision="0" />

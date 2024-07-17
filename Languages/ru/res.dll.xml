@@ -6,6 +6,7 @@
   <Message key="EditionName" value="Редакция {edition}" revision="0" />
   <Message key="SelectComponentEdition" value="Выберите редакцию компонента…" revision="0" />
   <Message key="UpgradeToEdition" value="Апгрейд до редакции {edition}" revision="0" />
+  <Message key="Unregistered" value="Незарегистрированная" revision="0" />
   <Message key="Standard Edition" value="Стандартная редакция" revision="0" />
   <Message key="Professional Edition" value="Профессиональная редакция" revision="0" />
   <Message key="Ultimate Edition" value="Конечная редакция" revision="0" />
@@ -68,11 +69,12 @@
     <Item value="Редакция" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseType">
-    <Item value="Неизвестно" revision="0" />
-    <Item value="Бесплатная" revision="0" />
-    <Item value="Пробная" revision="0" />
-    <Item value="Истекшая" revision="0" />
-    <Item value="Зарегистрированная" revision="0" />
+    <Item value="Неизвестно" revision="1" />
+    <Item value="Бесплатная" revision="1" />
+    <Item value="Пробная" revision="1" />
+    <Item value="Истекшая" revision="1" />
+    <Item value="Зарегистрированная" revision="1" />
+    <Item value="План обновлений закончился" revision="1" />
   </Enumeration>
   <Enumeration key="CommercialState">
     <Item value="Нет" revision="0" />

@@ -24,7 +24,7 @@
   <Message key="Invalid mode" value="Недопустимый режим" revision="0" />
   <Message key="SerialSessionState" value="{is terminal?}Активная терминальная сессия: {?is terminal}{baudrate}, data bits: {databits}, stop bits: {stopbits}, parity: {parity}" revision="0" />
   <Message key="EmergencyErrorType" value="Аварийное завершение последовательной сессии" revision="0" />
-  <Message key="CustomEmpty" value="Пользовательский скрипт типа сессии пуст. Нажмите кнопку Установить и введите скрипт пользовательского типа сессии." revision="0" />
+  <Message key="CustomEmpty" value="Пользовательский скрипт типа сессии пуст. Нажмите кнопку Редактировать… и введите скрипт пользовательского типа сессии." revision="1" />
   <Message key="CustomJoinerError" value="Ошибка пользовательского режима" revision="0" />
   <Message key="Error opening file" value="Ошибка открытия пользовательского скрипта &quot;{path}&quot;: {error text} ({error code}). В сессии будет использоваться generic-режим связи." revision="0" />
   <Message key="Error initializing chakra" value="Ошибка инициализации системы скриптов. Данная функция не поддерживается вашей системой." revision="0" />

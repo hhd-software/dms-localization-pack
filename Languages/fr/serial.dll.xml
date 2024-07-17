@@ -24,7 +24,7 @@
   <Message key="Invalid mode" value="Mode non valide" revision="0" />
   <Message key="SerialSessionState" value="{is terminal?}Session active du terminal : {?is terminal}{baudrate}, bits de données : {databits}, bits d'arrêt: {stopbits}, parité: {parity}" revision="0" />
   <Message key="EmergencyErrorType" value="Arrêt d'urgence de la session série" revision="0" />
-  <Message key="CustomEmpty" value="Le script de type de session personnalisé est vide. Appuyez sur le bouton Set et entrez le script de type de session personnalisé." revision="0" />
+  <Message key="CustomEmpty" value="Le script de type de session personnalisé est vide. Appuyez sur le bouton Editer… et saisissez le script de type de session personnalisé." revision="1" />
   <Message key="CustomJoinerError" value="Erreur du mode personnalisé" revision="0" />
   <Message key="Error opening file" value="Erreur lors de l'ouverture d'un fichier de script personnalisé &quot;{path}&quot;: {error text} ({error code}). La session utilisera un mode de communication générique" revision="0" />
   <Message key="Error initializing chakra" value="Erreur d'initialisation du système de script. Cette fonction n'est pas prise en charge par votre système." revision="0" />

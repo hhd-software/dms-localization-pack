@@ -24,7 +24,7 @@
   <Message key="Invalid mode" value="Ungültiger Modus" revision="0" />
   <Message key="SerialSessionState" value="{is terminal?}Aktive Terminalsitzung: {?is terminal}{baudrate}, Datenbits: {databits}, Stoppbits: {stopbits}, Parität: {parity}" revision="0" />
   <Message key="EmergencyErrorType" value="Notbeendigung der seriellen Sitzung" revision="0" />
-  <Message key="CustomEmpty" value="Das Skript für den benutzerdefinierten Sitzungstyp ist leer. Drücken Sie die Taste Einstellen und geben Sie das benutzerdefinierte Skript für den Sitzungstyp ein." revision="0" />
+  <Message key="CustomEmpty" value="Das benutzerdefinierte Sitzungsskript ist leer. Drücken Sie die Schaltfläche Bearbeiten… und geben Sie das benutzerdefinierte Sitzungsskript ein." revision="1" />
   <Message key="CustomJoinerError" value="Fehler im benutzerdefinierten Modus" revision="0" />
   <Message key="Error opening file" value="Fehler beim Öffnen einer benutzerdefinierten Skriptdatei &quot;{path}&quot;: {error text} ({error code}). Die Sitzung verwendet den generischen Kommunikationsmodus." revision="0" />
   <Message key="Error initializing chakra" value="Fehler bei der Initialisierung des Skripting-Systems. Diese Funktion wird von Ihrem System nicht unterstützt." revision="0" />

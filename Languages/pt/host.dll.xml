@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="ElevationError" value="Não é possível elevar os privilégios. Mensagem de erro: {error}" revision="1" />
   <Message key="Devices" value="Dispositivos" revision="0" />
   <Message key="Sessions" value="Sessões" revision="0" />
-  <Message key="ElevationErrorTitle" value="Erro de escalada de privilégios" revision="1" />
   <Message key="IntegrityError" value="Fallo de inicialización del componente interno: {error}" revision="0" />
   <Message key="DevicesAbsent" value="Um ou mais dispositivos de sessão estão em falta" revision="0" />
   <Message key="LogCreationFailed" value="Erro ao criar ficheiro de registo de monitorização: {error}" revision="0" />

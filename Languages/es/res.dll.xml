@@ -6,6 +6,7 @@
   <Message key="EditionName" value="{edition} Edición" revision="0" />
   <Message key="SelectComponentEdition" value="Seleccionar edición de componentes…" revision="0" />
   <Message key="UpgradeToEdition" value="Actualizar a la edición {edition}" revision="0" />
+  <Message key="Unregistered" value="No registrada" revision="0" />
   <Message key="Standard Edition" value="Edición estándar" revision="0" />
   <Message key="Professional Edition" value="Edición profesional" revision="0" />
   <Message key="Ultimate Edition" value="Edición Última" revision="0" />
@@ -68,11 +69,12 @@
     <Item value="Edición" revision="0" />
   </Enumeration>
   <Enumeration key="LicenseType">
-    <Item value="Desconocido" revision="0" />
-    <Item value="Gratis" revision="0" />
-    <Item value="Prueba" revision="0" />
-    <Item value="Expirado" revision="0" />
-    <Item value="Registrado" revision="0" />
+    <Item value="Desconocido" revision="1" />
+    <Item value="Gratis" revision="1" />
+    <Item value="Prueba" revision="1" />
+    <Item value="Expirado" revision="1" />
+    <Item value="Registrado" revision="1" />
+    <Item value="Plan de actualización caducado" revision="1" />
   </Enumeration>
   <Enumeration key="CommercialState">
     <Item value="No" revision="0" />
