@@ -167,11 +167,18 @@
 		<Item text="EXTERNAL"/>
 	</Enumeration>
 
-	<Enumeration key="ConnectionStatus" description="Connection status">
+	<Enumeration key="ConnectionStatus" description="Connection status" revision="1">
 		<Item text="No device connected"/>
 		<Item text="Device connected"/>
 		<Item text="Enumeration of the device failed"/>
 		<Item text="General connection error"/>
+		<Item text="Device caused overcurrent"/>
+		<Item text="Not enough power"/>
+		<Item text="Not enough bandwidth"/>
+		<Item text="Hub nested too deeply"/>
+		<Item text="Device in legacy hub"/>
+		<Item text="Device enumerating"/>
+		<Item text="Device reset"/>
 	</Enumeration>
 
 	<Enumeration key="UsbConfigDescriptorAttribs" description="USB Configuration descriptor attributes">

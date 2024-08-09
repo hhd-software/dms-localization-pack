@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Enumeration key="ConnectServer" description="Command: Connect New Server">
+    <Item text="Connect New Server…"/>
+    <Item text="Add connection to another server"/>
+  </Enumeration>
+
+	<Enumeration key="ReconnectServer" description="Command: Reconnect Server">
+		<Item text="Reconnect"/>
+		<Item text="Try to re-establish server connection"/>
+	</Enumeration>
+
+	<Enumeration key="DisconnectServer" description="Command: Disconnect Server">
+    <Item text="Disconnect"/>
+    <Item text="Disconnect from this server"/>
+  </Enumeration>
+
+	<Enumeration key="ShareLocalDevices" description="Command: ShareLocalDevices">
+		<Item text="Share Local Devices…"/>
+		<Item text="Launch a stand-alone copy of Device Monitoring Studio Server to share local serial and USB devices over the network."/>
+	</Enumeration>
+
+  <Message key="ConnectionError" description="Error connecting to a server" value="Error connecting to a server &quot;{server}&quot;: {error} ({error code})">
+    <Param name="server"/>
+	  <Param name="error"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+  <Message key="ConnectionErrorHeader" description="Message Box Header: Connection Error" value="Connection Error"/>
+
+	<Message key="ConnectionBroken" description="Connection was broken" value="Connection to server &quot;{server}&quot; was interrupted. The error code is: [[[b{message}]]] ({code})">
+		<Param name="server"/>
+		<Param name="message" />
+		<Param name="code" format="ub016x"/>
+	</Message>
+
+  <Message key="AlreadyConnected" description="Server is already connected" value="Server is already connected."/>
+
+  <Message key="SessionAborted" description="Session aborted error message" value="Monitoring session was aborted due to network-related error: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+  <Message key="DataPipeCreationError" description="Session data channel creation error message" value="Error creating session data channel: {error text} ({error code})">
+    <Param name="error text"/>
+    <Param name="error code" format="ub016x"/>
+  </Message>
+
+	<Message key="StartMonitoringError" description="Remote monitoring startup error" value="Error starting monitoring of selected device(s): {error text}">
+		<Param name="error text"/>
+	</Message>
+
+  <Message key="AccessDenied" description="Create session access denied" value="Remote session creation failed: {error message}.">
+    <Param name="error message"/>
+  </Message>
+
+  <Message key="NoConnection" description="No connection to server" value="Remote session may not be started until a connection to a server is established."/>
+
+  <Enumeration key="RemoteSource" description="Remote Source">
+    <Item text="Remote Monitor"/>
+    <Item text="Remote data source allows Device Monitoring Studio to connect to remote servers and monitor devices connected to them."/>
+  </Enumeration>
+
+	<Message key="DownloadServerLink" description="Download server link label" value="Download [[[h#[Click to download Device Monitoring Studio Server]#Device Monitoring Studio Server]]] and install it on a remote computer to monitor serial and USB devices attached to it." />
+
+	<Message key="tutorialStep2" description="Notification: Getting started tutorial" value="Getting started tutorial"/>
+
+	<Enumeration key="tutorialStep2-text" description="Remote Devices Monitoring Tutorial Text">
+		<Item text="Remote Devices Monitoring"/>
+		<Item text="In addition to monitoring of local serial, USB and network devices, Device Monitoring Studio allows you to connect to a remote computer to see all serial and USB devices connected to it.\n\nYou can monitor any remote serial or USB device, provided the [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] component is installed on the remote computer." revision="1"/>
+	</Enumeration>
+
+	<Message key="Remote monitoring feature" description="Feature description: Remote monitoring" value="Remote monitoring"/>
+
+	<!-- Dialog -->
+	<Message key="Connect Server" description="Window title: Connect Server"/>
+
+	<Message key="Enter the server name or address" description="Field: Enter the server name or address"/>
+	<Message key="Or select one from the list of discovered servers" description="Field: Or select one from the list of discovered servers"/>
+	<Message key="Optional access token" description="Field: Optional access token"/>
+
+	<Enumeration key="OperationErrorMessages" description="Connection error messages">
+		<Item text="Server prohibits anonymous access and empty Access Token is passed"/>
+		<Item text="Access denied. Access Token specified is not granted access"/>
+		<Item text="Access denied: the user is not granted monitoring access to this device"/>
+	</Enumeration>
+</Definition>

@@ -301,10 +301,11 @@
 		<Item text="Message" />
 	</Enumeration>
 
-	<Enumeration key="ConsoleViewOptions" description="Console View visualizer options">
+	<Enumeration key="ConsoleViewOptions" description="Console View visualizer options" revision="1">
 		<Item text="Show Read Requests" />
 		<Item text="Show Write Requests" />
 		<Item text="Show Timestamps" />
+		<Item text="Use CR Instead of LF for Newline" />
 	</Enumeration>
 
 	<!-- Advanced Console View -->
