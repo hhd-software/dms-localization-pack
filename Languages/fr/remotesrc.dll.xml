@@ -14,7 +14,7 @@
   <Message key="Remote monitoring feature" value="Monitoring à distance" revision="0" />
   <Message key="Connect Server" value="Connecter un serveur" revision="0" />
   <Message key="Enter the server name or address" value="Saisir le nom ou l'adresse du serveur" revision="0" />
-  <Message key="Or select one from the list of discovered servers" value="Ou sélectionnez un serveur dans la liste des serveurs découverts" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Ou sélectionnez-en un dans la liste " revision="0" />
   <Message key="Optional access token" value="Token d'accès optionnel" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Connexion au nouveau serveur…" revision="0" />
