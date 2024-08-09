@@ -9,7 +9,7 @@
   <Message key="StartMonitoringError" value="Ошибка при запуске мониторинга выбранного устройства (устройств):" revision="0" />
   <Message key="AccessDenied" value="Не удалось создать удалённую сессию: {error message}." revision="0" />
   <Message key="NoConnection" value="Удалённая сессия не может быть запущена до тех пор, пока не будет установлено соединение с сервером." revision="0" />
-  <Message key="DownloadServerLink" value="Загрузите программу [[[h#[Нажмите, чтобы загрузить Device Monitoring Studio Server]#Device Monitoring Studio Server]]] и установите ее на удалённый компьютер для мониторинга подключенных к нему последовательных и USB-устройств." revision="0" />
+  <Message key="DownloadServerLink" value="Загрузите программу [[[h#[Нажмите, чтобы загрузить Device Monitoring Studio Server]#Device Monitoring Studio Server]]] и установите её на удалённый компьютер для мониторинга подключенных к нему последовательных и USB-устройств." revision="0" />
   <Message key="tutorialStep2" value="Руководство &quot;Начало работы&quot;" revision="0" />
   <Message key="Remote monitoring feature" value="Удалённый мониторинг" revision="0" />
   <Message key="Connect Server" value="Подключить сервер" revision="0" />
