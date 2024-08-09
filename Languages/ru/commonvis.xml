@@ -101,9 +101,10 @@
     <Item value="Сообщение" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item value="Показывать запросы на чтение" revision="0" />
-    <Item value="Показывать запросы на запись" revision="0" />
-    <Item value="Показывать метки времени" revision="0" />
+    <Item value="Показывать запросы на чтение" revision="1" />
+    <Item value="Показывать запросы на запись" revision="1" />
+    <Item value="Показывать метки времени" revision="1" />
+    <Item value="ВК вместо ПС для Новой строки" revision="1" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
     <Item value="Продвинутая консоль" revision="0" />

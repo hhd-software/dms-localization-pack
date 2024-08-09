@@ -223,10 +223,17 @@
     <Item value="EXTERN" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item value="Kein Gerät angeschlossen" revision="0" />
-    <Item value="Gerät angeschlossen" revision="0" />
-    <Item value="Aufzählung des Geräts fehlgeschlagen" revision="0" />
-    <Item value="Allgemeiner Verbindungsfehler" revision="0" />
+    <Item value="Kein Gerät angeschlossen" revision="1" />
+    <Item value="Gerät angeschlossen" revision="1" />
+    <Item value="Aufzählung des Geräts fehlgeschlagen" revision="1" />
+    <Item value="Allgemeiner Verbindungsfehler" revision="1" />
+    <Item value="Gerät hat einen Überstrom verursacht" revision="1" />
+    <Item value="Nicht genug Leistung" revision="1" />
+    <Item value="Nicht genug Bandbreite" revision="1" />
+    <Item value="Hub zu tief verschachtelt" revision="1" />
+    <Item value="Gerät befindet sich im Legacy-Hub" revision="1" />
+    <Item value="Gerät ist am Aufzählen" revision="1" />
+    <Item value="Gerät zurückgesetzt" revision="1" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
     <Item value="Fernaufwachen" revision="0" />

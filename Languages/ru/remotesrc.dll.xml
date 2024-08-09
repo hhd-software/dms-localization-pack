@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Ошибка при подключении к серверу &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Ошибка соединения" revision="0" />
+  <Message key="ConnectionBroken" value="Соединение с сервером &quot;{server}&quot; было прервано. Код ошибки: [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="Сервер уже подключен." revision="0" />
+  <Message key="SessionAborted" value="Сессия мониторинга была прервана из-за ошибки, связанной с сетью: {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Ошибка создания канала данных сессии: {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Ошибка при запуске мониторинга выбранного устройства (устройств):" revision="0" />
+  <Message key="AccessDenied" value="Не удалось создать удаленную сессию: {error message}." revision="0" />
+  <Message key="NoConnection" value="Удаленная сессия не может быть запущена до тех пор, пока не будет установлено соединение с сервером." revision="0" />
+  <Message key="DownloadServerLink" value="Загрузите [[[h#[Нажмите, чтобы загрузить Device Monitoring Studio Server]#Device Monitoring Studio Server]]] и установите ее на удаленный компьютер для мониторинга подключенных к нему последовательных и USB-устройств." revision="0" />
+  <Message key="tutorialStep2" value="Руководство &quot;Начало работы&quot;" revision="0" />
+  <Message key="Remote monitoring feature" value="Удаленный мониторинг" revision="0" />
+  <Message key="Connect Server" value="Подключить сервер" revision="0" />
+  <Message key="Enter the server name or address" value="Введите имя или адрес сервера" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Или выберите один из списка обнаруженных серверов." revision="0" />
+  <Message key="Optional access token" value="Необязательный токен доступа" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Связаться с новым сервером…" revision="0" />
+    <Item value="Добавьте соединение с другим сервером" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Переподключить" revision="0" />
+    <Item value="Переустановить соединение с сервером" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Отключить" revision="0" />
+    <Item value="Отключиться от этого сервера" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Расшарить локальные устройства…" revision="0" />
+    <Item value="Запустите отдельную копию Device Monitoring Studio Server для совместного использования локальных последовательных и USB-устройств по сети." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Дистанционный монитор" revision="0" />
+    <Item value="Удаленный источник данных позволяет Device Monitoring Studio подключаться к удаленным серверам и мониторить подключенные к ним устройства." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Мониторинг удаленных устройств" revision="0" />
+    <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удаленному компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удаленное последовательное или USB-устройство, если на удаленном компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="Сервер запрещает анонимный доступ, и передается пустой токен доступа" revision="0" />
+    <Item value="В доступ отказано. Указанному токену доступа не предоставлен доступ" revision="0" />
+    <Item value="Доступ запрещен: пользователю не предоставлен доступ к мониторингу данного устройства" revision="0" />
+  </Enumeration>
+</Language>

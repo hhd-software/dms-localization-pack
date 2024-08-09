@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Erreur de connexion à un serveur &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Erreur de connexion" revision="0" />
+  <Message key="ConnectionBroken" value="La connexion au serveur &quot;{server}&quot; a été interrompue. Le code d'erreur est le suivant : [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="Le serveur est déjà connecté." revision="0" />
+  <Message key="SessionAborted" value="La session de surveillance a été interrompue en raison d'une erreur liée au réseau : {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Erreur lors de la création d'un canal de données de session : {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Erreur lors du démarrage de la surveillance du (des) dispositif(s) sélectionné(s) :" revision="0" />
+  <Message key="AccessDenied" value="Échec de la création d'une session à distance: {error message}." revision="0" />
+  <Message key="NoConnection" value="La session à distance ne peut pas être lancée tant qu'une connexion avec un serveur n'est pas établie." revision="0" />
+  <Message key="DownloadServerLink" value="Téléchargez [[[h#[Cliquez pour télécharger Device Monitoring Studio Server]#Device Monitoring Studio Server]]] et installez-le sur un ordinateur distant pour surveiller les périphériques série et USB qui y sont connectés." revision="0" />
+  <Message key="tutorialStep2" value="&quot;Tutoriel &quot;Getting Started" revision="0" />
+  <Message key="Remote monitoring feature" value="Monitoring à distance" revision="0" />
+  <Message key="Connect Server" value="Connecter un serveur" revision="0" />
+  <Message key="Enter the server name or address" value="Saisir le nom ou l'adresse du serveur" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Ou sélectionnez un serveur dans la liste des serveurs découverts" revision="0" />
+  <Message key="Optional access token" value="Token d'accès optionnel" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Connexion au nouveau serveur…" revision="0" />
+    <Item value="Ajouter une connexion à un autre serveur" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Reconnecter" revision="0" />
+    <Item value="Essayer de rétablir la connexion au serveur" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Déconnecter" revision="0" />
+    <Item value="Se déconnecter de ce serveur" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Partager des appareils locaux…" revision="0" />
+    <Item value="Lancez une copie autonome de Device Monitoring Studio Server pour partager des périphériques série et USB locaux sur le réseau." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Surveillance à distance" revision="0" />
+    <Item value="La source de données à distance permet à Device Monitoring Studio de se connecter à des serveurs distants et de surveiller les appareils qui y sont connectés." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Surveillance des dispositifs à distance" revision="0" />
+    <Item value="Outre la surveillance des périphériques sériels, USB et réseau locaux, Device Monitoring Studio vous permet de vous connecter à un ordinateur distant pour voir tous les périphériques sériels et USB qui y sont connectés.\n\nVous pouvez contrôler n'importe quel périphérique série ou USB distant, à condition que le composant [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] soit installé sur l'ordinateur distant." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="Le serveur interdit l'accès anonyme et un token d'accès vide est transmis." revision="0" />
+    <Item value="Accès refusé. L'accès au token d'accès spécifié n'est pas autorisé" revision="0" />
+    <Item value="Accès refusé : l'utilisateur n'est pas autorisé à surveiller cet appareil." revision="0" />
+  </Enumeration>
+</Language>

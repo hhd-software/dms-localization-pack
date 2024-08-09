@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Error de conexión a un servidor &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Error de conexión" revision="0" />
+  <Message key="ConnectionBroken" value="Se ha interrumpido la conexión con el servidor &quot;{server}&quot;. El código de error es: [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="El servidor ya está conectado." revision="0" />
+  <Message key="SessionAborted" value="La sesión de monitorización se ha interrumpido debido a un error relacionado con la red: {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Error al crear el canal de datos de sesión: {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Error al iniciar la supervisión de los dispositivos seleccionados:" revision="0" />
+  <Message key="AccessDenied" value="Error al crear una sesión remota: {error message}." revision="0" />
+  <Message key="NoConnection" value="La sesión remota no puede iniciarse hasta que se establezca una conexión con un servidor." revision="0" />
+  <Message key="DownloadServerLink" value="Descargue [[[h#[Haga clic para descargar Device Monitoring Studio Server]#Device Monitoring Studio Server]]] e instálelo en un ordenador remoto para supervisar los dispositivos serie y USB conectados a él." revision="0" />
+  <Message key="tutorialStep2" value="&quot;Tutorial &quot;Cómo empezar" revision="0" />
+  <Message key="Remote monitoring feature" value="Monitorización remota" revision="0" />
+  <Message key="Connect Server" value="Conectar un servidor" revision="0" />
+  <Message key="Enter the server name or address" value="Introduzca el nombre o la dirección del servidor" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="O seleccione uno de la lista de servidores descubiertos" revision="0" />
+  <Message key="Optional access token" value="Token de acceso opcional" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Conectar al nuevo servidor…" revision="0" />
+    <Item value="Añadir conexión a otro servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Reconectar" revision="0" />
+    <Item value="Intentar restablecer la conexión con el servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Desconectar" revision="0" />
+    <Item value="Desconectar de este servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Compartir dispositivos locales…" revision="0" />
+    <Item value="Inicie una copia independiente de Device Monitoring Studio Server para compartir dispositivos serie y USB locales a través de la red." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Monitorización remota" revision="0" />
+    <Item value="El origen de datos remoto permite a Device Monitoring Studio conectarse a servidores remotos y supervisar los dispositivos conectados a ellos." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Monitorización remota de dispositivos" revision="0" />
+    <Item value="Además de supervisar los dispositivos serie, USB y de red locales, Device Monitoring Studio permite conectarse a un ordenador remoto para ver todos los dispositivos serie y USB conectados a él.\n\nPuede supervisar cualquier dispositivo serie o USB remoto, siempre que el componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] esté instalado en el ordenador remoto." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="El servidor prohíbe el acceso anónimo y se pasa un Token de Acceso vacío" revision="0" />
+    <Item value="Acceso denegado. No se ha concedido acceso al token de acceso especificado" revision="0" />
+    <Item value="Acceso denegado: el usuario no tiene acceso de supervisión a este dispositivo." revision="0" />
+  </Enumeration>
+</Language>

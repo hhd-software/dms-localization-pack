@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Errore di connessione a un server &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Errore di connessione" revision="0" />
+  <Message key="ConnectionBroken" value="La connessione al server &quot;{server}&quot; è stata interrotta. Il codice di errore è: [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="Il server è già connesso." revision="0" />
+  <Message key="SessionAborted" value="La sessione di monitoraggio è stata interrotta a causa di un errore legato alla rete: {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Errore nella creazione del canale dati della sessione: {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Errore nell'avvio del monitoraggio dei dispositivi selezionati:" revision="0" />
+  <Message key="AccessDenied" value="Errore nella creazione di una sessione remota: {error message}." revision="0" />
+  <Message key="NoConnection" value="La sessione remota non può essere avviata finché non viene stabilita una connessione con il server." revision="0" />
+  <Message key="DownloadServerLink" value="Scaricate [[[h#[Clicca per scaricare Device Monitoring Studio Server]#Device Monitoring Studio Server]]] e installatelo su un computer remoto per monitorare i dispositivi seriali e USB ad esso collegati." revision="0" />
+  <Message key="tutorialStep2" value="&quot;Tutorial &quot;Per iniziare" revision="0" />
+  <Message key="Remote monitoring feature" value="Monitoraggio remoto" revision="0" />
+  <Message key="Connect Server" value="Collegare un server" revision="0" />
+  <Message key="Enter the server name or address" value="Inserire il nome o l'indirizzo del server" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Oppure selezionare uno dall'elenco dei server rilevati" revision="0" />
+  <Message key="Optional access token" value="Token di accesso opzionale" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Connettersi al nuovo server…" revision="0" />
+    <Item value="Aggiungere la connessione a un altro server" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Riconnettersi" revision="0" />
+    <Item value="Prova a ristabilire la connessione al server" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Disconnettere" revision="0" />
+    <Item value="Disconnettersi da questo server" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Condividi dispositivi locali…" revision="0" />
+    <Item value="Avviare una copia autonoma di Device Monitoring Studio Server per condividere in rete i dispositivi seriali e USB locali." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Monitoraggio remoto" revision="0" />
+    <Item value="L'origine dati remota consente a Device Monitoring Studio di collegarsi a server remoti e di monitorare i dispositivi ad essi collegati." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Monitoraggio dei dispositivi remoti" revision="0" />
+    <Item value="Oltre al monitoraggio dei dispositivi seriali, USB e di rete locali, Device Monitoring Studio consente di collegarsi a un computer remoto per visualizzare tutti i dispositivi seriali e USB ad esso collegati.\n\nÈ possibile monitorare qualsiasi dispositivo seriale o USB remoto, a condizione che il componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] sia installato sul computer remoto." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="Il server vieta l'accesso anonimo e viene passato un token di accesso vuoto" revision="0" />
+    <Item value="Accesso negato. Al token di accesso specificato non è stato concesso l'accesso" revision="0" />
+    <Item value="Accesso negato: all'utente non è stato concesso l'accesso al monitoraggio di questo dispositivo." revision="0" />
+  </Enumeration>
+</Language>

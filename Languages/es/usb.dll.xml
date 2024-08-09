@@ -223,10 +223,17 @@
     <Item value="EXTERNO" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item value="Ningún dispositivo conectado" revision="0" />
-    <Item value="Dispositivo conectado" revision="0" />
-    <Item value="Fallo en la enumeración del dispositivo" revision="0" />
-    <Item value="Error general de conexión" revision="0" />
+    <Item value="Ningún dispositivo conectado" revision="1" />
+    <Item value="Dispositivo conectado" revision="1" />
+    <Item value="Fallo en la enumeración del dispositivo" revision="1" />
+    <Item value="Error general de conexión" revision="1" />
+    <Item value="Dispositivo provocó una sobrecorriente" revision="1" />
+    <Item value="Potencia insuficiente" revision="1" />
+    <Item value="Ancho de banda insuficiente" revision="1" />
+    <Item value="Hub anidado demasiado profundamente" revision="1" />
+    <Item value="El dispositivo está en el hub heredado" revision="1" />
+    <Item value="El dispositivo está enumerando" revision="1" />
+    <Item value="Reinicio del dispositivo" revision="1" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
     <Item value="Activación remota" revision="0" />

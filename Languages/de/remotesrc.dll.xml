@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Fehler bei der Verbindung zu einem Server &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Verbindungsfehler" revision="0" />
+  <Message key="ConnectionBroken" value="Die Verbindung zum Server &quot;{server}&quot; wurde unterbrochen. Der Fehlercode: [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="Der Server ist bereits verbunden." revision="0" />
+  <Message key="SessionAborted" value="Die Überwachungssitzung wurde aufgrund eines netzwerkbezogenen Fehlers abgebrochen: {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Fehler beim Erstellen des Sitzungsdatenkanals: {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Fehler beim Starten der Überwachung des/der ausgewählten Geräte(s):" revision="0" />
+  <Message key="AccessDenied" value="Remote session creation failed: {error message}." revision="0" />
+  <Message key="NoConnection" value="Eine Remote-Sitzung kann erst dann gestartet werden, wenn eine Verbindung zu einem Server hergestellt wurde." revision="0" />
+  <Message key="DownloadServerLink" value="Laden Sie [[[h#[Zum Herunterladen anklicken Device Monitoring Studio Server]#Device Monitoring Studio Server]]] herunter und installieren Sie es auf einem entfernten Computer, um die an ihn angeschlossenen seriellen und USB-Geräte zu überwachen." revision="0" />
+  <Message key="tutorialStep2" value="Tutorial &quot;Erste Schritte&quot;" revision="0" />
+  <Message key="Remote monitoring feature" value="Fernüberwachung" revision="0" />
+  <Message key="Connect Server" value="Verbinden Sie einen Server" revision="0" />
+  <Message key="Enter the server name or address" value="Geben Sie den Servernamen oder die Adresse ein" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Or select a server from the list of servers found" revision="0" />
+  <Message key="Optional access token" value="Optionales Zugangs-Token" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Verbindung zum neuen Server…" revision="0" />
+    <Item value="Verbindung zu einem anderen Server hinzufügen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Erneut verbinden" revision="0" />
+    <Item value="Versuchen Sie, die Serververbindung wiederherzustellen" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Trennen Sie" revision="0" />
+    <Item value="Trennen Sie die Verbindung zu diesem Server" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Lokale Geräte teilen…" revision="0" />
+    <Item value="Starten Sie eine eigenständige Kopie von Device Monitoring Studio Server, um lokale serielle und USB-Geräte über das Netzwerk freizugeben." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Fernüberwachung" revision="0" />
+    <Item value="Die Remote-Datenquelle ermöglicht es Device Monitoring Studio, sich mit Remote-Servern zu verbinden und die mit ihnen verbundenen Geräte zu überwachen." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Fernüberwachung von Geräten" revision="0" />
+    <Item value="Neben der Überwachung lokaler serieller, USB- und Netzwerkgeräte ermöglicht Device Monitoring Studio die Verbindung mit einem entfernten Computer, um alle daran angeschlossenen seriellen und USB-Geräte zu sehen.\n\nSie können jedes entfernte serielle oder USB-Gerät überwachen, sofern die Komponente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] auf dem entfernten Computer installiert ist." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="Server verbietet anonymen Zugriff und leeres Zugriffstoken wird übergeben" revision="0" />
+    <Item value="Zugriff verweigert. Dem angegebenen Zugriffstoken wird kein Zugriff gewährt." revision="0" />
+    <Item value="Zugriff verweigert: dem Benutzer wird kein Überwachungszugriff auf dieses Gerät gewährt" revision="0" />
+  </Enumeration>
+</Language>

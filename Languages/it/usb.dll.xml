@@ -223,10 +223,17 @@
     <Item value="ESTERNO" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item value="Nessun dispositivo collegato" revision="0" />
-    <Item value="Dispositivo collegato" revision="0" />
-    <Item value="Enumerazione del dispositivo non riuscita" revision="0" />
-    <Item value="Errore generale di connessione" revision="0" />
+    <Item value="Nessun dispositivo collegato" revision="1" />
+    <Item value="Dispositivo collegato" revision="1" />
+    <Item value="Enumerazione del dispositivo non riuscita" revision="1" />
+    <Item value="Errore generale di connessione" revision="1" />
+    <Item value="Il dispositivo ha causato una sovracorrente" revision="1" />
+    <Item value="Potenza insufficiente" revision="1" />
+    <Item value="Larghezza di banda insufficiente" revision="1" />
+    <Item value="Hub annidato troppo profondamente" revision="1" />
+    <Item value="Il dispositivo è nell'hub legacy" revision="1" />
+    <Item value="Il dispositivo sta enumerando" revision="1" />
+    <Item value="Reset del dispositivo" revision="1" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
     <Item value="Risveglio remoto" revision="0" />

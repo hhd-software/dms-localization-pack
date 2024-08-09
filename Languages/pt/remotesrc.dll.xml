@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
+  <Message key="ConnectionError" value="Erro ao ligar a um servidor &quot;{server}&quot;: {error} ({error code})" revision="0" />
+  <Message key="ConnectionErrorHeader" value="Erro de ligação" revision="0" />
+  <Message key="ConnectionBroken" value="A ligação ao servidor &quot;{server}&quot; foi interrompida. O código de erro é: [[[b{message}]]] ({code})" revision="0" />
+  <Message key="AlreadyConnected" value="O servidor já está ligado." revision="0" />
+  <Message key="SessionAborted" value="A sessão de monitorização foi abortada devido a um erro relacionado com a rede: {error text} ({error code})" revision="0" />
+  <Message key="DataPipeCreationError" value="Erro ao criar o canal de dados da sessão: {error text} ({error code})" revision="0" />
+  <Message key="StartMonitoringError" value="Erro ao iniciar a monitorização do(s) dispositivo(s) selecionado(s):" revision="0" />
+  <Message key="AccessDenied" value="Falha ao criar uma sessão remota: {error message}." revision="0" />
+  <Message key="NoConnection" value="A sessão remota não pode ser iniciada até que seja estabelecida uma ligação a um servidor." revision="0" />
+  <Message key="DownloadServerLink" value="Descarregue o [[[h#[Clique para descarregar Device Monitoring Studio Server]#Device Monitoring Studio Server]]] e instale-o num computador remoto para monitorizar os dispositivos de série e USB ligados ao mesmo." revision="0" />
+  <Message key="tutorialStep2" value="&quot;Tutorial &quot;Introdução" revision="0" />
+  <Message key="Remote monitoring feature" value="Monitorização remota" revision="0" />
+  <Message key="Connect Server" value="Ligar um servidor" revision="0" />
+  <Message key="Enter the server name or address" value="Introduzir o nome ou o endereço do servidor" revision="0" />
+  <Message key="Or select one from the list of discovered servers" value="Ou selecionar um da lista de servidores detectados" revision="0" />
+  <Message key="Optional access token" value="Token de acesso opcional" revision="0" />
+  <Enumeration key="ConnectServer">
+    <Item value="Ligar a um novo servidor…" revision="0" />
+    <Item value="Adicionar ligação a outro servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="ReconnectServer">
+    <Item value="Voltar a ligar" revision="0" />
+    <Item value="Tentar restabelecer a ligação ao servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="DisconnectServer">
+    <Item value="Desligar" revision="0" />
+    <Item value="Desligar deste servidor" revision="0" />
+  </Enumeration>
+  <Enumeration key="ShareLocalDevices">
+    <Item value="Partilhar dispositivos locais…" revision="0" />
+    <Item value="Inicie uma cópia autónoma do Device Monitoring Studio Server para partilhar dispositivos seriais e USB locais através da rede." revision="0" />
+  </Enumeration>
+  <Enumeration key="RemoteSource">
+    <Item value="Monitorização remota" revision="0" />
+    <Item value="A fonte de dados remota permite que o Device Monitoring Studio se ligue a servidores remotos e monitorize os dispositivos a eles ligados." revision="0" />
+  </Enumeration>
+  <Enumeration key="tutorialStep2-text">
+    <Item value="Monitorização de dispositivos remotos" revision="0" />
+    <Item value="Para além da monitorização de dispositivos locais de série, USB e de rede, o Device Monitoring Studio permite-lhe ligar-se a um computador remoto para ver todos os dispositivos de série e USB a ele ligados.\n\nPode monitorizar qualquer dispositivo remoto de série ou USB, desde que o componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] esteja instalado no computador remoto." revision="1" />
+  </Enumeration>
+  <Enumeration key="OperationErrorMessages">
+    <Item value="O servidor proíbe o acesso anónimo e é passado um Token de Acesso vazio" revision="0" />
+    <Item value="Acesso negado. O Token de Acesso especificado não tem acesso" revision="0" />
+    <Item value="Acesso negado: o utilizador não tem acesso de monitorização a este dispositivo" revision="0" />
+  </Enumeration>
+</Language>

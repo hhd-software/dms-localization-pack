@@ -223,10 +223,17 @@
     <Item value="EXTERNE" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item value="Aucun appareil connecté" revision="0" />
-    <Item value="Appareil connecté" revision="0" />
-    <Item value="L'énumération de l'appareil a échoué" revision="0" />
-    <Item value="Erreur générale de connexion" revision="0" />
+    <Item value="Aucun appareil connecté" revision="1" />
+    <Item value="Appareil connecté" revision="1" />
+    <Item value="L'énumération de l'appareil a échoué" revision="1" />
+    <Item value="Erreur générale de connexion" revision="1" />
+    <Item value="L'appareil a provoqué une surintensité" revision="1" />
+    <Item value="Pas assez de puissance" revision="1" />
+    <Item value="Largeur de bande insuffisante" revision="1" />
+    <Item value="Hub imbriqué trop profondément" revision="1" />
+    <Item value="L'appareil est dans un concentrateur hérité" revision="1" />
+    <Item value="L'appareil est en train d'énumérer" revision="1" />
+    <Item value="Réinitialisation du dispositif" revision="1" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
     <Item value="Activation à distance" revision="0" />

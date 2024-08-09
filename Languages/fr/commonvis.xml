@@ -100,9 +100,10 @@
     <Item value="Message" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item value="Afficher les demandes de lecture" revision="0" />
-    <Item value="Afficher les demandes d'écriture" revision="0" />
-    <Item value="Afficher les timestamps" revision="0" />
+    <Item value="Afficher les demandes de lecture" revision="1" />
+    <Item value="Afficher les demandes d'écriture" revision="1" />
+    <Item value="Afficher les timestamps" revision="1" />
+    <Item value="Utiliser CR au lieu de LF pour la nouvelle ligne" revision="1" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
     <Item value="Vue avancée de la console" revision="0" />

@@ -101,9 +101,10 @@
     <Item value="Nachricht" revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleViewOptions">
-    <Item value="Leseanfragen anzeigen" revision="0" />
-    <Item value="Schreibanfragen anzeigen" revision="0" />
-    <Item value="Zeitstempel anzeigen" revision="0" />
+    <Item value="Leseanfragen anzeigen" revision="1" />
+    <Item value="Schreibanfragen anzeigen" revision="1" />
+    <Item value="Zeitstempel anzeigen" revision="1" />
+    <Item value="CR statt LF für Newline verwenden" revision="1" />
   </Enumeration>
   <Enumeration key="AdvancedConsoleView">
     <Item value="Erweiterte Konsolen Ansicht" revision="0" />

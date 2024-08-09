@@ -223,10 +223,17 @@
     <Item value="ВНЕШНИЙ" revision="0" />
   </Enumeration>
   <Enumeration key="ConnectionStatus">
-    <Item value="Не подключены устройства" revision="0" />
-    <Item value="Устройство подключено" revision="0" />
-    <Item value="Не удалось выполнить перечисление устройств" revision="0" />
-    <Item value="Общая ошибка подключения" revision="0" />
+    <Item value="Не подключены устройства" revision="1" />
+    <Item value="Устройство подключено" revision="1" />
+    <Item value="Не удалось выполнить перечисление устройств" revision="1" />
+    <Item value="Общая ошибка подключения" revision="1" />
+    <Item value="Устройство вызвало перегрузку по току" revision="1" />
+    <Item value="Не хватает мощности" revision="1" />
+    <Item value="Не хватает пропускной способности" revision="1" />
+    <Item value="Хаб расположен слишком глубоко" revision="1" />
+    <Item value="Устройство в устаревшем хабе" revision="1" />
+    <Item value="Устройство перечисляет" revision="1" />
+    <Item value="Сброс устройства" revision="1" />
   </Enumeration>
   <Enumeration key="UsbConfigDescriptorAttribs">
     <Item value="Дистанционное пробуждение" revision="0" />
