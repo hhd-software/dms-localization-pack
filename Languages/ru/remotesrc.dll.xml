@@ -38,7 +38,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep2-text">
     <Item value="Мониторинг удалённых устройств" revision="0" />
-    <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удалённому компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удаленное последовательное или USB-устройство, если на удалённом компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
+    <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удалённому компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удалённое последовательное или USB-устройство, если на удалённом компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
     <Item value="Сервер запрещает анонимный доступ, и передаётся пустой токен доступа" revision="0" />
