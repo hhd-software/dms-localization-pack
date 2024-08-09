@@ -7,11 +7,11 @@
   <Message key="SessionAborted" value="Сессия мониторинга была прервана из-за ошибки, связанной с сетью: {error text} ({error code})" revision="0" />
   <Message key="DataPipeCreationError" value="Ошибка создания канала данных сессии: {error text} ({error code})" revision="0" />
   <Message key="StartMonitoringError" value="Ошибка при запуске мониторинга выбранного устройства (устройств):" revision="0" />
-  <Message key="AccessDenied" value="Не удалось создать удаленную сессию: {error message}." revision="0" />
-  <Message key="NoConnection" value="Удаленная сессия не может быть запущена до тех пор, пока не будет установлено соединение с сервером." revision="0" />
-  <Message key="DownloadServerLink" value="Загрузите программу [[[h#[Нажмите, чтобы загрузить Device Monitoring Studio Server]#Device Monitoring Studio Server]]] и установите ее на удаленный компьютер для мониторинга подключенных к нему последовательных и USB-устройств." revision="0" />
+  <Message key="AccessDenied" value="Не удалось создать удалённую сессию: {error message}." revision="0" />
+  <Message key="NoConnection" value="Удалённая сессия не может быть запущена до тех пор, пока не будет установлено соединение с сервером." revision="0" />
+  <Message key="DownloadServerLink" value="Загрузите программу [[[h#[Нажмите, чтобы загрузить Device Monitoring Studio Server]#Device Monitoring Studio Server]]] и установите ее на удалённый компьютер для мониторинга подключенных к нему последовательных и USB-устройств." revision="0" />
   <Message key="tutorialStep2" value="Руководство &quot;Начало работы&quot;" revision="0" />
-  <Message key="Remote monitoring feature" value="Удаленный мониторинг" revision="0" />
+  <Message key="Remote monitoring feature" value="Удалённый мониторинг" revision="0" />
   <Message key="Connect Server" value="Подключить сервер" revision="0" />
   <Message key="Enter the server name or address" value="Введите имя или адрес сервера" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="Или выберите один из списка обнаруженных" revision="0" />
@@ -34,15 +34,15 @@
   </Enumeration>
   <Enumeration key="RemoteSource">
     <Item value="Дистанционный монитор" revision="0" />
-    <Item value="Удаленный источник данных позволяет Device Monitoring Studio подключаться к удаленным серверам и мониторить подключенные к ним устройства." revision="0" />
+    <Item value="Удалённый источник данных позволяет Device Monitoring Studio подключаться к удалённым серверам и мониторить подключенные к ним устройства." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep2-text">
-    <Item value="Мониторинг удаленных устройств" revision="0" />
-    <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удаленному компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удаленное последовательное или USB-устройство, если на удаленном компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
+    <Item value="Мониторинг удалённых устройств" revision="0" />
+    <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удалённому компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удаленное последовательное или USB-устройство, если на удалённом компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="Сервер запрещает анонимный доступ, и передается пустой токен доступа" revision="0" />
-    <Item value="В доступ отказано. Указанному токену доступа не предоставлен доступ" revision="0" />
-    <Item value="Доступ запрещен: пользователю не предоставлен доступ к мониторингу данного устройства" revision="0" />
+    <Item value="Сервер запрещает анонимный доступ, и передаётся пустой токен доступа" revision="0" />
+    <Item value="В доступе отказано. Указанному токену доступа не предоставлен доступ" revision="0" />
+    <Item value="Доступ запрещён: пользователю не предоставлен доступ к мониторингу данного устройства" revision="0" />
   </Enumeration>
 </Language>
