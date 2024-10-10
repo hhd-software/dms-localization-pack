@@ -279,8 +279,8 @@
   <Message key="Add" value="&amp;Добавить" revision="0" />
   <Message key="Edit" value="&amp;Редактировать" revision="0" />
   <Message key="Remove" value="&amp;Удалить" revision="0" />
-  <Message key="Remove All" value="Удалить в&amp;се" revision="0" />
-  <Message key="Reset All" value="Сбросить в&amp;се" revision="0" />
+  <Message key="Remove All" value="Удалить в&amp;сё" revision="0" />
+  <Message key="Reset All" value="Сбросить в&amp;сё" revision="0" />
   <Message key="Copy" value="&amp;Копировать" revision="0" />
   <Message key="Continue" value="Продолжить" revision="0" />
   <Message key="Import" value="&amp;Импорт…" revision="0" />
