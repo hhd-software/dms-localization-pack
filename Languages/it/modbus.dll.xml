@@ -179,7 +179,7 @@
     <Item value="OK" revision="0" />
   </Enumeration>
   <Enumeration key="DestinationAddr">
-    <Item value="Escravo" revision="0" />
+    <Item value="Schiavo" revision="0" />
     <Item value="Trasmissione" revision="0" />
   </Enumeration>
   <Enumeration key="ForceSingleCoil">
