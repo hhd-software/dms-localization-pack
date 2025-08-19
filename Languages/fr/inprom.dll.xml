@@ -13,8 +13,24 @@
     <Item value="Connecter le port série distant…" revision="0" />
     <Item value="Rendez un port série distant disponible sur cet ordinateur à l'aide de HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
+  <Enumeration key="UsbConnectRemote">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbShareDevice">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Pour commencer" revision="0" />
     <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus." revision="1" />
+  </Enumeration>
+  <Enumeration key="tutorialStep3-text">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="tutorialStep4-text">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

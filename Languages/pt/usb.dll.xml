@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Próximo dispositivo conectado (USB)" revision="0" />
-  <Message key="DriverConnectError" value="Erro ao ligar ao driver do filtro: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Não é possível ligar ao dispositivo selecionado." revision="0" />
   <Message key="Unknown Device" value="Dispositivo desconhecido" revision="0" />
   <Message key="EmergencyErrorType" value="Encerramento de emergência da sessão USB" revision="0" />

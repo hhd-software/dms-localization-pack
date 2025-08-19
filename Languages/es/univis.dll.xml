@@ -313,14 +313,6 @@
     <Item value="&amp;Contraer subárbol" revision="0" />
     <Item value="Contraer el subárbol del campo" revision="0" />
   </Enumeration>
-  <Enumeration key="NetNextPacket">
-    <Item value="Paquete &amp;siguiente" revision="0" />
-    <Item value="Saltar al siguiente paquete" revision="0" />
-  </Enumeration>
-  <Enumeration key="NetPrevPacket">
-    <Item value="Paquete &amp;precedente" revision="0" />
-    <Item value="Saltar al paquete precedente" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="Detalles del paquete &amp;seleccionado" revision="0" />
     <Item value="Mostrar los detalles del paquete" revision="0" />
@@ -352,6 +344,14 @@
   <Enumeration key="EditSelectPacket">
     <Item value="&amp;Seleccionar paquete" revision="0" />
     <Item value="Seleccionar datos del paquete actual" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditNextPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPrevPacket">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="EditSelectAll">
     <Item value="Seleccionar todo" revision="0" />
@@ -629,6 +629,7 @@
     <Item value="Número" revision="1" />
     <Item lookup="Name" />
     <Item lookup="Value" />
+    <Item />
     <Item lookup="Offset" />
     <Item lookup="Size" />
     <Item lookup="Type" />

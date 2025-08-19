@@ -313,14 +313,6 @@
     <Item value="&amp;Свернуть поддерево" revision="0" />
     <Item value="Свернуть поддерево поля" revision="0" />
   </Enumeration>
-  <Enumeration key="NetNextPacket">
-    <Item value="&amp;Следующий пакет" revision="0" />
-    <Item value="Перейти к следующему пакету" revision="0" />
-  </Enumeration>
-  <Enumeration key="NetPrevPacket">
-    <Item value="&amp;Предыдущий пакет" revision="0" />
-    <Item value="Перейти к предыдущему пакету" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="&amp;Детали выбранного пакета" revision="0" />
     <Item value="Детали выбранного пакета" revision="0" />
@@ -352,6 +344,14 @@
   <Enumeration key="EditSelectPacket">
     <Item value="&amp;Выбрать пакет" revision="0" />
     <Item value="Выбор данных текущего пакета" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditNextPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPrevPacket">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="EditSelectAll">
     <Item value="Выбрать все" revision="0" />
@@ -629,6 +629,7 @@
     <Item value="Номер" revision="1" />
     <Item lookup="Name" />
     <Item lookup="Value" />
+    <Item />
     <Item lookup="Offset" />
     <Item lookup="Size" />
     <Item lookup="Type" />

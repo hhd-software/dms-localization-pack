@@ -32,6 +32,10 @@
     <Item value="Запросы" revision="0" />
     <Item value="Визуализатор запросов декодирует все пакеты данных и управляющие запросы, отправляемые на последовательное устройство и получаемые от него." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Консольный вид (Legacy)" revision="0" />
     <Item value="Консольный вид работает как окно консоли и отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов." revision="0" />
@@ -197,5 +201,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Отображать сырые данные" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

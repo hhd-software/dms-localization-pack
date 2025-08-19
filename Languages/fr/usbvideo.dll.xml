@@ -68,6 +68,24 @@
     <Item />
     <Item />
   </Enumeration>
+  <Enumeration key="VCTypesCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="VSTypesCat">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="UsbVideoScanningModes">
     <Item />
     <Item />

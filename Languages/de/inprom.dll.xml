@@ -13,8 +13,24 @@
     <Item value="Verbindung mit einem entfernten COM-Port" revision="0" />
     <Item value="Machen Sie mit dem HHD Software Remote Serial Ports Client eine entfernte serielle Schnittstelle auf diesem Computer verfügbar." revision="0" />
   </Enumeration>
+  <Enumeration key="UsbConnectRemote">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbShareDevice">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Wie man anfängt" revision="0" />
     <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf." revision="1" />
+  </Enumeration>
+  <Enumeration key="tutorialStep3-text">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="tutorialStep4-text">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

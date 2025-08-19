@@ -2,7 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Следующее подключённое устройство (Serial)" revision="0" />
   <Message key="sessionTypeTutorial" value="Пособие по окну последовательных сессий" revision="0" />
-  <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Невозможно присоединиться к выбранному устройству." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uСвойства последовательного порта]]]]]]]]]\n\n" revision="0" />
   <Message key="MaxTxQueue" value="[[[bМакс TX Queue]]]\t{has value?}{value} байт{|has value}нет{?has value}\n" revision="0" />

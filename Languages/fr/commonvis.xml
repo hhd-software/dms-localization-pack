@@ -31,6 +31,10 @@
     <Item value="Vue des demandes" revision="0" />
     <Item value="La visionneuse Vue des demandes décode tous les paquets de données et les demandes de contrôle envoyés et reçus de l'appareil série." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vue de la console (Legacy)" revision="0" />
     <Item value="La Vue de la console fonctionne comme une fenêtre de console série et affiche les caractères reçus de l'appareil série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte. Il s'agit d'un visualiseur de données anciennes." revision="0" />
@@ -196,5 +200,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Visualiser les données brutes" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

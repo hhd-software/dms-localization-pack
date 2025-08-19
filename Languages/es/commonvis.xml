@@ -32,6 +32,10 @@
     <Item value="Vista de la solicitud" revision="0" />
     <Item value="La Vista de la solicitud descodifica todos los paquetes de datos y peticiones de control enviados y recibidos del dispositivo serie." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista de la consola (Legacy)" revision="0" />
     <Item value="La Vista de Consola funciona como una ventana de consola serie y muestra los caracteres recibidos desde el dispositivo serie. Es un visualizador útil para supervisar protocolos basados en texto. Se trata de un visualizador de datos heredado." revision="0" />
@@ -197,5 +201,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Visualizar datos brutos" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

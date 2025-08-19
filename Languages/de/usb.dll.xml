@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Nächstes angeschlossenes Gerät (USB)" revision="0" />
-  <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Das ausgewählte Gerät kann nicht angeschlossen werden." revision="0" />
   <Message key="Unknown Device" value="Unbekanntes Gerät" revision="0" />
   <Message key="EmergencyErrorType" value="Notbeendigung einer USB-Sitzung" revision="0" />

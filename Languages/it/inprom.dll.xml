@@ -13,8 +13,24 @@
     <Item value="Collegare la porta seriale remota…" revision="0" />
     <Item value="Rendere disponibile una porta seriale remota su questo computer utilizzando HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
+  <Enumeration key="UsbConnectRemote">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbShareDevice">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Come iniziare" revision="0" />
     <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso." revision="1" />
+  </Enumeration>
+  <Enumeration key="tutorialStep3-text">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="tutorialStep4-text">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

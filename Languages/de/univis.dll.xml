@@ -313,14 +313,6 @@
     <Item value="Teilbaum &amp;komprimieren" revision="0" />
     <Item value="Den Teilbaum des Feldes zuklappen" revision="0" />
   </Enumeration>
-  <Enumeration key="NetNextPacket">
-    <Item value="&amp;Nächstes Paket" revision="0" />
-    <Item value="Zum nächsten Paket springen" revision="0" />
-  </Enumeration>
-  <Enumeration key="NetPrevPacket">
-    <Item value="&amp;Vorheriges Paket" revision="0" />
-    <Item value="Zum vorherigen Paket springen" revision="0" />
-  </Enumeration>
   <Enumeration key="NetShowCurrent">
     <Item value="&amp;Ausgewählte Paketdetails" revision="0" />
     <Item value="Details des Pakets anzeigen" revision="0" />
@@ -352,6 +344,14 @@
   <Enumeration key="EditSelectPacket">
     <Item value="Packet &amp;auswählen" revision="0" />
     <Item value="Daten des aktuellen Pakets auswählen" revision="0" />
+  </Enumeration>
+  <Enumeration key="EditNextPacket">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="EditPrevPacket">
+    <Item />
+    <Item />
   </Enumeration>
   <Enumeration key="EditSelectAll">
     <Item value="Alle auswählen" revision="0" />
@@ -629,6 +629,7 @@
     <Item value="Nummer" revision="1" />
     <Item lookup="Name" />
     <Item lookup="Value" />
+    <Item />
     <Item lookup="Offset" />
     <Item lookup="Size" />
     <Item lookup="Type" />

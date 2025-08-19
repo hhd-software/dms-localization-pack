@@ -66,7 +66,7 @@
     <Item value="Archivos JavaScript|*.js|" revision="0" />
   </Enumeration>
   <Enumeration key="PlaybackSpeeds">
-    <Item value="Paso a paso" revision="0" />
+    <Item lookup="Stepped" />
     <Item />
     <Item />
     <Item />
@@ -76,7 +76,7 @@
     <Item />
     <Item />
     <Item />
-    <Item value="Continuo" revision="0" />
+    <Item lookup="Continuous" />
   </Enumeration>
   <Enumeration key="DeletePlayback">
     <Item value="Borrar" revision="0" />

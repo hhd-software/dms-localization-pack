@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DriverConnectError" value="Erro na ligação ao controlador de filtros: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Não é possível ligar ao dispositivo selecionado." revision="0" />
   <Message key="VirtualAdapterDevice" value="Adaptador de importação de ficheiros de log externo" revision="0" />
   <Message key="VirtualAdapterCategory" value="Adaptadores virtuais" revision="0" />

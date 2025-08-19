@@ -150,6 +150,7 @@
     <Item value="Standard" revision="0" />
     <Item value="Clase" revision="0" />
     <Item value="Vendedor" revision="0" />
+    <Item />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Dispositivo" revision="0" />

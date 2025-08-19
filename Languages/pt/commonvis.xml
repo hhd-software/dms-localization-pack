@@ -32,6 +32,10 @@
     <Item value="Vista do pedido" revision="0" />
     <Item value="Vista do pedido descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista da consola (Legacy)" revision="0" />
     <Item value="A Vista de consola funciona como uma janela de consola de série e apresenta os caracteres recebidos do dispositivo de série. É um visualizador útil para monitorizar protocolos baseados em texto. Este é um visualizador de dados legado." revision="0" />
@@ -197,5 +201,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Exibir dados brutos" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

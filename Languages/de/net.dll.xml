@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Das ausgewählte Gerät kann nicht verbunden werden." revision="0" />
   <Message key="VirtualAdapterDevice" value="Adapter für den Import von externen Protokolldateien" revision="0" />
   <Message key="VirtualAdapterCategory" value="Virtuelle Adapter" revision="0" />

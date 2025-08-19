@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DriverConnectError" value="Erreur de connexion au pilote du filtre: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Impossible de s'attacher à l'appareil sélectionné." revision="0" />
   <Message key="VirtualAdapterDevice" value="Adaptateur pour l'importation de fichiers journaux externes" revision="0" />
   <Message key="VirtualAdapterCategory" value="Adaptateurs virtuels" revision="0" />

@@ -13,8 +13,24 @@
     <Item value="Подключиться к удалённому COM порту…" revision="0" />
     <Item value="Сделайте доступным удалённый последовательный порт на этом компьютере с помощью HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
+  <Enumeration key="UsbConnectRemote">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UsbShareDevice">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Начало работы" revision="0" />
     <Item value="Чтобы начать мониторинг, найдите последовательное, USB или сетевое устройство, которое вы хотите отслеживать, в [[[v#[toolwindow.devices]# ]]] [[[hинструментальном окне &quot;Устройства&quot;]]] и дважды щёлкните на нем." revision="1" />
+  </Enumeration>
+  <Enumeration key="tutorialStep3-text">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="tutorialStep4-text">
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

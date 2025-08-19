@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Невозможно присоединиться к выбранному устройству." revision="0" />
   <Message key="VirtualAdapterDevice" value="Адаптер импорта внешних лог файлов" revision="0" />
   <Message key="VirtualAdapterCategory" value="Виртуальные адаптеры" revision="0" />

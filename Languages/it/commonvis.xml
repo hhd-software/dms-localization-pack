@@ -31,6 +31,10 @@
     <Item value="Vista delle richieste" revision="0" />
     <Item value="Il visualizzatore della Vista di richiesta decodifica tutti i pacchetti di dati e le richieste di controllo inviate e ricevute dal dispositivo seriale." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista della console (Legacy)" revision="0" />
     <Item value="La Vista della console funziona come una finestra di console seriale e visualizza i caratteri ricevuti dal dispositivo seriale. È un visualizzatore utile per monitorare i protocolli basati sul testo. Si tratta di un visualizzatore di dati legacy." revision="0" />
@@ -196,5 +200,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Visualizzare i dati grezzi" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

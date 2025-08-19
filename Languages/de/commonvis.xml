@@ -32,6 +32,10 @@
     <Item value="Anfragen" revision="0" />
     <Item value="Der Anfrage-Visualisierer dekodiert alle Datenpakete und Steueranfragen, die an das serielle Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
+  <Enumeration key="NewUrbViewConverter">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Konsolen Ansicht (Legacy)" revision="0" />
     <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
@@ -197,5 +201,23 @@
   </Enumeration>
   <Enumeration key="MassViewOptions">
     <Item value="Rohdaten anzeigen" revision="0" />
+  </Enumeration>
+  <Enumeration key="UrbViewSchemes">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="UrbViewOptions">
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+    <Item />
   </Enumeration>
 </Language>

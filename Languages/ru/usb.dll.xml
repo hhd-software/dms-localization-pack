@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Следующее подключённое устройство (USB)" revision="0" />
-  <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Невозможно подключиться к выбранному устройству." revision="0" />
   <Message key="Unknown Device" value="Неизвестное устройство" revision="0" />
   <Message key="EmergencyErrorType" value="Аварийное завершение сессии USB" revision="0" />

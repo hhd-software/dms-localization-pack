@@ -2,7 +2,6 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="NextConnectedNotify" value="Prochain appareil connecté (série)" revision="0" />
   <Message key="sessionTypeTutorial" value="Tutoriel sur la fenêtre du type de session série" revision="0" />
-  <Message key="DriverConnectError" value="Erreur lors de la connexion au pilote du filtre: {error text} ({error code})" revision="0" />
   <Message key="AttachError" value="Impossible de s'attacher à l'appareil sélectionné." revision="0" />
   <Message key="SerialPortProperties" value="[[[s:120:[[[b[[[uPropriétés du port série]]]]]]]]]\n\n" revision="0" />
   <Message key="MaxTxQueue" value="[[[bMax. TX Queue]]]\t{has value?}{value} octets{|has value}aucune{?has value}\n" revision="0" />

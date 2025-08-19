@@ -47,4 +47,5 @@
   <Message key="Out CTS Flow" value="Out CTS Fluxo" revision="0" />
   <Message key="Out XON/XOFF" value="Out XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="Em XON/XOFF" revision="0" />
+  <Message key="DriverConnectError" value="Erro ao ligar ao driver do filtro: {error text} ({error code})" revision="0" />
 </Language>

@@ -150,6 +150,7 @@
     <Item value="Стандартный" revision="0" />
     <Item value="Класс" revision="0" />
     <Item value="Вендор" revision="0" />
+    <Item />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Устройство" revision="0" />
