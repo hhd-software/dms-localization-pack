@@ -116,9 +116,9 @@
     <Item value="Открыть папку с файлами протоколов" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item value="По умолчанию" revision="0" />
-    <Item value="Показать все" revision="0" />
-    <Item value="Ничего не отображать" revision="0" />
+    <Item value="По умолчанию" revision="1" />
+    <Item value="Всё" revision="1" />
+    <Item value="Ничего" revision="1" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Опция" revision="0" />

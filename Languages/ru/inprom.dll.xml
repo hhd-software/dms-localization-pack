@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="tutorialStep1" value="Пособие по началу работы" revision="0" />
+  <Message key="tutorialStep3" value="Информация о VSPT и VUSB" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Создать виртуальный COM порт…" revision="0" />
     <Item value="Создание виртуального последовательного порта с помощью HHD Software Free Virtual Serial Ports." revision="0" />
@@ -14,23 +15,23 @@
     <Item value="Сделайте доступным удалённый последовательный порт на этом компьютере с помощью HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectRemote">
-    <Item />
-    <Item />
+    <Item value="Перенести USB-устройство" revision="0" />
+    <Item value="Запустите HHD Software Virtual USB Tools Client, чтобы виртуально подключить удалённое USB-устройство к этому компьютеру." revision="0" />
   </Enumeration>
   <Enumeration key="UsbShareDevice">
-    <Item />
-    <Item />
+    <Item value="Перенести это устройство" revision="0" />
+    <Item value="Запустите программу HHD Software Virtual USB Tools Server, чтобы передать это USB-устройство по сети." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item value="Начало работы" revision="0" />
+    <Item value="Начало работы" revision="1" />
     <Item value="Чтобы начать мониторинг, найдите последовательное, USB или сетевое устройство, которое вы хотите отслеживать, в [[[v#[toolwindow.devices]# ]]] [[[hинструментальном окне &quot;Устройства&quot;]]] и дважды щёлкните на нем." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
-    <Item />
-    <Item />
+    <Item value="Виртуальные Serial и USB устройства" revision="0" />
+    <Item value="Мы также предлагаем продукты, которые позволяют создавать виртуальные Serial и USB устройства, эмулирующие реальные физические устройства.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]]  поддерживает создание виртуальных последовательных портов, локальных или удалённых мостов. Он позволяет совместно использовать существующие последовательные порты по сети или даже создавать последовательные порты, управляемые скриптом.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] предоставляет возможность виртуально передавать USB-устройство с одного компьютера на другой по сети без необходимости его физического подключения." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep4-text">
-    <Item />
-    <Item />
+    <Item value="Последовательный мост" revision="0" />
+    <Item value="Помимо поддержки мониторинга последовательных устройств, Device Monitoring Studio может отслеживать соединение между двумя последовательными устройствами.\n\nПодключите оба последовательных устройства к двум последовательным портам ПК и создайте новый [[[v#[cmd.bridge.new]# ]]] [[[hПоследовательный Мост.]]]. После того, как созданный мост появится в [[[v#[toolwindow.devices]# ]]] [[[hИнструментальном окне устройств]]],  дважды щелкните по нему, чтобы восстановить соединение между последовательными устройствами и начать мониторинг." revision="0" />
   </Enumeration>
 </Language>

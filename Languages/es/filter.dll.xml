@@ -11,8 +11,8 @@
   <Message key="Italic" value="Сursiva" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Esquema actual no guardado&gt;" revision="0" />
   <Message key="DefaultScheme" value="Por defecto" revision="0" />
-  <Message key="DisplayAllScheme" value="Mostrar todo" revision="0" />
-  <Message key="DisplayNoneScheme" value="Mostrar ninguno" revision="0" />
+  <Message key="DisplayAllScheme" value="Activar todo" revision="1" />
+  <Message key="DisplayNoneScheme" value="Activar Ninguno" revision="1" />
   <Message key="Filter" value="Filtro" revision="0" />
   <Message key="DeleteBuiltin" value="Este esquema está integrado y no puede suprimirse." revision="0" />
   <Message key="SaveBuiltin" value="No se puede guardar un esquema con nombre incorporado." revision="0" />

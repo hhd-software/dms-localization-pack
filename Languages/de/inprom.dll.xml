@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="tutorialStep1" value="Anleitung für die ersten Schritte" revision="0" />
+  <Message key="tutorialStep3" value="Informationen zu VSPT und VUSB" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Virtuelle serielle Schnittstelle erstellen…" revision="0" />
     <Item value="Erstellen Sie eine virtuelle serielle Schnittstelle mit HHD Software Free Virtual Serial Ports." revision="0" />
@@ -14,23 +15,23 @@
     <Item value="Machen Sie mit dem HHD Software Remote Serial Ports Client eine entfernte serielle Schnittstelle auf diesem Computer verfügbar." revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectRemote">
-    <Item />
-    <Item />
+    <Item value="USB-Gerät übertragen" revision="0" />
+    <Item value="Starten Sie den HHD Software Virtual USB Tools Client, um ein entferntes USB-Gerät virtuell mit diesem Computer zu verbinden." revision="0" />
   </Enumeration>
   <Enumeration key="UsbShareDevice">
-    <Item />
-    <Item />
+    <Item value="Dieses Gerät übertragen" revision="0" />
+    <Item value="Starten Sie den HHD Software Virtual USB Tools Server, um dieses USB-Gerät über das Netzwerk freizugeben." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item value="Wie man anfängt" revision="0" />
+    <Item value="Erste Schritte" revision="1" />
     <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
-    <Item />
-    <Item />
+    <Item value="Virtuelle Geräte: Seriell und USB" revision="0" />
+    <Item value="Wir bieten auch Produkte an, mit denen virtuelle serielle und USB-Geräte erstellt werden können, die echte physische Geräte emulieren.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]] unterstützt die Erstellung virtueller serieller Schnittstellen, lokaler oder entfernter Brücken. Es ermöglicht die gemeinsame Nutzung vorhandener serieller Schnittstellen über das Netzwerk oder sogar die Erstellung serieller Schnittstellen, die über ein Skript gesteuert werden.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] bietet eine Möglichkeit, ein USB-Gerät virtuell über das Netzwerk von einem Computer auf einen anderen zu übertragen, ohne es physisch neu anschließen zu müssen." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep4-text">
-    <Item />
-    <Item />
+    <Item value="Serielle Brücke" revision="0" />
+    <Item value="Zusätzlich zur Unterstützung der Überwachung serieller Geräte kann Device Monitoring Studio die Verbindung zwischen zwei verschiedenen seriellen Geräten überwachen.\n\nVerbinden Sie beide seriellen Geräte mit zwei seriellen Anschlüssen des PCs und erstellen Sie eine neue [[[v#[cmd.bridge.new]# ]]] [[[hSerielle Brücke.]]]. Nachdem die erstellte Brücke im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Toolfenster]]] angezeigt wird, doppelklicken Sie darauf, um die Verbindung zwischen den seriellen Geräten wiederherzustellen und die Überwachung zu starten." revision="0" />
   </Enumeration>
 </Language>

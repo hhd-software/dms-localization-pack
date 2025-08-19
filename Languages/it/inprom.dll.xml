@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="tutorialStep1" value="Esercitazione introduttiva" revision="0" />
+  <Message key="tutorialStep3" value="Informazioni su VSPT e VUSB" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Creare la porta seriale virtuale…" revision="0" />
     <Item value="Creare una porta seriale virtuale con HHD Software Porte seriali virtuali gratuite." revision="0" />
@@ -14,23 +15,23 @@
     <Item value="Rendere disponibile una porta seriale remota su questo computer utilizzando HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectRemote">
-    <Item />
-    <Item />
+    <Item value="Trasferisci dispositivo USB remoto" revision="0" />
+    <Item value="Avvia il client HHD Software Virtual USB Tools per collegare virtualmente un dispositivo USB remoto a questo computer." revision="0" />
   </Enumeration>
   <Enumeration key="UsbShareDevice">
-    <Item />
-    <Item />
+    <Item value="Trasferisci questo dispositivo" revision="0" />
+    <Item value="Avvia il software HHD Virtual USB Tools Server per condividere questo dispositivo USB sulla rete." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item value="Come iniziare" revision="0" />
+    <Item value="Per iniziare" revision="1" />
     <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
-    <Item />
-    <Item />
+    <Item value="Dispositivi virtuali: Seriale e USB" revision="0" />
+    <Item value="Offriamo anche prodotti che consentono la creazione di dispositivi seriali e USB virtuali che emulano dispositivi fisici reali.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]] supporta la creazione di porte seriali virtuali, ponti locali o remoti. Consente la condivisione di porte seriali esistenti sulla rete o persino la creazione di porte seriali controllate da uno script.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] offre un modo per trasferire virtualmente un dispositivo USB da un computer all'altro attraverso la rete, senza bisogno di ricollegarlo fisicamente." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep4-text">
-    <Item />
-    <Item />
+    <Item value="Ponte seriale" revision="0" />
+    <Item value="Oltre al supporto per il monitoraggio dei dispositivi seriali, Device Monitoring Studio è in grado di monitorare la connessione tra due dispositivi seriali distinti.\n\nCollegare entrambi i dispositivi seriali a due porte seriali del PC e creare un nuovo [[[v#[cmd.bridge.new]# ]]] [[[hPonte Seriale.]]].Dopo che il ponte creato appare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra degli strumenti dei dispositivi]]], fare doppio clic su di esso per ristabilire la connessione tra i dispositivi seriali e avviare il monitoraggio." revision="0" />
   </Enumeration>
 </Language>

@@ -11,8 +11,8 @@
   <Message key="Italic" value="Corsivo" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Schema corrente non salvato&gt;" revision="0" />
   <Message key="DefaultScheme" value="Predefinito" revision="0" />
-  <Message key="DisplayAllScheme" value="Visualizza tutti" revision="0" />
-  <Message key="DisplayNoneScheme" value="Visualizza Nessuno" revision="0" />
+  <Message key="DisplayAllScheme" value="Attiva tutto" revision="1" />
+  <Message key="DisplayNoneScheme" value="Abilita Nessuno" revision="1" />
   <Message key="Filter" value="Filtro" revision="0" />
   <Message key="DeleteBuiltin" value="Questo schema è integrato e non può essere eliminato." revision="0" />
   <Message key="SaveBuiltin" value="Non è possibile salvare uno schema con un nome incorporato." revision="0" />

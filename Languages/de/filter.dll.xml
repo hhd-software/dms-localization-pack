@@ -11,8 +11,8 @@
   <Message key="Italic" value="Kursive" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Derzeitiges ungesichertes Schema&gt;" revision="0" />
   <Message key="DefaultScheme" value="Standard" revision="0" />
-  <Message key="DisplayAllScheme" value="Alle anzeigen" revision="0" />
-  <Message key="DisplayNoneScheme" value="Anzeige Keine" revision="0" />
+  <Message key="DisplayAllScheme" value="Alle aktivieren" revision="1" />
+  <Message key="DisplayNoneScheme" value="Keine aktivieren" revision="1" />
   <Message key="Filter" value="Filter" revision="0" />
   <Message key="DeleteBuiltin" value="Dieses Schema ist fest eingebaut und kann nicht gelöscht werden." revision="0" />
   <Message key="SaveBuiltin" value="Es ist nicht möglich, ein Schema unter dem Namen eines eingebetteten Schemas zu speichern." revision="0" />

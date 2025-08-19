@@ -116,9 +116,9 @@
     <Item value="Abrir a pasta de ficheiros de protocolos" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item value="Por defeito" revision="0" />
-    <Item value="Mostrar tudo" revision="0" />
-    <Item value="Mostrar nada" revision="0" />
+    <Item value="Por defeito" revision="1" />
+    <Item value="Ativar tudo" revision="1" />
+    <Item value="Ativar Nenhum" revision="1" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Opção" revision="0" />

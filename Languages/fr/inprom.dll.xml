@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="tutorialStep1" value="Tutoriel de démarrage" revision="0" />
+  <Message key="tutorialStep3" value="Informations sur VSPT et VUSB" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Créer un port série virtuel…" revision="0" />
     <Item value="Créer un port série virtuel à l'aide de HHD Software Free Virtual Serial Ports." revision="0" />
@@ -14,23 +15,23 @@
     <Item value="Rendez un port série distant disponible sur cet ordinateur à l'aide de HHD Software Remote Serial Ports Client." revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectRemote">
-    <Item />
-    <Item />
+    <Item value="Transférer un périphérique USB" revision="0" />
+    <Item value="Lancez le logiciel HHD Virtual USB Tools Client pour connecter virtuellement un périphérique USB distant à cet ordinateur." revision="0" />
   </Enumeration>
   <Enumeration key="UsbShareDevice">
-    <Item />
-    <Item />
+    <Item value="Transférer cet appareil" revision="0" />
+    <Item value="Lancez le logiciel HHD Virtual USB Tools Server pour partager ce périphérique USB sur le réseau." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item value="Pour commencer" revision="0" />
+    <Item value="Pour commencer" revision="1" />
     <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
-    <Item />
-    <Item />
+    <Item value="Périphériques virtuels : Série et USB" revision="0" />
+    <Item value="Nous proposons également des produits permettant de créer des périphériques série et USB virtuels qui émulent des périphériques physiques réels.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]] prend en charge la création de ports série virtuels, de ponts locaux ou distants. Il permet de partager des ports série existants sur le réseau ou même de créer des ports série contrôlés par un script.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] permet de transférer virtuellement un périphérique USB d'un ordinateur à un autre via le réseau, sans avoir à le reconnecter physiquement." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep4-text">
-    <Item />
-    <Item />
+    <Item value="Pont série" revision="0" />
+    <Item value="En plus de la prise en charge de la surveillance des périphériques série, Device Monitoring Studio peut surveiller la connexion entre deux périphériques série distincts.\n\nConnectez les deux périphériques série à deux ports série du PC et créez un nouveau [[[v#[cmd.bridge.new]# ]]] [[[hPont Série.]]]. Une fois que le pont créé apparaît dans la fenêtre [[[v#[toolwindow.devices]# ]]] [[[hFenêtre d'outils des périphériques]]], double-cliquez dessus pour rétablir la connexion entre les périphériques série et lancer la surveillance." revision="0" />
   </Enumeration>
 </Language>

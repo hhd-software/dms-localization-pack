@@ -11,8 +11,8 @@
   <Message key="Italic" value="Italique" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Schéma actuel non sauvegardé&gt;" revision="0" />
   <Message key="DefaultScheme" value="Défaut" revision="0" />
-  <Message key="DisplayAllScheme" value="Afficher tout" revision="0" />
-  <Message key="DisplayNoneScheme" value="Afficheur Aucun" revision="0" />
+  <Message key="DisplayAllScheme" value="Activer tout" revision="1" />
+  <Message key="DisplayNoneScheme" value="Activer Aucun" revision="1" />
   <Message key="Filter" value="Filtre" revision="0" />
   <Message key="DeleteBuiltin" value="Ce système est intégré et ne peut pas être supprimé." revision="0" />
   <Message key="SaveBuiltin" value="Vous ne pouvez pas enregistrer un schéma avec un nom intégré." revision="0" />

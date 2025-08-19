@@ -116,9 +116,9 @@
     <Item value="Aprire la cartella dei file dei protocolli" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item value="Predefinito" revision="0" />
-    <Item value="Visualizza tutti" revision="0" />
-    <Item value="Visualizza nessuno" revision="0" />
+    <Item value="Predefinito" revision="1" />
+    <Item value="Abilita tutto" revision="1" />
+    <Item value="Abilita Nessuno" revision="1" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Opzione" revision="0" />

@@ -11,8 +11,8 @@
   <Message key="Italic" value="Курсив" revision="0" />
   <Message key="UnsavedScheme" value="&lt;Несохранённая текущая схема&gt;" revision="0" />
   <Message key="DefaultScheme" value="По умолчанию" revision="0" />
-  <Message key="DisplayAllScheme" value="Показать все" revision="0" />
-  <Message key="DisplayNoneScheme" value="Не показывать ничего" revision="0" />
+  <Message key="DisplayAllScheme" value="Всё" revision="1" />
+  <Message key="DisplayNoneScheme" value="Ничего" revision="1" />
   <Message key="Filter" value="Фильтр" revision="0" />
   <Message key="DeleteBuiltin" value="Это встроенная схема, которая не может быть удалена." revision="0" />
   <Message key="SaveBuiltin" value="Сохранить схему под именем встроенной нельзя." revision="0" />

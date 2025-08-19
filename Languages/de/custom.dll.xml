@@ -116,9 +116,9 @@
     <Item value="Ordner mit den Protokollen öffnen" revision="0" />
   </Enumeration>
   <Enumeration key="PredefinedSchemes">
-    <Item value="Standard" revision="0" />
-    <Item value="Alle anzeigen" revision="0" />
-    <Item value="Anzeige keine" revision="0" />
+    <Item value="Standard" revision="1" />
+    <Item value="Alle aktivieren" revision="1" />
+    <Item value="Keine aktivieren" revision="1" />
   </Enumeration>
   <Enumeration key="FilterComponentColumns">
     <Item value="Option" revision="0" />

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="tutorialStep1" value="Tutorial de iniciación" revision="0" />
+  <Message key="tutorialStep3" value="Información sobre VSPT y VUSB" revision="0" />
   <Enumeration key="SerialNewVirtualPort">
     <Item value="Crear puerto serie virtual…" revision="0" />
     <Item value="Crear puerto serie virtual usando HHD Software Free Virtual Serial Ports." revision="0" />
@@ -14,23 +15,23 @@
     <Item value="Ponga a disposición un puerto serie remoto en este ordenador utilizando el Cliente de Puertos Serie Remotos de HHD Software." revision="0" />
   </Enumeration>
   <Enumeration key="UsbConnectRemote">
-    <Item />
-    <Item />
+    <Item value="Transferir dispositivo USB remoto" revision="0" />
+    <Item value="Inicie el software HHD Virtual USB Tools Client para conectar virtualmente un dispositivo USB remoto a este ordenador." revision="0" />
   </Enumeration>
   <Enumeration key="UsbShareDevice">
-    <Item />
-    <Item />
+    <Item value="Transferir este dispositivo" revision="0" />
+    <Item value="Inicie el servidor de herramientas USB virtuales del software HHD para compartir este dispositivo USB a través de la red." revision="0" />
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
-    <Item value="Primeros pasos" revision="0" />
+    <Item value="Primeros pasos" revision="1" />
     <Item value="Para iniciar la supervisión, localice el dispositivo serie, USB o de red que desea supervisar en la [[[v#[toolwindow.devices]# ]]] [[[hventana de herramientas de dispositivos]]] y haga doble clic en él." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
-    <Item />
-    <Item />
+    <Item value="Dispositivos virtuales: Serie y USB" revision="0" />
+    <Item value="También ofrecemos productos que permiten crear dispositivos serie y USB virtuales que emulan dispositivos físicos reales.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]] admite la creación de puertos serie virtuales y puentes locales o remotos. Permite compartir puertos serie existentes a través de la red o incluso crear puertos serie controlados por un script.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] ofrece una forma de transferir virtualmente un dispositivo USB de un ordenador a otro a través de la red, sin necesidad de volver a conectarlo físicamente." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep4-text">
-    <Item />
-    <Item />
+    <Item value="Puente en serie" revision="0" />
+    <Item value="Además de la compatibilidad con la supervisión de dispositivos serie, Device Monitoring Studio puede supervisar la conexión entre dos dispositivos serie distintos.\n\nConecte ambos dispositivos serie a dos puertos serie del PC y cree un nuevo [[[v#[cmd.bridge.new]# ]]] [[[hPuente Serie.]]]. Después de que el puente creado aparezca en la [[[v#[toolwindow.devices]# ]]] [[[hVentana de herramientas de dispositivos]]], haga doble clic en él para restablecer la conexión entre los dispositivos serie e iniciar la supervisión." revision="0" />
   </Enumeration>
 </Language>
