@@ -36,6 +36,11 @@
 		<Item text="Request View decodes all data packets and control requests sent to and received from the serial device."/>
 	</Enumeration>
 
+	<Enumeration key="NewUrbViewConverter" description="URB View visualizer title and description">
+		<Item text="URB View"/>
+		<Item text="URB View data visualizer decodes raw packets and control requests sent to and received from the usb device."/>
+	</Enumeration>
+
 	<Enumeration key="ConsoleConverter" description="Console View (Legacy) visualizer title and description">
 		<Item text="Console View (Legacy)"/>
 		<Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols. This is a legacy data visualizer."/>
@@ -971,5 +976,26 @@
 	<Message optional="true" key="Logical Unit Number" description="Field: Logical Unit Number"/>
 	<Message optional="true" key="Response Code" description="Field: Response Code"/>
 	<Message optional="true" key="Function" description="Field: Function"/>
+
+	<!-- New URB View (based on Custom View) localization -->
+	<Enumeration key="UrbViewSchemes" description="URB View visualizer schemes (coloring and fonts)">
+		<Item text="Empty space"/>
+		<Item text="Text"/>
+		<Item text="Header"/>
+		<Item text="Field Name"/>
+		<Item text="Field Value"/>
+		<Item text="Error Field Value"/>
+		<Item text="Read Dump"/>
+		<Item text="Write Dump"/>
+		<Item text="Link"/>
+	</Enumeration>
+
+	<Enumeration key="UrbViewOptions" description="URB View visualizer options">
+		<Item text="Display connect and create requests"/>
+		<Item text="Display down reads"/>
+		<Item text="Display up writes"/>
+		<Item text="List all isochronous packets"/>
+		<Item text="Display line numbers"/>
+	</Enumeration>
 
 </Definition>

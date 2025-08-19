@@ -278,7 +278,14 @@
 
   <Message key="SignatureError" description="Downloaded file signature check error" value="Device Monitoring Studio has downloaded an update, but it failed integrity checks. This may indicate temporary or permanent network configuration errors. Please try updating later."/>
 
-  <Message key="ConfigurationError" description="Bad application state" value="Device Monitoring Studio is in invalid state. Reinstall the application to fix it."/>
+	<Message key="ConfigurationError" description="Bad application state" value="Device Monitoring Studio is in invalid state. Reinstall the application to fix it.{has additional info?}\n\nAdditional information:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPress [[[bCtrl+C]]] to copy this text to the Clipboard and [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contact Support]]] for assistance.{?has additional info}" revision="1">
+		<Param name="has additional info" format="?"/>
+		<Param name="has error code" format="?"/>
+		<Param name="error message"/>
+		<Param name="error code" format="ub016x"/>
+		<Param name="has description" format="?"/>
+		<Param name="description"/>
+	</Message>
 
   <Message key="Restarting Device" description="Restarting device"/>
 
@@ -288,9 +295,10 @@
 
   <Message key="ElevationErrorTitle" description="Message box title: Process elevation error" value="Elevation Error"/>
 
-  <Message key="Main Title" description="Main application title" value="{free?}Free {?free}Device Monitoring Studio{prerelease?} (PRERELEASE VERSION){?prerelease}">
+  <Message key="Main Title" description="Main application title" value="{free?}Free {?free}Device Monitoring Studio{prerelease?} (PRERELEASE VERSION){?prerelease}{admin?} (Administrator){?admin}" revision="1">
     <Param name="free" format="?"/>
     <Param name="prerelease" format="?"/>
+	  <Param name="admin" format="?"/>
   </Message>
 
   <!-- Beta page -->
@@ -775,6 +783,7 @@
 	<Message key="Reset All" description="Button: Reset All" value="Reset A&amp;ll"/>
 	<Message key="Copy" description="Button: Copy" value="&amp;Copy"/>
 	<Message key="Continue" description="Button: Continue"/>
+	<Message key="Fix Installation" description="Button: Fix Installation"/>
 	<Message key="Import" description="Button: Import" value="&amp;Import…" />
 	<Message key="Export" description="Button: Export" value="&amp;Export…" />
 	<Message key="Browse" description="Button: Browse" value="&amp;Browse…" />
@@ -997,4 +1006,6 @@
 			<Param name="language"/>
 		</Item>
 	</Enumeration>
+
+	<Message key="ProgressPleaseWait" value="Please Wait…" description="Progress dialog: Please Wait…"/>
 </Definition>

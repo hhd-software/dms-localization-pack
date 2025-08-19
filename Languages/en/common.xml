@@ -67,5 +67,10 @@
 	<Message key="Out XON/XOFF" description="Label text: Output xon/xoff" value="Out XON/XOFF"/>
 	<Message key="In XON/XOFF" description="Label text: Input xon/xoff" value="In XON/XOFF"/>
 
+	<Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
+		<Param name="error text"/>
+		<Param name="error code" format="b016x"/>
+	</Message>
+
 
 </Definition>

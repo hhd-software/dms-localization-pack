@@ -5,9 +5,11 @@
   <Message key="CreateReaderError" description="Error: Can't create log reader" value="Can't create log reader {filename}">
     <Param name="filename"/>
   </Message>
-  <Message key="PlaybackInitError" description="Error: Playback initialization failed " value="Playback initialization failed  {filename}">
-    <Param name="filename"/>
-  </Message>
+	<Message key="PlaybackInitError" description="Error: Playback initialization failed " revision="1" value="Playback initialization failed for file &quot;{filename}&quot; with the following error: {error} ({code})">
+		<Param name="filename"/>
+		<Param name="error"/>
+		<Param name="code" format="ub016x"/>
+	</Message>
   <Message key="FileOpenError" description="Error: File open failed" value="Error opening {filename}. File missing or damaged." revision="1">
     <Param name="filename"/>
   </Message>
@@ -73,7 +75,7 @@
   <Message key="Computing" description="Computing" value="Computing…"/>
 
   <Enumeration key="PlaybackSpeeds" description="Playback speed values">
-    <Item text="Stepped"/>
+    <Item lookup="Stepped"/>
     <Item optional="true" text="1:16"/>
     <Item optional="true" text="1:8"/>
     <Item optional="true" text="1:4"/>
@@ -83,9 +85,25 @@
     <Item optional="true" text="4:1"/>
     <Item optional="true" text="8:1"/>
     <Item optional="true" text="16:1"/>
-    <Item text="Continuous"/>
+    <Item lookup="Continuous"/>
   </Enumeration>
 
+	<Message key="PlaybackSessionStatus" description="Playback session status" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Speed: [[[b{speed}]]].\t\t[[[h#[Reduce playback speed]#Slower]]] • [[[h#[Increase playback speed]#Faster]]]{?not finished}">
+		<Param name="not finished" format="?"/>
+		<Param name="percent"/>
+		<Param name="speed"/>
+		<Param name="has original state" format="?"/>
+		<Param name="original state"/>
+	</Message>
+
+	<Message key="PlaybackSessionConfig" description="Playback session config text" value="{all data?}All data{|all data}Range: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}">
+		<Param name="all data" format="?"/>
+		<Param name="from" format="t(%c)"/>
+		<Param name="to" format="t(%c)"/>
+		<Param name="has speed" format="?"/>
+		<Param name="speed" />
+	</Message>
+	
   <Message key="RangeTooltip" description="Playback range selector tooltip" value="{time}: {valid?}{rate}{|valid}No data{?valid}">
     <Param name="time" format="t(%c)"/>
     <Param name="valid" format="?"/>

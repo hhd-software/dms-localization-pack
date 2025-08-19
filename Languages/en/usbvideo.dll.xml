@@ -101,6 +101,27 @@
 		<Item text="Stream Based Format Descriptor"/>
 	</Enumeration>
 
+	<Enumeration optional="true" key="VCTypesCat" description="Filters: VCTypesCat">
+		<Item text="Device Power Mode Control"/>
+		<Item text="Request Error Code Control"/>
+		<Item text="Reserved"/>
+		<Item text="Camera Terminal Control"/>
+		<Item text="Selector Unit Control"/>
+		<Item text="Processing Unit Control"/>
+		<Item text="Extension Unit Control"/>
+	</Enumeration>
+
+	<Enumeration optional="true" key="VSTypesCat" description="Filters: VSTypesCat">
+		<Item text="Video Probe and Commit Controls"/>
+		<Item text="Video Still Probe Control and Still Commit Control"/>
+		<Item text="Still Image Trigger Control"/>
+		<Item text="Generate Key Frame Control"/>
+		<Item text="Update Frame Segment Control"/>
+		<Item text="Stream Error Code Control"/>
+		<Item text="Synch Delay Control"/>
+	</Enumeration>
+
+
 	<Message optional="true" key="Camera Terminal" description="Field: Camera Terminal" value="Camera Terminal"/>
 	<Message optional="true" key="Camera Terminal Control" description="Value: Camera Terminal Control" value="Camera Terminal Control"/>
 
@@ -176,6 +197,7 @@
 	</Enumeration>
 	<!--IDS_STRING1093          "Selector Unit Control"
 	IDS_STRING1094          "Selector Unit:"-->
+	<Message optional="true" key="Selector Unit Control" description="Field: Selector Unit Control" value="Selector Unit Control"/>
 	<Message optional="true" key="Processing Unit Control" description="Field: Processing Unit Control" value="Processing Unit Control"/>
 	<Message optional="true" key="Processing Unit" description="Field: Processing Unit" value="Processing Unit"/>
 	<Message optional="true" key="White Balance Temperature Auto" description="Field: White Balance Temperature Auto" value="White Balance Temperature Auto"/>
@@ -394,4 +416,7 @@
 		<Item text="Header 2"/>
 		<Item text="Header 3"/>
 	</Enumeration>
+
+	<Message key="VC Command Types" description="Filtering group: VC Command Types"/>
+	<Message key="VS Command Types" description="Filtering group: VS Command Types"/>
 </Definition>

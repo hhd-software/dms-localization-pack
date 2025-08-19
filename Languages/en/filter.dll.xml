@@ -13,8 +13,8 @@
 
 	<Message key="UnsavedScheme" description="Filtering scheme: Unsaved currnet scheme" value="&lt;Unsaved current scheme&gt;"/>
 	<Message key="DefaultScheme" description="Filtering scheme: Default" value="Default"/>
-	<Message key="DisplayAllScheme" description="Filtering scheme: Display All" value="Display All"/>
-	<Message key="DisplayNoneScheme" description="Filtering scheme: Display None" value="Display None"/>
+	<Message key="DisplayAllScheme" description="Filtering scheme: Display All" value="Enable All" revision="1"/>
+	<Message key="DisplayNoneScheme" description="Filtering scheme: Display None" value="Enable None" revision="1"/>
 
 	<Message key="Filter" description="Column title: Filter"/>
 

@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
-  <Enumeration key="SerialNewVirtualPort" description="Command: New Virtual Serial Port">
-    <Item text="Create Virtual Serial Port…"/>
-    <Item text="Create virtual serial port using HHD Software Free Virtual Serial Ports."/>
-  </Enumeration>
 
-  <Enumeration key="SerialSharePorts" description="Command: Share This Port">
-    <Item text="Share This Port…"/>
-    <Item text="Make this port available on a remote computer using HHD Software Remote Serial Ports Server."/>
-  </Enumeration>
+	<!-- VSPT Advertisment commands -->
+	<Enumeration key="SerialNewVirtualPort" description="Command: New Virtual Serial Port">
+		<Item text="Create Virtual Serial Port…"/>
+		<Item text="Create virtual serial port using HHD Software Free Virtual Serial Ports."/>
+	</Enumeration>
 
-  <Enumeration key="SerialConnectRemotePort" description="Command: Connect Remote Port">
-    <Item text="Connect Remote Serial Port…"/>
-    <Item text="Make a remote serial port available on this computer using HHD Software Remote Serial Ports Client."/>
-  </Enumeration>
+	<Enumeration key="SerialSharePorts" description="Command: Share This Port">
+		<Item text="Share This Port…"/>
+		<Item text="Make this port available on a remote computer using HHD Software Remote Serial Ports Server."/>
+	</Enumeration>
+
+	<Enumeration key="SerialConnectRemotePort" description="Command: Connect Remote Port">
+		<Item text="Connect Remote Serial Port…"/>
+		<Item text="Make a remote serial port available on this computer using HHD Software Remote Serial Ports Client."/>
+	</Enumeration>
+
+	<!-- VUSB Advertisement commands -->
+	<Enumeration key="UsbConnectRemote" description="Command: Connect Remote USB Device">
+		<Item text="Transfer Remote USB Device"/>
+		<Item text="Launch HHD Software Virtual USB Tools Client to virtually connect remote USB device to this computer."/>
+	</Enumeration>
+
+	<Enumeration key="UsbShareDevice" description="Command: Share USB Device">
+		<Item text="Transfer This Device"/>
+		<Item text="Launch HHD Software Virtual USB Tools Server to share this USB device over the network."/>
+	</Enumeration>
 
 	<Message key="tutorialStep1" description="Notification: Getting started tutorial" value="Getting started tutorial"/>
 
-	<Enumeration key="tutorialStep1-text" description="Getting Started Tutorial Text">
+	<Enumeration key="tutorialStep1-text" description="Getting Started Tutorial Text" revision="1">
 		<Item text="Getting Started"/>
-		<Item text="In order to start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it." revision="1"/>
+		<Item text="To start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it.\n\nDouble-click the [[[iNext connected device]]] entry in a corresponding category to monitor the next device of this type connected to the computer.\n\nLog files of the preivously recorded monitoring sessions are also available in this list under the &quot;Recorded sessions&quot; sub-categories." revision="1"/>
 	</Enumeration>
+
+	<Message key="tutorialStep3" description="Notification: VSPT and VUSB info popup" value="VSPT and VUSB info popup"/>
+
+	<Enumeration key="tutorialStep3-text" description="VSPT and VUSB Tutorial Text">
+		<Item text="Virtual Serial and USB Devices"/>
+		<Item text="We also offer products that allow creation of virtual serial and USB devices that emulate real physical devices.\n\n[[[v#[vspt.appicon]# ]]] [[[hVirtual Serial Port Tools]]] supports creation of virtual serial ports, local or remote bridges. It allows sharing of exising serial ports over the network or even creating serial ports controlled by a script.\n\n[[[v#[vusb.appicon]# ]]] [[[hVirtual USB Tools]]] provides a way to virtually transfer an USB device from one computer to another over the network, without the need of physically reconnecting it." revision="1"/>
+	</Enumeration>
+
+	<Enumeration key="tutorialStep4-text" description="Serial Bridge tutorial text">
+		<Item text="Serial Bridge"/>
+		<Item text="In addition to serial device monitoring support, Device Monitoring Studio can monitor the connection between two distinct serial devices.\n\nConnect both serial devices to two PC serial ports and create new [[[v#[cmd.bridge.new]# ]]] [[[hSerial Bridge]]]. After the created bridge appears in [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] double-click it to re-establish the connection between serial devices and start monitoring."/>
+	</Enumeration>
+
 </Definition>

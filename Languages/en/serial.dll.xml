@@ -3,10 +3,6 @@
 
   <Message key="NextConnectedNotify" description="Notification: Next Connected Device (Serial)" value="Next Connected Device (Serial)"/>
 	<Message key="sessionTypeTutorial" description="Notification: Serial session type tutorial" value="Serial Session Type window tutorial"/>
-  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
-    <Param name="error text"/>
-    <Param name="error code" format="b016x"/>
-  </Message>
 
   <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
 
@@ -288,4 +284,7 @@
 		<Item text="Choose the appropriate [[[hsession type]]] for your monitoring session:\n\n • [[[bGeneric]]]: for default processing without any additional packet processing\n • [[[bMODBUS]]]: for locating MODBUS packets in monitored data stream\n • [[[bPPP]]]: for Point-to-Point Protocol monitoring\n • [[[bOne packet a line]]]: for protocols like NMEA\n • [[[bCustom]]]: for using advanced script-based packet splitting and joining"/>
 		<Item text="Turn this option [[[bon]]] if you don't have a third-party application that is going to open (or has already opened) a serial device. Having this option [[[bon]]] starts a terminal emulation session [[[iin addition]]] to a monitoring session. You might also need to configure serial port parameters in this case.\n\nTurn this option [[[boff]]] if the port is already opened by third-party monitored application, or if it is going to be opened."/>
 	</Enumeration>
+
+	<Message key="SerialFilterDriverMissing" description="Error message: serial filter driver is missing" value="Serial Monitor filter driver is missing or its installation is incomplete or corrupted. Serial Monitoring components need to be re-installed in order to fix appllication's ability to monitor serial devices.\n\nPress the [[[bFix Installation]]] button to open Setup and uninstall Device Monitoring Studio or just the Serial Monitoring component. After rebooting your computer, run Setup again to install it back.\n\nPress the [[[bContinue]]] button to continue running Device Monitoring Studio (not recommended: serial device monitoring will not function)."/>
+	
 </Definition>

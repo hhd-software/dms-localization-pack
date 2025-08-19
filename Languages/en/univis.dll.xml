@@ -188,16 +188,6 @@
 		<Item text="Collapse the field's sub-tree"/>
 	</Enumeration>
 
-	<Enumeration key="NetNextPacket" description="Command: Next Packet">
-		<Item text="&amp;Next Packet"/>
-		<Item text="Jump to the next packet"/>
-	</Enumeration>
-
-	<Enumeration key="NetPrevPacket" description="Command: Previous Packet">
-		<Item text="&amp;Previous Packet"/>
-		<Item text="Jump to the previous packet"/>
-	</Enumeration>
-
 	<Enumeration key="NetShowCurrent" description="Command: Selected Packet Details">
 		<Item text="&amp;Selected Packet Details"/>
 		<Item text="Display packet's details"/>
@@ -236,6 +226,16 @@
 	<Enumeration key="EditSelectPacket" description="Command: Select Packet">
 		<Item text="&amp;Select Packet"/>
 		<Item text="Select data of current packet"/>
+	</Enumeration>
+
+	<Enumeration key="EditNextPacket" description="Command: Go to Next Packet">
+		<Item text="Go to &amp;Next Packet"/>
+		<Item text="Jump to the next packet in a visualizer"/>
+	</Enumeration>
+
+	<Enumeration key="EditPrevPacket" description="Command: Go to Previous Packet">
+		<Item text="Go to &amp;Previous Packet"/>
+		<Item text="Jump to the previous packet (or to the beginning of a current packet) in a visualizer"/>
 	</Enumeration>
 
 	<Enumeration key="EditSelectAll" description="Command: Select All">
@@ -811,10 +811,11 @@
 		<Item text="QWORD"/>
 	</Enumeration>
 
-	<Enumeration key="SViewColumns" description="Structure view columns list" revision="1">
+	<Enumeration key="SViewColumns" description="Structure view columns list" revision="2">
 		<Item text="Number"/>
 		<Item lookup="Name"/>
 		<Item lookup="Value"/>
+		<Item text="Status"/>
 		<Item lookup="Offset"/>
 		<Item lookup="Size"/>
 		<Item lookup="Type"/>

@@ -24,8 +24,8 @@
 		<Item text="HID Descriptor"/>
 	</Enumeration>
 
-	<Enumeration key="URBConverter" description="URB View">
-		<Item text="URB View"/>
+	<Enumeration key="URBConverter" description="Legacy URB View" revision="1">
+		<Item text="URB View (Legacy)"/>
 		<Item text="URB View data visualizer decodes raw packets and control requests sent to and received from the usb device."/>
 	</Enumeration>
 
@@ -79,10 +79,11 @@
 		<Item text="Host->Device"/>
 		<Item text="Device->Host"/>
 	</Enumeration>
-	<Enumeration key="UsbRequestType" description="USB setup packet recipients list">
+	<Enumeration key="UsbRequestType" description="USB setup packet recipients list" revision="1">
 		<Item text="Standard"/>
 		<Item text="Class"/>
 		<Item text="Vendor"/>
+		<Item text="Reserved"/>
 	</Enumeration>
 	<Enumeration key="UsbRecepient" description="USB setup packet recipients list">
 		<Item text="Device"/>
@@ -92,6 +93,9 @@
 	<Message key="UsbRequestFmt" description="Field: Request" value="Request: {id} ({name})\n">
 		<Param name="id" format="b016x"/>
 		<Param name="name"/>
+	</Message>
+	<Message key="TimeoutFmt" description="Field: Timeout" value="Timeout: {timeout}\n">
+		<Param name="timeout"/>
 	</Message>
 	<Message optional="true" key="Pipe Handle" description="Field: Pipe Handle" value="Pipe Handle"/>
 	<Message key="SetupPacketFmt" description="Setup packet fields" value="Recipient: {recp}\nRequest Type: {type}\nDirection: {dir}\n">
@@ -229,7 +233,7 @@
 		<Param name="time"/>
 		<Param name="source"/>
 		<Param name="name"/>
-		<Param name="status" format="b016xw8arf0"/>
+		<Param name="status" format="b016x"/>
 	</Message>
 	<Message key="UsbHeaderNoStat" description="Header: USB packet header no status" value="{ordinal}: {header} ({dir}), {time}. ({source}. Device: {name})\n">
 		<Param name="ordinal" format="b010w6arf0"/>
@@ -628,5 +632,8 @@
 	</Enumeration>
 	
 	<Message key="toolbar.UsbDeviceTree" description="Toolbar: Dependent Devices" value="Dependent Devices"/>
+	<Message key="Microsoft OS Feature Descriptor" description="Header: Microsoft OS Feature Descriptor" value="Microsoft OS Feature Descriptor"/>
+	<Message key="Reserved URB Function" description="Header: Reserved URB Function" value="Reserved URB Function"/>
 
+	<Message key="CantJumpToPacket" description="Error locating packet" value="The target packet cannot be found. Possible reasons for this failure include:\n\n  • The packet may not yet been captured\n  • Monitoring was started after the target packet was sent\n  • Data processing policy resulted in the target packet being discarded\n  • The target packet is too far away."/>
 </Definition>

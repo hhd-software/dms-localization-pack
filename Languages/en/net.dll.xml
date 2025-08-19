@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
-    <Param name="error text"/>
-    <Param name="error code" format="b016x"/>
-  </Message>
-
   <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
 
   <Enumeration key="NetworkSource" description="Network Source Component">

@@ -123,10 +123,10 @@
   <Message key="FilterErrorTitle" description="Filter compile error title" value="Filter compile error"/>
   <Message key="FilterError" description="Filter compile error" value="Structure file was not compiled or compiled with errors"/>
 
-  <Enumeration key="PredefinedSchemes" description="Predefined schemes list">
+  <Enumeration key="PredefinedSchemes" description="Predefined schemes list" revision="1">
     <Item text="Default"/>
-    <Item text="Display All"/>
-    <Item text="Display none"/>
+    <Item text="Enable All"/>
+    <Item text="Enable None"/>
   </Enumeration>
 
   <Enumeration key="FilterComponentColumns" description="Columns in filter list">

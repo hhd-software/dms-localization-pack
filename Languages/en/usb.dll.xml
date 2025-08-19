@@ -3,11 +3,6 @@
 
   <Message key="NextConnectedNotify" description="Option: Next Connected Device (USB)" value="Next Connected Device (USB)"/>
 
-  <Message key="DriverConnectError" description="Error connecting to filter driver" value="Error connecting to filter driver: {error text} ({error code})">
-    <Param name="error text"/>
-    <Param name="error code" format="b016x"/>
-  </Message>
-
   <Message key="AttachError" description="Unable to attach to the selected device." value="Unable to attach to the selected device."/>
 
   <Message key="Unknown Device" description="Unknown Device"/>
@@ -692,5 +687,6 @@
 		<Item text="The application is waiting for you to connect an USB device to one of your computer USB ports." />
 	</Enumeration>
 
-	
+	<Message key="UsbFilterDriverMissing" description="Error message: USB filter driver is missing" value="USB Monitor filter driver is missing or its installation is incomplete or corrupted. USB Monitoring components need to be re-installed in order to fix appllication's ability to monitor USB devices.\n\nPress the [[[bFix Installation]]] button to open Setup and uninstall Device Monitoring Studio or just the USB Monitoring component. After rebooting your computer, run Setup again to install it back.\n\nPress the [[[bContinue]]] button to continue running Device Monitoring Studio (not recommended: USB device monitoring will not function)."/>
+
 </Definition>
