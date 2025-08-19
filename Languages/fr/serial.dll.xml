@@ -48,6 +48,7 @@
   <Message key="terminal session creation failure" value="Échec du démarrage de l'écoute sur un périphérique série en raison de l'erreur suivante : {text} ({code}){access-denied?}\n\nCette erreur signifie très probablement que le port série est déjà ouvert par une autre application. Vous pouvez ignorer cette erreur et continuer à surveiller un port.\n\nSi vous surveillez en permanence un périphérique série ouvert, assurez-vous que l'option &quot;Écoute des données entrantes...&quot; est désactivée dans la fenêtre de configuration de la session." revision="0" />
   <Message key="Set Custom Flow Control" value="Définir un contrôle de flux personnalisé" revision="0" />
   <Message key="Serial" value="Série" revision="0" />
+  <Message key="SerialFilterDriverMissing" value="Le pilote de filtre du moniteur série est manquant, son installation est incomplète ou corrompue. Les composants de surveillance série doivent être réinstallés afin de rétablir la capacité de l'application à surveiller les périphériques série.\n\nAppuyez sur le bouton [[[bRéparation de l'installation]]] pour ouvrir le programme d'installation et désinstaller Device Monitoring Studio ou uniquement le composant de surveillance série. Après avoir redémarré votre ordinateur, relancez le programme d'installation pour le réinstaller. \n\nAppuyez sur le bouton [[[bContinuer]]] pour continuer à utiliser Device Monitoring Studio (non recommandé : la surveillance des périphériques série ne fonctionnera pas)." revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />

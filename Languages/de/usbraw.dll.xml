@@ -12,6 +12,7 @@
   <Message key="Control Transfer" value="Kontrolle übertragen" revision="0" />
   <Message key="Setup Packet" value="Setup-Paket" revision="0" />
   <Message key="UsbRequestFmt" value="Anfrage: {id} ({name})\n" revision="0" />
+  <Message key="TimeoutFmt" value="Zeitüberschreitung: {timeout}\n" revision="0" />
   <Message key="SetupPacketFmt" value="Empfänger: {recp}\nAnfrage Typ: {type}\nRichtung: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Deskriptor Typ: {name}\nDeskriptor-Index: {index}\nGröße des Übertragungspuffers: {size} bytes\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="SpracheId: {index}" revision="0" />
@@ -99,6 +100,9 @@
   <Message key="STRINGOUTPUT" value="Ausgabe" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="strukturdefinition wird nicht gefunden. Die Strukturansicht kann keine Ergebnisse anzeigen." revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Abhängige Geräte" revision="0" />
+  <Message key="Microsoft OS Feature Descriptor" value="Microsoft-Betriebssystem-Feature-Deskriptor" revision="0" />
+  <Message key="Reserved URB Function" value="Reservierte URB-Funktion" revision="0" />
+  <Message key="CantJumpToPacket" value="Das Zielpaket kann nicht gefunden werden. Mögliche Gründe für diesen Fehler sind:\n\n  • Das Paket wurde möglicherweise noch nicht erfasst\n  • Die Überwachung wurde nach dem Senden des Zielpakets gestartet\n  • Die Datenverarbeitungsrichtlinie führte dazu, dass das Zielpaket verworfen wurde\n  • Das Zielpaket ist zu weit entfernt." revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="Name &amp;kopieren" revision="0" />
     <Item value="Kopieren Sie den Gerätenamen in die Zwischenablage" revision="0" />
@@ -117,8 +121,8 @@
     <Item value="HID Deskriptor" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item value="URB Ansicht" revision="0" />
-    <Item value="Der URB Ansicht Datenvisualisierer dekodiert Rohpakete und Steueranfragen, die an das USB-Gerät gesendet und von diesem empfangen werden." revision="0" />
+    <Item value="URB Ansicht (Legacy)" revision="1" />
+    <Item value="Der URB Ansicht Datenvisualisierer dekodiert Rohpakete und Steueranfragen, die an das USB-Gerät gesendet und von diesem empfangen werden." revision="1" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Endpunkte" revision="0" />
@@ -147,10 +151,10 @@
     <Item value="Gerät-&gt;Host" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item value="Standard" revision="0" />
-    <Item value="Klasse" revision="0" />
-    <Item value="Anbieter" revision="0" />
-    <Item />
+    <Item value="Standard" revision="1" />
+    <Item value="Klasse" revision="1" />
+    <Item value="Anbieter" revision="1" />
+    <Item value="Reserviert" revision="1" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Gerät" revision="0" />

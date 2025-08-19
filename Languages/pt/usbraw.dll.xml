@@ -12,6 +12,7 @@
   <Message key="Control Transfer" value="Transferência de controlo" revision="0" />
   <Message key="Setup Packet" value="Pacote de configuração" revision="0" />
   <Message key="UsbRequestFmt" value="Pedido: {id} ({name})\n" revision="0" />
+  <Message key="TimeoutFmt" value="Tempo limite: {timeout}\n" revision="0" />
   <Message key="SetupPacketFmt" value="Beneficiário: {recp}\nTipo de pedido: {type}\nDireção: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Tipo de descritor: {name}\nÍndice descritor: {index}\nTamanho do buffer de transferência: {size} bytes\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="IdiomaId: {index}" revision="0" />
@@ -99,6 +100,9 @@
   <Message key="STRINGOUTPUT" value="Saída" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="definição da estrutura não foi encontrada. A Vista da estrutura não consegue apresentar quaisquer resultados." revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Dispositivos dependentes" revision="0" />
+  <Message key="Microsoft OS Feature Descriptor" value="Descritor de funcionalidades do sistema operativo Microsoft" revision="0" />
+  <Message key="Reserved URB Function" value="Função URB reservada" revision="0" />
+  <Message key="CantJumpToPacket" value="O pacote de destino não foi encontrado. As possíveis razões para esta falha incluem:\n\n  • O pacote pode ainda não ter sido capturado\n  • A monitorização foi iniciada após o envio do pacote de destino\n  • A política de processamento de dados resultou no descarte do pacote de destino\n  • O pacote de destino está muito longe." revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Copiar nome" revision="0" />
     <Item value="Copiar o nome do dispositivo para a área de transferência" revision="0" />
@@ -117,8 +121,8 @@
     <Item value="Descritor HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item value="Vista URB" revision="0" />
-    <Item value="A vista URB descodifica os pacotes brutos e os pedidos de controlo enviados e recebidos do dispositivo USB." revision="0" />
+    <Item value="Vista URB (Legacy)" revision="1" />
+    <Item value="A vista URB descodifica os pacotes brutos e os pedidos de controlo enviados e recebidos do dispositivo USB." revision="1" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Pontos finais" revision="0" />
@@ -147,10 +151,10 @@
     <Item value="Dispositivo-&gt;Host" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item value="Standard" revision="0" />
-    <Item value="Classe" revision="0" />
-    <Item value="Vendedor" revision="0" />
-    <Item />
+    <Item value="Standard" revision="1" />
+    <Item value="Classe" revision="1" />
+    <Item value="Vendedor" revision="1" />
+    <Item value="Reservado" revision="1" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Dispositivo" revision="0" />

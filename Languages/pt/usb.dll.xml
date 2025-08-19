@@ -187,6 +187,7 @@
   <Message key="UsbMsPins" value="Pino[[[b{number}]]]: Fonte ID: [[[b {source}]]], Pino: [[[b{pin}]]]\n" revision="0" />
   <Message key="Frame Index:" value="Índice do quadro:" revision="0" />
   <Message key="Controls Size:" value="Tamanho dos controlos:" revision="0" />
+  <Message key="UsbFilterDriverMissing" value="O controlador do filtro do monitor USB está em falta ou a sua instalação está incompleta ou corrompida. Os componentes de monitorização USB precisam de ser reinstalados para corrigir a capacidade da aplicação de monitorizar dispositivos USB.\n\nPressione o botão [[[bCorrigir instalação]]] para abrir o Setup e desinstalar o Device Monitoring Studio ou apenas o componente USB Monitoring. Após reiniciar o computador, execute o Setup novamente para reinstalá-lo.\n\nPressione o botão [[[bContinuar]]] para continuar a executar o Device Monitoring Studio (não recomendado: a monitorização do dispositivo USB não funcionará)." revision="0" />
   <Enumeration key="UsbSource">
     <Item value="Monitor de USB" revision="0" />
     <Item value="O módulo de fonte de dados USB permite-lhe monitorizar os dados transferidos entre qualquer dispositivo USB e a aplicação que o utiliza." revision="0" />

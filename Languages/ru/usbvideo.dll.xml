@@ -3,6 +3,8 @@
   <Message key="subclass_vc" value="Рассматривать запрос как запрос на управление видео (VC). В противном случае - рассматривайте запрос как запрос видеопотока (VS)." revision="0" />
   <Message key="USB Video Visualizer" value="Визуализатор USB Видео " revision="0" />
   <Message key="Video View" value="Видео" revision="0" />
+  <Message key="VC Command Types" value="Типы команд видеоуправления" revision="0" />
+  <Message key="VS Command Types" value="Типы команд видеоуправления" revision="0" />
   <Enumeration key="VideoConverter">
     <Item value="Видео (Legacy)" revision="0" />
     <Item value="Визуализатор данных USB Видео анализирует пакеты и дескрипторы  для USB Video (версия 1.1) совместимого устройства." revision="0" />

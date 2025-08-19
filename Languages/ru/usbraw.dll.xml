@@ -12,6 +12,7 @@
   <Message key="Control Transfer" value="Передача контрола" revision="0" />
   <Message key="Setup Packet" value="Пакет настройки" revision="0" />
   <Message key="UsbRequestFmt" value="Запрос: {id} ({name})\n" revision="0" />
+  <Message key="TimeoutFmt" value="Таймаут: {timeout}\n" revision="0" />
   <Message key="SetupPacketFmt" value="Получатель: {recp}\nТип запроса: {type}\nНаправление: {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Тип дескриптора: {name}\nИндекс дескриптора: {index}\nРазмер буфера передачи: {size} байт\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="ID языка: {index}" revision="0" />
@@ -99,6 +100,9 @@
   <Message key="STRINGOUTPUT" value="Вывод" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="определение структуры не найдено. Структурный вид не может отобразить какие-либо результаты." revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Зависимые устройства" revision="0" />
+  <Message key="Microsoft OS Feature Descriptor" value="Дескриптор функции ОС Microsoft" revision="0" />
+  <Message key="Reserved URB Function" value="Резервная URB функция" revision="0" />
+  <Message key="CantJumpToPacket" value="Целевой пакет не найден. Возможные причины этой ошибки:\n\n  • Возможно, пакет еще не был получен\n  • Мониторинг был запущен после отправки целевого пакета\n  • Политика обработки данных привела к отбрасыванию целевого пакета\n  • Целевой пакет находится слишком далеко." revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Копировать имя" revision="0" />
     <Item value="Скопируйте имя устройства в буфер обмена" revision="0" />
@@ -117,8 +121,8 @@
     <Item value="HID-дескриптор" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item value="Вид URB" revision="0" />
-    <Item value="Визуализатор данных URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="0" />
+    <Item value="Вид URB (Legacy)" revision="1" />
+    <Item value="Визуализатор данных URB декодирует исходные пакеты и управляющие запросы, отправляемые на usb-устройство и получаемые с него." revision="1" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Энд поинты" revision="0" />
@@ -147,10 +151,10 @@
     <Item value="Устройство-&gt;Хост" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item value="Стандартный" revision="0" />
-    <Item value="Класс" revision="0" />
-    <Item value="Вендор" revision="0" />
-    <Item />
+    <Item value="Стандартный" revision="1" />
+    <Item value="Класс" revision="1" />
+    <Item value="Вендор" revision="1" />
+    <Item value="Резервный" revision="1" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Устройство" revision="0" />

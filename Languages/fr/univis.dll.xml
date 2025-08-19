@@ -346,12 +346,12 @@
     <Item value="Sélection des données du paquet actuel" revision="0" />
   </Enumeration>
   <Enumeration key="EditNextPacket">
-    <Item />
-    <Item />
+    <Item value="Passer au paquet &amp;suivant" revision="0" />
+    <Item value="Passer au paquet suivant dans un visualiseur" revision="0" />
   </Enumeration>
   <Enumeration key="EditPrevPacket">
-    <Item />
-    <Item />
+    <Item value="Aller au paquet&amp; précédent" revision="0" />
+    <Item value="Passer au paquet précédent (ou au début du paquet actuel) dans un visualiseur." revision="0" />
   </Enumeration>
   <Enumeration key="EditSelectAll">
     <Item value="Sélectionner tout" revision="0" />
@@ -626,10 +626,10 @@
     <Item />
   </Enumeration>
   <Enumeration key="SViewColumns">
-    <Item value="Nombre" revision="1" />
+    <Item value="Nombre" revision="2" />
     <Item lookup="Name" />
     <Item lookup="Value" />
-    <Item />
+    <Item value="Statut" revision="2" />
     <Item lookup="Offset" />
     <Item lookup="Size" />
     <Item lookup="Type" />

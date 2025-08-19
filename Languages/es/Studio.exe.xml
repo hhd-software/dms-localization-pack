@@ -81,11 +81,11 @@
   <Message key="All sessions stopped" value="Todas las sesiones se detuvieron debido a la condición de memoria baja. Es posible que tenga que reiniciar Device Monitoring Studio para reanudar la monitorización. Si sigue recibiendo este mensaje de error, intente reducir el número de módulos de procesamiento de datos utilizados." revision="0" />
   <Message key="PredefinedDelete" value="Está prohibido borrar esquemas de color predefinidos. Sólo se pueden borrar los esquemas de usuario" revision="0" />
   <Message key="SignatureError" value="Device Monitoring Studio ha descargado una actualización, pero ha fallado la comprobación de integridad. Esto puede indicar errores temporales o permanentes en la configuración de la red. Intente actualizar más tarde." revision="0" />
-  <Message key="ConfigurationError" value="Device Monitoring Studio se encuentra en estado no válido. Reinstale la aplicación para solucionarlo." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio se encuentra en un estado no válido. Vuelva a instalar la aplicación para solucionarlo.{has additional info?}\n\nInformación adicional:\n{has error code?}\n  • Error: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nPresione [[[bCtrl+C]]] para copiar este texto al portapapeles y [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contacte con el servicio de asistencia]]] para obtener ayuda.{?has additional info}" revision="1" />
   <Message key="Restarting Device" value="Reiniciar el dispositivo" revision="0" />
   <Message key="ElevationError" value="No se pueden elevar los privilegios. Mensaje de error: {error}" revision="0" />
   <Message key="ElevationErrorTitle" value="Error de elevación" revision="0" />
-  <Message key="Main Title" value="{free?}Gratis {?free}Device Monitoring Studio{prerelease?} (VERSIÓN DE PRE-LANZAMIENTO){?prerelease}" revision="0" />
+  <Message key="Main Title" value="{free?}Gratis {?free}Device Monitoring Studio{prerelease?} (VERSIÓN DE PRE-LANZAMIENTO){?prerelease}{admin?} (Administrador){?admin}" revision="1" />
   <Message key="Beta Page" value="Beta" revision="0" />
   <Message key="Beta title info" value="Esta página le permite examinar y descargar componentes beta opcionales. Estos componentes pueden añadir funciones experimentales o corregir errores notificados. Marque los componentes que desee instalar y desmarque los que desee desinstalar y pulse el botón Actualizar." revision="0" />
   <Message key="BetaUpdateButton" value="Actualización" revision="0" />
@@ -283,6 +283,7 @@
   <Message key="Reset All" value="Restablecer to&amp;do" revision="0" />
   <Message key="Copy" value="&amp;Copiar" revision="0" />
   <Message key="Continue" value="Continuar" revision="0" />
+  <Message key="Fix Installation" value="Reparar instalación" revision="0" />
   <Message key="Import" value="&amp;Importar…" revision="0" />
   <Message key="Export" value="&amp;Exportar…" revision="0" />
   <Message key="Browse" value="&amp;Navegar…" revision="0" />
@@ -375,6 +376,7 @@
   <Message key="NextPage" value="Continuar…" revision="0" />
   <Message key="NonComMessage" value="Al menos uno de los componentes instalados está destinado a uso [[[bdoméstico]]] o [[[beducativo]]].\nConsulte [[[hPolítica de uso]]] para obtener más información.\n\nPara uso comercial, gubernamental o militar se requiere una [[[hactualización]]]." revision="1" />
   <Message key="yourLanguage" value="Lenguaje de usuario disponible en línea" revision="0" />
+  <Message key="ProgressPleaseWait" value="Por favor, espere…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Buscar actualizaciones" revision="0" />
     <Item value="Busque la versión actualizada en Internet." revision="0" />

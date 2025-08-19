@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Продолжить воспроизведение (Воспроизведение)" revision="0" />
   <Message key="CreateReaderError" value="Невозможно создать cчитыватель лога {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Инициализация воспроизведения не удалась  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Инициализация воспроизведения файла «{filename}» не удалась из-за следующей ошибки: {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Ошибка открытия {filename}. Файл отсутствует или поврежден." revision="1" />
   <Message key="StreamOpenError" value="Не удалось открыть поток {stream} из {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Ошибка чтения свойств из {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Аварийное завершение сессии воспроизведения" revision="0" />
   <Message key="NewLogFormatDescription" value="Лог-файлы" revision="0" />
   <Message key="Computing" value="Вычисляю…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Скорость: [[[b{speed}]]].\t\t[[[h#[Снизить скорость просмотра]#Медленнее]]] • [[[h#[Повысить скорость просмотра]#Быстрее]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Все данные{|all data}Диапазон: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Нет данных{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Начало: {from}\nКонец: {to}\nДлительность: {has days?}{days} дней, {?has days}{has hours?}{hours} часов, {?has hours}{has minutes?}{minutes} минут, {?has minutes}{seconds} секунд." revision="0" />
   <Message key="InvalidRange" value="Диапазон воспроизведения должен иметь длительность не менее секунды." revision="0" />

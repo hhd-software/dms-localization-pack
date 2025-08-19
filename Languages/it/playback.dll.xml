@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Continua la riproduzione (Riproduzione)" revision="0" />
   <Message key="CreateReaderError" value="Impossibile creare un lettore di log {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Inizializzazione della riproduzione fallita  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="L'inizializzazione della riproduzione non è riuscita per il file “{filename}” con il seguente errore: {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Errore nell'apertura di {filename}. File mancante o danneggiato." revision="1" />
   <Message key="StreamOpenError" value="Fallimento dell'apertura del flusso {stream} da {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Errore nella lettura delle proprietà da {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Arresto di emergenza della sessione di riproduzione" revision="0" />
   <Message key="NewLogFormatDescription" value="File di log" revision="0" />
   <Message key="Computing" value="Calcolo…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Velocità: [[[b{speed}]]].\t\t[[[h#[Riduci la velocità di riproduzione]#Più lento]]] • [[[h#[Aumenta la velocità di riproduzione]#Più veloce]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Tutti i dati{|all data}Gamma: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Nessun dato{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Inizio: {from}\nFine: {to}\nDurata: {has days?}{days} giorni, {?has days}{has hours?}{hours} ore, {?has hours}{has minutes?}{minutes} minuti, {?has minutes}{seconds} secondi." revision="0" />
   <Message key="InvalidRange" value="Un intervallo di riproduzione deve essere lungo almeno un secondo." revision="0" />

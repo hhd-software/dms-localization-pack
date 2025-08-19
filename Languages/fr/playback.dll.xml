@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Continuer la lecture (Lecture)" revision="0" />
   <Message key="CreateReaderError" value="Impossible de créer un lecteur de journaux {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="L'initialisation de la lecture a échoué  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="L'initialisation de la lecture a échoué pour le fichier « {filename} » avec l'erreur suivante : {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Erreur d'ouverture de {filename}. Fichier manquant ou endommagé." revision="1" />
   <Message key="StreamOpenError" value="Échec de l'ouverture du flux {stream} à partir de {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Erreur de lecture des propriétés de {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Arrêt d'urgence de la session de lecture" revision="0" />
   <Message key="NewLogFormatDescription" value="Fichiers journaux" revision="0" />
   <Message key="Computing" value="Calculs…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Vitesse : [[[b{speed}]]].\t\t[[[h#[Réduire la vitesse de lecture]#Plus lent]]] • [[[h#[Augmenter la vitesse de lecture]#Plus rapide]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Toutes les données{|all data}Portée : {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Pas de données{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Début: {from}\nFin: {to}\nDurée: {has days?}{days} jours, {?has days}{has hours?}{hours} heures, {?has hours}{has minutes?}{minutes} minutes, {?has minutes}{seconds} secondes." revision="0" />
   <Message key="InvalidRange" value="Une plage de lecture doit durer au moins une seconde." revision="0" />

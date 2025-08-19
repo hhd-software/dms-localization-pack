@@ -33,8 +33,8 @@
     <Item value="Der Anfrage-Visualisierer dekodiert alle Datenpakete und Steueranfragen, die an das serielle Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="NewUrbViewConverter">
-    <Item />
-    <Item />
+    <Item value="URB-Ansicht" revision="0" />
+    <Item value="Der URB-Ansicht datenvisualisierer entschlüsselt Rohpakete und Steuerungsanfragen, die an das USB-Gerät gesendet und von diesem empfangen werden." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Konsolen Ansicht (Legacy)" revision="0" />
@@ -203,21 +203,21 @@
     <Item value="Rohdaten anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Leerraum" revision="0" />
+    <Item value="Text" revision="0" />
+    <Item value="Kopfzeile" revision="0" />
+    <Item value="Feldname" revision="0" />
+    <Item value="Feldwert" revision="0" />
+    <Item value="Fehlerfeldwert" revision="0" />
+    <Item value="Lesen-Dump" revision="0" />
+    <Item value="Schreib-Dump" revision="0" />
+    <Item value="Link" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Anzeigen Verbindungs- und Erstellungsanfragen" revision="0" />
+    <Item value="Anzeige einer Abwärtsbewegung" revision="0" />
+    <Item value="Anzeige einer Aufwärtskorrektur" revision="0" />
+    <Item value="Alle isochronen Pakete auflisten" revision="0" />
+    <Item value="Zeilennummern anzeigen" revision="0" />
   </Enumeration>
 </Language>

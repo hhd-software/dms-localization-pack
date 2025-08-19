@@ -33,8 +33,8 @@
     <Item value="Визуализатор запросов декодирует все пакеты данных и управляющие запросы, отправляемые на последовательное устройство и получаемые от него." revision="0" />
   </Enumeration>
   <Enumeration key="NewUrbViewConverter">
-    <Item />
-    <Item />
+    <Item value="Вид URB" revision="0" />
+    <Item value="Визуализатор данных URB декодирует исходные пакеты и запросы управления, отправляемые на USB-устройство и получаемые от него." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Консольный вид (Legacy)" revision="0" />
@@ -203,21 +203,21 @@
     <Item value="Отображать сырые данные" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Свободное место" revision="0" />
+    <Item value="Текст" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Имя поля" revision="0" />
+    <Item value="Значение поля" revision="0" />
+    <Item value="Значение поля ошибки" revision="0" />
+    <Item value="Дамп чтения" revision="0" />
+    <Item value="Дамп записи" revision="0" />
+    <Item value="Ссылка" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Отображать запросы на подключение и создание" revision="0" />
+    <Item value="Отображать чтения вниз" revision="0" />
+    <Item value="Отображать записи вверх" revision="0" />
+    <Item value="Выводить все изохронные пакеты" revision="0" />
+    <Item value="Отображать номера строк" revision="0" />
   </Enumeration>
 </Language>

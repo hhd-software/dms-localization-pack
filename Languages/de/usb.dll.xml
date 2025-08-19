@@ -187,6 +187,7 @@
   <Message key="UsbMsPins" value="Pin [[[b{number}]]]: Quelle ID: [[[b {source}]]], Pin: [[[b{pin}]]]\n" revision="0" />
   <Message key="Frame Index:" value="Frame Index:" revision="0" />
   <Message key="Controls Size:" value="Kontrollen Größe:" revision="0" />
+  <Message key="UsbFilterDriverMissing" value="Der USB-Monitor-Filtertreiber fehlt oder seine Installation ist unvollständig oder beschädigt. Die USB-Überwachungskomponenten müssen neu installiert werden, um die Fähigkeit der Anwendung zur Überwachung von USB-Geräten wiederherzustellen.\n\nKlicken Sie auf die Schaltfläche [[[bInstallation reparieren]]], um das Setup zu öffnen und Device Monitoring Studio oder nur die USB-Überwachungskomponente zu deinstallieren. Starten Sie Ihren Computer neu und führen Sie das Setup erneut aus, um die Software wieder zu installieren.\n\nKlicken Sie auf die Schaltfläche [[[bWeiter]]], um Device Monitoring Studio weiter auszuführen (nicht empfohlen: Die Überwachung von USB-Geräten funktioniert dann nicht)." revision="0" />
   <Enumeration key="UsbSource">
     <Item value="USB Monitor" revision="0" />
     <Item value="Mit dem USB-Datenquellenmodul können Sie die Daten überwachen, die zwischen einem beliebigen USB-Gerät und der Anwendung, die es verwendet, übertragen werden." revision="0" />

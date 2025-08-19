@@ -33,8 +33,8 @@
     <Item value="Vista do pedido descodifica todos os pacotes de dados e pedidos de controlo enviados e recebidos do dispositivo de série." revision="0" />
   </Enumeration>
   <Enumeration key="NewUrbViewConverter">
-    <Item />
-    <Item />
+    <Item value="Vista URB" revision="0" />
+    <Item value="O visualizador de dados Vista URB descodifica pacotes brutos e pedidos de controlo enviados e recebidos do dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista da consola (Legacy)" revision="0" />
@@ -203,21 +203,21 @@
     <Item value="Exibir dados brutos" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Espaço vazio" revision="0" />
+    <Item value="Texto" revision="0" />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Nome do campo" revision="0" />
+    <Item value="Valor do campo" revision="0" />
+    <Item value="Valor do campo de erro" revision="0" />
+    <Item value="Despejo de leitura" revision="0" />
+    <Item value="Despejo de leitura" revision="0" />
+    <Item value="Link" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Exibir pedidos de ligação e criação" revision="0" />
+    <Item value="Exibir uma leitura descendente" revision="0" />
+    <Item value="Exibir uma escrita ascendente" revision="0" />
+    <Item value="Listar todos os pacotes isócronos" revision="0" />
+    <Item value="Exibir números de linha" revision="0" />
   </Enumeration>
 </Language>

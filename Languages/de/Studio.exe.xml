@@ -81,11 +81,11 @@
   <Message key="All sessions stopped" value="Alle Sitzungen wurden aufgrund von Speichermangel gestoppt. Möglicherweise müssen Sie Device Monitoring Studio neu starten, um die Überwachung fortzusetzen. Wenn Sie diese Fehlermeldung weiterhin erhalten, versuchen Sie, die Anzahl der verwendeten Datenverarbeitungsmodule zu reduzieren." revision="0" />
   <Message key="PredefinedDelete" value="Das Löschen von vordefinierten Farbschemata ist verboten. Nur Benutzerschemata können gelöscht werden" revision="0" />
   <Message key="SignatureError" value="Device Monitoring Studio hat ein Update heruntergeladen, aber die Integritätsprüfung ist fehlgeschlagen. Dies kann auf temporäre oder permanente Netzwerkkonfigurationsfehler hinweisen. Bitte versuchen Sie die Aktualisierung später." revision="0" />
-  <Message key="ConfigurationError" value="Device Monitoring Studio befindet sich in einem ungültigen Zustand. Installieren Sie die Anwendung neu, um das Problem zu beheben." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio befindet sich in einem ungültigen Zustand. Installieren Sie die Anwendung neu, um das Problem zu beheben.{has additional info?}\n\nWeitere Informationen:\n{has error code?}\n  • Fehler: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nDrücken Sie [[[bCtrl+C]]], um diesen Text in die Zwischenablage zu kopieren, und [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#wenden Sie sich an den Support]]], um Hilfe zu erhalten.{?has additional info}" revision="1" />
   <Message key="Restarting Device" value="Neustart des Geräts" revision="0" />
   <Message key="ElevationError" value="Eskalation der Privilegien nicht möglich. Fehler: {error}" revision="0" />
   <Message key="ElevationErrorTitle" value="Fehler beim Upgrade von Berechtigungen" revision="0" />
-  <Message key="Main Title" value="{free?}Kostenlos {?free}Device Monitoring Studio{prerelease?} (VORABVERSION){?prerelease}" revision="0" />
+  <Message key="Main Title" value="{free?}Kostenlos {?free}Device Monitoring Studio{prerelease?} (VORABVERSION){?prerelease}{admin?} (Administrator){?admin}" revision="1" />
   <Message key="Beta Page" value="Beta" revision="0" />
   <Message key="Beta title info" value="Auf dieser Seite können Sie optionale Beta-Komponenten durchsuchen und herunterladen. Diese Komponenten können experimentelle Funktionen hinzufügen oder gemeldete Fehler beheben. Aktivieren Sie die Komponenten, die Sie installieren möchten, und deaktivieren Sie die Komponenten, die Sie deinstallieren möchten, und klicken Sie auf die Schaltfläche Aktualisieren." revision="0" />
   <Message key="BetaUpdateButton" value="Aktualisieren" revision="0" />
@@ -283,6 +283,7 @@
   <Message key="Reset All" value="A&amp;ll zurücksetzen" revision="0" />
   <Message key="Copy" value="&amp;Kopieren" revision="0" />
   <Message key="Continue" value="Fortfahren" revision="0" />
+  <Message key="Fix Installation" value="Installation reparieren" revision="0" />
   <Message key="Import" value="&amp;Importieren…" revision="0" />
   <Message key="Export" value="&amp;Exportieren…" revision="0" />
   <Message key="Browse" value="&amp;Durchsuchen…" revision="0" />
@@ -375,6 +376,7 @@
   <Message key="NextPage" value="Weiter…" revision="0" />
   <Message key="NonComMessage" value="Mindestens eine der installierten Komponenten ist für den [[[bHeimgebrauch]]] oder [[[bBildungsgebrauch]]] Gebrauch bestimmt.\nWeitere Informationen finden Sie unter [[[hNutzungsrichtlinie]]].\n\nFür kommerzielle, staatliche oder militärische Zwecke ist ein [[[hUpgrade]]] erforderlich." revision="1" />
   <Message key="yourLanguage" value="Benutzersprache online verfügbar" revision="0" />
+  <Message key="ProgressPleaseWait" value="Bitte warten…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="Nach Updates &amp;suchen" revision="0" />
     <Item value="Prüfen Sie online, ob eine aktualisierte Version vorliegt." revision="0" />

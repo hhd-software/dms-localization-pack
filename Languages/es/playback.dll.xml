@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Continuar la reproducción (Reproducción)" revision="0" />
   <Message key="CreateReaderError" value="No se puede crear el lector de logs {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Fallo en la inicialización de la reproducción  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="La inicialización de la reproducción del archivo «{filename}» ha fallado con el siguiente error: {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Error al abrir {filename}. El archivo falta o está dañado." revision="1" />
   <Message key="StreamOpenError" value="Fallo al abrir el flujo {stream} de {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Error al leer propiedades de {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Finalización de emergencia de la sesión de reproducción" revision="0" />
   <Message key="NewLogFormatDescription" value="Archivos log" revision="0" />
   <Message key="Computing" value="Calcular…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Velocidad: [[[b{speed}]]].\t\t[[[h#[Reducir la velocidad de reproducción]#Más lento]]] • [[[h#[Aumentar la velocidad de reproducción]#Más rápido]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Todos los datos{|all data}Rango: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Sin datos{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Inicio: {from}\nFin: {to}\nDuración: {has days?}{days} días, {?has days}{has hours?}{hours} horas, {?has hours}{has minutes?}{minutes} minutos, {?has minutes}{seconds} segundos." revision="0" />
   <Message key="InvalidRange" value="Un intervalo de reproducción debe tener una duración mínima de un segundo." revision="0" />

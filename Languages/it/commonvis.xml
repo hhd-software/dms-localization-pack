@@ -32,8 +32,8 @@
     <Item value="Il visualizzatore della Vista di richiesta decodifica tutti i pacchetti di dati e le richieste di controllo inviate e ricevute dal dispositivo seriale." revision="0" />
   </Enumeration>
   <Enumeration key="NewUrbViewConverter">
-    <Item />
-    <Item />
+    <Item value="Vista URB" revision="0" />
+    <Item value="Il visualizzatore di dati Vista URB decodifica i pacchetti grezzi e le richieste di controllo inviati e ricevuti dal dispositivo USB." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vista della console (Legacy)" revision="0" />
@@ -202,21 +202,21 @@
     <Item value="Visualizzare i dati grezzi" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Spazio vuoto" revision="0" />
+    <Item value="Testo" revision="0" />
+    <Item value="Intestazione" revision="0" />
+    <Item value="Nome campo" revision="0" />
+    <Item value="Valore campo" revision="0" />
+    <Item value="Valore campo errore" revision="0" />
+    <Item value="Scarico di lettura" revision="0" />
+    <Item value="Scarico di lettura" revision="0" />
+    <Item value="Link" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Visualizza richieste di connessione e creazione" revision="0" />
+    <Item value="Visualizza una lettura verso il basso" revision="0" />
+    <Item value="Visualizza una scritta in alto" revision="0" />
+    <Item value="Elenca tutti i pacchetti isocroni" revision="0" />
+    <Item value="Visualizza i numeri di riga" revision="0" />
   </Enumeration>
 </Language>

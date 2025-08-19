@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Wiedergabe fortsetzen (Playback)" revision="0" />
   <Message key="CreateReaderError" value="Logbuchleser kann nicht erstellt werden {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Initialisierung der Wiedergabe fehlgeschlagen  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Die Wiedergabeinitialisierung für die Datei „{filename}“ ist mit folgendem Fehler fehlgeschlagen: {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Fehler beim Öffnen von {filename}. Datei fehlt oder ist beschädigt." revision="1" />
   <Message key="StreamOpenError" value="Öffnen des Streams {stream} von {filename} fehlgeschlagen" revision="0" />
   <Message key="PropertiesReadError" value="Fehler beim Lesen von Eigenschaften aus {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Notfall Beendigung der Wiedergabesitzung" revision="0" />
   <Message key="NewLogFormatDescription" value="Log-Dateien" revision="0" />
   <Message key="Computing" value="Berechnung…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Geschwindigkeit: [[[b{speed}]]].\t\t[[[h#[Wiedergabegeschwindigkeit reduzieren]#Langsamer]]] • [[[h#[Wiedergabegeschwindigkeit erhöhen]#Schneller]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Alle Daten{|all data}Bereich: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}Keine Daten{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Start: {from}\nEnde: {to}\nDauer: {has days?}{days} Tage, {?has days}{has hours?}{hours} Stunden, {?has hours}{has minutes?}{minutes} Minuten, {?has minutes}{seconds} Sekunden." revision="0" />
   <Message key="InvalidRange" value="Ein Abspielbereich muss mindestens eine Sekunde lang sein." revision="0" />

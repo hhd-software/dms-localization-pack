@@ -3,6 +3,8 @@
   <Message key="subclass_vc" value="Tratar os pedidos como pedidos de controlo de vídeo (VC). Caso contrário, tratar os pedidos como pedidos de fluxo contínuo de vídeo (VS)." revision="0" />
   <Message key="USB Video Visualizer" value="Visualizador de vídeo USB" revision="0" />
   <Message key="Video View" value="Vista de vídeo" revision="0" />
+  <Message key="VC Command Types" value="Tipos de comandos para controlo de vídeo" revision="0" />
+  <Message key="VS Command Types" value="Tipos de comandos para controlo de vídeo" revision="0" />
   <Enumeration key="VideoConverter">
     <Item value="Vista de vídeo (Legacy)" revision="0" />
     <Item value="O visualizador de dados Vídeo Vista analisa pacotes e descritores de configuração para dispositivos compatíveis com USB Video (versão 1.1)." revision="0" />

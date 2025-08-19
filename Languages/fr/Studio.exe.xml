@@ -81,11 +81,11 @@
   <Message key="All sessions stopped" value="Toutes les sessions ont été interrompues en raison d'un manque de mémoire. Il se peut que vous deviez redémarrer Device Monitoring Studio pour reprendre la surveillance. Si vous continuez à recevoir ce message d'erreur, essayez de réduire le nombre de modules de traitement des données utilisés." revision="0" />
   <Message key="PredefinedDelete" value="Il est interdit de supprimer des schémas de couleurs prédéfinis. Seuls les schémas de l'utilisateur peuvent être supprimés" revision="0" />
   <Message key="SignatureError" value="Device Monitoring Studio a téléchargé une mise à jour, mais les contrôles d'intégrité ont échoué. Cela peut indiquer des erreurs de configuration réseau temporaires ou permanentes. Veuillez réessayer la mise à jour ultérieurement." revision="0" />
-  <Message key="ConfigurationError" value="Device Monitoring Studio est dans un état invalide. Réinstallez l'application pour résoudre le problème." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio est dans un état non valide. Réinstallez l'application pour résoudre le problème.{has additional info?}\n\nInformations supplémentaires :\n{has error code?}\n  • Erreur : {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nAppuyez sur [[[bCtrl+C]]] pour copier ce texte dans le presse-papiers et [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#contactez l'assistance]]] pour obtenir de l'aide.{?has additional info}" revision="1" />
   <Message key="Restarting Device" value="Redémarrage de l'appareil" revision="0" />
   <Message key="ElevationError" value="Impossible d'élever les privilèges. Message d'erreur : {error}" revision="0" />
   <Message key="ElevationErrorTitle" value="Erreur d'élévation" revision="0" />
-  <Message key="Main Title" value="{free?}Gratuit {?free}Device Monitoring Studio{prerelease?} (VERSION PRÉLIMINAIRE){?prerelease}" revision="0" />
+  <Message key="Main Title" value="{free?}Gratuit {?free}Device Monitoring Studio{prerelease?} (VERSION PRÉLIMINAIRE){?prerelease}{admin?} (Administrateur){?admin}" revision="1" />
   <Message key="Beta Page" value="Bêta" revision="0" />
   <Message key="Beta title info" value="Cette page vous permet de parcourir et de télécharger des composants bêta optionnels. Ces composants peuvent ajouter des fonctionnalités expérimentales ou corriger des bogues signalés. Cochez les composants que vous souhaitez installer et décochez ceux que vous souhaitez désinstaller, puis cliquez sur le bouton &quot;Mise à jour&quot;." revision="0" />
   <Message key="BetaUpdateButton" value="Mise à jour" revision="0" />
@@ -283,6 +283,7 @@
   <Message key="Reset All" value="Réinitialiser &amp;tout" revision="0" />
   <Message key="Copy" value="&amp;Copier" revision="0" />
   <Message key="Continue" value="Continuer" revision="0" />
+  <Message key="Fix Installation" value="Réparation de l'installation" revision="0" />
   <Message key="Import" value="&amp;Importer…" revision="0" />
   <Message key="Export" value="&amp;Exporter…" revision="0" />
   <Message key="Browse" value="&amp;Parcourir…" revision="0" />
@@ -375,6 +376,7 @@
   <Message key="NextPage" value="Continuer…" revision="0" />
   <Message key="NonComMessage" value="Au moins un des composants installés est destiné à un usage [[[bdomestique]]] ou [[[béducatif]]].\nVoir [[[hPolitique d'utilisation]]] pour plus d'informations.\n\nPour une utilisation commerciale, gouvernementale ou militaire, une [[[hmise à niveau]]] est nécessaire." revision="1" />
   <Message key="yourLanguage" value="Langue de l'utilisateur disponible en ligne" revision="0" />
+  <Message key="ProgressPleaseWait" value="Veuillez patienter…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Vérifier les mises à jour" revision="0" />
     <Item value="Vérifier si une version actualisée est disponible en ligne." revision="0" />

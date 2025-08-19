@@ -81,11 +81,11 @@
   <Message key="All sessions stopped" value="Все сессии были остановлены из-за нехватки памяти. Для возобновления мониторинга может потребоваться перезапуск Device Monitoring Studio. Если вы продолжаете получать это сообщение об ошибке, попробуйте уменьшить количество используемых визуализаторов" revision="0" />
   <Message key="PredefinedDelete" value="Удаление предустановленных цветовых схем запрещено. Удалять можно только пользовательские схемы" revision="0" />
   <Message key="SignatureError" value="Device Monitoring Studio загрузила обновление, но оно не прошло проверку целостности. Это может свидетельствовать о временных или постоянных ошибках конфигурации сети. Попробуйте выполнить обновление позже." revision="0" />
-  <Message key="ConfigurationError" value="Device Monitoring Studio находится в нерабочем состоянии. Переустановите приложение, чтобы исправить ситуацию." revision="0" />
+  <Message key="ConfigurationError" value="Device Monitoring Studio находится в нерабочем состоянии. Переустановите приложение, чтобы исправить эту проблему.{has additional info?}\n\n\n{has error code?}\n  • Ошибка: {error message} ({error code}){?has error code}{has description?}\n  • {description}{?has description}\n\nНажмите [[[bCtrl+C]]], чтобы скопировать этот текст в буфер обмена, и [[[h#[https://hhdsoftware.com/dispatch/dms10/broken-installation]#обратитесь в службу поддержки]]] за помощью.{?has additional info}" revision="1" />
   <Message key="Restarting Device" value="Перезапуск устройства" revision="0" />
   <Message key="ElevationError" value="Невозможно повысить привилегии. Ошибка: {error}" revision="0" />
   <Message key="ElevationErrorTitle" value="Ошибка повышения привелегий" revision="0" />
-  <Message key="Main Title" value="{free?}Бесплатная {?free}Device Monitoring Studio{prerelease?} (ПРЕДРЕЛИЗНАЯ ВЕРСИЯ){?prerelease}" revision="0" />
+  <Message key="Main Title" value="{free?}Бесплатная {?free}Device Monitoring Studio{prerelease?} (ПРЕДРЕЛИЗНАЯ ВЕРСИЯ){?prerelease}{admin?} (Администратор){?admin}" revision="1" />
   <Message key="Beta Page" value="Бета" revision="0" />
   <Message key="Beta title info" value="На этой странице можно просмотреть и загрузить дополнительные &quot;бета&quot;-компоненты. Эти компоненты могут добавлять экспериментальные функции или исправлять обнаруженные ошибки. Отметьте компоненты, которые вы хотите установить, снимите флажки с компонентов, которые вы хотите удалить, и нажмите кнопку Обновить." revision="0" />
   <Message key="BetaUpdateButton" value="Обновить" revision="0" />
@@ -283,6 +283,7 @@
   <Message key="Reset All" value="Сбросить в&amp;сё" revision="0" />
   <Message key="Copy" value="&amp;Копировать" revision="0" />
   <Message key="Continue" value="Продолжить" revision="0" />
+  <Message key="Fix Installation" value="Исправить установку" revision="0" />
   <Message key="Import" value="&amp;Импорт…" revision="0" />
   <Message key="Export" value="&amp;Экспорт…" revision="0" />
   <Message key="Browse" value="&amp;Обзор…" revision="0" />
@@ -375,6 +376,7 @@
   <Message key="NextPage" value="Продолжить…" revision="0" />
   <Message key="NonComMessage" value="По крайней мере, один из установленных компонентов предназначен для [[[bдомашнего]]] или [[[bобразовательного]]] использования.\nПодробную информацию см. в [[[hПолитика использования]]].\n\nДля коммерческого, правительственного или военного использования требуется [[[hапгрейд]]]." revision="1" />
   <Message key="yourLanguage" value="Язык пользователя доступен онлайн" revision="0" />
+  <Message key="ProgressPleaseWait" value="Пожалуйста, ждите…" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />
     <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />

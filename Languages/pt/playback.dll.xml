@@ -2,7 +2,7 @@
 <Language xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
   <Message key="SteppedSpeedNotify" value="Continuar a reprodução (Reprodução)" revision="0" />
   <Message key="CreateReaderError" value="Não é possível criar um leitor de logs {filename}" revision="0" />
-  <Message key="PlaybackInitError" value="Falha na inicialização da reprodução  {filename}" revision="0" />
+  <Message key="PlaybackInitError" value="Falha na inicialização da reprodução do ficheiro «{filename}» com o seguinte erro: {error} ({code})" revision="1" />
   <Message key="FileOpenError" value="Erro ao abrir {filename}. Ficheiro em falta ou danificado." revision="1" />
   <Message key="StreamOpenError" value="Falha ao abrir o fluxo {stream} de {filename}" revision="0" />
   <Message key="PropertiesReadError" value="Erro ao ler propriedades de {filename}." revision="0" />
@@ -18,6 +18,8 @@
   <Message key="EmergencyErrorType" value="Encerramento de emergência da sessão de reprodução" revision="0" />
   <Message key="NewLogFormatDescription" value="Ficheiros de log" revision="0" />
   <Message key="Computing" value="Calcular…" revision="0" />
+  <Message key="PlaybackSessionStatus" value="{has original state?}{original state}, {?has original state}[[[b{percent} %]]].{not finished?} Velocidade: [[[b{speed}]]].\t\t[[[h#[Reduzir a velocidade de reprodução]#Mais lento]]] • [[[h#[Aumentar a velocidade de reprodução]#Mais rápido]]]{?not finished}" revision="0" />
+  <Message key="PlaybackSessionConfig" value="{all data?}Todos os dados{|all data}Gama: {from} - {to}{?all data}{has speed?}, {speed}{?has speed}" revision="0" />
   <Message key="RangeTooltip" value="{time}: {valid?}{rate}{|valid}No data{?valid}" revision="0" />
   <Message key="RangeSelTooltip" value="Início: {from}\nFim: {to}\nDuração: {has days?}{days} dias, {?has days}{has hours?}{hours} horas, {?has hours}{has minutes?}{minutes} minutos, {?has minutes}{seconds} segundos." revision="0" />
   <Message key="InvalidRange" value="Um intervalo de reprodução deve ter, pelo menos, um segundo de duração." revision="0" />

@@ -12,6 +12,7 @@
   <Message key="Control Transfer" value="Transfert de contrôle" revision="0" />
   <Message key="Setup Packet" value="Paquet de configuration" revision="0" />
   <Message key="UsbRequestFmt" value="Demande : {id} ({name})\n" revision="0" />
+  <Message key="TimeoutFmt" value="Délai d'attente : {timeout}\n" revision="0" />
   <Message key="SetupPacketFmt" value="Récipiendaire : {recp}\nType de demande : {type}\nDirection : {dir}\n" revision="0" />
   <Message key="UsbDescriptorFmt" value="Type de descripteur : {name}\nIndex des descripteurs : {index}\nTaille de la mémoire tampon de transfert : {size} bytes\n" revision="0" />
   <Message key="UsbDescriptorLangFmt" value="LangueId : {index}" revision="0" />
@@ -99,6 +100,9 @@
   <Message key="STRINGOUTPUT" value="Sortie" revision="0" />
   <Message key="IDS_STRUCT_NOT_FOUND" value="définition de la structure est introuvable. La vue de la structure ne peut afficher aucun résultat." revision="0" />
   <Message key="toolbar.UsbDeviceTree" value="Appareils dépendants" revision="0" />
+  <Message key="Microsoft OS Feature Descriptor" value="Descripteur de fonctionnalités du système d'exploitation Microsoft" revision="0" />
+  <Message key="Reserved URB Function" value="Fonction URB réservée" revision="0" />
+  <Message key="CantJumpToPacket" value="Le paquet cible est introuvable. Les raisons possibles de cet échec sont les suivantes :\n\n  • Le paquet n'a peut-être pas encore été capturé\n  • La surveillance a commencé après l'envoi du paquet cible\n  • La politique de traitement des données a entraîné la suppression du paquet cible\n  • Le paquet cible est trop éloigné." revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Copier le nom" revision="0" />
     <Item value="Copier le nom de l'appareil dans le presse-papiers" revision="0" />
@@ -117,8 +121,8 @@
     <Item value="Descripteur HID" revision="0" />
   </Enumeration>
   <Enumeration key="URBConverter">
-    <Item value="Vue URB" revision="0" />
-    <Item value="La vue URB décode les paquets bruts et les demandes de contrôle envoyés et reçus par le périphérique USB." revision="0" />
+    <Item value="Vue URB (Legacy)" revision="1" />
+    <Item value="La vue URB décode les paquets bruts et les demandes de contrôle envoyés et reçus par le périphérique USB." revision="1" />
   </Enumeration>
   <Enumeration key="MenuEndpoints">
     <Item value="Points de terminaison" revision="0" />
@@ -147,10 +151,10 @@
     <Item value="Appareil-&gt;Hôte" revision="0" />
   </Enumeration>
   <Enumeration key="UsbRequestType">
-    <Item value="Standard" revision="0" />
-    <Item value="Classe" revision="0" />
-    <Item value="Vendeur" revision="0" />
-    <Item />
+    <Item value="Standard" revision="1" />
+    <Item value="Classe" revision="1" />
+    <Item value="Vendeur" revision="1" />
+    <Item value="Réservé" revision="1" />
   </Enumeration>
   <Enumeration key="UsbRecepient">
     <Item value="Appareil" revision="0" />

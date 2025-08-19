@@ -48,6 +48,7 @@
   <Message key="terminal session creation failure" value="Falha ao iniciar a escuta num dispositivo de série devido ao seguinte erro: {text} ({code}){access-denied?}\n\nEste erro significa muito provavelmente que a porta série já está aberta por outra aplicação. Pode ignorar este erro com segurança e continuar a monitorizar uma porta.\n\nSe estiver sempre a monitorizar um dispositivo de série aberto, certifique-se de que a opção &quot;Escuta os dados de entrada...&quot; está desligada na janela de configuração da sessão.{?access-denied}" revision="0" />
   <Message key="Set Custom Flow Control" value="Definir controlo de fluxo personalizado" revision="0" />
   <Message key="Serial" value="Série" revision="0" />
+  <Message key="SerialFilterDriverMissing" value="O controlador do filtro do Monitor Serial está ausente ou a sua instalação está incompleta ou corrompida. Os componentes do Monitor Serial precisam de ser reinstalados para corrigir a capacidade da aplicação de monitorizar dispositivos seriais.\n\nPressione o botão [[[bCorrigir instalação]]] para abrir o Setup e desinstalar o Device Monitoring Studio ou apenas o componente Serial Monitoring. Após reiniciar o computador, execute o Setup novamente para reinstalá-lo.\n\nPressione o botão [[[bContinuar]]] para continuar executando o Device Monitoring Studio (não recomendado: o monitoramento de dispositivos seriais não funcionará)." revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />

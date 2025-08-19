@@ -48,6 +48,7 @@
   <Message key="terminal session creation failure" value="Non è stato possibile avviare l'ascolto su un dispositivo seriale a causa del seguente errore: {text} ({code}){access-denied?}\n\nQuesto errore indica molto probabilmente che la porta seriale è già aperta da un'altra applicazione. Si può tranquillamente ignorare questo errore e continuare a monitorare una porta.\n\nSe si monitora sempre un dispositivo seriale aperto, assicurarsi che l'opzione &quot;Ascolta i dati in arrivo...&quot; sia disattivata nella finestra di configurazione della sessione." revision="0" />
   <Message key="Set Custom Flow Control" value="Impostazione del controllo di flusso personalizzato" revision="0" />
   <Message key="Serial" value="Seriale" revision="0" />
+  <Message key="SerialFilterDriverMissing" value="Il driver del filtro Serial Monitor è mancante o la sua installazione è incompleta o danneggiata. È necessario reinstallare i componenti di Serial Monitoring per ripristinare la capacità dell'applicazione di monitorare i dispositivi seriali.\n\nPremere il pulsante [[[bRipara installazione]]] per aprire il programma di installazione e disinstallare Device Monitoring Studio o solo il componente Serial Monitoring. Dopo aver riavviato il computer, eseguire nuovamente il programma di installazione per reinstallarlo.\n\nPremere il pulsante [[[bContinua]]] per continuare a eseguire Device Monitoring Studio (sconsigliato: il monitoraggio dei dispositivi seriali non funzionerà)." revision="0" />
   <Enumeration key="BaudRateValues">
     <Item />
     <Item />

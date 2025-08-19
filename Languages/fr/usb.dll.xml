@@ -187,6 +187,7 @@
   <Message key="UsbMsPins" value="Broche [[[b{number}]]]: ID de la source : [[[b {source}]]], Broche : [[[b{pin}]]]\n" revision="0" />
   <Message key="Frame Index:" value="Index de trame :" revision="0" />
   <Message key="Controls Size:" value="Taille des contrôles :" revision="0" />
+  <Message key="UsbFilterDriverMissing" value="Le pilote de filtre USB Monitor est manquant, son installation est incomplète ou corrompue. Les composants USB Monitoring doivent être réinstallés afin de rétablir la capacité de l'application à surveiller les périphériques USB.\n\nAppuyez sur le bouton [[[bRéparation de l'installation]]] pour ouvrir le programme d'installation et désinstaller Device Monitoring Studio ou uniquement le composant USB Monitoring. Après avoir redémarré votre ordinateur, relancez le programme d'installation pour le réinstaller.\n\nAppuyez sur le bouton [[[bContinuer]]] pour continuer à exécuter Device Monitoring Studio (non recommandé : la surveillance des périphériques USB ne fonctionnera pas)." revision="0" />
   <Enumeration key="UsbSource">
     <Item value="Moniteur USB" revision="0" />
     <Item value="Le module source de données USB vous permet de surveiller les données transférées entre n'importe quel périphérique USB et l'application qui l'utilise." revision="0" />

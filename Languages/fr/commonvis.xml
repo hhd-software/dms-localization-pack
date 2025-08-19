@@ -32,8 +32,8 @@
     <Item value="La visionneuse Vue des demandes décode tous les paquets de données et les demandes de contrôle envoyés et reçus de l'appareil série." revision="0" />
   </Enumeration>
   <Enumeration key="NewUrbViewConverter">
-    <Item />
-    <Item />
+    <Item value="Vue URB" revision="0" />
+    <Item value="Le visualiseur de données Vue URB décode les paquets bruts et les requêtes de contrôle envoyés et reçus par le périphérique USB." revision="0" />
   </Enumeration>
   <Enumeration key="ConsoleConverter">
     <Item value="Vue de la console (Legacy)" revision="0" />
@@ -202,21 +202,21 @@
     <Item value="Visualiser les données brutes" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewSchemes">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Espace vide" revision="0" />
+    <Item value="Texte" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Nom du champ" revision="0" />
+    <Item value="Valeur du champ" revision="0" />
+    <Item value="Valeur du champ d'erreur" revision="0" />
+    <Item value="Vidage de lecture" revision="0" />
+    <Item value="Vidage de lecture" revision="0" />
+    <Item value="Lien" revision="0" />
   </Enumeration>
   <Enumeration key="UrbViewOptions">
-    <Item />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item value="Afficher les demandes de connexion et de création" revision="0" />
+    <Item value="Afficher les lectures vers le bas" revision="0" />
+    <Item value="Afficher les écritures ascendantes" revision="0" />
+    <Item value="Répertorier tous les paquets isochrones" revision="0" />
+    <Item value="Afficher les numéros de ligne" revision="0" />
   </Enumeration>
 </Language>
