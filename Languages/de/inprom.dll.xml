@@ -24,7 +24,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Erste Schritte" revision="1" />
-    <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf." revision="1" />
+    <Item value="Um die Überwachung zu starten, suchen Sie das serielle, USB- oder Netzwerkgerät, das Sie überwachen möchten, im [[[v#[toolwindow.devices]# ]]] [[[hGeräte-Tool-Fenster]]] und doppelklicken Sie darauf.\n\nDoppelklicken Sie auf den Eintrag [[[iNächstes angeschlossenes Gerät]]] in der entsprechenden Kategorie, um das nächste Gerät dieses Typs zu überwachen, das an den Computer angeschlossen ist.\n\nDie Protokolldateien der zuvor aufgezeichneten Überwachungssitzungen sind ebenfalls in dieser Liste unter den Unterkategorien „Aufgezeichnete Sitzungen“ verfügbar." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
     <Item value="Virtuelle Geräte: Seriell und USB" revision="0" />

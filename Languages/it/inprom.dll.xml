@@ -24,7 +24,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Per iniziare" revision="1" />
-    <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso." revision="1" />
+    <Item value="Per avviare il monitoraggio, individuare il dispositivo seriale, USB o di rete che si desidera monitorare nella [[[v#[toolwindow.devices]# ]]] [[[hFinestra dello strumento dispositivi]]] e fare doppio clic su di esso.\n\nFai doppio clic sulla voce [[[iProssimo dispositivo collegato]]] nella categoria corrispondente per monitorare il prossimo dispositivo di questo tipo collegato al computer.\n\nI file di log delle sessioni di monitoraggio registrate in precedenza sono disponibili anche in questo elenco nella sottocategoria “Sessioni registrate”." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
     <Item value="Dispositivi virtuali: Seriale e USB" revision="0" />

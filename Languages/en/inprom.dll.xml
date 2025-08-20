@@ -32,7 +32,7 @@
 
 	<Enumeration key="tutorialStep1-text" description="Getting Started Tutorial Text" revision="1">
 		<Item text="Getting Started"/>
-		<Item text="To start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it.\n\nDouble-click the [[[iNext connected device]]] entry in a corresponding category to monitor the next device of this type connected to the computer.\n\nLog files of the preivously recorded monitoring sessions are also available in this list under the &quot;Recorded sessions&quot; sub-categories." revision="1"/>
+		<Item text="To start monitoring, locate the serial, USB or network device you want to monitor in the [[[v#[toolwindow.devices]# ]]] [[[hDevices Tool Window]]] and double-click it.\n\nDouble-click the [[[iNext connected device]]] entry in a corresponding category to monitor the next device of this type connected to the computer.\n\nLog files of the previously recorded monitoring sessions are also available in this list under the &quot;Recorded sessions&quot; sub-categories." revision="1"/>
 	</Enumeration>
 
 	<Message key="tutorialStep3" description="Notification: VSPT and VUSB info popup" value="VSPT and VUSB info popup"/>

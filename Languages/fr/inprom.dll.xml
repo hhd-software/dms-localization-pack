@@ -24,7 +24,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Pour commencer" revision="1" />
-    <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus." revision="1" />
+    <Item value="Pour commencer la surveillance, localisez le périphérique série, USB ou réseau que vous souhaitez surveiller dans la [[[v#[toolwindow.devices]# ]]] [[[hFenêtre de l'outil des périphériques]]] et double-cliquez dessus.\n\nDouble-cliquez sur l'entrée [[[iProchain appareil connecté]]] dans la catégorie correspondante pour surveiller le prochain périphérique de ce type connecté à l'ordinateur.\n\nLes fichiers journaux des sessions de surveillance précédemment enregistrées sont également disponibles dans cette liste sous les sous-catégories « Sessions enregistrées »." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
     <Item value="Périphériques virtuels : Série et USB" revision="0" />

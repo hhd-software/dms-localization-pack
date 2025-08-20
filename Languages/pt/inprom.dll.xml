@@ -24,7 +24,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Introdução" revision="1" />
-    <Item value="Para iniciar a monitorização, localize o dispositivo de série, USB ou de rede que pretende monitorizar na [[[v#[toolwindow.devices]# ]]] [[[hjanela da ferramenta de dispositivos]]] e faça duplo clique no mesmo." revision="1" />
+    <Item value="Para iniciar a monitorização, localize o dispositivo de série, USB ou de rede que pretende monitorizar na [[[v#[toolwindow.devices]# ]]] [[[hjanela da ferramenta de dispositivos]]] e faça duplo clique no mesmo.\n\nClique duas vezes na entrada [[[iPróximo dispositivo conectado]]] na categoria correspondente para monitorar o próximo dispositivo desse tipo conectado ao computador.\n\nOs ficheiros de registo das sessões de monitorização gravadas anteriormente também estão disponíveis nesta lista nas subcategorias «Sessões gravadas»." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
     <Item value="Dispositivos virtuais: Série e USB" revision="0" />

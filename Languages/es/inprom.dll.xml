@@ -24,7 +24,7 @@
   </Enumeration>
   <Enumeration key="tutorialStep1-text">
     <Item value="Primeros pasos" revision="1" />
-    <Item value="Para iniciar la supervisión, localice el dispositivo serie, USB o de red que desea supervisar en la [[[v#[toolwindow.devices]# ]]] [[[hventana de herramientas de dispositivos]]] y haga doble clic en él." revision="1" />
+    <Item value="Para iniciar la supervisión, localice el dispositivo serie, USB o de red que desea supervisar en la [[[v#[toolwindow.devices]# ]]] [[[hventana de herramientas de dispositivos]]] y haga doble clic en él.\n\nHaga doble clic en la entrada [[[iSiguiente dispositivo conectado]]] de la categoría correspondiente para supervisar el siguiente dispositivo de este tipo conectado al ordenador.\n\nLos archivos de registro de las sesiones de supervisión grabadas anteriormente también están disponibles en esta lista, en las subcategorías «Sesiones grabadas»." revision="1" />
   </Enumeration>
   <Enumeration key="tutorialStep3-text">
     <Item value="Dispositivos virtuales: Serie y USB" revision="0" />
