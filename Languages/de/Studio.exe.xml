@@ -698,4 +698,8 @@
     <Item />
     <Item />
   </Enumeration>
+  <Enumeration key="YourLanguageAvailableLocal">
+    <Item value="Sprachpaket verfügbar" revision="0" />
+    <Item value="Das Sprachpaket &quot;{language name}&quot; ist verfügbar. Möchten Sie zu diesem Sprachpaket wechseln?" revision="0" />
+  </Enumeration>
 </Language>
