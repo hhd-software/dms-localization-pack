@@ -53,7 +53,6 @@
   <Message key="Back color:" value="Couleur d'arrière-plan :" revision="0" />
   <Message key="Text color:" value="Couleur du texte :" revision="0" />
   <Message key="Outline color:" value="Couleur du contour :" revision="0" />
-  <Message key="Description" value="Description" revision="0" />
   <Message key="New Packet" value="Nouveau paquet" revision="0" />
   <Message key="Packet Template:" value="Modèle de dossier:" revision="0" />
   <Message key="Interval:" value="Intervalo:" revision="0" />
@@ -90,7 +89,6 @@
   <Message key="PatternColoringRule" value="Règle de coloriage des modèles {number}" revision="0" />
   <Message key="CopyWait" value="Veuillez patienter pendant que les données sont copiées dans le presse-papiers." revision="0" />
   <Message key="CantCreateFile" value="Impossible de créer un fichier" revision="0" />
-  <Message key="StatisticsTip" value="Sélectionnez le compteur pour afficher sa description." revision="0" />
   <Message key="Lines" value="Lignes" revision="0" />
   <Message key="SchemeNameCue" value="Indiquez ici le nom du régime" revision="0" />
   <Message key="Device" value="Appareil" revision="0" />
@@ -121,11 +119,6 @@
   <Message key="Find All" value="Trouver tout" revision="0" />
   <Message key="Set Columns" value="Définir les colonnes" revision="0" />
   <Message key="Enter number of columns per row:" value="Saisir le nombre de colonnes par ligne :" revision="0" />
-  <Message key="Add/Remove Counters" value="Ajouter/supprimer des comptoirs" revision="0" />
-  <Message key="Available counters:" value="Comptoirs disponibles :" revision="0" />
-  <Message key="Select All" value="Sélectionner tout" revision="0" />
-  <Message key="Counter description:" value="Description du comptoir :" revision="0" />
-  <Message key="Select the counter to view its description." value="Sélectionnez le compteur pour afficher sa description." revision="0" />
   <Message key="Layout" value="Disposition" revision="0" />
   <Message key="Font:" value="Police de caractère :" revision="0" />
   <Message key="Size:" value="Taille :" revision="0" />
@@ -140,11 +133,6 @@
   <Message key="Antialiased quality (slower)" value="Qualité anti-crénelage (plus lente)" revision="0" />
   <Message key="Layout Schemes" value="Schémas de présentation" revision="0" />
   <Message key="Pattern Coloring" value="Coloration des modèles de données" revision="0" />
-  <Message key="Variable Properties" value="Propriétés variables" revision="0" />
-  <Message key="Variable name:" value="Nom de la variable :" revision="0" />
-  <Message key="Units:" value="Unités :" revision="0" />
-  <Message key="Line width:" value="Largeur de la ligne :" revision="1" />
-  <Message key="Scale:" value="Échelle:" revision="0" />
   <Message key="Please Wait..." value="Veuillez patienter…" revision="0" />
   <Message key="Find all results" value="Trouver tous les résultats" revision="0" />
   <Message key="Display results pane" value="Afficher le panneau des résultats" revision="0" />
@@ -320,6 +308,10 @@
   <Enumeration key="NetSetFilter">
     <Item value="Définir le &amp;filtre…" revision="0" />
     <Item value="Configurer le filtre de visualisation" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetApplyAsFilter">
+    <Item value="Appliquer comme filtre…" revision="0" />
+    <Item value="Définir la valeur du champ comme filtre d'affichage" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
     <Item value="Définir le protocole &amp;racine…" revision="0" />
@@ -549,6 +541,10 @@
     <Item value="Ordre des &amp;octets" revision="0" />
     <Item value="Ordre des octets" revision="0" />
   </Enumeration>
+  <Enumeration key="EditColumns">
+    <Item value="Sélectionner les colonnes…" revision="0" />
+    <Item value="Sélectionner les colonnes de l'affichage des paquets" revision="0" />
+  </Enumeration>
   <Enumeration key="IncorrectInputText">
     <Item value="Doit être une valeur hexadécimale" revision="0" />
     <Item value="Doit être une valeur décimale" revision="0" />
@@ -650,5 +646,17 @@
   <Enumeration key="SelectionClear">
     <Item value="Effacer la sélection" revision="0" />
     <Item value="Supprimer tous les blocs sélectionnés" revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketViewColumns">
+    <Item value="Numéro" revision="0" />
+    <Item value="Source" revision="0" />
+    <Item value="Destination" revision="0" />
+    <Item value="Statut" revision="0" />
+    <Item lookup="Size" />
+    <Item value="Protocole" revision="0" />
+    <Item lookup="Time" />
+    <Item value="Détails" revision="0" />
+    <Item lookup="Process" />
+    <Item lookup="Device" />
   </Enumeration>
 </Language>

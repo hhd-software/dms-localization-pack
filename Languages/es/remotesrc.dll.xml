@@ -16,6 +16,9 @@
   <Message key="Enter the server name or address" value="Introduzca el nombre o la dirección del servidor" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="O seleccione uno de la lista de servidores descubiertos" revision="0" />
   <Message key="Optional access token" value="Token de acceso opcional" revision="0" />
+  <Message key="Only show reachable servers" value="Mostrar solo los puntos finales accesibles" revision="0" />
+  <Message key="Pinging" value="{endpoint} (ping…)" revision="0" />
+  <Message key="Unreachable" value="{endpoint} (inaccesible)" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Conectar al nuevo servidor…" revision="0" />
     <Item value="Añadir conexión a otro servidor" revision="0" />
@@ -41,8 +44,9 @@
     <Item value="Además de supervisar los dispositivos serie, USB y de red locales, Device Monitoring Studio permite conectarse a un ordenador remoto para ver todos los dispositivos serie y USB conectados a él.\n\nPuede supervisar cualquier dispositivo serie o USB remoto, siempre que el componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] esté instalado en el ordenador remoto." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="El servidor prohíbe el acceso anónimo y se pasa un Token de Acceso vacío" revision="0" />
-    <Item value="Acceso denegado. No se ha concedido acceso al token de acceso especificado" revision="0" />
-    <Item value="Acceso denegado: el usuario no tiene acceso de supervisión a este dispositivo." revision="0" />
+    <Item value="El servidor prohíbe el acceso anónimo y se pasa un Token de Acceso vacío" revision="1" />
+    <Item value="Acceso denegado. No se ha concedido acceso al token de acceso especificado" revision="1" />
+    <Item value="Acceso denegado: el usuario no tiene acceso de supervisión a este dispositivo" revision="1" />
+    <Item value="Solicitud no válida. Versión incompatible de Device Monitoring Studio Server o se ha especificado un punto final totalmente desconocido." revision="1" />
   </Enumeration>
 </Language>

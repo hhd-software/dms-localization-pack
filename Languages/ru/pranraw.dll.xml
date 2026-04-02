@@ -14,12 +14,14 @@
     <Item value="Классы данных" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item value="Устройство A Чтение байт/сек" revision="0" />
-    <Item value="Скорость передачи данных устройством A." revision="0" />
+    <Item value="Устройство A Чтение байт/сек" revision="1" />
+    <Item value="байт/с" revision="1" />
+    <Item value="Скорость передачи данных устройством A." revision="1" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item value="Устройство B Чтение байт/сек" revision="0" />
-    <Item value="Скорость передачи данных устройством B." revision="0" />
+    <Item value="Устройство B Чтение байт/сек" revision="1" />
+    <Item value="байт/с" revision="1" />
+    <Item value="Скорость передачи данных устройством B." revision="1" />
   </Enumeration>
   <Enumeration key="DataViewColors">
     <Item value="Чтение: Заголовок" revision="0" />

@@ -41,6 +41,7 @@
   <Message key="Recorded sessions" value="Sessioni registrate" revision="0" />
   <Message key="Next" value="Successiva" revision="0" />
   <Message key="PlaybackCategoryFilter" value="Riproduzione" revision="0" />
+  <Message key="Playing back log file" value="Riproduzione di &quot;{path}&quot;…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Riproduzione" revision="0" />
     <Item value="La fonte di dati di riproduzione riproduce le sessioni di monitoraggio registrate, consentendo un'analisi ritardata del dispositivo." revision="0" />

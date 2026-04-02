@@ -23,6 +23,8 @@
   <Message key="Serial Structure View" value="{name} - Vista de la estructura de serie" revision="0" />
   <Message key="struct not found" value="No se encuentra la definición de la estructura 'Série'. La vista de estructura no puede mostrar ningún resultado." revision="0" />
   <Message key="Serial Device Information" value="Información del dispositivo serie" revision="0" />
+  <Message key="Application" value="Aplicación" revision="0" />
+  <Message key="Port" value="Puerto" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Vista en línea" revision="0" />
     <Item value="La vista de líneas muestra el estado de todas las líneas de control del módem." revision="0" />

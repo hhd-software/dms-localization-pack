@@ -14,12 +14,14 @@
     <Item value="Chars de données" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item value="Appareil A Octets lus/sec" revision="0" />
-    <Item value="Appareil A Octets lus/sec est la vitesse à laquelle les données sont envoyées par l'appareil A." revision="0" />
+    <Item value="Appareil A Octets lus/sec" revision="1" />
+    <Item value="octets/s" revision="1" />
+    <Item value="Appareil A Octets lus/sec est la vitesse à laquelle les données sont envoyées par l'appareil A." revision="1" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item value="Appareil B Octets lus/sec" revision="0" />
-    <Item value="Appareil B Octets lus/sec est le taux de données envoyées par l'appareil B." revision="0" />
+    <Item value="Appareil B Octets lus/sec" revision="1" />
+    <Item value="octets/s" revision="1" />
+    <Item value="Appareil B Octets lus/sec est le taux de données envoyées par l'appareil B." revision="1" />
   </Enumeration>
   <Enumeration key="DataViewColors">
     <Item value="Lire : En-tête" revision="0" />

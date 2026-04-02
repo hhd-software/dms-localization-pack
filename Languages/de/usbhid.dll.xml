@@ -10,9 +10,10 @@
   <Message key="HID Device Detected." value="HID-Gerät erkannt." revision="0" />
   <Message key="WARNING: unsupported device type. Trying to parse." value="WARNUNG: Nicht unterstützter Gerätetyp. Versucht zu parsen." revision="0" />
   <Message key="Device Class" value="Geräteklasse" revision="0" />
+  <Message key="NewHidVisWarning" value="Kann aufgrund von Fehlern beim Parsen des HID-Deskriptors nicht angezeigt werden" revision="0" />
   <Enumeration key="HumanConverter">
-    <Item value="HID-Ansicht" revision="0" />
-    <Item value="Der HID Ansicht Datenvisualisierer dekodiert HID-spezifische Pakete und Datenstrukturen und stellt sie auf komfortable Weise dar. Ideal für Geräte, die zur Klasse der Human Interface Devices gehören." revision="0" />
+    <Item value="HID-Ansicht (Legacy)" revision="1" />
+    <Item value="Der HID Ansicht Datenvisualisierer dekodiert HID-spezifische Pakete und Datenstrukturen und stellt sie auf komfortable Weise dar. Ideal für Geräte, die zur Klasse der Human Interface Devices gehören." revision="1" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />

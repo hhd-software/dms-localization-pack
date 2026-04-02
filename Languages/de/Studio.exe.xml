@@ -183,6 +183,7 @@
   <Message key="clr.default_colors.text" value="Text/Vordergrund" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="Hyperlink" revision="0" />
   <Message key="clr.default_colors.disabled" value="Deaktivierter Text" revision="0" />
+  <Message key="clr.default_colors.error" value="Fehler" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Hover Hintergrund" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Hover Strich" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Hover Text" revision="0" />
@@ -258,6 +259,14 @@
   <Message key="clr.balloon.balloon.text" value="Text" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Strich" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Meldung &quot;Nicht mehr anzeigen&quot;" revision="0" />
+  <Message key="clr.statusbar" value="Farben der Statusleiste" revision="0" />
+  <Message key="clr.statusbar.background" value="Hintergrund" revision="0" />
+  <Message key="clr.statusbar.text" value="Text" revision="0" />
+  <Message key="clr.statusbar.separator" value="Trennleiste" revision="0" />
+  <Message key="clr.statusbar.border" value="Rand" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="Hyperlink" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="Chevronpunkt Füllfarbe" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="Chevron Punkt Strichfarbe" revision="0" />
   <Message key="Settings Page" value="Einstellungen" revision="0" />
   <Message key="Settings Storage Location" value="Einstellungen Speicherort" revision="0" />
   <Message key="Settings Management" value="Verwaltung der Einstellungen" revision="0" />
@@ -377,6 +386,10 @@
   <Message key="NonComMessage" value="Mindestens eine der installierten Komponenten ist für den [[[bHeimgebrauch]]] oder [[[bBildungsgebrauch]]] Gebrauch bestimmt.\nWeitere Informationen finden Sie unter [[[hNutzungsrichtlinie]]].\n\nFür kommerzielle, staatliche oder militärische Zwecke ist ein [[[hUpgrade]]] erforderlich." revision="1" />
   <Message key="yourLanguage" value="Benutzersprache online verfügbar" revision="0" />
   <Message key="ProgressPleaseWait" value="Bitte warten…" revision="0" />
+  <Message key="Value is out of range" value="Der angegebene Wert [[[p{value}]]] liegt außerhalb des zulässigen Bereichs für den Parameter [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="Für den Parameter [[[p{parameter}: {type}]]] wurde ein ungültiger Aufzählungswert [[[p{value}]]] angegeben" revision="0" />
+  <Message key="Invalid argument type" value="Der für den Parameter [[[p{parameter}]]] übergebene Wert hat einen ungültigen Typ. Erwartet wurde [[[p{type}]]]" revision="0" />
+  <Message key="Ready" value="Fertig" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="Nach Updates &amp;suchen" revision="0" />
     <Item value="Prüfen Sie online, ob eine aktualisierte Version vorliegt." revision="0" />

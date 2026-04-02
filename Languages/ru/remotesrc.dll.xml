@@ -16,6 +16,9 @@
   <Message key="Enter the server name or address" value="Введите имя или адрес сервера" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="Или выберите один из списка обнаруженных" revision="0" />
   <Message key="Optional access token" value="Необязательный токен доступа" revision="0" />
+  <Message key="Only show reachable servers" value="Показывать только доступные конечные точки" revision="0" />
+  <Message key="Pinging" value="{endpoint} (пинг…)" revision="0" />
+  <Message key="Unreachable" value="{endpoint} (недоступно)" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Связаться с новым сервером…" revision="0" />
     <Item value="Добавьте соединение с другим сервером" revision="0" />
@@ -41,8 +44,9 @@
     <Item value="Помимо мониторинга локальных последовательных, USB и сетевых устройств, Device Monitoring Studio позволяет подключиться к удалённому компьютеру и увидеть все подключенные к нему последовательные и USB-устройства.\n\nВы можете мониторить любое удалённое последовательное или USB-устройство, если на удалённом компьютере установлен компонент [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]]." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="Сервер запрещает анонимный доступ, и передаётся пустой токен доступа" revision="0" />
-    <Item value="В доступе отказано. Указанному токену доступа не предоставлен доступ" revision="0" />
-    <Item value="Доступ запрещён: пользователю не предоставлен доступ к мониторингу данного устройства" revision="0" />
+    <Item value="Сервер запрещает анонимный доступ, и передаётся пустой токен доступа" revision="1" />
+    <Item value="В доступе отказано. Указанному токену доступа не предоставлен доступ" revision="1" />
+    <Item value="Доступ запрещён: пользователю не предоставлен доступ к мониторингу данного устройства" revision="1" />
+    <Item value="Недопустимый запрос. Указана несовместимая версия Device Monitoring Studio Server или совершенно посторонний конечный узел." revision="1" />
   </Enumeration>
 </Language>

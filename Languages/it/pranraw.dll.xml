@@ -14,12 +14,14 @@
     <Item value="Caratteri dei dati" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item value="Dispositivo A Byte letti/sec" revision="0" />
-    <Item value="Dispositivo A Byte letti/sec è la velocità di invio dei dati da parte del dispositivo A." revision="0" />
+    <Item value="Dispositivo A Byte letti/sec" revision="1" />
+    <Item value="byte/s" revision="1" />
+    <Item value="Dispositivo A Byte letti/sec è la velocità di invio dei dati da parte del dispositivo A." revision="1" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item value="Dispositivo B Byte letti/sec" revision="0" />
-    <Item value="Dispositivo B Byte letti/sec è la velocità con cui i dati vengono inviati dal dispositivo B." revision="0" />
+    <Item value="Dispositivo B Byte letti/sec" revision="1" />
+    <Item value="byte/s" revision="1" />
+    <Item value="Dispositivo B Byte letti/sec è la velocità con cui i dati vengono inviati dal dispositivo B." revision="1" />
   </Enumeration>
   <Enumeration key="DataViewColors">
     <Item value="Leggi: Intestazione" revision="0" />

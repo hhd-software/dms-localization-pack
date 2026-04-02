@@ -103,6 +103,8 @@
   <Message key="Microsoft OS Feature Descriptor" value="Descripteur de fonctionnalités du système d'exploitation Microsoft" revision="0" />
   <Message key="Reserved URB Function" value="Fonction URB réservée" revision="0" />
   <Message key="CantJumpToPacket" value="Le paquet cible est introuvable. Les raisons possibles de cet échec sont les suivantes :\n\n  • Le paquet n'a peut-être pas encore été capturé\n  • La surveillance a commencé après l'envoi du paquet cible\n  • La politique de traitement des données a entraîné la suppression du paquet cible\n  • Le paquet cible est trop éloigné." revision="0" />
+  <Message key="Host" value="Hôte" revision="0" />
+  <Message key="Device" value="Appareil" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Copier le nom" revision="0" />
     <Item value="Copier le nom de l'appareil dans le presse-papiers" revision="0" />

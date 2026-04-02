@@ -4,6 +4,8 @@
   <Message key="Line State Change Notification" value="Benachrichtigung Änderung des Leitungsstatus" revision="0" />
   <Message key="SchemeBasic" value="Grundlegend" revision="0" />
   <Message key="SchemeComplete" value="Vollständig" revision="0" />
+  <Message key="PlotCountersNotification" value="Warnung: Durch das Ändern des Zählerausdrucks oder der Einheitstypen werden zuvor erfasste Daten zurückgesetzt! Möchten Sie diese Einstellungen wirklich übernehmen?" revision="0" />
+  <Message key="StatisticsTip" value="Wählen Sie den Zähler aus, um dessen Beschreibung anzuzeigen." revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Rohdaten" revision="0" />
     <Item value="Die Rohdatenansicht zeigt rohe Paketdaten in zwei zusammenhängenden Strömen (Eingabe und Ausgabe) an. Sie bietet flexible visuelle und Layout-Anpassung und unterstützt protokollgesteuerte Filterung und Änderung des Root-Protokolls." revision="0" />
@@ -43,6 +45,10 @@
   <Enumeration key="NewConsoleConverter">
     <Item value="Konsolen Ansicht " revision="0" />
     <Item value="Die Konsolenansicht funktioniert wie ein Konsolenfenster und zeigt Zeichen an, die von einem seriellen Gerät empfangen werden. Sie ist ein nützlicher Visualisierer für die Überwachung von Textprotokollen." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketView">
+    <Item value="Neue Paketansicht" revision="0" />
+    <Item value="Die Paketansicht zeigt jedes überwachte Datenpaket in einer eigenen Zeile an und ermöglicht die individuelle Dekodierung der Pakete entsprechend den verschiedenen Formaten und Protokollen." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
     <Item value="Leerer Raum" revision="0" />
@@ -88,6 +94,10 @@
   <Enumeration key="NewCommConverter">
     <Item value="Kommunikation Ansicht" revision="0" />
     <Item value="Der Datenvisualisierer der Kommunikationsansicht dekodiert Pakete und Deskriptoren der USB-Kommunikationsklasse." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewHidViewConverter">
+    <Item value="HID-Ansicht" revision="0" />
+    <Item value="Der HID Ansicht Datenvisualisierer dekodiert HID-spezifische Pakete und Datenstrukturen und stellt sie auf komfortable Weise dar. Ideal für Geräte, die zur Klasse der Human Interface Devices gehören." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="Standard" revision="1" />
@@ -219,5 +229,21 @@
     <Item value="Anzeige einer Aufwärtskorrektur" revision="0" />
     <Item value="Alle isochronen Pakete auflisten" revision="0" />
     <Item value="Zeilennummern anzeigen" revision="0" />
+  </Enumeration>
+  <Enumeration key="USBHidViewSchemes">
+    <Item value="Standard" revision="0" />
+    <Item value="Kopfzeilen" revision="0" />
+    <Item value="Option" revision="0" />
+    <Item lookup="Value" />
+    <Item value="Kopfzeile von Read" revision="0" />
+    <Item value="Kopfzeile Schreiben" revision="0" />
+    <Item value="Dump" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCountersColumns">
+    <Item value="Name" revision="0" />
+    <Item value="Ausdruck" revision="0" />
+    <Item value="Einheiten" revision="0" />
+    <Item value="Linienbreite" revision="0" />
+    <Item value="Maßstab" revision="0" />
   </Enumeration>
 </Language>

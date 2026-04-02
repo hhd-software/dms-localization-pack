@@ -16,6 +16,9 @@
   <Message key="Enter the server name or address" value="Saisir le nom ou l'adresse du serveur" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="Ou sélectionnez-en un dans la liste " revision="0" />
   <Message key="Optional access token" value="Token d'accès optionnel" revision="0" />
+  <Message key="Only show reachable servers" value="Afficher uniquement les points de terminaison accessibles" revision="0" />
+  <Message key="Pinging" value="{endpoint} (pinger…)" revision="0" />
+  <Message key="Unreachable" value="{endpoint} (inaccessible)" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Connexion au nouveau serveur…" revision="0" />
     <Item value="Ajouter une connexion à un autre serveur" revision="0" />
@@ -41,8 +44,9 @@
     <Item value="Outre la surveillance des périphériques sériels, USB et réseau locaux, Device Monitoring Studio vous permet de vous connecter à un ordinateur distant pour voir tous les périphériques sériels et USB qui y sont connectés.\n\nVous pouvez contrôler n'importe quel périphérique série ou USB distant, à condition que le composant [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] soit installé sur l'ordinateur distant." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="Le serveur interdit l'accès anonyme et un token d'accès vide est transmis." revision="0" />
-    <Item value="Accès refusé. L'accès au token d'accès spécifié n'est pas autorisé" revision="0" />
-    <Item value="Accès refusé : l'utilisateur n'est pas autorisé à surveiller cet appareil." revision="0" />
+    <Item value="Le serveur interdit l'accès anonyme et un token d'accès vide est transmis" revision="1" />
+    <Item value="Accès refusé. L'accès au token d'accès spécifié n'est pas autorisé" revision="1" />
+    <Item value="Accès refusé : l'utilisateur n'est pas autorisé à surveiller cet appareil" revision="1" />
+    <Item value="Demande non valide. Version incompatible de Device Monitoring Studio Server ou point de terminaison totalement inconnu spécifié." revision="1" />
   </Enumeration>
 </Language>

@@ -4,6 +4,8 @@
   <Message key="Line State Change Notification" value="Notificação de mudança de estado da linha" revision="0" />
   <Message key="SchemeBasic" value="Básico" revision="0" />
   <Message key="SchemeComplete" value="Completo" revision="0" />
+  <Message key="PlotCountersNotification" value="Aviso: Alterar a expressão do contador ou o tipo de unidades provocará a reinicialização dos dados recolhidos anteriormente! Tem a certeza de que deseja aplicar estas definições?" revision="0" />
+  <Message key="StatisticsTip" value="Selecione o contador para ver a sua descrição." revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vista de dados brutos" revision="0" />
     <Item value="A visualização de dados brutos exibe dados brutos de pacotes em dois fluxos contíguos (entrada e saída). Oferece personalização flexível do visual e do layout e suporta filtragem controlada por protocolo e alteração do protocolo raiz." revision="0" />
@@ -43,6 +45,10 @@
   <Enumeration key="NewConsoleConverter">
     <Item value="Vista da consola" revision="0" />
     <Item value="A Vista de consola funciona como uma janela de consola de série e apresenta os caracteres recebidos do dispositivo de série. É um visualizador útil para monitorizar protocolos baseados em texto." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketView">
+    <Item value="Nova vista do pacote" revision="0" />
+    <Item value="A visualização de pacotes apresenta cada pacote de dados monitorizado numa linha separada e permite a descodificação individual dos pacotes, de acordo com os diferentes formatos e protocolos." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
     <Item value="Espaço vazio" revision="0" />
@@ -88,6 +94,10 @@
   <Enumeration key="NewCommConverter">
     <Item value="Vista das comunicações" revision="0" />
     <Item value="O visualizador de dados da Vista de Comunicações descodifica pacotes e descritores da Classe de Comunicações USB." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewHidViewConverter">
+    <Item value="Vista HID" revision="0" />
+    <Item value="O visualizador de dados Vista HID descodifica pacotes e estruturas de dados específicos de HID e apresenta-os de forma cómoda. Ideal para dispositivos que pertencem à classe de dispositivos de interface humana." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="Por defeito" revision="1" />
@@ -219,5 +229,21 @@
     <Item value="Exibir uma escrita ascendente" revision="0" />
     <Item value="Listar todos os pacotes isócronos" revision="0" />
     <Item value="Exibir números de linha" revision="0" />
+  </Enumeration>
+  <Enumeration key="USBHidViewSchemes">
+    <Item value="Predefinição" revision="0" />
+    <Item value="Cabeçalho" revision="0" />
+    <Item value="Opção" revision="0" />
+    <Item lookup="Value" />
+    <Item value="Cabeçalho de Ler" revision="0" />
+    <Item value="Cabeçalho de gravação" revision="0" />
+    <Item value="Dump" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCountersColumns">
+    <Item value="Nome" revision="0" />
+    <Item value="Expressão" revision="0" />
+    <Item value="Unidades" revision="0" />
+    <Item value="Largura da linha" revision="0" />
+    <Item value="Escala" revision="0" />
   </Enumeration>
 </Language>

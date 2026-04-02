@@ -23,6 +23,8 @@
   <Message key="Serial Structure View" value="{name} - Ansicht der seriellen Struktur" revision="0" />
   <Message key="struct not found" value="Die Strukturdefinition 'Serial' wird nicht gefunden. Die Strukturansicht kann keine Ergebnisse anzeigen." revision="0" />
   <Message key="Serial Device Information" value="Informationen zum seriellen Gerät" revision="0" />
+  <Message key="Application" value="Anwendung" revision="0" />
+  <Message key="Port" value="Port" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Linienansicht" revision="0" />
     <Item value="In der Linienansicht wird der Zustand aller Modemsteuerlinien angezeigt." revision="0" />

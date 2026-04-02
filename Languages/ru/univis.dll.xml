@@ -53,7 +53,6 @@
   <Message key="Back color:" value="Цвет фона:" revision="0" />
   <Message key="Text color:" value="Цвет текста:" revision="0" />
   <Message key="Outline color:" value="Цвет обводки:" revision="0" />
-  <Message key="Description" value="Описание" revision="0" />
   <Message key="New Packet" value="Новый пакет" revision="0" />
   <Message key="Packet Template:" value="Шаблон пакета:" revision="0" />
   <Message key="Interval:" value="Интервал:" revision="0" />
@@ -90,7 +89,6 @@
   <Message key="PatternColoringRule" value="Правило подсветки паттернов {number}" revision="0" />
   <Message key="CopyWait" value="Пожалуйста, подождите, пока данные будут скопированы в буфер обмена." revision="0" />
   <Message key="CantCreateFile" value="Невозможно создать файл" revision="0" />
-  <Message key="StatisticsTip" value="Выберите счётчик, чтобы просмотреть его описание." revision="0" />
   <Message key="Lines" value="Строки" revision="0" />
   <Message key="SchemeNameCue" value="Введите здесь название схемы" revision="0" />
   <Message key="Device" value="Устройство" revision="0" />
@@ -121,11 +119,6 @@
   <Message key="Find All" value="Искать все" revision="0" />
   <Message key="Set Columns" value="Установить колонки" revision="0" />
   <Message key="Enter number of columns per row:" value="Введите количество колонок в строке:" revision="0" />
-  <Message key="Add/Remove Counters" value="Добавление/удаление счётчиков" revision="0" />
-  <Message key="Available counters:" value="Доступные счётчики:" revision="0" />
-  <Message key="Select All" value="Выбрать все" revision="0" />
-  <Message key="Counter description:" value="Описание счетчика:" revision="0" />
-  <Message key="Select the counter to view its description." value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
   <Message key="Layout" value="Схема размещения" revision="0" />
   <Message key="Font:" value="Шрифт:" revision="0" />
   <Message key="Size:" value="Размер:" revision="0" />
@@ -140,11 +133,6 @@
   <Message key="Antialiased quality (slower)" value="Антиалиасинг (медленнее)" revision="0" />
   <Message key="Layout Schemes" value="Схемы компоновки окон" revision="0" />
   <Message key="Pattern Coloring" value="Подсветка паттернов" revision="0" />
-  <Message key="Variable Properties" value="Свойства переменной" revision="0" />
-  <Message key="Variable name:" value="Имя переменной:" revision="0" />
-  <Message key="Units:" value="Единицы:" revision="0" />
-  <Message key="Line width:" value="Ширина линии:" revision="1" />
-  <Message key="Scale:" value="Масштаб:" revision="0" />
   <Message key="Please Wait..." value="Пожалуйста, ждите…" revision="0" />
   <Message key="Find all results" value="Найти все результаты" revision="0" />
   <Message key="Display results pane" value="Показать панель результатов" revision="0" />
@@ -320,6 +308,10 @@
   <Enumeration key="NetSetFilter">
     <Item value="Установить &amp;фильтр" revision="0" />
     <Item value="Настройка фильтра визуализатора" revision="0" />
+  </Enumeration>
+  <Enumeration key="NetApplyAsFilter">
+    <Item value="В качестве фильтра…" revision="0" />
+    <Item value="Сделать значение поля фильтром отображения" revision="0" />
   </Enumeration>
   <Enumeration key="NetSetBindPath">
     <Item value="Установить &amp;корневой протокол…" revision="0" />
@@ -549,6 +541,10 @@
     <Item value="По&amp;рядок байт" revision="0" />
     <Item value="Порядок байт" revision="0" />
   </Enumeration>
+  <Enumeration key="EditColumns">
+    <Item value="Выбрать столбцы…" revision="0" />
+    <Item value="Выбрать столбцы для просмотра пакетов" revision="0" />
+  </Enumeration>
   <Enumeration key="IncorrectInputText">
     <Item value="Должно быть шестнадцатеричное значение" revision="0" />
     <Item value="Должно быть десятичное значение" revision="0" />
@@ -650,5 +646,17 @@
   <Enumeration key="SelectionClear">
     <Item value="Очистить выделенное" revision="0" />
     <Item value="Удалить все выбранные блоки" revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketViewColumns">
+    <Item value="Номер" revision="0" />
+    <Item value="Источник" revision="0" />
+    <Item value="Направление" revision="0" />
+    <Item value="Статус" revision="0" />
+    <Item lookup="Size" />
+    <Item value="Протокол" revision="0" />
+    <Item lookup="Time" />
+    <Item value="Подробнее" revision="0" />
+    <Item lookup="Process" />
+    <Item lookup="Device" />
   </Enumeration>
 </Language>

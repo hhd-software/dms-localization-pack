@@ -183,6 +183,7 @@
   <Message key="clr.default_colors.text" value="Testo/primo piano" revision="0" />
   <Message key="clr.default_colors.hyperlink" value="Link ipertestuale" revision="0" />
   <Message key="clr.default_colors.disabled" value="Testo disattivato" revision="0" />
+  <Message key="clr.default_colors.error" value="Errore" revision="0" />
   <Message key="clr.default_colors.hover.fill" value="Sfondo dell'elemento Hover" revision="0" />
   <Message key="clr.default_colors.hover.stroke" value="Tratto dell'elemento Hover" revision="0" />
   <Message key="clr.default_colors.hover.text" value="Testo dell'elemento Hover" revision="0" />
@@ -258,6 +259,14 @@
   <Message key="clr.balloon.balloon.text" value="Testo" revision="0" />
   <Message key="clr.balloon.balloon.stroke" value="Tratto" revision="0" />
   <Message key="clr.balloon.dontDisplay" value="Messaggio &quot;Non visualizzare più&quot;" revision="0" />
+  <Message key="clr.statusbar" value="Colori della barra di stato" revision="0" />
+  <Message key="clr.statusbar.background" value="Sfondo" revision="0" />
+  <Message key="clr.statusbar.text" value="Testo" revision="0" />
+  <Message key="clr.statusbar.separator" value="Separatore" revision="0" />
+  <Message key="clr.statusbar.border" value="Bordo" revision="0" />
+  <Message key="clr.statusbar.hyperlink" value="Link ipertestuale" revision="0" />
+  <Message key="clr.statusbar.chevron.fill" value="Colore del punto chevron" revision="0" />
+  <Message key="clr.statusbar.chevron.stroke" value="Colore del tratto del punto chevron" revision="0" />
   <Message key="Settings Page" value="Impostazioni" revision="0" />
   <Message key="Settings Storage Location" value="Posizione di memorizzazione delle impostazioni" revision="0" />
   <Message key="Settings Management" value="Gestione delle impostazioni" revision="0" />
@@ -377,6 +386,10 @@
   <Message key="NonComMessage" value="Almeno uno dei componenti installati è per uso [[[bdomestico]]] o [[[bdidattico]]]..\nPer ulteriori informazioni, consultare la sezione [[[hPolitica di utilizzo]]].\n\nPer uso commerciale, governativo o militare è necessario un [[[haggiornamento]]]." revision="1" />
   <Message key="yourLanguage" value="Lingua dell'utente disponibile online" revision="0" />
   <Message key="ProgressPleaseWait" value="Attendere prego…" revision="0" />
+  <Message key="Value is out of range" value="Il valore specificato [[[p{value}]]] non rientra nell'intervallo consentito per il parametro [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1" />
+  <Message key="Invalid enum value" value="È stato specificato un valore di enumerazione non valido [[[p{value}]]] per il parametro [[[p{parameter}: {type}]]]" revision="0" />
+  <Message key="Invalid argument type" value="Il valore passato per il parametro [[[p{parameter}]]] è di tipo non valido. Ci si aspettava [[[p{type}]]]" revision="0" />
+  <Message key="Ready" value="Pronto" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Verifica aggiornamenti" revision="0" />
     <Item value="Verificare la presenza di una versione aggiornata on-line." revision="0" />
