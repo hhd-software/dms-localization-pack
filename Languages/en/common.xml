@@ -72,5 +72,18 @@
 		<Param name="error code" format="b016x"/>
 	</Message>
 
+	<!-- Add/Remove Counters (Shared Statistics window) -->
+	<Message key="Available counters" description="Field: Available counters" />
+	<Message key="Select All" description="Field: Select All" value="Select All"/>
+	<Message key="Counter description" description="Field: Counter description" />
+	<Message key="Select the counter to view its description." description="Prompt text: Select the counter" value="Select the counter to view its description."/>
+
+	<!-- Variable Properties -->
+	<Message key="Variable Properties" description="Title: Variable Properties" value="Variable Properties"/>
+	<Message key="Variable name" description="Field: Variable name" />
+	<Message key="Units" description="Field: Units"/>
+	<Message key="Line width" description="Field: Line width" />
+	<Message key="Scale" description="Field: Scale"/>
+	<Message key="Expression" description="Field: Expression" />
 
 </Definition>

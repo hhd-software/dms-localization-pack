@@ -659,6 +659,7 @@
 	<Message key="clr.default_colors.text" description="Color: Default UI Text Color" value="Text/foreground" />
 	<Message key="clr.default_colors.hyperlink" description="Color: Default Hyperlink Color" value="Hyperlink" />
 	<Message key="clr.default_colors.disabled" description="Color: Default UI Disabled Color" value="Disabled text" />
+	<Message key="clr.default_colors.error" description="Color: Default Error Color" value="Error" />
 	<Message key="clr.default_colors.hover.fill" description="Color: Default UI Hover Background Color" value="Hover background" />
 	<Message key="clr.default_colors.hover.stroke" description="Color: Default UI Hover Stroke Color" value="Hover stroke" />
 	<Message key="clr.default_colors.hover.text" description="Color: Default UI Hover Text Color" value="Hover text" />
@@ -742,7 +743,16 @@
 	<Message key="clr.balloon.balloon.text" description="Color: Notification Window Text" value="Text"/>
 	<Message key="clr.balloon.balloon.stroke" description="Color: Notification Window Stroke" value="Stroke"/>
 	<Message key="clr.balloon.dontDisplay" description="Color: Notification Window Don't Display Anymore" value="&quot;Don't display anymore&quot; message"/>
-	
+
+	<Message key="clr.statusbar" description="Color: Statusbar Colors" value="Statusbar Colors"/>
+	<Message key="clr.statusbar.background" description="Color: Statusbar background" value="Background"/>
+	<Message key="clr.statusbar.text" description="Color: Statusbar text" value="Text"/>
+	<Message key="clr.statusbar.separator" description="Color: Statusbar separator" value="Separator"/>
+	<Message key="clr.statusbar.border" description="Color: Statusbar border" value="Border"/>
+	<Message key="clr.statusbar.hyperlink" description="Color: Statusbar hyperlink" value="Hyperlink"/>
+	<Message key="clr.statusbar.chevron.fill" description="Color: Statusbar chevron fill" value="Chevron dot fill color"/>
+	<Message key="clr.statusbar.chevron.stroke" description="Color: Statusbar chevron stroke" value="Chevron dot stroke color"/>
+
 	<!-- Settings Page -->
 	<Message key="Settings Page" description="Settings page title" value="Settings"/>
 
@@ -1008,4 +1018,27 @@
 	</Enumeration>
 
 	<Message key="ProgressPleaseWait" value="Please Wait…" description="Progress dialog: Please Wait…"/>
+	
+	<!-- Scripting errors -->
+
+	<Message key="Value is out of range" description="Value passed in script is out of range" value="Specified value [[[p{value}]]] is out of range for parameter [[[p{parameter}]]]: [{from} ‥ {to}{exclusive?}){|exclusive}]{?exclusive}" revision="1">
+		<Param name="parameter"/>
+		<Param name="value"/>
+		<Param name="from"/>
+		<Param name="to"/>
+		<Param name="exclusive" format="?"/>
+	</Message>
+
+	<Message key="Invalid enum value" description="Invalid enum value" value="Invalid enumeration value [[[p{value}]]] specified for [[[p{parameter}: {type}]]] parameter">
+		<Param name="parameter"/>
+		<Param name="type"/>
+		<Param name="value"/>
+	</Message>
+
+	<Message key="Invalid argument type" description="Invalid argument type" value="Value passed for parameter [[[p{parameter}]]] is of invalid type. Expected [[[p{type}]]]">
+		<Param name="parameter"/>
+		<Param name="type"/>
+	</Message>
+
+	<Message key="Ready" description="Status bar idle message" />
 </Definition>

@@ -185,4 +185,8 @@
 	<Message key="Next" description="Button: Next (Playback status bar)"/>
 
 	<Message key="PlaybackCategoryFilter" description="Device category filter: Playback" value="Playback"/>
+
+	<Message key="Playing back log file" description="Status bar text: Playing backlog file" value="Playing back &quot;{path}&quot;…">
+		<Param name="path"/>
+	</Message>
 </Definition>

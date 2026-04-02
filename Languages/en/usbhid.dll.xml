@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definition xmlns="http://www.hhdsoftware.com/schemas/langset/1.0.xsd">
 
-	<Enumeration  key="HumanConverter" description="USB HID Converter">
-		<Item text="HID View"/>
+	<Enumeration  key="HumanConverter" description="USB HID Converter" revision="1">
+		<Item text="HID View (Legacy)"/>
 		<Item text="HID View data visualizer decodes HID-specific packets and data structures and displays them in the comfortable way. Ideal for devices belonging to Human Interface Device class."/>
 	</Enumeration>
 
@@ -1974,4 +1974,5 @@
 		<Item text="Header 2"/>
 	</Enumeration>
 
+	<Message key="NewHidVisWarning" description="Message: HID Visualizer Error" value="Can't display due HID descriptor parsing errors"/>
 </Definition>

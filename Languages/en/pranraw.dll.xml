@@ -19,13 +19,15 @@
 	<Message key="Complete" description="Scheme name: Complete"/>
 	<Message key="Packet No:" description="Field: Packet No"/>
 
-	<Enumeration key="Device A Bytes Read/sec" description="Category: Device A Bytes Read/sec and description">
+	<Enumeration key="Device A Bytes Read/sec" description="Category: Device A Bytes Read/sec and description" revision="1">
 		<Item text="Device A Bytes Read/sec"/>
+		<Item text="bytes/s"/>
 		<Item text="Device A Bytes Read/sec is the rate data is sent by device A."/>
 	</Enumeration>
 	
-	<Enumeration key="Device B Bytes Read/sec" description="Category: Device B Bytes Read/sec and description">
+	<Enumeration key="Device B Bytes Read/sec" description="Category: Device B Bytes Read/sec and description" revision="1">
 		<Item text="Device B Bytes Read/sec"/>
+		<Item text="bytes/s"/>
 		<Item text="Device B Bytes Read/sec is the rate data is sent by device B."/>
 	</Enumeration>
 	

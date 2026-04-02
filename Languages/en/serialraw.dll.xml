@@ -153,5 +153,7 @@
 		<Item text="Toggle joining of consequent requests of the same type. Applies to serial monitoring sessions."/>
 	</Enumeration>
 
-	<Message key="Serial Device Information" description="Tool window: Serial Device Information"/>	
+	<Message key="Serial Device Information" description="Tool window: Serial Device Information"/>
+	<Message key="Application" description="Value: Application"/>
+	<Message key="Port" description="Value: Port"/>
 </Definition>

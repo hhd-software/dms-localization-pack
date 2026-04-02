@@ -79,9 +79,20 @@
 	<Message key="Or select one from the list of discovered servers" description="Field: Or select one from the list of discovered servers"/>
 	<Message key="Optional access token" description="Field: Optional access token"/>
 
-	<Enumeration key="OperationErrorMessages" description="Connection error messages">
+	<Enumeration key="OperationErrorMessages" description="Connection error messages" revision="1">
 		<Item text="Server prohibits anonymous access and empty Access Token is passed"/>
 		<Item text="Access denied. Access Token specified is not granted access"/>
 		<Item text="Access denied: the user is not granted monitoring access to this device"/>
+		<Item text="Invalid request. Incompatible version of Device Monitoring Studio Server or a completely foreign endpoint specified."/>
 	</Enumeration>
+
+	<Message key="Only show reachable servers" description="Checkbox: Only show reachable servers" value="Only show reachable endpoints"/>
+	<Message key="Pinging" description="Endpoint pinging suffix" value="{endpoint} (pinging…)">
+		<Param name="endpoint"/>
+	</Message>
+
+	<Message key="Unreachable" description="Endpoint unreachable suffix" value="{endpoint} (unreachable)">
+		<Param name="endpoint"/>
+	</Message>
+
 </Definition>

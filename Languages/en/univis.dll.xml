@@ -198,6 +198,11 @@
 		<Item text="Configure display filter"/>
 	</Enumeration>
 
+	<Enumeration key="NetApplyAsFilter" description="Command: Apply As Filter">
+		<Item text="Apply As Filter…"/>
+		<Item text="Set field value as display filter"/>
+	</Enumeration>
+
 	<Enumeration key="NetSetBindPath" description="Command: Set Root Protocol">
 		<Item text="Set &amp;Root Protocol…"/>
 		<Item text="Specify the root protocol for this visualizer"/>
@@ -481,6 +486,10 @@
 		<Item text="Endianess"/>
 	</Enumeration>
 
+	<Enumeration key="EditColumns" description="Command: Edit Columns">
+		<Item text="Select Columns…"/>
+		<Item text="Select Columns packet view columns"/>
+	</Enumeration>
 	
 	<!-- Structure Coloring -->
 	<Message key="Structure Coloring" description="Title: Structure Coloring"/>
@@ -553,7 +562,6 @@
 	<Message key="Back color:" description="Field: Back color" value="Back color:"/>
 	<Message key="Text color:" description="Field: Text color" value="Text color:"/>
 	<Message key="Outline color:" description="Field: Outline color" value="Outline color:"/>
-	<Message key="Description" description="Title: Description" value="Description"/>
 
 	<!-- New Packet -->
 	<Message key="New Packet" description="Title: New Packet"/>
@@ -636,7 +644,6 @@
 	<Message key="CopyWait" description="Message: Copy wait message" value="Please wait while the data being copied to clipboard."/>
 	<Message key="CantCreateFile" description="Error: Can't create file" value="Can't create file"/>
 
-	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
 	<Message key="Lines" description="Title: Lines" value="Lines"/>
 	<Message key="SchemeNameCue" description="Text: Enter scheme name" value="Enter the scheme name here"/>
 	<Message key="Device" description="Column title: Device" value="Device"/>
@@ -745,14 +752,6 @@
 	<Message key="Set Columns" description="Title: Set Columns" value="Set Columns"/>
 	<Message key="Enter number of columns per row:" description="Label text: Enter number of columns" value="Enter number of columns per row:"/>
 
-
-	<!-- Add/Remove Counters -->
-	<Message key="Add/Remove Counters" description="Title: Add/Remove Counters" value="Add/Remove Counters"/>
-	<Message key="Available counters:" description="Field: Available counters" value="Available counters:"/>
-	<Message key="Select All" description="Field: Select All" value="Select All"/>
-	<Message key="Counter description:" description="Field: Counter description" value="Counter description:"/>
-	<Message key="Select the counter to view its description." description="Prompt text: Select the counter" value="Select the counter to view its description."/>
-
 	<!-- Layout -->
 	<Message key="Layout" description="Title: Layout" value="Layout"/>
 	<Message key="Font:" description="Label text: Font" value="Font:"/>
@@ -772,14 +771,6 @@
 
 	<!-- Pattern Coloring -->
 	<Message key="Pattern Coloring" description="Title: Pattern Coloring" value="Pattern Coloring"/>
-
-	<!-- Variable Properties -->
-	<Message key="Variable Properties" description="Title: Variable Properties" value="Variable Properties"/>
-	<Message key="Variable name:" description="Field: Variable name" value="Variable name:"/>
-	<Message key="Units:" description="Field: Units" value="Units:"/>
-	<!--<Message key="Color:" description="" value=""/>-->
-	<Message key="Line width:" description="Field: Line width" value="Line width:" revision="1"/>
-	<Message key="Scale:" description="Field: Scale" value="Scale:"/>
 
 	<!-- Progress -->
 	<Message key="Please Wait..." description="Title: Please Wait…" value="Please Wait…"/>
@@ -882,4 +873,20 @@
 		<Item text="Clear Selection"/>
 		<Item text="Delete all selected blocks"/>
 	</Enumeration>
+
+	<Enumeration key="NewPacketViewColumns" description="New packet view columns list">
+		<Item text="Number"/>
+		<!--<Item lookup="Name"/>-->
+		<Item text="Source"/>
+		<Item text="Destination"/>
+		<Item text="Status"/>
+		<Item lookup="Size"/>
+		<Item text="Protocol"/>
+		<Item lookup="Time"/>
+		<Item text="Details"/>
+		<Item lookup="Process"/>
+		<Item lookup="Device"/>
+	</Enumeration>
+
+
 </Definition>

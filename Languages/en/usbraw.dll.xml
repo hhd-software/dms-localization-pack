@@ -636,4 +636,8 @@
 	<Message key="Reserved URB Function" description="Header: Reserved URB Function" value="Reserved URB Function"/>
 
 	<Message key="CantJumpToPacket" description="Error locating packet" value="The target packet cannot be found. Possible reasons for this failure include:\n\n  • The packet may not yet been captured\n  • Monitoring was started after the target packet was sent\n  • Data processing policy resulted in the target packet being discarded\n  • The target packet is too far away."/>
+
+	<Message key="Host" description="Value: Host"/>
+	<Message key="Device" description="Value: Device"/>
+
 </Definition>

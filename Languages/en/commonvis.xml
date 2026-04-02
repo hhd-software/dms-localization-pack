@@ -51,6 +51,11 @@
 		<Item text="Console View works as a serial console window and displays characters received from the serial device. It is a useful visualizer to monitor text-based protocols."/>
 	</Enumeration>
 
+	<Enumeration key="NewPacketView" description="Packet View visualizer title and description">
+		<Item text="New Packet View"/>
+		<Item text="Packet View displays each monitored data packet on separate row and provides individual packet decoding, according to different formats and protocols."/>
+	</Enumeration>
+	
 	<!-- New Request View (based on Custom View) localization -->
 	<Enumeration key="RequestViewSchemes" description="Request View visualizer schemes (coloring and fonts)">
 		<Item text="Empty space"/>
@@ -165,6 +170,11 @@
 	<Enumeration key="NewCommConverter" description="New USB Communications Converter">
 		<Item text="Communications View"/>
 		<Item text="Communications View data visualizer decodes USB Communications Class packets and descriptors."/>
+	</Enumeration>
+
+	<Enumeration key="NewHidViewConverter" description="New HID View Converter">
+		<Item text="HID View"/>
+		<Item text="HID View data visualizer decodes HID-specific packets and data structures and displays them in the comfortable way. Ideal for devices belonging to Human Interface Device class."/>
 	</Enumeration>
 
 	<Enumeration key="USBVideoViewSchemes" description="USB Video View visualizer schemes (coloring and fonts)" revision="1">
@@ -840,6 +850,7 @@
 	<Message optional="true" key="Release Time" description="Field: Release Time"/>
 	<Message optional="true" key="Pitch Control" description="Field: Pitch Control"/>
 	<Message optional="true" key="Sampling Frequency" description="Field: Sampling Frequency"/>
+	<Message optional="true" key="Reverb Level" description="Field: Reverb Level"/>
 
 
 	<!--Video Descriptor-->
@@ -997,5 +1008,26 @@
 		<Item text="List all isochronous packets"/>
 		<Item text="Display line numbers"/>
 	</Enumeration>
+
+	<Enumeration key="USBHidViewSchemes" description="USB HID View visualizer schemes (coloring and fonts)">
+		<Item text="Default"/>
+		<Item text="Header"/>
+		<Item text="Option"/>
+		<Item lookup="Value"/>
+		<Item text="Header Read"/>
+		<Item text="Header Write"/>
+		<Item text="Dump"/>
+	</Enumeration>
+
+	<Enumeration key="PlotCountersColumns" description="Plot counters table from Statistics configuration">
+		<Item text="Name"/>
+		<Item text="Expression"/>
+		<Item text="Units"/>
+		<Item text="Line Width"/>
+		<Item text="Scale"/>
+	</Enumeration>
+
+	<Message key="PlotCountersNotification" description="Plot counters warning message" value="Warning: Changing counter expression or units type will cause reseting previously gathered data! Are you sure to apply this settings?"/>
+	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
 
 </Definition>
