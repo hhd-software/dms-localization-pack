@@ -14,12 +14,14 @@
     <Item value="Datenklassen" revision="1" />
   </Enumeration>
   <Enumeration key="Device A Bytes Read/sec">
-    <Item value="Gerät A Bytes Lesen/sec" revision="0" />
-    <Item value="Device A Bytes Lesen/sec ist die Rate, mit der Daten von Gerät A gesendet werden." revision="0" />
+    <Item value="Gerät A Bytes Lesen/sec" revision="1" />
+    <Item value="Byte/s" revision="1" />
+    <Item value="Device A Bytes Lesen/sec ist die Rate, mit der Daten von Gerät A gesendet werden." revision="1" />
   </Enumeration>
   <Enumeration key="Device B Bytes Read/sec">
-    <Item value="Gerät B Bytes Lesen/sec" revision="0" />
-    <Item value="Device B Bytes Lesen/sec ist die Rate, mit der Daten von Gerät B gesendet werden." revision="0" />
+    <Item value="Gerät B Bytes Lesen/sec" revision="1" />
+    <Item value="Byte/s" revision="1" />
+    <Item value="Device B Bytes Lesen/sec ist die Rate, mit der Daten von Gerät B gesendet werden." revision="1" />
   </Enumeration>
   <Enumeration key="DataViewColors">
     <Item value="Lesen: Kopfzeile" revision="0" />

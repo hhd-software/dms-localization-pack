@@ -16,6 +16,9 @@
   <Message key="Enter the server name or address" value="Inserire il nome o l'indirizzo del server" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="Oppure selezionare uno dall'elenco dei server rilevati" revision="0" />
   <Message key="Optional access token" value="Token di accesso opzionale" revision="0" />
+  <Message key="Only show reachable servers" value="Mostra solo gli endpoint raggiungibili" revision="0" />
+  <Message key="Pinging" value="{endpoint} (ping…)" revision="0" />
+  <Message key="Unreachable" value="{endpoint} (inaccessibile)" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Connettersi al nuovo server…" revision="0" />
     <Item value="Aggiungere la connessione a un altro server" revision="0" />
@@ -41,8 +44,9 @@
     <Item value="Oltre al monitoraggio dei dispositivi seriali, USB e di rete locali, Device Monitoring Studio consente di collegarsi a un computer remoto per visualizzare tutti i dispositivi seriali e USB ad esso collegati.\n\nÈ possibile monitorare qualsiasi dispositivo seriale o USB remoto, a condizione che il componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] sia installato sul computer remoto." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="Il server vieta l'accesso anonimo e viene passato un token di accesso vuoto" revision="0" />
-    <Item value="Accesso negato. Al token di accesso specificato non è stato concesso l'accesso" revision="0" />
-    <Item value="Accesso negato: all'utente non è stato concesso l'accesso al monitoraggio di questo dispositivo." revision="0" />
+    <Item value="Il server vieta l'accesso anonimo e viene passato un token di accesso vuoto" revision="1" />
+    <Item value="Accesso negato. Al token di accesso specificato non è stato concesso l'accesso" revision="1" />
+    <Item value="Accesso negato: all'utente non è stato concesso l'accesso al monitoraggio di questo dispositivo" revision="1" />
+    <Item value="Richiesta non valida. Versione incompatibile di Device Monitoring Studio Server oppure è stato specificato un endpoint completamente diverso." revision="1" />
   </Enumeration>
 </Language>

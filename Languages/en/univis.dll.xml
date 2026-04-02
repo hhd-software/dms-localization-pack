@@ -488,7 +488,7 @@
 
 	<Enumeration key="EditColumns" description="Command: Edit Columns">
 		<Item text="Select Columns…"/>
-		<Item text="Select Columns packet view columns"/>
+		<Item text="Select packet view columns"/>
 	</Enumeration>
 	
 	<!-- Structure Coloring -->

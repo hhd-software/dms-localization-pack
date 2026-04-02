@@ -103,6 +103,8 @@
   <Message key="Microsoft OS Feature Descriptor" value="Microsoft-Betriebssystem-Feature-Deskriptor" revision="0" />
   <Message key="Reserved URB Function" value="Reservierte URB-Funktion" revision="0" />
   <Message key="CantJumpToPacket" value="Das Zielpaket kann nicht gefunden werden. Mögliche Gründe für diesen Fehler sind:\n\n  • Das Paket wurde möglicherweise noch nicht erfasst\n  • Die Überwachung wurde nach dem Senden des Zielpakets gestartet\n  • Die Datenverarbeitungsrichtlinie führte dazu, dass das Zielpaket verworfen wurde\n  • Das Zielpaket ist zu weit entfernt." revision="0" />
+  <Message key="Host" value="Host" revision="0" />
+  <Message key="Device" value="Gerät" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="Name &amp;kopieren" revision="0" />
     <Item value="Kopieren Sie den Gerätenamen in die Zwischenablage" revision="0" />

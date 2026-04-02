@@ -103,6 +103,8 @@
   <Message key="Microsoft OS Feature Descriptor" value="Descrizione delle funzionalità del sistema operativo Microsoft" revision="0" />
   <Message key="Reserved URB Function" value="Funzione URB riservata" revision="0" />
   <Message key="CantJumpToPacket" value="Il pacchetto di destinazione non è stato trovato. Le possibili cause di questo errore includono:\n\n  • Il pacchetto potrebbe non essere stato ancora catturato\n  • Il monitoraggio è stato avviato dopo l'invio del pacchetto di destinazione\n  • La politica di elaborazione dei dati ha comportato lo scarto del pacchetto di destinazione\n  • Il pacchetto di destinazione è troppo lontano." revision="0" />
+  <Message key="Host" value="Host" revision="0" />
+  <Message key="Device" value="Dispositivo" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Copiare il nome" revision="0" />
     <Item value="Copiare il nome del dispositivo negli Appunti" revision="0" />

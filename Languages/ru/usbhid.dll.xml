@@ -10,9 +10,10 @@
   <Message key="HID Device Detected." value="Обнаружено HID-устройство." revision="0" />
   <Message key="WARNING: unsupported device type. Trying to parse." value="WARNING: неподдерживаемый тип устройства. Попытка разбора." revision="0" />
   <Message key="Device Class" value="Класс устройства" revision="0" />
+  <Message key="NewHidVisWarning" value="Невозможно отобразить из-за ошибок анализа HID дескрипторов" revision="0" />
   <Enumeration key="HumanConverter">
-    <Item value="HID" revision="0" />
-    <Item value="Визуализатор USB HID декодирует HID-пакеты и структуры данных, отображая их в удобном виде. Идеально подходит для устройств, относящихся к классу Human Interface Device." revision="0" />
+    <Item value="HID (Legacy)" revision="1" />
+    <Item value="Визуализатор USB HID декодирует HID-пакеты и структуры данных, отображая их в удобном виде. Идеально подходит для устройств, относящихся к классу Human Interface Device." revision="1" />
   </Enumeration>
   <Enumeration key="UsbHidDescriptorType">
     <Item />

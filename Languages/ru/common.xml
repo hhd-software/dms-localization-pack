@@ -48,4 +48,14 @@
   <Message key="Out XON/XOFF" value="Исходящий XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="Входящий XON/XOFF" revision="0" />
   <Message key="DriverConnectError" value="Ошибка подключения к фильтр драйверу: {error text} ({error code})" revision="0" />
+  <Message key="Available counters" value="Доступные счетчики" revision="0" />
+  <Message key="Select All" value="Выбрать всё" revision="0" />
+  <Message key="Counter description" value="Описание счетчика" revision="0" />
+  <Message key="Select the counter to view its description." value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
+  <Message key="Variable Properties" value="Свойства переменной" revision="0" />
+  <Message key="Variable name" value="Имя переменной" revision="0" />
+  <Message key="Units" value="Единицы" revision="0" />
+  <Message key="Line width" value="Ширина линии" revision="0" />
+  <Message key="Scale" value="Масштаб" revision="0" />
+  <Message key="Expression" value="Выражение" revision="0" />
 </Language>

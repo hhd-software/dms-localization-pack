@@ -48,4 +48,14 @@
   <Message key="Out XON/XOFF" value="Ausgehendes XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="Eingehendes XON/XOFF" revision="0" />
   <Message key="DriverConnectError" value="Fehler beim Verbinden mit dem Filtertreiber: {error text} ({error code})" revision="0" />
+  <Message key="Available counters" value="Verfügbare Zähler" revision="0" />
+  <Message key="Select All" value="Alles auswählen" revision="0" />
+  <Message key="Counter description" value="Beschreibung des Zählers" revision="0" />
+  <Message key="Select the counter to view its description." value="Wählen Sie den Zähler aus, um dessen Beschreibung anzuzeigen." revision="0" />
+  <Message key="Variable Properties" value="Eigenschaften der Variablen" revision="0" />
+  <Message key="Variable name" value="Name der Variablen" revision="0" />
+  <Message key="Units" value="Einheiten" revision="0" />
+  <Message key="Line width" value="Linienstärke" revision="0" />
+  <Message key="Scale" value="Maßstab" revision="0" />
+  <Message key="Expression" value="Ausdruck" revision="0" />
 </Language>

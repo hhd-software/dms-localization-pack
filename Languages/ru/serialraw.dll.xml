@@ -23,6 +23,8 @@
   <Message key="Serial Structure View" value="{name} - Serial Структурный вид" revision="0" />
   <Message key="struct not found" value="Определение структуры 'Serial' не найдено. Визуализатор не может отобразить какие-либо результаты." revision="0" />
   <Message key="Serial Device Information" value="Информация о последовательном устройстве" revision="0" />
+  <Message key="Application" value="Приложение" revision="0" />
+  <Message key="Port" value="Порт" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Вид &quot;Линия&quot;" revision="0" />
     <Item value="Визуализатор &quot;Линия&quot; отображает состояние всех модемных линий." revision="0" />

@@ -48,4 +48,14 @@
   <Message key="Out XON/XOFF" value="Uscita XON/XOFF" revision="0" />
   <Message key="In XON/XOFF" value="In XON/XOFF" revision="0" />
   <Message key="DriverConnectError" value="Errore di connessione al driver del filtro: {error text} ({error code})" revision="0" />
+  <Message key="Available counters" value="Banconi disponibili" revision="0" />
+  <Message key="Select All" value="Seleziona tutto" revision="0" />
+  <Message key="Counter description" value="Descrizione del contatore" revision="0" />
+  <Message key="Select the counter to view its description." value="Seleziona il contatore per visualizzarne la descrizione." revision="0" />
+  <Message key="Variable Properties" value="Proprietà della variabile" revision="0" />
+  <Message key="Variable name" value="Nome della variabile" revision="0" />
+  <Message key="Units" value="Unità" revision="0" />
+  <Message key="Line width" value="Spessore della linea" revision="0" />
+  <Message key="Scale" value="Scala" revision="0" />
+  <Message key="Expression" value="Espressione" revision="0" />
 </Language>

@@ -41,6 +41,7 @@
   <Message key="Recorded sessions" value="Sessions enregistrées" revision="0" />
   <Message key="Next" value="Suivant" revision="0" />
   <Message key="PlaybackCategoryFilter" value="Lecture" revision="0" />
+  <Message key="Playing back log file" value="Lecture de &quot; {path} &quot;…" revision="0" />
   <Enumeration key="PlaybackSource">
     <Item value="Lecture" revision="0" />
     <Item value="La source de données Lecture permet de lire les sessions de surveillance enregistrées, ce qui permet une analyse différée de l'appareil." revision="0" />

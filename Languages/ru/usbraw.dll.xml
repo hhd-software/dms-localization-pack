@@ -103,6 +103,8 @@
   <Message key="Microsoft OS Feature Descriptor" value="Дескриптор функции ОС Microsoft" revision="0" />
   <Message key="Reserved URB Function" value="Резервная URB функция" revision="0" />
   <Message key="CantJumpToPacket" value="Целевой пакет не найден. Возможные причины этой ошибки:\n\n  • Возможно, пакет еще не был получен\n  • Мониторинг был запущен после отправки целевого пакета\n  • Политика обработки данных привела к отбрасыванию целевого пакета\n  • Целевой пакет находится слишком далеко." revision="0" />
+  <Message key="Host" value="Хост" revision="0" />
+  <Message key="Device" value="Устройство" revision="0" />
   <Enumeration key="EditCopyDeviceName">
     <Item value="&amp;Копировать имя" revision="0" />
     <Item value="Скопируйте имя устройства в буфер обмена" revision="0" />

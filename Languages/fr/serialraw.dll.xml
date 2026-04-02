@@ -23,6 +23,8 @@
   <Message key="Serial Structure View" value="{name} - Vue de la structure en série" revision="0" />
   <Message key="struct not found" value="La définition de la structure 'Serial' est introuvable. La vue de la structure ne peut pas afficher de résultats." revision="0" />
   <Message key="Serial Device Information" value="Informations sur les appareils en série" revision="0" />
+  <Message key="Application" value="Application" revision="0" />
+  <Message key="Port" value="Port" revision="0" />
   <Enumeration key="LineConverter">
     <Item value="Vue de ligne" revision="0" />
     <Item value="La vue des lignes affiche l'état de toutes les lignes de contrôle du modem." revision="0" />

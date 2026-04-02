@@ -3,6 +3,8 @@
   <Message key="PacketNo" value="Paquet n°" revision="0" />
   <Message key="SchemeBasic" value="De base" revision="0" />
   <Message key="SchemeComplete" value="Complet" revision="0" />
+  <Message key="PlotCountersNotification" value="Avertissement : la modification de l'expression du compteur ou du type d'unités entraînera la réinitialisation des données précédemment collectées ! Voulez-vous vraiment appliquer ces paramètres ?" revision="0" />
+  <Message key="StatisticsTip" value="Sélectionnez le compteur pour afficher sa description." revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Vue des données brutes" revision="0" />
     <Item value="La vue des données brutes affiche les données brutes des paquets en deux flux contigus (entrée et sortie). Elle permet une personnalisation souple de l'affichage et de la mise en page et prend en charge le filtrage en fonction du protocole et la commutation du protocole racine." revision="0" />
@@ -42,6 +44,10 @@
   <Enumeration key="NewConsoleConverter">
     <Item value="Vue de la console" revision="0" />
     <Item value="La Vue de la console fonctionne comme une fenêtre de console série et affiche les caractères reçus de l'appareil série. Il s'agit d'un visualiseur utile pour surveiller les protocoles basés sur le texte. " revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketView">
+    <Item value="Nouvelle vue des paquets" revision="0" />
+    <Item value="Packet View affiche chaque paquet de données surveillé sur une ligne distincte et permet le décodage individuel des paquets, en fonction des différents formats et protocoles." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
     <Item value="Espace vide" revision="0" />
@@ -87,6 +93,10 @@
   <Enumeration key="NewCommConverter">
     <Item value="Vue des communications" revision="0" />
     <Item value="Le visualiseur &quot; Vue des communications &quot; décode les paquets et les descripteurs de la classe des communications USB." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewHidViewConverter">
+    <Item value="Vue HID" revision="0" />
+    <Item value="Le visualisateur de données à la vue de HID décode les paquets et les structures de données spécifiques à HID et les affiche d'une manière confortable. Idéal pour les appareils appartenant à la classe des appareils à interface humaine." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="Défaut" revision="1" />
@@ -218,5 +228,21 @@
     <Item value="Afficher les écritures ascendantes" revision="0" />
     <Item value="Répertorier tous les paquets isochrones" revision="0" />
     <Item value="Afficher les numéros de ligne" revision="0" />
+  </Enumeration>
+  <Enumeration key="USBHidViewSchemes">
+    <Item value="Défaut" revision="0" />
+    <Item value="En-tête" revision="0" />
+    <Item value="Option" revision="0" />
+    <Item lookup="Value" />
+    <Item value="En-tête de la Lire" revision="0" />
+    <Item value="En-tête de l'Écriture" revision="0" />
+    <Item value="Dump" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCountersColumns">
+    <Item value="Nom" revision="0" />
+    <Item value="Expression" revision="0" />
+    <Item value="Unités" revision="0" />
+    <Item value="Largeur de trait" revision="0" />
+    <Item value="Échelle" revision="0" />
   </Enumeration>
 </Language>

@@ -16,6 +16,9 @@
   <Message key="Enter the server name or address" value="Introduzir o nome ou o endereço do servidor" revision="0" />
   <Message key="Or select one from the list of discovered servers" value="Ou selecionar um da lista de servidores detectados" revision="0" />
   <Message key="Optional access token" value="Token de acesso opcional" revision="0" />
+  <Message key="Only show reachable servers" value="Mostrar apenas pontos finais acessíveis" revision="0" />
+  <Message key="Pinging" value="{endpoint} (pingar…)" revision="0" />
+  <Message key="Unreachable" value="{endpoint} (inacessível)" revision="0" />
   <Enumeration key="ConnectServer">
     <Item value="Ligar a um novo servidor…" revision="0" />
     <Item value="Adicionar ligação a outro servidor" revision="0" />
@@ -41,8 +44,9 @@
     <Item value="Para além da monitorização de dispositivos locais de série, USB e de rede, o Device Monitoring Studio permite-lhe ligar-se a um computador remoto para ver todos os dispositivos de série e USB a ele ligados.\n\nPode monitorizar qualquer dispositivo remoto de série ou USB, desde que o componente [[[h#[Device Monitoring Studio Server]#Device Monitoring Studio Server]]] esteja instalado no computador remoto." revision="1" />
   </Enumeration>
   <Enumeration key="OperationErrorMessages">
-    <Item value="O servidor proíbe o acesso anónimo e é passado um Token de Acesso vazio" revision="0" />
-    <Item value="Acesso negado. O Token de Acesso especificado não tem acesso" revision="0" />
-    <Item value="Acesso negado: o utilizador não tem acesso de monitorização a este dispositivo" revision="0" />
+    <Item value="O servidor proíbe o acesso anónimo e é passado um Token de Acesso vazio" revision="1" />
+    <Item value="Acesso negado. O Token de Acesso especificado não tem acesso" revision="1" />
+    <Item value="Acesso negado: o utilizador não tem acesso de monitorização a este dispositivo" revision="1" />
+    <Item value="Pedido inválido. Versão incompatível do Device Monitoring Studio Server ou foi especificado um ponto de extremidade totalmente diferente." revision="1" />
   </Enumeration>
 </Language>

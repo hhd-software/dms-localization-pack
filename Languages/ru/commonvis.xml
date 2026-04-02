@@ -4,6 +4,8 @@
   <Message key="Line State Change Notification" value="Уведомление об изменении состояния линии" revision="0" />
   <Message key="SchemeBasic" value="Основная" revision="0" />
   <Message key="SchemeComplete" value="Полная" revision="0" />
+  <Message key="PlotCountersNotification" value="Предупреждение: изменение выражения счетчика или единицы измерения приведет к сбросу ранее собранных данных! Хотите применить эти настройки?" revision="0" />
+  <Message key="StatisticsTip" value="Выберите счетчик, чтобы просмотреть его описание." revision="0" />
   <Enumeration key="CellConverter">
     <Item value="Сырые данные" revision="0" />
     <Item value="Визуализатор сырых данных отображает необработанные пакетные данные в двух последовательных потоках (входном и выходном). Он обеспечивает гибкую настройку визуального оформления и компоновки, поддерживает фильтрацию по протоколам и смену корневого протокола." revision="0" />
@@ -43,6 +45,10 @@
   <Enumeration key="NewConsoleConverter">
     <Item value="Консольный вид " revision="0" />
     <Item value="Консольный вид работает как окно консоли и отображает символы, полученные от последовательного устройства. Это полезный визуализатор для мониторинга текстовых протоколов." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewPacketView">
+    <Item value="Новый пакетный вид" revision="0" />
+    <Item value="Пакетный просмотр отображает каждый отслеживаемый пакет данных в отдельной строке и обеспечивает декодирование каждого пакета в соответствии с различными форматами и протоколами." revision="0" />
   </Enumeration>
   <Enumeration key="RequestViewSchemes">
     <Item value="Пустое место" revision="0" />
@@ -88,6 +94,10 @@
   <Enumeration key="NewCommConverter">
     <Item value="Связь" revision="0" />
     <Item value="Визуализатор Связь декодирует пакеты и дескрипторы устройств класса USB Communication." revision="0" />
+  </Enumeration>
+  <Enumeration key="NewHidViewConverter">
+    <Item value="HID" revision="0" />
+    <Item value="Визуализатор USB HID декодирует HID-пакеты и структуры данных, отображая их в удобном виде. Идеально подходит для устройств, относящихся к классу Human Interface Device." revision="0" />
   </Enumeration>
   <Enumeration key="USBVideoViewSchemes">
     <Item value="По умолчанию" revision="1" />
@@ -219,5 +229,21 @@
     <Item value="Отображать записи вверх" revision="0" />
     <Item value="Выводить все изохронные пакеты" revision="0" />
     <Item value="Отображать номера строк" revision="0" />
+  </Enumeration>
+  <Enumeration key="USBHidViewSchemes">
+    <Item value="По умолчанию" revision="0" />
+    <Item value="Заголовок" revision="0" />
+    <Item value="Опция" revision="0" />
+    <Item lookup="Value" />
+    <Item value="Заголовок Чтения" revision="0" />
+    <Item value="Заголовок Записи" revision="0" />
+    <Item value="Дамп" revision="0" />
+  </Enumeration>
+  <Enumeration key="PlotCountersColumns">
+    <Item value="Имя" revision="0" />
+    <Item value="Выражение" revision="0" />
+    <Item value="Единицы" revision="0" />
+    <Item value="Ширина линии" revision="0" />
+    <Item value="Масштаб" revision="0" />
   </Enumeration>
 </Language>
