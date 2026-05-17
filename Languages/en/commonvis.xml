@@ -1029,5 +1029,6 @@
 
 	<Message key="PlotCountersNotification" description="Plot counters warning message" value="Warning: Changing counter expression or units type will cause reseting previously gathered data! Are you sure to apply this settings?"/>
 	<Message key="StatisticsTip" description="Text: Statistics tip" value="Select the counter to view its description."/>
+	<Message optional="true" key="Endpoint" description="Field: Endpoint"/>
 
 </Definition>

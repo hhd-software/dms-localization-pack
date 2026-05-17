@@ -40,7 +40,7 @@
 	</Enumeration>
 
 	<Message key="CellConvTooltip" description="Raw Data View tooltip text"
-			 value="Packet:\t\t{number}\nTime:\t\t{timestamp}\nPacket Size:\t{size} bytes\nData Size:\t{datasize} bytes{has_name?}\nDevice:\t\t{devicename}{?has_name}\n">
+			 value="Packet:\t{number}\nTime:\t\t{timestamp}\nPacket Size:\t{size} bytes\nData Size:\t{datasize} bytes{has_name?}\nDevice:\t{devicename}{?has_name}\n" revision="1">
 		<Param name="number" format="w8arf0"/>
 		<Param name="timestamp"/>
 		<Param name="size"/>

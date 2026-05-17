@@ -6,7 +6,7 @@
   <Message key="StructureNotFound" value="La definizione della struttura non è stata trovata. Il Monitor di rete non è in grado di visualizzare alcun risultato." revision="0" />
   <Message key="NetTermSizeError" value="Pacchetto ({packetno}): Dimensione del pacchetto ({size}) superiore alla dimensione MTU dell'adattatore ({maxsize})." revision="0" />
   <Message key="NetTermTooltipText" value="Indirizzo fisico: {mac}\nUnità di trasmissione massima: {size} byte\nVelocità di collegamento: {speed} MB\nIP: {ip}\nStato: {status}" revision="0" />
-  <Message key="CellConvTooltip" value="Pacchetto:\t\t{number}\nTempo:\t\t{timestamp}\nDimensione del pacchetto:\t{datasize} byte{has_name?}\nDispositivo:\t\t{devicename}{?has_name}\n" revision="0" />
+  <Message key="CellConvTooltip" value="Pacchetto:\t{number}\nTempo:\t\t{timestamp}\nDimensione del pacchetto:\t{datasize} byte{has_name?}\nDispositivo:\t{devicename}{?has_name}\n" revision="1" />
   <Enumeration key="NetError">
     <Item value="Corruzione della memoria" revision="0" />
     <Item value="Risorse insufficienti per il pacchetto" revision="0" />

@@ -421,6 +421,10 @@
     <Item value="&amp;Codebereich" revision="0" />
     <Item value="Einblenden oder Ausblenden eines Codefensters" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="0" />
     <Item value="Adresse als Hexadezimalwert anzeigen" revision="0" />

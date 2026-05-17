@@ -338,6 +338,11 @@
 		<Item text="Show or hide a code pane"/>
 	</Enumeration>
 
+	<Enumeration key="ViewInfoPane" description="Command: View.Info Pane">
+		<Item text="&amp;Info Pane"/>
+		<Item text="Show or hide an information pane"/>
+	</Enumeration>
+
 	<Enumeration key="ViewOffsetHex" description="Command: Hex (Offset)">
 		<Item text="&amp;Hex"/>
 		<Item text="View address as hexadecimal"/>
@@ -589,7 +594,7 @@
 	</Message>
 
 	<Message key="NetTermTooltip" description="Packet Sender tooltip text"
-			 value="Packet:\t\t{number}\nSize:\t\t{size} bytes\nDelay:\t\t{delay} ms\n">
+			 value="Packet:\t{number}\nSize:\t\t{size} bytes\nDelay:\t\t{delay} ms\n" revision="1">
 		<Param name="number" format="w8arf0"/>
 		<Param name="size"/>
 		<Param name="delay"/>
@@ -854,6 +859,16 @@
 	<Message key="clr.plot_colors.selectedLine" description="Color: Statistics Visualizer static selection line" value="Static line" revision="1"/> 
 	<Message key="clr.plot_colors.trackingLine" description="Color: Statistics Visualizer tracking line" value="Tracking line" revision="1"/>
 
+
+	<!-- Raw Data View Color scheme -->
+	<Message key="clr.rawDataView" description="Color: Raw Data View Visualizer Colors" value="Raw Data View Colors" revision="1"/>
+	<Message key="clr.rawDataView.oddPacketText" description="Color: Raw Data View Odd Packet Text" value="Odd Packet Text" revision="1"/>
+	<Message key="clr.rawDataView.oddPacketBackground" description="Color: Raw Data View Odd Packet Background" value="Odd Packet Background" revision="1"/>
+	<Message key="clr.rawDataView.oddPacketOutline" description="Color: Raw Data View Odd Packet Outline" value="Odd Packet Outline" revision="1"/>
+	<Message key="clr.rawDataView.evenPacketText" description="Color: Raw Data View Even Packet Text" value="Even Packet Text" revision="1"/> 
+	<Message key="clr.rawDataView.evenPacketBackground" description="Color: Raw Data View Even Packet Background" value="Even Packet Background" revision="1"/>
+	<Message key="clr.rawDataView.evenPacketOutline" description="Color: Raw Data View Even Packet Outline" value="Even Packet Outline" revision="1"/>
+
 	<!-- Save Scheme dialog -->
 	<Message key="Save Color" description="Window title: Save Color"/>
 
@@ -888,5 +903,6 @@
 		<Item lookup="Device"/>
 	</Enumeration>
 
+	<Message key="Packet #" description="Raw dat View header text" value="Packet #"/>
 
 </Definition>

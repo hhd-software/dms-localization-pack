@@ -421,6 +421,10 @@
     <Item value="Riquadro del &amp;codice" revision="0" />
     <Item value="Mostrare o nascondere un riquadro di codice" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Esadecimale" revision="0" />
     <Item value="Visualizza l'indirizzo come esadecimale" revision="0" />

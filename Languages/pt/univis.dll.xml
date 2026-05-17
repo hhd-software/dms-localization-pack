@@ -421,6 +421,10 @@
     <Item value="Painel de &amp;código" revision="0" />
     <Item value="Mostrar ou ocultar um painel de código" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="0" />
     <Item value="Ver o endereço como hexadecimal" revision="0" />

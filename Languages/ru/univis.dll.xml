@@ -421,6 +421,10 @@
     <Item value="&amp;Область кодов" revision="0" />
     <Item value="Показать или скрыть область кодов" revision="0" />
   </Enumeration>
+  <Enumeration key="ViewInfoPane">
+    <Item />
+    <Item />
+  </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шестнадцатеричный" revision="0" />
     <Item value="Просмотр адреса в шестнадцатеричном виде" revision="0" />
