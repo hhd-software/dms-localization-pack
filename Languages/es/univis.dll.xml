@@ -68,7 +68,7 @@
   <Message key="Warning" value="Advertencia" revision="0" />
   <Message key="BigPacket" value="Tamaño del paquete superior a la MTU estándar (1500). Envío no garantizado." revision="0" />
   <Message key="LimitSize" value="Paquete demasiado grande. El tamaño del fichero de entrada es superior a {limit} bytes. Utilice los primeros {first} bytes." revision="0" />
-  <Message key="NetTermTooltip" value="Paquete:\t\t{number}\nTamaño:\t\t{size} bytes\nRetraso:\t\t{delay} ms\n" revision="0" />
+  <Message key="NetTermTooltip" value="Paquete:\t{number}\nTamaño:\t\t{size} bytes\nRetraso:\t{delay} ms\n" revision="1" />
   <Message key="SchemeOverride" value="¿Desea anular este esquema?" revision="0" />
   <Message key="HexStartError" value="Error al iniciar Hex Editor Neo. Código de error = {code}" revision="1" />
   <Message key="HexLocationError" value="No encuentro la ubicación de instalación de Hex Editor Neo." revision="0" />
