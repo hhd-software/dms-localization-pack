@@ -164,7 +164,15 @@
   <Message key="clr.plot_colors.timeLine" value="Couleur du temps" revision="1" />
   <Message key="clr.plot_colors.selectedLine" value="Ligne statique" revision="1" />
   <Message key="clr.plot_colors.trackingLine" value="Ligne de suivi" revision="1" />
+  <Message key="clr.rawDataView" value="Couleur des données brutes" revision="1" />
+  <Message key="clr.rawDataView.oddPacketText" value="Texte du paquet impair" revision="1" />
+  <Message key="clr.rawDataView.oddPacketBackground" value="Arrière-plan du paquet impair" revision="1" />
+  <Message key="clr.rawDataView.oddPacketOutline" value="Contour d'un paquet impair" revision="1" />
+  <Message key="clr.rawDataView.evenPacketText" value="Texte du paquet pair" revision="1" />
+  <Message key="clr.rawDataView.evenPacketBackground" value="Arrière-plan du paquet pair" revision="1" />
+  <Message key="clr.rawDataView.evenPacketOutline" value="Contour d'un paquet pair" revision="1" />
   <Message key="Save Color" value="Garder la couleur" revision="0" />
+  <Message key="Packet #" value="Paquet n°" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Pas de coloration des paquets" revision="0" />
     <Item value="Pas de coloration des paquets" revision="0" />
@@ -422,8 +430,8 @@
     <Item value="Afficher ou masquer un panneau de code" revision="0" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="Panneau d'information" revision="0" />
+    <Item value="Afficher ou masquer un volet d'informations" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="0" />

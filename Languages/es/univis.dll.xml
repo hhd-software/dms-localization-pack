@@ -164,7 +164,15 @@
   <Message key="clr.plot_colors.timeLine" value="Color del tiempo" revision="1" />
   <Message key="clr.plot_colors.selectedLine" value="Línea estática" revision="1" />
   <Message key="clr.plot_colors.trackingLine" value="Linea de seguimiento" revision="1" />
+  <Message key="clr.rawDataView" value="Colores para vista de datos brutos " revision="1" />
+  <Message key="clr.rawDataView.oddPacketText" value="Texto del paquete impar" revision="1" />
+  <Message key="clr.rawDataView.oddPacketBackground" value="Fondo del paquete impar" revision="1" />
+  <Message key="clr.rawDataView.oddPacketOutline" value="Contorno del paquete impar" revision="1" />
+  <Message key="clr.rawDataView.evenPacketText" value="Texto del paquete par" revision="1" />
+  <Message key="clr.rawDataView.evenPacketBackground" value="Fondo del paquete par" revision="1" />
+  <Message key="clr.rawDataView.evenPacketOutline" value="Contorno del paquete par" revision="1" />
   <Message key="Save Color" value="Guardar color" revision="0" />
+  <Message key="Packet #" value="Paquete n.º" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Sin coloreado de paquetes" revision="0" />
     <Item value="Sin coloreado de paquetes" revision="0" />
@@ -422,8 +430,8 @@
     <Item value="Mostrar u ocultar un panel de códigos" revision="0" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="Panel de información" revision="0" />
+    <Item value="Mostrar u ocultar un panel de información" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="0" />

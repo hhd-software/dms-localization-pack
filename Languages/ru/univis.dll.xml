@@ -164,7 +164,15 @@
   <Message key="clr.plot_colors.timeLine" value="Цвет времени" revision="1" />
   <Message key="clr.plot_colors.selectedLine" value="Статичная линия" revision="1" />
   <Message key="clr.plot_colors.trackingLine" value="Следящая линия" revision="1" />
+  <Message key="clr.rawDataView" value="Цвета просмотра сырых данных" revision="1" />
+  <Message key="clr.rawDataView.oddPacketText" value="Текст нечётного пакета" revision="1" />
+  <Message key="clr.rawDataView.oddPacketBackground" value="Фон нечётного пакета" revision="1" />
+  <Message key="clr.rawDataView.oddPacketOutline" value="Обводка нечётного пакета" revision="1" />
+  <Message key="clr.rawDataView.evenPacketText" value="Текст чётного пакета" revision="1" />
+  <Message key="clr.rawDataView.evenPacketBackground" value="Фон чётного пакета" revision="1" />
+  <Message key="clr.rawDataView.evenPacketOutline" value="Обводка чётного пакета" revision="1" />
   <Message key="Save Color" value="Сохранить цвет" revision="0" />
+  <Message key="Packet #" value="Пакет №" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Отсутствие окраски пакетов" revision="0" />
     <Item value="Отсутствие окраски пакетов" revision="0" />
@@ -422,8 +430,8 @@
     <Item value="Показать или скрыть область кодов" revision="0" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="Панель информации" revision="0" />
+    <Item value="Показать или скрыть информационную панель" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Шестнадцатеричный" revision="0" />

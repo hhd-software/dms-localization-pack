@@ -164,7 +164,15 @@
   <Message key="clr.plot_colors.timeLine" value="Zeit Farbe" revision="1" />
   <Message key="clr.plot_colors.selectedLine" value="Statische Linie" revision="1" />
   <Message key="clr.plot_colors.trackingLine" value="Verfolgungslinie" revision="1" />
+  <Message key="clr.rawDataView" value="Farben für die Rohdatenansicht " revision="1" />
+  <Message key="clr.rawDataView.oddPacketText" value="Text des ungeraden Pakets" revision="1" />
+  <Message key="clr.rawDataView.oddPacketBackground" value="Hintergrund des ungeraden Pakets" revision="1" />
+  <Message key="clr.rawDataView.oddPacketOutline" value="Einrahmen eines ungeraden Pakets" revision="1" />
+  <Message key="clr.rawDataView.evenPacketText" value="Text des geraden Pakets" revision="1" />
+  <Message key="clr.rawDataView.evenPacketBackground" value="Hintergrund des geraden Pakets" revision="1" />
+  <Message key="clr.rawDataView.evenPacketOutline" value="Einrahmen eines geraden Pakets" revision="1" />
   <Message key="Save Color" value="Farbe speichern" revision="0" />
+  <Message key="Packet #" value="Paket Nr." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Keine Paketfärbung" revision="0" />
     <Item value="Keine paketfärbung" revision="0" />
@@ -422,8 +430,8 @@
     <Item value="Einblenden oder Ausblenden eines Codefensters" revision="0" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="Infofenster" revision="0" />
+    <Item value="Informationsbereich ein- oder ausblenden" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Hex" revision="0" />

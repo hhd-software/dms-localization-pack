@@ -164,7 +164,15 @@
   <Message key="clr.plot_colors.timeLine" value="Colore del tempo" revision="1" />
   <Message key="clr.plot_colors.selectedLine" value="Linea statica" revision="1" />
   <Message key="clr.plot_colors.trackingLine" value="Linea di tracciamento" revision="1" />
+  <Message key="clr.rawDataView" value="Colore della vista dei dati grezzi" revision="1" />
+  <Message key="clr.rawDataView.oddPacketText" value="Testo del pacchetto dispari" revision="1" />
+  <Message key="clr.rawDataView.oddPacketBackground" value="Sfondo del pacchetto dispari" revision="1" />
+  <Message key="clr.rawDataView.oddPacketOutline" value="Contorno del pacchetto dispari" revision="1" />
+  <Message key="clr.rawDataView.evenPacketText" value="Testo del pacchetto pari" revision="1" />
+  <Message key="clr.rawDataView.evenPacketBackground" value="Sfondo del pacchetto pari" revision="1" />
+  <Message key="clr.rawDataView.evenPacketOutline" value="Contorno del pacchetto pari" revision="1" />
   <Message key="Save Color" value="Salva colore" revision="0" />
+  <Message key="Packet #" value="Pacchetto n." revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Nessuna colorazione dei pacchetti" revision="0" />
     <Item value="Nessuna colorazione dei pacchetti" revision="0" />
@@ -422,8 +430,8 @@
     <Item value="Mostrare o nascondere un riquadro di codice" revision="0" />
   </Enumeration>
   <Enumeration key="ViewInfoPane">
-    <Item />
-    <Item />
+    <Item value="Pannello informativo" revision="0" />
+    <Item value="Mostra o nascondi un riquadro informativo" revision="0" />
   </Enumeration>
   <Enumeration key="ViewOffsetHex">
     <Item value="&amp;Esadecimale" revision="0" />
