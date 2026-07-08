@@ -84,7 +84,8 @@
   <Message key="VersionError" value="Le fichier a une version différente." revision="0" />
   <Message key="ItemWillBeRemoved" value="L'article actuel sera supprimé. Voulez-vous continuer ?" revision="0" />
   <Message key="SampleText" value="Texte modèle" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Pattern coloring alignment" value=", alignement={alignment}" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="1" />
   <Message key="ErrorReadFile2" value="Impossible de lire le fichier. " revision="0" />
   <Message key="PatternColoringRule" value="Règle de coloriage des modèles {number}" revision="0" />
   <Message key="CopyWait" value="Veuillez patienter pendant que les données sont copiées dans le presse-papiers." revision="0" />
@@ -173,6 +174,22 @@
   <Message key="clr.rawDataView.evenPacketOutline" value="Contour d'un paquet pair" revision="1" />
   <Message key="Save Color" value="Garder la couleur" revision="0" />
   <Message key="Packet #" value="Paquet n°" revision="0" />
+  <Message key="rr.Expressions supported" value="Vous pouvez utiliser des expressions mathématiques lorsque vous saisissez les valeurs [[[bStart]]], [[[bSize]]] ou [[[bEnd]]].\n\nFaites précéder les nombres de &quot; 0x &quot; pour utiliser des nombres hexadécimaux." revision="0" />
+  <Message key="RuleFmt" value="[[[uRègle de coloration des motifs {n}]]]" revision="0" />
+  <Message key="ValueRangeHeader" value="Plage de valeurs" revision="0" />
+  <Message key="Delete prompt" value="Cette opération est irréversible. Voulez-vous vraiment continuer ?" revision="0" />
+  <Message key="RegExpBackwards" value="La recherche d'une expression régulière à rebours n'est pas prise en charge." revision="0" />
+  <Message key="RegExpSyntaxError" value="Erreur de syntaxe d'expression régulière :{error}." revision="1" />
+  <Message key="RegExpInSel" value="La recherche d'une expression régulière dans une sélection n'est pas prise en charge." revision="0" />
+  <Message key="A pattern was not found." value="Aucun modèle n'a été trouvé." revision="0" />
+  <Message key="OccFound" value="{N} occurrences trouvées à ce jour." revision="0" />
+  <Message key="GenericError" value="Erreur lors de l'exécution de l'opération : {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="Search whole file" value="Rechercher dans tout le fichier" revision="0" />
+  <Message key="Search selection" value="Rechercher dans la sélection" revision="0" />
+  <Message key="Find &amp;All" value="&amp;Tout afficher" revision="0" />
+  <Message key="NFound" value="{isfound?}{n} occurrences trouvées.{|isfound}Aucune correspondance n'a été trouvée.{?isfound}" revision="0" />
+  <Message key="AlignmentHeader" value="Alignement" revision="0" />
+  <Message key="The current scheme will be lost. Do you want to continue?" value="Le schéma actuel sera perdu. Voulez-vous continuer ?" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Pas de coloration des paquets" revision="0" />
     <Item value="Pas de coloration des paquets" revision="0" />
@@ -446,8 +463,8 @@
     <Item value="Afficher l'adresse en octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item value="&amp;Définir les modèles…" revision="0" />
-    <Item value="Créer de nouveaux modèles ou gérer les modèles existants" revision="0" />
+    <Item value="&amp;Définir les modèles" revision="1" />
+    <Item value="Créer une nouvelle règle de coloration basée sur un motif ou une plage de valeurs" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Encodage" revision="0" />
@@ -456,6 +473,26 @@
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Points finaux" revision="0" />
     <Item value="Points finaux" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item value="Nouvelle règle de motif" revision="0" />
+    <Item value="Modifier la règle de modèle" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewPatternRule">
+    <Item value="Nouvelle règle de motif…" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des motifs" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item value="" revision="0" />
+    <Item value="Définir une nouvelle règle de coloration des plages de valeurs" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item value="Dupliquer la règle…" revision="0" />
+    <Item value="Créer une copie d'une règle sélectionnée" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges">
+    <Item value="Activer la coloration des motifs" revision="0" />
+    <Item value="Activer ou désactiver toutes les règles de mise en couleur des motifs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
     <Item value="Ajouter une nouvelle règle…" revision="0" />
@@ -670,5 +707,21 @@
     <Item value="Détails" revision="0" />
     <Item lookup="Process" />
     <Item lookup="Device" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="Modèles &amp;récents" revision="0" />
+    <Item value="Choisissez l'un des modèles récents" revision="0" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Vide" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

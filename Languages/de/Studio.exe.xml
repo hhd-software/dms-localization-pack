@@ -390,6 +390,7 @@
   <Message key="Invalid enum value" value="Für den Parameter [[[p{parameter}: {type}]]] wurde ein ungültiger Aufzählungswert [[[p{value}]]] angegeben" revision="0" />
   <Message key="Invalid argument type" value="Der für den Parameter [[[p{parameter}]]] übergebene Wert hat einen ungültigen Typ. Erwartet wurde [[[p{type}]]]" revision="0" />
   <Message key="Ready" value="Fertig" revision="0" />
+  <Message key="DefaultAlignment" value="Standard{has default?} ({alignment}){?has default}" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="Nach Updates &amp;suchen" revision="0" />
     <Item value="Prüfen Sie online, ob eine aktualisierte Version vorliegt." revision="0" />

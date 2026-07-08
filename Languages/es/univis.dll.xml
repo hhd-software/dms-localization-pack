@@ -84,7 +84,8 @@
   <Message key="VersionError" value="El archivo tiene una versión diferente." revision="0" />
   <Message key="ItemWillBeRemoved" value="Se eliminará el elemento actual. ¿Desea continuar?" revision="0" />
   <Message key="SampleText" value="Texto de muestra" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Pattern coloring alignment" value=", alineación={alignment}" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="1" />
   <Message key="ErrorReadFile2" value="No se puede leer del archivo. " revision="0" />
   <Message key="PatternColoringRule" value="Regla para colorear patrones {number}" revision="0" />
   <Message key="CopyWait" value="Espere mientras se copian los datos en el portapapeles." revision="0" />
@@ -173,6 +174,22 @@
   <Message key="clr.rawDataView.evenPacketOutline" value="Contorno del paquete par" revision="1" />
   <Message key="Save Color" value="Guardar color" revision="0" />
   <Message key="Packet #" value="Paquete n.º" revision="0" />
+  <Message key="rr.Expressions supported" value="Puedes utilizar expresiones matemáticas al introducir los valores de [[[bStart]]], [[[bSize]]] o [[[bEnd]]].\n\nAñade el prefijo &quot;0x&quot; a los números para utilizar números hexadecimales." revision="0" />
+  <Message key="RuleFmt" value="[[[uRegla para colorear patrones {n}]]]" revision="0" />
+  <Message key="ValueRangeHeader" value="Rango de valores" revision="0" />
+  <Message key="Delete prompt" value="Esta operación no se puede deshacer. ¿Estás seguro de que quieres continuar?" revision="0" />
+  <Message key="RegExpBackwards" value="No se admite la búsqueda de una expresión regular en sentido inverso." revision="0" />
+  <Message key="RegExpSyntaxError" value="Error de sintaxis en la expresión regular:{error}." revision="1" />
+  <Message key="RegExpInSel" value="No es posible buscar una expresión regular dentro de una selección." revision="0" />
+  <Message key="A pattern was not found." value="No se ha encontrado ningún patrón." revision="0" />
+  <Message key="OccFound" value="{N} apariciones encontradas hasta ahora." revision="0" />
+  <Message key="GenericError" value="Error al ejecutar la operación: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="Search whole file" value="Buscar en todo el archivo" revision="0" />
+  <Message key="Search selection" value="Buscar en la selección" revision="0" />
+  <Message key="Find &amp;All" value="Buscar &amp;todo" revision="0" />
+  <Message key="NFound" value="{isfound?}{n} coincidencias encontradas.{|isfound}No se ha encontrado ningún patrón.{?isfound}" revision="0" />
+  <Message key="AlignmentHeader" value="Alineación" revision="0" />
+  <Message key="The current scheme will be lost. Do you want to continue?" value="Se perderá el esquema actual. ¿Quieres continuar?" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Sin coloreado de paquetes" revision="0" />
     <Item value="Sin coloreado de paquetes" revision="0" />
@@ -446,8 +463,8 @@
     <Item value="Ver dirección como octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item value="&amp;Definir patrones…" revision="0" />
-    <Item value="Crear patrones nuevos o gestionar los existentes" revision="0" />
+    <Item value="&amp;Definir patrones" revision="1" />
+    <Item value="Crear una nueva regla de coloración basada en un patrón o un rango de valores" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codificación" revision="0" />
@@ -456,6 +473,26 @@
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Puntos finales" revision="0" />
     <Item value="Puntos finales" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item value="Nueva regla de patrones" revision="0" />
+    <Item value="Editar regla de patrón" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewPatternRule">
+    <Item value="Nueva norma de patrones…" revision="0" />
+    <Item value="Definir una nueva regla de coloración de patrones" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item value="" revision="0" />
+    <Item value="Definir una nueva regla de coloración por rango de valores" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item value="Duplicar la regla…" revision="0" />
+    <Item value="Crear una copia de una regla seleccionada" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges">
+    <Item value="Activar coloración de patrones" revision="0" />
+    <Item value="Activar o desactivar todas las reglas de coloración de patrones" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
     <Item value="Añadir nueva regla…" revision="0" />
@@ -670,5 +707,21 @@
     <Item value="Detalles" revision="0" />
     <Item lookup="Process" />
     <Item lookup="Device" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="Patrones &amp;recientes" revision="0" />
+    <Item value="Elige uno de los patrones recientes" revision="0" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Vacío" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

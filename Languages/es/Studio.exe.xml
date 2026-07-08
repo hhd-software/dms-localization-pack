@@ -390,6 +390,7 @@
   <Message key="Invalid enum value" value="Se ha especificado un valor de enumeración no válido [[[p{value}]]] para el parámetro [[[p{parameter}: {type}]]]" revision="0" />
   <Message key="Invalid argument type" value="El valor pasado para el parámetro [[[p{parameter}]]] es de un tipo no válido. Se esperaba [[[p{type}]]]" revision="0" />
   <Message key="Ready" value="Listo" revision="0" />
+  <Message key="DefaultAlignment" value="Por defecto{has default?} ({alignment}){?has default}" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Buscar actualizaciones" revision="0" />
     <Item value="Busque la versión actualizada en Internet." revision="0" />

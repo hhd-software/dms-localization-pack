@@ -390,6 +390,7 @@
   <Message key="Invalid enum value" value="Указано недопустимое значение перечисления [[[p{value}]]] для параметра [[[p{parameter}: {type}]]]" revision="0" />
   <Message key="Invalid argument type" value="Тип значения, переданного в качестве параметра [[[p{parameter}]]], не соответствует ожидаемому. Ожидался тип [[[p{type}]]]" revision="0" />
   <Message key="Ready" value="Готово" revision="0" />
+  <Message key="DefaultAlignment" value="По умолчанию{has default?} ({alignment}){?has default}" revision="0" />
   <Enumeration key="HelpCheckForUpdates">
     <Item value="&amp;Проверить обновления" revision="0" />
     <Item value="Проверьте наличие обновленной версии в Интернете." revision="0" />

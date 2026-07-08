@@ -84,7 +84,8 @@
   <Message key="VersionError" value="O ficheiro tem uma versão diferente." revision="0" />
   <Message key="ItemWillBeRemoved" value="O item atual será removido. Deseja continuar?" revision="0" />
   <Message key="SampleText" value="Texto de exemplo" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Pattern coloring alignment" value=", alinhamento={alignment}" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="1" />
   <Message key="ErrorReadFile2" value="Não foi possível ler o ficheiro. " revision="0" />
   <Message key="PatternColoringRule" value="Regra para colorir padrões {number}" revision="0" />
   <Message key="CopyWait" value="Aguarde enquanto os dados são copiados para a área de transferência." revision="0" />
@@ -173,6 +174,22 @@
   <Message key="clr.rawDataView.evenPacketOutline" value="Contorno do pacote par" revision="1" />
   <Message key="Save Color" value="Guardar cor" revision="0" />
   <Message key="Packet #" value="Pacote n.º" revision="0" />
+  <Message key="rr.Expressions supported" value="Pode utilizar expressões matemáticas ao introduzir os valores [[[bStart]]], [[[bSize]]] ou [[[bEnd]]].\n\nAntecipe os números com &quot;0x&quot; para utilizar números hexadecimais." revision="0" />
+  <Message key="RuleFmt" value="[[[uRegra de coloração de padrões {n}]]]" revision="0" />
+  <Message key="ValueRangeHeader" value="Intervalo de valores" revision="0" />
+  <Message key="Delete prompt" value="Esta operação não pode ser revertida. Tem a certeza de que deseja continuar?" revision="0" />
+  <Message key="RegExpBackwards" value="A pesquisa de uma expressão regular a partir do fim não é suportada." revision="0" />
+  <Message key="RegExpSyntaxError" value="Erro de sintaxe na expressão regular:{error}." revision="1" />
+  <Message key="RegExpInSel" value="A pesquisa de uma expressão regular dentro de uma seleção não é suportada." revision="0" />
+  <Message key="A pattern was not found." value="Não foi encontrado nenhum padrão." revision="0" />
+  <Message key="OccFound" value="{N} ocorrências encontradas até ao momento." revision="0" />
+  <Message key="GenericError" value="Erro ao executar a operação: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="Search whole file" value="Pesquisar em todo o ficheiro" revision="0" />
+  <Message key="Search selection" value="Pesquisar na seleção" revision="0" />
+  <Message key="Find &amp;All" value="Encontrar &amp;tudo" revision="0" />
+  <Message key="NFound" value="{isfound?}{n} ocorrências encontradas.{|isfound}Não foi encontrado nenhum padrão.{?isfound}" revision="0" />
+  <Message key="AlignmentHeader" value="Alinhamento" revision="0" />
+  <Message key="The current scheme will be lost. Do you want to continue?" value="O esquema atual será perdido. Deseja continuar?" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Sem coloração de pacotes" revision="0" />
     <Item value="Sem coloração de pacotes" revision="0" />
@@ -446,8 +463,8 @@
     <Item value="Ver o endereço como octal" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item value="&amp;Definir padrões…" revision="0" />
-    <Item value="Criar novos padrões ou gerir padrões existentes" revision="0" />
+    <Item value="&amp;Definir padrões" revision="1" />
+    <Item value="Criar uma nova regra de coloração com padrão ou intervalo de valores" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codificação" revision="0" />
@@ -456,6 +473,26 @@
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Pontos finais" revision="0" />
     <Item value="Pontos finais" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item value="Nova regra de padrão" revision="0" />
+    <Item value="Editar regra de padrão" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewPatternRule">
+    <Item value="Nova regra de padrão…" revision="0" />
+    <Item value="Definir uma nova regra de coloração de padrões" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item value="" revision="0" />
+    <Item value="Definir uma nova regra de coloração de intervalos de valores" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item value="Duplicar a regra…" revision="0" />
+    <Item value="Criar uma cópia de uma regra selecionada" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges">
+    <Item value="Ativar coloração de padrões" revision="0" />
+    <Item value="Ativar ou desativar todas as regras de coloração de padrões" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
     <Item value="Adicionar nova regra…" revision="0" />
@@ -670,5 +707,21 @@
     <Item value="Detalhes" revision="0" />
     <Item lookup="Process" />
     <Item lookup="Device" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="Padrões &amp;recentes" revision="0" />
+    <Item value="Escolha um dos padrões mais recentes" revision="0" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Vazio" revision="0" />
+    <Item />
   </Enumeration>
 </Language>

@@ -84,7 +84,8 @@
   <Message key="VersionError" value="Die Datei hat eine andere Version." revision="0" />
   <Message key="ItemWillBeRemoved" value="Der aktuelle Artikel wird entfernt. Möchten Sie fortfahren?" revision="0" />
   <Message key="SampleText" value="Mustertext" revision="0" />
-  <Message key="RegExpPattern" value="RE: {pattern}" revision="0" />
+  <Message key="Pattern coloring alignment" value=", ausrichtung={alignment}" revision="0" />
+  <Message key="RegExpPattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="1" />
   <Message key="ErrorReadFile2" value="Kann nicht aus Datei gelesen werden. " revision="0" />
   <Message key="PatternColoringRule" value="Musterfärberei-Regel {number}" revision="0" />
   <Message key="CopyWait" value="Bitte warten Sie, während die Daten in die Zwischenablage kopiert werden." revision="0" />
@@ -173,6 +174,22 @@
   <Message key="clr.rawDataView.evenPacketOutline" value="Einrahmen eines geraden Pakets" revision="1" />
   <Message key="Save Color" value="Farbe speichern" revision="0" />
   <Message key="Packet #" value="Paket Nr." revision="0" />
+  <Message key="rr.Expressions supported" value="Bei der Eingabe der Werte für [[[bStart]]], [[[bSize]]] oder [[[bEnd]]] können Sie mathematische Ausdrücke verwenden.\n\nFügen Sie Zahlen das Präfix &quot;0x&quot; hinzu, um Hexadezimalzahlen zu verwenden." revision="0" />
+  <Message key="RuleFmt" value="[[[uRegel zum Ausmalen von Mustern {n}]]]" revision="0" />
+  <Message key="ValueRangeHeader" value="Wertebereich" revision="0" />
+  <Message key="Delete prompt" value="Dieser Vorgang kann nicht rückgängig gemacht werden. Möchten Sie wirklich fortfahren?" revision="0" />
+  <Message key="RegExpBackwards" value="Die rückwärtsgerichtete Suche nach einem regulären Ausdruck wird nicht unterstützt." revision="0" />
+  <Message key="RegExpSyntaxError" value="Syntaxfehler bei regulären Ausdrücken:{error}." revision="1" />
+  <Message key="RegExpInSel" value="Die Suche nach einem regulären Ausdruck innerhalb einer Auswahl wird nicht unterstützt." revision="0" />
+  <Message key="A pattern was not found." value="Es wurde kein Muster gefunden." revision="0" />
+  <Message key="OccFound" value="{N} Treffer wurden bisher gefunden." revision="0" />
+  <Message key="GenericError" value="Fehler bei der Ausführung des Vorgangs: {text}{has_code?} ({code}){?has_code}" revision="0" />
+  <Message key="Search whole file" value="Gesamte Datei durchsuchen" revision="0" />
+  <Message key="Search selection" value="In Auswahl suchen" revision="0" />
+  <Message key="Find &amp;All" value="&amp;Alle finden" revision="0" />
+  <Message key="NFound" value="{isfound?}{n} Treffer gefunden.{|isfound}Es wurde kein Muster gefunden.{?isfound}" revision="0" />
+  <Message key="AlignmentHeader" value="Ausrichtung" revision="0" />
+  <Message key="The current scheme will be lost. Do you want to continue?" value="Das aktuelle Schema geht verloren. Möchten Sie fortfahren?" revision="0" />
   <Enumeration key="ToolsHighlightingNone">
     <Item value="&amp;Keine Paketfärbung" revision="0" />
     <Item value="Keine paketfärbung" revision="0" />
@@ -446,8 +463,8 @@
     <Item value="Adresse als oktal anzeigen" revision="0" />
   </Enumeration>
   <Enumeration key="DefinePatterns">
-    <Item value="Muster &amp;definieren…" revision="0" />
-    <Item value="Neue Muster erstellen oder bestehende verwalten" revision="0" />
+    <Item value="Muster &amp;definieren" revision="1" />
+    <Item value="Neue Regel für die Farbgebung nach Muster oder Wertebereich erstellen" revision="1" />
   </Enumeration>
   <Enumeration key="ViewEncoding">
     <Item value="&amp;Codierung" revision="0" />
@@ -456,6 +473,26 @@
   <Enumeration key="ViewEndpoints">
     <Item value="&amp;Endpunkte" revision="0" />
     <Item value="Endpunkte" revision="0" />
+  </Enumeration>
+  <Enumeration key="PatternRuleDlg">
+    <Item value="Neue Musterregel" revision="0" />
+    <Item value="Musterregel bearbeiten" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewPatternRule">
+    <Item value="Neue Musterregel…" revision="0" />
+    <Item value="Neue Regel für die Musterfärbung definieren" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringNewValueRangeRule">
+    <Item value="" revision="0" />
+    <Item value="Neue Regel zur Farbgebung von Wertebereichen definieren" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringDuplicateRule">
+    <Item value="Regel duplizieren…" revision="0" />
+    <Item value="Eine Kopie einer ausgewählten Regel erstellen" revision="0" />
+  </Enumeration>
+  <Enumeration key="ColoringApplyChanges">
+    <Item value="Musterfärbung aktivieren" revision="0" />
+    <Item value="Alle Regeln zur Musterfärbung aktivieren oder deaktivieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewRule">
     <Item value="Neue Regel hinzufügen…" revision="0" />
@@ -670,5 +707,21 @@
     <Item value="Details" revision="0" />
     <Item lookup="Process" />
     <Item lookup="Device" />
+  </Enumeration>
+  <Enumeration key="RangeRuleDlg">
+    <Item value="" revision="0" />
+    <Item />
+  </Enumeration>
+  <Enumeration key="ValueRangeRuleDlg">
+    <Item />
+    <Item />
+  </Enumeration>
+  <Enumeration key="RecentPatterns">
+    <Item value="&amp;Aktuelle Muster" revision="0" />
+    <Item value="Wählen Sie eines der aktuellen Muster aus" revision="0" />
+  </Enumeration>
+  <Enumeration key="FREmpty2">
+    <Item value="Leer" revision="0" />
+    <Item />
   </Enumeration>
 </Language>
