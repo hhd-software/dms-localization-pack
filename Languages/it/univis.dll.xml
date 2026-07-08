@@ -483,7 +483,7 @@
     <Item value="Definire una nuova regola di colorazione dei modelli" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Nuova regola di range di valori" revision="0" />
     <Item value="Definire una nuova regola di colorazione per gli intervalli di valori" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -709,12 +709,12 @@
     <Item lookup="Device" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nuova regola di intervallo" revision="0" />
+    <Item value="Modifica regola di intervallo" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nuova regola di range di valori" revision="0" />
+    <Item value="Modificare regola di intervallo di valori" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="Modelli &amp;recenti" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Vuoto" revision="0" />
-    <Item />
+    <Item value="Elimina il pattern attuale" revision="0" />
   </Enumeration>
 </Language>

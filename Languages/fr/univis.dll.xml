@@ -483,7 +483,7 @@
     <Item value="Définir une nouvelle règle de coloration des motifs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Nouvelle règle de plage de valeurs" revision="0" />
     <Item value="Définir une nouvelle règle de coloration des plages de valeurs" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -709,12 +709,12 @@
     <Item lookup="Device" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nouvelle règle de plage" revision="0" />
+    <Item value="Modifier la règle de plage" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nouvelle règle de plage de valeurs" revision="0" />
+    <Item value="Modifier la règle de plage de valeurs" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="Modèles &amp;récents" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Vide" revision="0" />
-    <Item />
+    <Item value="Effacer le motif actuel" revision="0" />
   </Enumeration>
 </Language>

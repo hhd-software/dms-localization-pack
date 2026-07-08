@@ -483,7 +483,7 @@
     <Item value="Neue Regel für die Musterfärbung definieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Neue Wertbereichsregel" revision="0" />
     <Item value="Neue Regel zur Farbgebung von Wertebereichen definieren" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -709,12 +709,12 @@
     <Item lookup="Device" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item value="" revision="0" />
-    <Item />
+    <Item value="Neue Bereichsregel" revision="0" />
+    <Item value="Bereichsregel bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Neue Wertbereichsregel" revision="0" />
+    <Item value="Wertbereichsregel bearbeiten" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="&amp;Aktuelle Muster" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Leer" revision="0" />
-    <Item />
+    <Item value="Aktuelles Muster löschen" revision="0" />
   </Enumeration>
 </Language>

@@ -483,7 +483,7 @@
     <Item value="Definir uma nova regra de coloração de padrões" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Nova regra de intervalo de valores" revision="0" />
     <Item value="Definir uma nova regra de coloração de intervalos de valores" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -709,12 +709,12 @@
     <Item lookup="Device" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nova regra de intervalo" revision="0" />
+    <Item value="Editar regra de intervalo" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nova regra de intervalo de valores" revision="0" />
+    <Item value="Editar regra de intervalo de valores" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="Padrões &amp;recentes" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Vazio" revision="0" />
-    <Item />
+    <Item value="Eliminar o padrão atual" revision="0" />
   </Enumeration>
 </Language>

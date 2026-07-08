@@ -483,7 +483,7 @@
     <Item value="Определить новое правило раскраски шаблона" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Изменить правило диапазона значений" revision="0" />
     <Item value="Определить новое правило раскраски диапазонов значений" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -710,11 +710,11 @@
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
     <Item value="Новое правило диапазона" revision="0" />
-    <Item value="Редактировать правило диапазона" revision="0" />
+    <Item value="Изменить правило диапазона" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Новое правило диапазона значений" revision="0" />
+    <Item value="Изменить правило диапазона значений" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="&amp;Последние шаблоны" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Пусто" revision="0" />
-    <Item />
+    <Item value="Стереть текущий паттерн" revision="0" />
   </Enumeration>
 </Language>

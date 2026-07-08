@@ -483,7 +483,7 @@
     <Item value="Definir una nueva regla de coloración de patrones" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
-    <Item value="" revision="0" />
+    <Item value="Nueva regla de rango de valores" revision="0" />
     <Item value="Definir una nueva regla de coloración por rango de valores" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringDuplicateRule">
@@ -709,12 +709,12 @@
     <Item lookup="Device" />
   </Enumeration>
   <Enumeration key="RangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nueva regla de rango" revision="0" />
+    <Item value="Editar regla de rango" revision="0" />
   </Enumeration>
   <Enumeration key="ValueRangeRuleDlg">
-    <Item />
-    <Item />
+    <Item value="Nueva regla de rango de valores" revision="0" />
+    <Item value="Editar regla de rango de valores" revision="0" />
   </Enumeration>
   <Enumeration key="RecentPatterns">
     <Item value="Patrones &amp;recientes" revision="0" />
@@ -722,6 +722,6 @@
   </Enumeration>
   <Enumeration key="FREmpty2">
     <Item value="Vacío" revision="0" />
-    <Item />
+    <Item value="Eliminar el patrón actual" revision="0" />
   </Enumeration>
 </Language>
