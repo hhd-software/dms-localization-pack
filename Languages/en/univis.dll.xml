@@ -964,7 +964,7 @@
 	<Message key="OccFound" value="{N} occurrences found so far." description="N occurrences found so far">
 		<Param name="N" format="l"/>
 	</Message>
-	<Enumeration key="FREmpty2" description="No entries in Recent patterns list">
+	<Enumeration key="FREmpty2" description="&quot;Empty&quot; entry in Recent patterns list">
 		<Item text="Empty" />
 		<Item text="Clear the current pattern" />
 	</Enumeration>
