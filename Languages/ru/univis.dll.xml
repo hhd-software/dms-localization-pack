@@ -479,7 +479,7 @@
     <Item value="Изменить правило шаблона" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewPatternRule">
-    <Item value="Новое шаблоновое правило…" revision="0" />
+    <Item value="Новое правило шаблона…" revision="0" />
     <Item value="Определить новое правило раскраски шаблона" revision="0" />
   </Enumeration>
   <Enumeration key="ColoringNewValueRangeRule">
