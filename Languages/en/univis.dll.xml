@@ -358,9 +358,9 @@
 		<Item text="View address as octal"/>
 	</Enumeration>
 
-	<Enumeration key="DefinePatterns" description="Command: Define Patterns">
-		<Item text="&amp;Define Patterns…"/>
-		<Item text="Create new or manage existing patterns"/>
+	<Enumeration key="DefinePatterns" description="Command: Define Patterns" revision="1">
+		<Item text="&amp;Define Patterns"/>
+		<Item text="Create new pattern or value range coloring rule"/>
 	</Enumeration>
 
 	<Enumeration key="ViewEncoding" description="Command: Encoding">
@@ -371,6 +371,28 @@
 	<Enumeration key="ViewEndpoints" description="Command: Endpoints">
 		<Item text="&amp;Endpoints"/>
 		<Item text="Endpoints"/>
+	</Enumeration>
+
+	<Enumeration key="PatternRuleDlg" description="Window title: New Pattern Rule/Edit Range Rule">
+		<Item text="New Pattern Rule"/>
+		<Item text="Edit Pattern Rule"/>
+	</Enumeration>
+
+	<Enumeration key="ColoringNewPatternRule" description="Coloring.New Pattern Rule">
+		<Item text="New Pattern Rule…"/>
+		<Item text="Define new pattern coloring rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringNewValueRangeRule" description="Coloring.New Value Range Rule">
+		<Item text="New Value Range Rule…"/>
+		<Item text="Define new value range coloring rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringDuplicateRule" description="Coloring.Duplicate Rule">
+		<Item text="Duplicate Rule…"/>
+		<Item text="Create a copy of a selected rule"/>
+	</Enumeration>
+	<Enumeration key="ColoringApplyChanges" description="Coloring.Apply Changes">
+		<Item text="Enable Pattern Coloring"/>
+		<Item text="Enable or disable all pattern coloring rules"/>
 	</Enumeration>
 
 	<Enumeration key="ColoringNewRule" description="Command: Add new rule">
@@ -635,8 +657,16 @@
 		</Item>
 	</Enumeration>
 
-	<Message key="RegExpPattern" description="Regular expression pattern" value="RE: {pattern}">
+	<Message key="Pattern coloring alignment" description="Pattern alignment suffix in pattern sample" value=", alignment={alignment}">
+		<Param name="alignment" format="l"/>
+	</Message>
+
+	<Message key="RegExpPattern" description="Regular expression pattern" value="RE: {ignore?}i: {?ignore}[[[b{pattern}]]]{has submatch?}[[[s:80:::{submatch}]]]{?has submatch} ({codepage})" revision="1">
 		<Param name="pattern"/>
+		<Param name="has submatch" format="?"/>
+		<Param name="submatch"/>
+		<Param name="codepage"/>
+		<Param name="ignore" format="?"/>
 	</Message>
 
 	<Message key="ErrorReadFile2" description="Error: Unable to read from file" value="Unable to read from file. " />
@@ -904,5 +934,56 @@
 	</Enumeration>
 
 	<Message key="Packet #" description="Raw dat View header text" value="Packet #"/>
+	<Message key="rr.Expressions supported" description="Field: expressions supported" value="You can use mathematical expressions when entering [[[bStart]]], [[[bSize]]] or [[[bEnd]]] values.\n\nPrefix numbers with &quot;0x&quot; to use hexadecimal numbers."/>
+
+	<Enumeration key="RangeRuleDlg" description="Window title: New Range Rule/Edit Range Rule">
+		<Item text="New Range Rule"/>
+		<Item text="Edit Range Rule"/>
+	</Enumeration>
+
+	<Enumeration key="ValueRangeRuleDlg" description="Window title: New Value Range Rule/Edit Value Range Rule">
+		<Item text="New Value Range Rule"/>
+		<Item text="Edit Value Range Rule"/>
+	</Enumeration>
+	<Message key="RuleFmt" description="Pattern Coloring Rule N" value="[[[uPattern Coloring Rule {n}]]]">
+		<Param name="n"/>
+	</Message>
+
+	<Message key="ValueRangeHeader" description="Value range rule header" value="Value range"/>
+	<Message key="Delete prompt" description="Delete item confirmation message" value="This operation cannot be undone. Are you sure you want to continue?" />
+	<Message key="RegExpBackwards" value="Searching for a regular expression backwards is not supported." description="Searching for a regular expression backwards is not supported"/>
+	<Message key="RegExpSyntaxError" description="Regular expression syntax error" revision="1" value="Regular expression syntax error: {error}.">
+		<Param name="error"/>
+	</Message>
+	<Message key="RegExpInSel" value="Searching for a regular expression within a selection is not supported." description="Searching for a regular expression within a selection is not supported"/>
+	<Message key="A pattern was not found." description="A pattern was not found"/>
+	<Enumeration key="RecentPatterns" description="Command group: Recent patterns">
+		<Item text="&amp;Recent Patterns"/>
+		<Item text="Choose one of the recent patterns"/>
+	</Enumeration>
+	<Message key="OccFound" value="{N} occurrences found so far." description="N occurrences found so far">
+		<Param name="N" format="l"/>
+	</Message>
+	<Enumeration key="FREmpty2" description="No entries in Recent patterns list">
+		<Item text="Empty" />
+		<Item text="Clear the current pattern" />
+	</Enumeration>
+	<Message key="GenericError" description="Generic error" value="Error executing operation: {text}{has_code?} ({code}){?has_code}">
+		<Param name="text"/>
+		<Param name="code" format="b016u"/>
+		<Param name="has_code" format="?"/>
+	</Message>
+
+	<!-- Find -->
+	<Message key="Search whole file" description="Choice: Search whole file"/>
+	<Message key="Search selection" description="Choice: Search selection"/>
+	<Message key="Find &amp;All" description="Button: Find All"/>
+
+	<Message key="NFound" description="N occurrences found" value="{isfound?}{n} occurrences found.{|isfound}A pattern was not found.{?isfound}">
+		<Param name="isfound" format="?"/>
+		<Param name="n" format="l"/>
+	</Message>
+	<Message key="AlignmentHeader" description="Field: Alignment" value="Alignment"/>
+	<Message key="The current scheme will be lost. Do you want to continue?" description="The current scheme will be lost. Do you want to continue?"/>
 
 </Definition>

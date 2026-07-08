@@ -1048,4 +1048,9 @@
 	</Message>
 
 	<Message key="Ready" description="Status bar idle message" />
+
+	<Message key="DefaultAlignment" description="Default alignment" value="Default{has default?} ({alignment}){?has default}">
+		<Param name="alignment"/>
+		<Param name="has default" format="?"/>
+	</Message>
 </Definition>
